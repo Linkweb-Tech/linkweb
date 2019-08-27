@@ -10,8 +10,7 @@ function IndexPage() {
       <SEO
         title="Home"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-      />
-
+      /> 
       <section className="text-center">
         <img
           src={catAndHumanIllustration}
