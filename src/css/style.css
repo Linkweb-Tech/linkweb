@@ -36,6 +36,8 @@
  * @import "components/forms";
  */
 
+
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
@@ -74,4 +76,5 @@
 
 .century {
     font-family: "Century Gothic", sans-serif !important;
+    font-weight: 100;
 }

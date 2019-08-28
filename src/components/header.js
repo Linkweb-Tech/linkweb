@@ -5,12 +5,13 @@ import fbIcon from "../images/facebook-logo.svg";
 import twitterIcon from "../images/twitter-logo.svg";
 import instaIcon from "../images/instagram-logo.svg";
 import linkwebLogo from "../images/logo-linkweb.png";
+import "../scss/header.scss";
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <nav className="">
+    <nav className="mainNav w-full">
       <div className="topbar max-w-xl bg-bleu flex justify-around p-2 rounded-br-large">
         <Link to="#" className="flex items-center no-underline text-white">
           <span className="text-white century">Agence Web</span>
@@ -37,8 +38,8 @@ function Header({ siteTitle }) {
           />
         </Link>
       </div>
-      <div className="flex flex-wrap items-center justify-between mx-auto p-4 md:p-8">
-        <Link to="/" className="flex items-center no-underline w-56">
+      <div className="flex flex-wrap items-center justify-between mx-auto md:p-3 w-full">
+        <Link to="/" className="flex items-center no-underline w-56 pl-5">
           <img 
             src={linkwebLogo} 
             className=""
@@ -64,26 +65,44 @@ function Header({ siteTitle }) {
             isExpanded ? `block` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
-          <div className="text-sm">
+          <div className="text-md pr-5 menu">
             <Link
               to="/"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
             >
-              Home
+              Accueil
             </Link>
 
             <Link
               to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
             >
-              About
+              Création Site Internet
             </Link>
 
             <Link
               to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-6 px-4"
             >
-              Contact
+              Référencement
+            </Link>
+            <Link
+              to="#"
+              className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
+            >
+              Agence Web
+            </Link>
+            <Link
+              to="#"
+              className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
+            >
+              Nos Réalisations
+            </Link>
+            <Link
+              to="#"
+              className="block last md:inline-block mt-4 md:mt-0  no-underline text-white century bg-bleu text-white py-6 px-4"
+            >
+              Demander un devis
             </Link>
           </div>
         </div>

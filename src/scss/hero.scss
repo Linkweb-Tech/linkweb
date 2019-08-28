@@ -1,0 +1,25 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/bureau.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    .orbs {
+        margin-bottom: 45px;
+        span {
+            
+            font-size: 110px;
+            display: inline-block;
+            text-align: center;
+            letter-spacing: -3px!important;
+            
+            &.blue {
+                padding-left: 8px;
+                padding-right: 5px;
+                font-weight: 300;
+                
+            }
+        }
+    }
+}

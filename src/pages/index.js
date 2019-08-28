@@ -3,6 +3,8 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import "../scss/hero.scss";
+
 
 function IndexPage() {
   return (
@@ -11,27 +13,21 @@ function IndexPage() {
         title="Home"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       /> 
-      <section className="text-center">
-        <img
-          src={catAndHumanIllustration}
-          className="block mx-auto w-1/2"
-          alt="Cat and human sitting on a couch"
-        />
+      <section className="hero flex items-center justify-end">
+        <span className="orbs flex flex-1 justify-end max-w-6xl mx-auto"> 
+          <span className="top text-white century" >l</span> 
+          <span className="top text-white century" >i</span> 
+          <span className="top text-white century" >n</span> 
+          <span className="top text-white century" >k</span> 
+          <span className="blue text-bleu" >/</span> 
+          <span className="top text-white century" >w</span> 
+          <span className="top text-white century" >e</span> 
+          <span className="top text-white century" >b</span> 
+        </span>
+        
+      </section>
+      <section className="max-w-4xl mx-auto px-4">
 
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Hey there! Welcome to your first Gatsby site.
-        </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{" "}
-          <a
-            href="https://tailwindcss.com/"
-            className="font-bold no-underline text-gray-900"
-          >
-            Tailwind
-          </a>
-          , a utility-first CSS framework.
-        </p>
       </section>
     </Layout>
   );
