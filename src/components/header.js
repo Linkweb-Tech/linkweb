@@ -34,7 +34,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <nav className="mainNav w-full">
+      <nav className="mainNav w-full z-40">
         <div className="topbar max-w-xl bg-bleu flex justify-around p-2 rounded-br-large">
           <Link to="#" className="flex items-center no-underline text-white">
             <span className="text-white century">Agence Web</span>

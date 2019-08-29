@@ -1,0 +1,36 @@
+.equipe {
+
+    .imageDouble {
+        background-image: url(../images/img_9223-vignette.jpg);
+        background-position: center center;
+    }
+    .content, .pictures {
+        height: 50%;
+    }
+    
+    .content {
+        padding-left: 10%;
+
+        p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+    }
+
+    .pictures {
+        .imageSimple:nth-child(1) {
+            background-image: url(../images/3.jpg);
+            background-position: center center;
+        }
+
+        .imageSimple:nth-child(2) {
+            background-image: url(../images/1.jpg);
+            background-position: center center;
+        }
+
+        .imageSimple:nth-child(3) {
+            background-image: url(../images/2.jpg);
+            background-position: center center;
+        }
+    }
+}

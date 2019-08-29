@@ -12,7 +12,7 @@ const Blue = posed.span({
         y: 0, 
         opacity: 1,
         transition: {
-            duration: 500,
+            duration: 300,
             ease: 'linear'
         }
     },
@@ -20,7 +20,7 @@ const Blue = posed.span({
         y: 600, 
         opacity: 1,
         transition: {
-            duration: 500,
+            duration: 300,
             ease: 'linear'
         }
     },
@@ -105,12 +105,12 @@ class Hero extends React.Component {
     componentDidMount() {
         setTimeout(() => {
             this.setState({isOpen: true});
-        }, 1500);
+        }, 1000);
     }
     componentWillUpdate() {
         setTimeout(() => {
             this.setState({isOpen: true});
-        }, 1500);
+        }, 1000);
     }
     
 
