@@ -15,7 +15,7 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       /> 
       <Hero></Hero>
-      <section className="max-w-4xl mx-auto px-4">
+      <section className="max-w-4xl h-screen mx-auto px-4">
 
       </section>
     </Layout>

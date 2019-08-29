@@ -1,6 +1,33 @@
 .mainNav {
     position: absolute;
 
+    &.fixed-nav {
+        position: fixed;
+        background-color: #ffffff;
+        transition: all ease 1s;
+
+        .menu {
+            a {
+                color: #000;
+                &:hover {
+                    color: #37c5ee;
+                }
+    
+                &:not(.last)::before {
+                
+                    background: #37c5ee;
+                    
+                }
+    
+                &:not(.last):hover {
+                    &::before {
+                        right: 0;
+                    }
+                }            
+            }
+        }
+    }
+
     .menu {
         a {
             display: inline-block;
