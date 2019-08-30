@@ -9,6 +9,11 @@ import loupe from "../images/loupe.png";
 import menu from "../images/menu.png";
 import souris from "../images/mouse.png";
 import mac from "../images/mac-agence.png";
+import tlse from "../images/logo_universite-federale.png";
+import peugeot from "../images/peugeot.png";
+import onco from "../images/logo-onco.png";
+import sdis from "../images/logo-sdis47.png";
+import normand from "../images/normandie.png";
 import "../scss/hero.scss";
 import "../scss/home.scss";
 
@@ -179,6 +184,49 @@ function IndexPage() {
           <p>Nous créons votre campagne publicitaire Adwords en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant.</p>
           <Button url="#" text="En savoir plus sur les campagnes Adwords SEA" position="start" />
         </div>
+      </section>
+
+      <section className="max-w-5xl w-full mx-auto px-4 py-2 my-2">
+        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
+          Ils nous ont fait confiance
+        </h2>
+        <hr className="blue"></hr>
+        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Un échantillon de nos réalisations</h3>
+      </section>
+      <section className="max-w-5xl flex w-full mx-auto px-4 py-2 my-2">
+        <div className="w-1/5" data-aos='fade-up'>
+          <img 
+            src={peugeot}
+          />
+        </div>
+        <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
+          <img 
+            src={normand}
+          />
+        </div>
+        <div className="w-1/5" data-aos='fade-up' data-aos-delay='400'>
+          <img 
+            src={onco}
+          />
+        </div>
+        <div className="w-1/5" data-aos='fade-up' data-aos-delay='600'>
+          <img 
+            src={tlse}
+          />
+        </div>
+        <div className="w-1/5" data-aos='fade-up' data-aos-delay='800'>
+          <img 
+            src={sdis}
+          />
+        </div>
+      </section>
+
+      <section className="max-w-5xl w-full mx-auto px-4 py-12 my-12">
+        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
+          Vous avez un besoin ?
+        </h2>
+        <hr className="blue"></hr>
+        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Nous sommes proactifs</h3>
       </section>
     </Layout>
   );
