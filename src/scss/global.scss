@@ -12,3 +12,19 @@ body {
         color:#272727;
     }
 }
+
+.link {
+    svg {
+        width: 20px;
+        height: 20px;
+
+        path {
+            fill: #37c5ee;
+        }
+    }
+
+    &:hover {
+        transition: all ease 1s;
+        color: #37c5ee;
+    }
+}

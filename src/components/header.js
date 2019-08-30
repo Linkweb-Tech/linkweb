@@ -20,8 +20,6 @@ class Header extends React.Component {
     const navTop = nav.offsetTop;
 
     window.addEventListener('scroll', () => {
-      console.log('Window' + window.scrollY);
-      console.log('NavTop' + (navTop + 500));
       if (window.scrollY > ( navTop + 500 )) {
         nav.classList.add('fixed-nav');
         //document.body.style.paddingTop = nav.offsetHeight+'px';

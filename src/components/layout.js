@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
 import Header from "./header";
+import Button from "./button";
 import "../scss/global.scss";
 
 

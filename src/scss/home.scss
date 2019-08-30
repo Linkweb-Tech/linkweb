@@ -55,20 +55,4 @@
     h3 {
         min-height: 100px;
     }
-
-    .link {
-        svg {
-            width: 20px;
-            height: 20px;
-
-            path {
-                fill: #37c5ee;
-            }
-        }
-
-        &:hover {
-            transition: all ease 1s;
-            color: #37c5ee;
-        }
-    }
 }

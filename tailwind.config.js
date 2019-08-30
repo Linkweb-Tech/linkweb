@@ -7,6 +7,7 @@ module.exports = {
       white: '#ffffff',
       black: '#000000',
       grey: '#7b7b7b',
+      darkgrey: "#3e3e3e"
     },
     borderRadius: {
       'large': '1rem',
