@@ -14,6 +14,7 @@ import peugeot from "../images/peugeot.png";
 import onco from "../images/logo-onco.png";
 import sdis from "../images/logo-sdis47.png";
 import normand from "../images/normandie.png";
+import Accordion from "../components/accordion";
 import "../scss/hero.scss";
 import "../scss/home.scss";
 
@@ -221,7 +222,58 @@ function IndexPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl w-full mx-auto px-4 py-12 my-12">
+      <section className="max-w-5xl w-full mx-auto px-4 py-12 mb-0 mt-12">
+        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
+          Vous avez un besoin ?
+        </h2>
+        <hr className="blue"></hr>
+        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Nous sommes proactifs</h3>
+      </section>
+      <section  className="tabPanel flex flex-1 w-full justify-end ml-0">
+        <div className="w-3/4 py-0 flex justify-end">
+          <Accordion>
+            <div className="w-full" label="UNE AUGMENTATION DE VOS CONTACTS PROSPECTS ?">
+              <p>Vous souhaitez développer la <strong>stratégie de communication digitale</strong> de votre entreprise ?<br /> Développer la vente de vos produits ?<br /> Le <strong>retour sur investissement</strong> fait partie des objectifs communs à tous chefs d’entreprise.<br /> Pour trouver des clients potentiels, il est nécessaire d’avoir une visibilité pertinente qui permet à chacun de consulter <strong>votre site internet</strong> et de leur donner envie de travailler avec vous.<br /> Un <strong>webdesign</strong> adapté et des outils digitaux bien construits vous permettront de <strong>créer un site internet</strong> performant.<br /> Dynamiser sa communication d’entreprise tout en la maîtrisant vous permettra de gagner en visibilité, mais également de toucher vos cibles afin d’obtenir des contacts qualifiés.<br /> Notre <strong>agence de création</strong> vous propose, grâce à nos compétences, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>création de votre site internet</strong> vitrine ou <strong>site marchand</strong>.</p>
+            </div>
+            <div label="UNE VISIBILITÉ EN PREMIÈRE PAGE DE GOOGLE ?">
+              <p>En travaillant sur la qualité de vos contenus, dès la conception du site, et en répondant aux critères de qualité de Google, vous obtenez une visibilité pérenne en première page grâce au <strong>référencement naturel SEO</strong> optimisé par nos référenceurs.<br /> En élaborant une campagne Adwords, nous planifions votre plan publicitaire pour une visibilité immédiate sur les mots clés les plus recherchés dans le but de vous apporter un retour concret sur votre investissement.</p>
+            </div>
+            <div label="UN ACCROISSEMENT DE VOTRE CHIFFRE D'AFFAIRE ?">
+              <p>Mettre en place une <strong>stratégie digitale</strong> pertinente vous permettra de développer la <strong>communication web</strong> de votre entreprise via le canal le plus consulté au monde : internet.<br /> Un plan de communication construit autour de la conversion pour vous permettre de développer le chiffre d’affaires de votre entreprise avec un<strong> projet web</strong> sur-mesure.</p><p><strong>Avoir un site internet</strong> est un gage de confiance vis-à-vis de vos prospects. Faire appel à une<strong> agence de communication digitale</strong> pour la <strong>création de site internet</strong> répond à un choix réalisé à partir de vos besoins, mais aussi en corrélation avec ceux de vos prospects.</p>
+            </div>
+          </Accordion>
+        </div>
+      </section>
+      <section className="max-w-5xl w-full mx-auto px-4 py-6 mb-0 mt-12">
+        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
+          Nous devons connaitre
+        </h2>
+        <hr className="blue"></hr>
+      </section>
+      <section className="max-w-6xl flex w-full mx-auto px-4 pb-12 mb-0 mt-12">
+        <div className="w-1/3 px-6 text-sm">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+            <span className="text-bleu">1.</span>Vos exigences
+          </h3>
+          <p>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour un <strong>site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p>
+        </div>
+
+        <div className="w-1/3 px-6 text-sm">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+            <span className="text-bleu">2.</span>Votre offre
+          </h3>
+          <p>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p>
+          <p>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p>
+        </div>
+
+        <div className="w-1/3 px-6 text-sm">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+            <span className="text-bleu">3.</span>Vos cibles
+          </h3>
+          <p>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est pourquoi, il est nécessaire de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous.</p>
+        </div>
+      </section>
+      <section className=" bg-darkgrey w-full mx-auto px-4 py-12 mb-0 mt-12">
         <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
           Vous avez un besoin ?
         </h2>
