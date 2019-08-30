@@ -47,8 +47,60 @@ function IndexPage() {
           </div>
         </div>
       </section>
-      <section className="h-screen">
+      <section className="flex flex-1 home-step my-24 px-24">
+        <div className="w-1/3 one px-12">
+          <div className="flex flex-1">
+            <div className="blackBulle">1</div>
+            <section>
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION WEB
+              </h3>
+              <div className="content">
+                  Faire appel à une agence de création web est une étape à franchir pour dynamiser sa communication web. Définir un projet selon des objectifs précis demande une expertise toute particulière. Propulser sa communication en ligne peut constituer un véritable moteur pour une entreprise.
+              </div>
+              <Link to="#" className="link flex justify-center mt-12 items-center text-xl">
+              <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
+              En savoir plus
+              </Link>
+            </section>
+          </div>
+        </div>
+        <div className="w-1/3 two px-12">
+          <div className="flex flex-1">
+            <div className="blackBulle">2</div>
+            <section>
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MA SOLUTION
+              </h3>
+              <div className="content">
+                Besoins en termes de visibilité, notoriété ou bien d’image : il existe des solutions pour chaque entreprise. Nous vous accompagnons pour déterminer les contours de votre projet selon votre activité et vos besoins en termes de communication. Une étude concurrentielle sera également réalisée.
+              </div>
+              <Link to="#" className="link flex justify-center mt-12 items-center text-xl">
+              <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
+              Être recontacté
+              </Link>
+            </section>
+            </div>
+          </div>
+        <div className="w-1/3 three px-12">
+          <div className="flex flex-1">
+            <div className="blackBulle">3</div>
+            <section>
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
+              </h3>
+              <div className="content">
+                Nos consultants en communication web d’Agen (47) et Toulouse (31) définissent les contours de votre projet et se chargent de l’application de votre stratégie à travers les différents axes définis. Notre équipe est composée de spécialistes de la création de site internet, de référencement naturel et Ads.
+              </div>
+              <Link to="#" className="link flex justify-center mt-12 items-center text-xl">
+              <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
+              Demander un devis
+              </Link>
+            </section>
+            
+          </div>
 
+        </div>
       </section>
     </Layout>
   );
