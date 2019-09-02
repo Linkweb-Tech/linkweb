@@ -31,7 +31,7 @@ function Layout({ children }) {
         <section className="flex justify-start max-w-6xl mx-auto p-4 md:p-8 text-sm">
           <section className="w-1/4" >
             <div className="textwidget custom-html-widget">
-              <div className="copy text-white text-md" >
+              <div className="copy text-white text-md">
                 <img 
                   src={ LinkwebWhite }
                   className="w-full mb-6"
