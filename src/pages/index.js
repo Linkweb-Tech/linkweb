@@ -170,19 +170,19 @@ function IndexPage() {
           <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
             <span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL
           </h3>
-          <h4 className="century text-lg tracking-wider pb-3">
+          <h4 className="century text-lg tracking-wider pb-3" data-aos='fade-left'>
             <strong className="font-bold">Le référenceur en charge de votre site web collabore avec vous chaque mois pour vous rendre compte de l’évolution du référencement de votre site internet.</strong>
           </h4>
-          <p>À partir d’un audit de site, nous élaborons votre stratégie de référencement site internet et analysons les statistiques relatives à votre site internet pour une optimisation qui vous apportera une visibilité pertinente avec les moteurs de recherche.</p>
+          <p data-aos='fade-bottom'>À partir d’un audit de site, nous élaborons votre stratégie de référencement site internet et analysons les statistiques relatives à votre site internet pour une optimisation qui vous apportera une visibilité pertinente avec les moteurs de recherche.</p>
           <Button url="#" text="En savoir plus sur le référencement naturel SEO" position="start" />
 
           <h3 className="century capitalize text-2xl tracking-wider pt-12 pb-6" data-aos="zoom-in">
             <span className="text-bleu">/</span>RÉFÉRENCEMENT ADWORDS
           </h3>
-          <h4 className="century text-lg tracking-wider pb-3">
+          <h4 className="century text-lg tracking-wider pb-3"  data-aos='fade-left'>
             <strong className="font-bold">Nous optimisons le choix des mots-clés et la configuration de votre plan publicitaire pour respecter votre budget et maximiser vos conversions.</strong>
           </h4>
-          <p>Nous créons votre campagne publicitaire Adwords en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant.</p>
+          <p data-aos='fade-bottom'>Nous créons votre campagne publicitaire Adwords en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant.</p>
           <Button url="#" text="En savoir plus sur les campagnes Adwords SEA" position="start" />
         </div>
       </section>
@@ -255,30 +255,39 @@ function IndexPage() {
           <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
             <span className="text-bleu">1.</span>Vos exigences
           </h3>
-          <p>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour un <strong>site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p>
+          <p  data-aos='fade-left'>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour un <strong>site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p>
         </div>
 
         <div className="w-1/3 px-6 text-sm">
           <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
             <span className="text-bleu">2.</span>Votre offre
           </h3>
-          <p>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p>
-          <p>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p>
+          <p  data-aos='fade-left'>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p>
+          <p  data-aos='fade-left'>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p>
         </div>
 
         <div className="w-1/3 px-6 text-sm">
           <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
             <span className="text-bleu">3.</span>Vos cibles
           </h3>
-          <p>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est pourquoi, il est nécessaire de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous.</p>
+          <p  data-aos='fade-left'>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est pourquoi, il est nécessaire de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous.</p>
         </div>
       </section>
-      <section className=" bg-darkgrey w-full mx-auto px-4 py-12 mb-0 mt-12">
-        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
-          Vous avez un besoin ?
+      <section className="border-before-footer bg-darkgrey w-full mx-auto px-4 py-12 mb-0 mt-12">
+        <h2 data-aos='fade-right' className="text-center text-bleu text-4xl century">
+          Un conseil ? Une information ? Un devis ?
         </h2>
-        <hr className="blue"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Nous sommes proactifs</h3>
+        <hr className="white"></hr>
+        <h3 data-aos='fade-left' className="text-xl text-bleu text-center century italic pb-6">Nous sommes proactifs</h3>
+        <p className="text-white text-center"><strong>Création Sites Vitrine | Sites E-commerce | Référencement Google | Rédaction Web</strong></p>
+        <div className="flex flex-1 w-full mt-12 mb-6 century">
+          <div className="w-1/2 text-center text-white text-4xl">
+            <a href='tel:0533950030'>05 33 95 00 30</a> 
+          </div>
+          <div className="w-1/2 text-center text-white text-4xl century">
+            <a href='mailto:contact@linkweb.fr'>contact@linkweb.Fr</a> 
+          </div>
+        </div>
       </section>
     </Layout>
   );

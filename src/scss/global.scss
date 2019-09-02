@@ -1,7 +1,24 @@
-hr.blue {
-    width: 200px;
-    margin: 15px auto;
-    color: #37c5ee;
+hr{
+    &.blue {
+        width: 200px;
+        margin: 15px auto;
+        color: #37c5ee;
+    }
+
+    &.white {
+        width: 200px;
+        margin: 15px auto;
+        color: #ffffff;
+    }
+}
+
+.border-before-footer {
+    border-bottom: 2px solid #37c5ee;
+    
+}
+
+.pb-128 {
+    padding-bottom: 400px;
 }
 
 body {
@@ -29,4 +46,32 @@ body {
     }
 }
 
+
+footer {
+    height: 400px;
+    bottom:0;
+    .navFooter {
+        a {
+            transition: all ease 0.7s;
+            &:hover {
+                .chevronFooter {
+                    font-size: 14px;
+                    color: #37c5ee;
+                    transition: all ease 0.7s;
+                }
+            }
+        }
+
+    }
+
+    .infos {
+        svg {
+            width: 16px;
+            height: 16px;
+            path {
+                fill: #ffffff;
+            }
+        }
+    }
+}
 
