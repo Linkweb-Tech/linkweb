@@ -2,13 +2,16 @@ import React from "react";
 import {Link} from "gatsby";
 import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
+import PageTransition from "gatsby-plugin-page-transitions";
 import Header from "./header";
-import Button from "./button";
 import LinkwebWhite from "../images/logo-linkweb.png"
 import "../scss/global.scss";
 
 
 function Layout({ children }) {
+  
+  const path = location.pathname.replace(/\//g,'');
+  console.log(path);
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -20,13 +23,30 @@ function Layout({ children }) {
   `);
 
   return (
-    <div className="flex flex-col font-sans min-h-screen text-gray-900 bg-white pb-128">
-      <Header siteTitle={data.site.siteMetadata.title} />
-
-      <main className="flex flex-col flex-1 md:justify-center w-full z-20 bg-white">
+    <div className="beforeOverlay flex flex-col font-sans min-h-screen text-gray-900 bg-white relative   pb-128">
+      <Header siteTitle={data.site.siteMetadata.title} path={path} />
+      {/* <PageTransition
+          defaultStyle={{
+            transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
+            transitionDuration: '1s',
+            //left: '100%',
+            position: 'relative',
+            width: '100%',
+            zIndex: 20, 
+            minHeight: '100vh',
+          }}
+          transitionStyles={{
+            entering: { left: '-100%' },
+            entered: { left: '0' },
+            exiting: { left: '-100%' },
+            
+          }}
+          transitionTime={600}
+        > */}
+      <main className="flex flex-col flex-1 md:justify-center w-full z-20 bg-white min-h-screen">
         {children}
       </main>
-
+      {/* </PageTransition> */}
       <footer className="bg-darkgrey w-full flex items-center fixed z-10 ">
         <section className="flex justify-start max-w-6xl mx-auto p-4 md:p-8 text-sm">
           <section className="w-1/4" >

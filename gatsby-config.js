@@ -19,6 +19,13 @@ module.exports = {
         icon: `src/images/tailwind-icon.png`
       }
     },
+    `gatsby-plugin-page-transitions`,
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 700
+      }
+    },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,

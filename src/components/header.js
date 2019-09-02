@@ -12,13 +12,16 @@ class Header extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      home: false, 
+    }
   }
 
   componentDidMount() {
     
     const nav = document.querySelector('nav');
     const navTop = nav.offsetTop;
-
+    console.log(this.props);
     window.addEventListener('scroll', () => {
       if (window.scrollY > ( navTop + 500 )) {
         nav.classList.add('fixed-nav');
@@ -28,13 +31,17 @@ class Header extends React.Component {
         //document.body.style.paddingTop = 0;
       }
     });
+
+    if(this.props.path == '' ) {
+      this.setState({ home: true })
+    } 
   }
 
   render() {
     return (
-      <nav className="mainNav w-full z-40">
+      <nav className={`mainNav w-full z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
         <div className="topbar max-w-xl bg-bleu flex justify-around p-2 rounded-br-large">
-          <Link to="#" className="flex items-center no-underline text-white">
+          <Link to="/" className="flex items-center no-underline text-white">
             <span className="text-white century">Agence Web</span>
           </Link>
           <Link to="#" className="flex items-center no-underline text-white">
@@ -81,7 +88,7 @@ class Header extends React.Component {
               </Link>
   
               <Link
-                to="/about"
+                to="/creation-site-internet-toulouse"
                 className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
               >
                 Création Site Internet

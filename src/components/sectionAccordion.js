@@ -8,6 +8,7 @@ class SectionAccordion extends Component {
     isOpen: PropTypes.bool.isRequired,
     label: PropTypes.string.isRequired,
     onClick: PropTypes.func.isRequired
+    
   };
 
   onClick = () => {

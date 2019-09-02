@@ -15,6 +15,7 @@ import onco from "../images/logo-onco.png";
 import sdis from "../images/logo-sdis47.png";
 import normand from "../images/normandie.png";
 import Accordion from "../components/accordion";
+import PageTransition from "gatsby-plugin-page-transitions";
 import "../scss/hero.scss";
 import "../scss/home.scss";
 
@@ -22,11 +23,27 @@ import "../scss/home.scss";
 function IndexPage() {
 
   return (
+
     <Layout>
-      <SEO
-        title="Home"
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-      /> 
+        <PageTransition
+          defaultStyle={{
+            transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
+            transitionDuration: '0.5s',
+            transitionDelay: '0.1s',
+            //left: '100%',
+            position: 'relative',
+            width: '100%',
+            zIndex: 20, 
+            minHeight: '100vh',
+          }}
+          transitionStyles={{
+            entering: { left: '-100%' },
+            entered: { left: '0' },
+            exiting: { left: '-100%' },
+            
+          }}
+          transitionTime={200}
+        >
       <Hero></Hero>
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
         <h2 data-aos='fade-right' className="text-center">
@@ -289,7 +306,9 @@ function IndexPage() {
           </div>
         </div>
       </section>
+      </PageTransition>
     </Layout>
+    
   );
 }
 

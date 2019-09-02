@@ -1,15 +1,26 @@
 .mainNav {
     position: absolute;
+    transition: all ease 1s;
 
-    &.fixed-nav {
+    &.home {
+        .menu {
+            a {
+                transition: color ease 1s;
+                color: white;
+            }
+        }
+    }
+
+    &.fixed-nav, &:not(.home) {
         position: fixed;
         background-color: #ffffff;
-        transition: all ease 1s;
+        transition: color ease 1s;
 
         .menu {
             
             a {
                 color: #000;
+                transition: all ease 1s;
                 &:hover {
                     color: #37c5ee;
                 }
@@ -38,7 +49,7 @@
             box-shadow: 0 0 1px rgba(0, 0, 0, 0);
             position: relative;
             overflow: hidden;
-
+            transition: all ease 1s;
 
             &:not(.last)::before {
                 content: "";
