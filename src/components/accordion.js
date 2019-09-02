@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import AccordionSection from "./AccordionSection";
+import SectionAccordion from "./sectionAccordion";
 
 class Accordion extends Component {
   static propTypes = {
@@ -58,13 +58,13 @@ class Accordion extends Component {
     return (
       <div className="w-full pl-12 accordion">
         {children.map(child => (
-          <AccordionSection
+          <SectionAccordion
             isOpen={!!openSections[child.props.label]}
             label={child.props.label}
             onClick={onClick}
           >
             {child.props.children}
-          </AccordionSection>
+          </SectionAccordion>
         ))}
       </div>
     );
