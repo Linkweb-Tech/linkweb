@@ -25,7 +25,7 @@ function Layout({ children }) {
 
   return (
     <div className="beforeOverlay flex flex-col font-sans min-h-screen text-gray-900 bg-white relative   pb-128">
-      <Header siteTitle={data.site.siteMetadata.title} path={path ? path : ""} />
+      <Header siteTitle={data.site.siteMetadata.title} path={ (typeof path != 'undefined') ? path : ""} />
       {/* <PageTransition
           defaultStyle={{
             transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
