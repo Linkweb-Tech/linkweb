@@ -9,7 +9,7 @@ import "../scss/global.scss";
 
 
 function Layout({ children }) {
-  if(location) {
+  if(typeof location != 'undefined' ) {
     const path = location.pathname.replace(/\//g,'');
   };
   
