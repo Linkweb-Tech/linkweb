@@ -9,9 +9,10 @@ import "../scss/global.scss";
 
 
 function Layout({ children }) {
+  if(location) {
+    const path = location.pathname.replace(/\//g,'');
+  };
   
-  const path = location.pathname.replace(/\//g,'');
-  console.log(path);
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,7 +25,7 @@ function Layout({ children }) {
 
   return (
     <div className="beforeOverlay flex flex-col font-sans min-h-screen text-gray-900 bg-white relative   pb-128">
-      <Header siteTitle={data.site.siteMetadata.title} path={path} />
+      <Header siteTitle={data.site.siteMetadata.title} path={path ? path : ""} />
       {/* <PageTransition
           defaultStyle={{
             transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
