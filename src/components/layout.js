@@ -7,7 +7,7 @@ import Header from "./header";
 import LinkwebWhite from "../images/logo-linkweb.png"
 import "../scss/global.scss";
 
-
+const {location} = this.props
 function Layout({ children }) {
   
   setTimeout(() => {
