@@ -21,21 +21,26 @@ class Header extends React.Component {
     
     const nav = document.querySelector('nav');
     const navTop = nav.offsetTop;
-    console.log(this.props);
+    //console.log(this.props);
     window.addEventListener('scroll', () => {
       if (window.scrollY > ( navTop + 500 )) {
         nav.classList.add('fixed-nav');
-        //document.body.style.paddingTop = nav.offsetHeight+'px';
       } else {
         nav.classList.remove('fixed-nav');
-        //document.body.style.paddingTop = 0;
       }
     });
-
-    if(this.props.path == '' ) {
-      this.setState({ home: true })
+    if(this.props.path == '/' ) {
+      this.setState({ home: true });
+      console.log('State' + this.state.home);
     } 
   }
+
+  // componentWillUpdate() {
+  //   if(this.props.path == '' ) {
+  //     this.setState({ home: true });
+  //     console.log('State' + this.state.home);
+  //   } 
+  // }
 
   render() {
     return (
