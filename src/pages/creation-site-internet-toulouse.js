@@ -14,11 +14,11 @@ import blocBg from "../images/background.jpg";
 import Bg from "../images/creation-site-internet-background.jpg"
 
 
-function CreationSiteInternetToulousePage() {
+function CreationSiteInternetToulousePage(props) {
 
     return (
         
-    <Layout>
+    <Layout location={props.location}>
 
         <SEO
             title="Création de site internet Toulouse"

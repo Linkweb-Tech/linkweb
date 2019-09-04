@@ -20,11 +20,11 @@ import "../scss/hero.scss";
 import "../scss/home.scss";
 
 
-function IndexPage() {
+function IndexPage(props) {
 
   return (
 
-    <Layout>
+    <Layout location={props.location}>
         <PageTransition
           defaultStyle={{
             transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',

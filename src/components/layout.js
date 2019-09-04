@@ -7,23 +7,23 @@ import "../scss/global.scss";
 
 
 class Layout extends React.Component {
+  static propTypes = {
+    children: PropTypes.node.isRequired,
+    location: PropTypes.object.isRequired
+  };
 
   constructor(props) {
     super(props); 
+    
   }
 
   componentDidMount() {
-      setTimeout(() => {
-        console.log(location.pathname);
-        if(typeof location != 'undefined' ) {
-          const path = location.pathname.replace(/\//g,'');
-        };
-      }, 1000);
+      
   };
 
   render() {
 
-    const { children } = this.props
+    const { children, location } = this.props
     return(
       <div className="beforeOverlay flex flex-col font-sans min-h-screen text-gray-900 bg-white relative   pb-128" >
         <Header path={location.pathname} />
@@ -39,7 +39,5 @@ class Layout extends React.Component {
 
 export default Layout;
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired
-};
+
 
