@@ -28,7 +28,7 @@ class RappelForm extends React.Component {
 
         axios({
             method: 'post',
-            url:'http://localhost:8000/form.php',
+            url:'http://linkweb-maquettes/Gatsby/form.php',
             headers: {'content-type': 'application/json' },
             data: this.state
         })
