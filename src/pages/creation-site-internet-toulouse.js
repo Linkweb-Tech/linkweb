@@ -16,6 +16,8 @@ import Bg from "../images/creation-site-internet-background.jpg";
 import imac from "../images/ecran-imac.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import RappelForm from "../components/rappelForm";
+import Accordion from '../components/accordion';
+import stars from '../images/stars.png';
 
 
 function CreationSiteInternetToulousePage(props) {
@@ -181,7 +183,7 @@ function CreationSiteInternetToulousePage(props) {
             </section>
             <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                 <h3 data-aos='fade-right' className="text-center text-3xl century">
-                Création de site internetà Toulouse : <span className="text-bleu">Le mode opératoire</span> 
+                <span className="text-bleu">/</span>Création de site internetà Toulouse : <span className="text-bleu">Le mode opératoire</span> 
                 </h3>
                 <hr className="blue"></hr>
                 
@@ -255,16 +257,16 @@ function CreationSiteInternetToulousePage(props) {
             <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#6a6a6a url( '+ bgDev +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                 <div className="max-w-5xl mx-auto flex items-center">
                     <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
-                    Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
+                    <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
                     </h3>
 
                 </div>
 
-                <div className="max-w-6xl mx-auto flex text-center my-24">
+                <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                     <RappelForm />
                 </div>
 
-                <div className="max-w-6xl mx-auto flex text-center my-24">
+                <div className="max-w-6xl mx-auto flex text-center my-12">
                     <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
                     <svg x="0px" y="0px" viewBox="0 0 511.998 511.998"  width="80px" height="80px"><g><g>
                             <g>
@@ -340,6 +342,87 @@ function CreationSiteInternetToulousePage(props) {
                         <p className="text-xl century text-white pt-3">SITE SUR-MESURE</p>
                     </div>
                 </div>
+            </section>
+            <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
+                <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                    <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Toulouse ?
+                </h3>
+                <hr className="blue"></hr>
+                <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de site internet ?
+                Nous répondons à vos interrogations sur la mise en place de votre site internet professionnel et sur-mesure.</h4>
+            </section>
+            <section  className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
+                <div className="w-3/4 py-0 flex justify-end">
+                    <Accordion>
+                        <div className="w-full" label="EST-CE POSSIBLE DE METTRE EN PLACE DES FONCTIONNALITÉS SUR-MESURE POUR MON SITE ?">
+                        <p>Un <strong>site internet</strong> peut avoir plusieurs rôles au sein d’une entreprise : il est à la fois une <strong>vitrine</strong> directement accessible pour les utilisateurs et peut également présenter diverses fonctionnalités pour ces derniers : simulateur de devis, module de réservation, configuration.</p><p>De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de créer un <strong>outil de gestion</strong>. Pour ce faire, <a href="http://linkweb.fr"><strong>Linkweb</strong></a> est en mesure de vous proposer un <strong>site internet</strong> qui s’adapte à vos besoins, et ce dès la <strong>conception du site</strong> visible, jusqu’ à la définition des espaces d’administration et la répartition des rôles et permissions pour les employés de votre entreprise : <strong>intranet</strong>, <strong>CRM</strong>, nous répondons à vos exigences.</p>
+                        </div>
+                        <div label="COMMENT CRÉER UN SITE WEB DESTINÉ À LA POPULATION TOULOUSAINE (OCCITANIE) ?">
+                        <p>Lorsque l’on met en place une solution de <strong>communication</strong> et notamment un <strong>site internet</strong>, il faut considérer son public dès l’élaboration du projet et la <strong>création du site</strong> et du projet. Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> mérite d’investir dans votre <strong>site web professionnel </strong>et votre <strong>référencement</strong>.<br /> De plus, les <strong>sites internet</strong> que nous mettons en place sont créés en vue de répondre à un besoin précis. C’est pourquoi le positionnement stratégique de <strong>votre site web</strong> doit être pensé et anticipé. <a href="http://linkweb.fr"><strong>Linkweb</strong></a> dispose de tous les outils pour prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant.</strong></p>
+                        </div>
+                        <div label="COMBIEN DE TEMPS EST NÉCESSAIRE POUR OBTENIR UNE VERSION DÉFINITIVE DE MON SITE ?">
+                        <p>Il est difficile d’établir un délai de production pour un <strong>site internet</strong> puisqu’il va dépendre de nombreux critères. Mise en production, définition des contenus, création des <strong>maquettes</strong>, retour client, <strong>rédaction des contenus</strong>, modifications, etc. Il existe de nombreux paramètres qui vont influer sur le temps de production d’un <strong>site internet</strong>. Il est important de considérer et de soigner les moindres détails pour une mise en ligne optimale, c’est pourquoi cela est variable selon le projet.</p>
+                        </div>
+                    </Accordion>
+                </div>
+            </section>
+            <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
+                <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                    <span className="text-bleu">/</span>Ils sont satisfaits par notre offre de création de site internet
+                </h3>
+                <hr className="blue"></hr>
+                
+            </section>
+            <section className="max-w-6xl mx-auto flex align-center justify-center text-center mt-3 mb-12">
+                <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up">
+                    <img 
+                        src={ stars }
+                        className="w-32 mx-auto h-auto mt-3"
+                    />
+                    <div className="text-lg century my-2">Château de Boisverdun</div>
+                    <div className="italic">« Nous sommes chez Linkweb depuis 3 ans et je n’ai jamais eu aucun problème les techniciens sont à l’écoute et nous appellent chaque mois pour faire un point! Continuez comme ça ne changez rien!! »</div>
+                </div>
+                <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="300">
+                    <img 
+                        src={ stars }
+                        className="w-32 mx-auto h-auto mt-3"
+                    />
+                    <div className="text-lg century my-2">Auto École Anne</div>
+                    <div className="italic">« Entreprise très sérieuse. Équipe à l écoute et réactive des changements que je demande tous les mois. Le référencement est bien suivi et j ai un retour d’ Anthony tous les mois. Je recommande ! »</div>
+                </div>
+                <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="500">
+                    <img 
+                        src={ stars }
+                        className="w-32 mx-auto h-auto mt-3"
+                    />
+                    <div className="text-lg century my-2">Fanny Coiffure</div>
+                    <div className="italic">« Ils sont de très bons conseils, le suivi est régulier, si vous voulez changer des choses avant qu’ils ne vous rappellent, c’est toujours possible avec un mail. Je recommande vivement toute l’équipe . »</div>
+                </div>
+                
+            </section>
+            <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
+                <div className="w-full flex justify-center">
+                    <Link 
+                        className="century text-sm hover:text-bleu"
+                        to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                    >
+                        Voir plus de témoignages
+                    </Link>
+                     | 
+                    <Link 
+                        className="century text-sm hover:text-bleu"
+                        to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                    >
+                        Vous êtes déjà clients ? Donnez nous votre avis !
+                    </Link>
+                </div>
+            </section>
+            <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
+                <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                    <span className="text-bleu">/</span>Les dernières actualités
+                </h3>
+                <hr className="blue"></hr>
+                
             </section>
         </PageTransition>
     </Layout>
