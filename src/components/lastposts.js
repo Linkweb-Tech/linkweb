@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import '../scss/LastPosts.scss'
+import '../scss/Lastposts.scss'
 
 
 
