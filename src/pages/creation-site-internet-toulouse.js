@@ -10,6 +10,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 
+
 import tlse from "../images/logo_universite-federale.png";
 import peugeot from "../images/peugeot.png";
 import onco from "../images/logo-onco.png";
@@ -76,7 +77,8 @@ class CreationSiteInternetToulousePage extends React.Component {
                         />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
-                        <img 
+                        <img
+                            atl="Test" 
                             src={normand}
                         />
                         </div>

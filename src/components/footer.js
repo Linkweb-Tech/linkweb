@@ -34,20 +34,20 @@ class Footer extends React.Component {
                     </Link>
         
                     <Link
-                        to="/about"
+                        to="/creation-site-internet-toulouse"
                         className="block md:inline-block mt-2 md:mt-0  no-underline text-white century py-2 px-4"
                     >
                         <span className="chevronFooter">></span> Création Site Internet
                     </Link>
         
                     <Link
-                        to="/contact"
+                        to="/referencement-toulouse"
                         className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"
                     >
                         <span className="chevronFooter">></span> Référencement
                     </Link>
                     <Link
-                        to="#"
+                        to="/agence-web-toulouse"
                         className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
                     >
                         <span className="chevronFooter">></span> Agence Web
@@ -59,7 +59,7 @@ class Footer extends React.Component {
                         <span className="chevronFooter">></span> Nos Réalisations
                     </Link>
                     <Link
-                        to="#"
+                        to="/contact-agence-web-toulouse"
                         className="block last md:inline-block mt-0s md:mt-0  no-underline text-white century bg-bleu text-white py-2 px-4"
                     >
                         <span className="chevronFooter">></span> Demander un devis

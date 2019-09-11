@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
+
 import fbIcon from "../images/facebook-logo.svg";
 import twitterIcon from "../images/twitter-logo.svg";
 import instaIcon from "../images/instagram-logo.svg";
@@ -14,14 +15,15 @@ class Header extends React.Component {
     super(props);
     this.state = {
       home: false, 
+      isExpanded: false,
     }
   }
 
   componentDidMount() {
-    
+  
     const nav = document.querySelector('nav');
     const navTop = nav.offsetTop;
-    //console.log(this.props);
+  
     window.addEventListener('scroll', () => {
       if (window.scrollY > ( navTop + 500 )) {
         nav.classList.add('fixed-nav');
@@ -35,17 +37,29 @@ class Header extends React.Component {
     } 
   }
 
-  // componentWillUpdate() {
-  //   if(this.props.path == '' ) {
-  //     this.setState({ home: true });
-  //     console.log('State' + this.state.home);
-  //   } 
-  // }
-
   render() {
+
+    
     return (
+
       <nav className={`mainNav w-full z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
-        <div className="topbar max-w-xl bg-bleu flex justify-around p-2 rounded-br-large">
+         <button
+          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+          //onClick={() => toggleExpansion(!isExpanded)}
+        >
+          <svg
+            className="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+
+        <div className='
+          
+          topbar max-w-xl bg-bleu flex justify-around p-2 rounded-br-large'>
           <Link to="/" className="flex items-center no-underline text-white">
             <span className="text-white century">Agence Web</span>
           </Link>
@@ -87,39 +101,45 @@ class Header extends React.Component {
             <div className="text-md pr-5 menu">
               <Link
                 to="/"
-                className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
+                activeClassName="active"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Accueil
               </Link>
   
               <Link
                 to="/creation-site-internet-toulouse"
-                className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
+                activeClassName="active"
+                className="block  lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Création Site Internet
               </Link>
   
               <Link
-                to="/contact"
-                className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-6 px-4"
+                to="/referencement-toulouse"
+                activeClassName="active"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0 no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Référencement
               </Link>
               <Link
-                to="#"
-                className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
+                to="/agence-web-toulouse"
+                activeClassName="active"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Agence Web
               </Link>
               <Link
                 to="#"
-                className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4"
+                activeClassName="active"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Nos Réalisations
               </Link>
               <Link
-                to="#"
-                className="block last md:inline-block mt-4 md:mt-0  no-underline text-white century bg-bleu text-white py-6 px-4"
+                to="/contact-agence-web-toulouse"
+                activeClassName="active"
+                className="block lg:text-lg md:text-sm last md:inline-block mt-4 md:mt-0  no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-6"
               >
                 Demander un devis
               </Link>
