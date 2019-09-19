@@ -17,7 +17,7 @@ import sdis from "../images/logo-sdis47.png";
 import normand from "../images/normandie.png";
 import blocBg from "../images/background.jpg";
 import Bg from "../images/bg-agenceweb.jpg";
-import imac from "../images/smartphone.jpg";
+import imac from "../images/redaction.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import stars from '../images/stars.png';
 import bureau from '../images/bureau2-min.jpg';
@@ -123,11 +123,11 @@ class AgenceWebToulouse extends React.Component {
                         </div>
 
                     </section>
-                    <section className="flex w-full flex-wrap mx-auto px-4 py-6 my-4">
-                        <div className="w-1/2 flex flex-grow">
+                    <section className="flex w-full  mx-auto px-0 py-6 my-4">
+                        <div className="w-1/2 ">
                             <img src={imac} />
                         </div>
-                        <div className="w-1/2 flex flex-col max-w-3xl px-12 py-12" >
+                        <div className="w-1/2 max-w-3xl px-12 py-12" >
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
                             </h3>
@@ -403,7 +403,7 @@ query lastsThreePostsAgence {
           id
           title
           slug
-          modified(locale: "fr", formatString: "dddd MMMM YYYY")
+          modified(locale: "fr", formatString: "dd MM YYYY")
           link
           featured_media {
             source_url

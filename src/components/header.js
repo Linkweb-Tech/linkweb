@@ -60,7 +60,7 @@ class Header extends React.Component {
         <div className='
           
           topbar max-w-xl bg-bleu flex justify-around p-2 rounded-br-large'>
-          <Link to="/" className="flex items-center no-underline text-white">
+          <Link  to="https://linkweb.fr" className="flex items-center no-underline text-white">
             <span className="text-white century">Agence Web</span>
           </Link>
           <Link to="#" className="flex items-center no-underline text-white">
@@ -85,7 +85,7 @@ class Header extends React.Component {
             />
           </Link>
         </div>
-        <div className="flex flex-wrap items-center justify-between mx-auto md:p-3 w-full">
+        <div className="flex flex-wrap items-center justify-between mx-auto w-full">
           <Link to="/" className="flex items-center no-underline w-56 pl-5">
             <img 
               src={linkwebLogo} 
@@ -130,7 +130,7 @@ class Header extends React.Component {
                 Agence Web
               </Link>
               <Link
-                to="#"
+                to="/agence-de-communication-agen-47-toulouse-31"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
               >

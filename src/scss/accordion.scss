@@ -28,18 +28,18 @@
 
     .content {
         opacity: 0;
-        max-height: 1px;
-        transform: scaleY(0);
-        transition: transform ease 800ms, max-height ease  800ms, transform ease 1000ms, opacity ease 1800ms;
+        max-height: 0px;
+        //transform: scaleY(0);
+        transition: transform ease 800ms, max-height ease  400ms, transform ease 600ms, opacity ease 300ms;
         &.open {
             // visibility: visible;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            max-height: 600px;
-            transform: scaleY(1);
+            max-height: 200px;
+            //transform: scaleY(1);
             opacity: 1;
             
-            transition: transform ease 800ms, max-height ease 800ms, transform ease 500ms, opacity ease 800ms;
+            transition: transform ease 800ms, max-height ease 600ms, transform ease 600ms, opacity ease 600ms;
         }
     }
 

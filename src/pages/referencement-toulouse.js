@@ -109,13 +109,13 @@ class ReferencementToulouse extends React.Component {
                     <section className="flex-wrap flex w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className=" font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h3 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h3>
-                            <p>Mettre en avant vos services, activités, et même votre entreprise va vous permettre de dynamiser votre communication. Le site internet vitrine est idéal pour les TPE/PME souhaitant faire découvrir leur activité et mettre en avant leurs prestations et ainsi acquérir de nouveaux clients près de chez eux. </p>
-                            <RoundButton url="#" text="Création de site vitrine" />
+                            <p>Vous souhaitez augmenter votre visibilité dans les pages de recherche de Google ? Vous souhaitez générer du trafic sur votre site internet, vendre vos produits ou obtenir des contacts ? Le référencement naturel vous offre la possibilité de mettre en avant votre entreprise.</p>
+                            <RoundButton url="/referencement-de-site-internet-47-31" text="Notre offre de Référencement Naturel" />
                         </div>
                         <div className="font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h3 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h3>
-                            <p>Mettre en place un site e-commerce va vous permettre de développer une plateforme de vente en ligne de vos produits. Le site internet e-commerce s’adresse aux commerçants et boutiques qui souhaitent développer leur chiffre d’affaire en ciblant une nouvelle clientèle.</p>
-                            <RoundButton url="#" text="Créer une boutique en ligne" />
+                            <p>Vous souhaitez obtenir un retour sur investissement grâce à votre boutique en ligne ou votre site vitrine ? Mener une campagne sponsorisée permet de propulser votre visibilité sur Google en un temps record, et ainsi, atteindre vos objectifs de conversion.</p>
+                            <RoundButton url="#" text="Notre offre de Référencement Ads" />
                         </div>
 
                     </section>
@@ -158,7 +158,7 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                                     <div className="content pb-6">
                                         Faire appel à une agence de référencement naturel, c’est faire le choix d’un partenaire pour l’avenir. Une stratégie de référencement naturel a plusieurs objectifs. Acquisition de trafic, obtention de contacts, e-réputation. Un référencement optimal de son site est essentiel.
                                 </div>
-                                    <Button url="#" text="En savoir plus" position="center" />
+                                    <Button url="/contact-agence-web-toulouse" text="En savoir plus" position="center" />
 
                                 </section>
                             </div>
@@ -173,7 +173,7 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                                     <div className="content pb-6">
                                         Plusieurs techniques de référencement SEO/SEA existent pour positionner son site internet dans les premiers résultats des premières pages et atteindre la première page ou en première position des SERP de Google : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
                                 </div>
-                                    <Button url="#" text="Prendre contact" position="center" />
+                                    <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </section>
                             </div>
                         </div>
@@ -187,7 +187,7 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                                     <div className="content pb-6">
                                        Nos consultants d’Agen (47) vous apportent une expertise qualifiée pour vous accompagner au mieux dans le développement et l’optimisation de votre site internet.
                                 </div>
-                                    <Button url="#" text="Prendre rendez-vous" position="center" />
+                                    <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
                                 </section>
 
                             </div>
@@ -385,7 +385,7 @@ query lastsThreePostsRef {
           id
           title
           slug
-          modified(locale: "fr", formatString: "dddd MMMM YYYY")
+          modified(locale: "fr", formatString: "dd MMMM YYYY")
           link
           featured_media {
             source_url
@@ -398,7 +398,3 @@ query lastsThreePostsRef {
     
 `
 export default ReferencementToulouse;
-
-
-
-

@@ -31,7 +31,7 @@
                     
                 }
     
-                &:not(.last):hover {
+                &:not(.last):hover, &.active {
                     &::before {
                         right: 0;
                     }
@@ -51,7 +51,7 @@
             overflow: hidden;
             transition: all ease 1s;
 
-            &:not(.last)::before {
+            &::before {
                 content: "";
                 position: absolute;
                 z-index: -1;
@@ -68,11 +68,18 @@
                 transition-timing-function: ease-out;
             }
 
-            &:not(.last):hover {
+            &:hover, &.active {
                 &::before {
                     right: 0;
+                }
+            }
+            &.last {
+                color: white;
+                &:hover {
+                    color: white !important;
                 }
             }            
         }
     }
 }
+
