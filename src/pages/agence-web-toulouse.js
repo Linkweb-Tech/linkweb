@@ -68,7 +68,7 @@ class AgenceWebToulouse extends React.Component {
                             Agence web Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
                         <h3 className="italic text-2xl text-white">Pour vous rapprocher de l’essentiel, faites le choix du savoir-faire et de l’expérience.</h3>
-                        <RoundButton url="#" text="Je veux developper ma communication en ligne" />
+                        <RoundButton url="/contact-agence-web-toulouse" text="Je veux developper ma communication en ligne" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -81,31 +81,36 @@ class AgenceWebToulouse extends React.Component {
                         <div className="w-1/5" data-aos='fade-up'>
                             <img
                                 src={peugeot}
+                                alt="Agence Web Toulouse"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
                             <img
                                 src={normand}
+                                alt="Agence Web Agen"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='400'>
                             <img
                                 src={onco}
+                                alt="Agence Web Toulouse"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='600'>
                             <img
                                 src={tlse}
+                                alt="Agence Web Agen"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='800'>
                             <img
                                 src={sdis}
+                                alt="Agence Web Agen"
                             />
                         </div>
                         <div className="w-full" data-aos='zoom-in'>
                             <p className="text-md text-center py-12 century">
-                                Vous êtes un organisme public ou privé à la recherche d’une agence web à Toulouse pour la mise en place d’une stratégie digitale ? Linkweb est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
+                                Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Toulouse</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
                         </div>
                     </section>
                     <section className="flex-wrap flex w-full max-w-5xl mx-auto py-2 my-2 ">
@@ -113,33 +118,33 @@ class AgenceWebToulouse extends React.Component {
                             <h3 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h3>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
-                            <RoundButton color="black" url="#" text="Création de site vitrine" />
+                            <RoundButton color="black" url="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" text="Plus d'informations pratiques" />
                         </div>
                         <div className="font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" data-aos="zoom-in" data-aos-delay="200">
                             <h3 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h3>
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
-                            <RoundButton url="#" text="Créer une boutique en ligne" />
+                            <RoundButton url="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" text="Plus d'informations pratiques" />
                         </div>
 
                     </section>
                     <section className="flex w-full  mx-auto px-0 py-6 my-4">
                         <div className="w-1/2 ">
-                            <img src={imac} />
+                            <img src={imac} alt="Agence Web Toulouse" />
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
                             </h3>
-                            <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</strong>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
+                                <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
                             </h4>
-                            <p data-aos='fade-bottom'>
-                                Depuis plus de 10 ans, notre expérience dans la création de sites internet nous a permis de développer nos compétences dans le conseil en communication et d’envisager les projets web comme des solutions uniques répondant aux besoins de chaque client.<br />
+                            <p data-aos='fade-bottom' className="text-justify">
+                                Depuis plus de 10 ans, notre expérience dans la <strong><Link to="creation-site-internet-toulouse/">création de sites internet</Link></strong> nous a permis de développer nos compétences dans le <strong>conseil en communication</strong> et d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br/>
 
-                                Présente à Agen en Lot-et-Garonne, l’agence web Linkweb développe sa filiale toulousaine. Spécialisée dans le secteur des marchés publics comme dans les marchés privés, notre agence de communication web est particulièrement active pour répondre aux demandes émanant de tous types d’organismes. Linkweb déploie son offre de création de site web, refonte de site internet et de référencement web à la ville Rose et ses alentours.<br />
+                                Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes. <strong><Link to="/">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
 
-                                De part son savoir-faire en tant qu’agence digitale, Linkweb met en place votre site internet grâce à des solutions de développement web récentes et optimise votre référencement naturel grâce à une veille permanente. Quelle que soit la nature de votre activité, nous avons le savoir-faire pour vous permettre d’atteindre vos objectifs.<br />
+                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-de-site-internet-47-31">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31">référencement naturel</Link></strong> grâce à une veille permanente. Quelle que soit la nature de votre activité, nous avons le savoir-faire pour vous permettre d’atteindre vos objectifs.<br />
                             </p>
                             
                         </div>
@@ -156,11 +161,11 @@ class AgenceWebToulouse extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
                                 </h3>
-                                    <div className="content pb-6">
-                                       Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Nous vous proposons des solutions pour y parvenir. Mettez tous les atouts de votre côté pour mener votre campagne de communication web.
+                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                       Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Nous vous proposons des solutions pour y parvenir. Mettez tous les atouts de votre côté pour mener votre campagne de <strong>communication web</strong>.
                                 </div>
                                     
 
@@ -171,15 +176,32 @@ class AgenceWebToulouse extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                 </h3>
-                                    <div className="content pb-6">
-                                        TPE, PME, commerçants, l’agence web Linkweb répond à vos besoins de visibilité et de notoriété grâce à la mise en place de stratégies digitales efficaces et qui vous rapprochent de vos prospects. Nous vous donnons toutes les clés pour développer et faire connaître votre outil en ligne.
+                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                        TPE, PME, commerçants, l’<strong>agence web Linkweb</strong> répond à vos besoins de <strong>visibilité</strong> et de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> efficaces et qui vous rapprochent de vos prospects. Nous vous donnons toutes les clés pour développer et faire connaître votre <strong>outil en ligne</strong>.
                                 </div>
                                     
                                 </section>
                             </div>
+                        </div>
+                    </section>
+                    <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-6">
+                        <div className="w-full flex justify-center">
+                            <Link
+                                className="century text-sm hover:text-bleu"
+                                to="/creation-site-internet-toulouse"
+                            >
+                                Je souhaite une création de site internet
+                            </Link>&nbsp;
+                            |&nbsp;
+                            <Link
+                                className="century text-sm hover:text-bleu"
+                                to="/referencement-toulouse/"
+                            >
+                                Je souhaite améliorer la visibilité de mon site existant
+                            </Link>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -193,11 +215,11 @@ class AgenceWebToulouse extends React.Component {
                         <ul className="mt-6 pl-24 pr-12">
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Une équipe de développeurs web qualifiés pour la mise en place de votre site internet.
+                                Une équipe de <strong>développeurs web</strong> qualifiés pour la mise en place de votre <strong>site internet</strong>.
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Des consultants SEO pour vous apporter de la visibilité sur Google.
+                                Des <strong>consultants SEO</strong> pour vous apporter de la <strong>visibilité sur Google</strong>.
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
@@ -281,16 +303,16 @@ class AgenceWebToulouse extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex items-start text-center my-12">
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
-                                <img src={laptop} width="80px" />
-                                <p className="text-xl text-white century pt-3">WEBMARKETING</p>
+                                <img src={laptop} alt="Agence Web Agen" width="80px" />
+                                <p className="text-xl text-white century pt-3">CRÉATION SITE INTERNET</p>
                             </div>
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
 
-                                <img src={web} width="80px" />
+                                <img src={web} alt="Agence Web Toulouse" width="80px" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
-                                <img src={bullhorn} width="80px" />
+                                <img src={bullhorn} alt="Agence Web Agen" width="80px" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
                         </div>
@@ -309,7 +331,7 @@ class AgenceWebToulouse extends React.Component {
                                     <p>Dans la&nbsp;<strong>conception de sites internet</strong>, une part importante est accordée à la&nbsp;réflexion stratégique. Dès l’élaboration de votre <strong>projet web</strong>, chaque page et éléments de contenus doivent avoir un objectif précis.</p><p>Il est nécessaire de traduire clairement vos prestations et services et les segmentant par thématiques. Nous identifions alors les <strong>expressions clés ciblées</strong> qui vont déterminer notre <strong>stratégie de référencement naturel</strong> pour la déployer au fil des semaines. Nous définissons un plan d’actions selon vos attentes et vos moyens à consacrer aux <strong>outils digitaux</strong>.</p><p>Cependant, s’il est urgent pour vous d’<strong>être visible sur les moteurs de recherche</strong>, nous vous proposons la <strong>création d’une campagne Ads</strong> qui vous donnera une <strong>visibilité immédiate</strong>.</p>
                                 </div>
                                 <div label="COMMUNIQUER DE MANIÈRE EFFICACE ENVERS VOS CIBLES">
-                                    <p>Lorsque l’on souhaite <strong>communiquer</strong>, <strong>être visible en ligne</strong>&nbsp;va permettre à tout un chacun d’accéder rapidement à l’information. La&nbsp;<a href="https://linkweb.fr/creation-site-internet-toulouse/"><strong>création de site internet</strong></a>&nbsp;doit être pensée en ce sens afin de mettre en place une <strong>arborescence</strong> limpide. Cela se traduit par un <strong>webdesign</strong> <strong>ergonomique</strong> et <strong>intuitif</strong>&nbsp;de <strong>votre site internet</strong> pour permettre à l’utilisateur d’accéder rapidement à l’information qu’il recherche sur votre <strong>site internet</strong>.</p><p>En effet, l’accès à l’information doit être favorisé par la mise en place d’un <strong>site responsive design</strong> pour en permettre la lisibilité. De plus, de par l’utilisation de <strong>votre charte graphique</strong> et de votre <strong>identité visuelle</strong>, nous créons un <strong>outil digital à votre image</strong> pour répondre à votre <strong>stratégie de communication digitale </strong>et permettre aux utilisateurs de vous identifier clairement. Pour ce faire, un développeur web va définir la solution la plus à même d’améliorer l’<strong>expérience utilisateur</strong> sur <strong>votre site internet</strong> en travaillant à la fois l’<strong>ergonomie</strong>, la praticité et l’intuitivité du site pour mettre en place un outil utile et pertinent pour les visiteurs.</p>
+                                    <p>Lorsque l’on souhaite <strong>communiquer</strong>, <strong>être visible en ligne</strong>&nbsp;va permettre à tout un chacun d’accéder rapidement à l’information. La&nbsp;<a href="/creation-site-internet-toulouse"><strong>création de site internet</strong></a>&nbsp;doit être pensée en ce sens afin de mettre en place une <strong>arborescence</strong> limpide. Cela se traduit par un <strong>webdesign</strong> <strong>ergonomique</strong> et <strong>intuitif</strong>&nbsp;de <strong>votre site internet</strong> pour permettre à l’utilisateur d’accéder rapidement à l’information qu’il recherche sur votre <strong>site internet</strong>.</p><p>En effet, l’accès à l’information doit être favorisé par la mise en place d’un <strong>site responsive design</strong> pour en permettre la lisibilité. De plus, de par l’utilisation de <strong>votre charte graphique</strong> et de votre <strong>identité visuelle</strong>, nous créons un <strong>outil digital à votre image</strong> pour répondre à votre <strong>stratégie de communication digitale </strong>et permettre aux utilisateurs de vous identifier clairement. Pour ce faire, un développeur web va définir la solution la plus à même d’améliorer l’<strong>expérience utilisateur</strong> sur <strong>votre site internet</strong> en travaillant à la fois l’<strong>ergonomie</strong>, la praticité et l’intuitivité du site pour mettre en place un outil utile et pertinent pour les visiteurs.</p>
                                 </div>
                                 <div label="OBTENIR UN RETOUR SUR INVESTISSEMENT">
                                     <p>Chaque projet a ses spécificités, si un&nbsp;<strong>site e-commerce</strong> va viser la vente en ligne de produits, un <strong>site vitrine</strong> sera plus adapté pour obtenir des <strong>contacts prospects qualifiés</strong>. C’est pourquoi nous mettons en place des solutions web adaptées à l’ambition de chaque entreprise. Les <strong>sites internet</strong> de nos clients obtiennent un <strong>trafic</strong> <strong>qualifié</strong> et une progression constante de la fréquentation de leur site. En effet, le site internet fait partie des <strong>supports de communication</strong> les plus importants en termes de <strong>webmarketing</strong>.</p><p>Chez <strong>Linkweb</strong>, nous privilégions la qualité. La <strong>création de votre site internet</strong> n’a qu’un seul but : vous permettre de <strong>convertir vos contacts</strong> pour vous apporter de <strong>nouveaux clients</strong> et augmenter votre chiffre d’affaire.</p>
@@ -318,7 +340,7 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Ils sont satisfaits par nos services d’agence web
                         </h3>
                         <hr className="blue"></hr>
@@ -328,6 +350,7 @@ class AgenceWebToulouse extends React.Component {
                         <div className="w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up">
                             <img
                                 src={stars}
+                                alt="avis Google"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Midi Pneu Occaz 47</div>
@@ -337,6 +360,7 @@ class AgenceWebToulouse extends React.Component {
                         <div className="w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="300">
                             <img
                                 src={stars}
+                                alt="avis Google"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Agen Diesel</div>
@@ -345,6 +369,7 @@ class AgenceWebToulouse extends React.Component {
                         <div className="w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="500">
                             <img
                                 src={stars}
+                                alt="avis Google"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Psychologue Fourteau Béatrice</div>
@@ -359,8 +384,8 @@ class AgenceWebToulouse extends React.Component {
                                 to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Voir plus de témoignages
-                            </Link>
-                            |
+                            </Link>&nbsp;
+                            |&nbsp;
                             <Link
                                 className="century text-sm hover:text-bleu"
                                 to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
@@ -376,7 +401,7 @@ class AgenceWebToulouse extends React.Component {
                                 <span className="text-bleu">/</span>Vous souhaitez intégrer l’équipe de Linkweb ?
                                 Nous recrutons des développeurs et référenceurs web à Agen.
                             </h3>
-                             <RoundButton url="#" text="Voir notre page recrutement" />
+                             <RoundButton url="/recrutement-creation-site-internet-agen" text="Voir notre page recrutement" />
                         </div>
                     </section>
 

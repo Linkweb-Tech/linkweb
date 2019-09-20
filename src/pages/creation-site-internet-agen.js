@@ -51,7 +51,7 @@ class CreationSiteInternetVitrine extends React.Component {
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.8)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="#" text="Je veux la création de mon site internet vitrine" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site internet vitrine" />
                         </div>
                         <div className="w-2/3" style={{padding:'2%'}}>
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
@@ -74,7 +74,7 @@ class CreationSiteInternetVitrine extends React.Component {
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
-                        TPE, PME, artisans, professions libérales : dynamisez votre communication digitale d’entreprise.
+                        TPE, PME, artisans, professions libérales : dynamisez votre <strong>communication digitale d’entreprise</strong>.
                         </h2>
                         <hr className="blue"></hr>
                     </section>
@@ -83,17 +83,17 @@ class CreationSiteInternetVitrine extends React.Component {
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET VITRINE : DÉVELOPPEZ VOTRE VISIBILITÉ SUR LE WEB
                             </h3>
-                            <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Créer un site vitrine pour son entreprise, c’est s’assurer d’être accessible 24/24h, 7/7J pour acquérir de nouveaux clients grâce au web.</strong>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
+                                <span className="font-bold">Créer un site vitrine pour son entreprise, c’est s’assurer d’être accessible 24/24h, 7/7J pour acquérir de nouveaux clients grâce au web.</span>
                             </h4>
-                            <p data-aos='fade-bottom' style={{textAlign:'justify'}}>Aujourd’hui, votre site internet professionnel fait partie des outils indispensables pour dynamiser votre communication d’entreprise, atteindre de nouveaux clients, et même fidéliser vos clients actuels grâce à une stratégie rondement menée.
+                            <p data-aos='fade-bottom' style={{textAlign:'justify'}}>Aujourd’hui, votre <strong>site internet professionnel</strong> fait partie des outils indispensables pour dynamiser votre <strong>communication d’entreprise</strong>, atteindre de nouveaux clients, et même fidéliser vos clients actuels grâce à une stratégie rondement menée.
                             <br/><br/>
-                                                        Mettre en place un site internet vitrine pour son entreprise permet de porter un coup de projecteur sur votre activité en présentant vos prestations et en apportant l’information nécessaire pour le consommateur à la recherche d’un prestataire de votre domaine d’activité.
+                                                        Mettre en place un <strong>site internet vitrine</strong> pour son entreprise permet de porter un coup de projecteur sur votre activité en présentant vos prestations et en apportant l’information nécessaire pour le consommateur à la recherche d’un prestataire de votre domaine d’activité.
                             <br/><br/>
-                                                        Développer une identité visuelle qui vous est propre grâce au webdesign, mettre en place un site ergonomique et une navigation intuitive, créer un contenu qui va permettre de rendre votre site internet visible via le référencement naturel : il existe de nombreuses façons de mettre en avant votre activité.</p>
+                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link to="/ergonomie-site-web-agen-toulouse">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
                         </div>
                         <div className="w-1/2" style={{padding:'5% 0%'}}>
-                            <img src={imac} />
+                            <img src={imac} alt="Création site internet Toulouse"/>
                         </div>
                     </section>
                     <section className="w-full h-screen flex flex-col justify-center items-center px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{backgroundColor:'#3c3c3c', color:'white'}}>
@@ -109,10 +109,10 @@ class CreationSiteInternetVitrine extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Créer un site internet intuitif et ergonomique pour favoriser l’expérience utilisateur et faciliter la navigation entre les contenus.</strong>
+                                <span className="font-bold">Créer un site internet intuitif et ergonomique pour favoriser l’expérience utilisateur et faciliter la navigation entre les contenus.</span>
                             </h4>
-                            <p>Nous développons un site internet favorisant la navigation entre les pages pour permettre aux utilisateurs d’accéder à l’information qu’ils recherchent de manière rapide, efficace et de façon naturelle.</p>
-                            <Button url="#" text="En savoir plus sur l’ergonomie web" position="left" />
+                            <p>Nous développons un <strong>site internet</strong> favorisant la navigation entre les pages pour permettre aux utilisateurs d’accéder à l’information qu’ils recherchent de manière rapide, efficace et de façon naturelle.</p>
+                            <Button url="/ergonomie-site-web-agen-toulouse/" text="En savoir plus sur l’ergonomie web" position="left" />
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -120,10 +120,10 @@ class CreationSiteInternetVitrine extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Créer un site internet qui s’adapte au terminal utilisé pour faciliter son accessibilité. Nous mettons en place un site adapté pour tous les supports.</strong>
+                                <span className="font-bold">Créer un site internet qui s’adapte au terminal utilisé pour faciliter son accessibilité. Nous mettons en place un site adapté pour tous les supports.</span>
                             </h4>
-                            <p>Face à l’exigence des moteurs de recherche pour proposer des sites internet adaptés à chaque support, nous répondons par la mise en place de sites internet responsive, à savoir, qui s’adaptent à la largeur de l’écran utilisé.</p>
-                            <Button url="#" text="En savoir plus sur le responsive design" position="left" />
+                            <p>Face à l’exigence des <strong>moteurs de recherche</strong> pour proposer des <strong>sites internet</strong> adaptés à chaque support, nous répondons par la mise en place de <strong>sites internet responsive</strong>, à savoir, qui s’adaptent à la largeur de l’écran utilisé.</p>
+                            <Button url="/blog/importance-site-internet-responsive/" text="En savoir plus sur le responsive design" position="left" />
                         </div>
                         </div>
                         <div className="w-full flex flex-row mx-auto px-4 py-6 my-4" style={{padding:'25px 200px 25px 200px', marginRight:'300px'}}>
@@ -133,10 +133,10 @@ class CreationSiteInternetVitrine extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Créer un parcours client clairement identifiable pour vous permettre d’obtenir de nouveaux contacts via le site internet.</strong>
+                                <span className="font-bold">Créer un parcours client clairement identifiable pour vous permettre d’obtenir de nouveaux contacts via le site internet.</span>
                             </h4>
-                            <p>Nous déterminons un parcours client qui facilite la réalisation de vos objectifs de conversion grâce à la présence de call-to-action et autres éléments visuels permettant de mettre en avant la souscription à vos prestations.</p>
-                            <Button url="#" text="En savoir plus sur le le parcours client" position="left" />
+                            <p>Nous déterminons un parcours client qui facilite la réalisation de vos <strong>objectifs de conversion</strong> grâce à la présence de <strong>call-to-action</strong> et autres éléments visuels permettant de mettre en avant la souscription à vos prestations.</p>
+                            <Button url="/blog/comment-optimiser-le-parcours-client-dun-site-internet/" text="En savoir plus sur le le parcours client" position="left" />
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -144,10 +144,10 @@ class CreationSiteInternetVitrine extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Mettre en place un site internet sécurisé, et rassurant pour les visiteurs via la mise en place d’un protocole HTTPS.</strong>
+                                <span className="font-bold">Mettre en place un site internet sécurisé, et rassurant pour les visiteurs via la mise en place d’un protocole HTTPS.</span>
                             </h4>
-                            <p>Nous sécurisons votre domaine par la mise en place de protocole de sécurisation HTTPS (HyperText Transfer Protocole Secure) qui permet à chaque utilisateur de vérifier l’authenticité du site internet pour s’assurer qu’il s’agit bien d’un site de confiance.</p>
-                            <Button url="#" text="En savoir plus sur le le protocole de sécurisation HTTPS" position="left" />
+                            <p>Nous sécurisons votre domaine par la mise en place de <strong>protocole de sécurisation HTTPS (HyperText Transfer Protocole Secure)</strong> qui permet à chaque utilisateur de vérifier l’authenticité du site internet pour s’assurer qu’il s’agit bien d’un <strong>site de confiance</strong>.</p>
+                            <Button url="/blog/protocole-https-a-quoi-ca-sert/" text="En savoir plus sur le le protocole de sécurisation HTTPS" position="left" />
                         </div>
                         </div>
                     </section>
@@ -163,11 +163,11 @@ class CreationSiteInternetVitrine extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE DÉFINIS MES BESOINS DE COMMUNICATION WEB
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Afin d’obtenir un site internet à votre image, il est important de définir ses besoins de la manière la plus précise possible. En effet, la collaboration est fortement recommandée pour mettre au point une solution au plus proche de vos besoins en vue d’y répondre.
+                                Afin d’obtenir un <strong>site internet</strong> à votre image, il est important de définir ses besoins de la manière la plus précise possible. En effet, la collaboration est fortement recommandée pour mettre au point une solution au plus proche de vos besoins en vue d’y répondre.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
 
@@ -178,13 +178,13 @@ class CreationSiteInternetVitrine extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS POUR DÉFINIR MON PROJET
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois vos besoins déterminés, nous vous invitons à nous rencontrer pour définir plus précisément votre projet de site internet vitrine. Nous vous proposerons la solution la plus à même de vous apporter un site web efficace.
+                                Une fois vos besoins déterminés, nous vous invitons à nous rencontrer pour définir plus précisément votre <strong>projet de site internet vitrine</strong>. Nous vous proposerons la solution la plus à même de vous apporter un <strong>site web efficace</strong>.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <br/><Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </section>
                                 </div>
                             </div>
@@ -192,11 +192,11 @@ class CreationSiteInternetVitrine extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE DÉPLOIE MON ACTIVITÉ SUR MON SITE INTERNET VITRINE
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois le projet établi, nous vous proposons une maquette visuelle et des contenus rédigés et optimisés pour le référencement naturel, en respectant une arborescence créée tout particulièrement pour rendre votre site internet visible.
+                                Une fois le projet établi, nous vous proposons une <strong>maquette visuelle et des contenus rédigés et optimisés pour le référencement naturel</strong>, en respectant une arborescence créée tout particulièrement pour rendre <strong>votre site internet visible</strong>.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
                                 </section>
@@ -213,7 +213,7 @@ class CreationSiteInternetVitrine extends React.Component {
                         
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <p className="text-xl font-bold century text-center">Pour la création de votre site internet, faites confiance à un spécialiste de la création de sites internet à Agen et Toulouse depuis plus de dix ans.</p>
+                        <p className="text-xl font-bold century text-center">Pour la <strong>création de votre site internet</strong>, faites confiance à un spécialiste de la <strong>création de sites internet à Agen et Toulouse</strong> depuis plus de dix ans.</p>
                         <br/>
                         <div className="w-full flex text-center my-6">
                             <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
@@ -357,13 +357,13 @@ class CreationSiteInternetVitrine extends React.Component {
                         <div className="w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="DANS QUELS CAS AI-JE BESOIN D'UN SITE INTERNET VITRINE ?">
-                                <p>La mise en place d’un site internet vitrine est particulièrement utile lorsqu’il est question de mettre en avant votre activité, vos services, et obtenir des contacts locaux. En effet, un site internet vitrine doit répondre aux besoins des utilisateurs en proposant une solution concrète face à leur requête. Il va permettre d’affirmer votre présence sur le marché et également, vous donner la possibilité de travailler votre image grâce à la mise en place d’une stratégie web efficace. Tout l’intérêt d’un site vitrine réside dans la visibilité qu’il va apporter à votre activité, tout en vous permettant de créer des contenus qui vont permettre de développer votre image et votre notoriété pour acquérir de nouveaux clients sur le long terme.</p>
+                                <p>La <strong>mise en place d’un site internet vitrine</strong> est particulièrement utile lorsqu’il est question de mettre en avant votre activité, vos services, et obtenir des contacts locaux. En effet, un site internet vitrine doit répondre aux besoins des utilisateurs en proposant une solution concrète face à leur requête. Il va permettre d’affirmer votre présence sur le marché et également, vous donner la possibilité de travailler votre image grâce à la mise en place d’une <strong>stratégie web</strong> efficace. Tout l’intérêt d’un <strong>site vitrine</strong> réside dans la visibilité qu’il va apporter à votre activité, tout en vous permettant de créer des contenus qui vont permettre de <strong>développer votre image et votre notoriété</strong> pour <strong>acquérir de nouveaux clients</strong> sur le long terme.</p>
                                 </div>
                                 <div label="QUE PUIS-JE FAIRE GRÂCE À UN SITE INTERNET VITRINE ?">
-                                <p>Un site internet vitrine peut répondre à des objectifs commerciaux, tels qu’obtenir de nouveaux contacts en vue de les convertir des clients, ou bien à des objectifs d’image. Il va permettre de développer des contenus sur la présentation de vos services, de votre manière de travailler, l’histoire de votre entreprise et bien plus encore. Également, le site vitrine va vous permettre d’améliorer votre positionnement sur les moteurs de recherche. Enfin, il vous donne la possibilité de vous affirmer comme un expert dans votre secteur d’activité pour donner confiance aux utilisateurs qui visiteront votre site internet.</p>
+                                <p>Un <strong>site internet vitrine</strong> peut répondre à des objectifs commerciaux, tels qu’obtenir de nouveaux contacts en vue de les convertir des clients, ou bien à des objectifs d’image. Il va permettre de <strong>développer des contenus</strong> sur la présentation de vos services, de votre manière de travailler, l’histoire de votre entreprise et bien plus encore. Également, le site vitrine va vous permettre d’<strong>améliorer votre positionnement</strong> sur les <strong>moteurs de recherche</strong>. Enfin, il vous donne la possibilité de vous affirmer comme un expert dans votre secteur d’activité pour donner confiance aux utilisateurs qui visiteront votre <strong>site internet</strong>.</p>
                                 </div>
                                 <div label="J'AI UN BESOIN PARTICULIER, EST-CE POSSIBLE D'ADAPTER UN SITE VITRINE ?">
-                                <p>Bien sûr ! Sur un site internet, tout est possible. En effet, ajouter des fonctionnalités à destination des utilisateurs, ou bien en vue d’optimiser la gestion de votre entreprise via un outil numérique, est une réalité. Pour ceci, nous vous invitons à vous rediriger vers notre page sur la création de site internet sur-mesure pour obtenir plus d’informations à ce propos. En fonction de vos besoins et des spécificités de votre projet, nous déterminerons tout ce qui va être nécessaire pour vous permettre d’accéder à un site qui vous ressemble et qui sera utile pour votre entreprise.</p>
+                                <p>Bien sûr ! Sur un <strong>site internet</strong>, tout est possible. En effet, ajouter des fonctionnalités à destination des utilisateurs, ou bien en vue d’optimiser la gestion de votre entreprise via un <strong>outil numérique</strong>, est une réalité. Pour ceci, nous vous invitons à vous rediriger vers notre <strong><Link to="/creation-de-site-internet-47-31">page sur la création de site internet sur-mesure</Link></strong> pour obtenir plus d’informations à ce propos. En fonction de vos besoins et des spécificités de votre projet, nous déterminerons tout ce qui va être nécessaire pour vous permettre d’accéder à un site qui vous ressemble et qui sera utile pour votre entreprise.</p>
                                 </div>
                             </Accordion>
                         </div>

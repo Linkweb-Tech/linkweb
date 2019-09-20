@@ -67,7 +67,7 @@ class ReferencementToulouse extends React.Component {
                             Référencement Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
                         <h3 className="italic text-2xl text-white">Sortez de l’ombre, devenez visible sur les moteurs de recherche grâce au référencement</h3>
-                        <RoundButton url="#" text="Je veux améliorer ma visibilité sur internet" />
+                        <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer ma visibilité sur internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -80,26 +80,31 @@ class ReferencementToulouse extends React.Component {
                         <div className="w-1/5" data-aos='fade-up'>
                             <img
                                 src={peugeot}
+                                alt="Référencement Toulouse"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
                             <img
                                 src={normand}
+                                alt="Référencement Agen"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='400'>
                             <img
                                 src={onco}
+                                alt="Agence Référencement Toulouse"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='600'>
                             <img
                                 src={tlse}
+                                alt="Référencement Toulouse"
                             />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='800'>
                             <img
                                 src={sdis}
+                                alt="Référencement Agen"
                             />
                         </div>
                         <div className="w-full" data-aos='zoom-in'>
@@ -109,35 +114,34 @@ class ReferencementToulouse extends React.Component {
                     <section className="flex-wrap flex w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className=" font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h3 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h3>
-                            <p>Vous souhaitez augmenter votre visibilité dans les pages de recherche de Google ? Vous souhaitez générer du trafic sur votre site internet, vendre vos produits ou obtenir des contacts ? Le référencement naturel vous offre la possibilité de mettre en avant votre entreprise.</p>
+                            <p>Vous souhaitez <strong>augmenter votre visibilité</strong> dans les <strong>pages de recherche de Google</strong> ? Vous souhaitez <strong>générer du trafic sur votre site internet</strong>, vendre vos produits ou obtenir des contacts ? Le <strong>référencement naturel</strong> vous offre la possibilité de mettre en avant votre entreprise.</p>
                             <RoundButton url="/referencement-de-site-internet-47-31" text="Notre offre de Référencement Naturel" />
                         </div>
                         <div className="font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h3 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h3>
-                            <p>Vous souhaitez obtenir un retour sur investissement grâce à votre boutique en ligne ou votre site vitrine ? Mener une campagne sponsorisée permet de propulser votre visibilité sur Google en un temps record, et ainsi, atteindre vos objectifs de conversion.</p>
-                            <RoundButton url="#" text="Notre offre de Référencement Ads" />
+                            <p>Vous souhaitez obtenir un <strong>retour sur investissement</strong> grâce à votre <strong>boutique en ligne</strong> ou votre <strong>site vitrine</strong> ? Mener une campagne sponsorisée permet de propulser votre visibilité sur Google en un temps record, et ainsi, atteindre vos objectifs de conversion.</p>
+                            <RoundButton url="/agence-adwords-47-31/" text="Notre offre de Référencement Ads" />
                         </div>
 
                     </section>
                     <section className="flex w-full mx-auto px-4 py-6 my-4">
                         <div className="w-1/2">
-                            <img src={imac} />
+                            <img src={imac} alt="Référencement Toulouse" />
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>RÉFÉRENCEMENT : OBTENIR UNE MEILLEURE VISIBILITÉ GRÂCE AU RÉFÉRENCEMENT À AGEN
                             </h3>
-                            <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Référencer son site, c’est donner vie à sa communication digitale pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité.</strong>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
+                                <span className="font-bold">Référencer son site, c’est donner vie à sa communication digitale pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité.</span>
                             </h4>
-                            <p data-aos='fade-bottom'>
-                                Optimiser le référencement de son site, en naturel ou sponsorisé, s’inscrit dans la continuité de la création de votre site internet. C’est pourquoi, tout doit être pensé, de la conception technique du site, jusqu’à l’arborescence afin d’attirer un grand nombre de clients potentiels. <br/>
+                            <p data-aos='fade-bottom' className="text-justify">
+                            <strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <strong><Link to="/creation-site-internet-toulouse">création de votre site internet</Link></strong>. C’est pourquoi, tout doit être pensé, de la <strong>conception technique</strong> du site, jusqu’à l’<strong>arborescence</strong> afin d’attirer un grand nombre de clients potentiels. <br/><br/>
 
-Nos consultants d’Agen (47) vous apportent une expertise qualifiée pour vous accompagner au mieux dans le développement et l’optimisation de votre site internet. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/>
+                            <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong><Link to="/creation-de-site-internet-47-31">développement</Link></strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/><br/>
 
-De fait, il est nécessaire de faire preuve de régularité et de rigueur quant au travail qui est à réaliser, aussi bien en termes de référencement naturel, que de référencement payant. <br/>
+                                De fait, il est nécessaire de faire preuve de régularité et de rigueur quant au travail qui est à réaliser, aussi bien en termes de <strong><Link to="/referencement-de-site-internet-47-31">référencement naturel</Link></strong>, que de <strong><Link to="/agence-adwords-47-31">référencement payant</Link></strong>. <br/>
                             </p>
-                            <Button url="#" text="En savoir plus sur le référencement naturel SEO" position="start" />
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -152,11 +156,11 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT
                                 </h3>
-                                    <div className="content pb-6">
-                                        Faire appel à une agence de référencement naturel, c’est faire le choix d’un partenaire pour l’avenir. Une stratégie de référencement naturel a plusieurs objectifs. Acquisition de trafic, obtention de contacts, e-réputation. Un référencement optimal de son site est essentiel.
+                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                        Faire appel à une <strong>agence de référencement naturel</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. Acquisition de <strong>trafic</strong>, obtention de <strong>contacts</strong>, <strong>e-réputation</strong>. Un <strong>référencement optimal de son site</strong> est essentiel.
                                 </div>
                                     <Button url="/contact-agence-web-toulouse" text="En savoir plus" position="center" />
 
@@ -167,11 +171,11 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR TROUVER MA SOLUTION
                                 </h3>
-                                    <div className="content pb-6">
-                                        Plusieurs techniques de référencement SEO/SEA existent pour positionner son site internet dans les premiers résultats des premières pages et atteindre la première page ou en première position des SERP de Google : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
+                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                        Plusieurs <strong>techniques de référencement SEO/SEA</strong> existent pour positionner son <strong>site internet</strong> dans les <strong>premiers résultats des premières pages et atteindre la première page</strong> ou en <strong>première position</strong> des <strong>SERP de Google</strong> : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
                                 </div>
                                     <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </section>
@@ -181,13 +185,13 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE FAIS LE CHOIX D’EXPERTS POUR OPTIMISER MA VISIBILITÉ
                                 </h3>
-                                    <div className="content pb-6">
-                                       Nos consultants d’Agen (47) vous apportent une expertise qualifiée pour vous accompagner au mieux dans le développement et l’optimisation de votre site internet.
+                                <br/><div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et l’<strong>optimisation de votre site internet</strong>.
                                 </div>
-                                    <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
+                                    <br/><Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
                                 </section>
 
                             </div>
@@ -206,19 +210,19 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                         <ul className="mt-6 pl-6">
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Optimisation interne de votre site : votre contenu doit être le plus pertinent.
+                                <strong>Optimisation interne de votre site</strong> : votre contenu doit être le plus <strong>pertinent</strong>.
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Optimisation des liens externes : votre site doit être populaire.
+                                <strong>Optimisation des liens externes</strong> : votre site doit être populaire.
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Optimisation de la recherche locale : votre site doit être vu par vos clients les plus proches.
+                                <strong>Optimisation de la recherche locale</strong> : votre site doit être vu par vos clients les plus proches.
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                               Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.
+                                <strong><Link to="/agence-adwords-47-31">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong>
                             </li>
                         </ul>
                         <div className="w-full flex text-center my-12">
@@ -237,6 +241,7 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                                 <img
                                     src={diagram}
                                     width="60px"
+                                    alt="Rapport de positionnement"
                                 />
                                 <p className="text-xl century pt-3">1 rapport complet sur votre positionnement</p>
                             </div>
@@ -244,6 +249,7 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                                 <img
                                     src={analysis}
                                     width="60px"
+                                    alt="audit SEO"
                                 />
                                 <p className="text-xl century pt-3">1 rapport pertinent de vos statistiques de visites</p>
                             </div>
@@ -251,15 +257,16 @@ De fait, il est nécessaire de faire preuve de régularité et de rigueur quant 
                                 <img 
                                     src={contract}
                                     width="60px"
+                                    alt="Référencement SEO"
                                 />
                                 <p className="text-xl century pt-3">1 étude des conversions obtenues</p>
                             </div>
                         </div>
                     </section>
                     <section className="flex w-full max-w-4xl mx-auto text-center justify-center">
-                        Votre site internet est le reflet de votre entreprise en ligne. Notre agence SEO de référencement web travaille dans le but de faire progresser la visibilité de votre société dans les résultats de recherche et ainsi, d’augmenter votre notoriété à travers une création au design professionnel, moderne et épuré. <br/>
+                    <strong>Votre site internet</strong> est le reflet de votre entreprise en ligne. Notre <strong>agence SEO</strong> de <strong>référencement web</strong> travaille dans le but de faire progresser la <strong>visibilité</strong> de votre société dans les <strong>résultats de recherche</strong> et ainsi, d’<strong>augmenter votre notoriété</strong> à travers une création au design professionnel, moderne et épuré. <br/><br/>
 
-ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’est pas une science exacte. Néanmoins, nous mettons tout en oeuvre pour vous apporter un site web optimisé et la meilleure visibilité possible.<br/>
+                        <b>ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’est pas une science exacte. Néanmoins, nous mettons tout en oeuvre pour vous apporter un site web optimisé et la meilleure visibilité possible.</b><br/>
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
@@ -275,16 +282,16 @@ ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’e
 
                         <div className="max-w-6xl mx-auto flex items-start text-center my-12">
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
-                                <img src={laptop} width="80px" />
+                                <img src={laptop} width="80px" alt="Référencement Naturel" />
                                 <p className="text-xl text-white century pt-3">WEBMARKETING</p>
                             </div>
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
                                 
-                                <img src={web} width="80px" />
+                                <img src={web} width="80px" alt="Référencement Naturel"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
-                                <img src={bullhorn} width="80px" />
+                                <img src={bullhorn} width="80px" alt="Référencement Google Ads" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
                         </div>
@@ -323,6 +330,7 @@ ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’e
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
+                                alt="Avis Google"
                             />
                             <div className="text-lg century my-2">Contis Equitation</div>
                             <div className="italic">« Très bonne équipe sérieuse qui est à l’écoute de nos attentes. Le suivi est super, ils ne font pas QUE vous créer un site web, ils conseillent, donnent leurs idées, font des recherches et des créations pour vous et tout ça avec rapidité ! Je recommande cette entreprise qui m’a apporté une bonne partie de ma clientèle »</div>
@@ -331,6 +339,7 @@ ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’e
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
+                                alt="Avis Google"
                             />
                             <div className="text-lg century my-2">AVS Moto</div>
                             <div className="italic">« Linkweb s’occupe du référencement de notre site depuis 4 ans ! Cette agence Web est très compétente dans le domaine, le suivi ainsi que le rapport avec sa clientèle en font sans nul doute l’une des meilleures agences de la région, je recommande sans hésitation »</div>
@@ -339,6 +348,7 @@ ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’e
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
+                                alt="Avis Google"
                             />
                             <div className="text-lg century my-2">Casino de Barbotan</div>
                             <div className="italic">« Superbe gestion de mon dossier depuis ma prise de poste grâce à Marine et depuis peu Dorian a repris le dossier et tout se passe pour le mieux merci à vous pour l’attention particulière que vous portez à chacun de vos clients, continuez comme ceci. »</div>
@@ -352,8 +362,8 @@ ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’e
                                 to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Voir plus de témoignages
-                            </Link>
-                            |
+                            </Link>&nbsp;
+                            |&nbsp;
                             <Link
                                 className="century text-sm hover:text-bleu"
                                 to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"

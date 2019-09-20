@@ -52,7 +52,7 @@ class ReferencementNaturel extends React.Component {
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(0,0,0,0.2)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="#" text="Je veux améliorer la visibilité de mon site internet" />
+                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer la visibilité de mon site internet" />
                         </div>
                         <div className="w-2/3" style={{padding:'2%'}}>
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
@@ -83,15 +83,15 @@ class ReferencementNaturel extends React.Component {
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>AGENCE DE RÉFÉRENCEMENT : OPTEZ POUR LE NATUREL AVEC NOTRE AGENCE À AGEN
                             </h3>
-                            <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Être visible sur les moteurs de recherche demande un travail de référencement précis pour améliorer son positionnement.</strong>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
+                                <span className="font-bold">Être visible sur les moteurs de recherche demande un travail de référencement précis pour améliorer son positionnement.</span>
                             </h4>
-                            <p data-aos='fade-bottom' style={{textAlign:'justify'}}>Le référencement naturel SEO de votre site internet, qui se distingue du référencement payant Google Adwords est travaillé de manière régulière et constante pour obtenir le meilleur classement, et cela toujours en prenant en compte les objectifs de développement de votre entreprise.
+                            <p data-aos='fade-bottom' className="text-justify">Le <strong>référencement naturel SEO</strong> de votre <strong>site internet</strong>, qui se distingue du <strong><Link to="/agence-adwords-47-31">référencement payant Google Adwords</Link></strong> est travaillé de manière régulière et constante pour obtenir le meilleur classement, et cela toujours en prenant en compte les objectifs de développement de votre entreprise.
                             <br/><br/>
-                            Nous maintenons une mise à jour régulière des pages web de votre site internet, de la conception technique à la gestion de votre référencement naturel avec les optimisations de balises et autres techniques de référencement (maillage interne, liens entrants, balise meta, contenu de qualité) qui vous permettront de vous positionner dans les premiers résultats naturels des pages de résultats des moteurs de recherche pour un mot clé donné en vue d’une acquisition de trafic et de maximiser votre taux de conversion.</p>
+                            Nous maintenons une <strong>mise à jour régulière des pages web de votre site internet</strong>, de la conception technique à la gestion de votre <strong>référencement naturel</strong> avec les <strong>optimisations de balises</strong> et autres <strong>techniques de référencement</strong> (<strong>maillage interne</strong>, <strong>liens entrants</strong>, <strong>balise meta</strong>, contenu de qualité) qui vous permettront de vous <strong>positionner dans les premiers résultats naturels des pages de résultats des moteurs de recherche</strong> pour un mot clé donné en vue d’une <strong>acquisition de trafic</strong> et de maximiser votre <strong>taux de conversion</strong>.</p>
                         </div>
                         <div className="w-1/2" style={{padding:'5% 0%'}}>
-                            <img src={imac} />
+                            <img src={imac} alt="Référencement Naturel Agen" />
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -102,7 +102,7 @@ class ReferencementNaturel extends React.Component {
                         
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <p className="text-xl font-bold century text-center">Votre site internet est le reflet de votre entreprise en ligne. Notre agence SEO de référencement web travaille dans le but de faire progresser la visibilité de votre société dans les résultats de recherche et votre notoriété à travers une création au design professionnel, moderne et épuré.</p>
+                        <p className="text-xl font-bold century text-center"><strong>Votre site internet</strong> est le reflet de votre entreprise en ligne. Notre <strong>agence SEO de référencement web</strong> travaille dans le but de faire progresser la visibilité de votre société dans les <strong>résultats de recherche</strong> et votre notoriété à travers une création au design professionnel, moderne et épuré.</p>
                         <br/>
                         <div className="w-full flex text-center my-6">
                             <div className="w-1/4 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
@@ -164,11 +164,11 @@ class ReferencementNaturel extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT NATUREL
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Le référencement naturel (SEO) se distingue du référencement payant ou référencement Google Ads. Si ce dernier se concentre sur la sponsorisation de liens, le SEO demande d’être rigoureux, régulier et attentif pour faire progresser un site sur les moteurs de recherche.
+                                Le <strong>référencement naturel (SEO)</strong> se distingue du <strong>référencement payant</strong> ou <strong>référencement Google Ads</strong>. Si ce dernier se concentre sur la <strong>sponsorisation de liens</strong>, le <strong>SEO</strong> demande d’être rigoureux, régulier et attentif pour faire progresser un site sur les <strong>moteurs de recherche</strong>.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Découvrir le SEO" position="center" />
 
@@ -179,11 +179,11 @@ class ReferencementNaturel extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Vous souhaitez mettre en place une stratégie de référencement naturel pour améliorer la visibilité de votre site internet ? Nous définissons les contours de votre projet pour vous permettre de mettre en place une stratégie efficace selon vos besoins.
+                                Vous souhaitez mettre en place une <strong>stratégie de référencement naturel</strong> pour <strong>améliorer la visibilité de votre site internet</strong> ? Nous définissons les contours de votre projet pour vous permettre de mettre en place une stratégie efficace selon vos besoins.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </section>
@@ -193,11 +193,11 @@ class ReferencementNaturel extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEO
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Optez pour la mise en place de votre stratégie de référencement naturel. Des consultants SEO vous accompagnent pour déterminer les objectifs de la création de votre site internet qui vous permettra d’optimiser votre visibilité en ligne, dans le but d'obtenir des contacts, ou bien de vendre vos produits.
+                                Optez pour la mise en place de votre <strong>stratégie de référencement naturel</strong>. Des <strong>consultants SEO</strong> vous accompagnent pour déterminer les objectifs de la <strong>création de votre site internet</strong> qui vous permettra d’<strong>optimiser votre visibilité en ligne</strong>, dans le but d'obtenir des contacts, ou bien de vendre vos produits.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
                                 </section>
@@ -206,7 +206,7 @@ class ReferencementNaturel extends React.Component {
 
                         </div>
                     </section>
-                    <section className="w-full h-screen flex flex-col justify-center items-center px-4 pt-12 pb-0 bg-cover" style={{backgroundColor:'#3c3c3c', color:'white'}}>
+                    <section className="w-full h-screen flex flex-col justify-center items-center px-4 pt-12 pb-0 bg-cover text-justify" style={{backgroundColor:'#3c3c3c', color:'white'}}>
                         <div className="w-full">
                             <h2 data-aos='fade-right' className="text-center text-3xl century">
                             <span className="text-bleu">/</span>RÉFÉRENCEMENT SEO (Search Engine Optimization)
@@ -219,9 +219,9 @@ class ReferencementNaturel extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Définir vos besoins de façon précise, en termes de visibilité, est important pour faire le choix des priorités pour déterminer la structure de votre site.</strong>
+                                <span className="font-bold">Définir vos besoins de façon précise, en termes de visibilité, est important pour faire le choix des priorités pour déterminer la structure de votre site.</span>
                             </h4>
-                            <p>Nous mettons en place une stratégie de référencement naturel basée sur vos besoins en termes de visibilité. C’est pourquoi il est important de les définir le plus précisément possible, et ce, dès le départ. Le référencement naturel est un travail de longue haleine, c’est pourquoi il est nécessaire de s’appuyer sur des bases pérennes.</p>
+                            <p>Nous mettons en place une <strong>stratégie de référencement naturel</strong> basée sur vos besoins en termes de <strong>visibilité</strong>. C’est pourquoi il est important de les définir le plus précisément possible, et ce, dès le départ. Le <strong>référencement naturel</strong> est un travail de longue haleine, c’est pourquoi il est nécessaire de s’appuyer sur des bases pérennes.</p>
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -229,9 +229,9 @@ class ReferencementNaturel extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Réaliser une étude de la concurrence est nécessaire pour se positionner le plus précisément sur les bons mots-clés et être visible.</strong>
+                                <span className="font-bold">Réaliser une étude de la concurrence est nécessaire pour se positionner le plus précisément sur les bons mots-clés et être visible.</span>
                             </h4>
-                            <p>Nous disposons d’un outil complet pour étudier votre concurrence en ligne afin d’être toujours en première page et référencer votre site sur les mots clés de vos concurrents. Nous devons savoir contre quoi et contre qui nous nous battons.</p>
+                            <p>Nous disposons d’un outil complet pour étudier votre <strong>concurrence en ligne</strong> afin d’être toujours en <strong>première page</strong> et <strong>référencer votre site</strong> sur les mots clés de vos concurrents. Nous devons savoir contre quoi et contre qui nous nous battons.</p>
                         </div>
                         </div>
                         <div className="w-full flex flex-row mx-auto px-4 py-6 my-4" style={{padding:'25px 200px 25px 200px', marginRight:'300px'}}>
@@ -243,7 +243,7 @@ class ReferencementNaturel extends React.Component {
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
                                 <strong className="font-bold">Maîtriser son SEO, c’est vous permettre de connaître le potentiel de votre site internet en termes de retour sur investissement.</strong>
                             </h4>
-                            <p>Votre référencement Google doit être pertinent, il est étudié en fonction d’indicateurs de performance. Notre objectif est de vous apporter un maximum de contacts pour vous permettre d’obtenir un retour sur investissement sur le long terme grâce à votre présence dans les premiers résultats des moteurs de recherches.</p>
+                            <p>Votre <strong>référencement Google</strong> doit être pertinent, il est étudié en fonction d’indicateurs de performance. Notre objectif est de vous apporter un maximum de contacts pour vous permettre d’obtenir un <strong>retour sur investissement</strong> sur le long terme grâce à votre présence dans les <strong>premiers résultats des moteurs de recherches</strong>.</p>
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -251,9 +251,9 @@ class ReferencementNaturel extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Évaluer sa stratégie de référencement naturel est essentiel pour déterminer son efficacité. Les statistiques sont là pour vous guider.</strong>
+                                <span className="font-bold">Évaluer sa stratégie de référencement naturel est essentiel pour déterminer son efficacité. Les statistiques sont là pour vous guider.</span>
                             </h4>
-                            <p>Nous élaborons une stratégie de référencement naturel cohérente avec vos objectifs. Grâce à une collaboration constante et régulière avec votre référenceur, le référencement d’un site se fait selon le développement de votre entreprise et son activité.</p>
+                            <p>Nous élaborons une <strong>stratégie de référencement naturel</strong> cohérente avec vos objectifs. Grâce à une collaboration constante et régulière avec votre <strong>référenceur</strong>, le <strong>référencement d’un site</strong> se fait selon le développement de votre entreprise et son activité.</p>
                         </div>
                         </div>
                     </section>
@@ -359,14 +359,14 @@ class ReferencementNaturel extends React.Component {
                         <div className="w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="GOOGLE PANDA">
-                                <p>nous impose une qualité irréprochable du contenu avec un champ sémantique riche autour des mots clés. Nous devons rédiger du contenu optimisé selon les mots clés à travailler en lien avec la thématique de chaque page. Nos mots d’ordres : rédaction, rédaction et rédaction.</p>
+                                <p>nous impose une qualité irréprochable du contenu avec un champ sémantique riche autour des mots clés. Nous devons rédiger du <strong>contenu optimisé selon les mots clés</strong> à travailler en lien avec la thématique de chaque page. Nos mots d’ordres : rédaction, rédaction et rédaction.</p>
                                 </div>
                                 <div label="GOOGLE PINGOUIN">
-                                <p>analyse les liens externes c’est à dire les liens qui renvoient vers votre site internet. Ces backlinks (liens retours) doivent être qualitatifs : s’ils sont de mauvaises qualités, Penguin vous pénalise, sinon cela apporte de la popularité et de la force à votre site internet.
-                                Nos objectifs : créer votre réseau de netlinking en vous inscrivant sur tous les sites internet et annuaires qui parlent d’entreprises comme la vôtre évoluant dans le même secteur d’activité…nous vous mêlons à vos concurrents présents sur le web !</p>
+                                <p>analyse les <strong>liens externes</strong> c’est à dire les liens qui renvoient vers votre site internet. Ces <strong>backlinks</strong> (liens retours) doivent être qualitatifs : s’ils sont de mauvaises qualités, <strong>Penguin</strong> vous pénalise, sinon cela apporte de la popularité et de la force à votre site internet.
+                                Nos objectifs : <strong>créer votre réseau de netlinking</strong> en vous inscrivant sur tous les <strong>sites internet et annuaires</strong> qui parlent d’entreprises comme la vôtre évoluant dans le même secteur d’activité… nous vous mêlons à vos concurrents présents <strong>sur le web</strong> !</p>
                                 </div>
                                 <div label="GOOGLE PIGEON">
-                                <p>se concentre sur le référencement local en utilisant les informations des établissements en fonction de leurs lieux géographiques. La personne qui cherche un professionnel comme vous en se trouvant près de chez vous…doit tout simplement vous trouver !</p>
+                                <p>se concentre sur le <strong>référencement local</strong> en utilisant les informations des établissements en fonction de leurs lieux géographiques. La personne qui cherche un professionnel comme vous en se trouvant près de chez vous… doit tout simplement vous trouver !</p>
                                 </div>
                             </Accordion>
                         </div>

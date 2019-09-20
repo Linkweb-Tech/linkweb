@@ -54,7 +54,7 @@ class MentionsLegales extends React.Component {
                             Mentions Légales
                         </h1>
                         <h3 className="italic text-2xl text-white">Vous êtes à la recherche de professionnels du web ?</h3>
-                        <RoundButton url="#" text="Contactez-nous" />
+                        <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -72,7 +72,7 @@ class MentionsLegales extends React.Component {
                         </h2>
                         <hr className="blue"></hr>
                     
-                    <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Le site linkweb.fr ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu. Les risques liés à l’utilisation de ces sites incombent pleinement à l’utilisateur. Il se conformera à leurs conditions d’utilisation.</p>
+                    <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Le site <b>linkweb.fr</b> ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu. Les risques liés à l’utilisation de ces sites incombent pleinement à l’utilisateur. Il se conformera à leurs conditions d’utilisation.</p>
 
                     <h2 data-aos='fade-right' className="text-center text-4xl century">
                     Collecte de Cookies
@@ -117,7 +117,7 @@ class MentionsLegales extends React.Component {
                         Droit d’accès, de rectification ou suppression des données personnelles
                         </h2>
                         <hr className="blue"></hr>
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le formulaire de contact du site ou sur simple demande par email à <Link to="mailto:contact@linkweb.fr">contact@linkweb.fr</Link> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
+                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le <Link to="/contact-agence-web-toulouse">formulaire de contact du site</Link> ou sur simple demande par email à <Link to="mailto:contact@linkweb.fr">contact@linkweb.fr</Link> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
                         </p>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Éditeur
@@ -130,7 +130,7 @@ class MentionsLegales extends React.Component {
                         Code APE/NAF : 6201Z<br/>
                         Convention : Programmation informatique<br/>
                         Siège social : 10, rue Albert Ferrasse 47550 Boé<br/>
-                        N° de téléphone : 05 33 95 00 30</p>
+                        N° de téléphone : <Link to="tel:0533950030">05 33 95 00 30</Link></p>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Directeur de publication
                         </h2>
@@ -144,7 +144,7 @@ class MentionsLegales extends React.Component {
                         SARL au capital de 7 000 Euros<br/>
                         RCS : Agen B 509 580 585<br/>
                         Siège social : 10, rue Albert Ferrasse 47550 Boé<br/>
-                        N° de téléphone : 05 33 95 00 30</p>
+                        N° de téléphone : <Link to="tel:0533950030">05 33 95 00 30</Link></p>
                     </section>
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>

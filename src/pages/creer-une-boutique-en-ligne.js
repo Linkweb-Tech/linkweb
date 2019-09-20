@@ -52,7 +52,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.8)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="#" text="Je veux vendre mes produits en ligne" />
+                            <RoundButton url="contact-agence-web-toulouse/" text="Je veux vendre mes produits en ligne" />
                         </div>
                         <div className="w-2/3" style={{padding:'2%'}}>
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
@@ -84,17 +84,17 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉER UNE BOUTIQUE EN LIGNE : OPTEZ POUR LE E-COMMERCE
                             </h3>
-                            <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <strong className="font-bold">Développer son commerce en ligne, c’est faire appel à un outil puissant pour atteindre une cible élargie et de potentiels nouveaux clients potentiels.</strong>
                             </h4>
-                            <p data-aos='fade-bottom' style={{textAlign:'justify'}}>La création d’un site de vente en ligne via la solution e-commerce ne remplace pas votre boutique physique : elle est complémentaire ! Avoir sa propre boutique en ligne permet d’apporter de la visibilité à son commerce, à ses produits, et ainsi acquérir une certaine notoriété pour aller chercher de nouveaux clients.
+                            <p data-aos='fade-bottom' style={{textAlign:'justify'}}>La <strong>création d’un site de vente en ligne</strong> via la solution <strong>e-commerce</strong> ne remplace pas votre boutique physique : elle est complémentaire ! Avoir sa propre <strong>boutique en ligne</strong> permet d’apporter de la <strong>visibilité à son commerce</strong>, à ses produits, et ainsi acquérir une certaine notoriété pour aller chercher de nouveaux clients.
                             <br/><br/>
-                            Un site à la fois rassurant, attractif et intuitif va vous permettre de gagner la confiance des internautes et ainsi, booster votre taux de conversion. Faire appel à des professionnels de confiance pour la mise en place de son site marchand est fortement recommandé de ce point de vue.
+                            Un site à la fois rassurant, attractif et intuitif va vous permettre de gagner la confiance des internautes et ainsi, booster votre <strong>taux de conversion</strong>. Faire appel à des professionnels de confiance pour la mise en place de son <strong>site marchand</strong> est fortement recommandé de ce point de vue.
                             <br/><br/>
-                            Choix des moyens de paiements, avis clients, gestion des stocks, fiches produits : en développant votre boutique en ligne, vous optimisez la vente de vos produits phares.</p>
+                            Choix des moyens de paiements, avis clients, gestion des stocks, fiches produits : en développant votre <strong>boutique en ligne</strong>, vous optimisez la vente de vos produits phares.</p>
                         </div>
                         <div className="w-1/2" style={{padding:'5% 0%'}}>
-                            <img src={imac} />
+                            <img src={imac} alt="Créer une boutique en ligne à Toulouse"/>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -162,9 +162,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Inciter les internautes à acheter sur votre site internet va nécessiter de mettre en place une plateforme e-commerce qui inspire la confiance.</strong>
+                                <span className="font-bold">Inciter les internautes à acheter sur votre site internet va nécessiter de mettre en place une plateforme e-commerce qui inspire la confiance.</span>
                             </h4>
-                            <p>Nous mettons en place un site internet au web design ergonomique, moderne et intuitif. Avoir une boutique en ligne nécessite une certaine exigence pour pousser les utilisateurs à passer commande en toute confiance. Nous mettons en place un visuel attractif pour votre site e-commerce.</p>
+                            <p>Nous mettons en place un <strong>site internet au web design ergonomique</strong>, <strong>moderne</strong> et <strong>intuitif</strong>. <strong>Avoir une boutique en ligne</strong> nécessite une certaine exigence pour pousser les utilisateurs à passer commande en toute confiance. Nous mettons en place un visuel attractif pour <strong>votre site e-commerce</strong>.</p>
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -172,10 +172,10 @@ class CreerBoutiqueEnLigne extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Créer une fiche produit, c’est considérer à la fois les besoins des utilisateurs, mais aussi la possibilité d’optimiser votre visibilité via le référencement naturel.</strong>
+                                <span className="font-bold">Créer une fiche produit, c’est considérer à la fois les besoins des utilisateurs, mais aussi la possibilité d’optimiser votre visibilité via le référencement naturel.</span>
                             </h4>
-                            <p>Nous vous donnons la possibilité de créer des fiches produits très détaillées, vous permettant d’inclure de nombreuses caractéristiques pour décrire vos produits : des générales aux plus techniques, passez tout en revue pour donner envie à vos utilisateurs de commander sur votre site.</p>
-                            <Button url="#" text="En savoir plus sur les fiches produits" position="left" />
+                            <p>Nous vous donnons la possibilité de <strong>créer des fiches produits</strong> très détaillées, vous permettant d’inclure de nombreuses caractéristiques pour décrire vos produits : des générales aux plus techniques, passez tout en revue pour donner envie à vos utilisateurs de <strong>commander sur votre site</strong>.</p>
+                            <Button url="/blog/comment-faire-une-fiche-produit/" text="En savoir plus sur les fiches produits" position="left" />
                         </div>
                         </div>
                         <div className="w-full flex flex-row mx-auto px-4 py-6 my-4" style={{padding:'25px 200px 25px 200px', marginRight:'300px'}}>
@@ -185,10 +185,10 @@ class CreerBoutiqueEnLigne extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Mettre en place une boutique en ligne, c’est être capable de comprendre son interface pour être en mesure de l’appréhender.</strong>
+                                <span className="font-bold">Mettre en place une boutique en ligne, c’est être capable de comprendre son interface pour être en mesure de l’appréhender.</span>
                             </h4>
-                            <p>Nous vous formerons à l’utilisation du back office de votre site internet e-commerce : visualiser les dernières ventes, gérer vos stocks, ajouter ou modifier des fiches produits. Nous vous accompagnons pour mener votre projet clé en main.</p>
-                            <Button url="#" text="En savoir plus sur le back-office" position="left" />
+                            <p>Nous vous formerons à l’utilisation du <strong>back office de votre site internet e-commerce</strong> : visualiser les dernières ventes, gérer vos stocks, ajouter ou modifier des fiches produits. Nous vous accompagnons pour mener votre projet clé en main.</p>
+                            <Button url="/blog/quest-ce-quun-back-office-et-quelle-est-son-utilite" text="En savoir plus sur le back-office" position="left" />
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -196,9 +196,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Vous n’avez pas confiance dans le commerce électronique ? Linkweb s’occupe d’effectuer la maintenance de votre site pour vous prémunir de tout désagrément.</strong>
+                                <span className="font-bold">Vous n’avez pas confiance dans le commerce électronique ? Linkweb s’occupe d’effectuer la maintenance de votre site pour vous prémunir de tout désagrément.</span>
                             </h4>
-                            <p>Prestashop, Woocommerce (WordPress), ou encore Shopify, nous maîtrisons l’ensemble de ces outils pour vous assurer une maintenance technique continue. En cas de problème technique, vous aurez affaire à une équipe réactive et efficace.</p>
+                            <p><strong>Prestashop</strong>, <strong>Woocommerce</strong> (<strong>WordPress</strong>), ou encore <strong>Shopify</strong>, nous maîtrisons l’ensemble de ces outils pour vous assurer une <strong>maintenance technique</strong> continue. En cas de problème technique, vous aurez affaire à une équipe réactive et efficace.</p>
                         </div>
                         </div>
                     </section>
@@ -214,11 +214,11 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE DÉFINIS LES CONTOURS DE MON PROJET
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                À l’image de l’ensemble des projets web que nous mettons en place, nous avons besoin de connaître vos objectifs, vos cibles, votre positionnement et la nature de votre activité pour vous permettre d’accéder à la solution e-commerce la plus adaptée à votre entreprise.
+                                À l’image de l’ensemble des <strong>projets web</strong> que nous mettons en place, nous avons besoin de connaître vos objectifs, vos cibles, votre positionnement et la nature de votre activité pour vous permettre d’accéder à la <strong>solution e-commerce</strong> la plus adaptée à votre entreprise.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
 
@@ -229,11 +229,11 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS AVEC UN PROFESSIONNEL
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois vos besoins déterminés, nous établissons les contours de votre projet en déterminant les outils marketing les plus adaptés à votre site. Nos équipes détermineront votre stratégie pour obtenir un site internet efficace.
+                                Une fois vos besoins déterminés, nous établissons les contours de votre projet en déterminant les outils marketing les plus adaptés à votre site. Nos équipes détermineront votre stratégie pour <strong>obtenir un site internet</strong> efficace.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </section>
@@ -243,11 +243,11 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE SUIS FORMÉ(E) À LA GESTION DE MA BOUTIQUE EN LIGNE
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois votre projet bâti et votre site prêt à être mis en ligne, nous vous formerons à utiliser la face cachée de votre boutique : gérer vos stocks, ajouter vos produits, suivre l’évolution de vos ventes. Vous pourrez gérer votre site e-commerce en totale autonomie.
+                                Une fois votre projet bâti et <strong>votre site</strong> prêt à être mis en ligne, nous vous formerons à utiliser la face cachée de votre boutique : gérer vos stocks, ajouter vos produits, suivre l’évolution de vos ventes. Vous pourrez <strong>gérer votre site e-commerce</strong> en totale autonomie.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
                                 </section>
@@ -358,13 +358,13 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <div className="w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="QUELS OUTILS UTILISER POUR CRÉER MA BOUTIQUE EN LIGNE ?">
-                                <p>Certains outils proposent la création de votre boutique en ligne de façon très simple et rapide. Néanmoins, ce type de plateforme va proposer des fonctionnalités qui ne vous permettront pas d’avoir la main totalement sur votre site internet. En tant qu’agence spécialisée dans la création de site internet e-commerce, nous recourons à des outils fiables permettant d’obtenir un suivi très détaillé, un design sur-mesure, une sécurisation optimale et des serveurs adaptés. Nous vous donnons également la possibilité de personnaliser vos fiches produits pour faire de votre boutique en ligne un site de confiance, rassurant et fiable.</p>
+                                <p>Certains outils proposent la <strong>création de votre boutique en ligne</strong> de façon très simple et rapide. Néanmoins, ce type de plateforme va proposer des fonctionnalités qui ne vous permettront pas d’avoir la main totalement <strong>sur votre site internet</strong>. En tant qu’<strong>agence spécialisée dans la création de site internet e-commerce</strong>, nous recourons à des outils fiables permettant d’obtenir un suivi très détaillé, un <strong>design sur-mesure</strong>, une <strong>sécurisation optimale</strong> et des <strong>serveurs adaptés</strong>. Nous vous donnons également la possibilité de <strong>personnaliser vos fiches produits</strong> pour faire de votre <strong>boutique en ligne</strong> un site de confiance, rassurant et fiable.</p>
                                 </div>
                                 <div label="COMMENT DONNER CONFIANCE AUX UTILISATEURS DE MA BOUTIQUE ?">
-                                <p>Avant d’acheter sur Internet, les consommateurs ont pour habitude de vérifier l’authenticité d’un site, ou bien de rechercher l’avis de clients ayant déjà commandé sur ce site pour se tourner vers un site de confiance. Cela passe par un webdesign ergonomique et intuitif du site internet, les avis clients, ou encore la transparence des informations. Nous vous accompagnons pour créer un site internet rassurant, présentant l’ensemble des informations nécessaires pour conforter les utilisateurs. Il faudra répondre à leur méfiance par une solution de qualité, pour leur permettre de commander un produit sur votre site internet en toute confiance.</p>
+                                <p>Avant d’<strong>acheter sur Internet</strong>, les consommateurs ont pour habitude de vérifier l’<strong>authenticité d’un site</strong>, ou bien de rechercher l’avis de clients ayant déjà commandé sur ce site pour se tourner vers un <strong>site de confiance</strong>. Cela passe par un <strong>webdesign ergonomique et intuitif du site internet</strong>, les <strong>avis clients</strong>, ou encore la transparence des informations. Nous vous accompagnons pour <strong>créer un site internet</strong> rassurant, présentant l’ensemble des informations nécessaires pour conforter les utilisateurs. Il faudra répondre à leur méfiance par une solution de qualité, pour leur permettre de <strong>commander un produit sur votre site internet</strong> en toute confiance.</p>
                                 </div>
                                 <div label="COMBIEN DE PRODUITS MA BOUTIQUE EN LIGNE PEUT-ELLE CONTENIR ?">
-                                <p>Autant que vous le souhaitez ! Il n’existe pas de limites quand au nombre de produits et de fiches produits pouvant être créées sur un site e-commerce. Nous vous formerons pour vous permettre d’être autonome de ce point de vue et vous offrir la possibilité d’ajouter vos dernières nouveautés de façon régulière afin de mettre en place un site très performant. La régularité de publication sur un site n’est pas gage de qualité, néanmoins, elle y contribue très largement.</p>
+                                <p>Autant que vous le souhaitez ! Il n’existe pas de limites quand au nombre de <strong>produits et de fiches produits</strong>. pouvant être créées sur un <strong>site e-commerce</strong>. Nous vous formerons pour vous permettre d’être autonome de ce point de vue et vous offrir la possibilité d’ajouter vos dernières nouveautés de façon régulière afin de mettre en place un site très performant. La régularité de publication sur un site n’est pas gage de qualité, néanmoins, elle y contribue très largement.</p>
                                 </div>
                             </Accordion>
                         </div>

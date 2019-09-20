@@ -52,7 +52,7 @@ class ReferencementAds extends React.Component {
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.6)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="#" text="Je veux propulser mon site sur Google" />
+                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux propulser mon site sur Google" />
                         </div>
                         <div className="w-2/3" style={{padding:'2%'}}>
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
@@ -80,21 +80,21 @@ class ReferencementAds extends React.Component {
                     </section>
                     <section className="flex w-full mx-auto px-4 py-6 my-4">
                         <div className="w-1/2 mt-6">
-                            <img src={imac} />
+                            <img src={imac} alt="Agence Adwords Toulouse"/>
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CAMPAGNES ADWORDS : SOYEZ <span className="text-bleu">ROI</span>
                             </h3>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Le référencement payant (SEA) peut-être source de retour sur investissement, encore faut-il bien l’utiliser.</strong>
+                                <span className="font-bold text-justify">Le référencement payant (SEA) peut-être source de retour sur investissement, encore faut-il bien l’utiliser.</span>
                             </h4>
-                            <p data-aos='fade-bottom'>Le référencement Google Ads se différencie du référencement naturel. En effet, vous allez obtenir une acquisition de trafic via des liens commerciaux et non pas via les résultats naturels sur les pages de Google. Maximisez votre taux de conversion et optimiser votre coût par clic grâce à notre expertise en gestion de campagnes Ads menée à travers une stratégie d’enchères performante. <br /><br />
-                            Le référencement payant, c’est l’acquisition de méthodes rentables pour mener ses campagnes Adwords, afin d’activer tous les leviers du retour sur investissement via la sponsorisation, mais aussi effectuer toutes les optimisations nécessaires, en termes de landing pages notamment, pour vous permettre de convertir.<br/><br/>
-                            Le SEA, c’est faire le choix des mots-clés qualifiés sur lesquels investir. C’est aussi la possibilité d’effectuer un ciblage précis selon divers paramètres dès la création votre campagne Google Adwords.</p>
+                            <p data-aos='fade-bottom' className="text-justify">Le <strong>référencement Google Ads</strong> se différencie du <strong>référencement naturel</strong>. En effet, vous allez obtenir une <strong>acquisition de trafic</strong> via des <strong>liens commerciaux</strong> et non pas via les <strong>résultats naturels</strong> sur les pages de Google. Maximisez votre <strong>taux de conversion</strong> et <strong>optimiser votre coût par clic</strong> grâce à notre expertise en <strong>gestion de campagnes Ads</strong> menée à travers une stratégie d’enchères performante. <br /><br />
+                            Le <strong>référencement payant</strong>, c’est l’acquisition de méthodes rentables pour mener ses <strong>campagnes Adwords</strong>, afin d’activer tous les leviers du <strong>retour sur investissement</strong> via la sponsorisation, mais aussi effectuer toutes les optimisations nécessaires, en termes de <strong>landing pages</strong> notamment, pour vous permettre de <strong>convertir</strong>.<br/><br/>
+                            Le <strong>SEA</strong>, c’est faire le <strong>choix des mots-clés</strong> qualifiés sur lesquels investir. C’est aussi la possibilité d’effectuer un ciblage précis selon divers paramètres dès la création votre <strong>campagne Google Adwords</strong>.</p>
                         </div>
                     </section>
-                    <section className="w-full h-screen flex flex-col justify-center items-center px-4 pt-12 pb-0 bg-cover" style={{backgroundColor:'#3c3c3c', color:'white'}}>
+                    <section className="w-full h-screen flex flex-col justify-center items-center px-4 pt-12 pb-0 bg-cover text-justify" style={{backgroundColor:'#3c3c3c', color:'white'}}>
                         <div className="w-full">
                             <h2 data-aos='fade-right' className="text-center text-3xl century">
                             <span className="text-bleu">/</span>Mise en place de votre campagne Adwords
@@ -107,9 +107,9 @@ class ReferencementAds extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Nous lançons votre campagne de référencement à la date prévue ensemble et nous démarrons le travail de gestion de votre compte Adwords.</strong>
+                                <span className="font-bold">Nous lançons votre campagne de référencement à la date prévue ensemble et nous démarrons le travail de gestion de votre compte Adwords.</span>
                             </h4>
-                            <p>Nous définissons votre stratégie de visibilité en déterminant les mots-clés sur lesquels il sera nécessaire de se positionner. Par ailleurs, nous paramètrerons vos campagnes pour vous permettre d’obtenir la stratégie la plus efficace possible.</p>
+                            <p>Nous définissons votre <strong>stratégie de visibilité</strong> en déterminant les mots-clés sur lesquels il sera nécessaire de se positionner. Par ailleurs, nous paramètrerons vos campagnes pour vous permettre d’obtenir la stratégie la plus efficace possible.</p>
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -117,9 +117,9 @@ class ReferencementAds extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Nous lançons votre campagne de référencement à la date prévue ensemble et nous démarrons le travail de gestion de votre compte.</strong>
+                                <span className="font-bold">Nous lançons votre campagne de référencement à la date prévue ensemble et nous démarrons le travail de gestion de votre compte.</span>
                             </h4>
-                            <p>Nous effectuons une veille permanente sur le déroulé de votre campagne et vos dépenses pour ajuster les différents paramètres au besoin. Nos mots d’ordres : analyses, conseils et conversions.</p>
+                            <p>Nous effectuons une veille permanente sur le déroulé de votre <strong>campagne</strong> et vos dépenses pour ajuster les différents paramètres au besoin. Nos mots d’ordres : analyses, conseils et conversions.</p>
                         </div>
                         </div>
                         <div className="w-full flex flex-row mx-auto px-4 py-6 my-4" style={{padding:'25px 200px 25px 200px', marginRight:'300px'}}>
@@ -129,9 +129,9 @@ class ReferencementAds extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Nous élaborons notre plan de création d’annonces qui vise à déterminer les différents groupes d’annonces et leur fréquence de création.</strong>
+                                <span className="font-bold">Nous élaborons notre plan de création d’annonces qui vise à déterminer les différents groupes d’annonces et leur fréquence de création.</span>
                             </h4>
-                            <p>L’objectif : avoir un plan de campagne cohérent par rapport à vos objectifs de visibilité à court et moyen terme. La création de vos liens sponsorisés sera ajustée dans le temps pour être toujours visible, sur des mots-clés pertinents, où il faut et quand il faut.</p>
+                            <p>L’objectif : avoir un <strong>plan de campagne</strong> cohérent par rapport à vos <strong>objectifs de visibilité</strong> à court et moyen terme. La <strong>création de vos liens sponsorisés</strong> sera ajustée dans le temps pour être toujours <strong>visible</strong>, sur des <strong>mots-clés pertinents</strong>, où il faut et quand il faut.</p>
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -139,15 +139,15 @@ class ReferencementAds extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Nous analysons les stratégies web de vos concurrents afin de vous positionner devant eux et d’obtenir une visibilité cohérente et concurrentielle.</strong>
+                                <span className="font-bold">Nous analysons les stratégies web de vos concurrents afin de vous positionner devant eux et d’obtenir une visibilité cohérente et concurrentielle.</span>
                             </h4>
-                            <p>Nous mettons à jour votre site internet pour garder une pertinence de l’information qui génèrera plus de transformation. Votre site internet doit répondre à la question de l’utilisateur tout en référençant vos différents produits ou services, et en leur apportant une visibilité.</p>
+                            <p>Nous mettons à jour <strong>votre site internet</strong> pour garder une pertinence de l’information qui génèrera plus de transformation. <strong>Votre site internet</strong> doit répondre à la question de l’utilisateur tout en référençant vos différents produits ou services, et en leur apportant une <strong>visibilité</strong>.</p>
                         </div>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h3 data-aos='fade-right' className="text-center text-3xl century">
-                        Vous êtes un challenge, nous devenons une <span className="text-bleu">plus value</span>.
+                        Vous êtes un challenge, nous devenons une <span className="text-bleu">plus-value</span>.
                         </h3><br/>
                         <hr className="blue"></hr>
                     </section>
@@ -156,11 +156,11 @@ class ReferencementAds extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT ADS
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Le SEA (Search Engine Advertising), ou référencement Google Ads, est une science à part entière dans le référencement. Il apporte une visibilité à votre site internet de façon très rapide, peu importe le nombre de mots clés. Néanmoins, votre budget dit être maitrisé et vous permettre d’obtenir de l’acquisition client.
+                                Le <strong>SEA (Search Engine Advertising)</strong>, ou <strong>référencement Google Ads</strong>, est une science à part entière dans le référencement. Il apporte une <strong>visibilité à votre site internet</strong> de façon très rapide, peu importe le nombre de mots clés. Néanmoins, votre budget dit être maitrisé et vous permettre d’obtenir de l’acquisition client.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Demander un devis" position="center" />
 
@@ -171,11 +171,11 @@ class ReferencementAds extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Coût au clic visé, définition du budget, augmentation de la qualité de ses annonces : se lancer dans une campagne Ads doit répondre à des objectifs clairs et précis. Nous vous accompagnons pour définir votre projet, des objectifs, aux annonces, en passant par les cibles.
+                                <strong>Coût au clic visé</strong>, définition du budget, augmentation de la qualité de ses <strong>annonces</strong> : se lancer dans une <strong>campagne Ads</strong> doit répondre à des objectifs clairs et précis. Nous vous accompagnons pour définir votre projet, des objectifs, aux annonces, en passant par les cibles.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </section>
@@ -185,11 +185,11 @@ class ReferencementAds extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEA
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                En tant que professionnels du référencement, nous vous accompagnons afin de mener vos campagnes Google Adwords dans le but d’obtenir un retour sur investissement. Pour ce faire, nous paramétrons votre campagne sur-mesure pour atteindre vos objectifs.
+                                En tant que <strong>professionnels du référencement</strong>, nous vous accompagnons afin de mener vos <strong>campagnes Google Adwords</strong> dans le but d’obtenir un <strong>retour sur investissement</strong>. Pour ce faire, nous paramétrons votre campagne sur-mesure pour atteindre vos objectifs.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
                                 </section>                                
@@ -205,7 +205,7 @@ class ReferencementAds extends React.Component {
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 pt-12 pb-0 my-2 mb-24">
                         <p className="text-xl font-bold century text-center">
-                            Que vous soyez fleuriste, restaurateur, hôtelier, chauffagiste, photographe, que vous vendiez des vêtements ou bien des voitures d’occasions en ligne, nous élaborons votre stratégie de webmarketing pour stimuler votre chiffre d’affaires.</p>
+                            Que vous soyez fleuriste, restaurateur, hôtelier, chauffagiste, photographe, que vous vendiez des vêtements ou bien des voitures d’occasions en ligne, nous élaborons votre <strong>stratégie de webmarketing</strong> pour stimuler votre chiffre d’affaires.</p>
                         <br/>
                         <div className="w-full flex text-center my-6">
                             <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
@@ -338,13 +338,13 @@ class ReferencementAds extends React.Component {
                         <div className="w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="CRÉATION DE VOS ANNONCES ET EXTENSIONS D'ANNONCES SELON VOS OBJECTIFS DE CONVERSION">
-                                <p>Nous nous occupons de la création de vos annonces en vue de mettre en avant vos produits ou services. Vous êtes à la recherche de trafic, contacts ou ventes ? Nous définissons les paramètres de  campagn sur-mesure pour faciliter et maximiser les interactions avec votre audience ciblée.</p>
+                                <p>Nous nous occupons de la <strong>création de vos annonces</strong> en vue de mettre en avant vos produits ou services. Vous êtes à la recherche de <strong>trafic</strong>, <strong>contacts</strong> ou <strong>ventes</strong> ? Nous définissons les paramètres de  campagn sur-mesure pour faciliter et maximiser les interactions avec votre <strong>audience ciblée</strong>.</p>
                                 </div>
                                 <div label="OPTIMISATION DE VOS CAMPAGNES GOOGLE ADWORDS AJUSTÉES SELON VOS CIBLES">
-                                <p>Google Ads est une plateforme qui vous permet de cibler très précisément votre audience. Nous mettons en place des campagnes ajustées en fonction de plusieurs critères : âge, secteur géographique, etc. Par ailleurs, les campagnes, que nous mettons en place, s’adaptent aux terminaux, pour vous permettre de maximiser l’efficacité de votre présence en ligne.</p>
+                                <p><strong>Google Ads</strong> est une plateforme qui vous permet de cibler très précisément votre audience. Nous mettons en place des <strong>campagnes</strong> ajustées en fonction de plusieurs critères : âge, secteur géographique, etc. Par ailleurs, les campagnes, que nous mettons en place, s’adaptent aux terminaux, pour vous permettre de maximiser l’efficacité de votre présence en ligne.</p>
                                 </div>
                                 <div label="CRÉATION DE VOTRE CAMPAGNE ADS COHÉRENTE AVEC LE CONTENU DE VOTRE SITE INTERNET">
-                                <p>Chaque annonce créée nécessite la création d’une page adaptée pour obtenir des conversions sur votre site internet. Nous nous chargeons de la création d’une page optimisée pour répondre aux besoins des utilisateurs : contenu synthétique, call-to-action, mise en place d’un circuit de remplissage des objectifs optimisé, etc. Ces outils sont adaptés en fonction de votre objectif : appel, demande de devis, contacts, vente de produits (dans le cas d’un site e-commerce), etc.</p>
+                                <p>Chaque <strong>annonce</strong> créée nécessite la création d’une page adaptée pour obtenir des conversions sur <strong>votre site internet</strong>. Nous nous chargeons de la <strong>création d’une page optimisée</strong> pour répondre aux besoins des utilisateurs : contenu synthétique, <strong>call-to-action</strong>, mise en place d’un circuit de <strong>remplissage des objectifs</strong> optimisé, etc. Ces outils sont adaptés en fonction de votre objectif : appel, demande de devis, contacts, vente de produits (dans le cas d’un <strong>site e-commerce</strong>), etc.</p>
                                 </div>
                             </Accordion>
                         </div>

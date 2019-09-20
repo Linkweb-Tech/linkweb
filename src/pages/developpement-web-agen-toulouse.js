@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Button from "../components/button";
 import RoundButton from "../components/roundButton";
@@ -84,7 +84,7 @@ class Dev extends React.Component {
                         Développement Web
                         </h1>
                         <h3 className="italic text-2xl text-white">Nous développons nos solutions web sur-mesure</h3>
-                        <RoundButton url="https://linkweb.fr/contact-agence-web-toulouse/" text="Demander un devis" />
+                        <RoundButton url="/contact-agence-web-toulouse" text="Demander un devis" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 ">
                         <section className="w-full">
@@ -97,22 +97,22 @@ class Dev extends React.Component {
                   
                        
                         <div className="w-1/4">
-                            <img src={mind} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                            <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}>Création d'un projet sur-mesure</h3>
-                            <p style={{textAlign:'center'}}>Site internet à votre image, conforme à votre charte graphique.</p>
+                        <Link to="/creation-site-internet-toulouse"><img src={mind} alt="Création Site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
+                        <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link to="/creation-site-internet-toulouse">Création d'un projet sur-mesure</Link></h3>
+                        <p style={{textAlign:'center'}}><Link to="/creation-site-internet-toulouse">Site internet à votre image, conforme à votre charte graphique.</Link></p>
                         </div>
                         <div className="w-1/4">
-                            <img src={settings} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                            <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}>Projets d'envergure</h3><br/>
-                            <p style={{textAlign:'center'}}>Création site web pour TPE PME, agence immobilière, ...</p>
+                        <Link to="/creation-de-site-internet-a-agen"><img src={settings} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
+                        <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link to="/creation-de-site-internet-a-agen">Projets d'envergure</Link></h3><br/>
+                        <p style={{textAlign:'center'}}><Link to="/creation-de-site-internet-a-agen">Création site web pour TPE PME, agence immobilière, ...</Link></p>
                         </div>
                         <div className="w-1/4">
-                            <img src={ampoule} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                            <img src={ampoule} alt="Création Site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                             <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}>Facile d'utilisation</h3><br/>
                             <p style={{textAlign:'center'}}>Interface de gestion de contenu abordable, même pour les novices.</p>
                         </div>
                         <div className="w-1/4">
-                            <img src={main} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                            <img src={main} alt="Création Site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                             <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}>Formation à l'administration</h3>
                             <p style={{textAlign:'center'}}>Dans le cas d'un site internet e-commerce et site administrable.</p>
                         </div>
@@ -129,7 +129,7 @@ class Dev extends React.Component {
                         <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex">
                             <div className="w-1/2" style={{display:'inherit'}}>
                                 <div className="w-1/5">
-                                    <img src={placeholder} alt="" /><br/>
+                                    <img src={placeholder} alt="Création Site internet Agen" /><br/>
                                 </div>
                                 <div className="w-4/5">
                                     <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'left'}}>Point de départ</h3>
@@ -139,12 +139,12 @@ class Dev extends React.Component {
                             </div>
                             <div className="w-1/2" style={{display:'inherit'}}>
                                 <div className="w-1/5">
-                                    <img src={flag} alt="" /><br/>
+                                    <img src={flag} alt="Développement Web Agen" /><br/>
                                 </div>
                                 <div className="w-4/5">
                                     <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'left'}}>Point d'arrivée</h3>
                                     <p style={{textAlign:'left'}}>
-                                     Un site internet professionnel qui remplit toutes les fonctions attendues, côté utilisateur et administrateur.</p>
+                                     Un <strong>site internet professionnel</strong> qui remplit toutes les fonctions attendues, côté utilisateur et <strong>administrateur</strong>.</p>
                                 </div>
                             </div>
                         </section>
@@ -160,19 +160,19 @@ class Dev extends React.Component {
 
                         <section className="max-w-6xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                             <div className="w-8/12">
-                                <img src={exemples} alt=""/>
+                                <img src={exemples} alt="Agence Web Agen"/>
                             </div>
                             <div className="w-8/12">
                                 <p style={{fontSize:'18px', alignText:'left'}}>
                                 <br/>
                                     <ul>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="" />&nbsp;&nbsp;Site sur-mesure responsive design</li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="" />&nbsp;&nbsp;Mise en page ergonomique de vos contenus</li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="" />&nbsp;&nbsp;Webdesign original et épuré</li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="" />&nbsp;&nbsp;Site web professionnel et évolutif
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="" />&nbsp;&nbsp;Vitesse de chargement des pages optimisée</li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="" />&nbsp;&nbsp;Protocole de sécurisation HTTPS</li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="" />&nbsp;&nbsp;Prise en charge technique de vos mises à jour</li>
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;<strong>Site sur-mesure responsive design</strong></li>
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Mise en page ergonomique</strong> de vos contenus</li>
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;<strong>Webdesign</strong> original et épuré</li>
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Site web</strong> professionnel et évolutif
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;Vitesse de chargement des <strong>pages optimisée</strong></li>
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Protocole de sécurisation HTTPS</strong></li>
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;Prise en charge technique de vos mises à jour</li>
                                         </li>
                                     </ul>
                                 </p>
@@ -201,20 +201,20 @@ class Dev extends React.Component {
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex">
                         <div className="w-1/4" style={{marginRight:'40px', fontSize:'15px', textAlign:'center'}}>
-                            <img src={padlock} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                            <p>Accès à votre administration avec des identifiants sécurisés</p>
+                            <img src={padlock} alt="Création de site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                            <p>Accès à votre <strong>administration</strong> avec des <strong>identifiants sécurisés</strong></p>
                         </div>
                         <div className="w-1/4" style={{marginRight:'40px', fontSize:'15px', textAlign:'center'}}>
-                            <img src={dashboard} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                            <p>Formation à l’utilisation de votre back-office</p>
+                            <img src={dashboard} alt="Création de site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                            <p>Formation à l’utilisation de votre <strong>back-office</strong></p>
                         </div>
                         <div className="w-1/4" style={{marginRight:'40px', fontSize:'15px', textAlign:'center'}}>
-                            <img src={users} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                            <img src={users} alt="site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                             <p>Configuration personnalisée des accès de chacun des collaborateurs sur le site</p>
                         </div>
                         <div className="w-1/4" style={{marginRight:'40px', fontSize:'15px', textAlign:'center'}}>
-                            <img src={control} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                            <p>Gestion anticipée et programmation de la publication d’actualités et évènements</p>
+                            <img src={control} alt="site web Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                            <p>Gestion anticipée et <strong>programmation</strong> de la publication d’actualités et évènements</p>
                         </div>
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex">
@@ -233,26 +233,26 @@ class Dev extends React.Component {
 
                         <section className="max-w-6xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                             <div className="w-1/4" style={{marginTop:'auto', marginBottom:'auto'}}>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Développement Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Design rassurant et attractif</p><br/>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Développement Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Développement des fiches produits sur-mesure</p><br/>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Développement Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Intégration et gestion des commandes</p><br/>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Développement Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Interface intuitive</p>
                             </div>
                             <div className="w-1/2">
-                            <img src={exemples1} alt=""/>
+                            <img src={exemples1} alt="Développement Agen"/>
                             </div>
                             <div className="w-1/4" style={{marginTop:'auto', marginBottom:'auto'}}>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Maintenance du site de vente en ligne</p><br/>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Création site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Formation à l’utilisation du back-office</p><br/>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Intégration d’avis clients</p><br/>
-                                <img src={circle} alt="" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                                <img src={circle} alt="Création site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
                                 <p style={{fontSize:'25px', textAlign:'center'}}>Responsive design (design adapté aux smartphones et tablettes)</p>
                             </div>
                         </section>
@@ -268,16 +268,16 @@ class Dev extends React.Component {
                             <p style={{fontSize:'25px', textAlign:'center',color:'black'}}>les langages …</p><br/>
                             <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                                 <div className="w-1/4">
-                                    <img src={html} alt="" />
+                                    <img src={html} alt="HTML" />
                                 </div>
                                 <div className="w-1/4">
-                                    <img src={css} alt="" />
+                                    <img src={css} alt="CSS" />
                                 </div>
                                 <div className="w-1/4">
-                                    <img src={javascript} alt="" />
+                                    <img src={javascript} alt="Javascript" />
                                 </div>
                                 <div className="w-1/4">
-                                    <img src={php} alt="" />
+                                    <img src={php} alt="Php" />
                                 </div>
                             </section>
                         </div>
@@ -287,10 +287,10 @@ class Dev extends React.Component {
                                 <p style={{fontSize:'25px', textAlign:'center', color:'black'}}>les gestionnaires de base de données …</p>
                             <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                                 <div className="w-1/2">
-                                    <img src={mysql} alt="" />
+                                    <img src={mysql} alt="Mysql" />
                                 </div>
                                 <div className="w-1/2">
-                                    <img src={postgre} alt="" />
+                                    <img src={postgre} alt="Postgre" />
                                 </div>
                             </section>
                         </div>
@@ -298,13 +298,13 @@ class Dev extends React.Component {
                         <p style={{fontSize:'25px', textAlign:'center', color:'black'}}>les CMS …</p><br/>
                         <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                                 <div className="w-1/3">
-                                    <img src={wordpress} alt="" />
+                                    <img src={wordpress} alt="Wordpress" />
                                 </div>
                                 <div className="w-1/3">
-                                    <img src={drupal} alt="" />
+                                    <img src={drupal} alt="Drupal" />
                                 </div>
                                 <div className="w-1/3">
-                                    <img src={prestashop} alt="" />
+                                    <img src={prestashop} alt="Prestashop" />
                                 </div>
                             </section>
                         </div>
@@ -316,16 +316,16 @@ class Dev extends React.Component {
 
                         <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                             <div className="w-1/4">
-                                <img src={bootstrap} alt="" />
+                                <img src={bootstrap} alt="Bootstrap" />
                             </div>
                             <div className="w-1/4">
-                                <img src={laravel} alt="" />
+                                <img src={laravel} alt="Laravel" />
                             </div>
                             <div className="w-1/4">
-                                <img src={symfony} alt="" />
+                                <img src={symfony} alt="Symfony" />
                             </div>
                             <div className="w-1/4">
-                                <img src={vue} alt="" />
+                                <img src={vue} alt="Vue" />
                             </div>
                         </section>
                     </section>
@@ -334,16 +334,16 @@ class Dev extends React.Component {
                             <section className="w-full">
                                 <br/>
                                 <hr className="blue"></hr><br/>
-                                    <h2 data-aos='fade-right' className="text-center text-4xl century text-bleu">Vous souhaitez créer un site web ? Vous avez pour projet de développer votre entreprise et donc créer une boutique en ligne ?</h2>
+                                    <h2 data-aos='fade-right' className="text-center text-4xl century text-bleu">Vous souhaitez <Link to="/creation-de-site-internet-a-agen">créer un site web</Link> ? Vous avez pour projet de développer votre entreprise et donc créer une boutique en ligne ?</h2>
                                     <br />
                             </section>
                         </section>
                     <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex">
                             <div className="w-full">
                                <h3 style={{fontSize:'20px', fontWeight:'bold'}}>Notre équipe technique répond à vos besoins…</h3><br/>
-                               <p>Quel que soit le type de site web que vous souhaitez, l’équipe technique de notre agence de création de site internet située à Agen saura répondre à vos besoins. Nous possédons toutes les connaissances techniques  ainsi que les outils nécessaires pour créer un site web de A à Z. Qu’il s’agisse de la création d’un site internet vitrine pour développer votre communication web, d’un site administrable simple d’utilisation pour que vous puissiez mettre à jour de façon autonome votre site internet en ligne ou bien encore un site boutique e-commerce pour vendre en ligne vos produits, nous vous garantissons un site responsive dans le respect de votre identité graphique.</p><br/>
+                               <p>Quel que soit le <strong>type de site web</strong> que vous souhaitez, l’équipe technique de notre <strong>agence de création de site internet située à Agen</strong> saura répondre à vos besoins. Nous possédons toutes les <strong>connaissances techniques</strong> ainsi que les <strong>outils nécessaires pour créer un site web</strong> de A à Z. Qu’il s’agisse de la <strong>création d’un site internet vitrine</strong> pour développer votre <strong>communication web</strong>, d’un site administrable <strong>simple d’utilisation</strong> pour que vous puissiez mettre à jour de façon autonome votre <strong>site internet en ligne</strong> ou bien encore un site <strong>boutique e-commerce</strong> pour <strong>vendre en ligne</strong> vos produits, nous vous garantissons un <strong>site responsive</strong> dans le respect de votre <strong>identité graphique</strong>.</p><br/>
                                 <h3 style={{fontSize:'20px', fontWeight:'bold'}}>… et l’équipe du référencement se charge de vous rendre visible.</h3><br/>
-                                <p>Après la conception du site web de votre entreprise soit finalisée, l’équipe de référencement web mettra en place l’ensemble des techniques nécessaires de sorte que votre site soit positionné de façon favorable (c’est-à-dire en première page) sur les moteurs de recherche. Sans travail de référencement naturel ou référencement payant, votre site internet ne sera pas présent sur Google et, par conséquent, ne vous rapportera aucun contacts, ni retour sur investissement.</p>
+                                <p>Après la <strong>conception du site web</strong> de votre entreprise soit finalisée, l’équipe de <strong>référencement web</strong> mettra en place l’ensemble des techniques nécessaires de sorte que votre site soit positionné de façon favorable (c’est-à-dire en <strong>première page</strong>) sur les moteurs de recherche. Sans travail de <Link to="/referencement-de-site-internet-47-31"><strong>référencement naturel</strong></Link> ou <Link to="/agence-adwords-47-31"><strong>référencement payant</strong></Link>, votre site internet ne sera pas présent sur Google et, par conséquent, ne vous rapportera aucun contacts, ni retour sur investissement.</p>
                             </div>
                     </section>
                     

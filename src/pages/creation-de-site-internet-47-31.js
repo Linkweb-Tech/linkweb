@@ -52,7 +52,7 @@ class CreationSiteSurMesure extends React.Component {
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.8)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="#" text="Je veux la création de mon site internet vitrine" />
+                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux la création de mon site sur-mesure" />
                         </div>
                         <div className="w-2/3" style={{padding:'2%'}}>
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
@@ -82,20 +82,20 @@ class CreationSiteSurMesure extends React.Component {
                     <section className="flex w-full mx-auto px-4 py-6 my-4">
                         <div className="w-1/2">
                             <br/><br/>
-                            <img src={imac} />
+                            <img src={imac} alt="Création site internet Toulouse" />
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
                             <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET SUR-MESURE : DÉVELOPPEZ VOS FONCTIONNALITÉS
                             </h3>
-                            <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Créer un site sur-mesure apporte une réponse aux demandes les plus particulières. En effet, le sur-mesure vous offre la possibilité de développer des fonctionnalités de tout type.</strong>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
+                                <span className="font-bold">Créer un site sur-mesure apporte une réponse aux demandes les plus particulières. En effet, le sur-mesure vous offre la possibilité de développer des fonctionnalités de tout type.</span>
                             </h4>
-                            <p data-aos='fade-bottom'>Chez Linkweb, nous faisons de votre site web une solution fonctionnelle. Grâce à nos équipes de techniciens, nous sommes en mesure de mettre en place vos projets les plus particuliers. Qu’il s’agisse de fonctionnalités à destination de vos utilisateurs, ou bien pour favoriser votre communication interne, il sera possible de procéder à la création d’un site internet sur mesure à Agen et Toulouse.<br /><br />
+                            <p data-aos='fade-bottom' className="text-justify">Chez <strong>Linkweb</strong>, nous faisons de <strong>votre site web</strong> une solution fonctionnelle. Grâce à nos équipes de techniciens, nous sommes en mesure de mettre en place vos projets les plus particuliers. Qu’il s’agisse de fonctionnalités à destination de vos utilisateurs, ou bien pour favoriser votre communication interne, il sera possible de procéder à la <strong>création d’un site internet sur mesure à Agen et Toulouse</strong>.<br /><br />
 
-                            Outil de réservation en ligne, simulation de devis, configurateur de produits, nous vous proposons des solutions pour améliorer l’expérience de vos utilisateurs et vous permettre d’obtenir de nouveaux clients efficacement.<br/><br/>
+                            Outil de réservation en ligne, simulation de devis, configurateur de produits, nous vous proposons des solutions pour <strong>améliorer l’expérience de vos utilisateurs</strong> et vous permettre d’obtenir de nouveaux clients efficacement.<br/><br/>
 
-                            Par ailleurs, il est également possible de mettre en place votre solution de gestion interne par l’intermédiaire d’un intranet avec attributions personnalisées, ou encore un site internet administrable avec accès au back office pour gérer votre affaire en toute autonomie. Les solutions ne manquent pas, il ne tient qu’à vous d’opter pour un site internet sur-mesure à Agen et Toulouse.</p>
+                            Par ailleurs, il est également possible de mettre en place votre <strong>solution de gestion interne</strong> par l’intermédiaire d’un <strong>intranet</strong> avec attributions personnalisées, ou encore un <strong>site internet administrable</strong> avec accès au <strong>back office</strong> pour gérer votre affaire en toute autonomie. Les solutions ne manquent pas, il ne tient qu’à vous d’opter pour un <strong>site internet sur-mesure à Agen et Toulouse</strong>.</p>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -110,11 +110,11 @@ class CreationSiteSurMesure extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE DÉFINIS LES SPÉCIFICITÉS DE MON PROJET WEB
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Il est important de bien connaître ses besoins en termes de communication web, mais aussi ce que l’on souhaite mettre en avant sur son site internet. Nous développons la solution la plus adaptée et la plus proche de vos besoins.
+                                Il est important de bien connaître ses besoins en termes de <strong>communication web</strong>, mais aussi ce que l’on souhaite mettre en avant sur son <strong>site internet</strong>. Nous développons la solution la plus adaptée et la plus proche de vos besoins.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
 
@@ -125,11 +125,11 @@ class CreationSiteSurMesure extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS POUR PRÉCISER MON PROJET
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois les contours de votre projet définis, nous vous accompagnons pour faire de votre idée, une projection technique concrète en corrélation avec votre demande. C’est à partir d’ici que votre projet web se concrétise.
+                                Une fois les contours de votre projet définis, nous vous accompagnons pour faire de votre idée, une projection technique concrète en corrélation avec votre demande. C’est à partir d’ici que votre <strong>projet web</strong> se concrétise.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </section>
@@ -139,11 +139,11 @@ class CreationSiteSurMesure extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE CRÉE MON SITE INTERNET SUR-MESURE
                                 </h3>
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Votre projet est enfin défini ? Nous procédons à la création de votre site internet sur-mesure en vous proposant une maquette graphique, des contenus éditoriaux, et la mise en avant des fonctionnalités de votre site.
+                                Votre projet est enfin défini ? Nous procédons à la <strong>création de votre site internet sur-mesure</strong> en vous proposant une <strong>maquette graphique</strong>, des <strong>contenus éditoriaux</strong>, et la mise en avant des <strong>fonctionnalités de votre site</strong>.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
                                 </section>
@@ -159,7 +159,7 @@ class CreationSiteSurMesure extends React.Component {
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <p className="text-xl font-bold century text-center">
-                            Nous développons vos solutions web les plus innovantes pour communiquer envers vos cibles. Votre réussite construit la nôtre.</p>
+                            Nous développons vos <strong>solutions web</strong> les plus innovantes pour communiquer envers vos cibles. Votre réussite construit la nôtre.</p>
                         <br/>
                         <div className="w-full flex text-center my-6">
                             <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
@@ -216,9 +216,9 @@ class CreationSiteSurMesure extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Développer l’interaction avec les utilisateurs pour améliorer l’expérience passée sur votre site internet.</strong>
+                                <span className="font-bold">Développer l’interaction avec les utilisateurs pour améliorer l’expérience passée sur votre site internet.</span>
                             </h4>
-                            <p>Qu’il s’agisse de mettre en place un configurateur, un outil de réservation en ligne ou bien un simulateur de devis, il est possible d’optimiser votre organisation tout en facilitant l’accès à vos prestations pour les utilisateurs.</p>
+                            <p>Qu’il s’agisse de mettre en place un configurateur, un <strong>outil de réservation en ligne</strong> ou bien un simulateur de devis, il est possible d’optimiser votre organisation tout en facilitant l’accès à vos prestations pour les utilisateurs.</p>
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -226,9 +226,9 @@ class CreationSiteSurMesure extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Mettre en place un outil de gestion en interne pour automatiser ou optimiser la réalisation des missions internes à votre entreprise via le numérique.</strong>
+                                <span className="font-bold">Mettre en place un outil de gestion en interne pour automatiser ou optimiser la réalisation des missions internes à votre entreprise via le numérique.</span>
                             </h4>
-                            <p>En optant pour un outil interne en ligne, vous optimiserez votre manière de travailler ensemble. Il est possible de développer de nombreuses fonctionnalités pour simplifier l’organisation interne de vos collaborateurs.</p>
+                            <p>En optant pour un <strong>outil interne en ligne</strong>, vous optimiserez votre manière de travailler ensemble. Il est possible de développer de nombreuses fonctionnalités pour simplifier l’organisation interne de vos collaborateurs.</p>
                         </div>
                         </div>
                         <div className="w-full flex flex-row mx-auto px-4 py-6 my-4" style={{padding:'25px 200px 25px 200px', marginRight:'300px'}}>
@@ -238,9 +238,9 @@ class CreationSiteSurMesure extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Réagir à tout potentiel désagrément pour assurer un fonctionnement optimal, et ce, durant toute l’année.</strong>
+                                <span className="font-bold">Réagir à tout potentiel désagrément pour assurer un fonctionnement optimal, et ce, durant toute l’année.</span>
                             </h4>
-                            <p>Nous sommes réactifs lorsqu’il s’agit de répondre à un besoin urgent lié à un dysfonctionnement sur votre site internet, ou à tout type de désagrément causé sur les fonctionnalités de votre site. Nous vous apportons une solution concrète et rapide.</p>
+                            <p>Nous sommes réactifs lorsqu’il s’agit de répondre à un besoin urgent lié à un dysfonctionnement <strong>sur votre site internet</strong>, ou à tout type de désagrément causé sur les fonctionnalités de votre site. Nous vous apportons une solution concrète et rapide.</p>
                         </div>
                         <div className="w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -248,9 +248,9 @@ class CreationSiteSurMesure extends React.Component {
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <strong className="font-bold">Mettre en place un suivi étape par étape pour s’assurer du bon déroulement de votre projet de création de site internet sur-mesure.</strong>
+                                <span className="font-bold">Mettre en place un suivi étape par étape pour s’assurer du bon déroulement de votre projet de création de site internet sur-mesure.</span>
                             </h4>
-                            <p>Un suivi régulier est effectué pour permettre le bon déroulement de votre projet de façon à respecter les délais, mais également d’être en mesure d’anticiper chaque étape en ne laissant aucun détail de côté.</p>
+                            <p>Un <strong>suivi régulier</strong> est effectué pour permettre le bon déroulement de votre projet de façon à respecter les délais, mais également d’être en mesure d’anticiper chaque étape en ne laissant aucun détail de côté.</p>
                         </div>
                         </div>
                     </section>
@@ -356,13 +356,13 @@ class CreationSiteSurMesure extends React.Component {
                         <div className="w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="QUELS SONT LES CRITÈRES POUR DÉFINIR MES BESOINS ?">
-                                <p>Pour bien définir vos besoins relatifs à votre communication web, il est important de déterminer plusieurs éléments : l’existence (ou non) de votre site internet est le premier. Il est essentiel également de savoir si vous souhaitez vendre vos produits ou promouvoir vos services. Pour un site internet sur-mesure, définir le concept global des possibilités offertes à vos utilisateurs ou définir la problématique organisationnelle de votre entreprise en interne vont également être nécessaires. C’est ce qui va nous permettre de bien comprendre la problématique globale afin d’envisager très précisément les solutions qui pourraient être adaptées à vos besoins d’un point de vue graphique, mais aussi technique.</p>
+                                <p>Pour bien définir vos besoins relatifs à votre <strong>communication web</strong>, il est important de déterminer plusieurs éléments : l’existence (ou non) de votre <strong>site internet</strong> est le premier. Il est essentiel également de savoir si vous souhaitez vendre vos produits ou promouvoir vos services. Pour un <strong>site internet sur-mesure</strong>, définir le concept global des possibilités offertes à vos utilisateurs ou définir la problématique organisationnelle de votre entreprise en interne vont également être nécessaires. C’est ce qui va nous permettre de bien comprendre la problématique globale afin d’envisager très précisément les solutions qui pourraient être adaptées à vos besoins d’un point de vue graphique, mais aussi technique.</p>
                                 </div>
                                 <div label="QU'EST-CE QUI DIFFÉRENCIE UN SITE VITRINE D'UN SITE SUR-MESURE ?">
-                                <p>Un site internet vitrine, de façon générale, présente les services ou produits d’une entreprise et permet de travailler principalement les objectifs relevant de l’image de l’entreprise. Par ailleurs, il permet d’obtenir des prospects qui pourraient se transformer en clients puis en clients selon le tunnel de conversion. Un site sur-mesure peut répondre à cela. Néanmoins, ce qui le différencie, c’est l’originalité apportée et la mise en place de fonctionnalités propres qui vont vous permettre de distinguer les simples contacts, des prospects très intéressés, par exemple. De plus, qu’il s’agisse de fonctionnalités destinées aux utilisateurs ou bien destinées à la gestion interne de votre entreprise, la création d’un site internet sur-mesure peut vous permettre d’optimiser le fonctionnement et l’organisation de votre entreprise : réservations en ligne, demande de devis, etc. Le sur-mesure correspond à la plus-value apportée en rapport à un site internet dit « classique ».</p>
+                                <p>Un <strong>site internet vitrine</strong>, de façon générale, présente les services ou produits d’une entreprise et permet de travailler principalement les objectifs relevant de l’image de l’entreprise. Par ailleurs, il permet d’obtenir des prospects qui pourraient se transformer en clients puis en clients selon le tunnel de conversion. Un <strong>site sur-mesure</strong> peut répondre à cela. Néanmoins, ce qui le différencie, c’est l’originalité apportée et la mise en place de fonctionnalités propres qui vont vous permettre de distinguer les simples contacts, des prospects très intéressés, par exemple. De plus, qu’il s’agisse de fonctionnalités destinées aux utilisateurs ou bien destinées à la gestion interne de votre entreprise, la <strong>création d’un site internet sur-mesure</strong> peut vous permettre d’optimiser le fonctionnement et l’organisation de votre entreprise : réservations en ligne, demande de devis, etc. Le sur-mesure correspond à la plus-value apportée en rapport à un <strong>site internet</strong> dit « classique ».</p>
                                 </div>
                                 <div label="QUEL AVANTAGE À METTRE EN PLACE UN SITE INTERNET SUR-MESURE ?">
-                                <p>La création d’un site internet sur-mesure permet à tout un chacun de mettre en place la solution qui lui correspondra et ce, de façon exacte. En effet, selon votre secteur d’activité, l’ajout de fonctionnalités additionnelles peut-être fortement recommandé. C’est le cas pour un fleuriste, ou un restaurant avec ce qui relève des réservations en ligne, mais ceci peut être décliné en fonction des besoins de chacun. De plus, il est également possible de rendre le site internet administrable afin de vous faire profiter pleinement de vos fonctionnalités et de leur gestion. Contrôlez vos réservations, vos demandes de contacts, l’ajout d’actualités sur votre site internet, nous vous formerons pour vous offrir la possibilité de travailler en totale autonomie de ce point de vue.</p>
+                                <p>La <strong>création d’un site internet sur-mesure</strong> permet à tout un chacun de mettre en place la solution qui lui correspondra et ce, de façon exacte. En effet, selon votre secteur d’activité, l’ajout de fonctionnalités additionnelles peut-être fortement recommandé. C’est le cas pour un fleuriste, ou un restaurant avec ce qui relève des réservations en ligne, mais ceci peut être décliné en fonction des besoins de chacun. De plus, il est également possible de rendre le <strong>site internet administrable</strong> afin de vous faire profiter pleinement de vos fonctionnalités et de leur gestion. Contrôlez vos réservations, vos demandes de contacts, l’ajout d’actualités sur <strong>votre site internet</strong>, nous vous formerons pour vous offrir la possibilité de travailler en totale autonomie de ce point de vue.</p>
                                 </div>
                             </Accordion>
                         </div>

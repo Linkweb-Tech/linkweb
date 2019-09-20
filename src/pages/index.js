@@ -47,7 +47,7 @@ function IndexPage(props) {
       <Hero></Hero>
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
         <h2 data-aos='fade-right' className="text-center">
-          <Link to="#" className="text-center text-black text-4xl century">
+          <Link to="/agence-web-toulouse" className="text-center text-black text-4xl century">
             Agence digitale
           </Link>
         </h2>
@@ -64,9 +64,9 @@ function IndexPage(props) {
               <span className="text-bleu">/</span>LINKWEB C’EST 20 TECHNICIENS
             </h3>
             <p data-aos='fade-left'><span className="text-bleu text-4xl">8</span>  développeurs Front-End & Back-End</p>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  spécialistes UI & UX design</p>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">6</span>  professionnels du référencement web SEO & SEA</p>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la gestion de contenu optimisé</p>
+            <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong></p>
+            <p data-aos='fade-left'><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link to="/agence-referencement-toulouse">référencement web</Link></strong> SEO & SEA</p>
+            <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
           </div>
           <div className="pictures w-full flex flex-1">
             <div className="w-1/3 bg-cover bg-black imageSimple"></div>
@@ -80,13 +80,13 @@ function IndexPage(props) {
           <div className="flex flex-1">
             <div className="blackBulle" data-aos="fade-up">1</div>
             <section>
-              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                 <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION WEB
               </h3>
-              <div className="content pb-6">
-                  Faire appel à une agence de création web est une étape à franchir pour dynamiser sa communication web. Définir un projet selon des objectifs précis demande une expertise toute particulière. Propulser sa communication en ligne peut constituer un véritable moteur pour une entreprise.
+              <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                  Faire appel à une <strong>agence de création web</strong> est une étape à franchir pour <strong>dynamiser sa communication web</strong>. Définir un projet selon des objectifs précis demande une expertise toute particulière. <strong>Propulser sa communication en ligne</strong> peut constituer un véritable moteur pour une entreprise.
               </div>
-              <Button url="#" text="En savoir plus" position="center" />
+              <Button url="/blog/foire-aux-questions/" text="En savoir plus" position="center" />
 
             </section>
           </div>
@@ -95,13 +95,13 @@ function IndexPage(props) {
           <div className="flex flex-1">
             <div className="blackBulle" data-aos="fade-up">2</div>
             <section>
-              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                 <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MA SOLUTION
               </h3>
-              <div className="content pb-6">
-                Besoins en termes de visibilité, notoriété ou bien d’image : il existe des solutions pour chaque entreprise. Nous vous accompagnons pour déterminer les contours de votre projet selon votre activité et vos besoins en termes de communication. Une étude concurrentielle sera également réalisée.
+              <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                Besoins en termes de <strong>visibilité</strong>, <strong>notoriété</strong> ou bien d’<strong>image</strong> : il existe des solutions pour chaque entreprise. Nous vous accompagnons pour déterminer les <strong>contours de votre projet</strong> selon votre <strong>activité</strong> et <strong>vos besoins en termes de communication</strong>. Une <strong>étude concurrentielle</strong> sera également réalisée.
               </div>
-              <Button url="#" text="Être recontacté" position="center" />
+              <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" />
             </section>
             </div>
           </div>
@@ -109,13 +109,13 @@ function IndexPage(props) {
           <div className="flex flex-1">
             <div className="blackBulle" data-aos="fade-up">3</div>
             <section>
-              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                 <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
               </h3>
-              <div className="content pb-6">
-                Nos consultants en communication web d’Agen (47) et Toulouse (31) définissent les contours de votre projet et se chargent de l’application de votre stratégie à travers les différents axes définis. Notre équipe est composée de spécialistes de la création de site internet, de référencement naturel et Ads.
+              <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                Nos <strong>consultants en communication web</strong> d’<strong>Agen (47)</strong> et <strong>Toulouse (31)</strong> définissent les contours de votre projet et se chargent de l’<strong>application de votre stratégie</strong> à travers les différents axes définis. Notre équipe est composée de spécialistes de la <strong>création de site internet</strong>, de <strong>référencement naturel</strong> et <strong>Ads</strong>.
               </div>
-              <Button url="#" text="Demander un devis" position="center" />
+              <Button url="/contact-agence-web-toulouse" text="Demander un devis" position="center" />
             </section>
             
           </div>
@@ -125,49 +125,52 @@ function IndexPage(props) {
 
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
         <h2 data-aos='fade-right' className="text-center text-4xl century">
-          Création de <span className="text-bleu">Sites internet</span> et <span className="text-bleu">Stratégies Web</span> sur-mesure 
+          <Link to="/creation-site-internet-toulouse">Création de <span className="text-bleu">Sites internet</span></Link> et <span className="text-bleu">Stratégies Web</span> sur-mesure 
         </h2>
         <hr className="blue"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Agence Web Toulouse et Agen</h3>
+        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6"><Link to="/agence-web-toulouse">Agence Web Toulouse</Link> et Agen</h3>
       </section>
       <section  className="crea flex flex-1 w-full ml-0">
         <div className="w-3/4 bg-darkgrey py-12 flex justify-end">
           <div className="max-w-4xl w-full mr-0">
             <h3 className="century text-white flex-1 capitalize text-2xl tracking-wider pb-3 w-full "  data-aos="zoom-in">
-              <span className="text-bleu">/</span>CRÉATION DE SITES WEB
+              <Link to="/creation-de-site-internet-a-agen"><span className="text-bleu">/</span>CRÉATION DE SITES WEB</Link>
             </h3>
             <div className="flex">
               <div className="w-1/2 text-white">
-              Élaboration et refonte de site internet, site e-commerce,  site vitrine, solutions web et intranet sur-mesure selon vos besoins fonctionnels et les attentes de vos utilisateurs.<br /><br />
+              <strong>Élaboration et refonte de site internet</strong>, <strong>site e-commerce</strong>,  <strong>site vitrine</strong>, <strong>solutions web</strong> et <strong>intranet</strong> sur-mesure selon vos besoins fonctionnels et les attentes de vos utilisateurs.<br /><br />
 
-              Création de design moderne et ergonomique qui s’adapte à toutes les tailles d’écrans : mobile, tablette et desktop.
+              <strong>Création de design moderne</strong> et <strong>ergonomique</strong> qui s’adapte à toutes les <strong>tailles d’écrans</strong> : mobile, tablette et desktop.
               </div>
               <div className="w-1/2 flex">
                 <div className="w-1/3">
-                  <img 
+                <Link to="/creation-de-site-internet-a-agen"><img 
                     src={ loupe }
+                    alt="Agence Web Agen"
                     className="m-auto"
-                  />
-                  <Link to="#" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest">
+                  /></Link> 
+                  <Link to="/creation-de-site-internet-a-agen" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest">
                    Création site <br /> web sur-mesure
                   </Link>
                 </div>
                 <div className="w-1/3">
-                  <img 
+                <Link to="/creation-de-site-internet-47-31"><img 
                     src={ menu }
+                    alt="Création site internet Agen"
                     className="m-auto"
-                  />
-                  <Link to="#" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest">
+                  /></Link> 
+                  <Link to="/creation-de-site-internet-47-31" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest">
                    Responsive <br />design
                   </Link>
                 </div>
                 <div className="w-1/3">
                 
-                  <img 
+                <Link to="/creation-site-internet-agen"><img 
                     src={ souris }
+                    alt="Agence Web Toulouse"
                     className="m-auto"
-                  />
-                  <Link to="#" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest">
+                  /></Link> 
+                  <Link to="/creation-site-internet-agen" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest">
                    Interface <br /> ergonomique
                   </Link>
                 </div>
@@ -181,26 +184,27 @@ function IndexPage(props) {
         <div className="w-1/2 ">
           <img 
             src={mac}
+            alt="Agence Web Toulouse"
           />
         </div>
         <div className="w-1/2 py-32 max-w-lg ml-0">
           <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
-            <span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL
+            <Link to="/referencement-de-site-internet-47-31"><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL</Link>
           </h3>
-          <h4 className="century text-lg tracking-wider pb-3" data-aos='fade-left'>
-            <strong className="font-bold">Le référenceur en charge de votre site web collabore avec vous chaque mois pour vous rendre compte de l’évolution du référencement de votre site internet.</strong>
+          <h4 className="century text-lg tracking-wider pb-3 text-justify" data-aos='fade-left'>
+            <span className="font-bold">Le référenceur en charge de votre site web collabore avec vous chaque mois pour vous rendre compte de l’évolution du référencement de votre site internet.</span>
           </h4>
-          <p data-aos='fade-bottom'>À partir d’un audit de site, nous élaborons votre stratégie de référencement site internet et analysons les statistiques relatives à votre site internet pour une optimisation qui vous apportera une visibilité pertinente avec les moteurs de recherche.</p>
-          <Button url="#" text="En savoir plus sur le référencement naturel SEO" position="start" />
+          <p data-aos='fade-bottom' className="text-justify">À partir d’un <strong>audit de site</strong>, nous élaborons votre stratégie de <Link to="/agence-referencement-toulouse"><strong>référencement site internet</strong></Link> et analysons les statistiques relatives à votre site internet pour une <strong>optimisation</strong> qui vous apportera une visibilité pertinente avec les <strong>moteurs de recherche</strong>.</p>
+          <Button url="/referencement-de-site-internet-47-31/" text="En savoir plus sur le référencement naturel SEO" position="start" />
 
           <h3 className="century capitalize text-2xl tracking-wider pt-12 pb-6" data-aos="zoom-in">
-            <span className="text-bleu">/</span>RÉFÉRENCEMENT ADWORDS
+            <Link to="/agence-adwords-47-31"><span className="text-bleu">/</span>RÉFÉRENCEMENT ADWORDS</Link>
           </h3>
-          <h4 className="century text-lg tracking-wider pb-3"  data-aos='fade-left'>
-            <strong className="font-bold">Nous optimisons le choix des mots-clés et la configuration de votre plan publicitaire pour respecter votre budget et maximiser vos conversions.</strong>
+          <h4 className="century text-lg tracking-wider pb-3 text-justify"  data-aos='fade-left'>
+            <span className="font-bold">Nous optimisons le choix des mots-clés et la configuration de votre plan publicitaire pour respecter votre budget et maximiser vos conversions.</span>
           </h4>
-          <p data-aos='fade-bottom'>Nous créons votre campagne publicitaire Adwords en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant.</p>
-          <Button url="#" text="En savoir plus sur les campagnes Adwords SEA" position="start" />
+          <p data-aos='fade-bottom' className="text-justify">Nous créons votre <strong>campagne publicitaire Adwords</strong> en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant.</p>
+          <Button url="/agence-adwords-47-31" text="En savoir plus sur les campagnes Adwords SEA" position="start" />
         </div>
       </section>
 
@@ -215,26 +219,31 @@ function IndexPage(props) {
         <div className="w-1/5" data-aos='fade-up'>
           <img 
             src={peugeot}
+            alt="Création site internet Toulouse"
           />
         </div>
         <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
           <img 
             src={normand}
+            alt="Création site internet Toulouse"
           />
         </div>
         <div className="w-1/5" data-aos='fade-up' data-aos-delay='400'>
           <img 
             src={onco}
+            alt="Création site internet Agen"
           />
         </div>
         <div className="w-1/5" data-aos='fade-up' data-aos-delay='600'>
           <img 
             src={tlse}
+            alt="Agence Web Toulouse"
           />
         </div>
         <div className="w-1/5" data-aos='fade-up' data-aos-delay='800'>
           <img 
             src={sdis}
+            alt="Agence Web Agen"
           />
         </div>
       </section>
@@ -256,7 +265,7 @@ function IndexPage(props) {
               <p>En travaillant sur la qualité de vos contenus, dès la conception du site, et en répondant aux critères de qualité de Google, vous obtenez une visibilité pérenne en première page grâce au <strong>référencement naturel SEO</strong> optimisé par nos référenceurs.<br /> En élaborant une campagne Adwords, nous planifions votre plan publicitaire pour une visibilité immédiate sur les mots clés les plus recherchés dans le but de vous apporter un retour concret sur votre investissement.</p>
             </div>
             <div label="UN ACCROISSEMENT DE VOTRE CHIFFRE D'AFFAIRE ?">
-              <p>Mettre en place une <strong>stratégie digitale</strong> pertinente vous permettra de développer la <strong>communication web</strong> de votre entreprise via le canal le plus consulté au monde : internet.<br /> Un plan de communication construit autour de la conversion pour vous permettre de développer le chiffre d’affaires de votre entreprise avec un<strong> projet web</strong> sur-mesure.</p><p><strong>Avoir un site internet</strong> est un gage de confiance vis-à-vis de vos prospects. Faire appel à une<strong> agence de communication digitale</strong> pour la <strong>création de site internet</strong> répond à un choix réalisé à partir de vos besoins, mais aussi en corrélation avec ceux de vos prospects.</p>
+              <p>Mettre en place une <strong>stratégie digitale</strong> pertinente vous permettra de développer la <strong>communication web</strong> de votre entreprise via le canal le plus consulté au monde : internet.<br /> Un plan de communication construit autour de la conversion pour vous permettre de développer le chiffre d’affaires de votre entreprise avec un <strong>projet web</strong> sur-mesure.</p><p><strong>Avoir un site internet</strong> est un gage de confiance vis-à-vis de vos prospects. Faire appel à une <strong>agence de communication digitale</strong> pour la <strong>création de site internet</strong> répond à un choix réalisé à partir de vos besoins, mais aussi en corrélation avec ceux de vos prospects.</p>
             </div>
           </Accordion>
         </div>
@@ -269,25 +278,25 @@ function IndexPage(props) {
       </section>
       <section className="max-w-6xl flex w-full mx-auto px-4 pb-12 mb-0 mt-12">
         <div className="w-1/3 px-6 text-sm">
-          <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
             <span className="text-bleu">1.</span>Vos exigences
           </h3>
-          <p  data-aos='fade-left'>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour un <strong>site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p>
+          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour un <strong>site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p>
         </div>
 
         <div className="w-1/3 px-6 text-sm">
-          <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
             <span className="text-bleu">2.</span>Votre offre
           </h3>
-          <p  data-aos='fade-left'>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p>
-          <p  data-aos='fade-left'>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p>
+          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p><br/>
+          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p>
         </div>
 
         <div className="w-1/3 px-6 text-sm">
-          <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
             <span className="text-bleu">3.</span>Vos cibles
           </h3>
-          <p  data-aos='fade-left'>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est pourquoi, il est nécessaire de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous.</p>
+          <p  data-aos='fade-left' className="text-justify" style={{textAlignLast:'center'}}>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est pourquoi, il est nécessaire de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous.</p>
         </div>
       </section>
       <section className="border-before-footer bg-darkgrey w-full mx-auto px-4 py-12 mb-0 mt-12">

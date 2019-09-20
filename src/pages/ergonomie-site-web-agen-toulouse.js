@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import RoundButton from "../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
@@ -59,14 +59,11 @@ class ErgonomieToulouse extends React.Component {
                         Créer un site web professionnel Ergonomique
                         </h1>
                         <h3 className="italic text-2xl text-white">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
-                        <RoundButton url="https://linkweb.fr/contact-agence-web-toulouse/" text="Je souhaite créer mon site internet" />
+                        <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">
-                        Création de site internet professionnel
-                        </h2>
-                        <hr className="blue"></hr>
-                    <p style={{textAlign:`justify`, textAlignLast:`center`}}>Aujourd’hui, nous constatons que de plus en plus d’entreprises possèdent un site internet. Qu’il s’agisse d’un outil de communication, d’une boutique en ligne ou bien d’un support supplémentaire pour fidéliser des clients, créer un site internet professionnel est devenu incontournable pour assurer la pérennité d’une entreprise et optimiser sa présence sur le web.</p>
+                    <p style={{textAlign:`justify`, textAlignLast:`center`}}>
+                    <strong>Créer un site internet professionnel</strong> fait appel à des <strong>connaissances techniques</strong> et à une réflexion très précises en termes de création et <strong>gestion de contenu</strong>, mais aussi en termes de <strong>responsive web design</strong>. En tant qu’<strong>agence de création de site internet à Agen et Toulouse</strong>, faire un <strong>site internet vitrine</strong> ou <strong>e-commerce</strong> sur-mesure fait partie de nos objectifs.</p>
                     </section>
                     <section style={{backgroundColor:`rgb(255, 255, 255, 0.8`, backgroundImage: 'url(' + blocint + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode: `overlay`, marginTop:'50px', padding:`130px`, color:'black'}}>
                             <br />
@@ -74,8 +71,8 @@ class ErgonomieToulouse extends React.Component {
                             <br />
                             <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                             <p style={{textAlign:'justify', textAlignLast:`center`, fontSize:`20px`}}>
-                                Le point central de la création de votre site internet professionnel reste l’ergonomie. Un site ayant un confort dans l’exécution des actions et permettant un accès intuitif à l’information recherchée permet de créer beaucoup plus d’interactions et a beaucoup plus de chances d’avoir du succès. C’est pourquoi la conception du site doit être réalisée en conséquence.
-                                Et c’est ce que nous souhaitons, votre réussite construit la nôtre.</p>
+                                Le point central de la <Link to="/creation-de-site-internet-a-agen"><strong>création de votre site internet</strong></Link> professionnel reste l’<strong>ergonomie</strong>. Un <strong>site</strong> ayant un confort dans l’exécution des actions et permettant un accès intuitif à l’information recherchée <strong>permet de créer</strong> beaucoup plus d’interactions et a beaucoup plus de chances d’avoir du succès. C’est pourquoi la <strong>conception du site</strong> doit être réalisée en conséquence.
+                                <strong>Et c’est ce que nous souhaitons, votre réussite construit la nôtre.</strong></p>
                             </section>
                     </section>
 
@@ -84,11 +81,11 @@ class ErgonomieToulouse extends React.Component {
                             <h3 className="text-2xl century pb-6">L’interface utilisateur (UI) : ce que le visiteur voit</h3>
                             <br/>
                             <ul>
-                                <li>Responsive design</li>
+                                <li><strong>Responsive design</strong></li>
                                 <li>Esthétisme</li>
                                 <li>Équilibre</li>
                                 <li>Iconographie pertinente</li>
-                                <li>Hiérarchisation des informations</li>
+                                <li><strong>Hiérarchisation des informations</strong></li>
                             </ul>
                         </div>
                         <div className="w-1/2 bg-black" style={{backgroundImage: 'url(' + ux + ')', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in" data-aos-delay="200">
@@ -111,7 +108,7 @@ class ErgonomieToulouse extends React.Component {
                             </h2>
                             <br/>
                             <p data-aos='fade-bottom' style={{fontSize:'30px', textAlign:'center'}}>
-                            71% des recherches sur internet en France sont effectuées via un mobile… Le comportement de votre futur site internet s’adaptera à toutes les tailles d’écrans. Il est indispensable que votre site soit un site responsive et permette une lecture fluide à vos utilisateurs consultant vos pages web sur leurs smartphones. Tous nos sites sont adaptatifs selon le Responsive Design…
+                            71% des <strong>recherches sur internet</strong> en France sont effectuées via un mobile… Le comportement de votre futur <strong>site internet</strong> s’adaptera à toutes les tailles d’écrans. Il est indispensable que votre site soit un <strong>site responsive</strong> et permette une lecture fluide à vos utilisateurs consultant vos <strong>pages web</strong> sur leurs smartphones. <strong>Tous nos sites sont adaptatifs selon le Responsive Design…</strong>
                             </p>
                             <br/>
                             <p data-aos='fade-bottom' style={{fontSize:'15px', textAlign:'left'}}>
@@ -150,11 +147,11 @@ class ErgonomieToulouse extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>Maîtrisez
                                 </h3>
-                                <div className="content pb-6">
-                                votre communication digitale commence par avoir la main sur le contenu que vous proposez. En tant que partenaire web, nous nous attachons à construire un site sur mesure, accessible et surtout administrable. En effet, il est possible, selon vos besoins, de vous permettre d’avoir la main sur la publication et sur les permissions réparties au sein de votre entreprise quant à la modification des contenus.
+                                <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                votre <strong>communication digitale</strong> commence par avoir la main sur le contenu que vous proposez. En tant que partenaire web, nous nous attachons à construire un <strong>site sur mesure</strong>, accessible et surtout administrable. En effet, il est possible, selon vos besoins, de vous permettre d’avoir la main sur la publication et sur les permissions réparties au sein de votre entreprise quant à la modification des contenus.
                                 </div>
                                 </section>
                             </div>
@@ -163,11 +160,11 @@ class ErgonomieToulouse extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>Gérez
                                 </h3>
-                                <div className="content pb-6">
-                                les rôles et donnez la possibilité à vos collaborateurs d’agir efficacement et en toute simplicité. Ajouter des produits en ligne dans le cadre d’un site de vente, mettre à jour ses informations, réagir à l’actualité, sont tout autant de missions vous permettant d’améliorer et mettre à jour votre contenu.
+                                <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                les rôles et donnez la possibilité à vos collaborateurs d’agir efficacement et en toute simplicité. Ajouter des <strong>produits en ligne dans le cadre d’un site de vente</strong>, mettre à jour ses informations, réagir à l’actualité, sont tout autant de missions vous permettant d’améliorer et mettre à jour votre contenu.
                                 </div>
                                 </section>
                                 </div>
@@ -176,11 +173,11 @@ class ErgonomieToulouse extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>Contrôlez
                                 </h3>
-                                <div className="content pb-6">
-                                votre back-office. Qu’il s’agisse de mettre en place un site vitrine ou créer un site de vente, profitez d’un ensemble d’outils nécessaires pour accéder à votre système de gestion de contenu si vous le souhaitez. Ainsi, nous mettons tout en oeuvre pour vous permettre de créer facilement et mettre en ligne vos contenus de marque, grâce à un outil simple d’utilisation et intuitif.
+                                <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                votre back-office. Qu’il s’agisse de mettre en place un <strong>site vitrine</strong> ou <strong>créer un site de vente</strong>, profitez d’un ensemble d’<strong>outils nécessaires</strong> pour accéder à votre <strong>système de gestion de contenu</strong> si vous le souhaitez. Ainsi, nous mettons tout en oeuvre pour vous permettre de <strong>créer facilement et mettre en ligne</strong> vos contenus de marque, grâce à un outil <strong>simple d’utilisation</strong> et intuitif.
                                 </div>
                                 </section>
                                 
@@ -196,13 +193,13 @@ class ErgonomieToulouse extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-0 pb-0 my-2">
                         
-                    <p style={{textAlign:'justify', textAlignCenter:'center'}}>Créer son site internet sans aucune connaissance en langage informatique ou plus largement dans le domaine du web est un pari risqué, surtout lorsqu’il s’agit du site de l’entreprise que vous servez.</p>
+                    <p style={{textAlign:'justify', textAlignCenter:'center'}}><strong>Créer son site internet</strong> sans <strong>aucune connaissance</strong> en <strong>langage informatique</strong> ou plus largement dans le domaine du web est un pari risqué, surtout lorsqu’il s’agit du <strong>site de l’entreprise</strong> que vous servez.</p>
                     <br />
-                    <p style={{textAlign:'justify', textAlignCenter:'center'}}>Bien choisir parmi les noms de domaine disponibles, avoir un site compatible avec les smartphones et tablettes ou encore maîtriser les outils de référencement web tout en ayant la main sur l’arborescence et la ligne éditoriale font partie des requis pour un site internet de qualité professionnelle.</p>
+                    <p style={{textAlign:'justify', textAlignCenter:'center'}}>Bien choisir parmi les <strong>noms de domaine</strong> disponibles, <strong>avoir un site</strong> compatible avec les <strong>smartphones et tablettes</strong> ou encore maîtriser les <strong>outils de référencement web</strong> tout en ayant la main sur l’<strong>arborescence</strong> et la ligne éditoriale font partie des requis pour un site internet de <strong>qualité professionnelle</strong>.</p>
                     <br />
-                    <p style={{textAlign:'justify', textAlignCenter:'center'}}>Faire confiance à une agence web pour créer un site e commerce ou non marchand vous fera gagner du temps et de l’argent. Créateur de site internet et de nombreuses solutions web, Linkweb saura vous conseiller pour vous donner accès à un produit de qualité professionnelle, fonctionnel et efficace en vue d’attirer vos prospects et répondre à vos objectifs de communication.</p>
+                    <p style={{textAlign:'justify', textAlignCenter:'center'}}>Faire confiance à une agence web <strong>pour créer un site e commerce</strong> ou non marchand vous fera gagner du temps et de l’argent. <strong>Créateur de site internet</strong> et de nombreuses solutions web, <strong>Linkweb</strong> saura vous conseiller pour vous donner accès à un produit de <strong>qualité professionnelle</strong>, fonctionnel et efficace en vue d’attirer vos prospects et répondre à vos objectifs de communication.</p>
                     <br />
-                    <p style={{textAlign:'justify', textAlignCenter:'center'}}>Directement depuis nos locaux d’Agen et Toulouse, nous effectuons tout le nécessaire pour vous accompagner dans la mise en place et la réalisation de votre stratégie digitale en vue d’asseoir votre domination face à vos concurrents et générer des contacts. Créer une boutique en ligne, site vitrine ou tout autre type de site web pour votre entreprise est, désormais, à portée de main.</p>
+                    <p style={{textAlign:'justify', textAlignCenter:'center'}}>Directement depuis nos locaux d’<strong>Agen</strong> et <strong>Toulouse</strong>, nous effectuons tout le nécessaire pour vous accompagner dans la mise en place et la réalisation de votre <strong>stratégie digitale</strong> en vue d’asseoir votre domination face à vos concurrents et générer des contacts. <strong>Créer une boutique en ligne</strong>, site vitrine ou tout autre <strong>type de site web</strong> pour votre entreprise est, désormais, à portée de main.</p>
                         
                     </section>
                     
