@@ -28,8 +28,8 @@ class CreerBoutiqueEnLigne extends React.Component {
 
                 <SEO
                     title="Créer une Boutique En Ligne - Site E-Commerce - Linkweb Agen"
-                    descriptin="Vous souhaitez mettre en place un site internet pour vendre vos produits ? Linkweb vous accompagne pour définir votre projet de boutique en ligne."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    description="Vous souhaitez mettre en place un site internet pour vendre vos produits ? Linkweb vous accompagne pour définir votre projet de boutique en ligne."
+                    keywords={[`Créer une boutique en ligne à Agen`, `Créer une boutique en ligne à Toulouse`, `Création site e-commerce Agen`, `Création site e-commerce Toulouse`]}
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -74,16 +74,16 @@ class CreerBoutiqueEnLigne extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">
+                        <h3 data-aos='fade-right' className="text-center text-4xl century">
                         82,7% des internautes français achètent sur internet ! Vendez vos produits en ligne pour maximiser votre chiffre d’affaires !
-                        </h2>
+                        </h3>
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex w-full mx-auto px-4 py-6 my-4" style={{marginLeft:'50px'}}>
                         <div className="w-1/2 px-12 py-12" style={{padding:'3% 9%'}} >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉER UNE BOUTIQUE EN LIGNE : OPTEZ POUR LE E-COMMERCE
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <strong className="font-bold">Développer son commerce en ligne, c’est faire appel à un outil puissant pour atteindre une cible élargie et de potentiels nouveaux clients potentiels.</strong>
                             </h4>
@@ -98,9 +98,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Linkweb s’engage aux côtés des e-commerçants
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -203,9 +203,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Créer une boutique en ligne en 3 étapes
-                        </h3><br/>
+                        </h2><br/>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -260,9 +260,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez opter pour une solution e-commerce ? Saisissez votre adresse mail.
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -348,9 +348,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>LINKWEB VOUS ACCOMPAGNE POUR CRÉER VOTRE BOUTIQUE EN LIGNE
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous souhaitez développer vos ventes en ligne par l’intermédiaire de la création d’une boutique en ligne ? Nous répondons à vos interrogations.</h4>
                     </section>

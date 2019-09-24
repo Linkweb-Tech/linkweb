@@ -37,7 +37,7 @@ class Crea extends React.Component {
                 <SEO
                     title="Création de Site Internet Agen - Agence de Communication Linkweb"
                     description="Linkweb est le spécialiste de la création de site internet à Agen (47) et Toulouse (31). À l'écoute, l'équipe vous accompagne pour un projet web sur-mesure."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    keywords={[`Création site internet Agen`, `Creation site internet Agen`, `Développement site internet Agen`, `Création site web Agen`]}
                 />
                 <PageTransition
                     defaultStyle={{
@@ -68,7 +68,7 @@ class Crea extends React.Component {
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 ">
                         <section className="w-full">
                              <h2 data-aos='fade-right' className="text-center text-4xl century">
-                             Création de site internet professionnel
+                             Création de site internet professionnel à Agen
                             </h2>
                             <hr className="blue"></hr>
                         </section>
@@ -146,7 +146,7 @@ class Crea extends React.Component {
                         </section>
                     </section>
                     <section className="flex w-full  mx-auto px-0 my-4" style={{marginTop:'0px', marginBottom:'0px'}}>
-                        <div className="w-1/2 bg-bleu" style={{backgroundColor: '#37c5ee', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
+                        <div className="w-1/2 bg-bleu" style={{padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
                             <h2 className="text-white font-bold" style={{fontSize:'40px'}}>Et pour une petite entreprise locale du Lot-et-Garonne ?</h2><br/>
                             <p style={{fontSize:'15px', color:'black'}}>Pour une entreprise local, <strong>avoir un site internet</strong> est incontournable. Non seulement vous vous démarquerez de la concurrence, mais vous aurez également la possibilité de toucher une clientèle beaucoup plus large. En mettant en avant vos services et vos prestations sur votre <strong>site vitrine</strong>, vous laissez la possibilité à vos prospects d’avoir accès à toutes les informations importantes concernant votre entreprise, et cela à tout moment.</p>
                             <br/> 
@@ -169,7 +169,7 @@ class Crea extends React.Component {
                                 </div>
                             </section>
                         </div>
-                        <div className="w-1/2 bg-black" style={{backgroundColor: 'black', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
+                        <div className="w-1/2 bg-black" style={{padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
                             <h2 className="text-white font-bold" style={{fontSize:'40px'}}>Pour de la vente en ligne ?</h2><br/>
                             <p style={{fontSize:'15px', color:'white'}}>En 2017, 85% des internautes ont effectués des achats en ligne. Ces chiffres sont en constante évolution. Pour cause, les bénéfices sont nombreux à se lancer dans le e-commerce. Cependant, pour qu’un <strong>projet web</strong> tel que la création d’une boutique <strong>e-commerce</strong> soit pérenne, il est indispensable de faire appel à des professionnels qualifiés pour mettre en place une réelle <strong>stratégie digitale</strong> et obtenir une <strong>conception de site</strong> de qualité.</p>
                             <br/> 
@@ -195,10 +195,10 @@ class Crea extends React.Component {
                             </section>
                         </div>
                     </section>
-                    <section style={{backgroundColor:`rgb(255, 255, 255, 0.8`, backgroundImage: 'url(' + fondblanc + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode: `overlay`, marginTop:'50px', padding:`130px`, color:'black'}}>
+                    <section style={{backgroundColor:`rgb(255, 255, 255, 0.8)`, backgroundImage: 'url(' + fondblanc + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode: `overlay`, marginTop:'50px', padding:`130px`, color:'black'}}>
                             <br />
-                        <section className="max-w-full w-full mx-auto px-4 px-6 py-6 my-4 ">
-                            <section style={{backgroundColor:'black', padding:'3%'}} className="w-full">
+                        <section className="max-w-full w-full mx-auto px-4 px-6 py-6 my-4 bg-black">
+                            <section style={{ padding:'3%'}} className="w-full">
                                     <h2 data-aos='fade-right' className="text-right text-4xl century text-white">Comment créer un site internet pour les TPE / PME d’Agen et des alentours ?</h2>
                                     <br />
                                     <p style={{fontSize:'15px', textAlign:'justify', textAlignLast:'center', color:'white'}}><strong>Créer son site internet</strong> (ou bien réaliser une <strong>refonte de site internet</strong>) est une opération bien plus complexe que ce que l’on peut imaginer. Bien sûr, vous pouvez tout à fait <strong>créer votre site internet</strong> à l’aide d’un <strong>éditeur de site internet</strong> et outils de <strong>gestion de contenu gratuits</strong> tel que <strong>Wix</strong>, <strong>Jimdo</strong>, <strong>E Monsite</strong> ou <strong>Weebly</strong>, pour ne citer que les plus connus. Vous aurez ainsi la possibilité de <strong>créer un site facilement</strong>, sans <strong>aucune connaissance</strong>, en mettant en place des <strong>templates</strong> basiques, une description rapide de votre entreprise et en ajoutant quelques-unes de vos photos pour correspondre à la <strong>charte graphique</strong> de votre entreprise.</p>
@@ -258,7 +258,7 @@ class Crea extends React.Component {
                         </section>
                     </section>
                     <section className="flex w-full  mx-auto px-0 my-4" style={{marginTop:'0px', marginBottom:'0px'}}>
-                        <div className="w-1/2 bg-black" style={{backgroundColor: 'black', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
+                        <div className="w-1/2 bg-black" style={{padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
                             <h2 className="text-white font-bold" style={{fontSize:'40px'}}>Pourquoi faire appel à Linkweb pour créer un site ?</h2><br/>
                             <p style={{fontSize:'15px', color:'white'}}>Les entreprises de création et de référencement naturel se font de plus en plus nombreuses ces dernières années, même sur le secteur d’Agen. De plus, vous devez forcément connaître dans votre entourage une personne vous ayant proposé de vous <strong>faire un site internet</strong>. Plus encore, vous avez sans nul doute reçu de nombreux appel de la part d’entreprises vous proposant de <strong>créer un site internet gratuit</strong>. Vous n’avez donc que l’embarras du choix. Mais alors, comment choisir ? Pourquoi choisir Linkweb pour <strong>créer un site web</strong> ?</p>
                             <br/> 
@@ -281,7 +281,7 @@ class Crea extends React.Component {
                                 </div>
                             </section>
                         </div>
-                        <div className="w-1/2 bg-black" style={{backgroundColor: '#37c5ee', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
+                        <div className="w-1/2 bg-bleu" style={{padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
                             <h2 className="text-white font-bold" style={{fontSize:'40px'}}>Notre expérience à votre service</h2><br/>
                             <p style={{fontSize:'15px', color:'black'}}>Depuis plus de 10 ans, l’<strong>agence de communication web Linkweb</strong> fait partie des <strong>agences web</strong> qui travaillent en collaboration avec l’ensemble de ses clients pour répondre au mieux aux attentes de chacun. Chaque projet, de la <strong>conception du site</strong> à la stratégie de <strong>communication digitale</strong>, est réalisé avec rigueur et professionnalisme. Notre seul objectif est d’aider les entreprises locales à developper leurs activités grâce à la mise en place d’une stratégie digitale, et une utilisation du <strong>webmarketing</strong> efficace. Nous nous engageons ainsi à réaliser pour vous des <strong>sites web responsive web design</strong> à travers le <strong>développement web</strong> et l’utilisation d’outils adaptés (<strong>système de gestion de contenu</strong>) avec une <strong>interface intuitive</strong> et des contenus optimisés au référencement SEO.</p>
                             <br/> 
@@ -305,11 +305,11 @@ class Crea extends React.Component {
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ backgroundColor: '#6a6a6a', backgroundImage: 'url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundRepeat:'no-repeat', backgroundPosition:'center' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
 
 
-                            </h3>
+                            </h2>
 
                         </div>
 

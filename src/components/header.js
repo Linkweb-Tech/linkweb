@@ -60,27 +60,30 @@ class Header extends React.Component {
         <div className='
           
           topbar max-w-xl bg-bleu flex justify-around p-2 rounded-br-large'>
-          <Link  to="https://linkweb.fr" className="flex items-center no-underline text-white">
+          <Link  to="/" className="flex items-center no-underline text-white">
             <span className="text-white century">Agence Web</span>
           </Link>
-          <Link to="#" className="flex items-center no-underline text-white">
+          <Link to="/actualite-digitale" className="flex items-center no-underline text-white">
             <span className="text-white century">Le Blog</span>
           </Link>
-          <Link to="#" className="flex items-center no-underline text-white">
+          <Link to="https://www.facebook.com/AgenceLinkweb/" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
             <img 
               src={ fbIcon }
+              alt="Réseaux sociaux"
               className="w-6 fill-current"
             />
           </Link>
-          <Link to="#" className="flex items-center no-underline text-white">
+          <Link to="https://linkweb.fr/wp-content/themes/jupiter-child/img/logo-twitter.png" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
             <img 
               src={ twitterIcon }
+              alt="Réseaux sociaux"
               className="w-6 fill-current"
             />
           </Link>
-          <Link to="#" className="flex items-center no-underline text-white">
+          <Link to="https://www.instagram.com/AgenceLinkweb/" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
             <img 
               src={ instaIcon }
+              alt="Réseaux sociaux"
               className="w-6 fill-current"
             />
           </Link>
@@ -89,6 +92,7 @@ class Header extends React.Component {
           <Link to="/" className="flex items-center no-underline w-56 pl-5">
             <img 
               src={linkwebLogo} 
+              alt="Linkweb"
               className=""
             />
           </Link>

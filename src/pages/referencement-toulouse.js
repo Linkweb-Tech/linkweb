@@ -40,8 +40,9 @@ class ReferencementToulouse extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet Toulouse"
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    title="Référencement Toulouse / Agen - Agence Web Linkweb"
+                    description="Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
+                    keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
                 />
                 <PageTransition
                     defaultStyle={{
@@ -70,9 +71,9 @@ class ReferencementToulouse extends React.Component {
                         <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer ma visibilité sur internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">
+                        <h3 data-aos='fade-right' className="text-center text-4xl century">
                             Nous travaillons main dans la main pour améliorer votre visibilité.
-                        </h2>
+                        </h3>
                         <hr className="blue"></hr>
 
                     </section>
@@ -113,12 +114,12 @@ class ReferencementToulouse extends React.Component {
                     </section>
                     <section className="flex-wrap flex w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className=" font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
-                            <h3 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h3>
+                            <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h2>
                             <p>Vous souhaitez <strong>augmenter votre visibilité</strong> dans les <strong>pages de recherche de Google</strong> ? Vous souhaitez <strong>générer du trafic sur votre site internet</strong>, vendre vos produits ou obtenir des contacts ? Le <strong>référencement naturel</strong> vous offre la possibilité de mettre en avant votre entreprise.</p>
                             <RoundButton url="/referencement-de-site-internet-47-31" text="Notre offre de Référencement Naturel" />
                         </div>
                         <div className="font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
-                            <h3 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h3>
+                            <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h2>
                             <p>Vous souhaitez obtenir un <strong>retour sur investissement</strong> grâce à votre <strong>boutique en ligne</strong> ou votre <strong>site vitrine</strong> ? Mener une campagne sponsorisée permet de propulser votre visibilité sur Google en un temps record, et ainsi, atteindre vos objectifs de conversion.</p>
                             <RoundButton url="/agence-adwords-47-31/" text="Notre offre de Référencement Ads" />
                         </div>
@@ -129,9 +130,9 @@ class ReferencementToulouse extends React.Component {
                             <img src={imac} alt="Référencement Toulouse" />
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>RÉFÉRENCEMENT : OBTENIR UNE MEILLEURE VISIBILITÉ GRÂCE AU RÉFÉRENCEMENT À AGEN
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Référencer son site, c’est donner vie à sa communication digitale pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité.</span>
                             </h4>
@@ -145,9 +146,9 @@ class ReferencementToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                             Sautez le pas, enlevez votre cape d’<span className="text-bleu">invisibilité !</span>
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
 
                     </section>
@@ -199,9 +200,9 @@ class ReferencementToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                             <span className="text-bleu">/</span>QUE FAIT LINKWEB POUR VOTRE RÉFÉRENCEMENT À AGEN ?
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
 
                     </section>
@@ -270,9 +271,9 @@ class ReferencementToulouse extends React.Component {
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -297,9 +298,9 @@ class ReferencementToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur notre offre de référencement à Agen ?
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous vous demandez encore pourquoi le référencement est utile pour votre site ? Voici des réponses aux interrogations courantes sur le SEO.</h4>
                     </section>
@@ -319,9 +320,9 @@ class ReferencementToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Ils sont satisfaits par notre offre de création de site internet
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
 
                     </section>

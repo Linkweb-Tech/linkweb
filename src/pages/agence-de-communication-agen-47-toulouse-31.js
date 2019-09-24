@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";;
 import Layout from "../components/layout";
+import Button from "../components/button";
 import RoundButton from "../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";
@@ -30,8 +31,9 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet Toulouse"
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    title="Agence de Communication Agen - Création Site Internet - Linkweb"
+                    description="Linkweb est à l’origine de nombreux projets pour mettre en valeur les professionnels de tous secteurs d’activités. Pourquoi pas le votre ?"
+                    keywords={[`Projet web Agen`, `Projet Web Toulouse`, `Création site internet sur-mesure`, `Agence Web Toulouse`]}
                 />
                 <PageTransition
                     defaultStyle={{
@@ -52,11 +54,11 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     }}
                     transitionTime={200}
                 >
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize:'cover' }}>
+                        <h2 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
                         Nos réalisations à Toulouse<span className="text-bleu">/</span>Agen
-                        </h1>
-                        <h3 className="italic text-2xl text-white">Agence de communication à Agen/Toulouse</h3>
+                        </h2>
+                        <h1 className="italic text-2xl text-white">Agence de communication à Agen/Toulouse</h1>
                         <RoundButton url="#" text="Je suis intéressé par une offre de création de site internet" />
                     </section>
                     
@@ -80,11 +82,12 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
                                 </h3>
-                                    <div className="content pb-6">
-                                    Prendre conscience de l’intérêt de la création d’un site internet pour votre entreprise est essentiel à l’heure où des millions de sites voient le jour. Mettre en place un site visible sur les moteurs de recherche permet de toucher une nouvelle cible et favorise le développement de votre entreprise.  
+                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Prendre conscience de l’intérêt de la <strong>création d’un site internet</strong> pour votre entreprise est essentiel à l’heure où des millions de sites voient le jour. Mettre en place un <strong>site visible sur les moteurs de recherche</strong> permet de toucher une nouvelle cible et favorise le développement de votre entreprise.  
+                                    <br/><Button url="/contact-agence-web-toulouse" text="En savoir plus" position="center" />
                                 </div>
                                     
 
@@ -95,11 +98,12 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
                                 </h3>
-                                    <div className="content pb-6">
-                                    Vous souhaitez mettre en place votre solution web, mais ne savez pas ce qui vous conviendrez le plus ? Nous définissons votre projet selon vos objectifs, vos besoins, vos cibles, ainsi que vos moyens. Linkweb met en place votre projet web sur-mesure pour créer un site internet qui vous ressemble.
+                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Vous souhaitez mettre en place votre <strong>solution web</strong>, mais ne savez pas ce qui vous conviendrez le plus ? Nous définissons votre projet selon vos objectifs, vos besoins, vos cibles, ainsi que vos moyens. <strong><Link to="/">Linkweb</Link></strong> met en place votre <strong>projet web sur-mesure</strong> pour <strong>créer un site internet</strong> qui vous ressemble.
+                                    <br/><br/><Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </div>
                                     
                                 </section>
@@ -109,11 +113,12 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                             <div className="flex flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE CHOISIS LINKWEB POUR CRÉER MON SITE INTERNET
                                 </h3>
-                                    <div className="content pb-6">
-                                        Faites confiance à l’expertise de Linkweb dans la création de site internet. Nos consultants en référencement et développement vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un site internet qui fonctionne.
+                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                        Faites confiance à l’expertise de <strong><Link to="/">Linkweb</Link></strong> dans la <strong><Link to="/creation-site-internet-toulouse">création de site internet</Link></strong>. <strong>Nos consultants</strong> en <strong><Link to="/referencement-toulouse">référencement</Link></strong> et <strong><Link to="/creation-de-site-internet-47-31/">développement</Link></strong> vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un <strong>site internet</strong> qui fonctionne.
+                                        <br/><br/><br/><Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
                                 </div>
                                     
                                 </section>
@@ -124,11 +129,11 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
 
 
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -154,9 +159,9 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     </section>
                     
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Ils sont satisfaits par notre offre de création de site internet
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
 
                     </section>
@@ -194,8 +199,8 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Voir plus de témoignages
-                            </Link>
-                            |
+                            </Link>&nbsp;
+                            |&nbsp;
                             <Link
                                 className="century text-sm hover:text-bleu"
                                 to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
@@ -205,7 +210,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Les dernières actualités
                         </h3>
                         <hr className="blue"></hr>

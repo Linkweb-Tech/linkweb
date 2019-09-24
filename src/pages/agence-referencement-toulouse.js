@@ -31,7 +31,7 @@ render() {
             <SEO
                 title="Agence Référencement Toulouse (31) - Agence Web Linkweb"
                 description="Développez votre visibilité avec la mise en place d'une stratégie de référencement sur-mesure. Linkweb vous accompagne pour atteindre vos objectifs."
-                keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                keywords={[`Agence Référencement Toulouse`, `Agence de Référencement à Toulouse`, `Référencement Naturel Toulouse`, `Agence Adowrds Toulouse`]}
             />
             <PageTransition
                 defaultStyle={{
@@ -53,10 +53,10 @@ render() {
                 transitionTime={200}
             >
                 <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor: 'rgb(110, 110, 110,0.9)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + Bg + ')'}}>
-                    <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                    <h2 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
                     Référencement Web Toulouse<span className="text-bleu">/</span>Agen
-                    </h1>
-                    <h3 className="italic text-2xl text-white">Agence de référencement / Toulouse</h3>
+                    </h2>
+                    <h1 className="italic text-2xl text-white">Agence de référencement Toulouse / Agen</h1>
                     <RoundButton url="/contact-agence-web-toulouse" text="Je veux developper ma visibilité en ligne" />
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -80,9 +80,9 @@ render() {
                 <section className="flex w-full  mx-auto px-0 py-6 my-4">
 
                     <div className="w-1/2 max-w-3xl px-12 py-12" >
-                        <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{paddingTop:'60px'}}>
+                        <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{paddingTop:'60px'}}>
                             <span className="text-bleu">/</span>NOUS METTONS EN PLACE VOTRE STRATÉGIE DE RÉFÉRENCEMENT LOCAL OU NATIONAL
-                        </h3>
+                        </h2>
                         <br />
                         <p data-aos='fade-bottom' style={{paddingTop:'20px'}}>
                         Référencer son site, c’est donner vie à sa <strong>communication digitale</strong> pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité. <br/>
@@ -101,9 +101,9 @@ render() {
                         <img src={mac} alt="Agence de Référencement Toulouse"/>
                     </div>
                     <div className="w-1/2 max-w-3xl px-12 py-12" >
-                        <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{paddingTop:'250px'}}>
+                        <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{paddingTop:'250px'}}>
                             <span className="text-bleu">/</span>OBTENIR UNE MEILLEURE VISIBILITÉ GRÂCE AU RÉFÉRENCEMENT
-                        </h3>
+                        </h2>
                         <br />
                         <p data-aos='fade-bottom' style={{paddingTop:'20px'}}>
                         Inclure le <strong>référencement de site web</strong> dans sa <strong>stratégie digitale</strong>.<br/>
@@ -114,9 +114,9 @@ render() {
                     </div>
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                    <h3 data-aos='fade-right' className="text-center text-3xl century">
+                    <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Vous avez dit <span className="text-bleu">référencement</span> ?
-                    </h3>
+                    </h2>
                     <hr className="blue"></hr>
 
                 </section>
@@ -155,11 +155,11 @@ render() {
                 </section>
                 <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                     <div className="max-w-5xl mx-auto flex items-center">
-                        <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                        <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez obtenir un devis référencement ou un complément d’information en vue de créer votre site web ?
 
 
-                        </h3>
+                        </h2>
 
                     </div>
 

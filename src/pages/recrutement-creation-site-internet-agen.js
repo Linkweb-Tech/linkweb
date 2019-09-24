@@ -23,8 +23,8 @@ class Recrutement extends React.Component {
 
                 <SEO
                     title="Recrutement - Agence Web Agen - Création Site Internet - Linkweb"
-                    description="L'Agence Web Linkweb recrute à Agen (47) et Toulouse (31). La création de site internet (développement ou référencement) vous intéresse? Contactez-nous."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    description="Vous êtes passionné(e) par le web et motivé(e) par le développement web ou le référencement naturel ? Votre profil nous intéresse. Contactez-nous."
+                    keywords={[`Développeur Web Agen`, `Développement Agen`, `Référencement Agen`, `Rédaction Web Agen`]}
                 />
                 <PageTransition
                     defaultStyle={{

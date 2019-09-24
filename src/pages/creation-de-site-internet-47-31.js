@@ -29,7 +29,7 @@ class CreationSiteSurMesure extends React.Component {
                 <SEO
                     title="Création Site Internet sur mesure à Agen (47) et Toulouse (31) - Linkweb"
                     description="Vous souhaitez développer un projet sur-mesure ? Linkweb crée le site web de vos envies ! Définissez un projet, nous vous apportons une solution concrète."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    keywords={[`Création site internet sur-mesure Agen`, `Création site internet sur-mesure Toulouse`, `Créer un site internet sur-mesure`, `Développement solution web`]}
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -52,7 +52,7 @@ class CreationSiteSurMesure extends React.Component {
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.8)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux la création de mon site sur-mesure" />
+                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux la création de mon site sur-mesure"/>
                         </div>
                         <div className="w-2/3" style={{padding:'2%'}}>
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
@@ -74,9 +74,9 @@ class CreationSiteSurMesure extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">
+                        <h3 data-aos='fade-right' className="text-center text-4xl century">
                         Vous souhaitez ouvrir les réservations en ligne pour votre restaurant ? Vous voulez présenter vos gammes de produits sur un catalogue en ligne ? Linkweb le réalise pour vous.
-                        </h2>
+                        </h3>
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex w-full mx-auto px-4 py-6 my-4">
@@ -85,9 +85,9 @@ class CreationSiteSurMesure extends React.Component {
                             <img src={imac} alt="Création site internet Toulouse" />
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET SUR-MESURE : DÉVELOPPEZ VOS FONCTIONNALITÉS
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Créer un site sur-mesure apporte une réponse aux demandes les plus particulières. En effet, le sur-mesure vous offre la possibilité de développer des fonctionnalités de tout type.</span>
                             </h4>
@@ -99,9 +99,9 @@ class CreationSiteSurMesure extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Création de site internet sur-mesure à Agen et Toulouse :<br/> simple et rapide !
-                        </h3><br/>
+                        </h2><br/>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -151,9 +151,9 @@ class CreationSiteSurMesure extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         <span className="text-bleu">/</span>Agence de création de site internet sur-mesure à Agen et Toulouse 
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -258,9 +258,9 @@ class CreationSiteSurMesure extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez opter pour une création de site sur-mesure ?<br/> Saisissez votre adresse mail.
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -346,9 +346,9 @@ class CreationSiteSurMesure extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Linkweb concrétise votre projet de site internet sur-mesure à Agen et Toulouse
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Créer un site internet sur-mesure répond à un besoin précis en termes de communication en ligne. Il est important de soigner les détails pour vous permettre de profiter d’un outil pleinement adapté à votre activité professionnelle.</h4>
                     </section>

@@ -24,8 +24,9 @@ class ContactAgenceWebToulouse extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet Toulouse"
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    title="Agence Web Toulouse - Agen - Création Site - Référencement - Linkweb"
+                    description="Demande de devis - Projet de création de site internet ou de référencement à Agen ou Toulouse - Contactez-nous."
+                    keywords={[`Devis site internet`, `Projet Web Toulouse`, `Projet Web Agen`]}
                 />
                 <PageTransition
                     defaultStyle={{
@@ -46,7 +47,7 @@ class ContactAgenceWebToulouse extends React.Component {
                     }}
                     transitionTime={200}
                 >
-                    <section className="w-full h-screen mx-auto px-4 pb-6 pt-24 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: "multiply" }}>
+                    <section className="w-full h-screen mx-auto px-4 pb-6 pt-24 bg-no-repeat bg-cover bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundRepeat:'none', backgroundPosition:'center', backgroundSize:'cover'}}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl text-center text-white">
                             Une question ? Un devis ? Une candidature ?
                         </h1>

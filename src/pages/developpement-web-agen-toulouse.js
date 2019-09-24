@@ -58,7 +58,7 @@ class Dev extends React.Component {
                 <SEO
                     title="Création Site Internet Agen - Toulouse | E-Commerce, Vitrine - Linkweb"
                     description="Linkweb, agence web spécialisée dans la création de sites internet (e-commerce, vitrine) à Agen (47) et Toulouse (31). Nos projets sont réalisés sur-mesure."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    keywords={[`Développement Web Agen`, `Développement site web Agen`, `Creation site internet Agen`]}
                 />
                 <PageTransition
                     defaultStyle={{
@@ -349,11 +349,11 @@ class Dev extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
 
 
-                            </h3>
+                            </h2>
 
                         </div>
 

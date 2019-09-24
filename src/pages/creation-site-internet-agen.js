@@ -27,8 +27,9 @@ class CreationSiteInternetVitrine extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet Toulouse"
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    title="Création site internet vitrine à Agen (47) et Toulouse (31) - Linkweb"
+                    description="Linkweb est spécialisée dans la création de site internet : nous mettons en place votre projet de site vitrine pour vous permettre de gagner en visibilité."
+                    keywords={[`Création site internet vitrine Agen`, `Création site internet vitrine Toulouse`, `Création site internet Lot-et-Garonne`, `Création site web 47`]}
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -51,7 +52,7 @@ class CreationSiteInternetVitrine extends React.Component {
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.8)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site internet vitrine" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site internet vitrine"/>
                         </div>
                         <div className="w-2/3" style={{padding:'2%'}}>
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
@@ -73,16 +74,16 @@ class CreationSiteInternetVitrine extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">
+                        <h3 data-aos='fade-right' className="text-center text-4xl century">
                         TPE, PME, artisans, professions libérales : dynamisez votre <strong>communication digitale d’entreprise</strong>.
-                        </h2>
+                        </h3>
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex w-full mx-auto px-4 py-6 my-4" style={{marginLeft:'50px'}}>
                         <div className="w-1/2 px-12 py-12" style={{padding:'3% 9%'}} >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET VITRINE : DÉVELOPPEZ VOTRE VISIBILITÉ SUR LE WEB
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Créer un site vitrine pour son entreprise, c’est s’assurer d’être accessible 24/24h, 7/7J pour acquérir de nouveaux clients grâce au web.</span>
                             </h4>
@@ -152,9 +153,9 @@ class CreationSiteInternetVitrine extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Vous souhaitez la création de votre site internet vitrine ?<br/> N’attendez plus !
-                        </h3><br/>
+                        </h2><br/>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -206,9 +207,9 @@ class CreationSiteInternetVitrine extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         <span className="text-bleu">/</span>Linkweb, agence de création de site internet à Agen et Toulouse 
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -259,9 +260,9 @@ class CreationSiteInternetVitrine extends React.Component {
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez opter pour une création de site vitrine ? Saisissez votre adresse mail.
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -347,9 +348,9 @@ class CreationSiteInternetVitrine extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Linkweb se plie en 4 pour la création de votre site vitrine à Agen et Toulouse
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Le site internet vitrine constitue la carte de visite en ligne de votre entreprise. Accessible de jour, comme de nuit, il vous apporte une visibilité considérable pour promouvoir vos prestations.</h4>
                     </section>

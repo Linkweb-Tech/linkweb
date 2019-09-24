@@ -33,7 +33,7 @@ class ErgonomieToulouse extends React.Component {
                 <SEO
                     title="Création Site Internet Agen - Toulouse - Agence Web Linkweb"
                     description="Linkweb, agence web située à Agen (47) et Toulouse (31), est spécialisée dans la création et gestion de sites internet (e-commerce, administrable, vitrine)."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    keywords={[`Création site internet ergonomique Agen`, `Création site internet Agen`, `Creation site internet Agen`, `Création site web Agen`]}
                 />
                 <PageTransition
                     defaultStyle={{
@@ -103,7 +103,7 @@ class ErgonomieToulouse extends React.Component {
                         <div className="w-1/2 ">
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
-                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{fontSize:'40px', textAlign:'center'}}>
+                            <h2 className="century text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{fontSize:'40px', textAlign:'center'}}>
                                 Créer un site professionnel qui s’adapte à tous les supports
                             </h2>
                             <br/>
@@ -205,11 +205,11 @@ class ErgonomieToulouse extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
 
 
-                            </h3>
+                            </h2>
 
                         </div>
 

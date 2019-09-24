@@ -41,8 +41,10 @@ class AgenceWebToulouse extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet Toulouse"
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    title="Agence de Communication Web - Création site Internet Toulouse - Linkweb"
+                    description="L'agence web Linkweb déploie son offre en termes de communication web à Toulouse (31) : création de site internet, référencement naturel et ads."
+                    keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
+                    link rel="canonical" href="/"
                 />
                 <PageTransition
                     defaultStyle={{
@@ -71,9 +73,9 @@ class AgenceWebToulouse extends React.Component {
                         <RoundButton url="/contact-agence-web-toulouse" text="Je veux developper ma communication en ligne" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">
+                        <h3 data-aos='fade-right' className="text-center text-4xl century">
                             Nous les accompagnons depuis plusieurs années pour servir l’intérêt général.
-                        </h2>
+                        </h3>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -115,13 +117,13 @@ class AgenceWebToulouse extends React.Component {
                     </section>
                     <section className="flex-wrap flex w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className=" font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" data-aos="zoom-in">
-                            <h3 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h3>
+                            <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
                             <RoundButton color="black" url="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" text="Plus d'informations pratiques" />
                         </div>
                         <div className="font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" data-aos="zoom-in" data-aos-delay="200">
-                            <h3 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h3>
+                            <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
                             <RoundButton url="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" text="Plus d'informations pratiques" />
@@ -133,9 +135,9 @@ class AgenceWebToulouse extends React.Component {
                             <img src={imac} alt="Agence Web Toulouse" />
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
                             </h4>
@@ -150,9 +152,9 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                             Notre agence est taillée pour <span className="text-bleu">votre projet web</span>
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
 
                     </section>
@@ -205,9 +207,9 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : QUI SOMMES-NOUS ?
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
                     </section>
@@ -289,11 +291,11 @@ class AgenceWebToulouse extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
 
 
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -318,9 +320,9 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Agence Web Toulouse : que gagner à se lancer dans un projet web ?
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Tout ! Ou bien presque. Investir dans un site web vous confère de nombreux avantages pour le développement de votre société, et d’abord celui de montrer que vous êtes bien présent.</h4>
                     </section>
@@ -340,9 +342,9 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Ils sont satisfaits par nos services d’agence web
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
 
                     </section>
@@ -397,10 +399,10 @@ class AgenceWebToulouse extends React.Component {
 
                     <section className=" w-full h-screen flex flex-col justify-center bg-bottom items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bureau + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex flex-col items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                                 <span className="text-bleu">/</span>Vous souhaitez intégrer l’équipe de Linkweb ?
                                 Nous recrutons des développeurs et référenceurs web à Agen.
-                            </h3>
+                            </h2>
                              <RoundButton url="/recrutement-creation-site-internet-agen" text="Voir notre page recrutement" />
                         </div>
                     </section>

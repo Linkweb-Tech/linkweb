@@ -28,8 +28,8 @@ class ReferencementNaturel extends React.Component {
 
                 <SEO
                     title="Agence Référencement Agen Toulouse - Référencement Naturel - Linkweb"
-                    description="Linkweb, agence de référencement naturel à Agen (47) et Toulouse (31), met en place votre stratégie de référencement naturel pour être visible sur Google."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    description="Définition de votre stratégie de référencement naturel (SEO) - Étude de contexte - Choix des mots-clés - Création de contenus optimisés et originaux."
+                    keywords={[`Référencement Naturel à Agen`, `Référencement Naturel à Toulouse`, `Référencement SEO Toulouse`, `Référencement SEO Agen`]}
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -80,9 +80,9 @@ class ReferencementNaturel extends React.Component {
                     </section>
                     <section className="flex w-full mx-auto px-4 py-6 my-4" style={{marginLeft:'50px'}}>
                         <div className="w-1/2 px-12 py-12" style={{padding:'3% 9%'}} >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>AGENCE DE RÉFÉRENCEMENT : OPTEZ POUR LE NATUREL AVEC NOTRE AGENCE À AGEN
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Être visible sur les moteurs de recherche demande un travail de référencement précis pour améliorer son positionnement.</span>
                             </h4>
@@ -95,9 +95,9 @@ class ReferencementNaturel extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         <span className="text-bleu">/</span>NOS SOLUTIONS DE RÉFÉRENCEMENT À AGEN (47) ET TOULOUSE (31)
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -154,9 +154,9 @@ class ReferencementNaturel extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Vous souhaitez améliorer votre visibilité sur Internet ?<br/>SOYEZ <span className="text-bleu">NATUREL !</span>
-                        </h3><br/>
+                        </h2><br/>
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-1 home-step my-24 px-24">
@@ -259,9 +259,9 @@ class ReferencementNaturel extends React.Component {
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez améliorer votre visibilité dans les résultats de recherche ?<br/> Saisissez votre adresse mail.
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -349,9 +349,9 @@ class ReferencementNaturel extends React.Component {
                     
 
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
-                            <span className="text-bleu">/</span>Que faisons-nous ?
-                        </h3>
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                            <span className="text-bleu">/</span>Référencement à Toulouse : Que faisons-nous ?
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Pour gagner en visibilité, nous devons rendre les contenus de votre site internet pertinents pour répondre aux attentes de vos utilisateurs, mais aussi de Google par le biais de l’optimisation SEO :</h4>
                     </section>

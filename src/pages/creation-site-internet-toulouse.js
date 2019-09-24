@@ -34,8 +34,9 @@ class CreationSiteInternetToulousePage extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet Toulouse"
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    title="Création Site Internet Toulouse / Agen - Agence Web Linkweb"
+                    description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
+                    keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Création site web Agen`, `Création site web Toulouse`]}
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -74,11 +75,12 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className="w-1/5" data-aos='fade-up'>
                         <img 
                             src={peugeot}
+                            alt="Création site internet Toulouse"
                         />
                         </div>
                         <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
                         <img
-                            atl="Création site internet Agen" 
+                            alt="Création site internet Agen" 
                             src={normand}
                         />
                         </div>
@@ -126,9 +128,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <img src={imac} alt="Création site internet Toulouse"/>
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION SITE INTERNET : OPTER POUR UNE AGENCE PROFESSIONNELLE À TOULOUSE
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">La création de site internet est un vecteur de développement pour une entreprise. Linkweb met en place le site web qu’il vous faut à Toulouse.</span>
                             </h4>
@@ -139,9 +141,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Faites connaître votre entreprise sur (<span className="text-bleu">l’</span>)<span className="text-bleu">Internet</span> !
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -193,9 +195,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         <span className="text-bleu">/</span>Création de site internet à Toulouse : <span className="text-bleu">Le mode opératoire</span> 
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -267,9 +269,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#6a6a6a url( '+ bgDev +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                             <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -355,9 +357,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Toulouse ?
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de site internet ?
                         Nous répondons à vos interrogations sur la mise en place de votre site internet professionnel et sur-mesure.</h4>
@@ -388,7 +390,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up">
                             <img 
                                 src={ stars }
-                                atl="Création site internet Agen"
+                                alt="Création site internet Agen"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Château de Boisverdun</div>
@@ -397,7 +399,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="300">
                             <img 
                                 src={ stars }
-                                atl="Création site internet Toulouse"
+                                alt="Création site internet Toulouse"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Auto École Anne</div>
@@ -406,7 +408,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="500">
                             <img 
                                 src={ stars }
-                                atl="Création site internet Agen"
+                                alt="Création site internet Agen"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Fanny Coiffure</div>

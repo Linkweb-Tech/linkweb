@@ -28,7 +28,7 @@ class SectionAccordion extends Component {
       >
         <div onClick={onClick} style={{ cursor: "pointer" }}>
           <span className={`plus pl-2 absolute ${ isOpen ? "open" : "" }`}>
-            <span><svg xmlns={`http://www.w3.org/2000/svg`}  version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" ><polygon points="42,19 23,19 23,0 19,0 19,19 0,19 0,23 19,23 19,42 23,42 23,23 42,23 "/></svg></span>
+            <span><svg xmlns={`http://www.w3.org/2000/svg`}  version="1.1" x="0px" y="0px" viewBox="0 0 42 42" ><polygon points="42,19 23,19 23,0 19,0 19,19 0,19 0,23 19,23 19,42 23,42 23,23 42,23 "/></svg></span>
             
           </span>
           <div className="w-full py-6 px-12"> <span className="text-bleu">/ </span>{label}</div>

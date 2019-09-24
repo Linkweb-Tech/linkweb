@@ -17,10 +17,11 @@ class Footer extends React.Component {
                     <div className="copy text-white text-md">
                         <img 
                         src={ LinkwebWhite }
+                        alt="Linkweb"
                         className="w-full mb-6"
                         />
-                        <p> © 2019 <strong>Linkweb</strong> - <a href="https://linkweb.fr/mentions-legales">Mentions légales</a></p> 
-                        <a className="text-xs"  title="linkweb" href="https://www.linkweb.fr/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</a>
+                        <p> © 2019 <strong>Linkweb</strong> - <a href="/mentions-legales">Mentions légales</a></p> 
+                        <a className="text-xs"  title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</a>
                     </div> <br />
                     </div>
                 </section>
@@ -117,27 +118,29 @@ class Footer extends React.Component {
                     <div className="flex mb-2 items-center">
                         <img 
                         src={ LinkwebWhite }
+                        alt="Linkweb"
                         className="w-32 mb-1"
                         />
                         <span className="century text-2xl pl-2 text-white">le blog</span>
                     </div>
                     <Link
-                        to="#"
+                        to="/actualite-digitale"
                         className=" w-full block last md:inline-block mt-0s md:mt-0  no-underline text-white century bg-bleu text-center py-2 px-4"
                     >
-                        L'actualités digitale
+                        L'actualité digitale
                     </Link>
                     </div>
                     <div className="flex flex-col mt-12 items-center">
                     <div className="flex mb-2 items-center">
                         <img 
                         src={ LinkwebWhite }
+                        alt="Linkweb"
                         className="w-32 mb-1"
                         />
                         <span className="century text-2xl pl-2 text-white">recrute</span>
                     </div>
                     <Link
-                        to="#"
+                        to="/recrutement-creation-site-internet-agen"
                         className=" w-full block last md:inline-block mt-0s md:mt-0  no-underline text-white century bg-bleu text-center py-2 px-4"
                     >
                         Voir les offres

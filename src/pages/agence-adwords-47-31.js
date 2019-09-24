@@ -28,8 +28,8 @@ class ReferencementAds extends React.Component {
 
                 <SEO
                     title="Agence Adwords Agen - Toulouse - Gestion Campagne Adwords - Linkweb"
-                    description="L'Agence Web Linkweb, à Agen (47) et Toulouse (31), réalise votre campagne adwords adaptée à votre budget. Notre rôle : accroître votre audience."
-                    keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+                    description="Création de votre campagne Google Ads sur-mesure - Étude des mots-clés -  Prévision et budgétisation. Notre objectif : générer un retour sur investissement."
+                    keywords={[`Agence Adwords Agen`, `Agence Adwords Toulouse`, `Campagne Adwords Agen`, `Campagne Adwords Toulouse`]}
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -83,9 +83,9 @@ class ReferencementAds extends React.Component {
                             <img src={imac} alt="Agence Adwords Toulouse"/>
                         </div>
                         <div className="w-1/2 max-w-3xl px-12 py-12" >
-                            <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CAMPAGNES ADWORDS : SOYEZ <span className="text-bleu">ROI</span>
-                            </h3>
+                            </h2>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
                                 <span className="font-bold text-justify">Le référencement payant (SEA) peut-être source de retour sur investissement, encore faut-il bien l’utiliser.</span>
                             </h4>
@@ -146,9 +146,9 @@ class ReferencementAds extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         Vous êtes un challenge, nous devenons une <span className="text-bleu">plus-value</span>.
-                        </h3><br/>
+                        </h2><br/>
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-1 home-step my-24 px-24">
@@ -197,9 +197,9 @@ class ReferencementAds extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
                         <span className="text-bleu">/</span>Notre expertise Google Adwords
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         
                     </section>
@@ -238,9 +238,9 @@ class ReferencementAds extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez améliorer votre visibilité dans les résultats de recherche ?<br/> Saisissez votre adresse mail.
-                            </h3>
+                            </h2>
 
                         </div>
 
@@ -328,9 +328,9 @@ class ReferencementAds extends React.Component {
                     
 
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>LINKWEB VOUS ACCOMPAGNE
-                        </h3>
+                        </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Les référenceurs et consultants de l’agence de référencement Linkweb vous proposent un suivi de qualité pour un retour sur investissement garanti. Nous vous apportons nos connaissances pour vous aider à accroitre votre clientèle.</h4>
                     </section>

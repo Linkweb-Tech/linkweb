@@ -16,7 +16,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               lang
             }}
             title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            titleTemplate={`%s`}
             meta={[
               {
                 name: `description`,
@@ -35,8 +35,16 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: `website`
               },
               {
+                property: `og:site_name`,
+                content: `Linkweb`
+              },
+              {
+                property: `og:locale`,
+                content: `fr_FR`
+              },
+              {
                 name: `twitter:card`,
-                content: `summary`
+                content: `summary_large_image`
               },
               {
                 name: `twitter:creator`,
@@ -70,7 +78,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `fr`,
   meta: [],
-  keywords: []
+  keywords: [],
 };
 
 SEO.propTypes = {

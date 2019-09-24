@@ -25,6 +25,10 @@ function IndexPage(props) {
   return (
 
     <Layout location={props.location}>
+      <SEO
+        title="Agence Web Toulouse, Agen - Création Site Internet - Linkweb"
+        description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
+      />
         <PageTransition
           defaultStyle={{
             transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
