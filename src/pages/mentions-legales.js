@@ -27,7 +27,8 @@ class MentionsLegales extends React.Component {
 
                 <SEO
                     title="Agence Web Agen et Toulouse - Mentions Légales - Agen - Linkweb"
-                    description="Mentions Légales - Consulter les mentions légales de l'Agence Web Linkweb à Agen (47) : création de site internet et référencement à Agen et Toulouse (31)."                    
+                    description="Mentions Légales - Consulter les mentions légales de l'Agence Web Linkweb à Agen (47) : création de site internet et référencement à Agen et Toulouse (31)."
+                    url="https://linkweb.fr/mentions-legales"                    
                 />
                 <PageTransition
                     defaultStyle={{
@@ -61,10 +62,10 @@ class MentionsLegales extends React.Component {
                         </h2>
                         <hr className="blue"></hr>
                     
-                    <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Le site <Link to="https://linkweb.fr">linkweb.fr</Link> n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord, nous les utiliserons seulement pour vous adresser des courriers, des brochures, des devis ou vous contacter.<br/>
+                    <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Le site <Link to="/" className="hover:text-bleu">linkweb.fr</Link> n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord, nous les utiliserons seulement pour vous adresser des courriers, des brochures, des devis ou vous contacter.<br/>
                     <br/>
-                        Les informations recueillies sur les sites bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 06 janvier 1978. Elles bénéficient d’un droit d’accès, de rectification, d’opposition à communication et de suppression sur simple demande par email à <Link to="mailto:contact@linkweb.fr">contact@linkweb.fr</Link>
-                        Le site <Link to="https://linkweb.fr">linkweb.fr</Link> pourra procéder à des analyses statistiques sans que celles-ci soient nominatives et pourra en informer des tiers (organismes d’évaluation de fréquentation) sous une forme résumée et non nominative.</p>
+                        Les informations recueillies sur les sites bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 06 janvier 1978. Elles bénéficient d’un droit d’accès, de rectification, d’opposition à communication et de suppression sur simple demande par email à <a href="mailto:contact@linkweb.fr">contact@linkweb.fr</a>
+                        Le site <Link to="/" className="hover:text-bleu">linkweb.fr</Link> pourra procéder à des analyses statistiques sans que celles-ci soient nominatives et pourra en informer des tiers (organismes d’évaluation de fréquentation) sous une forme résumée et non nominative.</p>
                     
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Liens hypertexte
@@ -89,11 +90,11 @@ class MentionsLegales extends React.Component {
                     Par le biais de votre navigateur, vous avez la possibilité de bloquer l’implantation de cookies sur votre ordinateur :<br/>
                     <br />
                     <ul>
-                        <li><b>Mozilla Firefox :</b> <Link to="https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent">https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent</Link></li>
-                        <li><b>Google Chrome :</b> <Link to="https://support.google.com/chrome/answer/95647?hl=fr">https://support.google.com/chrome/answer/95647?hl=fr</Link></li>
-                        <li><b>Safari :</b> <Link to="https://support.apple.com/kb/ph21411?locale=fr_FR">https://support.apple.com/kb/ph21411?locale=fr_FR</Link></li>
-                        <li><b>Internet Explorer :</b> <Link to="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies">https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies</Link></li>
-                        <li><b>Opera :</b> <Link to="http://help.opera.com/Windows/10.20/fr/cookies.html">http://help.opera.com/Windows/10.20/fr/cookies.html</Link></li>
+                        <li><b>Mozilla Firefox :</b> <a href="https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent</a></li>
+                        <li><b>Google Chrome :</b> <a href="https://support.google.com/chrome/answer/95647?hl=fr" target="blank" rel="noreferrer noopener"className="hover:text-bleu">https://support.google.com/chrome/answer/95647?hl=fr</a></li>
+                        <li><b>Safari :</b> <a href="https://support.apple.com/kb/ph21411?locale=fr_FR" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.apple.com/kb/ph21411?locale=fr_FR</a></li>
+                        <li><b>Internet Explorer :</b> <a href="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies</a></li>
+                        <li><b>Opera :</b> <a href="http://help.opera.com/Windows/10.20/fr/cookies.html" target="blank" rel="noreferrer noopener" className="hover:text-bleu">http://help.opera.com/Windows/10.20/fr/cookies.html</a></li>
                     </ul>
                     </p>
                     <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -116,7 +117,7 @@ class MentionsLegales extends React.Component {
                         Droit d’accès, de rectification ou suppression des données personnelles
                         </h2>
                         <hr className="blue"></hr>
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le <Link to="/contact-agence-web-toulouse">formulaire de contact du site</Link> ou sur simple demande par email à <Link to="mailto:contact@linkweb.fr">contact@linkweb.fr</Link> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
+                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le <Link to="/contact-agence-web-toulouse" className="hover:text-bleu">formulaire de contact du site</Link> ou sur simple demande par email à <a href="mailto:contact@linkweb.fr" className="hover:text-bleu">contact@linkweb.fr</a> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
                         </p>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Éditeur
@@ -129,7 +130,7 @@ class MentionsLegales extends React.Component {
                         Code APE/NAF : 6201Z<br/>
                         Convention : Programmation informatique<br/>
                         Siège social : 10, rue Albert Ferrasse 47550 Boé<br/>
-                        N° de téléphone : <Link to="tel:0533950030">05 33 95 00 30</Link></p>
+                        N° de téléphone : <a href="tel:0533950030" className="hover:text-bleu">05 33 95 00 30</a></p>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Directeur de publication
                         </h2>
@@ -143,7 +144,7 @@ class MentionsLegales extends React.Component {
                         SARL au capital de 7 000 Euros<br/>
                         RCS : Agen B 509 580 585<br/>
                         Siège social : 10, rue Albert Ferrasse 47550 Boé<br/>
-                        N° de téléphone : <Link to="tel:0533950030">05 33 95 00 30</Link></p>
+                        N° de téléphone : <a href="tel:0533950030" className="hover:text-bleu">05 33 95 00 30</a></p>
                     </section>
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>

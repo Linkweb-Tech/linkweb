@@ -66,27 +66,27 @@ class Header extends React.Component {
           <Link to="/actualite-digitale" className="flex items-center no-underline text-white">
             <span className="text-white century">Le Blog</span>
           </Link>
-          <Link to="https://www.facebook.com/AgenceLinkweb/" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+          <a href="https://www.facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
             <img 
               src={ fbIcon }
               alt="Réseaux sociaux"
               className="w-6 fill-current"
             />
-          </Link>
-          <Link to="https://linkweb.fr/wp-content/themes/jupiter-child/img/logo-twitter.png" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+          </a>
+          <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
             <img 
               src={ twitterIcon }
               alt="Réseaux sociaux"
               className="w-6 fill-current"
             />
-          </Link>
-          <Link to="https://www.instagram.com/AgenceLinkweb/" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+          </a>
+          <a href="https://www.instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
             <img 
               src={ instaIcon }
               alt="Réseaux sociaux"
               className="w-6 fill-current"
             />
-          </Link>
+          </a>
         </div>
         <div className="flex flex-wrap items-center justify-between mx-auto w-full">
           <Link to="/" className="flex items-center no-underline w-56 pl-5">

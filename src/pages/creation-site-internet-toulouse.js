@@ -37,6 +37,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     title="Création Site Internet Toulouse / Agen - Agence Web Linkweb"
                     description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
                     keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Création site web Agen`, `Création site web Toulouse`]}
+                    url="https://linkweb.fr/creation-site-internet-toulouse"
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -134,10 +135,10 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">La création de site internet est un vecteur de développement pour une entreprise. Linkweb met en place le site web qu’il vous faut à Toulouse.</span>
                             </h4>
-                            <p data-aos='fade-bottom' className="text-justify"><Link to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise. En fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il existe autant de solutions qu’il existe de <strong>sites internet</strong>. <br /><br />
+                            <p data-aos='fade-bottom' className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise. En fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il existe autant de solutions qu’il existe de <strong>sites internet</strong>. <br /><br />
 
                             En fonction de votre demande, nous déterminerons la solution la plus adaptée pour votre site quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Toulouse</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. De l’arborescence à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
-                            <Button url="#" text="En savoir plus sur le référencement naturel SEO" position="start" />
+                            <Button url="#" text="En savoir plus sur la création de site internet" position="start" />
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -368,10 +369,10 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className="w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="EST-CE POSSIBLE DE METTRE EN PLACE DES FONCTIONNALITÉS SUR-MESURE POUR MON SITE ?">
-                                <p>Un <strong>site internet</strong> peut avoir plusieurs rôles au sein d’une entreprise : il est à la fois une <strong>vitrine</strong> directement accessible pour les utilisateurs et peut également présenter diverses fonctionnalités pour ces derniers : simulateur de devis, module de réservation, configuration.</p><p>De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de créer un <strong>outil de gestion</strong>. Pour ce faire, <a href="http://linkweb.fr"><strong>Linkweb</strong></a> est en mesure de vous proposer un <strong>site internet</strong> qui s’adapte à vos besoins, et ce dès la <strong>conception du site</strong> visible, jusqu’ à la définition des espaces d’administration et la répartition des rôles et permissions pour les employés de votre entreprise : <strong>intranet</strong>, <strong>CRM</strong>, nous répondons à vos exigences.</p>
+                                <p>Un <strong>site internet</strong> peut avoir plusieurs rôles au sein d’une entreprise : il est à la fois une <strong>vitrine</strong> directement accessible pour les utilisateurs et peut également présenter diverses fonctionnalités pour ces derniers : simulateur de devis, module de réservation, configuration.</p><p>De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de créer un <strong>outil de gestion</strong>. Pour ce faire, <Link to="http://linkweb.fr" className="hover:text-bleu"><strong>Linkweb</strong></Link> est en mesure de vous proposer un <strong>site internet</strong> qui s’adapte à vos besoins, et ce dès la <strong>conception du site</strong> visible, jusqu’ à la définition des espaces d’administration et la répartition des rôles et permissions pour les employés de votre entreprise : <strong>intranet</strong>, <strong>CRM</strong>, nous répondons à vos exigences.</p>
                                 </div>
                                 <div label="COMMENT CRÉER UN SITE WEB DESTINÉ À LA POPULATION TOULOUSAINE (OCCITANIE) ?">
-                                <p>Lorsque l’on met en place une solution de <strong>communication</strong> et notamment un <strong>site internet</strong>, il faut considérer son public dès l’élaboration du projet et la <strong>création du site</strong> et du projet. Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> mérite d’investir dans votre <strong>site web professionnel </strong>et votre <strong>référencement</strong>.<br /> De plus, les <strong>sites internet</strong> que nous mettons en place sont créés en vue de répondre à un besoin précis. C’est pourquoi le positionnement stratégique de <strong>votre site web</strong> doit être pensé et anticipé. <a href="http://linkweb.fr"><strong>Linkweb</strong></a> dispose de tous les outils pour prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant.</strong></p>
+                                <p>Lorsque l’on met en place une solution de <strong>communication</strong> et notamment un <strong>site internet</strong>, il faut considérer son public dès l’élaboration du projet et la <strong>création du site</strong> et du projet. Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> mérite d’investir dans votre <strong>site web professionnel </strong>et votre <strong>référencement</strong>.<br /> De plus, les <strong>sites internet</strong> que nous mettons en place sont créés en vue de répondre à un besoin précis. C’est pourquoi le positionnement stratégique de <strong>votre site web</strong> doit être pensé et anticipé. <Link to="http://linkweb.fr" className="hover:text-bleu"><strong>Linkweb</strong></Link> dispose de tous les outils pour prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant.</strong></p>
                                 </div>
                                 <div label="COMBIEN DE TEMPS EST NÉCESSAIRE POUR OBTENIR UNE VERSION DÉFINITIVE DE MON SITE ?">
                                 <p>Il est difficile d’établir un délai de production pour un <strong>site internet</strong> puisqu’il va dépendre de nombreux critères. Mise en production, définition des contenus, création des <strong>maquettes</strong>, retour client, <strong>rédaction des contenus</strong>, modifications, etc. Il existe de nombreux paramètres qui vont influer sur le temps de production d’un <strong>site internet</strong>. Il est important de considérer et de soigner les moindres détails pour une mise en ligne optimale, c’est pourquoi cela est variable selon le projet.</p>
@@ -418,19 +419,21 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
                         <div className="w-full flex justify-center">
-                            <Link 
+                            <a 
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Voir plus de témoignages
-                            </Link>&nbsp;
+                            </a>&nbsp;
                             | &nbsp;
-                            <Link 
+                            <a 
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Vous êtes déjà clients ? Donnez nous votre avis !
-                            </Link>
+                            </a>
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">

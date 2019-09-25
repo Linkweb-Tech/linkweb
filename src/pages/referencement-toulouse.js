@@ -43,6 +43,7 @@ class ReferencementToulouse extends React.Component {
                     title="Référencement Toulouse / Agen - Agence Web Linkweb"
                     description="Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
+                    url="https://linkweb.fr/referencement-toulouse"
                 />
                 <PageTransition
                     defaultStyle={{
@@ -137,11 +138,11 @@ class ReferencementToulouse extends React.Component {
                                 <span className="font-bold">Référencer son site, c’est donner vie à sa communication digitale pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité.</span>
                             </h4>
                             <p data-aos='fade-bottom' className="text-justify">
-                            <strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <strong><Link to="/creation-site-internet-toulouse">création de votre site internet</Link></strong>. C’est pourquoi, tout doit être pensé, de la <strong>conception technique</strong> du site, jusqu’à l’<strong>arborescence</strong> afin d’attirer un grand nombre de clients potentiels. <br/><br/>
+                            <strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <strong><Link to="/creation-site-internet-toulouse" className="hover:text-bleu">création de votre site internet</Link></strong>. C’est pourquoi, tout doit être pensé, de la <strong>conception technique</strong> du site, jusqu’à l’<strong>arborescence</strong> afin d’attirer un grand nombre de clients potentiels. <br/><br/>
 
-                            <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong><Link to="/creation-de-site-internet-47-31">développement</Link></strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/><br/>
+                            <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong><Link to="/creation-de-site-internet-47-31" className="hover:text-bleu">développement</Link></strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/><br/>
 
-                                De fait, il est nécessaire de faire preuve de régularité et de rigueur quant au travail qui est à réaliser, aussi bien en termes de <strong><Link to="/referencement-de-site-internet-47-31">référencement naturel</Link></strong>, que de <strong><Link to="/agence-adwords-47-31">référencement payant</Link></strong>. <br/>
+                                De fait, il est nécessaire de faire preuve de régularité et de rigueur quant au travail qui est à réaliser, aussi bien en termes de <strong><Link to="/referencement-de-site-internet-47-31" className="hover:text-bleu">référencement naturel</Link></strong>, que de <strong><Link to="/agence-adwords-47-31" className="hover:text-bleu">référencement payant</Link></strong>. <br/>
                             </p>
                         </div>
                     </section>
@@ -223,7 +224,7 @@ class ReferencementToulouse extends React.Component {
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                <strong><Link to="/agence-adwords-47-31">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong>
+                                <strong><Link to="/agence-adwords-47-31" className="hover:text-bleu">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong>
                             </li>
                         </ul>
                         <div className="w-full flex text-center my-12">
@@ -313,7 +314,7 @@ class ReferencementToulouse extends React.Component {
                                 <div label="COMMENT SAVOIR SI MON SITE EST BIEN RÉFÉRENCÉ ?">
                                     <p>Pour savoir si votre site est convenablement <strong>référencé</strong>, il est nécessaire de délimiter la stratégie. Il ne suffit pas d’être <strong>visible</strong>, il faut être&nbsp;visible&nbsp;au bon endroit, autrement dit sur les bons mots clés.<br /> Il est improtant, par le choix de ces <strong>mots clés</strong>, de répondre à un besoin qui émane de la demande.</p><p>Une fois la liste d’expressions clés établie, il sera possible connaitre la <strong>position de votre site internet</strong> en se basant sur votre <strong>nom de domaine</strong> pour obtenir un <strong>rapport de positionnement</strong>.</p><p>Un&nbsp;<strong>audit de référencement</strong>&nbsp;(ou&nbsp;<strong>audit SEO</strong>) sera également utile pour connaitre les éléments à améliorer et les critères à travailler particulièrement : <strong>optimisation des contenus</strong>, <strong>URLS</strong>, <strong>liens brisés</strong>,&nbsp;… afin de répondre aux exigences des <strong>moteurs de recherche</strong>.</p><p>Si ces critères ne sont pas respectés et mis à jour régulièrement, votre&nbsp;site&nbsp;risque de ne pas ressortir dans les&nbsp;résultats de recherche. Il nous revient, en tant qu’<strong>agence de référencement</strong>, de détecter quels sont les facteurs déterminants pour vous permettre d’obtenir un&nbsp;<strong>site optimisé</strong> sur le long terme.</p>
                                 </div>
-                                <div label="EST-CE POSSIBLE D'OBTENIR UNE MEILLEURE VISIBILITÉ SUR GOOGLE ADWORDS AVEC UN PETIT BUDGET ?">
+                                <div label="EST-CE POSSIBLE D'OBTENIR UNE MEILLEURE VISIBILITÉ SUR GOOGLE ADS AVEC UN PETIT BUDGET ?">
                                     <p>Avant de se lancer dans la <strong>mise en place d’une&nbsp;campagne Google Ads</strong>, il faut savoir que cette <strong>plateforme de&nbsp;sponsorisation</strong>&nbsp;fonctionne via un système de <strong>mise en concurrence</strong> sur la base d’enchères.</p><p>En effet, une fois votre <strong>campagne</strong> créée et configurée, vos <strong>annonces publicitaires</strong> sont mises en concurrence avec les annonces des&nbsp;<strong>sites internets concurrents</strong>. Ainsi, <strong>Google</strong> effectue un classement des annonces en fonction de <strong>cout au clic</strong> et de critères de <strong>qualité</strong>. <strong>Google</strong>&nbsp;va, en effet, classer les annonces en attribuant une note de qualité.</p><p>Si investir un budget conséquent peut-être porteur de succès, ceci est loin d’être une garantie.</p><p>Pour un moindre investissement et une qualité d’annonce supérieure, il sera possible d’obtenir de meilleurs résultats qu’un site ayant beaucoup de budget mais présentant des campagnes et des annonces mal construites et rédigées.&nbsp;<strong>Linkweb</strong>&nbsp;vous accompagne dans la création et le <strong>lancement de vos campagnes</strong> pour vous apporter un&nbsp;<strong>retour sur investissement</strong>.</p>
                                     </div>
                             </Accordion>
@@ -358,19 +359,21 @@ class ReferencementToulouse extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
                         <div className="w-full flex justify-center">
-                            <Link
+                            <a
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Voir plus de témoignages
-                            </Link>&nbsp;
+                            </a>&nbsp;
                             |&nbsp;
-                            <Link
+                            <a
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Vous êtes déjà clients ? Donnez nous votre avis !
-                            </Link>
+                            </a>
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">

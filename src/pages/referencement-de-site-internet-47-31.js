@@ -30,6 +30,7 @@ class ReferencementNaturel extends React.Component {
                     title="Agence Référencement Agen Toulouse - Référencement Naturel - Linkweb"
                     description="Définition de votre stratégie de référencement naturel (SEO) - Étude de contexte - Choix des mots-clés - Création de contenus optimisés et originaux."
                     keywords={[`Référencement Naturel à Agen`, `Référencement Naturel à Toulouse`, `Référencement SEO Toulouse`, `Référencement SEO Agen`]}
+                    url="https://linkweb.fr/referencement-de-site-internet-47-31"
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -86,7 +87,7 @@ class ReferencementNaturel extends React.Component {
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Être visible sur les moteurs de recherche demande un travail de référencement précis pour améliorer son positionnement.</span>
                             </h4>
-                            <p data-aos='fade-bottom' className="text-justify">Le <strong>référencement naturel SEO</strong> de votre <strong>site internet</strong>, qui se distingue du <strong><Link to="/agence-adwords-47-31">référencement payant Google Adwords</Link></strong> est travaillé de manière régulière et constante pour obtenir le meilleur classement, et cela toujours en prenant en compte les objectifs de développement de votre entreprise.
+                            <p data-aos='fade-bottom' className="text-justify">Le <strong>référencement naturel SEO</strong> de votre <strong>site internet</strong>, qui se distingue du <strong><Link className="hover:text-bleu" to="/agence-adwords-47-31">référencement payant Google Adwords</Link></strong> est travaillé de manière régulière et constante pour obtenir le meilleur classement, et cela toujours en prenant en compte les objectifs de développement de votre entreprise.
                             <br/><br/>
                             Nous maintenons une <strong>mise à jour régulière des pages web de votre site internet</strong>, de la conception technique à la gestion de votre <strong>référencement naturel</strong> avec les <strong>optimisations de balises</strong> et autres <strong>techniques de référencement</strong> (<strong>maillage interne</strong>, <strong>liens entrants</strong>, <strong>balise meta</strong>, contenu de qualité) qui vous permettront de vous <strong>positionner dans les premiers résultats naturels des pages de résultats des moteurs de recherche</strong> pour un mot clé donné en vue d’une <strong>acquisition de trafic</strong> et de maximiser votre <strong>taux de conversion</strong>.</p>
                         </div>

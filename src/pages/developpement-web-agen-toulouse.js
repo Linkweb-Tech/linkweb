@@ -59,6 +59,7 @@ class Dev extends React.Component {
                     title="Création Site Internet Agen - Toulouse | E-Commerce, Vitrine - Linkweb"
                     description="Linkweb, agence web spécialisée dans la création de sites internet (e-commerce, vitrine) à Agen (47) et Toulouse (31). Nos projets sont réalisés sur-mesure."
                     keywords={[`Développement Web Agen`, `Développement site web Agen`, `Creation site internet Agen`]}
+                    url="https://linkweb.fr/developpement-web-agen-toulouse"
                 />
                 <PageTransition
                     defaultStyle={{
@@ -97,14 +98,14 @@ class Dev extends React.Component {
                   
                        
                         <div className="w-1/4">
-                        <Link to="/creation-site-internet-toulouse"><img src={mind} alt="Création Site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
-                        <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link to="/creation-site-internet-toulouse">Création d'un projet sur-mesure</Link></h3>
-                        <p style={{textAlign:'center'}}><Link to="/creation-site-internet-toulouse">Site internet à votre image, conforme à votre charte graphique.</Link></p>
+                        <Link className="hover:text-bleu" to="/creation-site-internet-toulouse"><img src={mind} alt="Création Site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
+                        <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-site-internet-toulouse">Création d'un projet sur-mesure</Link></h3>
+                        <p style={{textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-site-internet-toulouse">Site internet à votre image, conforme à votre charte graphique.</Link></p>
                         </div>
                         <div className="w-1/4">
-                        <Link to="/creation-de-site-internet-a-agen"><img src={settings} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
-                        <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link to="/creation-de-site-internet-a-agen">Projets d'envergure</Link></h3><br/>
-                        <p style={{textAlign:'center'}}><Link to="/creation-de-site-internet-a-agen">Création site web pour TPE PME, agence immobilière, ...</Link></p>
+                        <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><img src={settings} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
+                        <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen">Projets d'envergure</Link></h3><br/>
+                        <p style={{textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen">Création site web pour TPE PME, agence immobilière, ...</Link></p>
                         </div>
                         <div className="w-1/4">
                             <img src={ampoule} alt="Création Site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
@@ -334,7 +335,7 @@ class Dev extends React.Component {
                             <section className="w-full">
                                 <br/>
                                 <hr className="blue"></hr><br/>
-                                    <h2 data-aos='fade-right' className="text-center text-4xl century text-bleu">Vous souhaitez <Link to="/creation-de-site-internet-a-agen">créer un site web</Link> ? Vous avez pour projet de développer votre entreprise et donc créer une boutique en ligne ?</h2>
+                                    <h2 data-aos='fade-right' className="text-center text-4xl century text-bleu">Vous souhaitez <Link className="hover:text-black" to="/creation-de-site-internet-a-agen">créer un site web</Link> ? Vous avez pour projet de développer votre entreprise et donc créer une boutique en ligne ?</h2>
                                     <br />
                             </section>
                         </section>
@@ -343,7 +344,7 @@ class Dev extends React.Component {
                                <h3 style={{fontSize:'20px', fontWeight:'bold'}}>Notre équipe technique répond à vos besoins…</h3><br/>
                                <p>Quel que soit le <strong>type de site web</strong> que vous souhaitez, l’équipe technique de notre <strong>agence de création de site internet située à Agen</strong> saura répondre à vos besoins. Nous possédons toutes les <strong>connaissances techniques</strong> ainsi que les <strong>outils nécessaires pour créer un site web</strong> de A à Z. Qu’il s’agisse de la <strong>création d’un site internet vitrine</strong> pour développer votre <strong>communication web</strong>, d’un site administrable <strong>simple d’utilisation</strong> pour que vous puissiez mettre à jour de façon autonome votre <strong>site internet en ligne</strong> ou bien encore un site <strong>boutique e-commerce</strong> pour <strong>vendre en ligne</strong> vos produits, nous vous garantissons un <strong>site responsive</strong> dans le respect de votre <strong>identité graphique</strong>.</p><br/>
                                 <h3 style={{fontSize:'20px', fontWeight:'bold'}}>… et l’équipe du référencement se charge de vous rendre visible.</h3><br/>
-                                <p>Après la <strong>conception du site web</strong> de votre entreprise soit finalisée, l’équipe de <strong>référencement web</strong> mettra en place l’ensemble des techniques nécessaires de sorte que votre site soit positionné de façon favorable (c’est-à-dire en <strong>première page</strong>) sur les moteurs de recherche. Sans travail de <Link to="/referencement-de-site-internet-47-31"><strong>référencement naturel</strong></Link> ou <Link to="/agence-adwords-47-31"><strong>référencement payant</strong></Link>, votre site internet ne sera pas présent sur Google et, par conséquent, ne vous rapportera aucun contacts, ni retour sur investissement.</p>
+                                <p>Après la <strong>conception du site web</strong> de votre entreprise soit finalisée, l’équipe de <strong>référencement web</strong> mettra en place l’ensemble des techniques nécessaires de sorte que votre site soit positionné de façon favorable (c’est-à-dire en <strong>première page</strong>) sur les moteurs de recherche. Sans travail de <Link className="hover:text-bleu" to="/referencement-de-site-internet-47-31"><strong>référencement naturel</strong></Link> ou <Link className="hover:text-bleu" to="/agence-adwords-47-31"><strong>référencement payant</strong></Link>, votre site internet ne sera pas présent sur Google et, par conséquent, ne vous rapportera aucun contacts, ni retour sur investissement.</p>
                             </div>
                     </section>
                     

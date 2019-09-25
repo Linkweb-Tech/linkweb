@@ -30,6 +30,7 @@ class CreationSiteInternetVitrine extends React.Component {
                     title="Création site internet vitrine à Agen (47) et Toulouse (31) - Linkweb"
                     description="Linkweb est spécialisée dans la création de site internet : nous mettons en place votre projet de site vitrine pour vous permettre de gagner en visibilité."
                     keywords={[`Création site internet vitrine Agen`, `Création site internet vitrine Toulouse`, `Création site internet Lot-et-Garonne`, `Création site web 47`]}
+                    url="https://linkweb.fr/creation-site-internet-agen"
                 /> 
                 <PageTransition
                     defaultStyle={{
@@ -91,7 +92,7 @@ class CreationSiteInternetVitrine extends React.Component {
                             <br/><br/>
                                                         Mettre en place un <strong>site internet vitrine</strong> pour son entreprise permet de porter un coup de projecteur sur votre activité en présentant vos prestations et en apportant l’information nécessaire pour le consommateur à la recherche d’un prestataire de votre domaine d’activité.
                             <br/><br/>
-                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link to="/ergonomie-site-web-agen-toulouse">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
+                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link className="hover:text-bleu" to="/ergonomie-site-web-agen-toulouse">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
                         </div>
                         <div className="w-1/2" style={{padding:'5% 0%'}}>
                             <img src={imac} alt="Création site internet Toulouse"/>
@@ -364,7 +365,7 @@ class CreationSiteInternetVitrine extends React.Component {
                                 <p>Un <strong>site internet vitrine</strong> peut répondre à des objectifs commerciaux, tels qu’obtenir de nouveaux contacts en vue de les convertir des clients, ou bien à des objectifs d’image. Il va permettre de <strong>développer des contenus</strong> sur la présentation de vos services, de votre manière de travailler, l’histoire de votre entreprise et bien plus encore. Également, le site vitrine va vous permettre d’<strong>améliorer votre positionnement</strong> sur les <strong>moteurs de recherche</strong>. Enfin, il vous donne la possibilité de vous affirmer comme un expert dans votre secteur d’activité pour donner confiance aux utilisateurs qui visiteront votre <strong>site internet</strong>.</p>
                                 </div>
                                 <div label="J'AI UN BESOIN PARTICULIER, EST-CE POSSIBLE D'ADAPTER UN SITE VITRINE ?">
-                                <p>Bien sûr ! Sur un <strong>site internet</strong>, tout est possible. En effet, ajouter des fonctionnalités à destination des utilisateurs, ou bien en vue d’optimiser la gestion de votre entreprise via un <strong>outil numérique</strong>, est une réalité. Pour ceci, nous vous invitons à vous rediriger vers notre <strong><Link to="/creation-de-site-internet-47-31">page sur la création de site internet sur-mesure</Link></strong> pour obtenir plus d’informations à ce propos. En fonction de vos besoins et des spécificités de votre projet, nous déterminerons tout ce qui va être nécessaire pour vous permettre d’accéder à un site qui vous ressemble et qui sera utile pour votre entreprise.</p>
+                                <p>Bien sûr ! Sur un <strong>site internet</strong>, tout est possible. En effet, ajouter des fonctionnalités à destination des utilisateurs, ou bien en vue d’optimiser la gestion de votre entreprise via un <strong>outil numérique</strong>, est une réalité. Pour ceci, nous vous invitons à vous rediriger vers notre <strong><Link className="hover:text-bleu" to="/creation-de-site-internet-47-31">page sur la création de site internet sur-mesure</Link></strong> pour obtenir plus d’informations à ce propos. En fonction de vos besoins et des spécificités de votre projet, nous déterminerons tout ce qui va être nécessaire pour vous permettre d’accéder à un site qui vous ressemble et qui sera utile pour votre entreprise.</p>
                                 </div>
                             </Accordion>
                         </div>

@@ -30,6 +30,7 @@ class CreationSiteSurMesure extends React.Component {
                     title="Création Site Internet sur mesure à Agen (47) et Toulouse (31) - Linkweb"
                     description="Vous souhaitez développer un projet sur-mesure ? Linkweb crée le site web de vos envies ! Définissez un projet, nous vous apportons une solution concrète."
                     keywords={[`Création site internet sur-mesure Agen`, `Création site internet sur-mesure Toulouse`, `Créer un site internet sur-mesure`, `Développement solution web`]}
+                    url="https://linkweb.fr/creation-de-site-internet-47-31"
                 /> 
                 <PageTransition
                     defaultStyle={{

@@ -38,6 +38,7 @@ class Crea extends React.Component {
                     title="Création de Site Internet Agen - Agence de Communication Linkweb"
                     description="Linkweb est le spécialiste de la création de site internet à Agen (47) et Toulouse (31). À l'écoute, l'équipe vous accompagne pour un projet web sur-mesure."
                     keywords={[`Création site internet Agen`, `Creation site internet Agen`, `Développement site internet Agen`, `Création site web Agen`]}
+                    url="https://linkweb.fr/creation-de-site-internet-a-agen"
                 />
                 <PageTransition
                     defaultStyle={{
@@ -91,7 +92,7 @@ class Crea extends React.Component {
                             <img src={smartphone} alt="Création site web Agen"/>
                         </div>
                         <div className="w-1/2" style={{marginTop:'auto', marginBottom:'auto'}}>
-                            <p>Malgré tout, vous restez septique sur l’importance de <Link to="/creation-site-internet-toulouse-31"><strong>créer un site internet</strong></Link> de nos jours ? Vous pensez que le bouche à oreille suffit pour pérenniser votre entreprise ? Les dépenses occasionnées par la <strong>création d’un site internet</strong> vous semble inutile ?</p><br/>
+                            <p>Malgré tout, vous restez septique sur l’importance de <Link className="hover:text-bleu" to="/creation-site-internet-toulouse-31"><strong>créer un site internet</strong></Link> de nos jours ? Vous pensez que le bouche à oreille suffit pour pérenniser votre entreprise ? Les dépenses occasionnées par la <strong>création d’un site internet</strong> vous semble inutile ?</p><br/>
                             <p>Sachez alors que la <strong>création d’un site web</strong> n’est pas une dépense. Il s’agit d’un réel investissement pour assurer le développement de votre société.</p>
                             
                             <section className="max-w-5xl w-full mx-auto py-6 my-4 flex" style={{backgroundColor:'#f2f2f2'}}>
@@ -297,7 +298,7 @@ class Crea extends React.Component {
                     <section>
                         <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                             <br/>
-                            <Link to="/agence-de-communication-agen-47-toulouse-31"><h2 data-aos='fade-right' className="text-center text-3xl century">
+                            <Link className="hover:text-bleu" to="/agence-de-communication-agen-47-toulouse-31"><h2 data-aos='fade-right' className="text-center text-3xl century">
                                 <span className="text-bleu">/</span>Découvrez nos réalisations
                             </h2></Link>
                             <hr className="blue"></hr><br/>

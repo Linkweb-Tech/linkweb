@@ -34,6 +34,7 @@ class ErgonomieToulouse extends React.Component {
                     title="Création Site Internet Agen - Toulouse - Agence Web Linkweb"
                     description="Linkweb, agence web située à Agen (47) et Toulouse (31), est spécialisée dans la création et gestion de sites internet (e-commerce, administrable, vitrine)."
                     keywords={[`Création site internet ergonomique Agen`, `Création site internet Agen`, `Creation site internet Agen`, `Création site web Agen`]}
+                    url="https://linkweb.fr/ergonomie-site-web-agen-toulouse"
                 />
                 <PageTransition
                     defaultStyle={{
@@ -71,7 +72,7 @@ class ErgonomieToulouse extends React.Component {
                             <br />
                             <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                             <p style={{textAlign:'justify', textAlignLast:`center`, fontSize:`20px`}}>
-                                Le point central de la <Link to="/creation-de-site-internet-a-agen"><strong>création de votre site internet</strong></Link> professionnel reste l’<strong>ergonomie</strong>. Un <strong>site</strong> ayant un confort dans l’exécution des actions et permettant un accès intuitif à l’information recherchée <strong>permet de créer</strong> beaucoup plus d’interactions et a beaucoup plus de chances d’avoir du succès. C’est pourquoi la <strong>conception du site</strong> doit être réalisée en conséquence.
+                                Le point central de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><strong>création de votre site internet</strong></Link> professionnel reste l’<strong>ergonomie</strong>. Un <strong>site</strong> ayant un confort dans l’exécution des actions et permettant un accès intuitif à l’information recherchée <strong>permet de créer</strong> beaucoup plus d’interactions et a beaucoup plus de chances d’avoir du succès. C’est pourquoi la <strong>conception du site</strong> doit être réalisée en conséquence.
                                 <strong>Et c’est ce que nous souhaitons, votre réussite construit la nôtre.</strong></p>
                             </section>
                     </section>
@@ -81,21 +82,21 @@ class ErgonomieToulouse extends React.Component {
                             <h3 className="text-2xl century pb-6">L’interface utilisateur (UI) : ce que le visiteur voit</h3>
                             <br/>
                             <ul>
-                                <li><strong>Responsive design</strong></li>
-                                <li>Esthétisme</li>
-                                <li>Équilibre</li>
-                                <li>Iconographie pertinente</li>
-                                <li><strong>Hiérarchisation des informations</strong></li>
+                                <li style={{listStyleType: 'disc'}}><strong>Responsive design</strong></li>
+                                <li style={{listStyleType: 'disc'}}>Esthétisme</li>
+                                <li style={{listStyleType: 'disc'}}>Équilibre</li>
+                                <li style={{listStyleType: 'disc'}}>Iconographie pertinente</li>
+                                <li style={{listStyleType: 'disc'}}><strong>Hiérarchisation des informations</strong></li>
                             </ul>
                         </div>
                         <div className="w-1/2 bg-black" style={{backgroundImage: 'url(' + ux + ')', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in" data-aos-delay="200">
                             <h3 className="text-2xl century pb-6">L’expérience utilisateur (UX) : ce que le visiteur fera</h3>
                             <br/>
                             <ul>
-                                <li>Prise en main</li>
-                                <li>Navigation aisée</li>
-                                <li>Facilité d'accès à l'information</li>
-                                <li>Accessibilité médias</li>
+                                <li style={{listStyleType: 'disc'}}>Prise en main</li>
+                                <li style={{listStyleType: 'disc'}}>Navigation aisée</li>
+                                <li style={{listStyleType: 'disc'}}>Facilité d'accès à l'information</li>
+                                <li style={{listStyleType: 'disc'}}>Accessibilité médias</li>
                             </ul>
                         </div>
                     </section>

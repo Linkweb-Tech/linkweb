@@ -44,7 +44,7 @@ class AgenceWebToulouse extends React.Component {
                     title="Agence de Communication Web - Création site Internet Toulouse - Linkweb"
                     description="L'agence web Linkweb déploie son offre en termes de communication web à Toulouse (31) : création de site internet, référencement naturel et ads."
                     keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
-                    link rel="canonical" href="/"
+                    url="https://linkweb.fr/agence-web-toulouse"
                 />
                 <PageTransition
                     defaultStyle={{
@@ -120,13 +120,13 @@ class AgenceWebToulouse extends React.Component {
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
-                            <RoundButton color="black" url="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" text="Plus d'informations pratiques" />
+                            <RoundButton color="black" href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" text="Plus d'informations pratiques" />
                         </div>
                         <div className="font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" data-aos="zoom-in" data-aos-delay="200">
                             <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
-                            <RoundButton url="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" text="Plus d'informations pratiques" />
+                            <RoundButton href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" text="Plus d'informations pratiques" />
                         </div>
 
                     </section>
@@ -142,11 +142,11 @@ class AgenceWebToulouse extends React.Component {
                                 <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
                             </h4>
                             <p data-aos='fade-bottom' className="text-justify">
-                                Depuis plus de 10 ans, notre expérience dans la <strong><Link to="creation-site-internet-toulouse/">création de sites internet</Link></strong> nous a permis de développer nos compétences dans le <strong>conseil en communication</strong> et d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br/>
+                                Depuis plus de 10 ans, notre expérience dans la <strong><Link to="creation-site-internet-toulouse/" className="hover:text-bleu">création de sites internet</Link></strong> nous a permis de développer nos compétences dans le <strong>conseil en communication</strong> et d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br/>
 
-                                Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes. <strong><Link to="/">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
+                                Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes. <strong><Link to="/" className="hover:text-bleu">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
 
-                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-de-site-internet-47-31">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31">référencement naturel</Link></strong> grâce à une veille permanente. Quelle que soit la nature de votre activité, nous avons le savoir-faire pour vous permettre d’atteindre vos objectifs.<br />
+                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-de-site-internet-47-31" className="hover:text-bleu">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31" className="hover:text-bleu">référencement naturel</Link></strong> grâce à une veille permanente. Quelle que soit la nature de votre activité, nous avons le savoir-faire pour vous permettre d’atteindre vos objectifs.<br />
                             </p>
                             
                         </div>
@@ -333,7 +333,7 @@ class AgenceWebToulouse extends React.Component {
                                     <p>Dans la&nbsp;<strong>conception de sites internet</strong>, une part importante est accordée à la&nbsp;réflexion stratégique. Dès l’élaboration de votre <strong>projet web</strong>, chaque page et éléments de contenus doivent avoir un objectif précis.</p><p>Il est nécessaire de traduire clairement vos prestations et services et les segmentant par thématiques. Nous identifions alors les <strong>expressions clés ciblées</strong> qui vont déterminer notre <strong>stratégie de référencement naturel</strong> pour la déployer au fil des semaines. Nous définissons un plan d’actions selon vos attentes et vos moyens à consacrer aux <strong>outils digitaux</strong>.</p><p>Cependant, s’il est urgent pour vous d’<strong>être visible sur les moteurs de recherche</strong>, nous vous proposons la <strong>création d’une campagne Ads</strong> qui vous donnera une <strong>visibilité immédiate</strong>.</p>
                                 </div>
                                 <div label="COMMUNIQUER DE MANIÈRE EFFICACE ENVERS VOS CIBLES">
-                                    <p>Lorsque l’on souhaite <strong>communiquer</strong>, <strong>être visible en ligne</strong>&nbsp;va permettre à tout un chacun d’accéder rapidement à l’information. La&nbsp;<a href="/creation-site-internet-toulouse"><strong>création de site internet</strong></a>&nbsp;doit être pensée en ce sens afin de mettre en place une <strong>arborescence</strong> limpide. Cela se traduit par un <strong>webdesign</strong> <strong>ergonomique</strong> et <strong>intuitif</strong>&nbsp;de <strong>votre site internet</strong> pour permettre à l’utilisateur d’accéder rapidement à l’information qu’il recherche sur votre <strong>site internet</strong>.</p><p>En effet, l’accès à l’information doit être favorisé par la mise en place d’un <strong>site responsive design</strong> pour en permettre la lisibilité. De plus, de par l’utilisation de <strong>votre charte graphique</strong> et de votre <strong>identité visuelle</strong>, nous créons un <strong>outil digital à votre image</strong> pour répondre à votre <strong>stratégie de communication digitale </strong>et permettre aux utilisateurs de vous identifier clairement. Pour ce faire, un développeur web va définir la solution la plus à même d’améliorer l’<strong>expérience utilisateur</strong> sur <strong>votre site internet</strong> en travaillant à la fois l’<strong>ergonomie</strong>, la praticité et l’intuitivité du site pour mettre en place un outil utile et pertinent pour les visiteurs.</p>
+                                    <p>Lorsque l’on souhaite <strong>communiquer</strong>, <strong>être visible en ligne</strong>&nbsp;va permettre à tout un chacun d’accéder rapidement à l’information. La&nbsp;<Link to="/creation-site-internet-toulouse" className="hover:text-bleu"><strong>création de site internet</strong></Link>&nbsp;doit être pensée en ce sens afin de mettre en place une <strong>arborescence</strong> limpide. Cela se traduit par un <strong>webdesign</strong> <strong>ergonomique</strong> et <strong>intuitif</strong>&nbsp;de <strong>votre site internet</strong> pour permettre à l’utilisateur d’accéder rapidement à l’information qu’il recherche sur votre <strong>site internet</strong>.</p><p>En effet, l’accès à l’information doit être favorisé par la mise en place d’un <strong>site responsive design</strong> pour en permettre la lisibilité. De plus, de par l’utilisation de <strong>votre charte graphique</strong> et de votre <strong>identité visuelle</strong>, nous créons un <strong>outil digital à votre image</strong> pour répondre à votre <strong>stratégie de communication digitale </strong>et permettre aux utilisateurs de vous identifier clairement. Pour ce faire, un développeur web va définir la solution la plus à même d’améliorer l’<strong>expérience utilisateur</strong> sur <strong>votre site internet</strong> en travaillant à la fois l’<strong>ergonomie</strong>, la praticité et l’intuitivité du site pour mettre en place un outil utile et pertinent pour les visiteurs.</p>
                                 </div>
                                 <div label="OBTENIR UN RETOUR SUR INVESTISSEMENT">
                                     <p>Chaque projet a ses spécificités, si un&nbsp;<strong>site e-commerce</strong> va viser la vente en ligne de produits, un <strong>site vitrine</strong> sera plus adapté pour obtenir des <strong>contacts prospects qualifiés</strong>. C’est pourquoi nous mettons en place des solutions web adaptées à l’ambition de chaque entreprise. Les <strong>sites internet</strong> de nos clients obtiennent un <strong>trafic</strong> <strong>qualifié</strong> et une progression constante de la fréquentation de leur site. En effet, le site internet fait partie des <strong>supports de communication</strong> les plus importants en termes de <strong>webmarketing</strong>.</p><p>Chez <strong>Linkweb</strong>, nous privilégions la qualité. La <strong>création de votre site internet</strong> n’a qu’un seul but : vous permettre de <strong>convertir vos contacts</strong> pour vous apporter de <strong>nouveaux clients</strong> et augmenter votre chiffre d’affaire.</p>
@@ -381,19 +381,21 @@ class AgenceWebToulouse extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
                         <div className="w-full flex justify-center">
-                            <Link
+                            <a
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Voir plus de témoignages
-                            </Link>&nbsp;
+                            </a>&nbsp;
                             |&nbsp;
-                            <Link
+                            <a
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Vous êtes déjà clients ? Donnez nous votre avis !
-                            </Link>
+                            </a>
                         </div>
                     </section>
 

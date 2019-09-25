@@ -30,6 +30,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                     title="Créer une Boutique En Ligne - Site E-Commerce - Linkweb Agen"
                     description="Vous souhaitez mettre en place un site internet pour vendre vos produits ? Linkweb vous accompagne pour définir votre projet de boutique en ligne."
                     keywords={[`Créer une boutique en ligne à Agen`, `Créer une boutique en ligne à Toulouse`, `Création site e-commerce Agen`, `Création site e-commerce Toulouse`]}
+                    url="https://linkweb.fr/creer-une-boutique-en-ligne"
                 /> 
                 <PageTransition
                     defaultStyle={{

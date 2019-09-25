@@ -34,6 +34,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     title="Agence de Communication Agen - Création Site Internet - Linkweb"
                     description="Linkweb est à l’origine de nombreux projets pour mettre en valeur les professionnels de tous secteurs d’activités. Pourquoi pas le votre ?"
                     keywords={[`Projet web Agen`, `Projet Web Toulouse`, `Création site internet sur-mesure`, `Agence Web Toulouse`]}
+                    url="https://linkweb.fr/agence-de-communication-agen-47-toulouse-31"
                 />
                 <PageTransition
                     defaultStyle={{
@@ -194,19 +195,21 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
                         <div className="w-full flex justify-center">
-                            <Link
+                            <a
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Voir plus de témoignages
-                            </Link>&nbsp;
+                            </a>&nbsp;
                             |&nbsp;
-                            <Link
+                            <a
                                 className="century text-sm hover:text-bleu"
-                                to="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
+                                target="blank" rel="noreferrer noopener"
+                                href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Vous êtes déjà clients ? Donnez nous votre avis !
-                            </Link>
+                            </a>
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">

@@ -32,6 +32,7 @@ render() {
                 title="Agence Référencement Toulouse (31) - Agence Web Linkweb"
                 description="Développez votre visibilité avec la mise en place d'une stratégie de référencement sur-mesure. Linkweb vous accompagne pour atteindre vos objectifs."
                 keywords={[`Agence Référencement Toulouse`, `Agence de Référencement à Toulouse`, `Référencement Naturel Toulouse`, `Agence Adowrds Toulouse`]}
+                url="https://linkweb.fr/agence-referencement-toulouse"
             />
             <PageTransition
                 defaultStyle={{
@@ -146,7 +147,7 @@ render() {
 
                 </section>
                 <section className="flex flex-1 max-w-6xl mx-auto home-step mt-24 mb-12 px-12">
-                    <p><strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <Link to="/creation-de-site-internet-a-agen"><strong>création du site</strong></Link>. C’est pourquoi, tout doit être pensé, de la <strong>conception du site</strong> du point de vue technique, jusqu’à l’<strong>arborescence</strong> afin d’attirer des <strong>clients potentiels</strong>.<br/>
+                    <p><strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><strong>création du site</strong></Link>. C’est pourquoi, tout doit être pensé, de la <strong>conception du site</strong> du point de vue technique, jusqu’à l’<strong>arborescence</strong> afin d’attirer des <strong>clients potentiels</strong>.<br/>
                     <br/>
                     <strong>Nos consultants, à Toulouse</strong>, vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permettant de suivre les <strong>dernières tendances</strong>.<br/>
                     <br/>
