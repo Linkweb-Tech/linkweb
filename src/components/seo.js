@@ -75,6 +75,58 @@ function SEO({ description, lang, meta, keywords, title, url }) {
           >
             <link rel="shortlink" href={url} />
             <link rel="canonical" href={url} />
+            <script type="application/ld+json">{`
+            {
+              "@context": "http://schema.org",
+              "@type": "Corporation",
+              "name": "Linkweb",
+              "description": "Linkweb, agence web à Agen (47) et Toulouse (31), est spécialisée dans la création de site internet, le référencement naturel et le référencement payant.",
+              "image": "https://linkweb.fr/wp-content/uploads/2018/09/linkweb-v3-e1555401920623.png",
+              "logo": "https://linkweb.fr",
+              "url": "https://linkweb.fr",
+              "telephone": "0533950030",
+              "sameAs": ["https://twitter.com/AgenceLinkweb","https://www.facebook.com/AgenceLinkweb","https://www.instagram.com/agencelinkweb"],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "10 rue Albert Ferrasse",
+                "addressLocality": "Boé",
+                "postalCode": "47550",
+                "addressCountry": "France"
+              }
+            }
+            `}
+              {/*{
+                "@context":"https://schema.org","@graph":[{"@type":"Organization",
+                "@id":"https://linkweb.fr/#organization",
+                "name":"${title}",
+                "url":"https://linkweb.fr/",
+                "sameAs":[]},
+                {"@type":"WebSite",
+                "@id":"https://linkweb.fr/#website",
+                "url":"https://linkweb.fr/",
+                "name":"Linkweb",
+                "publisher":
+                  {"@id":"https://linkweb.fr/#organization"},
+                "potentialAction":
+                  {"@type":"SearchAction",
+                  "target":"https://linkweb.fr/?s={search_term_string}",
+                  "query-input":"required name=search_term_string"}},						
+                  {"@type":"WebPage",
+                "@id":"${url}#webpage",
+                "url":"${url}",
+                "inLanguage":"fr-FR",
+                "name":"${title}",
+                "isPartOf":{"@id":"https://linkweb.fr/#website"},
+                "datePublished":"2019-06-18T12:32:14+00:00",
+                "dateModified":"2019-07-23T09:12:21+00:00",
+                "description": "${metaDescription}",
+                "breadcrumb":{"@id":"${url}#breadcrumb"}},
+              {"@type":"BreadcrumbList",
+                "@id":"${url}",
+                "itemListElement":[]}]
+              }*/}
+          </script>
+
             
           </Helmet>
         );
