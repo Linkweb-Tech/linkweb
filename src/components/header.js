@@ -45,7 +45,7 @@ class Header extends React.Component {
 
       <nav className={`mainNav w-full z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
          <button
-          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white burger"
           onClick={() => (this.state.isExpanded) ? this.setState({isExpanded: false}) : this.setState({isExpanded: true}) }
         >
           <svg
@@ -89,7 +89,7 @@ class Header extends React.Component {
             />
           </a>
         </div>
-        <div className="flex flex-wrap items-center justify-between mx-auto w-full">
+        <div className="flex flex-wrap items-center justify-between mx-auto w-auto md:w-full">
           <Link to="/" className="flex items-center no-underline w-56 pl-5">
             <img 
               src={linkwebLogo} 
@@ -103,14 +103,14 @@ class Header extends React.Component {
           <div
             
             className={`${
-              this.state.isExpanded ? `block` : `hidden`
-              } md:block md:flex md:items-center w-full md:w-auto`}
+              this.state.isExpanded ? `block bg-white` : `hidden`
+              } md:block md:flex md:items-center md:bg-transparent w-full md:w-auto`}
           >
-            <div className="text-md pr-5 menu">
+            <div className="text-md pr-0 menu flex flex-col md:flex-row md:pr-5">
               <Link
                 to="/"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Accueil
               </Link>
@@ -118,7 +118,7 @@ class Header extends React.Component {
               <Link
                 to="/creation-site-internet-toulouse"
                 activeClassName="active"
-                className="block  lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block  lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Création Site Internet
               </Link>
@@ -126,21 +126,21 @@ class Header extends React.Component {
               <Link
                 to="/referencement-toulouse"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0 no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Référencement
               </Link>
               <Link
                 to="/agence-web-toulouse"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Agence Web
               </Link>
               <Link
                 to="/agence-de-communication-agen-47-toulouse-31"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Nos Réalisations
               </Link>

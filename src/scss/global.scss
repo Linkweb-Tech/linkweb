@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden !important;
+}
+
 hr{
     &.blue {
         width: 200px;
@@ -81,6 +85,11 @@ footer {
                 fill: #ffffff;
             }
         }
+    }
+
+    @media(max-width: 768px){
+        height: auto;
+        z-index: 50 !important;
     }
 }
 

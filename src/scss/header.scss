@@ -6,7 +6,7 @@
         .menu {
             a {
                 transition: color ease 1s;
-                color: white;
+                //color: white;
             }
         }
     }
@@ -66,6 +66,9 @@
                 transition-duration: 0.3s;
                 -webkit-transition-timing-function: ease-out;
                 transition-timing-function: ease-out;
+                @media(max-width: 768px) {
+                    background: #37c5ee;
+                }
             }
 
             &:hover, &.active {
@@ -79,6 +82,22 @@
                     color: white !important;
                 }
             }            
+        }
+    }
+
+    .burger {
+        @media(max-width: 768px) {
+            position: absolute;
+            right: 5px;
+            top: 50px;
+            border: none;
+
+            svg {
+                fill: #37c5ee;
+                width: 20px;
+                height: 20px;
+            }
+
         }
     }
 }
