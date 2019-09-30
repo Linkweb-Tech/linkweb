@@ -78,9 +78,9 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     </section>
 
 
-                    <section className="flex flex-1 max-w-7xl mx-auto home-step mt-24 mb-12 px-48">
-                        <div className="w-1/3 one px-12">
-                            <div className="flex flex-1">
+                    <section className="flex flex-col lg:flex-row flex-1 max-w-7xl mx-auto home-step mt-24 mb-12 my-12 px-12 lg:my-24 lg:px-24">
+                        <div className="w-full lg:w-1/3 one px-12">
+                            <div className="flex flex-col lg:flex-row flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -95,8 +95,8 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-1/3 two px-12">
-                            <div className="flex flex-1">
+                        <div className="w-full lg:w-1/3 two px-12">
+                            <div className="flex flex-col lg:flex-row flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -110,8 +110,8 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-1/3 two px-12">
-                            <div className="flex flex-1">
+                        <div className="w-full lg:w-1/3 two px-12">
+                            <div className="flex flex-col lg:flex-row flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -130,7 +130,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
 
 
@@ -142,18 +142,18 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                             <RappelForm />
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex items-start text-center my-12">
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
-                                <img src={laptop} width="80px" />
+                        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">
+                            <div className="w-full sm:w-1/3 py-2 px-6 sm:px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                                <img src={laptop} width="80px" alt="Agence de communication Agen"/>
                                 <p className="text-xl text-white century pt-3">WEBMARKETING</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 py-2 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
 
-                                <img src={web} width="80px" />
+                                <img src={web} width="80px" alt="Agence de communication Agen"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
-                                <img src={bullhorn} width="80px" />
+                            <div className="w-full sm:w-1/3 py-2 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
+                                <img src={bullhorn} width="80px" alt="Agence de communication Agen"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
                         </div>
@@ -166,27 +166,30 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="max-w-6xl mx-auto flex align-start justify-center text-center mt-3 mb-12">
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up">
+                    <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-start justify-center text-center mt-3 mb-12">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up">
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
+                                alt="Avis Google"
                             />
                             <div className="text-lg century my-2">Château de Boisverdun</div>
                             <div className="italic">« Nous sommes chez Linkweb depuis 3 ans et je n’ai jamais eu aucun problème les techniciens sont à l’écoute et nous appellent chaque mois pour faire un point! Continuez comme ça ne changez rien!! »</div>
                         </div>
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="300">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="300">
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
+                                alt="Avis Google"
                             />
                             <div className="text-lg century my-2">Fanny Coiffure</div>
                             <div className="italic">« Ils sont de très bons conseils, le suivi est régulier, si vous voulez changer des choses avant qu’ils ne vous rappellent, c’est toujours possible avec un mail. Je recommande vivement toute l’équipe . »</div>
                         </div>
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="500">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="500">
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
+                                alt="Avis Google"
                             />
                             <div className="text-lg century my-2">Auto École Anne</div>
                             <div className="italic">« Entreprise très sérieuse. Équipe à l écoute et réactive des changements que je demande tous les mois. Le référencement est bien suivi et j ai un retour d’ Anthony tous les mois. Je recommande ! »</div>
@@ -194,7 +197,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
 
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
-                        <div className="w-full flex justify-center">
+                        <div className="w-full flex flex-col md:flex-row justify-center">
                             <a
                                 className="century text-sm hover:text-bleu"
                                 target="blank" rel="noreferrer noopener"

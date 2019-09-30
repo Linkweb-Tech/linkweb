@@ -80,9 +80,9 @@ function IndexPage(props) {
           </div>
         </div>
       </section>
-      <section className="flex flex-1 home-step my-24 px-24">
-        <div className="w-1/3 one px-12">
-          <div className="flex flex-1">
+      <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-12 lg:my-24 lg:px-24">
+        <div className="w-full lg:w-1/3 one px-12">
+          <div className="flex flex-col lg:flex-row flex-1">
             <div className="blackBulle" data-aos="fade-up">1</div>
             <section>
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -96,8 +96,8 @@ function IndexPage(props) {
             </section>
           </div>
         </div>
-        <div className="w-1/3 two px-12">
-          <div className="flex flex-1">
+        <div className="w-full lg:w-1/3 two px-12">
+          <div className="flex flex-col lg:flex-row flex-1">
             <div className="blackBulle" data-aos="fade-up">2</div>
             <section>
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -110,8 +110,8 @@ function IndexPage(props) {
             </section>
             </div>
           </div>
-        <div className="w-1/3 three px-12">
-          <div className="flex flex-1">
+        <div className="w-full lg:w-1/3 three px-12">
+          <div className="flex flex-col lg:flex-row flex-1">
             <div className="blackBulle" data-aos="fade-up">3</div>
             <section>
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -185,14 +185,14 @@ function IndexPage(props) {
         </div>
       </section>
 
-      <section className="ref flex flex-1 w-full py-12">
-        <div className="w-1/2 ">
+      <section className="ref flex flex-col md:flex-row flex-1 w-full py-12">
+        <div className="w-full md:w-1/2 ">
           <img 
             src={mac}
             alt="Agence Web Toulouse"
           />
         </div>
-        <div className="w-1/2 py-32 max-w-lg ml-0">
+        <div className="w-full md:w-1/2 px-10 py-16 md:py-32 max-w-lg ml-0">
           <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
             <Link className="hover:text-bleu" to="/referencement-de-site-internet-47-31"><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL</Link>
           </h3>
@@ -261,7 +261,7 @@ function IndexPage(props) {
         <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Nous sommes proactifs</h3>
       </section>
       <section  className="tabPanel flex flex-1 w-full justify-end ml-0">
-        <div className="w-3/4 py-0 flex justify-end">
+        <div className="w-full md:w-3/4 py-0 flex justify-end">
           <Accordion>
             <div className="w-full" label="UNE AUGMENTATION DE VOS CONTACTS PROSPECTS ?">
               <p>Vous souhaitez développer la <strong>stratégie de communication digitale</strong> de votre entreprise ?<br /> Développer la vente de vos produits ?<br /> Le <strong>retour sur investissement</strong> fait partie des objectifs communs à tous chefs d’entreprise.<br /> Pour trouver des clients potentiels, il est nécessaire d’avoir une visibilité pertinente qui permet à chacun de consulter <strong>votre site internet</strong> et de leur donner envie de travailler avec vous.<br /> Un <strong>webdesign</strong> adapté et des outils digitaux bien construits vous permettront de <strong>créer un site internet</strong> performant.<br /> Dynamiser sa communication d’entreprise tout en la maîtrisant vous permettra de gagner en visibilité, mais également de toucher vos cibles afin d’obtenir des contacts qualifiés.<br /> Notre <strong>agence de création</strong> vous propose, grâce à nos compétences, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>création de votre site internet</strong> vitrine ou <strong>site marchand</strong>.</p>
@@ -281,23 +281,23 @@ function IndexPage(props) {
         </h2>
         <hr className="blue"></hr>
       </section>
-      <section className="max-w-6xl flex w-full mx-auto px-4 pb-12 mb-0 mt-12">
-        <div className="w-1/3 px-6 text-sm">
+      <section className="max-w-6xl flex flex-col md:flex-row w-full mx-auto px-4 pb-12 mb-0 mt-12">
+        <div className="flex-full md:w-1/3 px-6 text-sm">
           <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
             <span className="text-bleu">1.</span>Vos exigences
           </h3>
-          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour un <strong>site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p>
+          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour un <strong>site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p><br/><br/>
         </div>
 
-        <div className="w-1/3 px-6 text-sm">
+        <div className="flex-full md:w-1/3 px-6 text-sm">
           <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
             <span className="text-bleu">2.</span>Votre offre
           </h3>
           <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p><br/>
-          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p>
+          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p><br/><br/>
         </div>
 
-        <div className="w-1/3 px-6 text-sm">
+        <div className="flex-full md:w-1/3 px-6 text-sm">
           <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
             <span className="text-bleu">3.</span>Vos cibles
           </h3>
@@ -310,12 +310,12 @@ function IndexPage(props) {
         </h2>
         <hr className="white"></hr>
         <h3 data-aos='fade-left' className="text-xl text-bleu text-center century italic pb-6">Nous sommes proactifs</h3>
-        <p className="text-white text-center"><strong>Création Sites Vitrine | Sites E-commerce | Référencement Google | Rédaction Web</strong></p>
-        <div className="flex flex-1 w-full mt-12 mb-6 century">
-          <div className="w-1/2 text-center text-white text-4xl">
+        <p className="text-white text-center text-sm md:text-md"><strong>Création Sites Vitrine | Sites E-commerce | Référencement Google | Rédaction Web</strong></p>
+        <div className="flex flex-col md:flex-row flex-1 w-full mt-12 mb-6 century">
+          <div className="w-full md:w-1/2 text-center text-white text-4xl">
             <a href='tel:0533950030'>05 33 95 00 30</a> 
           </div>
-          <div className="w-1/2 text-center text-white text-4xl century">
+          <div className="w-full md:w-1/2 text-center text-white text-4xl century">
             <a href='mailto:contact@linkweb.fr'>contact@linkweb.fr</a> 
           </div>
         </div>

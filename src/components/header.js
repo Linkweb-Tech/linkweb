@@ -16,11 +16,12 @@ class Header extends React.Component {
     this.state = {
       home: false, 
       isExpanded: false,
+      toggleExpansion: () => {}
     }
+    
   }
-
   componentDidMount() {
-  
+    console.log(this.state)
     const nav = document.querySelector('nav');
     const navTop = nav.offsetTop;
   
@@ -33,19 +34,19 @@ class Header extends React.Component {
     });
     if(this.props.path == '/' ) {
       this.setState({ home: true });
-      console.log('State' + this.state.home);
+      
     } 
   }
 
   render() {
-
     
+   
     return (
 
       <nav className={`mainNav w-full z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
          <button
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
-          //onClick={() => toggleExpansion(!isExpanded)}
+          onClick={() => (this.state.isExpanded) ? this.setState({isExpanded: false}) : this.setState({isExpanded: true}) }
         >
           <svg
             className="fill-current h-3 w-3"
@@ -100,7 +101,10 @@ class Header extends React.Component {
           
   
           <div
-            className={`md:block md:flex md:items-center w-full md:w-auto`}
+            
+            className={`${
+              this.state.isExpanded ? `block` : `hidden`
+              } md:block md:flex md:items-center w-full md:w-auto`}
           >
             <div className="text-md pr-5 menu">
               <Link
@@ -163,7 +167,7 @@ export default Header;
 
 // function Header({ siteTitle }) {
 
-//   const [isExpanded, toggleExpansion] = useState(false);
+//   
 //   const nav = document.querySelector('nav');
 //   const navTop = nav.offsetTop;
 

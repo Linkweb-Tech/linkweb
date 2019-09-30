@@ -57,52 +57,52 @@ render() {
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h1>
                 </section>
-                <section className="flex flex-row flex justify-content-start mb-10">
-                    <div className="w-3/4">
-                        <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                    <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
-                    <section className=" w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 my-2 bg-cover my-24">
-                    <div className="max-w-5xl mx-auto flex items-center">
-                        <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
-                            Vous souhaitez être recontacté pour la mise en place de votre solution web ?
-                        </h2>
-                    </div>
-                    <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                        <RappelForm />
-                    </div>
-                </section>
-                <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                    <h2 data-aos='fade-right' className="text-left text-4xl century">
-                    À propos de Référencement
-                    </h2><br/>
-                </section>
-                <section className="flex flex-row pr-10">
-                    <div className="w-1/3">
-                        <img src={world} alt="Création site internet Toulouse"  style={{marginLeft:'auto', marginRight:'auto', display:'block', width:'64px'}}/><br/>
-                        <Link className="font-bold hover:text-bleu" to="/creation-site-internet-toulouse"><h2 className="text-2xl">Création Web</h2></Link><br/>
-                        <p>L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
-                    </div>
-                    <div className="w-1/3">
-                        <img src={iconseo} alt="Création site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block', width:'64px'}}/><br/>
-                        <Link className="font-bold hover:text-bleu" to="/referencement-de-site-internet-47-31"><h2 className="text-2xl">Référencement Naturel</h2></Link><br/>
-                        <p>Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
-                    </div>
-                    <div className="w-1/3">
-                        <img src={iconsea} alt="Création site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block', width:'64px'}}/><br/>
-                        <Link className="font-bold hover:text-bleu" to="/agence-adwords-47-31"><h2 className="text-2xl">Référencement Payant</h2></Link><br/>
-                        <p>Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
-                    </div>
-                </section>
+                <section className="flex flex-col xl:flex-row flex justify-content-start mb-10">
+                    <div className="w-full xl:w-3/4">
+                        <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
+                            <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
+                                <section className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24">
+                                    <div className="max-w-5xl mx-auto flex items-center">
+                                        <h2 data-aos='fade-right' className="text-center text-white text-2xl lg:text-4xl century">
+                                            Vous souhaitez être recontacté pour la mise en place de votre solution web ?
+                                        </h2>
+                                    </div>
+                                    <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
+                                    <RappelForm />
+                                    </div>
+                                </section>
+                                <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
+                                    <h2 data-aos='fade-right' className="text-left text-4xl century">
+                                        À propos de Référencement
+                                    </h2><br/>
+                                </section>
+                                <section className="flex flex-col sm:flex-row px-10 mr-24">
+                                    <div className="w-full sm:w-1/3 mx-10 my-10">
+                                        <img src={world} className="mx-auto w-20 block" alt="Création site internet Toulouse"/><br/>
+                                        <Link className="font-bold hover:text-bleu" to="/creation-site-internet-toulouse"><h2 className="text-2xl">Création Web</h2></Link><br/>
+                                        <p>L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
+                                    </div>
+                                    <div className="w-full sm:w-1/3 mx-10 my-10">
+                                        <img src={iconseo} className="mx-auto w-20 block" alt="Création site internet Toulouse"/><br/>
+                                        <Link className="font-bold hover:text-bleu" to="/referencement-de-site-internet-47-31"><h2 className="text-2xl">Référencement Naturel</h2></Link><br/>
+                                        <p>Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
+                                    </div>
+                                    <div className="w-full sm:w-1/3 mx-10 my-10">
+                                        <img src={iconsea} className="mx-auto w-20 block" alt="Création site internet Toulouse"/><br/>
+                                        <Link className="font-bold hover:text-bleu" to="/agence-adwords-47-31"><h2 className="text-2xl">Référencement Payant</h2></Link><br/>
+                                        <p>Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
+                                    </div>
+                                </section>
                         </section>                    
                     </div>
-                    <div className="w-1/4 pr-40 mt-12 mb-3 ">
-                    <ButtonBlog  url="/contact-agence-web-toulouse" text="Demander un devis" style={{borderRadius:'0em'}}/><br/>
-                    <h3 className="font-bold">LES DERNIERS ARTICLES</h3><br/>
-                    <h3 className="font-bold">VOUS AVEZ AIMÉ</h3><br/>
-                    <Link to="/creation-site-internet-toulouse"><img src={CreerSite} alt="Création site internet Agen"/></Link>
-                    <Link to="/referencement-de-site-internet-47-31"><img src={RefSite} alt="Création site internet Agen"/></Link>
-                    <Link to="/agence-adwords-47-31"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
-                    <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
+                    <div className="w-full xl:w-1/4 pr-40 mt-12 mb-3 ">
+                        <ButtonBlog className="rounded-none" url="/contact-agence-web-toulouse" text="Demander un devis"/><br/>
+                        <h3 className="font-bold">LES DERNIERS ARTICLES</h3><br/>
+                        <h3 className="font-bold">VOUS AVEZ AIMÉ</h3><br/>
+                        <Link to="/creation-site-internet-toulouse"><img src={CreerSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/referencement-de-site-internet-47-31"><img src={RefSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/agence-adwords-47-31"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
+                        <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
                     </div>
                 </section>
 

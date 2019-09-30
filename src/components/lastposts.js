@@ -13,10 +13,10 @@ class LastPosts extends React.Component {
         const lastposts = this.props.lastposts;
         console.log(this.props.lastposts);
         return(
-            <section className="flex flex-1 flex-row w-full mt-6 mb-6">
+            <section className="flex flex-1 flex-col md:flex-row w-full mt-6 mb-6">
                 {
                     lastposts.map(( {node} ) => (
-                        <article className="w-1/3 mx-6 pb-4 flex flex-col align-center post">
+                        <article className="w-full md:w-1/3 mx-0 md:mx-6 pb-4 flex flex-col align-center post">
                             {/* <img 
                                 src={ node.featured_media.source_url }
                                 className="w-full h-auto"

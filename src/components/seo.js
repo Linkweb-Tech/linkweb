@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, keywords, title, url }) {
             <script type="application/ld+json">{`
             {
               "@context": "http://schema.org",
-              "@type": "Corporation",
+              "@type": "Organization",
               "name": "Linkweb",
               "description": "Linkweb, agence web à Agen (47) et Toulouse (31), est spécialisée dans la création de site internet, le référencement naturel et le référencement payant.",
               "image": "https://linkweb.fr/wp-content/uploads/2018/09/linkweb-v3-e1555401920623.png",

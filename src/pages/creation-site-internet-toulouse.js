@@ -107,28 +107,28 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <p className="text-md text-center py-12 century">Vous souhaitez une création de site internet à Toulouse ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. Notre agence web Linkweb répond à vos attentes pour créer un site qui s’adapte à vos besoins.</p>
                         </div>
                     </section>
-                    <section className="flex-wrap flex w-full mx-auto py-2 my-2 ">
-                        <div className=" font-bold	w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfff url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
+                    <section className="flex-wrap flex flex-col md:flex-row w-full mx-auto py-2 my-2 ">
+                        <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfff url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET VITRINE</h3>
                             <p>Mettre en avant vos services, activités, et même votre entreprise va vous permettre de <strong>dynamiser votre communication</strong>. Le site <strong>internet vitrine</strong> est idéal pour les TPE/PME souhaitant faire découvrir leur activité et mettre en avant leurs prestations et ainsi acquérir de nouveaux clients près de chez eux. </p>
                             <RoundButton url="/creation-site-internet-agen" text="Création de site vitrine" />
                         </div>
-                        <div className="font-bold	w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
+                        <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET E-COMMERCE</h3>
                             <p>Mettre en place un <strong>site e-commerce</strong> va vous permettre de développer une plateforme de <strong>vente en ligne</strong> de vos produits. Le <strong>site internet e-commerce</strong> s’adresse aux commerçants et boutiques qui souhaitent <strong>développer leur chiffre d’affaire en ciblant une nouvelle clientèle</strong>.</p>
                             <RoundButton  url="/creer-une-boutique-en-ligne" text="Créer une boutique en ligne" />
                         </div>
-                        <div className="font-bold w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
+                        <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET SUR-MESURE</h3>
                             <p>Mettre en place un site internet multifonctions : réservation, simulation, configurateur et bien plus encore. Créer un site internet sur-mesure, c’est aussi faire le choix d’optimiser votre organisation grâce à un outil numérique à la portée de tous de type intranet.</p>
                             <RoundButton url="/creation-de-site-internet-47-31" text="Créer un site internet sur-mesure" />
                         </div>
                     </section>
-                    <section className="flex w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-1/2">
+                    <section className="flex w-full flex-col lg:flex-row mx-auto px-4 py-6 my-4">
+                        <div className="w-full lg:w-1/2">
                             <img src={imac} alt="Création site internet Toulouse"/>
                         </div>
-                        <div className="w-1/2 max-w-3xl px-12 py-12" >
+                        <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION SITE INTERNET : OPTER POUR UNE AGENCE PROFESSIONNELLE À TOULOUSE
                             </h2>
@@ -148,9 +148,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="flex flex-1 home-step my-24 px-24">
-                        <div className="w-1/3 one px-12">
-                            <div className="flex flex-1">
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-12 lg:my-24 lg:px-24">
+                        <div className="w-full lg:w-1/3 one px-12">
+                            <div className="flex flex-1 flex-col lg:flex-row">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -164,8 +164,8 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </section>
                             </div>
                             </div>
-                            <div className="w-1/3 two px-12">
-                            <div className="flex flex-1">
+                            <div className="w-full lg:w-1/3 two px-12">
+                            <div className="flex flex-1 flex-col lg:flex-row">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -178,8 +178,8 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </section>
                                 </div>
                             </div>
-                            <div className="w-1/3 three px-12">
-                            <div className="flex flex-1">
+                            <div className="w-full lg:w-1/3 three px-12">
+                            <div className="flex flex-1 flex-col lg:flex-row">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -270,7 +270,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#6a6a6a url( '+ bgDev +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
                             <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
                             </h2>
 
@@ -280,8 +280,8 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <RappelForm />
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex text-center my-12">
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                        <div className="max-w-6xl mx-auto flex text-center my-12 flex-col sm:flex-row">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
                             <svg x="0px" y="0px" viewBox="0 0 511.998 511.998"  width="80px" height="80px"><g><g>
                                     <g>
                                         <path d="M501.103,464.947h-16.224V326.868c0-5.522-4.477-9.997-9.997-9.997s-9.998,4.476-9.998,9.997v52.101H209.947V223.033    c0-5.522-4.477-9.998-9.998-9.998s-9.997,4.476-9.997,9.998v241.914H46.988V198.913c3.978,0.846,8.098,1.3,12.324,1.3    c20.476,0,38.557-10.452,49.188-26.301c10.63,15.85,28.711,26.301,49.187,26.301c20.476,0,38.557-10.452,49.188-26.301    c10.63,15.85,28.712,26.301,49.188,26.301s38.557-10.452,49.188-26.301c10.63,15.85,28.712,26.301,49.188,26.301    s38.556-10.452,49.187-26.301c10.63,15.85,28.712,26.301,49.188,26.301c4.136,0,8.172-0.43,12.07-1.241v63.358    c0,5.522,4.477,9.997,9.998,9.997s9.997-4.476,9.997-9.997v-71.595c16.302-10.552,27.12-28.885,27.12-49.708    c0-2.049-0.619-3.953-1.677-5.54L462.397,32.824c-1.644-3.519-5.176-5.769-9.06-5.769H59.185c-3.865,0-7.384,2.228-9.037,5.723    L0.96,136.752c-0.917,1.939-1.173,4.086-0.787,6.13c0.619,19.945,11.143,37.429,26.819,47.689v274.375H10.768    c-5.521,0-9.997,4.476-9.997,9.998c0,5.522,4.477,9.997,9.997,9.997H36.99h437.891h26.222c5.521,0,9.998-4.476,9.998-9.997    C511.102,469.423,506.625,464.947,501.103,464.947z M452.814,180.218c-18.156,0-33.463-12.41-37.894-29.193h75.787    C486.276,167.807,470.97,180.218,452.814,180.218z M413.843,47.051h33.129l39.203,83.979h-72.332V47.051z M354.439,180.219    c-18.156,0-33.462-12.411-37.894-29.193h75.786C387.899,167.808,372.593,180.219,354.439,180.219z M315.393,47.051h78.455v83.979    h-78.455V47.051z M256.063,180.219c-18.155,0-33.462-12.411-37.894-29.193h75.787    C289.525,167.808,274.217,180.219,256.063,180.219z M216.946,47.051h78.454v83.979h-0.001h-78.453V47.051z M157.686,180.219    c-18.154,0-33.461-12.411-37.893-29.193h75.786C191.148,167.808,175.842,180.219,157.686,180.219z M118.497,47.051h78.453v83.979    h-78.453V47.051z M65.515,47.051h32.987v83.979H25.786L65.515,47.051z M21.418,151.026h75.787    c-4.432,16.782-19.739,29.193-37.894,29.193C41.156,180.219,25.85,167.808,21.418,151.026z M464.884,464.947H209.947v-65.984    h254.937V464.947z" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
@@ -309,7 +309,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </g></g> </svg>
                                 <p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px"><g><g>
                                         <g>
                                             <path d="M355.81,402.93c-1.86-1.86-4.44-2.93-7.08-2.93c-2.63,0-5.21,1.069-7.06,2.93c-1.87,1.86-2.93,4.43-2.93,7.07    c0,2.63,1.06,5.21,2.93,7.069c1.86,1.86,4.43,2.931,7.06,2.931c2.64,0,5.21-1.07,7.08-2.931c1.86-1.859,2.93-4.439,2.93-7.069    S357.67,404.79,355.81,402.93z" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
@@ -334,7 +334,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     </svg>
                                 <p className="text-xl century text-white pt-3">SITE INTERNET E-COMMERCE</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px"><g><g>
                                     <g>
                                         <path d="M510.362,215.571l-81.99-125.025c-1.849-2.818-4.991-4.516-8.361-4.516H92.378c-3.363,0-6.5,1.69-8.35,4.499    L1.906,215.181c-0.391,0.539-0.73,1.121-1.013,1.743c-1.621,3.574-1.001,7.765,1.585,10.717l41.625,47.527    c3.639,4.155,9.955,4.573,14.109,0.935c4.154-3.639,4.572-9.956,0.934-14.109l-27.097-30.941h134.501L234.137,461.8    l-76.375-87.205c-3.638-4.155-9.956-4.573-14.109-0.935c-4.154,3.639-4.572,9.956-0.934,14.109l105.79,120.791    c1.898,2.168,4.641,3.412,7.522,3.412c2.882,0,5.623-1.244,7.521-3.413l112.63-128.632c3.639-4.155,3.22-10.472-0.936-14.109    c-4.156-3.639-10.473-3.22-14.109,0.936l-83.21,95.033l67.584-230.735h134.445l-62.183,71.02    c-3.639,4.155-3.22,10.472,0.936,14.109c1.897,1.662,4.245,2.477,6.583,2.477c2.782,0,5.55-1.155,7.526-3.413l76.706-87.605    C512.482,224.262,512.825,219.326,510.362,215.571z M28.573,211.055l63.785-96.821l63.495,96.821H28.573z M110.892,106.029    h126.623l-63.311,96.541L110.892,106.029z M256.03,114.263l63.475,96.792H192.555L256.03,114.263z M256.03,465.403l-68.642-234.35    h137.284L256.03,465.403z M338.02,202.821l-63.475-96.792h126.952L338.02,202.821z M356.535,211.055l63.476-96.792l63.474,96.792    H356.535z" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
@@ -362,17 +362,17 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Toulouse ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de site internet ?
+                        <h4 data-aos='fade-left' className="text-lg px-6 md:text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de site internet ?
                         Nous répondons à vos interrogations sur la mise en place de votre site internet professionnel et sur-mesure.</h4>
                     </section>
                     <section  className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
-                        <div className="w-3/4 py-0 flex justify-end">
+                        <div className="w-full md:w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="EST-CE POSSIBLE DE METTRE EN PLACE DES FONCTIONNALITÉS SUR-MESURE POUR MON SITE ?">
-                                <p>Un <strong>site internet</strong> peut avoir plusieurs rôles au sein d’une entreprise : il est à la fois une <strong>vitrine</strong> directement accessible pour les utilisateurs et peut également présenter diverses fonctionnalités pour ces derniers : simulateur de devis, module de réservation, configuration.</p><p>De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de créer un <strong>outil de gestion</strong>. Pour ce faire, <Link to="http://linkweb.fr" className="hover:text-bleu"><strong>Linkweb</strong></Link> est en mesure de vous proposer un <strong>site internet</strong> qui s’adapte à vos besoins, et ce dès la <strong>conception du site</strong> visible, jusqu’ à la définition des espaces d’administration et la répartition des rôles et permissions pour les employés de votre entreprise : <strong>intranet</strong>, <strong>CRM</strong>, nous répondons à vos exigences.</p>
+                                <p>Un <strong>site internet</strong> peut avoir plusieurs rôles au sein d’une entreprise : il est à la fois une <strong>vitrine</strong> directement accessible pour les utilisateurs et peut également présenter diverses fonctionnalités pour ces derniers : simulateur de devis, module de réservation, configuration.</p><p>De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de créer un <strong>outil de gestion</strong>. Pour ce faire, <Link to="/" className="hover:text-bleu"><strong>Linkweb</strong></Link> est en mesure de vous proposer un <strong>site internet</strong> qui s’adapte à vos besoins, et ce dès la <strong>conception du site</strong> visible, jusqu’ à la définition des espaces d’administration et la répartition des rôles et permissions pour les employés de votre entreprise : <strong>intranet</strong>, <strong>CRM</strong>, nous répondons à vos exigences.</p>
                                 </div>
                                 <div label="COMMENT CRÉER UN SITE WEB DESTINÉ À LA POPULATION TOULOUSAINE (OCCITANIE) ?">
-                                <p>Lorsque l’on met en place une solution de <strong>communication</strong> et notamment un <strong>site internet</strong>, il faut considérer son public dès l’élaboration du projet et la <strong>création du site</strong> et du projet. Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> mérite d’investir dans votre <strong>site web professionnel </strong>et votre <strong>référencement</strong>.<br /> De plus, les <strong>sites internet</strong> que nous mettons en place sont créés en vue de répondre à un besoin précis. C’est pourquoi le positionnement stratégique de <strong>votre site web</strong> doit être pensé et anticipé. <Link to="http://linkweb.fr" className="hover:text-bleu"><strong>Linkweb</strong></Link> dispose de tous les outils pour prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant.</strong></p>
+                                <p>Lorsque l’on met en place une solution de <strong>communication</strong> et notamment un <strong>site internet</strong>, il faut considérer son public dès l’élaboration du projet et la <strong>création du site</strong> et du projet. Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> mérite d’investir dans votre <strong>site web professionnel </strong>et votre <strong>référencement</strong>.<br /> De plus, les <strong>sites internet</strong> que nous mettons en place sont créés en vue de répondre à un besoin précis. C’est pourquoi le positionnement stratégique de <strong>votre site web</strong> doit être pensé et anticipé. <Link to="/" className="hover:text-bleu"><strong>Linkweb</strong></Link> dispose de tous les outils pour prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant.</strong></p>
                                 </div>
                                 <div label="COMBIEN DE TEMPS EST NÉCESSAIRE POUR OBTENIR UNE VERSION DÉFINITIVE DE MON SITE ?">
                                 <p>Il est difficile d’établir un délai de production pour un <strong>site internet</strong> puisqu’il va dépendre de nombreux critères. Mise en production, définition des contenus, création des <strong>maquettes</strong>, retour client, <strong>rédaction des contenus</strong>, modifications, etc. Il existe de nombreux paramètres qui vont influer sur le temps de production d’un <strong>site internet</strong>. Il est important de considérer et de soigner les moindres détails pour une mise en ligne optimale, c’est pourquoi cela est variable selon le projet.</p>
@@ -387,8 +387,8 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="max-w-6xl mx-auto flex align-center justify-center text-center mt-3 mb-12">
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up">
+                    <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center text-center mt-3 px-6 mb-12">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up">
                             <img 
                                 src={ stars }
                                 alt="Création site internet Agen"
@@ -397,7 +397,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <div className="text-lg century my-2">Château de Boisverdun</div>
                             <div className="italic">« Nous sommes chez Linkweb depuis 3 ans et je n’ai jamais eu aucun problème les techniciens sont à l’écoute et nous appellent chaque mois pour faire un point! Continuez comme ça ne changez rien!! »</div>
                         </div>
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="300">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="300">
                             <img 
                                 src={ stars }
                                 alt="Création site internet Toulouse"
@@ -406,7 +406,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <div className="text-lg century my-2">Auto École Anne</div>
                             <div className="italic">« Entreprise très sérieuse. Équipe à l écoute et réactive des changements que je demande tous les mois. Le référencement est bien suivi et j ai un retour d’ Anthony tous les mois. Je recommande ! »</div>
                         </div>
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="500">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="500">
                             <img 
                                 src={ stars }
                                 alt="Création site internet Agen"
@@ -418,7 +418,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
-                        <div className="w-full flex justify-center">
+                        <div className="w-full flex flex-col md:flex-row justify-center">
                             <a 
                                 className="century text-sm hover:text-bleu"
                                 target="blank" rel="noreferrer noopener"

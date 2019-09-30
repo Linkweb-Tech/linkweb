@@ -56,32 +56,32 @@ class ErgonomieToulouse extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply` }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl md:text-7xl text-center text-white">
                         Créer un site web professionnel Ergonomique
                         </h1>
-                        <h3 className="italic text-2xl text-white">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
+                        <h3 className="italic text-xl lg:text-2xl text-white">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                     <p style={{textAlign:`justify`, textAlignLast:`center`}}>
                     <strong>Créer un site internet professionnel</strong> fait appel à des <strong>connaissances techniques</strong> et à une réflexion très précises en termes de création et <strong>gestion de contenu</strong>, mais aussi en termes de <strong>responsive web design</strong>. En tant qu’<strong>agence de création de site internet à Agen et Toulouse</strong>, faire un <strong>site internet vitrine</strong> ou <strong>e-commerce</strong> sur-mesure fait partie de nos objectifs.</p>
                     </section>
-                    <section style={{backgroundColor:`rgb(255, 255, 255, 0.8`, backgroundImage: 'url(' + blocint + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode: `overlay`, marginTop:'50px', padding:`130px`, color:'black'}}>
+                    <section className="mt-3 md:mt-6 p-6 md:p-24" style={{backgroundColor:`rgb(255, 255, 255, 0.8`, backgroundImage: 'url(' + blocint + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode: `overlay`, marginTop:'50px', color:'black'}}>
                             <br />
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">Créer un site internet ergonomique pour une interface intuitive</h2>
+                        <h2 data-aos='fade-right' className="text-center text-2xl md:text-4xl century">Créer un site internet ergonomique pour une interface intuitive</h2>
                             <br />
                             <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                            <p style={{textAlign:'justify', textAlignLast:`center`, fontSize:`20px`}}>
+                            <p className="md:text-xl" style={{textAlign:'justify', textAlignLast:`center`}}>
                                 Le point central de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><strong>création de votre site internet</strong></Link> professionnel reste l’<strong>ergonomie</strong>. Un <strong>site</strong> ayant un confort dans l’exécution des actions et permettant un accès intuitif à l’information recherchée <strong>permet de créer</strong> beaucoup plus d’interactions et a beaucoup plus de chances d’avoir du succès. C’est pourquoi la <strong>conception du site</strong> doit être réalisée en conséquence.
-                                <strong>Et c’est ce que nous souhaitons, votre réussite construit la nôtre.</strong></p>
+                                 <strong> Et c’est ce que nous souhaitons, votre réussite construit la nôtre.</strong></p>
                             </section>
                     </section>
 
-                    <section className="flex w-full  mx-auto px-0 py-6 my-4" style={{marginTop:'0px', marginBottom:'0px'}}>
-                        <div className="w-1/2 bg-bleu" style={{backgroundImage: 'url(' + ui + ')', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
-                            <h3 className="text-2xl century pb-6">L’interface utilisateur (UI) : ce que le visiteur voit</h3>
+                    <section className="flex flex-col lg:flex-row w-full mx-auto px-0 my-4">
+                        <div className="w-full lg:w-1/2 bg-bleu p-16 xl:p-32" style={{backgroundImage: 'url(' + ui + ')', color:'white'}} data-aos="zoom-in">
+                            <h3 className="text-lg lg:text-2xl century pb-6">L’interface utilisateur (UI) : ce que le visiteur voit</h3>
                             <br/>
-                            <ul>
+                            <ul className="text-lg lg:text-2xl">
                                 <li style={{listStyleType: 'disc'}}><strong>Responsive design</strong></li>
                                 <li style={{listStyleType: 'disc'}}>Esthétisme</li>
                                 <li style={{listStyleType: 'disc'}}>Équilibre</li>
@@ -89,10 +89,10 @@ class ErgonomieToulouse extends React.Component {
                                 <li style={{listStyleType: 'disc'}}><strong>Hiérarchisation des informations</strong></li>
                             </ul>
                         </div>
-                        <div className="w-1/2 bg-black" style={{backgroundImage: 'url(' + ux + ')', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in" data-aos-delay="200">
-                            <h3 className="text-2xl century pb-6">L’expérience utilisateur (UX) : ce que le visiteur fera</h3>
+                        <div className="w-full lg:w-1/2 bg-black p-16 xl:p-32" style={{backgroundImage: 'url(' + ux + ')', color:'white'}} data-aos="zoom-in" data-aos-delay="200">
+                            <h3 className="text-lg lg:text-2xl century pb-6">L’expérience utilisateur (UX) : ce que le visiteur fera</h3>
                             <br/>
-                            <ul>
+                            <ul className="text-lg lg:text-2xl">
                                 <li style={{listStyleType: 'disc'}}>Prise en main</li>
                                 <li style={{listStyleType: 'disc'}}>Navigation aisée</li>
                                 <li style={{listStyleType: 'disc'}}>Facilité d'accès à l'information</li>
@@ -100,38 +100,38 @@ class ErgonomieToulouse extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    <section className="flex w-full  mx-auto px-0 py-6 my-4" style={{backgroundColor:`rgb(41, 41, 41, 0.8`, backgroundImage: 'url(' + blocint1 + ')',backgroundBlendMode: `overlay`, marginTop:'50px', padding:`120px`, color:'white'}}>
-                        <div className="w-1/2 ">
-                        </div>
-                        <div className="w-1/2 max-w-3xl px-12 py-12" >
-                            <h2 className="century text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{fontSize:'40px', textAlign:'center'}}>
+                    <section className="flex w-full mx-auto justify-content-center px-0 lg:px-6 py-8 lg:py-12" style={{backgroundColor:`rgb(41, 41, 41, 0.8`, backgroundImage: 'url(' + blocint1 + ')',backgroundBlendMode: `overlay`, color:'white', backgroundRepeat:'no-repeat', justifyContent:'end'}}>
+
+                        <div className="w-full lg:w-1/2 max-w-3xl px-10 lg:px-12 py-12" >
+                            <h2 className="century text-lg lg:text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
                                 Créer un site professionnel qui s’adapte à tous les supports
                             </h2>
                             <br/>
-                            <p data-aos='fade-bottom' style={{fontSize:'30px', textAlign:'center'}}>
+                            <p className="text-lg lg:text-2xl" data-aos='fade-bottom' style={{textAlign:'center'}}>
                             71% des <strong>recherches sur internet</strong> en France sont effectuées via un mobile… Le comportement de votre futur <strong>site internet</strong> s’adaptera à toutes les tailles d’écrans. Il est indispensable que votre site soit un <strong>site responsive</strong> et permette une lecture fluide à vos utilisateurs consultant vos <strong>pages web</strong> sur leurs smartphones. <strong>Tous nos sites sont adaptatifs selon le Responsive Design…</strong>
                             </p>
                             <br/>
-                            <p data-aos='fade-bottom' style={{fontSize:'15px', textAlign:'left'}}>
+                            <p className="text-sm lg:text-2xl" data-aos='fade-bottom' style={{textAlign:'left'}}>
                             Comme dirait Buzz, vers l’infini et l’au-delà !
                             </p>
                             
                         </div>
                     </section>
-                    <section className="flex w-full  mx-auto px-0 py-6 my-4" style={{paddingTop:'0em', paddingBottom:'0em'}}>
-                        <div className="w-1/2 bg-bleu" style={{padding:'130px', color:'white', fontSize:'1.5em'}}>
-                            <p  data-aos="zoom-in" style={{fontSize:'30px', textAlign:'center'}}>
+                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 py-6 my-4" style={{paddingTop:'0em', paddingBottom:'0em'}}>
+                        <div className="w-full md:w-1/2  bg-bleu p-10 lg:p-24 text-lg lg:text-2xl " style={{color:'white'}}>
+                            <p className="text-lg lg:text-2xl " data-aos="zoom-in" style={{ textAlign:'center'}}>
                             Les équipes de développeurs de l’agence Linkweb prennent en charge la totalité de la création de votre site internet sur-mesure. A travers votre identité visuelle, nous allons créer un webdesign unique, reflétant l’image de votre entreprise pour une véritable carte de visite en ligne. Techniciens passionnés, nos développeurs mettront du cœur à l’ouvrage pour vous proposer un projet web cohérent et créer votre site web pour affirmer votre image de marque et séduire vos visiteurs.                            </p>
                             <br/>
                         </div>
-                        <div className="w-1/2 bg-bleu" style={{backgroundImage: 'url(' + ordinateurs + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
+                        <div className="w-full md:w-1/2 bg-bleu" style={{backgroundImage: 'url(' + ordinateurs + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', padding:'130px', color:'white'}} data-aos="zoom-in">
+                        
                         </div>
                     </section>
-                    <section className="flex w-full  mx-auto px-0 py-6 my-4" style={{paddingTop:'0px', paddingBottom:'0px'}}>
-                        <div className="w-1/2" style={{backgroundImage: 'url(' + imac + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
+                    <section className="flex w-full flex-col md:flex-row  mx-auto px-0 py-0 lg:my-4">
+                        <div className="w-full md:w-1/2" style={{backgroundImage: 'url(' + imac + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', color:'white'}} data-aos="zoom-in">
                         </div>
-                        <div className="w-1/2" style={{backgroundColor:'#2b2b2b', padding:'130px', color:'white', fontSize:'1.5em'}}>
-                            <p  data-aos="zoom-in" style={{fontSize:'30px', textAlign:'center'}}>
+                        <div className="w-full text-white md:w-1/2 p-10 lg:p-24 " style={{backgroundColor:'#2b2b2b'}}>
+                            <p className="text-lg lg:text-2xl " data-aos="zoom-in" style={{ textAlign:'center'}}>
                             À travers l’utilisation de plusieurs langages de programmation web, nous mettrons en valeur les contenus de votre site internet sublimés par les couleurs de votre charte graphique, harmonieusement intégrées. Notre agence digitale est compétente pour développer votre stratégie de webmarketing à travers une communication visuelle originale favorisant votre image de marque.                            <br/>
                             </p>
                         </div>
@@ -143,10 +143,10 @@ class ErgonomieToulouse extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="flex flex-1 home-step my-24 px-24">
-                        <div className="w-1/3 one px-12">
-                            <div className="flex flex-1">
-                                <div className="blackBulle" data-aos="fade-up">1</div>
+                    <section className="flex flex-col xl:flex-row flex-1 home-step my-12 xl:my-24 px-5 md:px-24">
+                        <div className="w-full xl:w-1/3 one px-12">
+                            <div className="flex flex-col  xl:flex-row flex-1">
+                                <div className="blackBulle" data-aos="fade-up">1</div><br/>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>Maîtrisez
@@ -157,8 +157,8 @@ class ErgonomieToulouse extends React.Component {
                                 </section>
                             </div>
                             </div>
-                            <div className="w-1/3 two px-12">
-                            <div className="flex flex-1">
+                            <div className="w-full xl:w-1/3 two px-12">
+                            <div className="flex flex-col  xl:flex-row flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -170,8 +170,8 @@ class ErgonomieToulouse extends React.Component {
                                 </section>
                                 </div>
                             </div>
-                            <div className="w-1/3 three px-12">
-                            <div className="flex flex-1">
+                            <div className="w-full xl:w-1/3 three px-12">
+                            <div className="flex flex-col  xl:flex-row  flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -187,7 +187,7 @@ class ErgonomieToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h2 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 data-aos='fade-right' className="text-center text-xl md:text-3xl century">
                             <span className="text-bleu">/</span>Notre objectif : créer votre site pour atteindre vos objectifs
                         </h2>
                         <hr className="blue"></hr>
@@ -206,7 +206,7 @@ class ErgonomieToulouse extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
 
 
@@ -220,23 +220,23 @@ class ErgonomieToulouse extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex items-start text-center my-12">
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
-                                <img src={laptop} width="80px" />
+                                <img src={laptop} width="80px" alt="Agence de Communication Toulouse"/>
                                 <p className="text-xl text-white century pt-3">WEBMARKETING</p>
                             </div>
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
 
-                                <img src={web} width="80px" />
+                                <img src={web} width="80px" alt="Référencement Toulouse"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
                             <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
-                                <img src={bullhorn} width="80px" />
+                                <img src={bullhorn} width="80px" alt="Référencement Toulouse"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
                         </div>
                     </section>
 
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h3 className="century capitalize text-center text-xl md:text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Les dernières actualités
                         </h3>
                         <hr className="blue"></hr>

@@ -113,24 +113,24 @@ class ReferencementToulouse extends React.Component {
                             <p className="text-md text-center py-12 century">Avoir un site internet n’est pas une fin en soi : il doit nécessairement être visible sur internet. C’est le principe du référencement web. Faites de votre site une référence pour les moteurs de recherche.</p>
                         </div>
                     </section>
-                    <section className="flex-wrap flex w-full max-w-5xl mx-auto py-2 my-2 ">
-                        <div className=" font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+                    <section className="flex-wrap flex-col md:flex-row flex w-full max-w-5xl mx-auto py-2 my-2 ">
+                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h2>
                             <p>Vous souhaitez <strong>augmenter votre visibilité</strong> dans les <strong>pages de recherche de Google</strong> ? Vous souhaitez <strong>générer du trafic sur votre site internet</strong>, vendre vos produits ou obtenir des contacts ? Le <strong>référencement naturel</strong> vous offre la possibilité de mettre en avant votre entreprise.</p>
                             <RoundButton url="/referencement-de-site-internet-47-31" text="Notre offre de Référencement Naturel" />
                         </div>
-                        <div className="font-bold	w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h2>
                             <p>Vous souhaitez obtenir un <strong>retour sur investissement</strong> grâce à votre <strong>boutique en ligne</strong> ou votre <strong>site vitrine</strong> ? Mener une campagne sponsorisée permet de propulser votre visibilité sur Google en un temps record, et ainsi, atteindre vos objectifs de conversion.</p>
                             <RoundButton url="/agence-adwords-47-31/" text="Notre offre de Référencement Ads" />
                         </div>
 
                     </section>
-                    <section className="flex w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-1/2">
+                    <section className="flex flex-col lg:flex-row w-full mx-auto px-4 py-6 my-4">
+                        <div className="w-full lg:w-1/2">
                             <img src={imac} alt="Référencement Toulouse" />
                         </div>
-                        <div className="w-1/2 max-w-3xl px-12 py-12" >
+                        <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>RÉFÉRENCEMENT : OBTENIR UNE MEILLEURE VISIBILITÉ GRÂCE AU RÉFÉRENCEMENT À AGEN
                             </h2>
@@ -153,9 +153,9 @@ class ReferencementToulouse extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="flex flex-1 home-step my-24 px-24">
-                        <div className="w-1/3 one px-12">
-                            <div className="flex flex-1">
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-12 lg:my-24 lg:px-24">
+                        <div className="w-full lg:w-1/3 one px-12">
+                            <div className="flex flex-col lg:flex-row flex-1">
                                 <div className="blackBulle" data-aos="fade-up">1</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -169,8 +169,8 @@ class ReferencementToulouse extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-1/3 two px-12">
-                            <div className="flex flex-1">
+                        <div className="w-full lg:w-1/3 two px-12">
+                            <div className="flex flex-col lg:flex-row flex-1">
                                 <div className="blackBulle" data-aos="fade-up">2</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -183,8 +183,8 @@ class ReferencementToulouse extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-1/3 three px-12">
-                            <div className="flex flex-1">
+                        <div className="w-full lg:w-1/3 three px-12">
+                            <div className="flex flex-col lg:flex-row flex-1">
                                 <div className="blackBulle" data-aos="fade-up">3</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
@@ -227,8 +227,8 @@ class ReferencementToulouse extends React.Component {
                                 <strong><Link to="/agence-adwords-47-31" className="hover:text-bleu">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong>
                             </li>
                         </ul>
-                        <div className="w-full flex text-center my-12">
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                        <div className="w-full flex flex-col md:flex-row text-center my-12">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="200">
 
 
                                 <svg id="Layer_3" width="60px" height="60px" viewBox="0 0 64 64" >
@@ -237,7 +237,7 @@ class ReferencementToulouse extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">1 contact téléphonique par mois</p>
                             </div>
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="200">
 
 
                                 <img
@@ -247,7 +247,7 @@ class ReferencementToulouse extends React.Component {
                                 />
                                 <p className="text-xl century pt-3">1 rapport complet sur votre positionnement</p>
                             </div>
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="400">
                                 <img
                                     src={analysis}
                                     width="60px"
@@ -255,7 +255,7 @@ class ReferencementToulouse extends React.Component {
                                 />
                                 <p className="text-xl century pt-3">1 rapport pertinent de vos statistiques de visites</p>
                             </div>
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="600">
                                 <img 
                                     src={contract}
                                     width="60px"
@@ -265,14 +265,14 @@ class ReferencementToulouse extends React.Component {
                             </div>
                         </div>
                     </section>
-                    <section className="flex w-full max-w-4xl mx-auto text-center justify-center">
-                    <strong>Votre site internet</strong> est le reflet de votre entreprise en ligne. Notre <strong>agence SEO</strong> de <strong>référencement web</strong> travaille dans le but de faire progresser la <strong>visibilité</strong> de votre société dans les <strong>résultats de recherche</strong> et ainsi, d’<strong>augmenter votre notoriété</strong> à travers une création au design professionnel, moderne et épuré. <br/><br/>
+                    <section className="flex flex-col md:flex-row w-full max-w-4xl mx-auto text-center justify-center">
+                    <p className="p-6"><strong>Votre site internet</strong> est le reflet de votre entreprise en ligne. Notre <strong>agence SEO</strong> de <strong>référencement web</strong> travaille dans le but de faire progresser la <strong>visibilité</strong> de votre société dans les <strong>résultats de recherche</strong> et ainsi, d’<strong>augmenter votre notoriété</strong> à travers une création au design professionnel, moderne et épuré. <br/><br/>
 
-                        <b>ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’est pas une science exacte. Néanmoins, nous mettons tout en oeuvre pour vous apporter un site web optimisé et la meilleure visibilité possible.</b><br/>
+                        <b>ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’est pas une science exacte. Néanmoins, nous mettons tout en oeuvre pour vous apporter un site web optimisé et la meilleure visibilité possible.</b><br/></p>
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
                             </h2>
 
@@ -282,17 +282,17 @@ class ReferencementToulouse extends React.Component {
                             <RappelForm />
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex items-start text-center my-12">
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">
+                            <div className="w-full sm:w-1/3 px-6 sm:px-12 py-2 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
                                 <img src={laptop} width="80px" alt="Référencement Naturel" />
                                 <p className="text-xl text-white century pt-3">WEBMARKETING</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 px-12 py-2 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
                                 
                                 <img src={web} width="80px" alt="Référencement Naturel"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full sm:w-1/3 px-12 py-2 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
                                 <img src={bullhorn} width="80px" alt="Référencement Google Ads" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
@@ -306,7 +306,7 @@ class ReferencementToulouse extends React.Component {
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous vous demandez encore pourquoi le référencement est utile pour votre site ? Voici des réponses aux interrogations courantes sur le SEO.</h4>
                     </section>
                     <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
-                        <div className="w-3/4 py-0 flex justify-end">
+                        <div className="w-full md:w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="COMBIEN DE TEMPS FAUT-IL POUR ARRIVER EN PREMIÈRE PAGE DE GOOGLE ?">
                                     <p>Il est difficile de savoir très précisément combien de temps est nécessaire pour apparaître dans les <strong>premiers résultats de Google</strong>. Durant ce processus, plusieurs éléments entrent en corrélation : quantité de <strong>sites internet positionnés</strong> sur le <strong>mot-clé</strong>, critères d’<strong>indexation de Google</strong>, la nature du travail effectué. Le <strong>référencement naturel</strong> est un travail de longue haleine qui nécessite beaucoup de rigueur mais aussi de temps afin d’observer des résultats concrets.</p><p>Bien être <strong>positionné</strong> sur un mot-clé à forte <strong>concurrence</strong> peut s’avérer très difficile (voire quasi impossible) sans mettre en place de grands moyens. En tant qu’<strong>agence de référencement à Agen</strong>, notre rôle est de sélectionner les <strong>mots-clés</strong> qui vont vous permettre de vous rendre <strong>visible&nbsp;</strong>le plus rapidement possible (expressions clés plus précises). En combinant des stratégies de courte et <strong>longue traine</strong>, nous sommes donc en mesure de vous référencer sur tous les mots-clés qui toucheront vos cibles. Pour ce faire, nous disposons de tous les outils nécessaires pour déterminer quels sont les facteurs de succès qui feront de votre stratégie, une stratégie efficace.</p>
@@ -327,8 +327,8 @@ class ReferencementToulouse extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="max-w-6xl mx-auto flex align-center justify-center text-center mt-3 mb-12">
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up">
+                    <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center text-center mt-3 mb-12">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up">
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
@@ -337,7 +337,7 @@ class ReferencementToulouse extends React.Component {
                             <div className="text-lg century my-2">Contis Equitation</div>
                             <div className="italic">« Très bonne équipe sérieuse qui est à l’écoute de nos attentes. Le suivi est super, ils ne font pas QUE vous créer un site web, ils conseillent, donnent leurs idées, font des recherches et des créations pour vous et tout ça avec rapidité ! Je recommande cette entreprise qui m’a apporté une bonne partie de ma clientèle »</div>
                         </div>
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="300">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="300">
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
@@ -346,7 +346,7 @@ class ReferencementToulouse extends React.Component {
                             <div className="text-lg century my-2">AVS Moto</div>
                             <div className="italic">« Linkweb s’occupe du référencement de notre site depuis 4 ans ! Cette agence Web est très compétente dans le domaine, le suivi ainsi que le rapport avec sa clientèle en font sans nul doute l’une des meilleures agences de la région, je recommande sans hésitation »</div>
                         </div>
-                        <div className="w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="500">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="500">
                             <img
                                 src={stars}
                                 className="w-32 mx-auto h-auto mt-3"
@@ -358,7 +358,7 @@ class ReferencementToulouse extends React.Component {
 
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
-                        <div className="w-full flex justify-center">
+                        <div className="w-full flex flex-col md:flex-row justify-center">
                             <a
                                 className="century text-sm hover:text-bleu"
                                 target="blank" rel="noreferrer noopener"

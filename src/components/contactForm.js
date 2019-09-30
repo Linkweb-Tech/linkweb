@@ -46,9 +46,9 @@ class ContactForm extends React.Component {
 
     render(){
         return(
-            <form onSubmit={this.handleSubmit} className="flex flex-wrap max-w-5xl mx-auto">
+            <form onSubmit={this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto">
 
-                <div className="w-1/2 px-2 py-4">
+                <div className="w-full md:w-1/2 px-2 py-4">
                 <input 
                     placeholder="Nom (*)" 
                     type="text" 
@@ -60,7 +60,7 @@ class ContactForm extends React.Component {
                 
                 />
                 </div>
-                <div className="w-1/2 px-2 py-4">
+                <div className="w-full md:w-1/2 px-2 py-4">
                 <input 
                     placeholder="Prénom (*)" 
                     type="text" 
@@ -72,7 +72,7 @@ class ContactForm extends React.Component {
                 
                 />
                 </div>
-                <div className="w-1/3 px-2 py-4">
+                <div className="w-full md:w-1/3 px-2 py-4">
                 <input 
                     placeholder="Email (*)" 
                     type="email" 
@@ -84,7 +84,7 @@ class ContactForm extends React.Component {
                 
                 />
                 </div>
-                <div className="w-1/3 px-2 py-4">
+                <div className="w-full md:w-1/3 px-2 py-4">
                 <input 
                     placeholder="Téléphone (*)" 
                     type="text" 
@@ -96,7 +96,7 @@ class ContactForm extends React.Component {
                 
                 />
                 </div>
-                <div className="w-1/3 px-2 py-4">
+                <div className="w-full md:w-1/3 px-2 py-4">
                 <input 
                     placeholder="Ville (*)" 
                     type="text" 

@@ -53,7 +53,7 @@ class MentionsLegales extends React.Component {
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
                             Mentions Légales
                         </h1>
-                        <h3 className="italic text-2xl text-white">Vous êtes à la recherche de professionnels du web ?</h3>
+                        <h3 className="italic text-xl md:text-2xl text-white">Vous êtes à la recherche de professionnels du web ?</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -89,12 +89,12 @@ class MentionsLegales extends React.Component {
                     <br/>
                     Par le biais de votre navigateur, vous avez la possibilité de bloquer l’implantation de cookies sur votre ordinateur :<br/>
                     <br />
-                    <ul>
-                        <li><b>Mozilla Firefox :</b> <a href="https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent</a></li>
-                        <li><b>Google Chrome :</b> <a href="https://support.google.com/chrome/answer/95647?hl=fr" target="blank" rel="noreferrer noopener"className="hover:text-bleu">https://support.google.com/chrome/answer/95647?hl=fr</a></li>
-                        <li><b>Safari :</b> <a href="https://support.apple.com/kb/ph21411?locale=fr_FR" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.apple.com/kb/ph21411?locale=fr_FR</a></li>
-                        <li><b>Internet Explorer :</b> <a href="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies</a></li>
-                        <li><b>Opera :</b> <a href="http://help.opera.com/Windows/10.20/fr/cookies.html" target="blank" rel="noreferrer noopener" className="hover:text-bleu">http://help.opera.com/Windows/10.20/fr/cookies.html</a></li>
+                    <ul className="text-left">
+                        <li><span className="font-bold">Mozilla Firefox :</span> <a href="https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent</a></li>
+                        <li><span className="font-bold">Google Chrome :</span> <a href="https://support.google.com/chrome/answer/95647?hl=fr" target="blank" rel="noreferrer noopener"className="hover:text-bleu">https://support.google.com/chrome/answer/95647?hl=fr</a></li>
+                        <li><span className="font-bold">Safari :</span> <a href="https://support.apple.com/fr-fr/guide/safari/sfri11471/mac" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.apple.com/fr-fr/guide/safari/sfri11471/mac</a></li>
+                        <li><span className="font-bold">Internet Explorer :</span> <a href="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies" target="blank" rel="noreferrer noopener" className="hover:text-bleu">https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies</a></li>
+                        <li><span className="font-bold">Opera :</span> <a href="http://help.opera.com/Windows/10.20/fr/cookies.html" target="blank" rel="noreferrer noopener" className="hover:text-bleu">http://help.opera.com/Windows/10.20/fr/cookies.html</a></li>
                     </ul>
                     </p>
                     <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -149,7 +149,7 @@ class MentionsLegales extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h3 data-aos='fade-right' className="text-center text-white mt-24 text-4xl century">
                                 <span className="text-bleu">/</span>Un projet, besoin de renseignements ?
 
 
@@ -161,19 +161,19 @@ class MentionsLegales extends React.Component {
                             <RappelForm />
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex items-start text-center my-12">
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
-                                <img src={laptop} width="80px" />
+                        <div className="max-w-6xl mx-auto flex items-start text-center my-12 flex-col md:flex-row">
+                            <div className="w-full my-6 md:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                                <img src={laptop} width="80px" alt="Création Site Internet Toulouse"/>
                                 <p className="text-xl text-white century pt-3">CRÉATION DE SITE INTERNET</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full my-6 md:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
 
-                                <img src={web} width="80px" />
+                                <img src={web} width="80px" alt="Référencement Toulouse"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
-                                <img src={bullhorn} width="80px" />
-                                <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
+                            <div className="w-full my-6 md:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
+                                <img src={bullhorn} width="80px" alt="Référencement Toulouse"/>
+                                <p className="text-xl mb-16 century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
                         </div>
                     </section>

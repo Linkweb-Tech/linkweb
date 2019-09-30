@@ -50,7 +50,7 @@ class Recrutement extends React.Component {
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
                             Recrutement
                         </h1>
-                        <h3 className="italic text-2xl text-white text-center">Vous êtes attiré par l’univers du digital ? La création de site internet n’a plus de secrets pour vous ?<br/> Découvrez nos offres d’emplois en développement et référencement.</h3>
+                        <h3 className="italic text-xl md:text-2xl text-white text-center">Vous êtes attiré par l’univers du digital ? La création de site internet n’a plus de secrets pour vous ?<br/> Découvrez nos offres d’emplois en développement et référencement.</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Votre profil nous intéresse !" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -60,7 +60,7 @@ class Recrutement extends React.Component {
                         <hr className="blue"></hr>
                     </section>
                     <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
-                        <div className="w-3/4 py-0 flex justify-end">
+                        <div className="w-full md:w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="RÉDACTEUR WEB / RÉFÉRENCEUR SEO">
                                     <p>Description du poste :<br/>
