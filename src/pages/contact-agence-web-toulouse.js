@@ -49,7 +49,7 @@ class ContactAgenceWebToulouse extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-10 sm:px-4 pb-6 pt-24 bg-no-repeat bg-cover bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundRepeat:'none', backgroundPosition:'center', backgroundSize:'cover'}}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-3xl sm:text-7xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-3xl sm:text-6xl text-center text-white">
                             Une question ? Un devis ? Une candidature ?
                         </h1>
                         <h3 className="italic text-lg sm:text-2xl text-white mt-3">Contactez-nous, un spécialiste de notre agence web reviendra vers vous.</h3>

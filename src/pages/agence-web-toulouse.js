@@ -66,7 +66,7 @@ class AgenceWebToulouse extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundImage: 'url(' + Bg + ')' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
                             Agence web Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
                         <h3 className="italic text-lg sm:text-2xl text-white mt-3">Pour vous rapprocher de l’essentiel, faites le choix du savoir-faire et de l’expérience.</h3>

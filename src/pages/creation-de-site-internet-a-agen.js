@@ -60,7 +60,7 @@ class Crea extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply`, backgroundPosition:'center' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century lg:text-7xl md:text-4xl text-4xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century sm:text-6xl text-4xl text-center text-white">
                         Création de site internet Agen
                         </h1>
                         <h3 className="italic text-xl md:text-2xl text-white">Votre projet sur-mesure à Agen</h3>
