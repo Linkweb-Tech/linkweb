@@ -23,6 +23,10 @@ hr{
 
 .pb-128 {
     margin-bottom: 400px;
+
+    @media(max-width: 768px){
+        margin-top: 30px;
+    }
 }
 
 body {
