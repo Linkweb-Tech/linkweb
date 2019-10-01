@@ -56,10 +56,10 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize:'cover' }}>
-                        <h2 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                        <h2 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl text-center text-white">
                         Nos réalisations à Toulouse<span className="text-bleu">/</span>Agen
                         </h2>
-                        <h1 className="italic text-2xl text-white">Agence de communication à Agen/Toulouse</h1>
+                        <h1 className="italic text-lg sm:text-2xl text-white mt-3 text-center">Agence de communication à Agen/Toulouse</h1>
                         <RoundButton url="#" text="Je suis intéressé par une offre de création de site internet" />
                     </section>
                     
@@ -78,10 +78,10 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     </section>
 
 
-                    <section className="flex flex-col lg:flex-row flex-1 max-w-7xl mx-auto home-step mt-24 mb-12 my-12 px-12 lg:my-24 lg:px-24">
-                        <div className="w-full lg:w-1/3 one px-12">
-                            <div className="flex flex-col lg:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">1</div>
+                    <section className="flex flex-col lg:flex-row flex-1 max-w-7xl mx-auto home-step mt-24 mb-12 my-12 px-1 xl:my-24 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-12">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
@@ -95,9 +95,9 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 two px-12">
-                            <div className="flex flex-col lg:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">2</div>
+                        <div className="w-full xl:w-1/3 two px-12">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
@@ -110,9 +110,9 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 two px-12">
-                            <div className="flex flex-col lg:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">3</div>
+                        <div className="w-full xl:w-1/3 two px-12">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE CHOISIS LINKWEB POUR CRÉER MON SITE INTERNET

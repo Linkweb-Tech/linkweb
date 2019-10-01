@@ -65,10 +65,10 @@ class ReferencementToulouse extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundImage: 'url(' + Bg + ')' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl text-center text-white">
                             Référencement Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
-                        <h3 className="italic text-2xl text-white">Sortez de l’ombre, devenez visible sur les moteurs de recherche grâce au référencement</h3>
+                        <h3 className="italic text-lg sm:text-2xl text-white mt-3">Sortez de l’ombre, devenez visible sur les moteurs de recherche grâce au référencement</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer ma visibilité sur internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -153,10 +153,10 @@ class ReferencementToulouse extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-12 lg:my-24 lg:px-24">
-                        <div className="w-full lg:w-1/3 one px-12">
-                            <div className="flex flex-col lg:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">1</div>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 sm:px-12 xl:my-24 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-12">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT
@@ -169,9 +169,9 @@ class ReferencementToulouse extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 two px-12">
-                            <div className="flex flex-col lg:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">2</div>
+                        <div className="w-full xl:w-1/3 two px-12">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR TROUVER MA SOLUTION
@@ -183,9 +183,9 @@ class ReferencementToulouse extends React.Component {
                                 </section>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 three px-12">
-                            <div className="flex flex-col lg:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">3</div>
+                        <div className="w-full xl:w-1/3 three px-12">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
                                 <section>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                         <span className="text-bleu">/</span>JE FAIS LE CHOIX D’EXPERTS POUR OPTIMISER MA VISIBILITÉ
@@ -209,26 +209,26 @@ class ReferencementToulouse extends React.Component {
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <p className="text-xl font-bold century text-left">Après notre première rencontre, ainsi que la réunion de cadrage pour votre site internet, Linkweb s’engage à :</p>
-                        <ul className="mt-6 pl-6">
+                        <ul className="mt-6 pl-1 sm:pl-6">
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                <strong>Optimisation interne de votre site</strong> : votre contenu doit être le plus <strong>pertinent</strong>.
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p><strong>Optimisation interne de votre site</strong> : votre contenu doit être le plus <strong>pertinent</strong>.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                <strong>Optimisation des liens externes</strong> : votre site doit être populaire.
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p><strong>Optimisation des liens externes</strong> : votre site doit être populaire.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                <strong>Optimisation de la recherche locale</strong> : votre site doit être vu par vos clients les plus proches.
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p><strong>Optimisation de la recherche locale</strong> : votre site doit être vu par vos clients les plus proches.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                <strong><Link to="/agence-adwords-47-31" className="hover:text-bleu">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p><strong><Link to="/agence-adwords-47-31" className="hover:text-bleu">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong></p>
                             </li>
                         </ul>
                         <div className="w-full flex flex-col md:flex-row text-center my-12">
-                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="200">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="200">
 
 
                                 <svg id="Layer_3" width="60px" height="60px" viewBox="0 0 64 64" >
@@ -237,7 +237,7 @@ class ReferencementToulouse extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">1 contact téléphonique par mois</p>
                             </div>
-                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="200">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="200">
 
 
                                 <img
@@ -247,7 +247,7 @@ class ReferencementToulouse extends React.Component {
                                 />
                                 <p className="text-xl century pt-3">1 rapport complet sur votre positionnement</p>
                             </div>
-                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="400">
                                 <img
                                     src={analysis}
                                     width="60px"
@@ -255,7 +255,7 @@ class ReferencementToulouse extends React.Component {
                                 />
                                 <p className="text-xl century pt-3">1 rapport pertinent de vos statistiques de visites</p>
                             </div>
-                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pb-6" data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full md:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="600">
                                 <img 
                                     src={contract}
                                     width="60px"

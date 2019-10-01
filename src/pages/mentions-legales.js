@@ -50,10 +50,10 @@ class MentionsLegales extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundPosition: 'center', backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + bureau + ')', backgroundBlendMode: `multiply` }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl text-center text-white">
                             Mentions Légales
                         </h1>
-                        <h3 className="italic text-xl md:text-2xl text-white">Vous êtes à la recherche de professionnels du web ?</h3>
+                        <h3 className="italic text-lg sm:text-xl md:text-2xl text-white mt-3 text-center">Vous êtes à la recherche de professionnels du web ?</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">

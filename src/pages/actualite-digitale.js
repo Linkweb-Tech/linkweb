@@ -52,8 +52,8 @@ render() {
                 }}
                 transitionTime={200}
             >
-                <section className="w-full mx-auto pb-0 px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor: 'rgb(0, 0, 0,0.9)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + Bg + ')', height:'450px'}}>
-                    <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{backgroundColor:'black', height:'450px'}}>
+                    <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl text-center text-white mt-48">
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h1>
                 </section>

@@ -54,10 +54,10 @@ render() {
                 transitionTime={200}
             >
                 <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor: 'rgb(110, 110, 110,0.9)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + Bg + ')'}}>
-                    <h2 data-aos="fade-up" data-aos-delay="500" className="century lg:text-7xl md:text-4xl sm:text-xl text-center text-white">
+                    <h2 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl md:text-4xl sm:text-xl text-center text-white">
                     Référencement Web Toulouse<span className="text-bleu">/</span>Agen
                     </h2>
-                    <h1 className="italic text-2xl text-white">Agence de référencement Toulouse / Agen</h1>
+                    <h1 className="italic text-lg sm:text-2xl text-white pt-3">Agence de référencement Toulouse / Agen</h1>
                     <RoundButton url="/contact-agence-web-toulouse" text="Je veux developper ma visibilité en ligne" />
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -87,7 +87,7 @@ render() {
                             <span className="text-bleu">/</span>NOUS METTONS EN PLACE VOTRE STRATÉGIE DE RÉFÉRENCEMENT LOCAL OU NATIONAL
                         </h2>
                         <br />
-                        <p data-aos='fade-bottom' style={{paddingTop:'20px'}}>
+                        <p className="text-justify pt-8" data-aos='fade-bottom'>
                         Référencer son site, c’est donner vie à sa <strong>communication digitale</strong> pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité. <br/>
                         <br/>
                         <strong>Audit technique</strong>, analyse des statistiques via les <strong>outils Google</strong>, nous effectuons le nécessaire pour vous permettre d’obtenir <strong>plus de trafic organique</strong> via les <strong>moteurs de recherche</strong> et générer des ventes.<br/>
@@ -106,7 +106,7 @@ render() {
                             <span className="text-bleu">/</span>OBTENIR UNE MEILLEURE VISIBILITÉ GRÂCE AU RÉFÉRENCEMENT
                         </h2>
                         <br />
-                        <p data-aos='fade-bottom' style={{paddingTop:'20px'}}>
+                        <p className="text-justify pt-8" data-aos='fade-bottom'>
                         Inclure le <strong>référencement de site web</strong> dans sa <strong>stratégie digitale</strong>.<br/>
                         <br/>
                         En <strong>création site web</strong> ou en <strong>refonte de site internet</strong>, il est nécessaire de mettre en place un <strong>audit de référencement (audit SEO)</strong> afin de déterminer les besoins de <strong>votre site internet</strong>, pour choisir les bons <strong>mots-clés</strong> et décliner la <strong>stratégie web</strong> à mettre en place en fonction de la <strong>notoriété</strong> ou <strong>visibilité</strong> souhaitée et du <strong>contexte concurrentiel</strong>.<br/>
@@ -123,18 +123,18 @@ render() {
                 </section>
                 <section className="flex-col lg:flex-row flex w-full  mx-auto px-0 py-6 my-4" style={{marginTop:'0px', marginBottom:'0px'}}>
                         <div className="w-full lg:w-1/2 bg-bleu" style={{backgroundColor: 'rgb(55, 197, 231,0.4)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + seo + ')', color:'white'}} data-aos="zoom-in">
-                            <h3 className="text-xl pb-0 mb-0 md:text-2xl century p-10 pb-1 md:p-24" style={{fontSize:'2.5em'}}>Search Engine Optimization (SEO)</h3>
+                            <h3 className="text-4xl pb-0 mb-0 md:text-2xl century p-10 pb-1 md:p-24">Search Engine Optimization (SEO)</h3>
                             <br/>
-                            <p className="px-10 pb-24 pt-0" style={{fontSize:'1em'}}>
+                            <p className="px-10 pb-24 pt-0 text-justify text-md">
                             Faire appel à une <strong>agence de référencement naturel</strong>, c’est faire le choix d’un partenaire pour l’avenir. Il se distingue du SEA de part le fait qu’il ne correspond pas à l’achat publicitaire. La <strong>stratégie de référencement naturel</strong> a plusieurs objectifs : <strong>acquisition de trafic</strong>, <strong>visibilité</strong>, <strong>e-réputation</strong>.<br/>
                             <br/>
                             Plusieurs <strong>techniques de référencement SEO</strong> existent pour <strong>positionner son site internet</strong> dans les <strong>premiers résultats de première page</strong> ou en <strong>première position des SERP de Google</strong> et doubler vos <strong>concurrents</strong> : <strong>netlinking (backlinks)</strong>, <strong>maillage interne</strong>, <strong>content marketing</strong>, <strong>optimisation SEO</strong> du site internet. Augmentez votre <strong>popularité</strong> grâce aux <strong>optimisations</strong> qui rendront votre site internet visible.
                             </p>
                         </div>
                         <div className="w-full lg:w-1/2 bg-black" style={{backgroundColor: 'rgb(0, 0, 0,0.4)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + sea + ')', color:'white' }} data-aos="zoom-in" data-aos-delay="200">
-                            <h3 className="text-xl pb-0 mb-0 md:text-2xl century p-10 pb-1 md:p-24" style={{fontSize:'2.5em'}}>Search Engine Advertising (SEA)</h3>
+                            <h3 className="text-4xl pb-0 mb-0 md:text-2xl century p-10 pb-1 md:p-24">Search Engine Advertising (SEA)</h3>
                             <br/>
-                            <p className="px-10 pb-24 pt-0" style={{fontSize:'1em'}}>Nous vous accompagnons dans le <strong>référencement Google Ads</strong> de votre <strong>site vitrine</strong> ou <strong>e-commerce</strong>. <strong>Référencer son site</strong> et apparaître en <strong>première position sur Google</strong> mérite un investissement conséquent en temps, mais aussi en argent. Mener une campagne, définir une annonce, ajuster la stratégie, sont autant de tâches qui incombent au <strong>référencement payant</strong> pour obtenir un <strong>retour sur investissement</strong>.<br/>
+                            <p className="px-10 pb-24 pt-0 text-justify text-md">Nous vous accompagnons dans le <strong>référencement Google Ads</strong> de votre <strong>site vitrine</strong> ou <strong>e-commerce</strong>. <strong>Référencer son site</strong> et apparaître en <strong>première position sur Google</strong> mérite un investissement conséquent en temps, mais aussi en argent. Mener une campagne, définir une annonce, ajuster la stratégie, sont autant de tâches qui incombent au <strong>référencement payant</strong> pour obtenir un <strong>retour sur investissement</strong>.<br/>
                             <br/>
                                 Pour acheter de l’espace publicitaire sur <strong>Internet</strong>, le recours à un <strong>référenceur</strong> est recommandé. Accédez à une <strong>visibilité</strong> sans limite en vous confrontant à la densité <strong>concurrentielle</strong> du marché. Gagnez des parts de marché grâce à des publications très ciblées qui vous donneront visibilité et <strong>retour sur investissement</strong>.  </p>
                         </div>
@@ -146,7 +146,7 @@ render() {
                     <hr className="blue"></hr>
 
                 </section>
-                <section className="flex flex-1 max-w-6xl mx-auto home-step mt-12 md:mt-24 mb-12 px-12">
+                <section className="flex flex-1 max-w-6xl mx-auto home-step mt-12 md:mt-24 mb-12 px-12 text-justify">
                     <p><strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><strong>création du site</strong></Link>. C’est pourquoi, tout doit être pensé, de la <strong>conception du site</strong> du point de vue technique, jusqu’à l’<strong>arborescence</strong> afin d’attirer des <strong>clients potentiels</strong>.<br/>
                     <br/>
                     <strong>Nos consultants, à Toulouse</strong>, vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permettant de suivre les <strong>dernières tendances</strong>.<br/>
@@ -168,13 +168,13 @@ render() {
                         <RappelForm />
                     </div>
 
-                    <div className="max-w-6xl mx-auto flex items-start text-center my-12">
-                        <div className="w-1/2 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                    <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">
+                        <div className="w-full sm:w-1/2 px-12 flex flex-col items-center justify-center my-3" data-aos='zoom-in' data-aos-delay="400">
 
                             <img src={web} width="80px" alt="Référencement Toulouse" />
                             <p className="text-lg md:text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                         </div>
-                        <div className="w-1/2 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
+                        <div className="w-full sm:w-1/2 px-12 flex flex-col items-center justify-center my-3" data-aos='zoom-in' data-aos-delay="600">
                             <img src={bullhorn} width="80px" alt="Référencement Toulouse" />
                             <p className="text-lg md:text-xl century text-white pt-3">RÉFÉRENCEMENT SEA</p>
                         </div>

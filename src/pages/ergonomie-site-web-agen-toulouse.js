@@ -56,10 +56,10 @@ class ErgonomieToulouse extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply` }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl md:text-7xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-3xl md:text-7xl text-center text-white">
                         Créer un site web professionnel Ergonomique
                         </h1>
-                        <h3 className="italic text-xl lg:text-2xl text-white">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
+                        <h3 className="italic text-lg lg:text-2xl text-white mt-6">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -143,10 +143,10 @@ class ErgonomieToulouse extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="flex flex-col xl:flex-row flex-1 home-step my-12 xl:my-24 px-5 md:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-col  xl:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">1</div><br/>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 xl:my-24 px-5 md:px-24">
+                        <div className="w-full xl:w-1/3 one px-4">
+                            <div className="flex items-center xl:items-start flex-col  xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">1</div><br/>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>Maîtrisez
@@ -157,9 +157,9 @@ class ErgonomieToulouse extends React.Component {
                                 </section>
                             </div>
                             </div>
-                            <div className="w-full xl:w-1/3 two px-12">
-                            <div className="flex flex-col  xl:flex-row flex-1">
-                                <div className="blackBulle" data-aos="fade-up">2</div>
+                            <div className="w-full xl:w-1/3 two px-4">
+                            <div className="flex items-center xl:items-start flex-col  xl:flex-row flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>Gérez
@@ -170,9 +170,9 @@ class ErgonomieToulouse extends React.Component {
                                 </section>
                                 </div>
                             </div>
-                            <div className="w-full xl:w-1/3 three px-12">
-                            <div className="flex flex-col  xl:flex-row  flex-1">
-                                <div className="blackBulle" data-aos="fade-up">3</div>
+                            <div className="w-full xl:w-1/3 three px-4">
+                            <div className="flex items-center xl:items-start flex-col  xl:flex-row  flex-1">
+                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>Contrôlez

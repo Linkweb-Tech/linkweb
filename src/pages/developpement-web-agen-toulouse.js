@@ -83,7 +83,7 @@ class Dev extends React.Component {
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century lg:text-7xl md:text-4xl text-4xl text-center text-white">
                         Développement Web
                         </h1>
-                        <h3 className="italic text-xl md:text-2xl text-white">Nous développons nos solutions web sur-mesure</h3>
+                        <h3 className="italic text-lg sm:text-2xl text-white text-center mt-6">Nous développons nos solutions web sur-mesure</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Demander un devis" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 ">
@@ -261,28 +261,28 @@ class Dev extends React.Component {
 
                     <section className="flex w-full flex-col md:flex-row mx-auto px-0 my-4" style={{marginTop:'0px', marginBottom:'0px'}}>
                         <div className="w-full md:w-1/2 bg-bleu" style={{backgroundColor: '#37c5ee', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
-                            <p style={{fontSize:'40px', fontWeight:'bold'}}>Nous maitrisons …</p>
+                            <p className="font-bold text-4xl">Nous maitrisons …</p>
                         </div>
-                        <div className="w-full md:w-1/2 bg-black" style={{backgroundColor:'white', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in" data-aos-delay="200">
+                        <div className="w-full md:w-1/2 bg-white text-white" style={{padding:'130px'}} data-aos="zoom-in" data-aos-delay="200">
                             <p className="text-3xl text-center text-black">les langages …</p><br/>
-                            <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
-                                <div className="w-1/4">
+                            <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex flex-col md:flex-row">
+                                <div className="w-full md:w-1/4 my-3">
                                     <img src={html} alt="HTML" />
                                 </div>
-                                <div className="w-1/4">
+                                <div className="w-full md:w-1/4 my-3">
                                     <img src={css} alt="CSS" />
                                 </div>
-                                <div className="w-1/4">
+                                <div className="w-full md:w-1/4 my-3">
                                     <img src={javascript} alt="Javascript" />
                                 </div>
-                                <div className="w-1/4">
+                                <div className="w-full md:w-1/4 mt-3">
                                     <img src={php} alt="Php" />
                                 </div>
                             </section>
                         </div>
                     </section>
-                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 my-4" style={{marginTop:'0px', marginBottom:'0em'}}>
-                        <div className="w-full md:w-1/2 bg-white p-24" data-aos="zoom-in">
+                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 my-4 my-0">
+                        <div className="w-full md:w-1/2 bg-white px-6 py-24" data-aos="zoom-in">
                                 <p className="text-3xl text-center text-black">les gestionnaires de base de données …</p>
                             <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                                 <div className="w-1/2">
@@ -293,9 +293,9 @@ class Dev extends React.Component {
                                 </div>
                             </section>
                         </div>
-                        <div className="w-full md:w-1/2 bg-bleu p-24" style={{color:'white'}} data-aos="zoom-in" data-aos-delay="200">
+                        <div className="w-full md:w-1/2 bg-bleu py-24 px-6 text-white" data-aos="zoom-in" data-aos-delay="200">
                         <p className="text-3xl text-center text-black">les CMS …</p><br/>
-                        <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
+                        <section className="max-w-7xl w-full mx-auto px-1 pt-0 pb-0 my-2 flex">
                                 <div className="w-1/3">
                                     <img src={wordpress} alt="Wordpress" />
                                 </div>

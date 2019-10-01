@@ -80,10 +80,10 @@ function IndexPage(props) {
           </div>
         </div>
       </section>
-      <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-12 lg:my-24 lg:px-24">
-        <div className="w-full lg:w-1/3 one px-12">
-          <div className="flex flex-col lg:flex-row flex-1">
-            <div className="blackBulle" data-aos="fade-up">1</div>
+      <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
+        <div className="w-full xl:w-1/3 one px-12">
+          <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+            <div className="blackBulle my-6" data-aos="fade-up">1</div>
             <section>
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                 <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION WEB
@@ -96,9 +96,9 @@ function IndexPage(props) {
             </section>
           </div>
         </div>
-        <div className="w-full lg:w-1/3 two px-12">
-          <div className="flex flex-col lg:flex-row flex-1">
-            <div className="blackBulle" data-aos="fade-up">2</div>
+        <div className="w-full xl:w-1/3 two px-12">
+          <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+            <div className="blackBulle my-6" data-aos="fade-up">2</div>
             <section>
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                 <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MA SOLUTION
@@ -110,9 +110,9 @@ function IndexPage(props) {
             </section>
             </div>
           </div>
-        <div className="w-full lg:w-1/3 three px-12">
-          <div className="flex flex-col lg:flex-row flex-1">
-            <div className="blackBulle" data-aos="fade-up">3</div>
+        <div className="w-full xl:w-1/3 three px-12">
+          <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+            <div className="blackBulle my-6" data-aos="fade-up">3</div>
             <section>
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                 <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
@@ -136,19 +136,19 @@ function IndexPage(props) {
         <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6"><Link className="hover:text-bleu" to="/agence-web-toulouse">Agence Web Toulouse</Link> et Agen</h3>
       </section>
       <section  className="crea flex flex-1 w-full ml-0">
-        <div className="w-3/4 bg-darkgrey py-12 flex justify-end">
+        <div className="w-full lg:w-3/4 bg-darkgrey py-12 flex justify-end">
           <div className="max-w-4xl w-full mr-0">
-            <h3 className="century text-white flex-1 capitalize text-2xl tracking-wider pb-3 w-full "  data-aos="zoom-in">
+            <h3 className="century text-white flex-1 capitalize text-2xl tracking-wider px-6 pb-3 w-full "  data-aos="zoom-in">
               <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><span className="text-bleu">/</span>CRÉATION DE SITES WEB</Link>
             </h3>
-            <div className="flex">
-              <div className="w-1/2 text-white">
+            <div className="flex flex-col md:flex-row ">
+              <div className="w-full lg:w-1/2 my-6 px-6 text-white">
               <strong>Élaboration et refonte de site internet</strong>, <strong>site e-commerce</strong>,  <strong>site vitrine</strong>, <strong>solutions web</strong> et <strong>intranet</strong> sur-mesure selon vos besoins fonctionnels et les attentes de vos utilisateurs.<br /><br />
 
               <strong>Création de design moderne</strong> et <strong>ergonomique</strong> qui s’adapte à toutes les <strong>tailles d’écrans</strong> : mobile, tablette et desktop.
               </div>
-              <div className="w-1/2 flex">
-                <div className="w-1/3">
+              <div className="w-full md:w-1/2 flex mr-4">
+                <div className="w-full md:w-1/3">
                 <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><img 
                     src={ loupe }
                     alt="Agence Web Agen"
@@ -158,7 +158,7 @@ function IndexPage(props) {
                    Création site <br /> web sur-mesure
                   </Link>
                 </div>
-                <div className="w-1/3">
+                <div className="w-full md:w-1/3">
                 <Link className="hover:text-bleu" to="/creation-de-site-internet-47-31"><img 
                     src={ menu }
                     alt="Création site internet Agen"
@@ -168,7 +168,7 @@ function IndexPage(props) {
                    Responsive <br />design
                   </Link>
                 </div>
-                <div className="w-1/3">
+                <div className="w-full md:w-1/3">
                 
                 <Link className="hover:text-bleu" to="/creation-site-internet-agen"><img 
                     src={ souris }

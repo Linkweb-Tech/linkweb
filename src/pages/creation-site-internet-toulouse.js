@@ -58,11 +58,11 @@ class CreationSiteInternetToulousePage extends React.Component {
                     }}
                     transitionTime={200}
                 >
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{backgroundImage:'url(' + Bg +')'}}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                    <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{backgroundImage:'url(' + Bg +')'}}>
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl text-center text-white">
                         Création site internet Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
-                        <h3 className="italic text-2xl text-white">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
+                        <h3 className="italic text-lg sm:text-2xl text-white mt-2">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Je veux créer mon site internet professionnel" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -148,10 +148,10 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-12 lg:my-24 lg:px-24">
-                        <div className="w-full lg:w-1/3 one px-12">
-                            <div className="flex flex-1 flex-col lg:flex-row">
-                                <div className="blackBulle" data-aos="fade-up">1</div>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-12">
+                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
+                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
@@ -164,9 +164,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </section>
                             </div>
                             </div>
-                            <div className="w-full lg:w-1/3 two px-12">
-                            <div className="flex flex-1 flex-col lg:flex-row">
-                                <div className="blackBulle" data-aos="fade-up">2</div>
+                            <div className="w-full xl:w-1/3 two px-12">
+                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
+                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
@@ -178,9 +178,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </section>
                                 </div>
                             </div>
-                            <div className="w-full lg:w-1/3 three px-12">
-                            <div className="flex flex-1 flex-col lg:flex-row">
-                                <div className="blackBulle" data-aos="fade-up">3</div>
+                            <div className="w-full xl:w-1/3 three px-12">
+                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
+                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE FAIS LE CHOIX D’EXPERTS POUR CRÉER MON SITE INTERNET
@@ -197,37 +197,37 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 data-aos='fade-right' className="text-center text-3xl century">
-                        <span className="text-bleu">/</span>Création de site internet à Toulouse : <span className="text-bleu">Le mode opératoire</span> 
+                        <span className="text-bleu">/</span>Création de site internet à Toulouse : <span className="text-bleu">le mode opératoire</span> 
                         </h2>
                         <hr className="blue"></hr>
                         
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <p className="text-xl font-bold century text-left">Après notre première rencontre, ainsi que la réunion de cadrage pour votre site internet, Linkweb s’engage à :</p>
-                        <ul className="mt-6 pl-6">
+                        <ul className="mt-6 pl-1 sm:pl-6">
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Faire le choix d’un <strong>nom de domaine</strong> qui vous permettra d’être facilement reconnaissable.
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p>Faire le choix d’un <strong>nom de domaine</strong> qui vous permettra d’être facilement reconnaissable.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Faire le choix de l’outil de <strong>gestion du site</strong> (<strong>CMS</strong>, <strong>HTML</strong>, etc.).
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p>Faire le choix de l’outil de <strong>gestion du site</strong> (<strong>CMS</strong>, <strong>HTML</strong>, etc.).</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Mettre en place un visuel qui fera consensus entre <strong>webdesign</strong> et <strong>expérience utilisateur</strong>.
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p>Mettre en place un visuel qui fera consensus entre <strong>webdesign</strong> et <strong>expérience utilisateur</strong>.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Créer un ensemble de contenus permettant de <strong>communiquer vos valeurs</strong>.
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p>Créer un ensemble de contenus permettant de <strong>communiquer vos valeurs</strong>.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-                                Mettre en place des techniques relatives au <strong>référencement naturel</strong>.
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
+                                <p>Mettre en place des techniques relatives au <strong>référencement naturel</strong>.</p>
                             </li>
                         </ul>
-                        <div className="w-full flex text-center my-6">
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                        <div className="w-full flex flex-col sm:flex-row text-center my-6">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="200">
         
 
                                 <svg  id="Layer_3" width="80px" height="80px" viewBox="0 0 64 64" >
@@ -236,14 +236,14 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">1 contact téléphonique par mois</p>
                             </div>
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="400">
                                 <svg width="80px" height="80px" viewBox="-32 0 480 480.23349" >
                                     <g><path d="m208.117188             96c-97.203126 0-176 78.796875-176 176s78.796874 176 176 176c97.203124 0 176-78.796875 176-176-.109376-97.15625-78.84375-175.890625-176-176zm0 336c-88.367188 0-160-71.632812-160-160s71.632812-160 160-160c88.363281 0 160 71.632812 160 160-.101563 88.324219-71.675782 159.898438-160 160zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m371.085938 142.984375 12.367187-12.367187c3.121094-3.125 3.121094-8.1875 0-11.3125l-22.640625-22.640626c-3.125-3.125-8.1875-3.125-11.3125 0l-12.367188 12.367188c-30.246093-24.054688-66.625-39.164062-105.015624-43.605469v-17.425781h8c8.835937 0 16-7.164062 16-16v-16c0-8.835938-7.164063-16-16-16h-64c-8.835938 0-16 7.164062-16 16v16c0 8.835938 7.164062 16 16 16h8v17.425781c-38.390626 4.441407-74.769532 19.550781-105.015626 43.605469l-12.367187-12.367188c-3.125-3.125-8.191406-3.125-11.3125 0l-22.640625 22.640626c-3.125 3.125-3.125 8.1875 0 11.3125l12.367188 12.367187c-67.546876 85.167969-58.121094 207.984375 21.628906 281.851563 79.75 73.863281 202.929687 73.863281 282.679687 0 79.75-73.867188 89.175781-196.683594 21.628907-281.851563zm-15.929688-29.382813 11.359375 11.359376-5.832031 5.832031c-3.625-3.921875-7.402344-7.695313-11.328125-11.328125zm-179.039062-97.601562h64v16h-64zm24 32h16v16.199219c-2.65625-.09375-5.320313-.199219-8-.199219-2.679688 0-5.34375.105469-8 .199219zm-150.402344 76.960938 11.363281-11.359376 5.832031 5.832032c-3.921875 3.621094-7.699218 7.394531-11.328125 11.328125zm158.402344 339.039062c-106.039063 0-192-85.960938-192-192s85.960937-192 192-192c106.039062 0 192 85.960938 192 192-.125 105.988281-86.011719 191.875-192 192zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m232.117188 272c0-13.253906-10.746094-24-24-24-13.253907 0-24 10.746094-24 24s10.746093 24 24 24c3.5625-.015625 7.078124-.835938 10.28125-2.398438l48.0625 48.0625 11.3125-11.3125-48.058594-48.070312c1.566406-3.203125 2.386718-6.71875 2.402344-10.28125zm-32 0c0-4.417969 3.582031-8 8-8 4.417968 0 8 3.582031 8 8s-3.582032 8-8 8c-4.417969 0-8-3.582031-8-8zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m242.246094 148.601562-4.257813 15.398438c31.285157 8.679688 57.269531 30.496094 71.230469 59.804688 13.964844 29.308593 14.539062 63.230468 1.570312 92.996093l14.664063 6.398438c7.066406-16.140625 10.699219-33.578125 10.664063-51.199219-.09375-57.523438-38.460938-107.957031-93.871094-123.398438zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m225.171875 145.128906c-5.652344-.753906-11.351563-1.128906-17.054687-1.128906v16c4.996093 0 9.988281.328125 14.945312.984375zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
                                     </g> 
                                 </svg>
                                 <p className="text-xl century pt-3">Disponibilité et réactivité</p>
                             </div>
-                            <div className="w-1/3 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6"  data-aos='zoom-in' data-aos-delay="600">
                             <svg  version="1.1" width="80px" height="80px" id="Capa_1" x="0px" y="0px" className="svg-bleu" viewBox="0 0 512 512" >
                                     <g>
                                         <g>

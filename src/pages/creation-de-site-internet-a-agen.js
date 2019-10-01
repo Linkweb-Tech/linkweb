@@ -114,9 +114,9 @@ class Crea extends React.Component {
                             </section>
                         </section>
                         <section className="max-w-full w-full flex flex-col lg:flex-row">
-                            <div className="flex flex-col md:flex-row w-full lg:w-1/3 px-10 text-justify" style={{display:'inherit'}}>
+                            <div className="flex flex-col md:flex-row w-full lg:w-1/3 my-6 px-10 text-justify" style={{display:'inherit'}}>
                                 <div className="w-full lg:w-1/12">
-                                    <img src={un} alt="Création site internet Agen" /><br/>
+                                    <img className="mx-auto block" src={un} alt="Création site internet Agen" style={{width:'75px'}}/><br/>
                                 </div>
                                 <div className="w-full lg:w-11/12">
                                     <h3 className="font-bold text-xl">Apporte une crédibilité</h3><br/>
@@ -126,7 +126,7 @@ class Crea extends React.Component {
                             </div>
                             <div className="flex flex-col md:flex-row md:py-10 w-full lg:w-1/3 px-10 text-justify" style={{display:'inherit'}}>
                                 <div className="w-full lg:w-1/12">
-                                    <img src={deux} alt="Création de site internet Agen" /><br/>
+                                    <img className="mx-auto block" src={deux} alt="Création de site internet Agen" style={{width:'75px'}}/><br/>
                                 </div>
                                 <div className="w-full mlg:w-11/12">
                                     <h3 className="font-bold text-xl">Représente le meilleur outil de communication</h3><br/>
@@ -136,7 +136,7 @@ class Crea extends React.Component {
                             </div>
                             <div className="flex flex-col md:flex-row w-full lg:w-1/3 px-10 text-justify" style={{display:'inherit'}}>
                                 <div className="w-full lg:w-1/12">
-                                    <img src={trois} alt="Création site internet à Agen" /><br/>
+                                    <img className="mx-auto block" src={trois} alt="Création site internet à Agen" style={{width:'75px'}}/><br/>
                                 </div>
                                 <div className="w-full lg:w-11/12">
                                     <h3 className="font-bold text-xl">Reflète l’image de votre entreprise</h3><br/>
@@ -147,7 +147,7 @@ class Crea extends React.Component {
                         </section>
                     </section>
                     <section className="flex w-full my-0 mx-auto px-0 flex flex-col xl:flex-row">
-                        <div className="w-full xl:w-1/2 bg-bleu p-24" data-aos="zoom-in">
+                        <div className="w-full xl:w-1/2 bg-bleu p-12 md:p-24" data-aos="zoom-in">
                             <h2 className="text-white text-3xl font-bold">Et pour une petite entreprise locale du Lot-et-Garonne ?</h2><br/>
                             <p className="text-black text-md text-justify">Pour une entreprise local, <strong>avoir un site internet</strong> est incontournable. Non seulement vous vous démarquerez de la concurrence, mais vous aurez également la possibilité de toucher une clientèle beaucoup plus large. En mettant en avant vos services et vos prestations sur votre <strong>site vitrine</strong>, vous laissez la possibilité à vos prospects d’avoir accès à toutes les informations importantes concernant votre entreprise, et cela à tout moment.</p>
                             <br/> 
@@ -170,25 +170,25 @@ class Crea extends React.Component {
                                 </div>
                             </section>
                         </div>
-                        <div className="w-full xl:w-1/2 bg-black p-24 text-white" data-aos="zoom-in">
+                        <div className="w-full xl:w-1/2 bg-black p-12 text-white" data-aos="zoom-in">
                             <h2 className="text-white text-3xl font-bold">Pour de la vente en ligne ?</h2><br/>
                             <p className="text-white text-md text-justify">En 2017, 85% des internautes ont effectués des achats en ligne. Ces chiffres sont en constante évolution. Pour cause, les bénéfices sont nombreux à se lancer dans le e-commerce. Cependant, pour qu’un <strong>projet web</strong> tel que la création d’une boutique <strong>e-commerce</strong> soit pérenne, il est indispensable de faire appel à des professionnels qualifiés pour mettre en place une réelle <strong>stratégie digitale</strong> et obtenir une <strong>conception de site</strong> de qualité.</p>
                             <br/> 
                             <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify" style={{textAlignLast:'center'}}>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
-                                    <img src={un} alt="Site web Agen" style={{width:'75px'}}/><br/>
+                                    <img className="mx-auto block" src={un} alt="Site web Agen" style={{width:'75px'}}/><br/>
                                     <p className="text-3xl mr-18 text-center">Développer le chiffre d’affaires</p>
                                     <br/>
                                     <p className="text-white px-6 text-md"><strong>Créer une boutique en ligne</strong> permet non seulement de développer son chiffre d’affaire grâce à la vente de <strong>produits en ligne</strong>, mais permet également de développer celui de votre magasin physique !</p>
                                 </div>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
-                                    <img src={deux} alt="Site internet Agen" style={{width:'75px'}}/><br/>
+                                    <img className="mx-auto block" src={deux} alt="Site internet Agen" style={{width:'75px'}}/><br/>
                                     <p className="text-3xl mr-18 text-center">Supprimer les contraintes de localité</p>
                                     <br/>
                                     <p className="text-white px-6 text-md">Un <strong>site de vente</strong> en ligne permet de toucher une clientèle beaucoup plus large en supprimant les contraintes de localité. Vous pouvez ainsi toucher une clientèle au niveau national, voir international !</p>
                                 </div>
                                 <div className="w-full md:w-1/2 flex flex-col justify-content-center xl:w-1/3 my-4">
-                                    <img src={trois} alt="Création site web Agen" style={{width:'75px'}}/><br/>
+                                    <img className="mx-auto block" src={trois} alt="Création site web Agen" style={{width:'75px'}}/><br/>
                                     <p className="text-3xl mr-18 text-center">Proposer des articles sans limite</p>
                                     <br/>
                                     <p className="text-white px-6 text-md">Contrairement à un local physique, un <strong>site e-commerce</strong> vous permet de <strong>vendre en ligne</strong> autant d’articles que vous souhaitez, rapidement et simplement. Aucune contrainte d’espaces ou de réaménagement !</p>
@@ -196,20 +196,20 @@ class Crea extends React.Component {
                             </section>
                         </div>
                     </section>
-                    <section className="bg-cover bg-center p-6" style={{backgroundColor:`rgb(255, 255, 255, 0.8)`, backgroundImage: 'url(' + fondblanc + ')', backgroundRepeat:'no-repeat', backgroundBlendMode: `overlay`, marginTop:'50px',color:'black'}}>
+                    <section className="bg-cover bg-center p-0 md:p-6" style={{backgroundColor:`rgb(255, 255, 255, 0.8)`, backgroundImage: 'url(' + fondblanc + ')', backgroundRepeat:'no-repeat', backgroundBlendMode: `overlay`, marginTop:'50px',color:'black'}}>
                             <br />
-                        <section className="max-w-full p-16 my-3 w-full lg:mx-auto px-18 lg:px-24 lg:my-4 bg-black">
+                        <section className="max-w-full p-6 my-3 w-full lg:mx-auto px-12 lg:px-24 lg:my-4 bg-black">
                             <section className="w-full">
-                                    <h2 data-aos='fade-right' className="text-right text-4xl century text-white">Comment créer un site internet pour les TPE / PME d’Agen et des alentours ?</h2>
+                                    <h2 data-aos='fade-right' className="text-right text-2xl md:text-4xl century text-white">Comment créer un site internet pour les TPE / PME d’Agen et des alentours ?</h2>
                                     <br />
-                                    <p style={{fontSize:'15px', textAlign:'justify', textAlignLast:'center', color:'white'}}><strong>Créer son site internet</strong> (ou bien réaliser une <strong>refonte de site internet</strong>) est une opération bien plus complexe que ce que l’on peut imaginer. Bien sûr, vous pouvez tout à fait <strong>créer votre site internet</strong> à l’aide d’un <strong>éditeur de site internet</strong> et outils de <strong>gestion de contenu gratuits</strong> tel que <strong>Wix</strong>, <strong>Jimdo</strong>, <strong>E Monsite</strong> ou <strong>Weebly</strong>, pour ne citer que les plus connus. Vous aurez ainsi la possibilité de <strong>créer un site facilement</strong>, sans <strong>aucune connaissance</strong>, en mettant en place des <strong>templates</strong> basiques, une description rapide de votre entreprise et en ajoutant quelques-unes de vos photos pour correspondre à la <strong>charte graphique</strong> de votre entreprise.</p>
+                                    <p className="text-justify text-md text-white" style={{textAlignLast:'center'}}><strong>Créer son site internet</strong> (ou bien réaliser une <strong>refonte de site internet</strong>) est une opération bien plus complexe que ce que l’on peut imaginer. Bien sûr, vous pouvez tout à fait <strong>créer votre site internet</strong> à l’aide d’un <strong>éditeur de site internet</strong> et outils de <strong>gestion de contenu gratuits</strong> tel que <strong>Wix</strong>, <strong>Jimdo</strong>, <strong>E Monsite</strong> ou <strong>Weebly</strong>, pour ne citer que les plus connus. Vous aurez ainsi la possibilité de <strong>créer un site facilement</strong>, sans <strong>aucune connaissance</strong>, en mettant en place des <strong>templates</strong> basiques, une description rapide de votre entreprise et en ajoutant quelques-unes de vos photos pour correspondre à la <strong>charte graphique</strong> de votre entreprise.</p>
                                     <br/>
-                                    <p style={{fontSize:'15px', textAlign:'justify', textAlignLast:'center', color:'white'}}>Mais alors, que faites-vous de la <strong>stratégie de communication</strong> ? De l’analyse de votre cible et de vos objectifs ? De la stratégie de référencement d’un site, naturel ou payant, à mettre en place pour rendre votre site visible dans les moteurs de recherche ?</p>
+                                    <p className="text-justify text-md text-white"style={{textAlignLast:'center'}}>Mais alors, que faites-vous de la <strong>stratégie de communication</strong> ? De l’analyse de votre cible et de vos objectifs ? De la stratégie de référencement d’un site, naturel ou payant, à mettre en place pour rendre votre site visible dans les moteurs de recherche ?</p>
                                     <br/>
-                                    <p style={{fontSize:'15px', textAlign:'justify', textAlignLast:'center', color:'white'}}>C’est là que votre entreprise de création de site internet <strong>Linkweb</strong> intervient. Nous vous accompagnons tout au long de votre projet, de la création d’un <strong>site internet sur mesure</strong> au référencement de celui-ci sur les moteurs de recherche. Chaque étape pour <strong>créer un site professionnel</strong> sera effectuée avec professionnalisme et rigueur :</p>
+                                    <p className="text-justify text-md text-white" style={{textAlignLast:'center'}}>C’est là que votre entreprise de création de site internet <strong>Linkweb</strong> intervient. Nous vous accompagnons tout au long de votre projet, de la création d’un <strong>site internet sur mesure</strong> au référencement de celui-ci sur les moteurs de recherche. Chaque étape pour <strong>créer un site professionnel</strong> sera effectuée avec professionnalisme et rigueur :</p>
                             </section>
                         </section>
-                        <section className="max-w-full w-full flex flex-col lg:flex-row">
+                        <section className="max-w-full w-full px-2 flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 my-10" style={{display:'inherit'}}>
                                 <div className="w-1/12">
                                     <img src={un} alt="Création site internet Toulouse" /><br/>
@@ -262,7 +262,7 @@ class Crea extends React.Component {
                         </section>
                     </section>
                     <section className="flex w-full mx-auto px-0 my-0 flex flex-col lg:flex-row">
-                        <div className="w-full lg:w-1/2 bg-black p-16 text-white-text-lg" data-aos="zoom-in">
+                        <div className="w-full lg:w-1/2 bg-black p-12 text-white-text-lg" data-aos="zoom-in">
                             <h2 className="text-white text-4xl font-bold">Pourquoi faire appel à Linkweb pour créer un site ?</h2><br/>
                             <p className="text-lg text-white text-justify">Les entreprises de création et de référencement naturel se font de plus en plus nombreuses ces dernières années, même sur le secteur d’Agen. De plus, vous devez forcément connaître dans votre entourage une personne vous ayant proposé de vous <strong>faire un site internet</strong>. Plus encore, vous avez sans nul doute reçu de nombreux appel de la part d’entreprises vous proposant de <strong>créer un site internet gratuit</strong>. Vous n’avez donc que l’embarras du choix. Mais alors, comment choisir ? Pourquoi choisir Linkweb pour <strong>créer un site web</strong> ?</p>
                             <br/> 
