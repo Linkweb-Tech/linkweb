@@ -63,10 +63,10 @@ class ErgonomieToulouse extends React.Component {
                         <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                    <p style={{textAlign:`justify`, textAlignLast:`center`}}>
+                    <p className="text-justify" style={{textAlignLast:`center`}}>
                     <strong>Créer un site internet professionnel</strong> fait appel à des <strong>connaissances techniques</strong> et à une réflexion très précises en termes de création et <strong>gestion de contenu</strong>, mais aussi en termes de <strong>responsive web design</strong>. En tant qu’<strong>agence de création de site internet à Agen et Toulouse</strong>, faire un <strong>site internet vitrine</strong> ou <strong>e-commerce</strong> sur-mesure fait partie de nos objectifs.</p>
                     </section>
-                    <section className="mt-3 md:mt-6 p-6 md:p-24" style={{backgroundColor:`rgb(255, 255, 255, 0.8`, backgroundImage: 'url(' + blocint + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode: `overlay`, marginTop:'50px', color:'black'}}>
+                    <section className="mt-3 md:mt-6 p-6 md:p-24 bg-cover" style={{backgroundColor:`rgb(255, 255, 255, 0.8)`, backgroundImage: 'url(' + blocint + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode: `overlay`, marginTop:'50px', color:'black'}}>
                             <br />
                         <h2 data-aos='fade-right' className="text-center text-2xl md:text-4xl century">Créer un site internet ergonomique pour une interface intuitive</h2>
                             <br />
@@ -100,7 +100,7 @@ class ErgonomieToulouse extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    <section className="flex w-full mx-auto flex-row justify-end px-0 lg:px-6 py-8 lg:py-12 text-white" style={{backgroundColor:`rgb(41, 41, 41, 0.8`, backgroundImage: 'url(' + blocint1 + ')',backgroundBlendMode: `overlay`, backgroundRepeat:'no-repeat'}}>
+                    <section className="flex w-full mx-auto flex-row justify-end px-0 lg:px-6 py-8 lg:py-12 bg-cover bg-center text-white" style={{backgroundColor:`rgb(41, 41, 41, 0.8)`, backgroundImage: 'url(' + blocint1 + ')',backgroundBlendMode: `overlay`, backgroundRepeat:'no-repeat'}}>
 
                         <div className="w-full lg:w-1/2 max-w-3xl px-10 lg:px-12 py-12" >
                             <h2 className="century text-lg lg:text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
