@@ -77,7 +77,7 @@ class ErgonomieToulouse extends React.Component {
                             </section>
                     </section>
 
-                    <section className="flex flex-col lg:flex-row w-full mx-auto px-0 my-4">
+                    <section className="flex flex-col lg:flex-row w-full mx-auto px-0 my-0">
                         <div className="w-full lg:w-1/2 bg-bleu p-16 xl:p-32" style={{backgroundImage: 'url(' + ui + ')', color:'white'}} data-aos="zoom-in">
                             <h3 className="text-lg lg:text-2xl century pb-6">L’interface utilisateur (UI) : ce que le visiteur voit</h3>
                             <br/>
@@ -100,7 +100,7 @@ class ErgonomieToulouse extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    <section className="flex w-full mx-auto justify-content-center px-0 lg:px-6 py-8 lg:py-12" style={{backgroundColor:`rgb(41, 41, 41, 0.8`, backgroundImage: 'url(' + blocint1 + ')',backgroundBlendMode: `overlay`, color:'white', backgroundRepeat:'no-repeat', justifyContent:'end'}}>
+                    <section className="flex w-full mx-auto flex-row justify-end px-0 lg:px-6 py-8 lg:py-12 text-white" style={{backgroundColor:`rgb(41, 41, 41, 0.8`, backgroundImage: 'url(' + blocint1 + ')',backgroundBlendMode: `overlay`, backgroundRepeat:'no-repeat'}}>
 
                         <div className="w-full lg:w-1/2 max-w-3xl px-10 lg:px-12 py-12" >
                             <h2 className="century text-lg lg:text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
@@ -117,21 +117,21 @@ class ErgonomieToulouse extends React.Component {
                             
                         </div>
                     </section>
-                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 py-6 my-4" style={{paddingTop:'0em', paddingBottom:'0em'}}>
-                        <div className="w-full md:w-1/2  bg-bleu p-10 lg:p-24 text-lg lg:text-2xl " style={{color:'white'}}>
-                            <p className="text-lg lg:text-2xl " data-aos="zoom-in" style={{ textAlign:'center'}}>
+                    <section className="flex w-full flex-col md:flex-row mx-auto p-0 mt-0">
+                        <div className="w-full md:w-1/2  bg-bleu p-10 lg:p-24 text-lg lg:text-2xl text-white">
+                            <p className="text-lg lg:text-2xl text-center" data-aos="zoom-in">
                             Les équipes de développeurs de l’agence Linkweb prennent en charge la totalité de la création de votre site internet sur-mesure. A travers votre identité visuelle, nous allons créer un webdesign unique, reflétant l’image de votre entreprise pour une véritable carte de visite en ligne. Techniciens passionnés, nos développeurs mettront du cœur à l’ouvrage pour vous proposer un projet web cohérent et créer votre site web pour affirmer votre image de marque et séduire vos visiteurs.                            </p>
                             <br/>
                         </div>
-                        <div className="w-full md:w-1/2 bg-bleu" style={{backgroundImage: 'url(' + ordinateurs + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', padding:'130px', color:'white'}} data-aos="zoom-in">
+                        <div className="w-full md:w-1/2 bg-bleu bg-cover bg-center text-white" style={{backgroundImage: 'url(' + ordinateurs + ')', backgroundRepeat:'no-repeat', padding:'130px'}} data-aos="zoom-in">
                         
                         </div>
                     </section>
-                    <section className="flex w-full flex-col md:flex-row  mx-auto px-0 py-0 lg:my-4">
-                        <div className="w-full md:w-1/2" style={{backgroundImage: 'url(' + imac + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center', color:'white'}} data-aos="zoom-in">
+                    <section className="flex w-full flex-col md:flex-row  mx-auto px-0 py-0 my-0">
+                        <div className="w-full md:w-1/2 bg-cover bg-center text-white" style={{backgroundImage: 'url(' + imac + ')', backgroundRepeat:'no-repeat'}} data-aos="zoom-in">
                         </div>
-                        <div className="w-full text-white md:w-1/2 p-10 lg:p-24 " style={{backgroundColor:'#2b2b2b'}}>
-                            <p className="text-lg lg:text-2xl " data-aos="zoom-in" style={{ textAlign:'center'}}>
+                        <div className="w-full text-white md:w-1/2 p-10 lg:p-24" style={{backgroundColor:'#2b2b2b'}}>
+                            <p className="text-lg lg:text-2xl text-center" data-aos="zoom-in">
                             À travers l’utilisation de plusieurs langages de programmation web, nous mettrons en valeur les contenus de votre site internet sublimés par les couleurs de votre charte graphique, harmonieusement intégrées. Notre agence digitale est compétente pour développer votre stratégie de webmarketing à travers une communication visuelle originale favorisant votre image de marque.                            <br/>
                             </p>
                         </div>
