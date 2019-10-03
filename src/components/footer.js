@@ -10,7 +10,7 @@ class Footer extends React.Component {
     // }
     render() {
         return (
-            <footer className="bg-darkgrey w-full flex  items-center relative md:fixed lg:fixed z-10 ">
+            <footer className="bg-darkgrey w-full flex items-center relative z-40 ">
                 <section className="flex justify-start max-w-6xl mx-auto py-12 md:py-4 md:px-8 text-sm flex-col-reverse md:flex-row">
                     <section className="w-full md:w-1/2 lg:w-1/4 py-8 px-4 md:py-4 md:px-8" >
                         <div className="textwidget custom-html-widget">

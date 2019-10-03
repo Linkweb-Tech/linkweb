@@ -25,7 +25,7 @@ class Layout extends React.Component {
 
     const { children, location } = this.props
     return(
-      <div className="beforeOverlay flex flex-col font-sans min-h-screen text-gray-900 bg-white relative pb-128" >
+      <div className="beforeOverlay flex flex-col font-sans min-h-screen text-gray-900 bg-white relative md:pb-128" >
         <Header path={location.pathname} />
         <main className="flex flex-col flex-1 md:justify-center w-full z-20 bg-white min-h-screen">
           {children}

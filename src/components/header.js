@@ -43,7 +43,7 @@ class Header extends React.Component {
    
     return (
 
-      <nav className={`mainNav w-full z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
+      <nav className={`mainNav w-full top-0 z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
          <button
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white burger"
           onClick={() => (this.state.isExpanded) ? this.setState({isExpanded: false}) : this.setState({isExpanded: true}) }

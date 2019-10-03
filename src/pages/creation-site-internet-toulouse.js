@@ -59,10 +59,10 @@ class CreationSiteInternetToulousePage extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{backgroundImage:'url(' + Bg +')'}}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-7xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
                         Création site internet Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
-                        <h3 className="italic text-lg sm:text-2xl text-white mt-2">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
+                        <h3 className="italic text-lg text-center sm:text-2xl text-white mt-2">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Je veux créer mon site internet professionnel" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -111,17 +111,17 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfff url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET VITRINE</h3>
                             <p>Mettre en avant vos services, activités, et même votre entreprise va vous permettre de <strong>dynamiser votre communication</strong>. Le site <strong>internet vitrine</strong> est idéal pour les TPE/PME souhaitant faire découvrir leur activité et mettre en avant leurs prestations et ainsi acquérir de nouveaux clients près de chez eux. </p>
-                            <RoundButton url="/creation-site-internet-agen" text="Création de site vitrine" />
+                            <RoundButton color="darkgrey" url="/creation-site-internet-agen" text="Création de site vitrine" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET E-COMMERCE</h3>
                             <p>Mettre en place un <strong>site e-commerce</strong> va vous permettre de développer une plateforme de <strong>vente en ligne</strong> de vos produits. Le <strong>site internet e-commerce</strong> s’adresse aux commerçants et boutiques qui souhaitent <strong>développer leur chiffre d’affaire en ciblant une nouvelle clientèle</strong>.</p>
-                            <RoundButton  url="/creer-une-boutique-en-ligne" text="Créer une boutique en ligne" />
+                            <RoundButton url="/creer-une-boutique-en-ligne" text="Créer une boutique en ligne" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET SUR-MESURE</h3>
                             <p>Mettre en place un site internet multifonctions : réservation, simulation, configurateur et bien plus encore. Créer un site internet sur-mesure, c’est aussi faire le choix d’optimiser votre organisation grâce à un outil numérique à la portée de tous de type intranet.</p>
-                            <RoundButton url="/creation-de-site-internet-47-31" text="Créer un site internet sur-mesure" />
+                            <RoundButton color="black" url="/creation-de-site-internet-47-31" text="Créer un site internet sur-mesure" />
                         </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 py-6 my-4">

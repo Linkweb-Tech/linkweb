@@ -51,25 +51,25 @@ class ReferencementAds extends React.Component {
                     }}
                     transitionTime={200}
                 >
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-cover flex flex-row justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.6)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
-                        <div className="w-1/3 max-w-5xl mx-auto" style={{marginLeft:'20px', marginRight:'20px', padding:'4%'}} >
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux propulser mon site sur Google" />
+                    <section className="w-full h-screen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(55,197,238,0.6)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
+                        <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
+                            <RoundButton color="darkgrey" url="/contact-agence-web-toulouse" text="Je veux propulser mon site sur Google" />
                         </div>
-                        <div className="w-2/3" style={{padding:'2%'}}>
-                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-7xl text-center text-white">
+                        <div className="w-full md:w-2/3 p-1">
+                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl md:text-6xl text-center text-white">
                             Référencement Adwords<br/> à Agen (47)<span className="text-bleu">/</span>Toulouse(31)
                             </h1>
                             <br/>
-                            <h3 className="italic text-2xl text-white">Nous mettons à votre disposition notre expertise en référencement Adwords (Search Engine Advertising) pour créer et diffuser vos annonces publicitaires aux moments les plus opportuns avec un seul objectif : obtenir un retour sur investissement garanti.</h3>
+                            <h3 className="italic text-lg text-center md:text-2xl text-white">Nous mettons à votre disposition notre expertise en référencement Adwords (Search Engine Advertising) pour créer et diffuser vos annonces publicitaires aux moments les plus opportuns avec un seul objectif : obtenir un retour sur investissement garanti.</h3>
                         </div>
                     </section>
-                    <section className="w-full flex  flex-row justify-end" style={{fontWeight:'500', height: '35px'}}>
-                        <section className="bg-white w-1/12 flex" style={{fontSize:'15px', textAlign:'center', color:'#3c3c3c', fontStyle:'italic'}}>
-                        <div className="w-full" style={{padding:'5px'}}><ButtonMenu style={{fontSize:'15px', marginTop:'0'}} url="/referencement-toulouse" text="Retour" position="center" /></div>
+                    <section className="w-full flex flex-row justify-end h-8 font-medium">
+                        <section className="bg-white w-1/4 lg:w-1/12 flex text-center italic text-sm md:text-md text-darkgrey">
+                        <div className="w-full p-1 mt-0"><ButtonMenu style={{fontSize:'15px', marginTop:'0'}} url="/referencement-toulouse" text="Retour" position="center" /></div>
                         </section>
-                        <section className="w-1/3 flex" style={{backgroundColor:'#3c3c3c', borderBottomLeftRadius:'27px', fontSize:'15px'}}>
-                            <div className="w-1/2" style={{padding:'5px', color:'white'}}><ButtonMenu url="/referencement-de-site-internet-47-31" text="Référencement Naturel" position="center" /></div>
-                            <div className="w-1/2  text-bleu" style={{padding:'5px'}}><ButtonMenu url="/agence-adwords-47-31" text="Référencement Ads" position="center" /></div>
+                        <section className="w-full lg:w-2/5 flex bg-darkgrey text-sm md:text-md" style={{ borderBottomLeftRadius:'27px'}}>
+                            <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/referencement-de-site-internet-47-31" text="Référencement Naturel" position="center" /></div>
+                            <div className="w-full lg:w-1/2 text-bleu p-1"><ButtonMenu url="/agence-adwords-47-31" text="Référencement Ads" position="center" /></div>
                         </section>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -79,11 +79,11 @@ class ReferencementAds extends React.Component {
                         </h2>
                         <hr className="blue"></hr>
                     </section>
-                    <section className="flex w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-1/2 mt-6">
+                    <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
+                        <div className="w-full xl:w-1/2">
                             <img src={imac} alt="Agence Adwords Toulouse"/>
                         </div>
-                        <div className="w-1/2 max-w-3xl px-12 py-12" >
+                        <div className="w-full xl:w-1/2 px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CAMPAGNES ADWORDS : SOYEZ <span className="text-bleu">ROI</span>
                             </h2>
@@ -95,14 +95,14 @@ class ReferencementAds extends React.Component {
                             Le <strong>SEA</strong>, c’est faire le <strong>choix des mots-clés</strong> qualifiés sur lesquels investir. C’est aussi la possibilité d’effectuer un ciblage précis selon divers paramètres dès la création votre <strong>campagne Google Adwords</strong>.</p>
                         </div>
                     </section>
-                    <section className="w-full h-screen flex flex-col justify-center items-center px-4 pt-12 pb-0 bg-cover text-justify" style={{backgroundColor:'#3c3c3c', color:'white'}}>
+                    <section className="w-full h-full flex flex-col justify-center items-center px-4 pt-12 pb-0 mt-2 bg-darkgrey text-white">
                         <div className="w-full">
                             <h2 data-aos='fade-right' className="text-center text-3xl century">
                             <span className="text-bleu">/</span>Mise en place de votre campagne Adwords
                             </h2>
                         </div>
-                        <div className="w-full flex flex-row mx-auto px-4 py-6 my-4" style={{padding:'25px 200px 25px 200px', marginRight:'300px'}}>
-                        <div className="w-1/2">
+                        <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:mt-10 lg:mb-4 lg:py-2 text-justify">
+                        <div className="w-full lg:w-1/2 mb-12 mb-24 mr-16">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
                             <span className="text-bleu">/</span>PLANIFICATION DES MOTS-CLÉS
                             </h3>
@@ -112,7 +112,7 @@ class ReferencementAds extends React.Component {
                             </h4>
                             <p>Nous définissons votre <strong>stratégie de visibilité</strong> en déterminant les mots-clés sur lesquels il sera nécessaire de se positionner. Par ailleurs, nous paramètrerons vos campagnes pour vous permettre d’obtenir la stratégie la plus efficace possible.</p>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
                             <span className="text-bleu">/</span>CRÉATION DE LA CAMPAGNE
                             </h3>
@@ -123,8 +123,8 @@ class ReferencementAds extends React.Component {
                             <p>Nous effectuons une veille permanente sur le déroulé de votre <strong>campagne</strong> et vos dépenses pour ajuster les différents paramètres au besoin. Nos mots d’ordres : analyses, conseils et conversions.</p>
                         </div>
                         </div>
-                        <div className="w-full flex flex-row mx-auto px-4 py-6 my-4" style={{padding:'25px 200px 25px 200px', marginRight:'300px'}}>
-                        <div className="w-1/2">
+                        <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:my-2 lg:py-2 text-justify">
+                        <div className="w-full lg:w-1/2 mb-12 mb-24 mr-16">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
                             <span className="text-bleu">/</span>PLAN DE PUBLICATION
                             </h3>
@@ -134,7 +134,7 @@ class ReferencementAds extends React.Component {
                             </h4>
                             <p>L’objectif : avoir un <strong>plan de campagne</strong> cohérent par rapport à vos <strong>objectifs de visibilité</strong> à court et moyen terme. La <strong>création de vos liens sponsorisés</strong> sera ajustée dans le temps pour être toujours <strong>visible</strong>, sur des <strong>mots-clés pertinents</strong>, où il faut et quand il faut.</p>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
                             <span className="text-bleu">/</span>PRÉVISION ET BUDGÉTISATION
                             </h3>
@@ -152,10 +152,10 @@ class ReferencementAds extends React.Component {
                         </h2><br/>
                         <hr className="blue"></hr>
                     </section>
-                    <section className="flex flex-1 home-step my-24 px-24">
-                        <div className="w-1/3 one px-12">
-                            <div className="flex flex-1">
-                                <div className="blackBulle" data-aos="fade-up">1</div>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-12">
+                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
+                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT ADS
@@ -168,9 +168,9 @@ class ReferencementAds extends React.Component {
                                 </section>
                             </div>
                             </div>
-                            <div className="w-1/3 two px-12">
-                            <div className="flex flex-1">
-                                <div className="blackBulle" data-aos="fade-up">2</div>
+                            <div className="w-full xl:w-1/3 one px-12">
+                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
+                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
@@ -182,9 +182,9 @@ class ReferencementAds extends React.Component {
                                 </section>
                                 </div>
                             </div>
-                            <div className="w-1/3 three px-12">
-                            <div className="flex flex-1">
-                                <div className="blackBulle" data-aos="fade-up">3</div>
+                            <div className="w-full xl:w-1/3 one px-12">
+                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
+                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
                                 <section>
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
                                     <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEA
@@ -208,8 +208,8 @@ class ReferencementAds extends React.Component {
                         <p className="text-xl font-bold century text-center">
                             Que vous soyez fleuriste, restaurateur, hôtelier, chauffagiste, photographe, que vous vendiez des vêtements ou bien des voitures d’occasions en ligne, nous élaborons votre <strong>stratégie de webmarketing</strong> pour stimuler votre chiffre d’affaires.</p>
                         <br/>
-                        <div className="w-full flex text-center my-6">
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                        <div className="w-full flex flex-col sm:flex-row text-center my-6">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="200">
         
 
                                 <svg  id="Layer_3" width="80px" height="80px" viewBox="0 0 64 64" >
@@ -218,14 +218,14 @@ class ReferencementAds extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">ATTIREZ L'ATTENTION DE TOUS VOS PROSPECTS EN ÉTANT N°1</p>
                             </div>
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="400">
                                 <svg width="80px" height="80px" viewBox="-32 0 480 480.23349" >
                                     <g><path d="m208.117188             96c-97.203126 0-176 78.796875-176 176s78.796874 176 176 176c97.203124 0 176-78.796875 176-176-.109376-97.15625-78.84375-175.890625-176-176zm0 336c-88.367188 0-160-71.632812-160-160s71.632812-160 160-160c88.363281 0 160 71.632812 160 160-.101563 88.324219-71.675782 159.898438-160 160zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m371.085938 142.984375 12.367187-12.367187c3.121094-3.125 3.121094-8.1875 0-11.3125l-22.640625-22.640626c-3.125-3.125-8.1875-3.125-11.3125 0l-12.367188 12.367188c-30.246093-24.054688-66.625-39.164062-105.015624-43.605469v-17.425781h8c8.835937 0 16-7.164062 16-16v-16c0-8.835938-7.164063-16-16-16h-64c-8.835938 0-16 7.164062-16 16v16c0 8.835938 7.164062 16 16 16h8v17.425781c-38.390626 4.441407-74.769532 19.550781-105.015626 43.605469l-12.367187-12.367188c-3.125-3.125-8.191406-3.125-11.3125 0l-22.640625 22.640626c-3.125 3.125-3.125 8.1875 0 11.3125l12.367188 12.367187c-67.546876 85.167969-58.121094 207.984375 21.628906 281.851563 79.75 73.863281 202.929687 73.863281 282.679687 0 79.75-73.867188 89.175781-196.683594 21.628907-281.851563zm-15.929688-29.382813 11.359375 11.359376-5.832031 5.832031c-3.625-3.921875-7.402344-7.695313-11.328125-11.328125zm-179.039062-97.601562h64v16h-64zm24 32h16v16.199219c-2.65625-.09375-5.320313-.199219-8-.199219-2.679688 0-5.34375.105469-8 .199219zm-150.402344 76.960938 11.363281-11.359376 5.832031 5.832032c-3.921875 3.621094-7.699218 7.394531-11.328125 11.328125zm158.402344 339.039062c-106.039063 0-192-85.960938-192-192s85.960937-192 192-192c106.039062 0 192 85.960938 192 192-.125 105.988281-86.011719 191.875-192 192zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m232.117188 272c0-13.253906-10.746094-24-24-24-13.253907 0-24 10.746094-24 24s10.746093 24 24 24c3.5625-.015625 7.078124-.835938 10.28125-2.398438l48.0625 48.0625 11.3125-11.3125-48.058594-48.070312c1.566406-3.203125 2.386718-6.71875 2.402344-10.28125zm-32 0c0-4.417969 3.582031-8 8-8 4.417968 0 8 3.582031 8 8s-3.582032 8-8 8c-4.417969 0-8-3.582031-8-8zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m242.246094 148.601562-4.257813 15.398438c31.285157 8.679688 57.269531 30.496094 71.230469 59.804688 13.964844 29.308593 14.539062 63.230468 1.570312 92.996093l14.664063 6.398438c7.066406-16.140625 10.699219-33.578125 10.664063-51.199219-.09375-57.523438-38.460938-107.957031-93.871094-123.398438zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m225.171875 145.128906c-5.652344-.753906-11.351563-1.128906-17.054687-1.128906v16c4.996093 0 9.988281.328125 14.945312.984375zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
                                     </g> 
                                 </svg>
                                 <p className="text-xl century pt-3">MAXIMISER VOTRE PRÉSENCE EN LIGNE OÙ IL FAUT ET QUAND IL FAUT</p>
                             </div>
-                            <div className="w-1/3 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="400">
                                 <svg width="80px" height="80px" viewBox="-32 0 480 480.23349" >
                                     <g><path d="m208.117188             96c-97.203126 0-176 78.796875-176 176s78.796874 176 176 176c97.203124 0 176-78.796875 176-176-.109376-97.15625-78.84375-175.890625-176-176zm0 336c-88.367188 0-160-71.632812-160-160s71.632812-160 160-160c88.363281 0 160 71.632812 160 160-.101563 88.324219-71.675782 159.898438-160 160zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m371.085938 142.984375 12.367187-12.367187c3.121094-3.125 3.121094-8.1875 0-11.3125l-22.640625-22.640626c-3.125-3.125-8.1875-3.125-11.3125 0l-12.367188 12.367188c-30.246093-24.054688-66.625-39.164062-105.015624-43.605469v-17.425781h8c8.835937 0 16-7.164062 16-16v-16c0-8.835938-7.164063-16-16-16h-64c-8.835938 0-16 7.164062-16 16v16c0 8.835938 7.164062 16 16 16h8v17.425781c-38.390626 4.441407-74.769532 19.550781-105.015626 43.605469l-12.367187-12.367188c-3.125-3.125-8.191406-3.125-11.3125 0l-22.640625 22.640626c-3.125 3.125-3.125 8.1875 0 11.3125l12.367188 12.367187c-67.546876 85.167969-58.121094 207.984375 21.628906 281.851563 79.75 73.863281 202.929687 73.863281 282.679687 0 79.75-73.867188 89.175781-196.683594 21.628907-281.851563zm-15.929688-29.382813 11.359375 11.359376-5.832031 5.832031c-3.625-3.921875-7.402344-7.695313-11.328125-11.328125zm-179.039062-97.601562h64v16h-64zm24 32h16v16.199219c-2.65625-.09375-5.320313-.199219-8-.199219-2.679688 0-5.34375.105469-8 .199219zm-150.402344 76.960938 11.363281-11.359376 5.832031 5.832032c-3.921875 3.621094-7.699218 7.394531-11.328125 11.328125zm158.402344 339.039062c-106.039063 0-192-85.960938-192-192s85.960937-192 192-192c106.039062 0 192 85.960938 192 192-.125 105.988281-86.011719 191.875-192 192zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m232.117188 272c0-13.253906-10.746094-24-24-24-13.253907 0-24 10.746094-24 24s10.746093 24 24 24c3.5625-.015625 7.078124-.835938 10.28125-2.398438l48.0625 48.0625 11.3125-11.3125-48.058594-48.070312c1.566406-3.203125 2.386718-6.71875 2.402344-10.28125zm-32 0c0-4.417969 3.582031-8 8-8 4.417968 0 8 3.582031 8 8s-3.582032 8-8 8c-4.417969 0-8-3.582031-8-8zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m242.246094 148.601562-4.257813 15.398438c31.285157 8.679688 57.269531 30.496094 71.230469 59.804688 13.964844 29.308593 14.539062 63.230468 1.570312 92.996093l14.664063 6.398438c7.066406-16.140625 10.699219-33.578125 10.664063-51.199219-.09375-57.523438-38.460938-107.957031-93.871094-123.398438zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/><path d="m225.171875 145.128906c-5.652344-.753906-11.351563-1.128906-17.054687-1.128906v16c4.996093 0 9.988281.328125 14.945312.984375zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
                                     </g> 
@@ -237,9 +237,9 @@ class ReferencementAds extends React.Component {
                     </section>
                     
                     
-                    <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
+                    <section className="w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez améliorer votre visibilité dans les résultats de recherche ?<br/> Saisissez votre adresse mail.
                             </h2>
 
@@ -249,8 +249,8 @@ class ReferencementAds extends React.Component {
                             <RappelForm />
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex text-center my-12">
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
                             <svg x="0px" y="0px" viewBox="0 0 511.998 511.998"  width="80px" height="80px"><g><g>
                                     <g>
                                         <path d="M501.103,464.947h-16.224V326.868c0-5.522-4.477-9.997-9.997-9.997s-9.998,4.476-9.998,9.997v52.101H209.947V223.033    c0-5.522-4.477-9.998-9.998-9.998s-9.997,4.476-9.997,9.998v241.914H46.988V198.913c3.978,0.846,8.098,1.3,12.324,1.3    c20.476,0,38.557-10.452,49.188-26.301c10.63,15.85,28.711,26.301,49.187,26.301c20.476,0,38.557-10.452,49.188-26.301    c10.63,15.85,28.712,26.301,49.188,26.301s38.557-10.452,49.188-26.301c10.63,15.85,28.712,26.301,49.188,26.301    s38.556-10.452,49.187-26.301c10.63,15.85,28.712,26.301,49.188,26.301c4.136,0,8.172-0.43,12.07-1.241v63.358    c0,5.522,4.477,9.997,9.998,9.997s9.997-4.476,9.997-9.997v-71.595c16.302-10.552,27.12-28.885,27.12-49.708    c0-2.049-0.619-3.953-1.677-5.54L462.397,32.824c-1.644-3.519-5.176-5.769-9.06-5.769H59.185c-3.865,0-7.384,2.228-9.037,5.723    L0.96,136.752c-0.917,1.939-1.173,4.086-0.787,6.13c0.619,19.945,11.143,37.429,26.819,47.689v274.375H10.768    c-5.521,0-9.997,4.476-9.997,9.998c0,5.522,4.477,9.997,9.997,9.997H36.99h437.891h26.222c5.521,0,9.998-4.476,9.998-9.997    C511.102,469.423,506.625,464.947,501.103,464.947z M452.814,180.218c-18.156,0-33.463-12.41-37.894-29.193h75.787    C486.276,167.807,470.97,180.218,452.814,180.218z M413.843,47.051h33.129l39.203,83.979h-72.332V47.051z M354.439,180.219    c-18.156,0-33.462-12.411-37.894-29.193h75.786C387.899,167.808,372.593,180.219,354.439,180.219z M315.393,47.051h78.455v83.979    h-78.455V47.051z M256.063,180.219c-18.155,0-33.462-12.411-37.894-29.193h75.787    C289.525,167.808,274.217,180.219,256.063,180.219z M216.946,47.051h78.454v83.979h-0.001h-78.453V47.051z M157.686,180.219    c-18.154,0-33.461-12.411-37.893-29.193h75.786C191.148,167.808,175.842,180.219,157.686,180.219z M118.497,47.051h78.453v83.979    h-78.453V47.051z M65.515,47.051h32.987v83.979H25.786L65.515,47.051z M21.418,151.026h75.787    c-4.432,16.782-19.739,29.193-37.894,29.193C41.156,180.219,25.85,167.808,21.418,151.026z M464.884,464.947H209.947v-65.984    h254.937V464.947z" data-original="#000000"  data-old_color="#000000" fill="#ffffff"/>
@@ -278,7 +278,7 @@ class ReferencementAds extends React.Component {
                                 </g></g> </svg>
                                 <p className="text-xl text-white century pt-3">CRÉATION DE CAMPAGNE ADWORDS</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px"><g><g>
                                         <g>
                                             <path d="M355.81,402.93c-1.86-1.86-4.44-2.93-7.08-2.93c-2.63,0-5.21,1.069-7.06,2.93c-1.87,1.86-2.93,4.43-2.93,7.07    c0,2.63,1.06,5.21,2.93,7.069c1.86,1.86,4.43,2.931,7.06,2.931c2.64,0,5.21-1.07,7.08-2.931c1.86-1.859,2.93-4.439,2.93-7.069    S357.67,404.79,355.81,402.93z" data-original="#000000"  data-old_color="#000000" fill="#ffffff"/>
@@ -303,7 +303,7 @@ class ReferencementAds extends React.Component {
                                     </svg>
                                 <p className="text-xl century text-white pt-3">PLANIFICATION DES MOTS-CLÉS</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px"><g><g>
                                     <g>
                                         <path d="M510.362,215.571l-81.99-125.025c-1.849-2.818-4.991-4.516-8.361-4.516H92.378c-3.363,0-6.5,1.69-8.35,4.499    L1.906,215.181c-0.391,0.539-0.73,1.121-1.013,1.743c-1.621,3.574-1.001,7.765,1.585,10.717l41.625,47.527    c3.639,4.155,9.955,4.573,14.109,0.935c4.154-3.639,4.572-9.956,0.934-14.109l-27.097-30.941h134.501L234.137,461.8    l-76.375-87.205c-3.638-4.155-9.956-4.573-14.109-0.935c-4.154,3.639-4.572,9.956-0.934,14.109l105.79,120.791    c1.898,2.168,4.641,3.412,7.522,3.412c2.882,0,5.623-1.244,7.521-3.413l112.63-128.632c3.639-4.155,3.22-10.472-0.936-14.109    c-4.156-3.639-10.473-3.22-14.109,0.936l-83.21,95.033l67.584-230.735h134.445l-62.183,71.02    c-3.639,4.155-3.22,10.472,0.936,14.109c1.897,1.662,4.245,2.477,6.583,2.477c2.782,0,5.55-1.155,7.526-3.413l76.706-87.605    C512.482,224.262,512.825,219.326,510.362,215.571z M28.573,211.055l63.785-96.821l63.495,96.821H28.573z M110.892,106.029    h126.623l-63.311,96.541L110.892,106.029z M256.03,114.263l63.475,96.792H192.555L256.03,114.263z M256.03,465.403l-68.642-234.35    h137.284L256.03,465.403z M338.02,202.821l-63.475-96.792h126.952L338.02,202.821z M356.535,211.055l63.476-96.792l63.474,96.792    H356.535z" data-original="#000000"  data-old_color="#000000" fill="#ffffff"/>
@@ -328,7 +328,7 @@ class ReferencementAds extends React.Component {
                     </section>
                     
 
-                    <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
+                    <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center px-4 mt-12 mb-3">
                         <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>LINKWEB VOUS ACCOMPAGNE
                         </h2>
@@ -336,7 +336,7 @@ class ReferencementAds extends React.Component {
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Les référenceurs et consultants de l’agence de référencement Linkweb vous proposent un suivi de qualité pour un retour sur investissement garanti. Nous vous apportons nos connaissances pour vous aider à accroitre votre clientèle.</h4>
                     </section>
                     <section  className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
-                        <div className="w-3/4 py-0 flex justify-end">
+                        <div className="w-full md:w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="CRÉATION DE VOS ANNONCES ET EXTENSIONS D'ANNONCES SELON VOS OBJECTIFS DE CONVERSION">
                                 <p>Nous nous occupons de la <strong>création de vos annonces</strong> en vue de mettre en avant vos produits ou services. Vous êtes à la recherche de <strong>trafic</strong>, <strong>contacts</strong> ou <strong>ventes</strong> ? Nous définissons les paramètres de  campagn sur-mesure pour faciliter et maximiser les interactions avec votre <strong>audience ciblée</strong>.</p>
@@ -358,7 +358,7 @@ class ReferencementAds extends React.Component {
                         <LastPosts lastposts={ this.props.data.allWordpressPost.edges } />
                         
                     </section>
-                    <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
+                    <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center px-4 mt-12 mb-3">
                         <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                             <span className="text-bleu">/</span>Vous pourriez également être intéressé
                         </h3>
@@ -367,14 +367,14 @@ class ReferencementAds extends React.Component {
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">
                             Vous souhaitez en savoir plus sur nos prestations d’agence web à Agen (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
                         <br/>
-                        <section className="flex flex-row">
-                            <div className="w-1/3 bg-bleu" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                        <section className="flex flex-col md:flex-row">
+                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
                                 <Link to="/creation-site-internet-toulouse">Création site internet</Link>
                             </div>
-                            <div className="w-1/3 bg-bleu" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
                                 <Link to="/agence-web-toulouse">Agence Web</Link>
                             </div>
-                            <div className="w-1/3 bg-bleu" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31">Nos réalisations</Link>
                             </div>
                         </section>

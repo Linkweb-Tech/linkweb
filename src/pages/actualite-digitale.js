@@ -7,7 +7,6 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import ButtonBlog from "../components/buttonblog";
 
-import Bg from "../images/background-agence-referencement-toulouse.jpg";
 import CreerSite from "../images/creer-un-site.jpg";
 import RefSite from "../images/referencer-un-site.jpg";
 import AgenceAds from "../images/campagne-ads.jpg";
@@ -53,7 +52,7 @@ render() {
                 transitionTime={200}
             >
                 <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{backgroundColor:'black', height:'450px'}}>
-                    <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white mt-48">
+                    <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h1>
                 </section>

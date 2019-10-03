@@ -57,10 +57,10 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize:'cover' }}>
-                        <h2 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
+                        <h2 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white">
                         Nos réalisations à Toulouse<span className="text-bleu">/</span>Agen
                         </h2>
-                        <h1 className="italic text-lg sm:text-2xl text-white mt-3 text-center">Agence de communication à Agen/Toulouse</h1>
+                        <h1 className="italic text-center text-lg sm:text-2xl text-white mt-3 text-center">Agence de communication à Agen/Toulouse</h1>
                         <RoundButton url="#" text="Je suis intéressé par une offre de création de site internet" />
                     </section>
                     

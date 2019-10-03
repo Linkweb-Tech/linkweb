@@ -65,10 +65,10 @@ class ReferencementToulouse extends React.Component {
                     transitionTime={200}
                 >
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundImage: 'url(' + Bg + ')' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                             Référencement Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
-                        <h3 className="italic text-lg sm:text-2xl text-white mt-3">Sortez de l’ombre, devenez visible sur les moteurs de recherche grâce au référencement</h3>
+                        <h3 className="italic text-center text-lg sm:text-2xl text-white mt-3">Sortez de l’ombre, devenez visible sur les moteurs de recherche grâce au référencement</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer ma visibilité sur internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -117,7 +117,7 @@ class ReferencementToulouse extends React.Component {
                         <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h2>
                             <p>Vous souhaitez <strong>augmenter votre visibilité</strong> dans les <strong>pages de recherche de Google</strong> ? Vous souhaitez <strong>générer du trafic sur votre site internet</strong>, vendre vos produits ou obtenir des contacts ? Le <strong>référencement naturel</strong> vous offre la possibilité de mettre en avant votre entreprise.</p>
-                            <RoundButton url="/referencement-de-site-internet-47-31" text="Notre offre de Référencement Naturel" />
+                            <RoundButton color="darkgrey" url="/referencement-de-site-internet-47-31" text="Notre offre de Référencement Naturel" />
                         </div>
                         <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h2>

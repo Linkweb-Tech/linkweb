@@ -59,7 +59,7 @@ class ErgonomieToulouse extends React.Component {
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-3xl sm:text-6xl text-center text-white">
                         Créer un site web professionnel Ergonomique
                         </h1>
-                        <h3 className="italic text-lg lg:text-2xl text-white mt-6">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
+                        <h3 className="italic text-lg lg:text-2xl text-center text-white mt-6">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
