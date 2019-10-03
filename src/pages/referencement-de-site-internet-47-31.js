@@ -55,8 +55,8 @@ class ReferencementNaturel extends React.Component {
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
                             <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer la visibilité de mon site internet" />
                         </div>
-                        <div className="w-full md:w-2/3 p-1">
-                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl md:text-6xl text-center text-white">
+                        <div className="w-full md:w-2/3 mt-6 p-1">
+                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-3xl md:text-6xl text-center text-white">
                             Agence de référencement<br/> à Agen (47)<span className="text-bleu">/</span>Toulouse(31)
                             </h1>
                             <br/>
@@ -64,10 +64,10 @@ class ReferencementNaturel extends React.Component {
                         </div>
                     </section>
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
-                        <section className="bg-white w-1/4 lg:w-1/12 flex text-center italic text-sm md:text-md text-darkgrey">
+                        <section className="bg-white w-1/4 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
                         <div className="w-full p-1 mt-0"><ButtonMenu url="/referencement-toulouse" text="Retour" position="center" /></div>
                         </section>
-                        <section className="w-full lg:w-2/5 flex bg-darkgrey text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
+                        <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
                             <div className="w-full lg:w-1/2 text-bleu p-1"><ButtonMenu url="/referencement-de-site-internet-47-31" text="Référencement Naturel" position="center" /></div>
                             <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/agence-adwords-47-31" text="Référencement Ads" position="center" /></div>
                         </section>
@@ -258,7 +258,7 @@ class ReferencementNaturel extends React.Component {
                         </div>
                         </div>
                     </section>
-                    <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
+                    <section className="w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#37c5ee url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez améliorer votre visibilité dans les résultats de recherche ?<br/> Saisissez votre adresse mail.
