@@ -110,7 +110,7 @@ class Header extends React.Component {
               <Link
                 to="/"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Accueil
               </Link>
@@ -118,7 +118,7 @@ class Header extends React.Component {
               <Link
                 to="/creation-site-internet-toulouse"
                 activeClassName="active"
-                className="block  lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block  lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Création Site Internet
               </Link>
@@ -126,21 +126,21 @@ class Header extends React.Component {
               <Link
                 to="/referencement-toulouse"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Référencement
               </Link>
               <Link
                 to="/agence-web-toulouse"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Agence Web
               </Link>
               <Link
                 to="/agence-de-communication-agen-47-toulouse-31"
                 activeClassName="active"
-                className="block lg:text-lg md:text-sm  md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Nos Réalisations
               </Link>
