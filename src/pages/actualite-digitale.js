@@ -56,9 +56,9 @@ render() {
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h1>
                 </section>
-                <section className="flex flex-col xl:flex-row flex justify-content-start mb-10">
+                <section className=" flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
                     <div className="w-full xl:w-3/4">
-                        <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
+                        <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
                             <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
                                 <section className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24">
                                     <div className="max-w-5xl mx-auto flex items-center">
@@ -94,7 +94,7 @@ render() {
                                 </section>
                         </section>                    
                     </div>
-                    <div className="w-full xl:w-1/4 pr-40 mt-12 mb-3 ">
+                    <div className="w-full xl:w-1/4 mt-6 mb-3 ">
                         <ButtonBlog className="rounded-none" url="/contact-agence-web-toulouse" text="Demander un devis"/><br/>
                         <h3 className="font-bold">LES DERNIERS ARTICLES</h3><br/>
                         <h3 className="font-bold">VOUS AVEZ AIMÉ</h3><br/>

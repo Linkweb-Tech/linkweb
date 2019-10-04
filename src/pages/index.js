@@ -59,7 +59,7 @@ function IndexPage(props) {
         <hr className="blue"></hr>
         <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Notre savoir-faire n’est pas une compétence, il est humain</h3>
       </section>
-      <section className="w-full flex flex-1 equipe min-h-600">
+      <section className="w-full flex flex-1 equipe min-h-0 lg:min-h-600">
         <div className="w-1/4 bg-cover  imageDouble"  >
 
         </div>
@@ -73,10 +73,10 @@ function IndexPage(props) {
             <p data-aos='fade-left'><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse">référencement web</Link></strong> SEO & SEA</p>
             <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
           </div>
-          <div className="pictures w-full flex flex-1">
-            <div className="w-1/3 bg-cover bg-black imageSimple"></div>
-            <div className="w-1/3 bg-cover bg-white imageSimple"></div>
-            <div className="w-1/3 bg-cover bg-bleu imageSimple"></div>
+          <div className="pictures w-full hidden flex-1 sm:hidden md:hidden lg:flex xl:flex">
+            <div className="w-1/3 bg-cover bg-black imageSimple "></div>
+            <div className="w-1/3 bg-cover bg-white imageSimple "></div>
+            <div className="w-1/3 bg-cover bg-bleu imageSimple "></div>
           </div>
         </div>
       </section>

@@ -14,6 +14,9 @@
             text-align: center;
             letter-spacing: -3px!important;
             
+            @media(max-width: 768px) {
+                letter-spacing: -8px !important;
+            }
             &.blue {
                 padding-left: 8px;
                 padding-right: 5px;
@@ -23,6 +26,7 @@
                 
             }
         }
+
     }
 
     .bigtitle {
