@@ -1,0 +1,16 @@
+.sidebarPosts {
+    .imgBloc {
+        min-width: 120px;
+        position: relative;
+        width: 120px;
+        height: 80px;
+        overflow: hidden;
+        img {
+            position: absolute;
+            top: -10%;
+            min-width: 150%;
+            left: -25%;
+        }
+    
+    }
+}

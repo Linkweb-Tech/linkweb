@@ -6,6 +6,9 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import ButtonBlog from "../components/buttonblog";
+import CategoriesList from "../components/categoriesList";
+import LastPostsMini from '../components/lastpostsmini';
+import { Timeline } from 'react-twitter-widgets';
 
 import CreerSite from "../images/creer-un-site.jpg";
 import RefSite from "../images/referencer-un-site.jpg";
@@ -13,6 +16,7 @@ import AgenceAds from "../images/campagne-ads.jpg";
 import world from "../images/grid-world.png";
 import iconseo from "../images/seo-performance-marketing-graphic.png";
 import iconsea from "../images/waving-flag.png";
+
 
 
 
@@ -73,7 +77,8 @@ render() {
                                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                                     <h2 data-aos='fade-right' className="text-left text-4xl century">
                                         À propos de Référencement
-                                    </h2><br/>
+                                    </h2>
+                                    <LastPosts lastposts={this.props.data.ref.edges} />
                                 </section>
                                 <section className="flex flex-col sm:flex-row px-10 mr-24">
                                     <div className="w-full sm:w-1/3 mx-10 my-10">
@@ -94,14 +99,28 @@ render() {
                                 </section>
                         </section>                    
                     </div>
-                    <div className="w-full xl:w-1/4 mt-6 mb-3 ">
-                        <ButtonBlog className="rounded-none" url="/contact-agence-web-toulouse" text="Demander un devis"/><br/>
-                        <h3 className="font-bold">LES DERNIERS ARTICLES</h3><br/>
-                        <h3 className="font-bold">VOUS AVEZ AIMÉ</h3><br/>
+                    <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 ">
+                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse" text="Demander un devis"/><br/>
+                        <h3 className="font-bold pb-3">CATÉGORIES</h3>
+                        <CategoriesList list={ this.props.data.allWordpressCategory.edges} />
+                        <h3 className="font-bold pt-12 pb-3">DERNIERS ARTICLES</h3>
+                        <LastPostsMini lastposts={this.props.data.lastmini.edges} />
                         <Link to="/creation-site-internet-toulouse"><img src={CreerSite} alt="Création site internet Agen"/></Link>
                         <Link to="/referencement-de-site-internet-47-31"><img src={RefSite} alt="Création site internet Agen"/></Link>
                         <Link to="/agence-adwords-47-31"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
                         <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
+                        <Timeline
+                            dataSource={{
+                            sourceType: 'profile',
+                            screenName: 'AgenceLinkweb'
+                            }}
+                            options={{
+                            username: 'AgenceLinkweb',
+                            height: '600', 
+                            lang: 'fr'
+                            }}
+                            onLoad={() => console.log('Timeline is loaded!')}
+                        />
                     </div>
                 </section>
 
@@ -116,20 +135,57 @@ render() {
 
 export const query = graphql`
 query lastsThreePostsActualitedigitale {
-allWordpressPost(limit: 4) {
-  edges {
-    node {
-      id
-      title
-      slug
-      modified(locale: "fr", formatString: "dd MM YYYY")
-      link
-      featured_media {
-        source_url
-      }
+    allWordpressPost(limit: 6) {
+        edges {
+            node {
+            id
+            title
+            slug
+            modified(locale: "fr", formatString: "ddd MM YYYY")
+            link
+            featured_media {
+                source_url
+            }
+            }
+        }
     }
-  }
-}
+    lastmini: allWordpressPost(limit: 3) {
+        edges {
+            node {
+            id
+            title
+            slug
+            modified(locale: "fr", formatString: "ddd MM YYYY")
+            link
+            featured_media {
+                source_url
+            }
+            }
+        }
+    }
+    allWordpressCategory {
+        edges {
+            node {
+            slug
+            name
+            }
+        }
+    }
+    ref: allWordpressPost(limit: 3, filter: {categories: {elemMatch: {slug: {eq: "referencement"}}}}) {
+        edges {
+            node {
+            id
+            title
+            slug
+            modified(locale: "fr", formatString: "ddd MM YYYY")
+            link
+            featured_media {
+                source_url
+            }
+            }
+        }
+    }
+
 }
 
 
