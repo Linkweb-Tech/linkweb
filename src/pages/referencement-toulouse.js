@@ -64,7 +64,7 @@ class ReferencementToulouse extends React.Component {
                     }}
                     transitionTime={200}
                 >
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundImage: 'url(' + Bg + ')' }}>
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#00000094 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                             Référencement Toulouse<span className="text-bleu">/</span>Agen
                         </h1>

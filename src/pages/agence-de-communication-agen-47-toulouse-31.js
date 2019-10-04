@@ -9,7 +9,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Tiles from '../components/gallery/tiles';
 import '../scss/tiles.scss';
-import GalerieReal from '../components/GalerieReal';
+
 
 import Bg from "../images/agence-de-communication-background.jpg";
 import bgDev from '../images/bg-dev.jpg';
@@ -75,8 +75,8 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
 
 
                     <section className="w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <GalerieReal />
-                        {/* <Tiles /> */}
+                       
+                        <Tiles />
                     </section>
 
 

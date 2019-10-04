@@ -115,7 +115,7 @@ class AgenceWebToulouse extends React.Component {
                                 Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Toulouse</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
                         </div>
                     </section>
-                    <section className="flex-wrap flex flex-col md:w-full max-w-5xl mx-auto py-2 my-2 ">
+                    <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" data-aos="zoom-in">
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
