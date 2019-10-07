@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 import '../scss/categorieslist.scss'
 
 class CategoriesList extends React.Component {
@@ -15,7 +16,7 @@ class CategoriesList extends React.Component {
             <section className="flex flex-col justify-center items-start pl-3">
                 {
                     list.map(( {node} ) => (
-                        <span> {node.name} </span>
+                        <a className="hover:text-bleu" href={node.link}><span> {node.name} </span></a>
                     ))
                 }
             </section>
