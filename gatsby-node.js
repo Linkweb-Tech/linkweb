@@ -30,3 +30,34 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         })
     })
 }
+
+exports.createCatPages = async ({ graphql, actions, reporter }) => {
+  const { createCatPage } = actions
+  const BlogCatTemplate = path.resolve("./src/templates/BlogCatPage.js")
+  const result = await graphql(`
+  {
+    allWordpressCategory {
+      edges {
+          node {
+          slug
+          name
+          }
+      }
+  }
+  }
+`)
+  if (result.errors) {
+      reporter.panicOnBuild(`Error while running GraphQL query.`)
+      return
+  }
+  const BlogCatPosts = result.data.allWordpressCategory.edges
+  BlogCatPosts.forEach(post => {
+      createPage({
+          path: `/category/${post.node.slug}`,
+          component: BlogCatTemplate,
+          context: {
+              id: post.node.wordpress_id,
+          },
+      })
+  })
+}
