@@ -36,7 +36,7 @@ render() {
                 keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
                 url="https://linkweb.fr/actualite-digitale"
             />
-            <PageTransition
+            {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -54,7 +54,7 @@ render() {
 
                 }}
                 transitionTime={200}
-            >
+            > */}
                 <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{backgroundColor:'black', height:'450px'}}>
                     <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Le Blog<span className="text-bleu">/</span>Linkweb
@@ -126,7 +126,7 @@ render() {
 
                 
                 
-            </PageTransition>
+            {/* </PageTransition> */}
         </Layout>
     );
 }

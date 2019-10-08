@@ -39,7 +39,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Création site web Agen`, `Création site web Toulouse`]}
                     url="https://linkweb.fr/creation-site-internet-toulouse"
                 /> 
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -57,7 +57,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#00000038 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom', backgroundSize:'cover' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
                         Création site internet Toulouse<span className="text-bleu">/</span>Agen
@@ -444,7 +444,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <LastPosts lastposts={ this.props.data.allWordpressPost.edges } />
                         
                     </section>
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }

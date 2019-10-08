@@ -37,7 +37,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     keywords={[`Projet web Agen`, `Projet Web Toulouse`, `Création site internet sur-mesure`, `Agence Web Toulouse`]}
                     url="https://linkweb.fr/agence-de-communication-agen-47-toulouse-31"
                 />
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -55,7 +55,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
 
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize:'cover' }}>
                         <h2 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white">
                         Nos réalisations à Toulouse<span className="text-bleu">/</span>Agen
@@ -225,7 +225,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                         <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
 
                     </section>
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }

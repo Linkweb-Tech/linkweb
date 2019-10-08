@@ -30,7 +30,7 @@ function IndexPage(props) {
         description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
         url="https://linkweb.fr"
       />
-        <PageTransition
+        {/* <PageTransition
           defaultStyle={{
             transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
             transitionDuration: '0.5s',
@@ -48,7 +48,7 @@ function IndexPage(props) {
             
           }}
           transitionTime={200}
-        >
+        > */}
       <Hero></Hero>
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
         <h2 data-aos='fade-right' className="text-center">
@@ -320,7 +320,7 @@ function IndexPage(props) {
           </div>
         </div>
       </section>
-      </PageTransition>
+      {/* </PageTransition> */}
     </Layout>
     
   );

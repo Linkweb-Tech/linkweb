@@ -30,7 +30,7 @@ class Error404 extends React.Component {
                     description="La page que vous recherchez n'existe pas ou plus."
                     url="https://linkweb.fr/404"
                 />
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -48,7 +48,7 @@ class Error404 extends React.Component {
 
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-white flex flex-col justify-center items-center mt-24" style={{background:'#00000094 url('+ Bg +')', backgroundBlendMode:'multiply', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}}>
                         <h1 data-aos="fade-down" className="text-6xl text-white text-white font-black">ERREUR 404</h1>
                         <h2 data-aos="fade-down" data-aos-delay="500" className="mt-10 century text-4xl sm:text-4xl text-center text-white">
@@ -86,7 +86,7 @@ class Error404 extends React.Component {
                             </div>
                         </div>
                     </section>
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }

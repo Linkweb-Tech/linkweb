@@ -29,7 +29,7 @@ class ContactAgenceWebToulouse extends React.Component {
                     keywords={[`Devis site internet`, `Projet Web Toulouse`, `Projet Web Agen`]}
                     url="https://linkweb.fr/contact-agence-web-toulouse"
                 />
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -47,7 +47,7 @@ class ContactAgenceWebToulouse extends React.Component {
 
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-10 sm:px-4 pb-6 pt-24 bg-no-repeat bg-cover bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundRepeat:'none', backgroundPosition:'center', backgroundSize:'cover'}}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
                             Une question ? Un devis ? Une candidature ?
@@ -150,7 +150,7 @@ class ContactAgenceWebToulouse extends React.Component {
                     <ContactForm />       
                     
                     
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }

@@ -40,7 +40,7 @@ class Crea extends React.Component {
                     keywords={[`Création site internet Agen`, `Creation site internet Agen`, `Développement site internet Agen`, `Création site web Agen`]}
                     url="https://linkweb.fr/creation-de-site-internet-a-agen"
                 />
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -58,7 +58,7 @@ class Crea extends React.Component {
 
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply`, backgroundPosition:'center' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century sm:text-6xl text-5xl text-center text-white">
                         Création de site internet Agen
@@ -346,7 +346,7 @@ class Crea extends React.Component {
                         <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
 
                     </section>
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }

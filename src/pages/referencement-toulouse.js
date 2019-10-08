@@ -45,7 +45,7 @@ class ReferencementToulouse extends React.Component {
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
                     url="https://linkweb.fr/referencement-toulouse"
                 />
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -63,7 +63,7 @@ class ReferencementToulouse extends React.Component {
 
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#00000094 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                             Référencement Toulouse<span className="text-bleu">/</span>Agen
@@ -384,7 +384,7 @@ class ReferencementToulouse extends React.Component {
                         <LastPosts lastposts={this.props.data.allWordpressPost.edges} /> 
 
                     </section>
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }

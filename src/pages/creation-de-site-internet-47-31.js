@@ -32,7 +32,7 @@ class CreationSiteSurMesure extends React.Component {
                     keywords={[`Création site internet sur-mesure Agen`, `Création site internet sur-mesure Toulouse`, `Créer un site internet sur-mesure`, `Développement solution web`]}
                     url="https://linkweb.fr/creation-de-site-internet-47-31"
                 /> 
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -50,7 +50,7 @@ class CreationSiteSurMesure extends React.Component {
                         
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{background:'#00000094 url(' + Bg +')', backgroundBlendMode:'multiply', backgroundPosition:'center', backgroundSize:'cover', height:'650px'}}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
                             <RoundButton url="/contact-agence-web-toulouse" text="Je veux la création de mon site sur-mesure"/>
@@ -381,7 +381,7 @@ class CreationSiteSurMesure extends React.Component {
                         </section>
                         <br/>
                     </section>
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }

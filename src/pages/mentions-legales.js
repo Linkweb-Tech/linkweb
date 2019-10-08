@@ -30,7 +30,7 @@ class MentionsLegales extends React.Component {
                     description="Mentions Légales - Consulter les mentions légales de l'Agence Web Linkweb à Agen (47) : création de site internet et référencement à Agen et Toulouse (31)."
                     url="https://linkweb.fr/mentions-legales"                    
                 />
-                <PageTransition
+                {/* <PageTransition
                     defaultStyle={{
                         transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                         transitionDuration: '0.5s',
@@ -48,7 +48,7 @@ class MentionsLegales extends React.Component {
 
                     }}
                     transitionTime={200}
-                >
+                > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundPosition: 'center', backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + bureau + ')', backgroundBlendMode: `multiply` }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white">
                             Mentions Légales
@@ -185,7 +185,7 @@ class MentionsLegales extends React.Component {
                         <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
 
                     </section>
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         );
     }
