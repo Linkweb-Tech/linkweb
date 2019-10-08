@@ -17,7 +17,7 @@ import onco from "../images/logo-onco.png";
 import sdis from "../images/logo-sdis47.png";
 import normand from "../images/normandie.png";
 import blocBg from "../images/background.jpg";
-import Bg from "../images/creation-site-internet-background.jpg";
+import Bg from "../images/background-agence.jpg";
 import imac from "../images/ecran-imac.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import stars from '../images/stars.png';

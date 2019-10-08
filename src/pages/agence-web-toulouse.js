@@ -16,7 +16,7 @@ import onco from "../images/logo-onco.png";
 import sdis from "../images/logo-sdis47.png";
 import normand from "../images/normandie.png";
 import blocBg from "../images/background.jpg";
-import Bg from "../images/bg-agenceweb.jpg";
+import Bg from "../images/agence-web-bg.jpg";
 import imac from "../images/redaction.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import stars from '../images/stars.png';
@@ -65,7 +65,7 @@ class AgenceWebToulouse extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundImage: 'url(' + Bg + ')' }}>
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background: '#00000096 url(' + Bg + ')', backgroundPosition:'center', backgroundSize:'cover', backgroundBlendMode:'multiply' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white">
                             Agence web Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
