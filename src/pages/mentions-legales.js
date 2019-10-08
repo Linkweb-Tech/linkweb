@@ -166,7 +166,7 @@ class MentionsLegales extends React.Component {
                                 <img src={laptop} width="80px" alt="Création Site Internet Toulouse"/>
                                 <p className="text-xl text-white century pt-3">CRÉATION DE SITE INTERNET</p>
                             </div>
-                            <div className="w-full my-6 md:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full my-6 md:w-1/3 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
 
                                 <img src={web} width="80px" alt="Référencement Toulouse"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>

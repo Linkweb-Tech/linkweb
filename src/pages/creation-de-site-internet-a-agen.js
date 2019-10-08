@@ -114,32 +114,32 @@ class Crea extends React.Component {
                             </section>
                         </section>
                         <section className="max-w-full w-full flex flex-col lg:flex-row">
-                            <div className="flex flex-col md:flex-row w-full lg:w-1/3 my-6 px-10 text-justify" style={{display:'inherit'}}>
+                            <div className="flex flex-col lg:flex-row w-full lg:w-1/3 my-6 px-10 text-justify" style={{display:'inherit'}}>
                                 <div className="w-full lg:w-1/12">
                                     <img className="mx-auto block" src={un} alt="Création site internet Agen" style={{width:'75px'}}/><br/>
                                 </div>
                                 <div className="w-full lg:w-11/12">
-                                    <h3 className="font-bold text-xl">Apporte une crédibilité</h3><br/>
+                                    <h3 className="font-bold text-center text-xl">Apporte une crédibilité</h3><br/>
                                     <p>
                                     Une entreprise possédant un <strong>site internet professionnel</strong>, design, moderne et ergonomique apporte une crédibilité indispensable à votre entreprise. Il permet également d’améliorer votre notoriété auprès des internautes.</p>
                                 </div>
                             </div>
-                            <div className="flex flex-col md:flex-row md:py-10 w-full lg:w-1/3 px-10 text-justify" style={{display:'inherit'}}>
+                            <div className="flex flex-col lg:flex-row md:my-6 w-full lg:w-1/3 px-10 text-justify" style={{display:'inherit'}}>
                                 <div className="w-full lg:w-1/12">
                                     <img className="mx-auto block" src={deux} alt="Création de site internet Agen" style={{width:'75px'}}/><br/>
                                 </div>
                                 <div className="w-full mlg:w-11/12">
-                                    <h3 className="font-bold text-xl">Représente le meilleur outil de communication</h3><br/>
+                                    <h3 className="font-bold text-center text-xl">Représente le meilleur outil de communication</h3><br/>
                                     <p>
                                     Un <strong>site web professionnel</strong> vous permet d’être visible 24h/24, 7j/7 ! Pas d’horaires, pas de jours de fermeture, pas d’imprévus… un <strong>site internet</strong> reste visible et accessible à tout moment, où que vous soyez.</p>
                                 </div>
                             </div>
-                            <div className="flex flex-col md:flex-row w-full lg:w-1/3 px-10 text-justify" style={{display:'inherit'}}>
+                            <div className="flex flex-col lg:flex-row w-full lg:w-1/3 my-6 px-10 text-justify" style={{display:'inherit'}}>
                                 <div className="w-full lg:w-1/12">
                                     <img className="mx-auto block" src={trois} alt="Création site internet à Agen" style={{width:'75px'}}/><br/>
                                 </div>
                                 <div className="w-full lg:w-11/12">
-                                    <h3 className="font-bold text-xl">Reflète l’image de votre entreprise</h3><br/>
+                                    <h3 className="font-bold text-center text-xl">Reflète l’image de votre entreprise</h3><br/>
                                     <p>
                                     Un <strong>site internet</strong> doit être réalisé à <strong>votre image</strong>. Il doit refléter vos valeurs, vos services, vos prestations, mais aussi l’<strong>identité visuelle</strong> de votre société. Nous nous attachons à définir un <strong>cahier des charges</strong> pour vous permettre la solution de votre choix.</p>
                                 </div>
@@ -152,7 +152,7 @@ class Crea extends React.Component {
                             <p className="text-black text-md text-justify">Pour une entreprise local, <strong>avoir un site internet</strong> est incontournable. Non seulement vous vous démarquerez de la concurrence, mais vous aurez également la possibilité de toucher une clientèle beaucoup plus large. En mettant en avant vos services et vos prestations sur votre <strong>site vitrine</strong>, vous laissez la possibilité à vos prospects d’avoir accès à toutes les informations importantes concernant votre entreprise, et cela à tout moment.</p>
                             <br/> 
                             <p className="text-black text-md text-justify">Les avantages de <strong>créer votre site web</strong> ne s’arrête pas là. En effet, un <strong>site professionnel</strong>, design et moderne vous permettra de concrétiser vos contacts en mettant en avant vos réalisations, vos travaux. Distinguez vous de vos <strong>concurrents</strong> avec la mise en place de votre propre site internet ergonomique, <strong>intuitif</strong>, et adapté pour améliorer l’<strong>expérience utilisateur</strong>.</p>
-                            <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify" style={{textAlignLast:'center'}}>
+                            <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify items-center" style={{textAlignLast:'center'}}>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
                                     <p className="text-5xl text-white">63%</p>
                                     <br/>
@@ -174,7 +174,7 @@ class Crea extends React.Component {
                             <h2 className="text-white text-3xl font-bold">Pour de la vente en ligne ?</h2><br/>
                             <p className="text-white text-md text-justify">En 2017, 85% des internautes ont effectués des achats en ligne. Ces chiffres sont en constante évolution. Pour cause, les bénéfices sont nombreux à se lancer dans le e-commerce. Cependant, pour qu’un <strong>projet web</strong> tel que la création d’une boutique <strong>e-commerce</strong> soit pérenne, il est indispensable de faire appel à des professionnels qualifiés pour mettre en place une réelle <strong>stratégie digitale</strong> et obtenir une <strong>conception de site</strong> de qualité.</p>
                             <br/> 
-                            <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify" style={{textAlignLast:'center'}}>
+                            <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify items-center" style={{textAlignLast:'center'}}>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
                                     <img className="mx-auto block" src={un} alt="Site web Agen" style={{width:'75px'}}/><br/>
                                     <p className="text-3xl mr-18 text-center">Développer le chiffre d’affaires</p>
@@ -266,7 +266,7 @@ class Crea extends React.Component {
                             <h2 className="text-white text-4xl font-bold">Pourquoi faire appel à Linkweb pour créer un site ?</h2><br/>
                             <p className="text-lg text-white text-justify">Les entreprises de création et de référencement naturel se font de plus en plus nombreuses ces dernières années, même sur le secteur d’Agen. De plus, vous devez forcément connaître dans votre entourage une personne vous ayant proposé de vous <strong>faire un site internet</strong>. Plus encore, vous avez sans nul doute reçu de nombreux appel de la part d’entreprises vous proposant de <strong>créer un site internet gratuit</strong>. Vous n’avez donc que l’embarras du choix. Mais alors, comment choisir ? Pourquoi choisir Linkweb pour <strong>créer un site web</strong> ?</p>
                             <br/> 
-                            <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row">
+                            <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row items-center">
                                 <div className="w-full md:w-1/2 xl:w-1/3 py-6 px-4">
                                     <p className="text-2xl pr-6 text-center text-white">Appel Mensuel</p>
                                     <br/>
@@ -326,7 +326,7 @@ class Crea extends React.Component {
                                 <img src={laptop} width="80px" alt="Agence Web Agen"/>
                                 <p className="text-lg text-white century pt-3">WEBMARKETING</p>
                             </div>
-                            <div className="w-full sm:w-1/3 my-6 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 my-6 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
 
                                 <img src={web} width="80px" alt="Référencement Agen"/>
                                 <p className="text-lg century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>

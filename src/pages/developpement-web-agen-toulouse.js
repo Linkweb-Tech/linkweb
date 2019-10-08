@@ -266,17 +266,17 @@ class Dev extends React.Component {
                         <div className="w-full md:w-1/2 bg-white text-white" style={{padding:'130px'}} data-aos="zoom-in" data-aos-delay="200">
                             <p className="text-3xl text-center text-black">les langages …</p><br/>
                             <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex flex-col md:flex-row">
-                                <div className="w-full md:w-1/4 my-3">
-                                    <img src={html} alt="HTML" />
+                                <div className="w-full md:w-1/4 my-6">
+                                    <img className="w-48 mx-auto block" src={html} alt="HTML" />
                                 </div>
-                                <div className="w-full md:w-1/4 my-3">
-                                    <img src={css} alt="CSS" />
+                                <div className="w-full md:w-1/4 my-6">
+                                    <img className="w-48 mx-auto block" src={css} alt="CSS" />
                                 </div>
-                                <div className="w-full md:w-1/4 my-3">
-                                    <img src={javascript} alt="Javascript" />
+                                <div className="w-full md:w-1/4 my-6">
+                                    <img className="w-48 mx-auto block" src={javascript} alt="Javascript" />
                                 </div>
-                                <div className="w-full md:w-1/4 mt-3">
-                                    <img src={php} alt="Php" />
+                                <div className="w-full md:w-1/4 mt-6">
+                                    <img className="w-48 mx-auto block" src={php} alt="Php" />
                                 </div>
                             </section>
                         </div>
@@ -286,10 +286,10 @@ class Dev extends React.Component {
                                 <p className="text-3xl text-center text-black">les gestionnaires de base de données …</p>
                             <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                                 <div className="w-1/2">
-                                    <img src={mysql} alt="Mysql" />
+                                    <img className="w-48 mx-auto block" src={mysql} alt="Mysql" />
                                 </div>
                                 <div className="w-1/2">
-                                    <img src={postgre} alt="Postgre" />
+                                    <img className="w-48 mx-auto block" src={postgre} alt="Postgre" />
                                 </div>
                             </section>
                         </div>
@@ -297,13 +297,13 @@ class Dev extends React.Component {
                         <p className="text-3xl text-center text-black">les CMS …</p><br/>
                         <section className="max-w-7xl w-full mx-auto px-1 pt-0 pb-0 my-2 flex">
                                 <div className="w-1/3">
-                                    <img src={wordpress} alt="Wordpress" />
+                                    <img className="w-48 mx-auto block" src={wordpress} alt="Wordpress" />
                                 </div>
                                 <div className="w-1/3">
-                                    <img src={drupal} alt="Drupal" />
+                                    <img className="w-48 mx-auto block" src={drupal} alt="Drupal" />
                                 </div>
                                 <div className="w-1/3">
-                                    <img src={prestashop} alt="Prestashop" />
+                                    <img className="w-48 mx-auto block" src={prestashop} alt="Prestashop" />
                                 </div>
                             </section>
                         </div>
@@ -315,16 +315,16 @@ class Dev extends React.Component {
 
                         <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
                             <div className="w-1/4">
-                                <img src={bootstrap} alt="Bootstrap" />
+                                <img className="w-48 mx-auto block" src={bootstrap} alt="Bootstrap" />
                             </div>
                             <div className="w-1/4">
-                                <img src={laravel} alt="Laravel" />
+                                <img className="w-48 mx-auto block" src={laravel} alt="Laravel" />
                             </div>
                             <div className="w-1/4">
-                                <img src={symfony} alt="Symfony" />
+                                <img className="w-48 mx-auto block" src={symfony} alt="Symfony" />
                             </div>
                             <div className="w-1/4">
-                                <img src={vue} alt="Vue" />
+                                <img className="w-48 mx-auto block" src={vue} alt="Vue" />
                             </div>
                         </section>
                     </section>
@@ -365,7 +365,7 @@ class Dev extends React.Component {
                                 <img src={laptop} width="80px" />
                                 <p className="text-xl text-white century pt-3">WEBMARKETING</p>
                             </div>
-                            <div className="w-full my-4 md:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full my-4 md:w-1/3 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
 
                                 <img src={web} width="80px" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>

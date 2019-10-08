@@ -9,7 +9,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import ButtonMenu from '../components/buttonmenu.js';
-
+import ButtonMenuBack from '../components/buttonmenuback';
 
 import Bg from "../images/background-campagnes-ads.jpg";
 import imac from "../images/analytics-site-internet.jpg";
@@ -64,8 +64,9 @@ class ReferencementAds extends React.Component {
                         </div>
                     </section>
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
-                        <section className="bg-white w-1/4 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
-                        <div className="w-full p-1 mt-0"><ButtonMenu url="/referencement-toulouse" text="Retour" position="center" /></div>
+                        <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
+                        <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/referencement-toulouse" position="center"/></div>
+                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/referencement-toulouse">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{ borderBottomLeftRadius:'27px'}}>
                             <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/referencement-de-site-internet-47-31" text="Référencement Naturel" position="center" /></div>
@@ -344,7 +345,7 @@ class ReferencementAds extends React.Component {
 </svg>
                                 <p className="text-xl text-white century pt-3">CRÉATION DE CAMPAGNE ADWORDS</p>
                             </div>
-                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
                             <svg className="svg-white" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" width="80px" height="80px">
 <g>
 	<path d="M326.623,133.062c13.785,0,25-11.215,25-25s-11.215-25.001-25-25.001s-25,11.216-25,25.001   c0,5.63,1.872,10.83,5.025,15.014l-41.076,57.401c-2.451-0.805-5.066-1.247-7.784-1.247c-6.569,0-12.551,2.551-17.017,6.709   l-27.379-15.536c0.365-1.696,0.561-3.454,0.561-5.257c0-13.785-11.215-25-25-25s-25,11.215-25,25c0,1.803,0.196,3.561,0.561,5.257   l-27.379,15.536c-4.466-4.158-10.448-6.708-17.017-6.708c-13.785,0-25,11.216-25,25.001s11.215,25.001,25,25.001   s25-11.216,25-25.001c0-1.803-0.196-3.561-0.561-5.257l27.379-15.536c4.466,4.158,10.448,6.709,17.017,6.709   c6.569,0,12.55-2.551,17.017-6.708l27.379,15.536c-0.365,1.696-0.561,3.454-0.561,5.257c0,13.785,11.215,25.001,25,25.001   c13.786,0,25.001-11.216,25.001-25.001c0-5.631-1.873-10.832-5.026-15.016l41.076-57.401   C321.289,132.62,323.905,133.062,326.623,133.062z M326.623,98.061c5.514,0,10,4.486,10,10.001c0,5.514-4.486,10-10,10   s-10-4.486-10-10C316.622,102.547,321.108,98.061,326.623,98.061z M120.115,214.231c-5.514,0-10-4.486-10-10.001   s4.486-10.001,10-10.001s10,4.486,10,10.001S125.629,214.231,120.115,214.231z M188.951,175.146c-5.514,0-10-4.486-10-10.001   c0-5.514,4.486-10,10-10s10,4.486,10,10C198.952,170.66,194.465,175.146,188.951,175.146z M257.787,214.231   c-5.514,0-10-4.486-10-10.001s4.486-10.001,10-10.001c5.515,0,10.001,4.486,10.001,10.001S263.301,214.231,257.787,214.231z"/>

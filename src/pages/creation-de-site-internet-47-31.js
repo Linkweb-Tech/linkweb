@@ -9,7 +9,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import ButtonMenu from '../components/buttonmenu.js';
-
+import ButtonMenuBack from '../components/buttonmenuback.js';
 
 import Bg from "../images/creation-site-sur-mesure-background.jpg";
 import imac from "../images/creation-site-sur-mesure.jpg";
@@ -64,8 +64,9 @@ class CreationSiteSurMesure extends React.Component {
                         </div>
                     </section>
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
-                        <section className="bg-white w-1/4 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey" >
-                        <div className="w-full p-1 mt-0"><ButtonMenu url="/creation-site-internet-toulouse/" text="Retour" position="center" /></div>
+                        <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey" >
+                        <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
+                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen" text="Site vitrine" position="center" /></div>
@@ -319,7 +320,7 @@ class CreationSiteSurMesure extends React.Component {
 </svg>
                                 <p className="text-xl text-white century pt-3">OUTIL DE GESTION DE TYPE INTRANET</p>
                             </div>
-                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
                             <svg className="svg-white" height="80px" viewBox="0 0 512 512" width="80px"><path d="m437.019531 74.980469c-48.351562-48.351563-112.640625-74.980469-181.019531-74.980469s-132.667969 26.628906-181.019531 74.980469c-48.351563 48.351562-74.980469 112.640625-74.980469 181.019531s26.628906 132.667969 74.980469 181.019531c48.351562 48.351563 112.640625 74.980469 181.019531 74.980469s132.667969-26.628906 181.019531-74.980469c48.351563-48.351562 74.980469-112.640625 74.980469-181.019531s-26.628906-132.667969-74.980469-181.019531zm-181.019531 397.019531c-119.101562 0-216-96.898438-216-216s96.898438-216 216-216 216 96.898438 216 216-96.898438 216-216 216zm20-236.019531h90v40h-90v90h-40v-90h-90v-40h90v-90h40zm0 0"/></svg>
                                 <p className="text-xl century text-white pt-3">FONCTIONNALITÉS UTILISATEURS</p>
                             </div>

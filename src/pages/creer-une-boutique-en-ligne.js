@@ -9,7 +9,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import ButtonMenu from '../components/buttonmenu.js';
-
+import ButtonMenuBack from '../components/buttonmenuback.js';
 
 import Bg from "../images/background-boutique-en-ligne.jpg";
 import imac from "../images/creer-boutique-en-ligne.jpg";
@@ -64,8 +64,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                         </div>
                     </section>
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
-                        <section className="bg-white w-1/4 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
-                        <div className="w-full p-1 mt-0"><ButtonMenu url="/creation-site-internet-toulouse/" text="Retour" position="center" /></div>
+                        <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
+                        <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
+                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen" text="Site vitrine" position="center" /></div>
@@ -416,7 +417,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <svg className="svg-white" height="80px" viewBox="0 0 448.941 448.941" width="80px"><path d="m322.019 392.823c-62.154 0-116.412-33.94-145.576-84.176h146.233v-56.118h-166.476c-1.545-9.147-2.535-18.48-2.535-28.059 0-9.578.99-18.912 2.535-28.059h166.476v-56.118h-146.233c29.163-50.237 83.421-84.176 145.576-84.176 20.606 0 41.019 3.864 60.666 11.481l10.138-52.336c-26.14-10.124-43.239-15.262-70.804-15.262-93.996 0-174.561 58.138-207.944 140.294h-57.957v56.118h43.38c-1.156 9.214-1.949 18.537-1.949 28.059s.793 18.845 1.949 28.059h-43.38v56.118h57.957c33.383 82.156 113.948 140.294 207.944 140.294 27.566 0 44.664-5.138 70.805-15.262l-10.138-52.336c-19.648 7.616-40.061 11.48-60.667 11.479z"/></svg>
                                 <p className="text-xl text-white century pt-3">CRÉATION DE BOUTIQUE EN LIGNE</p>
                             </div>
-                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
                             <svg className="svg-white" wodth="80px" height="80px" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" >
 <g>
 	<g>

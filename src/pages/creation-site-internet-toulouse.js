@@ -72,32 +72,32 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="max-w-5xl flex-wrap flex w-full mx-auto px-4 py-2 my-2 ">
-                        <div className="w-1/5" data-aos='fade-up'>
+                    <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2 ">
+                        <div className="w-1/3 md:w-1/5 mb-10" data-aos='fade-up'>
                         <img 
                             src={peugeot}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='200'>
                         <img
                             alt="Création site internet Agen" 
                             src={normand}
                         />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='400'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='400'>
                         <img 
                             src={onco}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='600'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='600'>
                         <img 
                             src={tlse}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='800'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='800'>
                         <img 
                             src={sdis}
                             alt="Création site internet Toulouse"

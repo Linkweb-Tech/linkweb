@@ -218,17 +218,17 @@ class ErgonomieToulouse extends React.Component {
                             <RappelForm />
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex items-start text-center my-12">
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                        <div className="max-w-6xl mx-auto flex-col md:flex-row flex items-start text-center my-12">
+                            <div className="w-full md:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
                                 <img src={laptop} width="80px" alt="Agence de Communication Toulouse"/>
                                 <p className="text-xl text-white century pt-3">WEBMARKETING</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full md:w-1/3 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
 
                                 <img src={web} width="80px" alt="Référencement Toulouse"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
-                            <div className="w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full md:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
                                 <img src={bullhorn} width="80px" alt="Référencement Toulouse"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
