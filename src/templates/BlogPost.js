@@ -60,8 +60,8 @@ const BlogPostTemplate = ({ data }) => (
                         />
         </div>
         </section>
-        <section className="w-full flex justify-center mb-0 md:mb-16 md:px-6 lg:px-48 text-white">
-          <div className="w-full md:w-3/4 xl:w-1/2 px-8 lg:px-24 py-8 md:py-8 mr-0 bg-darkgrey">
+        <section className=" py-24 w-full xl:w-3/4 flex justify-center mb-0 md:mb-16 md:px-6 lg:px-48 text-white">
+          <div className="w-full md:w-3/4 xl:w-full px-6 lg:px-48 py-8 md:py-8  bg-darkgrey mx-24">
             <h3 className="italic text-center text-xl">À Propos</h3>
             <br/>
             <h4 className="italic text-center font-bold text-md">linkweb47</h4>
