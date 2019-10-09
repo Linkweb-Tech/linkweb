@@ -91,13 +91,13 @@ class CreationSiteInternetToulousePage extends React.Component {
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='600'>
+                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
                         <img 
                             src={tlse}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='800'>
+                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
                         <img 
                             src={sdis}
                             alt="Création site internet Toulouse"
@@ -271,13 +271,14 @@ class CreationSiteInternetToulousePage extends React.Component {
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#6a6a6a url( '+ bgDev +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
-                            <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
+                            <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ?
                             </h2>
 
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                            <RappelForm />
+                            {/* <RappelForm /> */}
+                            <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet professionnel" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center my-12 flex-col sm:flex-row">

@@ -70,7 +70,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen" text="Site vitrine" position="center" /></div>
-                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creer-une-boutique-en-ligne" text="Site e-commerce" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creer-une-boutique-en-ligne" text="E-commerce" position="center" /></div>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31" text="Site sur-mesure" position="center" /></div>
                         </section>
                     </section>
@@ -403,13 +403,14 @@ class CreerBoutiqueEnLigne extends React.Component {
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#000000ba url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
-                            <span className="text-bleu">/</span>Vous souhaitez opter pour une solution e-commerce ? Saisissez votre adresse mail.
+                            <span className="text-bleu">/</span>Vous souhaitez opter pour une solution e-commerce ?
                             </h2>
 
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                            <RappelForm />
+                            {/* <RappelForm /> */}
+                            <RoundButton url="contact-agence-web-toulouse/" text="Je veux vendre mes produits en ligne" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">

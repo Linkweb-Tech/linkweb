@@ -79,32 +79,32 @@ class AgenceWebToulouse extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="max-w-5xl flex-wrap flex w-full mx-auto px-4 py-2 my-2 ">
-                        <div className="w-1/5" data-aos='fade-up'>
+                    <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
+                        <div className="w-1/3 md:w-1/5 mb-10" data-aos='fade-up'>
                             <img
                                 src={peugeot}
                                 alt="Agence Web Toulouse"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='200'>
                             <img
                                 src={normand}
                                 alt="Agence Web Agen"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='400'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='400'>
                             <img
                                 src={onco}
                                 alt="Agence Web Toulouse"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='600'>
+                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
                             <img
                                 src={tlse}
                                 alt="Agence Web Agen"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='800'>
+                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
                             <img
                                 src={sdis}
                                 alt="Agence Web Agen"
@@ -292,7 +292,7 @@ class AgenceWebToulouse extends React.Component {
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
-                                <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
+                                <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ?
 
 
                             </h2>
@@ -300,7 +300,8 @@ class AgenceWebToulouse extends React.Component {
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                            <RappelForm />
+                            {/* <RappelForm /> */}
+                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux developper ma communication en ligne" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">

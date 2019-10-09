@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    title: `Linkweb`,
+    description: `Linkweb, agence web de création de site internet à Agen (47) et Toulouse (31).`,
+    author: `@AgenceLinkweb`
   },
   plugins: [
     /*

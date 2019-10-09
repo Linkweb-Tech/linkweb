@@ -337,13 +337,14 @@ class ReferencementNaturel extends React.Component {
                     <section className="w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#000000ba url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
-                            <span className="text-bleu">/</span>Vous souhaitez améliorer votre visibilité dans les résultats de recherche ?<br/> Saisissez votre adresse mail.
+                            <span className="text-bleu">/</span>Vous souhaitez améliorer votre visibilité dans les résultats de recherche ?
                             </h2>
 
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                            <RappelForm />
+                            {/* <RappelForm /> */}
+                            <RoundButton url="/contact-agence-web-toulouse" text="Demander un devis" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">

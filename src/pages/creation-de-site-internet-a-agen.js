@@ -310,7 +310,7 @@ class Crea extends React.Component {
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ backgroundColor: '#6a6a6a', backgroundImage: 'url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundRepeat:'no-repeat', backgroundPosition:'center' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 data-aos='fade-right' className="text-center text-white text-2xl mt-24 md:text-4xl century">
-                                <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
+                                <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ?
 
 
                             </h2>
@@ -318,7 +318,8 @@ class Crea extends React.Component {
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                            <RappelForm />
+                            {/* <RappelForm /> */}
+                            <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex items-start text-center my-12 flex-col sm:flex-row">

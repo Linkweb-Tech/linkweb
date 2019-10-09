@@ -78,32 +78,32 @@ class ReferencementToulouse extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="max-w-5xl flex-wrap flex w-full mx-auto px-4 py-2 my-2 ">
-                        <div className="w-1/5" data-aos='fade-up'>
+                    <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
+                        <div className="w-1/3 md:w-1/5 mb-10" data-aos='fade-up'>
                             <img
                                 src={peugeot}
                                 alt="Référencement Toulouse"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='200'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='200'>
                             <img
                                 src={normand}
                                 alt="Référencement Agen"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='400'>
+                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='400'>
                             <img
                                 src={onco}
                                 alt="Agence Référencement Toulouse"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='600'>
+                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
                             <img
                                 src={tlse}
                                 alt="Référencement Toulouse"
                             />
                         </div>
-                        <div className="w-1/5" data-aos='fade-up' data-aos-delay='800'>
+                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
                             <img
                                 src={sdis}
                                 alt="Référencement Agen"
@@ -122,7 +122,7 @@ class ReferencementToulouse extends React.Component {
                         <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h2>
                             <p>Vous souhaitez obtenir un <strong>retour sur investissement</strong> grâce à votre <strong>boutique en ligne</strong> ou votre <strong>site vitrine</strong> ? Mener une campagne sponsorisée permet de propulser votre visibilité sur Google en un temps record, et ainsi, atteindre vos objectifs de conversion.</p>
-                            <RoundButton url="/agence-adwords-47-31/" text="Notre offre de Référencement Ads" />
+                            <RoundButton color="darkgrey" url="/agence-adwords-47-31/" text="Notre offre de Référencement Ads" />
                         </div>
 
                     </section>
@@ -279,7 +279,8 @@ class ReferencementToulouse extends React.Component {
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                            <RappelForm />
+                            {/* <RappelForm /> */}
+                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer ma visibilité sur internet" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">

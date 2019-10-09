@@ -4,8 +4,9 @@ import Layout from "../components/layout";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
-import RappelForm from "../components/rappelForm";
 import ButtonBlog from "../components/buttonblog";
+import RoundButton from "../components/roundButton.js";
+// import RappelForm from "../components/rappelForm";
 import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
@@ -70,8 +71,9 @@ render() {
                                             Vous souhaitez être recontacté pour la mise en place de votre solution web ?
                                         </h2>
                                     </div>
-                                    <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                                    <RappelForm />
+                                    <div className="max-w-6xl mx-auto flex text-center mt-12 mb-12">
+                                    {/* <RappelForm /> */}
+                                    <RoundButton color="darkgrey" url="/contact-agence-web-toulouse" text="Contactez-nous" />
                                     </div>
                                 </section>
                                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">

@@ -158,7 +158,8 @@ class MentionsLegales extends React.Component {
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                            <RappelForm />
+                            {/* <RappelForm /> */}
+                            <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex items-start text-center my-12 flex-col md:flex-row">
