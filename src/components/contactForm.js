@@ -26,22 +26,22 @@ class ContactForm extends React.Component {
         event.preventDefault()
         console.log(JSON.stringify(this.state));
 
-        // axios({
-        //     method: 'post',
-        //     url:'https://linkweb.fr/data/form.php',
-        //     headers: {'content-type': 'application/json' },
-        //     data: this.state
-        // })
-        // .then(result=>{this.setState({
-        //     mailSent: result.data.sent
-        //     })
+        axios({
+            method: 'post',
+            url:'https://linkweb.fr/data/form.php',
+            headers: {'content-type': 'application/json' },
+            data: this.state
+        })
+        .then(result=>{this.setState({
+            mailSent: result.data.sent
+            })
             
-        // })
-        // .catch(error=>{this.setState({
-        //     error: error.message,
-        //     })
-        //     //console.log(JSON.stringify(this.state));
-        // });
+        })
+        .catch(error=>{this.setState({
+            error: error.message,
+            })
+            //console.log(JSON.stringify(this.state));
+        });
     }
 
     render(){
