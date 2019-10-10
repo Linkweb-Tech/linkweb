@@ -18,8 +18,8 @@ class LastPosts extends React.Component {
                     lastposts.map(( {node} ) => (
                         <article className="w-full mx-0 md:px-0 pb-1 flex flex-col align-center  sidebarPosts">
                             <div className="pb-3">
-                                <a
-                                    href="https://new.linkweb.fr/blog/${node.slug}"
+                                <Link
+                                    to={`/blog/${node.slug}`}
                                     className="century uppercase  flex "
                                 >
                                     <div className="imgBloc" >
@@ -29,7 +29,7 @@ class LastPosts extends React.Component {
                                         <h5 className="text-xs text-left px-3 hover:text-bleu">{ node.title }</h5>
                                        
                                     </div>                                    
-                                </a>
+                                </Link>
                                 <div className=" meta text-xs text-left italic">Publié le { node.modified }</div>
                             </div>
                            
