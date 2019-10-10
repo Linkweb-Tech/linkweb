@@ -32,11 +32,9 @@ class ContactForm extends React.Component {
             headers: {'content-type': 'application/json' },
             data: this.state
         })
-        .then(result=>{this.setState({
-            mailSent: true
-            })
-            console.log(result)
-            
+        .then( result => {
+            this.setState({ mailSent: result.data.sent })
+            console.log(result.data.sent)
         })
         .catch(error=>{this.setState({
             error: error.message,

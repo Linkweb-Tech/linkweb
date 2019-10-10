@@ -1,5 +1,6 @@
 import React from 'react'
 import Tile from './tile'
+import '../../scss/tiles.scss';
 
 import faivre1 from '../../images/faivre1.jpg'
 import faivre2 from '../../images/faivre2.jpg'

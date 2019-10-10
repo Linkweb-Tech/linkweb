@@ -8,7 +8,7 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Tiles from '../components/gallery/tiles';
-import '../scss/tiles.scss';
+
 
 
 import Bg from "../images/agence-de-communication-background.jpg";

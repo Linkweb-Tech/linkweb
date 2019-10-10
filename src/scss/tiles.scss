@@ -20,26 +20,6 @@
 	&:hover {
 		transform: scale(1.1);
 	}
-
-	@media(max-width: 998px){
-		width: 50%;
-
-		a {
-			img {
-				width: 100%;
-			}
-		}
-	}
-
-	@media(max-width: 768px){
-		width: 100%;
-
-		a {
-			img {
-				width: 100%;
-			}
-		}
-	}
 }
 
 	
@@ -94,4 +74,35 @@
 			}
 		}
 	}
+}
+
+
+@media(max-width: 768px){
+	
+	body .tile {
+		width: 100% !important;
+
+		a.referenceItem {
+			img {
+				width: 100% !important;
+			}
+		}
+	}
+	
+}
+
+@media(max-width: 998px){
+	.tile {
+		width: 50% !important;
+
+		a.referenceItem {
+			img {
+				width: 100% !important;
+			}
+			h4 {
+				font-size: 1rem !important;
+			}
+		}
+	}
+	
 }
