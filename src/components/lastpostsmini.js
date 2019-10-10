@@ -1,5 +1,6 @@
 import React from 'react'
 import '../scss/lastpostsmini.scss'
+import {Link} from 'gatsby'
 
 
 
