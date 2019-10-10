@@ -16,7 +16,7 @@ class CategoriesList extends React.Component {
             <section className="flex flex-col justify-center items-start pl-3">
                 {
                     list.map(( {node} ) => (
-                        <a className="hover:text-bleu" href={node.link}><span> {node.name} </span></a>
+                        <a className="hover:text-bleu" href={`/blog/category/${node.slug}`}><span> {node.name} </span></a>
                     ))
                 }
             </section>
