@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 import '../scss/blogposts.scss'
 
 
@@ -24,13 +25,13 @@ class LastPosts extends React.Component {
                                 /> */}
                                 
                                 
-                                <a
-                                    href={node.link}
+                                <Link
+                                    to={`/blog/${node.slug}`}
                                     className="century uppercase pb-3"
                                 >
                                     <div className="h-64 bg-cover bg-center" style={{backgroundImage:'url(' + node.featured_media.source_url +')'}}></div>
                                     <h3 className="text-left px-3 pt-3  text-sm hover:text-bleu">{ node.title }</h3>
-                                </a>
+                                </Link>
                                 <div className=" meta text-sm text-left italic pl-3">Publié le { node.modified }</div>
                             </div>
                            

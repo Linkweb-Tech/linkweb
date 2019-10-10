@@ -17,7 +17,7 @@ const Blue = posed.span({
         }
     },
     closed: { 
-        y: 600, 
+        y: 700, 
         opacity: 1,
         transition: {
             duration: 300,
@@ -60,7 +60,7 @@ const BigTitle = posed.h1({
         
     },
     closed: { 
-        y: -600, 
+        y: -700, 
         opacity: 1,
         transition: {
             duration: 400,
@@ -81,7 +81,7 @@ const SmallTitle = posed.h2({
         
     },
     closed: { 
-        x: 800, 
+        x: 900, 
         opacity: 1,
         transition: {
             duration: 800,

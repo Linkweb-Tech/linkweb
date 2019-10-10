@@ -19,7 +19,7 @@ class LastPosts extends React.Component {
                         <article className="w-full mx-0 md:px-0 pb-1 flex flex-col align-center  sidebarPosts">
                             <div className="pb-3">
                                 <a
-                                    href={node.link}
+                                    href="https://new.linkweb.fr/blog/${node.slug}"
                                     className="century uppercase  flex "
                                 >
                                     <div className="imgBloc" >
