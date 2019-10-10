@@ -35,6 +35,7 @@ class ContactForm extends React.Component {
         .then(result=>{this.setState({
             mailSent: result.data.sent
             })
+            console.log(result)
             
         })
         .catch(error=>{this.setState({
