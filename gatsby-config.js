@@ -62,8 +62,8 @@ module.exports = {
         perPage: 100,
         // Search and Replace Urls across WordPress content.
         searchAndReplaceContentUrls: {
-          sourceUrl: "https://source-url.com",
-          replacementUrl: "https://replacement-url.com",
+          sourceUrl: "https://api.linkweb.fr",
+          replacementUrl: "https://linkweb.fr",
         },
         // Set how many simultaneous requests are sent at once.
         concurrentRequests: 10,
@@ -126,6 +126,26 @@ module.exports = {
         tailwind: true,
         purgeOnly: [`src/css/style.css`]
       }
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-WJMB7VQ",
+  
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+  
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+  
+        // Specify optional GTM environment details.
+        // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+        // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+        // dataLayerName: "YOUR_DATA_LAYER_NAME",
+      },
     },
     `gatsby-plugin-offline`
   ]
