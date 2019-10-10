@@ -33,7 +33,7 @@ class ContactForm extends React.Component {
             data: this.state
         })
         .then(result=>{this.setState({
-            mailSent: result.data.sent
+            mailSent: true
             })
             console.log(result)
             
