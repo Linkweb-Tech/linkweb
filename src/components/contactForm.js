@@ -1,6 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 import "../scss/form.scss";
+import ReactNotification from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
+import { store } from 'react-notifications-component';
 
 class ContactForm extends React.Component {
 
@@ -19,12 +22,12 @@ class ContactForm extends React.Component {
         }
     }
     
-
+    
 
 
     handleFormSubmit (event) {
         event.preventDefault()
-        console.log(JSON.stringify(this.state));
+        //console.log(JSON.stringify(this.state));
 
         axios({
             method: 'post',
@@ -34,7 +37,8 @@ class ContactForm extends React.Component {
         })
         .then( result => {
             this.setState({ mailSent: result.data.sent })
-            console.log(result.data.sent)
+            let isOK = result.data.sent
+
         })
         .catch(error=>{this.setState({
             error: error.message,
@@ -44,6 +48,19 @@ class ContactForm extends React.Component {
     }
 
     render(){
+        store.addNotification({
+            title: "Wonderful!",
+            message: "teodosii@react-notifications-component",
+            type: "success",
+            insert: "top",
+            container: "top-right",
+            animationIn: ["animated", "fadeIn"],
+            animationOut: ["animated", "fadeOut"],
+            dismiss: {
+              duration: 5000,
+              onScreen: true
+            }
+          });
         return(
             <form onSubmit={this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto">
 
@@ -130,6 +147,7 @@ class ContactForm extends React.Component {
 
                     />
                 </div>
+                <ReactNotification />
                 <div className="w-full flex justify-center mt-12 mb-12">
                      <button onClick={e=>this.handleFormSubmit(e)} className="bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
                 </div>
