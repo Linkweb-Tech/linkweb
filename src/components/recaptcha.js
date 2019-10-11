@@ -29,4 +29,4 @@ class ReCaptchaBlock extends Component {
   };
 };
 
-export default RecaptchaBlock;
+export default ReCaptchaBlock;
