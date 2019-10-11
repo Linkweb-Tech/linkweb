@@ -32,7 +32,10 @@ const BlogPostTemplate = ({ data }) => (
                         </p>
         </section>
         <section className="px-6 lg:px-64 font-bold">
-          <Link className="hover:text-bleu" to="/actualite-digitale"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" href={data.wordpressPost.categories[0].link}>{data.wordpressPost.categories[0].name}</a> <span className="text-bleu">>></span> <Link className="hover:text-bleu" to={data.wordpressPost.slug}>{data.wordpressPost.title}</Link> 
+          <Link className="hover:text-bleu" to="/actualite-digitale"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" 
+          href={`/category/${$data.wordpressPost.categories[0].slug}`}>{data.wordpressPost.categories[0].name}</a> 
+            <span className="text-bleu">>></span> 
+            <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}`}>{data.wordpressPost.title}</Link> 
         </section>
         <section className="flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
         <div className="px-6 lg:px-48 py-24 w-full xl:w-3/4 post_content" style={{ marginTop: 20 }} dangerouslySetInnerHTML={{ __html: data.wordpressPost.content }} />
