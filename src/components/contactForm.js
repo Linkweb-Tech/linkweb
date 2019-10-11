@@ -73,12 +73,12 @@ class ContactForm extends React.Component {
                 }
 
             } else {
-                let nom = 'test';
+                let nom = '';
                 let prenom = '';
                 let tel = '';
                 let message = '';
                 let adresse = '';
-                let objet = 'test';
+                let objet = '';
                 let email = '';
                 if(!result.data.nameMessage === ''){
                     nom = 'Nom ';
@@ -104,7 +104,7 @@ class ContactForm extends React.Component {
                 store.addNotification({
                     id: "notif",
                     title: "Certains champs sont manquants ou incomplets",
-                    message: "Veuillez corriger les champs avant de valider ce formulaire" + nom + prenom + tel + message + adresse + objet + email ,
+                    message: "Veuillez corriger les champs avant de valider ce formulaire : " + nom + prenom + tel + message + adresse + objet + email ,
                     type: "danger",
                     insert: "top",
                     container: "top-right",
