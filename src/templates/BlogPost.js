@@ -33,7 +33,7 @@ const BlogPostTemplate = ({ data }) => (
         </section>
         <section className="px-6 lg:px-64 font-bold">
           <Link className="hover:text-bleu" to="/actualite-digitale"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" 
-          href={`/category/${$data.wordpressPost.categories[0].slug}`}>{data.wordpressPost.categories[0].name}</a> 
+          href={`/category/${data.wordpressPost.categories[0].slug}`}>{data.wordpressPost.categories[0].name}</a> 
             <span className="text-bleu">>></span> 
             <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}`}>{data.wordpressPost.title}</Link> 
         </section>
