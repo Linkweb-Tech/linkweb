@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /https://linkweb.fr/pronto11/product/crew-sweatshirt/
+Noindex: /https://linkweb.fr/pronto11/product/crew-sweatshirt/
+Sitemap: https://linkweb.fr/sitemap.xml

@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://linkweb.fr`, 
     title: `Linkweb`,
     description: `Linkweb, agence web de création de site internet à Agen (47) et Toulouse (31).`,
     author: `@AgenceLinkweb`
@@ -147,6 +148,7 @@ module.exports = {
         // dataLayerName: "YOUR_DATA_LAYER_NAME",
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`
   ]
 };
