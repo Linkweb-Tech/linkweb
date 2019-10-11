@@ -49,7 +49,7 @@ class ContactForm extends React.Component {
         } else {
             axios({
                 method: 'post',
-                url:'https://new.linkweb.fr/data/form.php',
+                url:'https://api.linkweb.fr/data/form.php',
                 // url:'../form.php',
                 headers: {'content-type': 'application/json' },
                 data: this.state
