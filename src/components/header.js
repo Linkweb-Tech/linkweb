@@ -88,7 +88,7 @@ class Header extends React.Component {
               className="w-6 fill-current"
             />
           </a>
-          <a href="/contact-agence-web-toulouse" rel="noreferrer noopener" className="flex items-center no-underline text-white block md:hidden svg-white">
+          <a href="/contact-agence-web-toulouse"  className="flex items-center no-underline text-white block md:hidden svg-white">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="23" width="24" viewBox="0 0 511.626 511.626">
               <g>
 	              <g>
