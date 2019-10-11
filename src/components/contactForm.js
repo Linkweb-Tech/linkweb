@@ -229,10 +229,7 @@ class ContactForm extends React.Component {
                     />
                 </div>
                 <ReactNotification />
-                <ReCaptcha
-                    sitekey="6LdgIb0UAAAAAMv6X2v-DPG2LDQ_yxKZq0IO2NvQ"
-                    action='contactpage'
-                />
+                <ReCaptcha />
 
                 <div className="w-full flex justify-center mt-12 mb-12">
                      <button onClick={e=>this.handleFormSubmit(e)} className="bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
