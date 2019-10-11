@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ReCaptcha } from 'react-recaptcha-v3'
 
-class ReCaptcha extends Component {
+class ReCaptchaBlock extends Component {
 
   verifyCallback = (recaptchaToken) => {
     // Here you will get the final recaptchaToken!!!  
@@ -29,4 +29,4 @@ class ReCaptcha extends Component {
   };
 };
 
-export default Recaptcha;
+export default RecaptchaBlock;
