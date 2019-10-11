@@ -38,6 +38,21 @@ class ContactForm extends React.Component {
         .then( result => {
             this.setState({ mailSent: result.data.sent })
             let isOK = result.data.sent
+            if (isOK === true) {
+                store.addNotification({
+                    title: "Votre message a bien été pris en compte!",
+                    message: "Nous reviendrons vers vous d'ici les prochaines 24h",
+                    type: "success",
+                    insert: "top",
+                    container: "top-right",
+                    animationIn: ["animated", "fadeIn"],
+                    animationOut: ["animated", "fadeOut"],
+                    dismiss: {
+                      duration: 5000,
+                      onScreen: true
+                    }
+                  });
+            }
 
         })
         .catch(error=>{this.setState({
@@ -48,19 +63,7 @@ class ContactForm extends React.Component {
     }
 
     render(){
-        store.addNotification({
-            title: "Wonderful!",
-            message: "teodosii@react-notifications-component",
-            type: "success",
-            insert: "top",
-            container: "top-right",
-            animationIn: ["animated", "fadeIn"],
-            animationOut: ["animated", "fadeOut"],
-            dismiss: {
-              duration: 5000,
-              onScreen: true
-            }
-          });
+        
         return(
             <form onSubmit={this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto">
 
