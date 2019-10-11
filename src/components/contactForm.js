@@ -31,7 +31,8 @@ class ContactForm extends React.Component {
 
         axios({
             method: 'post',
-            url:'https://linkweb.fr/data/form.php',
+            // url:'https://linkweb.fr/data/form.php',
+            url:'../form.php',
             headers: {'content-type': 'application/json' },
             data: this.state
         })
@@ -49,8 +50,8 @@ class ContactForm extends React.Component {
                     title: "Votre message a bien été pris en compte!",
                     message: "Nous reviendrons vers vous d'ici les prochaines 24h",
                     type: "success",
-                    insert: "bottom",
-                    container: "bottom-right",
+                    insert: "top",
+                    container: "top-right",
                     animationIn: ["animated", "fadeIn"],
                     animationOut: ["animated", "fadeOut"],
                     dismiss: {
@@ -103,10 +104,10 @@ class ContactForm extends React.Component {
                 store.addNotification({
                     id: "notif",
                     title: "Certains champs sont manquants ou incomplets",
-                    message: "Veuillez corriger les champs avant de valider ce formulaire" + nom + prenom + tel + message + adresse + objet +email,
+                    message: "Veuillez corriger les champs avant de valider ce formulaire" + nom + prenom + tel + message + adresse + objet + email + "merde",
                     type: "danger",
                     insert: "top",
-                    container: "bottom-center",
+                    container: "top-right",
                     animationIn: ["animated", "fadeIn"],
                     animationOut: ["animated", "fadeOut"],
                     dismiss: {

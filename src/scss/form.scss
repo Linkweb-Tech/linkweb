@@ -3,6 +3,8 @@
     bottom: -2px;
 }
 
-#notif, .notification-container-bottom-right {
+#notif, .notification-container-bottom-right, .notification-item 
+    {
     z-index: 5000;
+    top: 115px !important;
 }
