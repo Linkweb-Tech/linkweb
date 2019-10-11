@@ -3,7 +3,8 @@ import axios from 'axios';
 import "../scss/form.scss";
 import ReactNotification from 'react-notifications-component'
 import 'react-notifications-component/dist/theme.css'
-import { store } from 'react-notifications-component';
+import { store } from 'react-notifications-component'
+import { loadReCaptcha } from 'react-recaptcha-v3'
 
 class ContactForm extends React.Component {
 
@@ -22,8 +23,9 @@ class ContactForm extends React.Component {
         }
     }
     
-    
-
+    componentDidMount(){
+        loadReCaptcha('6LdgIb0UAAAAAMv6X2v-DPG2LDQ_yxKZq0IO2NvQ')
+    }
 
     handleFormSubmit (event) {
         event.preventDefault()
@@ -46,7 +48,7 @@ class ContactForm extends React.Component {
         } else {
             axios({
                 method: 'post',
-                url:'https://linkweb.fr/data/form.php',
+                url:'https://new.linkweb.fr/data/form.php',
                 // url:'../form.php',
                 headers: {'content-type': 'application/json' },
                 data: this.state
@@ -227,6 +229,11 @@ class ContactForm extends React.Component {
                     />
                 </div>
                 <ReactNotification />
+                <ReCaptcha
+                    sitekey="6LdgIb0UAAAAAMv6X2v-DPG2LDQ_yxKZq0IO2NvQ"
+                    action='contactpage'
+                />
+
                 <div className="w-full flex justify-center mt-12 mb-12">
                      <button onClick={e=>this.handleFormSubmit(e)} className="bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
                 </div>
