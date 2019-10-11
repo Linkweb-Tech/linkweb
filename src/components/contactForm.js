@@ -41,10 +41,6 @@ class ContactForm extends React.Component {
             console.log(result.data)
             let isOK = result.data.sent
             if (isOK === true) {
-                
-
-
-
                 store.addNotification({
                     id: "notif",
                     title: "Votre message a bien été pris en compte!",
@@ -80,25 +76,25 @@ class ContactForm extends React.Component {
                 let adresse = '';
                 let objet = '';
                 let email = '';
-                if(!result.data.nameMessage === ''){
+                if(!result.data.nameMessage == ''){
                     nom = 'Nom ';
                 }
-                if(!result.data.prenomMessage === ''){
+                if(!result.data.prenomMessage == ''){
                     prenom = 'Prénom ';
                 }
-                if(!result.data.phoneMessage === ''){
+                if(!result.data.phoneMessage == ''){
                     tel = 'Téléphone ';
                 }
-                if(!result.data.messageMessage === ''){
+                if(!result.data.messageMessage == ''){
                     message = 'Message ';
                 }
-                if(!result.data.adresseMessage === ''){
+                if(!result.data.adresseMessage == ''){
                     adresse = 'Adresse ';
                 }
-                if(!result.data.objectMessage === ''){
+                if(!result.data.objectMessage == ''){
                     object = 'Objet ';
                 }
-                if(!result.data.emailMessage === ''){
+                if(!result.data.emailMessage == ''){
                     email = 'Email ';
                 }
                 store.addNotification({
@@ -111,7 +107,7 @@ class ContactForm extends React.Component {
                     animationIn: ["animated", "fadeIn"],
                     animationOut: ["animated", "fadeOut"],
                     dismiss: {
-                        duration: 100000,
+                        duration: 5000,
                         onScreen: true
                     }
                 });
