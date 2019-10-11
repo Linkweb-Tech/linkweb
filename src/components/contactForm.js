@@ -31,8 +31,8 @@ class ContactForm extends React.Component {
 
         axios({
             method: 'post',
-            // url:'https://linkweb.fr/data/form.php',
-            url:'../form.php',
+            url:'https://linkweb.fr/data/form.php',
+            // url:'../form.php',
             headers: {'content-type': 'application/json' },
             data: this.state
         })
@@ -73,38 +73,38 @@ class ContactForm extends React.Component {
                 }
 
             } else {
-                let nom = '';
+                let nom = 'test';
                 let prenom = '';
                 let tel = '';
                 let message = '';
                 let adresse = '';
-                let objet = '';
+                let objet = 'test';
                 let email = '';
                 if(!result.data.nameMessage === ''){
-                    nom = 'Nom';
+                    nom = 'Nom ';
                 }
                 if(!result.data.prenomMessage === ''){
-                    prenom = 'Prénom';
+                    prenom = 'Prénom ';
                 }
                 if(!result.data.phoneMessage === ''){
-                    tel = 'Téléphone';
+                    tel = 'Téléphone ';
                 }
                 if(!result.data.messageMessage === ''){
-                    message = 'Message';
+                    message = 'Message ';
                 }
                 if(!result.data.adresseMessage === ''){
-                    adresse = 'Adresse';
+                    adresse = 'Adresse ';
                 }
                 if(!result.data.objectMessage === ''){
-                    object = 'Objet';
+                    object = 'Objet ';
                 }
                 if(!result.data.emailMessage === ''){
-                    email = 'Email';
+                    email = 'Email ';
                 }
                 store.addNotification({
                     id: "notif",
                     title: "Certains champs sont manquants ou incomplets",
-                    message: "Veuillez corriger les champs avant de valider ce formulaire" + nom + prenom + tel + message + adresse + objet + email + "merde",
+                    message: "Veuillez corriger les champs avant de valider ce formulaire" + nom + prenom + tel + message + adresse + objet + email ,
                     type: "danger",
                     insert: "top",
                     container: "top-right",
