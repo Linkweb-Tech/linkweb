@@ -17,16 +17,9 @@ class ReCaptchaBlock extends Component {
             action='contactpage'
             verifyCallback={this.verifyCallback}
         />
-
-        <h2>Google ReCaptcha with React </h2>
-
-        <code>
-          1. Add <strong>your site key</strong> in the ReCaptcha component. <br/>
-          2. Check <strong>console</strong> to see the token.
-        </code>
       </div>
     );
   };
 };
 
-export default ReCaptchaBlock;
+export default ReaptchaBlock;
