@@ -41,6 +41,7 @@ class ContactForm extends React.Component {
             let isOK = result.data.sent
             if (isOK === true) {
                 store.addNotification({
+                    id: "notif",
                     title: "Votre message a bien été pris en compte!",
                     message: "Nous reviendrons vers vous d'ici les prochaines 24h",
                     type: "success",
@@ -52,7 +53,18 @@ class ContactForm extends React.Component {
                       duration: 5000,
                       onScreen: true
                     }
-                });
+                })
+                this.setState = {
+                    email: "",
+                    nom: "",
+                    prenom: "",
+                    telephone: "",
+                    ville: "",
+                    objet: "",
+                    message: "",
+                    mailSent: false,
+                    error: null
+                }
             } else {
                 store.addNotification({
                     title: "Certains champs sont manquants ou incomplets",
