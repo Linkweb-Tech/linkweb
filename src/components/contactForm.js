@@ -40,6 +40,10 @@ class ContactForm extends React.Component {
             console.log(result.data)
             let isOK = result.data.sent
             if (isOK === true) {
+                
+
+
+
                 store.addNotification({
                     id: "notif",
                     title: "Votre message a bien été pris en compte!",
@@ -54,6 +58,7 @@ class ContactForm extends React.Component {
                       onScreen: true
                     }
                 })
+
                 this.setState = {
                     email: "",
                     nom: "",
@@ -65,17 +70,47 @@ class ContactForm extends React.Component {
                     mailSent: false,
                     error: null
                 }
+
             } else {
+                let nom = '';
+                let prenom = '';
+                let tel = '';
+                let message = '';
+                let adresse = '';
+                let objet = '';
+                let email = '';
+                if(!result.data.nameMessage === ''){
+                    nom = 'Nom';
+                }
+                if(!result.data.prenomMessage === ''){
+                    prenom = 'Prénom';
+                }
+                if(!result.data.phoneMessage === ''){
+                    tel = 'Téléphone';
+                }
+                if(!result.data.messageMessage === ''){
+                    message = 'Message';
+                }
+                if(!result.data.adresseMessage === ''){
+                    adresse = 'Adresse';
+                }
+                if(!result.data.objectMessage === ''){
+                    object = 'Objet';
+                }
+                if(!result.data.emailMessage === ''){
+                    email = 'Email';
+                }
                 store.addNotification({
+                    id: "notif",
                     title: "Certains champs sont manquants ou incomplets",
-                    message: "Veuillez corriger les champs avant de valider ce formulaire",
+                    message: "Veuillez corriger les champs avant de valider ce formulaire" + nom + prenom + tel + message + adresse + objet +email,
                     type: "danger",
-                    insert: "bottom",
-                    container: "bottom-right",
+                    insert: "top",
+                    container: "bottom-center",
                     animationIn: ["animated", "fadeIn"],
                     animationOut: ["animated", "fadeOut"],
                     dismiss: {
-                        duration: 5000,
+                        duration: 100000,
                         onScreen: true
                     }
                 });

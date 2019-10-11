@@ -21,7 +21,7 @@ class Header extends React.Component {
     
   }
   componentDidMount() {
-    console.log(this.state)
+    //console.log(this.state)
     const nav = document.querySelector('nav');
     const navTop = nav.offsetTop;
   
