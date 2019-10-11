@@ -37,21 +37,36 @@ class ContactForm extends React.Component {
         })
         .then( result => {
             this.setState({ mailSent: result.data.sent })
+            console.log(result.data)
             let isOK = result.data.sent
             if (isOK === true) {
                 store.addNotification({
                     title: "Votre message a bien été pris en compte!",
                     message: "Nous reviendrons vers vous d'ici les prochaines 24h",
                     type: "success",
-                    insert: "top",
-                    container: "top-right",
+                    insert: "bottom",
+                    container: "bottom-right",
                     animationIn: ["animated", "fadeIn"],
                     animationOut: ["animated", "fadeOut"],
                     dismiss: {
                       duration: 5000,
                       onScreen: true
                     }
-                  });
+                });
+            } else {
+                store.addNotification({
+                    title: "Certains champs sont manquants ou incomplets",
+                    message: "Veuillez corriger les champs avant de valider ce formulaire",
+                    type: "danger",
+                    insert: "bottom",
+                    container: "bottom-right",
+                    animationIn: ["animated", "fadeIn"],
+                    animationOut: ["animated", "fadeOut"],
+                    dismiss: {
+                        duration: 5000,
+                        onScreen: true
+                    }
+                });
             }
 
         })
