@@ -24,6 +24,8 @@ class Accordion extends Component {
       }
     });
 
+
+    
     this.state = { openSections };
   }
 
