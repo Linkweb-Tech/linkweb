@@ -154,3 +154,16 @@ footer {
     }
 }
 
+.cookieConsent {
+    button {
+        background-color: #37c5ee !important;
+        color: #ffffff !important;
+        transition: all ease 0.8s;
+
+        &:hover {
+            background-color: white !important;
+            color: #37c5ee !important;
+            transition: all ease 0.8s;
+        }
+    }
+}

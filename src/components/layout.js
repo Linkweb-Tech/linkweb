@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import CookieConsent from 'react-cookie-consent';
 import Header from "./header";
 import Footer from "./footer";
 import "../scss/global.scss";
@@ -31,6 +32,19 @@ class Layout extends React.Component {
           {children}
         </main>
         <Footer />
+        <CookieConsent
+            location="bottom"
+            enableDeclineButton
+            flipButtons
+            declineButtonText="Non pas d'accord"
+            buttonText="J'accepte"
+            cookieName="Mercury"
+            style={{ background: "#000000" }}
+            buttonStyle={{ color: "#37c5ee", fontSize: "16px" }}
+            expires={150}
+        >
+            Ce site utilise les cookie afin d'ameliorer l'expérience utilisateur, c'est bon pour vous ?{" "}
+        </CookieConsent>
       </div>
     )
   }

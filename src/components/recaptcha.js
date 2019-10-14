@@ -13,7 +13,7 @@ class ReCaptchaBlock extends Component {
       <div>
 
         <ReCaptcha
-            sitekey="6LdgIb0UAAAAAMv6X2v-DPG2LDQ_yxKZq0IO2NvQ"
+            sitekey="6LfT84MUAAAAADxf0gSSMIhpMWh2CIAKHdobtTtq"
             action='contactpage'
             verifyCallback={this.verifyCallback}
         />

@@ -25,7 +25,7 @@ class ContactForm extends React.Component {
     }
     
     componentDidMount(){
-        loadReCaptcha('6LdgIb0UAAAAAMv6X2v-DPG2LDQ_yxKZq0IO2NvQ')
+        loadReCaptcha('6LfT84MUAAAAADxf0gSSMIhpMWh2CIAKHdobtTtq')
     }
 
     handleFormSubmit (event) {
