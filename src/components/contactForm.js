@@ -233,7 +233,7 @@ class ContactForm extends React.Component {
                 <ReCaptchaBlock />
 
                 <div className="w-full flex justify-center mt-12 mb-12">
-                     <button onClick={e=>this.handleFormSubmit(e)} className="bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
+                     <button onClick={e=>this.handleFormSubmit(e)} className="contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
                 </div>
                
             </form>
