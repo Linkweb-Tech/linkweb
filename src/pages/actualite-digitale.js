@@ -143,7 +143,7 @@ query lastsThreePostsActualitedigitale {
             id
             title
             slug
-            modified(locale: "fr", formatString: "ddd MM YYYY")
+            modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
             featured_media {
                 source_url
@@ -157,7 +157,7 @@ query lastsThreePostsActualitedigitale {
             id
             title
             slug
-            modified(locale: "fr", formatString: "ddd MM YYYY")
+            modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
             featured_media {
                 source_url
@@ -180,7 +180,7 @@ query lastsThreePostsActualitedigitale {
             id
             title
             slug
-            modified(locale: "fr", formatString: "ddd MM YYYY")
+            modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
             featured_media {
                 source_url

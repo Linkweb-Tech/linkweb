@@ -400,7 +400,7 @@ query lastsThreePostsRef {
           id
           title
           slug
-          modified(locale: "fr", formatString: "dd MMMM YYYY")
+          modified(locale: "fr", formatString: "DD/MM/YYYY")
           link
           featured_media {
             source_url

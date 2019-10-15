@@ -113,7 +113,7 @@ export const query = graphql`
       content
       excerpt
       slug
-      date(formatString: "DD MMMM, YYYY", locale: "fr")
+      date(formatString: "dddd DD MMMM YYYY", locale: "fr")
       link
       author {
         name
@@ -137,7 +137,7 @@ export const query = graphql`
           id
           title
           slug
-          modified(locale: "fr", formatString: "ddd MM YYYY")
+          modified(locale: "fr", formatString: "DD/MM/YYYY")
           link
           featured_media {
               source_url

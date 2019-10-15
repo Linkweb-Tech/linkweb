@@ -31,7 +31,7 @@ class LastPosts extends React.Component {
                                        
                                     </div>                                    
                                 </Link>
-                                <div className=" meta text-xs text-left italic">Publié le { node.modified }</div>
+                                <div className=" meta text-xs text-left italic">Mis à jour le { node.modified }</div>
                             </div>
                            
                         </article>

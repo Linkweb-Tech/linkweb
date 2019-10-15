@@ -32,7 +32,7 @@ class LastPosts extends React.Component {
                                     <div className="h-64 bg-cover bg-center" style={{backgroundImage:'url(' + node.featured_media.source_url +')'}}></div>
                                     <h3 className="text-left px-3 pt-3  text-sm hover:text-bleu">{ node.title }</h3>
                                 </Link>
-                                <div className=" meta text-sm text-left italic pl-3">Publié le { node.modified }</div>
+                                <div className=" meta text-sm text-left italic pl-3">Mis à jour le { node.modified }</div>
                             </div>
                            
                         </article>
