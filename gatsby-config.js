@@ -161,10 +161,10 @@ module.exports = {
         // // Setting this parameter is also optional
         // respectDNT: true,
         // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "linkweb.fr",
+        // pageTransitionDelay: 0,
+        // sampleRate: 5,
+        // siteSpeedSampleRate: 10,
+        // cookieDomain: "linkweb.fr",
       },
     }
   ]
