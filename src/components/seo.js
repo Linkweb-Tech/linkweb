@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               {
               "@type":"WebPage",
               "@id":"${url}/#webpage",
-              "url": "${url}",
+              "url":"${url}",
               "inLanguage":"fr-FR",
               "name":"${title}",
               "isPartOf":{
