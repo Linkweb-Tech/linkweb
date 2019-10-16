@@ -70,13 +70,13 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
         "@type": "BlogPosting",
         "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://linkweb.fr/${slug}"
+        "@id": "https://linkweb.fr/blog/${slug}"
       },
         "headline": "${title}",
         "description": "${metaDescription}",
         "image": {
             "@type": "ImageObject",
-            "url": "https://linkweb.fr/${slug}",
+            "url": "https://linkweb.fr/blog/${slug}",
             "width": "",
             "height": ""
       },
