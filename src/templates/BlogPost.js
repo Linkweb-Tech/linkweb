@@ -20,7 +20,7 @@ import instaIcon from "../images/instagram-logo.svg";
 
 const BlogPostTemplate = ({ data }) => (
     <Layout location={data.wordpressPost.title}>
-        <SEO title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={data.wordpressPost.link}/>
+        <SEO article={true} title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={data.wordpressPost.link}/>
         <section className="w-full h-screen mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundColor:'#00000094', backgroundBlendMode:'multiply', backgroundImage: 'url(' + data.wordpressPost.featured_media.source_url + ')' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-32 text-5xl sm:text-6xl text-center text-white">
                         {data.wordpressPost.title}
