@@ -23,10 +23,15 @@
     p {
         margin-top: 25px;
         font-size: 15px;
+        text-align: justify;
+        text-align-last:center;
     }
     img {
         margin-left:auto;
         margin-right:auto;
         display:block;
+    }
+    ul {
+        list-style:inside;
     }
 }
