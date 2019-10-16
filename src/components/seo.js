@@ -4,34 +4,63 @@ import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import linkwebLogo from "../images/linkweb-black.png";
 
-function SEO({ description, lang, meta, keywords, title, url, article }) {
+function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified }) {
   return (
+    
     <StaticQuery
       query={detailsQuery}
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description;
+          let canonical = 'https://linkweb.fr';
           let json = '';
           if ( article == false ) {
             json = `
             {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "name": "Linkweb",
-              "description": "Linkweb, agence web à Agen (47) et Toulouse (31), est spécialisée dans la création de site internet, le référencement naturel et le référencement payant.",
-              "image": ${linkwebLogo},
-              "logo": "https://linkweb.fr",
-              "url": "https://linkweb.fr",
-              "telephone": "0533950030",
-              "sameAs": ["https://twitter.com/AgenceLinkweb","https://www.facebook.com/AgenceLinkweb","https://www.instagram.com/agencelinkweb"],
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "10 rue Albert Ferrasse",
-                "addressLocality": "Boé",
-                "postalCode": "47550",
-                "addressCountry": "France"
+              "@context":"https://schema.org",
+              "@graph":[{"@type":"Organization",
+              "@id":"https://linkweb.fr/#organization",
+              "name":"",
+              "url":"https://linkweb.fr/","sameAs":[]},
+                {"@type":"WebSite",
+                "@id":"https://linkweb.fr/#website",
+                "url":"https://linkweb.fr/",
+                "name":"Linkweb",
+              "publisher":{
+                "@id":"https://linkweb.fr/#organization"},
+                "potentialAction":
+                  {"@type":"SearchAction",
+                  "target":"https://linkweb.fr/?s={search_term_string}",
+                  "query-input":"required name=search_term_string"}
+              },
+              {
+              "@type":"WebPage",
+              "@id":"${url}/#webpage",
+              "url": "${url}",
+              "inLanguage":"fr-FR",
+              "name":"${title}",
+              "isPartOf":{
+                "@id":"https://linkweb.fr/#website"
+              },
+                "description":"${metaDescription}",	
+                "breadcrumb":{
+                    "@id":"${url}/#breadcrumb"}
+              },
+              {"@type":"BreadcrumbList",
+              "@id":"${url}/#breadcrumb",
+              "itemListElement":[{"@type":"ListItem","position":1,
+              "item":{"@type":"WebPage","@id":"https://linkweb.fr/","url":"https://linkweb.fr/","name":"Accueil"}},
+              {"@type":"ListItem",
+              "position":2,
+              "item":{"@type":"WebPage",
+              "@id":"${url}",
+              "url":"${url}",
+              "name":"${url}"}
               }
-            }
+              ]
+              }
+              ]
+              }
             `
 } else {
     json = 
@@ -41,15 +70,15 @@ function SEO({ description, lang, meta, keywords, title, url, article }) {
         "@type": "BlogPosting",
         "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "${url}"
+        "@id": "https://linkweb.fr/${slug}"
       },
         "headline": "${title}",
         "description": "${metaDescription}",
         "image": {
             "@type": "ImageObject",
-            "url": "",
-            "width": ,
-            "height": 
+            "url": "https://linkweb.fr/${slug}",
+            "width": "",
+            "height": ""
       },
         "author": {
           "@type": "Organization",
@@ -60,12 +89,13 @@ function SEO({ description, lang, meta, keywords, title, url, article }) {
             "name": "Linkweb",
           "logo": {
               "@type": "ImageObject",
-              "url": ${linkwebLogo},
-              "width": ,
-              "height": 
+              "url": "https://linkweb.fr",
+              "width": "204",
+              "height": "53"
         }
       },
-      "datePublished": ""
+      "datePublished": "${date}",
+      "dateModified": "${modified}"
         }
       }
       `
@@ -155,7 +185,10 @@ SEO.defaultProps = {
   meta: [],
   keywords: [],
   url: `https://test.com`,
-  article: false
+  article: false,
+  date: ``,
+  slug: ``,
+  modified: ``
 };
 
 SEO.propTypes = {
@@ -165,7 +198,10 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired, 
   url: PropTypes.string,
-  article: PropTypes.bool
+  article: PropTypes.bool, 
+  date: PropTypes.string,
+  modified: PropTypes.string,
+  slug: PropTypes.string
 };
 
 export default SEO;
