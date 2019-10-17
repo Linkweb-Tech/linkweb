@@ -4,8 +4,9 @@ import Layout from "../../../components/layout";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../../components/seo";
 import LastPosts from '../../../components/lastposts';
-import RappelForm from "../../../components/rappelForm";
+// import RappelForm from "../../../components/rappelForm";
 import ButtonBlog from "../../../components/buttonblog";
+import RoundButton from "../../../components/roundButton";
 import CategoriesList from "../../../components/categoriesList";
 import LastPostsMini from '../../../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
@@ -69,7 +70,8 @@ render() {
                                         </h2>
                                     </div>
                                     <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
-                                    <RappelForm />
+                                    {/* <RappelForm /> */}
+                                    <RoundButton color="darkgrey" url="/contact-agence-web-toulouse" text="Contactez-nous" />
                                     </div>
                                 </section>
 
