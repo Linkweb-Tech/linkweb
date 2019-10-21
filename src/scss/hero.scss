@@ -16,6 +16,7 @@
             
             @media(max-width: 768px) {
                 letter-spacing: -8px !important;
+                font-size: 90px;
             }
             &.blue {
                 padding-left: 8px;
@@ -23,7 +24,9 @@
                 font-weight: 500;
                 font-family: 'Century';
                 font-size: 125px;
-                
+                @media(max-width: 768px) {
+                    font-size: 105px;
+                }
             }
         }
 

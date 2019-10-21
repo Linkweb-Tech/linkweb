@@ -166,6 +166,16 @@ module.exports = {
         // siteSpeedSampleRate: 10,
         // cookieDomain: "linkweb.fr",
       },
+    }, 
+    {
+      resolve: 'gatsby-plugin-page-progress',
+      options: {
+        includePaths: ['/'],
+        excludePath: [],
+        height: 150,
+        prependToBody: true,
+        color: `#37c5ee`,
+      }
     }
   ]
 };
