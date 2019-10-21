@@ -113,7 +113,7 @@ render() {
 
 export const query = graphql`
 query lastsThreePostsCatActus {
-    lastmini: allWordpressPost(limit: 3) {
+    lastmini: allWordpressPost(limit: 50) {
         edges {
             node {
             id
