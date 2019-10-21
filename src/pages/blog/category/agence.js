@@ -136,7 +136,7 @@ query lastsThreePostsCatAgence {
             }
         }
     }
-    agence: allWordpressPost(limit: 6, filter: {categories: {elemMatch: {slug: {eq: "agence"}}}}) {
+    agence: allWordpressPost(limit: 50, filter: {categories: {elemMatch: {slug: {eq: "agence"}}}}) {
         edges {
             node {
             id

@@ -136,7 +136,7 @@ query lastsThreePostsCatReferencement {
             }
         }
     }
-    ref: allWordpressPost(limit: 6, filter: {categories: {elemMatch: {slug: {eq: "referencement"}}}}) {
+    ref: allWordpressPost(limit: 50, filter: {categories: {elemMatch: {slug: {eq: "referencement"}}}}) {
         edges {
             node {
             id

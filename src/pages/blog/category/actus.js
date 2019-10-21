@@ -113,7 +113,7 @@ render() {
 
 export const query = graphql`
 query lastsThreePostsCatActus {
-    lastmini: allWordpressPost(limit: 50) {
+    lastmini: allWordpressPost(limit: 3) {
         edges {
             node {
             id
@@ -136,7 +136,7 @@ query lastsThreePostsCatActus {
             }
         }
     }
-    actus: allWordpressPost(limit: 6, filter: {categories: {elemMatch: {slug: {eq: "actus"}}}}) {
+    actus: allWordpressPost(limit: 50, filter: {categories: {elemMatch: {slug: {eq: "actus"}}}}) {
         edges {
             node {
             id

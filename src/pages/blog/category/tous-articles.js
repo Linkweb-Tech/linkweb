@@ -136,7 +136,7 @@ query lastsThreePostsCatTous {
             }
         }
     }
-    tousarticles: allWordpressPost(limit: 6, filter: {categories: {elemMatch: {slug: {eq: "tous-articles"}}}}) {
+    tousarticles: allWordpressPost(limit: 70, filter: {categories: {elemMatch: {slug: {eq: "tous-articles"}}}}) {
         edges {
             node {
             id

@@ -136,7 +136,7 @@ query lastsThreePostsCatTrends {
             }
         }
     }
-    tendances: allWordpressPost(limit: 6, filter: {categories: {elemMatch: {slug: {eq: "tendances"}}}}) {
+    tendances: allWordpressPost(limit: 50, filter: {categories: {elemMatch: {slug: {eq: "tendances"}}}}) {
         edges {
             node {
             id
