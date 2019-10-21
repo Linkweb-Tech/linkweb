@@ -65,6 +65,11 @@ render() {
                     <div className="w-full xl:w-3/4">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
                             <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
+                            <section className="flex justify-center">
+                                <div className="w-2/3 md:w-1/4">
+                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/tous-articles" text="Voir tous les articles"/><br/>
+                                </div>
+                            </section>
                                 <section className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24">
                                     <div className="max-w-5xl mx-auto flex items-center">
                                         <h2 data-aos='fade-right' className="text-center text-white text-2xl lg:text-4xl century">
@@ -81,6 +86,11 @@ render() {
                                         À propos de Référencement
                                     </h2>
                                     <LastPosts lastposts={this.props.data.ref.edges} />
+                                </section>
+                                <section className="flex justify-center">
+                                <div className="w-2/3 md:w-1/4">
+                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement" text="En savoir plus"/><br/>
+                                </div>
                                 </section>
                                 <section className="flex flex-col sm:flex-row px-10 mr-24">
                                     <div className="w-full sm:w-1/3 mx-10 my-10">
