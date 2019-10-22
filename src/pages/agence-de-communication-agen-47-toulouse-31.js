@@ -150,7 +150,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 <img src={laptop} width="80px" alt="Agence de communication Agen"/>
                                 <p className="text-xl text-white century pt-3">WEBMARKETING</p>
                             </div>
-                            <div className="w-full sm:w-1/3 py-2 px-12 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 py-2 px-12 flex flex-col items-center justify-center sm:my-0 my-6" data-aos='zoom-in' data-aos-delay="400">
 
                                 <img src={web} width="80px" alt="Agence de communication Agen"/>
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>

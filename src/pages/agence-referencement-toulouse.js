@@ -170,7 +170,7 @@ render() {
                     </div>
 
                     <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">
-                        <div className="w-full sm:w-1/2 px-12 flex flex-col items-center justify-center my-3 my-6" data-aos='zoom-in' data-aos-delay="400">
+                        <div className="w-full sm:w-1/2 px-12 flex flex-col items-center justify-center my-3 sm:my-0 my-6" data-aos='zoom-in' data-aos-delay="400">
 
                             <img src={web} width="80px" alt="Référencement Toulouse" />
                             <p className="text-lg md:text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
