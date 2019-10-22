@@ -28,6 +28,7 @@ import bullhorn from '../images/bullhorn.svg';
 import diagram from '../images/diagram.svg';
 import analysis from '../images/analysis.svg';
 import contract from '../images/contract.svg';
+import hg from "../images/logo_cd31.svg";
 
 
 class AgenceWebToulouse extends React.Component {
@@ -80,35 +81,43 @@ class AgenceWebToulouse extends React.Component {
                         
                     </section>
                     <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
-                        <div className="w-1/3 md:w-1/5 mb-10" data-aos='fade-up'>
+                        <div className="w-1/3 md:w-1/6 mb-10" data-aos='fade-up'>
                             <img
                                 src={peugeot}
                                 alt="Agence Web Toulouse"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='200'>
+                        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='200'>
                             <img
                                 src={normand}
                                 alt="Agence Web Agen"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/5" data-aos='fade-up' data-aos-delay='400'>
+                        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='400'>
                             <img
                                 src={onco}
                                 alt="Agence Web Toulouse"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
                             <img
                                 src={tlse}
                                 alt="Agence Web Agen"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/5 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
                             <img
                                 src={sdis}
                                 alt="Agence Web Agen"
                             />
+                        </div>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='1000'>
+                        <img 
+                            className="mx-12"
+                            src={hg}
+                            alt="Réalisations Site Web Agen"
+                            width="65px"
+                        />
                         </div>
                         <div className="w-full" data-aos='zoom-in'>
                             <p className="text-md text-center py-12 century">
