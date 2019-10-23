@@ -8,6 +8,7 @@
         color: #37c5ee;
         font-size: 30px;
         text-align:left;
+        font-weight:400;
     }
     h3 {
         margin-top: 25px;
@@ -15,16 +16,19 @@
         color: #37c5ee;
         font-size: 20px;
         text-align:left;
+        font-weight:400;
     }
     h4 {
         margin-top: 25px;
         margin-bottom: 25px;
+        font-weight:400;
     }
     p {
         margin-top: 25px;
         font-size: 15px;
         text-align: justify;
         text-align-last:center;
+        font-weight:400;
     }
     img {
         margin-left:auto;
@@ -33,5 +37,6 @@
     }
     ul {
         list-style:inside;
+        font-weight:400;
     }
 }
