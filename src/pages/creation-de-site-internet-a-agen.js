@@ -35,7 +35,7 @@ class Crea extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de Site Internet Agen - Agence de Communication Linkweb"
+                    title="Création de Site Internet Agen et Lot-et-Garonne - Linkweb"
                     description="Linkweb est le spécialiste de la création de site internet à Agen (47) et Toulouse (31). À l'écoute, l'équipe vous accompagne pour un projet web sur-mesure."
                     keywords={[`Création site internet Agen`, `Creation site internet Agen`, `Développement site internet Agen`, `Création site web Agen`]}
                     url="https://linkweb.fr/creation-de-site-internet-a-agen"
@@ -61,7 +61,7 @@ class Crea extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply`, backgroundPosition:'center' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century sm:text-6xl text-5xl text-center text-white">
-                        Création de site internet Agen
+                        Création de site internet Agen et dans tout le Lot-et-Garonne
                         </h1>
                         <h3 className="italic text-xl md:text-2xl text-white">Votre projet sur-mesure à Agen</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Demander un devis" />
@@ -69,7 +69,7 @@ class Crea extends React.Component {
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 ">
                         <section className="w-full">
                              <h2 data-aos='fade-right' className="text-center text-4xl century">
-                             Création de site internet professionnel à Agen
+                             Création de site internet professionnel à Agen et le 47
                             </h2>
                             <hr className="blue"></hr>
                         </section>
@@ -109,7 +109,7 @@ class Crea extends React.Component {
                             <br />
                         <section className="max-w-full w-full mx-auto px-4 px-6 py-6 my-4 flex-col md:flex-row">
                             <section className="bg-black p-4 w-full">
-                                    <h2 data-aos='fade-right' className="text-right text-xl md:text-4xl century text-white">Pourquoi créer un site internet pour les TPE / PME d’Agen et des alentours ?</h2>
+                                    <h2 data-aos='fade-right' className="text-right text-xl md:text-4xl century text-white">Pourquoi créer un site internet pour les TPE / PME d’Agen et du Lot-et-Garonne ?</h2>
                                     <br />
                             </section>
                         </section>
@@ -146,10 +146,10 @@ class Crea extends React.Component {
                             </div>
                         </section>
                     </section>
-                    <section className="flex w-full my-0 mx-auto px-0 flex flex-col xl:flex-row">
+                    <section className="flex w-full my-0 mx-auto px-0 flex flex-col xl:flex-row font-normal">
                         <div className="w-full xl:w-1/2 bg-bleu p-12 md:p-24" data-aos="zoom-in">
-                            <h2 className="text-white text-3xl font-bold">Et pour une petite entreprise locale du Lot-et-Garonne ?</h2><br/>
-                            <p className="text-black text-md text-justify">Pour une entreprise local, <strong>avoir un site internet</strong> est incontournable. Non seulement vous vous démarquerez de la concurrence, mais vous aurez également la possibilité de toucher une clientèle beaucoup plus large. En mettant en avant vos services et vos prestations sur votre <strong>site vitrine</strong>, vous laissez la possibilité à vos prospects d’avoir accès à toutes les informations importantes concernant votre entreprise, et cela à tout moment.</p>
+                            <h2 className="text-white text-3xl font-bold">Et pour une petite entreprise locale du Lot-et-Garonne (47) ?</h2><br/>
+                            <p className="text-black text-md text-justify">Pour une entreprise locale, <strong>avoir un site internet</strong> est incontournable. Non seulement vous vous démarquerez de la concurrence, mais vous aurez également la possibilité de toucher une clientèle beaucoup plus large. En mettant en avant vos services et vos prestations sur votre <strong>site vitrine</strong>, vous laissez la possibilité à vos prospects d’avoir accès à toutes les informations importantes concernant votre entreprise, et cela à tout moment.</p>
                             <br/> 
                             <p className="text-black text-md text-justify">Les avantages de <strong>créer votre site web</strong> ne s’arrête pas là. En effet, un <strong>site professionnel</strong>, design et moderne vous permettra de concrétiser vos contacts en mettant en avant vos réalisations, vos travaux. Distinguez vous de vos <strong>concurrents</strong> avec la mise en place de votre propre site internet ergonomique, <strong>intuitif</strong>, et adapté pour améliorer l’<strong>expérience utilisateur</strong>.</p>
                             <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify items-center" style={{textAlignLast:'center'}}>
@@ -227,7 +227,7 @@ class Crea extends React.Component {
                             </div>
                             <div className="w-full lg:w-1/3 my-10" style={{display:'inherit'}}>
                                 <div className="w-1/12">
-                                    <img src={deux} alt="Création site web Toulouse" /><br/>
+                                    <img src={deux} alt="Création site internet Lot et Garonne" /><br/>
                                 </div>
                                 <div className="w-11/12">
                                     <h3 className="text-left font-bold text-lg">Réalisation du projet</h3><br/>
@@ -245,7 +245,7 @@ class Crea extends React.Component {
                             </div>
                             <div className="w-full lg:w-1/3 my-10" style={{display:'inherit'}}>
                                 <div className="w-1/12">
-                                    <img src={trois} alt="Création site internet Toulouse" /><br/>
+                                    <img src={trois} alt="Création site internet 47" /><br/>
                                 </div>
                                 <div className="w-11/12">
                                     <h3 className="text-left font-bold text-lg">Mise en place d’une stratégie de référencement</h3><br/>
@@ -261,10 +261,10 @@ class Crea extends React.Component {
                             </div>
                         </section>
                     </section>
-                    <section className="flex w-full mx-auto px-0 my-0 flex flex-col lg:flex-row">
+                    <section className="flex w-full mx-auto px-0 my-0 flex flex-col lg:flex-row font-normal">
                         <div className="w-full lg:w-1/2 bg-black p-12 text-white-text-lg" data-aos="zoom-in">
                             <h2 className="text-white text-4xl font-bold">Pourquoi faire appel à Linkweb pour créer un site ?</h2><br/>
-                            <p className="text-lg text-white text-justify">Les entreprises de création et de référencement naturel se font de plus en plus nombreuses ces dernières années, même sur le secteur d’Agen. De plus, vous devez forcément connaître dans votre entourage une personne vous ayant proposé de vous <strong>faire un site internet</strong>. Plus encore, vous avez sans nul doute reçu de nombreux appel de la part d’entreprises vous proposant de <strong>créer un site internet gratuit</strong>. Vous n’avez donc que l’embarras du choix. Mais alors, comment choisir ? Pourquoi choisir Linkweb pour <strong>créer un site web</strong> ?</p>
+                            <p className="text-lg text-white text-justify">Les entreprises de création et de référencement naturel se font de plus en plus nombreuses ces dernières années en Lot-et-Garonne et même sur le secteur d’Agen. De plus, vous devez forcément connaître dans votre entourage une personne vous ayant proposé de vous <strong>faire un site internet</strong>. Plus encore, vous avez sans nul doute reçu de nombreux appel de la part d’entreprises vous proposant de <strong>créer un site internet gratuit</strong>. Vous n’avez donc que l’embarras du choix. Mais alors, comment choisir ? Pourquoi choisir Linkweb pour <strong>créer un site web</strong> ?</p>
                             <br/> 
                             <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row items-center">
                                 <div className="w-full md:w-1/2 xl:w-1/3 py-6 px-4">
@@ -279,7 +279,7 @@ class Crea extends React.Component {
                                     <p className="text-lg text-white text-center mr-6">nos clients peuvent nous joindre à tous moments en cas de demandes particulières (modification du contenu, ajout d’informations, etc)</p>
                                 </div>
                                 <div className="w-full md:w-1/2 xl:w-1/3 py-6">
-                                    <p className="text-2xl pr-6 text-center text-white">Équipe jeune et dynamique</p>
+                                    <p className="text-2xl pr-6 text-center text-white">Compétence technique</p>
                                     <br/>
                                     <p className="text-lg text-white text-center mr-6">que ce soit pour la création, la gestion ou le référencement de votre site internet, une équipe de professionnel est à votre disposition</p>
                                 </div>
@@ -287,7 +287,7 @@ class Crea extends React.Component {
                         </div>
                         <div className="w-full lg:w-1/2 bg-bleu p-16 text-white-text-lg" data-aos="zoom-in">
                             <h2 className="text-white text-4xl font-bold">Notre expérience à votre service</h2><br/><br/><br/>
-                            <p className="text-lg text-white text-justify">Depuis plus de 10 ans, l’<strong>agence de communication web Linkweb</strong> fait partie des <strong>agences web</strong> qui travaillent en collaboration avec l’ensemble de ses clients pour répondre au mieux aux attentes de chacun. Chaque projet, de la <strong>conception du site</strong> à la stratégie de <strong>communication digitale</strong>, est réalisé avec rigueur et professionnalisme. Notre seul objectif est d’aider les entreprises locales à developper leurs activités grâce à la mise en place d’une stratégie digitale, et une utilisation du <strong>webmarketing</strong> efficace. Nous nous engageons ainsi à réaliser pour vous des <strong>sites web responsive web design</strong> à travers le <strong>développement web</strong> et l’utilisation d’outils adaptés (<strong>système de gestion de contenu</strong>) avec une <strong>interface intuitive</strong> et des contenus optimisés au référencement SEO.<br/>
+                            <p className="text-lg text-white text-justify font-normal">Depuis plus de 10 ans, l’<strong>agence de communication web Linkweb</strong> fait partie des <strong>agences web</strong> qui travaillent en collaboration avec l’ensemble de ses clients pour répondre au mieux aux attentes de chacun. Chaque projet, de la <strong>conception du site</strong> à la stratégie de <strong>communication digitale</strong>, est réalisé avec rigueur et professionnalisme. Notre seul objectif est d’aider les entreprises locales à developper leurs activités grâce à la mise en place d’une stratégie digitale, et une utilisation du <strong>webmarketing</strong> efficace. Nous nous engageons ainsi à réaliser pour vous des <strong>sites web responsive web design</strong> à travers le <strong>développement web</strong> et l’utilisation d’outils adaptés (<strong>système de gestion de contenu</strong>) avec une <strong>interface intuitive</strong> et des contenus optimisés au référencement SEO.<br/>
                             <br/> 
                             L’équipe technique de Linkweb possède les <strong>connaissances techniques</strong> et les <strong>outils nécessaires</strong> pour concevoir un site sur mesure, quel que soit le <strong>type de site web</strong> qu’il vous faut : <strong>site internet vitrine</strong>, <strong>site ecommerce</strong> ou bien site administrable. Pour cela, les développeurs web de Linkweb maîtrise les langages web (<strong>html</strong>, <strong>css</strong>, <strong>js</strong>, <strong>php</strong>), les gestionnaires de base de données (MySql, PostgreSQL) et certains <strong>CMS (Content Management System)</strong>, à savoir, <strong>WordPress</strong>, <strong>Joomla</strong>, <strong>Prestashop</strong>, <strong>Drupal</strong>, etc.<br/>
                             <br/>
