@@ -61,16 +61,15 @@ class Crea extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply`, backgroundPosition:'center' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century sm:text-6xl text-5xl text-center text-white">
-                        Création de site internet Agen et dans tout le Lot-et-Garonne
+                        Création de site internet Agen<br/> et dans tout le Lot-et-Garonne
                         </h1>
-                        <h3 className="italic text-xl md:text-2xl text-white">Votre projet sur-mesure à Agen</h3>
+                        <h3 className="italic text-xl md:text-2xl text-white">Votre projet sur-mesure à Agen et dans le 47</h3>
                         <RoundButton url="/contact-agence-web-toulouse" text="Demander un devis" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 ">
                         <section className="w-full">
                              <h2 data-aos='fade-right' className="text-center text-4xl century">
-                             Création de site internet professionnel à Agen et le 47
-                            </h2>
+                             Création de site internet professionnel à Agen et en Lot-et-Garonne (47)</h2>
                             <hr className="blue"></hr>
                         </section>
                         <section className="w-full">
