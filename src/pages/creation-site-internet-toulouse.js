@@ -139,7 +139,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
-                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET : OPTER POUR UNE AGENCE PROFESSIONNELLE À TOULOUSE
+                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE À TOULOUSE
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">La création de site internet est un vecteur de développement pour une entreprise. Linkweb met en place le site web qu’il vous faut à Toulouse.</span>
