@@ -464,7 +464,8 @@ class ReferencementNaturel extends React.Component {
                         </h3>
                         <hr className="blue"></hr>
                         <LastPosts lastposts={ this.props.data.allWordpressPost.edges } />
-                        
+                        <Link className="bg-bleu text-white px-16 py-3 block mx-auto hover:bg-black font-normal" to="/actualite-digitale/">Voir l'actualité</Link>
+                        <br/>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center px-4 mt-12 mb-3">
                         <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">

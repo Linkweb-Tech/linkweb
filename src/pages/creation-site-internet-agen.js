@@ -94,7 +94,7 @@ class CreationSiteInternetVitrine extends React.Component {
                             <br/><br/>
                                                         Mettre en place un <strong>site internet vitrine</strong> pour son entreprise permet de porter un coup de projecteur sur votre activité en présentant vos prestations et en apportant l’information nécessaire pour le consommateur à la recherche d’un prestataire de votre domaine d’activité.
                             <br/><br/>
-                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link className="hover:text-bleu" to="/ergonomie-site-web-agen-toulouse">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
+                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link className="hover:text-bleu" to="/ergonomie-site-web-agen-toulouse/">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
                         </div>
                         <div className="w-full xl:w-1/2" style={{padding:'5% 0%'}}>
                             <img src={imac} alt="Création site internet Toulouse"/>
@@ -552,7 +552,8 @@ class CreationSiteInternetVitrine extends React.Component {
                         </h3>
                         <hr className="blue"></hr>
                         <LastPosts lastposts={ this.props.data.allWordpressPost.edges } />
-                        
+                        <Link className="bg-bleu text-white px-16 py-3 block mx-auto hover:bg-black font-normal" to="/actualite-digitale/">Voir l'actualité</Link>
+                        <br/>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center px-4 mt-12 mb-3">
                         <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">

@@ -64,7 +64,7 @@ class Crea extends React.Component {
                         Création de site internet Agen<br/> et dans tout le Lot-et-Garonne
                         </h1>
                         <h3 className="italic text-xl md:text-2xl text-white">Votre projet sur-mesure à Agen et dans le 47</h3>
-                        <RoundButton url="/contact-agence-web-toulouse" text="Demander un devis" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Demander un devis" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 ">
                         <section className="w-full">
@@ -344,7 +344,8 @@ class Crea extends React.Component {
                         </h3>
                         <hr className="blue"></hr>
                         <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
-
+                        <Link className="bg-bleu text-white px-16 py-3 block mx-auto hover:bg-black font-normal" to="/actualite-digitale/">Voir l'actualité</Link>
+                        <br/>
                     </section>
                 {/* </PageTransition> */}
             </Layout>

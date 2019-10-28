@@ -224,7 +224,8 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                         </h3>
                         <hr className="blue"></hr>
                         <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
-
+                        <Link className="bg-bleu text-white px-16 py-3 block mx-auto hover:bg-black font-normal" to="/actualite-digitale/">Voir l'actualité</Link>
+                        <br/>
                     </section>
                 {/* </PageTransition> */}
             </Layout>
