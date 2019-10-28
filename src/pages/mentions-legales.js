@@ -54,7 +54,7 @@ class MentionsLegales extends React.Component {
                             Mentions Légales
                         </h1>
                         <h3 className="italic text-lg sm:text-xl md:text-2xl text-white mt-3 text-center">Vous êtes à la recherche de professionnels du web ?</h3>
-                        <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -64,7 +64,8 @@ class MentionsLegales extends React.Component {
                     
                     <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Le site <Link to="/" className="hover:text-bleu">linkweb.fr</Link> n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord, nous les utiliserons seulement pour vous adresser des courriers, des brochures, des devis ou vous contacter.<br/>
                     <br/>
-                        Les informations recueillies sur les sites bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 06 janvier 1978. Elles bénéficient d’un droit d’accès, de rectification, d’opposition à communication et de suppression sur simple demande par email à <a href="mailto:contact@linkweb.fr">contact@linkweb.fr</a>
+                        Les informations recueillies sur les sites bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 06 janvier 1978. Elles bénéficient d’un droit d’accès, de rectification, d’opposition à communication et de suppression sur simple demande par email à <a href="mailto:contact@linkweb.fr">contact@linkweb.fr</a>.
+                        <br/>
                         Le site <Link to="/" className="hover:text-bleu">linkweb.fr</Link> pourra procéder à des analyses statistiques sans que celles-ci soient nominatives et pourra en informer des tiers (organismes d’évaluation de fréquentation) sous une forme résumée et non nominative.</p>
                     
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -117,7 +118,7 @@ class MentionsLegales extends React.Component {
                         Droit d’accès, de rectification ou suppression des données personnelles
                         </h2>
                         <hr className="blue"></hr>
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le <Link to="/contact-agence-web-toulouse" className="hover:text-bleu">formulaire de contact du site</Link> ou sur simple demande par email à <a href="mailto:contact@linkweb.fr" className="hover:text-bleu">contact@linkweb.fr</a> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
+                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le <Link to="/contact-agence-web-toulouse/" className="hover:text-bleu">formulaire de contact du site</Link> ou sur simple demande par email à <a href="mailto:contact@linkweb.fr" className="hover:text-bleu">contact@linkweb.fr</a> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
                         </p>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Éditeur
@@ -159,7 +160,7 @@ class MentionsLegales extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex items-start text-center my-12 flex-col md:flex-row">

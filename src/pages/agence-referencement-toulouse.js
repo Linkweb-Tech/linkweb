@@ -58,7 +58,7 @@ render() {
                     Référencement Web Toulouse<span className="text-bleu">/</span>Agen
                     </h2>
                     <h1 className="italic text-lg sm:text-2xl text-white pt-3">Agence de référencement Toulouse / Agen</h1>
-                    <RoundButton url="/contact-agence-web-toulouse" text="Je veux developper ma visibilité en ligne" />
+                    <RoundButton url="/contact-agence-web-toulouse/" text="Je veux developper ma visibilité en ligne" />
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                     <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -70,11 +70,11 @@ render() {
                 <section className="flex-wrap flex w-full max-w-5xl flex-col md:flex-row lg:flex-row mx-auto py-2 my-2 ">
                     <div className=" font-bold w-full	md:w-1/2  px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" style={{backgroundColor: 'rgb(55, 197, 231,0.8)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + fondbloc + ')',backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}} data-aos="zoom-in">
                         <h3 className="text-2xl century pb-6" ><span className="text-black">/</span>Référencement Naturel SEO</h3>
-                        <RoundButton color="black" url="/referencement-de-site-internet-47-31" text="Je fais le choix du SEO" />
+                        <RoundButton color="black" url="/referencement-de-site-internet-47-31/" text="Je fais le choix du SEO" />
                     </div>
                     <div className="font-bold	md:w-1/2 w-full px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" style={{backgroundColor: 'rgb(0, 0, 0,0.8)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + fondbloc + ')', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center' }} data-aos="zoom-in" data-aos-delay="200">
                         <h3 className="text-2xl century pb-6" ><span className="text-bleu">/</span>Référencement Payant SEA</h3>
-                        <RoundButton url="/agence-adwords-47-31" text="Je fais le choix du SEA" />
+                        <RoundButton url="/agence-adwords-47-31/" text="Je fais le choix du SEA" />
                     </div>
 
                 </section>
@@ -147,7 +147,7 @@ render() {
 
                 </section>
                 <section className="flex flex-1 max-w-6xl mx-auto home-step mt-12 md:mt-24 mb-12 px-12 text-justify">
-                    <p><strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><strong>création du site</strong></Link>. C’est pourquoi, tout doit être pensé, de la <strong>conception du site</strong> du point de vue technique, jusqu’à l’<strong>arborescence</strong> afin d’attirer des <strong>clients potentiels</strong>.<br/>
+                    <p><strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><strong>création du site</strong></Link>. C’est pourquoi, tout doit être pensé, de la <strong>conception du site</strong> du point de vue technique, jusqu’à l’<strong>arborescence</strong> afin d’attirer des <strong>clients potentiels</strong>.<br/>
                     <br/>
                     <strong>Nos consultants, à Toulouse</strong>, vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permettant de suivre les <strong>dernières tendances</strong>.<br/>
                     <br/>
@@ -166,7 +166,7 @@ render() {
 
                     <div className="flex-col md:flex-row max-w-6xl mx-auto flex text-center mt-24 mb-12">
                         {/* <RappelForm /> */}
-                        <RoundButton url="/contact-agence-web-toulouse" text="Je veux developper ma visibilité en ligne" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Je veux developper ma visibilité en ligne" />
                     </div>
 
                     <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">

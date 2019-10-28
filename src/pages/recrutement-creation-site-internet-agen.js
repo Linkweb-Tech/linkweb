@@ -51,7 +51,7 @@ class Recrutement extends React.Component {
                             Recrutement
                         </h1>
                         <h3 className="italic text-xl md:text-2xl text-white text-center">Vous êtes attiré par l’univers du digital ? La création de site internet n’a plus de secrets pour vous ?<br/> Découvrez nos offres d’emplois en développement et référencement.</h3>
-                        <RoundButton url="/contact-agence-web-toulouse" text="Votre profil nous intéresse !" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Votre profil nous intéresse !" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <h2 data-aos='fade-right' className="text-center text-4xl century">

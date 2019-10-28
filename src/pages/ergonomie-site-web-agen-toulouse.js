@@ -60,7 +60,7 @@ class ErgonomieToulouse extends React.Component {
                         Créer un site web professionnel Ergonomique
                         </h1>
                         <h3 className="italic text-lg lg:text-2xl text-center text-white mt-6">Ergonomie n.f. : étude des relations entre l’être humain et la machine.</h3>
-                        <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Je souhaite créer mon site internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                     <p className="text-justify" style={{textAlignLast:`center`}}>
@@ -72,7 +72,7 @@ class ErgonomieToulouse extends React.Component {
                             <br />
                             <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                             <p className="md:text-xl" style={{textAlign:'justify', textAlignLast:`center`}}>
-                                Le point central de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><strong>création de votre site internet</strong></Link> professionnel reste l’<strong>ergonomie</strong>. Un <strong>site</strong> ayant un confort dans l’exécution des actions et permettant un accès intuitif à l’information recherchée <strong>permet de créer</strong> beaucoup plus d’interactions et a beaucoup plus de chances d’avoir du succès. C’est pourquoi la <strong>conception du site</strong> doit être réalisée en conséquence.
+                                Le point central de la <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><strong>création de votre site internet</strong></Link> professionnel reste l’<strong>ergonomie</strong>. Un <strong>site</strong> ayant un confort dans l’exécution des actions et permettant un accès intuitif à l’information recherchée <strong>permet de créer</strong> beaucoup plus d’interactions et a beaucoup plus de chances d’avoir du succès. C’est pourquoi la <strong>conception du site</strong> doit être réalisée en conséquence.
                                  <strong> Et c’est ce que nous souhaitons, votre réussite construit la nôtre.</strong></p>
                             </section>
                     </section>
@@ -216,7 +216,7 @@ class ErgonomieToulouse extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je souhaite créer mon site" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex-col md:flex-row flex items-start text-center my-12">

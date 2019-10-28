@@ -67,7 +67,7 @@ render() {
                             <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
                             <section className="flex justify-center">
                                 <div className="w-2/3 md:w-1/4">
-                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/tous-articles" text="Voir tous les articles"/><br/>
+                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
                                 </div>
                             </section>
                                 <section className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24">
@@ -105,7 +105,7 @@ render() {
                                     </div>
                                     <div className="w-full sm:w-1/3 mx-10 my-10">
                                         <img src={iconsea} className="mx-auto w-20 block" alt="Création site internet Toulouse/"/><br/>
-                                        <Link className="font-bold hover:text-bleu" to="/agence-adwords-47-31"><h2 className="text-2xl">Référencement Payant</h2></Link><br/>
+                                        <Link className="font-bold hover:text-bleu" to="/agence-adwords-47-31/"><h2 className="text-2xl">Référencement Payant</h2></Link><br/>
                                         <p>Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
                                     </div>
                                 </section>

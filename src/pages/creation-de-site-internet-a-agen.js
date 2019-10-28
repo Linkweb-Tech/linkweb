@@ -91,7 +91,7 @@ class Crea extends React.Component {
                             <img src={smartphone} alt="Création site web Agen"/>
                         </div>
                         <div className="w-full lg:w-1/2 my-auto">
-                            <p className="my-4 md:mx-6">Malgré tout, vous restez septique sur l’importance de <Link className="hover:text-bleu" to="/creation-site-internet-toulouse"><strong>créer un site internet</strong></Link> de nos jours ? Vous pensez que le bouche à oreille suffit pour pérenniser votre entreprise ? Les dépenses occasionnées par la <strong>création d’un site internet</strong> vous semble inutile ?</p><br/>
+                            <p className="my-4 md:mx-6">Malgré tout, vous restez septique sur l’importance de <Link className="hover:text-bleu" to="/creation-site-internet-toulouse/"><strong>créer un site internet</strong></Link> de nos jours ? Vous pensez que le bouche à oreille suffit pour pérenniser votre entreprise ? Les dépenses occasionnées par la <strong>création d’un site internet</strong> vous semble inutile ?</p><br/>
                             <p className="my-4 md:mx-6">Sachez alors que la <strong>création d’un site web</strong> n’est pas une dépense. Il s’agit d’un réel investissement pour assurer le développement de votre société.</p>
                             
                             <section className="max-w-5xl w-full mx-auto py-6 md:px-4 my-4 md:mr-8 md:ml-6 flex" style={{backgroundColor:'#f2f2f2'}}>
@@ -300,7 +300,7 @@ class Crea extends React.Component {
                     <section>
                         <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                             <br/>
-                            <Link className="hover:text-bleu" to="/agence-de-communication-agen-47-toulouse-31"><h2 data-aos='fade-right' className="text-center text-3xl century">
+                            <Link className="hover:text-bleu" to="/agence-de-communication-agen-47-toulouse-31/"><h2 data-aos='fade-right' className="text-center text-3xl century">
                                 <span className="text-bleu">/</span>Découvrez nos réalisations
                             </h2></Link>
                             <hr className="blue"></hr><br/>
@@ -318,7 +318,7 @@ class Crea extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Contactez-nous" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex items-start text-center my-12 flex-col sm:flex-row">
