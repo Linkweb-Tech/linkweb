@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data }) => (
     <Layout location={data.wordpressPost.title}>
         <SEO article={true} title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} date={data.wordpressPost.date} slug={data.wordpressPost.slug} modified={data.wordpressPost.modified} />
         <section className="w-full h-screen mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundColor:'#00000094', backgroundBlendMode:'multiply', backgroundImage: 'url(' + data.wordpressPost.featured_media.source_url + ')' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-32 text-5xl sm:text-6xl text-center text-white">
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-48 text-5xl sm:text-6xl text-center text-white">
                         {data.wordpressPost.title}
                         </h1>
                         <br/>
