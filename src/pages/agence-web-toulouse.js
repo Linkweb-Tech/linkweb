@@ -45,7 +45,7 @@ class AgenceWebToulouse extends React.Component {
                     title="Agence de Communication Web - Création site Internet Toulouse - Linkweb"
                     description="L'agence web Linkweb déploie son offre en termes de communication web à Toulouse (31) : création de site internet, référencement naturel et ads."
                     keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
-                    url="https://linkweb.fr/agence-web-toulouse"
+                    url="https://linkweb.fr/agence-web-toulouse/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

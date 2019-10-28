@@ -30,7 +30,7 @@ class ReferencementNaturel extends React.Component {
                     title="Agence Référencement Agen Toulouse - Référencement Naturel - Linkweb"
                     description="Définition de votre stratégie de référencement naturel (SEO) - Étude de contexte - Choix des mots-clés - Création de contenus optimisés et originaux."
                     keywords={[`Référencement Naturel à Agen`, `Référencement Naturel à Toulouse`, `Référencement SEO Toulouse`, `Référencement SEO Agen`]}
-                    url="https://linkweb.fr/referencement-de-site-internet-47-31"
+                    url="https://linkweb.fr/referencement-de-site-internet-47-31/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{

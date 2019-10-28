@@ -35,7 +35,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     title="Agence de Communication Agen - Création Site Internet - Linkweb"
                     description="Linkweb est à l’origine de nombreux projets pour mettre en valeur les professionnels de tous secteurs d’activités. Pourquoi pas le votre ?"
                     keywords={[`Projet web Agen`, `Projet Web Toulouse`, `Création site internet sur-mesure`, `Agence Web Toulouse`]}
-                    url="https://linkweb.fr/agence-de-communication-agen-47-toulouse-31"
+                    url="https://linkweb.fr/agence-de-communication-agen-47-toulouse-31/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

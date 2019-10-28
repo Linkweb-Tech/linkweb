@@ -58,7 +58,7 @@ class Dev extends React.Component {
                     title="Création Site Internet Agen - Toulouse | E-Commerce, Vitrine - Linkweb"
                     description="Linkweb, agence web spécialisée dans la création de sites internet (e-commerce, vitrine) à Agen (47) et Toulouse (31). Nos projets sont réalisés sur-mesure."
                     keywords={[`Développement Web Agen`, `Développement site web Agen`, `Creation site internet Agen`]}
-                    url="https://linkweb.fr/developpement-web-agen-toulouse"
+                    url="https://linkweb.fr/developpement-web-agen-toulouse/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

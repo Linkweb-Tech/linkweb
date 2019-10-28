@@ -44,7 +44,7 @@ class ReferencementToulouse extends React.Component {
                     title="Référencement Toulouse / Agen - Agence Web Linkweb"
                     description="Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
-                    url="https://linkweb.fr/referencement-toulouse"
+                    url="https://linkweb.fr/referencement-toulouse/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

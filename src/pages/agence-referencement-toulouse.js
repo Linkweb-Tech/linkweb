@@ -32,7 +32,7 @@ render() {
                 title="Agence Référencement Toulouse (31) - Agence Web Linkweb"
                 description="Développez votre visibilité avec la mise en place d'une stratégie de référencement sur-mesure. Linkweb vous accompagne pour atteindre vos objectifs."
                 keywords={[`Agence Référencement Toulouse`, `Agence de Référencement à Toulouse`, `Référencement Naturel Toulouse`, `Agence Adowrds Toulouse`]}
-                url="https://linkweb.fr/agence-referencement-toulouse"
+                url="https://linkweb.fr/agence-referencement-toulouse/"
             />
             {/* <PageTransition
                 defaultStyle={{

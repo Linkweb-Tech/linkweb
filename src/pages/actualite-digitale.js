@@ -35,7 +35,7 @@ render() {
                 title="Actualité Digitale | Blog Numérique | Agence Web Linkweb à Agen (47)"
                 description="Suivez l'actualité digitale grâce au blog de l'Agence Web Linkweb située à Agen (47) et Toulouse (31), agence spécialisée dans la création de site internet."
                 keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
-                url="https://linkweb.fr/actualite-digitale"
+                url="https://linkweb.fr/actualite-digitale/"
             />
             {/* <PageTransition
                 defaultStyle={{

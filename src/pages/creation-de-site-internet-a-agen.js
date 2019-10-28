@@ -38,7 +38,7 @@ class Crea extends React.Component {
                     title="Création de Site Internet Agen et Lot-et-Garonne - Linkweb"
                     description="Linkweb est le spécialiste de la création de site internet à Agen (47) et Toulouse (31). À l'écoute, l'équipe vous accompagne pour un projet web sur-mesure."
                     keywords={[`Création site internet Agen`, `Creation site internet Agen`, `Développement site internet Agen`, `Création site web Agen`]}
-                    url="https://linkweb.fr/creation-de-site-internet-a-agen"
+                    url="https://linkweb.fr/creation-de-site-internet-a-agen/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

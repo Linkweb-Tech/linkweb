@@ -34,7 +34,7 @@ class ErgonomieToulouse extends React.Component {
                     title="Création Site Internet Agen - Toulouse - Agence Web Linkweb"
                     description="Linkweb, agence web située à Agen (47) et Toulouse (31), est spécialisée dans la création et gestion de sites internet (e-commerce, administrable, vitrine)."
                     keywords={[`Création site internet ergonomique Agen`, `Création site internet Agen`, `Creation site internet Agen`, `Création site web Agen`]}
-                    url="https://linkweb.fr/ergonomie-site-web-agen-toulouse"
+                    url="https://linkweb.fr/ergonomie-site-web-agen-toulouse/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
