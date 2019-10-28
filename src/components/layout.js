@@ -44,7 +44,7 @@ class Layout extends React.Component {
             buttonStyle={{ color: "#37c5ee", fontSize: "16px" }}
             expires={150}
         >
-            Ce site utilise les cookie afin d'ameliorer l'expérience utilisateur, c'est bon pour vous ?{" "}
+            Ce site utilise les cookies afin d'ameliorer l'expérience utilisateur, c'est bon pour vous ?{" "}
         </CookieConsent>
       </div>
     )
