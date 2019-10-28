@@ -33,21 +33,21 @@ const BlogPostTemplate = ({ data }) => (
         </section>
         <section className="px-6 lg:px-64 font-bold">
           <Link className="hover:text-bleu" to="/actualite-digitale/"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" 
-          href={`/blog/category/${data.wordpressPost.categories[0].slug}`}>{data.wordpressPost.categories[0].name}</a> 
+          href={`/blog/category/${data.wordpressPost.categories[0].slug}/`}>{data.wordpressPost.categories[0].name}</a> 
             <span className="text-bleu">>></span> 
-            <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}`}>{data.wordpressPost.title}</Link> 
+            <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}/`}>{data.wordpressPost.title}</Link> 
         </section>
         <section className="flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
         <div className="px-6 lg:px-48 py-24 w-full xl:w-3/4 post_content" style={{ marginTop: 20 }} dangerouslySetInnerHTML={{ __html: data.wordpressPost.content }} />
         <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 ">
-                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse" text="Demander un devis"/><br/>
+                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse/" text="Demander un devis"/><br/>
                         <h3 className="font-bold pb-3">CATÉGORIES</h3>
                         <CategoriesList list={ data.allWordpressCategory.edges} />
                         <h3 className="font-bold pt-12 pb-3">DERNIERS ARTICLES</h3>
                         <LastPostsMini lastposts={data.allWordpressPost.edges} />
-                        <Link to="/creation-site-internet-toulouse"><img src={CreerSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/referencement-de-site-internet-47-31"><img src={RefSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/agence-adwords-47-31"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
+                        <Link to="/creation-site-internet-toulouse/"><img src={CreerSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/referencement-de-site-internet-47-31/"><img src={RefSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/agence-adwords-47-31/"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
                         <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
                         <Timeline
                             dataSource={{

@@ -71,21 +71,21 @@ render() {
                                     </div>
                                     <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                                     {/* <RappelForm /> */}
-                                    <RoundButton color="darkgrey" url="/contact-agence-web-toulouse" text="Contactez-nous" />
+                                    <RoundButton color="darkgrey" url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                                     </div>
                                 </section>
 
                         </section>                    
                     </div>
                     <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 ">
-                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse" text="Demander un devis"/><br/>
+                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse/" text="Demander un devis"/><br/>
                         <h3 className="font-bold pb-3">CATÉGORIES</h3>
                         <CategoriesList list={ this.props.data.allWordpressCategory.edges} />
                         <h3 className="font-bold pt-12 pb-3">DERNIERS ARTICLES</h3>
                         <LastPostsMini lastposts={this.props.data.lastmini.edges} />
-                        <Link to="/creation-site-internet-toulouse"><img src={CreerSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/referencement-de-site-internet-47-31"><img src={RefSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/agence-adwords-47-31"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
+                        <Link to="/creation-site-internet-toulouse/"><img src={CreerSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/referencement-de-site-internet-47-31/"><img src={RefSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/agence-adwords-47-31/"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
                         <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
                         <Timeline
                             dataSource={{
