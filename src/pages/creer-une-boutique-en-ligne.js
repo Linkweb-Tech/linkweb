@@ -66,12 +66,12 @@ class CreerBoutiqueEnLigne extends React.Component {
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
-                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse">Retour</Link></div>
+                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
-                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen" text="Site vitrine" position="center" /></div>
-                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creer-une-boutique-en-ligne" text="E-commerce" position="center" /></div>
-                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31" text="Site sur-mesure" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen/" text="Site vitrine" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creer-une-boutique-en-ligne/" text="E-commerce" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
                         </section>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -330,7 +330,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <span className="font-bold">Mettre en place une boutique en ligne, c’est être capable de comprendre son interface pour être en mesure de l’appréhender.</span>
                             </h4>
                             <p>Nous vous formerons à l’utilisation du <strong>back office de votre site internet e-commerce</strong> : visualiser les dernières ventes, gérer vos stocks, ajouter ou modifier des fiches produits. Nous vous accompagnons pour mener votre projet clé en main.</p>
-                            <Button url="/blog/quest-ce-quun-back-office-et-quelle-est-son-utilite" text="En savoir plus sur le back-office" position="left" />
+                            <Button url="/blog/quest-ce-quun-back-office-et-quelle-est-son-utilite/" text="En savoir plus sur le back-office" position="left" />
                         </div>
                         <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -362,7 +362,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 À l’image de l’ensemble des <strong>projets web</strong> que nous mettons en place, nous avons besoin de connaître vos objectifs, vos cibles, votre positionnement et la nature de votre activité pour vous permettre d’accéder à la <strong>solution e-commerce</strong> la plus adaptée à votre entreprise.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
 
                                 </section>
                             </div>
@@ -377,7 +377,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Une fois vos besoins déterminés, nous établissons les contours de votre projet en déterminant les outils marketing les plus adaptés à votre site. Nos équipes détermineront votre stratégie pour <strong>obtenir un site internet</strong> efficace.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </section>
                                 </div>
                             </div>
@@ -391,7 +391,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Une fois votre projet bâti et <strong>votre site</strong> prêt à être mis en ligne, nous vous formerons à utiliser la face cachée de votre boutique : gérer vos stocks, ajouter vos produits, suivre l’évolution de vos ventes. Vous pourrez <strong>gérer votre site e-commerce</strong> en totale autonomie.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                                 </section>
                                 
                             </div>
@@ -593,13 +593,13 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <br/>
                         <section className="flex flex-col md:flex-row">
                             <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/referencement-toulouse">Référencement</Link>
+                                <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-web-toulouse">Agence Web</Link>
+                                <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-de-communication-agen-47-toulouse-31">Nos réalisations</Link>
+                                <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>
                         <br/>

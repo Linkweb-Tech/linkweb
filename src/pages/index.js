@@ -54,7 +54,7 @@ function IndexPage(props) {
       <Hero></Hero>
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
         <h2 data-aos='fade-right' className="text-center">
-          <Link className="hover:text-bleu" to="/agence-web-toulouse" className="text-center text-black text-4xl century">
+          <Link className="hover:text-bleu" to="/agence-web-toulouse/" className="text-center text-black text-4xl century">
             Agence digitale
           </Link>
         </h2>
@@ -72,7 +72,7 @@ function IndexPage(props) {
             </h3>
             <p data-aos='fade-left'><span className="text-bleu text-4xl">8</span>  développeurs Front-End & Back-End</p>
             <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong></p>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse">référencement web</Link></strong> SEO & SEA</p>
+            <p data-aos='fade-left'><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA</p>
             <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
           </div>
           <div className="pictures w-full hidden flex-1 sm:hidden md:hidden lg:flex xl:flex">
@@ -122,7 +122,7 @@ function IndexPage(props) {
               <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                 Nos <strong>consultants en communication web</strong> d’<strong>Agen (47)</strong> et <strong>Toulouse (31)</strong> définissent les contours de votre projet et se chargent de l’<strong>application de votre stratégie</strong> à travers les différents axes définis. Notre équipe est composée de spécialistes de la <strong>création de site internet</strong>, de <strong>référencement naturel</strong> et <strong>Ads</strong>.
               </div>
-              <Button url="/contact-agence-web-toulouse" text="Demander un devis" position="center" />
+              <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" />
             </section>
             
           </div>
@@ -132,16 +132,16 @@ function IndexPage(props) {
 
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
         <h2 data-aos='fade-right' className="text-center text-4xl century">
-          <Link className="hover:text-bleu" to="/creation-site-internet-toulouse">Création de <span className="text-bleu">Sites internet</span></Link> et <span className="text-bleu">Stratégies Web</span> sur-mesure 
+          <Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Création de <span className="text-bleu">Sites internet</span></Link> et <span className="text-bleu">Stratégies Web</span> sur-mesure 
         </h2>
         <hr className="blue"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6"><Link className="hover:text-bleu" to="/agence-web-toulouse">Agence Web Toulouse</Link> et Agen</h3>
+        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6"><Link className="hover:text-bleu" to="/agence-web-toulouse/">Agence Web Toulouse</Link> et Agen</h3>
       </section>
       <section  className="crea flex flex-1 w-full ml-0">
         <div className="w-full lg:w-3/4 bg-darkgrey py-12 flex justify-end">
           <div className="max-w-4xl w-full mr-0">
             <h3 className="century text-white flex-1 capitalize text-2xl tracking-wider px-6 pb-3 w-full "  data-aos="zoom-in">
-              <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><span className="text-bleu">/</span>CRÉATION DE SITES WEB</Link>
+              <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><span className="text-bleu">/</span>CRÉATION DE SITES WEB</Link>
             </h3>
             <div className="flex flex-col md:flex-row ">
               <div className="w-full lg:w-1/2 my-6 px-6 text-white">
@@ -151,33 +151,33 @@ function IndexPage(props) {
               </div>
               <div className="w-full md:w-1/2 flex mr-4">
                 <div className="w-full md:w-1/3">
-                <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen"><img 
+                <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><img 
                     src={ loupe }
                     alt="Agence Web Agen"
                     className="m-auto"
                   /></Link> 
-                  <Link to="/creation-de-site-internet-a-agen" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest hover:text-bleu">
+                  <Link to="/creation-de-site-internet-a-agen/" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest hover:text-bleu">
                    Création site <br /> web sur-mesure
                   </Link>
                 </div>
                 <div className="w-full md:w-1/3">
-                <Link className="hover:text-bleu" to="/creation-de-site-internet-47-31"><img 
+                <Link className="hover:text-bleu" to="/creation-de-site-internet-47-31/"><img 
                     src={ menu }
                     alt="Création site internet Agen"
                     className="m-auto"
                   /></Link> 
-                  <Link to="/creation-de-site-internet-47-31" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest hover:text-bleu">
+                  <Link to="/creation-de-site-internet-47-31/" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest hover:text-bleu">
                    Responsive <br />design
                   </Link>
                 </div>
                 <div className="w-full md:w-1/3">
                 
-                <Link className="hover:text-bleu" to="/creation-site-internet-agen"><img 
+                <Link className="hover:text-bleu" to="/creation-site-internet-agen/"><img 
                     src={ souris }
                     alt="Agence Web Toulouse"
                     className="m-auto"
                   /></Link> 
-                  <Link to="/creation-site-internet-agen" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest hover:text-bleu">
+                  <Link to="/creation-site-internet-agen/" className="pt-6 block century text-sm text-center text-white capitalize tracking-widest hover:text-bleu">
                    Interface <br /> ergonomique
                   </Link>
                 </div>
@@ -196,22 +196,22 @@ function IndexPage(props) {
         </div>
         <div className="w-full md:w-1/2 px-10 py-16 md:py-32 max-w-lg ml-0">
           <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
-            <Link className="hover:text-bleu" to="/referencement-de-site-internet-47-31"><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL</Link>
+            <Link className="hover:text-bleu" to="/referencement-de-site-internet-47-31/"><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL</Link>
           </h3>
           <h4 className="century text-lg tracking-wider pb-3 text-justify" data-aos='fade-left'>
             <span className="font-bold">Le référenceur en charge de votre site web collabore avec vous chaque mois pour vous rendre compte de l’évolution du référencement de votre site internet.</span>
           </h4>
-          <p data-aos='fade-bottom' className="text-justify">À partir d’un <strong>audit de site</strong>, nous élaborons votre stratégie de <Link className="hover:text-bleu" to="/agence-referencement-toulouse"><strong>référencement site internet</strong></Link> et analysons les statistiques relatives à votre site internet pour une <strong>optimisation</strong> qui vous apportera une visibilité pertinente avec les <strong>moteurs de recherche</strong>.</p>
+          <p data-aos='fade-bottom' className="text-justify">À partir d’un <strong>audit de site</strong>, nous élaborons votre stratégie de <Link className="hover:text-bleu" to="/agence-referencement-toulouse/"><strong>référencement site internet</strong></Link> et analysons les statistiques relatives à votre site internet pour une <strong>optimisation</strong> qui vous apportera une visibilité pertinente avec les <strong>moteurs de recherche</strong>.</p>
           <Button url="/referencement-de-site-internet-47-31/" text="En savoir plus sur le référencement naturel SEO" position="start" />
 
           <h3 className="century capitalize text-2xl tracking-wider pt-12 pb-6" data-aos="zoom-in">
-            <Link className="hover:text-bleu" to="/agence-adwords-47-31"><span className="text-bleu">/</span>RÉFÉRENCEMENT ADWORDS</Link>
+            <Link className="hover:text-bleu" to="/agence-adwords-47-31/"><span className="text-bleu">/</span>RÉFÉRENCEMENT ADWORDS</Link>
           </h3>
           <h4 className="century text-lg tracking-wider pb-3 text-justify"  data-aos='fade-left'>
             <span className="font-bold">Nous optimisons le choix des mots-clés et la configuration de votre plan publicitaire pour respecter votre budget et maximiser vos conversions.</span>
           </h4>
           <p data-aos='fade-bottom' className="text-justify">Nous créons votre <strong>campagne publicitaire Adwords</strong> en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant.</p>
-          <Button url="/agence-adwords-47-31" text="En savoir plus sur les campagnes Adwords SEA" position="start" />
+          <Button url="/agence-adwords-47-31/" text="En savoir plus sur les campagnes Adwords SEA" position="start" />
         </div>
       </section>
 

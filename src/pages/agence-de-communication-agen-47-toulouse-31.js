@@ -61,7 +61,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                         Nos réalisations à Toulouse<span className="text-bleu">/</span>Agen
                         </h2>
                         <h1 className="italic text-center text-lg sm:text-2xl text-white mt-3 text-center">Agence de communication à Agen/Toulouse</h1>
-                        <RoundButton url="/contact-agence-web-toulouse" text="Je suis intéressé par une offre de création de site internet" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Je suis intéressé par une offre de création de site internet" />
                     </section>
                     
                     
@@ -90,7 +90,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 </h3>
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                     Prendre conscience de l’intérêt de la <strong>création d’un site internet</strong> pour votre entreprise est essentiel à l’heure où des millions de sites voient le jour. Mettre en place un <strong>site visible sur les moteurs de recherche</strong> permet de toucher une nouvelle cible et favorise le développement de votre entreprise.  
-                                    <br/><Button url="/contact-agence-web-toulouse" text="En savoir plus" position="center" />
+                                    <br/><Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
                                 </div>
                                     
 
@@ -106,7 +106,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                 </h3>
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                     Vous souhaitez mettre en place votre <strong>solution web</strong>, mais ne savez pas ce qui vous conviendrez le plus ? Nous définissons votre projet selon vos objectifs, vos besoins, vos cibles, ainsi que vos moyens. <strong><Link to="/">Linkweb</Link></strong> met en place votre <strong>projet web sur-mesure</strong> pour <strong>créer un site internet</strong> qui vous ressemble.
-                                    <br/><br/><Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                    <br/><br/><Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </div>
                                     
                                 </section>
@@ -120,8 +120,8 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                                         <span className="text-bleu">/</span>JE CHOISIS LINKWEB POUR CRÉER MON SITE INTERNET
                                 </h3>
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                        Faites confiance à l’expertise de <strong><Link to="/">Linkweb</Link></strong> dans la <strong><Link to="/creation-site-internet-toulouse">création de site internet</Link></strong>. <strong>Nos consultants</strong> en <strong><Link to="/referencement-toulouse">référencement</Link></strong> et <strong><Link to="/creation-de-site-internet-47-31/">développement</Link></strong> vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un <strong>site internet</strong> qui fonctionne.
-                                        <br/><br/><br/><Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                        Faites confiance à l’expertise de <strong><Link to="/">Linkweb</Link></strong> dans la <strong><Link to="/creation-site-internet-toulouse/">création de site internet</Link></strong>. <strong>Nos consultants</strong> en <strong><Link to="/referencement-toulouse/">référencement</Link></strong> et <strong><Link to="/creation-de-site-internet-47-31/">développement</Link></strong> vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un <strong>site internet</strong> qui fonctionne.
+                                        <br/><br/><br/><Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </div>
                                     
                                 </section>
@@ -142,7 +142,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je suis intéressé par une offre de création de site internet" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je suis intéressé par une offre de création de site internet" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">

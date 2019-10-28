@@ -53,7 +53,7 @@ class CreationSiteSurMesure extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{background:'#00000094 url(' + Bg +')', backgroundBlendMode:'multiply', backgroundPosition:'center', backgroundSize:'cover', height:'650px'}}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux la création de mon site sur-mesure"/>
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site sur-mesure"/>
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-3xl md:text-6xl text-center text-white">
@@ -66,12 +66,12 @@ class CreationSiteSurMesure extends React.Component {
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey" >
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
-                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse">Retour</Link></div>
+                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
-                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen" text="Site vitrine" position="center" /></div>
-                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creer-une-boutique-en-ligne" text="E-commerce" position="center" /></div>
-                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creation-de-site-internet-47-31" text="Site sur-mesure" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen/" text="Site vitrine" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creer-une-boutique-en-ligne/" text="E-commerce" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
                         </section>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -118,7 +118,7 @@ class CreationSiteSurMesure extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Il est important de bien connaître ses besoins en termes de <strong>communication web</strong>, mais aussi ce que l’on souhaite mettre en avant sur son <strong>site internet</strong>. Nous développons la solution la plus adaptée et la plus proche de vos besoins.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
 
                                 </section>
                             </div>
@@ -133,7 +133,7 @@ class CreationSiteSurMesure extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Une fois les contours de votre projet définis, nous vous accompagnons pour faire de votre idée, une projection technique concrète en corrélation avec votre demande. C’est à partir d’ici que votre <strong>projet web</strong> se concrétise.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </section>
                                 </div>
                             </div>
@@ -147,7 +147,7 @@ class CreationSiteSurMesure extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Votre projet est enfin défini ? Nous procédons à la <strong>création de votre site internet sur-mesure</strong> en vous proposant une <strong>maquette graphique</strong>, des <strong>contenus éditoriaux</strong>, et la mise en avant des <strong>fonctionnalités de votre site</strong>.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                                 </section>
                             </div>
                         </div>
@@ -281,7 +281,7 @@ class CreationSiteSurMesure extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux la création de mon site sur-mesure"/>
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site sur-mesure"/>
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">
@@ -372,13 +372,13 @@ class CreationSiteSurMesure extends React.Component {
                         <br/>
                         <section className="flex flex-col md:flex-row">
                             <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/referencement-toulouse">Référencement</Link>
+                                <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-web-toulouse">Agence Web</Link>
+                                <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-de-communication-agen-47-toulouse-31">Nos réalisations</Link>
+                                <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>
                         <br/>

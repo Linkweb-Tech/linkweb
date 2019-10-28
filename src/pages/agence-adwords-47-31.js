@@ -53,7 +53,7 @@ class ReferencementAds extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{background:'#000000ba url(' + Bg +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'650px'}}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux propulser mon site sur Google" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux propulser mon site sur Google" />
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-3xl md:text-6xl text-center text-white">
@@ -65,12 +65,12 @@ class ReferencementAds extends React.Component {
                     </section>
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
-                        <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/referencement-toulouse" position="center"/></div>
-                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/referencement-toulouse">Retour</Link></div>
+                        <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/referencement-toulouse/" position="center"/></div>
+                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/referencement-toulouse/">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{ borderBottomLeftRadius:'27px'}}>
-                            <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/referencement-de-site-internet-47-31" text="Référencement Naturel" position="center" /></div>
-                            <div className="w-full lg:w-1/2 text-bleu p-1"><ButtonMenu url="/agence-adwords-47-31" text="Référencement Ads" position="center" /></div>
+                            <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/referencement-de-site-internet-47-31/" text="Référencement Naturel" position="center" /></div>
+                            <div className="w-full lg:w-1/2 text-bleu p-1"><ButtonMenu url="/agence-adwords-47-31/" text="Référencement Ads" position="center" /></div>
                         </section>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -164,7 +164,7 @@ class ReferencementAds extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Le <strong>SEA (Search Engine Advertising)</strong>, ou <strong>référencement Google Ads</strong>, est une science à part entière dans le référencement. Il apporte une <strong>visibilité à votre site internet</strong> de façon très rapide, peu importe le nombre de mots clés. Néanmoins, votre budget dit être maitrisé et vous permettre d’obtenir de l’acquisition client.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Demander un devis" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" />
 
                                 </section>
                             </div>
@@ -179,7 +179,7 @@ class ReferencementAds extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 <strong>Coût au clic visé</strong>, définition du budget, augmentation de la qualité de ses <strong>annonces</strong> : se lancer dans une <strong>campagne Ads</strong> doit répondre à des objectifs clairs et précis. Nous vous accompagnons pour définir votre projet, des objectifs, aux annonces, en passant par les cibles.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </section>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@ class ReferencementAds extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 En tant que <strong>professionnels du référencement</strong>, nous vous accompagnons afin de mener vos <strong>campagnes Google Adwords</strong> dans le but d’obtenir un <strong>retour sur investissement</strong>. Pour ce faire, nous paramétrons votre campagne sur-mesure pour atteindre vos objectifs.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                                 </section>                                
                             </div>
                         </div>
@@ -287,7 +287,7 @@ class ReferencementAds extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux propulser mon site sur Google" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux propulser mon site sur Google" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">
@@ -411,13 +411,13 @@ class ReferencementAds extends React.Component {
                         <br/>
                         <section className="flex flex-col md:flex-row">
                             <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/creation-site-internet-toulouse">Création site internet</Link>
+                                <Link to="/creation-site-internet-toulouse/">Création site internet</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-web-toulouse">Agence Web</Link>
+                                <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-de-communication-agen-47-toulouse-31">Nos réalisations</Link>
+                                <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>
                         <br/>

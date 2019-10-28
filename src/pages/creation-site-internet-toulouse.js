@@ -64,7 +64,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         Création site internet Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
                         <h3 className="italic text-lg text-center sm:text-2xl text-white mt-2">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
-                        <RoundButton url="/contact-agence-web-toulouse" text="Je veux créer mon site internet professionnel" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Je veux créer mon site internet professionnel" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
@@ -120,17 +120,17 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfff url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET VITRINE</h3>
                             <p>Mettre en avant vos services, activités, et même votre entreprise va vous permettre de <strong>dynamiser votre communication</strong>. Le site <strong>internet vitrine</strong> est idéal pour les TPE/PME souhaitant faire découvrir leur activité et mettre en avant leurs prestations et ainsi acquérir de nouveaux clients près de chez eux. </p>
-                            <RoundButton color="darkgrey" url="/creation-site-internet-agen" text="Création de site vitrine" />
+                            <RoundButton color="darkgrey" url="/creation-site-internet-agen/" text="Création de site vitrine" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET E-COMMERCE</h3>
                             <p>Mettre en place un <strong>site e-commerce</strong> va vous permettre de développer une plateforme de <strong>vente en ligne</strong> de vos produits. Le <strong>site internet e-commerce</strong> s’adresse aux commerçants et boutiques qui souhaitent <strong>développer leur chiffre d’affaire en ciblant une nouvelle clientèle</strong>.</p>
-                            <RoundButton color="darkgrey" url="/creer-une-boutique-en-ligne" text="Créer une boutique en ligne" />
+                            <RoundButton color="darkgrey" url="/creer-une-boutique-en-ligne/" text="Créer une boutique en ligne" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >SITE INTERNET SUR-MESURE</h3>
                             <p>Mettre en place un site internet multifonctions : réservation, simulation, configurateur et bien plus encore. Créer un site internet sur-mesure, c’est aussi faire le choix d’optimiser votre organisation grâce à un outil numérique à la portée de tous de type intranet.</p>
-                            <RoundButton color="darkgrey" url="/creation-de-site-internet-47-31" text="Créer un site internet sur-mesure" />
+                            <RoundButton color="darkgrey" url="/creation-de-site-internet-47-31/" text="Créer un site internet sur-mesure" />
                         </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 py-6 my-4">
@@ -168,7 +168,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                     La <strong>création de site internet</strong> demande un travail particulièrement aiguisé. Le public visé, l’utilisateur, les <strong>moteurs de recherche</strong>  et le <strong>référencement</strong>  sont autant de paramètres qu’il est nécessaire de prendre en compte pour mener à bien sa stratégie.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="En savoir plus" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
 
                                 </section>
                             </div>
@@ -183,7 +183,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                 <strong>Site internet vitrine</strong>, <strong>e-commerce</strong> ou sur-mesure, il existe de nombreuses solutions pour affirmer sa présence <strong>en ligne</strong>. Nous vous accompagnons pour faire le choix de la solution la mieux adaptée pour votre société, ainsi qu’à vos objectifs de <strong>communication</strong>.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </section>
                                 </div>
                             </div>
@@ -197,7 +197,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                     Nos <strong>consultants web</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et la mise en place de votre <strong>site internet professionnel</strong> et sur-mesure. Linkweb vous accompagne pour la <strong>création de site web</strong> professionnel.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                                 </section>
                                 
                             </div>
@@ -287,7 +287,7 @@ class CreationSiteInternetToulousePage extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je souhaite créer mon site internet professionnel" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je souhaite créer mon site internet professionnel" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center my-12 flex-col sm:flex-row">

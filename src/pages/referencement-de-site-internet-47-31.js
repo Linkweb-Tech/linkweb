@@ -53,7 +53,7 @@ class ReferencementNaturel extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(0,0,0,0.2)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer la visibilité de mon site internet" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux améliorer la visibilité de mon site internet" />
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-3xl md:text-6xl text-center text-white">
@@ -65,12 +65,12 @@ class ReferencementNaturel extends React.Component {
                     </section>
                     <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
-                        <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/referencement-toulouse" position="center"/></div>
-                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/referencement-toulouse">Retour</Link></div>
+                        <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/referencement-toulouse/" position="center"/></div>
+                        <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/referencement-toulouse/">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px'}}>
-                            <div className="w-full lg:w-1/2 text-bleu p-1"><ButtonMenu url="/referencement-de-site-internet-47-31" text="Référencement Naturel" position="center" /></div>
-                            <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/agence-adwords-47-31" text="Référencement Ads" position="center" /></div>
+                            <div className="w-full lg:w-1/2 text-bleu p-1"><ButtonMenu url="/referencement-de-site-internet-47-31/" text="Référencement Naturel" position="center" /></div>
+                            <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/agence-adwords-47-31/" text="Référencement Ads" position="center" /></div>
                         </section>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -88,7 +88,7 @@ class ReferencementNaturel extends React.Component {
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Être visible sur les moteurs de recherche demande un travail de référencement précis pour améliorer son positionnement.</span>
                             </h4>
-                            <p data-aos='fade-bottom' className="text-justify">Le <strong>référencement naturel SEO</strong> de votre <strong>site internet</strong>, qui se distingue du <strong><Link className="hover:text-bleu" to="/agence-adwords-47-31">référencement payant Google Adwords</Link></strong> est travaillé de manière régulière et constante pour obtenir le meilleur classement, et cela toujours en prenant en compte les objectifs de développement de votre entreprise.
+                            <p data-aos='fade-bottom' className="text-justify">Le <strong>référencement naturel SEO</strong> de votre <strong>site internet</strong>, qui se distingue du <strong><Link className="hover:text-bleu" to="/agence-adwords-47-31/">référencement payant Google Adwords</Link></strong> est travaillé de manière régulière et constante pour obtenir le meilleur classement, et cela toujours en prenant en compte les objectifs de développement de votre entreprise.
                             <br/><br/>
                             Nous maintenons une <strong>mise à jour régulière des pages web de votre site internet</strong>, de la conception technique à la gestion de votre <strong>référencement naturel</strong> avec les <strong>optimisations de balises</strong> et autres <strong>techniques de référencement</strong> (<strong>maillage interne</strong>, <strong>liens entrants</strong>, <strong>balise meta</strong>, contenu de qualité) qui vous permettront de vous <strong>positionner dans les premiers résultats naturels des pages de résultats des moteurs de recherche</strong> pour un mot clé donné en vue d’une <strong>acquisition de trafic</strong> et de maximiser votre <strong>taux de conversion</strong>.</p>
                         </div>
@@ -247,7 +247,7 @@ class ReferencementNaturel extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Le <strong>référencement naturel (SEO)</strong> se distingue du <strong>référencement payant</strong> ou <strong>référencement Google Ads</strong>. Si ce dernier se concentre sur la <strong>sponsorisation de liens</strong>, le <strong>SEO</strong> demande d’être rigoureux, régulier et attentif pour faire progresser un site sur les <strong>moteurs de recherche</strong>.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Découvrir le SEO" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Découvrir le SEO" position="center" />
 
                                 </section>
                             </div>
@@ -262,7 +262,7 @@ class ReferencementNaturel extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Vous souhaitez mettre en place une <strong>stratégie de référencement naturel</strong> pour <strong>améliorer la visibilité de votre site internet</strong> ? Nous définissons les contours de votre projet pour vous permettre de mettre en place une stratégie efficace selon vos besoins.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </section>
                                 </div>
                             </div>
@@ -276,7 +276,7 @@ class ReferencementNaturel extends React.Component {
                                 <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
                                 Optez pour la mise en place de votre <strong>stratégie de référencement naturel</strong>. Des <strong>consultants SEO</strong> vous accompagnent pour déterminer les objectifs de la <strong>création de votre site internet</strong> qui vous permettra d’<strong>optimiser votre visibilité en ligne</strong>, dans le but d'obtenir des contacts, ou bien de vendre vos produits.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                                 </section>
                                 
                             </div>
@@ -344,7 +344,7 @@ class ReferencementNaturel extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Demander un devis" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Demander un devis" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">
@@ -477,13 +477,13 @@ class ReferencementNaturel extends React.Component {
                         <br/>
                         <section className="flex flex-col md:flex-row">
                             <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/creation-site-internet-toulouse">Création site internet</Link>
+                                <Link to="/creation-site-internet-toulouse/">Création site internet</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-web-toulouse">Agence Web</Link>
+                                <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
-                                <Link to="/agence-de-communication-agen-47-toulouse-31">Nos réalisations</Link>
+                                <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>
                         <br/>

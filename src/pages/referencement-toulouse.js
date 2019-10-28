@@ -70,7 +70,7 @@ class ReferencementToulouse extends React.Component {
                             Référencement Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
                         <h3 className="italic text-center text-lg sm:text-2xl text-white mt-3">Sortez de l’ombre, devenez visible sur les moteurs de recherche grâce au référencement</h3>
-                        <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer ma visibilité sur internet" />
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Je veux améliorer ma visibilité sur internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <h3 data-aos='fade-right' className="text-center text-4xl century">
@@ -126,7 +126,7 @@ class ReferencementToulouse extends React.Component {
                         <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h2>
                             <p>Vous souhaitez <strong>augmenter votre visibilité</strong> dans les <strong>pages de recherche de Google</strong> ? Vous souhaitez <strong>générer du trafic sur votre site internet</strong>, vendre vos produits ou obtenir des contacts ? Le <strong>référencement naturel</strong> vous offre la possibilité de mettre en avant votre entreprise.</p>
-                            <RoundButton color="darkgrey" url="/referencement-de-site-internet-47-31" text="Notre offre de Référencement Naturel" />
+                            <RoundButton color="darkgrey" url="/referencement-de-site-internet-47-31/" text="Notre offre de Référencement Naturel" />
                         </div>
                         <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#009991 url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT ADS SEA</h2>
@@ -147,11 +147,11 @@ class ReferencementToulouse extends React.Component {
                                 <span className="font-bold">Référencer son site, c’est donner vie à sa communication digitale pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité.</span>
                             </h4>
                             <p data-aos='fade-bottom' className="text-justify">
-                            <strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <strong><Link to="/creation-site-internet-toulouse" className="hover:text-bleu">création de votre site internet</Link></strong>. C’est pourquoi, tout doit être pensé, de la <strong>conception technique</strong> du site, jusqu’à l’<strong>arborescence</strong> afin d’attirer un grand nombre de clients potentiels. <br/><br/>
+                            <strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <strong><Link to="/creation-site-internet-toulouse/" className="hover:text-bleu">création de votre site internet</Link></strong>. C’est pourquoi, tout doit être pensé, de la <strong>conception technique</strong> du site, jusqu’à l’<strong>arborescence</strong> afin d’attirer un grand nombre de clients potentiels. <br/><br/>
 
-                            <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong><Link to="/creation-de-site-internet-47-31" className="hover:text-bleu">développement</Link></strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/><br/>
+                            <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong><Link to="/creation-de-site-internet-47-31/" className="hover:text-bleu">développement</Link></strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/><br/>
 
-                                De fait, il est nécessaire de faire preuve de régularité et de rigueur quant au travail qui est à réaliser, aussi bien en termes de <strong><Link to="/referencement-de-site-internet-47-31" className="hover:text-bleu">référencement naturel</Link></strong>, que de <strong><Link to="/agence-adwords-47-31" className="hover:text-bleu">référencement payant</Link></strong>. <br/>
+                                De fait, il est nécessaire de faire preuve de régularité et de rigueur quant au travail qui est à réaliser, aussi bien en termes de <strong><Link to="/referencement-de-site-internet-47-31/" className="hover:text-bleu">référencement naturel</Link></strong>, que de <strong><Link to="/agence-adwords-47-31/" className="hover:text-bleu">référencement payant</Link></strong>. <br/>
                             </p>
                         </div>
                     </section>
@@ -173,7 +173,7 @@ class ReferencementToulouse extends React.Component {
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                         Faire appel à une <strong>agence de référencement naturel</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. Acquisition de <strong>trafic</strong>, obtention de <strong>contacts</strong>, <strong>e-réputation</strong>. Un <strong>référencement optimal de son site</strong> est essentiel.
                                 </div>
-                                    <Button url="/contact-agence-web-toulouse" text="En savoir plus" position="center" />
+                                    <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
 
                                 </section>
                             </div>
@@ -188,7 +188,7 @@ class ReferencementToulouse extends React.Component {
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                         Plusieurs <strong>techniques de référencement SEO/SEA</strong> existent pour positionner son <strong>site internet</strong> dans les <strong>premiers résultats des premières pages et atteindre la première page</strong> ou en <strong>première position</strong> des <strong>SERP de Google</strong> : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
                                 </div>
-                                    <Button url="/contact-agence-web-toulouse" text="Prendre contact" position="center" />
+                                    <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </section>
                             </div>
                         </div>
@@ -202,7 +202,7 @@ class ReferencementToulouse extends React.Component {
                                 <br/><div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                 <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et l’<strong>optimisation de votre site internet</strong>.
                                 </div>
-                                    <br/><Button url="/contact-agence-web-toulouse" text="Prendre rendez-vous" position="center" />
+                                    <br/><Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                                 </section>
 
                             </div>
@@ -233,7 +233,7 @@ class ReferencementToulouse extends React.Component {
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792"><path fill="#37c5ee" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>&nbsp;
-                                <p><strong><Link to="/agence-adwords-47-31" className="hover:text-bleu">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong></p>
+                                <p><strong><Link to="/agence-adwords-47-31/" className="hover:text-bleu">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong></p>
                             </li>
                         </ul>
                         <div className="w-full flex flex-col md:flex-row text-center my-12">
@@ -289,7 +289,7 @@ class ReferencementToulouse extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse" text="Je veux améliorer ma visibilité sur internet" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux améliorer ma visibilité sur internet" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">
