@@ -64,7 +64,7 @@ class Header extends React.Component {
           <Link  to="/" className="flex items-center no-underline text-white">
             <span className="text-white century">Agence Web</span>
           </Link>
-          <Link to="/actualite-digitale" className="flex items-center no-underline text-white">
+          <Link to="/actualite-digitale/" className="flex items-center no-underline text-white">
             <span className="text-white century">Le Blog</span>
           </Link>
           <a href="https://www.facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">

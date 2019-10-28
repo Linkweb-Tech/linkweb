@@ -124,7 +124,7 @@ class Footer extends React.Component {
                                 <span className="century text-2xl pl-2 text-white">le blog</span>
                             </div>
                             <Link
-                                to="/actualite-digitale"
+                                to="/actualite-digitale/"
                                 className=" w-full block last md:inline-block mt-0s md:mt-0  no-underline text-white century bg-bleu text-center py-2 px-4"
                             >
                                 L'actualité digitale
