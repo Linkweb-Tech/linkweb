@@ -88,7 +88,7 @@ class Header extends React.Component {
               className="w-6 fill-current"
             />
           </a>
-          <a href="/contact-agence-web-toulouse"  className="flex items-center no-underline text-white block md:hidden svg-white">
+          <a href="/contact-agence-web-toulouse/"  className="flex items-center no-underline text-white block md:hidden svg-white">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="23" width="24" viewBox="0 0 511.626 511.626">
               <g>
 	              <g>
@@ -156,7 +156,7 @@ class Header extends React.Component {
               </Link>
   
               <Link
-                to="/creation-site-internet-toulouse"
+                to="/creation-site-internet-toulouse/"
                 activeClassName="active"
                 className="block  lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
@@ -164,28 +164,28 @@ class Header extends React.Component {
               </Link>
   
               <Link
-                to="/referencement-toulouse"
+                to="/referencement-toulouse/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Référencement
               </Link>
               <Link
-                to="/agence-web-toulouse"
+                to="/agence-web-toulouse/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Agence Web
               </Link>
               <Link
-                to="/agence-de-communication-agen-47-toulouse-31"
+                to="/agence-de-communication-agen-47-toulouse-31/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
               >
                 Nos Réalisations
               </Link>
               <Link
-                to="/contact-agence-web-toulouse"
+                to="/contact-agence-web-toulouse/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm last md:inline-block mt-4 md:mt-0  no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-6"
               >

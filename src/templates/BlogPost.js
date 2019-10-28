@@ -20,7 +20,7 @@ import instaIcon from "../images/instagram-logo.svg";
 
 const BlogPostTemplate = ({ data }) => (
     <Layout location={data.wordpressPost.title}>
-        <SEO article={true} title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={`https://linkweb.fr/blog/${data.wordpressPost.slug}`} date={data.wordpressPost.date} slug={data.wordpressPost.slug} modified={data.wordpressPost.modified} />
+        <SEO article={true} title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} date={data.wordpressPost.date} slug={data.wordpressPost.slug} modified={data.wordpressPost.modified} />
         <section className="w-full h-screen mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundColor:'#00000094', backgroundBlendMode:'multiply', backgroundImage: 'url(' + data.wordpressPost.featured_media.source_url + ')' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-32 text-5xl sm:text-6xl text-center text-white">
                         {data.wordpressPost.title}
@@ -32,7 +32,7 @@ const BlogPostTemplate = ({ data }) => (
                         </p>
         </section>
         <section className="px-6 lg:px-64 font-bold">
-          <Link className="hover:text-bleu" to="/actualite-digitale"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" 
+          <Link className="hover:text-bleu" to="/actualite-digitale/"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" 
           href={`/blog/category/${data.wordpressPost.categories[0].slug}`}>{data.wordpressPost.categories[0].name}</a> 
             <span className="text-bleu">>></span> 
             <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}`}>{data.wordpressPost.title}</Link> 
