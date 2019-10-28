@@ -26,7 +26,7 @@ class LastPosts extends React.Component {
                                 
                                 
                                 <Link
-                                    to={`/blog/${node.slug}`}
+                                    to={`/blog/${node.slug}/`}
                                     className="century uppercase pb-3"
                                 >
                                     <div className="h-64 bg-cover bg-center" style={{backgroundImage:'url(' + node.featured_media.source_url +')'}}></div>

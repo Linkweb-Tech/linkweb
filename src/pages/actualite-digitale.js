@@ -78,7 +78,7 @@ render() {
                                     </div>
                                     <div className="max-w-6xl mx-auto flex text-center mt-12 mb-12">
                                     {/* <RappelForm /> */}
-                                    <RoundButton color="darkgrey" url="/contact-agence-web-toulouse" text="Contactez-nous" />
+                                    <RoundButton color="darkgrey" url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                                     </div>
                                 </section>
                                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -89,22 +89,22 @@ render() {
                                 </section>
                                 <section className="flex justify-center">
                                 <div className="w-2/3 md:w-1/4">
-                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement" text="En savoir plus"/><br/>
+                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
                                 </div>
                                 </section>
                                 <section className="flex flex-col sm:flex-row px-10 mr-24">
                                     <div className="w-full sm:w-1/3 mx-10 my-10">
                                         <img src={world} className="mx-auto w-20 block" alt="Création site internet Toulouse"/><br/>
-                                        <Link className="font-bold hover:text-bleu" to="/creation-site-internet-toulouse"><h2 className="text-2xl">Création Web</h2></Link><br/>
+                                        <Link className="font-bold hover:text-bleu" to="/creation-site-internet-toulouse/"><h2 className="text-2xl">Création Web</h2></Link><br/>
                                         <p>L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
                                     </div>
                                     <div className="w-full sm:w-1/3 mx-10 my-10">
                                         <img src={iconseo} className="mx-auto w-20 block" alt="Création site internet Toulouse"/><br/>
-                                        <Link className="font-bold hover:text-bleu" to="/referencement-de-site-internet-47-31"><h2 className="text-2xl">Référencement Naturel</h2></Link><br/>
+                                        <Link className="font-bold hover:text-bleu" to="/referencement-de-site-internet-47-31/"><h2 className="text-2xl">Référencement Naturel</h2></Link><br/>
                                         <p>Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
                                     </div>
                                     <div className="w-full sm:w-1/3 mx-10 my-10">
-                                        <img src={iconsea} className="mx-auto w-20 block" alt="Création site internet Toulouse"/><br/>
+                                        <img src={iconsea} className="mx-auto w-20 block" alt="Création site internet Toulouse/"/><br/>
                                         <Link className="font-bold hover:text-bleu" to="/agence-adwords-47-31"><h2 className="text-2xl">Référencement Payant</h2></Link><br/>
                                         <p>Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
                                     </div>
@@ -112,14 +112,14 @@ render() {
                         </section>                    
                     </div>
                     <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 ">
-                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse" text="Demander un devis"/><br/>
+                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse/" text="Demander un devis"/><br/>
                         <h3 className="font-bold pb-3">CATÉGORIES</h3>
                         <CategoriesList list={ this.props.data.allWordpressCategory.edges} />
                         <h3 className="font-bold pt-12 pb-3">DERNIERS ARTICLES</h3>
                         <LastPostsMini lastposts={this.props.data.lastmini.edges} />
-                        <Link to="/creation-site-internet-toulouse"><img src={CreerSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/referencement-de-site-internet-47-31"><img src={RefSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/agence-adwords-47-31"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
+                        <Link to="/creation-site-internet-toulouse/"><img src={CreerSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/referencement-de-site-internet-47-31/"><img src={RefSite} alt="Création site internet Agen"/></Link>
+                        <Link to="/agence-adwords-47-31/"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
                         <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
                         <Timeline
                             dataSource={{
