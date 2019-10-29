@@ -14,6 +14,9 @@ import { Timeline } from 'react-twitter-widgets';
 import CreerSite from "../../../images/creer-un-site.jpg";
 import RefSite from "../../../images/referencer-un-site.jpg";
 import AgenceAds from "../../../images/campagne-ads.jpg";
+import fbIcon from "../../../images/facebook-logo.svg";
+import twitterIcon from "../../../images/twitter-logo.svg";
+import instaIcon from "../../../images/instagram-logo.svg";
 
 
 
@@ -58,6 +61,39 @@ render() {
                     <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Actualités
                     </h1>
+                    <a href="/actualite-digitale/" className="century text-sm sm:text-md text-center text-white mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"> <span className="text-bleu font-bold">>></span> Revenir à l'accueil</a>
+                    <br/>
+                    <section className="w-full flex flex-row justify-center text-white">
+                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-left">
+                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <img 
+                                    src={ fbIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
+                                    />
+                                    </a>
+                                </div>
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <img 
+                                    src={ twitterIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
+                                    />
+                                    </a>
+                                </div>
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <img 
+                                    src={ instaIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
+                                    />
+                                    </a>
+                                </div>
+                            </div>
+                    </section>
                 </section>
                 <section className=" flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
                     <div className="w-full xl:w-3/4">
@@ -142,6 +178,7 @@ query lastsThreePostsCatActus {
             id
             title
             slug
+            date(locale: "fr", formatString: "dddd DD MMMM YYYY")
             modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
             featured_media {

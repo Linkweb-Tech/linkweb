@@ -17,6 +17,9 @@ import AgenceAds from "../images/campagne-ads.jpg";
 import world from "../images/grid-world.png";
 import iconseo from "../images/seo-performance-marketing-graphic.png";
 import iconsea from "../images/waving-flag.png";
+import fbIcon from "../images/facebook-logo.svg";
+import twitterIcon from "../images/twitter-logo.svg";
+import instaIcon from "../images/instagram-logo.svg";
 
 
 
@@ -57,16 +60,51 @@ render() {
                 transitionTime={200}
             > */}
                 <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{backgroundColor:'black', height:'450px'}}>
-                    <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
+                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Le Blog<span className="text-bleu">/</span>Linkweb
-                    </h1>
+                    </h2>
+                    <h1 className="century text-xl sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'actualité digitale</h1>
+                    <br/>
+                    {/* Réseaux Sociaux */}
+                    <section className="w-full flex flex-row justify-center text-white">
+                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-left">
+                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <img 
+                                    src={ fbIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
+                                    />
+                                    </a>
+                                </div>
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <img 
+                                    src={ twitterIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
+                                    />
+                                    </a>
+                                </div>
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <img 
+                                    src={ instaIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
+                                    />
+                                    </a>
+                                </div>
+                            </div>
+                    </section>
+                    {/* FIN Réseaux Sociaux */}
                 </section>
                 <section className=" flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
                     <div className="w-full xl:w-3/4">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
                             <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
                             <section className="flex justify-center">
-                                <div className="w-2/3 md:w-1/4">
+                                <div className="w-2/3 md:w-1/4" data-aos="fade-up">
                                     <ButtonBlog className="rounded-none century font-thin" url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
                                 </div>
                             </section>
@@ -88,7 +126,7 @@ render() {
                                     <LastPosts lastposts={this.props.data.ref.edges} />
                                 </section>
                                 <section className="flex justify-center">
-                                <div className="w-2/3 md:w-1/4">
+                                <div className="w-2/3 md:w-1/4" data-aos="fade-up">
                                     <ButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
                                 </div>
                                 </section>
@@ -154,6 +192,7 @@ query lastsThreePostsActualitedigitale {
             title
             slug
             modified(locale: "fr", formatString: "DD/MM/YYYY")
+            date(locale: "fr", formatString: "dddd DD MMMM YYYY")
             link
             featured_media {
                 source_url
