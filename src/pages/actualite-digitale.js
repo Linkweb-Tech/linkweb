@@ -11,6 +11,7 @@ import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
 
+import background from "../images/background-blog.jpg";
 import CreerSite from "../images/creer-un-site.jpg";
 import RefSite from "../images/referencer-un-site.jpg";
 import AgenceAds from "../images/campagne-ads.jpg";
@@ -59,7 +60,7 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{backgroundColor:'black', height:'450px'}}>
+                <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{background:'#000000d9 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h2>
@@ -68,7 +69,7 @@ render() {
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white">
                             <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-left">
+                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
                                     <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
                                     <img 
                                     src={ fbIcon }
@@ -105,7 +106,7 @@ render() {
                             <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
                             <section className="flex justify-center">
                                 <div className="w-2/3 md:w-1/4" data-aos="fade-up">
-                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
+                                    <ButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
                                 </div>
                             </section>
                                 <section className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24">
@@ -114,15 +115,16 @@ render() {
                                             Vous souhaitez être recontacté pour la mise en place de votre solution web ?
                                         </h2>
                                     </div>
-                                    <div className="max-w-6xl mx-auto flex text-center mt-12 mb-12">
+                                    <div className="max-w-6xl mx-auto flex text-center mb-12">
                                     {/* <RappelForm /> */}
                                     <RoundButton color="darkgrey" url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                                     </div>
                                 </section>
-                                <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                                    <h2 data-aos='fade-right' className="text-left text-4xl century">
+                                <section className="w-full mx-auto py-6 mt-4 mb-0">
+                                    <h2 data-aos='fade-right' className="text-left text-4xl century pl-8">
                                         À propos de Référencement
                                     </h2>
+                                    <br/>
                                     <LastPosts lastposts={this.props.data.ref.edges} />
                                 </section>
                                 <section className="flex justify-center">
@@ -149,7 +151,7 @@ render() {
                                 </section>
                         </section>                    
                     </div>
-                    <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 ">
+                    <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 mt-20">
                         <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse/" text="Demander un devis"/><br/>
                         <h3 className="font-bold pb-3">CATÉGORIES</h3>
                         <CategoriesList list={ this.props.data.allWordpressCategory.edges} />
