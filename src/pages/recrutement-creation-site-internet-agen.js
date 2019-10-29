@@ -153,6 +153,7 @@ query lastsThreePostsRecrutement {
           title
           slug
           modified(locale: "fr", formatString: "DD/MM/YYYY")
+          date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
           featured_media {
             source_url
