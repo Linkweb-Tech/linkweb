@@ -62,7 +62,7 @@ render() {
                 transitionTime={200}
             > */}
                 <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{background:'#000000d9 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
-                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
+                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h2>
                     <h1 className="century text-xl sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'actualité digitale</h1>
@@ -103,7 +103,7 @@ render() {
                 </section>
                 {/* Menu de catégories */}
                 <section className="flex flex-row justify-center" data-aos="fade-in">
-                    <div className="w-full lg:w-1/2 bg-bleu flex flex-row text-sm text-center text-white p-3 font-medium" style={{borderBottomLeftRadius:'30%', borderBottomRightRadius:'30%'}}>
+                    <div className="w-full lg:w-1/2 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-medium" style={{marginTop:'-18px'}}>
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></div>|
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/agence/">Agence</Link></div>|
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/referencement/"><span className="hidden sm:block">Référencement</span><span className="block sm:hidden">SEO/SEA</span></Link></div>|

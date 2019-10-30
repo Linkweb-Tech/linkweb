@@ -17,6 +17,7 @@ import AgenceAds from "../../../images/campagne-ads.jpg";
 import fbIcon from "../../../images/facebook-logo.svg";
 import twitterIcon from "../../../images/twitter-logo.svg";
 import instaIcon from "../../../images/instagram-logo.svg";
+import background from "../../../images/background-blog.jpg";
 
 
 
@@ -56,7 +57,7 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{backgroundColor:'black', height:'450px'}}>
+                <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{background:'#000000d9 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
                     <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Tous les articles
                     </h1>
