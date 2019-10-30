@@ -55,12 +55,14 @@ const BlogPostTemplate = ({ data }) => (
                         {data.wordpressPost.title}
                         </h1>
                         <br/>
-                        <img src={author} alt="Création Site internet Agen" style={{width:'100px'}}/>
-                        <p className="text-white text-center italic my-6 font-bold">
+                        <img src={author} alt="Création Site internet Agen" style={{width:'100px'}} data-aos="fade-right"/>
+                        <p className="text-white text-center italic my-6 font-bold" data-aos="fade-left">
                           Par {data.wordpressPost.author.name} <br/> {data.wordpressPost.date}
                         </p>
+                        <a href="/actualite-digitale/" className="text-white my-2 font-normal text-sm hover:text-bleu" data-aos="fade-up">> Revenir à l'accueil</a>
+
         </section>
-        <section className="px-6 lg:px-64 font-bold">
+        <section className="px-6 lg:px-64 font-bold" data-aos="fade-left">
           <Link className="hover:text-bleu" to="/actualite-digitale/"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" 
           href={`/blog/category/${data.wordpressPost.categories[0].slug}/`}>{data.wordpressPost.categories[0].name}</a> 
             <span className="text-bleu">>></span> 
@@ -68,14 +70,14 @@ const BlogPostTemplate = ({ data }) => (
         </section>
         <section className="flex flex-col xl:flex-row flex px-12 md:px-24 lg:px-32 xl:px-64">
             <section className="lg:pl-32 md:pr-24 pt-6 pb-0 w-full xl:w-3/4 flex flex-col">
-              <div className="post_content" style={{ marginTop: 20 }} dangerouslySetInnerHTML={{ __html: data.wordpressPost.content }} />
+              <div className="post_content" style={{ marginTop: 20 }} dangerouslySetInnerHTML={{ __html: data.wordpressPost.content }} data-aos="fade-up"/>
               <br/>
               <h3 className="font-bold mt-8 lg:mt-18 mb-6 text-lg text-center">Vous souhaitez partager cet article ?</h3>
               <div className="flex flex-row justify-center">
-                  <FacebookShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`}><FacebookIcon size={32} round={true} /></FacebookShareButton>
+                  <FacebookShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} quote={data.wordpressPost.yoast.metadesc}><FacebookIcon size={32} round={true} /></FacebookShareButton>
                   <TwitterShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} title={data.wordpressPost.yoast.title} via="AgenceLinkweb"><TwitterIcon size={32} round={true} /></TwitterShareButton>
                   <LinkedinShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`}><LinkedinIcon size={32} round={true} /></LinkedinShareButton>
-                  <EmailShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`}><EmailIcon size={32} round={true} /></EmailShareButton>
+                  <EmailShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} subject={data.wordpressPost.yoast.title} body={data.wordpressPost.yoast.metadesc} separator=" - "><EmailIcon size={32} round={true} /></EmailShareButton>
               </div>
               <div className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:mt-10 bg-cover my-8">
                   <div className="max-w-5xl mx-auto flex items-center">
@@ -91,7 +93,7 @@ const BlogPostTemplate = ({ data }) => (
             </section>
             <div className="w-full xl:w-1/4 mt-6 mb-3 px-6 py-10">
               <section className="flex justify-center mb-6 text-white">
-                <div className="w-full md:w-3/4 xl:w-full  py-8 md:py-8 px-6 bg-darkgrey" >
+                <div className="w-full md:w-3/4 xl:w-full  py-8 md:py-8 px-6 bg-darkgrey" style={{borderRadius:'5%'}} >
                   <h3 className="italic text-center text-xl">À Propos</h3>
                   <br/>
                   <h4 className="italic text-center font-bold text-md">linkweb47</h4>
