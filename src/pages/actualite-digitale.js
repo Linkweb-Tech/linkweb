@@ -71,7 +71,7 @@ render() {
                     <section className="w-full flex flex-row justify-center text-white ">
                             <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
                                 <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
                                     <img 
                                     src={ fbIcon }
                                     alt="Réseaux sociaux"
@@ -80,7 +80,7 @@ render() {
                                     </a>
                                 </div>
                                 <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
                                     <img 
                                     src={ twitterIcon }
                                     alt="Réseaux sociaux"
@@ -89,7 +89,7 @@ render() {
                                     </a>
                                 </div>
                                 <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
                                     <img 
                                     src={ instaIcon }
                                     alt="Réseaux sociaux"
@@ -158,7 +158,7 @@ render() {
                                         </div>
                                             <p className="text-justify">Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
                                     </div>
-                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm text-white hover:shadow-lg" style={{borderColor:'#3c3c3c3c', borderRadius:'5%', backgroundColor:'#79aac5'}} data-aos="zoom-in" data-aos-delay="900">
+                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm hover:shadow-lg" style={{borderColor:'#3c3c3c3c', borderRadius:'5%', backgroundColor:'#ffffff'}} data-aos="zoom-in" data-aos-delay="900">
                                         <div className="my-4 flex flex-row">
                                             <img src={iconsea} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
                                             <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/agence-adwords-47-31/"><h2 className="text-xl">Référencement Payant</h2></Link><br/>

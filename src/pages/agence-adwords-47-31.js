@@ -82,7 +82,7 @@ class ReferencementAds extends React.Component {
                     </section>
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
                         <div className="w-full xl:w-1/2">
-                            <img src={imac} alt="Agence Adwords Toulouse"/>
+                            <img className="w-full" src={imac} alt="Agence Adwords Toulouse"/>
                         </div>
                         <div className="w-full xl:w-1/2 px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
@@ -398,7 +398,7 @@ class ReferencementAds extends React.Component {
                         </h3>
                         <hr className="blue"></hr>
                         <LastPosts lastposts={ this.props.data.allWordpressPost.edges } />
-                        <Link className="bg-bleu text-white px-16 py-3 block mx-auto hover:bg-black font-normal" to="/actualite-digitale/">Voir l'actualité</Link>
+                        <Link className="bg-bleu text-white px-16 py-3 block mx-auto hover:bg-black font-normal" to="/actualite-digitale/">Voir l'actualité digitale</Link>
                         <br/>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center px-4 mt-12 mb-3">
