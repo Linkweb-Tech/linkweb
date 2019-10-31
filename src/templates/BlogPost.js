@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import LastPosts from '../components/lastposts';
 import SEO from "../components/seo";
 import author from "../images/author-linkweb.png";
+import linkweb from "../images/lw.png";
 import ButtonBlog from "../components/buttonblog";
 import RoundButton from "../components/roundButton.js";
 import CategoriesList from "../components/categoriesList";
@@ -19,21 +20,7 @@ import {
 import {
   FacebookIcon,
   TwitterIcon,
-  TelegramIcon,
-  WhatsappIcon,
   LinkedinIcon,
-  PinterestIcon,
-  VKIcon,
-  OKIcon,
-  RedditIcon,
-  TumblrIcon,
-  LivejournalIcon,
-  MailruIcon,
-  ViberIcon,
-  WorkplaceIcon,
-  LineIcon,
-  PocketIcon,
-  InstapaperIcon,
   EmailIcon,
 } from 'react-share';
 
@@ -50,16 +37,16 @@ const BlogPostTemplate = ({ data }) => (
     <Layout location={data.wordpressPost.title}>
         <SEO article={true} title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} date={data.wordpressPost.date} slug={data.wordpressPost.slug} modified={data.wordpressPost.modified} />
         <section className="w-full h-screen mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundColor:'#00000094', backgroundBlendMode:'multiply', backgroundImage: 'url(' + data.wordpressPost.featured_media.source_url + ')' }}>
-                        <a href={`/blog/category/${data.wordpressPost.categories[0].slug}/`} data-aos="zoom-in" data-aos-delay="700" className="bg-bleu py-3 px-12 text-white font-bold hover:shadow-xl">{data.wordpressPost.categories[0].name}</a>
+                        <a href={`/blog/category/${data.wordpressPost.categories[0].slug}/`} data-aos="zoom-in" data-aos-delay="700" className="py-3 px-12 text-white text-xl font-bold hover:shadow-xl"><span className="text-bleu">/&nbsp;</span>{data.wordpressPost.categories[0].name}&nbsp;<span className="text-bleu">/</span></a>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-48 text-5xl sm:text-6xl text-center text-white">
                         {data.wordpressPost.title}
                         </h1>
                         <br/>
                         <img src={author} alt="Création Site internet Agen" style={{width:'100px'}} data-aos="fade-right"/>
                         <p className="text-white text-center italic my-6 font-bold" data-aos="fade-left">
-                          Par {data.wordpressPost.author.name} <br/> {data.wordpressPost.date}
+                          Par {data.wordpressPost.author.name} <br/> Le {data.wordpressPost.date}
                         </p>
-                        <a href="/actualite-digitale/" className="text-white my-2 font-normal text-sm hover:text-bleu" data-aos="fade-up">> Revenir à l'accueil</a>
+                        <a href="/actualite-digitale/" className="text-white my-2 font-normal text-sm hover:text-bleu" data-aos="fade-up"><span className="text-bleu">>></span> Revenir à l'accueil</a>
 
         </section>
         <section className="px-6 lg:px-64 font-bold" data-aos="fade-left">
@@ -94,11 +81,17 @@ const BlogPostTemplate = ({ data }) => (
             <div className="w-full xl:w-1/4 mt-6 mb-3 px-6 py-10">
               <section className="flex justify-center mb-6 text-white">
                 <div className="w-full md:w-3/4 xl:w-full  py-8 md:py-8 px-6 bg-darkgrey" style={{borderRadius:'5%'}} >
-                  <h3 className="italic text-center text-xl">À Propos</h3>
+                  <h3 className="italic text-center text-xl font-bold">À propos de l'auteur</h3>
                   <br/>
-                  <h4 className="italic text-center font-bold text-md">linkweb47</h4>
+                  <img
+                  src={linkweb}
+                  alt="Actualité digitale"
+                  width="80px"
+                  className="mx-auto block mb-4"
+                  />
+                  <h4 className="italic text-center font-medium text-md">linkweb47</h4>
                   <br/>
-                  <p className="text-justify" style={{textAlignLast:'center'}}>
+                  <p className="text-center font-light">
                       Linkweb est une agence de communication web basée à Agen (47) et Toulouse (31). Spécialisés dans la création de site internet, le référencement SEO et le SEA, nous accompagnons nos clients pour des projets sur-mesure et qui répondent à leurs attentes.
                   </p>
                   <br/>
@@ -160,7 +153,8 @@ const BlogPostTemplate = ({ data }) => (
         <section className="flex flex-col items-center px-12">
           <div className="w-full xl:w-2/3 font-bold text-2xl text-left ">
                 <br/>
-                <h3 className="ml-8">Plus d'informations...</h3>
+                <h3 className="text-center">En savoir plus sur l'actualité digitale</h3>
+                <hr className="blue"/>
                 <br/>
                 <LastPosts lastposts={data.allWordpressPost.edges} />
           </div>

@@ -102,7 +102,7 @@ render() {
                     {/* FIN Réseaux Sociaux */}
                 </section>
                 {/* Menu de catégories */}
-                <section className="flex flex-row justify-center" data-aos="fade-in">
+                <section className="flex flex-row justify-center" data-aos="zoom-in">
                     <div className="w-full lg:w-1/2 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-medium" style={{marginTop:'-18px'}}>
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></div>|
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/agence/">Agence</Link></div>|
