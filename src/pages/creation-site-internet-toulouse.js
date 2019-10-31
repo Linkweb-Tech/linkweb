@@ -9,7 +9,7 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
-
+import Modal from 'react-responsive-modal';
 
 import tlse from "../images/logo_universite-federale.png";
 import peugeot from "../images/peugeot.png";
@@ -28,9 +28,22 @@ class CreationSiteInternetToulousePage extends React.Component {
 
     constructor(props){
         super(props);
+        this.state = {
+            open: false
+        }
     }
+ 
+    
+    onOpenModal = () => {
+        this.setState({ open: true });
+      };
+    
+    onCloseModal = () => {
+    this.setState({ open: false });
+    };
 
     render(){
+        const { open } = this.state;
         return (
             <Layout location={this.props.location}>
 
@@ -59,6 +72,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
+                    
                     <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#00000038 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom', backgroundSize:'cover' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
                         Création site internet Toulouse<span className="text-bleu">/</span>Agen
@@ -148,6 +162,29 @@ class CreationSiteInternetToulousePage extends React.Component {
 
                             En fonction de votre demande, nous déterminerons la solution la plus adaptée pour votre site quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Toulouse</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. De l’arborescence à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
                             {/* <Button url="#" text="En savoir plus sur la création de site internet" position="start" /> */}
+                            <br/>
+                            <button className="text-md hover:text-bleu" onClick={this.onOpenModal}><span className="text-bleu">>></span> En savoir plus sur la création de site internet</button>
+                            <Modal open={open} onClose={this.onCloseModal} center>
+                                <br/>
+                                <h2 className="font-semibold px-10 text-xl">1<span className="text-bleu">/</span> UNE ÉQUIPE À VOTRE ÉCOUTE</h2>
+                                <br/>
+                                <p className="text-md text-justify px-10">
+                                    <strong>Nos consultants en communication web</strong> définissent un <strong>projet web</strong> qui vous ressemble : la relation de collaboration mise en place avec nos <strong>clients</strong> nous permet de <strong>créer des sites internet</strong> à votre image, en suivant votre <strong>charte graphique</strong> et <strong>identité visuelle</strong>, vos valeurs, ainsi qu’en traduisant votre activité avec fidélité. Il est important pour nous d’être au plus près de vos besoins afin de traduire la plus-value de votre entreprise sur un support en ligne.
+                                </p>
+                                <br/>
+                                <h2 className="font-semibold px-10 text-xl">2<span className="text-bleu">/</span> DES EXPERTS QUALIFIÉS</h2>
+                                <br/>
+                                <p className="text-md text-justify px-10">
+                                <strong>Linkweb</strong>, c’est une équipe de référenceurs spécialisés dans l’<strong>optimisation SEO</strong> et de développeurs front-end et back-end spécialisé dans l’UI et l’UX design à <strong>Toulouse</strong>. Nos équipes vous proposent des plateformes adaptées dans le but d’améliorer l’<strong>expérience utilisateur</strong> grâce à un site au <strong>webdesign</strong> moderne, ergonomique, accessible et adapté au responsive design. Chaque fonctionnalité est étudiée pour apporter une plus-value à <strong>votre site internet</strong>.
+                                </p>
+                                <br/>
+                                <h2 className="font-semibold px-10 text-xl">3<span className="text-bleu">/</span> UN SUIVI PRÉCIS DES PERFORMANCES</h2>
+                                <br/>
+                                <p className="text-md text-justify px-10">
+                                Le <strong>référencement d’un site internet</strong> s’effectue sur le long terme. C’est pourquoi un suivi régulier est mis en place pour vous permettre d’avoir un regard professionnel sur le positionnement des pages de votre site dans les résultats des <strong>moteurs de recherche</strong> par rapport à vos concurrents. Par ailleurs, nos consultants à <strong>Toulouse</strong> sont force de proposition pour vous présenter des mises à jour qui permettront d’affiner la <strong>stratégie de référencement</strong> déployée sur <strong>votre site web</strong>.
+                                </p>
+                                <br/>
+                            </Modal>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -455,6 +492,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <Link className="bg-bleu text-white px-16 py-3 block mx-auto hover:bg-black font-normal" to="/actualite-digitale/">Voir l'actualité digitale</Link>
                         <br/>
                     </section>
+
                 {/* </PageTransition> */}
             </Layout>
         );
