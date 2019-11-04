@@ -22,7 +22,7 @@ import imac from "../images/ecran-imac.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import stars from '../images/stars.png';
 import hg from "../images/logo_cd31.svg";
-
+import mac from "../images/mac-agence.jpg";
 
 class CreationSiteInternetToulousePage extends React.Component {
 
@@ -163,28 +163,12 @@ class CreationSiteInternetToulousePage extends React.Component {
                             En fonction de votre demande, nous déterminerons la solution la plus adaptée pour votre site quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Toulouse</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. Le <strong>référencement d'un site</strong> est un travail essentiel pour maximiser sa visibilité. De l’arborescence à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
                             {/* <Button url="#" text="En savoir plus sur la création de site internet" position="start" /> */}
                             <br/>
-                            <button data-aos="fade-left" className="text-md hover:text-bleu" onClick={this.onOpenModal}><span className="text-bleu">>></span> En savoir plus sur la création de site internet</button>
-                            <Modal open={open} onClose={this.onCloseModal} center>
+                            {/* <button data-aos="fade-left" className="text-md hover:text-bleu" onClick={this.onOpenModal}><span className="text-bleu">>></span> En savoir plus sur la création de site internet</button> */}
+                            {/* <Modal open={open} onClose={this.onCloseModal} center>
                                 <br/>
-                                <h2 className="font-semibold px-10 text-xl">1<span className="text-bleu">/</span> UNE ÉQUIPE À VOTRE ÉCOUTE</h2>
+                                
                                 <br/>
-                                <p className="text-md text-justify px-10">
-                                    <strong>Nos consultants en communication web</strong> définissent un <strong>projet web</strong> qui vous ressemble : la relation de collaboration mise en place avec nos <strong>clients</strong> nous permet de <strong>créer des sites internet</strong> à votre image, en suivant votre <strong>charte graphique</strong> et <strong>identité visuelle</strong>, vos valeurs, ainsi qu’en traduisant votre activité avec fidélité. Il est important pour nous d’être au plus près de vos besoins afin de traduire la plus-value de votre entreprise sur un support en ligne.
-                                </p>
-                                <br/>
-                                <h2 className="font-semibold px-10 text-xl">2<span className="text-bleu">/</span> DES EXPERTS QUALIFIÉS</h2>
-                                <br/>
-                                <p className="text-md text-justify px-10">
-                                <strong>Linkweb</strong>, c’est une équipe de référenceurs spécialisés dans l’<strong>optimisation SEO</strong> en plus de développeurs front-end et back-end spécialisés dans l’UI (<strong>interface utilisateur</strong> et travail de l'<strong>ergonomie</strong>) et l’<strong>UX (expérience utilisateur)</strong> design à <strong>Toulouse</strong>. Nos équipes vous proposent des plateformes adaptées dans le but d’améliorer l’<strong>expérience utilisateur</strong> grâce à un site au <strong>webdesign</strong> moderne, ergonomique, accessible et adapté au responsive design. Chaque fonctionnalité est étudiée pour apporter une plus-value à <strong>votre site internet</strong>.
-                                </p>
-                                <br/>
-                                <h2 className="font-semibold px-10 text-xl">3<span className="text-bleu">/</span> UN SUIVI PRÉCIS DES PERFORMANCES</h2>
-                                <br/>
-                                <p className="text-md text-justify px-10">
-                                Le <strong>référencement d’un site internet</strong> s’effectue sur le long terme. C’est pourquoi un suivi régulier est mis en place pour vous permettre d’avoir un regard professionnel sur le positionnement des pages de votre site dans les résultats des <strong>moteurs de recherche</strong> par rapport à vos concurrents. Par ailleurs, nos consultants à <strong>Toulouse</strong> sont force de proposition pour vous présenter des mises à jour qui permettront d’affiner la <strong>stratégie de référencement</strong> déployée sur <strong>votre site web</strong>.
-                                </p>
-                                <br/>
-                            </Modal>
+                            </Modal> */}
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -239,6 +223,40 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 
                             </div>
 
+                        </div>
+                    </section>
+                    <section className="max-w-5xl w-full mx-auto px-4 pt-6 pb-0 my-2">
+                        <h2 data-aos='fade-right' className="text-center text-3xl century">
+                        Linkweb à Toulouse : la solution pour créer son site internet professionnel
+                        </h2>
+                        <hr className="blue"></hr>
+                    </section>
+                    <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-6 md:my-4">
+                        <div className="w-full lg:w-1/2 ">
+                            <img 
+                                src={mac}
+                                alt="Création site internet Toulouse"
+                                data-aos="fade-right"
+                            />
+                        </div>
+                        <div className="w-full lg:w-1/2 max-w-3xl md:px-10 md:py-32">
+                            <h2 className="font-bold px-10 text-xl" data-aos="fade-in">1<span className="text-bleu">/</span> UNE ÉQUIPE À VOTRE ÉCOUTE</h2>
+                            <br/>
+                            <p className="text-md text-justify px-10 pt-6 md:py-0" data-aos="fade-left">
+                                <strong className="font-light">Nos consultants en communication web</strong> définissent un <strong>projet web</strong> qui vous ressemble : la relation de collaboration mise en place avec nos <strong className="font-light">clients</strong> nous permet de <strong>créer des sites internet</strong> à votre image, en suivant votre <strong>charte graphique</strong> et <strong>identité visuelle</strong>, vos valeurs, ainsi qu’en traduisant votre activité avec fidélité. Il est important pour nous d’être au plus près de vos besoins afin de traduire la plus-value de votre entreprise sur un support en ligne.
+                            </p>
+                            <br/>
+                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" data-aos="fade-in">2<span className="text-bleu">/</span> DES EXPERTS QUALIFIÉS</h2>
+                            <br/>
+                            <p className="text-md text-justify px-10" data-aos="fade-left">
+                                <strong className="font-light">Linkweb</strong>, c’est une équipe de référenceurs spécialisés dans l’<strong>optimisation SEO</strong> en plus de développeurs front-end et back-end spécialisés dans l’<strong>UI (interface utilisateur</strong> et travail de l'<strong className="font-light">ergonomie</strong>) et l’<strong>UX (expérience utilisateur)</strong> design à <strong className="font-light">Toulouse</strong>. Nos équipes vous proposent des plateformes adaptées dans le but d’améliorer l’<strong className="font-light">expérience</strong> passée sur votre site grâce à un site au <strong className="font-light">webdesign</strong> moderne, ergonomique, accessible et adapté au responsive design. Chaque fonctionnalité est étudiée pour apporter une plus-value à <strong>votre site internet</strong>.
+                            </p>
+                            <br/>
+                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" data-aos="fade-in">3<span className="text-bleu">/</span> UN SUIVI PRÉCIS DES PERFORMANCES</h2>
+                            <br/>
+                            <p className="text-md text-justify px-10" data-aos="fade-left">
+                                Le <strong>référencement d’un site internet</strong> s’effectue sur le long terme. C’est pourquoi un suivi régulier est mis en place pour vous permettre d’avoir un regard professionnel sur le positionnement des pages de votre site dans les résultats des <strong>moteurs de recherche</strong> par rapport à vos concurrents. Par ailleurs, nos consultants à <strong className="font-light">Toulouse</strong> sont force de proposition pour vous présenter des mises à jour qui permettront d’affiner la <strong>stratégie de référencement</strong> déployée sur <strong>votre site web</strong>.
+                            </p>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
