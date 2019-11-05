@@ -219,7 +219,7 @@ class ContactForm extends React.Component {
                 />
                 </div>
                 <div className="w-full px-2 py-4">
-                    <input 
+                    <textarea 
                         placeholder="Message (*)" 
                         type="text" 
                         className="py-3 border-bottom-bleu w-full"
