@@ -82,11 +82,11 @@ class CreationSiteSurMesure extends React.Component {
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-full xl:w-1/2" style={{padding:'5% 0%'}}>
+                        <div className="w-full xl:w-1/2">
                             <br/><br/>
                             <img src={imac} alt="Création site internet Toulouse" />
                         </div>
-                        <div className="w-full xl:w-1/2 px-12 py-12" >
+                        <div className="w-full xl:w-1/2 px-6 lg:pr-32 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET SUR-MESURE : DÉVELOPPEZ VOS FONCTIONNALITÉS
                             </h2>
