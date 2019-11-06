@@ -169,7 +169,7 @@ class Dev extends React.Component {
                                         <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Mise en page ergonomique</strong> de vos contenus</li>
                                         <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;<strong>Webdesign</strong> original et épuré</li>
                                         <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Site web</strong> professionnel et évolutif
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;Vitesse de chargement des <strong>pages optimisée</strong></li>
+                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;Vitesse de chargement des <strong>pages optimisées</strong></li>
                                         <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Protocole de sécurisation HTTPS</strong></li>
                                         <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;Prise en charge technique de vos mises à jour</li>
                                         </li>
