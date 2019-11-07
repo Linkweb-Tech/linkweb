@@ -38,6 +38,7 @@ import ampoule from '../images/light-bulb.png';
 import main from '../images/hold.png';
 import mind from '../images/mind.png';
 import star from '../images/star.png';
+import gatsbyjs from '../images/gatsbyjs.jpg';
 
 
 import web from '../images/web.svg';
@@ -314,17 +315,20 @@ class Dev extends React.Component {
                         </section>
 
                         <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
-                            <div className="w-1/4">
+                            <div className="w-1/5">
                                 <img className="w-48 mx-auto block" src={bootstrap} alt="Bootstrap" />
                             </div>
-                            <div className="w-1/4">
+                            <div className="w-1/5">
                                 <img className="w-48 mx-auto block" src={laravel} alt="Laravel" />
                             </div>
-                            <div className="w-1/4">
+                            <div className="w-1/5">
                                 <img className="w-48 mx-auto block" src={symfony} alt="Symfony" />
                             </div>
-                            <div className="w-1/4">
+                            <div className="w-1/5">
                                 <img className="w-48 mx-auto block" src={vue} alt="Vue" />
+                            </div>
+                            <div className="w-1/5">
+                                <img className="w-48 mx-auto block" src={gatsbyjs} alt="Gatsby" />
                             </div>
                         </section>
                     </section>
