@@ -44,9 +44,8 @@ class uiDesign extends React.Component {
 
                 <SEO
                     title="UI Design : Définition - Création site internet Toulouse - Linkweb"
-                    description="L'agence web Linkweb déploie son offre en termes de communication web à Toulouse (31) : création de site internet, référencement naturel et ads."
-                    keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
-                    url="https://linkweb.fr/agence-web-toulouse/"
+                    description="L'UI Design est une notion directement liée à celle d'UX Design (expérience utilisateur). Découvrez à quoi se rattache cette notion issue du webdesign."
+                    url="https://linkweb.fr/creation-site-internet-toulouse/ui-design/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
