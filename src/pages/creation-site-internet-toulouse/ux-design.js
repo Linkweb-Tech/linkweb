@@ -32,7 +32,7 @@ import contract from '../../images/contract.svg';
 import hg from "../../images/logo_cd31.svg";
 
 
-class uiDesign extends React.Component {
+class uxDesign extends React.Component {
 
     constructor(props) {
         super(props);
@@ -43,9 +43,9 @@ class uiDesign extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="UI Design : Définition - Création site internet Toulouse - Linkweb"
-                    description="L'UI Design est une notion directement liée à celle d'UX Design (expérience utilisateur). Découvrez à quoi se rattache cette notion issue du webdesign."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/ui-design/"
+                    title="UX Design : Définition - Création site internet Toulouse - Linkweb"
+                    description="L'UX Design est un concept central dans la conception d'un site internet. Découvrez à quoi se rattache cette notion issue du webdesign."
+                    url="https://linkweb.fr/creation-site-internet-toulouse/ux-design/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -70,18 +70,18 @@ class uiDesign extends React.Component {
                     <section className="w-full mt-40 text-justify font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
                         <h1 data-aos="fade-up" className="century text-4xl sm:text-5xl text-center text-bleu mt-4 lg:mt-6">
-                            UI Design
+                            UX Design
                         </h1>
                         <hr className="blue" data-aos="fade-up"></hr>
                         <br/>
                             <p>
-                            L’<strong>UI design</strong> ou <strong>interface utilisateur</strong> est un terme <strong className="font-normal">webmarketing</strong> qui désigne la relation qu’un utilisateur peut entretenir avec une plateforme web. En d’autres termes, l’UI design se réfère à l’ensemble des éléments <strong className="font-normal">visuels</strong> et graphiques qui interviennent dans la navigation d’un utilisateur sur un site internet afin d’en optimiser l’expérience.<br/>
+                            L’<strong>UX design (user experience)</strong> est une notion <strong className="font-normal">webmarketing</strong> qui est centrale dans notre <strong><Link className="text-bleu hover:text-black" to="/creation-site-internet-toulouse/">conception de la création de site internet à Toulouse</Link></strong>. En effet, l’UX design est une expression qui désigne l’<strong className="font-normal">expérience d’un utilisateur</strong> passée sur un site web et relève directement du domaine du <strong className="font-normal">web design</strong>. Ce concept se rapporte au fait de penser la conception d’un site internet en fonction de l’expérience qu’un utilisateur va en percevoir. En ce sens, le travail de l’expérience utilisateur d’un <strong className="font-normal">site internet</strong> prévoit la mise en place d’<strong className="font-normal">éléments graphiques</strong> (ou pas), en fonction de la plus-value qu’ils vont apporter pour l’utilisateur et sa navigation sur le <strong className="font-normal">site web</strong>.<br/>
                             <br/>
-                            En effet, l’UI design a pour objectif de proposer une <strong>expérience utilisateur optimale</strong> sur un site internet. En ce sens, l’<strong className="font-normal">UI design</strong> et l’<strong className="font-normal">UX design</strong> (<strong className="font-normal">user experience</strong>) sont deux notions qui sont parfaitement liées. Il s’agit d’un concept qui entre directement en compte dans notre <Link className="text-bleu hover:text-black" to="/creation-site-internet-toulouse/"><strong>processus de création de site internet à Toulouse</strong></Link>. Ceci permettra de conserver une certaine cohérence sur l’ensemble du site, tout en permettant une navigation fluide, agréable et qui ne laisse pas de place aux problèmes d’<strong className="font-normal">ergonomie</strong>.<br/>
+                            Ce travail est effectué par un <strong className="font-normal">développeur web</strong> et doit être anticipé dès la mise en place des premières <strong className="font-normal">maquettes graphiques</strong>. Le <strong>design d’interface (UI design)</strong> est bien entendu très important au sein même du travail de l’<strong className="font-normal">UX Design</strong> : que ce soit en termes d’ergonomie ou bien de design graphique, l’UI design va jouer un rôle important et favoriser la mise en place d’un <strong className="font-normal">projet web</strong> performant ou d’une <strong className="font-normal">application mobile centrée utilisateur</strong> grâce à un environnement visuel ergonomique, intuitif, fonctionnel.<br/>
                             <br/>
-                            En somme, le travail de l’UI design d’un site internet correspond notamment au travail : des typographies utilisées, de la <strong>charte graphique</strong> du site, des éléments <strong className="font-normal">graphiques</strong> qui entretiennent une bonne navigation entre les contenus (boutons) ainsi que tous les éléments qui procurent une intuitivité et une certaine fluidité dans la navigation sur un site web.<br/>
+                            Outre la définition d’une <strong>interface ergonomique</strong> et d’une <strong>charte graphique</strong> attrayante, plusieurs éléments font de l’UX design une notion centrale dans la construction d’un site web pensé pour répondre <strong>aux besoins des utilisateurs</strong>. <strong className="font-normal">Créer un site internet responsive design</strong>, avec une <strong className="font-normal">architecture de l’information</strong> approfondie ainsi qu’une <strong className="font-normal">vitesse de chargement</strong> rapide va fortement favoriser l’UX et constitue une part de plus en plus importante dans le cadre du <strong>référencement naturel</strong>. <br/>
                             <br/>
-                            L’UI design est un concept qui s’applique aussi bien au <strong className="font-normal">web design</strong> d’un site internet, qu’à celui d’une <strong className="font-normal">application mobile</strong>. La <strong className="font-normal">conception</strong> de cette relation entre l’interface et l’utilisateur est le travail de l’<strong>UI designer</strong> avec pour objectif de procurer une expérience utilisateur idéale. Ce travail qui appartient à un <strong className="font-normal">développeur front end</strong> et <strong className="font-normal">webdesigner</strong> peut également être réalisé en collaboration avec un professionnel du <strong className="font-normal">graphisme</strong>.<br/>
+                            Définir une solution efficace demande la mise en place de <strong className="font-normal">tests utilisateurs</strong> et de nombreux <strong className="font-normal">prototypes</strong> pour parvenir à un résultat concluant. En ce sens, l’anticipation est reine dans le travail du <strong className="font-normal">web designer</strong>, <strong className="font-normal">concepteur</strong> ou <strong className="font-normal">UX designer</strong>, avec pour unique objectif de mettre en place un outil digital user friendly à travers des <strong>interfaces web adaptées aux attentes des utilisateurs</strong>.<br/>
                         </p>
                         <img
                             src={banniere}
@@ -90,11 +90,11 @@ class uiDesign extends React.Component {
                         />
                         </div>
                         <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées à l'UI design :</b></p>
+                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées à l'UX design :</b></p>
                             <br/>
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ui-design/">UI Design</Link></li>
                                 <li>Responsive Design</li>
                                 <li>Webdesign</li>
                                 <li>Maquette visuelle</li>
@@ -114,7 +114,7 @@ class uiDesign extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsui {
+query lastsThreePostsux {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -134,7 +134,7 @@ query lastsThreePostsui {
   
     
 `
-export default uiDesign;
+export default uxDesign;
 
 
 
