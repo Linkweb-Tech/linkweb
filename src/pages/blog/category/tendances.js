@@ -37,6 +37,8 @@ render() {
                 description="Le blog digital : découvrir les dernières tendances référencement, UX/UI design en création de site internet - Agence Web Linkweb Agen (47) Toulouse (31)."
                 keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
                 url="https://linkweb.fr/blog/category/tendances/"
+                nom="Tendances"
+                slug="blog/category/tendances/"
             />
             {/* <PageTransition
                 defaultStyle={{

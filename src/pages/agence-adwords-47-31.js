@@ -31,6 +31,8 @@ class ReferencementAds extends React.Component {
                     description="Création de votre campagne Google Ads sur-mesure - Étude des mots-clés -  Prévision et budgétisation. Notre objectif : générer un retour sur investissement."
                     keywords={[`Agence Adwords Agen`, `Agence Adwords Toulouse`, `Campagne Adwords Agen`, `Campagne Adwords Toulouse`]}
                     url="https://linkweb.fr/agence-adwords-47-31/"
+                    nom="Référencement Ads"
+                    slug="agence-adwords-47-31/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{

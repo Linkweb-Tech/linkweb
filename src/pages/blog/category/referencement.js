@@ -38,6 +38,8 @@ render() {
                 description="Les dernières actualités du référencement naturel (SEO) et payant (Ads) sur le blog d'actualité digitale de l'agence web Linkweb à Agen (47)."
                 keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
                 url="https://linkweb.fr/blog/category/referencement/"
+                nom="Référencement"
+                slug="blog/category/referencement/"
             />
             {/* <PageTransition
                 defaultStyle={{

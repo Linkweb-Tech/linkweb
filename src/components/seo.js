@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import linkwebLogo from "../images/linkweb-black.png";
 
-function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified }) {
+function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified, nom }) {
   return (
     
     <StaticQuery
@@ -35,17 +35,40 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               },
               {
               "@type":"WebPage",
-              "@id":"${url}/#webpage",
+              "@id":"${url}#webpage",
               "url":"${url}",
               "inLanguage":"fr-FR",
               "name":"${title}",
               "isPartOf":{
                 "@id":"https://linkweb.fr/#website"
               },
-                "description":"${metaDescription}",	
-                "breadcrumb":{
-                    "@id":"${url}/#breadcrumb"}
+                "description":"${metaDescription}"	
               },
+              {
+                "@type":"ItemList",
+                "itemListElement":[
+                {
+                "@type":"ListItem",
+                "position":1,
+                "url":"http://linkweb.fr/creation-site-internet-toulouse/"
+                },
+                {
+                "@type":"ListItem",
+                "position":2,
+                "url":"http://linkweb.fr/referencement-toulouse/"
+                },
+                {
+                "@type":"ListItem",
+                "position":3,
+                "url":"http://linkweb.fr/contact-agence-web-toulouse/"
+                },
+                {
+                  "@type":"ListItem",
+                  "position":4,
+                  "url":"http://linkweb.fr/agence-web-toulouse/"
+                  }
+                ]
+               },
               {"@type":"BreadcrumbList",
               "@id":"${url}/#breadcrumb",
               "itemListElement":[{"@type":"ListItem","position":1,
@@ -53,9 +76,9 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               {"@type":"ListItem",
               "position":2,
               "item":{"@type":"WebPage",
-              "@id":"${url}",
+              "@id":"https://linkweb.fr/${slug}",
               "url":"${url}",
-              "name":"${url}"}
+              "name":"${nom}"}
               }
               ]
               }
@@ -188,7 +211,8 @@ SEO.defaultProps = {
   article: false,
   date: ``,
   slug: ``,
-  modified: ``
+  modified: ``,
+  nom: ``
 };
 
 SEO.propTypes = {
@@ -201,7 +225,8 @@ SEO.propTypes = {
   article: PropTypes.bool, 
   date: PropTypes.string,
   modified: PropTypes.string,
-  slug: PropTypes.string
+  slug: PropTypes.string,
+  nom: PropTypes.string
 };
 
 export default SEO;

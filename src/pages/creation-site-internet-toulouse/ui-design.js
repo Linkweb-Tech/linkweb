@@ -25,6 +25,8 @@ class uiDesign extends React.Component {
                     title="UI Design : Définition - Création site internet Toulouse - Linkweb"
                     description="L'UI Design est une notion directement liée à celle d'UX Design (expérience utilisateur). Découvrez à quoi se rattache cette notion issue du webdesign."
                     url="https://linkweb.fr/creation-site-internet-toulouse/ui-design/"
+                    nom="UI Design"
+                    slug="creation-site-internet-toulouse/ui-design/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

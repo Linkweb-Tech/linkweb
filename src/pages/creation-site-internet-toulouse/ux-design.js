@@ -25,6 +25,8 @@ class uxDesign extends React.Component {
                     title="UX Design : Définition - Création site internet Toulouse - Linkweb"
                     description="L'UX Design est un concept central dans la conception d'un site internet. Découvrez à quoi se rattache cette notion issue du webdesign."
                     url="https://linkweb.fr/creation-site-internet-toulouse/ux-design/"
+                    nom="UX Design"
+                    slug="creation-site-internet-toulouse/ux-design/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

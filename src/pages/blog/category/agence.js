@@ -38,6 +38,8 @@ render() {
                 description="Les dernières actualités de l'agence de communication web Linkweb, présente à Agen en Lot-et-Garonne (47) et Toulouse en Haute-Garonne (31)."
                 keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
                 url="https://linkweb.fr/blog/category/agence/"
+                nom="Agence"
+                slug="blog/category/agence/"
             />
             {/* <PageTransition
                 defaultStyle={{

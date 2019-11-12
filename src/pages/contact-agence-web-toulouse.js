@@ -28,6 +28,8 @@ class ContactAgenceWebToulouse extends React.Component {
                     description="Demande de devis - Projet de création de site internet ou de référencement à Agen ou Toulouse - Contactez-nous."
                     keywords={[`Devis site internet`, `Projet Web Toulouse`, `Projet Web Agen`]}
                     url="https://linkweb.fr/contact-agence-web-toulouse/"
+                    nom="Demander un devis"
+                    slug="contact-agence-web-toulouse/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

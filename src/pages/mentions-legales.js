@@ -28,7 +28,9 @@ class MentionsLegales extends React.Component {
                 <SEO
                     title="Agence Web Agen et Toulouse - Mentions Légales - Agen - Linkweb"
                     description="Mentions Légales - Consulter les mentions légales de l'Agence Web Linkweb à Agen (47) : création de site internet et référencement à Agen et Toulouse (31)."
-                    url="https://linkweb.fr/mentions-legales/"                    
+                    url="https://linkweb.fr/mentions-legales/"
+                    nom="Mentions Légales"
+                    slug="mentions-legales/"                    
                 />
                 {/* <PageTransition
                     defaultStyle={{

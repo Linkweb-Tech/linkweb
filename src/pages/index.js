@@ -30,7 +30,7 @@ function IndexPage(props) {
       <SEO
         title="Agence Web Toulouse, Agen - Création Site Internet - Linkweb"
         description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
-        url="https://linkweb.fr"
+        url="https://linkweb.fr/"
       />
         {/* <PageTransition
           defaultStyle={{

@@ -38,6 +38,8 @@ render() {
                 description="Les dernières actualités digitales : référencement naturel (SEO) et payant (SEA), ou en webdesign - Agence web Linkweb à Agen (47) et Toulouse (31)."
                 keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
                 url="https://linkweb.fr/blog/category/actus/"
+                nom="Actualités"
+                slug="blog/category/actus/"
             />
             {/* <PageTransition
                 defaultStyle={{

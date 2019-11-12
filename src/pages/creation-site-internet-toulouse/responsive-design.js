@@ -25,6 +25,8 @@ class responsiveDesign extends React.Component {
                     title="Responsive Design : Définition - Création site internet Toulouse - Linkweb"
                     description="Le Responsive Design est une notion fondamentale dans la création de site internet. Il est indispensable que son site soit accessible sur tous les terminaux."
                     url="https://linkweb.fr/creation-site-internet-toulouse/responsive-design/"
+                    nom="Responsive Design"
+                    slug="creation-site-internet-toulouse/responsive-design/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

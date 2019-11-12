@@ -26,6 +26,8 @@ class Recrutement extends React.Component {
                     description="Vous êtes passionné(e) par le web et motivé(e) par le développement web ou le référencement naturel ? Votre profil nous intéresse. Contactez-nous."
                     keywords={[`Développeur Web Agen`, `Développement Agen`, `Référencement Agen`, `Rédaction Web Agen`]}
                     url="https://linkweb.fr/recrutement-creation-site-internet-agen/"
+                    nom="Recrutement"
+                    slug="recrutement-creation-site-internet-agen/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

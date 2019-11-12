@@ -32,6 +32,8 @@ class CreationSiteInternetVitrine extends React.Component {
                     description="Linkweb est spécialisée dans la création de site internet : nous mettons en place votre projet de site vitrine pour vous permettre de gagner en visibilité."
                     keywords={[`Création site internet vitrine Agen`, `Création site internet vitrine Toulouse`, `Création site internet Lot-et-Garonne`, `Création site web 47`]}
                     url="https://linkweb.fr/creation-site-internet-agen/"
+                    nom="Création de site vitrine"
+                    slug="creation-site-internet-agen/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{
