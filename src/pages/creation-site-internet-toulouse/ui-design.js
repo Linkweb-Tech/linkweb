@@ -1,35 +1,14 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import posed from 'react-pose';
 import Layout from "../../components/layout";
-import Button from "../../components/button";
-import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
+import posed from 'react-pose';
+
 import SEO from "../../components/seo";
-import LastPosts from '../../components/lastposts';
-import RappelForm from "../../components/rappelForm";
-import Accordion from '../../components/accordion';
+
 
 import banniere from "../../images/creation-site-internet-ban.png";
-import tlse from "../../images/logo_universite-federale.png";
-import peugeot from "../../images/peugeot.png";
-import onco from "../../images/logo-onco.png";
-import sdis from "../../images/logo-sdis47.png";
-import normand from "../../images/normandie.png";
-import blocBg from "../../images/background.jpg";
-import Bg from "../../images/agence-web-bg.jpg";
-import imac from "../../images/redaction.jpg";
-import bgDev from '../../images/bg-dev.jpg';
-import stars from '../../images/stars.png';
-import bureau from '../../images/bureau2-min.jpg';
 
-import web from '../../images/web.svg';
-import laptop from '../../images/laptop.svg';
-import bullhorn from '../../images/bullhorn.svg';
-import diagram from '../../images/diagram.svg';
-import analysis from '../../images/analysis.svg';
-import contract from '../../images/contract.svg';
-import hg from "../../images/logo_cd31.svg";
 
 
 class uiDesign extends React.Component {
@@ -95,7 +74,7 @@ class uiDesign extends React.Component {
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
-                                <li>Responsive Design</li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">Responsive Design</Link></li>
                                 <li>Webdesign</li>
                                 <li>Maquette visuelle</li>
                                 <li>CMS</li>
