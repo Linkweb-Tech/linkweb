@@ -147,7 +147,10 @@ class Header extends React.Component {
               } md:block md:flex md:items-center md:bg-transparent w-full md:w-auto`}
           >
             <div className="text-md pr-0 menu flex flex-col md:flex-row md:pr-5">
+              <nav itemProp="WebPageElement" itemScope="itemscope" itemType="http://schema.org/SiteNavigationElement">
               <Link
+                itemProp="url"
+                title="Accueil"
                 to="/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
@@ -156,6 +159,8 @@ class Header extends React.Component {
               </Link>
   
               <Link
+                itemProp="url"
+                title="Création de site internet"
                 to="/creation-site-internet-toulouse/"
                 activeClassName="active"
                 className="block  lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
@@ -164,6 +169,8 @@ class Header extends React.Component {
               </Link>
   
               <Link
+                itemProp="url"
+                title="Référencement"
                 to="/referencement-toulouse/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
@@ -171,6 +178,8 @@ class Header extends React.Component {
                 Référencement
               </Link>
               <Link
+                itemProp="url"
+                title="Agence Web"
                 to="/agence-web-toulouse/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
@@ -178,6 +187,8 @@ class Header extends React.Component {
                 Agence Web
               </Link>
               <Link
+                itemProp="url"
+                title="Nos Réalisations"
                 to="/agence-de-communication-agen-47-toulouse-31/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
@@ -185,12 +196,15 @@ class Header extends React.Component {
                 Nos Réalisations
               </Link>
               <Link
+                itemProp="url"
+                title="Demander un devis"
                 to="/contact-agence-web-toulouse/"
                 activeClassName="active"
                 className="block lg:text-lg md:text-sm last md:inline-block mt-4 md:mt-0  no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-6"
               >
                 Demander un devis
               </Link>
+              </nav>
             </div>
           </div>
         </div>
