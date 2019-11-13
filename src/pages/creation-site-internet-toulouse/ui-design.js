@@ -77,7 +77,7 @@ class uiDesign extends React.Component {
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">Responsive Design</Link></li>
-                                <li>Webdesign</li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">Webdesign</Link></li>
                                 <li>Maquette visuelle</li>
                                 <li>CMS</li>
                                 <li>HTML/CSS</li>
