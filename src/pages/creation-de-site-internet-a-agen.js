@@ -63,7 +63,7 @@ class Crea extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply`, backgroundPosition:'center' }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century sm:text-6xl text-5xl text-center text-white">
-                        Création de site internet Agen<br/> et dans tout le Lot-et-Garonne
+                        Création de site internet Agen<br/> et Lot-et-Garonne
                         </h1>
                         <h3 className="italic text-xl md:text-2xl text-white">Votre projet sur-mesure à Agen et dans le 47</h3>
                         <RoundButton url="/contact-agence-web-toulouse/" text="Demander un devis" />
@@ -71,15 +71,15 @@ class Crea extends React.Component {
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 ">
                         <section className="w-full">
                              <h2 data-aos='fade-right' className="text-center text-4xl century">
-                             Création de site internet professionnel à Agen et en Lot-et-Garonne (47)</h2>
+                             Création de site internet à Agen et en Lot-et-Garonne (47)</h2>
                             <hr className="blue"></hr>
                         </section>
                         <section className="w-full">
                             <br/>
-                            <p className="font-bold text-center">Aujourd’hui, nous constatons que de plus en plus d’entreprises possèdent un <strong>site internet</strong>. Qu’il s’agisse d’un <strong>outil de communication</strong>, d’une <strong>boutique en ligne</strong> ou bien d’un support supplémentaire pour fidéliser des clients, <strong>créer un site internet professionnel</strong> est devenu incontournable pour assurer la pérennité d’une entreprise et optimiser sa présence <strong>sur le web</strong>.</p>
+                            <p className="font-bold text-center">Aujourd’hui, nous constatons que de plus en plus d’entreprises possèdent un <strong>site internet professionnel</strong>. Qu’il s’agisse d’un <strong>outil de communication</strong>, d’une <strong>boutique en ligne</strong> ou bien d’un support supplémentaire pour fidéliser des clients, <strong>créer un site internet professionnel</strong> est devenu incontournable pour assurer la pérennité d’une entreprise et optimiser sa présence <strong>sur le web</strong>.</p>
                         </section>
                     </section>
-                    <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 flex" style={{backgroundColor:'#f2f2f2'}}>
+                    <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 flex bg-gris">
                         <div className="w-1/12">
                             <img src={citation} alt="Création de site internet à Agen"/>
                         </div>
@@ -96,7 +96,7 @@ class Crea extends React.Component {
                             <p className="my-4 md:mx-6">Malgré tout, vous restez septique sur l’importance de <Link className="hover:text-bleu" to="/creation-site-internet-toulouse/"><strong>créer un site internet</strong></Link> de nos jours ? Vous pensez que le bouche à oreille suffit pour pérenniser votre entreprise ? Les dépenses occasionnées par la <strong>création d’un site internet</strong> vous semble inutile ?</p><br/>
                             <p className="my-4 md:mx-6">Sachez alors que la <strong>création d’un site web</strong> n’est pas une dépense. Il s’agit d’un réel investissement pour assurer le développement de votre société.</p>
                             
-                            <section className="max-w-5xl w-full mx-auto py-6 md:px-4 my-4 md:mr-8 md:ml-6 flex" style={{backgroundColor:'#f2f2f2'}}>
+                            <section className="max-w-5xl w-full mx-auto py-6 md:px-4 my-4 md:mr-8 md:ml-6 flex bg-gris">
                                 <div className="w-1/12">
                                     <img src={citation} alt="Création de site internet à Agen"/>
                                 </div>
@@ -115,9 +115,9 @@ class Crea extends React.Component {
                             </section>
                         </section>
                         <section className="max-w-full w-full flex flex-col lg:flex-row">
-                            <div className="flex flex-col lg:flex-row w-full lg:w-1/3 my-6 px-10 text-justify" style={{display:'inherit'}}>
-                                <div className="w-full lg:w-1/12">
-                                    <img className="mx-auto block" src={un} alt="Création site internet Agen" style={{width:'75px'}}/><br/>
+                            <div className="flex flex-col xl:flex-row w-full xl:w-1/3 my-6 px-10 text-justify flex">
+                                <div className="w-full xl:w-1/12">
+                                    <img className="mx-auto block w-10" src={un} alt="Création site internet Agen"/><br/>
                                 </div>
                                 <div className="w-full lg:w-11/12">
                                     <h3 className="font-bold text-center text-xl">Apporte une crédibilité</h3><br/>
@@ -125,9 +125,9 @@ class Crea extends React.Component {
                                     Une entreprise possédant un <strong>site internet professionnel</strong>, design, moderne et ergonomique apporte une crédibilité indispensable à votre entreprise. Il permet également d’améliorer votre notoriété auprès des internautes.</p>
                                 </div>
                             </div>
-                            <div className="flex flex-col lg:flex-row md:my-6 w-full lg:w-1/3 px-10 text-justify" style={{display:'inherit'}}>
-                                <div className="w-full lg:w-1/12">
-                                    <img className="mx-auto block" src={deux} alt="Création de site internet Agen" style={{width:'75px'}}/><br/>
+                            <div className="flex flex-col xl:flex-row md:my-6 w-full xl:w-1/3 px-10 text-justify flex">
+                                <div className="w-full xl:w-1/12">
+                                    <img className="mx-auto block w-10" src={deux} alt="Création de site internet Agen"/><br/>
                                 </div>
                                 <div className="w-full mlg:w-11/12">
                                     <h3 className="font-bold text-center text-xl">Représente le meilleur outil de communication</h3><br/>
@@ -135,9 +135,9 @@ class Crea extends React.Component {
                                     Un <strong>site web professionnel</strong> vous permet d’être visible 24h/24, 7j/7 ! Pas d’horaires, pas de jours de fermeture, pas d’imprévus… un <strong>site internet</strong> reste visible et accessible à tout moment, où que vous soyez.</p>
                                 </div>
                             </div>
-                            <div className="flex flex-col lg:flex-row w-full lg:w-1/3 my-6 px-10 text-justify" style={{display:'inherit'}}>
-                                <div className="w-full lg:w-1/12">
-                                    <img className="mx-auto block" src={trois} alt="Création site internet à Agen" style={{width:'75px'}}/><br/>
+                            <div className="flex flex-col xl:flex-row w-full xl:w-1/3 my-6 px-10 text-justify flex">
+                                <div className="w-full xl:w-1/12">
+                                    <img className="mx-auto block w-10" src={trois} alt="Création site internet à Agen"/><br/>
                                 </div>
                                 <div className="w-full lg:w-11/12">
                                     <h3 className="font-bold text-center text-xl">Reflète l’image de votre entreprise</h3><br/>
@@ -148,49 +148,49 @@ class Crea extends React.Component {
                         </section>
                     </section>
                     <section className="flex w-full my-0 mx-auto px-0 flex flex-col xl:flex-row font-normal">
-                        <div className="w-full xl:w-1/2 bg-bleu p-12 md:p-24" data-aos="zoom-in">
-                            <h2 className="text-white text-3xl font-bold">Et pour une petite entreprise locale du Lot-et-Garonne (47) ?</h2><br/>
-                            <p className="text-black text-md text-justify">Pour une entreprise locale, <strong>avoir un site internet</strong> est incontournable. Non seulement vous vous démarquerez de la concurrence, mais vous aurez également la possibilité de toucher une clientèle beaucoup plus large. En mettant en avant vos services et vos prestations sur votre <strong>site vitrine</strong>, vous laissez la possibilité à vos prospects d’avoir accès à toutes les informations importantes concernant votre entreprise, et cela à tout moment.</p>
+                        <div className="w-full xl:w-1/2 bg-bleu p-12 md:p-24 text-white" data-aos="zoom-in">
+                            <h2 className="text-3xl font-bold">Et pour une petite entreprise locale du Lot-et-Garonne (47) ?</h2><br/>
+                            <p className="text-md text-justify">Pour une entreprise locale, <strong>avoir un site internet</strong> est incontournable. Non seulement vous vous démarquerez de la concurrence, mais vous aurez également la possibilité de toucher une clientèle beaucoup plus large. En mettant en avant vos services et vos prestations sur votre <strong>site vitrine</strong>, vous laissez la possibilité à vos prospects d’avoir accès à toutes les informations importantes concernant votre entreprise, et cela à tout moment.</p>
                             <br/> 
-                            <p className="text-black text-md text-justify">Les avantages de <strong>créer votre site web</strong> ne s’arrête pas là. En effet, un <strong>site professionnel</strong>, design et moderne vous permettra de concrétiser vos contacts en mettant en avant vos réalisations, vos travaux. Distinguez vous de vos <strong>concurrents</strong> avec la mise en place de votre propre site internet ergonomique, <strong>intuitif</strong>, et adapté pour améliorer l’<strong>expérience utilisateur</strong>.</p>
+                            <p className="text-md text-justify">Les avantages de <strong>créer votre site web</strong> ne s’arrête pas là. En effet, un <strong>site professionnel</strong>, design et moderne vous permettra de concrétiser vos contacts en mettant en avant vos réalisations, vos travaux. Distinguez vous de vos <strong>concurrents</strong> avec la mise en place de votre propre site internet ergonomique, <strong>intuitif</strong>, et adapté pour améliorer l’<strong>expérience utilisateur</strong>.</p>
                             <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify items-center" style={{textAlignLast:'center'}}>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
-                                    <p className="text-5xl text-white">63%</p>
+                                    <p className="text-5xl">63%</p>
                                     <br/>
-                                    <p className="text-white mr-18 px-6 text-md"><strong>des utilisateurs recherchent le site internet d’une entreprise</strong> afin de la contacter ou de la localiser (selon un rapport d’avril 2017 de Local Search Association).</p>
+                                    <p className="mr-18 px-6 text-md"><strong>des utilisateurs recherchent le site internet d’une entreprise</strong> afin de la contacter ou de la localiser (selon un rapport d’avril 2017 de Local Search Association).</p>
                                 </div>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
-                                    <p className="text-5xl text-white">46%</p>
+                                    <p className="text-5xl">46%</p>
                                     <br/>
-                                    <p className="text-white px-6 mr-18 text-md"><strong>des utilisateurs détermine la confiance d’une entreprise</strong> en fonction de la crédibilité du site internet (source : recherche effectuée par Standford en 2002).</p>
+                                    <p className="px-6 mr-18 text-md"><strong>des utilisateurs détermine la confiance d’une entreprise</strong> en fonction de la crédibilité du site internet (source : recherche effectuée par Standford en 2002).</p>
                                 </div>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
-                                    <p className="text-5xl text-white">68%</p>
+                                    <p className="text-5xl">68%</p>
                                     <br/>
-                                    <p className="text-white px-6 mr-18 text-md"><strong>des entreprises en France possèdent un site web</strong> (source : Observatoire du numérique).</p>
+                                    <p className="px-6 mr-18 text-md"><strong>des entreprises en France possèdent un site web professionnel</strong><br/><br/> (source : Observatoire du numérique).</p>
                                 </div>
                             </section>
                         </div>
-                        <div className="w-full xl:w-1/2 bg-black p-12 text-white" data-aos="zoom-in">
+                        <div className="w-full xl:w-1/2 bg-black p-12 md:p-24 text-white" data-aos="zoom-in">
                             <h2 className="text-white text-3xl font-bold">Pour de la vente en ligne ?</h2><br/>
                             <p className="text-white text-md text-justify">En 2017, 85% des internautes ont effectués des achats en ligne. Ces chiffres sont en constante évolution. Pour cause, les bénéfices sont nombreux à se lancer dans le e-commerce. Cependant, pour qu’un <strong>projet web</strong> tel que la création d’une boutique <strong>e-commerce</strong> soit pérenne, il est indispensable de faire appel à des professionnels qualifiés pour mettre en place une réelle <strong>stratégie digitale</strong> et obtenir une <strong>conception de site</strong> de qualité.</p>
                             <br/> 
                             <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row text-justify items-center" style={{textAlignLast:'center'}}>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
-                                    <img className="mx-auto block" src={un} alt="Site web Agen" style={{width:'75px'}}/><br/>
-                                    <p className="text-3xl mr-18 text-center">Développer le chiffre d’affaires</p>
+                                    <img className="mx-auto block w-12" src={un} alt="Site web Agen"/><br/>
+                                    <p className="text-2xl mr-18 text-center">Développer le chiffre d’affaires</p>
                                     <br/>
                                     <p className="text-white px-6 text-md"><strong>Créer une boutique en ligne</strong> permet non seulement de développer son chiffre d’affaire grâce à la vente de <strong>produits en ligne</strong>, mais permet également de développer celui de votre magasin physique !</p>
                                 </div>
                                 <div className="w-full md:w-1/2 xl:w-1/3 my-4">
-                                    <img className="mx-auto block" src={deux} alt="Site internet Agen" style={{width:'75px'}}/><br/>
-                                    <p className="text-3xl mr-18 text-center">Supprimer les contraintes de localité</p>
+                                    <img className="mx-auto block w-12" src={deux} alt="Site internet Agen"/><br/>
+                                    <p className="text-2xl mr-18 text-center">Supprimer les contraintes de localité</p>
                                     <br/>
                                     <p className="text-white px-6 text-md">Un <strong>site de vente</strong> en ligne permet de toucher une clientèle beaucoup plus large en supprimant les contraintes de localité. Vous pouvez ainsi toucher une clientèle au niveau national, voir international !</p>
                                 </div>
                                 <div className="w-full md:w-1/2 flex flex-col justify-content-center xl:w-1/3 my-4">
-                                    <img className="mx-auto block" src={trois} alt="Création site web Agen" style={{width:'75px'}}/><br/>
-                                    <p className="text-3xl mr-18 text-center">Proposer des articles sans limite</p>
+                                    <img className="mx-auto block w-12" src={trois} alt="Création site web Agen"/><br/>
+                                    <p className="text-2xl mr-18 text-center">Proposer des articles sans limite</p>
                                     <br/>
                                     <p className="text-white px-6 text-md">Contrairement à un local physique, un <strong>site e-commerce</strong> vous permet de <strong>vendre en ligne</strong> autant d’articles que vous souhaitez, rapidement et simplement. Aucune contrainte d’espaces ou de réaménagement !</p>
                                 </div>
@@ -211,78 +211,78 @@ class Crea extends React.Component {
                             </section>
                         </section>
                         <section className="max-w-full w-full px-2 flex flex-col lg:flex-row">
-                            <div className="w-full lg:w-1/3 my-10" style={{display:'inherit'}}>
+                            <div className="w-full lg:w-1/3 my-10 flex p-4">
                                 <div className="w-1/12">
-                                    <img src={un} alt="Création site internet Toulouse" /><br/>
+                                    <img className="w-8 inline-block align-text-bottom mx-auto" src={un} alt="Création site internet Toulouse" /><br/>
                                 </div>
-                                <div className="w-11/12">
+                                <div className="w-11/12 p-4">
                                     <h3 className="text-left font-bold text-lg">Analyse du projet</h3><br/>
                                     <p className="text-justify">
                                         <ul>
-                                        <li style={{listStyle:'inside'}}><strong>Déterminer l’objectif :</strong> trouver de nouveaux clients, fidéliser votre clientèle déjà existante, générer des ventes en ligne, bénéficier d’un support pour votre clientèle, etc.</li>
-                                        <li style={{listStyle:'inside'}}><strong>Déterminer la cible :</strong> partenaires, fournisseurs, particuliers ou professionnels, etc.</li>
-                                        <li style={{listStyle:'inside'}}><strong>Déterminer les fonctionnalités :</strong> réservation ou paiement en ligne, inscription à des évènements, etc.</li>
+                                        <li className="list-inside list-disc"><strong>Déterminer l’objectif :</strong> trouver de nouveaux clients, fidéliser votre clientèle déjà existante, générer des ventes en ligne, bénéficier d’un support pour votre clientèle, etc.</li>
+                                        <li className="list-inside list-disc"><strong>Déterminer la cible :</strong> partenaires, fournisseurs, particuliers ou professionnels, etc.</li>
+                                        <li className="list-inside list-disc"><strong>Déterminer les fonctionnalités :</strong> réservation ou paiement en ligne, inscription à des évènements, etc.</li>
                                         </ul>
                                     </p>
                                 </div>
                             </div>
-                            <div className="w-full lg:w-1/3 my-10" style={{display:'inherit'}}>
+                            <div className="w-full lg:w-1/3 my-10 flex p-4">
                                 <div className="w-1/12">
-                                    <img src={deux} alt="Création site internet Lot et Garonne" /><br/>
+                                    <img className="w-8 inline-block align-text-center mx-auto" src={deux} alt="Création site internet Lot et Garonne" /><br/>
                                 </div>
-                                <div className="w-11/12">
+                                <div className="w-11/12 p-4">
                                     <h3 className="text-left font-bold text-lg">Réalisation du projet</h3><br/>
                                     <p className="text-justify">
                                         <ul>
-                                            <li style={{listStyle:'inside'}}>Création d’un site <strong>responsive design</strong> adaptatif (navigation optimale sur PC (<strong>desktop</strong>), smartphones (mobiles) et <strong>tablettes</strong> en fonction de la <strong>taille de l’écran</strong>)</li>
-                                            <li style={{listStyle:'inside'}}><strong>Mise en page</strong> des informations</li>
-                                            <li style={{listStyle:'inside'}}><strong>Création de logo</strong> si nécessaire</li>
-                                            <li style={{listStyle:'inside'}}>Achat du <strong>nom de domaine</strong></li>
-                                            <li style={{listStyle:'inside'}}><strong>Hébergement</strong> du site internet</li>
-                                            <li style={{listStyle:'inside'}}><strong>Rédaction de contenu</strong> optimisé pour le <strong>référencement web</strong></li>
+                                            <li className="list-inside list-disc">Création d’un site <strong>responsive design</strong> adaptatif (navigation optimale sur PC (<strong>desktop</strong>), smartphones (mobiles) et <strong>tablettes</strong> en fonction de la <strong>taille de l’écran</strong>)</li>
+                                            <li className="list-inside list-disc"><strong>Mise en page</strong> des informations</li>
+                                            <li className="list-inside list-disc"><strong>Création de logo</strong> si nécessaire</li>
+                                            <li className="list-inside list-disc">Achat du <strong>nom de domaine</strong></li>
+                                            <li className="list-inside list-disc"><strong>Hébergement</strong> du site internet</li>
+                                            <li className="list-inside list-disc"><strong>Rédaction de contenu</strong> optimisé pour le <strong>référencement web</strong></li>
                                         </ul>
                                     </p>
                                 </div>
                             </div>
-                            <div className="w-full lg:w-1/3 my-10" style={{display:'inherit'}}>
-                                <div className="w-1/12">
-                                    <img src={trois} alt="Création site internet 47" /><br/>
+                            <div className="w-full lg:w-1/3 my-10 flex  p-4">
+                                <div className="w-1/12 mx-auto block">
+                                    <img className="w-8 inline-block align-text-center mx-auto" src={trois} alt="Création site internet 47" /><br/>
                                 </div>
-                                <div className="w-11/12">
+                                <div className="w-11/12  p-4">
                                     <h3 className="text-left font-bold text-lg">Mise en place d’une stratégie de référencement</h3><br/>
-                                    <p style={{textAlign:'left'}}>
-                                    <li style={{listStyle:'inside'}}>Définition des mots-clés</li>
-                                    <li style={{listStyle:'inside'}}>Optimisation du contenu</li>
-                                    <li style={{listStyle:'inside'}}>Optimisation de la vitesse de chargement</li>
-                                    <li style={{listStyle:'inside'}}>Analyse du comportement de l’utilisateur</li>
-                                    <li style={{listStyle:'inside'}}>Mise en place des données structurées</li>
-                                    <li style={{listStyle:'inside'}}>Netlinking</li>
+                                    <p className="text-left">
+                                    <li className="list-inside list-disc">Définition des mots-clés</li>
+                                    <li className="list-inside list-disc">Optimisation du contenu</li>
+                                    <li className="list-inside list-disc">Optimisation de la vitesse de chargement</li>
+                                    <li className="list-inside list-disc">Analyse du comportement de l’utilisateur</li>
+                                    <li className="list-inside list-disc">Mise en place des données structurées</li>
+                                    <li className="list-inside list-disc">Netlinking</li>
                                     </p>
                                 </div>
                             </div>
                         </section>
                     </section>
                     <section className="flex w-full mx-auto px-0 my-0 flex flex-col lg:flex-row font-normal">
-                        <div className="w-full lg:w-1/2 bg-black p-12 text-white-text-lg" data-aos="zoom-in">
-                            <h2 className="text-white text-4xl font-bold">Pourquoi faire appel à Linkweb pour créer un site ?</h2><br/>
+                        <div className="w-full lg:w-1/2 bg-black p-16 text-white-text-lg" data-aos="zoom-in">
+                            <h2 className="text-white text-4xl font-bold mb-12">Pourquoi faire appel à Linkweb pour créer un site ?</h2><br/>
                             <p className="text-lg text-white text-justify">Les entreprises de création et de référencement naturel se font de plus en plus nombreuses ces dernières années en Lot-et-Garonne et même sur le secteur d’Agen. De plus, vous devez forcément connaître dans votre entourage une personne vous ayant proposé de vous <strong>faire un site internet</strong>. Plus encore, vous avez sans nul doute reçu de nombreux appel de la part d’entreprises vous proposant de <strong>créer un site internet gratuit</strong>. Vous n’avez donc que l’embarras du choix. Mais alors, comment choisir ? Pourquoi choisir Linkweb pour <strong>créer un site web</strong> ?</p>
                             <br/> 
                             <section className="flex w-full flex mx-auto px-0 my-4 flex-col xl:flex-row items-center">
                                 <div className="w-full md:w-1/2 xl:w-1/3 py-6 px-4">
-                                    <p className="text-2xl pr-6 text-center text-white">Appel Mensuel</p>
+                                    <p className="text-2xl pr-6 text-center text-white font-bold">Appel Mensuel</p>
                                     <br/>
                                     <br/>
-                                    <p className="text-lg text-white text-center mr-6">nous contactons chacun de nos clients tous les mois afin d’échanger sur notre stratégie de référencement et sur les résultats obtenus</p>
+                                    <p className="text-md text-white text-center mr-6">nous contactons chacun de nos clients tous les mois afin d’échanger sur notre stratégie de référencement et sur les résultats obtenus</p>
                                 </div>
                                 <div className="w-full md:w-1/2 xl:w-1/3 py-6">
-                                    <p className="text-2xl pr-6 text-center text-white">Disponibilité et réactivité</p>
+                                    <p className="text-2xl pr-6 text-center text-white font-bold">Disponibilité et réactivité</p>
                                     <br/>
-                                    <p className="text-lg text-white text-center mr-6">nos clients peuvent nous joindre à tous moments en cas de demandes particulières (modification du contenu, ajout d’informations, etc)</p>
+                                    <p className="text-md text-white text-center mr-6">nos clients peuvent nous joindre à tous moments en cas de demandes particulières (modification du contenu, ajout d’informations, etc)</p>
                                 </div>
                                 <div className="w-full md:w-1/2 xl:w-1/3 py-6">
-                                    <p className="text-2xl pr-6 text-center text-white">Compétence technique</p>
-                                    <br/>
-                                    <p className="text-lg text-white text-center mr-6">que ce soit pour la création, la gestion ou le référencement de votre site internet, une équipe de professionnel est à votre disposition</p>
+                                    <p className="text-2xl pr-6 text-center text-white font-bold">Compétence technique</p>
+                                    <br/><br/>
+                                    <p className="text-md text-white text-center mr-6">que ce soit pour la création, la gestion ou le référencement de votre site internet, une équipe de professionnel est à votre disposition</p>
                                 </div>
                             </section>
                         </div>

@@ -64,7 +64,7 @@ class MentionsLegales extends React.Component {
                         </h2>
                         <hr className="blue"></hr>
                     
-                    <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Le site <Link to="/" className="hover:text-bleu">linkweb.fr</Link> n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord, nous les utiliserons seulement pour vous adresser des courriers, des brochures, des devis ou vous contacter.<br/>
+                    <p className="text-md text-center py-12 century text-justify" style={{textAlignLast:'center'}}>Le site <Link to="/" className="hover:text-bleu">linkweb.fr</Link> n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord, nous les utiliserons seulement pour vous adresser des courriers, des brochures, des devis ou vous contacter.<br/>
                     <br/>
                         Les informations recueillies sur les sites bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 06 janvier 1978. Elles bénéficient d’un droit d’accès, de rectification, d’opposition à communication et de suppression sur simple demande par email à <a href="mailto:contact@linkweb.fr">contact@linkweb.fr</a>.
                         <br/>
@@ -75,14 +75,14 @@ class MentionsLegales extends React.Component {
                         </h2>
                         <hr className="blue"></hr>
                     
-                    <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Le site <b>linkweb.fr</b> ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu. Les risques liés à l’utilisation de ces sites incombent pleinement à l’utilisateur. Il se conformera à leurs conditions d’utilisation.</p>
+                    <p className="text-md text-center py-12 century text-justify" style={{textAlignLast:'center'}}>Le site <b>linkweb.fr</b> ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu. Les risques liés à l’utilisation de ces sites incombent pleinement à l’utilisateur. Il se conformera à leurs conditions d’utilisation.</p>
 
                     <h2 data-aos='fade-right' className="text-center text-4xl century">
                     Collecte de Cookies
                         </h2>
                         <hr className="blue"></hr>
 
-                    <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Nos serveurs ne collectent aucunes informations personnelles sur les visiteurs du site.<br/>
+                    <p className="text-md text-center py-12 century text-justify">Nos serveurs ne collectent aucunes informations personnelles sur les visiteurs du site.<br/>
                     <br/>
                     Les données de trafic et les fichiers de cookies implantés sur votre ordinateur ont pour seule finalité de permettre d’analyser la fréquentation des différentes pages du site valognes-menuiseries.fr afin d’en améliorer le contenu. Ces données sont conservées 12 mois.<br/>
                     <br/>
@@ -105,7 +105,7 @@ class MentionsLegales extends React.Component {
                         </h2>
                         <hr className="blue"></hr>
 
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Nous ne collectons, dans aucun cas, l’adresse e-mail des visiteurs sans que ceux-ci la communiquent de manière pleine et entière.<br/>
+                        <p className="text-md text-center py-12 century text-justify">Nous ne collectons, dans aucun cas, l’adresse e-mail des visiteurs sans que ceux-ci la communiquent de manière pleine et entière.<br/>
                         <br/>
                         En complétant le formulaire et en cochant la case à cocher de consentement du formulaire, le visiteur donne son accord afin que les données à caractère personnel soient traitées.<br/>
                         <br/>
@@ -120,13 +120,13 @@ class MentionsLegales extends React.Component {
                         Droit d’accès, de rectification ou suppression des données personnelles
                         </h2>
                         <hr className="blue"></hr>
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify'}}>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le <Link to="/contact-agence-web-toulouse/" className="hover:text-bleu">formulaire de contact du site</Link> ou sur simple demande par email à <a href="mailto:contact@linkweb.fr" className="hover:text-bleu">contact@linkweb.fr</a> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
+                        <p className="text-md text-center py-12 century text-justify">Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée, ainsi qu’au Règlement Européen Général sur la Protection des Données (RGPD), vous disposez des droits d’accès, de rectification et de suppression des données personnelles vous concernant. Vous pouvez exercer ce droit en utilisant le <Link to="/contact-agence-web-toulouse/" className="hover:text-bleu">formulaire de contact du site</Link> ou sur simple demande par email à <a href="mailto:contact@linkweb.fr" className="hover:text-bleu">contact@linkweb.fr</a> ou par adresse postale : 10 rue Albert Ferrasse – 47550 Boé
                         </p>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Éditeur
                         </h2>
                         <hr className="blue"></hr>
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Linkweb<br/>
+                        <p className="text-md text-center py-12 century text-justify" style={{textAlignLast:'center'}}>Linkweb<br/>
                         <br/>
                         RCS : Agen B 509 580 585<br/>
                         Siret : 50958058500032<br/>
@@ -138,12 +138,12 @@ class MentionsLegales extends React.Component {
                         Directeur de publication
                         </h2>
                         <hr className="blue"></hr>
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Aurélien CIEMNIEWSKI</p>
+                        <p className="text-md text-center py-12 century text-justify" style={{textAlignLast:'center'}}>Aurélien CIEMNIEWSKI</p>
                         <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Hébergement
                         </h2>
                         <hr className="blue"></hr>
-                        <p className="text-md text-center py-12 century" style={{textAlign:'justify', textAlignLast:'center'}}>Linkweb
+                        <p className="text-md text-center py-12 century text-justify" style={{textAlignLast:'center'}}>Linkweb
                         SARL au capital de 7 000 Euros<br/>
                         RCS : Agen B 509 580 585<br/>
                         Siège social : 10, rue Albert Ferrasse 47550 Boé<br/>

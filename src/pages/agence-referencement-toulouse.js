@@ -82,10 +82,10 @@ render() {
                 </section>
                 <section className="flex-col lg:flex-row   flex w-full   mx-auto px-0 py-6 my-4">
                     <div className="w-full flex-col lg:w-1/2 flex-row">
-                        <img src={bureau}  alt="Référencement Toulouse" style={{position:'center'}}/>
+                        <img src={bureau}  alt="Référencement Toulouse"/>
                     </div>
                     <div className="lg:w-1/2 w-full max-w-3xl px-12 py-12" >
-                        <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in" style={{paddingTop:'60px'}}>
+                        <h2 className="century capitalize text-2xl tracking-wider pt-16 pb-6" data-aos="zoom-in">
                             <span className="text-bleu">/</span>NOUS METTONS EN PLACE VOTRE STRATÉGIE DE RÉFÉRENCEMENT LOCAL OU NATIONAL
                         </h2>
                         <br />
@@ -100,7 +100,7 @@ render() {
                     </div>
                 </section>
                 <section className="flex w-full flex-col lg:flex-row  mx-auto px-0 py-6 my-4">
-                    <div className="w-full lg:w-1/2 ">
+                    <div className="w-full lg:w-1/2">
                         <img src={mac} alt="Agence de Référencement Toulouse"/>
                     </div>
                     <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
@@ -123,8 +123,8 @@ render() {
                     <hr className="blue"></hr>
 
                 </section>
-                <section className="flex-col lg:flex-row flex w-full  mx-auto px-0 py-6 my-4" style={{marginTop:'0px', marginBottom:'0px'}}>
-                        <div className="w-full lg:w-1/2 bg-bleu" style={{backgroundColor: 'rgb(55, 197, 231,0.4)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + seo + ')', color:'white'}} data-aos="zoom-in">
+                <section className="flex-col lg:flex-row flex w-full mx-auto px-0 py-6 my-0">
+                        <div className="w-full lg:w-1/2 bg-bleu text-white" style={{backgroundColor: 'rgb(55, 197, 231,0.4)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + seo + ')'}} data-aos="zoom-in">
                             <h3 className="text-4xl pb-0 mb-0 md:text-2xl century p-10 pb-1 md:p-24">Search Engine Optimization (SEO)</h3>
                             <br/>
                             <p className="px-10 pb-24 pt-0 text-justify text-md">
@@ -133,7 +133,7 @@ render() {
                             Plusieurs <strong>techniques de référencement SEO</strong> existent pour <strong>positionner son site internet</strong> dans les <strong>premiers résultats de première page</strong> ou en <strong>première position des SERP de Google</strong> et doubler vos <strong>concurrents</strong> : <strong>netlinking (backlinks)</strong>, <strong>maillage interne</strong>, <strong>content marketing</strong>, <strong>optimisation SEO</strong> du site internet. Augmentez votre <strong>popularité</strong> grâce aux <strong>optimisations</strong> qui rendront votre site internet visible.
                             </p>
                         </div>
-                        <div className="w-full lg:w-1/2 bg-black" style={{backgroundColor: 'rgb(0, 0, 0,0.4)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + sea + ')', color:'white' }} data-aos="zoom-in" data-aos-delay="200">
+                        <div className="w-full lg:w-1/2 bg-black text-white" style={{backgroundColor: 'rgb(0, 0, 0,0.4)', backgroundBlendMode:'multiply', backgroundImage: 'url(' + sea + ')'}} data-aos="zoom-in" data-aos-delay="200">
                             <h3 className="text-4xl pb-0 mb-0 md:text-2xl century p-10 pb-1 md:p-24">Search Engine Advertising (SEA)</h3>
                             <br/>
                             <p className="px-10 pb-24 pt-0 text-justify text-md">Nous vous accompagnons dans le <strong>référencement Google Ads</strong> de votre <strong>site vitrine</strong> ou <strong>e-commerce</strong>. <strong>Référencer son site</strong> et apparaître en <strong>première position sur Google</strong> mérite un investissement conséquent en temps, mais aussi en argent. Mener une campagne, définir une annonce, ajuster la stratégie, sont autant de tâches qui incombent au <strong>référencement payant</strong> pour obtenir un <strong>retour sur investissement</strong>.<br/>

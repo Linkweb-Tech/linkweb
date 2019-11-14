@@ -11,7 +11,7 @@ import Bg from "../images/developpement-web.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import blocint from '../images/developpement-internet.jpg';
 import exemples from '../images/realisations-exemples1.jpg';
-import exemples1 from '../images/realisations-exemples.jpg';
+import exemples1 from '../images/visuel-sites.jpg';
 import editeur from '../images/editeur.jpg';
 import mysql from '../images/mysql.png';
 import postgre from '../images/postgresql.png';
@@ -97,26 +97,26 @@ class Dev extends React.Component {
                             <hr className="blue"></hr>
                         </section>
                     </section>
-                    <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 flex flex-col md:flex-row">
+                    <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4 flex flex-col md:flex-row  text-center">
                             <div className="w-full md:w-1/4">
-                                <Link className="hover:text-bleu" to="/creation-site-internet-toulouse/"><img src={mind} alt="Création Site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
-                                <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Création d'un projet sur-mesure</Link></h3>
-                                <p style={{textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Site internet à votre image, conforme à votre charte graphique.</Link></p>
+                                <Link className="hover:text-bleu" to="/creation-site-internet-toulouse/"><img className="mx-auto block" src={mind} alt="Création Site internet Agen" /></Link><br/>
+                                <h3 className="text-xl font-bold"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Création d'un projet sur-mesure</Link></h3>
+                                <p><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Site internet à votre image, conforme à votre charte graphique.</Link></p>
                             </div>
                             <div className="w-full md:w-1/4">
-                                <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><img src={settings} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /></Link><br/>
-                                <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/">Projets d'envergure</Link></h3><br/>
-                                <p style={{textAlign:'center'}}><Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/">Création site web pour TPE PME, agence immobilière, ...</Link></p>
+                                <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><img className="mx-auto block" src={settings} alt="Création site internet Agen"/></Link><br/>
+                                <h3 className="text-xl font-bold"><Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/">Projets d'envergure</Link></h3><br/>
+                                <p><Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/">Création site web pour TPE PME, agence immobilière, ...</Link></p>
                             </div>
                             <div className="w-full md:w-1/4">
-                                <img src={ampoule} alt="Création Site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}>Facile d'utilisation</h3><br/>
-                                <p style={{textAlign:'center'}}>Interface de gestion de contenu abordable, même pour les novices.</p>
+                                <img className="mx-auto block" src={ampoule} alt="Création Site internet Toulouse"/><br/>
+                                <h3 className="text-xl font-bold">Facile d'utilisation</h3><br/>
+                                <p>Interface de gestion de contenu abordable, même pour les novices.</p>
                             </div>
                             <div className="w-full md:w-1/4">
-                                <img src={main} alt="Création Site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'center'}}>Formation à l'administration</h3>
-                                <p style={{textAlign:'center'}}>Dans le cas d'un site internet e-commerce et site administrable.</p>
+                                <img className="mx-auto block" src={main} alt="Création Site internet Toulouse"/><br/>
+                                <h3 className="text-xl font-bold">Formation à l'administration</h3>
+                                <p>Dans le cas d'un site internet e-commerce et site administrable.</p>
                             </div>
                     
                     </section>
@@ -128,24 +128,24 @@ class Dev extends React.Component {
                                     <br />
                             </section>
                         </section>
-                        <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex md:flex-row flex-col">
-                            <div className="w-full md:w-1/2 mb-10" style={{display:'inherit'}}>
+                        <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex md:flex-row flex-col text-left">
+                            <div className="w-full md:w-1/2 mb-10 flex">
                                 <div className="w-1/5">
                                     <img src={placeholder} alt="Création Site internet Agen" /><br/>
                                 </div>
                                 <div className="w-4/5">
-                                    <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'left'}}>Point de départ</h3>
-                                    <p style={{textAlign:'left'}}>
+                                    <h3 className="font-bold text-xl">Point de départ</h3>
+                                    <p >
                                      Un échange collaboratif mêlant vos envies et nos conseils professionnels.</p>
                                 </div>
                             </div>
-                            <div className="w-full md:w-1/2" style={{display:'inherit'}}>
+                            <div className="w-full md:w-1/2 flex">
                                 <div className="w-1/5">
                                     <img src={flag} alt="Développement Web Agen" /><br/>
                                 </div>
                                 <div className="w-4/5">
-                                    <h3 style={{fontWeight:'bold', fontSize:'20px', textAlign:'left'}}>Point d'arrivée</h3>
-                                    <p style={{textAlign:'left'}}>
+                                    <h3 className="font-bold text-xl">Point d'arrivée</h3>
+                                    <p>
                                      Un <strong>site internet professionnel</strong> qui remplit toutes les fonctions attendues, côté utilisateur et <strong>administrateur</strong>.</p>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@ class Dev extends React.Component {
                                 <span className="text-bleu">/</span>Site vitrine
                             </h2>
                             <hr className="blue"></hr><br/>
-                            <p style={{textAlign:'center', fontSize:'20px', fontWeight:'bold'}}>TPE, PME, artisans, professions libérales : dynamisez votre communication digitale d’entreprise.</p><br/>
+                            <p className="text-center font-bold text-xl">TPE, PME, artisans, professions libérales : dynamisez votre communication digitale d’entreprise.</p><br/>
                         </section>
 
                         <section className="max-w-6xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex flex-col md:flex-row">
@@ -165,16 +165,16 @@ class Dev extends React.Component {
                                 <img src={exemples} alt="Agence Web Agen"/>
                             </div>
                             <div className="w-full md:w-8/12">
-                                <p style={{fontSize:'18px', alignText:'left'}}>
+                                <p className="text-lg text-left">
                                 <br/>
                                     <ul>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;<strong>Site sur-mesure responsive design</strong></li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Mise en page ergonomique</strong> de vos contenus</li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;<strong>Webdesign</strong> original et épuré</li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Site web</strong> professionnel et évolutif
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;Vitesse de chargement des <strong>pages optimisées</strong></li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Protocole de sécurisation HTTPS</strong></li>
-                                        <li><img src={star} style={{width:'20px', display: 'inline-block', verticalAlign:'sub'}} alt="Création site web Agen" />&nbsp;&nbsp;Prise en charge technique de vos mises à jour</li>
+                                        <li><img className="w-5 inline-block align-text-bottom" src={star} alt="Création site web Agen" />&nbsp;&nbsp;<strong>Site sur-mesure responsive design</strong></li>
+                                        <li><img className="w-5 inline-block align-text-bottom" src={star} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Mise en page ergonomique</strong> de vos contenus</li>
+                                        <li><img className="w-5 inline-block align-text-bottom" src={star} alt="Création site web Agen" />&nbsp;&nbsp;<strong>Webdesign</strong> original et épuré</li>
+                                        <li><img className="w-5 inline-block align-text-bottom" src={star} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Site web</strong> professionnel et évolutif
+                                        <li><img className="w-5 inline-block align-text-bottom" src={star} alt="Création site web Agen" />&nbsp;&nbsp;Vitesse de chargement des <strong>pages optimisées</strong></li>
+                                        <li><img className="w-5 inline-block align-text-bottom" src={star} alt="Création site web Toulouse" />&nbsp;&nbsp;<strong>Protocole de sécurisation HTTPS</strong></li>
+                                        <li><img className="w-5 inline-block align-text-bottom" src={star} alt="Création site web Agen" />&nbsp;&nbsp;Prise en charge technique de vos mises à jour</li>
                                         </li>
                                     </ul>
                                 </p>
@@ -194,33 +194,33 @@ class Dev extends React.Component {
                         </section>
                     <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex">
                             <div className="w-full">
-                                <p className="text-lg md:text-xl" style={{textAlign:'left'}}>Vous êtes gérant d’un restaurant et, de ce fait,  souhaitez mettre en place des réservations en ligne ?</p>
+                                <p className="text-lg text-left md:text-xl">Vous êtes gérant d’un restaurant et, de ce fait,  souhaitez mettre en place des réservations en ligne ?</p>
                                 <br/>
-                                <p className="text-lg md:text-xl" style={{textAlign:'right'}}>Vous voulez présenter vos gammes de produits de beauté, de décoration, de jardinage sur un catalogue en ligne ?</p>
+                                <p className="text-lg text-right md:text-xl">Vous voulez présenter vos gammes de produits de beauté, de décoration, de jardinage sur un catalogue en ligne ?</p>
                                 <br/>
-                                <p className="text-lg md:text-xl" style={{textAlign:'left'}}>Votre entreprise organise des évènements et vous souhaitez publier régulièrement vos actualités sur votre site professionnel ?</p><br/>
+                                <p className="text-lg text-left md:text-xl">Votre entreprise organise des évènements et vous souhaitez publier régulièrement vos actualités sur votre site professionnel ?</p><br/>
                             </div>
                     </section>
-                    <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex flex-col md:flex-row">
-                        <div className="w-full md:w-1/4 text-lg my-10" style={{marginRight:'40px', textAlign:'center'}}>
-                            <img src={padlock} alt="Création de site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                    <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex flex-col md:flex-row text-center">
+                        <div className="w-full md:w-1/4 text-lg my-10 mx-10">
+                            <img className="mx-auto block" src={padlock} alt="Création de site internet Toulouse"/><br/>
                             <p>Accès à votre <strong>administration</strong> avec des <strong>identifiants sécurisés</strong></p>
                         </div>
-                        <div className="w-full md:w-1/4 text-lg my-10" style={{marginRight:'40px', textAlign:'center'}}>
-                            <img src={dashboard} alt="Création de site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                        <div className="w-full md:w-1/4 text-lg my-10 mx-10">
+                            <img className="mx-auto block" src={dashboard} alt="Création de site internet Agen"/><br/>
                             <p>Formation à l’utilisation de votre <strong>back-office</strong></p>
                         </div>
-                        <div className="w-full md:w-1/4 text-lg my-10" style={{marginRight:'40px', textAlign:'center'}}>
-                            <img src={users} alt="site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                        <div className="w-full md:w-1/4 text-lg my-10 mx-10">
+                            <img className="mx-auto block" src={users} alt="site internet Toulouse"/><br/>
                             <p>Configuration personnalisée des accès de chacun des collaborateurs sur le site</p>
                         </div>
-                        <div className="w-full md:w-1/4 text-lg my-10" style={{marginRight:'40px', textAlign:'center'}}>
-                            <img src={control} alt="site web Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
+                        <div className="w-full md:w-1/4 text-lg my-10 mx-10">
+                            <img className="mx-auto block" src={control} alt="site web Agen"/><br/>
                             <p>Gestion anticipée et <strong>programmation</strong> de la publication d’actualités et évènements</p>
                         </div>
                     </section>
                     <section className="max-w-6xl w-full mx-auto px-4 py-6 my-4 flex text-lg md:text-xl">
-                        <p style={{textAlign:'left'}}>Votre projet web sera étudié et réalisé dans les moindres détails pour vous permettre une autonomie de gestion de vos contenus sur les éléments qui sont importants pour vous. En ce qui concerne le reste, on s’en charge !</p>
+                        <p className="text-left">Votre projet web sera étudié et réalisé dans les moindres détails pour vous permettre une autonomie de gestion de vos contenus sur les éléments qui sont importants pour vous. En ce qui concerne le reste, on s’en charge !</p>
                     </section>
                 </section>
 
@@ -233,58 +233,58 @@ class Dev extends React.Component {
                             <p className="text-lg md:text-xl text-justify" style={{textAlignLast:'center'}}>82,7% des internautes français achètent sur internet ! Avoir un projet de création de boutique en ligne revient donc à monter une entreprise de toute pièce. Ainsi, il est nécessaire de faire appel à un partenaire solide pour vous accompagner dans cette aventure en vous créant un outil en ligne performant dans le but d’obtenir un retour sur investissement.</p><br/>
                         </section>
 
-                        <section className="max-w-6xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex flex-col md:flex-row">
-                            <div className="w-full md:w-1/4" style={{marginTop:'auto', marginBottom:'auto'}}>
-                                <img src={circle} alt="Développement Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Design rassurant et attractif</p><br/>
-                                <img src={circle} alt="Développement Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Développement des fiches produits sur-mesure</p><br/>
-                                <img src={circle} alt="Développement Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Intégration et gestion des commandes</p><br/>
-                                <img src={circle} alt="Développement Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Interface intuitive</p>
+                        <section className="max-w-6xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex flex-col md:flex-row text-center text-lg lg:text-xl">
+                            <div className="w-full md:w-1/4 my-auto">
+                                <img className="mx-auto block" src={circle} alt="Développement Agen"/><br/>
+                                <p>Design rassurant et attractif</p><br/>
+                                <img className="mx-auto block" src={circle} alt="Développement Agen"/><br/>
+                                <p>Développement des fiches produits sur-mesure</p><br/>
+                                <img className="mx-auto block" src={circle} alt="Développement Toulouse"/><br/>
+                                <p>Intégration et gestion des commandes</p><br/>
+                                <img className="mx-auto block" src={circle} alt="Développement Toulouse"/><br/>
+                                <p>Interface intuitive</p>
                             </div>
-                            <div className="w-full md:w-1/2">
-                            <img src={exemples1} alt="Développement Agen"/>
+                            <div className="w-full md:w-1/2 mx-auto block">
+                            <img className="mx-auto block" src={exemples1} alt="Développement Agen"/>
                             </div>
-                            <div className="w-full md:w-1/4" style={{marginTop:'auto', marginBottom:'auto'}}>
-                                <img src={circle} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Maintenance du site de vente en ligne</p><br/>
-                                <img src={circle} alt="Création site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Formation à l’utilisation du back-office</p><br/>
-                                <img src={circle} alt="Création site internet Agen" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Intégration d’avis clients</p><br/>
-                                <img src={circle} alt="Création site internet Toulouse" style={{marginLeft:'auto', marginRight:'auto', display:'block'}} /><br/>
-                                <p style={{fontSize:'25px', textAlign:'center'}}>Responsive design (design adapté aux smartphones et tablettes)</p>
+                            <div className="w-full md:w-1/4 my-auto">
+                                <img className="mx-auto block" src={circle} alt="Création site internet Agen" /><br/>
+                                <p>Maintenance du site de vente en ligne</p><br/>
+                                <img className="mx-auto block" src={circle} alt="Création site internet Toulouse"/><br/>
+                                <p>Formation à l’utilisation du back-office</p><br/>
+                                <img className="mx-auto block" src={circle} alt="Création site internet Agen"/><br/>
+                                <p>Intégration d’avis clients</p><br/>
+                                <img className="mx-auto block" src={circle} alt="Création site internet Toulouse"/><br/>
+                                <p>Responsive design (design adapté aux smartphones et tablettes)</p>
                             </div>
                         </section>
                                 <br/>
                     </section>
 
 
-                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 my-4" style={{marginTop:'0px', marginBottom:'0px'}}>
-                        <div className="w-full md:w-1/2 bg-bleu" style={{backgroundColor: '#37c5ee', padding:'130px', color:'white', fontSize:'1.5em'}} data-aos="zoom-in">
+                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 my-0">
+                        <div className="w-full md:w-1/2 bg-bleu text-white p-24 md:p-32 lg:p-40 xl:p-64" data-aos="zoom-in">
                             <p className="font-bold text-4xl">Nous maitrisons …</p>
                         </div>
-                        <div className="w-full md:w-1/2 bg-white text-white" style={{padding:'130px'}} data-aos="zoom-in" data-aos-delay="200">
+                        <div className="w-full md:w-1/2 bg-white text-white p-12 md:p-32 pb-0"  data-aos="zoom-in" data-aos-delay="200">
                             <p className="text-3xl text-center text-black">les langages …</p><br/>
-                            <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex flex-col md:flex-row">
+                            <section className="max-w-7xl w-full mx-auto p-0 my-2 flex flex-col md:flex-row">
                                 <div className="w-full md:w-1/4 my-6">
-                                    <img className="w-48 mx-auto block" src={html} alt="HTML" />
+                                    <img className="w-32 md:w-48 mx-auto block" src={html} alt="HTML" />
                                 </div>
                                 <div className="w-full md:w-1/4 my-6">
-                                    <img className="w-48 mx-auto block" src={css} alt="CSS" />
+                                    <img className="w-32 md:w-auto mx-auto block" src={css} alt="CSS" />
                                 </div>
                                 <div className="w-full md:w-1/4 my-6">
-                                    <img className="w-48 mx-auto block" src={javascript} alt="Javascript" />
+                                    <img className="w-32 md:w-auto mx-auto block" src={javascript} alt="Javascript" />
                                 </div>
                                 <div className="w-full md:w-1/4 mt-6">
-                                    <img className="w-48 mx-auto block" src={php} alt="Php" />
+                                    <img className="w-32 md:w-auto mx-auto block" src={php} alt="Php" />
                                 </div>
                             </section>
                         </div>
                     </section>
-                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 my-4 my-0">
+                    <section className="flex w-full flex-col md:flex-row mx-auto px-0 my-0">
                         <div className="w-full md:w-1/2 bg-white px-6 py-24" data-aos="zoom-in">
                                 <p className="text-3xl text-center text-black">les gestionnaires de base de données …</p>
                             <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
@@ -313,7 +313,7 @@ class Dev extends React.Component {
                     </section>
                     <section>
                         <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                            <p className="text-3xl text-center text-black" style={{fontSize:'25px', textAlign:'center', color:'black'}}>et enfin les frameworks …</p><br/>
+                            <p className="text-3xl text-center text-black">et enfin les frameworks …</p><br/>
                         </section>
 
                         <section className="max-w-7xl w-full mx-auto px-4 pt-0 pb-0 my-2 flex">
