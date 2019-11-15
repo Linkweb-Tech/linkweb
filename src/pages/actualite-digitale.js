@@ -105,7 +105,7 @@ render() {
                 </section>
                 {/* Menu de catégories */}
                 <section className="flex flex-row justify-center" data-aos="zoom-in">
-                    <div className="w-full lg:w-1/2 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-medium" style={{marginTop:'-18px'}}>
+                    <div className="w-full lg:w-1/2 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-bold -mt-6">
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></div>|
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/agence/">Agence</Link></div>|
                         <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/referencement/"><span className="hidden sm:block">Référencement</span><span className="block sm:hidden">SEO/SEA</span></Link></div>|
@@ -146,21 +146,21 @@ render() {
                                 </div>
                                 </section>
                                 <section className="flex flex-col md:flex-row px-5 mr-0">
-                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm text-gray hover:shadow-lg" style={{borderColor:'#3c3c3c3c', borderRadius:'5%', backgroundColor:'#e7f7ff'}} data-aos="zoom-in" data-aos-delay="500">
+                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm text-gray hover:shadow-lg bg-light border-grey" style={{borderRadius:'5%'}} data-aos="zoom-in" data-aos-delay="500">
                                         <div className="my-4 flex flex-row">
                                             <img src={world} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse"/><br/>
                                             <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/creation-site-internet-toulouse/"><h2 className="text-xl">Création Web</h2></Link><br/>
                                         </div>
                                             <p className="text-justify">L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
                                     </div>
-                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm text-gray hover:shadow-lg" style={{borderColor:'#3c3c3c3c', borderRadius:'5%', backgroundColor:'#f1f1f1'}} data-aos="zoom-in" data-aos-delay="700">
+                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm text-gray hover:shadow-lg bg-gris border-grey" style={{borderRadius:'5%'}} data-aos="zoom-in" data-aos-delay="700">
                                         <div className="my-4 flex flex-row">
                                             <img src={iconseo} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse"/><br/>
                                             <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/referencement-de-site-internet-47-31/"><h2 className="text-xl">Référencement Naturel</h2></Link><br/>
                                         </div>
                                             <p className="text-justify">Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
                                     </div>
-                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm hover:shadow-lg" style={{borderColor:'#3c3c3c3c', borderRadius:'5%', backgroundColor:'#ffffff'}} data-aos="zoom-in" data-aos-delay="900">
+                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm hover:shadow-lg border-grey bg-white" style={{borderRadius:'5%'}} data-aos="zoom-in" data-aos-delay="900">
                                         <div className="my-4 flex flex-row">
                                             <img src={iconsea} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
                                             <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/agence-adwords-47-31/"><h2 className="text-xl">Référencement Payant</h2></Link><br/>

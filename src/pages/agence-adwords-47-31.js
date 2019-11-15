@@ -83,10 +83,10 @@ class ReferencementAds extends React.Component {
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-full xl:w-1/2">
-                            <img className="w-full" src={imac} alt="Agence Adwords Toulouse"/>
+                        <div className="w-full xl:w-1/2 py-4">
+                            <img className="mx-auto block" src={imac} alt="Agence Adwords Toulouse"/>
                         </div>
-                        <div className="w-full xl:w-1/2 px-12 py-12" >
+                        <div className="w-full xl:w-1/2 p-12 xl:px-24" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CAMPAGNES ADWORDS : SOYEZ <span className="text-bleu">ROI</span>
                             </h2>
@@ -436,13 +436,13 @@ class ReferencementAds extends React.Component {
                             Vous souhaitez en savoir plus sur nos prestations d’agence web à Agen (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
                         <br/>
                         <section className="flex flex-col md:flex-row">
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/creation-site-internet-toulouse/">Création site internet</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>

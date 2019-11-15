@@ -85,21 +85,21 @@ class CreationSiteInternetVitrine extends React.Component {
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-full xl:w-1/2 px-12 py-12" style={{padding:'3% 9%'}} >
+                        <div className="w-full xl:w-1/2 px-12 md:px-24 py-12">
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET VITRINE : DÉVELOPPEZ VOTRE VISIBILITÉ SUR LE WEB
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Créer un site vitrine pour son entreprise, c’est s’assurer d’être accessible 24/24h, 7/7J pour acquérir de nouveaux clients grâce au web.</span>
                             </h4>
-                            <p data-aos='fade-bottom' style={{textAlign:'justify'}}>Aujourd’hui, votre <strong>site internet professionnel</strong> fait partie des outils indispensables pour dynamiser votre <strong>communication d’entreprise</strong>, atteindre de nouveaux clients, et même fidéliser vos clients actuels grâce à une stratégie rondement menée.
+                            <p data-aos='fade-bottom' className="text-justify">Aujourd’hui, votre <strong>site internet professionnel</strong> fait partie des outils indispensables pour dynamiser votre <strong>communication d’entreprise</strong>, atteindre de nouveaux clients, et même fidéliser vos clients actuels grâce à une stratégie rondement menée.
                             <br/><br/>
                                                         Mettre en place un <strong>site internet vitrine</strong> pour son entreprise permet de porter un coup de projecteur sur votre activité en présentant vos prestations et en apportant l’information nécessaire pour le consommateur à la recherche d’un prestataire de votre domaine d’activité.
                             <br/><br/>
-                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link className="hover:text-bleu" to="/ergonomie-site-web-agen-toulouse/">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
+                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link className="text-bleu font-bold hover:text-black" to="/ergonomie-site-web-agen-toulouse/">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
                         </div>
-                        <div className="w-full xl:w-1/2" style={{padding:'5% 0%'}}>
-                            <img src={imac} alt="Création site internet Toulouse"/>
+                        <div className="order-first xl:order-last w-full xl:w-1/2 p-0 xl:p-12">
+                            <img className="mx-auto block" src={imac} alt="Création site internet Toulouse"/>
                         </div>
                     </section>
                     <section className="w-full h-full flex flex-col justify-center items-center px-4 pt-12 pb-0 my-2 bg-darkgrey text-white">
@@ -587,13 +587,13 @@ class CreationSiteInternetVitrine extends React.Component {
                             Vous souhaitez en savoir plus sur nos prestations d’agence web à Agen (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
                         <br/>
                         <section className="flex flex-col md:flex-row">
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{borderRadius:'5px'}}>
                                 <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>

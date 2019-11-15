@@ -86,7 +86,7 @@ class CreationSiteSurMesure extends React.Component {
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
                         <div className="w-full xl:w-1/2">
                             <br/><br/>
-                            <img src={imac} alt="Création site internet Toulouse" />
+                            <img className="mx-auto block" src={imac} alt="Création site internet Toulouse" />
                         </div>
                         <div className="w-full xl:w-1/2 px-6 lg:pr-32 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
@@ -395,13 +395,13 @@ class CreationSiteSurMesure extends React.Component {
                             Vous souhaitez en savoir plus sur nos prestations d’agence web à Agen (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
                         <br/>
                         <section className="flex flex-col md:flex-row">
-                            <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>

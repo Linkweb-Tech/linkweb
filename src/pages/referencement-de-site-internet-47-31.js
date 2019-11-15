@@ -83,7 +83,7 @@ class ReferencementNaturel extends React.Component {
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-full xl:w-1/2 px-12 py-12" style={{padding:'3% 9%'}} >
+                        <div className="w-full xl:w-1/2 px-12 xl:px-24 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>AGENCE DE RÉFÉRENCEMENT : OPTEZ POUR LE NATUREL AVEC NOTRE AGENCE À AGEN
                             </h2>
@@ -94,8 +94,8 @@ class ReferencementNaturel extends React.Component {
                             <br/><br/>
                             Nous maintenons une <strong>mise à jour régulière des pages web de votre site internet</strong>, de la conception technique à la gestion de votre <strong>référencement naturel</strong> avec les <strong>optimisations de balises</strong> et autres <strong>techniques de référencement</strong> (<strong>maillage interne</strong>, <strong>liens entrants</strong>, <strong>balise meta</strong>, contenu de qualité) qui vous permettront de vous <strong>positionner dans les premiers résultats naturels des pages de résultats des moteurs de recherche</strong> pour un mot clé donné en vue d’une <strong>acquisition de trafic</strong> et de maximiser votre <strong>taux de conversion</strong>.</p>
                         </div>
-                        <div className="w-full xl:w-1/2" style={{padding:'5% 0%'}}>
-                            <img src={imac} alt="Référencement Naturel Agen" />
+                        <div className="w-full xl:w-1/2 py-12 order-first xl:order-last">
+                            <img className="mx-auto block" src={imac} alt="Référencement Naturel Agen" />
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -546,13 +546,13 @@ class ReferencementNaturel extends React.Component {
                             Vous souhaitez en savoir plus sur nos prestations d’agence web à Agen (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
                         <br/>
                         <section className="flex flex-col md:flex-row">
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/creation-site-internet-toulouse/">Création site internet</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4 text-white" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>

@@ -84,21 +84,21 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-full xl:w-1/2 px-12 py-12" style={{padding:'3% 9%'}} >
+                        <div className="w-full xl:w-1/2 px-12 xl:px-24 py-12">
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
                                 <span className="text-bleu">/</span>CRÉER UNE BOUTIQUE EN LIGNE : OPTEZ POUR LE E-COMMERCE
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <strong className="font-bold">Développer son commerce en ligne, c’est faire appel à un outil puissant pour atteindre une cible élargie et de potentiels nouveaux clients potentiels.</strong>
                             </h4>
-                            <p data-aos='fade-bottom' style={{textAlign:'justify'}}>La <strong>création d’un site de vente en ligne</strong> via la solution <strong>e-commerce</strong> ne remplace pas votre boutique physique : elle est complémentaire ! Avoir sa propre <strong>boutique en ligne</strong> permet d’apporter de la <strong>visibilité à son commerce</strong>, à ses produits, et ainsi acquérir une certaine notoriété pour aller chercher de nouveaux clients.
+                            <p data-aos='fade-bottom' className="text-justify">La <strong>création d’un site de vente en ligne</strong> via la solution <strong>e-commerce</strong> ne remplace pas votre boutique physique : elle est complémentaire ! Avoir sa propre <strong>boutique en ligne</strong> permet d’apporter de la <strong>visibilité à son commerce</strong>, à ses produits, et ainsi acquérir une certaine notoriété pour aller chercher de nouveaux clients.
                             <br/><br/>
                             Un site à la fois rassurant, attractif et intuitif va vous permettre de gagner la confiance des internautes et ainsi, booster votre <strong>taux de conversion</strong>. Faire appel à des professionnels de confiance pour la mise en place de son <strong>site marchand</strong> est fortement recommandé de ce point de vue.
                             <br/><br/>
                             Choix des moyens de paiements, avis clients, gestion des stocks, fiches produits : en développant votre <strong>boutique en ligne</strong>, vous optimisez la vente de vos produits phares.</p>
                         </div>
-                        <div className="w-full xl:w-1/2 px-12 py-12" style={{padding:'5% 0%'}}>
-                            <img src={imac} alt="Créer une boutique en ligne à Toulouse"/>
+                        <div className="w-full order-first xl:order-last xl:w-1/2 p-12">
+                            <img className="mx-auto block" src={imac} alt="Créer une boutique en ligne à Toulouse"/>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -595,13 +595,13 @@ class CreerBoutiqueEnLigne extends React.Component {
                             Vous souhaitez en savoir plus sur nos prestations d’agence web à Agen (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
                         <br/>
                         <section className="flex flex-col md:flex-row">
-                            <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-web-toulouse/">Agence Web</Link>
                             </div>
-                            <div className="w-full md:w-1/3 bg-bleu my-4" style={{color:'white', borderRadius:'5px', padding:'10px', marginRight:'20px'}}>
+                            <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
                             </div>
                         </section>

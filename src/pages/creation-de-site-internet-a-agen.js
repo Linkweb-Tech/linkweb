@@ -171,7 +171,7 @@ class Crea extends React.Component {
                                 </div>
                             </section>
                         </div>
-                        <div className="w-full xl:w-1/2 bg-black p-12 md:p-24 text-white" data-aos="zoom-in">
+                        <div className="w-full xl:w-1/2 bg-black p-12 md:p-24 text-white order-first lg:order-last" data-aos="zoom-in">
                             <h2 className="text-white text-3xl font-bold">Pour de la vente en ligne ?</h2><br/>
                             <p className="text-white text-md text-justify">En 2017, 85% des internautes ont effectués des achats en ligne. Ces chiffres sont en constante évolution. Pour cause, les bénéfices sont nombreux à se lancer dans le e-commerce. Cependant, pour qu’un <strong>projet web</strong> tel que la création d’une boutique <strong>e-commerce</strong> soit pérenne, il est indispensable de faire appel à des professionnels qualifiés pour mettre en place une réelle <strong>stratégie digitale</strong> et obtenir une <strong>conception de site</strong> de qualité.</p>
                             <br/> 
@@ -197,9 +197,9 @@ class Crea extends React.Component {
                             </section>
                         </div>
                     </section>
-                    <section className="bg-cover bg-center p-0 md:p-6" style={{backgroundColor:`rgb(255, 255, 255, 0.8)`, backgroundImage: 'url(' + fondblanc + ')', backgroundRepeat:'no-repeat', backgroundBlendMode: `overlay`, marginTop:'50px',color:'black'}}>
-                            <br />
-                        <section className="max-w-full p-6 my-3 w-full lg:mx-auto px-12 lg:px-24 lg:my-4 bg-black">
+                    <section className="bg-cover bg-center p-0 text-black mt-0" style={{backgroundColor:`rgb(255, 255, 255, 0.8)`, backgroundImage: 'url(' + fondblanc + ')', backgroundRepeat:'no-repeat', backgroundBlendMode: `overlay`}}>
+                        <hr classname="blue"/>
+                        <section className="max-w-full p-12 w-full lg:mx-auto px-12 lg:px-24 bg-black">
                             <section className="w-full">
                                     <h2 data-aos='fade-right' className="text-right text-2xl md:text-4xl century text-white">Comment créer un site internet pour les TPE / PME d’Agen et des alentours ?</h2>
                                     <br />
