@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import linkwebLogo from "../images/linkweb-black.png";
 
-function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified, nom }) {
+function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified, nom, image }) {
   return (
     
     <StaticQuery
@@ -100,7 +100,7 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
         "description": "${metaDescription}",
         "image": {
             "@type": "ImageObject",
-            "url": "https://linkweb.fr/blog/${slug}",
+            "url": "${image}",
             "width": "",
             "height": ""
       },
@@ -113,9 +113,9 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
             "name": "Linkweb",
           "logo": {
               "@type": "ImageObject",
-              "url": "https://linkweb.fr",
-              "width": "204",
-              "height": "53"
+              "url": "https://linkweb.fr/data/logo-linkweb.jpg",
+              "width": "112",
+              "height": "112"
         }
       },
       "datePublished": "${date}",
@@ -213,7 +213,8 @@ SEO.defaultProps = {
   date: ``,
   slug: ``,
   modified: ``,
-  nom: ``
+  nom: ``,
+  image:'https://test.com'
 };
 
 SEO.propTypes = {
@@ -227,7 +228,8 @@ SEO.propTypes = {
   date: PropTypes.string,
   modified: PropTypes.string,
   slug: PropTypes.string,
-  nom: PropTypes.string
+  nom: PropTypes.string,
+  image: PropTypes.string
 };
 
 export default SEO;
