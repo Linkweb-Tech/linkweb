@@ -199,7 +199,7 @@ class Crea extends React.Component {
                     </section>
                     <section className="bg-cover bg-center p-0 text-black mt-0" style={{backgroundColor:`rgb(255, 255, 255, 0.8)`, backgroundImage: 'url(' + fondblanc + ')', backgroundRepeat:'no-repeat', backgroundBlendMode: `overlay`}}>
                         <hr classname="blue"/>
-                        <section className="max-w-full p-12 w-full lg:mx-auto px-12 lg:px-24 bg-black">
+                        <section className="max-w-full p-12 w-full lg:mx-auto px-12 lg:px-24 bg-darkgrey">
                             <section className="w-full">
                                     <h2 data-aos='fade-right' className="text-right text-2xl md:text-4xl century text-white">Comment créer un site internet pour les TPE / PME d’Agen et des alentours ?</h2>
                                     <br />
