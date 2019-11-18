@@ -284,7 +284,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     </path>
                                 </svg>
                                 &nbsp;
-                                <p>Faire le choix de l’<strong>outil de création et de gestion du site</strong>, ainsi que de <strong>gestion du contenu</strong> (<strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/">CMS</Link></strong>, <strong>HTML/CSS</strong>, <strong>framework</strong>, etc.).</p>
+                                <p>Faire le choix de l’<strong>outil de création et de gestion du site</strong>, ainsi que de <strong>gestion du contenu</strong> (<strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/">CMS</Link></strong>, <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></strong>, <strong>framework</strong>, etc.).</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792">
