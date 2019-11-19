@@ -77,6 +77,8 @@ class Atpt extends React.Component {
                                 <b>UNIVERSITÉ FÉDÉRALE DE TOULOUSE MIDI-PYRÉNÉES</b><br/> <em><span className="font-light text-4xl sm:text-5xl">ATOUTS POUR TOUS (ATPT)</span></em>
                             </h1>
                             <h3 data-aos="fade-up" className="italic text-center text-lg sm:text-2xl text-white my-12">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées met le numérique au service de tous<br/> pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
+                            <br/>
+                            <a data-aos="fade-down" href="/realisations/atpt/#start"><svg width="80px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
@@ -86,7 +88,7 @@ class Atpt extends React.Component {
                             <br/>
                             <hr className="blue"></hr>
                         </div>
-                        <div className="w-full md:w-1/12 mx-auto mr-10 py-6 mb-4 -mt-32" data-aos="zoom-in">
+                        <div className="w-full md:w-1/12 mx-auto mr-10 py-6 mb-4 -mt-32" id="start" data-aos="zoom-in">
                             <img src={logo} className="mx-auto block md:mx-0" />
                         </div>
                     </section>
@@ -99,8 +101,8 @@ class Atpt extends React.Component {
                         </div>
                     </section>
                     <section className="w-full mt-24">
-                        <div className="w-full lg:w-2/3 bg-orange text-white px-12 md:px-24 py-12" data-aos="fade-right">
-                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="">/</span>CONCEVOIR UN OUTIL COLLABORATIF DE MISE EN RELATION DES ÉTUDIANTS ET DES PROFESSIONNELS</h2>
+                        <div className="w-full lg:w-2/3 bg-orange text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">
+                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-white">/</span>CONCEVOIR UN OUTIL COLLABORATIF DE MISE EN RELATION DES ÉTUDIANTS ET DES PROFESSIONNELS</h2>
                             <br/>
                             <p className="font-normal text-justify">
                                 L’Université Fédérale de Toulouse Midi-Pyrénées a fait le choix de Linkweb pour développer un outil numérique sur-mesure dans le cadre de son projet d’insertion à travers : 
@@ -145,7 +147,7 @@ class Atpt extends React.Component {
                             </p>
                             <br/>
                             <div className="mx-24 my-8">
-                                <p className="text-3xl py-2 text-left italic hover:shadow" data-aos="fade-in">ACCESSIBILITÉ</p>
+                                <p className="text-3xl py-2 text-left italic" data-aos="fade-in">ACCESSIBILITÉ</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">CORRESPONDANCE</p>
                                 <p className="text-5xl py-2 text-center text-bleu italic font-bold" data-aos="zoom-in" data-aos-delay="1000">INSERTION</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">INCLUSION</p>
