@@ -25,6 +25,7 @@ module.exports = {
       light: "#e7f7ff",
       vert: "#39ac4a",
       orange: "#ee8a1e",
+      rouge:"#b71c30"
     },
     borderRadius: {
       'large': '1rem',
