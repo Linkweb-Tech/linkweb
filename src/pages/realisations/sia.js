@@ -12,7 +12,7 @@ import Bg from "../../images/background-atpt.jpg";
 import bgbloc from "../../images/fond-bloc-sia.jpg";
 import mockup from "../../images/mockup-sia.jpg";
 import imac from "../../images/accueil-sia.jpg";
-import bloccontact from '../../images/bloc-contact.jpg';
+import bloccontact from '../../images/sia-chercheur.jpg';
 import logo from '../../images/logo-sia.png';
 
 
@@ -89,6 +89,7 @@ class sia extends React.Component {
                             <p className="font-normal text-justify">
                             L’Unviersité de Toulouse a confié à Linkweb la création de sa plateforme destinée aux enseignants chercheurs avec une volonté double :  
                             </p>
+                            <br/>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
