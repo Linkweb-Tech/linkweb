@@ -26,7 +26,8 @@ module.exports = {
       vert: "#39ac4a",
       orange: "#ee8a1e",
       rouge:"#b71c30",
-      or:"#d0a104"
+      or:"#d0a104",
+      ledil:"#233951"
     },
     borderRadius: {
       'large': '1rem',
