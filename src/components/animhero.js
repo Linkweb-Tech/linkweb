@@ -128,7 +128,7 @@ class Hero extends React.Component {
                     <Top className="top text-white century" >e</Top> 
                     <Top className="top text-white century" >b</Top> 
                 </Orbs>
-                <BigTitle className="flex flex-1 bigtitle text-white justify-center lg:justify-end century text-center p-2" pose={this.state.isOpen ? 'open' : 'closed'}>Agence web à Toulouse et Agen</BigTitle>
+                <BigTitle className="flex flex-1 bigtitle text-white justify-center lg:justify-end century text-center p-2" pose={this.state.isOpen ? 'open' : 'closed'}>Agence web Toulouse et Agen</BigTitle>
                 <SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-end century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>
             </div>
         </section>

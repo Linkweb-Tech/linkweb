@@ -55,7 +55,7 @@ function IndexPage(props) {
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
         <h2 data-aos='fade-right' className="text-center">
           <Link className="hover:text-bleu" to="/agence-web-toulouse/" className="text-center text-black text-4xl century">
-            Agence digitale
+            Agence digitale Toulouse et Agen
           </Link>
         </h2>
         <hr className="blue"></hr>
