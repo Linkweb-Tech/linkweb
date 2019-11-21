@@ -276,7 +276,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     </path>
                                 </svg>
                                 &nbsp;
-                                <p>Faire le choix d’un <strong>nom de domaine</strong> qui vous permettra d’être facilement reconnaissable.</p>
+                                <p>Faire le choix d’un <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/">nom de domaine</Link></strong> qui vous permettra d’être facilement reconnaissable.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792">

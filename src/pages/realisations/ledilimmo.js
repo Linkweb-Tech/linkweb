@@ -144,7 +144,7 @@ class ledilimmo extends React.Component {
                             </div>
                         </div>
                     </section>
-                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#d0a104e6 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
+                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'rgba(208,161,4,1) url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'overlay'}}>
                         <div>
                             <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-ledil">/</span>METTRE EN AVANT LA DIVERSITÉ DE L’OFFRE DE LEDIL.IMMO<br/> TOUT EN FAVORISANT L’UNICITÉ DU RÉSEAU</h2>
                         </div>
