@@ -164,7 +164,7 @@ class csdmenuiserie extends React.Component {
                                 <p>Webdesign adaptable à la taille de l'écran</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="600">
-                                <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M87,53.9c-1.1,0.1-2.1,0.2-3.2,0.4c-7.5,1.1-14.5,3.7-19.7,7.3c2.8,1.6,5.4,3.4,7.9,5.3c1,0.7,1.1,2.1,0.4,3.1     c-0.4,0.6-1.1,0.9-1.8,0.9c-0.5,0-0.9-0.1-1.4-0.5c-3.1-2.4-6.5-4.6-10.2-6.5c-3.2-1.8-6.7-3.4-10.4-4.8     c-7.1-2.7-14.2-4.4-20.9-5v25.1H87V53.9z"/><circle cx="76.9" cy="43.7" r="6.3"/><path fill="#FFFFFF" d="M94.4,25.1H82.7V13.4c0-1.7-1.4-3.1-3.1-3.1H5.6c-1.7,0-3.1,1.4-3.1,3.1v58.4c0,1.7,1.4,3.1,3.1,3.1h11.7v11.7     c0,1.7,1.4,3.1,3.1,3.1h74.1c1.7,0,3.1-1.4,3.1-3.1V28.2C97.5,26.5,96.1,25.1,94.4,25.1z M17.3,28.2v40.6H8.7V16.5h67.9v8.6H20.4     C18.7,25.1,17.3,26.5,17.3,28.2z M91.3,83.5H23.4V31.2h67.9V83.5z"/></g></g></svg>                                
+                                <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M87,53.9c-1.1,0.1-2.1,0.2-3.2,0.4c-7.5,1.1-14.5,3.7-19.7,7.3c2.8,1.6,5.4,3.4,7.9,5.3c1,0.7,1.1,2.1,0.4,3.1     c-0.4,0.6-1.1,0.9-1.8,0.9c-0.5,0-0.9-0.1-1.4-0.5c-3.1-2.4-6.5-4.6-10.2-6.5c-3.2-1.8-6.7-3.4-10.4-4.8     c-7.1-2.7-14.2-4.4-20.9-5v25.1H87V53.9z"/><circle fill="#FFFFFF" cx="76.9" cy="43.7" r="6.3"/><path fill="#FFFFFF" d="M94.4,25.1H82.7V13.4c0-1.7-1.4-3.1-3.1-3.1H5.6c-1.7,0-3.1,1.4-3.1,3.1v58.4c0,1.7,1.4,3.1,3.1,3.1h11.7v11.7     c0,1.7,1.4,3.1,3.1,3.1h74.1c1.7,0,3.1-1.4,3.1-3.1V28.2C97.5,26.5,96.1,25.1,94.4,25.1z M17.3,28.2v40.6H8.7V16.5h67.9v8.6H20.4     C18.7,25.1,17.3,26.5,17.3,28.2z M91.3,83.5H23.4V31.2h67.9V83.5z"/></g></g></svg>                                
                                 <h4 className="uppercase font-bold">
                                     GALERIE PHOTOS
                                 </h4>
@@ -288,7 +288,7 @@ class csdmenuiserie extends React.Component {
                         <div className="w-full flex flex-row justify-around md:justify-between mt-24">
                             <div className="text-center pt-6 px-4 font-bold flex flex-row mx-5 bg-white w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" ata-aos="fade-right">
                                 <Link><svg className="mx-auto inline-block align-text-bottom" width="30px" viewBox="0 0 40 50" x="0px" y="0px"><g fill="#000000" fill-rule="evenodd"><path fill="#000000" d="m20 0c-11.05 0-20 8.954-20 20 0 11.05 8.954 20 20 20 11.05 0 20-8.954 20-20 0-11.05-8.954-20-20-20m5.056 9.981c.725.715.725 1.874 0 2.588l-7.966 7.853 7.966 7.853c.725.715.725 1.874 0 2.589-.725.715-1.901.715-2.626 0l-9.279-9.147c-.725-.715-.725-1.874 0-2.589l9.279-9.147c.362-.358.838-.536 1.313-.536.475 0 .95.179 1.313.536"/></g></svg></Link>
-                                <Link className="px-4" to="/">Précédent</Link>
+                                <Link className="px-4" to="/realisations/ledilimmo/">Précédent</Link>
                             </div>
                             <div className="text-center pt-6 font-bold flex flex-row bg-white w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" data-aos="fade-left">
                                 <Link className="px-4" to="/realisations/sia/">Suivant</Link>

@@ -288,7 +288,7 @@ class sdis47 extends React.Component {
                         <div className="w-full flex flex-row justify-around md:justify-between mt-24">
                             <div className="text-center pt-6 px-4 font-bold flex flex-row mx-5 bg-white w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" ata-aos="fade-right">
                                 <Link><svg className="mx-auto inline-block align-text-bottom" width="30px" viewBox="0 0 40 50" x="0px" y="0px"><g fill="#000000" fill-rule="evenodd"><path fill="#000000" d="m20 0c-11.05 0-20 8.954-20 20 0 11.05 8.954 20 20 20 11.05 0 20-8.954 20-20 0-11.05-8.954-20-20-20m5.056 9.981c.725.715.725 1.874 0 2.588l-7.966 7.853 7.966 7.853c.725.715.725 1.874 0 2.589-.725.715-1.901.715-2.626 0l-9.279-9.147c-.725-.715-.725-1.874 0-2.589l9.279-9.147c.362-.358.838-.536 1.313-.536.475 0 .95.179 1.313.536"/></g></svg></Link>
-                                <Link className="px-4" to="/realisations/sia/">Précédent</Link>
+                                <Link className="px-4" to="/realisations/atpt/">Précédent</Link>
                             </div>
                             <div className="text-center pt-6 font-bold flex flex-row bg-white w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" data-aos="fade-left">
                                 <Link className="px-4" to="/">Suivant</Link>
