@@ -96,6 +96,7 @@ render() {
                                     src={ instaIcon }
                                     alt="Réseaux sociaux"
                                     className="w-6 fill-current"
+                                    style={{maxHeight:'50px', minWidth:'15px'}}
                                     />
                                     </a>
                                 </div>
