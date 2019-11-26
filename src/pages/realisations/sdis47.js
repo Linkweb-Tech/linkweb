@@ -88,7 +88,7 @@ class sdis47 extends React.Component {
                             <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-rouge">/</span>ACCOMPAGNER LA PRÉSENCE EN LIGNE DU SDIS 47</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                En poursuivant des objectifs de communication et plus particulièrement d’image, le SDIS 47 a choisi Linkweb pour déployer sa nouvelle visibilité en ligne avec trois nécessités : 
+                                En poursuivant des objectifs de communication et plus particulièrement d’image, le SDIS 47 a choisi Linkweb pour déployer sa nouvelle stratégie de visibilité en ligne avec trois besoins : 
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
