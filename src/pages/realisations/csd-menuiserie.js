@@ -67,7 +67,7 @@ class csdmenuiserie extends React.Component {
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
                             <h3 data-aos='fade-right' className="text-center text-2xl md:text-4xl mx-12 md:mx-24 century">
-                            Valoriser le travail effectué à travers un site internet <span className="text-csd">épuré</span> et <span className="text-csd">illustré</span>
+                            Valoriser le travail réaliser à travers un site internet <span className="text-csd">épuré</span> et <span className="text-csd">illustré</span>
                             </h3>
                             <br/>
                         </div>
