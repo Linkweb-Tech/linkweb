@@ -55,12 +55,13 @@ class Atpt extends React.Component {
                     transitionTime={200}
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#000000e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                            <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
-                            <Link to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
-                                <b>ATOUTS POUR TOUS</b><br/> <em><span className="font-light text-xl md:text-3xl">Université Fédérale de Toulouse Midi-Pyrénées</span></em>
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century mt-24 font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
+                                ATOUTS POUR TOUS
                             </h1>
-                            <h3 data-aos="fade-up" className="italic text-center text-lg sm:text-2xl text-white my-6">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées met le numérique au service de tous<br/> pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
+                            <h2 className="font-normal text-center text-white text-xl md:text-3xl"><em>Université Fédérale de Toulouse Midi-Pyrénées</em></h2>
+                            <h3 data-aos="fade-up" className="font-normal italic text-center text-lg sm:text-2xl text-white my-24">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées met le numérique au service de tous pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
                             <a data-aos="fade-down" href="/realisations/atpt/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
@@ -71,7 +72,7 @@ class Atpt extends React.Component {
                             <br/>
                             <hr className="blue"></hr>
                         </div>
-                        <div className="w-full md:w-1/12 mx-auto mr-10 py-6 mb-4 -mt-32" id="start" data-aos="zoom-in">
+                        <div className="w-full md:w-1/12 mx-auto mr-10 py-6 mb-4 -mt-32 md:-mt-16 lg:-mt-24 xl:-mt-32" id="start" data-aos="zoom-in">
                             <img src={logo} className="mx-auto block md:mx-0" />
                         </div>
                     </section>
@@ -129,7 +130,7 @@ class Atpt extends React.Component {
                                 ATPT est un exemple de synergie parfaite entre la poursuite d’une cause socialement louable et nécessaire, ainsi que l’apport considérable du numérique dans la vie de la société.
                             </p>
                             <br/>
-                            <div className="mx-24 my-8">
+                            <div className="px-16 my-8">
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">ACCESSIBILITÉ</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">CORRESPONDANCE</p>
                                 <p className="text-5xl py-2 text-center text-bleu italic font-bold" data-aos="zoom-in" data-aos-delay="1000">INSERTION</p>

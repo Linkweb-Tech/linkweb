@@ -54,12 +54,13 @@ class sia extends React.Component {
                     transitionTime={200}
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#bd1120e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center' }}>
-                            <Link to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
+                            <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
-                                <b>SIA ÉCHANGES PÉDAGOGIQUES</b><br/> <em><span className="font-light text-xl md:text-4xl sm:text-3xl">Université Fédérale de Toulouse Midi-Pyrénées</span></em>
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century pt-32 mx-auto block font-bold text-3xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
+                                SIA ÉCHANGES PÉDAGOGIQUES
                             </h1>
-                            <h3 data-aos="fade-up" className="italic text-center text-lg sm:text-2xl text-white my-12">Développer une interface d’accompagnement des enseignants chercheurs en vue de favoriser les échanges pédagogiques.</h3>
+                            <h2 className="text-white text-center font-normal"><em><span className="text-xl md:text-4xl sm:text-3xl">Université Fédérale de Toulouse Midi-Pyrénées</span></em></h2>
+                            <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white my-12">Développer une interface d’accompagnement des enseignants chercheurs en vue de favoriser les échanges pédagogiques.</h3>
                             <br/>
                             <a data-aos="fade-down" href="/realisations/sia/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                     </section>
@@ -130,7 +131,7 @@ class sia extends React.Component {
                                 L’Université Fédérale Toulouse Midi Pyrénées a fait le choix du numérique pour favoriser les échanges et optimiser le travail de ses chercheurs.
                             </p>
                             <br/>
-                            <div className="mx-24 my-8">
+                            <div className="px-16 my-8">
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">COLLABORATION</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">MODERNISATION</p>
                                 <p className="text-5xl py-2 text-center text-rouge italic font-bold" data-aos="zoom-in" data-aos-delay="1000">ÉCHANGES</p>

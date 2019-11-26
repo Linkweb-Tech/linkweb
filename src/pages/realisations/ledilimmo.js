@@ -55,14 +55,14 @@ class ledilimmo extends React.Component {
                     transitionTime={200}
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#233951f0 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
-                            <Link to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
+                            <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century mt-24 font-bold text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                                 <b>LEDIL.IMMO</b>
                             </h1>
-                            <h3 data-aos="fade-up" className="italic text-center text-lg sm:text-2xl text-white my-12">Mettre en place un outil permettant d’apporter de la visibilité à l’offre immobilière de Ledil.immo, tout en proposant une solution web pour la gestion du réseau de mandataires.</h3>
+                            <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white mt-8">Mettre en place un outil permettant d’apporter de la visibilité à l’offre immobilière de Ledil.immo, tout en proposant une solution web pour la gestion du réseau de mandataires.</h3>
                             <br/>
-                            <a data-aos="fade-down" href="/realisations/ledilimmo/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                            <a data-aos="fade-dow" className="mb-12" href="/realisations/ledilimmo/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
@@ -135,7 +135,7 @@ class ledilimmo extends React.Component {
                                 Mettre en place un outil de communication multi-fonction capable de transmettre les valeurs d’un réseau immobilier collaboratif.
                             </p>
                             <br/>
-                            <div className="mx-24 my-8">
+                            <div className="px-16 my-8">
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">PROXIMITÉ</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">COMMUNICATION</p>
                                 <p className="text-3xl sm:text-5xl py-2 text-center text-or italic font-bold" data-aos="zoom-in" data-aos-delay="1000">COLLABORATION</p>

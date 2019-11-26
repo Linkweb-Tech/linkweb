@@ -55,7 +55,7 @@ class csdmenuiserie extends React.Component {
                     transitionTime={200}
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#aace57fa url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
-                            <Link to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
+                            <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
                             <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                                 <b>CSD MENUISERIE</b>
@@ -135,7 +135,7 @@ class csdmenuiserie extends React.Component {
                             Proposer un outil adapté pour obtenir des contacts qualifiés, tout en présentant l’activité d’un professionnel de l’artisanat.
                             </p>
                             <br/>
-                            <div className="mx-24 my-8">
+                            <div className="px-16 my-8">
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">QUALITÉ</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">TRANSPARENCE</p>
                                 <p className="text-5xl py-2 text-center text-csd italic font-bold" data-aos="zoom-in" data-aos-delay="1000">PROXIMITÉ</p>
