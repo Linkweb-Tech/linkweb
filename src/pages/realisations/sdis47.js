@@ -57,7 +57,7 @@ class sdis47 extends React.Component {
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#000000e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
                             <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold pt-32 text-2xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold pt-32 text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center text-white">
                                 <b>SERVICE DÉPARTEMENTAL D’INCENDIE ET DE SECOURS DE LOT-ET-GARONNE</b>
                             </h1>
                             <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white mt-12 mb-4">Développer la nouvelle présence online du SDIS 47 en apportant une zone privative pour optimiser la communication interne de l’organisme.</h3>
