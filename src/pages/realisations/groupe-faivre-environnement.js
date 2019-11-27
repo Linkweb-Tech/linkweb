@@ -78,7 +78,7 @@ class faivre extends React.Component {
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
                             <h3 data-aos='fade-right' className="text-center text-2xl md:text-4xl text-csd font-bold mx-12 md:mx-24 century">
-                            Promouvoir les services proposés par le groupe
+                            Promouvoir et apporter de la visibilité aux services proposés par le groupe
                             </h3>
                             <br/>
                         </div>
@@ -96,23 +96,23 @@ class faivre extends React.Component {
                             <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-csd1">/</span>MISE EN PLACE D’UN PROJET MULTISITE AVEC ACCÈS FACILITÉ À L’ADMINISTRATION</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                En faisant le choix de Linkweb, Faivre Environnement a fait le choix d’une interface multisite pour mettre en avant ses services proposés dans ses différents champs d’action  :   
+                                Faivre Environnement a choisi Linkweb pour la mise en place d’une interface multisite visant à promouvoir ses différents domaines d'activités  :   
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Mettre en place une interface avec une vision groupe du projet.
+                                    Mettre en place une interface conservant la vision groupe du projet.
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Faciliter l’administration des sites à travers la mise en place d’un portail
+                                    Optimiser la gestion des sites par la mise en place d’un portail
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Apporter de la visibilité et des contacts grâce à un référencement au détail
+                                    Générer de la visibilité pour attirer des prospects grâce à un référencement au détail
                                 </li>
                             </ul>
                             <br/>
@@ -147,14 +147,14 @@ class faivre extends React.Component {
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">PROFESSIONNALISME</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">INFORMATION</p>
                                 <p className="text-3xl sm:text-5xl py-2 text-center text-csd italic font-bold" data-aos="zoom-in" data-aos-delay="1000">CLARTÉ</p>
-                                <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">GRAPHIQUE</p>
+                                <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">UNICITÉ</p>
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">COMPLÉMENTARITÉ</p>
                             </div>
                         </div>
                     </section>
                     <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background: 'url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
                         <div>
-                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-csd1 text-center uppercase" data-aos="fade-in"><span className="text-csd">/</span>Créer une solution web SEO-Friendly</h2>
+                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-csd1 text-center uppercase" data-aos="fade-in"><span className="text-csd">/</span>PROPOSER UNE SOLUTION DIGITALE GLOBALE TOUT EN ACTIVANT LES LEVIERS DU RÉFÉRENCEMENT AU DÉTAIL</h2>
                         </div>
                         <div className="w-full lg:w-1/2 mb-12 text-csd1 text-center flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="200">
@@ -176,7 +176,7 @@ class faivre extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 PORTAIL D'ADMINISTRATION
                                 </h4>
-                                <p className="font-normal">Accès rapide à l'administration des sites</p>
+                                <p className="font-normal">Accès rapide à l'administration des différents sites</p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 text-csd1 text-center flex mb-12 flex-col lg:flex-row">
@@ -185,30 +185,30 @@ class faivre extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 MISE EN PLACE D'UN POP-UP
                                 </h4>
-                                <p className="font-normal">Lien entre les différents sous-domaines</p>
+                                <p className="font-normal">Conservation du lien entre les différents sous-domaines</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1000">
                             <svg width="60px" className="mx-auto block" viewBox="0 0 99.402 125"><path fill="#5a4d46" d="M99.402,76.974v-3.939h-0.558v-5.006h-3.939v5.006H83.089v-5.006H79.15v5.006H67.333v-5.006h-3.939v5.006h-9.85  l-0.509-8.346c3.41-0.779,6.484-2.739,8.62-5.553c1.641,0.604,3.356,0.91,5.12,0.91c8.241,0,14.948-6.707,14.948-14.95  c0-3.277-1.05-6.398-2.993-8.973c2.633-2.763,4.11-6.415,4.11-10.287c0-8.243-6.707-14.95-14.95-14.95  c-1.169,0-2.321,0.135-3.445,0.4C62.794,4.794,56.844,0,49.963,0c-7.007,0-12.95,4.862-14.526,11.468  c-1.333-0.387-2.708-0.582-4.112-0.582c-8.243,0-14.95,6.707-14.95,14.95c0,4.171,1.755,8.131,4.776,10.942  c-1.65,2.453-2.543,5.342-2.543,8.318c0,8.243,6.707,14.95,14.95,14.95c1.522,0,3.015-0.229,4.454-0.681  c2.081,2.65,4.953,4.483,8.171,5.269l-0.512,8.402h-9.85v-5.006h-3.939v5.006H20.067v-5.006h-3.939v5.006H4.311v-5.006H0.372v5.006  H0v3.939h0.372v13.982H0v3.939h0.372v4.129h3.939v-4.129h11.817v4.129h3.939v-4.129h11.817v4.129h3.939v-4.129h8.517L44.028,100  h11.16l-0.311-5.105h8.517v4.129h3.939v-4.129H79.15v4.129h3.939v-4.129h11.817v4.129h3.939v-4.129h0.558v-3.939h-0.558V76.974  H99.402z M4.311,90.956V76.974h11.817v13.982H4.311z M20.067,90.956V76.974h11.817v13.982H20.067z M35.822,90.956V76.974h9.61  L44.58,90.956H35.822z M54.637,90.956l-0.852-13.982h9.61v13.982H54.637z M67.333,90.956V76.974H79.15v13.982H67.333z   M94.906,90.956H83.089V76.974h11.817V90.956z"/></svg>                                
                                 <h4 className="uppercase font-bold">
-                                ACTIVITÉS DU GROUPE
+                                VITRINE DES ACTIVITÉS DU GROUPE
                                 </h4>
-                                <p className="font-normal">Promotion des différentes prestations</p>
+                                <p className="font-normal">Promotion des différentes prestations proposées</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1200">
                             <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><path fill="#5a4d46" d="M89.8,49c0,0.1,1.5-1.3,1.5-1.2h8.7L84.9,65.3L69.6,47.8h8.7c0-0.1,1.9,1.3,1.9,1.2c0-16.7-12.9-30.2-28.8-30.2   c-7.2,0-13.8,2.8-18.8,7.4l-6.4-7.6c6.8-6.2,15.6-9.9,25.2-9.9C72.6,8.7,89.8,26.8,89.8,49z"/><path fill="#5a4d46" d="M10.2,51c0-0.1-1.5,1.3-1.5,1.2H0l15.1-17.5l15.3,17.5h-8.7c0,0.1-1.9-1.3-1.9-1.2c0,16.7,12.9,30.2,28.8,30.2   c7.2,0,13.8-2.8,18.8-7.4l6.4,7.6c-6.8,6.2-15.6,9.9-25.2,9.9C27.4,91.3,10.2,73.2,10.2,51z"/></g></svg>                                
                                 <h4 className="uppercase font-bold">
                                 MISES À JOUR
                                 </h4>
-                                <p className="font-normal">Mise à jour régulière du site</p>
+                                <p className="font-normal">Mises à jour régulières du site conformes au SEO</p>
                             </div>
                         </div>
                     </section>
                     <section className="h-full w-full mt-32 flex flex-col lg:flex-row">
                         <div className="w-fulllg:w-1/2 text-black  py-8 px-12 lg:px-24 mb-24 xl:px-48" data-aos="fade-right">
-                            <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-csd">/</span>Accès optimal à l’administration</h2>
+                            <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-csd">/</span>Un accès facilité à l’administration</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Un seul portail pour un accès direct à l’administration des trois sous-domaines du groupe. 
+                                Un seul portail permet un accès direct à l’administration des trois sous-domaines du groupe. 
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
@@ -240,7 +240,7 @@ class faivre extends React.Component {
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-csd1">/</span>une stratégie de référencement au détail</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Définition de stratégies de référencement propres à chaque filiales du groupe Faivre Environnement.
+                                Définition de stratégies de référencement propres à chaque filiale du groupe Faivre Environnement.
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
@@ -294,11 +294,11 @@ class faivre extends React.Component {
                             </div>
                         </div>
                         <div className="w-full flex flex-row justify-around md:justify-between mt-24">
-                            <div className="text-center py-3 px-4 font-bold text-white flex flex-col mx-5 bg-csd1 w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" ata-aos="fade-right">
+                            <div className="text-center py-3 px-4 font-bold text-black flex flex-col mx-5 bg-white w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" ata-aos="fade-right">
                                 <Link><svg style={{maxWidth:'25px'}} className="mx-auto inline-block align-text-middle" width="20px" viewBox="0 0 40 50" x="0px" y="0px"><g fill="#000000" fill-rule="evenodd"><path fill="#000000" d="m20 0c-11.05 0-20 8.954-20 20 0 11.05 8.954 20 20 20 11.05 0 20-8.954 20-20 0-11.05-8.954-20-20-20m5.056 9.981c.725.715.725 1.874 0 2.588l-7.966 7.853 7.966 7.853c.725.715.725 1.874 0 2.589-.725.715-1.901.715-2.626 0l-9.279-9.147c-.725-.715-.725-1.874 0-2.589l9.279-9.147c.362-.358.838-.536 1.313-.536.475 0 .95.179 1.313.536"/></g></svg></Link>
                                 <Link className="mx-auto block" to="/realisations/sdis47/">Précédent</Link>
                             </div>
-                            <div className="text-center py-3 font-bold text-white flex flex-col bg-csd1 w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" data-aos="fade-left">
+                            <div className="text-center py-3 font-bold text-black flex flex-col bg-white w-1/3 lg:1/6 xl:w-1/12 hover:text-bleu" data-aos="fade-left">
                                 <Link className="mx-auto block order-last" to="/realisations/gabriel-services/">Suivant</Link>
                                 <Link className="mx-auto inline-block align-text-middle"><svg style={{maxWidth:'25px'}} width="20px" viewBox="0 0 0.689 0.86125" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs></defs><g><path class="fil0" d="M0.46 0.367l-0.148 0.147c-0.012,0.013 -0.032,0.013 -0.044,0 -0.012,-0.012 -0.012,-0.032 0,-0.044l0.126 -0.125 -0.126 -0.126c-0.012,-0.012 -0.012,-0.032 0,-0.044 0.012,-0.012 0.032,-0.012 0.044,0l0.148 0.147c0.012,0.013 0.012,0.032 0,0.045zm-0.46 -0.022c0,0.095 0.039,0.181 0.101,0.243 0.062,0.063 0.148,0.101 0.244,0.101 0.095,0 0.181,-0.038 0.243,-0.101 0.063,-0.062 0.101,-0.148 0.101,-0.243 0,-0.096 -0.038,-0.182 -0.101,-0.244 -0.062,-0.062 -0.148,-0.101 -0.243,-0.101 -0.096,0 -0.182,0.039 -0.244,0.101 -0.062,0.062 -0.101,0.148 -0.101,0.244z"/></g></svg></Link>
                             </div>

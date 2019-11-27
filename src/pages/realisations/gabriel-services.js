@@ -10,7 +10,7 @@ import SEO from "../../components/seo";
 import logolinkweb from "../../images/logo-linkweb.png";
 import Bg from "../../images/bg-gs.jpg";
 import bgbloc from "../../images/gs-bloc.jpg";
-import mockup1 from "../../images/visu-gs.jpg";
+import mockup1 from "../../images/gs-mockup1.jpg";
 import mockup2 from "../../images/gs-mockup.jpg";
 import imac from "../../images/mockup-gs.jpg";
 import bloccontact from '../../images/gs-contact.jpg';
@@ -68,7 +68,7 @@ class gabrielservices extends React.Component {
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
                             <h3 data-aos='fade-right' className="text-center text-2xl md:text-4xl mx-12 md:mx-24 century">
-                                Promouvoir les services proposés dans un <span className="text-orange">environnement axé sur le visuel</span>
+                                Promouvoir les services proposés par Gabriel Services <br/>dans un <span className="text-orange">environnement graphique</span>
                             </h3>
                             <br/>
                         </div>
@@ -86,16 +86,16 @@ class gabrielservices extends React.Component {
                     </section>
                     <section className="w-full mt-24">
                         <div className="w-full lg:w-2/3 bg-orange text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">
-                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-black">/</span>CRÉATION DE SITE INTERNET VITRINE : UN WEBDESIGN PRONONCÉ</h2>
+                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-black">/</span>CRÉATION DE SITE INTERNET VITRINE : UN ASPECT VISUEL PRONONCÉ</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                L’entreprise Gabriel Services propose des services à destination des particuliers et proposent la livraison dans trois zones distinctes. L’objectif était de développer un site vitrine adapté à l’activité du client. 
+                                L’entreprise Gabriel Services propose des services à destination des particuliers avec une possibilité de livraison dans trois zones distinctes. Linkweb a été choisi pour créer un site qui répondait aussi bien aux besoins de l'entreprise que de ses utilisateurs. 
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Créer un site vitrine laissant transparaître clairement l’activité de Gabriel Services  
+                                    Créer un site vitrine introduisant l’activité et les services proposés par Gabriel Services  
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
@@ -128,107 +128,107 @@ class gabrielservices extends React.Component {
                             <h2 className="font-normal text-3xl my-2 px-16"><span className="text-orange">/</span>POSITIONNEMENT ET VALEURS PARTAGÉES</h2>
                             <br/>
                             <p className="font-bold text-lg px-16">
-                                De par une charte graphique prononcée, la mise en place d’un webdesign adapté pour une parfaite correspondance avec la volonté de Gabriel Services.
+                                Mise en place d’un webdesign adapté à une charte graphique étoffée pour répondre aux besoins de l'entreprise.
                             </p>
                             <br/>
                             <div className="px-16 my-8">
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">MODERNITÉ</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">TRANSPARENCE</p>
-                                <p className="text-5xl py-2 text-center text-orange italic font-bold" data-aos="zoom-in" data-aos-delay="1000">VISUEL</p>
+                                <p className="text-5xl py-2 text-center text-orange italic font-bold" data-aos="zoom-in" data-aos-delay="1000">GRAPHIQUE</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">INFORMATION</p>
-                                <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">ANIMATION</p>
+                                <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">DYNAMISME</p>
                             </div>
                         </div>
                     </section>
                     <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#000000eb url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
-                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-or">/</span>DES FONCTIONNALITÉS AU SERVICE DE L’UTILISATEUR</h2>
+                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-or">/</span>UN SITE WEB BÂTI POUR RÉPONDRE AUX BESOINS DES UTILISATEURS</h2>
                         </div>
                         <div className="w-full lg:w-1/2 mb-12 text-white text-center flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="200">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 35 43.75"><g><path fill="#FFFFFF" d="M30.44611,28.69867a2.18352,2.18352,0,0,0,.24432-.9892A2.21934,2.21934,0,1,0,29.361,29.73468l1.72882,1.72919a.74992.74992,0,0,0,1.06055-1.06055Zm-2.67951-.9892a.71192.71192,0,1,1,.71192.71143A.71258.71258,0,0,1,27.7666,27.70947Z"/><path fill="#FFFFFF" d="M17.5.25A17.20983,17.20983,0,0,0,1.63605,24.22644,3.44153,3.44153,0,0,0,.25,26.97656V30.5293a3.46017,3.46017,0,0,0,3.45605,3.456H31.294A3.46017,3.46017,0,0,0,34.75,30.5293V26.97656a3.44158,3.44158,0,0,0-1.38641-2.75042A17.08292,17.08292,0,0,0,34.75,17.5,17.26949,17.26949,0,0,0,17.5.25ZM1.75,17.5a15.75,15.75,0,0,1,31.5,0,15.592,15.592,0,0,1-1.24725,6.095,3.45213,3.45213,0,0,0-.7088-.07446H26.44037a3.14649,3.14649,0,1,0-2.25275-5.63269L19.126,12.82617h3.892a3.15528,3.15528,0,1,0,0-1.5H17.626L15.96,9.66022a3.12518,3.12518,0,0,0,.64057-1.88532,3.15528,3.15528,0,1,0-3.15528,3.15528,3.1193,3.1193,0,0,0,1.349-.31458l1.46057,1.46057L10.65948,17.672a3.117,3.117,0,0,0-1.55206-.42493,3.147,3.147,0,0,0-.36712,6.27344H3.70605a3.452,3.452,0,0,0-.70922.07458A15.60615,15.60615,0,0,1,1.75,17.5Zm15.93256,6.02051a3.14028,3.14028,0,0,0,.38287-6.17353V13.88672l5.16693,5.16693a3.11962,3.11962,0,0,0,2.47376,4.46686ZM10.7627,20.40234a1.65528,1.65528,0,1,1-1.65528-1.65527A1.657,1.657,0,0,1,10.7627,20.40234Zm1.5,0a3.13009,3.13009,0,0,0-.50782-1.70459l4.81055-4.811V17.347a3.14028,3.14028,0,0,0,.38287,6.17353H9.47455A3.14846,3.14846,0,0,0,12.2627,20.40234Zm5.05273-1.65527a1.65528,1.65528,0,1,1-1.65527,1.65527A1.657,1.657,0,0,1,17.31543,18.74707Zm8.75781,0A1.65528,1.65528,0,1,1,24.418,20.40234,1.657,1.657,0,0,1,26.07324,18.74707ZM24.418,12.07617a1.65528,1.65528,0,1,1,1.65527,1.65528A1.657,1.657,0,0,1,24.418,12.07617Zm-10.97266-2.646A1.65528,1.65528,0,1,1,15.10059,7.7749,1.657,1.657,0,0,1,13.44531,9.43018ZM1.75,30.5293V26.97656a1.95853,1.95853,0,0,1,1.95605-1.956H24.39063v7.46484H3.70605A1.95853,1.95853,0,0,1,1.75,30.5293Zm31.5,0a1.95853,1.95853,0,0,1-1.95605,1.956H25.89063V25.02051H31.294a1.95853,1.95853,0,0,1,1.95605,1.956Z"/></g></svg>
                                 <h4 className="uppercase font-bold">
-                                AFFICHAGE DYNAMIQUE
+                                PERSONNALISATION DE L'EXPÉRIENCE
                                 </h4>
-                                <p>Stratégie de visibilité et prospection</p>
+                                <p>Information complète sur les possibilités offertes</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="400">
                             <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M88.4248,75.47571V73.083a8.02771,8.02771,0,0,0-8.01855-8.01856H76.2334V52.26874A8.42254,8.42254,0,1,0,66.16852,42.20361H51.8501V24.52423a8.42511,8.42511,0,1,0-3.7002,0V42.20361H33.83154A8.42253,8.42253,0,1,0,23.7666,52.26874V65.06445H19.59375A8.02771,8.02771,0,0,0,11.5752,73.083v2.3927a8.42519,8.42519,0,1,0,3.70019.00012V73.083a4.323,4.323,0,0,1,4.31836-4.31836h12.0459A4.32341,4.32341,0,0,1,35.9585,73.083v2.3927a8.42519,8.42519,0,1,0,3.70019.00012V73.083a8.02782,8.02782,0,0,0-8.019-8.01856H27.4668V52.26874a8.428,8.428,0,0,0,6.36487-6.36493H66.1684a8.42794,8.42794,0,0,0,6.3648,6.36493V65.06445H68.36035a8.02782,8.02782,0,0,0-8.019,8.01856v2.39282a8.42509,8.42509,0,1,0,3.70019-.00012V73.083a4.32341,4.32341,0,0,1,4.31885-4.31836h12.0459A4.323,4.323,0,0,1,84.72461,73.083v2.39282a8.425,8.425,0,1,0,3.70019-.00012Z"/></svg>
                                 <h4 className="uppercase font-bold">
                                 DÉFINITION DE L'ARBORESCENCE
                                 </h4>
-                                <p>Webdesign adaptable à la taille de l'écran</p>
+                                <p>Définition de l'architecture du site en fonction des objectifs</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="600">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 512 640"><g><g><polygon fill="#FFFFFF" points="190.334,389.092 190.334,485.631 280.327,485.631 280.327,337.613 190.334,337.613   "/><path fill="#FFFFFF" d="M312.9,160.176l35.937,24.904l2.205-157.477L204.361,84.949l6.622,4.586c8.802,6.092,17.612,12.189,26.414,18.305    l0.457,0.369c7.493,7.039,9.853,16.436,6.827,27.176c-9.121,32.373-65.205,73.002-97.823,94.34    c-38.014,24.867-80.876,47.551-104.824,55.869c7.667,3.301,16.798,4.969,27.267,4.969c33.801,0.002,82.538-17.668,137.231-49.758    c49.854-29.248,88.864-60.924,104.014-77.977L312.9,160.176z"/><rect fill="#FFFFFF" x="92.341" y="397.092" width="89.993" height="88.539"/><polygon fill="#FFFFFF" points="288.327,329.613 288.327,485.631 378.321,485.631 378.321,254.771 288.327,254.771   "/><polygon fill="#FFFFFF" points="476.314,157.502 386.321,157.502 386.321,246.771 386.321,485.631 476.314,485.631   "/></g></g></svg>
                                 <h4 className="uppercase font-bold">
                                     STRATÉGIE DE RÉFÉRENCEMENT SEO
                                 </h4>
-                                <p>Galerie photos à 3 niveaux</p>
+                                <p>Création de contenus optimisés</p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 text-white text-center flex mb-12 flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="800">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 825.27 1031.5875"><g><g><path fill="#FFFFFF" d="M506,359.17q0,3.4-.25,6.75a94.39,94.39,0,0,1-188.3,0q-.25-3.35-.25-6.75a94.4,94.4,0,0,1,188.8,0Z"/><path fill="#FFFFFF" d="M412.64,0C184.74,0,0,184.74,0,412.63S184.74,825.27,412.64,825.27,825.27,640.53,825.27,412.63,640.53,0,412.64,0ZM603,370.91a225.64,225.64,0,0,1-3.4,38.5c-.1.75-.5,3-1.3,6.86a209.64,209.64,0,0,1-12.8,40.43c-20.6,52-66,131.91-165.3,217.48a12.83,12.83,0,0,1-17,0c-99.4-85.57-144.7-165.47-165.3-217.48a211.86,211.86,0,0,1-12.8-40.43c-.8-3.86-1.2-6.11-1.3-6.86a216,216,0,0,1-3.4-38.5q0-3.6.12-7.17-.12-3.35-.12-6.67c0-102.95,81.86-187.2,183.88-191l2.41-.08,2.44-.05,2.47,0,2.47,0,2.44.05L419,166c102,3.85,183.88,88.1,184.08,191q0,3.33-.13,6.67C603,366.12,603,368.51,603,370.91Z"/></g></g></svg>                                    
                                 <h4 className="uppercase font-bold">
-                                MISE EN AVANT DE LA ZONE DE LIVRAISON
+                                MISE EN AVANT DES ZONES DE LIVRAISON
                                 </h4>
-                                <p>Alimentation de comptes Instagram et Pinterest</p>
+                                <p>Mise en avant de l'information par un système de zonage</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1000">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 90 112.5" ><g><path fill="#FFFFFF" d="M81.5,34.75H56.9400024c-0.5500488,0-1,0.4500122-1,1v33.8099976c0,0.5499878,0.4499512,1,1,1H81.5   c0.5599976,0,1-0.4500122,1-1V35.75C82.5,35.2000122,82.0599976,34.75,81.5,34.75z"/><path fill="#FFFFFF" d="M81.7399902,31.0299683h-8.9000244V17.7099609c0-2.5699463-2.0899658-4.6599731-4.6499634-4.6599731H14.0599976   c-2.5700073,0-4.6600342,2.0900269-4.6600342,4.6599731v37.9100342c0,2.5700073,2.0900269,4.6599731,4.6600342,4.6599731   h38.7699585v1h-8.2799683h-6.8599854H8.1399536c-2.0699463,0-3.7599487,1.6799927-3.7599487,3.75s1.6900024,3.75,3.7599487,3.75   h29.5500488h15.1399536v4.2900391c0,2.1099854,1.6800537,3.8200073,3.7700195,3.8699951   c0.0300293,0.0100098,0.0700073,0.0100098,0.0999756,0.0100098h25.0400391c2.1400146,0,3.8800049-1.7400513,3.8800049-3.8800049   V34.8999634C85.6199951,32.7600098,83.8800049,31.0299683,81.7399902,31.0299683z M44.5499878,66.0299683h-6.8599854v-2h6.8599854   V66.0299683z M52.8299561,34.8999634V54.039978H15.1499634V19.2799683h51.9400024v11.75H56.6999512   C54.5700073,31.0299683,52.8299561,32.7600098,52.8299561,34.8999634z M83.6199951,73.0700073   c0,1.039978-0.8500366,1.8800049-1.8800049,1.8800049H56.6999512c-1.0299683,0-1.8699951-0.8400269-1.8699951-1.8800049V60.2799683   V34.8999634c0-1.0299683,0.8400269-1.8699951,1.8699951-1.8699951h25.0400391c1.0299683,0,1.8800049,0.8400269,1.8800049,1.8699951   V73.0700073z"/></g></svg>
                                 <h4 className="uppercase font-bold">
                                 RESPONSIVE DESIGN
                                 </h4>
-                                <p>Mise en avant des certifications professionnelles</p>
+                                <p>Interface adaptée à l'écran d'affichage</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1200">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M57.86981,73.99984H53v-3h4.13586a14.789,14.789,0,0,1,0-4H53v-3h4.87a14.97472,14.97472,0,0,1,6.61926-7.957,15.17156,15.17156,0,0,1,14.9624.00585L77.437,59.50374a11.09939,11.09939,0,0,0-10.94238,0,10.94877,10.94877,0,0,0-4.25763,4.4961H72v3H61.20819a9.71207,9.71207,0,0,0-.00006,4H72v3H62.23633a10.92563,10.92563,0,0,0,4.249,4.49023,11.08275,11.08275,0,0,0,10.95166.00586L79.45166,81.951a14.955,14.955,0,0,1-21.58185-7.95117ZM94.37714,63.36141A26.00823,26.00823,0,0,1,46.11377,81.32662c-.26465-.48938-.50885-.99072-.74237-1.49817A25.9885,25.9885,0,0,1,89.0556,52.471c.02314.02807.04438.05762.06739.08569a26.0949,26.0949,0,0,1,2.8211,4.22925c.26813.50159.51685,1.01465.75232,1.53516.24841.54907.4834,1.10522.69391,1.67358.24145.65186.4519,1.31824.6413,1.99341Q94.22223,62.6678,94.37714,63.36141Zm-45.20435,15.168A21.997,21.997,0,1,0,47.00006,69,22.0276,22.0276,0,0,0,49.17279,78.52938ZM38.00006,69a30.79916,30.79916,0,0,0,3.98651,15.1803,4.35808,4.35808,0,0,1-3.80945-.25769L7.19275,66.03389a4.38406,4.38406,0,0,1-1.60462-5.98864l26.158-45.30677a4.38375,4.38375,0,0,1,2.54529-2.00964L59.68762,5.16512a3.93911,3.93911,0,0,1,4.95593,2.86121L70.79126,33.8022a4.38362,4.38362,0,0,1-.46771,3.209l-.58173,1.00757c-.24737-.00586-.493-.0188-.74176-.0188A31.035,31.035,0,0,0,38.00006,69Zm14.2497-45.23413A5.81862,5.81862,0,1,0,50.12,15.81746,5.81854,5.81854,0,0,0,52.24976,23.76583Z"/></svg>
                                 <h4 className="uppercase font-bold">
                                 TRANSPARENCE SUR LES TARIFS
                                 </h4>
-                                <p>Numéro de téléphone et adresse mail cliquables</p>
+                                <p>Mise en place de tableaux clairs et transparents</p>
                             </div>
                         </div>
                     </section>
                     <section className="h-full w-full mt-32 flex flex-col lg:flex-row">
                         <div className="w-fulllg:w-1/2 px-12 lg:px-24 mb-24 xl:px-48" data-aos="fade-right">
-                            <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-orange">/</span>Une optimisation SEO</h2>
+                            <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-orange">/</span>OPTIMISATION DU SITE POUR LE SEO</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Définir une stratégie de référencement naturel en vue d’améliorer la visibilité du site internet et de l’activité de Gabriel Services en améliorant son positionnement sur Google.
+                                Définir une stratégie de référencement naturel visant à développer la visibilité du site internet et de l’activité de Gabriel Services sur Google.
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
                                 <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#ee8a1e" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Définition des mots-clés cibles  
+                                    Définition des mots-clés cibles.
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#ee8a1e" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Optimisation on-page sur l'ensemble du site
+                                    Optimisation on-page sur l'ensemble du site.
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#ee8a1e" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Rédaction web otimisée pour le référencement naturel
+                                    Rédaction web otimisée pour le référencement naturel.
                                 </li>
                             </ul>
                         </div>
                         <div className="w-full lg:w-1/2 mx-auto block order-first lg:order-last" data-aos="fade-left">
-                            <img className="px-24 md:px-0 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup1} alt="Création site internet Toulouse"/>
+                            <img className="px-24 md:px-0 xl:px-16 pb-16 xl:py-0 xl:pb-32" src={mockup2} alt="Création site internet Toulouse"/>
                         </div>
                     </section>
                     <section className="h-full w-full flex flex-col lg:flex-row">
                         <div className="w-full lg:w-1/2 mx-auto block" data-aos="fade-right">
-                            <img className="mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup2} alt="Création site internet Toulouse"/>
+                            <img className="mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup1} alt="Création site internet Toulouse"/>
                         </div>
                         <div className="w-full lg:w-1/2 px-12 lg:px-24 xl:px-48" data-aos="fade-left">
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-orange">/</span>Un Module d’information par zone</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                            Définir un outil à destination des utilisateurs permettant un accès rapide et simple à l’information avec une volonté de transparence dans un environnement ergonomique.
+                            Mettre en place un module d'information exhaustif à destination des utilisateurs avec une volonté de transparence et au sein d'un environnement ergonomique.
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
@@ -244,7 +244,7 @@ class gabrielservices extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#ee8a1e" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Affichage des options disponibles et tarifs
+                                    Affichage des options disponibles et tarifs.
                                 </li>
                             </ul>
                         </div>

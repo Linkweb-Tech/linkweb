@@ -61,13 +61,13 @@ class Atpt extends React.Component {
                                 ATOUTS POUR TOUS
                             </h1>
                             <h2 className="font-normal text-center text-white text-xl md:text-3xl"><em>Université Fédérale de Toulouse Midi-Pyrénées</em></h2>
-                            <h3 data-aos="fade-up" className="font-normal italic text-center text-lg sm:text-2xl text-white my-24">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées met le numérique au service de tous pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
+                            <h3 data-aos="fade-up" className="font-normal italic text-center px-6 lg:px-32 text-lg sm:text-2xl text-white my-24">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées fait du numérique un instrument central pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
                             <a data-aos="fade-down" href="/realisations/atpt/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
                             <h3 data-aos='fade-right' className="text-center text-2xl md:text-4xl mx-12 md:mx-24 century">
-                            Assurer la promotion et créer des solutions<br/> concrètes pour favoriser l’insertion
+                            Concevoir une solution collaborative de mise en relation<br/> des étudiants et professionnels
                             </h3>
                             <br/>
                             <hr className="blue"></hr>
@@ -86,10 +86,10 @@ class Atpt extends React.Component {
                     </section>
                     <section className="w-full mt-24">
                         <div className="w-full lg:w-2/3 bg-orange text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">
-                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-white">/</span>CONCEVOIR UN OUTIL COLLABORATIF DE MISE EN RELATION DES ÉTUDIANTS ET DES PROFESSIONNELS</h2>
+                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-white">/</span>CRÉER UN OUTIL COLLABORATIF À DESTINATION DES ÉTUDIANTS ET DES PROFESSIONNELS</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                L’Université Fédérale de Toulouse Midi-Pyrénées a fait le choix de Linkweb pour développer un outil numérique sur-mesure dans le cadre de son projet d’insertion à travers : 
+                                L’Université Fédérale de Toulouse Midi-Pyrénées a choisi Linkweb pour développer un projet web sur-mesure dans le développement de son projet d’insertion à travers : 
                             </p>
                             <br/>
                             <ul className="font-normal flex flex-col text-justify">
@@ -127,7 +127,7 @@ class Atpt extends React.Component {
                             <h2 className="font-normal text-3xl my-2 px-16"><span className="text-orange">/</span>POSITIONNEMENT ET VALEURS PARTAGÉES</h2>
                             <br/>
                             <p className="font-bold text-lg px-16">
-                                ATPT est un exemple de synergie parfaite entre la poursuite d’une cause socialement louable et nécessaire, ainsi que l’apport considérable du numérique dans la vie de la société.
+                                ATPT est un modèle d'introduction et d'adaptation de l'outil digital dans la poursuite d’une cause sociale et éducative nécessaire.
                             </p>
                             <br/>
                             <div className="px-16 my-8">
@@ -135,13 +135,13 @@ class Atpt extends React.Component {
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">CORRESPONDANCE</p>
                                 <p className="text-5xl py-2 text-center text-bleu italic font-bold" data-aos="zoom-in" data-aos-delay="1000">INSERTION</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">INCLUSION</p>
-                                <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">PARTAGE</p>
+                                <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">RENCONTRE</p>
                             </div>
                         </div>
                     </section>
                     <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#000000e6 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
-                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center" data-aos="fade-in"><span className="text-vert">/</span>UNE INTERFACE ACCESSIBLE POUR DES FONCTIONNALITÉS PRATIQUES</h2>
+                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center" data-aos="fade-in"><span className="text-vert">/</span>DES FONCTIONNALITÉS PRATIQUES POUR FAVORISER LES ÉCHANGES ET LE SUIVI</h2>
                         </div>
                         <div className="w-full lg:w-1/2 mb-12 text-white text-center flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="200">
@@ -179,7 +179,7 @@ class Atpt extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 RESPONSIVE DESIGN
                                 </h4>
-                                <p>Adaptation selon la taille de l’écran</p>
+                                <p>Adaptation de l'affichage selon la taille de l’écran</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1200">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M50,3.25C24.22,3.25,3.25,24.22,3.25,50c0,25.78,20.97,46.75,46.75,46.75c25.78,0,46.75-20.97,46.75-46.75  C96.75,24.22,75.78,3.25,50,3.25z M50,21.33c2.88,0,5.22,2.34,5.22,5.22s-2.34,5.22-5.22,5.22s-5.22-2.34-5.22-5.22  S47.12,21.33,50,21.33z M69.81,43.04l-15.15,2.13v9.56l8.17,19.72c0.61,1.46-0.1,3.16-1.56,3.76s-3.16-0.1-3.76-1.56L50,58.53  l-7.51,18.12c-0.61,1.46-2.3,2.16-3.76,1.56s-2.16-2.3-1.56-3.76l8.17-19.72v-9.56l-15.15-2.13c-1.29-0.18-2.16-1.61-1.94-3.18  c0.22-1.57,1.46-2.7,2.75-2.52l14.63,2.06h8.76l14.63-2.06c1.29-0.18,2.53,0.95,2.75,2.52C71.98,41.43,71.1,42.86,69.81,43.04z"/></svg>
@@ -211,7 +211,7 @@ class Atpt extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" viewBox="0 0 100 125"><g><g><path fill="#ee8a1e" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Adaptation des formats d’image selon le monde de consultation.
+                                    Adaptation des formats d’image selon le mode de consultation.
                                 </li>
                             </ul>
                         </div>
@@ -221,13 +221,13 @@ class Atpt extends React.Component {
                     </section>
                     <section className="h-full w-full flex flex-col lg:flex-row">
                         <div className="w-full lg:w-1/2 mx-auto block" data-aos="fade-right">
-                            <img width="600px" className="mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={drupal} alt="Création site internet Toulouse"/>
+                            <img width="550px" className="mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={drupal} alt="Création site internet Toulouse"/>
                         </div>
                         <div className="w-fulllg:w-1/2 px-12 lg:px-24 xl:px-48" data-aos="fade-left">
                             <h2 className="font-normal text-3xl my-2"><span className="text-vert">/</span>UTILISATION DU CMS DRUPAL</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Mettre en place un site internet et une interface qui s’adaptent en fonction de la largueur de l’écran de l’utilisateur pour faciliter la navigation entre les pages. 
+                               Le choix d'un outil de type CMS pour l'implémentation de modules pratiques et accessibles.
                             </p>
                             <br/>
                             <ul className="font-normal max-h-auto text-justify">
@@ -243,7 +243,7 @@ class Atpt extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" height="20px"   width="20px" viewBox="0 0 100 125"><g><g><path fill="#37cfee" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#37cfee" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Synchronisation des droits utilisateus avec l’implémentation de ONLYOFFICE en liaison avec Drupal.
+                                    Synchronisation des droits utilisateurs avec l’implémentation de ONLYOFFICE en liaison avec Drupal.
                                 </li>
                             </ul>
                         </div>

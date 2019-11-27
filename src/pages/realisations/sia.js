@@ -60,7 +60,7 @@ class sia extends React.Component {
                                 SIA ÉCHANGES PÉDAGOGIQUES
                             </h1>
                             <h2 className="text-white text-center font-normal"><em><span className="text-xl md:text-4xl sm:text-3xl">Université Fédérale de Toulouse Midi-Pyrénées</span></em></h2>
-                            <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white my-12">Développer une interface d’accompagnement des enseignants chercheurs en vue de favoriser les échanges pédagogiques.</h3>
+                            <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white my-12">Développer une interface d’accompagnement des enseignants chercheurs pour favoriser les échanges pédagogiques.</h3>
                             <br/>
                             <a data-aos="fade-down" href="/realisations/sia/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                     </section>
@@ -85,22 +85,22 @@ class sia extends React.Component {
                     </section>
                     <section className="w-full mt-24">
                         <div className="w-full lg:w-2/3 bg-rouge text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">
-                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6 uppercase"><span className="text-white">/</span>Valoriser l’offre de formation à la pédagogie</h2>
+                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6 uppercase"><span className="text-white">/</span>Valoriser l’offre de formation</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                            L’Unviersité de Toulouse a confié à Linkweb la création de sa plateforme destinée aux enseignants chercheurs avec une volonté double :  
+                            L’Unviersité de Toulouse a confié à Linkweb la création de sa plateforme destinée aux enseignants chercheurs avec une double volonté :  
                             </p>
                             <br/>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Faire connaître et valoriser l’offre de formation à la pédagogie 
+                                    Faire connaître et valoriser l’offre de formation sur la pédagogie 
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Mettre en place un lieu d’échange privilégié à destinations des enseignants chercheurs
+                                    Définir un lieu d’échange privilégié à destination des enseignants chercheurs
                                 </li>
                             </ul>
                             <br/>
@@ -128,12 +128,12 @@ class sia extends React.Component {
                             <h2 className="font-normal text-3xl my-2 px-16"><span className="text-rouge">/</span>POSITIONNEMENT ET VALEURS PARTAGÉES</h2>
                             <br/>
                             <p className="font-bold text-lg px-16">
-                                L’Université Fédérale Toulouse Midi Pyrénées a fait le choix du numérique pour favoriser les échanges et optimiser le travail de ses chercheurs.
+                                L’Université Fédérale Toulouse Midi Pyrénées a fait le choix du digital pour favoriser les échanges et optimiser le travail de ses chercheurs.
                             </p>
                             <br/>
                             <div className="px-16 my-8">
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">COLLABORATION</p>
-                                <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">MODERNISATION</p>
+                                <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">DIGITALISATION</p>
                                 <p className="text-5xl py-2 text-center text-rouge italic font-bold" data-aos="zoom-in" data-aos-delay="1000">ÉCHANGES</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">ADAPTABILITÉ</p>
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">PARTAGE</p>
@@ -142,7 +142,7 @@ class sia extends React.Component {
                     </section>
                     <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#000000e6 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
-                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center" data-aos="fade-in"><span className="text-rouge">/</span>UNE INTERFACE ERGONOMIQUE POUR UNE FLUIDITÉ D'UTILISATION</h2>
+                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center" data-aos="fade-in"><span className="text-rouge">/</span>L'ERGONOMIE WEB AU SERVICE D'UNE INTERFACE INTUITIVE</h2>
                         </div>
                         <div className="w-full lg:w-1/2 mb-12 text-white text-center flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="200">
@@ -196,7 +196,7 @@ class sia extends React.Component {
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-rouge">/</span>SYSTÈME DE Recherche avancée</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Optimiser le cheminement à l’information grâce à un système de recherche avancée destiné aux enseignants chercheurs. 
+                                Optimiser l'accès à l’information grâce à un système de recherche avancée destiné aux enseignants chercheurs. 
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">

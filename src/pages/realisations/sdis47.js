@@ -58,8 +58,9 @@ class sdis47 extends React.Component {
                             <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
                             <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold pt-32 text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center text-white">
-                                SERVICE DÉPARTEMENTAL D’INCENDIE ET DE SECOURS DE LOT-ET-GARONNE
+                                SDIS47
                             </h1>
+                            <h2 className="text-md text-center lg:text-xl text-white font-normal">Service Départemental d'Incendie et de secours de Lot-et-Garonne</h2>
                             <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white mt-12 mb-4">Développer la nouvelle présence online du SDIS 47 en apportant une zone privative pour optimiser la communication interne de l’organisme.</h3>
                             <br/>
                             <a className="pb-16 block" data-aos="fade-down" href="/realisations/sdis47/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
@@ -67,7 +68,7 @@ class sdis47 extends React.Component {
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
                             <h3 data-aos='fade-right' className="text-center text-2xl md:text-4xl mx-12 md:mx-24 century">
-                            Mise à niveau technique et graphique pour un accès <span className="text-rouge">intuitif</span> à l’information
+                            Mise à niveau technique et graphique avec un accès <span className="text-rouge">intuitif</span> à l’information
                             </h3>
                             <br/>
                         </div>
@@ -88,8 +89,9 @@ class sdis47 extends React.Component {
                             <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-rouge">/</span>ACCOMPAGNER LA PRÉSENCE EN LIGNE DU SDIS 47</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                En poursuivant des objectifs de communication et plus particulièrement d’image, le SDIS 47 a choisi Linkweb pour déployer sa nouvelle stratégie de visibilité en ligne avec trois besoins : 
+                                Le SDIS 47 a choisi Linkweb pour déployer sa nouvelle stratégie de visibilité en ligne avec notamment trois besoins : 
                             </p>
+                            <br/>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
@@ -104,7 +106,7 @@ class sdis47 extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Mettre en place une zone privative en vue de faciliter la communication interne : partage de données, dématérialisation de certains services, etc.
+                                    Créer une zone privative pour faciliter la communication interne : partage de données, dématérialisation de certains services, etc.
                                 </li>
                             </ul>
                             <br/>
@@ -132,21 +134,21 @@ class sdis47 extends React.Component {
                             <h2 className="font-normal text-3xl my-2 px-16"><span className="text-or">/</span>POSITIONNEMENT ET VALEURS PARTAGÉES</h2>
                             <br/>
                             <p className="font-bold text-lg px-16">
-                                En mettant en place un projet de refonte, le SDIS 47 a fait le choix de la modernité pour optimiser l’accès à l’information pour tous via une interface adaptée.
+                                En mettant en place un projet de refonte, le SDIS 47 a fait de l’accès à l’information pour tous une priorité.
                             </p>
                             <br/>
                             <div className="px-16 my-8">
                                 <p className="text-3xl py-2 text-left italic" data-aos="fade-in">COLLABORATION</p>
                                 <p className="text-3xl py-2 text-right italic" data-aos="fade-in"data-aos-delay="400">ACCESSIBILITÉ</p>
                                 <p className="text-3xl sm:text-5xl py-2 text-center text-rouge italic font-bold" data-aos="zoom-in" data-aos-delay="1000">INFORMATION</p>
-                                <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">RESPONSIVE</p>
-                                <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">PARTAGE</p>
+                                <p className="text-3xl py-2 text-right italic" data-aos="fade-in" data-aos-delay="600">MODERNITÉ</p>
+                                <p className="text-3xl py-2 text-left italic" data-aos="fade-in" data-aos-delay="200">SERVICE</p>
                             </div>
                         </div>
                     </section>
                     <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#000000e6 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
-                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-or">/</span>une interface ergonomique pour une utilisation optimale</h2>
+                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-or">/</span>une interface intuitive au service de l'accès à l'information pour tous</h2>
                         </div>
                         <div className="w-full lg:w-1/2 mb-12 text-white text-center flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="200">
@@ -168,7 +170,7 @@ class sdis47 extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 CONCEPTION ÉDITORIALE
                                 </h4>
-                                <p>Élaboration de l’arborescnce</p>
+                                <p>Élaboration de l’arborescence</p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 text-white text-center flex mb-12 flex-col lg:flex-row">
@@ -184,7 +186,7 @@ class sdis47 extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 DÉMATÉRIALISATION
                                 </h4>
-                                <p>Création d’un module de réservation </p>
+                                <p>Création d’un module interne de réservation</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1200">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 160 200"><g><path fill="#FFFFFF" d="M98.6,35c2,0,3.7,1.5,4.1,3.4h6c-0.4-5.2-4.8-9.4-10.1-9.4H71.7v6H98.6z"/><ellipse fill="#FFFFFF" cx="73.8" cy="130.2" rx="4" ry="4"/><path fill="#FFFFFF" d="M58.8,15.5h-45C9,15.5,5,19.5,5,24.3v26.3c0,4.9,4,8.8,8.8,8.8h30.8l8.3,9c0.6,0.6,1.4,1,2.2,1c0.4,0,0.7-0.1,1.1-0.2   c1.2-0.4,1.9-1.6,1.9-2.8v-6.9h0.7c4.9,0,8.8-3.9,8.8-8.8V24.3C67.7,19.5,63.7,15.5,58.8,15.5z M61.7,50.6c0,1.5-1.3,2.8-2.8,2.8   h-3.7c-1.7,0-3,1.3-3,3v2.3l-4-4.3c-0.6-0.6-1.4-1-2.2-1H13.8c-1.6,0-2.8-1.3-2.8-2.8V24.3c0-1.5,1.3-2.8,2.8-2.8h45   c1.6,0,2.8,1.3,2.8,2.8V50.6z"/><path fill="#FFFFFF" d="M48.1,32.8H43c-0.3,0-0.6,0.1-0.8,0.2l-0.5-0.5c-0.6-0.6-1-1.2-1.3-2c0,0,0,0,0,0c-0.3-0.7-0.5-1.5-0.5-2.3l0-2   c0-0.7-0.4-1.4-1-1.7l-0.7-0.4c-0.3-0.2-0.7-0.4-1.1-0.5c-1.2-0.3-2.6,0.1-3.5,1.1c-0.9,0.9-1.3,2-1.4,3.2l0,0.2   c-0.1,1.5,0,2.9,0.2,4.4l-5.1,0c0,0,0,0,0,0c-0.7,0-1.3,0.2-1.9,0.5c-1.3,0.7-2.1,2.1-2.1,3.6c0,0.3,0,0.8,1.8,8.8   c0.2,1.1,0.8,2,1.5,2.8c1.1,1.1,2.6,1.7,4.1,1.7h8.8c0.6,0,1.2-0.1,1.7-0.2c0.3,0.7,1,1.1,1.8,1.1h5.1c1.1,0,2-0.9,2-2v-14   C50.1,33.7,49.2,32.8,48.1,32.8z M30.7,45.9c-0.5,0-0.9-0.2-1.2-0.5c-0.2-0.2-0.4-0.5-0.5-0.8c-1.1-4.7-1.6-7.3-1.7-8   c0,0,0,0,0.1-0.1l7.5,0h0c0.6,0,1.2-0.3,1.5-0.7c0.4-0.5,0.5-1.1,0.4-1.6L36.6,33c-0.1-0.7-0.2-1.4-0.3-2.1   c0.1,0.4,0.2,0.7,0.4,1.1c0,0,0,0,0,0c0.5,1.2,1.2,2.3,2.2,3.3l2.2,2.2v8.2c-0.5,0.1-1,0.2-1.5,0.2H30.7z"/><path fill="#FFFFFF" d="M144.5,42.4H86.3c-5.8,0-10.5,4.7-10.5,10.5v34c0,5.8,4.7,10.5,10.5,10.5h1.8v9.9c0,1.2,0.8,2.3,1.9,2.8   c0.4,0.1,0.7,0.2,1.1,0.2c0.8,0,1.6-0.3,2.2-1l11-11.9h40.2c5.8,0,10.5-4.7,10.5-10.5v-34C155,47.1,150.3,42.4,144.5,42.4z    M149,86.9c0,2.5-2,4.5-4.5,4.5H103c-0.8,0-1.6,0.4-2.2,1l-6.6,7.2v-5.2c0-1.7-1.3-3-3-3h-4.8c-2.5,0-4.5-2-4.5-4.5v-34   c0-2.5,2-4.5,4.5-4.5h58.2c2.5,0,4.5,2,4.5,4.5V86.9z"/><path fill="#FFFFFF" d="M129.2,64.6c-0.7-0.4-1.4-0.6-2.2-0.6l-7.3,0c0.3-2.1,0.4-4.2,0.4-6.3l0-0.2c-0.1-1.4-0.6-2.8-1.7-3.8   c-1-1.1-2.6-1.5-4-1.2c-0.5,0.1-0.9,0.3-1.3,0.5l-0.9,0.5c-0.6,0.4-1,1-1,1.7l0,2.5c0,1.1-0.2,2.2-0.6,3.2c0,0,0,0,0,0   c-0.4,1-1,2-1.8,2.8l-1,1c-0.3-0.2-0.7-0.4-1.1-0.4h-6.6c-1.1,0-2,0.9-2,2v18.1c0,1.1,0.9,2,2,2h6.6c0.9,0,1.7-0.7,1.9-1.5   c0.9,0.2,1.7,0.3,2.6,0.3h11.4c1.8,0,3.6-0.7,4.9-2c0.9-0.9,1.5-2.1,1.8-3.3c2.3-10.3,2.3-11,2.3-11.3   C131.7,67,130.8,65.5,129.2,64.6z M125.5,79.2c-0.1,0.5-0.4,1-0.8,1.4c-0.5,0.5-1.3,0.8-2,0.8h-11.4c-0.9,0-1.7-0.1-2.6-0.4V69.7   l3-3c1.2-1.2,2.1-2.5,2.7-4c0,0,0,0,0,0c0.6-1.5,0.9-3.1,0.9-4.8l0-1.4c0,0,0.1,0,0.2,0.1c0.3,0.3,0.5,0.8,0.5,1.2l0,0.2   c0.1,2.1-0.1,4.2-0.4,6.3l-0.3,1.5c-0.1,0.6,0,1.2,0.4,1.6c0.4,0.5,0.9,0.7,1.5,0.7h0l9.7,0c0.1,0,0.2,0,0.3,0.1   c0.2,0.1,0.4,0.3,0.4,0.6C127.6,69.3,127,72.4,125.5,79.2z"/><path fill="#FFFFFF" d="M102.8,104.9v12.4H44.9V65.6l-2-2.2h-4v70.9c0,5.6,4.6,10.2,10.2,10.2h49.6c5.6,0,10.2-4.6,10.2-10.2v-32.9H106   L102.8,104.9z M102.8,134.3c0,2.3-1.9,4.2-4.2,4.2H49c-2.3,0-4.2-1.9-4.2-4.2v-13h57.9V134.3z"/></g></svg>
@@ -200,23 +202,23 @@ class sdis47 extends React.Component {
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-or">/</span>navigation par pavés</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Mettre en place une approche de navigation par pavés pour un site parfaitement lisible et compréhensible pour le public. 
+                                Définir une navigation par pavés pour un site facilement accessible et compréhensible. 
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
                                 <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#b71c30" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Mise en place de blocs épurés favorisant un accès intuitif à l’information.  
+                                    Mise en place de blocs distincts favorisant un accès intuitif à l’information.  
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#b71c30" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Création d’un menu « offcanvas » optimisant l’affichage du site.
+                                    Création d’un menu « offcanvas » pour un affichage optimal du site.
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#b71c30" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#ee8a1e" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Adaptation des formats d’image selon le monde de consultation.
+                                    Adaptation des formats d’image selon le mode de consultation.
                                 </li>
                             </ul>
                         </div>
@@ -232,7 +234,7 @@ class sdis47 extends React.Component {
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-rouge">/</span>UN site web 100% responsive</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Mettre en place un site internet et une interface qui s’adaptent en fonction de la largueur de l’écran de l’utilisateur pour faciliter la navigation entre les pages.
+                                Définir une interface dont l'affichage s'adapte à la largueur de l’écran pour une expérience utilisateur optimale.
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">

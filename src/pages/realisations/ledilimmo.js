@@ -60,14 +60,14 @@ class ledilimmo extends React.Component {
                             <h1 data-aos="fade-down" data-aos-delay="500" className="century mt-24 font-bold text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                                 <b>LEDIL.IMMO</b>
                             </h1>
-                            <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white mt-8">Mettre en place un outil permettant d’apporter de la visibilité à l’offre immobilière de Ledil.immo, tout en proposant une solution web pour la gestion du réseau de mandataires.</h3>
+                            <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white mt-8">Développer une solution web permettant d’apporter une visibilité à l’offre de Ledil.immo en proposant une solution de gestion du réseau de mandataires.</h3>
                             <br/>
                             <a data-aos="fade-dow" className="mb-12" href="/realisations/ledilimmo/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
                             <h3 data-aos='fade-right' className="text-center text-2xl md:text-4xl mx-12 md:mx-24 century">
-                            Proposer une solution concrète pour mettre en avant les biens en <span className="text-or">mobilisant le réseau de mandataires.</span>
+                            Proposer une solution concrète pour mettre en avant les biens tout en <span className="text-or">mobilisant le réseau de mandataires.</span>
                             </h3>
                             <br/>
                         </div>
@@ -168,7 +168,7 @@ class ledilimmo extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 SITE CATALOGUE
                                 </h4>
-                                <p className="font-normal">Biens présentés dans un catalogue</p>
+                                <p className="font-normal">Création d'un catalogue de biens</p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 text-white text-center flex mb-12 flex-col lg:flex-row">
@@ -200,39 +200,39 @@ class ledilimmo extends React.Component {
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-or">/</span>UN POSITIONNEMENT HAUT DE GAMME</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Accompagner le souffle nouveau de Ledil.immo en suivant le nouveau positionnement haut de gamme. 
+                                Accompagner Ledil.immo par une plateforme adaptée à son positionnement haut de gamme. 
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
                                 <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#233951" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#233951" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Accompagnement de la nouvelle charte graphique.  
+                                    Accompagnement dans l'application de la nouvelle charte graphique.  
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#233951" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#233951" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Valoriser les biens grâce à des fiches de biens sur-mesure.
+                                    Valorisation des biens à travers des fiches de biens sur-mesure.
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#233951" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#233951" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Personnalisation de l’expérience utilisateur grâce à des modules additionnels.
+                                    Personnalisation de l’expérience utilisateur avec des modules additionnels.
                                 </li>
                             </ul>
                         </div>
                         <div className="w-full lg:w-1/2 mx-auto block order-first lg:order-last" data-aos="fade-left">
-                            <img width="750px" className="pl-24 md:pr-0 md:ml-64 lg:ml-0 lg:pr-0 lg:pl-24 xl:pl-64 xl:ml-32 xl:pr-0 pb-16 xl:py-0 xl:pb-32" src={smartphone} alt="Création site internet Toulouse"/>
+                            <img width="750px" className="pl-24 md:pr-0 md:ml-64 lg:ml-0 lg:pr-0 lg:pl-24 xl:pl-64 xl:ml-40 xl:pr-0 pb-16 xl:py-0 xl:pb-32" src={smartphone} alt="Création site internet Toulouse"/>
                         </div>
                     </section>
                     <section className="h-full w-full flex flex-col lg:flex-row">
                         <div className="w-full lg:w-1/2 mx-auto block" data-aos="fade-right">
-                            <img className="w-full mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup} alt="Création site internet Toulouse"/>
+                            <img className="w-full lg:w-3/4 mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup} alt="Création site internet Toulouse"/>
                         </div>
                         <div className="w-full lg:w-1/2 px-12 lg:px-24 xl:px-48" data-aos="fade-left">
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-ledil">/</span>Création d’un espace mandataire</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Mettre en avant les mandataires grâce à la création d’un profil personnel au sein d’un espace communautaire accessible aux membres.
+                                Mettre en place un espace communautaire accessible aux membres avec la création de profils personnels.
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
@@ -243,7 +243,7 @@ class ledilimmo extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#d0a104" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#d0a104" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Module de suivi des ventes, et de l’activité.
+                                    Module de suivi des ventes et de l’activité.
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">

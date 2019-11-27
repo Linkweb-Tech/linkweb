@@ -67,7 +67,7 @@ class csdmenuiserie extends React.Component {
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
                             <h3 data-aos='fade-right' className="text-center text-2xl md:text-4xl mx-12 md:mx-24 century">
-                            Valoriser le travail réaliser à travers un site internet <span className="text-csd">épuré</span> et <span className="text-csd">illustré</span>
+                            Valoriser le travail réalisé à travers un site internet <span className="text-csd">épuré</span> et <span className="text-csd">illustré</span>
                             </h3>
                             <br/>
                         </div>
@@ -85,7 +85,7 @@ class csdmenuiserie extends React.Component {
                     </section>
                     <section className="w-full mt-24">
                         <div className="w-full lg:w-2/3 bg-csd1 text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">
-                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-csd">/</span>APPORTER L’OPPORTUNITÉ DE METTRE EN AVANT LES RÉALISATIONS EFFECTUÉES</h2>
+                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-csd">/</span>VALORISER LES RÉALISATIONS EFFECTUÉES PAR L'ENTREPRISE</h2>
                             <br/>
                             <p className="font-normal text-justify">
                             Entreprise de menuiserie extérieure et intérieure dans le sud de la France, CSD Menuiserie a fait le choix d’un site internet vitrine pour dynamiser son activité : 
@@ -94,7 +94,7 @@ class csdmenuiserie extends React.Component {
                             <ul className="font-normal text-justify">
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Valoriser les réalisations à travers un module adapté  
+                                    Valoriser les réalisations à travers un espace adapté  
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
@@ -104,7 +104,7 @@ class csdmenuiserie extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#FFFFFF" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Permettre à l’entreprise d’obtenir des prospects qualifiés via le site internet
+                                    Permettre à l’entreprise d’obtenir des prospects qualifiés grâce au le site internet
                                 </li>
                             </ul>
                             <br/>
@@ -132,7 +132,7 @@ class csdmenuiserie extends React.Component {
                             <h2 className="font-normal text-3xl my-2 px-16"><span className="text-csd">/</span>POSITIONNEMENT ET VALEURS PARTAGÉES</h2>
                             <br/>
                             <p className="font-bold text-lg px-16">
-                            Proposer un outil adapté pour obtenir des contacts qualifiés, tout en présentant l’activité d’un professionnel de l’artisanat.
+                            Proposer un outil adapté pour obtenir des contacts qualifiés, tout en introduisant l’activité d’un professionnel de l’artisanat.
                             </p>
                             <br/>
                             <div className="px-16 my-8">
@@ -146,7 +146,7 @@ class csdmenuiserie extends React.Component {
                     </section>
                     <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#aace57fa url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
-                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-or">/</span>Valoriser la qualité du travail effectué avec<br/> un outil axé sur la transparence</h2>
+                            <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-csd1">/</span>Valoriser la qualité du travail effectué avec<br/> un outil axé sur la transparence</h2>
                         </div>
                         <div className="w-full lg:w-1/2 mb-12 text-white text-center flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="200">
@@ -216,7 +216,7 @@ class csdmenuiserie extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#5a4d46" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#5a4d46" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Optimisation on-site de tout le site.
+                                    Optimisation on-site sur tout le site.
                                 </li>
                             </ul>
                         </div>
@@ -232,7 +232,7 @@ class csdmenuiserie extends React.Component {
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-csd1">/</span>Une galerie photos à différents niveaux</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Définir un outil permettant de mettre en lumière la qualité du travail effectué près de chez soi en mentionnant les zones d’intervention.
+                                Définir un outil permettant de mettre en lumière la qualité du travail effectué près de chez soi en précissant les zones d’intervention.
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
