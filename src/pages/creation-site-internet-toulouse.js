@@ -217,7 +217,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <span className="text-bleu">/</span>JE FAIS LE CHOIX D’EXPERTS POUR CRÉER MON SITE INTERNET
                                 </h3>
                                 <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    Nos experts en <strong>développement web</strong> et <strong>création de contenus optimisés</strong> vous apportent une expertise pour vous accompagner dans le <strong>développement</strong> de votre <strong>site internet professionnel</strong> et sur-mesure. Linkweb vous accompagne pour la <strong>création de site web</strong> professionnel.
+                                    Nos experts en <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/"><strong>développement web</strong></Link> et <strong>création de contenus optimisés</strong> vous apportent une expertise pour vous accompagner dans le <strong>développement</strong> de votre <strong>site internet professionnel</strong> et sur-mesure. Linkweb vous accompagne pour la <strong>création de site web</strong> professionnel.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                                 </section>

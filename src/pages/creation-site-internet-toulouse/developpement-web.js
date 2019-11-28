@@ -11,7 +11,7 @@ import banniere from "../../images/creation-site-internet-ban.png";
 
 
 
-class webmarketing extends React.Component {
+class developpementWeb extends React.Component {
 
     constructor(props) {
         super(props);
@@ -22,11 +22,11 @@ class webmarketing extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Webmarketing : Définition - Création site internet Toulouse - Linkweb"
-                    description="Utilisé à bon escient, le webmarketing peut-être un véritable vecteur de croissance pour une entreprise."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/webmarketing/"
-                    nom="Webmarketing"
-                    slug="creation-site-internet-toulouse/webmarketing/"
+                    title="Développement Web : Définition - Création site internet Toulouse - Linkweb"
+                    description="Le développement web est au coeur du travail de création de site internet sur-mesure."
+                    url="https://linkweb.fr/creation-site-internet-toulouse/developpement-web/"
+                    nom="Développement Web"
+                    slug="creation-site-internet-toulouse/developpement-web/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -51,24 +51,21 @@ class webmarketing extends React.Component {
                     <section className="w-full mt-40 text-justify font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
                         <h1 data-aos="fade-up" className="century text-4xl sm:text-5xl text-center text-bleu mt-4 lg:mt-6">
-                        Webmarketing
+                        Développement Web
                         </h1>
                         <hr className="blue" data-aos="fade-up"></hr>
                         <br/>
                             <p>
-                                Le <strong>web marketing</strong> est une discipline qui désigne l’ensemble des <strong className="font-normal">pratiques promotionnelles (et publicitaires)</strong> mises en œuvre par un annonce via l’utilisation d’<strong className="font-normal">outils en ligne</strong>. Le <strong className="font-normal">webmarketing</strong> est une notion large pour désigner tous les <strong className="font-normal">leviers</strong> permettant de remplir des objectifs relavant d’une <strong className="font-normal">stratégie digitale</strong>. Les <strong className="font-normal">réseaux sociaux</strong> (<strong className="font-normal">community management</strong>), le <strong className="font-normal">référencement naturel (SEO)</strong>, l’<strong className="font-normal">emailing</strong>, la <strong className="font-normal">sponsorisation</strong> ou le <strong className="font-normal">content marketing</strong> sont des exemples de domaines qui prennent part au webmarketing et relèvent de la <strong className="font-normal">communication digitale</strong>.<br/>
+                                Le <strong>développement web</strong> est une discipline qui consiste, par l’usage de <strong className="font-normal">langages de programmation web</strong>, à <strong className="font-normal">programmer des sites web</strong> ou <strong className="font-normal">applications web (ou web mobile)</strong> destinés à être publiés sur des serveurs. Le métier de développeur web demande de savoir manier des outils tels que les <strong className="font-normal">CMS</strong> ou les <strong className="font-normal">frameworks</strong> (comme <strong className="font-normal">Bootstrap</strong> ou bien le <strong className="font-normal">framework Symfony</strong> par exemple). De plus, <strong className="font-normal">maîtriser les langages</strong> tels que le <strong className="font-normal">HTML et CSS</strong>, le <strong className="font-normal">JavaScript</strong> ou bien le <strong className="font-normal">PHP</strong> est nécessaire pour être en mesurer de répondre aux <strong className="font-normal">besoins du client</strong>. <strong className="font-normal">Coder</strong> fait partie du quotidien d’un développeur. Également, le rôle de <strong className="font-normal">concepteur du développeur</strong> fait de lui une pièce incontournable <Link className="text-bleu hover:text-black font-bold" to="/creation-site-internet-toulouse/"><strong>dans la création de site internet à Toulouse</strong></Link>.<br/>
                                 <br/>
-                                L’ensemble des actions menées <strong className="font-normal">sur le web</strong>, de la <strong className="font-normal">création de site web</strong> à la définition de <strong className="font-normal">stratégie social media</strong>, doivent permettre de remplir des objectifs qui relèvent de la <strong>notoriété</strong>, la <strong>visibilité</strong>, l’<strong>image de marque</strong> ou de la <strong>fidélisation</strong>. C’est pourquoi mettre en place une <strong className="font-normal">stratégie marketing digital</strong> demande une certaine expertise pour utiliser les différents outils à bon escient. Lancer une campagne de <strong className="font-normal">liens sponsorisés (Adwords)</strong> demande une certaine préparation en amont, tout autant que mener une campagne de <strong className="font-normal">mailing</strong> par exemple.<br/>
-                                <br/>
-                                Notre <strong><Link className="text-bleu hover:text-black font-bold" to="/creation-site-internet-toulouse/">solution de création de site internet à Toulouse</Link></strong> s’inscrit dans un <strong className="font-normal">projet web</strong> global qui doit vous permettre de tirer profit d’<strong className="font-normal">actions marketing</strong> qui vous correspondent. La mise en place d’une <strong className="font-normal">stratégie web</strong> basée sur la <strong className="font-normal">création d’un site internet</strong> peut permettre de :<br/>
+                                Il est possible de scinder le métier de développeur en deux parties bien distinctes, à savoir le back-end et le front-end :<br/>
                                 <br/>
                                 <ul className="list-disc pl-12">
-                                <li>rendre visible <strong className="font-normal">votre site web</strong> grâce au référencement,</li>
-                                <li><strong className="font-normal">générer du trafic sur votre site internet</strong> vitrine ou <strong className="font-normal">e commerce</strong>,</li>
-                                <li>ou bien augmenter votre <strong className="font-normal">taux de conversion</strong> grâce à un <strong className="font-normal">ciblage</strong> pertinent.</li>
+                                    <li><strong>Back-End :</strong> le <strong className="font-normal">développeur back-end</strong> est chargé de fournir des <strong className="font-normal">solutions techniques</strong> concernant le travail relevant de la partie <strong className="font-normal">back office</strong>. Il s’agit d’un travail de l’ombre qui doit développer des interfaces fonctionnelles pour l’administration d’un site internet. Un développeur back-end peut être amené à réaliser un intranet par exemple.</li><br/>
+                                    <li><strong>Front-End :</strong> le <strong className="font-normal">développeur front-end</strong>, ou <strong className="font-normal">développeur intégrateur web</strong>, est chargé de définir le <strong className="font-normal">web design du site internet</strong>. En somme, il réalise tout le travail inhérent à l’<strong className="font-normal">interface utilisateur</strong> avec également une réflexion portée sur l’<strong className="font-normal">expérience utilisateur</strong>, le <strong className="font-normal">responsive design</strong> ou encore l’<strong className="font-normal">ergonomie</strong>.</li><br/>
                                 </ul>
                                 <br/>
-                                En somme, la <strong className="font-normal">création de site web</strong> appuyée par le <strong className="font-normal">référencement naturel</strong> fait partie des <strong className="font-normal">techniques de marketing web</strong> qui permettent à une entreprise de tirer profit de l’utilisation des <strong className="font-normal">outils digitaux</strong> et de générer de la croissance. Le <strong className="font-normal">digital marketing</strong> a pour objectif de procurer un <strong className="font-normal">retour sur investissement</strong> via un <strong className="font-normal">projet digital</strong> taillé sur-mesure.<br/>
+                                Dans la <strong className="font-normal">création d’un projet web</strong>, il est parfois nécessaire de faire appel à la complémentarité des <strong className="font-normal">compétences techniques</strong> des deux types de <strong className="font-normal">développeurs web</strong>. Ceci est particulièrement pertinent lorsqu’il s’agit de développer un projet portant des <strong className="font-normal">spécifications techniques</strong> en vue de mettre en place une plateforme sur-mesure. Le travail de <strong className="font-normal">développement web</strong> possède une place considérable dans le contexte d’une <strong className="font-normal">agence web</strong>. Le développement, de part la maîtrise du <strong className="font-normal">langage de programmation</strong>, permet de <strong className="font-normal">créer un site internet</strong> ou une <strong className="font-normal">application web</strong> sur-mesure et qui colle parfaitement aux besoins des professionnels.<br/>
                             </p>
                         <img
                             src={banniere}
@@ -77,24 +74,24 @@ class webmarketing extends React.Component {
                         />
                         </div>
                         <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées au Webmarketing :</b></p>
+                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées au développement web :</b></p>
                             <br/>
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ui-design/">UI Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/">Développement Web</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/">Refonte site internet</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">Responsive Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">Webdesign</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/">Refonte site internet</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/maquette-site-web/">Maquette de site web</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/">CMS</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/framework/">Framework</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/">Nom de domaine</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/">Moteurs de recherche</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">Arborescence site internet</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/strategie-digitale/">Stratégie Digitale</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/">Webmarketing</Link></li>
                             </ul>
                             </div>
                         </div>
@@ -107,7 +104,7 @@ class webmarketing extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostswebmarketing {
+query lastsThreePostsdeveloppementWeb {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -127,7 +124,7 @@ query lastsThreePostswebmarketing {
   
     
 `
-export default webmarketing;
+export default developpementWeb;
 
 
 

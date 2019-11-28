@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
+import "../../scss/barre.scss";
 
 
 import logolinkweb from "../../images/logo-linkweb.png";
@@ -15,6 +16,13 @@ import drupal from "../../images/drupal.jpg";
 import imac from "../../images/atpt-pc.jpg";
 import bloccontact from '../../images/bloc-contact.jpg';
 import logo from '../../images/logo-atpt.png';
+import logosia from '../../images/logo-sia.png';
+import logoatpt from '../../images/logo-atpt.png';
+import logosdis from '../../images/logo-sdis47-real.png';
+import logofaivre from '../../images/faivre-creations.png';
+import logogabrielservices from '../../images/logo-gs.png';
+import logoledil from '../../images/logo-ledil.png';
+import logocsd from '../../images/logo-csd.jpg';
 
 
 class Atpt extends React.Component {
@@ -54,7 +62,8 @@ class Atpt extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#000000e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-row justify-center items-center" style={{ background:'#000000e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                            <div>
                             <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
                             <h1 data-aos="fade-down" data-aos-delay="500" className="century mt-24 font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
@@ -62,7 +71,19 @@ class Atpt extends React.Component {
                             </h1>
                             <h2 className="font-normal text-center text-white text-xl md:text-3xl"><em>Université Fédérale de Toulouse Midi-Pyrénées</em></h2>
                             <h3 data-aos="fade-up" className="font-normal italic text-center px-6 lg:px-32 text-lg sm:text-2xl text-white my-24">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées fait du numérique un instrument central pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
-                            <a data-aos="fade-down" href="/realisations/atpt/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                            <a data-aos="fade-down" href="/realisations/atpt/#start"><svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                            </div>
+                        {/*<section className="fixed h-auto z-40" style={{background:'#37cfee94', right:'30px', bottom:'150px', maxWidth:'100px', borderRadius:'15px'}}>
+                            <div className="flex flex-col py-6">
+                                <Link to="/realisations/sia/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosia} alt="Création site internet Toulouse" /></Link>
+                                <Link to="/realisations/atpt/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoatpt} alt="Création site internet Toulouse" /></Link>
+                                <Link to="/realisations/sdis47/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosdis} alt="Création site internet Toulouse" /></Link>
+                                <Link to="/realisations/groupe-faivre-environnement/"><img className="zoom py-3 w-3/4 mx-auto block" src={logofaivre} alt="Création site internet Toulouse" /></Link>
+                                <Link to="/realisations/gabriel-services/"><img className="zoom py-3 w-3/4 mx-auto block" src={logogabrielservices} alt="Création site internet Toulouse" /></Link>
+                                <Link to="/realisations/ledilimmo/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoledil} alt="Création site internet Toulouse" /></Link>
+                                <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
+                            </div>
+                        </section>*/}
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
