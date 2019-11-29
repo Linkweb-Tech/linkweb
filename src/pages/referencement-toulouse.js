@@ -143,7 +143,7 @@ class ReferencementToulouse extends React.Component {
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
-                                <span className="text-bleu">/</span>RÉFÉRENCEMENT : OBTENIR UNE MEILLEURE VISIBILITÉ GRÂCE AU RÉFÉRENCEMENT À AGEN
+                                <span className="text-bleu">/</span>RÉFÉRENCEMENT TOULOUSE : OBTENIR UNE MEILLEURE VISIBILITÉ GRÂCE AU RÉFÉRENCEMENT
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">Référencer son site, c’est donner vie à sa communication digitale pour rendre son activité visible. Nous mettons tout en oeuvre pour vous apporter un site internet à votre image grâce à la création de contenu de qualité.</span>
@@ -151,18 +151,19 @@ class ReferencementToulouse extends React.Component {
                             <p data-aos='fade-bottom' className="text-justify">
                             <strong>Optimiser le référencement de son site</strong>, en <strong>naturel</strong> ou <strong>sponsorisé</strong>, s’inscrit dans la continuité de la <strong><Link to="/creation-site-internet-toulouse/" className="hover:text-bleu">création de votre site internet</Link></strong>. C’est pourquoi, tout doit être pensé, de la <strong>conception technique</strong> du site, jusqu’à l’<strong>arborescence</strong> afin d’attirer un grand nombre de clients potentiels. <br/><br/>
 
-                            <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong><Link to="/creation-de-site-internet-47-31/" className="hover:text-bleu">développement</Link></strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/><br/>
+                            <strong>Nos consultants d’Agen (47)</strong> et de <strong>Toulouse (31)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong><Link to="/creation-de-site-internet-47-31/" className="hover:text-bleu">développement</Link></strong> et l’<strong>optimisation de votre site internet</strong>. Force de proposition, nous mettons votre site au goût du jour grâce à une veille digitale permanente qui permet de suivre les dernières tendances.<br/><br/>
 
                                 De fait, il est nécessaire de faire preuve de régularité et de rigueur quant au travail qui est à réaliser, aussi bien en termes de <strong><Link to="/referencement-de-site-internet-47-31/" className="hover:text-bleu">référencement naturel</Link></strong>, que de <strong><Link to="/agence-adwords-47-31/" className="hover:text-bleu">référencement payant</Link></strong>. <br/>
                             </p>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
+                        
                         <h2 data-aos='fade-right' className="text-center text-3xl century">
                             Sautez le pas, enlevez votre cape d’<span className="text-bleu">invisibilité !</span>
                         </h2>
                         <hr className="blue"></hr>
-
+                        <h3 data-aos="fade-in" className="text-center font-normal italic century text-sm">Référencement Toulouse</h3>
                     </section>
                     <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 sm:px-12 xl:my-24 xl:px-24">
                         <div className="w-full xl:w-1/3 one px-12">
@@ -213,7 +214,7 @@ class ReferencementToulouse extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 data-aos='fade-right' className="text-center text-3xl century">
-                            <span className="text-bleu">/</span>QUE FAIT LINKWEB POUR VOTRE RÉFÉRENCEMENT À AGEN ?
+                            <span className="text-bleu">/</span>QUE FAIT LINKWEB POUR VOTRE RÉFÉRENCEMENT À TOULOUSE<span className="text-bleu">/</span>AGEN ?
                         </h2>
                         <hr className="blue"></hr>
 
@@ -342,7 +343,7 @@ class ReferencementToulouse extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
                         <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
-                            <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur notre offre de référencement à Agen ?
+                            <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur notre offre de référencement à Toulouse<span className="text-bleu">/</span>Agen ?
                         </h2>
                         <hr className="blue"></hr>
                         <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous vous demandez encore pourquoi le référencement est utile pour votre site ? Voici des réponses aux interrogations courantes sur le SEO.</h4>

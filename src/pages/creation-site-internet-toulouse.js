@@ -132,18 +132,18 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="flex-wrap flex flex-col md:flex-row w-full mx-auto py-2 my-2 ">
-                        <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfff url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
-                            <h3 className="text-xl pb-6" >SITE INTERNET VITRINE</h3>
+                        <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfffe0 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
+                            <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET VITRINE</h3>
                             <p>Mettre en avant vos services, activités, et même votre entreprise va vous permettre de <strong>dynamiser votre communication</strong>. Le site <strong>internet vitrine</strong> est idéal pour les TPE/PME souhaitant faire découvrir leur activité et mettre en avant leurs prestations et ainsi acquérir de nouveaux clients près de chez eux. </p>
                             <RoundButton color="darkgrey" url="/creation-site-internet-agen/" text="Création de site vitrine" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
-                            <h3 className="text-xl pb-6" >SITE INTERNET E-COMMERCE</h3>
+                            <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET E-COMMERCE</h3>
                             <p>Mettre en place un <strong>site e-commerce</strong> va vous permettre de développer une plateforme de <strong>vente en ligne</strong> de vos produits. Le <strong>site internet e-commerce</strong> s’adresse aux commerçants et boutiques qui souhaitent <strong>développer leur chiffre d’affaire en ciblant une nouvelle clientèle</strong>.</p>
                             <RoundButton color="darkgrey" url="/creer-une-boutique-en-ligne/" text="Créer une boutique en ligne" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
-                            <h3 className="text-xl pb-6" >SITE INTERNET SUR-MESURE</h3>
+                            <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET SUR-MESURE</h3>
                             <p>Mettre en place un site internet multifonctions : réservation, simulation, configurateur et bien plus encore. Créer un site internet sur-mesure, c’est aussi faire le choix d’optimiser votre organisation grâce à un outil numérique à la portée de tous de type intranet.</p>
                             <RoundButton color="darkgrey" url="/creation-de-site-internet-47-31/" text="Créer un site internet sur-mesure" />
                         </div>
@@ -154,7 +154,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
-                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE À TOULOUSE
+                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET TOULOUSE : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. Linkweb met en place le site web qu’il vous faut à Toulouse.</span>
@@ -177,7 +177,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         Faites connaître votre entreprise sur (<span className="text-bleu">l’</span>)<span className="text-bleu">Internet</span> !
                         </h2>
                         <hr className="blue"></hr>
-                        
+                        <h3 data-aos="fade-in" className="text-center font-normal italic century text-sm">Création de site internet à Toulouse</h3>
                     </section>
                     <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
                         <div className="w-full xl:w-1/3 one px-12">
@@ -228,7 +228,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-6 pb-0 my-2">
                         <h2 data-aos='fade-right' className="text-center text-3xl century">
-                        Linkweb à Toulouse : la solution pour créer son site internet professionnel
+                        Création de site internet à Toulouse : Linkweb, votre solution web professionnelle
                         </h2>
                         <hr className="blue"></hr>
                     </section>
@@ -292,7 +292,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     </path>
                                 </svg>
                                 &nbsp;
-                                <p>Mettre en place un visuel qui fera consensus entre <strong>webdesign</strong> et <strong>expérience utilisateur</strong> grâce au <strong>responsive design</strong>.</p>
+                                <p>Mettre en place un visuel qui fera consensus entre <strong>webdesign</strong> et <strong>expérience utilisateur</strong> pour une interface <strong>responsive design</strong> et/ou <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/mobile-first/"><strong>mobile first</strong></Link>.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792">

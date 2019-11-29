@@ -131,13 +131,13 @@ class AgenceWebToulouse extends React.Component {
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
-                            <RoundButton color="black" href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" text="Plus d'informations pratiques" />
+                            <RoundButton color="black" url="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" text="Plus d'informations pratiques" />
                         </div>
                         <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" data-aos="zoom-in" data-aos-delay="200">
                             <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
-                            <RoundButton href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" text="Plus d'informations pratiques" />
+                            <RoundButton url="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" text="Plus d'informations pratiques" />
                         </div>
 
                     </section>
@@ -167,6 +167,7 @@ class AgenceWebToulouse extends React.Component {
                             Notre agence est taillée pour <span className="text-bleu">votre projet web</span>
                         </h2>
                         <hr className="blue"></hr>
+                        <h3 data-aos="fade-in" className="text-center font-normal italic century text-sm">Agence Web Toulouse</h3>
 
                     </section>
                     <section className="flex flex-col md:flex-row flex-1 max-w-6xl mx-auto home-step mt-24 mb-12 my-12 px-4 lg:my-24 lg:px-24">
