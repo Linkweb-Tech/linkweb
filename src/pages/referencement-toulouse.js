@@ -244,7 +244,7 @@ class ReferencementToulouse extends React.Component {
                                     </path>
                                 </svg>
                                 &nbsp;
-                                <p><strong>Optimisation de la recherche locale</strong> : votre site doit être vu par vos clients les plus proches.</p>
+                                <p><strong>Optimisation de la <Link className="text-bleu hover:text-black font-bold" to="/referencement-toulouse/referencement-local/">recherche locale</Link></strong> : votre site doit être vu par vos clients les plus proches.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792">
@@ -252,7 +252,7 @@ class ReferencementToulouse extends React.Component {
                                     </path>
                                 </svg>
                                 &nbsp;
-                                <p><strong><Link to="/agence-adwords-47-31/" className="hover:text-bleu">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong></p>
+                                <p><strong><Link className="text-bleu hover:text-black font-bold" to="/agence-adwords-47-31/">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong></p>
                             </li>
                         </ul>
                         <div className="w-full flex flex-col md:flex-row text-center my-12">
