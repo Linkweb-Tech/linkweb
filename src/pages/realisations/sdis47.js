@@ -77,12 +77,8 @@ class sdis47 extends React.Component {
                         </div>
                     </section>
                     <section className="w-full mt-16 flex flex-col md:flex-row justify-center items-center">
-                        <div className="w-1/2 md:w-1/6 bg-rouge mx-12 p-3 text-center" data-aos="zoom-in" style={{borderRadius:'15px'}}>
-                            <a className="text-white font-bold" href="https://www.sdis47.fr/">Voir le site</a>
-                        </div>
-                        <div className="w-1/2 md:w-1/6 bg-black mx-12 my-6 text-center p-3" data-aos="zoom-in" data-aos-delay="500" style={{borderRadius:'15px'}}>
-                            <Link className="text-white font-bold" to="/contact-agence-web-toulouse/">J'ai une question</Link>
-                        </div>
+                            <a className="text-white font-bold w-1/2 md:w-1/6 bg-rouge mx-12 p-3 text-center" data-aos="zoom-in" style={{borderRadius:'15px'}} href="https://www.sdis47.fr/" target="blank" rel="noopener noreferrer">Voir le site</a>
+                            <Link className="text-white font-bold w-1/2 md:w-1/6 bg-black mx-12 my-6 text-center p-3" data-aos="zoom-in" data-aos-delay="500" style={{borderRadius:'15px'}} to="/contact-agence-web-toulouse/">J'ai une question</Link>
                     </section>
                     <section className="w-full mt-24">
                         <div className="w-full lg:w-2/3 bg-black text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">

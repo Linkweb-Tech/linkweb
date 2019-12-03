@@ -73,12 +73,32 @@ class Atpt extends React.Component {
                             <h3 data-aos="fade-up" className="font-normal italic text-center px-6 lg:px-32 text-lg sm:text-2xl text-white my-24">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées fait du numérique un instrument central pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
                             <a data-aos="fade-down" href="/realisations/atpt/#start"><svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                             </div>
-                        <section>
-                            <div className="fixed h-auto z-40 py-4 font-bold px-1" style={{background:'#FFFFFF', right:'130px', writingMode: 'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
+                            <li className="toggleable">
+                                <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
+                                    <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
+                                        <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
+                                            <p style={{transform:'rotate(180deg'}}>Nos réalisations</p>
+                                        </div>
+                                    </label>
+                                <div role="toggle" className="toggle-input megamenu fixed h-auto z-40 p-2 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800" style={{background:'#37cfee94', maxWidth:'100px', borderRadius:'15px'}}>
+                                    <div className="flex flex-col py-6" style={{overflow:'hidden'}}>
+                                        <Link to="/realisations/sia/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosia} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/atpt/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoatpt} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/sdis47/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosdis} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/groupe-faivre-environnement/"><img className="zoom py-3 w-3/4 mx-auto block" src={logofaivre} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/gabriel-services/"><img className="zoom py-3 w-3/4 mx-auto block" src={logogabrielservices} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/ledilimmo/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoledil} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
+                                    </div>
+                                </div>
+                            </li>
+                        {/*<section className="toggleable">
+                            <div for="toogle-one" >
+                            <div className="toggle-input mega-menu cursor-pointer fixed h-auto z-40 py-4 font-bold px-1" style={{background:'#FFFFFF', right:'130px',bottom:'350px', writingMode: 'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
                                 Nos réalisations
                             </div>
-                            <div className="fixed h-auto z-40" style={{background:'#37cfee94', right:'30px', bottom:'150px', maxWidth:'100px', borderRadius:'15px'}}>
-                            <div className="flex flex-col py-6">
+                            <div role="toogle" className="fixed h-auto z-40" style={{background:'#37cfee94', right:'30px', bottom:'150px', maxWidth:'100px', borderRadius:'15px'}}>
+                            <div className="flex flex-col py-6" style={{overflow:'hidden'}}>
                                 <Link to="/realisations/sia/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosia} alt="Création site internet Toulouse" /></Link>
                                 <Link to="/realisations/atpt/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoatpt} alt="Création site internet Toulouse" /></Link>
                                 <Link to="/realisations/sdis47/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosdis} alt="Création site internet Toulouse" /></Link>
@@ -88,7 +108,8 @@ class Atpt extends React.Component {
                                 <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
                             </div>
                             </div>
-                        </section>
+                            </div>
+            </section>*/}
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
@@ -103,12 +124,13 @@ class Atpt extends React.Component {
                         </div>
                     </section>
                     <section className="w-full mt-16 flex flex-col md:flex-row justify-center items-center">
-                        <div className="w-1/2 md:w-1/6 bg-bleu mx-12 p-3 text-center" data-aos="zoom-in" style={{borderRadius:'15px'}}>
-                            <a className="text-white font-bold" href="https://atoutspourtous-toulouse.fr/">Voir le site</a>
-                        </div>
-                        <div className="w-1/2 md:w-1/6 bg-vert mx-12 my-6 text-center p-3" data-aos="zoom-in" data-aos-delay="500" style={{borderRadius:'15px'}}>
-                            <Link className="text-white font-bold" to="/contact-agence-web-toulouse/">J'ai une question</Link>
-                        </div>
+                        <a className="text-white font-bold w-1/2 md:w-1/6 bg-bleu mx-12 p-3 text-center" data-aos="zoom-in" style={{borderRadius:'15px'}} href="https://atoutspourtous-toulouse.fr/" target="blank" rel="noopener noreferrer">
+                            Voir le site
+                        </a>
+                        <Link className="text-white font-bold w-1/2 md:w-1/6 bg-vert mx-12 my-6 text-center p-3" data-aos="zoom-in" data-aos-delay="500" style={{borderRadius:'15px'}} to="/contact-agence-web-toulouse/">
+                            
+                            J'ai une question
+                        </Link>
                     </section>
                     <section className="w-full mt-24">
                         <div className="w-full lg:w-2/3 bg-orange text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">

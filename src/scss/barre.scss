@@ -6,3 +6,16 @@
   .zoom:hover {
     transform: scale(1.5);
   }
+
+  .toggle-input:checked ~ .mega-menu {
+    position: fixed;
+    right: 40px;
+    bottom:180px;
+    transition: all ease 800ms;
+}
+    .toggle-input:not(checked) ~ .mega-menu {
+    position: fixed;
+    right: -130px;
+    bottom:180px;
+    transition: all ease 800ms;
+}
