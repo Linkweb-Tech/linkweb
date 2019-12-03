@@ -76,7 +76,7 @@ class Atpt extends React.Component {
                             <li className="toggleable">
                                 <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
                                     <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
-                                        <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
+                                        <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2 font-bold" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
                                             <p style={{transform:'rotate(180deg'}}>Nos réalisations</p>
                                         </div>
                                     </label>

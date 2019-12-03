@@ -9,13 +9,27 @@
 
   .toggle-input:checked ~ .mega-menu {
     position: fixed;
-    right: 40px;
+    right: 25px;
     bottom:180px;
-    transition: all ease 800ms;
+    transition: all ease 695ms;
 }
     .toggle-input:not(checked) ~ .mega-menu {
     position: fixed;
     right: -130px;
     bottom:180px;
-    transition: all ease 800ms;
+    transition: all ease 1020ms;
+    
+}
+.toggle-input:checked ~ .cursor-pointer {
+  position: fixed;
+  right: 140px;
+  bottom:180px;
+  transition: all ease 700ms;
+  transition-delay: 50ms;
+}
+.toggle-input:not(checked) ~ .cursor-pointer {
+  position: fixed;
+  right: 19px;
+  bottom:180px;
+  transition: all ease 800ms;
 }

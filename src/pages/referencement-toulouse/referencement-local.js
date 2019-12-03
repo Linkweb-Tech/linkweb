@@ -79,13 +79,13 @@ class RéférencementLocaldef extends React.Component {
                         />
                         </div>
                         <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            {/*<p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées à l'UI design :</b></p>
+                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées au Référencement local :</b></p>
                             <br/>
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
+                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/backlinks/">Backlinks</Link></li>
                             </ul>
-                        </div>*/}
+                        </div>
                         </div>
                     </section>
                 {/* </PageTransition> */}
