@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const BlogPosts = result.data.allWordpressPost.edges
     BlogPosts.forEach(post => {
         createPage({
-            path: `/blog/${post.node.slug}`,
+            path: `/blog/${post.node.slug}/`,
             component: BlogPostTemplate,
             context: {
                 id: post.node.wordpress_id,
@@ -53,7 +53,7 @@ exports.createCatPages = async ({ graphql, actions, reporter }) => {
   const BlogCatPosts = result.data.allWordpressCategory.edges
   BlogCatPosts.forEach(post => {
       createPage({
-          path: `/category/${post.node.slug}`,
+          path: `/category/${post.node.slug}/`,
           component: BlogCatTemplate,
           context: {
               id: post.node.wordpress_id,
