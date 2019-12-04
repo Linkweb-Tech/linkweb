@@ -74,7 +74,7 @@ class RéférencementLocaldef extends React.Component {
                         </p>
                         <img
                             src={banniere}
-                            alt="Création site internet Toulouse"
+                            alt="Référencement Toulouse"
                             className="mx-auto block max-w-full mt-12"
                         />
                         </div>
@@ -84,6 +84,7 @@ class RéférencementLocaldef extends React.Component {
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
                             <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/backlinks/">Backlinks</Link></li>
+                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/serp/">SERP</Link></li>
                             </ul>
                         </div>
                         </div>

@@ -252,7 +252,7 @@ class ReferencementToulouse extends React.Component {
                                     </path>
                                 </svg>
                                 &nbsp;
-                                <p><strong><Link className="text-bleu hover:text-black" to="/agence-adwords-47-31/">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong></p>
+                                <p><strong><Link className="text-bleu hover:text-black font-bold" to="/agence-adwords-47-31/">Mise en place de vos campagnes Adwords et définition des annonces en référencement SEA.</Link></strong></p>
                             </li>
                         </ul>
                         <div className="w-full flex flex-col md:flex-row text-center my-12">
@@ -308,7 +308,7 @@ class ReferencementToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="flex flex-col md:flex-row w-full max-w-4xl mx-auto text-center justify-center">
-                    <p className="p-6"><strong>Votre site internet</strong> est le reflet de votre entreprise en ligne. Notre <strong>agence SEO</strong> de <strong>référencement web</strong> travaille dans le but de faire progresser la <strong>visibilité</strong> de votre société dans les <strong>résultats de recherche</strong> et ainsi, d’<strong>augmenter votre notoriété</strong> à travers une création au design professionnel, moderne et épuré. <br/><br/>
+                    <p className="p-6"><strong>Votre site internet</strong> est le reflet de votre entreprise en ligne. Notre <strong>agence SEO</strong> de <strong>référencement web</strong> travaille dans le but de faire progresser la <strong>visibilité</strong> de votre société dans les <strong><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/serp/">résultats de recherche</Link></strong> et ainsi, d’<strong>augmenter votre notoriété</strong> à travers une création au design professionnel, moderne et épuré. <br/><br/>
 
                         <b>ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’est pas une science exacte. Néanmoins, nous mettons tout en oeuvre pour vous apporter un site web optimisé et la meilleure visibilité possible.</b><br/></p>
                     </section>
