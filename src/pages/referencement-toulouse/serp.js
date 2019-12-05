@@ -90,6 +90,7 @@ class Serp extends React.Component {
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
                             <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/referencement-local/">Référencement Local</Link></li>
                             <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/backlinks/">Backlinks</Link></li>
+                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/mots-cles/">Mots-clés</Link></li>
                             </ul>
                         </div>
                         </div>
