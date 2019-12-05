@@ -22,7 +22,7 @@ import logosdis from '../../images/logo-sdis47-real.png';
 import logofaivre from '../../images/faivre-creations.png';
 import logogabrielservices from '../../images/logo-gs.png';
 import logoledil from '../../images/logo-ledil.png';
-import logocsd from '../../images/logo-csd.jpg';
+import logocsd from '../../images/logo-csd.png';
 
 
 class Atpt extends React.Component {
@@ -62,25 +62,26 @@ class Atpt extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-row justify-center items-center" style={{ background:'#000000e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-row justify-center items-center" style={{ background:'#00000086 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
                             <div>
                             <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century mt-24 font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
+                            <a href="/agence-de-communication-agen-47-toulouse-31/" className="mt-24 font-normal century text-sm sm:text-md text-center text-white mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir aux réalisations</a>
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                                 ATOUTS POUR TOUS
                             </h1>
                             <h2 className="font-normal text-center text-white text-xl md:text-3xl"><em>Université Fédérale de Toulouse Midi-Pyrénées</em></h2>
                             <h3 data-aos="fade-up" className="font-normal italic text-center px-6 lg:px-32 text-lg sm:text-2xl text-white my-24">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées fait du numérique un instrument central pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
                             <a data-aos="fade-down" href="/realisations/atpt/#start"><svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                             </div>
-                            <li className="toggleable">
+                            <li className="hidden lg:block toggleable">
                                 <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
                                     <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
                                         <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2 font-bold" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
                                             <p style={{transform:'rotate(180deg'}}>Nos réalisations</p>
                                         </div>
                                     </label>
-                                <div role="toggle" className="toggle-input megamenu fixed h-auto z-40 p-2 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800" style={{background:'#37cfee94', maxWidth:'100px', borderRadius:'15px'}}>
+                                <div role="toggle" className="toggle-input megamenu fixed h-auto z-40 p-2 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800" style={{background:'#39ac4a94', maxWidth:'100px', borderRadius:'15px'}}>
                                     <div className="flex flex-col py-6" style={{overflow:'hidden'}}>
                                         <Link to="/realisations/sia/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosia} alt="Création site internet Toulouse" /></Link>
                                         <Link to="/realisations/atpt/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoatpt} alt="Création site internet Toulouse" /></Link>
@@ -187,7 +188,7 @@ class Atpt extends React.Component {
                             </div>
                         </div>
                     </section>
-                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#000000e6 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
+                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#00000098 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
                             <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center" data-aos="fade-in"><span className="text-vert">/</span>DES FONCTIONNALITÉS PRATIQUES POUR FAVORISER LES ÉCHANGES ET LE SUIVI</h2>
                         </div>
@@ -197,21 +198,21 @@ class Atpt extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 NOTIFICATIONS EN DIRECT
                                 </h4>
-                                <p>Mise en place dans la partie applicative</p>
+                                <p className="font-medium">Mise en place dans la partie applicative</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="400">
                                 <svg className="mx-auto block" xmlns="http://www.w3.org/2000/svg" width="60px" viewBox="0 0 48 60" x="0px" y="0px"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill-rule="nonzero" fill="#FFFFFF"><path d="M28,28 C32.418278,28 36,24.418278 36,20 C36,15.581722 32.418278,12 28,12 C23.581722,12 20,15.581722 20,20 C20,24.418278 23.581722,28 28,28 Z M37.3504,27.5219729 L46.7321221,36.903695 C47.5108511,37.6824239 47.514416,38.9414282 46.7279221,39.7279221 C45.9468735,40.5089706 44.6811918,40.5096189 43.903695,39.7321221 L34.3535005,30.1819277 C32.5109928,31.33408 30.3332633,32 28,32 C21.372583,32 16,26.627417 16,20 C16,13.372583 21.372583,8 28,8 C34.627417,8 40,13.372583 40,20 C40,22.8479673 39.0078792,25.4642124 37.3504,27.5219729 Z M0,15 C0,13.8954305 0.679554462,13 1.49554521,13 L10.5044548,13 C11.3304216,13 12,13.8877296 12,15 C12,16.1045695 11.3204455,17 10.5044548,17 L1.49554521,17 C0.669578397,17 0,16.1122704 0,15 Z M0,27 C0,25.8954306 0.679554462,25 1.49554521,25 L10.5044548,25 C11.3304216,25 12,25.8877296 12,27 C12,28.1045694 11.3204455,29 10.5044548,29 L1.49554521,29 C0.669578397,29 0,28.1122704 0,27 Z M0,39 C0,37.8954306 0.657922267,37 1.49811914,37 L30.0018808,37 C30.8292691,37 31.5,37.8877296 31.5,39 C31.5,40.1045694 30.8420778,41 30.0018808,41 L1.49811914,41 C0.670730784,41 0,40.1122704 0,39 Z"/></g></g></svg>
                                 <h4 className="uppercase font-bold">
                                 RECHERCHE AVANCÉE
                                 </h4>
-                                <p>Basée sur le logiciel Apache SOLR</p>
+                                <p className="font-medium">Basée sur le logiciel Apache SOLR</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="600">
                                 <svg className="mx-auto block" viewBox="0 0 500 625" width="60px"><g><g><circle fill="#FFFFFF" cx="105.7" cy="98.2" r="58.9"/><g><path fill="#FFFFFF" d="M149.5,98.2c0,1.4,0,2.8-0.1,4.2c0,0.4-0.7,4.9-0.1,1.5c-0.5,2.7-1.1,5.3-1.9,7.9c-0.4,1.3-0.9,2.5-1.3,3.8     c1.2-3.1-0.5,0.9-0.6,1.3c-1.4,2.8-3,5.3-4.7,7.9c-2.3,3.4,2-1.9-0.9,1.1c-0.9,1-1.7,2-2.7,2.9c-0.9,0.9-1.9,1.8-2.8,2.7     c-0.3,0.3-3.7,3-1,1c-2.1,1.6-4.3,3-6.6,4.3c-1.2,0.6-2.3,1.2-3.5,1.8c-1.6,0.7-1.6,0.7-0.1,0.1c-0.6,0.2-1.2,0.5-1.9,0.7     c-2.3,0.8-4.7,1.5-7.1,2c-0.4,0.1-4.8,0.8-1.4,0.4c-1.4,0.2-2.8,0.3-4.2,0.3c-2.8,0.1-5.6,0-8.4-0.2c-4.3-0.3,2.7,0.8-1.5-0.2     c-1.8-0.4-3.5-0.8-5.3-1.3c-1.3-0.4-2.5-0.8-3.8-1.2c-4-1.3,2.4,1.4-1.3-0.5c-2.4-1.2-4.7-2.4-6.9-3.8c-1.1-0.7-2.2-1.5-3.2-2.3     c2.6,2-0.7-0.7-1-1c-2.3-2-4.4-4.3-6.3-6.6c1.7,2.1,0.3,0.4,0-0.1c-0.7-1.1-1.5-2.2-2.2-3.3c-1.4-2.2-2.6-4.6-3.7-7     c1.3,3.1-0.3-1-0.4-1.4c-0.4-1.3-0.8-2.6-1.2-3.9c-0.3-1.3-0.6-2.6-0.9-4c-0.3-1.8-0.3-1.8-0.1-0.1c-0.1-0.9-0.2-1.8-0.3-2.8     c-0.2-2.8-0.2-5.6,0-8.4c0-0.4,0.7-4.9,0.1-1.5c0.2-1.3,0.5-2.7,0.8-4c0.6-2.6,1.4-5.2,2.4-7.7c-1.2,3.1,0.5-0.9,0.6-1.3     c0.8-1.6,1.6-3.1,2.6-4.6c0.6-0.9,1.2-1.8,1.8-2.7c0.4-0.6,2.3-2.8,0.4-0.6c1.7-2,3.4-3.9,5.4-5.7c1-0.9,2-1.7,3-2.6     c-2.5,2.1,0.8-0.6,1.2-0.8c2.6-1.7,5.3-3.2,8-4.6c3.7-1.9-2.7,0.7,1.3-0.5c1.3-0.4,2.5-0.9,3.8-1.2c1.3-0.4,2.6-0.7,3.9-1     c0.4-0.1,4.8-0.8,1.4-0.4c2.8-0.3,5.6-0.5,8.4-0.4c1.4,0,2.8,0.2,4.2,0.2c1.8,0.2,1.8,0.2,0.1,0c0.9,0.1,1.8,0.3,2.7,0.5     c2.6,0.6,5.2,1.4,7.8,2.2c4,1.3-2.4-1.4,1.3,0.5c1.6,0.8,3.2,1.6,4.7,2.5c1.1,0.7,2.2,1.4,3.3,2.1c0.7,0.5,1.4,1,2.1,1.5     c-1.3-1-1.3-1,0,0.1c2.2,2.1,4.4,4.2,6.5,6.5c2.8,3-1.4-2.3,0.9,1.1c1,1.5,2,2.9,2.9,4.4c0.7,1.1,1.3,2.3,1.9,3.5     c0.4,0.8,0.8,1.6,1.1,2.4c-0.6-1.5-0.7-1.5,0,0.1c0.9,3,1.8,6,2.5,9.1c1,4.2,0-2.9,0.2,1.5C149.4,94.5,149.5,96.4,149.5,98.2     c0.1,7.8,6.8,15.4,15,15c8-0.4,15.1-6.6,15-15c-0.4-31.3-19.9-58.6-49.1-69.6c-28-10.5-61.9-1.3-80.9,21.7     c-19.9,24.1-23.5,58.6-7.3,85.7c16.2,27,47.7,40.3,78.5,34.5c34.2-6.5,58.4-38.2,58.8-72.3c0.1-7.8-7-15.4-15-15     C156.3,83.6,149.6,89.8,149.5,98.2z"/></g></g><g><g><path fill="#FFFFFF" d="M164,113.3c29.8,0,59.7,0,89.5,0c4.3,0,8.5,0,12.8,0c-5-5-10-10-15-15c0,36.2,0,72.4,0,108.5c0,57.4,0,114.9,0,172.3     c0,13.2,0,26.3,0,39.5c0,8.1,6.9,15,15,15c27.7,0,55.3,0,83,0c7.8,0,15.4-6.9,15-15c-0.4-8.1-6.6-15-15-15c-27.7,0-55.3,0-83,0     c5,5,10,10,15,15c0-36.2,0-72.4,0-108.5c0-57.4,0-114.9,0-172.3c0-13.2,0-26.3,0-39.5c0-8.1-6.9-15-15-15c-29.8,0-59.7,0-89.5,0     c-4.3,0-8.5,0-12.8,0c-7.8,0-15.4,6.9-15,15C149.4,106.4,155.6,113.3,164,113.3L164,113.3z"/></g></g><g><g><path fill="#FFFFFF" d="M266.7,254.8c27.9,0,55.7,0,83.6,0c7.8,0,15.4-6.9,15-15c-0.4-8.1-6.6-15-15-15c-27.9,0-55.7,0-83.6,0     c-7.8,0-15.4,6.9-15,15C252.1,247.9,258.3,254.8,266.7,254.8L266.7,254.8z"/></g></g><g><g><path fill="#FFFFFF" d="M440.5,358.1c-26.2,0-52.4,0-78.6,0c-3.8,0-7.6,0-11.4,0c-8.1,0-15,6.9-15,15c0,26.1,0,52.1,0,78.2     c0,3.7,0,7.4,0,11.1c0,8.1,6.9,15,15,15c26.2,0,52.4,0,78.6,0c3.8,0,7.6,0,11.4,0c8.1,0,15-6.9,15-15c0-26.1,0-52.1,0-78.2     c0-3.7,0-7.4,0-11.1C455.5,365.2,448.6,357.7,440.5,358.1c-8.1,0.4-15,6.6-15,15c0,26.1,0,52.1,0,78.2c0,3.7,0,7.4,0,11.1     c5-5,10-10,15-15c-26.2,0-52.4,0-78.6,0c-3.8,0-7.6,0-11.4,0c5,5,10,10,15,15c0-26.1,0-52.1,0-78.2c0-3.7,0-7.4,0-11.1     c-5,5-10,10-15,15c26.2,0,52.4,0,78.6,0c3.8,0,7.6,0,11.4,0c7.8,0,15.4-6.9,15-15C455.1,364.9,448.9,358.1,440.5,358.1z"/></g></g><g><g><path fill="#FFFFFF" d="M440.5,180.6c-26.2,0-52.4,0-78.6,0c-3.8,0-7.6,0-11.4,0c-8.1,0-15,6.9-15,15c0,26.1,0,52.1,0,78.2     c0,3.7,0,7.4,0,11.1c0,8.1,6.9,15,15,15c26.2,0,52.4,0,78.6,0c3.8,0,7.6,0,11.4,0c8.1,0,15-6.9,15-15c0-26.1,0-52.1,0-78.2     c0-3.7,0-7.4,0-11.1C455.5,187.7,448.6,180.2,440.5,180.6c-8.1,0.4-15,6.6-15,15c0,26.1,0,52.1,0,78.2c0,3.7,0,7.4,0,11.1     c5-5,10-10,15-15c-26.2,0-52.4,0-78.6,0c-3.8,0-7.6,0-11.4,0c5,5,10,10,15,15c0-26.1,0-52.1,0-78.2c0-3.7,0-7.4,0-11.1     c-5,5-10,10-15,15c26.2,0,52.4,0,78.6,0c3.8,0,7.6,0,11.4,0c7.8,0,15.4-6.9,15-15C455.1,187.4,448.9,180.6,440.5,180.6z"/></g></g></g></svg>
                                 <h4 className="uppercase font-bold">
                                 WORKFLOWS MÉTIERS
                                 </h4>
-                                <p>Suivi des actions d’insertion</p>
+                                <p className="font-medium">Suivi des actions d’insertion</p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 text-white text-center flex mb-12 flex-col lg:flex-row">
@@ -220,21 +221,21 @@ class Atpt extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 INTEROPÉRABILITÉ AVEC LE SYSTÈME SAP
                                 </h4>
-                                <p>Incorporation de flux d’offres d’emploi</p>
+                                <p className="font-medium">Incorporation de flux d’offres d’emploi</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1000">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 90 112.5" ><g><path fill="#FFFFFF" d="M81.5,34.75H56.9400024c-0.5500488,0-1,0.4500122-1,1v33.8099976c0,0.5499878,0.4499512,1,1,1H81.5   c0.5599976,0,1-0.4500122,1-1V35.75C82.5,35.2000122,82.0599976,34.75,81.5,34.75z"/><path fill="#FFFFFF" d="M81.7399902,31.0299683h-8.9000244V17.7099609c0-2.5699463-2.0899658-4.6599731-4.6499634-4.6599731H14.0599976   c-2.5700073,0-4.6600342,2.0900269-4.6600342,4.6599731v37.9100342c0,2.5700073,2.0900269,4.6599731,4.6600342,4.6599731   h38.7699585v1h-8.2799683h-6.8599854H8.1399536c-2.0699463,0-3.7599487,1.6799927-3.7599487,3.75s1.6900024,3.75,3.7599487,3.75   h29.5500488h15.1399536v4.2900391c0,2.1099854,1.6800537,3.8200073,3.7700195,3.8699951   c0.0300293,0.0100098,0.0700073,0.0100098,0.0999756,0.0100098h25.0400391c2.1400146,0,3.8800049-1.7400513,3.8800049-3.8800049   V34.8999634C85.6199951,32.7600098,83.8800049,31.0299683,81.7399902,31.0299683z M44.5499878,66.0299683h-6.8599854v-2h6.8599854   V66.0299683z M52.8299561,34.8999634V54.039978H15.1499634V19.2799683h51.9400024v11.75H56.6999512   C54.5700073,31.0299683,52.8299561,32.7600098,52.8299561,34.8999634z M83.6199951,73.0700073   c0,1.039978-0.8500366,1.8800049-1.8800049,1.8800049H56.6999512c-1.0299683,0-1.8699951-0.8400269-1.8699951-1.8800049V60.2799683   V34.8999634c0-1.0299683,0.8400269-1.8699951,1.8699951-1.8699951h25.0400391c1.0299683,0,1.8800049,0.8400269,1.8800049,1.8699951   V73.0700073z"/></g></svg>
                                 <h4 className="uppercase font-bold">
                                 RESPONSIVE DESIGN
                                 </h4>
-                                <p>Adaptation de l'affichage selon la taille de l’écran</p>
+                                <p className="font-medium">Adaptation de l'affichage selon la taille de l’écran</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1200">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M50,3.25C24.22,3.25,3.25,24.22,3.25,50c0,25.78,20.97,46.75,46.75,46.75c25.78,0,46.75-20.97,46.75-46.75  C96.75,24.22,75.78,3.25,50,3.25z M50,21.33c2.88,0,5.22,2.34,5.22,5.22s-2.34,5.22-5.22,5.22s-5.22-2.34-5.22-5.22  S47.12,21.33,50,21.33z M69.81,43.04l-15.15,2.13v9.56l8.17,19.72c0.61,1.46-0.1,3.16-1.56,3.76s-3.16-0.1-3.76-1.56L50,58.53  l-7.51,18.12c-0.61,1.46-2.3,2.16-3.76,1.56s-2.16-2.3-1.56-3.76l8.17-19.72v-9.56l-15.15-2.13c-1.29-0.18-2.16-1.61-1.94-3.18  c0.22-1.57,1.46-2.7,2.75-2.52l14.63,2.06h8.76l14.63-2.06c1.29-0.18,2.53,0.95,2.75,2.52C71.98,41.43,71.1,42.86,69.81,43.04z"/></svg>
                                 <h4 className="uppercase font-bold">
                                 ACCESSIBILITÉ
                                 </h4>
-                                <p>Respect du référentiel RGAA</p>
+                                <p className="font-medium">Respect du référentiel RGAA</p>
                             </div>
                         </div>
                     </section>
@@ -296,7 +297,7 @@ class Atpt extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    <section className=" w-full h-full flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mt-24" style={{ background: '#000000e6 url( ' + bloccontact + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundRepeat:'no-repeat' }}>
+                    <section className=" w-full h-full flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mt-24" style={{ background: '#00000090 url( ' + bloccontact + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundRepeat:'no-repeat' }}>
                         <div className="max-w-5xl mx-auto flex items-center flex-col py-6" data-aos="fade-down" >
                             <br/>
                             <svg className="mx-auto block" width="80px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M64.84509,52.57434H54.45068c2.20191-7.42346,6.02661-12.75745,10.39441-13.81421Zm0,3.17908H53.63623a52.05778,52.05778,0,0,0-1.14429,9.53711H64.84509Zm0,39.24658V81.18573H54.45068C56.65259,88.60925,60.47729,93.94324,64.84509,95Zm0-26.5304H52.49194a52.05831,52.05831,0,0,0,1.14429,9.53711H64.84509ZM37.86963,65.29053H49.30945a56.25569,56.25569,0,0,1,1.04309-9.53711H40.07544A28.41134,28.41134,0,0,0,37.86963,65.29053Zm2.20581,12.71618h10.2771a56.25569,56.25569,0,0,1-1.04309-9.53711H37.86963A28.41168,28.41168,0,0,0,40.07544,78.00671ZM68.02417,65.29053h12.353a52.02563,52.02563,0,0,0-1.14429-9.53711H68.02417Zm0-26.5304V52.57434H78.41846C76.21667,45.15088,72.39185,39.81689,68.02417,38.76013ZM57.718,39.631A28.74514,28.74514,0,0,0,41.67236,52.57434h9.429C52.57581,47.14423,54.87463,42.65784,57.718,39.631Zm0,54.49811c-2.84339-3.02686-5.14221-7.51318-6.6167-12.94336h-9.429A28.74465,28.74465,0,0,0,57.718,94.12909ZM91.19678,81.18573H81.76807c-1.47461,5.43018-3.77344,9.9165-6.61682,12.94336A28.744,28.744,0,0,0,91.19678,81.18573Zm0-28.61139A28.7445,28.7445,0,0,0,75.15125,39.631c2.84338,3.02686,5.14221,7.51325,6.61682,12.94336Zm1.597,3.17908h-10.277a56.24475,56.24475,0,0,1,1.043,9.53711h11.4397A28.4081,28.4081,0,0,0,92.79382,55.75342ZM68.02417,78.00671H79.23291A52.02616,52.02616,0,0,0,80.3772,68.4696h-12.353ZM94.99951,68.4696H83.55981a56.24475,56.24475,0,0,1-1.043,9.53711h10.277A28.40844,28.40844,0,0,0,94.99951,68.4696ZM68.02417,95c4.36768-1.05676,8.1925-6.39075,10.39429-13.81427H68.02417ZM4.99951,75.85107V12.41455A7.42307,7.42307,0,0,1,12.41455,5H87.58447a7.42307,7.42307,0,0,1,7.415,7.41455v39.708a32.2972,32.2972,0,0,0-5-7.10376V22.553h-80V75.85107a2.41719,2.41719,0,0,0,2.415,2.41456H36.3584a32.05257,32.05257,0,0,0,2.41333,5H12.41455A7.42308,7.42308,0,0,1,4.99951,75.85107Zm45-59.27685A1.51083,1.51083,0,0,0,51.51025,18.085H84.489a1.5107,1.5107,0,0,0,1.5105-1.51074V13.59546A1.5105,1.5105,0,0,0,84.489,12.085H51.51025a1.51062,1.51062,0,0,0-1.51074,1.5105ZM35.61658,15.085a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,35.61658,15.085Zm-11,0a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,24.61658,15.085Zm-11,0a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,13.61658,15.085Z"/></svg>

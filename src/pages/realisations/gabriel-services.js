@@ -5,7 +5,7 @@ import Layout from "../../components/layout";
 import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
-
+import "../../scss/barre.scss";
 
 import logolinkweb from "../../images/logo-linkweb.png";
 import Bg from "../../images/bg-gs.jpg";
@@ -15,6 +15,14 @@ import mockup2 from "../../images/gs-mockup.jpg";
 import imac from "../../images/mockup-gs.jpg";
 import bloccontact from '../../images/gs-contact.jpg';
 import logo from '../../images/logo-gs.png';
+import logosia from '../../images/logo-sia.png';
+import logoatpt from '../../images/logo-atpt.png';
+import logosdis from '../../images/logo-sdis47-real.png';
+import logofaivre from '../../images/faivre-creations.png';
+import logogabrielservices from '../../images/logo-gs.png';
+import logoledil from '../../images/logo-ledil.png';
+import logocsd from '../../images/logo-csd.png';
+
 
 
 class gabrielservices extends React.Component {
@@ -54,16 +62,38 @@ class gabrielservices extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#000000be url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#00000090 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                        <div>
                             <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century mt-24 font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
+                            <a href="/agence-de-communication-agen-47-toulouse-31/" className="mt-24 century text-sm sm:text-md text-center text-white mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir aux réalisations</a>
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                                 GABRIEL SERVICES
                             </h1>
-                            <h2 className="italic text-white font-normal text-xl">Ramonage et bois de chauffage</h2>
+                            <h2 className="italic text-white text-center font-normal text-xl">Ramonage et bois de chauffage</h2>
                             <h3 data-aos="fade-up" className="italic text-center font-normal text-lg sm:text-2xl text-white mt-12">Prestataire de services certifié dans le ramonage et le bois de chauffage, pour répondre aux besoins des particuliers aux abords de Toulouse. </h3>
                             <br/>
-                            <a className="mb-12 block" data-aos="fade-down" href="/realisations/gabriel-services/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                            <a className="mb-12 block" data-aos="fade-down" href="/realisations/gabriel-services/#start"><svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                        </div>
+                        <li className="hidden lg:block toggleable">
+                                <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
+                                    <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
+                                        <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2 font-bold" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
+                                            <p style={{transform:'rotate(180deg'}}>Nos réalisations</p>
+                                        </div>
+                                    </label>
+                                <div role="toggle" className="toggle-input megamenu fixed h-auto z-40 p-2 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800" style={{background:'#ee8a1e94', maxWidth:'100px', borderRadius:'15px'}}>
+                                    <div className="flex flex-col py-6" style={{overflow:'hidden'}}>
+                                        <Link to="/realisations/sia/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosia} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/atpt/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoatpt} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/sdis47/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosdis} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/groupe-faivre-environnement/"><img className="zoom py-3 w-3/4 mx-auto block" src={logofaivre} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/gabriel-services/"><img className="zoom py-3 w-3/4 mx-auto block" src={logogabrielservices} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/ledilimmo/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoledil} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
+                                    </div>
+                                </div>
+                            </li>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
@@ -136,7 +166,7 @@ class gabrielservices extends React.Component {
                             </div>
                         </div>
                     </section>
-                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#000000eb url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
+                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#00000090 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
                             <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-or">/</span>UN SITE WEB BÂTI POUR RÉPONDRE AUX BESOINS DES UTILISATEURS</h2>
                         </div>
@@ -146,21 +176,21 @@ class gabrielservices extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 PERSONNALISATION DE L'EXPÉRIENCE
                                 </h4>
-                                <p>Information complète sur les possibilités offertes</p>
+                                <p className="font-medium">Information complète sur les possibilités offertes</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="400">
                             <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M88.4248,75.47571V73.083a8.02771,8.02771,0,0,0-8.01855-8.01856H76.2334V52.26874A8.42254,8.42254,0,1,0,66.16852,42.20361H51.8501V24.52423a8.42511,8.42511,0,1,0-3.7002,0V42.20361H33.83154A8.42253,8.42253,0,1,0,23.7666,52.26874V65.06445H19.59375A8.02771,8.02771,0,0,0,11.5752,73.083v2.3927a8.42519,8.42519,0,1,0,3.70019.00012V73.083a4.323,4.323,0,0,1,4.31836-4.31836h12.0459A4.32341,4.32341,0,0,1,35.9585,73.083v2.3927a8.42519,8.42519,0,1,0,3.70019.00012V73.083a8.02782,8.02782,0,0,0-8.019-8.01856H27.4668V52.26874a8.428,8.428,0,0,0,6.36487-6.36493H66.1684a8.42794,8.42794,0,0,0,6.3648,6.36493V65.06445H68.36035a8.02782,8.02782,0,0,0-8.019,8.01856v2.39282a8.42509,8.42509,0,1,0,3.70019-.00012V73.083a4.32341,4.32341,0,0,1,4.31885-4.31836h12.0459A4.323,4.323,0,0,1,84.72461,73.083v2.39282a8.425,8.425,0,1,0,3.70019-.00012Z"/></svg>
                                 <h4 className="uppercase font-bold">
                                 DÉFINITION DE L'ARBORESCENCE
                                 </h4>
-                                <p>Définition de l'architecture du site en fonction des objectifs</p>
+                                <p className="font-medium">Définition de l'architecture du site en fonction des objectifs</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="600">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 512 640"><g><g><polygon fill="#FFFFFF" points="190.334,389.092 190.334,485.631 280.327,485.631 280.327,337.613 190.334,337.613   "/><path fill="#FFFFFF" d="M312.9,160.176l35.937,24.904l2.205-157.477L204.361,84.949l6.622,4.586c8.802,6.092,17.612,12.189,26.414,18.305    l0.457,0.369c7.493,7.039,9.853,16.436,6.827,27.176c-9.121,32.373-65.205,73.002-97.823,94.34    c-38.014,24.867-80.876,47.551-104.824,55.869c7.667,3.301,16.798,4.969,27.267,4.969c33.801,0.002,82.538-17.668,137.231-49.758    c49.854-29.248,88.864-60.924,104.014-77.977L312.9,160.176z"/><rect fill="#FFFFFF" x="92.341" y="397.092" width="89.993" height="88.539"/><polygon fill="#FFFFFF" points="288.327,329.613 288.327,485.631 378.321,485.631 378.321,254.771 288.327,254.771   "/><polygon fill="#FFFFFF" points="476.314,157.502 386.321,157.502 386.321,246.771 386.321,485.631 476.314,485.631   "/></g></g></svg>
                                 <h4 className="uppercase font-bold">
                                     STRATÉGIE DE RÉFÉRENCEMENT SEO
                                 </h4>
-                                <p>Création de contenus optimisés</p>
+                                <p className="font-medium">Création de contenus optimisés</p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 text-white text-center flex mb-12 flex-col lg:flex-row">
@@ -169,21 +199,21 @@ class gabrielservices extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 MISE EN AVANT DES ZONES DE LIVRAISON
                                 </h4>
-                                <p>Mise en avant de l'information par un système de zonage</p>
+                                <p className="font-medium">Mise en avant de l'information par un système de zonage</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1000">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 90 112.5" ><g><path fill="#FFFFFF" d="M81.5,34.75H56.9400024c-0.5500488,0-1,0.4500122-1,1v33.8099976c0,0.5499878,0.4499512,1,1,1H81.5   c0.5599976,0,1-0.4500122,1-1V35.75C82.5,35.2000122,82.0599976,34.75,81.5,34.75z"/><path fill="#FFFFFF" d="M81.7399902,31.0299683h-8.9000244V17.7099609c0-2.5699463-2.0899658-4.6599731-4.6499634-4.6599731H14.0599976   c-2.5700073,0-4.6600342,2.0900269-4.6600342,4.6599731v37.9100342c0,2.5700073,2.0900269,4.6599731,4.6600342,4.6599731   h38.7699585v1h-8.2799683h-6.8599854H8.1399536c-2.0699463,0-3.7599487,1.6799927-3.7599487,3.75s1.6900024,3.75,3.7599487,3.75   h29.5500488h15.1399536v4.2900391c0,2.1099854,1.6800537,3.8200073,3.7700195,3.8699951   c0.0300293,0.0100098,0.0700073,0.0100098,0.0999756,0.0100098h25.0400391c2.1400146,0,3.8800049-1.7400513,3.8800049-3.8800049   V34.8999634C85.6199951,32.7600098,83.8800049,31.0299683,81.7399902,31.0299683z M44.5499878,66.0299683h-6.8599854v-2h6.8599854   V66.0299683z M52.8299561,34.8999634V54.039978H15.1499634V19.2799683h51.9400024v11.75H56.6999512   C54.5700073,31.0299683,52.8299561,32.7600098,52.8299561,34.8999634z M83.6199951,73.0700073   c0,1.039978-0.8500366,1.8800049-1.8800049,1.8800049H56.6999512c-1.0299683,0-1.8699951-0.8400269-1.8699951-1.8800049V60.2799683   V34.8999634c0-1.0299683,0.8400269-1.8699951,1.8699951-1.8699951h25.0400391c1.0299683,0,1.8800049,0.8400269,1.8800049,1.8699951   V73.0700073z"/></g></svg>
                                 <h4 className="uppercase font-bold">
                                 RESPONSIVE DESIGN
                                 </h4>
-                                <p>Interface adaptée à l'écran d'affichage</p>
+                                <p className="font-medium">Interface adaptée à l'écran d'affichage</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1200">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M57.86981,73.99984H53v-3h4.13586a14.789,14.789,0,0,1,0-4H53v-3h4.87a14.97472,14.97472,0,0,1,6.61926-7.957,15.17156,15.17156,0,0,1,14.9624.00585L77.437,59.50374a11.09939,11.09939,0,0,0-10.94238,0,10.94877,10.94877,0,0,0-4.25763,4.4961H72v3H61.20819a9.71207,9.71207,0,0,0-.00006,4H72v3H62.23633a10.92563,10.92563,0,0,0,4.249,4.49023,11.08275,11.08275,0,0,0,10.95166.00586L79.45166,81.951a14.955,14.955,0,0,1-21.58185-7.95117ZM94.37714,63.36141A26.00823,26.00823,0,0,1,46.11377,81.32662c-.26465-.48938-.50885-.99072-.74237-1.49817A25.9885,25.9885,0,0,1,89.0556,52.471c.02314.02807.04438.05762.06739.08569a26.0949,26.0949,0,0,1,2.8211,4.22925c.26813.50159.51685,1.01465.75232,1.53516.24841.54907.4834,1.10522.69391,1.67358.24145.65186.4519,1.31824.6413,1.99341Q94.22223,62.6678,94.37714,63.36141Zm-45.20435,15.168A21.997,21.997,0,1,0,47.00006,69,22.0276,22.0276,0,0,0,49.17279,78.52938ZM38.00006,69a30.79916,30.79916,0,0,0,3.98651,15.1803,4.35808,4.35808,0,0,1-3.80945-.25769L7.19275,66.03389a4.38406,4.38406,0,0,1-1.60462-5.98864l26.158-45.30677a4.38375,4.38375,0,0,1,2.54529-2.00964L59.68762,5.16512a3.93911,3.93911,0,0,1,4.95593,2.86121L70.79126,33.8022a4.38362,4.38362,0,0,1-.46771,3.209l-.58173,1.00757c-.24737-.00586-.493-.0188-.74176-.0188A31.035,31.035,0,0,0,38.00006,69Zm14.2497-45.23413A5.81862,5.81862,0,1,0,50.12,15.81746,5.81854,5.81854,0,0,0,52.24976,23.76583Z"/></svg>
                                 <h4 className="uppercase font-bold">
                                 TRANSPARENCE SUR LES TARIFS
                                 </h4>
-                                <p>Mise en place de tableaux clairs et transparents</p>
+                                <p className="font-medium">Mise en place de tableaux clairs et transparents</p>
                             </div>
                         </div>
                     </section>
@@ -245,7 +275,7 @@ class gabrielservices extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    <section className=" w-full h-full flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mt-24" style={{ background: '#000000e6 url( ' + bloccontact + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundRepeat:'no-repeat' }}>
+                    <section className=" w-full h-full flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mt-24" style={{ background: '#00000090 url( ' + bloccontact + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundRepeat:'no-repeat' }}>
                         <div className="max-w-5xl mx-auto flex items-center flex-col py-6" data-aos="fade-down" >
                             <br/>
                             <svg className="mx-auto block" width="80px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M64.84509,52.57434H54.45068c2.20191-7.42346,6.02661-12.75745,10.39441-13.81421Zm0,3.17908H53.63623a52.05778,52.05778,0,0,0-1.14429,9.53711H64.84509Zm0,39.24658V81.18573H54.45068C56.65259,88.60925,60.47729,93.94324,64.84509,95Zm0-26.5304H52.49194a52.05831,52.05831,0,0,0,1.14429,9.53711H64.84509ZM37.86963,65.29053H49.30945a56.25569,56.25569,0,0,1,1.04309-9.53711H40.07544A28.41134,28.41134,0,0,0,37.86963,65.29053Zm2.20581,12.71618h10.2771a56.25569,56.25569,0,0,1-1.04309-9.53711H37.86963A28.41168,28.41168,0,0,0,40.07544,78.00671ZM68.02417,65.29053h12.353a52.02563,52.02563,0,0,0-1.14429-9.53711H68.02417Zm0-26.5304V52.57434H78.41846C76.21667,45.15088,72.39185,39.81689,68.02417,38.76013ZM57.718,39.631A28.74514,28.74514,0,0,0,41.67236,52.57434h9.429C52.57581,47.14423,54.87463,42.65784,57.718,39.631Zm0,54.49811c-2.84339-3.02686-5.14221-7.51318-6.6167-12.94336h-9.429A28.74465,28.74465,0,0,0,57.718,94.12909ZM91.19678,81.18573H81.76807c-1.47461,5.43018-3.77344,9.9165-6.61682,12.94336A28.744,28.744,0,0,0,91.19678,81.18573Zm0-28.61139A28.7445,28.7445,0,0,0,75.15125,39.631c2.84338,3.02686,5.14221,7.51325,6.61682,12.94336Zm1.597,3.17908h-10.277a56.24475,56.24475,0,0,1,1.043,9.53711h11.4397A28.4081,28.4081,0,0,0,92.79382,55.75342ZM68.02417,78.00671H79.23291A52.02616,52.02616,0,0,0,80.3772,68.4696h-12.353ZM94.99951,68.4696H83.55981a56.24475,56.24475,0,0,1-1.043,9.53711h10.277A28.40844,28.40844,0,0,0,94.99951,68.4696ZM68.02417,95c4.36768-1.05676,8.1925-6.39075,10.39429-13.81427H68.02417ZM4.99951,75.85107V12.41455A7.42307,7.42307,0,0,1,12.41455,5H87.58447a7.42307,7.42307,0,0,1,7.415,7.41455v39.708a32.2972,32.2972,0,0,0-5-7.10376V22.553h-80V75.85107a2.41719,2.41719,0,0,0,2.415,2.41456H36.3584a32.05257,32.05257,0,0,0,2.41333,5H12.41455A7.42308,7.42308,0,0,1,4.99951,75.85107Zm45-59.27685A1.51083,1.51083,0,0,0,51.51025,18.085H84.489a1.5107,1.5107,0,0,0,1.5105-1.51074V13.59546A1.5105,1.5105,0,0,0,84.489,12.085H51.51025a1.51062,1.51062,0,0,0-1.51074,1.5105ZM35.61658,15.085a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,35.61658,15.085Zm-11,0a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,24.61658,15.085Zm-11,0a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,13.61658,15.085Z"/></svg>                            

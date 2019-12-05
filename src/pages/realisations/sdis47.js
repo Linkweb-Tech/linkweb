@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
+import "../../scss/barre.scss";
 
 
 import logolinkweb from "../../images/logo-linkweb.png";
@@ -15,6 +16,14 @@ import drupal from "../../images/sdis-responsive.jpg";
 import imac from "../../images/Mockupsdis.jpg";
 import bloccontact from '../../images/sdis-contact.jpg';
 import logo from '../../images/logo-sdis47-real.png';
+import logosia from '../../images/logo-sia.png';
+import logoatpt from '../../images/logo-atpt.png';
+import logosdis from '../../images/logo-sdis47-real.png';
+import logofaivre from '../../images/faivre-creations.png';
+import logogabrielservices from '../../images/logo-gs.png';
+import logoledil from '../../images/logo-ledil.png';
+import logocsd from '../../images/logo-csd.png';
+
 
 
 class sdis47 extends React.Component {
@@ -54,16 +63,38 @@ class sdis47 extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#000000e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
-                            <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#00000090 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                        <div>
+                                <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                             <br/>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold pt-32 text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center text-white">
+                            <a href="/agence-de-communication-agen-47-toulouse-31/" className="mt-24 font-normal century text-sm sm:text-md text-center text-white mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir aux réalisations</a>
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold pt-16 text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center text-white">
                                 SDIS47
                             </h1>
                             <h2 className="text-md text-center lg:text-xl text-white font-normal">Service Départemental d'Incendie et de secours de Lot-et-Garonne</h2>
                             <h3 data-aos="fade-up" className="italic font-normal text-center text-lg sm:text-2xl text-white mt-12 mb-4">Développer la nouvelle présence online du SDIS 47 en apportant une zone privative pour optimiser la communication interne de l’organisme.</h3>
                             <br/>
-                            <a className="pb-16 block" data-aos="fade-down" href="/realisations/sdis47/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                            <a className="pb-16 block" data-aos="fade-down" href="/realisations/sdis47/#start"><svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                        </div>
+                        <li className="hidden lg:block toggleable">
+                                <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
+                                    <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
+                                        <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2 font-bold" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
+                                            <p style={{transform:'rotate(180deg'}}>Nos réalisations</p>
+                                        </div>
+                                    </label>
+                                <div role="toggle" className="toggle-input megamenu fixed h-auto z-40 p-2 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800" style={{background:'#b71c3094', maxWidth:'100px', borderRadius:'15px'}}>
+                                    <div className="flex flex-col py-6" style={{overflow:'hidden'}}>
+                                        <Link to="/realisations/sia/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosia} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/atpt/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoatpt} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/sdis47/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosdis} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/groupe-faivre-environnement/"><img className="zoom py-3 w-3/4 mx-auto block" src={logofaivre} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/gabriel-services/"><img className="zoom py-3 w-3/4 mx-auto block" src={logogabrielservices} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/ledilimmo/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoledil} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
+                                    </div>
+                                </div>
+                            </li>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">
@@ -142,7 +173,7 @@ class sdis47 extends React.Component {
                             </div>
                         </div>
                     </section>
-                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#000000e6 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
+                    <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background:'#00000090 url('+ bgbloc +')', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply'}}>
                         <div>
                             <h2 className="font-normal text-3xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-or">/</span>une interface intuitive au service de l'accès à l'information pour tous</h2>
                         </div>
@@ -152,21 +183,21 @@ class sdis47 extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 ACCESSIBILITÉ
                                 </h4>
-                                <p>Respect du référentiel RGAA</p>
+                                <p className="font-medium">Respect du référentiel RGAA</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="400">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 90 112.5" ><g><path fill="#FFFFFF" d="M81.5,34.75H56.9400024c-0.5500488,0-1,0.4500122-1,1v33.8099976c0,0.5499878,0.4499512,1,1,1H81.5   c0.5599976,0,1-0.4500122,1-1V35.75C82.5,35.2000122,82.0599976,34.75,81.5,34.75z"/><path fill="#FFFFFF" d="M81.7399902,31.0299683h-8.9000244V17.7099609c0-2.5699463-2.0899658-4.6599731-4.6499634-4.6599731H14.0599976   c-2.5700073,0-4.6600342,2.0900269-4.6600342,4.6599731v37.9100342c0,2.5700073,2.0900269,4.6599731,4.6600342,4.6599731   h38.7699585v1h-8.2799683h-6.8599854H8.1399536c-2.0699463,0-3.7599487,1.6799927-3.7599487,3.75s1.6900024,3.75,3.7599487,3.75   h29.5500488h15.1399536v4.2900391c0,2.1099854,1.6800537,3.8200073,3.7700195,3.8699951   c0.0300293,0.0100098,0.0700073,0.0100098,0.0999756,0.0100098h25.0400391c2.1400146,0,3.8800049-1.7400513,3.8800049-3.8800049   V34.8999634C85.6199951,32.7600098,83.8800049,31.0299683,81.7399902,31.0299683z M44.5499878,66.0299683h-6.8599854v-2h6.8599854   V66.0299683z M52.8299561,34.8999634V54.039978H15.1499634V19.2799683h51.9400024v11.75H56.6999512   C54.5700073,31.0299683,52.8299561,32.7600098,52.8299561,34.8999634z M83.6199951,73.0700073   c0,1.039978-0.8500366,1.8800049-1.8800049,1.8800049H56.6999512c-1.0299683,0-1.8699951-0.8400269-1.8699951-1.8800049V60.2799683   V34.8999634c0-1.0299683,0.8400269-1.8699951,1.8699951-1.8699951h25.0400391c1.0299683,0,1.8800049,0.8400269,1.8800049,1.8699951   V73.0700073z"/></g></svg>
                                 <h4 className="uppercase font-bold">
                                 RESPONSIVE DESIGN
                                 </h4>
-                                <p>Support des interactions «Touch »</p>
+                                <p className="font-medium">Support des interactions «Touch »</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="600">
                                 <svg className="mx-auto block" width="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125" ><g><g><path fill="#FFFFFF" d="M87.503,28.599h-53.21c-4.141,0-7.497-3.356-7.497-7.496c0-4.141,3.356-7.497,7.497-7.497h53.21    c4.14,0,7.497,3.356,7.497,7.497C95,25.243,91.643,28.599,87.503,28.599z"/></g><g><path fill="#FFFFFF" d="M12.496,28.596c-1.973,0-3.904-0.797-5.301-2.194C5.797,25.01,5,23.073,5,21.1s0.798-3.904,2.195-5.295    c1.397-1.397,3.328-2.201,5.301-2.201c1.973,0,3.904,0.804,5.302,2.201c1.391,1.392,2.195,3.322,2.195,5.295    s-0.804,3.91-2.195,5.302C16.4,27.799,14.469,28.596,12.496,28.596z"/></g></g><g><g><path fill="#FFFFFF" d="M87.503,57.496h-53.21c-4.141,0-7.497-3.355-7.497-7.496c0-4.14,3.356-7.496,7.497-7.496h53.21    C91.643,42.504,95,45.861,95,50C95,54.141,91.643,57.496,87.503,57.496z"/></g><g><path fill="#FFFFFF" d="M12.496,57.496c-1.973,0-3.904-0.797-5.301-2.195C5.797,53.904,5,51.973,5,50    c0-1.974,0.798-3.904,2.195-5.302c1.391-1.392,3.328-2.194,5.301-2.194c1.973,0,3.904,0.803,5.302,2.194    c1.391,1.397,2.195,3.328,2.195,5.302c0,1.972-0.804,3.904-2.195,5.3C16.4,56.699,14.469,57.496,12.496,57.496z"/></g></g><g><g><path fill="#FFFFFF" d="M87.503,86.395h-53.21c-4.141,0-7.497-3.357-7.497-7.496c0-4.141,3.356-7.496,7.497-7.496h53.21    c4.14,0,7.497,3.355,7.497,7.496C95,83.037,91.643,86.395,87.503,86.395z"/></g><g><path fill="#FFFFFF" d="M12.496,86.396c-1.973,0-3.904-0.803-5.301-2.195C5.797,82.805,5,80.873,5,78.9s0.798-3.91,2.195-5.301    c1.397-1.398,3.328-2.195,5.301-2.195c1.973,0,3.904,0.797,5.302,2.195c1.391,1.391,2.195,3.328,2.195,5.301    s-0.804,3.904-2.195,5.301C16.4,85.594,14.469,86.396,12.496,86.396z"/></g></g></svg>
                                 <h4 className="uppercase font-bold">
                                 CONCEPTION ÉDITORIALE
                                 </h4>
-                                <p>Élaboration de l’arborescence</p>
+                                <p className="font-medium">Élaboration de l’arborescence</p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 text-white text-center flex mb-12 flex-col lg:flex-row">
@@ -175,21 +206,21 @@ class sdis47 extends React.Component {
                                 <h4 className="uppercase font-bold">
                                 ESPACE COLLABORATIF
                                 </h4>
-                                <p>Partage de données internes</p>
+                                <p className="font-medium">Partage de données internes</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1000">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 512 640" ><path fill="#FFFFFF" d="M181.8,200.734a8,8,0,0,0,11.314,11.313,89.035,89.035,0,0,1,125.768,0A8,8,0,0,0,330.2,200.734,105.051,105.051,0,0,0,181.8,200.734Z"/><path fill="#FFFFFF" d="M204.1,223.028a8,8,0,0,0,11.314,11.314,57.466,57.466,0,0,1,81.178,0A8,8,0,0,0,307.9,223.028,73.486,73.486,0,0,0,204.1,223.028Z"/><path fill="#FFFFFF" d="M229.382,248.313A8,8,0,1,0,240.7,259.627a21.667,21.667,0,0,1,30.608,0,8,8,0,1,0,11.314-11.314A37.687,37.687,0,0,0,229.382,248.313Z"/><path fill="#FFFFFF" d="M454.575,65H57.425C41.986,65,29,77.385,29,92.824V375.792C29,391.231,41.986,404,57.425,404H188v27H139.542a8,8,0,0,0,0,16h232.4a8,8,0,0,0,0-16H324V404H454.575C470.014,404,483,391.231,483,375.792V92.824C483,77.385,470.014,65,454.575,65ZM45,92.824C45,86.208,50.809,81,57.425,81h397.15C461.191,81,467,86.208,467,92.824V318H45ZM308,431H204V404H308Zm146.575-43H57.425A12.563,12.563,0,0,1,45,375.792V334H467v41.792A12.563,12.563,0,0,1,454.575,388Z"/><path fill="#FFFFFF" d="M279,348H233a8,8,0,0,0,0,16h46a8,8,0,0,0,0-16Z"/></svg>
                                 <h4 className="uppercase font-bold">
                                 DÉMATÉRIALISATION
                                 </h4>
-                                <p>Création d’un module interne de réservation</p>
+                                <p className="font-medium">Création d’un module interne de réservation</p>
                             </div>
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="1200">
                                 <svg className="mx-auto block" width="60px" viewBox="0 0 160 200"><g><path fill="#FFFFFF" d="M98.6,35c2,0,3.7,1.5,4.1,3.4h6c-0.4-5.2-4.8-9.4-10.1-9.4H71.7v6H98.6z"/><ellipse fill="#FFFFFF" cx="73.8" cy="130.2" rx="4" ry="4"/><path fill="#FFFFFF" d="M58.8,15.5h-45C9,15.5,5,19.5,5,24.3v26.3c0,4.9,4,8.8,8.8,8.8h30.8l8.3,9c0.6,0.6,1.4,1,2.2,1c0.4,0,0.7-0.1,1.1-0.2   c1.2-0.4,1.9-1.6,1.9-2.8v-6.9h0.7c4.9,0,8.8-3.9,8.8-8.8V24.3C67.7,19.5,63.7,15.5,58.8,15.5z M61.7,50.6c0,1.5-1.3,2.8-2.8,2.8   h-3.7c-1.7,0-3,1.3-3,3v2.3l-4-4.3c-0.6-0.6-1.4-1-2.2-1H13.8c-1.6,0-2.8-1.3-2.8-2.8V24.3c0-1.5,1.3-2.8,2.8-2.8h45   c1.6,0,2.8,1.3,2.8,2.8V50.6z"/><path fill="#FFFFFF" d="M48.1,32.8H43c-0.3,0-0.6,0.1-0.8,0.2l-0.5-0.5c-0.6-0.6-1-1.2-1.3-2c0,0,0,0,0,0c-0.3-0.7-0.5-1.5-0.5-2.3l0-2   c0-0.7-0.4-1.4-1-1.7l-0.7-0.4c-0.3-0.2-0.7-0.4-1.1-0.5c-1.2-0.3-2.6,0.1-3.5,1.1c-0.9,0.9-1.3,2-1.4,3.2l0,0.2   c-0.1,1.5,0,2.9,0.2,4.4l-5.1,0c0,0,0,0,0,0c-0.7,0-1.3,0.2-1.9,0.5c-1.3,0.7-2.1,2.1-2.1,3.6c0,0.3,0,0.8,1.8,8.8   c0.2,1.1,0.8,2,1.5,2.8c1.1,1.1,2.6,1.7,4.1,1.7h8.8c0.6,0,1.2-0.1,1.7-0.2c0.3,0.7,1,1.1,1.8,1.1h5.1c1.1,0,2-0.9,2-2v-14   C50.1,33.7,49.2,32.8,48.1,32.8z M30.7,45.9c-0.5,0-0.9-0.2-1.2-0.5c-0.2-0.2-0.4-0.5-0.5-0.8c-1.1-4.7-1.6-7.3-1.7-8   c0,0,0,0,0.1-0.1l7.5,0h0c0.6,0,1.2-0.3,1.5-0.7c0.4-0.5,0.5-1.1,0.4-1.6L36.6,33c-0.1-0.7-0.2-1.4-0.3-2.1   c0.1,0.4,0.2,0.7,0.4,1.1c0,0,0,0,0,0c0.5,1.2,1.2,2.3,2.2,3.3l2.2,2.2v8.2c-0.5,0.1-1,0.2-1.5,0.2H30.7z"/><path fill="#FFFFFF" d="M144.5,42.4H86.3c-5.8,0-10.5,4.7-10.5,10.5v34c0,5.8,4.7,10.5,10.5,10.5h1.8v9.9c0,1.2,0.8,2.3,1.9,2.8   c0.4,0.1,0.7,0.2,1.1,0.2c0.8,0,1.6-0.3,2.2-1l11-11.9h40.2c5.8,0,10.5-4.7,10.5-10.5v-34C155,47.1,150.3,42.4,144.5,42.4z    M149,86.9c0,2.5-2,4.5-4.5,4.5H103c-0.8,0-1.6,0.4-2.2,1l-6.6,7.2v-5.2c0-1.7-1.3-3-3-3h-4.8c-2.5,0-4.5-2-4.5-4.5v-34   c0-2.5,2-4.5,4.5-4.5h58.2c2.5,0,4.5,2,4.5,4.5V86.9z"/><path fill="#FFFFFF" d="M129.2,64.6c-0.7-0.4-1.4-0.6-2.2-0.6l-7.3,0c0.3-2.1,0.4-4.2,0.4-6.3l0-0.2c-0.1-1.4-0.6-2.8-1.7-3.8   c-1-1.1-2.6-1.5-4-1.2c-0.5,0.1-0.9,0.3-1.3,0.5l-0.9,0.5c-0.6,0.4-1,1-1,1.7l0,2.5c0,1.1-0.2,2.2-0.6,3.2c0,0,0,0,0,0   c-0.4,1-1,2-1.8,2.8l-1,1c-0.3-0.2-0.7-0.4-1.1-0.4h-6.6c-1.1,0-2,0.9-2,2v18.1c0,1.1,0.9,2,2,2h6.6c0.9,0,1.7-0.7,1.9-1.5   c0.9,0.2,1.7,0.3,2.6,0.3h11.4c1.8,0,3.6-0.7,4.9-2c0.9-0.9,1.5-2.1,1.8-3.3c2.3-10.3,2.3-11,2.3-11.3   C131.7,67,130.8,65.5,129.2,64.6z M125.5,79.2c-0.1,0.5-0.4,1-0.8,1.4c-0.5,0.5-1.3,0.8-2,0.8h-11.4c-0.9,0-1.7-0.1-2.6-0.4V69.7   l3-3c1.2-1.2,2.1-2.5,2.7-4c0,0,0,0,0,0c0.6-1.5,0.9-3.1,0.9-4.8l0-1.4c0,0,0.1,0,0.2,0.1c0.3,0.3,0.5,0.8,0.5,1.2l0,0.2   c0.1,2.1-0.1,4.2-0.4,6.3l-0.3,1.5c-0.1,0.6,0,1.2,0.4,1.6c0.4,0.5,0.9,0.7,1.5,0.7h0l9.7,0c0.1,0,0.2,0,0.3,0.1   c0.2,0.1,0.4,0.3,0.4,0.6C127.6,69.3,127,72.4,125.5,79.2z"/><path fill="#FFFFFF" d="M102.8,104.9v12.4H44.9V65.6l-2-2.2h-4v70.9c0,5.6,4.6,10.2,10.2,10.2h49.6c5.6,0,10.2-4.6,10.2-10.2v-32.9H106   L102.8,104.9z M102.8,134.3c0,2.3-1.9,4.2-4.2,4.2H49c-2.3,0-4.2-1.9-4.2-4.2v-13h57.9V134.3z"/></g></svg>
                                 <h4 className="uppercase font-bold">
                                 RÉSEAUX SOCIAUX
                                 </h4>
-                                <p>Remontée des publications de Twitter</p>
+                                <p className="font-medium">Remontée des publications de Twitter</p>
                             </div>
                         </div>
                     </section>
@@ -251,7 +282,7 @@ class sdis47 extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    <section className=" w-full h-full flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mt-24" style={{ background: '#000000e6 url( ' + bloccontact + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundRepeat:'no-repeat' }}>
+                    <section className=" w-full h-full flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mt-24" style={{ background: '#00000090 url( ' + bloccontact + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundRepeat:'no-repeat' }}>
                         <div className="max-w-5xl mx-auto flex items-center flex-col py-6" data-aos="fade-down" >
                             <br/>
                             <svg className="mx-auto block" width="80px" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M64.84509,52.57434H54.45068c2.20191-7.42346,6.02661-12.75745,10.39441-13.81421Zm0,3.17908H53.63623a52.05778,52.05778,0,0,0-1.14429,9.53711H64.84509Zm0,39.24658V81.18573H54.45068C56.65259,88.60925,60.47729,93.94324,64.84509,95Zm0-26.5304H52.49194a52.05831,52.05831,0,0,0,1.14429,9.53711H64.84509ZM37.86963,65.29053H49.30945a56.25569,56.25569,0,0,1,1.04309-9.53711H40.07544A28.41134,28.41134,0,0,0,37.86963,65.29053Zm2.20581,12.71618h10.2771a56.25569,56.25569,0,0,1-1.04309-9.53711H37.86963A28.41168,28.41168,0,0,0,40.07544,78.00671ZM68.02417,65.29053h12.353a52.02563,52.02563,0,0,0-1.14429-9.53711H68.02417Zm0-26.5304V52.57434H78.41846C76.21667,45.15088,72.39185,39.81689,68.02417,38.76013ZM57.718,39.631A28.74514,28.74514,0,0,0,41.67236,52.57434h9.429C52.57581,47.14423,54.87463,42.65784,57.718,39.631Zm0,54.49811c-2.84339-3.02686-5.14221-7.51318-6.6167-12.94336h-9.429A28.74465,28.74465,0,0,0,57.718,94.12909ZM91.19678,81.18573H81.76807c-1.47461,5.43018-3.77344,9.9165-6.61682,12.94336A28.744,28.744,0,0,0,91.19678,81.18573Zm0-28.61139A28.7445,28.7445,0,0,0,75.15125,39.631c2.84338,3.02686,5.14221,7.51325,6.61682,12.94336Zm1.597,3.17908h-10.277a56.24475,56.24475,0,0,1,1.043,9.53711h11.4397A28.4081,28.4081,0,0,0,92.79382,55.75342ZM68.02417,78.00671H79.23291A52.02616,52.02616,0,0,0,80.3772,68.4696h-12.353ZM94.99951,68.4696H83.55981a56.24475,56.24475,0,0,1-1.043,9.53711h10.277A28.40844,28.40844,0,0,0,94.99951,68.4696ZM68.02417,95c4.36768-1.05676,8.1925-6.39075,10.39429-13.81427H68.02417ZM4.99951,75.85107V12.41455A7.42307,7.42307,0,0,1,12.41455,5H87.58447a7.42307,7.42307,0,0,1,7.415,7.41455v39.708a32.2972,32.2972,0,0,0-5-7.10376V22.553h-80V75.85107a2.41719,2.41719,0,0,0,2.415,2.41456H36.3584a32.05257,32.05257,0,0,0,2.41333,5H12.41455A7.42308,7.42308,0,0,1,4.99951,75.85107Zm45-59.27685A1.51083,1.51083,0,0,0,51.51025,18.085H84.489a1.5107,1.5107,0,0,0,1.5105-1.51074V13.59546A1.5105,1.5105,0,0,0,84.489,12.085H51.51025a1.51062,1.51062,0,0,0-1.51074,1.5105ZM35.61658,15.085a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,35.61658,15.085Zm-11,0a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,24.61658,15.085Zm-11,0a3,3,0,1,0,3-3A3.00007,3.00007,0,0,0,13.61658,15.085Z"/></svg>                            

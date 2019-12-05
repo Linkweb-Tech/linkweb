@@ -23,6 +23,7 @@ module.exports = {
       darkgrey: "#3e3e3e",
       gris: "#f2f2f2",
       light: "#e7f7ff",
+      bleusav: "#068FAC",
       vert: "#39ac4a",
       orange: "#ee8a1e",
       rouge:"#b71c30",

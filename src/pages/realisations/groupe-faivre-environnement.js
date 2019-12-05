@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
+import "../../scss/barre.scss";
 
 
 import logolinkweb from "../../images/logo-linkweb.png";
@@ -17,6 +18,14 @@ import bloccontact from '../../images/faivre-contact.jpg';
 import logo from '../../images/cypiere.png';
 import logo1 from '../../images/faivre-creations.png';
 import logo2 from '../../images/cypiere-paysages.png';
+import logosia from '../../images/logo-sia.png';
+import logoatpt from '../../images/logo-atpt.png';
+import logosdis from '../../images/logo-sdis47-real.png';
+import logofaivre from '../../images/faivre-creations.png';
+import logogabrielservices from '../../images/logo-gs.png';
+import logoledil from '../../images/logo-ledil.png';
+import logocsd from '../../images/logo-csd.png';
+
 
 class faivre extends React.Component {
 
@@ -57,13 +66,15 @@ class faivre extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#f2f2f2e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
                             <br/>
-                            <h1 data-aos="fade-down" data-aos-delay="500" className="century mt-24 font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-csd1">
+                        <div>
+                        <a href="/agence-de-communication-agen-47-toulouse-31/" className="mt-24 font-normal century text-sm sm:text-md text-center text-black mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir aux réalisations</a>
+                            <h1 data-aos="fade-down" data-aos-delay="500" className="century font-bold text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-csd1">
                                 FAIVRE ENVIRONNEMENT
                             </h1>
                             <h3 data-aos="fade-up" className="italic font-bold text-center text-lg sm:text-2xl text-csd1 mt-8">Développer la visibilité en ligne du groupe Faivre Environnement et de ses trois filiales </h3>
                             <br/>
-                            <a data-aos="fade-dow" className="mb-12" href="/realisations/groupe-faivre-environnement/#start"><svg width="60px" viewBox="0 0 100 125"><g><g><path fill="#5a4d46" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
-                        <div className="flex flex-row mt-48">
+                            <a data-aos="fade-dow" className="mb-12" href="/realisations/groupe-faivre-environnement/#start"><svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#5a4d46" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                            <div className="flex flex-row mt-48">
                             <div className="w-1/3 md:w-1/3 mx-auto mr-10 py-6 mb-4 -mt-48" id="start" data-aos="zoom-in">
                                 <img src={logo1} className="mx-auto block md:mx-0" />
                             </div>
@@ -73,7 +84,27 @@ class faivre extends React.Component {
                             <div className="w-1/3 md:w-1/3 mx-auto mr-10 py-6 mb-4 -mt-48" id="start" data-aos="zoom-in">
                                 <img src={logo2} className="mx-auto block md:mx-0" />
                             </div>
+                            </div>
                         </div>
+                        <li className="hidden lg:block toggleable">
+                                <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
+                                    <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
+                                        <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2 font-bold" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
+                                            <p style={{transform:'rotate(180deg'}}>Nos réalisations</p>
+                                        </div>
+                                    </label>
+                                <div role="toggle" className="toggle-input megamenu fixed h-auto z-40 p-2 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800" style={{background:'#aace5794', maxWidth:'100px', borderRadius:'15px'}}>
+                                    <div className="flex flex-col py-6" style={{overflow:'hidden'}}>
+                                        <Link to="/realisations/sia/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosia} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/atpt/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoatpt} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/sdis47/"><img className="zoom py-3 w-3/4 mx-auto block" src={logosdis} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/groupe-faivre-environnement/"><img className="zoom py-3 w-3/4 mx-auto block" src={logofaivre} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/gabriel-services/"><img className="zoom py-3 w-3/4 mx-auto block" src={logogabrielservices} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/ledilimmo/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoledil} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
+                                    </div>
+                                </div>
+                            </li>
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">

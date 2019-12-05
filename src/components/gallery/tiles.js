@@ -18,47 +18,47 @@ class Tiles extends React.Component {
             id: 1,
             name: "SIA Université Toulouse 2",
             image: sia, 
-            url: "https://sia.univ-toulouse.fr/"
+            url: "/realisations/sia/"
         }, {
             id: 2,
             name: "Atouts pour Tous",
             image: atpt, 
-            url: "https://atoutspourtous-toulouse.fr"
+            url: "/realisations/atpt/"
         }, {
             id: 3,
             name: "SDIS 47",
             image: sdis, 
-            url: "https://www.sdis47.fr/"
-        }, {
+            url: "/realisations/sdis47/"
+        }, /*{
             id: 4,
             name: "Cypière Paysages Services",
             image: faivre1, 
             url: "https://services.faivre-environnement.com/"
-        }, {
+        },*/ {
             id: 5,
-            name: "Faivre Créations",
+            name: "Faivre Environnent",
             image: faivre3, 
-            url: "https://creations.faivre-environnement.com"
+            url: "/realisations/groupe-faivre-environnement/"
         }, {
             id: 6,
             name: "Gabriel Services",
             image: gabriel, 
-            url: "https://gabrielservices.fr"
-        }, {
+            url: "/realisations/gabriel-services/"
+        }, /*{
             id: 7,
             name: "Cypière Paysages",
             image: faivre2, 
             url: "https://paysages.faivre-environnement.com"
-        }, {
+        },*/ {
             id: 8,
             name: "Ledil Immo",
             image: ledil, 
-            url: "https://ledil.immo"
+            url: "/realisations/ledilimmo/"
         }, {
             id: 9,
-            name: "CSD Menuiseries",
+            name: "CSD Menuiserie",
             image: csd, 
-            url: "http://www.csdmenuiserie.fr/"
+            url: "/realisations/csd-menuiserie/"
         }];
         
         

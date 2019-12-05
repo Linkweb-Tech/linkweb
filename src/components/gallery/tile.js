@@ -70,7 +70,7 @@ class Tile extends React.Component {
 
 		return (
 			<div className="tile">
-                <a className="referenceItem" href={this.props.data.url} target="_blank" style={bgStyle}>
+                <a className="referenceItem" href={this.props.data.url} style={bgStyle}>
                     <img
                         onMouseEnter={this._mouseEnter}
                         onMouseLeave={this._mouseLeave}
