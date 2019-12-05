@@ -62,7 +62,7 @@ class MotsCles extends React.Component {
                                 <br/>
                                 <h2 className="text-xl font-bold text-bleu">Choix des mots-clés : les critères</h2>
                                 <br/>
-                                Afin de mettre en place <strong className="font-normal">liste de mots-clés</strong> pour donner de la visibilité à son site internet, il faudra également être en mesure de les hiérarchiser : <strong className="font-normal">définir un mot-clé principal</strong> ainsi que des mots-clés secondaires par page est une bonne manière de démarrer.<br/>
+                                Afin de mettre en place la <strong className="font-normal">liste de mots-clés</strong> pour de la visibilité à son site internet, il faudra également être en mesure de les hiérarchiser : <strong className="font-normal">définir un mot-clé principal</strong> ainsi que des mots-clés secondaires par page est une bonne manière de démarrer.<br/>
                                 <br/>
                                 Pour trouver les <strong className="font-normal">bons mots-clés</strong> qui permettront de générer de la visibilité à son <strong className="font-normal">site web</strong> de façon efficace, il faut s’attacher à plusieurs éléments :<br/>
                                 <br/>
@@ -80,7 +80,7 @@ class MotsCles extends React.Component {
                                 <br/>
                                 Les mots-clés à travailler dans une <strong className="font-normal">stratégie de référencement naturel</strong> peuvent être de plusieurs types. Il existe ce que l’on appelle des <strong className="font-normal">mots-clés de courte et longue traînes</strong>. Utiliser des <strong className="font-normal">mots-clés de longue traîne</strong> est tout particulièrement pertinent lorsqu’il s’agit d’<strong className="font-normal">obtenir de la visibilité</strong> rapidement sur des requêtes très ciblées. Elles sont, en général, composées de plusieurs mots au sein d’une expression qui va faire référence à un type de produit bien précis, par exemple.<br/>
                                 <br/>
-                                Au contraire, une requête de courte traîne est plus globale, possède un <strong className="font-normal">volume de recherche</strong> particulièrement intéressant, mais est tout particulièrement concurrentielle. Le trafic généré est moins ciblé, mais permet une visibilité accrue. <strong className="font-normal">Cibler</strong> des expressions permettant de combiner les deux stratégies peut être une bonne base pour lancer sa stratégie.<br/>
+                                Au contraire, une requête de courte traîne (expression clé plus globale que la requête de longue traîne) possède un <strong className="font-normal">volume de recherche</strong> particulièrement intéressant, mais est plus concurrentielle. Le trafic généré est moins ciblé, mais permet une visibilité accrue. <strong className="font-normal">Cibler</strong> des expressions permettant de combiner les deux stratégies peut être une bonne base pour lancer sa stratégie.<br/>
                                 <br/>
                                 <strong className="font-normal">Choisir ses mots-clés</strong> n’est pas l’étape la plus évidente de la <strong className="font-normal">stratégie de référencement</strong>, mais elle est sans doute l’une des plus décisives.<br/>
                         </p>
