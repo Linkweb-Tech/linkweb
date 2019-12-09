@@ -22,6 +22,14 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               "@id":"https://linkweb.fr/#organization",
               "name":"Linkweb",
               "logo":"https://linkweb.fr/data/logo-linkweb.jpg",
+              "image":{
+                "@type":"ImageObject",
+                  "@id":"https://linkweb.fr/#primaryimage",
+                  "url":"https://linkweb.fr/data/logo-linkweb.jpg",
+                  "width":112,
+                  "height":112,
+                  "caption":"Création site internet Toulouse"
+                  },
               "url":"https://linkweb.fr/","sameAs":[]},
                 {"@type":"WebSite",
                 "@id":"https://linkweb.fr/#website",
