@@ -11,7 +11,7 @@ import banniere from "../../images/creation-site-internet-ban.png";
 
 
 
-class uxDesign extends React.Component {
+class frontend extends React.Component {
 
     constructor(props) {
         super(props);
@@ -22,11 +22,11 @@ class uxDesign extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="UX Design : Définition - Création site internet Toulouse - Linkweb"
-                    description="L'UX Design est un concept central dans la conception d'un site internet. Découvrez à quoi se rattache cette notion issue du webdesign."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/ux-design/"
-                    nom="UX Design"
-                    slug="creation-site-internet-toulouse/ux-design/"
+                    title="Front-End : Définition - Création site internet Toulouse - Linkweb"
+                    description="La partie front-end d'un site internet fait référence à l'ensemble des éléments visibles sur le site web."
+                    url="https://linkweb.fr/creation-site-internet-toulouse/front-end/"
+                    nom="Front-end"
+                    slug="creation-site-internet-toulouse/front-end/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -51,19 +51,21 @@ class uxDesign extends React.Component {
                     <section className="w-full mt-40 text-justify font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
                         <h1 data-aos="fade-up" className="century text-4xl sm:text-5xl text-center text-bleu mt-4 lg:mt-6">
-                            UX Design
+                            Front-end
                         </h1>
                         <hr className="blue" data-aos="fade-up"></hr>
                         <br/>
                             <p>
-                            L’<strong>UX design (user experience)</strong> est une notion <strong className="font-normal">webmarketing</strong> qui est centrale dans notre <strong><Link className="text-bleu hover:text-black" to="/creation-site-internet-toulouse/">conception de la création de site internet à Toulouse</Link></strong>. En effet, l’UX design est une expression qui désigne l’<strong className="font-normal">expérience d’un utilisateur</strong> passée sur un site web et relève directement du domaine du <strong className="font-normal">web design</strong>. Ce concept se rapporte au fait de penser la conception d’un site internet en fonction de l’expérience qu’un utilisateur va en percevoir. En ce sens, le travail de l’expérience utilisateur d’un <strong className="font-normal">site internet</strong> prévoit la mise en place d’<strong className="font-normal">éléments graphiques</strong> (ou pas), en fonction de la plus-value qu’ils vont apporter pour l’utilisateur et sa navigation sur le <strong className="font-normal">site web</strong>.<br/>
-                            <br/>
-                            Ce travail est effectué par un <strong className="font-normal">développeur web</strong> et doit être anticipé dès la mise en place des premières <strong className="font-normal">maquettes graphiques</strong>. Le <strong>design d’interface (UI design)</strong> est bien entendu très important au sein même du travail de l’<strong className="font-normal">UX Design</strong> : que ce soit en termes d’ergonomie ou bien de design graphique, l’UI design va jouer un rôle important et favoriser la mise en place d’un <strong className="font-normal">projet web</strong> performant ou d’une <strong className="font-normal">application mobile centrée utilisateur</strong> grâce à un environnement visuel ergonomique, intuitif, fonctionnel.<br/>
-                            <br/>
-                            Outre la définition d’une <strong>interface ergonomique</strong> et d’une <strong>charte graphique</strong> attrayante, plusieurs éléments font de l’UX design une notion centrale dans la construction d’un site web pensé pour répondre <strong>aux besoins des utilisateurs</strong>. <strong className="font-normal">Créer un site internet responsive design</strong>, avec une <strong className="font-normal">architecture de l’information</strong> approfondie ainsi qu’une <strong className="font-normal">vitesse de chargement</strong> rapide va fortement favoriser l’UX et constitue une part de plus en plus importante dans le cadre du <strong>référencement naturel</strong>. <br/>
-                            <br/>
-                            Définir une solution efficace demande la mise en place de <strong className="font-normal">tests utilisateurs</strong> et de nombreux <strong className="font-normal">prototypes</strong> pour parvenir à un résultat concluant. En ce sens, l’anticipation est reine dans le travail du <strong className="font-normal">web designer</strong>, <strong className="font-normal">concepteur</strong> ou <strong className="font-normal">UX designer</strong>, avec pour unique objectif de mettre en place un outil digital user friendly à travers des <strong>interfaces web adaptées aux attentes des utilisateurs</strong>.<br/>
-                        </p>
+                                En <strong className="font-normal">développement web</strong>, la notion de <strong>« front end »</strong> fait référence à l’ensemble des éléments visibles et accessibles directement sur un <strong className="font-normal">site web</strong> (voire sur une <strong className="font-normal">application web</strong> ou une <strong className="font-normal">application web mobile</strong>). Il s’oppose par définition au « <strong className="font-normal">back-end</strong> » qui concerne toute la partie invisible de la <strong className="font-normal">conception d’un site internet</strong>, tel que le <strong className="font-normal">développement de bases de données</strong>, par exemple.<br/>
+                                <br/>
+                                Pour mener à bien un <strong className="font-normal">projet web</strong>, les notions de <strong className="font-normal">backend</strong> et de <strong className="font-normal">front-end</strong> vont être parfaitement complémentaires, c’est pourquoi, au sein de notre <strong className="font-normal">agence web</strong>, nous sommes en mesure de faire appel aux <strong className="font-normal">compétences</strong> de chacun dans nos <strong><Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">projets de création de site internet à Toulouse</Link></strong>.<br/>
+                                <br/>
+                                Le <strong className="font-normal">développement informatique</strong> implique une parfaite maîtrise des <strong className="font-normal">langages de programmation</strong> :  le <strong className="font-normal">métier de développeur</strong> demande, en effet, de savoir <strong className="font-normal">coder</strong> en <strong>PHP</strong>, <strong>JavaScript</strong>, <strong>HTML et CSS</strong>, mais également de maîtriser des <strong>frameworks</strong> (<strong className="font-normal">framework Bootstrap</strong>) ou autres <strong>CMS</strong> (Content Management System). <br/>
+                                <br/>
+                                Un <strong className="font-normal">développeur front-end</strong> possède un rôle de <strong className="font-normal">web designer (ou webdesigner)</strong> ainsi que d’<strong className="font-normal">intégrateur web</strong> dans le sens où c’est lui qui va être chargé de la définition du <strong className="font-normal">webdesign des pages web</strong> avec pour objectif de mettre en place les <strong className="font-normal">solutions techniques</strong> nécessaires pour une <strong className="font-normal">expérience utilisateur</strong> optimale et un design d’<strong className="font-normal">interfaces</strong> intuitif.<br/>
+                                <br/>
+                                L’aspect <strong className="font-normal">responsive web design</strong> d’un site internet, aussi bien que son <strong className="font-normal">ergonomie</strong> incombe au travail d’un <strong className="font-normal">développeur web front-end</strong>. Si cela est applicable pour un site web, c’est également vrai pour des <strong className="font-normal">applications web</strong>, comme pour des <strong className="font-normal">applications mobiles</strong>. Il est donc responsable de la création des <strong className="font-normal">maquettes</strong> puis de la <strong className="font-normal">programmation web</strong> visant à créer un site en corrélation avec les <strong className="font-normal">besoins du client</strong>.<br/>
+                            </p>
                         <img
                             src={banniere}
                             alt="Création site internet Toulouse"
@@ -71,21 +73,21 @@ class uxDesign extends React.Component {
                         />
                         </div>
                         <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées à l'UX design :</b></p>
+                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées au Front-End :</b></p>
                             <br/>
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ui-design/">UI Design</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/">Développement Web</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/">Front-End</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">Responsive Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/mobile-first/">Mobile First</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">Webdesign</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/">Refonte site internet</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/maquette-site-web/">Maquette de site web</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/">CMS</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/framework/">Framework</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/">Nom de domaine</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/">Moteurs de recherche</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">Arborescence site internet</Link></li>
@@ -103,7 +105,7 @@ class uxDesign extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsux {
+query lastsThreePostsfrontend {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -123,7 +125,7 @@ query lastsThreePostsux {
   
     
 `
-export default uxDesign;
+export default frontend;
 
 
 
