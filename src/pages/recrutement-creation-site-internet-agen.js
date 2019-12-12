@@ -88,7 +88,7 @@ class Recrutement extends React.Component {
                                             <li>…et des sourires</li>
                                         </ul>
                                         <section className="w-40">
-                                        <RoundButton url="contact-agence-web-toulouse/" text="Postuler" />
+                                        <RoundButton url="/contact-agence-web-toulouse/" text="Postuler" />
                                         </section>
                                 </div>
                                 <div label="DÉVELOPPEUR WEB BACK-END">
@@ -122,7 +122,7 @@ class Recrutement extends React.Component {
                                    <li>…et de la bonne humeur</li>
                                 </ul>
                                 <section className="w-40">
-                                <RoundButton url="contact-agence-web-toulouse/" text="Postuler" />
+                                <RoundButton url="/contact-agence-web-toulouse/" text="Postuler" />
                                 </section>
                                 </div>
                                 

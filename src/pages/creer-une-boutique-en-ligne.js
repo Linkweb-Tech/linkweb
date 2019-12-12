@@ -55,7 +55,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                 > */}
                     <section className="w-full h-screen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{background:'#00000098 url(' + Bg +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'650px'}}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
-                            <RoundButton url="contact-agence-web-toulouse/" text="Je veux vendre mes produits en ligne" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux vendre mes produits en ligne" />
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
                             <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl lg:text-6xl text-center text-white">
@@ -410,7 +410,7 @@ class CreerBoutiqueEnLigne extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="contact-agence-web-toulouse/" text="Je veux vendre mes produits en ligne" />
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux vendre mes produits en ligne" />
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">
