@@ -11,7 +11,7 @@ import banniere from "../../images/creation-site-internet-ban.png";
 
 
 
-class uiDesign extends React.Component {
+class redactionweb extends React.Component {
 
     constructor(props) {
         super(props);
@@ -22,11 +22,11 @@ class uiDesign extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="UI Design : Définition - Création site internet Toulouse - Linkweb"
-                    description="L'UI Design est une notion directement liée à celle d'UX Design (expérience utilisateur). Découvrez à quoi se rattache cette notion issue du webdesign."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/ui-design/"
-                    nom="UI Design"
-                    slug="creation-site-internet-toulouse/ui-design/"
+                    title="Rédaction Web : Définition - Création site internet Toulouse - Linkweb"
+                    description="Le travail de rédaction web est essentiel dans la mise en oeuvre d'une stratégie de référencement lors de la création d'un site internet."
+                    url="https://linkweb.fr/creation-site-internet-toulouse/redaction-web/"
+                    nom="Rédaction Web"
+                    slug="creation-site-internet-toulouse/redaction-web/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -51,19 +51,21 @@ class uiDesign extends React.Component {
                     <section className="w-full mt-40 text-justify font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
                         <h1 data-aos="fade-up" className="century text-4xl sm:text-5xl text-center text-bleu mt-4 lg:mt-6">
-                            UI Design
+                            Rédaction Web
                         </h1>
                         <hr className="blue" data-aos="fade-up"></hr>
                         <br/>
                             <p>
-                            L’<strong>UI design</strong> ou <strong>interface utilisateur</strong> est un terme <strong className="font-normal">webmarketing</strong> qui désigne la relation qu’un utilisateur peut entretenir avec une plateforme web. En d’autres termes, l’UI design se réfère à l’ensemble des éléments <strong className="font-normal">visuels</strong> et graphiques qui interviennent dans la navigation d’un utilisateur sur un site internet afin d’en optimiser l’expérience.<br/>
-                            <br/>
-                            En effet, l’UI design a pour objectif de proposer une <strong>expérience utilisateur optimale</strong> sur un site internet. En ce sens, l’<strong className="font-normal">UI design</strong> et l’<strong className="font-normal">UX design</strong> (<strong className="font-normal">user experience</strong>) sont deux notions qui sont parfaitement liées. Il s’agit d’un concept qui entre directement en compte dans notre <Link className="text-bleu hover:text-black" to="/creation-site-internet-toulouse/"><strong>processus de création de site internet à Toulouse</strong></Link>. Ceci permettra de conserver une certaine cohérence sur l’ensemble du site, tout en permettant une navigation fluide, agréable et qui ne laisse pas de place aux problèmes d’<strong className="font-normal">ergonomie</strong>.<br/>
-                            <br/>
-                            En somme, le travail de l’UI design d’un site internet correspond notamment au travail : des typographies utilisées, de la <strong>charte graphique</strong> du site, des éléments <strong className="font-normal">graphiques</strong> qui entretiennent une bonne navigation entre les contenus (boutons) ainsi que tous les éléments qui procurent une intuitivité et une certaine fluidité dans la navigation sur un site web.<br/>
-                            <br/>
-                            L’UI design est un concept qui s’applique aussi bien au <strong className="font-normal">web design</strong> d’un site internet, qu’à celui d’une <strong className="font-normal">application mobile</strong>. La <strong className="font-normal">conception</strong> de cette relation entre l’interface et l’utilisateur est le travail de l’<strong>UI designer</strong> avec pour objectif de procurer une expérience utilisateur idéale. Ce travail qui appartient à un <strong className="font-normal">développeur front end</strong> et <strong className="font-normal">webdesigner</strong> peut également être réalisé en collaboration avec un professionnel du <strong className="font-normal">graphisme</strong>.<br/>
-                        </p>
+                                La <strong>rédaction web</strong> est une discipline ayant pour objectif de <strong className="font-normal">rédiger des contenus</strong> adaptés pour les spécificités du web (nous pouvons également parler de <strong className="font-normal">contenus optimisés</strong>). En ce sens, <strong className="font-normal">écrire pour le web</strong> fait appel à un <strong className="font-normal">style de rédaction</strong> bien particulier et basé sur l’<strong className="font-normal">optimisation du contenu web</strong> pour les <strong className="font-normal">moteurs de recherche</strong>, en même temps que pour les humains à travers le <strong className="font-normal">marketing de contenu (content marketing)</strong>. La mise en place d’une <strong className="font-normal">stratégie éditoriale optimisée</strong> ainsi que la <strong className="font-normal">création de contenu unique</strong> (qu’il s’agisse d’<strong className="font-normal">articles</strong>, de <strong className="font-normal">contenus rédigés</strong> pour un site vitrine et bien d’autres types de <strong className="font-normal">contenus web</strong>) fait partie de notre travail <strong><Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">de création de site internet à Toulouse</Link></strong>.<br/>
+                                <br/>
+                                En effet, les <strong className="font-normal">textes produits par les rédacteurs web</strong> doivent être structurés pour une meilleure compréhension des moteurs de recherche. À ce titre, pour <strong className="font-normal">structurer une page web</strong>, il est important de faire appel aux <strong className="font-normal">balises</strong> hn qui correspondent à des niveaux de titres et peuvent contenir certains <strong className="font-normal">mots-clés</strong> imposés par la stratégie de <strong className="font-normal">référencement naturel</strong>, tout en présentant un <strong className="font-normal">contenu de qualité</strong> pour les utilisateurs.<br/>
+                                <br/>
+                                <strong className="font-normal">Rédiger du contenu pour le web</strong>, c’est aussi être capable d’adapter une <strong className="font-normal">ligne éditoriale</strong> à la méthodologie spécifique avec un <strong className="font-normal">nombre de mots</strong> et de <strong className="font-normal">paragraphes</strong> à minima par exemple, des thématiques engageantes pour les utilisateurs ou encore un ton <strong className="font-normal">pertinent</strong>. La rédaction web regroupe plusieurs types de rédactions, à savoir, l’<strong className="font-normal">article de blog</strong>, le contenu présent sur les pages web d’un site vitrine, les <strong className="font-normal">fiches produits</strong> et a également investi le domaine du <strong className="font-normal">journalisme</strong>.<br/>
+                                <br/>
+                                Il faut avoir conscience que la <strong className="font-normal">rédaction de contenu sur votre site internet</strong> possède deux objectifs : elle s’adresse à plusieurs types de lectorat, c’est en cela que votre <strong className="font-normal">contenu éditorial</strong> va être adapté à tous les publics. Il est important de bien comprendre cela pour <strong className="font-normal">référencer</strong> son site sur les moteurs de recherche et obtenir une visibilité intéressante avec un contenu qui reste adapté pour les utilisateurs.<br/>
+                                <br/>
+                                Enfin, outre le contenu <strong className="font-normal">rédigé</strong> en lui-même, le domaine de la rédaction web est un domaine large qui englobe également la mise en place de <strong className="font-normal">stratégie de contenu</strong>. Cette dernière va aboutir à l’établissement d’un <strong className="font-normal">maillage interne</strong> entre les différents contenus présents sur le site, possédant un lien thématique et qui va contribuer à améliorer l’<strong className="font-normal">expérience utilisateur</strong> du site. Intégrer la rédaction web dans le travail de son contenu est indispensable pour proposer du <strong className="font-normal">contenu rédactionnel</strong> adapté et qui vous apportera de la performance.<br/>
+                            </p>
                         <img
                             src={banniere}
                             alt="Création site internet Toulouse"
@@ -71,25 +73,25 @@ class uiDesign extends React.Component {
                         />
                         </div>
                         <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées à l'UI design :</b></p>
+                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées au nom de domaine :</b></p>
                             <br/>
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ui-design/">UI Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/">Développement Web</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/">Front-End</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">Responsive Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/mobile-first/">Mobile First</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">Webdesign</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/redaction-web/">Rédaction Web</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/">Refonte site internet</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/maquette-site-web/">Maquette de site web</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/">CMS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/framework/">Framework</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/">Nom de domaine</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/">Moteurs de recherche</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">Arborescence site internet</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/">Nom de domaine</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/strategie-digitale/">Stratégie Digitale</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/">Webmarketing</Link></li>
                             </ul>
@@ -104,7 +106,7 @@ class uiDesign extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsui {
+query lastsThreePostsredactionweb {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -124,7 +126,7 @@ query lastsThreePostsui {
   
     
 `
-export default uiDesign;
+export default redactionweb;
 
 
 
