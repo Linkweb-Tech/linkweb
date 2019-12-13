@@ -11,7 +11,7 @@ import banniere from "../../images/creation-site-internet-ban.png";
 
 
 
-class cms extends React.Component {
+class backend extends React.Component {
 
     constructor(props) {
         super(props);
@@ -22,11 +22,11 @@ class cms extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Content Management System (CMS) : Définition - Création site internet Toulouse - Linkweb"
-                    description="Un CMS ou système de gestion de contenu est une solution de création de site internet qui répond aux besoins de nombreux projets web."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/cms/"
-                    nom="Content Management System"
-                    slug="creation-site-internet-toulouse/cms/"
+                    title="Back-End : Définition - Création site internet Toulouse - Linkweb"
+                    description="La partie front-end d'un site internet fait référence à l'ensemble des éléments visibles sur le site web."
+                    url="https://linkweb.fr/creation-site-internet-toulouse/front-end/"
+                    nom="Front-end"
+                    slug="creation-site-internet-toulouse/front-end/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -51,20 +51,22 @@ class cms extends React.Component {
                     <section className="w-full mt-40 text-justify font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
                         <h1 data-aos="fade-up" className="century text-4xl sm:text-5xl text-center text-bleu mt-4 lg:mt-6">
-                        Système de Gestion de Contenu (CMS)
+                            Back-end
                         </h1>
                         <hr className="blue" data-aos="fade-up"></hr>
                         <br/>
                             <p>
-                                Un <strong>CMS</strong>, ou <strong>système de gestion de contenu</strong>, est une plateforme qui centralise une multitude d’outils permettant à la fois le <strong className="font-normal">développement d’un site web</strong>, mais aussi sa mise à jour. C’est notamment à travers l’utilisation d’un <strong className="font-normal">back-office (interface d’administration)</strong> que la <strong className="font-normal">gestion d’un site</strong> via l’utilisation d’un CMS est facilitée.<br/> 
-                            <br/>
-                                En effet, <strong className="font-normal">créer un site web</strong> par l’intermédiaire d’un <strong className="font-normal">gestionnaire de contenu</strong> permet d’obtenir de nombreuses fonctionnalités (via des <strong className="font-normal">plugins</strong>) pour une mise en œuvre facilité. Par exemple, le gestionnaire offre la possibilité d’utiliser un <strong>éditeur WYSIWYG</strong> (What You See Is What You Get). Autrement dit, il s’agit d’une <strong className="font-normal">interface utilisateur</strong> qui permet de visualiser directement les modifications apportées à un contenu dans un éditeur dédié à la <strong className="font-normal">création de contenu</strong>. En ce sens, l’utilisation d’un CMS pour <strong className="font-normal">créer un site internet</strong> demande moins de <strong className="font-normal">compétences techniques</strong> que la conception en <strong className="font-normal">HTML/CSS</strong> par exemple. Par ailleurs, cela donne la possibilité de gérer le <strong className="font-normal">contenu dynamique</strong> de façon optimale et simplifiée.<br/>
-                            <br/>
-                                Parmi les <strong className="font-normal">systèmes de gestion de contenu web</strong>, nous pouvons par exemple citer parmi les plus connus <strong>Wordpress</strong>, <strong>Drupal</strong>, <strong>Joomla</strong>, ou encore <strong>Prestashop</strong>. <strong className="font-normal">Administrer</strong> votre site internet à partir d’un CMS permet d’obtenir une meilleure vision d’ensemble des <strong className="font-normal">interfaces</strong>. Par ailleurs, cela permet une meilleure gestion de son <strong className="font-normal">référencement naturel</strong> on-site.<br/> 
-                            <br/>
-                                En termes de <strong className="font-normal">développement web</strong>, le <strong className="font-normal">système de gestion de contenus</strong> fait partie des outils de gestion et de création que nous utilisons dans le cadre de <strong><Link className="text-bleu hover:text-black font-bold" to="/creation-site-internet-toulouse/">notre création de site internet à Toulouse</Link></strong>. Cela se justifie vis-à-vis des avantages qu’il procure, mais aussi selon le profil du <strong className="font-normal">site internet</strong>. Chaque <strong className="font-normal">projet web</strong> répond à des besoins spécifiques et le CMS permet de répondre à certains besoins qui relèvent de la <strong className="font-normal">construction des pages web</strong>, de l’aspect <strong className="font-normal">responsive</strong>, ou encore de la gestion du <strong className="font-normal">PHP</strong>. Ceci est important selon la teneur du projet ainsi que ses objectifs.<br/>
-                            <br/>
-                                Utiliser un CMS est une possibilité, mais peut également ne pas correspondre aux besoins des propriétaires de site. Par exemple, un <strong className="font-normal">site statique</strong> en HTML permet de créer un outil qui donnera un meilleur contrôle sur les ressources du site. Ceci peut également être vrai pour ce qui est des <strong className="font-normal">optimisations SEO</strong>, même si l’utilisation d’un <strong className="font-normal">système CMS</strong> peut totalement suffire pour un site souhaitant obtenir des performances intéressantes.<br/>
+                                Dans le cadre du <strong className="font-normal">développement web</strong>, la notion de <strong>« back-end »</strong> se réfère au travail effectué sur des <strong className="font-normal">applications web</strong>, <strong className="font-normal">applications mobiles</strong> ou <strong className="font-normal">sites web</strong> au même titre que le <strong className="font-normal">développeur front-end</strong>. Toutefois, à la différence du développeur front-end, le <strong className="font-normal">développeur back-end</strong> maîtrise toute la partie invisible pour l’utilisateur, mais qui va permettre le bon fonctionnement d’un site internet.<br/>
+                                <br/>
+                                Au contraire, le <strong className="font-normal">développeur front-end</strong> a un rôle d’<strong className="font-normal">intégrateur web</strong> : la conception des <strong className="font-normal">interfaces</strong> et du <strong className="font-normal">webdesign</strong> des <strong className="font-normal">pages web</strong> est de son ressort, ce qui n’est pas le cas des <strong className="font-normal">développeurs web back-end</strong>.<br/>
+                                <br/>
+                                Ce sont des spécificités qui sont prises en compte dans la réalisation de nos <strong><Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">projets de création de site internet à Toulouse</Link></strong>.<br/>
+                                <br/>
+                                La maîtrise des <strong className="font-normal">langages de programmation</strong>, librairies (<strong className="font-normal">jQuery</strong>) et des <strong className="font-normal">frameworks</strong> (<strong className="font-normal">framework</strong> Bootstrap en CSS par exemple) fait également partie des <strong className="font-normal">compétences techniques</strong> du <strong className="font-normal">métier de développeur</strong> back-end (<strong className="font-normal">PHP</strong>, <strong className="font-normal">JavaScript</strong>, <strong className="font-normal">HTML et CSS</strong>). Savoir <strong className="font-normal">coder</strong> est indispensable pour mener à bien un <strong className="font-normal">projet web</strong> comme la <strong className="font-normal">création d’un site web</strong> ou d’une <strong className="font-normal">application web</strong> par exemple.<br/>
+                                <br/>
+                                Toutefois, la majeure partie du travail du <strong className="font-normal">développeur back-end</strong> se concentre sur la mise en place de l’<strong className="font-normal">hébergement web</strong> ou encore de la <strong className="font-normal">gestion de bases de données</strong> (notamment avec l’outil <strong className="font-normal">MySQL</strong>). Ici le travail du <strong className="font-normal">développeur web</strong> consiste à trouver des <strong className="font-normal">solutions techniques</strong> pour développer des dispositifs fonctionnels sur le site web en fonction des <strong className="font-normal">besoins du client</strong>.<br/>
+                                <br/>
+                                Ainsi, les développeurs web backend possèdent donc une spécialisation dans la <strong className="font-normal">programmation web</strong> de sites dits « dynamiques ». Tout le travail lié au <strong className="font-normal">responsive design</strong>, à l’ergonomie web et au design d’interface ne lui incombe pas, à la différence du développeur front-end.<br/>
                             </p>
                         <img
                             src={banniere}
@@ -73,7 +75,7 @@ class cms extends React.Component {
                         />
                         </div>
                         <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées au système de gestion de contenu :</b></p>
+                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées au Front-End :</b></p>
                             <br/>
                             <div className="flex flex-row justify-center">
                             <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
@@ -81,15 +83,15 @@ class cms extends React.Component {
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/">UX Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/">Développement Web</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/">Front-End</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/back-end/">Back-End</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">Responsive Design</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/mobile-first/">Mobile First</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">Webdesign</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/redaction-web/">Rédaction Web</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/">Refonte site internet</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/maquette-site-web/">Maquette de site web</Link></li>
-                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/">CMS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/framework/">Framework</Link></li>
+                                <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/">HTML/CSS</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/">Nom de domaine</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/">Moteurs de recherche</Link></li>
                                 <li><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">Arborescence site internet</Link></li>
@@ -107,7 +109,7 @@ class cms extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostscms {
+query lastsThreePostsbackend {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -127,7 +129,7 @@ query lastsThreePostscms {
   
     
 `
-export default cms;
+export default backend;
 
 
 
