@@ -228,7 +228,7 @@ class ReferencementToulouse extends React.Component {
                                     </path>
                                 </svg>
                                 &nbsp;
-                                <p><strong>Optimisation interne de votre site</strong> : votre contenu doit être le plus <strong>pertinent</strong>.</p>
+                                <p><strong><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/optimisation-interne/">Optimisation interne</Link> de votre site</strong> : votre contenu doit être le plus <strong>pertinent</strong>.</p>
                             </li>
                             <li className="operatoire flex justify-start items-center pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1792">
