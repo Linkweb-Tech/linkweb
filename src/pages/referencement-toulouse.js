@@ -174,7 +174,7 @@ class ReferencementToulouse extends React.Component {
                                         <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT
                                 </h3>
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                        Faire appel à une <strong>agence de référencement naturel</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. Acquisition de <strong>trafic</strong>, obtention de <strong>contacts</strong>, <strong>e-réputation</strong>. Un <strong>référencement optimal de son site</strong> est essentiel.
+                                        Faire appel à une <strong>agence de référencement naturel</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. Acquisition de <strong>trafic</strong>, obtention de <strong>contacts</strong>, <strong><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/e-reputation/">e-réputation</Link></strong>. Un <strong>référencement optimal de son site</strong> est essentiel.
                                 </div>
                                     <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
 
