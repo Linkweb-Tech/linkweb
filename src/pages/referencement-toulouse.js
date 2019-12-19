@@ -189,7 +189,7 @@ class ReferencementToulouse extends React.Component {
                                         <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR TROUVER MA SOLUTION
                                 </h3>
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                        Plusieurs <strong>techniques de référencement SEO/SEA</strong> existent pour positionner son <strong>site internet</strong> dans les <strong>premiers résultats des premières pages et atteindre la première page</strong> ou en <strong>première position</strong> des <strong>SERP de Google</strong> : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
+                                        Plusieurs <strong><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/techniques-referencement/">techniques de référencement</Link> SEO/SEA</strong> existent pour positionner son <strong>site internet</strong> dans les <strong>premiers résultats des premières pages et atteindre la première page</strong> ou en <strong>première position</strong> des <strong>SERP de Google</strong> : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
                                 </div>
                                     <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                                 </section>
