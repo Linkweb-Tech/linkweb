@@ -159,7 +159,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
                                 <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. Linkweb met en place le site web qu’il vous faut à Toulouse.</span>
                             </h4>
-                            <p data-aos='fade-bottom' className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise. En fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
+                            <p data-aos='fade-bottom' className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise en fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
 
                             En fonction de votre demande, les équipes de <strong>consultants web</strong> de notre <strong className="font-light">agence de création de sites web</strong> définiront la solution la plus adaptée pour votre site quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Toulouse</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. Le <strong>référencement d'un site</strong> est un travail essentiel pour maximiser sa visibilité. De l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">arborescence</Link> à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
                             {/* <Button url="#" text="En savoir plus sur la création de site internet" position="start" /> */}
@@ -431,7 +431,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     </g>
                                 </g> 
                             </svg>
-                                <p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p>
+                                <Link to="/creation-site-internet-agen/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
@@ -463,7 +463,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                         </g>
                                     </g>
                                 </svg>
-                                <p className="text-xl century text-white pt-3">SITE INTERNET E-COMMERCE</p>
+                                <Link to="/créer-une-boutique-en-ligne/"><p className="text-xl century text-white pt-3">SITE INTERNET E-COMMERCE</p></Link>
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
@@ -490,7 +490,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                         </g>
                                     </g> 
                                 </svg>
-                                <p className="text-xl century text-white pt-3">SITE SUR-MESURE</p>
+                                <Link to="/creation-de-site-internet-47-31/"><p className="text-xl century text-white pt-3">SITE SUR-MESURE</p></Link>
                             </div>
                         </div>
                     </section>
