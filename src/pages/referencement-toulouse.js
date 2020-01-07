@@ -346,7 +346,7 @@ class ReferencementToulouse extends React.Component {
                             <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur notre offre de référencement à Toulouse<span className="text-bleu">/</span>Agen ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous vous demandez encore pourquoi le référencement est utile pour votre site ? Voici des réponses aux interrogations courantes sur le SEO.</h4>
+                        <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Vous vous demandez encore pourquoi le référencement est utile pour votre site web ? Voici des réponses aux interrogations courantes sur le SEO.</h4>
                     </section>
                     <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
                         <div className="w-full md:w-3/4 py-0 flex justify-end">
