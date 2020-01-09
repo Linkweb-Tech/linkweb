@@ -69,51 +69,51 @@ class AgenceWebToulouse extends React.Component {
                     transitionTime={200}
                 > */}
                     <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background: '#00000096 url(' + Bg + ')', backgroundPosition:'center', backgroundSize:'cover', backgroundBlendMode:'multiply' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white">
+                        <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-5xl sm:text-6xl text-center text-white">
                             Agence web Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
                         <h3 className="italic text-center text-lg sm:text-2xl text-white mt-3">Pour vous rapprocher de l’essentiel, faites le choix du savoir-faire et de l’expérience.</h3>
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je veux developper ma communication en ligne" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                        <h3 data-aos='fade-right' className="text-center text-4xl century">
+                        <h3 /*data-aos='fade-right'*/ className="text-center text-4xl century">
                             Nous les accompagnons depuis plusieurs années pour servir l’intérêt général.
                         </h3>
                         <hr className="blue"></hr>
                         
                     </section>
                     <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
-                        <div className="w-1/3 md:w-1/6 mb-10" data-aos='fade-up'>
+                        <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up'*/>
                             <img
                                 src={peugeot}
                                 alt="Agence Web Toulouse"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='200'>
+                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='200'*/>
                             <img
                                 src={normand}
                                 alt="Agence Web Agen"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='400'>
+                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='400'*/>
                             <img
                                 src={onco}
                                 alt="Agence Web Toulouse"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='600'*/>
                             <img
                                 src={tlse}
                                 alt="Agence Web Agen"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='800'*/>
                             <img
                                 src={sdis}
                                 alt="Agence Web Agen"
                             />
                         </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='1000'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
                         <img 
                             className="mx-12"
                             src={hg}
@@ -121,19 +121,19 @@ class AgenceWebToulouse extends React.Component {
                             width="65px"
                         />
                         </div>
-                        <div className="w-full" data-aos='zoom-in'>
+                        <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">
                                 Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Toulouse</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
                         </div>
                     </section>
                     <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
-                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" data-aos="zoom-in">
+                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in"*/>
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
                             <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a>
                         </div>
-                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" data-aos="zoom-in" data-aos-delay="200">
+                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" /*data-aos="zoom-in" data-aos-delay="200"*/>
                             <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
@@ -146,13 +146,13 @@ class AgenceWebToulouse extends React.Component {
                             <img src={imac} alt="Agence Web Toulouse" />
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
-                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
                             </h2>
-                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
                                 <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
                             </h4>
-                            <p data-aos='fade-bottom' className="text-justify">
+                            <p /*data-aos='fade-bottom'*/ className="text-justify">
                                 Depuis plus de 10 ans, notre expérience dans la <strong><Link to="creation-site-internet-toulouse/" className="hover:text-bleu">création de sites internet</Link></strong> nous a permis de développer nos compétences<strong> en tant qu'agence de conseil en communication</strong> pour d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br/>
 
                                 Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong><Link to="/" className="hover:text-bleu">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
@@ -163,19 +163,19 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h2 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             Notre agence est taillée pour <span className="text-bleu">votre projet web</span>
                         </h2>
                         <hr className="blue"></hr>
-                        <h3 data-aos="fade-in" className="text-center font-normal italic century text-sm">Agence Web Toulouse</h3>
+                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Agence Web Toulouse</h3>
 
                     </section>
                     <section className="flex flex-col md:flex-row flex-1 max-w-6xl mx-auto home-step mt-24 mb-12 my-12 px-4 lg:my-24 lg:px-24">
                         <div className="w-full md:w-1/2 one px-12">
                             <div className="flex items-center lg:items-start flex-col lg:flex-row flex-1">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
+                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>1</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
                                 </h3>
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -188,9 +188,9 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                         <div className="w-full md:w-1/2 two px-12">
                             <div className="flex items-center lg:items-start flex-col lg:flex-row flex-1">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
+                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>2</div>
                                 <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                 </h3>
                                     <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -219,11 +219,11 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h2 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : QUI SOMMES-NOUS ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
+                        <h4 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-0 pb-0 my-2">
                         <ul className="mt-6 pl-1 sm:pl-6">
@@ -245,7 +245,7 @@ class AgenceWebToulouse extends React.Component {
                             </li>
                         </ul>
                         <div className="w-full flex flex-col sm:flex-row text-center my-12">
-                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center my-6" /*data-aos='zoom-in' data-aos-delay="400"*/>
                                 <svg width="60px" height="60px" viewBox="-32 0 480 480.23349" >
                                     <g>
                                         <path d="m208.117188             96c-97.203126 0-176 78.796875-176 176s78.796874 176 176 176c97.203124 0 176-78.796875 176-176-.109376-97.15625-78.84375-175.890625-176-176zm0 336c-88.367188 0-160-71.632812-160-160s71.632812-160 160-160c88.363281 0 160 71.632812 160 160-.101563 88.324219-71.675782 159.898438-160 160zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
@@ -257,7 +257,7 @@ class AgenceWebToulouse extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">Réactivité et efficacité</p>
                             </div>
-                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="200">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center my-6" /*data-aos='zoom-in' data-aos-delay="200"*/>
                                 <svg  viewBox="0 0 511.999 511.999" width="60px" height="60px">
                                     <g>
                                         <g>
@@ -309,7 +309,7 @@ class AgenceWebToulouse extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">Relation client</p>
                             </div>
-                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center my-6" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center my-6" /*data-aos='zoom-in' data-aos-delay="400"*/>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="-4 0 511 511.99964" width="60px">
                                     <g>
                                         <path d="m498.429688 219.339844c-5.308594-8.015625-13.355469-13.539063-22.710938-15.632813 6.035156-11.542969 5.789062-25.945312-1.898438-37.550781-5.46875-8.261719-13.71875-13.597656-22.699218-15.617188 1.601562-3.054687 2.785156-6.351562 3.492187-9.828124 1.960938-9.667969.046875-19.519532-5.402343-27.742188-5.308594-8.019531-13.355469-13.542969-22.710938-15.632812 6.035156-11.542969 5.789062-25.945313-1.898438-37.554688-11.238281-16.972656-34.199218-21.640625-51.175781-10.398438l-36.757812 24.34375c-19.59375-9.9375-40.433594-16.988281-62.0625-21.003906-6.835938-10.378906-14.785157-20.027344-23.683594-28.652344l-15.207031-14.738281c-11.136719-10.796875-28.601563-12.417969-41.53125-3.851562-15.296875 10.128906-19.5 30.816406-9.371094 46.113281.398438.605469.789062 1.214844 1.175781 1.824219-49.847656 10.085937-95.277343 36.539062-128.902343 75.300781-36.488282 42.066406-56.585938 95.941406-56.585938 151.699219 0 10.6875.730469 21.394531 2.175781 31.816406 11.136719 81.019531 65.105469 150.839844 140.839844 182.21875 28.085937 11.640625 57.886719 17.546875 88.5625 17.546875 48.582031 0 95.085937-14.878906 134.488281-43.023438 38.546875-27.539062 67.386719-65.542968 83.40625-109.902343 1.496094-4.132813-.648437-8.699219-4.78125-10.191407-4.136718-1.492187-8.699218.648438-10.191406 4.785157-14.917969 41.308593-41.78125 76.699219-77.691406 102.351562-36.683594 26.207031-79.988282 40.058594-125.230469 40.058594-23.390625 0-46.230469-3.691406-68.089844-10.972656l64.773438-42.894531c.003906-.003907.007812-.003907.011719-.007813.003906 0 .003906-.003906.007812-.007813l53.832031-35.648437h.003907c4.832031-3.203125 8.132812-8.09375 9.289062-13.777344 1.15625-5.683593.03125-11.480469-3.171875-16.3125l-.710937-1.078125 10.457031-6.925781c7.460937-4.941406 16.433593-6.878906 25.269531-5.460937 12.792969 2.054687 25.785156-.757813 36.582031-7.910157l86.734375-57.4375c-.59375 7.523438-1.570312 15.003907-2.933594 22.359375-.804687 4.324219 2.050782 8.480469 6.375 9.28125.488282.09375.980469.136719 1.460938.136719 3.761719 0 7.105469-2.679687 7.816406-6.511719 2.207032-11.871094 3.476563-24.03125 3.804688-36.207031l24.441406-16.1875c8.222656-5.445313 13.835938-13.769531 15.796875-23.433594 1.964844-9.667969.046875-19.519531-5.398437-27.742187zm-177.21875-135.378906-24.324219 16.109374-4.789063-12.902343c-2-5.382813-4.292968-10.660157-6.832031-15.824219 12.339844 3.128906 24.355469 7.347656 35.945313 12.617188zm-252.097657 55.191406c32.316407-37.253906 76.335938-62.296875 124.492188-70.980469 7.726562 18.71875 9.578125 39.632813 4.960937 59.566406l-19.410156 83.855469c-3.050781-3.257812-7.011719-5.503906-11.472656-6.410156-5.6875-1.160156-11.480469-.03125-16.3125 3.171875l-54.980469 36.40625c-.003906 0-.003906 0-.007813.003906 0 0-.003906 0-.003906.003906l-79.296875 52.511719c-.433593-5.59375-.660156-11.230469-.660156-16.863281 0-51.921875 18.714844-102.09375 52.691406-141.265625zm207.191407 250.441406c-.308594 1.515625-1.191407 2.824219-2.484376 3.679688h.003907l-47.28125 31.308593-87.753907-130.871093c-2.449218-3.652344-7.394531-4.625-11.046874-2.175782-3.648438 2.449219-4.625 7.390625-2.175782 11.042969l87.699219 130.796875-67.496094 44.699219c-67.070312-29.335938-115.066406-91.289063-126.605469-163.378907l79.390626-52.402343 9.136718 13.632812c1.539063 2.289063 4.054688 3.527344 6.621094 3.527344 1.523438 0 3.066406-.433594 4.425781-1.347656 3.652344-2.449219 4.628907-7.394531 2.179688-11.046875l-9.074219-13.535156 48.320312-31.894532c1.285157-.855468 2.828126-1.152344 4.34375-.84375 1.515626.308594 2.824219 1.191406 3.679688 2.480469l107.273438 161.984375c.851562 1.285156 1.152343 2.828125.84375 4.34375zm211.921874-145.683594c-1.117187 5.5-4.308593 10.234375-8.988281 13.332032l-27.941406 18.503906c-.007813.003906-.015625.011718-.027344.015625l-99.730469 66.046875c-7.460937 4.941406-16.433593 6.882812-25.269531 5.460937-12.789062-2.050781-25.78125.757813-36.582031 7.910157l-10.457031 6.925781-87.859375-132.667969 22.710937-98.105469c5.847657-25.273437 2.765625-51.894531-8.375-75.085937-.101562-.242188-.210937-.476563-.335937-.707032-2.140625-4.382812-4.570313-8.636718-7.285156-12.738281-5.28125-7.976562-3.089844-18.761719 4.890624-24.046875 6.742188-4.464844 15.851563-3.621094 21.65625 2.007813l15.207032 14.742187c16.449218 15.949219 29.359375 35.730469 37.328125 57.207032l8.28125 22.308593c.015625.042969.03125.078125.046875.117188.019531.050781.042968.105469.0625.15625.058594.136719.113281.261719.171875.367187.160156.335938.335937.667969.546875.984375 2.429687 3.667969 7.367187 4.671875 11.03125 2.242188l84.910156-56.226563c9.65625-6.394531 22.714844-3.742187 29.109375 5.914063s3.742187 22.714843-5.914063 29.109375l-7.371093 4.882812s-.003907 0-.007813.003906l-16.441406 10.890626c-.023438.015624-.039062.03125-.0625.042968-.09375.066406-.183594.128906-.257812.191406-3.398438 2.496094-4.277344 7.242188-1.921876 10.796876 2.425782 3.667968 7.367188 4.671874 11.035157 2.242187l16.453125-10.898437c4.675781-3.089844 10.273437-4.179688 15.769531-3.0625 5.496094 1.117187 10.234375 4.308593 13.328125 8.988281 3.097656 4.675781 4.191406 10.28125 3.074219 15.777343-1.117188 5.5-4.308594 10.234376-8.988281 13.332032l-23.820313 15.777344c-3.667969 2.425781-4.671875 7.363281-2.242187 11.03125 1.53125 2.3125 4.0625 3.566406 6.644531 3.566406 1.507812 0 3.035156-.429688 4.386719-1.324219l3.6875-2.441406 12.757812-8.449219c9.660156-6.394531 22.714844-3.742188 29.109375 5.914062 6.394531 9.660157 3.742187 22.714844-5.914063 29.113282l-11.898437 7.878906c-.0625.039062-.125.082031-.1875.125l-11.734375 7.769531c-3.667969 2.425781-4.671875 7.367188-2.242188 11.035157 1.53125 2.3125 4.0625 3.566406 6.644532 3.566406 1.507812 0 3.035156-.429688 4.386718-1.324219l3.6875-2.441406s0-.003907.003907-.003907l12.757812-8.445312c4.675781-3.097656 10.277344-4.191406 15.777344-3.070312 5.5 1.113281 10.234375 4.308593 13.332031 8.984374 3.09375 4.675782 4.183594 10.28125 3.066406 15.777344zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#37C5EE"/>
@@ -323,7 +323,7 @@ class AgenceWebToulouse extends React.Component {
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
+                            <h2 /*data-aos='fade-right'*/ className="text-center text-white text-2xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ?
 
 
@@ -337,27 +337,27 @@ class AgenceWebToulouse extends React.Component {
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-start text-center my-12">
-                            <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                            <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="200"*/>
                                 <img src={laptop} alt="Agence Web Agen" width="80px" />
                                 <p className="text-xl text-white century pt-3">CRÉATION SITE INTERNET</p>
                             </div>
-                            <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="400"*/>
 
                                 <img src={web} alt="Agence Web Toulouse" width="80px" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
-                            <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="600"*/>
                                 <img src={bullhorn} alt="Agence Web Agen" width="80px" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h2 className="century text-center text-xl md:text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-xl md:text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
                             <span className="text-bleu">/</span>Agence Web Toulouse : que gagner à se lancer dans un projet web ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 data-aos='fade-left' className="text-lg md:text-xl text-grey text-center century italic px-6 pb-6">Tout ! Ou bien presque. Investir dans un site web vous confère de nombreux avantages pour le développement de votre société, et d’abord celui de montrer que vous êtes bien présent.</h4>
+                        <h4 /*data-aos='fade-left'*/ className="text-lg md:text-xl text-grey text-center century italic px-6 pb-6">Tout ! Ou bien presque. Investir dans un site web vous confère de nombreux avantages pour le développement de votre société, et d’abord celui de montrer que vous êtes bien présent.</h4>
                     </section>
                     <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
                         <div className="w-full md:w-3/4 py-0 flex justify-end">
@@ -375,14 +375,14 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
                             <span className="text-bleu">/</span>Ils sont satisfaits par nos services d’agence web
                         </h2>
                         <hr className="blue"></hr>
 
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-start justify-center text-center mt-3 mb-12">
-                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" /*data-aos="fade-up"*/>
                             <img
                                 src={stars}
                                 alt="avis Google"
@@ -392,7 +392,7 @@ class AgenceWebToulouse extends React.Component {
                             <div className="italic">« Très bon relationnel, Gabriel est très agréable que ce soit par téléphone ou par mail, très professionnel,
                             une personne très a l’écoute. Nous le recommandons car nous sommes vraiment très satisfaits de ses prestations. »</div>
                         </div>
-                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="300">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" /*data-aos="fade-up" data-aos-delay="300"*/>
                             <img
                                 src={stars}
                                 alt="avis Google"
@@ -401,7 +401,7 @@ class AgenceWebToulouse extends React.Component {
                             <div className="text-lg century my-2">Agen Diesel</div>
                             <div className="italic">« La prise en charge de mon dossier par Anthony est impeccable. Très bon accueil téléphonique, il répond à mes demandes et mes exigences. Un rapport mensuel est effectué tout les mois pour voir l’évolution de notre entreprise en référencement sur internet. »</div>
                         </div>
-                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" data-aos="fade-up" data-aos-delay="500">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-start" /*data-aos="fade-up" data-aos-delay="500"*/>
                             <img
                                 src={stars}
                                 alt="avis Google"
@@ -434,7 +434,7 @@ class AgenceWebToulouse extends React.Component {
 
                     <section className=" w-full h-screen flex flex-col justify-center bg-bottom items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bureau + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex flex-col items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
+                            <h2 /*data-aos='fade-right'*/ className="text-center text-white text-2xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Vous souhaitez intégrer l’équipe de Linkweb ?
                                 Nous recrutons des développeurs et référenceurs web à Agen.
                             </h2>
@@ -443,7 +443,7 @@ class AgenceWebToulouse extends React.Component {
                     </section>
 
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
                             <span className="text-bleu">/</span>Les dernières actualités
                         </h3>
                         <hr className="blue"></hr>

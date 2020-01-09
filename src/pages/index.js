@@ -53,13 +53,13 @@ function IndexPage(props) {
         > */}
       <Hero></Hero>
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-        <h2 data-aos='fade-right' className="text-center">
+        <h2 /*data-aos='fade-right'*/ className="text-center">
           <Link className="hover:text-bleu" to="/agence-web-toulouse/" className="text-center text-black text-4xl century">
             Agence digitale Toulouse et Agen
           </Link>
         </h2>
         <hr className="blue"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Notre savoir-faire n’est pas une compétence, il est humain</h3>
+        <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Notre savoir-faire n’est pas une compétence, il est humain</h3>
       </section>
       <section className="w-full flex flex-1 equipe min-h-0 lg:min-h-600">
         <div className="w-1/4 bg-cover  imageDouble"  >
@@ -67,13 +67,13 @@ function IndexPage(props) {
         </div>
         <div className="w-3/4 ">
           <div className="content">
-            <h3 className="century capitalize text-2xl tracking-wider pb-3" data-aos="zoom-in">
+            <h3 className="century capitalize text-2xl tracking-wider pb-3" /*data-aos="zoom-in"*/>
               <span className="text-bleu">/</span>LINKWEB C’EST 20 TECHNICIENS
             </h3>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">8</span>  développeurs Front-End & Back-End</p>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong> et professionnels du <strong>développement web</strong></p>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA</p>
-            <p data-aos='fade-left'><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
+            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">8</span>  développeurs Front-End & Back-End</p>
+            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong> et professionnels du <strong>développement web</strong></p>
+            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA</p>
+            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
           </div>
           <div className="pictures w-full hidden flex-1 sm:hidden md:hidden lg:flex xl:flex">
             <div className="w-1/3 bg-cover bg-black imageSimple "></div>
@@ -85,9 +85,9 @@ function IndexPage(props) {
       <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
         <div className="w-full xl:w-1/3 one px-12">
           <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-            <div className="blackBulle my-6" data-aos="fade-up">1</div>
+            <div className="blackBulle my-6" /*data-aos="fade-up"*/>1</div>
             <section>
-              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                 <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION WEB
               </h3>
               <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -100,9 +100,9 @@ function IndexPage(props) {
         </div>
         <div className="w-full xl:w-1/3 two px-12">
           <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-            <div className="blackBulle my-6" data-aos="fade-up">2</div>
+            <div className="blackBulle my-6" /*data-aos="fade-up"*/>2</div>
             <section>
-              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                 <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MA SOLUTION
               </h3>
               <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -114,9 +114,9 @@ function IndexPage(props) {
           </div>
         <div className="w-full xl:w-1/3 three px-12">
           <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-            <div className="blackBulle my-6" data-aos="fade-up">3</div>
+            <div className="blackBulle my-6" /*data-aos="fade-up"*/>3</div>
             <section>
-              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+              <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                 <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
               </h3>
               <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -131,16 +131,16 @@ function IndexPage(props) {
       </section>
 
       <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-        <h2 data-aos='fade-right' className="text-center text-4xl century">
+        <h2 /*data-aos='fade-right'*/ className="text-center text-4xl century">
           <Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Création de <span className="text-bleu">Sites internet</span></Link> et <span className="text-bleu">Stratégies Web</span> sur-mesure 
         </h2>
         <hr className="blue"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6"><Link className="hover:text-bleu" to="/agence-web-toulouse/">Agence Web Toulouse</Link> et Agen</h3>
+        <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6"><Link className="hover:text-bleu" to="/agence-web-toulouse/">Agence Web Toulouse</Link> et Agen</h3>
       </section>
       <section  className="crea flex flex-1 w-full ml-0">
         <div className="w-full lg:w-3/4 bg-darkgrey py-12 flex justify-end">
           <div className="max-w-4xl w-full mr-0">
-            <h3 className="century text-white flex-1 capitalize text-2xl tracking-wider px-6 pb-3 w-full "  data-aos="zoom-in">
+            <h3 className="century text-white flex-1 capitalize text-2xl tracking-wider px-6 pb-3 w-full "  /*data-aos="zoom-in"*/>
               <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><span className="text-bleu">/</span>CRÉATION DE SITES WEB</Link>
             </h3>
             <div className="flex flex-col md:flex-row ">
@@ -195,65 +195,65 @@ function IndexPage(props) {
           />
         </div>
         <div className="w-full md:w-1/2 px-10 py-16 md:py-32 max-w-lg ml-0">
-          <h3 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
             <Link className="hover:text-bleu" to="/referencement-de-site-internet-47-31/"><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL</Link>
           </h3>
-          <h4 className="century text-lg tracking-wider pb-3 text-justify" data-aos='fade-left'>
+          <h4 className="century text-lg tracking-wider pb-3 text-justify" /*data-aos='fade-left'*/>
             <span className="font-bold">Le référenceur en charge de votre site web collabore avec vous chaque mois pour vous rendre compte de l’évolution du référencement de votre site internet.</span>
           </h4>
-          <p data-aos='fade-bottom' className="text-justify">À partir d’un <strong>audit de site</strong>, notre <strong>agence de référencement</strong> élabore votre stratégie de <Link className="hover:text-bleu" to="/agence-referencement-toulouse/"><strong>référencement site internet</strong></Link> et analyse les statistiques relatives à votre site internet pour une <strong>optimisation</strong> qui vous apportera une visibilité pertinente avec les <strong>moteurs de recherche</strong> grâce au <strong>marketing digital</strong> (<strong>web marketing</strong>).</p>
+          <p /*data-aos='fade-bottom'*/ className="text-justify">À partir d’un <strong>audit de site</strong>, notre <strong>agence de référencement</strong> élabore votre stratégie de <Link className="hover:text-bleu" to="/agence-referencement-toulouse/"><strong>référencement site internet</strong></Link> et analyse les statistiques relatives à votre site internet pour une <strong>optimisation</strong> qui vous apportera une visibilité pertinente avec les <strong>moteurs de recherche</strong> grâce au <strong>marketing digital</strong> (<strong>web marketing</strong>).</p>
           <Button url="/referencement-de-site-internet-47-31/" text="En savoir plus sur le référencement naturel SEO" position="start" />
 
-          <h3 className="century capitalize text-2xl tracking-wider pt-12 pb-6" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pt-12 pb-6" /*data-aos="zoom-in"*/>
             <Link className="hover:text-bleu" to="/agence-adwords-47-31/"><span className="text-bleu">/</span>RÉFÉRENCEMENT ADWORDS</Link>
           </h3>
-          <h4 className="century text-lg tracking-wider pb-3 text-justify"  data-aos='fade-left'>
+          <h4 className="century text-lg tracking-wider pb-3 text-justify"  /*data-aos='fade-left'*/>
             <span className="font-bold">Nous optimisons le choix des mots-clés et la configuration de votre plan publicitaire pour respecter votre budget et maximiser vos conversions.</span>
           </h4>
-          <p data-aos='fade-bottom' className="text-justify">En tant qu'agence de conseil, nous créons votre <strong>campagne publicitaire Adwords</strong> en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant avec <strong>Google Adwords</strong>.</p>
+          <p /*data-aos='fade-bottom'*/ className="text-justify">En tant qu'agence de conseil, nous créons votre <strong>campagne publicitaire Adwords</strong> en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant avec <strong>Google Adwords</strong>.</p>
           <Button url="/agence-adwords-47-31/" text="En savoir plus sur les campagnes Adwords SEA" position="start" />
         </div>
       </section>
 
       <section className="max-w-5xl w-full mx-auto px-4 py-2 my-2">
-        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
+        <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
           Ils nous ont fait confiance
         </h2>
         <hr className="blue"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Un échantillon de nos réalisations</h3>
+        <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Un échantillon de nos réalisations</h3>
       </section>
       <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
-        <div className="w-1/3 md:w-1/6 mb-10" data-aos='fade-up'>
+        <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up'*/>
           <img 
             src={peugeot}
             alt="Création site internet Toulouse"
           />
         </div>
-        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='200'>
+        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='200'*/>
           <img 
             src={normand}
             alt="Création site internet Toulouse"
           />
         </div>
-        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='400'>
+        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='400'*/>
           <img 
             src={onco}
             alt="Création site internet Agen"
           />
         </div>
-        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
+        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='600'*/>
           <img 
             src={tlse}
             alt="Agence Web Toulouse"
           />
         </div>
-        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
+        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='800'*/>
           <img 
             src={sdis}
             alt="Agence Web Agen"
           />
         </div>
-        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='1000'>
+        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
           <img 
             className="mx-12"
             src={hg}
@@ -264,11 +264,11 @@ function IndexPage(props) {
       </section>
 
       <section className="max-w-5xl w-full mx-auto px-4 py-12 mb-0 mt-12">
-        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
+        <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
           Vous avez un besoin ?
         </h2>
         <hr className="blue"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Nous sommes proactifs</h3>
+        <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Nous sommes proactifs</h3>
       </section>
       <section  className="tabPanel flex flex-1 w-full justify-end ml-0">
         <div className="w-full md:w-3/4 py-0 flex justify-end">
@@ -286,40 +286,40 @@ function IndexPage(props) {
         </div>
       </section>
       <section className="max-w-5xl w-full mx-auto px-4 py-6 mb-0 mt-12">
-        <h2 data-aos='fade-right' className="text-center text-black text-4xl century">
+        <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
           Nous devons connaitre
         </h2>
         <hr className="blue"></hr>
       </section>
       <section className="max-w-6xl flex flex-col md:flex-row w-full mx-auto px-4 pb-12 mb-0 mt-12">
         <div className="flex-full md:w-1/3 px-6 text-sm">
-          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" /*data-aos="zoom-in"*/>
             <span className="text-bleu">1.</span>Vos exigences
           </h3>
-          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle et de votre ligne de <strong>création graphique</strong>.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour une <strong>création de site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p><br/><br/>
+          <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Dans le cadre de la création ou du développement de votre structure, vous avez besoin de créer un outil en ligne répondant à des besoins spécifiques : nous élaborons un <strong>webdesign</strong> unique et original dans le respect de votre identité visuelle et de votre ligne de <strong>création graphique</strong>.<br /> L’ergonomie d’un <strong>site internet professionnel</strong> doit être soignée selon les principes de l’UI/UX et du <strong>responsive design</strong>.<br /> Nous développons des fonctionnalités pour une <strong>création de site internet sur mesure</strong>, tant pour l’administrateur que pour les utilisateurs.</p><br/><br/>
         </div>
 
         <div className="flex-full md:w-1/3 px-6 text-sm">
-          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" /*data-aos="zoom-in"*/>
             <span className="text-bleu">2.</span>Votre offre
           </h3>
-          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p><br/>
-          <p  data-aos='fade-left'  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p><br/><br/>
+          <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p><br/>
+          <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p><br/><br/>
         </div>
 
         <div className="flex-full md:w-1/3 px-6 text-sm">
-          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" data-aos="zoom-in">
+          <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" /*data-aos="zoom-in"*/>
             <span className="text-bleu">3.</span>Vos cibles
           </h3>
-          <p  data-aos='fade-left' className="text-justify" style={{textAlignLast:'center'}}>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est le rôme de notre <strong>agence de communication web</strong> de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous grâce à une <strong>stratégie de communication web créative</strong>.</p>
+          <p  /*data-aos='fade-left'*/ className="text-justify" style={{textAlignLast:'center'}}>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est le rôme de notre <strong>agence de communication web</strong> de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous grâce à une <strong>stratégie de communication web créative</strong>.</p>
         </div>
       </section>
       <section className="border-before-footer bg-darkgrey w-full mx-auto px-4 py-12 mb-0 mt-12">
-        <h2 data-aos='fade-right' className="text-center text-bleu text-4xl century">
+        <h2 /*data-aos='fade-right'*/ className="text-center text-bleu text-4xl century">
           Un conseil ? Une information ? Un devis ?
         </h2>
         <hr className="white"></hr>
-        <h3 data-aos='fade-left' className="text-xl text-bleu text-center century italic pb-6">Nous sommes proactifs</h3>
+        <h3 /*data-aos='fade-left'*/ className="text-xl text-bleu text-center century italic pb-6">Nous sommes proactifs</h3>
         <p className="text-white text-center text-sm md:text-md"><strong>Création Sites Vitrine | Sites E-commerce | Référencement Google | Rédaction Web</strong></p>
         <div className="flex flex-col md:flex-row flex-1 w-full mt-12 mb-6 century">
           <div className="w-full md:w-1/2 text-center text-white text-4xl">

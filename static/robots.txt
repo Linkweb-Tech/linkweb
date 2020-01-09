@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /https://linkweb.fr/pronto11/product/crew-sweatshirt/
+Disallow: /https://linkweb.fr/kartagen2/nos-formules/
 Noindex: /https://linkweb.fr/pronto11/product/crew-sweatshirt/
 Sitemap: https://linkweb.fr/sitemap.xml

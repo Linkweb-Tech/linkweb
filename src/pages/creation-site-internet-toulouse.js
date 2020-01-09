@@ -75,51 +75,51 @@ class CreationSiteInternetToulousePage extends React.Component {
                 > */}
                     
                     <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#00000038 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom', backgroundSize:'cover' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
+                        <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-4xl sm:text-6xl text-center text-white">
                         Création site internet Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
                         <h3 className="italic text-lg text-center sm:text-2xl text-white mt-2">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je veux créer mon site internet professionnel" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                        <h2 data-aos='fade-right' className="text-center text-4xl century">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-4xl century">
                             Nous travaillons main dans la main pour mettre en place un site qui vous ressemble.
                         </h2>
                         <hr className="blue"></hr>
                         
                     </section>
                     <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2 ">
-                        <div className="w-1/3 md:w-1/6 mb-10" data-aos='fade-up'>
+                        <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up'*/>
                         <img 
                             src={peugeot}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='200'>
+                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='200'*/>
                         <img
                             alt="Création site internet Agen" 
                             src={normand}
                         />
                         </div>
-                        <div className="w-1/3 md:w-1/6" data-aos='fade-up' data-aos-delay='400'>
+                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='400'*/>
                         <img 
                             src={onco}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='600'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='600'*/>
                         <img 
                             src={tlse}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='800'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='800'*/>
                         <img 
                             src={sdis}
                             alt="Création site internet Toulouse"
                         />
                         </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" data-aos='fade-up' data-aos-delay='1000'>
+                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
                         <img 
                             className="mx-12"
                             src={hg}
@@ -127,7 +127,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             width="65px"
                         />
                         </div>
-                        <div className="w-full" data-aos='zoom-in'>
+                        <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">Vous souhaitez une création de site internet à Toulouse ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
                         </div>
                     </section>
@@ -153,13 +153,13 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <img src={imac} alt="Création site internet Toulouse"/>
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
-                            <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>CRÉATION SITE INTERNET TOULOUSE : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE
                             </h2>
-                            <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
                                 <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. Linkweb met en place le site web qu’il vous faut à Toulouse.</span>
                             </h4>
-                            <p data-aos='fade-bottom' className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise en fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
+                            <p /*data-aos='fade-bottom'*/ className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise en fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
 
                             En fonction de votre demande, les équipes de <strong>consultants web</strong> de notre <strong className="font-light">agence de création de sites web</strong> définiront la solution la plus adaptée pour votre site quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Toulouse</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. Le <strong>référencement d'un site</strong> est un travail essentiel pour maximiser sa visibilité. De l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">arborescence</Link> à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
                             {/* <Button url="#" text="En savoir plus sur la création de site internet" position="start" /> */}
@@ -173,18 +173,18 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h2 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                         Faites connaître votre entreprise sur (<span className="text-bleu">l’</span>)<span className="text-bleu">Internet</span> !
                         </h2>
                         <hr className="blue"></hr>
-                        <h3 data-aos="fade-in" className="text-center font-normal italic century text-sm">Création de site internet à Toulouse</h3>
+                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Création de site internet à Toulouse</h3>
                     </section>
                     <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
                         <div className="w-full xl:w-1/3 one px-12">
                             <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
+                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>1</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                     <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
                                 </h3>
                                 <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -197,9 +197,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                             </div>
                             <div className="w-full xl:w-1/3 two px-12">
                             <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
+                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>2</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                     <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
                                 </h3>
                                 <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -211,9 +211,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                             </div>
                             <div className="w-full xl:w-1/3 three px-12">
                             <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
+                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>3</div>
                                 <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                     <span className="text-bleu">/</span>JE FAIS LE CHOIX D’EXPERTS POUR CRÉER MON SITE INTERNET
                                 </h3>
                                 <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
@@ -227,7 +227,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-6 pb-0 my-2">
-                        <h2 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                         Création de site internet à Toulouse : Linkweb, votre solution web professionnelle
                         </h2>
                         <hr className="blue"></hr>
@@ -237,31 +237,31 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <img 
                                 src={mac}
                                 alt="Création site internet Toulouse"
-                                data-aos="fade-right"
+                                /*data-aos="fade-right"*/
                             />
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl md:px-10 md:py-32">
-                            <h2 className="font-bold px-10 text-xl" data-aos="fade-in">1<span className="text-bleu">/</span> UNE ÉQUIPE À VOTRE ÉCOUTE</h2>
+                            <h2 className="font-bold px-10 text-xl" /*data-aos="fade-in"*/>1<span className="text-bleu">/</span> UNE ÉQUIPE À VOTRE ÉCOUTE</h2>
                             <br/>
-                            <p className="text-md text-justify px-10 pt-6 md:py-0" data-aos="fade-left">
+                            <p className="text-md text-justify px-10 pt-6 md:py-0" /*data-aos="fade-left"*/>
                                 <strong className="font-light">Nos consultants en communication web</strong> définissent un <strong>projet web</strong> qui vous ressemble : la relation de collaboration mise en place avec nos <strong className="font-light">clients</strong> nous permet de <strong>créer des sites internet</strong> à votre image, en suivant votre <strong>charte graphique</strong> et <strong>identité visuelle</strong>, vos valeurs, ainsi qu’en traduisant votre activité avec fidélité. Il est important pour nous d’être au plus près de vos besoins afin de retranscrire la plus-value que représente votre entreprise sur un support en ligne. En fonction de votre projet, il est également possible de mettre en place une <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/"><strong>refonte de votre site</strong></Link> existant.
                             </p>
                             <br/>
-                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" data-aos="fade-in">2<span className="text-bleu">/</span> DES EXPERTS QUALIFIÉS</h2>
+                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>2<span className="text-bleu">/</span> DES EXPERTS QUALIFIÉS</h2>
                             <br/>
-                            <p className="text-md text-justify px-10" data-aos="fade-left">
+                            <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
                                 <strong className="font-light">Linkweb</strong>, c’est une équipe de référenceurs spécialisés dans l’<strong>optimisation SEO</strong> en plus de <strong>développeurs <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/">front-end</Link> et <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/back-end/">back-end</Link></strong> spécialisés dans l’<Link className="font-bold text-bleu hover:text-black" to="/creation-site-internet-toulouse/ui-design/"><strong>UI design</strong></Link> (<strong className="font-light">interface utilisateur</strong> et travail de l'<strong className="font-light">ergonomie</strong>) et l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/"><strong>UX design</strong></Link> <strong className="font-light">(expérience utilisateur)</strong> à <strong className="font-light">Toulouse</strong>. Les équipes de notre <strong>agence de communication web</strong> vous proposent des plateformes adaptées dans le but d’améliorer l’<strong className="font-light">expérience</strong> passée sur votre site grâce à un site au <strong className="font-light"><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">webdesign</Link></strong> moderne, ergonomique, <strong className="font-light">intuitif</strong>, accessible et adapté au <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">responsive design</Link></strong>. Chaque fonctionnalité est étudiée pour apporter une plus-value à <strong>votre site internet</strong>.
                             </p>
                             <br/>
-                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" data-aos="fade-in">3<span className="text-bleu">/</span> UN SUIVI PRÉCIS DES PERFORMANCES</h2>
+                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>3<span className="text-bleu">/</span> UN SUIVI PRÉCIS DES PERFORMANCES</h2>
                             <br/>
-                            <p className="text-md text-justify px-10" data-aos="fade-left">
+                            <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
                                 Le <strong>référencement d’un site internet</strong> s’effectue sur le long terme. C’est pourquoi nous disposons d'<strong>outils indispensables</strong> qui permettent d'effectuer un suivi régulier pour vous donner la possibilité d’avoir un regard professionnel sur le positionnement des pages de votre site dans les résultats des <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/"><strong>moteurs de recherche</strong></Link> par rapport à vos concurrents. Par ailleurs, nos consultants à <strong className="font-light">Toulouse</strong> sont force de proposition pour vous présenter des mises à jour qui permettront d’affiner la <strong>stratégie de référencement</strong> déployée sur <strong>votre site web</strong>.
                             </p>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                        <h2 data-aos='fade-right' className="text-center text-3xl century">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                         <span className="text-bleu">/</span>Création de site internet à Toulouse : <span className="text-bleu">le mode opératoire</span> 
                         </h2>
                         <hr className="blue"></hr>
@@ -312,7 +312,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             </li>
                         </ul>
                         <div className="w-full flex flex-col sm:flex-row text-center my-6">
-                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="200">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" /*data-aos='zoom-in' data-aos-delay="200"*/>
         
 
                                 <svg  id="Layer_3" width="80px" height="80px" viewBox="0 0 64 64" >
@@ -345,7 +345,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">1 contact téléphonique par mois</p>
                             </div>
-                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6" /*data-aos='zoom-in' data-aos-delay="400"*/>
                                 <svg width="80px" height="80px" viewBox="-32 0 480 480.23349" >
                                     <g>
                                         <path d="m208.117188             96c-97.203126 0-176 78.796875-176 176s78.796874 176 176 176c97.203124 0 176-78.796875 176-176-.109376-97.15625-78.84375-175.890625-176-176zm0 336c-88.367188 0-160-71.632812-160-160s71.632812-160 160-160c88.363281 0 160 71.632812 160 160-.101563 88.324219-71.675782 159.898438-160 160zm0 0" data-original="#000000"  data-old_color="#000000" fill="#37C5EE"/>
@@ -357,7 +357,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </svg>
                                 <p className="text-xl century pt-3">Disponibilité et réactivité</p>
                             </div>
-                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6"  data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full sm:w-1/3 flex flex-col items-center justify-center pt-6"  /*data-aos='zoom-in' data-aos-delay="600"*/>
                             <svg  version="1.1" width="80px" height="80px" id="Capa_1" x="0px" y="0px" className="svg-bleu" viewBox="0 0 512 512" >
                                     <g>
                                         <g>
@@ -384,7 +384,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#6a6a6a url( '+ bgDev +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
+                            <h2 /*data-aos='fade-right'*/ className="text-center text-white text-2xl md:text-4xl century">
                             <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ?
                             </h2>
 
@@ -396,7 +396,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
 
                         <div className="max-w-6xl mx-auto flex text-center my-12 flex-col sm:flex-row">
-                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="200">
+                            <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="200"*/>
                             <svg x="0px" y="0px" viewBox="0 0 511.998 511.998"  width="80px" height="80px">
                                 <g>
                                     <g>
@@ -433,7 +433,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             </svg>
                                 <Link to="/creation-site-internet-agen/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
                             </div>
-                            <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center" data-aos='zoom-in' data-aos-delay="400">
+                            <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="400"*/>
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
                                     <g>
                                         <g>
@@ -465,7 +465,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 </svg>
                                 <Link to="/créer-une-boutique-en-ligne/"><p className="text-xl century text-white pt-3">SITE INTERNET E-COMMERCE</p></Link>
                             </div>
-                            <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
+                            <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center"  /*data-aos='zoom-in' data-aos-delay="600"*/>
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
                                     <g>
                                         <g>
@@ -495,11 +495,11 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
                             <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Toulouse ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 data-aos='fade-left' className="text-lg px-6 md:text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de sites web ?
+                        <h4 /*data-aos='fade-left'*/ className="text-lg px-6 md:text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de sites web ?
                         Nous répondons à vos interrogations sur la mise en place de votre site internet professionnel et sur-mesure.</h4>
                     </section>
                     <section  className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
@@ -518,14 +518,14 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h3 className="century text-center text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
                             <span className="text-bleu">/</span>Ils sont satisfaits par notre offre de création de site internet
                         </h3>
                         <hr className="blue"></hr>
                         
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center text-center mt-3 px-6 mb-12">
-                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
                             <img 
                                 src={ stars }
                                 alt="Création site internet Agen"
@@ -534,7 +534,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <div className="text-lg century my-2">Château de Boisverdun</div>
                             <div className="italic">« Nous sommes chez Linkweb depuis 3 ans et je n’ai jamais eu aucun problème les techniciens sont à l’écoute et nous appellent chaque mois pour faire un point! Continuez comme ça ne changez rien!! »</div>
                         </div>
-                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="300">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up" data-aos-delay="300"*/>
                             <img 
                                 src={ stars }
                                 alt="Création site internet Toulouse"
@@ -543,7 +543,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <div className="text-lg century my-2">Auto École Anne</div>
                             <div className="italic">« Entreprise très sérieuse. Équipe à l écoute et réactive des changements que je demande tous les mois. Le référencement est bien suivi et j ai un retour d’ Anthony tous les mois. Je recommande ! »</div>
                         </div>
-                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" data-aos="fade-up" data-aos-delay="500">
+                        <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up" data-aos-delay="500"*/>
                             <img 
                                 src={ stars }
                                 alt="Création site internet Agen"
@@ -574,7 +574,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
-                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
+                        <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
                             <span className="text-bleu">/</span>Les dernières actualités
                         </h3>
                         <hr className="blue"></hr>
