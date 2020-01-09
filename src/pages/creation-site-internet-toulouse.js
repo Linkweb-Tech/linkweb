@@ -157,7 +157,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 <span className="text-bleu">/</span>CRÉATION SITE INTERNET TOULOUSE : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
-                                <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. Linkweb met en place le site web qu’il vous faut à Toulouse.</span>
+                                <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. <strong>Linkweb</strong> met en place le site web qu’il vous faut à Toulouse.</span>
                             </h4>
                             <p /*data-aos='fade-bottom'*/ className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise en fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
 
