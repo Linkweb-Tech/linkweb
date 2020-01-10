@@ -1,6 +1,6 @@
 
 /*jslint browser: true, evil: true */
-window.onload( () => {
+window.onload = () => {
 
     // define correct path for files inclusion
 var scripts = document.getElementsByTagName('script'),
@@ -1686,7 +1686,7 @@ var tarteaucitron = {
 
 
 
-} )
+} 
 
 
 export default tarteaucitron;
