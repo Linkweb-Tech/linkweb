@@ -1,6 +1,6 @@
 
 // require("./static/data/tarteaucitron/tarteaucitron.services.js");
-import tarteaucitron from "./static/data/tarteaucitron/tarteaucitron.js";
+//import tarteaucitron from "./static/data/tarteaucitron/tarteaucitron.js";
 import "./src/css/style.css";
 import AOS from 'aos';
 
