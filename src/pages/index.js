@@ -72,7 +72,7 @@ function IndexPage(props) {
             </h3>
             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">8</span>  développeurs Front-End & Back-End</p>
             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong> et professionnels du <strong>développement web</strong></p>
-            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA</p>
+            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
           </div>
           <div className="pictures w-full hidden flex-1 sm:hidden md:hidden lg:flex xl:flex">
@@ -138,18 +138,19 @@ function IndexPage(props) {
         <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6"><Link className="hover:text-bleu" to="/agence-web-toulouse/">Agence Web Toulouse</Link> et Agen</h3>
       </section>
       <section  className="crea flex flex-1 w-full ml-0">
-        <div className="w-full lg:w-3/4 bg-darkgrey py-12 flex justify-end">
-          <div className="max-w-4xl w-full mr-0">
+        <div className="w-full lg:w-3/4 bg-darkgrey py-12 flex justify-center">
+          <div className="max-w-6xl w-full mr-0">
             <h3 className="century text-white flex-1 capitalize text-2xl tracking-wider px-6 pb-3 w-full "  /*data-aos="zoom-in"*/>
               <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><span className="text-bleu">/</span>CRÉATION DE SITES WEB</Link>
             </h3>
-            <div className="flex flex-col md:flex-row ">
-              <div className="w-full lg:w-1/2 my-6 px-6 text-white">
-              <strong>Élaboration et refonte du site internet</strong>, <strong>site e-commerce</strong>,  <strong>site vitrine</strong>, <strong>solutions web</strong> et <strong>intranet</strong> sur-mesure selon vos besoins fonctionnels et les attentes de vos utilisateurs.<br /><br />
+            <div className="flex flex-col md:flex-row text-justify">
+              <div className="w-full lg:w-10/12 my-6 px-2 text-white">
+              <strong>Linkweb élabore ou réalise une refonte du site internet</strong>, <strong>site e-commerce</strong>, <strong>site vitrine</strong> de votre entreprise. Nous définissons également des <strong>solutions web</strong> sur-mesure telles qu'un <strong>intranet</strong>. <br/><br/><strong>Pour créer un site</strong> performant, nous étudions vos vos besoins fonctionnels ainsi que les attentes de vos utilisateurs.<br /><br />
 
-              <strong>Création de design moderne</strong> et <strong>ergonomique</strong> qui s’adapte à toutes les <strong>tailles d’écrans</strong> : mobile, tablette et desktop.
+              <strong>Nos sites web sont crées à partir d'un design moderne</strong> et <strong>ergonomique</strong> qui s’adapte à toutes les <strong>tailles d’écrans</strong> : mobile, tablette et desktop.<br/><br/>
+              En choisissant Linkweb pour <strong>créer votre site internet</strong> à <strong>Agen</strong> et <strong>Toulouse</strong>, vous serez accompagné du choix de l'<strong>hébergement</strong>, du <strong>nom de domaine</strong>, de l'<strong>outil de création</strong> (<strong>CMS Wordpress</strong>, <strong>Drupal</strong>, <strong>Prestashop</strong>, solution <strong>HTML/CSS</strong>, etc.), jusqu'au <strong>web design</strong> ainsi que pour la création des contenus. Nous disposons de tous les <strong>outils indispensables</strong> pour vous permettre de <strong>faire un site</strong> performant pour votre entreprise.
               </div>
-              <div className="w-full md:w-1/2 flex mr-4">
+              <div className="w-full md:w-1/2 lg:ml-24 flex items-center">
                 <div className="w-full md:w-1/3">
                 <Link className="hover:text-bleu" to="/creation-de-site-internet-a-agen/"><img 
                     src={ loupe }
