@@ -23,10 +23,10 @@ class backend extends React.Component {
 
                 <SEO
                     title="Back-End : Définition - Création site internet Toulouse - Linkweb"
-                    description="La partie front-end d'un site internet fait référence à l'ensemble des éléments visibles sur le site web."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/front-end/"
-                    nom="Front-end"
-                    slug="creation-site-internet-toulouse/front-end/"
+                    description="La partie back-end d'un site internet fait référence à l'ensemble des éléments qui ne sont pas visibles directement sur le site web."
+                    url="https://linkweb.fr/creation-site-internet-toulouse/back-end/"
+                    nom="Back-end"
+                    slug="creation-site-internet-toulouse/back-end/"
                 />
                 {/* <PageTransition
                     defaultStyle={{

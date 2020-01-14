@@ -31,7 +31,11 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
                   "height":112,
                   "caption":"Création site internet Toulouse"
                   },
-              "url":"https://linkweb.fr/","sameAs":[]},
+              "url":"https://linkweb.fr/",
+              "sameAs":["https://www.facebook.com/AgenceLinkweb/",
+              "https://twitter.com/AgenceLinkweb",
+              "https://www.instagram.com/AgenceLinkweb/",
+              "https://www.linkedin.com/company/linkweb/"]},
                 {"@type":"WebSite",
                 "@id":"https://linkweb.fr/#website",
                 "url":"https://linkweb.fr/",

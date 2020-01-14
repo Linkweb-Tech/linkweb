@@ -463,7 +463,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                         </g>
                                     </g>
                                 </svg>
-                                <Link to="/créer-une-boutique-en-ligne/"><p className="text-xl century text-white pt-3">SITE INTERNET E-COMMERCE</p></Link>
+                                <Link to="/creer-une-boutique-en-ligne/"><p className="text-xl century text-white pt-3">SITE INTERNET E-COMMERCE</p></Link>
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center"  /*data-aos='zoom-in' data-aos-delay="600"*/>
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
