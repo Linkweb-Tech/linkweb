@@ -96,6 +96,7 @@ class RapportdePositionnement extends React.Component {
                             <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/courte-traine/">Courte Traîne</Link></li>
                             <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/">Critères de qualité</Link></li>
                             <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/sur-optimisation/">Sur-Optimisation</Link></li>
+                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/erreur-404/">Erreurs 404</Link></li>
                             <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/audit-seo/">Audit SEO</Link></li>
                             </ul>
                         </div>
