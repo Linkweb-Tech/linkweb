@@ -1,0 +1,68 @@
+.blochover {
+    opacity:1;
+    background-color:#00000090;
+    background-blend-mode:overlay;
+    background-image: url('../images/creation-site-vitrine-artisan.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    transition:all 1s ease;
+    max-height:500px;
+
+}
+    .blochover:hover
+    {
+        background-color:#000000d1;
+        background-image: url('../images/creation-site-vitrine-artisan.jpg');
+        background-blend-mode:overlay;
+        transition:all 0.7s ease;
+    }
+
+    .blochover .titre {
+        color:white;
+        overflow: visible;
+        padding-top:192px;
+        opacity: 1;        
+        transition: all 0.7s ease;
+    }
+    .blochover:hover .titre {
+        opacity: 0;
+        transition: all 0.7s ease;
+        }
+    .blochover .text {
+            color:white;
+            opacity: 0;
+            //visibility: hidden;
+            transition: all 1s ease;
+            font-weight:bold;
+            text-align:justify;
+            text-align-last:center;
+            padding-left:12%;
+            padding-right:12%;
+            padding-bottom:15%;
+            margin-top:-200px;
+
+            @media(max-width: 768px) {
+                margin-top:-200px;
+                display:block
+            }
+        }
+    .blochover:hover .text {
+            opacity: 1;
+            transition: all 1s ease;
+            transition-delay: 400ms;
+            padding-left:12%;
+            padding-right:12%;
+            padding-bottom:15%;
+            margin-top:-200px;
+            text-align:justify;
+            text-align-last:center;
+            font-weight:normal;
+
+            @media(max-width: 768px) {
+            margin-top:-225px;
+            }
+
+            }
+
+    
