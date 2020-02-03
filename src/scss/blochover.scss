@@ -9,6 +9,10 @@
     transition:all 1s ease;
     max-height:500px;
 
+    @media(max-width: 768px) {
+        max-height:700px;
+    }
+
 }
     .blochover:hover
     {
