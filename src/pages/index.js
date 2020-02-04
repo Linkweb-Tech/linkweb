@@ -304,7 +304,7 @@ function IndexPage(props) {
           <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" /*data-aos="zoom-in"*/>
             <span className="text-bleu">2.</span>Votre offre
           </h3>
-          <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, tant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p><br/>
+          <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, auttant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p><br/>
           <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise.</p><br/><br/>
         </div>
 
