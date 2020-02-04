@@ -127,9 +127,19 @@ class CreationSiteInternetToulousePage extends React.Component {
                             width="65px"
                         />
                         </div>
-                        <div className="w-full" /*data-aos='zoom-in'*/>
-                            <p className="text-md text-center py-12 century">Vous souhaitez une création de site internet à Toulouse ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
-                        </div>
+                    </section>
+                    <section className="max-w-5xl w-full mx-auto px-12 py-6 my-4 century">
+                        <h2 className="text-justify text-xl font-bold" style={{textAlignLast:'center'}}>
+                            Depuis 2008, Linkweb est à l'origine de la création de sites internet pour des entreprises issues d'horizons différents. Notre rôle, en tant qu'agence web à Toulouse, est de vous accompagner pour atteindre vos objectifs de visibilité sur le Web.
+                        </h2>
+                    <ul className="px-16 list-disc mt-10 max-w-5xl text-xl">
+                        <li>Vous avez besoin de <strong className="font-normal">créer un site internet</strong> pour <strong>vendre vos produits en ligne</strong> ?</li><br/>
+                        <li>Vous souhaitez la <strong className="font-normal">création d'un site internet</strong> pour <strong>présenter votre entreprise</strong> ou les <strong>produits que vous fabriquez</strong> ?</li><br/>
+                        <li>Vous disposez d'un <strong className="font-normal">site web</strong> qui nécessite <strong>une refonte totale ou partielle</strong> ?</li><br/>
+                    </ul>
+                    <div className="flex justify-center">
+                        <RoundButton url="/contact-agence-web-toulouse/" text="Demander un devis" />
+                    </div>
                     </section>
                     <section className="flex-wrap flex flex-col md:flex-row w-full mx-auto py-2 my-2 ">
                         <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfffe0 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
@@ -226,11 +236,16 @@ class CreationSiteInternetToulousePage extends React.Component {
 
                         </div>
                     </section>
-                    <section className="max-w-5xl w-full mx-auto px-4 pt-6 pb-0 my-2">
+                    <section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                         Création de site internet à Toulouse : Linkweb, votre solution web professionnelle
                         </h2>
                         <hr className="blue"></hr>
+                    </section>
+                    <section className="max-w-5xl w-full mx-auto px-10 pb-0">
+                    <div className="w-full max-w-5xl" /*data-aos='zoom-in'*/>
+                            <p className="text-md text-center pt-4 century">Vous souhaitez une création de site internet à Toulouse ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. <br/><br/>Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
+                        </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-6 md:my-4">
                         <div className="w-full lg:w-1/2 pt-6">
