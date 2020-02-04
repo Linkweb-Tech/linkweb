@@ -312,7 +312,7 @@ function IndexPage(props) {
           <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" /*data-aos="zoom-in"*/>
             <span className="text-bleu">3.</span>Vos cibles
           </h3>
-          <p  /*data-aos='fade-left'*/ className="text-justify" style={{textAlignLast:'center'}}>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est le rôme de notre <strong>agence de communication web</strong> de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous grâce à une <strong>stratégie de communication web créative</strong>.</p>
+          <p  /*data-aos='fade-left'*/ className="text-justify" style={{textAlignLast:'center'}}>L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est le rôle de notre <strong>agence de communication web</strong> de donner lieu à un <strong>site responsive</strong>.<br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous grâce à une <strong>stratégie de communication web créative</strong>.</p>
         </div>
       </section>
       <section className="border-before-footer bg-darkgrey w-full mx-auto px-4 py-12 mb-0 mt-12">
