@@ -54,9 +54,9 @@ class CreationSitePourIndustrie extends React.Component {
                 <SEO
                     title="Création de site internet pour industrie à Toulouse - Linkweb"
                     description="Vous êtes industriel et souhaitez créer un site web pour développer votre visibilité et promouvoir votre production ? Linkweb le crée pour vous."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/creation-site-pour-industrie/"
+                    url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-industrie/"
                     nom="Créer un site internet pour industriel"
-                    slug="creation-site-internet-toulouse/creation-site-pour-industrie/"
+                    slug="creation-site-internet-toulouse/site-internet-industrie/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
