@@ -9,6 +9,7 @@ import RoundButton from "../../components/roundButton";
 import Accordion from "../../components/accordion";
 import SEO from "../../components/seo";
 import "../../scss/blochover.scss";
+import "../../scss/carousel.scss";
 
 import stars from '../../images/stars.png';
 import arriereplan from "../../images/creation-site-artisan.jpg";
@@ -19,6 +20,7 @@ import realisation1 from "../../images/atout-corde.jpg";
 import realisation2 from "../../images/haut-en-bois.jpg";
 import realisation3 from "../../images/lacaze-noel.jpg";
 import map from "../../images/map.jpg";
+import surmesure from "../../images/web.svg"
 
 class CreationSitePourArtisan extends React.Component {
 
@@ -51,7 +53,7 @@ class CreationSitePourArtisan extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet pour artisan à Toulouse - Linkweb"
+                    title="Création de site internet à Toulouse pour artisan - Linkweb"
                     description="Vous êtes artisan et souhaitez créer un site web pour développer votre visibilité et obtenir de nouveaux chantiers ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/creation-site-pour-artisan/"
                     nom="Créer un site internet pour artisan"
@@ -198,7 +200,7 @@ class CreationSitePourArtisan extends React.Component {
             </div>
         </section>
         <section className="text-center text-black text-2xl century my-10 mx-12 lg:mx-0">
-            <h2 className="century leading-tight">Création de site internet à Toulouse :<br/><span className="text-4xl lg:text-6xl text-bleu font-bold">VOTRE PROJET EN 4 ÉTAPES</span></h2>
+            <h2 className="century leading-tight"><Link to="/creation-site-internet-toulouse/" className="text-black hover:text-bleu">Création de site internet à Toulouse</Link> :<br/><span className="text-4xl lg:text-6xl text-bleu font-bold">VOTRE PROJET EN 4 ÉTAPES</span></h2>
             <hr className="blue"></hr>
         </section>
         <section className="flex justify-center">
@@ -336,7 +338,7 @@ class CreationSitePourArtisan extends React.Component {
                         </h2>
                         <hr className="blue"></hr>
                     </section>
-                    <section  className="tabPanel flex flex-1 w-full justify-end ml-0 mb-24">
+                    <section  className="tabPanel flex flex-1 w-full justify-end ml-0 mb-16">
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                           <div className="w-full" label="UN SITE WEB POUR DÉVELOPPER SA VISIBILITÉ ET SA NOTORIÉTÉ SUR LE WEB">
@@ -349,6 +351,59 @@ class CreationSitePourArtisan extends React.Component {
                             <p>Générer des <strong className="font-normal">performances de visibilité élevées</strong> est de plus en plus difficile sur le <strong className="font-normal">Web</strong>. Toutefois, il existe des stratégies qui permettent d’<strong className="font-normal">obtenir une visibilité</strong> auprès d’une catégorie d’utilisateurs plus restreinte, mais bien plus ciblée. De plus, en sélectionnant des secteurs géographiques précis, il va être possible d’obtenir de la visibilité plus rapidement. <br/><br/>Les utilisateurs ciblés seront donc plus à même d’interagir avec <strong className="font-normal">votre site</strong> et donc de faire appel à vous. C’est pourquoi la phase de ciblage est essentielle pour la mise en place d’une <strong className="font-normal">stratégie de référencement</strong> pertinente et fructueuse en fonction de votre secteur d’activité (<strong className="font-normal">charpentier</strong>, <strong className="font-normal">couvreur</strong>, <strong className="font-normal">menuisier</strong>, <strong className="font-normal">ébéniste</strong>, <strong className="font-normal">serrurier</strong>, <strong className="font-normal">électricien</strong>, <strong className="font-normal">plaquiste</strong>, <strong className="font-normal">plombier</strong>, <strong className="font-normal">carreleur</strong>, <strong className="font-normal">tapissier</strong>, <strong className="font-normal">peintre</strong>, <strong className="font-normal">parqueteur</strong>, <strong className="font-normal">terrassier</strong>, etc.).</p>
                           </div>
                         </Accordion>
+                    </div>
+                    </section>
+                    <section className="w-full mb-16 flex justify-center">
+                    <div className="carousel century w-full lg:w-1/2 flex-full flex justify-center items-center py-0 lg:py-10 text-black px-10 text-sm xl:text-md" style={{backgroundColor:'#d3d3d352'}}>
+                      <div className="carousel-inner">
+                        <input className="opacity-0 carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"  defaultChecked/>
+                        <div className="carousel-item">
+                            <svg width="70px" className="mx-auto block pt-4" viewBox="0 0 64 80"><g><path fill="#37cfee" d="M47.131,15.395l3.451,6.065c0.278,0.489,0.982,0.489,1.261,0l3.451-6.065c2.477-1.427,4.151-4.091,4.151-7.152   c0-4.852-4.207-8.733-9.167-8.192c-3.62,0.396-6.632,3.253-7.202,6.85C42.505,10.508,44.286,13.775,47.131,15.395z M51.202,4.518   c2.051,0,3.715,1.674,3.715,3.725c0,2.05-1.664,3.715-3.715,3.715c-2.051,0-3.715-1.664-3.715-3.715   C47.487,6.192,49.152,4.518,51.202,4.518z"/><path fill="#37cfee" d="M1.909,33.581h47.5c1.226,0,2.097-1.196,1.701-2.364l-3.758-11.086c-0.247-0.722-0.93-1.216-1.691-1.216H38.64v9.316   H12.689v-9.316H5.667c-0.771,0-1.444,0.494-1.701,1.216L0.218,31.217C-0.177,32.385,0.683,33.581,1.909,33.581z"/><path fill="#37cfee" d="M12.894,15.275L25.47,2.699c0.105-0.105,0.28-0.105,0.393,0l12.576,12.576c0.482,0.499,1.323,0.529,1.853,0   c0.507-0.507,0.507-1.337,0-1.853L27.716,0.845c-1.128-1.127-2.972-1.127-4.099,0L11.041,13.422c-0.528,0.547-0.498,1.355,0,1.853   C11.548,15.79,12.378,15.79,12.894,15.275z"/><path fill="#37cfee" d="M14.672,16.411v9.837h21.99v-9.837l-11-11.001L14.672,16.411z M24.938,22.595h-3.619V17.81   c0-2.138,1.563-3.917,3.619-4.268V22.595z M26.396,13.54c0.906,0.153,1.725,0.575,2.353,1.203c0.772,0.782,1.266,1.873,1.266,3.066   v4.785h-3.619V13.54z"/><path fill="#37cfee" d="M49.204,61.297h-1.288V35.559H2.592v25.738H1.425c-0.723,0-1.308,0.575-1.308,1.298c0,0.713,0.584,1.298,1.308,1.298   h47.779c0.713,0,1.298-0.584,1.298-1.298C50.501,61.871,49.917,61.297,49.204,61.297z M15.854,59.631H6.459v-7.153h9.395V59.631z    M15.854,51.118H6.459v-7.647h9.395V51.118z M30.857,61.297H19.651V43.145h11.205V61.297z M44.04,59.631h-9.395v-7.153h9.395   V59.631z M44.04,51.118h-9.395v-7.647h9.395V51.118z"/><path fill="#37cfee" d="M60.389,53.138c-1.487,0-2.775,0.808-3.464,2.017c-0.769-0.629-1.747-1.018-2.835-1.018c-0.05,0-0.1,0-0.14,0.01   c-0.519-2.116-2.037-3.843-4.033-4.642v9.874c1.477,0.329,2.586,1.647,2.586,3.214c0,0.509-0.11,0.979-0.319,1.408h11.7v-8.775   C63.204,53.987,61.906,53.138,60.389,53.138z"/></g></svg>            
+                            <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
+                                Vous souhaitez créer un site internet pour <br/>votre entreprise <span className="text-bleu">du secteur immobilier</span> ?
+                            </h3>
+                            <div className="w-2/3 mx-auto block mb-16">
+                            <RoundButton url="/creation-site-internet-toulouse/site-internet-immobilier/" text="Création de site web immobilier"/>
+                            </div>
+                        </div>
+                        <input className="opacity-0 carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"/>
+                        <div className="carousel-item">
+                            <svg width="80px" className="mx-auto block pt-4" viewBox="0 0 100 125"><g><g><path fill="#37cfee" d="M40.3,65.7h32.9c0.6,0,1-0.5,1-1c0-0.6-0.5-1-1-1H40.3c-0.6,0-1,0.5-1,1C39.3,65.2,39.8,65.7,40.3,65.7z"></path><path fill="#37cfee" d="M87.4,58.7h-9.7v-6.5c0-0.5-0.4-1-1-1H43.4c-0.5,0-1,0.4-1,1v6.5h-3.2L38,31.4c0-0.5-0.5-0.9-1-0.9h-6.7     c-0.5,0-1,0.4-1,0.9l-1.1,23.7l-1.1-23.7c0-0.5-0.5-0.9-1-0.9h-6.7c-0.5,0-1,0.4-1,0.9l-1.3,27.3h-4.8c-0.5,0-1,0.4-1,1V94     c0,0.5,0.4,1,1,1h74.9c0.5,0,1-0.4,1-1V59.7C88.4,59.2,88,58.7,87.4,58.7z M83.1,60.7V93h-1.5V60.7H83.1z M68.6,53.2h7.2v5.5     h-7.2V53.2z M59.4,53.2h7.2v5.5h-7.2V53.2z M50.2,53.2h7.2v5.5h-7.2V53.2z M44.4,53.2h3.8v5.5h-3.8V53.2z M31.3,32.4h4.8     l1.2,26.3h-7.3L31.3,32.4z M20.5,32.4h4.8l1.2,26.3h-7.3L20.5,32.4z M25.9,93h-7.1V79.7h7.1V93z M34.9,93h-7.1V79.7h7.1V93z      M35.9,77.8H17.8c-0.5,0-1,0.4-1,1V93h-3.3V60.7h66.1V93H36.9V78.8C36.9,78.2,36.5,77.8,35.9,77.8z M86.5,93h-1.4V60.7h1.4V93z"></path><path fill="#37cfee" d="M28.7,27.6c0.9-0.1,1.7-0.5,2.5-1c1.2,1.1,2.9,1.7,4.6,1.4c0.6-0.1,1.2-0.3,1.7-0.5c0,0,0,0.1,0.1,0.1     c0.1,0.2,0.2,0.3,0.3,0.5c0.1,0.1,0.2,0.2,0.2,0.3c0.1,0.2,0.2,0.3,0.4,0.4c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.3,0.5,0.4     c0.1,0.1,0.2,0.1,0.3,0.2c0.2,0.1,0.4,0.3,0.6,0.4c0.1,0,0.1,0,0.2,0.1c0.8,0.4,1.8,0.7,2.7,0.7c0.3,0,0.6,0,0.9-0.1     c0.1,0,0.1,0,0.2-0.1c0.2,0,0.3-0.1,0.5-0.1c1.6,1.9,3.9,3.1,6.4,3.1c0.4,0,0.8,0,1.2-0.1c1.4-0.2,2.8-0.8,3.9-1.7c0,0,0,0,0,0     c0.4,0.3,0.9,0.5,1.4,0.7c0.1,0,0.2,0.1,0.2,0.1c0.1,0,0.2,0.1,0.3,0.1c0.2,0.1,0.4,0.1,0.7,0.1c0,0,0,0,0.1,0c0.2,0,0.5,0,0.7,0     c0,0,0,0,0,0c0,0,0,0,0,0c0.3,0,0.6,0,0.9-0.1c2-0.3,3.7-1.5,4.5-3.3c1.1,0.4,2.2,0.5,3.4,0.3c1.9-0.3,3.6-1.3,4.8-2.8     c1.2-1.6,1.6-3.5,1.4-5.4c-0.4-2.5-2.1-4.7-4.4-5.7c0-0.4,0-0.7-0.1-1C69.1,9.4,64.1,5,58.2,5c-0.5,0-1.1,0-1.6,0.1     c0,0,0,0-0.1,0c-0.2,0-0.3,0.1-0.5,0.1c-0.2,0-0.4,0.1-0.7,0.1c-0.2,0-0.3,0.1-0.5,0.1c-0.3,0.1-0.6,0.2-0.9,0.3     c-0.1,0-0.2,0.1-0.2,0.1c-1.7,0.7-3.2,1.7-4.4,3.1c-1.8-0.9-3.9-1.2-6-1c-2.1,0.3-4,1.2-5.5,2.6c-1.4-0.9-3.1-1.3-4.7-1     c-1.9,0.3-3.5,1.2-4.6,2.7c-1.1,1.4-1.5,3.2-1.4,5c-2.8,0.4-4.8,3.1-4.4,5.9C23.2,26,25.8,28,28.7,27.6z M27.5,19.3     c0.3,0,0.5,0,0.8,0c0.3,0,0.6-0.1,0.8-0.4c0.2-0.3,0.3-0.6,0.2-0.9c-0.1-0.2-0.1-0.4-0.2-0.6c-0.4-2.8,1.5-5.3,4.3-5.7     c1.2-0.2,2.3,0.1,3.3,0.7c0,0.3,0.2,0.6,0.4,0.8c0.4,0.3,1,0.2,1.3-0.2c1.3-1.6,3.1-2.6,5.2-2.9c1.5-0.2,3.1,0,4.5,0.6     c-0.2,0.3-0.3,0.5-0.5,0.8c-0.2,0.5-0.1,1.1,0.4,1.3c0.1,0.1,0.3,0.1,0.4,0.1c0.4,0,0.7-0.2,0.9-0.5c0.9-1.8,2.3-3.2,4-4.1     c0,0,0,0,0.1,0c0.3-0.2,0.6-0.3,0.9-0.4c0.1,0,0.2-0.1,0.3-0.1c0.2-0.1,0.4-0.2,0.7-0.2c0.2,0,0.3-0.1,0.5-0.1     c0.1,0,0.2,0,0.3-0.1c0.2,0,0.4-0.1,0.7-0.1C57.3,7,57.8,7,58.2,7c4.9,0,9.1,3.7,9.8,8.5c0.1,0.4,0.1,0.9,0.1,1.4c0,0,0,0,0,0     c0,0,0,0,0,0c0,0.9-0.3,2.3-0.3,2.3c-0.1,0.5,0.2,1,0.8,1.1c0.1,0,0.1,0,0.2,0c0.5,0,0.9-0.3,1-0.8c0,0,0.1-0.6,0.2-1.2     c1.4,0.8,2.3,2.2,2.5,3.8c0.2,1.4-0.2,2.8-1,3.9c-0.8,1.1-2.1,1.9-3.5,2.1c-1.1,0.2-2.2,0-3.2-0.5c-0.3-0.1-0.6-0.1-0.8,0     c-0.3,0.1-0.5,0.3-0.6,0.6c-0.5,1.5-1.8,2.7-3.3,2.9c0,0,0,0,0,0c-0.2,0-0.4,0-0.6,0c0,0,0,0-0.1,0c-0.2,0-0.3,0-0.5,0     c-0.1,0-0.1,0-0.2,0c-0.1,0-0.2,0-0.3-0.1c-0.5-0.1-1-0.4-1.5-0.7c-0.1,0-0.1-0.1-0.2-0.1c-0.1,0-0.1-0.1-0.2-0.1     c-0.3-0.3-0.5-0.6-0.7-0.9c-0.2-0.5-0.8-0.7-1.3-0.4c-0.5,0.2-0.7,0.8-0.4,1.3c0.1,0.2,0.2,0.4,0.3,0.5c-0.8,0.6-1.8,1-2.8,1.2     c-2.4,0.3-4.8-0.7-6.2-2.7c0,0,0,0,0-0.1c-0.5-0.8-0.8-1.6-1-2.6c-0.1-0.5-0.6-0.9-1.1-0.8c-0.5,0.1-0.9,0.6-0.8,1.1     c0.1,0.8,0.3,1.5,0.7,2.3c-1.3,0.1-2.4-0.3-3.3-1.1c0,0-0.1-0.1-0.1-0.1c-0.1-0.1-0.3-0.3-0.4-0.5c0,0-0.1-0.1-0.1-0.1     c-0.1-0.2-0.2-0.3-0.3-0.5c0-0.1-0.1-0.1-0.1-0.2c-0.1-0.2-0.1-0.3-0.2-0.5c0-0.2-0.1-0.3-0.1-0.5c-0.1-0.5-0.6-0.9-1.1-0.8     c-0.5,0.1-0.8,0.5-0.8,1c-0.4,0.3-0.9,0.4-1.4,0.5c0,0,0,0,0,0c-1.3,0.2-2.7-0.4-3.5-1.5c-0.3-0.4-0.9-0.5-1.4-0.2     c-0.1,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.1,0.1-0.2,0.1c-0.5,0.5-1.1,0.9-1.9,1c-1.8,0.3-3.4-1-3.7-2.7C24.5,21.2,25.7,19.5,27.5,19.3     z"></path><path fill="#37cfee" d="M52.9,23.4c0.3,0,0.6-0.1,0.8-0.4c1.5-2.2,2.2-4.8,1.8-7.4c-0.1-0.5-0.6-0.9-1.1-0.8c-0.5,0.1-0.9,0.6-0.8,1.1     c0.3,2.1-0.2,4.2-1.4,6c-0.3,0.4-0.2,1.1,0.2,1.4C52.5,23.3,52.7,23.4,52.9,23.4z"></path><path fill="#37cfee" d="M35.4,22.5c0,0,0.1,0,0.1,0c2.2-0.3,4.2-1.7,5.3-3.7c0.3-0.5,0.1-1.1-0.4-1.3c-0.5-0.3-1.1-0.1-1.3,0.4     c-0.8,1.4-2.2,2.4-3.8,2.7c-0.5,0.1-0.9,0.6-0.8,1.1C34.5,22.1,34.9,22.5,35.4,22.5z"></path><path fill="#37cfee" d="M70.9,68.6H42.7c-0.6,0-1,0.5-1,1v18.7c0,0.6,0.5,1,1,1h28.1c0.6,0,1-0.5,1-1V69.6C71.9,69.1,71.4,68.6,70.9,68.6z      M51.1,87.4h-7.4V80h7.4V87.4z M51.1,78h-7.4v-7.4h7.4V78z M60.5,87.4h-7.4V80h7.4V87.4z M60.5,78h-7.4v-7.4h7.4V78z M69.9,87.4     h-7.4V80h7.4V87.4z M69.9,78h-7.4v-7.4h7.4V78z"></path></g></g></svg>                            
+                            <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
+                                Vous souhaitez créer un site internet pour <br/>votre <span className="text-bleu">entreprise du secteur industriel</span> ?
+                            </h3>
+                            <div className="w-2/3 mx-auto block mb-16">
+                            <RoundButton url="/creation-site-internet-toulouse/site-internet-industrie/" text="Création de site web pour industrie"/>
+                            </div>
+                        </div>
+                        <input className="opacity-0 carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"/>
+                        <div className="carousel-item">
+                                <img src={surmesure} width="80px" className="mx-auto block mb-4" alt="Création site internet à Toulouse"/>
+                                <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
+                                Vous souhaitez créer un site internet <br/><span className="text-bleu">sur-mesure</span> ?
+                            </h3>
+                            <div className="w-2/3 mx-auto block mb-16">
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Contactez-nous"/>
+                            </div>
+                        </div>
+                        <label htmlFor="carousel-3" className="carousel-control prev control-1"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <label htmlFor="carousel-2" className="carousel-control next control-1"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px', transform:'scaleX(-1)'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <label htmlFor="carousel-1" className="carousel-control prev control-2"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <label htmlFor="carousel-3" className="carousel-control next control-2"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px', transform:'scaleX(-1)'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <label htmlFor="carousel-2" className="carousel-control prev control-3"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <label htmlFor="carousel-1" className="carousel-control next control-3"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px', transform:'scaleX(-1)'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <ol className="carousel-indicators">
+                            <li>
+                                <label for="carousel-1" className="carousel-bullet">•</label>
+                            </li>
+                            <li>
+                                <label for="carousel-2" className="carousel-bullet">•</label>
+                            </li>
+                            <li>
+                                <label for="carousel-3" className="carousel-bullet">•</label>
+                            </li>
+                        </ol>
+                      </div>
                     </div>
                   </section>
                   <section className="w-full flex justify-end py-24" style={{background:'#00000085 url('+ map +')', backgroundSize:'cover', backgroundRepeat: 'no-repeat', backgroundBlendMode:'cover'}}>
