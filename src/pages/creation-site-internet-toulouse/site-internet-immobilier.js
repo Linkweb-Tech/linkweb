@@ -395,6 +395,16 @@ class CreationSiteImmobilier extends React.Component {
                         <div className="carousel-item">
                                 <img src={surmesure} width="80px" className="mx-auto block mb-4" alt="Création site internet à Toulouse"/>
                                 <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
+                                Vous souhaitez créer un site internet <br/><span className="text-bleu">pour votre restaurant</span> ?
+                            </h3>
+                            <div className="w-2/3 mx-auto block mb-16">
+                            <RoundButton url="/creation-site-internet-toulouse/site-internet-restaurant/" text="Création de site web pour restaurant"/>
+                            </div>
+                        </div>
+                        <input className="opacity-0 carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true"/>
+                        <div className="carousel-item">
+                                <img src={surmesure} width="80px" className="mx-auto block mb-4" alt="Création site internet à Toulouse"/>
+                                <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                                 Vous souhaitez créer un site internet <br/><span className="text-bleu">sur-mesure</span> ?
                             </h3>
                             <div className="w-2/3 mx-auto block mb-16">
@@ -407,6 +417,8 @@ class CreationSiteImmobilier extends React.Component {
                         <label htmlFor="carousel-3" className="carousel-control next control-2"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px', transform:'scaleX(-1)'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
                         <label htmlFor="carousel-2" className="carousel-control prev control-3"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
                         <label htmlFor="carousel-1" className="carousel-control next control-3"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px', transform:'scaleX(-1)'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <label htmlFor="carousel-4" className="carousel-control next control-3"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px', transform:'scaleX(-1)'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
+                        <label htmlFor="carousel-4" className="carousel-control prev control-1"><svg width="20px" className="mx-auto block" viewBox="0 0 100 125" style={{marginTop:'10px'}}><g><polygon fill="#FFFFFF" points="2.5,50 46.9,86.5 46.9,64.5 97.5,64.5 97.5,35.5 46.9,35.5 46.9,13.5   "/></g></svg></label>
                         <ol className="carousel-indicators">
                             <li>
                                 <label for="carousel-1" className="carousel-bullet">•</label>
@@ -416,6 +428,9 @@ class CreationSiteImmobilier extends React.Component {
                             </li>
                             <li>
                                 <label for="carousel-3" className="carousel-bullet">•</label>
+                            </li>
+                            <li>
+                                <label for="carousel-4" className="carousel-bullet">•</label>
                             </li>
                         </ol>
                       </div>
