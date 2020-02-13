@@ -138,7 +138,7 @@ class CreationSiteRestaurant extends React.Component {
                 D'après une étude de 2014, <span className="text-bleu">50%</span> des recherches locales et mobiles entraînaient la visite d'un lieu dans la journée.
             </h3>
             <br/>
-            <p className="text-center century"><b>Source :</b> <a className="text-bleu hover:text-black" href="https://think.storage.googleapis.com/docs/how-advertisers-can-extend-their-relevance-with-search_research-studies.pdf/" target="_blank" rel="noreferrer">IPSOS MediaCT/Purchased, 2014</a></p>
+            <p className="text-center century"><b>Source :</b> <a className="text-bleu hover:text-black" href="https://www.abondance.com/20140509-13896-infographie-linfluence-du-mobile-les-recherches-locales.html" target="_blank" rel="noreferrer">IPSOS MediaCT/Purchased, 2014</a></p>
         </section>
         <section className="text-center text-black text-2xl century mx-12 mt-8 lg:mx-0">
             <h2 className="century leading-none">Répondre à vos<br/><span className="text-6xl text-bleu font-bold">BESOINS</span></h2>
