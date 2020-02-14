@@ -31,6 +31,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
 }
 
+/*
 exports.createCatPages = async ({ graphql, actions, reporter }) => {
   const { createCatPage } = actions
   const BlogCatTemplate = path.resolve("./src/templates/BlogCatPage.js")
@@ -60,4 +61,4 @@ exports.createCatPages = async ({ graphql, actions, reporter }) => {
           },
       })
   })
-}
+}*/

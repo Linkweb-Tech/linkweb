@@ -20,7 +20,8 @@ class ContactForm extends React.Component {
             objet: "",
             message: "",
             mailSent: false,
-            error: null
+            error: null,
+            submitDisplay: "block"
         }
     }
     
@@ -59,6 +60,7 @@ class ContactForm extends React.Component {
                 console.log(result.data)
                 let isOK = result.data.sent
                 if (isOK === true) {
+                    this.setState({submitDisplay: "hidden"})
                     store.addNotification({
                         id: "notif",
                         title: "Votre message a bien été pris en compte!",
@@ -69,8 +71,8 @@ class ContactForm extends React.Component {
                         animationIn: ["animated", "fadeIn"],
                         animationOut: ["animated", "fadeOut"],
                         dismiss: {
-                          duration: 5000,
-                          onScreen: true
+                            duration: 5000,
+                            onScreen: true
                         }
                     })
     
@@ -110,7 +112,7 @@ class ContactForm extends React.Component {
                         adresse = 'Adresse ';
                     }
                     if(!result.data.objetMessage == ''){
-                        object = 'Objet ';
+                        objet = 'Objet ';
                     }
                     if(!result.data.emailMessage == ''){
                         email = 'Email ';
@@ -232,7 +234,7 @@ class ContactForm extends React.Component {
                 <ReactNotification />
                 <ReCaptchaBlock />
 
-                <div className="w-full flex justify-center mt-12 mb-12">
+                <div className={`w-full flex justify-center mt-12 mb-12 ${ this.state.submitDisplay } `}>
                      <button onClick={e=>this.handleFormSubmit(e)} className="contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
                 </div>
             </form>
