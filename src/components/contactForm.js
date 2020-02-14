@@ -75,8 +75,8 @@ class ContactForm extends React.Component {
                             onScreen: true
                         }
                     })
-    
-                    this.setState = {
+
+                    this.setState({
                         email: "",
                         nom: "",
                         prenom: "",
@@ -86,7 +86,7 @@ class ContactForm extends React.Component {
                         message: "",
                         mailSent: false,
                         error: null
-                    }
+                    })
     
                 } else {
                     let nom = '';
