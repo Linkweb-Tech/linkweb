@@ -48,7 +48,7 @@ class CreationSiteInternetVilleneuvePage extends React.Component {
 
                 <SEO
                     title="Création de Site Internet à Villeneuve-sur-Lot - Agence Web Linkweb"
-                    description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
+                    description="Création de site internet à Villeneuve-sur-Lot. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
                     keywords={[`Création site internet Villeneuve-sur-Lot`, `Création site internet Villeneuve-sur-Lot`, `Création site web Villeneuve-sur-Lot`, `Création site web Villeneuve-sur-Lot`]}
                     url="https://linkweb.fr/creation-site-internet-villeneuve-sur-lot/"
                     nom="Création de site internet à Villeneuve-sur-Lot"

@@ -48,7 +48,7 @@ class CreationSiteInternetMarmandePage extends React.Component {
 
                 <SEO
                     title="Création de Site Internet à Marmande - Agence Web Linkweb"
-                    description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
+                    description="Création de site internet à Marmande. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
                     keywords={[`Création site internet Marmande`, `Création site internet Marmande`, `Création site web Marmande`, `Création site web Marmande`]}
                     url="https://linkweb.fr/creation-site-internet-marmande/"
                     nom="Création de site internet à Marmande"
