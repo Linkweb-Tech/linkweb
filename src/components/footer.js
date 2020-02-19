@@ -145,6 +145,9 @@ class Footer extends React.Component {
                             >
                                 Voir les offres
                             </Link>
+                            <Link className="my-6 century text-white font-bold text-md" to="/blog/foire-aux-questions/">
+                            <span className="text-bleu century">></span> Foire aux Questions
+                            </Link>
                         </div>
                     </section>
                 </section>
