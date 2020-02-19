@@ -307,7 +307,7 @@ function IndexPage(props) {
             <span className="text-bleu">2.</span>Votre offre
           </h3>
           <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Vos services, vos prestations, vos produits seront au cœur de l’élaboration de votre projet, auttant sur la partie graphique et ergonomique que fonctionnelle.<br /> L’élaboration d’un cahier des charges détaillé nous permettra de <strong>créer un site web</strong> qui vous correspondra.</p><br/>
-          <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise, que ce soit à Agen, Toulouse ou <Link to="/creation-site-internet-marmande/">Marmande</Link>.</p><br/><br/>
+          <p  /*data-aos='fade-left'*/  className="text-justify" style={{textAlignLast:'center'}}>Nous prenons en compte votre positionnement, votre charte graphique ainsi que votre <strong>image de marque</strong>, tout en étudiant votre concurrence pour une <strong>création web</strong> qui colle à votre entreprise, que ce soit à Agen, Toulouse, <Link to="/creation-site-internet-villeneuve-sur-lot/">Villeneuve-sur-Lot</Link> ou <Link to="/creation-site-internet-marmande/">Marmande</Link>.</p><br/><br/>
         </div>
 
         <div className="flex-full md:w-1/3 px-6 text-sm">
