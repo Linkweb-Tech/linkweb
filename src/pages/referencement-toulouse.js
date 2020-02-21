@@ -9,12 +9,8 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
+import Partenaires from '../components/partenaires';
 
-import tlse from "../images/logo_universite-federale.png";
-import peugeot from "../images/peugeot.png";
-import onco from "../images/logo-onco.png";
-import sdis from "../images/logo-sdis47.png";
-import normand from "../images/normandie.png";
 import blocBg from "../images/background.jpg";
 import Bg from "../images/background-referencement.jpg";
 import imac from "../images/smartphone.jpg";
@@ -27,7 +23,6 @@ import bullhorn from '../images/bullhorn.svg';
 import diagram from '../images/diagram.svg';
 import analysis from '../images/analysis.svg';
 import contract from '../images/contract.svg';
-import hg from "../images/logo_cd31.svg";
 
 
 class ReferencementToulouse extends React.Component {
@@ -81,50 +76,11 @@ class ReferencementToulouse extends React.Component {
                         <hr className="blue"></hr>
 
                     </section>
-                    <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
-                        <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up'*/>
-                            <img
-                                src={peugeot}
-                                alt="Référencement Toulouse"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='200'*/>
-                            <img
-                                src={normand}
-                                alt="Référencement Agen"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='400'*/>
-                            <img
-                                src={onco}
-                                alt="Agence Référencement Toulouse"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='600'*/>
-                            <img
-                                src={tlse}
-                                alt="Référencement Toulouse"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='800'*/>
-                            <img
-                                src={sdis}
-                                alt="Référencement Agen"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
-                        <img 
-                            className="mx-12"
-                            src={hg}
-                            alt="Réalisations Site Web Agen"
-                            width="65px"
-                        />
-                        </div>
+                    <Partenaires />
+                    <section className="flex-wrap flex-col md:flex-row flex w-full max-w-5xl mx-auto py-2 mb-2 ">
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">Avoir un site internet n’est pas une fin en soi : il doit nécessairement être visible sur internet. C’est le principe du référencement web. Faites de votre site une référence pour les moteurs de recherche.</p>
                         </div>
-                    </section>
-                    <section className="flex-wrap flex-col md:flex-row flex w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{ background: '#00cfff url( ' + blocBg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                             <h2 className="text-xl pb-6" ><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h2>
                             <p>Vous souhaitez <strong>augmenter votre visibilité</strong> dans les <strong>pages de recherche de Google</strong> ? Vous souhaitez <strong>générer du trafic sur votre site internet</strong>, vendre vos produits ou obtenir des contacts ? Le <strong>référencement naturel</strong> vous offre la possibilité de mettre en avant votre entreprise.</p>

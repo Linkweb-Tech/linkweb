@@ -9,18 +9,13 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
+import Partenaires from '../components/partenaires';
 
-import tlse from "../images/logo_universite-federale.png";
-import peugeot from "../images/peugeot.png";
-import onco from "../images/logo-onco.png";
-import sdis from "../images/logo-sdis47.png";
-import normand from "../images/normandie.png";
 import blocBg from "../images/background.jpg";
 import Bg from "../images/creation-site-internet-balma.jpg";
 import imac from "../images/referencement-site-immobilier.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import stars from '../images/stars.png';
-import hg from "../images/logo_cd31.svg";
 import mac from "../images/mac-agence.jpg";
 
 class CreationSiteInternetBalmaPage extends React.Component {
@@ -88,46 +83,7 @@ class CreationSiteInternetBalmaPage extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2 ">
-                        <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up'*/>
-                        <img 
-                            src={peugeot}
-                            alt="Création site internet Balma"
-                        />
-                        </div>
-                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='200'*/>
-                        <img
-                            alt="Création de site internet à Balma" 
-                            src={normand}
-                        />
-                        </div>
-                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='400'*/>
-                        <img 
-                            src={onco}
-                            alt="Création site internet Haute-Garonne (31)"
-                        />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='600'*/>
-                        <img 
-                            src={tlse}
-                            alt="Création de site internet à Balma"
-                        />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='800'*/>
-                        <img 
-                            src={sdis}
-                            alt="Création site internet Haute-Garonne (31)"
-                        />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
-                        <img 
-                            className="mx-12"
-                            src={hg}
-                            alt="Réalisations Site Web Balma"
-                            width="65px"
-                        />
-                        </div>
-                    </section>
+                    <Partenaires/>
                     <section className="max-w-5xl w-full mx-auto px-12 py-6 my-4 century">
                         <h2 className="text-justify text-xl font-bold" style={{textAlignLast:'center'}}>
                             Depuis 2008, Linkweb est à l'origine de la création de sites internet pour des entreprises du Haute-Garonne (31) issues d'horizons différents. Notre rôle est de vous accompagner pour atteindre vos objectifs de visibilité sur le Web.

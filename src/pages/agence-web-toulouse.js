@@ -9,12 +9,8 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
+import Partenaires from '../components/partenaires';
 
-import tlse from "../images/logo_universite-federale.png";
-import peugeot from "../images/peugeot.png";
-import onco from "../images/logo-onco.png";
-import sdis from "../images/logo-sdis47.png";
-import normand from "../images/normandie.png";
 import blocBg from "../images/background.jpg";
 import Bg from "../images/agence-web-bg.jpg";
 import imac from "../images/redaction.jpg";
@@ -28,7 +24,6 @@ import bullhorn from '../images/bullhorn.svg';
 import diagram from '../images/diagram.svg';
 import analysis from '../images/analysis.svg';
 import contract from '../images/contract.svg';
-import hg from "../images/logo_cd31.svg";
 
 
 class AgenceWebToulouse extends React.Component {
@@ -82,51 +77,12 @@ class AgenceWebToulouse extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="max-w-5xl flex-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
-                        <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up'*/>
-                            <img
-                                src={peugeot}
-                                alt="Agence Web Toulouse"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='200'*/>
-                            <img
-                                src={normand}
-                                alt="Agence Web Agen"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6" /*data-aos='fade-up' data-aos-delay='400'*/>
-                            <img
-                                src={onco}
-                                alt="Agence Web Toulouse"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='600'*/>
-                            <img
-                                src={tlse}
-                                alt="Agence Web Agen"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='800'*/>
-                            <img
-                                src={sdis}
-                                alt="Agence Web Agen"
-                            />
-                        </div>
-                        <div className="w-1/3 md:w-1/6 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
-                        <img 
-                            className="mx-12"
-                            src={hg}
-                            alt="Réalisations Site Web Agen"
-                            width="65px"
-                        />
-                        </div>
+                    <Partenaires/>
+                    <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">
                                 Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Toulouse</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
                         </div>
-                    </section>
-                    <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
                         <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in"*/>
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
