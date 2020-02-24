@@ -26,7 +26,7 @@ import realisation3 from "../../images/atelier-pecheur.jpg";
 import map from "../../images/map.jpg";
 import surmesure from "../../images/web.svg"
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = () => <svg width="40px" viewBox="0 0 847 1058.75" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><g><path fill="#37cfee" d="M423 824c33,-70 242,-471 242,-560 0,-133 -108,-241 -242,-241 -133,0 -241,108 -241,241 0,89 209,490 241,560zm0 -694c75,0 135,60 135,134 0,74 -60,134 -135,134 -74,0 -134,-60 -134,-134 0,-74 60,-134 134,-134z"/></g></svg>;
 
 class CreationSiteRestaurant extends React.Component {
     
@@ -518,7 +518,6 @@ class CreationSiteRestaurant extends React.Component {
                     <AnyReactComponent
                         lat={44.182697}
                         lng={0.628951}
-                        text="Linkweb"
                     />
                     </GoogleMapReact>
                 </div>
