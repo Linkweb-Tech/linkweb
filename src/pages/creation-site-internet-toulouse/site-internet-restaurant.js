@@ -8,6 +8,10 @@ import RoundButtonAccueilMail from "../../components/roundButtonAccueilMail";
 import RoundButton from "../../components/roundButton";
 import Accordion from "../../components/accordion";
 import SEO from "../../components/seo";
+import simpleMap from "../../components/simpleMap";
+import GoogleMapReact from 'google-map-react';
+
+
 import "../../scss/blochover.scss";
 import "../../scss/carousel.scss";
 
@@ -22,9 +26,10 @@ import realisation3 from "../../images/atelier-pecheur.jpg";
 import map from "../../images/map.jpg";
 import surmesure from "../../images/web.svg"
 
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class CreationSiteRestaurant extends React.Component {
-
+    
     constructor(props) {
         super(props);
 
@@ -33,7 +38,13 @@ class CreationSiteRestaurant extends React.Component {
             metier: this.metiers[0]
         };
     }
-
+    static defaultProps = {
+        center: {
+          lat: 44.182697,
+          lng: 0.628951
+        },
+        zoom: 14
+      };
     componentDidMount() {
         let i = 0;
         this.metierInterval = setInterval(() => {
@@ -498,6 +509,19 @@ class CreationSiteRestaurant extends React.Component {
                       </div>
                     </div>
                   </section>
+                  <div style={{ height: '70vh', width: '100%' }}>
+                    <GoogleMapReact
+                    bootstrapURLKeys={{ key: 'AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ' }}
+                    defaultCenter={this.props.center}
+                    defaultZoom={this.props.zoom}
+                    >
+                    <AnyReactComponent
+                        lat={44.182697}
+                        lng={0.628951}
+                        text="Linkweb"
+                    />
+                    </GoogleMapReact>
+                </div>
                   <section className="w-full flex justify-end py-24" style={{background:'#00000085 url('+ map +')', backgroundSize:'cover', backgroundRepeat: 'no-repeat', backgroundBlendMode:'cover'}}>
                       <div className="w-full lg:w-1/3 py-10 bg-white shadow-2xl mx-4 lg:mx-32 text-center text-black text-4xl century">
                           <h2 className="max-w-sm mx-auto">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
