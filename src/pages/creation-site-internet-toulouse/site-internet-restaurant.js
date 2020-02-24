@@ -519,7 +519,7 @@ class CreationSiteRestaurant extends React.Component {
                         lat={44.182697}
                         lng={0.628951}
                     />
-                    <div className="w-full lg:w-1/3 py-10 bg-white shadow-2xl mx-4 lg:mx-32 text-center text-black text-4xl century">
+                    <div className="w-full flex flex-col items-start lg:w-1/3 py-10 bg-white shadow-2xl mx-4 lg:mx-32 text-center text-black text-4xl century" style={{marginTop:'-16rem'}}>
                           <h2 className="max-w-sm mx-auto">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
                           <br/>
                           <div className="w-2/3 flex flex-row justify-start mx-auto">
