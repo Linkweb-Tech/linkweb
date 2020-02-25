@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import '../scss/map.scss';
  
 const AnyReactComponent = () => <svg width="40px" viewBox="0 0 847 1058.75" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><g><path fill="#37cfee" d="M423 824c33,-70 242,-471 242,-560 0,-133 -108,-241 -242,-241 -133,0 -241,108 -241,241 0,89 209,490 241,560zm0 -694c75,0 135,60 135,134 0,74 -60,134 -135,134 -74,0 -134,-60 -134,-134 0,-74 60,-134 134,-134z"/></g></svg>;
  
@@ -15,8 +16,8 @@ class SimpleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <section className="flex flex-col items-end" style={{maxHeight:'650px'}}>
-                  <div className="relative" style={{ height: '80vh', width: '100%' }}>
+      <section className="map flex flex-col items-end">
+                  <div className="order-last md:order-first relative" style={{ height: '80vh', width: '100%' }}>
                     <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ' }}
                     defaultCenter={this.props.center}
@@ -28,7 +29,7 @@ class SimpleMap extends Component {
                     />
                     </GoogleMapReact>
                 </div>
-                <div className="w-full md:w-1/2 flex flex-col items-end lg:w-1/3 py-10 bg-white shadow-2xl mx-auto block lg:mx-32 text-center text-black text-4xl century relative" style={{bottom:'700px'}}>
+                <div className="order-first md:order-last contact w-full md:w-1/2 flex flex-col items-end lg:w-1/3 py-10 bg-white shadow-2xl mx-auto block lg:mx-32 text-center text-black text-4xl century relative">
                           <h2 className="max-w-sm text-xl lg:text-4xl mx-auto">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
                           <br/>
                           <div className="w-2/3 flex flex-row justify-start mx-auto">

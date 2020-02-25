@@ -1,0 +1,13 @@
+.map {
+    max-height:650px;
+    @media(max-width: 768px) {
+    max-height:100%
+    }
+}
+
+.contact {
+    bottom:700px;
+    @media(max-width: 768px) {
+        bottom:0
+    }
+}
