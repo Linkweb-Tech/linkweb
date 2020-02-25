@@ -8,6 +8,7 @@ import RoundButtonAccueilMail from "../../components/roundButtonAccueilMail";
 import RoundButton from "../../components/roundButton";
 import Accordion from "../../components/accordion";
 import SEO from "../../components/seo";
+import SimpleMap from "../../components/simpleMap";
 import "../../scss/blochover.scss";
 import "../../scss/carousel.scss";
 
@@ -505,7 +506,8 @@ class CreationSitePourIndustrie extends React.Component {
                       </div>
                     </div>
                   </section>
-                  <section className="w-full flex justify-end py-24" style={{background:'#00000085 url('+ map +')', backgroundSize:'cover', backgroundRepeat: 'no-repeat', backgroundBlendMode:'cover'}}>
+                  <SimpleMap/>
+                  {/* <section className="w-full flex justify-end py-24" style={{background:'#00000085 url('+ map +')', backgroundSize:'cover', backgroundRepeat: 'no-repeat', backgroundBlendMode:'cover'}}>
                       <div className="w-full lg:w-1/3 py-10 bg-white shadow-2xl mx-4 lg:mx-32 text-center text-black text-4xl century">
                           <h2 className="max-w-sm mx-auto">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
                           <br/>
@@ -537,7 +539,7 @@ class CreationSitePourIndustrie extends React.Component {
                           </div>
                           
                       </div>
-                  </section> 
+                  </section>  */}
             {/* </PageTransition> */}
             </Layout>
         );
