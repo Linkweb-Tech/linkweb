@@ -15,7 +15,7 @@ class ButtonBlog extends React.Component {
         return (
             <Link 
                 to={ this.props.url } 
-                className={`font-normal roundedButton bg-${this.props.color || 'bleu'} text-white flex justify-center items-center text-xl px-8 py-4`}
+                className={`font-normal roundedButton bg-${this.props.color || 'bleu'} text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-8 py-4`}
             >
               {this.props.text || 'skew'}
             </Link>

@@ -1,0 +1,49 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/background-linkweb.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-color: #000000a1;
+
+    .orbs {
+        margin-bottom: 0px;
+        span {
+            
+            font-size: 110px;
+            display: inline-block;
+            text-align: center;
+            letter-spacing: -3px!important;
+            
+            @media(max-width: 768px) {
+                letter-spacing: -8px !important;
+                font-size: 90px;
+            }
+            &.blue {
+                padding-left: 8px;
+                padding-right: 5px;
+                font-weight: 500;
+                font-family: 'Century';
+                font-size: 125px;
+                @media(max-width: 768px) {
+                    font-size: 105px;
+                }
+            }
+        }
+
+    }
+
+    .bigtitle {
+        font-size: 27px;
+        letter-spacing: 0;
+
+        @media(max-width: 768px) {
+            font-size: 19px;
+    }
+}
+
+    .smalltitle {
+        font-size: 17px;
+    }
+}
