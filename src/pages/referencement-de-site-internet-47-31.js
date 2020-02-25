@@ -245,52 +245,52 @@ class ReferencementNaturel extends React.Component {
                         </h2><br/>
                         <hr className="blue"></hr>
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT NATUREL
-                                </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Le <strong>référencement naturel (SEO)</strong> se distingue du <strong>référencement payant</strong> ou <strong>référencement Google Ads</strong>. Si ce dernier se concentre sur la <strong>sponsorisation de liens</strong>, le <strong>SEO</strong> demande d’être rigoureux, régulier et attentif pour faire progresser un site sur les <strong>moteurs de recherche</strong>.
-                                </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Découvrir le SEO" position="center" />
-
-                                </section>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+                    <div className="w-full xl:w-1/3 one px-auto">
+                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                        <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                        <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                            <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                            <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT NATUREL
+                            </h3>
+                            <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                            Le <strong>référencement naturel (SEO)</strong> se distingue du <strong>référencement payant</strong> ou <strong>référencement Google Ads</strong>. Si ce dernier se concentre sur la <strong>sponsorisation de liens</strong>, le <strong>SEO</strong> demande d’être rigoureux, régulier et attentif pour faire progresser un site sur les <strong>moteurs de recherche</strong>.
                             </div>
-                            </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
-                                </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Vous souhaitez mettre en place une <strong>stratégie de référencement naturel</strong> pour <strong>améliorer la visibilité de votre site internet</strong> ? Nous définissons les contours de votre projet pour vous permettre de mettre en place une stratégie efficace selon vos besoins.
-                                </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </section>
-                                </div>
-                            </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEO
-                                </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Optez pour la mise en place de votre <strong>stratégie de référencement naturel</strong>. Des <strong>consultants SEO</strong> vous accompagnent pour déterminer les objectifs de la <strong>création de votre site internet</strong> qui vous permettra d’<strong>optimiser votre visibilité en ligne</strong>, dans le but d'obtenir des contacts, ou bien de vendre vos produits.
-                                </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                                </section>
-                                
-                            </div>
-
+                            <Button url="/contact-agence-web-toulouse/" text="Découvrir le SEO" position="center" />
+            
+                        </section>
                         </div>
+                    </div>
+                    <div className="w-full xl:w-1/3 two px-auto">
+                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                        <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                        <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                            <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                            <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
+                            </h3>
+                            <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                            Vous souhaitez mettre en place une <strong>stratégie de référencement naturel</strong> pour <strong>améliorer la visibilité de votre site internet</strong> ? Nous définissons les contours de votre projet pour vous permettre de mettre en place une stratégie efficace selon vos besoins.
+                            </div>
+                            <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
+                        </section>
+                        </div>
+                        </div>
+                    <div className="w-full xl:w-1/3 three px-auto">
+                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                        <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                        <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                            <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                            <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEO
+                            </h3>
+                            <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                Optez pour la mise en place de votre <strong>stratégie de référencement naturel</strong>. Des <strong>consultants SEO</strong> vous accompagnent pour déterminer les objectifs de la <strong>création de votre site internet</strong> qui vous permettra d’<strong>optimiser votre visibilité en ligne</strong>, dans le but d'obtenir des contacts, ou bien de vendre vos produits.
+                            </div>
+                            <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
+                        </section>
+                        
+                        </div>
+            
+                    </div>
                     </section>
                     <section className="w-full h-full flex flex-col justify-center items-center px-4 pt-12 pb-0 mt-2 bg-darkgrey text-white">
                         <div className="w-full">

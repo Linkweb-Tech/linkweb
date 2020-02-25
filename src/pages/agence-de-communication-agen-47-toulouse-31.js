@@ -82,54 +82,53 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     </section>
 
 
-                    <section className="flex flex-col lg:flex-row flex-1 max-w-7xl mx-auto home-step mt-24 mb-12 my-12 px-1 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                        <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
-                                </h3>
-                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    Prendre conscience de l’intérêt de la <strong>création d’un site internet</strong> pour votre entreprise est essentiel à l’heure où des millions de sites voient le jour. Mettre en place un <strong>site visible sur les moteurs de recherche</strong> permet de toucher une nouvelle cible et favorise le développement de votre entreprise.  
-                                    <br/><Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
-                                </div>
-                                    
-
-                                </section>
-                            </div>
-                        </div>
-                        <div className="w-full xl:w-1/3 two px-12">
-                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                        <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
-                                </h3>
-                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    Vous souhaitez mettre en place votre <strong>solution web</strong>, mais ne savez pas ce qui vous conviendrez le plus ? Nous définissons votre projet selon vos objectifs, vos besoins, vos cibles, ainsi que vos moyens. <strong><Link to="/">Linkweb</Link></strong> met en place votre <strong>projet web sur-mesure</strong> pour <strong>créer un site internet</strong> qui vous ressemble.
-                                    <br/><br/><Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </div>
-                                    
-                                </section>
-                            </div>
-                        </div>
-                        <div className="w-full xl:w-1/3 two px-12">
-                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                        <span className="text-bleu">/</span>JE CHOISIS LINKWEB POUR CRÉER MON SITE INTERNET
-                                </h3>
-                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                        Faites confiance à l’expertise de <strong><Link to="/">Linkweb</Link></strong> dans la <strong><Link to="/creation-site-internet-toulouse/">création de site internet</Link></strong>. <strong>Nos consultants</strong> en <strong><Link to="/referencement-toulouse/">référencement</Link></strong> et <strong><Link to="/creation-de-site-internet-47-31/">développement</Link></strong> vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un <strong>site internet</strong> qui fonctionne.
-                                        <br/><br/><br/><Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </div>
-                                    
-                                </section>
-                            </div>
-                        </div>
-                    </section>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+          <div className="w-full xl:w-1/3 one px-auto">
+            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+              <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+              <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                  <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
+                </h3>
+                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                    Prendre conscience de l’intérêt de la <strong>création d’un site internet pour votre entreprise</strong> est essentiel à l’heure où des millions de sites voient le jour. Mettre en place un <strong>site visible sur les moteurs de recherche</strong> permet de toucher une nouvelle cible et favorise le <strong>développement de votre entreprise</strong>.
+                </div>
+                <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
+  
+              </section>
+            </div>
+          </div>
+          <div className="w-full xl:w-1/3 two px-auto">
+            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+              <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                  <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
+                </h3>
+                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                Vous souhaitez mettre en place votre <strong>solution web</strong>, mais ne savez pas ce qui vous conviendrez le plus ? Nous définissons votre projet selon vos objectifs, vos besoins, vos cibles, ainsi que vos moyens. <Link to="/" className="text-bleu font-bold hover:text-black">Linkweb</Link> met en place votre <strong>projet web sur-mesure</strong> pour <strong>créer un site internet</strong> qui vous ressemble.
+                </div>
+                <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" />
+              </section>
+              </div>
+            </div>
+          <div className="w-full xl:w-1/3 three px-auto">
+            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+              <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                  <span className="text-bleu">/</span>JE CHOISIS LINKWEB POUR CRÉER MON SITE INTERNET
+                </h3>
+                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                  Faites confiance à l’expertise de <strong>Linkweb</strong> dans la <strong>création de site internet</strong>. Nos <strong>consultants en <Link to="/referencement-toulouse/" className="text-bleu font-bold hover:text-black">référencement</Link> et <Link to="/creation-de-site-internet-47-31/" className="text-bleu font-bold hover:text-black">développement web</Link></strong> vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un <strong>site internet</strong> qui fonctionne.
+                </div>
+                <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" />
+              </section>
+              
+            </div>
+  
+          </div>
+        </section>
                     
                     
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>

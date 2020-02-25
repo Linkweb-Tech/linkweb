@@ -352,55 +352,53 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE DÉFINIS LES CONTOURS DE MON PROJET
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE DÉFINIS LES CONTOURS DE MON PROJET
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                À l’image de l’ensemble des <strong>projets web</strong> que nous mettons en place, nous avons besoin de connaître vos objectifs, vos cibles, votre positionnement et la nature de votre activité pour vous permettre d’accéder à la <strong>solution e-commerce</strong> la plus adaptée à votre entreprise.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    À l’image de l’ensemble des <strong>projets web</strong> que nous mettons en place, nous avons besoin de connaître vos objectifs, vos cibles, votre positionnement et la nature de votre activité pour vous permettre d’accéder à la <strong>solution e-commerce</strong> la plus adaptée à votre entreprise.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-
-                                </section>
+                
+                            </section>
                             </div>
-                            </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS AVEC UN PROFESSIONNEL
+                        </div>
+                        <div className="w-full xl:w-1/3 two px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS AVEC UN PROFESSIONNEL
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois vos besoins déterminés, nous établissons les contours de votre projet en déterminant les outils marketing les plus adaptés à votre site. Nos équipes détermineront votre stratégie pour <strong>obtenir un site internet</strong> efficace.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Une fois vos besoins déterminés, nous établissons les contours de votre projet en déterminant les outils marketing les plus adaptés à votre site. Nos équipes détermineront votre stratégie pour <strong>obtenir un site internet</strong> efficace.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </section>
-                                </div>
+                            </section>
                             </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE SUIS FORMÉ(E) À LA GESTION DE MA BOUTIQUE EN LIGNE
+                            </div>
+                        <div className="w-full xl:w-1/3 three px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE SUIS FORMÉ(E) À LA GESTION DE MA BOUTIQUE EN LIGNE
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois votre projet bâti et <strong>votre site</strong> prêt à être mis en ligne, nous vous formerons à utiliser la face cachée de votre boutique : gérer vos stocks, ajouter vos produits, suivre l’évolution de vos ventes. Vous pourrez <strong>gérer votre site e-commerce</strong> en totale autonomie.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Une fois votre projet bâti et <strong>votre site</strong> prêt à être mis en ligne, nous vous formerons à utiliser la face cachée de votre boutique : gérer vos stocks, ajouter vos produits, suivre l’évolution de vos ventes. Vous pourrez <strong>gérer votre site e-commerce</strong> en totale autonomie.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                                </section>
-                                
+                            </section>
+                            
                             </div>
-
+                
                         </div>
                     </section>
-                    
-                    
                     <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{background:'#000000ba url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">

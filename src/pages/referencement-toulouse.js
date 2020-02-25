@@ -121,53 +121,53 @@ class ReferencementToulouse extends React.Component {
                         <hr className="blue"></hr>
                         <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Référencement Toulouse</h3>
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 sm:px-12 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>1</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT
-                                </h3>
-                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                        Faire appel à une <strong>agence de référencement naturel</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. Acquisition de <strong>trafic</strong>, obtention de <strong>contacts</strong>, <strong><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/e-reputation/">e-réputation</Link></strong>. Un <strong>référencement optimal de son site</strong> est essentiel.
-                                </div>
-                                    <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
-
-                                </section>
-                            </div>
-                        </div>
-                        <div className="w-full xl:w-1/3 two px-12">
-                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>2</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR TROUVER MA SOLUTION
-                                </h3>
-                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                        Plusieurs <strong><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/techniques-referencement/">techniques de référencement</Link> SEO/SEA</strong> existent pour positionner son <strong>site internet</strong> dans les <strong>premiers résultats des premières pages et atteindre la première page</strong> ou en <strong>première position</strong> des <strong>SERP de Google</strong> : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
-                                </div>
-                                    <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </section>
-                            </div>
-                        </div>
-                        <div className="w-full xl:w-1/3 three px-12">
-                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>3</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>JE FAIS LE CHOIX D’EXPERTS POUR OPTIMISER MA VISIBILITÉ
-                                </h3>
-                                <br/><div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                <strong>Nos consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et l’<strong>optimisation de votre site internet</strong>.
-                                </div>
-                                    <br/><Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                                </section>
-
-                            </div>
-
-                        </div>
-                    </section>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+          <div className="w-full xl:w-1/3 one px-auto">
+            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+              <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+              <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                  <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT
+                </h3>
+                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                    Faire appel à une <strong>agence de référencement naturel</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. <strong>Acquisition de trafic</strong>, <strong>obtention de contacts</strong>, <strong><Link to="/referencement-toulouse/e-reputation/" className="font-bold text-bleu hover:text-black">e-réputation</Link></strong>. Un <strong>référencement optimal de son site</strong> est essentiel.
+                </div>
+                <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
+  
+              </section>
+            </div>
+          </div>
+          <div className="w-full xl:w-1/3 two px-auto">
+            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+              <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                  <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
+                </h3>
+                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                Plusieurs <strong><Link to="/referencement-toulouse/techniques-referencement/" className="text-bleu hover:text-black font-bold">techniques de référencement</Link></strong> <strong>SEO/SEA</strong> existent pour <strong>positionner son site internet dans les premiers résultats des premières pages</strong> et atteindre la première page ou en <strong>première position des SERP de Google</strong> : nous vous accompagnons pour définir la visibilité dont vous avez besoin.
+                </div>
+                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
+              </section>
+              </div>
+            </div>
+          <div className="w-full xl:w-1/3 three px-auto">
+            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+              <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                  <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR OPTIMISER MA VISIBILITÉ
+                </h3>
+                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                  Nos <strong>consultants d’Agen (47)</strong> vous apportent une expertise qualifiée pour vous accompagner au mieux dans le <strong>développement</strong> et l’<strong>optimisation de votre site internet</strong>.
+                </div>
+                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
+              </section>
+              
+            </div>
+  
+          </div>
+        </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             <span className="text-bleu">/</span>QUE FAIT LINKWEB POUR VOTRE RÉFÉRENCEMENT À TOULOUSE<span className="text-bleu">/</span>AGEN ?

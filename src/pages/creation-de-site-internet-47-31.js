@@ -109,49 +109,51 @@ class CreationSiteSurMesure extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE DÉFINIS LES SPÉCIFICITÉS DE MON PROJET WEB
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE DÉFINIS LES SPÉCIFICITÉS DE MON PROJET WEB
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Il est important de bien connaître ses besoins en termes de <strong>communication web</strong>, mais aussi ce que l’on souhaite mettre en avant sur son <strong>site internet</strong>. Nous développons la solution la plus adaptée et la plus proche de vos besoins.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Il est important de bien connaître ses besoins en termes de <strong>communication web</strong>, mais aussi ce que l’on souhaite mettre en avant sur son <strong>site internet</strong>. Nous développons la solution la plus adaptée et la plus proche de vos besoins.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-
-                                </section>
+                
+                            </section>
                             </div>
-                            </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS POUR PRÉCISER MON PROJET
+                        </div>
+                        <div className="w-full xl:w-1/3 two px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS POUR PRÉCISER MON PROJET
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois les contours de votre projet définis, nous vous accompagnons pour faire de votre idée, une projection technique concrète en corrélation avec votre demande. C’est à partir d’ici que votre <strong>projet web</strong> se concrétise.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Une fois les contours de votre projet définis, nous vous accompagnons pour faire de votre idée, une projection technique concrète en corrélation avec votre demande. C’est à partir d’ici que votre <strong>projet web</strong> se concrétise.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </section>
-                                </div>
+                            </section>
                             </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE CRÉE MON SITE INTERNET SUR-MESURE
+                            </div>
+                        <div className="w-full xl:w-1/3 three px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE CRÉE MON SITE INTERNET SUR-MESURE
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Votre projet est enfin défini ? Nous procédons à la <strong>création de votre site internet sur-mesure</strong> en vous proposant une <strong>maquette graphique</strong>, des <strong>contenus éditoriaux</strong>, et la mise en avant des <strong>fonctionnalités de votre site</strong>.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Votre projet est enfin défini ? Nous procédons à la <strong>création de votre site internet sur-mesure</strong> en vous proposant une <strong>maquette graphique</strong>, des <strong>contenus éditoriaux</strong>, et la mise en avant des <strong>fonctionnalités de votre site</strong>.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                                </section>
+                            </section>
+                            
                             </div>
+                
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">

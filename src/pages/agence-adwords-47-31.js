@@ -155,49 +155,51 @@ class ReferencementAds extends React.Component {
                         </h2><br/>
                         <hr className="blue"></hr>
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT ADS
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT ADS
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Le <strong>SEA (Search Engine Advertising)</strong>, ou <strong>référencement Google Ads</strong>, est une science à part entière dans le référencement. Il apporte une <strong>visibilité à votre site internet</strong> de façon très rapide, peu importe le nombre de mots clés. Néanmoins, votre budget dit être maitrisé et vous permettre d’obtenir de l’acquisition client.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Le <strong>SEA (Search Engine Advertising)</strong>, ou <strong>référencement Google Ads</strong>, est une science à part entière dans le référencement. Il apporte une <strong>visibilité à votre site internet</strong> de façon très rapide, peu importe le nombre de mots clés. Néanmoins, votre budget dit être maitrisé et vous permettre d’obtenir de l’acquisition client.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" />
-
-                                </section>
+                                <Button url="/contact-agence-web-toulouse/" text="Demandez un devis" position="center" />
+                
+                            </section>
                             </div>
-                            </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
+                        </div>
+                        <div className="w-full xl:w-1/3 two px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR DÉFINIR MES BESOINS
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                <strong>Coût au clic visé</strong>, définition du budget, augmentation de la qualité de ses <strong>annonces</strong> : se lancer dans une <strong>campagne Ads</strong> doit répondre à des objectifs clairs et précis. Nous vous accompagnons pour définir votre projet, des objectifs, aux annonces, en passant par les cibles.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    <strong>Coût au clic visé</strong>, définition du budget, augmentation de la qualité de ses <strong>annonces</strong> : se lancer dans une <strong>campagne Ads</strong> doit répondre à des objectifs clairs et précis. Nous vous accompagnons pour définir votre projet, des objectifs, aux annonces, en passant par les cibles.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </section>
-                                </div>
+                            </section>
                             </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEA
+                            </div>
+                        <div className="w-full xl:w-1/3 three px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEA
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                En tant que <strong>professionnels du référencement</strong>, nous vous accompagnons afin de mener vos <strong>campagnes Google Adwords</strong> dans le but d’obtenir un <strong>retour sur investissement</strong>. Pour ce faire, nous paramétrons votre campagne sur-mesure pour atteindre vos objectifs.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    En tant que <strong>professionnels du référencement</strong>, nous vous accompagnons afin de mener vos <strong>campagnes Google Adwords</strong> dans le but d’obtenir un <strong>retour sur investissement</strong>. Pour ce faire, nous paramétrons votre campagne sur-mesure pour atteindre vos objectifs.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                                </section>                                
+                            </section>
+                            
                             </div>
+                
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">

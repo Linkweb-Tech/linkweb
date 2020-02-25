@@ -164,51 +164,51 @@ class CreationSiteInternetVitrine extends React.Component {
                         <hr className="blue"></hr>
                         
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">1</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE DÉFINIS MES BESOINS DE COMMUNICATION WEB
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE DÉFINIS MES BESOINS DE COMMUNICATION WEB
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Afin d’obtenir un <strong>site internet</strong> à votre image, il est important de définir ses besoins de la manière la plus précise possible. En effet, la collaboration est fortement recommandée pour mettre au point une solution au plus proche de vos besoins en vue d’y répondre.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Afin d’obtenir un <strong>site internet</strong> à votre image, il est important de définir ses besoins de la manière la plus précise possible. En effet, la collaboration est fortement recommandée pour mettre au point une solution au plus proche de vos besoins en vue d’y répondre.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-
-                                </section>
+                
+                            </section>
                             </div>
-                            </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">2</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS POUR DÉFINIR MON PROJET
+                        </div>
+                        <div className="w-full xl:w-1/3 two px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS POUR DÉFINIR MON PROJET
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois vos besoins déterminés, nous vous invitons à nous rencontrer pour définir plus précisément votre <strong>projet de site internet vitrine</strong>. Nous vous proposerons la solution la plus à même de vous apporter un <strong>site web efficace</strong>.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Une fois vos besoins déterminés, nous vous invitons à nous rencontrer pour définir plus précisément votre <strong>projet de site internet vitrine</strong>. Nous vous proposerons la solution la plus à même de vous apporter un <strong>site web efficace</strong>.
                                 </div>
-                                <br/><Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </section>
-                                </div>
+                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
+                            </section>
                             </div>
-                            <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" data-aos="fade-up">3</div>
-                                <section>
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" data-aos="zoom-in">
-                                    <span className="text-bleu">/</span>JE DÉPLOIE MON ACTIVITÉ SUR MON SITE INTERNET VITRINE
+                            </div>
+                        <div className="w-full xl:w-1/3 three px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE DÉPLOIE MON ACTIVITÉ SUR MON SITE INTERNET VITRINE
                                 </h3>
-                                <div className="content text-justify pb-6" style={{textAlignLast:'center'}}>
-                                Une fois le projet établi, nous vous proposons une <strong>maquette visuelle et des contenus rédigés et optimisés pour le référencement naturel</strong>, en respectant une arborescence créée tout particulièrement pour rendre <strong>votre site internet visible</strong>.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Une fois le projet établi, nous vous proposons une <strong>maquette visuelle et des contenus rédigés et optimisés pour le référencement naturel</strong>, en respectant une arborescence créée tout particulièrement pour rendre <strong>votre site internet visible</strong>.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                                </section>
-                                
+                            </section>
+                            
                             </div>
-
+                
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">

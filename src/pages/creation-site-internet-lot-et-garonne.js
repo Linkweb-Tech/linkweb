@@ -145,51 +145,52 @@ class CreationSiteInternetLotetGaronnePage extends React.Component {
                         <hr className="blue"></hr>
                         <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Création de site internet en Lot-et-Garonne</h3>
                     </section>
-                    <section className="flex flex-col lg:flex-row flex-1 home-step my-12 px-4 xl:my-24 xl:px-24">
-                        <div className="w-full xl:w-1/3 one px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>1</div>
-                                <section>
+                    <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+                        <div className="w-full xl:w-1/3 one px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
+                                <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
                                 </h3>
-                                <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    La <strong>création de site internet</strong> demande un travail particulièrement aiguisé. Le public visé, l’utilisateur, les <strong>moteurs de recherche</strong>  et le <strong>référencement</strong>  sont autant de paramètres qu’il est nécessaire de prendre en compte pour mener à bien sa stratégie.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    La <strong>création de site internet</strong> demande un travail particulièrement aiguisé. Le public visé, l’utilisateur, les <strong>moteurs de recherche</strong> et le <strong>référencement</strong> sont autant de paramètres qu’il est nécessaire de prendre en compte pour mener à bien sa stratégie.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
-
-                                </section>
+                
+                            </section>
                             </div>
-                            </div>
-                            <div className="w-full xl:w-1/3 two px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>2</div>
-                                <section>
+                        </div>
+                        <div className="w-full xl:w-1/3 two px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
+                                <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
                                 </h3>
-                                <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                <strong>Site internet vitrine</strong>, <strong>e-commerce</strong> ou sur-mesure, il existe de nombreuses solutions pour affirmer sa présence <strong>en ligne</strong>. Nous vous accompagnons pour faire le choix de la solution la mieux adaptée pour votre société, ainsi qu’à vos objectifs de <strong>communication</strong>.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                <strong> Site internet vitrine</strong>, <strong>e-commerce</strong> ou sur-mesure, il existe de nombreuses solutions pour affirmer sa présence <strong>en ligne</strong>. Nous vous accompagnons pour faire le choix de la solution la mieux adaptée pour votre société, ainsi qu’à vos objectifs de <strong>communication</strong>.
+
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                                </section>
-                                </div>
+                            </section>
                             </div>
-                            <div className="w-full xl:w-1/3 three px-12">
-                            <div className="flex flex-1 items-center xl:items-start flex-col xl:flex-row">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>3</div>
-                                <section>
+                            </div>
+                        <div className="w-full xl:w-1/3 three px-auto">
+                            <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE FAIS LE CHOIX D’EXPERTS POUR CRÉER MON SITE INTERNET
+                                <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
                                 </h3>
-                                <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    Nos experts en <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/"><strong>développement web</strong></Link> et <strong>création de contenus optimisés</strong> vous apportent une expertise pour vous accompagner dans le <strong>développement</strong> de votre <strong>site internet professionnel</strong> et sur-mesure. Linkweb vous accompagne pour la <strong>création de site web</strong> professionnel.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                Nos experts en <strong><Link to="/creation-site-internet-toulouse/developpement-web/" className="text-bleu font-bold hover:text-black">développement web</Link></strong> et <strong>création de contenus optimisés</strong> vous apportent une expertise pour vous accompagner dans le <strong>développement de votre site internet</strong> professionnel et sur-mesure. Linkweb vous accompagne pour la <strong>création de site web</strong> professionnel.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                                </section>
-                                
+                            </section>
+                            
                             </div>
-
+                
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">

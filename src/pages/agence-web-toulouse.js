@@ -126,34 +126,34 @@ class AgenceWebToulouse extends React.Component {
                         <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Agence Web Toulouse</h3>
 
                     </section>
-                    <section className="flex flex-col md:flex-row flex-1 max-w-6xl mx-auto home-step mt-24 mb-12 my-12 px-4 lg:my-24 lg:px-24">
-                        <div className="w-full md:w-1/2 one px-12">
-                            <div className="flex items-center lg:items-start flex-col lg:flex-row flex-1">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>1</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
+                    <section className="flex flex-col lg:flex-row mt-8 mb-12 my-8 px-4 lg:my-5 lg:px-24">
+                        <div className="w-full xl:w-1/2 one px-auto">
+                            <div className="flex items-center xl:items-center flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-3" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/2 absolute z-10 px-auto lg:w-1/2 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
                                 </h3>
-                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                       Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong>agence de création</strong> vous propose des solutions pour y parvenir. Mettez tous les atouts de votre côté pour mener votre campagne de <strong>communication web</strong>.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                    Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong>agence de création</strong> vous propose des solutions pour y parvenir. Mettez tous les atouts de votre côté pour mener votre campagne de <strong>communication web</strong>.
                                 </div>
-                                    
-
-                                </section>
+                                <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
+                
+                            </section>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 two px-12">
-                            <div className="flex items-center lg:items-start flex-col lg:flex-row flex-1">
-                                <div className="blackBulle my-6" /*data-aos="fade-up"*/>2</div>
-                                <section>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
+                        <div className="w-full xl:w-1/2 two px-auto">
+                            <div className="flex items-center xl:items-center flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-0" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/2 absolute z-10 px-auto lg:w-1/2 absolute px-12 lg:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                 </h3>
-                                    <div className="content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                        TPE, PME, commerçants, l’<strong>agence web Linkweb</strong> répond à vos besoins de <strong>visibilité</strong> et de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> efficaces et qui vous rapprochent de vos prospects. Nous activons tous les <strong>leviers</strong> pour développer et faire connaître votre <strong>outil en ligne</strong>.
+                                <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
+                                TPE, PME, commerçants, l’<strong>agence web Linkweb</strong> répond à vos besoins de <strong>visibilité</strong> et de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> efficaces et qui vous rapprochent de vos prospects. Nous activons tous les leviers pour développer et faire connaître votre <strong>outil en ligne</strong>.
                                 </div>
-                                    
-                                </section>
+                                <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" />
+                            </section>
                             </div>
                         </div>
                     </section>
