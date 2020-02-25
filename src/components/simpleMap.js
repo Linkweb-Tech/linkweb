@@ -15,7 +15,7 @@ class SimpleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <section className="flex flex-col items-end" style={{maxHeight:'750px'}}>
+      <section className="flex flex-col items-end" style={{maxHeight:'650px'}}>
                   <div style={{ height: '80vh', width: '100%' }}>
                     <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ' }}
