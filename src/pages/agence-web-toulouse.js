@@ -10,6 +10,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import Partenaires from '../components/partenaires';
+import "../scss/home.scss";
 
 import blocBg from "../images/background.jpg";
 import Bg from "../images/agence-web-bg.jpg";
@@ -78,44 +79,24 @@ class AgenceWebToulouse extends React.Component {
                         
                     </section>
                     <Partenaires/>
-                    <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
-                        <div className="w-full" /*data-aos='zoom-in'*/>
-                            <p className="text-md text-center py-12 century">
-                                Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Toulouse</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
+                    <section className="w-full flex flex-1 equipe min-h-0 lg:min-h-600">
+                        <div className="w-1/4 bg-cover  imageDouble"  >
                         </div>
-                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in"*/>
-                            <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
-                            <p className="text-xl century">10 rue Albert Ferrasse <br/>
-                            47550 BOÉ</p>
-                            <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a>
+                        <div className="w-3/4 ">
+                        <div className="content">
+                            <h3 className="century capitalize text-2xl tracking-wider pb-3" /*data-aos="zoom-in"*/>
+                            <span className="text-bleu">/</span>LINKWEB C’EST 20 TECHNICIENS
+                            </h3>
+                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">8</span>  développeurs Front-End & Back-End</p>
+                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong> et professionnels du <strong>développement web</strong></p>
+                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
+                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
                         </div>
-                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" /*data-aos="zoom-in" data-aos-delay="200"*/>
-                            <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
-                            <p className="text-xl century">44 Rue de Bayard <br/>
-                            31000 TOULOUSE</p>
-                            <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
+                        <div className="pictures w-full hidden flex-1 sm:hidden md:hidden lg:flex xl:flex">
+                            <div className="w-1/3 bg-cover bg-black imageSimple "></div>
+                            <div className="w-1/3 bg-cover bg-white imageSimple "></div>
+                            <div className="w-1/3 bg-cover bg-bleu imageSimple "></div>
                         </div>
-
-                    </section>
-                    <section className="flex w-full flex-col lg:flex-row mx-auto px-0 py-6 my-4">
-                        <div className="w-full lg:w-1/2 ">
-                            <img src={imac} alt="Agence Web Toulouse" />
-                        </div>
-                        <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
-                            <h2 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
-                                <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
-                            </h2>
-                            <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
-                                <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
-                            </h4>
-                            <p /*data-aos='fade-bottom'*/ className="text-justify">
-                                Depuis plus de 10 ans, notre expérience dans la <strong><Link to="creation-site-internet-toulouse/" className="hover:text-bleu">création de sites internet</Link></strong> nous a permis de développer nos compétences<strong> en tant qu'agence de conseil en communication</strong> pour d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br/>
-
-                                Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong><Link to="/" className="hover:text-bleu">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
-
-                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-de-site-internet-47-31/" className="hover:text-bleu">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31/" className="hover:text-bleu">référencement naturel</Link></strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
-                            </p>
-                            
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
@@ -123,13 +104,15 @@ class AgenceWebToulouse extends React.Component {
                             Notre agence est taillée pour <span className="text-bleu">votre projet web</span>
                         </h2>
                         <hr className="blue"></hr>
-                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Agence Web Toulouse</h3>
-
+                        <div className="w-full" /*data-aos='zoom-in'*/>
+                            <p className="text-md text-center py-12 century">
+                                Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Toulouse</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
+                        </div>
                     </section>
                     <section className="flex flex-col lg:flex-row mt-8 mb-12 my-8 px-4 lg:my-5 lg:px-24">
                         <div className="w-full xl:w-1/2 one px-auto">
                             <div className="flex items-center xl:items-center flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-3" /*data-aos="fade-up"*/>1</div>
+                            <div className="chiffres mx-auto block century text-bleu -mt-64 mb-3" /*data-aos="fade-up"*/>1</div>
                             <section className="w-full lg:w-1/2 absolute z-10 px-auto lg:w-1/2 absolute px-12 lg:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
@@ -144,7 +127,7 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                         <div className="w-full xl:w-1/2 two px-auto">
                             <div className="flex items-center xl:items-center flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-0" /*data-aos="fade-up"*/>2</div>
+                            <div className="chiffres mx-auto block century text-bleu -mt-64 mb-0" /*data-aos="fade-up"*/>2</div>
                             <section className="w-full lg:w-1/2 absolute z-10 px-auto lg:w-1/2 absolute px-12 lg:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
@@ -174,12 +157,55 @@ class AgenceWebToulouse extends React.Component {
                             </Link>
                         </div>
                     </section>
+                    <section className="flex w-full flex-col lg:flex-row mx-auto px-0 py-6 my-4">
+                        <div className="w-full lg:w-1/2 ">
+                            <img src={imac} alt="Agence Web Toulouse" />
+                        </div>
+                        <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
+                            <h2 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
+                            </h2>
+                            <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
+                                <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
+                            </h4>
+                            <p /*data-aos='fade-bottom'*/ className="text-justify">
+                                Depuis plus de 10 ans, notre expérience dans la <strong><Link to="creation-site-internet-toulouse/" className="hover:text-bleu">création de sites internet</Link></strong> nous a permis de développer nos compétences<strong> en tant qu'agence de conseil en communication</strong> pour d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br/>
+
+                                Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong><Link to="/" className="hover:text-bleu">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
+
+                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-de-site-internet-47-31/" className="hover:text-bleu">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31/" className="hover:text-bleu">référencement naturel</Link></strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
+                            </p>
+                            
+                        </div>
+                    </section>
+                    <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
+                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
+                            <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : OÙ NOUS TROUVER ?
+                        </h2>
+                        <hr className="blue"></hr>
+                        <h4 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
+                    </section>
+                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in"*/>
+                            <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
+                            <p className="text-xl century">10 rue Albert Ferrasse <br/>
+                            47550 BOÉ</p>
+                            <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a>
+                        </div>
+                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" /*data-aos="zoom-in" data-aos-delay="200"*/>
+                            <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
+                            <p className="text-xl century">44 Rue de Bayard <br/>
+                            31000 TOULOUSE</p>
+                            <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
+                        </div>
+
+                    </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : QUI SOMMES-NOUS ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
+                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Agence Web Toulouse</h3>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-0 pb-0 my-2">
                         <ul className="mt-6 pl-1 sm:pl-6">

@@ -1,0 +1,39 @@
+.zoom1 {
+   
+    transition: transform .2s;
+  }
+  
+  .zoom1:hover {
+    transform: scale(1.5);
+  }
+
+  .toggle-input1:checked ~ .mega-menu {
+    position: fixed;
+    width:50vw;
+    height:33vh;
+    right: -400px;
+    bottom:400px;
+    transition: all ease 695ms;
+}
+    .toggle-input1:not(checked) ~ .mega-menu {
+    position: relative;
+    right:100px;
+    bottom:200px;
+    transition: all ease 1020ms;
+    
+}
+.toggle-input1:checked ~ .cursor-pointer {
+  position: fixed;
+  right: 60px;
+  bottom:600px;
+  transition: all ease 700ms;
+  transition-delay: 50ms;
+  z-index:100;
+}
+.toggle-input1:not(checked) ~ .cursor-pointer {
+  position: fixed;
+  right: 19px;
+  bottom:10px;
+  transition: all ease 800ms;
+  z-index:100;
+}

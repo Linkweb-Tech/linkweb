@@ -23,7 +23,7 @@ import bullhorn from '../images/bullhorn.svg';
 import diagram from '../images/diagram.svg';
 import analysis from '../images/analysis.svg';
 import contract from '../images/contract.svg';
-
+import "../scss/info.scss";
 
 class ReferencementToulouse extends React.Component {
 
@@ -62,7 +62,7 @@ class ReferencementToulouse extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#00000094 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom' }}>
+                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#00000094 url(' + Bg + ')', backgroundSize:'cover', backgroundBlendMode:'multiply', backgroundRepeat:'no-repeat',backgroundPosition:'bottom' }}>
                         <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-white">
                             Référencement Toulouse<span className="text-bleu">/</span>Agen
                         </h1>
@@ -77,6 +77,20 @@ class ReferencementToulouse extends React.Component {
 
                     </section>
                     <Partenaires />
+                    {/* <li className="hidden lg:block toggleable">
+                                <input type="checkbox" value="selected" id="toggle-one" className="toggle-input1 hidden"/>
+                                    <label for="toggle-one" className="toogle-input1 block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
+                                    <svg width="70px" viewBox="0 0 100 125"><g transform="translate(0,-952.36218)"><path d="M 50,7 C 26.2636,7 7,26.26364 7,50 7,73.7364 26.2636,93 50,93 73.736401,93 93,73.7364 93,50 93,26.26364 73.736401,7 50,7 z m 0,2 C 72.655519,9 91,27.34452 91,50 91,72.6556 72.655519,91 50,91 27.344481,91 9,72.6556 9,50 9,27.34452 27.344481,9 50,9 z m 0,22 c -1.104568,0 -2,0.895433 -2,2 0,1.104567 0.895432,2 2,2 1.104568,0 2,-0.895433 2,-2 0,-1.104567 -0.895432,-2 -2,-2 z m -5.1875,10 c -0.523599,0.04909 -0.955337,0.570151 -0.90625,1.09375 C 43.955338,42.617349 44.476401,43.049087 45,43 l 4,0 0,24 c -1.385942,-6e-5 -2.817517,0 -4.1875,0 -0.523599,0.04909 -0.955337,0.570151 -0.90625,1.09375 C 43.955338,68.617349 44.476401,69.049087 45,69 l 10,0 c 0.528313,0.0075 1.014242,-0.471635 1.014242,-1 0,-0.528365 -0.485929,-1.007472 -1.014242,-1 l -4,0 0,-25 c -5.2e-5,-0.523584 -0.476416,-0.999948 -1,-1 -1.719683,-4e-5 -3.48361,0 -5.1875,0 z" transform="translate(0,952.36218)" fill="#37cfee" fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/></g></svg>                        
+                                    </label>
+                                <div role="toggle" className="toggle-input1 megamenu relative h-auto z-40 p-2 mega-menu mb-16 sm:mb-0">
+                                <section className="w-1/2 bg-grey px-16 py-6 flex flex-col">
+                                    <h2 className="ml-4 text-xl century text-white">Qu'est-ce que le référencement web ?</h2>
+                                    <br/>
+                                    <p className="text-white century text-sm text-justify">Le référencement est une notion parfois floue et qui est souvent l'objet d'un abus de langage. En effet, référencer un site web, au sens strict du termes signifie très simplement à l'inscrire dans l'index de Google. C'est grâce à son indexation qu'il sera proposé dans les résultats de recherche. Or, s'il n'est pas indexé, il est comme inconnu aux yeux de Google et ne sera pas pris en compte.<br/><br/>
+                                    En revanche, la simple indexation ne suffit pas à rendre un site visible. Le référencement en tant que discipline désigne l'ensemble des pratiques destinées à améliorer le positionnement d'une page web dans les pages de résultats des moteurs. Mieux un site sera positionné (dans les premières pages de résultats) et plus obtiendra de visibilité. Le travail de référencement est effectué sur la base d'optimisations internes et externes au site web, qui vont lui permettre d'obtenir de la crédibilité et de l'autorité auprès de Google.</p>
+                                </section>
+                                </div>
+                            </li> */}
                     <section className="flex-wrap flex-col md:flex-row flex w-full max-w-5xl mx-auto py-2 mb-2 ">
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">Avoir un site internet n’est pas une fin en soi : il doit nécessairement être visible sur internet. C’est le principe du référencement web. Faites de votre site une référence pour les moteurs de recherche.</p>
