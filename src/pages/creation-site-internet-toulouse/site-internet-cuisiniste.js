@@ -255,7 +255,7 @@ class SiteInternetCuisiniste extends React.Component {
         <section className="text-center text-black text-2xl century my-10 mx-auto lg:mx-0">
             <h2 className="century leading-tight">Création de site internet à Toulouse :<br/><span className="text-4xl lg:text-6xl text-bleu font-bold">NOUS LES ACCOMPAGNONS</span></h2>
             <hr className="blue"></hr>
-            <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center italic century pb-0">Nous travaillons tous les jours avec des professionnels d'horizons différents' <br/>pour leur proposer une solution Web fonctionnelle.</h3>
+            <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center italic century pb-0">Nous travaillons tous les jours avec des professionnels d'horizons différents <br/>pour leur proposer une solution Web fonctionnelle.</h3>
         </section>
         <section className="w-full flex justify-center">
             <div className="w-full lg:w-2/3 flex flex-col mb-16 lg:flex-row justify-center text-white text-center text-2xl century">
