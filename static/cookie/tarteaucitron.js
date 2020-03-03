@@ -1645,4 +1645,4 @@ window.addEventListener("load", function () {
     tarteaucitron.user.gajsUa = 'UA-43540005-1';
     tarteaucitron.user.gajsMore = function () { /* add here your optionnal _ga.push() */ };
     (tarteaucitron.job = tarteaucitron.job || []).push('gajs');
-}
+})
