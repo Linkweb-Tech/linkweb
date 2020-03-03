@@ -101,7 +101,7 @@ class CreationSitePourArtisan extends React.Component {
                 <br/>
                 <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des artisans à Toulouse et Agen.</h2>
                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
-                <div className="w-full lg:w-2/3 mx-5 lg:mx-0 flex flex-col lg:flex-row justify-center pb-24 lg:justify-start">
+                <div className="w-full lg:w-2/3 mx-auto flex flex-col lg:flex-row justify-center pb-24 lg:justify-start">
                     <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>
                     <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text="Demander un devis"/>
                 </div>

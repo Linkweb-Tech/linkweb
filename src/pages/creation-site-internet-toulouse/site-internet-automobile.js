@@ -103,7 +103,7 @@ class SiteInternetAutomobile extends React.Component {
                 <br/>
                 <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des métiers de l'automobile à Toulouse et Agen.</h2>
                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
-                <div className="w-full lg:w-2/3 mx-5 lg:mx-0 flex flex-col lg:flex-row justify-center pb-24 lg:justify-start">
+                <div className="w-full lg:w-2/3 mx-auto flex flex-col lg:flex-row justify-center pb-24 lg:justify-start">
                     <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>
                     <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text="Demander un devis"/>
                 </div>
@@ -149,7 +149,7 @@ class SiteInternetAutomobile extends React.Component {
         </section>
         <section className="w-full my-10 flex flex-col lg:flex-row">
         <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{backgroundImage:'url('+ siteinternet +')'}}>
-                <h3 className="text-3xl titre text-center century leading-none"><span>Site internet</span><br/><span className="font-bold text-6xl">CATALOGUE</span></h3>
+                <h3 className="text-3xl titre text-center century leading-none"><span>Site internet</span><br/><span className="font-bold text-5xl md:text-6xl">CATALOGUE</span></h3>
                 <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">Le <strong className="font-normal">site internet catalogue</strong> est un bon moyen de présenter ses produits pour obtenir des <strong className="font-normal">contacts grâce au Web</strong>. S'il permet de présenter ses produits de façon extrêmement détaillée à la manière d’une <strong className="font-normal">boutique en ligne</strong>, il ne permet pas de vendre. Il est parfait pour les professionnels souhaitant mettre en avant leur catalogue.
                 <br/><br/>
                 Si vous souhaitez <strong className="font-normal">vendre vos pièces auto ou pièces détachées</strong> directement <strong className="font-normal">en ligne</strong>, cela sera possible à travers la <strong className="font-normal">création d’une boutique en ligne</strong>. Pour ce faire, nous créons un <strong className="font-normal">site internet e-commerce</strong> qui vous permet de gérer vos stocks et vos ventes.
