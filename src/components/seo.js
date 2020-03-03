@@ -1,22 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql, withPrefix } from "gatsby";
 
 import linkwebLogo from "../images/linkweb-black.png";
 
 function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified, nom, image }) {
   return (
-    
+
     <StaticQuery
       query={detailsQuery}
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description;
-          let canonical = 'https://linkweb.fr';
-          let json = '';
-          if ( article == false ) {
-            json = `
+        let canonical = 'https://linkweb.fr';
+        let json = '';
+        if (article == false) {
+          json = `
             {
               "@context":"https://schema.org",
               "@graph":[{"@type":"Organization",
@@ -99,9 +99,9 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               ]
               }
             `
-} else {
-    json = 
-      `
+        } else {
+          json =
+            `
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -136,7 +136,7 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
         }
       }
       `
-}
+        }
 
 
         return (
@@ -195,22 +195,23 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               .concat(
                 keywords.length > 0
                   ? {
-                      name: `keywords`,
-                      content: keywords.join(`, `)
-                    }
+                    name: `keywords`,
+                    content: keywords.join(`, `)
+                  }
                   : []
               )
               .concat(meta)}
           >
-            
-            
+
+
             <link rel="shortlink" href={url} />
             <link rel="canonical" href={url} />
             <script type="application/ld+json">
-            {
-              json
-            }
-            </script>    
+              {
+                json
+              }
+            </script>
+            <script src={withPrefix('./cookie/tarteaucitron.js')}></script>
           </Helmet>
         );
       }}
@@ -228,7 +229,7 @@ SEO.defaultProps = {
   slug: ``,
   modified: ``,
   nom: ``,
-  image:'https://test.com'
+  image: 'https://test.com'
 };
 
 SEO.propTypes = {
@@ -236,9 +237,9 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired, 
+  title: PropTypes.string.isRequired,
   url: PropTypes.string,
-  article: PropTypes.bool, 
+  article: PropTypes.bool,
   date: PropTypes.string,
   modified: PropTypes.string,
   slug: PropTypes.string,
