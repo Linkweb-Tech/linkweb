@@ -205,8 +205,8 @@ var tarteaucitron = {
         "use strict";
         var cdn = tarteaucitron.cdn,
             language = tarteaucitron.getLanguage(),
-            pathToLang = 'https://linkweb.fr/cookie/lang/tarteaucitron.' + language + '.js',
-            pathToServices = 'https://linkweb.fr/cookie/tarteaucitron.services.js',
+            pathToLang = require('./cookie/lang/tarteaucitron.' + language + '.js'),
+            pathToServices = require('./cookie/tarteaucitron.services.js'),
             linkElement = document.createElement('link'),
             defaults = {
                 "adblocker": false,
@@ -300,7 +300,6 @@ var tarteaucitron = {
                 html += '         ' + tarteaucitron.lang.disclaimer;
                 if (tarteaucitron.parameters.privacyUrl !== "") {
                     // html += '   <br/><br/>';
-                    
                     html += '   <button type="button" id="tarteaucitronPrivacyUrlDialog" onclick="document.location = tarteaucitron.parameters.privacyUrl">';
                     html += '       ' + tarteaucitron.lang.privacyUrl;
                     html += '   </button>';
