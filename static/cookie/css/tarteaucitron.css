@@ -202,7 +202,7 @@ div#tarteaucitronServices {
 
 #tarteaucitronRoot * {
     box-sizing: initial;
-    color: #333;
+    /* color: #333; */
     font-family: sans-serif !important;
     font-size: 14px;
     line-height: normal;
@@ -372,7 +372,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed {
-    border-color: #1B870B;
+    border-color: #37c5ee;
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied {
@@ -441,7 +441,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllAllowed.tarteaucitronIsSelected {
-    background-color: #1B870B;
+    background-color: #37c5ee;
     opacity: 1;
 }
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllDenied.tarteaucitronIsSelected {
@@ -450,7 +450,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed .tarteaucitronAllow {
-    background-color: #1B870B;
+    background-color: #37c5ee;
 }
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied .tarteaucitronDeny {
     background-color: #9C1A1A;
@@ -515,7 +515,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronAlertBig #tarteaucitronCloseAlert, #tarteaucitronAlertBig #tarteaucitronPersonalize, .tarteaucitronCTAButton, #tarteaucitron #tarteaucitronPrivacyUrl, #tarteaucitron #tarteaucitronPrivacyUrlDialog {
-    background: #008300;
+    background: #37c5ee;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -561,6 +561,7 @@ div#tarteaucitronServices {
     text-align: center;
     width: auto;
     z-index: 2147483646;
+    display: none !important;
 }
 
 #tarteaucitronAlertSmall #tarteaucitronManager {
@@ -596,7 +597,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronAlertSmall #tarteaucitronManager #tarteaucitronDot #tarteaucitronDotGreen {
-    background-color: #1B870B;
+    background-color: #37c5ee;
 }
 
 #tarteaucitronAlertSmall #tarteaucitronManager #tarteaucitronDot #tarteaucitronDotYellow {
@@ -715,7 +716,7 @@ div#tarteaucitronServices {
 }
 
 .tac_activate .tac_float .tarteaucitronAllow {
-    background-color: #1B870B;
+    background-color: #37c5ee;
     display: inline-block;
 }
 

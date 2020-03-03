@@ -299,7 +299,7 @@ var tarteaucitron = {
                 html += '         <div id="tarteaucitronInfo">';
                 html += '         ' + tarteaucitron.lang.disclaimer;
                 if (tarteaucitron.parameters.privacyUrl !== "") {
-                    html += '   <br/><br/>';
+                    // html += '   <br/><br/>';
                     html += '   <button type="button" id="tarteaucitronPrivacyUrlDialog" onclick="document.location = tarteaucitron.parameters.privacyUrl">';
                     html += '       ' + tarteaucitron.lang.privacyUrl;
                     html += '   </button>';
@@ -385,7 +385,7 @@ var tarteaucitron = {
                                     html += '   <button type="button" class="tarteaucitronCTAButton tarteaucitronDeny"  onclick="tarteaucitron.userInterface.respondAll(false);">';
                                     html += '       &#10007; ' + tarteaucitron.lang.denyAll;
                                     html += '   </button>';
-                                    html += '   <br/><br/>';
+                                    // html += '   <br/><br/>';
                     }
 
                     html += '   <button type="button" id="tarteaucitronCloseAlert" onclick="tarteaucitron.userInterface.openPanel();">';
