@@ -205,8 +205,8 @@ var tarteaucitron = {
         "use strict";
         var cdn = tarteaucitron.cdn,
             language = tarteaucitron.getLanguage(),
-            pathToLang = cdn + './cookie/lang/tarteaucitron.' + language + '.js',
-            pathToServices = cdn + './cookie/tarteaucitron.services.js',
+            pathToLang = cdn + './lang/tarteaucitron.' + language + '.js',
+            pathToServices = cdn + './tarteaucitron.services.js',
             linkElement = document.createElement('link'),
             defaults = {
                 "adblocker": false,
