@@ -205,8 +205,8 @@ var tarteaucitron = {
         "use strict";
         var cdn = tarteaucitron.cdn,
             language = tarteaucitron.getLanguage(),
-            pathToLang = require('./cookie/lang/tarteaucitron.' + language + '.js'),
-            pathToServices = require('./cookie/tarteaucitron.services.js'),
+            pathToLang = cdn + './cookie/lang/tarteaucitron.' + language + '.js',
+            pathToServices = cdn + './cookie/tarteaucitron.services.js',
             linkElement = document.createElement('link'),
             defaults = {
                 "adblocker": false,
@@ -227,6 +227,7 @@ var tarteaucitron = {
             params = tarteaucitron.parameters;
 
         // Step -1
+        console.log(cdn);
         if (typeof tarteaucitronCustomPremium !== 'undefined') {
             tarteaucitronCustomPremium();
         }
@@ -1617,32 +1618,31 @@ var tarteaucitron = {
     }
 };
 
-window.addEventListener("load", function () {
-    tarteaucitron.init({
-        "privacyUrl": "", /* Privacy policy url */
 
-        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
-        "cookieName": "tarteaucitron", /* Cookie name */
+tarteaucitron.init({
+"privacyUrl": "", /* Privacy policy url */
 
-        "orientation": "middle", /* Banner position (top - bottom) */
-        "showAlertSmall": true, /* Show the small banner on bottom right */
-        "cookieslist": true, /* Show the cookie list */
+"hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+"cookieName": "tarteaucitron", /* Cookie name */
 
-        "adblocker": false, /* Show a Warning if an adblocker is detected */
-        "AcceptAllCta": true, /* Show the accept all button when highPrivacy on */
-        "highPrivacy": true, /* Disable auto consent */
-        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+"orientation": "middle", /* Banner position (top - bottom) */
+"showAlertSmall": true, /* Show the small banner on bottom right */
+"cookieslist": true, /* Show the cookie list */
 
-        "removeCredit": false, /* Remove credit link */
-        "moreInfoLink": true, /* Show more info link */
-        "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+"adblocker": false, /* Show a Warning if an adblocker is detected */
+"AcceptAllCta": true, /* Show the accept all button when highPrivacy on */
+"highPrivacy": true, /* Disable auto consent */
+"handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
 
-        //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+"removeCredit": false, /* Remove credit link */
+"moreInfoLink": true, /* Show more info link */
+"useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
 
-        "readmoreLink": "/cookiespolicy" /* Change the default readmore link */
-    });
+//"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
 
-    tarteaucitron.user.gajsUa = 'UA-43540005-1';
-    tarteaucitron.user.gajsMore = function () { /* add here your optionnal _ga.push() */ };
-    (tarteaucitron.job = tarteaucitron.job || []).push('gajs');
-})
+"readmoreLink": "/cookiespolicy" /* Change the default readmore link */
+});
+
+tarteaucitron.user.gajsUa = 'UA-43540005-1';
+tarteaucitron.user.gajsMore = function () { /* add here your optionnal _ga.push() */ };
+(tarteaucitron.job = tarteaucitron.job || []).push('gajs');
