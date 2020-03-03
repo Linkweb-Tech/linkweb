@@ -12,13 +12,13 @@ import Accordion from '../components/accordion';
 import Partenaires from '../components/partenaires';
 
 import blocBg from "../images/background.jpg";
-import Bg from "../images/background-agence.jpg";
+import Bg from "../images/creation-site-internet-montauban.jpg";
 import imac from "../images/ecran-imac.jpg";
 import bgDev from '../images/bg-dev.jpg';
 import stars from '../images/stars.png';
 import mac from "../images/mac-agence.jpg";
 
-class CreationSiteInternetToulousePage extends React.Component {
+class CreationSiteInternetMontaubanPage extends React.Component {
 
     constructor(props){
         super(props);
@@ -42,12 +42,12 @@ class CreationSiteInternetToulousePage extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création Site Internet Toulouse / Agen - Agence Web Linkweb"
+                    title="Création Site Internet à Montauban - Agence Web Linkweb"
                     description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
-                    keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Création site web Agen`, `Création site web Toulouse`]}
-                    url="https://linkweb.fr/creation-site-internet-toulouse/"
-                    nom="Création de site internet à Toulouse"
-                    slug="creation-site-internet-toulouse/"
+                    keywords={[`Création site internet Montauban`, `Création site internet Montauban`, `Création site web Montauban`, `Création site web Montauban`]}
+                    url="https://linkweb.fr/creation-site-internet-montauban/"
+                    nom="Création de site internet à Montauban"
+                    slug="creation-site-internet-montauban/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{
@@ -69,9 +69,9 @@ class CreationSiteInternetToulousePage extends React.Component {
                     transitionTime={200}
                 > */}
                     
-                    <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#00000038 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom', backgroundSize:'cover' }}>
+                    <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#000000de url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'top', backgroundSize:'cover' }}>
                         <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-4xl sm:text-6xl text-center text-white">
-                        Création site internet Toulouse<span className="text-bleu">/</span>Agen
+                        Création site internet Montauban (82)
                         </h1>
                         <h3 className="italic text-lg text-center sm:text-2xl text-white mt-2">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je veux créer mon site internet professionnel" />
@@ -86,7 +86,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     <Partenaires/>
                     <section className="max-w-5xl w-full mx-auto px-12 py-6 my-4 century">
                         <h2 className="text-justify text-xl font-bold" style={{textAlignLast:'center'}}>
-                            Depuis 2008, Linkweb est à l'origine de la création de sites internet pour des entreprises issues d'horizons différents. Notre rôle, en tant qu'agence web à Toulouse, est de vous accompagner pour atteindre vos objectifs de visibilité sur le Web.
+                            Depuis 2008, Linkweb est à l'origine de la création de sites internet pour des entreprises issues d'horizons différents. Notre rôle, en tant qu'agence web à Montauban, est de vous accompagner pour atteindre vos objectifs de visibilité sur le Web.
                         </h2>
                     <ul className="px-16 list-disc mt-10 max-w-5xl text-xl">
                         <li>Vous avez besoin de <strong className="font-normal">créer un site internet</strong> pour <strong>vendre vos produits en ligne</strong> ?</li><br/>
@@ -100,17 +100,17 @@ class CreationSiteInternetToulousePage extends React.Component {
                     <section className="flex-wrap flex flex-col md:flex-row w-full mx-auto py-2 my-2 ">
                         <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfffe0 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET VITRINE</h3>
-                            <p>Mettre en avant vos services, activités, et même votre entreprise va vous permettre de <strong>dynamiser votre communication</strong>. Le site <strong>internet vitrine</strong> est idéal pour les TPE/PME souhaitant faire découvrir leur activité et mettre en avant leurs prestations et ainsi acquérir de nouveaux clients près de chez eux. </p>
+                            <p><strong className="font-normal">Dynamiser la communication de son entreprise</strong> à travers la <strong className="font-normal">création d’un site internet vitrine</strong> est déterminant pour les TPE et PME. En effet, <strong className="font-normal">créer un site internet</strong> va permettre d’apporter de la visibilité destinée à <strong className="font-normal">attirer de nouveaux acquéreurs</strong> dans des secteurs géographiques pertinents pour vous.</p>
                             <RoundButton color="darkgrey" url="/creation-site-internet-agen/" text="Création de site vitrine" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET E-COMMERCE</h3>
-                            <p>Mettre en place un <strong>site e-commerce</strong> va vous permettre de développer une plateforme de <strong>vente en ligne</strong> de vos produits. Le <strong>site internet e-commerce</strong> s’adresse aux commerçants et boutiques qui souhaitent <strong>développer leur chiffre d’affaire en ciblant une nouvelle clientèle</strong>.</p>
+                            <p>Mettre en place un <strong className="font-normal">site e-commerce</strong> va vous permettre de <strong className="font-normal">créer un site internet de vente en ligne</strong> pour vos produits. Le <strong className="font-normal">site e-commerce</strong> s’adresse aux commerçants et magasins souhaitant <strong className="font-normal">augmenter leur chiffre d’affaires</strong> en ciblant une nouvelle clientèle. </p>
                             <RoundButton color="darkgrey" url="/creer-une-boutique-en-ligne/" text="Créer une boutique en ligne" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET SUR-MESURE</h3>
-                            <p>Mettre en place un site internet multifonctions : réservation, simulation, configurateur et bien plus encore. Créer un site internet sur-mesure, c’est aussi faire le choix d’optimiser votre organisation grâce à un outil numérique à la portée de tous de type intranet.</p>
+                            <p>Mettre en place un <strong className="font-normal">site web multifonctions</strong> : possibilité de réservation, simulateur, configurateur et plus encore. <strong className="font-normal">Créer un site internet sur-mesure</strong>, c’est aussi faire le choix d’optimiser votre organisation interne grâce à un <strong className="font-normal">outil de type intranet</strong>.</p>
                             <RoundButton color="darkgrey" url="/creation-de-site-internet-47-31/" text="Créer un site internet sur-mesure" />
                         </div>
                     </section>
@@ -120,14 +120,14 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
-                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET TOULOUSE : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE
+                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET MONTAUBAN : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
-                                <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. <strong>Linkweb</strong> met en place le site web qu’il vous faut à Toulouse.</span>
+                                <span className="font-bold">La création d'un site internet est un levier d'expansion pour les professionnels ambitieux. Linkweb met en place la plateforme qui vous correspond à Montauban.</span>
                             </h4>
-                            <p /*data-aos='fade-bottom'*/ className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise en fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Toulouse</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
+                            <p /*data-aos='fade-bottom'*/ className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> s'attache à répondre à vos besoins en termes de <strong className="font-light">communication</strong> pour vous proposer une <strong className="font-light">solution web professionnelle</strong>. Nous définissons le projet le plus adapté en fonction de vos besoins pour la <strong className="font-light">création d'un site internet à Montauban</strong> qui vous correspond. Il existe de nombreuses possibilités pour <strong className="font-light">créer un site web</strong> proche de vos besoins : communiquer au sujet de votre activité ou de vos prestations, <strong className="font-light">développer les ventes de vos produits</strong> grâce à un <strong className="font-light">site e-commerce</strong> ou bien ajouter des fonctionnalités pertinentes pour vos utilisateurs. <br /><br />
 
-                            En fonction de votre demande, les équipes de <strong>consultants web</strong> de notre <strong className="font-light">agence de création de sites web</strong> définiront la solution la plus adaptée pour votre site internet quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Toulouse</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. Le <strong>référencement d'un site</strong> est un travail essentiel pour maximiser sa visibilité. De l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">arborescence</Link> à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
+                            Selon votre demande, nos experts et <strong className="font-light">spécialistes web</strong> définiront la réponse la mieux adaptée selon vos <strong className="font-light">objectifs, la concurrence et de la réalisation technique</strong> en ce qui concerne votre <strong className="font-light">création de site internet à Montauban</strong>. Notre <strong className="font-light">agence de création de sites internet</strong> est à même de développer <strong className="font-light">votre projet web</strong> grâce à nos <strong className="font-light">développeurs web et spécialistes SEO</strong>. Ces derniers sont chargés de fournir des contenus qui vont faire que <strong className="font-light">votre site web vitrine pourra être visible sur les moteurs</strong>. Par ailleurs, le <strong className="font-light">netlinking d'un site internet</strong> est une partie importante du travail qui vous permet de maximiser votre visibilité. De la <strong className="font-light">conception du site à l'<Link to="/creation-site-internet-toulouse/arborescence-site-internet/" className="text-bleu hover:text-black font-bold">arborescence</Link></strong>, nous menons votre projet pour vous apporter un <strong className="font-light">outil efficace pour votre entreprise</strong>.</p><br/>
                             {/* <Button url="#" text="En savoir plus sur la création de site internet" position="start" /> */}
                             <br/>
                             {/* <button data-aos="fade-left" className="text-md hover:text-bleu" onClick={this.onOpenModal}><span className="text-bleu">>></span> En savoir plus sur la création de site internet</button> */}
@@ -143,7 +143,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         Faites connaître votre entreprise sur (<span className="text-bleu">l’</span>)<span className="text-bleu">Internet</span> !
                         </h2>
                         <hr className="blue"></hr>
-                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Création de site internet à Toulouse</h3>
+                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Création de site internet à Montauban</h3>
                     </section>
                     <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
                         <div className="w-full xl:w-1/3 one px-auto">
@@ -154,7 +154,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    La <strong>création de site internet</strong> demande un travail particulièrement aiguisé. Le public visé, l’utilisateur, les <strong>moteurs de recherche</strong> et le <strong>référencement</strong> sont autant de paramètres qu’il est nécessaire de prendre en compte pour mener à bien sa stratégie.
+                                    La <strong className="font-normal">création d'un site internet</strong> nécessite un savoir-faire tout particulier. En effet, le site est réalisé en fonction des cibles de votre stratégie, de l’<strong className="font-normal">expérience utilisateur</strong> ou encore des <strong className="font-normal">robots d’indexation des moteurs de recherche (SEO)</strong>. Il est donc déterminant de mettre en place un outil performant de tous points de vue.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
                 
@@ -169,8 +169,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                <strong> Site internet vitrine</strong>, <strong>e-commerce</strong> ou sur-mesure, il existe de nombreuses solutions pour affirmer sa présence <strong>en ligne</strong>. Nous vous accompagnons pour faire le choix de la solution la mieux adaptée pour votre société, ainsi qu’à vos objectifs de <strong>communication</strong>.
-
+                                    Qu'il s'agisse d'un <strong className="font-normal">site internet vitrine</strong>, <strong className="font-normal">e-commerce</strong> ou <strong className="font-normal">sur-mesure</strong>, tout doit être pensé pour affirmer votre <strong className="font-normal">présence en ligne</strong>. Cela demande de bien définir vos <strong className="font-normal">objectifs de communication</strong> pour vous permettre d'accéder à une <strong className="font-normal">solution efficace et adaptée</strong>. 
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                             </section>
@@ -184,7 +183,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                 <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                Nos experts en <strong><Link to="/creation-site-internet-toulouse/developpement-web/" className="text-bleu font-bold hover:text-black">développement web</Link></strong> et <strong>création de contenus optimisés</strong> vous apportent une expertise pour vous accompagner dans le <strong>développement de votre site internet</strong> professionnel et sur-mesure. Linkweb vous accompagne pour la <strong>création de site web</strong> professionnel.
+                                    La <strong className="font-normal">création de votre vitrine professionnel</strong> est réalisée grâce au savoir-faire de nos professionnels en <strong><Link to="/creation-site-internet-toulouse/developpement-web/" className="text-bleu hover:text-black font-bold">développement web</Link></strong> et en <strong className="font-normal">création de contenus optimisés</strong>. <strong className="font-normal">Linkweb</strong> est votre interlocuteur privilégié pour votre <strong className="font-normal">projet de site web professionnel et sur-mesure</strong>.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                             </section>
@@ -195,20 +194,20 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
-                        Création de site internet à Toulouse : Linkweb, votre solution web professionnelle
+                        Création de site internet à Montauban : Linkweb, votre solution web professionnelle
                         </h2>
                         <hr className="blue"></hr>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-10 pb-0">
                     <div className="w-full max-w-5xl" /*data-aos='zoom-in'*/>
-                            <p className="text-md text-center pt-4 century">Vous souhaitez une création de site internet à Toulouse ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. <br/><br/>Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
+                            <p className="text-md text-center pt-4 century">Vous souhaitez une création de site internet à Montauban ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. <br/><br/>Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
                         </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-6 md:my-4">
                         <div className="w-full lg:w-1/2 pt-6">
                             <img 
                                 src={mac}
-                                alt="Création site internet Toulouse"
+                                alt="Création site internet Montauban"
                                 /*data-aos="fade-right"*/
                             />
                         </div>
@@ -216,25 +215,25 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <h2 className="font-bold px-10 text-xl" /*data-aos="fade-in"*/>1<span className="text-bleu">/</span> UNE ÉQUIPE À VOTRE ÉCOUTE</h2>
                             <br/>
                             <p className="text-md text-justify px-10 pt-6 md:py-0" /*data-aos="fade-left"*/>
-                                <strong className="font-light">Nos consultants en communication web</strong> définissent un <strong>projet web</strong> qui vous ressemble : la relation de collaboration mise en place avec nos <strong className="font-light">clients</strong> nous permet de <strong>créer des sites internet</strong> à votre image, en suivant votre <strong><Link to="/creation-site-internet-toulouse/charte-graphique/" className="text-bleu hover:text-black font-bold">charte graphique</Link></strong> et <strong>identité visuelle</strong>, vos valeurs, ainsi qu’en traduisant votre activité avec fidélité. Il est important pour nous d’être au plus près de vos besoins afin de retranscrire la plus-value que représente votre entreprise sur un support en ligne. En fonction de votre projet, il est également possible de mettre en place une <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/"><strong>refonte de votre site</strong></Link> existant.
+                                La coopération avec nos clients constitue une part importante de la réussite de nos <strong className="font-normal">projets web</strong>. Nos <strong className="font-normal">spécialistes en marketing web</strong> s'attachent à répondre à vos besoins avec un <strong className="font-normal">projet web</strong> qui vous ressemble. C'est pourquoi, nous faisons en sorte de <strong className="font-normal">réaliser des sites internet adaptés à votre image</strong>, propres à vos valeurs, en totale corrélation avec votre <strong><Link to="/creation-site-internet-toulouse/charte-graphique/" className="font-bold text-bleu hover:text-black">charte graphique</Link></strong> et votre <strong className="font-normal">identité visuelle</strong>. Il est déterminant pour nous d’être au plus près de vos besoins afin de retranscrire les spécificités de votre société et de votre projet au sein de votre <strong className="font-normal">outil en ligne</strong>. Ceci est aussi vrai pour la création que pour la <strong><Link to="/creation-site-internet-toulouse/refonte-site-internet/" className="text-bleu hover:text-black font-bold">refonte de votre site</Link></strong> existant. 
                             </p>
                             <br/>
                             <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>2<span className="text-bleu">/</span> DES EXPERTS QUALIFIÉS</h2>
                             <br/>
                             <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
-                                <strong className="font-light">Linkweb</strong>, c’est une équipe de référenceurs spécialisés dans l’<strong>optimisation SEO</strong> en plus de <strong>développeurs <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/">front-end</Link> et <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/back-end/">back-end</Link></strong> spécialisés dans l’<Link className="font-bold text-bleu hover:text-black" to="/creation-site-internet-toulouse/ui-design/"><strong>UI design</strong></Link> (<strong className="font-light">interface utilisateur</strong> et travail de l'<strong className="font-light">ergonomie</strong>) et l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/"><strong>UX design</strong></Link> <strong className="font-light">(expérience utilisateur)</strong> à <strong className="font-light">Toulouse</strong>. Les équipes de notre <strong>agence de communication web</strong> vous proposent des plateformes adaptées aux standards du Web (<strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/w3c/">W3C</Link></strong>) et aux dernières tendances dans le but d’améliorer l’<strong className="font-light">expérience</strong> passée sur votre site. Nous mettons en place votre site internet au <strong className="font-light"><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">webdesign</Link></strong> moderne, ergonomique, <strong className="font-light">intuitif</strong>, accessible et adapté au <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">responsive design</Link></strong>. Chaque fonctionnalité est étudiée pour apporter une plus-value à <strong>votre site internet</strong>.
+                                Lors de la <strong className="font-normal">création de votre site internet à Montauban</strong>, les équipes de <strong className="font-normal">référenceurs (spécialisés dans l'optimisation SEO</strong>) et de <strong className="font-normal">développeurs web</strong> <strong><Link to="/creation-site-internet-toulouse/front-end/" className="font-bold text-bleu hover:text-black">front-end</Link></strong> et <strong><Link to="/creation-site-internet-toulouse/back-end/" className="font-bold text-bleu hover:text-black">back-end</Link></strong> (spécialisés dans l'<strong><Link to="/creation-site-internet-toulouse/ui-design/" className="font-bold text-bleu hover:text-black">UI design</Link></strong> ou <strong className="font-normal">design d'interface</strong> et l'<strong><Link to="/creation-site-internet-toulouse/ux-design/" className="font-bold text-bleu hover:text-black">UX design</Link></strong> (<strong className="font-normal">expérience utilisateur</strong>)) de notre société de <strong className="font-normal">communication web</strong> s'attache à élaborer un <strong className="font-normal">site internet</strong> adapté. En effet, les sites que nous créons sont conformes aux standards du web (<strong><Link to="/creation-site-internet-toulouse/w3c/" className="font-bold text-bleu hover:text-black">W3C</Link></strong>) et aux dernières tendances. C'est pourquoi, nos <strong className="font-normal">sites web</strong> sont créés à partir d’un <strong><Link to="/creation-site-internet-toulouse/webdesign/" className="font-bold text-bleu hover:text-black">webdesign</Link></strong> ergonomique, moderne, accessible, intuitif et adapté pour tous les supports grâce au <strong><Link to="/creation-site-internet-toulouse/responsive-design/" className="font-bold text-bleu hover:text-black">responsive design</Link></strong>. Chaque élément est là pour apporter une plus-value à votre <strong className="font-normal">outil en ligne</strong>.
                             </p>
                             <br/>
                             <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>3<span className="text-bleu">/</span> UN SUIVI PRÉCIS DES PERFORMANCES</h2>
                             <br/>
                             <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
-                                Le <strong>référencement d’un site internet</strong> s’effectue sur le long terme. C’est pourquoi nous disposons d'<strong>outils indispensables</strong> qui permettent d'effectuer un suivi régulier pour vous donner la possibilité d’avoir un regard professionnel sur le positionnement des pages de votre site dans les résultats des <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/"><strong>moteurs de recherche</strong></Link> par rapport à vos concurrents. Par ailleurs, nos consultants à <strong className="font-light">Toulouse</strong> sont force de proposition pour vous présenter des mises à jour qui permettront d’affiner la <strong>stratégie de référencement</strong> déployée sur <strong>votre site web</strong>.
+                                Le <strong className="font-normal">référencement d'un site internet</strong> est un travail de long terme. Nous avons, à notre disposition, une multitude d'outils utiles à la mise en route d'une stratégie efficace. En effet, ils nous apportent un regard professionnel et concret par rapport au <strong className="font-normal">référencement des pages de votre site</strong> dans les résultats des <strong><Link to="/creation-site-internet-toulouse/moteurs-recherche/" className="text-bleu font-bold hover:text-black">moteurs de recherche</Link></strong>. En fonction de ce suivi, nos <strong className="font-normal">spécialistes à Montauban</strong> vous proposent des perspectives d'améliorations qui vont permettre d'affiner la <strong className="font-normal">stratégie d’optimisation mise en place sur votre site web</strong>. 
                             </p>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
-                        <span className="text-bleu">/</span>Création de site internet à Toulouse : <span className="text-bleu">le mode opératoire</span> 
+                        <span className="text-bleu">/</span>Création de site internet à Montauban : <span className="text-bleu">le mode opératoire</span> 
                         </h2>
                         <hr className="blue"></hr>
                         
@@ -468,7 +467,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
                         <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
-                            <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Toulouse ?
+                            <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Montauban ?
                         </h2>
                         <hr className="blue"></hr>
                         <h4 /*data-aos='fade-left'*/ className="text-lg px-6 md:text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de sites web ?
@@ -478,20 +477,26 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <div className="w-full md:w-3/4 py-0 flex justify-end">
                             <Accordion>
                                 <div className="w-full" label="EST-CE POSSIBLE DE METTRE EN PLACE DES FONCTIONNALITÉS SUR-MESURE POUR MON SITE ?">
-                                <p>Le <strong>site internet</strong> est <span className="font-bold">un outil extrêmement riche au niveau professionnel</span> : il peut avoir plusieurs rôles au sein d’une entreprise et dans une <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/strategie-digitale/">stratégie digitale</Link></strong>. Il est à la fois <span className="font-bold">la <strong>vitrine</strong> de son entreprise directement accessible pour les utilisateurs et permet de présenter des fonctionnalités</span> selon le <strong>type de site</strong> en place. Simulateur de devis, module de réservation, configurateur de produits, outil de recherche adapté, les possibilités de réalisation ne manquent pas sur un site web.<br/><br/> De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de <span className="font-bold">faire de son site web un <strong>outil de gestion</strong></span>. À ce niveau, notre <strong>agence digitale</strong> <Link to="/" className="hover:text-bleu"><strong>Linkweb</strong></Link> est en mesure de vous proposer un <strong>site internet</strong> <span className="font-bold">à <strong>votre image</strong> et qui s'adapte à vos besoins</span>. Ceci est valable dès la <strong>conception du site</strong>, jusqu’à la définition des espaces d’administration sur l'<strong>éditeur du site</strong> avec la répartition des rôles et permissions pour les employés de votre entreprise pour un site <strong>clé en main</strong> : <strong>intranet</strong>, <strong>CRM</strong>, nous répondons à vos exigences.<br/><br/>
-                                <span className="font-bold">La <strong>création d'un site internet</strong> ne constitue pas un objectif : le <strong>site web</strong> est un MOYEN pour atteindre vos objectifs.</span></p>
+                                <p><strong className="font-normal">Avoir un site internet professionnel</strong> répond à des nombreux besoins au sein d'une entreprise et notamment dans le cadre d'une <strong><Link to="/creation-site-internet-toulouse/strategie-digitale/" className="text-bleu hover:text-black font-bold">stratégie digitale</Link></strong>. Il peut avoir plusieurs rôles et c'est ce qui fait de lui un outil principalement performant. Il constitue aussi bien la <strong className="font-normal">vitrine d'une entreprise</strong> et peut même présenter des fonctionnalités selon la solution en place. Grâce à un <strong className="font-normal">site web sur-mesure</strong>, les opportunités sont nombreuses : <strong className="font-normal">simulateur de devis</strong>, <strong className="font-normal">module de réservation</strong>, <strong className="font-normal">configurateur de produits</strong>, <strong className="font-normal">outil de recherche</strong>, etc. 
+                                <br/><br/>
+                                Par ailleurs, la <strong className="font-normal">plateforme web</strong> peut aussi constituer un <strong className="font-normal">outil de gestion pour les professionnels</strong> souhaitant mettre le numérique au centre même de leur fonctionnement. L’<strong><Link to="/">agence web Linkweb</Link></strong> <strong className="font-normal">crée un site internet</strong> adapté à votre entreprise et à vos besoins. Nous nous attachons à apporter une réponse à vos objectifs, dès la <strong className="font-normal">conception du site</strong>, jusqu'à la définition des espaces d'administration et la répartition des rôles et permissions. En effet, nous accomplissons votre <strong className="font-normal">CRM ou intranet</strong> en répondant à vos besoins. 
+                                <br/><br/>
+                                <span className="font-bold"><strong>Créer un site</strong> n'est pas un objectif : il constitue un moyen pour vous permettre d'atteindre vos objectifs.</span></p>
                                 </div>
-                                <div label="COMMENT CRÉER UN SITE WEB DESTINÉ À LA POPULATION TOULOUSAINE (OCCITANIE) ?">
-                                <p>Lorsque l’on met en place une <strong>solution de communication</strong>, <span className="font-bold">la <strong>définition des cibles</strong> est une étape indispensable</span>. Le <strong>site internet</strong> ne déroge pas à la règle. Pour créer un site web efficace en fonction des moyens de déploiement choisis, il faut <span className="font-bold">considérer son public dès l’élaboration du projet, la <strong>création du site</strong> et de ses <strong>pages web</strong></span>. <br/><br/>
+                                <div label="COMMENT CRÉER UN SITE WEB DESTINÉ À LA POPULATION MONTALBANAISE (OCCITANIE) ?">
+                                <p><strong className="font-normal">Définir ses cibles</strong> dès l’élaboration du projet est l'une des étapes les plus importantes. En effet, la <strong className="font-normal">création d'un site internet</strong>, au même titre que toute <strong className="font-normal">définition d’une stratégie de communication</strong>, n'échappe pas à cette norme. <strong className="font-normal">Créer un site efficace</strong> demande de penser son public dès la <strong className="font-normal">conception du projet</strong> et des contenus destinés à être publiés. 
+                                <br/><br/>
+                                Également, le fait de interagir dans un environnement aussi concurrentiel que l’<strong className="font-normal">agglomération montalbanaise</strong> demande un certain investissement dans le <strong><Link to="/creation-site-internet-toulouse/webmarketing/" className="text-bleu hover:text-black font-bold">webmarketing</Link></strong> : il est nécessaire de mettre en place un <strong className="font-normal">site professionnel</strong> mais aussi un <strong className="font-normal">référencement web</strong> (<strong className="font-normal">optimisation de site ou gestion de campagnes Google Adwords</strong>) soigné. 
+                                <br/><br/>
+                                Les professionnels de notre <strong className="font-normal">agence web à Montauban</strong> anticipent et déterminent votre <strong className="font-normal">stratégie de référencement</strong> en fonction des critères liés à vos cibles et à la concurrence. Linkweb dispose de tous les outils afin de prendre des décisions qui vous permettront d'<strong className="font-normal">obtenir un site efficace et fiable</strong>. <br/><br/>
                                 
-                                Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> implique d’investir dans le <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/"><strong>webmarketing</strong></Link> avec <span className="font-bold">un <strong>site web professionnel </strong>et un <strong>référencement</strong> (référencement naturel et/ou <strong>campagnes Google Adwords</strong>) soigné</span>.<br/><br/>     
-                                De plus, les <strong>sites internet</strong> que nous mettons en place sont créés en vue de répondre à un besoin précis. C’est pourquoi, en choisissant <strong>notre agence web à Toulouse</strong>, le positionnement stratégique de <strong>votre site web</strong> est pensé et anticipé. <span className="font-bold"><Link to="/" className="hover:text-bleu"><strong>Linkweb</strong></Link> dispose de tous les outils pour évaluer chaque critère et prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant</strong>.</span> <br/><br/>
-                                
-                                Que vous soyez <strong><Link to="/creation-site-internet-toulouse/creation-site-pour-artisan/" className="text-bleu hover:text-black">artisan</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-industrie/" className="text-bleu hover:text-black">industriel</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-immobilier/" className="text-bleu hover:text-black">directeur d'une agence immobilière</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-automobile/" className="text-bleu hover:text-black">gérant d'une entreprise automobile</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-restaurant/" className="text-bleu hover:text-black">restaurateur</Link></strong>, <Link to="/creation-site-internet-toulouse/site-internet-pisciniste/" className="text-bleu hover:text-black"><strong>pisciniste</strong></Link>, <strong><Link to="/creation-site-internet-toulouse/site-internet-cuisiniste/" className="text-bleu hover:text-black">cuisiniste</Link></strong>, commerçant, <strong><Link to="/creation-site-internet-toulouse/site-internet-chauffage-climatisation/" className="text-bleu hover:text-black">chauffagiste ou climatiseur</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-paysagiste/" className="text-bleu hover:text-black">paysagiste</Link></strong>, ou issu de tout autre secteur professionnel, vous trouverez une solution adaptée à vos besoins.
+                                Que vous soyez <strong><Link to="/creation-site-internet-toulouse/creation-site-pour-artisan/" className="text-bleu hover:text-black">artisan</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-industrie/" className="text-bleu hover:text-black">industriel</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-immobilier/" className="text-bleu hover:text-black">directeur d'une agence immobilière</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-restaurant/" className="text-bleu hover:text-black">restaurateur</Link></strong>, <Link to="/creation-site-internet-toulouse/site-internet-pisciniste/" className="text-bleu hover:text-black"><strong>pisciniste</strong></Link>, <strong><Link to="/creation-site-internet-toulouse/site-internet-cuisiniste/" className="text-bleu hover:text-black">cuisiniste</Link></strong>, commerçant, <strong><Link to="/creation-site-internet-toulouse/site-internet-chauffage-climatisation/" className="text-bleu hover:text-black">chauffagiste ou climatiseur</Link></strong>, <strong><Link to="/creation-site-internet-toulouse/site-internet-paysagiste/" className="text-bleu hover:text-black">paysagiste</Link></strong>, ou issu de tout autre secteur professionnel, vous trouverez une solution adaptée à vos besoins.
                                 </p>
                                 </div>
                                 <div label="COMBIEN DE TEMPS EST NÉCESSAIRE POUR OBTENIR UNE VERSION DÉFINITIVE DE MON SITE ?">
-                                <p><span className="font-bold">Il n'existe pas un délai précis pour la production d'un <strong>site internet</strong></span> puisqu’il va dépendre de nombreux critères. En effet, de la mise en production vont dépendre des éléments tels que la définition des contenus, lacréation des <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/maquette-site-web/">maquettes</Link></strong>, votre retour client, <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/redaction-web/">la rédaction des contenus</Link></strong>, les éventuelles modifications, ou encore le <strong>développement web</strong>, etc. <br/><br/>Il existe de nombreux paramètres, propres à votre projet, qui vont influer sur le temps de production d’un <strong>site internet</strong>. <span className="font-bold"><strong>Faire un site internet</strong> demande de considérer et de soigner les moindres détails pour une <strong>mise en ligne optimale</strong> et aboutir à un outil professionnel qui vous correspond.</span> C’est pourquoi cela est variable selon le projet.</p>
+                                <p>La durée de <strong className="font-normal">production d'un site internet</strong> varie en fonction de nombreux critères. En effet, des éléments comme la <strong className="font-normal">définition des contenus</strong>, la <strong className="font-normal">création des <Link to="/creation-site-internet-toulouse/maquette-site-web/" className="font-bold text-bleu hover:text-black">maquettes</Link></strong>, le retour client, la <strong><Link to="/creation-site-internet-toulouse/redaction-web/" className="text-bleu hover:text-black font-bold">rédaction des textes</Link></strong>, les modifications à effectuer ou encore le <strong className="font-normal">développement web</strong> vont impacter ce temps. 
+                                <br/><br/>
+                                Par ailleurs, d'autres éléments propres à votre projet peuvent aussi influer sur le <strong className="font-normal">temps de production</strong>, comme l'<strong className="font-normal">installation de fonctionnalités particulières</strong>, par exemple. Il est déterminant de soigner les détails en vue d'établir un <strong className="font-normal">outil professionnel</strong> et adapté à votre entreprise. Il n’existe, à ce titre, pas de durée prédéfinie pour la <strong className="font-normal">création d’un site internet</strong> : ceci va varier selon votre projet.</p>
                                 </div>
                             </Accordion>
                         </div>
@@ -553,11 +558,11 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3 bg-gris p-10">
-                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight"><span className="text-bleu">/</span>Vous portez un projet de création de site internet à Agen ?</h2>
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight"><span className="text-bleu">/</span>Vous portez un projet de création de site internet à Toulouse ?</h2>
                         <br/>
-                        <p className="century text-center text-md">Linkweb conduit votre projet <strong>de création de site internet à Agen</strong>, de sa conception à sa réalisation. Notre équipe vous accompagne dans la mise en route technique et dans le choix de la stratégie éditoriale à adopter pour répondre à vos objectifs.</p>
+                        <p className="century text-center text-md">Linkweb conduit votre projet <strong>de création de site internet à Toulouse</strong>, de sa conception à sa réalisation. Notre équipe vous accompagne dans la mise en route technique et dans le choix de la stratégie éditoriale à adopter pour répondre à vos objectifs.</p>
                         <div className="max-w-sm mx-auto block">
-                            <RoundButton url="/creation-de-site-internet-a-agen/" text="J'ai un projet de création à Agen" />
+                            <RoundButton url="/creation-site-internet-toulouse/" text="J'ai un projet de création à Toulouse" />
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
@@ -578,7 +583,7 @@ class CreationSiteInternetToulousePage extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePosts {
+query lastsThreePostsMontauban {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -598,7 +603,7 @@ query lastsThreePosts {
   
     
 `
-export default CreationSiteInternetToulousePage;
+export default CreationSiteInternetMontaubanPage;
 
 
 
