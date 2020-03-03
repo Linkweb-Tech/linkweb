@@ -248,12 +248,12 @@ var tarteaucitron = {
         tarteaucitron.handleBrowserDNTRequest = tarteaucitron.parameters.handleBrowserDNTRequest;
 
         // Step 1: load css
-        if ( !tarteaucitron.parameters.useExternalCss ) {
-            linkElement.rel = 'stylesheet';
-            linkElement.type = 'text/css';
-            linkElement.href = cdn + 'css/tarteaucitron.css?v=' + tarteaucitron.version;
-            document.getElementsByTagName('head')[0].appendChild(linkElement);
-        }
+        // if ( !tarteaucitron.parameters.useExternalCss ) {
+        //     linkElement.rel = 'stylesheet';
+        //     linkElement.type = 'text/css';
+        //     linkElement.href = cdn + 'css/tarteaucitron.css?v=' + tarteaucitron.version;
+        //     document.getElementsByTagName('head')[0].appendChild(linkElement);
+        // }
         // Step 2: load language and services
         tarteaucitron.addScript(pathToLang, '', function () {
 
