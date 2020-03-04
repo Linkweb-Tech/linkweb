@@ -227,7 +227,6 @@ var tarteaucitron = {
             params = tarteaucitron.parameters;
 
         // Step -1
-        console.log(cdn);
         if (typeof tarteaucitronCustomPremium !== 'undefined') {
             tarteaucitronCustomPremium();
         }
@@ -1646,3 +1645,5 @@ tarteaucitron.init({
 tarteaucitron.user.gajsUa = 'UA-43540005-1';
 tarteaucitron.user.gajsMore = function () { /* add here your optionnal _ga.push() */ };
 (tarteaucitron.job = tarteaucitron.job || []).push('gajs');
+tarteaucitron.user.googletagmanagerId = 'GTM-WJMB7VQ',
+(tarteaucitron.job = tarteaucitron.job || []).push('googletagmanager')
