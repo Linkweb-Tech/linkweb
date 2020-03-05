@@ -89,11 +89,11 @@
 **/
 
 .slick-slider > .slick-prev {
-    left: -12%;
+    left: -12% !important;
 }
 
 .slick-slider > .slick-next {
-    right: -12%;
+    right: -12% !important;
 }
 
 button:before {
