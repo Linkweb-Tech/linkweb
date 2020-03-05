@@ -88,12 +88,12 @@
 * Need to use "!important" notation to override default slick carousel behavior
 **/
 
-.slick-slider > .slick-prev {
-    left: -12% !important;
+.slick-prev {
+    left: -11% !important;
 }
 
-.slick-slider > .slick-next {
-    right: -12% !important;
+.slick-next{
+    right: -11% !important;
 }
 
 button:before {
