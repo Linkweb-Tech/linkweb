@@ -96,7 +96,7 @@
 }
 
 .slick-slider {
-    padding: 3vw;
+    padding: 3vw !important;
 }
 
 #last-item:focus {
