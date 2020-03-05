@@ -95,10 +95,6 @@
     position: unset !important;
 }
 
-.slick-slider {
-    padding: 3vw !important;
-}
-
 #last-item:focus {
     outline: none;
 }

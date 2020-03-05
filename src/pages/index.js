@@ -500,8 +500,8 @@ function IndexPage(props) {
         <div className="w-full lg:w-2/3 flex justify-center lg:justify-end lg:items-center">
           <img src={besoins} alt="Agence Web Toulouse" style={{ maxHeight: '395px' }} />
         </div>
-        <div className="carousel century w-full lg:w-2/5 px-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#d3d3d352' }}>
-          <Carousel />
+        <div className="carousel century w-full lg:w-2/5 p-20 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#d3d3d352' }}>
+            <Carousel />
         </div>
 
         <br />
