@@ -82,3 +82,23 @@
     font-weight: 100;
     -webkit-font-smoothing: antialiased !important;
 }
+
+
+/**
+* Need to use "!important" notation to override default slick carousel behavior
+**/
+.slick-next:before, .slick-prev:before {
+    color: #000 !important;
+}
+
+.slick-dots {
+    position: unset !important;
+}
+
+.slick-slider {
+    padding: 3vw;
+}
+
+.slick-slider div:focus {
+    outline: unset;
+}
