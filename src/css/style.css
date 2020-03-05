@@ -99,6 +99,6 @@
     padding: 3vw;
 }
 
-.slick-slider div:focus {
-    outline: unset !important;
+#last-item:focus {
+    outline: none;
 }
