@@ -17,7 +17,7 @@
         transition: color ease 1s;
 
         .menu {
-            
+
             a {
                 color: #000;
                 transition: all ease 1s;
@@ -35,8 +35,36 @@
                     &::before {
                         right: 0;
                     }
-                }            
+                }
+
+                // 767px to avoid Ipad width
+                @media(max-width: 767px) {
+                    width: 100%;
+                    font-size: 2vmax;
+                    padding-left: 1.5rem;
+
+                    &:not(.last):hover, &.active {
+                        &::before {
+                            right: 0;
+                        }
+                    }
+                }
+                
             }
+        }
+    }
+
+    .expand {
+        max-height: 1000px;
+        transition: max-height .6s ease-out;
+    }
+    
+    .unexpand {
+        max-height: 0;
+        transition: max-height .6s ease-in;
+
+        @media(min-width: 768px) {
+            max-height: 1000px;
         }
     }
 
@@ -86,6 +114,11 @@
     }
 
     .burger {
+
+        &:focus {
+            outline: none;
+        }
+
         @media(max-width: 768px) {
             position: absolute;
             right: 5px;
