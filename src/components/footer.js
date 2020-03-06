@@ -115,13 +115,13 @@ class Footer extends React.Component {
                     </section>
                     <section className="w-full md:w-1/2 lg:w-1/4 py-8 md:py-4 md:px-4 px-4 flex flex-col liens">
                         <div className="flex flex-col  items-center">
-                            <div className="flex mb-2 items-center">
+                            <div className="flex mb-2 flex-wrap items-center">
                                 <img 
                                 src={ LinkwebWhite }
                                 alt="Linkweb"
                                 className="w-32 mb-1"
                                 />
-                                <span className="century text-2xl pl-2 text-white">le blog</span>
+                                <span className="century text-base lg:text-2xl lg:pl-2 text-white">le blog</span>
                             </div>
                             <Link
                                 to="/actualite-digitale/"
@@ -131,13 +131,13 @@ class Footer extends React.Component {
                             </Link>
                             </div>
                             <div className="flex flex-col mt-12 items-center">
-                            <div className="flex mb-2 items-center">
+                            <div className="flex mb-2 flex-wrap items-center">
                                 <img 
                                 src={ LinkwebWhite }
                                 alt="Linkweb"
                                 className="w-32 mb-1"
                                 />
-                                <span className="century text-2xl pl-2 text-white">recrute</span>
+                                <span className="century text-base lg:text-2xl lg:pl-2 text-white">recrute</span>
                             </div>
                             <Link
                                 to="/recrutement-creation-site-internet-agen/"
