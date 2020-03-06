@@ -47,7 +47,7 @@ class Partenaires extends React.Component {
           </div>
           <div className="w-1/3 md:w-1/6 mb-10 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
             <img 
-              className="mx-12"
+              className="mx-auto"
               src={hg}
               alt="Réalisations Site Web Agen"
               width="65px"
