@@ -24,7 +24,6 @@ import realisation1 from "../../images/mirameca.jpg";
 import realisation2 from "../../images/micheletti.jpg";
 import realisation3 from "../../images/danhydro.jpg";
 import map from "../../images/map.jpg";
-import surmesure from "../../images/web.svg";
 
 
 class CreationSitePourIndustrie extends React.Component {
@@ -382,7 +381,7 @@ class CreationSitePourIndustrie extends React.Component {
                     </div>
                 </section>
                 <div className="w-full flex justify-center my-20">
-                    <div className="w-1/2">
+                    <div className="w-4/5 lg:w-1/2">
                         <CarouselIndustriel />
                     </div>
                 </div>

@@ -19,7 +19,7 @@ class ArtisanSlides extends React.Component {
 
     render() {
         return (
-            <Slider dots={true} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1} fade={true} easing={"ease-in-out"}>
+            <Slider dots={true} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1} easing={"ease-in-out"}>
                 <div>
                     <svg width="70px" className="mx-auto block pt-4" viewBox="0 0 64 80"><g><path fill="#37cfee" d="M47.131,15.395l3.451,6.065c0.278,0.489,0.982,0.489,1.261,0l3.451-6.065c2.477-1.427,4.151-4.091,4.151-7.152   c0-4.852-4.207-8.733-9.167-8.192c-3.62,0.396-6.632,3.253-7.202,6.85C42.505,10.508,44.286,13.775,47.131,15.395z M51.202,4.518   c2.051,0,3.715,1.674,3.715,3.725c0,2.05-1.664,3.715-3.715,3.715c-2.051,0-3.715-1.664-3.715-3.715   C47.487,6.192,49.152,4.518,51.202,4.518z" /><path fill="#37cfee" d="M1.909,33.581h47.5c1.226,0,2.097-1.196,1.701-2.364l-3.758-11.086c-0.247-0.722-0.93-1.216-1.691-1.216H38.64v9.316   H12.689v-9.316H5.667c-0.771,0-1.444,0.494-1.701,1.216L0.218,31.217C-0.177,32.385,0.683,33.581,1.909,33.581z" /><path fill="#37cfee" d="M12.894,15.275L25.47,2.699c0.105-0.105,0.28-0.105,0.393,0l12.576,12.576c0.482,0.499,1.323,0.529,1.853,0   c0.507-0.507,0.507-1.337,0-1.853L27.716,0.845c-1.128-1.127-2.972-1.127-4.099,0L11.041,13.422c-0.528,0.547-0.498,1.355,0,1.853   C11.548,15.79,12.378,15.79,12.894,15.275z" /><path fill="#37cfee" d="M14.672,16.411v9.837h21.99v-9.837l-11-11.001L14.672,16.411z M24.938,22.595h-3.619V17.81   c0-2.138,1.563-3.917,3.619-4.268V22.595z M26.396,13.54c0.906,0.153,1.725,0.575,2.353,1.203c0.772,0.782,1.266,1.873,1.266,3.066   v4.785h-3.619V13.54z" /><path fill="#37cfee" d="M49.204,61.297h-1.288V35.559H2.592v25.738H1.425c-0.723,0-1.308,0.575-1.308,1.298c0,0.713,0.584,1.298,1.308,1.298   h47.779c0.713,0,1.298-0.584,1.298-1.298C50.501,61.871,49.917,61.297,49.204,61.297z M15.854,59.631H6.459v-7.153h9.395V59.631z    M15.854,51.118H6.459v-7.647h9.395V51.118z M30.857,61.297H19.651V43.145h11.205V61.297z M44.04,59.631h-9.395v-7.153h9.395   V59.631z M44.04,51.118h-9.395v-7.647h9.395V51.118z" /><path fill="#37cfee" d="M60.389,53.138c-1.487,0-2.775,0.808-3.464,2.017c-0.769-0.629-1.747-1.018-2.835-1.018c-0.05,0-0.1,0-0.14,0.01   c-0.519-2.116-2.037-3.843-4.033-4.642v9.874c1.477,0.329,2.586,1.647,2.586,3.214c0,0.509-0.11,0.979-0.319,1.408h11.7v-8.775   C63.204,53.987,61.906,53.138,60.389,53.138z" /></g></svg>
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
@@ -92,7 +92,7 @@ class ArtisanSlides extends React.Component {
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-automobile/" text="Création de site web automobile" />
                     </div>
                 </div>
-                <div>
+                <div id="last-item">
                     <img src={surmesure} width="80px" className="mx-auto block mb-4" alt="Création site internet à Toulouse" />
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">sur-mesure</span> ?

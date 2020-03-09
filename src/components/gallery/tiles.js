@@ -36,7 +36,7 @@ class Tiles extends React.Component {
             url: "https://services.faivre-environnement.com/"
         },*/ {
             id: 5,
-            name: "Faivre Environnent",
+            name: "Faivre Environnement",
             image: faivre3, 
             url: "/realisations/groupe-faivre-environnement/"
         }, {

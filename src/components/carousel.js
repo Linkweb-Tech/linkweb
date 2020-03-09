@@ -14,7 +14,7 @@ class Carousel extends React.Component {
 
     render() {
         return (
-            <Slider dots={true} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1} fade={true} easing={"ease-in-out"}>
+            <Slider dots={true} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1} easing={"ease-in-out"}>
                 <div>
                     <h3 className="century capitalize text-2xl tracking-wider pb-6 text-center" /*data-aos="zoom-in"*/>
                         <span className="text-bleu">1.</span>Vos exigences

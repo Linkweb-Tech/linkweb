@@ -358,7 +358,7 @@ class CreationSitePourArtisan extends React.Component {
                     </div>
                     </section>
                     <div className="w-full flex justify-center my-20">
-                        <div className="w-1/2">
+                        <div className="w-4/5 lg:w-1/2">
                             <CarouselArtisan />
                         </div>
                     </div>

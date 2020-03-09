@@ -26,8 +26,17 @@ button:before {
 
     a:not(.roundedButton){
         position: relative;
-        z-index: 800;
+        z-index: inherit;
         color: #37c5ee;
+    }
+
+}
+
+.slick-slide > div {
+    padding: 20px;
+
+    @media(max-width: 768px) {
+        padding: 0;
     }
 
 }
