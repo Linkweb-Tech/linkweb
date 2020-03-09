@@ -38,12 +38,23 @@ class Header extends React.Component {
     } 
   }
 
+  handleClick() {
+    var thisComponent = this;
+    document.addEventListener('click', function(e) {
+      const navBar = document.getElementById('navBar');
+      if(e.target !== navBar && !navBar.contains(e.target)) {
+        thisComponent.setState({isExpanded: false});
+      }
+    });
+  }
+
   render() {
     
+    this.handleClick();
    
     return (
 
-      <nav className={`mainNav w-full top-0 z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
+      <nav id="navBar" className={`mainNav w-full top-0 z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
          <button
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white burger"
           onClick={() => (this.state.isExpanded) ? this.setState({isExpanded: false}) : this.setState({isExpanded: true}) }
@@ -141,7 +152,6 @@ class Header extends React.Component {
           
   
           <div
-            
             className={`${
               this.state.isExpanded ? `expand bg-white ` : `unexpand`
               } md:flex md:items-center md:bg-transparent w-full md:w-auto overflow-hidden xl:m-0 md:mx-auto`}

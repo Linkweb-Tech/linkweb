@@ -2,6 +2,8 @@
     position: absolute;
     transition: all ease 1s;
 
+    background-color: rgba(0, 0, 0, 0.8);
+
     &.home {
         .menu {
             a {
@@ -56,12 +58,12 @@
 
     .expand {
         max-height: 1000px;
-        transition: max-height .6s ease-out;
+        transition: max-height .5s ease-out;
     }
     
     .unexpand {
         max-height: 0;
-        transition: max-height .6s ease-in;
+        transition: max-height .5s ease-in;
 
         @media(min-width: 768px) {
             max-height: 1000px;
