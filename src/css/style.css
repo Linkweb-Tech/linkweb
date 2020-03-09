@@ -82,28 +82,3 @@
     font-weight: 100;
     -webkit-font-smoothing: antialiased !important;
 }
-
-
-/**
-* Need to use "!important" notation to override default slick carousel behavior
-**/
-
-.carousel > div > button:first-of-type {
-    left: -11%;
-}
-
-.carousel > div > button:last-of-type {
-    right: -11%;
-}
-
-button:before {
-    color: #000 !important;
-}
-
-.slick-dots {
-    position: unset !important;
-}
-
-#last-item:focus {
-    outline: none;
-}
