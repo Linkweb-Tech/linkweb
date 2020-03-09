@@ -17,7 +17,7 @@ class SimpleMap extends Component {
     return (
       // Important! Always set the container height explicitly
       <section className="map flex flex-col items-end">
-                  <div className="order-last md:order-first relative" style={{ height: '80vh', width: '100%' }}>
+                  <div className="order-last md:order-first relative" style={{ height: '650px', maxHeight: '650px', width: '100%' }}>
                     <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ' }}
                     defaultCenter={this.props.center}
@@ -30,7 +30,7 @@ class SimpleMap extends Component {
                     </GoogleMapReact>
                 </div>
                 <div className="order-first md:order-last contact w-full md:w-5/12 flex flex-col items-end lg:w-1/3 py-10 bg-white shadow-2xl  lg:mx-32 text-center text-black text-4xl century relative">
-                          <h2 className="max-w-sm text-xl lg:text-4xl mx-auto">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
+                          <h2 className="max-w-sm text-xl md:text-3xl mx-auto">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
                           <br/>
                           <div className="w-2/3 flex flex-row justify-start mx-auto">
                             <div className="w-2/12 flex items-center">

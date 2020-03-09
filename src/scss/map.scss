@@ -6,8 +6,9 @@
 }
 
 .contact {
-    bottom:700px;
+    bottom:610px;
     @media(max-width: 768px) {
-        bottom:0
+        bottom:0;
+        width: 100%;
     }
 }
