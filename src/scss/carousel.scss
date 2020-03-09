@@ -24,7 +24,7 @@ button:before {
 
 .slick-active {
 
-    a {
+    a:not(.roundedButton){
         position: relative;
         z-index: 800;
         color: #37c5ee;

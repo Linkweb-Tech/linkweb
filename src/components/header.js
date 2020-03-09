@@ -38,20 +38,18 @@ class Header extends React.Component {
     } 
   }
 
-  handleClick() {
-    var thisComponent = this;
-    document.addEventListener('click', function(e) {
-      const navBar = document.getElementById('navBar');
-      if(e.target !== navBar && !navBar.contains(e.target)) {
-        thisComponent.setState({isExpanded: false});
-      }
-    });
-  }
+  // handleClick(e) {
+  //   var thisComponent = this;
+  //   const navBar = document.getElementById('navBar');
+  //   if(e.target !== navBar && !navBar.contains(e.target)) {
+  //     thisComponent.setState({isExpanded: false});
+  //   } else {
+  //     console.log('not in');
+  //   }
+  // }
 
   render() {
     
-    this.handleClick();
-   
     return (
 
       <nav id="navBar" className={`mainNav w-full top-0 z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
