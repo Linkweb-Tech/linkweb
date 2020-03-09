@@ -62,10 +62,11 @@
     .unexpand {
         max-height: 0;
         transition: max-height .5s ease-in;
-
+ 
         @media(min-width: 768px) {
             max-height: 1000px;
         }
+
     }
 
     .menu {
@@ -135,3 +136,12 @@
     }
 }
 
+
+#navContainer {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 500;
+    width: 100%;
+    min-height: 100vh;
+    transition: all .5s ease-in;
+}
