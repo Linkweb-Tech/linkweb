@@ -11,28 +11,42 @@ class Modals extends React.Component {
         super(props);
     }
 
+    handleClick(e) {
+        // id of the current popup
+        var currentModal = window.location.href.split('#')[1];
+        const modalBackground = document.getElementById(currentModal);
+        // unresizisable background
+        const modalDumpBackground = modalBackground.getElementsByClassName("popup-inner")[0];
+        const close = document.getElementsByClassName('popup__close')[0];
+
+        if(e.target === modalBackground || e.target === modalDumpBackground) {
+            // Simulate click on close popup link
+            close.click();
+        }         
+    }
+
     render() {
         return (
-            <div>
+            <div id="modalContainer" onClick={(e) => this.handleClick(e)}>
                 <ModalRea
                     linkTitle={"/creation-de-site-internet-a-agen/"}
                     linkLoupe={"/creation-de-site-internet-a-agen/"}
                     linkResponsive={"/creation-de-site-internet-47-31/"}
                     linkInterface={"/creation-site-internet-agen/"} />
 
-                <ModalRef 
+                <ModalRef
                     linkTitle={"/referencement-de-site-internet-47-31/"}
                     linkRefAgence={"/agence-referencement-toulouse/"}
-                    linkRef={"/referencement-de-site-internet-47-31/"}/>
+                    linkRef={"/referencement-de-site-internet-47-31/"} />
 
-                <ModalSolu 
-                    linkSolution={"/creation-de-site-internet-47-31/"}/>
+                <ModalSolu
+                    linkSolution={"/creation-de-site-internet-47-31/"} />
 
-                <ModalAds 
+                <ModalAds
                     linkTitle={"/agence-adwords-47-31/"}
-                    linkAds={"/agence-adwords-47-31/" }/>
+                    linkAds={"/agence-adwords-47-31/"} />
             </div>
-            
+
         );
     }
 
