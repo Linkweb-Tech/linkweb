@@ -30,7 +30,14 @@ module.exports = {
       or:"#d0a104",
       ledil:"#233951",
       csd:"#aace57",
-      csd1:"#5a4d46"
+      csd1:"#5a4d46",
+      atptbarre:"#39ac4a94",
+      csdbarre:"#5a4d4694",
+      gbbarre:"#ee8a1e94",
+      faivrebarre:"#aace5794",
+      ledilbarre:"#23395194",
+      sdisbarre:"#b71c3094",
+      siabarre:"#b71c3094"
     },
     borderRadius: {
       'large': '1rem',

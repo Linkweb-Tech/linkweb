@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
+import Barre from "../../components/barre-laterale";
 import "../../scss/barre.scss";
 
 
@@ -86,7 +87,8 @@ class faivre extends React.Component {
                             </div>
                             </div>
                         </div>
-                        <li className="hidden lg:block toggleable">
+                        <Barre color="faivrebarre"/>
+                        {/* <li className="hidden lg:block toggleable">
                                 <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
                                     <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
                                         <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2 font-bold" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
@@ -104,7 +106,7 @@ class faivre extends React.Component {
                                         <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
                                     </div>
                                 </div>
-                            </li>
+                            </li> */}
                     </section>
                     <section className="w-full flex flex-col md:flex-row mt-12">
                         <div className="w-full md:w-11/12 px-4 py-2 md:py-6 my-2 ml-0 md:ml-24 lg:ml-32 md:my-4 flex flex-col order-last md:order-first">

@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
+import Barre from "../../components/barre-laterale";
 import "../../scss/barre.scss";
 
 
@@ -74,7 +75,8 @@ class Atpt extends React.Component {
                             <h3 data-aos="fade-up" className="font-normal italic text-center px-6 lg:px-32 text-lg sm:text-2xl text-white my-24">La convention Atouts Pour Tous menées par l’Université Fédérale de Toulouse Midi-Pyrénées fait du numérique un instrument central pour favoriser l’insertion professionnelle des personnes en situation de handicap.</h3>
                             <a data-aos="fade-down" href="/realisations/atpt/#start"><svg className="mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#FFFFFF" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
                             </div>
-                            <li className="hidden lg:block toggleable">
+                            <Barre color="atptbarre"/>
+                            {/* <li className="hidden lg:block toggleable">
                                 <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
                                     <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
                                         <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold px-2 font-bold" style={{background:'#FFFFFF',bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
@@ -92,7 +94,7 @@ class Atpt extends React.Component {
                                         <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
                                     </div>
                                 </div>
-                            </li>
+                            </li> */}
                         {/*<section className="toggleable">
                             <div for="toogle-one" >
                             <div className="toggle-input mega-menu cursor-pointer fixed h-auto z-40 py-4 font-bold px-1" style={{background:'#FFFFFF', right:'130px',bottom:'350px', writingMode: 'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>

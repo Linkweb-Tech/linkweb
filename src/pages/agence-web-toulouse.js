@@ -76,7 +76,6 @@ class AgenceWebToulouse extends React.Component {
                             Nous les accompagnons depuis plusieurs années pour servir l’intérêt général.
                         </h3>
                         <hr className="blue"></hr>
-                        
                     </section>
                     <Partenaires/>
                     <section className="w-full flex flex-1 equipe min-h-0 lg:min-h-600">
