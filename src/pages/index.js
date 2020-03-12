@@ -228,7 +228,7 @@ function IndexPage(props) {
             </h3>
             <h4 className="text-4xl text-white mt-0 lg:-mt-5">sur Google</h4>
             <p className="text-white font-normal">
-              Nos clients sont satisfaits du travail engagé sur leur site web.<br />Note basée sur 65 avis de clients.
+              Nos clients sont satisfaits du travail engagé sur leur site web.<br />Note basée sur 67 avis de clients.
             </p>
           </div>
         </div>
