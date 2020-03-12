@@ -76,7 +76,7 @@ class ContactAgenceWebToulouse extends React.Component {
 
                     </section>
                     {/* Espace Pictos */}
-                    <section className="w-full flex items-center flex-col text-center font-bold">
+                    <section className="w-full flex items-center flex-col text-center font-bold century">
                         <div className="w-full lg:w-2/3 justify-center items-center flex flex-col md:flex-row md:mb-12 lg:mb-24">
                             <div className="w-1/2 lg:w-1/3 flex flex-col mb-10 lg:mb-0" data-aos="fade-right">
                                 <svg className="mx-auto block" fill="#37C5EE" viewBox="0 0 100 125" width="50px">
