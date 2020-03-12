@@ -178,28 +178,45 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
-                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
+                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 mt-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : OÙ NOUS TROUVER ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
+                        <h4 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-2">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
                     </section>
-                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in"*/>
+                    <section className="flex flex-col md:flex-row md:w-full max-w-7xl mx-auto py-2 mt-0 md:-mt-24 lg:-mt-16">
+                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col mt-24 lg:mt-0 text-center" /*data-aos="zoom-in"*/>
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
                             <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a>
                         </div>
-                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" /*data-aos="zoom-in" data-aos-delay="200"*/>
+                        <div>
+                            <p className="text-bleu mx-12 hidden md:block" style={{fontSize:'350px'}}>/</p>
+                        </div>
+                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col mt-24 lg:mt-0 text-center" /*data-aos="zoom-in" data-aos-delay="200"*/>
                             <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
                             <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
                         </div>
+                    </section>
+                        {/* <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in">
+                            <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
+                            <p className="text-xl century">10 rue Albert Ferrasse <br/>
+                            47550 BOÉ</p>
+                            <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a>
+                        </div>
+                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-black" /*data-aos="zoom-in" data-aos-delay="200">
+                            <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
+                            <p className="text-xl century">44 Rue de Bayard <br/>
+                            31000 TOULOUSE</p>
+                            <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
+                        </div> */}
 
                     </section>
-                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
+                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 lg:pt-2 pb-0 my-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : QUI SOMMES-NOUS ?
                         </h2>
