@@ -27,7 +27,7 @@ class LastPosts extends React.Component {
                                         <img className="img" src={node.featured_media.source_url} />
                                     </div>
                                     <div>  
-                                        <h5 className="text-xs text-left px-3 hover:text-bleu">{ node.title }</h5>
+                                        <h5 className="text-xs text-left px-3 hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }}/>{/*{ node.title }</h5>*/}
                                        
                                     </div>                                    
                                 </Link>
