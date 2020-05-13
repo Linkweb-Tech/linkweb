@@ -1,0 +1,144 @@
+/****************** SIDEBAR ******************/
+
+.titre {
+    background: #272723;
+    color: #ffffff;
+    font-size: 20px;
+    padding:10px;
+    font-weight: bold;
+    
+    @media(max-width: 1024px) {
+        font-size:16px;
+        background: #ffffff;
+        color: black;
+    }
+}
+
+.soustitre {
+    background: #808080;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+
+    @media(max-width: 1024px) {
+        font-size:14px;
+        background: white;
+        color: #3c3c3c;
+        padding-left:40px;
+    }
+}
+
+.bastitre {
+    background: #f1f1f1;
+    font-size: 15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:25px;
+
+    @media(max-width: 1024px) {
+        font-size:13px;
+        padding: left 35px;
+        background: white;
+    }
+}
+
+hr {
+    border-top: 1px solid #e8e8e8;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+
+    @media(max-width: 1024px) {
+        width:100%;
+    }
+}
+
+.bastitre li {
+    padding-top:5px;
+    padding-bottom:5px;
+    transition: transform .2s;
+}
+.bastitre li:hover {
+    color:#37cfee;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.bastitre li:active {
+    color:#37cfee
+}
+svg {
+    margin:5px;
+}
+
+ul li svg {
+    width:80px;
+    @media(max-width: 768px) {
+        width:73px;
+        margin-bottom:10px;
+    }
+
+}
+/****************** CONTENU ******************/
+
+.bloctext h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    
+}
+
+.bloctext h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 18px;
+
+    @media(max-width: 1400px) {
+        font-size:14px;
+    }
+}
+
+.bloctext h4 {
+    font-weight:bold;
+    
+    @media(max-width: 1400px) {
+        font-size:13px;
+    }
+}
+
+.bloctext {
+    margin-left:125px;
+    margin-right:125px;
+    margin-top:70px;
+    margin-bottom: 75px;
+
+    @media(max-width: 1400px) {
+        margin-left:auto;
+        margin-right:auto;
+        padding: 35px;
+        margin-top: 30px;
+        margin-bottom:30px;
+
+    }
+}
+
+.bloctext p {
+    margin-bottom: 18px;
+    
+    @media(max-width: 1400px) {
+        font-size:13px;
+    }
+}
+
+.bloctext ul {
+    margin-bottom: 50px;
+    @media(max-width: 1400px) {
+        font-size:13px;
+    }
+}
+
+/*.content {
+    opacity:0;
+}*/
