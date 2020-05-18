@@ -86,7 +86,7 @@ class CreationSitePourIndustrie extends React.Component {
                 <section className="flex items-center justify-start w-full mx-auto pb-0 my-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#00000085 url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end">
                         <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
-                            <div className="w-1/2  text-3xl text-center font-bold text-white century">4,5/5</div>
+                            <div className="w-1/2  text-3xl text-center font-bold text-white century">4,4/5</div>
                             <p className="w-1/2  text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
                             <div className="w-1/2 -mt-8">
                                 <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
