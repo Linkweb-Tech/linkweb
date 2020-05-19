@@ -39,13 +39,7 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
                 {"@type":"WebSite",
                 "@id":"https://linkweb.fr/#website",
                 "url":"https://linkweb.fr/",
-                "name":"Linkweb",
-              "publisher":{
-                "@id":"https://linkweb.fr/#organization"},
-                "potentialAction":
-                  {"@type":"SearchAction",
-                  "target":"https://linkweb.fr/?s={search_term_string}",
-                  "query-input":"required name=search_term_string"}
+                "name":"Linkweb"
               },
               {
               "@type":"WebPage",
