@@ -54,7 +54,6 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               "inLanguage":"fr-FR",
               "name":"${title}",
               "image":"https://linkweb.fr/data/logo-linkweb.jpg",
-              "logo":"https://linkweb.fr/data/logo-linkweb.jpg",
               "isPartOf":{
                 "@id":"https://linkweb.fr/#website"
               },
