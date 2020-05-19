@@ -147,3 +147,32 @@ h3.intertitre3 {
 /*.content {
     opacity:0;
 }*/
+
+.bloccontact {
+    background: #00cfffe0;
+    height:300px;
+    margin-top:70px;
+    position:relative;
+    border-radius:15px;
+    
+    @media(max-width: 1400px) {
+        border-radius:0px;
+    }
+}
+
+.bloccontact h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align:center;
+    color:white;
+}
+.bloccontact h3 {
+    font-size: 17px;
+    font-weight:normal;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align:center;
+    color:white;
+}

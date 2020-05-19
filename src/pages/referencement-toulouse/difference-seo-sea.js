@@ -1,23 +1,26 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
+import ButtonBlog from "../../components/buttonblog";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
-import ButtonBlog from "../../components/buttonblog";
 import "../../scss/faq.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
+import bgbloc from "../../images/background.jpg";
+import stratref from "../../images/referencement-moteurs.jpg";
+import seovssea from "../../images/seo-vs-sea.jpg";
+import evaluation from "../../images/evaluation-strategie-seo.jpg";
 
 import fbIcon from "../../images/facebook-logo.svg";
-import bgbloc from "../../images/background.jpg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
 
 
 
 
-class TypesSites extends React.Component {
+class DiffSEOSEA extends React.Component {
 
     constructor(props) {
         super(props);
@@ -29,12 +32,12 @@ render() {
         <Layout location={this.props.location}>
 
             <SEO
-                title="Types de sites internet | Création site internet à Toulouse (31)"
-                description="Nous développons différents types de sites internet pour répondre aux besoins les plus précis pour des professionnels de tout horizon."
-                keywords={[`Création site internet Toulouse`, `Création site internet Agen`, `Agence Web Toulouse`]}
-                url="https://linkweb.fr/creation-site-internet-toulouse/types-sites-internet/"
-                nom="Les différents types de sites internet"
-                slug="creation-site-internet-toulouse/types-sites-internet/"
+                title="Quelle est la différence entre le SEO et le SEA ? | Création site internet à Toulouse (31)"
+                description="Le référencement naturel et le référencement sponsorisé sont deux disciplines différentes, bien loin d'être opposées."
+                keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
+                url="https://linkweb.fr/referencement-toulouse/difference-seo-sea/"
+                nom="Quelle est la différence entre le SEO et le SEA ?"
+                slug="creation-site-internet-toulouse/difference-seo-sea/"
             />
             {/* <PageTransition
                 defaultStyle={{
@@ -56,10 +59,10 @@ render() {
                 transitionTime={200}
             > */}
                 <section className="w-full mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
-                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
-                    Les différents types de sites internet
+                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl md:text-5xl xl:text-6xl text-center text-white mt-40">
+                    Quelle est la différence entre le SEO et le SEA ?
                     </h2>
-                    <Link to="/creation-site-internet-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Création de site internet à Toulouse</h1></Link>
+                    <Link to="/referencement-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Référencement à Toulouse</h1></Link>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
@@ -97,7 +100,7 @@ render() {
                     {/* FIN Réseaux Sociaux */}
                 </section>
                 
-                <section className="w-full  flex flex-col xl:flex-row flex justify-center">
+                <section className="w-full  flex flex-col lg:flex-col xl:flex-row flex justify-center">
                     
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
@@ -181,156 +184,112 @@ render() {
                     <div className="bloctext w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
                         
                         {/* <p style={{marginBottom:'50px'}}>Questions techniques <span className="text-bleu">></span> Définition du projet <span className="text-bleu">></span> Les différents types de sites internet</p> */}
-                        <h3>La création de site internet pour professionnels permet de répondre à de nombreuses problématiques. En effet, à chaque problématique répond une solution web définie en fonction de votre activité, de vos objectifs et de ce qu’attendent les internautes. Pour ce faire, il n’existe pas un, mais bien plusieurs types de sites internet.</h3>
+                        <h3>Le référencement web est une branche du marketing digital qui présente un fort potentiel pour les professionnels. Il faut savoir que sous la notion de référencement web, plusieurs disciplines cohabitent. Nous aborderons ici les deux principales : le SEO et le SEA.</h3>
                         <br/>
-                        <h2>Créer un site web selon vos motivations</h2>
-                            <p>Si vous souhaitez <strong>créer un site internet pour votre entreprise</strong>, il est logique de prendre le temps de rechercher la bonne formule, celle qui répondra le mieux à vos besoins.</p>
-                            <p>Que vous souhaitiez <strong>vendre vos produits en ligne</strong>, <strong>promouvoir votre activité</strong> ou développer une <strong>carte de visite en ligne</strong> pour votre entreprise, il existe une solution.</p>
-                            <p>Ainsi, il est essentiel de bien réfléchir à vos motivations ainsi qu’aux objectifs de votre création de site internet en vue de définir le type de site web qui vous correspondra le mieux.</p>
-                            <p>Ceci est déterminant afin de <strong>créer un site internet</strong> fonctionnel et <strong>à votre image</strong> et ainsi affirmer votre <strong>présence sur le web</strong>.</p>
-                        <h2>Les différents types de sites internet</h2>
-                            <p>En <strong>création de site internet</strong>, choisir le <strong>type de site internet</strong> qui vous correspond est essentiel pour la suite de <strong>votre projet web</strong>. Toutefois, il faut savoir qu’il est aussi possible de mettre en place une <strong>solution sur-mesure</strong>. L’intérêt du sur-mesure consiste à former une interface qui répond le plus précisément à vos besoins à partir de vos objectifs.</p>
+                        <p>Donner de la <strong>visibilité à son site internet</strong> par la voie du <strong>référencement</strong> est quasi-indispensable, de nos jours. Toutefois, il existe plusieurs façons de mettre en avant son <strong>site internet dans les pages de résultats des moteurs de recherche</strong>.</p>
 
-                            <p>Parmi les <strong>types de sites internet</strong>, nous en dénombrons cinq en particulier. Parmi eux, nous notons :</p> 
-                            <ul>
-                                <li><span className="text-bleu">></span> Le <strong>site internet vitrine</strong>,</li>
-                                <li><span className="text-bleu">></span> Le <strong>site internet e-commerce</strong>,</li>
-                                <li><span className="text-bleu">></span> Le <strong>site internet catalogue</strong>,</li>
-                                <li><span className="text-bleu">></span> Le <strong>site internet administrable</strong>,</li>
-                                <li><span className="text-bleu">></span> Ainsi que le site internet sur-mesure.</li>
-                            </ul>
-                            <p>Chaque <strong>type de site web</strong> présente des spécificités qui vont permettre de répondre aux attentes de chaque professionnel.</p>
-                            <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet vitrine</h3>
-                        <ul>
-                            <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#3c3c3c3c" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#3c3c3c3c" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
-                            </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS</li>
-                            <li><span className="font-bold">Objectifs :</span> présenter et promouvoir son activité, <strong>acquérir de la visibilité</strong>, obtenir de <strong>nouveaux contacts</strong> en élargissant sa zone de prospection.</li>
-                            <li><span className="font-bold">Intérêt :</span> Développer sa <strong>présence sur le Web</strong> de manière simple.</li>
-                            <li><span className="font-bold">Type de référencement envisagé :</span> <strong>référencement naturel</strong>, <strong>référencement local</strong>.</li>
-                        </ul>
-                            <p>Dès lors qu’il est question de mettre en avant vos services, votre activité ou encore votre entreprise, le <strong>site internet vitrine</strong> est la <strong>solution internet</strong> la mieux adaptée. En effet, le <strong>site internet vitrine</strong>, comme son nom l’indique, est une interface de présentation de votre entreprise.</p>
-
-                            <p>À ce niveau, il est essentiel que ce dernier présente les informations principales concernant votre entreprise :</p>
-                            <ul>
-                                <li><span className="text-bleu">></span> Son activité,</li>
-                                <li><span className="text-bleu">></span> Sa particularité,</li>
-                                <li><span className="text-bleu">></span> Son rôle et son organisation,</li>
-                                <li><span className="text-bleu">></span> Sa situation géographique,</li>
-                                <li><span className="text-bleu">></span> Ses modalités de contact (téléphone ou mail),</li>
-                                <li><span className="text-bleu">></span> Etc.</li>
-                            </ul>
-                            <p>La <strong>création de ce type de site internet</strong> est utile lorsqu’il est question de donner de la <strong>visibilité</strong> à son entreprise sur <strong>Internet</strong>. Il est possible, grâce à un <strong>site internet vitrine</strong>, d’élargir son ciblage grâce au <strong>référencement naturel</strong>.</p>
-
-                            <p>Toutefois, l’une des motivations principales d’un <strong>site internet vitrine</strong> consiste à <strong>obtenir des contacts</strong>. À l’image d’une carte de visite, le <strong>site internet</strong> est accessible 24h/24 et 7 jours/7 et vise à faciliter l’obtention de contacts prospects par voie numérique.</p>
-
-                            <p>Tout son intérêt dépend de la mise en place d’un outil fonctionnel présentant l’ensemble des informations nécessaires tout en donnant la possibilité d’être contacté. Le <strong>site internet vitrine</strong> est notamment utilisé pour la <strong>création de site internet institutionnel</strong> ou encore pour la <strong>création d’un site internet</strong> pour une entreprise artisanale par exemple.</p>
-
-                            <Link className="text-black font-bold hover:text-bleu" to="../creation-site-internet-agen/">>> En savoir plus sur le site internet vitrine</Link>
-                            <br/>
-                            <hr style={{width:'100%'}}/>
-                            <br/>
-                            <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet e-commerce</h3>
-                        <ul>
-                            <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
-                            </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
-                            <li><span className="font-bold">Objectifs :</span> Vendre ses produits, élargir sa zone de prospection, <strong>augmenter sa visibilité et sa notoriété</strong>.</li>
-                            <li><span className="font-bold">Intérêt :</span> Vendre ses produits auprès d’une cible élargie et complémentaire à son commerce physique.</li>
-                            <li><span className="font-bold">Type de référencement envisagé :</span> référencement au détail de type longue traine.</li>
-                        </ul>
-                        <p>La <strong>création d’un site internet e-commerce</strong> s’impose pour tous les commerçants souhaitant élargir leur zone de chalandise et développer une <strong>interface web</strong> complémentaire à leur commerce physique.</p>
-                        <p>Le <strong>site internet e-commerce</strong> dispose de tous les modules nécessaires pour faciliter les interactions, que ce soit en termes de <strong>back office</strong>, ou bien d’<strong>interface utilisateur</strong>.</p>
-                        <p>Ainsi, du compte client à la <strong>fiche produit</strong> en passant par les modalités de livraison et les moyens de paiement, le <strong>site internet e-commerce</strong> est parfaitement adapté pour les commerces. Combiné à une <strong>stratégie de référencement naturel</strong> basée sur la longue traîne, le <strong>site internet e-commerce</strong> s’avère être un outil redoutable.</p>
-                        <Link className="text-black font-bold hover:text-bleu" to="../creer-une-boutique-en-ligne/">>> En savoir plus sur le site internet e-commerce</Link>
+                        <p>À ce niveau, le <strong>SEO et le SEA</strong> sont deux disciplines qui vont permettre d’<strong>acquérir de la visibilité sur le Web</strong> à travers une méthodologie pourtant bien différente. Parfois opposés, le <strong>SEO</strong> et le <strong>SEA</strong> sont deux techniques qui vont permettre d’investir les <strong>Top positions des premières pages de résultats de Google</strong>.</p>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet catalogue</h3>
-                        <ul>
-                            <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#3c3c3c3c" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
-                            </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS</li>
-                            <li><span className="font-bold">Objectifs :</span> Présenter ses produits ou services, <strong>améliorer sa visibilité et sa notoriété</strong>, <strong>acquérir de nouveaux contacts</strong>.</li>
-                            <li><span className="font-bold">Intérêt :</span> Profiter des avantages de mise en avant des produits du <strong>e-commerce</strong> sans la vente de produits.</li>
-                            <li><span className="font-bold">Type de référencement envisagé :</span> référencement au détail de type longue traine, référencement local.</li>
-                        </ul>
-                        <p>La <strong>création d’un site internet catalogue</strong> est recommandée lorsque vous souhaitez présenter vos produits et leurs spécificités sans donner la possibilité de les vendre directement en ligne. Le <strong>site internet catalogue</strong> est un bon moyen de tirer profit des avantages du <strong>site vitrine</strong> et du <strong>site e-commerce</strong> à la fois.</p>
-                        <p>Le site internet catalogue permet la mise en place de fiches produits vous permettant de mettre en avant les spécificités de vos produits. Cela peut s’avérer particulièrement utile pour un professionnel travaillant sur devis.</p>
-                        <p>Ce type de <strong>site internet</strong> doit permettre de mettre en avant ses produits et leurs spécificités afin d’<strong>acquérir de nouveaux contacts</strong>. Ce type de site peut-être parfaitement adapté pour des professionnels de la vente de cuisines, de carrelage, pour les agences immobilières et bien plus encore.</p>
+                        <h2>SEO et SEA : définitions</h2>
+                        <br/>
+                        <p>Si le SEO et le SEA se retrouvent dans la branche du <strong>Référencement Web</strong>, il faut savoir qu’elles désignent des <strong>techniques de référencement</strong> pourtant bien différentes. Pour le comprendre, il faut se pencher sur leur définition.</p>
+                        <br/>
+                        <h3 className="intertitre3">Search Engine Optimization (SEO)</h3>
+                        <br/>
+                        <p>Le <strong>SEO</strong>, ou <strong>Search Engine Optimization (optimisation pour les moteurs de recherche)</strong>, est une discipline issue du <strong>webmarketing</strong> consistant à apporter de la <strong>visibilité à une page web via les moteurs de recherche</strong> de part son <strong>positionnement dans les résultats de recherche pour un mot-clé donné</strong>.</p>
+                        <p>Ainsi, le SEO désigne un travail d’optimisation qui peut-être réalisé sur ou en dehors du site et qui répond à une mise en oeuvre stratégique particulière. Le SEO, ou référencement naturel est caractérisé par la mise en place de stratégies basées sur le long terme.</p>
+                        <p>Ce travail d’<strong>optimisation</strong> répond à un ensemble de <strong>critères de pertinence définis par Google</strong> afin de favoriser le <strong>contenu de qualité</strong> et apportant une réponse à l’utilisateur.</p>
+                        <br/>
+                        <h3 className="intertitre3">Search Engine Advertising (SEA)</h3>
+                        <br/>
+                        <p>Le <strong>SEA</strong>, ou <strong>Search Engine Advertising</strong> (publicité sur les <strong>moteurs de recherche</strong>) est une discipline également issue du <strong>webmarketing</strong> qui vise à <strong>apporter de la visibilité à une page de web</strong> de manière <strong>sponsorisée</strong>. Cette visibilité est acquise dans les <strong>pages de résultats de recherche</strong> pour des <strong>expressions clés</strong> données.</p>
+                        <p>Le <strong>travail de SEA</strong> est basé sur la <strong>création de pages web</strong> (<strong>landing pages</strong> ou pages d’entrées) optimisées pour la conversion. Il se base également sur l’outil <strong>Google Ads</strong> permettant de planifier des <strong>campagnes sponsorisées</strong>.</p>
+                        <p>Ce travail est encadré par la définition d’<strong>annonces de qualité</strong>. Ces annonces sont mises en concurrence pour être classées dans les <strong>pages de résultats de recherche</strong> à partir de certains critères d’évaluation.</p>
+                        <hr style={{width:'100%'}}/>
+                        <br/>
+                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse"/>
+                        <br/>
+                        <h2>SEO vs SEA : similitudes et différences</h2>
+                        <br/>
+                        <h3 className="intertitre3">SEO vs SEA : les similitudes</h3>
+                        <br/>
+                        <p>Si ces deux disciplines sont différentes, il faut savoir qu’elles présentent malgré tout des similitudes qui permettent de les englober au sein d’une même branche qu’est le <strong>référencement web</strong>.</p>
+                        <br/>
+                        <h4 className="px-12">Le même objet d’étude : la SERP</h4>
+                        <br/>
+                        <p>Avant tout, ce qui rassemble ces deux disciplines est leur objet d’étude, à savoir la <strong>SERP</strong> ou <strong>page de résultats de recherche</strong> (<strong>Search Engine Results Page</strong>). En effet, le <strong>SEA</strong> et le <strong>SEO</strong> ont pour vocation de <strong>positionner des pages web dans les résultats de recherche de Google</strong>. De ce point de vue, elles présentent un objectif commun : gagner sa place dans les <strong>premiers résultats de recherche</strong> pour un <strong>mot-clé</strong> donné.</p>
+                        <br/>
+                        <h4 className="px-12">Le mot-clé au coeur de la stratégie</h4>
+                        <br/>
+                        <p>L’une des principales similitudes entre ces deux disciplines va être l'<strong>importance du mot-clé au coeur de la stratégie</strong>. En effet, quelque soit la stratégie, celle-ci doit s’appuyer sur le <strong>choix de mots-clés finement choisis</strong>. Ce sont eux qui vous permettront d’<strong>acquérir de la visibilité</strong>, qu’il s’agisse d’une <strong>campagne sponsorisée</strong> ou d’une <strong>stratégie de référencement naturel</strong>.</p>
+                        <br/>
+                        <h4 className="px-12">Un format similaire</h4>
+                        <br/>
+                        <p>Également, SEO et SEA trouvent des similitudes dans le format présenté sur la <strong>page de recherche</strong>. En effet, les deux disciplines ont pour vocation de mettre en avant des cartes composées d’un <strong>titre, d’une description et du chemin d’accès de la page</strong>. Les deux disciplines permettent d’afficher des informations supplémentaires en plus de ces données principales.</p>
+                        <br/>
+                        <h4 className="px-12">Des objectifs proches</h4>
+                        <br/>
+                        <p>Enfin, le SEO et le SEA répondront à des objectifs stratégiques similaires. Parmi eux : <strong>générer de la visibilité</strong>, gagner les <strong>Top positions des pages de résultats de recherche</strong>, <strong>augmenter le trafic de son site web</strong> ou encore <strong>améliorer sa notoriété</strong>. Toutefois, si on regarde de plus près, cela reste à nuancer : si le SEO a pour vocation d’installer une marque dans l’univers <strong>Google</strong>, le SEA aura tendance à rechercher une <strong>visibilité rapide pour attirer des prospects et les convertir</strong>.</p>
+                        <br/>
+                        <h3 className="intertitre3">SEO vs SEA : les différences</h3>
+                        <br/>
+                        <p>Les différences entre ces deux disciplines sont toutes aussi nombreuses.</p>
+                        <br/>
+                        <h4 className="px-12">L’affichage de la carte dans les résultats</h4>
+                        <br/>
+                        <p>Si les cartes dans les <strong>résultats de recherche</strong> présentent des similitudes, plusieurs éléments viennent les démarquer. En effet, à la différence des <strong>résultats naturels</strong>, les <strong>résultats sponsorisés</strong> contiennent la mention <strong>« Annonce » ou « Ads »</strong> pour signifier qu’il s’agit de <strong>campagnes publicitaires</strong> rémunérées.</p>
+                        <p>Également, les élémentaires complémentaires qu’il va être possible de mettre en avant seront différents : pour le <strong>SEO</strong>, il s’agira de « <strong>rich snippets</strong> » (<strong>résultats enrichis</strong>) liés aux <strong>données structurées</strong> alors que pour le <strong>SEA</strong>, il sera possible d’ajouter un numéro de téléphone à côté du chemin d’accès de la page par exemple et bien d’autres éléments.</p>
+                        <br/>
+                        <h4 className="px-12">Des stratégies à durée inégale</h4>
+                        <br/>
+                        <p>Ce qui différencie le SEO et le SEA va également être leur place dans une stratégie. Le SEO fait appel à beaucoup de travail, de rigueur et de régularité afin d’<strong>obtenir des résultats sur le long terme</strong>. Au contraire, le SEA est une stratégie dite de court terme puisqu’elle va chercher à <strong>booster la visibilité d’un site web</strong> le plus rapidement possible et de façon ponctuelle.</p>
+                        <br/>
+                        <h4 className="px-12">Une méthodologie opposée : sponsorisation vs gratuit</h4>
+                        <br/>
+                        <p>Par ailleurs, la méthodologie utilisée dans les deux disciplines est opposée. Alors que le SEA s’apparente à un <strong>référencement payant</strong>, il est tout à fait possible de mener à bien une <strong>stratégie de référencement naturel</strong> de manière gratuite.</p>
+                        <p>Toutefois, cette notion de gratuité est à nuancer : le SEO est particulièrement friand de temps de travail, c’est pourquoi le tarif du SEO va être déterminé par son besoin en compétences et en temps à y consacrer. En effet, le SEO est une discipline bien plus complexe à assimiler et qui demande des <strong>compétences techniques</strong> particulières.</p>
+                        <br/>
+                        <h4 className="px-12">La question du contenu</h4>
+                        <br/>
+                        <p>Enfin, une autre différence réside dans la <strong>question du contenu</strong>. Si le bon contenu est indispensable en termes de <strong>SEO</strong>, il ne constituera pas forcément un frein en termes de <strong>SEA</strong>. Il n’est pas question de dire que le contenu n’est pas important en termes de SEA. En revanche, il est bien loin de la place qui lui est accordée en SEO.</p>
+                        <p>Aussi, il faut savoir que cela n’empêche pas la qualité : lors de la <strong>création d’annonces sponsorisées</strong>, <strong>Google Ads</strong> détermine un <strong>score de qualité</strong> qui sera forcément un facteur déterminant quant aux modalités d’affichage de vos <strong>annonces</strong>. En d’autres termes, une annonce présentant un faible score de qualité pourra être moins bien placée qu’une <strong>annonce à score de qualité élevé et au budget inférieur</strong>.</p>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet administrable</h3>
-                        <ul>
-                        <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
-                            </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
-                            <li><span className="font-bold">Objectifs :</span> <strong>Améliorer sa visibilité</strong> et sa notoriété, faciliter l’accès et la <strong>gestion de l’administration du site</strong>.</li>
-                            <li><span className="font-bold">Intérêt :</span> Faciliter et optimiser la <strong>mise à jour du site internet</strong> en interne.</li>
-                            <li><span className="font-bold">Type de référencement envisagé :</span> référencement naturel.</li>
-                        </ul>
-                        <p>Le <strong>site internet administrable</strong> répond à de nombreux objectifs. Toutefois son principal intérêt est la main mise sur la <strong>gestion du site web</strong>. Il est donc adapté pour que la gestion en <strong>back office</strong> puisse être effectuée par les différents acteurs d’une entreprise.</p>
-                        <p>Ceci a pour objectif de faciliter la mise à jour des informations présentes sur le site et ainsi avoir la main sur le contenu publié.</p>
-                        <p>La mise en place de ce type de solution présente un intérêt lorsqu’il est question d’ajouter ou supprimer des produits de son <strong>site web</strong> ou encore lorsque le site internet dispose d’un blog à mettre à jour, par exemple.</p>
-                        <p>Il existe de nombreuses possibilités permettant d’améliorer son efficacité et son organisation par le biais d’un accès direct à l’<strong>administration de son site internet</strong>.</p>
+                        <img className="mx-0 block w-full" src={seovssea} alt="Référencement Toulouse"/>
+                        <br/>
+                        <h2>SEO vs SEA : quand les utiliser ?</h2>
+                        <br/>
+                        <p>Après avoir défini et comparé ces deux notions, il s’agit désormais de déterminer quand chaque discipline sera la plus pertinente à utiliser. En effet, chaque discipline présentera un intérêt particulier dans des certaines situations.</p>
+                        <br/>
+                        <h3 className="intertitre3">Quand utiliser le SEO ?</h3>
+                        <br/>
+                        <p>Mettre en place une <strong>stratégie de référencement naturel</strong> va être pertinent lorsque vous allez souhaiter <strong>développer la visibilité</strong> et la <strong>notoriété de la marque</strong> afin d’<strong>acquérir du trafic</strong> et de <strong>nouveaux clients</strong> dans un second temps. Le <strong>référencement naturel</strong> s’applique sur le <strong>long terme</strong> et est complémentaire d’une <strong>stratégie de contenus</strong>.</p>
+                        <p>Il est recommandé de lancer sa <strong>stratégie de référencement naturel</strong> dès la création et la mise en place du <strong>projet web</strong> en question. Le <strong>SEO</strong> nécessite du temps pour apporter des résultats concrets : il est en partie soumis à l’interprétation de <strong>Google</strong> et fait face à une vive concurrence.</p>
+                        <p>En revanche, il est possible de contourner une partie de ces contraintes en vue d’écourter les délais. Cela va demander une orientation particulière de sa <strong>stratégie de référencement naturel</strong> visant à obtenir des <strong>premiers résultats</strong> dans des délais raisonnables.</p>
+                        <br/>
+                        <h3 className="intertitre3">Quand utiliser le SEA ?</h3>
+                        <br/>
+                        <p>Au contraire d’une <strong>stratégie de référencement naturel</strong>, la mise en place de <strong>campagnes sponsorisées</strong> sera pertinente de manière ponctuelle et donc sur du court terme. En fonction de votre activité et de vos offres, le <strong>référencement sponsorisé</strong> va être pertinent afin de propulser un nouveau produit par exemple.</p>
+                        <p>Le <strong>SEA</strong> permet d’<strong>acquérir une visibilité</strong> très rapide qui vise à augmenter le nombre de commandes passées sur son site par exemple. Dans tous les cas, quelque soit l’objectif et relativement au budget engagé dans la campagne, il va être important de dégager un <strong>retour sur investissement (ROI)</strong>.</p>
+                        <p>Enfin, le SEA va être pertinent durant des périodes propices à la consommation, là où le <strong>référencement naturel</strong> vous confrontera à une très forte concurrence qu’il sera difficile de détrôner : soldes, Black Friday, fêtes de fin d’année, etc.</p>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet sur-mesure</h3>
-                        <ul>
-                        <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#37cfee" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
-                            </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
-                            <li><span className="font-bold">Objectifs :</span> Vendre ses produits, <strong>améliorer sa visibilité</strong> et sa notoriété, développer des fonctionnalités propres à son secteur d’activité (<strong>module de réservation, générateurs de devis, web services et API</strong>, etc.), acquérir de nouveaux contacts.</li>
-                            <li><span className="font-bold">Intérêt :</span> Obtenir une solution qui s’adapte parfaitement à sa problématique.</li>
-                            <li><span className="font-bold">Type de référencement envisagé :</span> référencement sur-mesure.</li>
-                        </ul>
-                        <p>La <strong>création d’un site internet sur-mesure</strong> répond généralement à la mise en place d’un projet d’envergure auquel il n’existe pas un <strong>type de site web</strong> particulier permettant de répondre à l’ensemble des objectifs.</p>
-                        <p>Que ce soit en termes d’administration ou encore de fonctionnalités, la mise en place d’une <strong>solution sur-mesure</strong> offre la possibilité de bénéficier d’une interface parfaitement adaptée à ses besoins.</p>
-                        <p>Ainsi, <strong>créer un site internet sur-mesure</strong> est la meilleure solution pour mettre en place des fonctionnalités en vue de l’optimisation de votre organisation ou bien pour favoriser l’<strong>expérience utilisateur sur votre site</strong> (applications métiers et intranet, web services et API, création de module de réservation, outil de personnalisation de produits, générateur de devis, etc.).</p>
-                        <Link className="text-black font-bold hover:text-bleu" to="../creation-de-site-internet-47-31/">>> En savoir plus sur le site internet sur-mesure</Link>
+                        <img className="mx-0 block w-full" src={stratref} alt="Référencement Toulouse"/>
+                        <br/>
+                        <h2>Faut-il opposer SEO et SEA ?</h2>
+                        <br/>
+                        <p>En rapport à tous ces éléments, l’opposition historique entre le <strong>référencement naturel</strong> et le <strong>référencement sponsorisé</strong> est plus discutée que jamais. En effet, il ne s’agit pas d’opposer ces deux disciplines. Elles doivent être complémentaires. <strong>Combiner le SEO et le SEA</strong> au sein d’une stratégie globale de <strong>Search Engine Marketing (SEM)</strong> est d’autant plus pertinent pour maximiser ses chances d’atteindre ses objectifs.</p>
+                        <p>Tous les moyens sont bons pour <strong>acquérir de la visibilité</strong> et <strong>développer le statut digital de sa marque</strong>. En fonction de la situation, mettre en place une <strong>campagne sponsorisée</strong> pourra s’avérer plus pertinent que <strong>développer son référencement naturel</strong> et vice-versa. Toutefois, dans une logique globale, l’erreur serait de les opposer jusqu’à choisir l’un plutôt que l’autre et ainsi se priver de leur complémentarité.</p>
+                        <p>Là où le <strong>référencement naturel</strong> va demander du temps, le <strong>référencement sponsorisé</strong> va permettre d’obtenir des résultats rapides. Mixer ces deux disciplines sera alors pertinent pour démarrer tout en maximisant son efficacité.</p>
                     </div>
                     <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
                         <h2>Vous souhaitez mettre en place un projet web ?</h2>
                         <br/>
-                        <h3>Linkweb met en place votre projet de création de site web.</h3>
+                        <h3>Linkweb met en place votre projet de référencement.</h3>
                         <br/>
                         <div className="w-1/2">
                             <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
@@ -348,4 +307,4 @@ render() {
 
 
 
-export default TypesSites;
+export default DiffSEOSEA;

@@ -3,10 +3,12 @@ import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
+import ButtonBlog from "../../components/buttonblog";
 import "../../scss/faq.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
+import bgbloc from "../../images/background.jpg";
 import stratref from "../../images/strategie-referencement-naturel.jpg";
 import affichage from "../../images/affichage-resultats-recherche.jpg";
 import content from "../../images/content-marketing-seo.jpg";
@@ -99,7 +101,7 @@ render() {
                     {/* FIN Réseaux Sociaux */}
                 </section>
                 
-                <section className="w-full  flex flex-col lg:flex-row flex justify-center">
+                <section className="w-full  flex flex-col  xl:flex-row flex justify-center">
                     
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
@@ -199,7 +201,7 @@ render() {
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <img className="mx-auto block" src={evaluation} alt="Référencement Toulouse"/>
+                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse"/>
                         <br/>
                         <h2>Pourquoi travailler le référencement naturel ?</h2>
                         <br/>
@@ -238,7 +240,7 @@ render() {
                             <li><span className="text-bleu">></span> Le contenu de la balise <strong>meta-description</strong> de la page,</li>
                         </ul>
                         <br/>
-                        <img className="mx-auto block" src={affichage} alt="Référencement Toulouse"/>
+                        <img className="mx-0 block w-full" src={affichage} alt="Référencement Toulouse"/>
                         <br/>
                         <p>Si le travail d’optimisation n’est pas effectué, <strong>Google</strong> se chargera lui-même de définir les informations à afficher aux yeux des utilisateurs, d’où l’importance d’avoir la main sur ces éléments.</p>
                         <br/>
@@ -258,7 +260,7 @@ render() {
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <img className="mx-auto block" src={content} alt="Référencement Toulouse"/>
+                        <img className="mx-0 block w-full" src={content} alt="Référencement Toulouse"/>
                         <br/>
                         <h2>En quoi consiste le travail de référencement naturel ?</h2>
                         <br/>
@@ -279,7 +281,7 @@ render() {
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <img className="mx-auto block" src={stratref} alt="Référencement Toulouse"/>
+                        <img className="mx-0 block w-full" src={stratref} alt="Référencement Toulouse"/>
                         <br/>
                         <h2>Comment mettre en place une stratégie de référencement naturel ?</h2>
                         <br/>
@@ -298,6 +300,15 @@ render() {
                         <p>Pour ce faire, avoir recours à une agence web spécialisée dans le référencement naturel peut-être un premier pas. En tant que spécialistes de ce domaine, nous encourageons les professionnels pour les accompagner dans le lancement de leurs projets. En effet, faire appel à des professionnels du référencement naturel vous fera économiser de nombreuses heures passées derrière votre écran.</p>
                         <p>Une <strong>stratégie de référencement naturel</strong> nécessite du temps avant de générer des résultats satisfaisants. Il est donc important de se lancer dans la bonne direction, et ce, dès le départ.</p>
                         <p>Si vous souhaitez mener un <strong>projet de référencement naturel</strong>, <strong>Linkweb</strong> est en mesure de vous apporter une réponse qualifiée et fonctionnelle.</p>
+                    </div>
+                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
+                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                        <br/>
+                        <h3>Linkweb met en place votre projet de référencement.</h3>
+                        <br/>
+                        <div className="w-1/2">
+                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                        </div>
                     </div>
                 </section>
 
