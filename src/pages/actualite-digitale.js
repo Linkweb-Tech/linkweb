@@ -10,9 +10,10 @@ import RoundButton from "../components/roundButton.js";
 import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
-
+import '../scss/global.scss';
 
 import background from "../images/background-blog.jpg";
+import blocBg from "../images/background.jpg";
 import CreerSite from "../images/creer-un-site.jpg";
 import RefSite from "../images/referencer-un-site.jpg";
 import AgenceAds from "../images/campagne-ads.jpg";
@@ -106,11 +107,11 @@ render() {
                 </section>
                 {/* Menu de catégories */}
                 <section className="flex flex-row justify-center" data-aos="zoom-in">
-                    <div className="w-full lg:w-1/2 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-bold -mt-6">
-                        <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></div>|
-                        <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/agence/">Agence</Link></div>|
-                        <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/referencement/"><span className="hidden sm:block">Référencement</span><span className="block sm:hidden">SEO/SEA</span></Link></div>|
-                        <div className="w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/tendances/">Tendances</Link></div>
+                    <div className="w-full menublog century uppercase lg:w-1/2 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-bold -mt-6">
+                        <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></div>|
+                        <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/agence/">Agence</Link></div>|
+                        <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/referencement/"><span className="hidden sm:block">Référencement</span><span className="block sm:hidden">SEO/SEA</span></Link></div>|
+                        <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/tendances/">Tendances</Link></div>
                     </div>
                 </section>
                 {/* FIN Menu de catégories */}
@@ -147,26 +148,38 @@ render() {
                                 </div>
                                 </section>
                                 <section className="flex flex-col md:flex-row px-5 mr-0">
-                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm text-gray hover:shadow-lg bg-light border-grey" style={{borderRadius:'5%'}} data-aos="zoom-in" data-aos-delay="500">
-                                        <div className="my-4 flex flex-row">
-                                            <img src={world} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse"/><br/>
-                                            <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/creation-site-internet-toulouse/"><h2 className="text-xl">Création Web</h2></Link><br/>
+                                    <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00cfffe0 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
+                                        <img src={world} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
+                                        <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/creation-site-internet-toulouse/"><h2 className="text-center text-white text-xl px-4 font-bold century">Création Web</h2></Link>
+                                        <hr className="blue"></hr>
+                                        <p className="text-sm px-4 text-white text-center">L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
+                                        <br />
+                                        <div className="w-2/3 mx-auto block">
+                                            <br />
+                                            <ButtonBlog url="/creation-site-internet-toulouse/" text="Créer son site web" color="bleu" />
                                         </div>
-                                            <p className="text-justify">L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
                                     </div>
-                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm text-gray hover:shadow-lg bg-gris border-grey" style={{borderRadius:'5%'}} data-aos="zoom-in" data-aos-delay="700">
-                                        <div className="my-4 flex flex-row">
-                                            <img src={iconseo} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse"/><br/>
-                                            <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/referencement-de-site-internet-47-31/"><h2 className="text-xl">Référencement Naturel</h2></Link><br/>
+                                    <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00b1e2 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
+                                        <img src={iconseo} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
+                                        <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/referencement-de-site-internet-47-31/"><h2 className="text-center text-white text-xl px-4 font-bold century">Référencement Naturel</h2></Link>
+                                        <hr className="blue"></hr>
+                                        <p className="text-sm px-4 text-white text-center">Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
+                                        <br />
+                                        <div className="w-2/3 mx-auto block">
+                                            <br />
+                                            <ButtonBlog url="/referencement-de-site-internet-47-31/" text="Développer son SEO" color="bleu" />
                                         </div>
-                                            <p className="text-justify">Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
                                     </div>
-                                    <div className="w-full mx-auto block sm:w-1/2 md:mx-3 my-5 p-6 border text-sm hover:shadow-lg border-grey bg-white" style={{borderRadius:'5%'}} data-aos="zoom-in" data-aos-delay="900">
-                                        <div className="my-4 flex flex-row">
-                                            <img src={iconsea} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
-                                            <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/agence-adwords-47-31/"><h2 className="text-xl">Référencement Payant</h2></Link><br/>
+                                    <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#057898 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
+                                        <img src={iconsea} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
+                                        <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/agence-adwords-47-31/"><h2 className="text-center text-white text-xl px-4 font-bold century">Référencement Payant</h2></Link>
+                                        <hr className="blue"></hr>
+                                        <p className="text-sm px-4 text-white text-center">Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
+                                        <br />
+                                        <div className="w-2/3 mx-auto block">
+                                            <br />
+                                            <ButtonBlog url="/agence-adwords-47-31/" text="Créer une campagne Ads" color="bleu" />
                                         </div>
-                                            <p className="text-justify">Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
                                     </div>
                                 </section>
                         </section>                    

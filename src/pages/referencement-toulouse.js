@@ -25,6 +25,7 @@ import diagram from '../images/diagram.svg';
 import analysis from '../images/analysis.svg';
 import contract from '../images/contract.svg';
 import "../scss/info.scss";
+import '../scss/global.scss';
 
 class ReferencementToulouse extends React.Component {
 
@@ -97,7 +98,7 @@ class ReferencementToulouse extends React.Component {
                             <p className="text-md text-center py-12 century">Avoir un site internet n’est pas une fin en soi : il doit nécessairement être visible sur internet. C’est le principe du référencement web. Faites de votre site une référence pour les moteurs de recherche.</p>
                         </div>
                         <section className="flex flex-col justify-center md:flex-row w-full md:mx-4 mx-auto py-0 mt-2 ">
-                            <div data-aos="fade-in" className=" w-full lg:w-1/2 xl:w-6/12 bg-white px-8 my-4 border border-darkgrey mx-auto md:px-2 hover:shadow-xl py-6 century" style={{background:'#37cfee94 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', borderRadius: '15px', borderColor: '#d4d4d4', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
+                            <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-white px-8 my-4 border border-darkgrey mx-auto md:px-2 hover:shadow-xl py-6 century" style={{background:'#37cfee94 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', borderRadius: '15px', borderColor: '#d4d4d4', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
                             <svg class="mx-auto block" width="40px" viewBox="0 0 48 60"><g><polygon fill="#ffffff" points="47,47 1,47 1,1 3,1 3,45 47,45  "></polygon><g><path fill="#ffffff" d="M15.9,47H7.4V33h8.4V47z M9.4,45h4.4V35H9.4V45z"></path><path fill="#ffffff" d="M28.7,47h-8.4V23h8.4V47z M22.3,45h4.4V25h-4.4V45z"></path><path fill="#ffffff" d="M41.6,47h-8.4V13h8.4V47z M35.1,45h4.4V15h-4.4V45z"></path></g><g><path fill="#ffffff" d="M10.4,26.2l-0.9-1.8c6.4-3.1,14-10.1,18.6-17l1.7,1.1C25.1,15.7,17.1,23,10.4,26.2z"></path><g><polygon fill="#ffffff" points="24.4,6 32.8,10.9 31,4.2    "></polygon></g></g></g></svg>
                                 <h3 className="text-center text-xl px-4 text-white font-bold century">Référencement Naturel SEO</h3>
                                 <hr className="blue"></hr>
@@ -108,7 +109,7 @@ class ReferencementToulouse extends React.Component {
                                     <ButtonBlog url="/referencement-de-site-internet-47-31/" text="Notre offre de Référencement Naturel" color="bleu" />
                                 </div>
                             </div>
-                            <div data-aos="fade-in" className=" w-full lg:w-1/2 xl:w-6/12 bg-darkgrey px-8 my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00cfffe0 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
+                            <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey px-8 my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00cfffe0 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
                                 <svg width="40px" className="mx-auto block" viewBox="0 0 96 120"><path fill="#ffffff" d="M28.92,36H22.27a1,1,0,1,0,0,2h6.65a1,1,0,0,0,0-2Z"/><path fill="#ffffff" d="M28.92,41.19H22.27a1,1,0,1,0,0,2h6.65a1,1,0,0,0,0-2Z"/><path fill="#ffffff"  d="M92.24,39.46,86.39,38V12.19a1,1,0,0,0-1-1,7.8,7.8,0,0,0-6.88,4.6c-5,10.07-29.65,15.69-41.95,16V30.46a1,1,0,0,0-1-1H15.63a1,1,0,0,0-1,1v2.37a12.62,12.62,0,0,0,0,25.16v2.37a1,1,0,0,0,1,1H18.8L24.41,82.6a5.26,5.26,0,0,0,5.09,3.92h3.23a5.25,5.25,0,0,0,5.08-6.6l-4.9-18.56h2.65a1,1,0,0,0,1-1V59.05c12.3.29,37,5.91,42,16a7.8,7.8,0,0,0,6.88,4.6,1,1,0,0,0,1-1V52.82l5.85-1.46a1,1,0,0,0,.76-1v-10A1,1,0,0,0,92.24,39.46ZM5,45.41a10.64,10.64,0,0,1,9.63-10.58V56A10.64,10.64,0,0,1,5,45.41Zm30.88,35a3.26,3.26,0,0,1-3.15,4.09H29.5a3.25,3.25,0,0,1-3.15-2.43L20.87,61.36h10ZM34.56,59.36H16.63V31.46H34.56v27.9ZM80.31,74.15c-5.73-11.66-32.69-16.8-43.75-17.1V33.77c11.07-.3,38-5.44,43.75-17.1a6,6,0,0,1,4.08-3.38V38.62a.66.66,0,0,0,0,.15V52.05a.66.66,0,0,0,0,.15V77.53A6,6,0,0,1,80.31,74.15ZM91,49.61l-4.61,1.15V40.05L91,41.21Z"/><path fill="#ffffff"  d="M80.32,22.41a1,1,0,0,0-1,1v44a1,1,0,0,0,2,0v-44A1,1,0,0,0,80.32,22.41Z"/></svg>
                                 <h3 className="text-center text-white text-xl px-4 font-bold century">Référencement Ads SEA</h3>
                                 <hr className="blue"></hr>

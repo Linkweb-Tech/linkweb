@@ -12,6 +12,7 @@ article {
         &:hover {
             box-shadow: 0 0 20px #a1a1a1;
             transition: all ease 0.7s;
+            transform: scale(1.05);
         }
 
         .meta {
