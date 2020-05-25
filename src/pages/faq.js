@@ -13,7 +13,6 @@ import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
 
-import FaqQuestion from '../components/faqQuestion';
 import Question from '../components/question';
 import Answer from '../components/answer';
 
