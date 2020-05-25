@@ -83,6 +83,18 @@ ul li svg {
 }
 /****************** CONTENU ******************/
 
+html {
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
 .bloctext h2 {
     font-size: 25px;
     font-weight: bold;
