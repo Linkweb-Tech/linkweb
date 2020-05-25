@@ -183,7 +183,7 @@ render() {
                     </div> */}
                     <div className="bloctext w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
                         
-                        {/* <p style={{marginBottom:'50px'}}>Questions techniques <span className="text-bleu">></span> Définition du projet <span className="text-bleu">></span> Les différents types de sites internet</p> */}
+                        <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Quelle est la différence entre le SEO et le SEA ?</p>
                         <h3>Le référencement web est une branche du marketing digital qui présente un fort potentiel pour les professionnels. Il faut savoir que sous la notion de référencement web, plusieurs disciplines cohabitent. Nous aborderons ici les deux principales : le SEO et le SEA.</h3>
                         <br/>
                         <p>Donner de la <strong>visibilité à son site internet</strong> par la voie du <strong>référencement</strong> est quasi-indispensable, de nos jours. Toutefois, il existe plusieurs façons de mettre en avant son <strong>site internet dans les pages de résultats des moteurs de recherche</strong>.</p>

@@ -227,7 +227,7 @@ class FAQ extends React.Component {
                             <h3>Le référencement naturel est une notion de plus en plus courante, mais souvent mal interprétée. Toutefois, il s’agit d’un concept clé qui vaut son pesant d’or en termes de webmarketing.</h3>
                             <p>Le référencement naturel désigne la faculté d’un site web à être proposé dans les résultats de recherche des moteurs de recherche. Pourquoi est-ce si important ? 97% des expériences sur le web commencent par un moteur de recherche. Être présent et optimiser sa présence dans les résultats proposés aux internautes est donc une manière essentielle pour accroître sa visibilité sur le web.</p>
                             <p>Le trafic organique désigne une porte d’entrée redoutable pour un site internet. En effet, le trafic généré grâce au référencement naturel fait partie des canaux d’acquisition principaux. Pour postuler à un bon positionnement dans les premières pages de résultats, un travail doit être effectué au niveau du choix des mots-clés de la stratégie, au niveau de l’optimisation technique du site web, mais également de ses contenus.</p>
-                            <h4>Lire la suite de « Qu’est-ce que le référencement naturel ? ».</h4>
+                            <h4>Lire la suite de <Link to="/referencement-toulouse/quest-ce-que-le-referencement-naturel/" className="text-bleu hover:text-black">« Qu’est-ce que le référencement naturel ? »</Link>.</h4>
                         </Answer>
                         <Answer id={5} activeId={this.state.active}>
                             <h2>À quoi sert le référencement naturel ?</h2>
@@ -245,7 +245,7 @@ class FAQ extends React.Component {
                             <h3>Alors que le référencement naturel est désigné par l’abréviation SEO (Search Engine Optimization), le SEA (Search Engine Advertising) désigne le référencement sponsorisé par la publication d’annonces payantes.</h3>
                             <p>Le SEO et le SEA constituent deux branches du référencement web. En effet, si l’investissement dans le référencement naturel correspond à du temps de travail et à une connaissance spécifique du sujet, le SEA est régulièrement appelé « référencement payant ». En effet, le SEA permet d’être visible sur les moteurs de recherche par l’achat d’annonce sponsorisée. L’objectif du référencement payant est donc d’obtenir un retour sur investissement à travers la mise en place de campagnes ciblées.</p>
                             <p>La réussite du projet, en termes de référencement naturel, s’évalue à partir du positionnement de vos pages dans les résultats de recherche, du trafic généré sur le site ou encore des demandes de contact obtenues en fonction de vos objectifs.</p>
-                            <h4>Lire la suite de « Quelle est la différence entre le SEO et le SEA ? ».</h4>
+                            <h4>Lire la suite de <Link to="/referencement-toulouse/difference-seo-sea/" className="text-bleu hover:text-black">« Quelle est la différence entre le SEO et le SEA ? »</Link>.</h4>
                         </Answer>
 
 
@@ -271,7 +271,7 @@ class FAQ extends React.Component {
                                 <li><span className="text-bleu">></span> Le site internet catalogue,</li>
                                 <li><span className="text-bleu">></span> Mais aussi le site internet sur-mesure</li>
                             </ul>
-                            <h4>Lire la suite de « Quels sont les types de sites internet qu’il est possible de créer ? ».</h4>
+                            <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/types-sites-internet/" className="text-bleu hover:text-black">« Quels sont les types de sites internet qu’il est possible de créer ? »</Link>.</h4>
                         </Answer>
                         <Answer id={9} activeId={this.state.active}>
                             <h2>Pourquoi et quand mettre en place une refonte de site internet ?</h2>
