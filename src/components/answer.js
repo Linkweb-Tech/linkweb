@@ -8,7 +8,7 @@ class Answer extends React.Component {
 
     render() {
         return (
-            <div class={this.props.activeId === this.props.id ? "" : "hidden"}>
+            <div class={this.props.activeId === this.props.id ? "" : "opacity-0 absolute"}>
                 {this.props.children}
             </div>
         );
