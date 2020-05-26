@@ -15,6 +15,7 @@ import { Timeline } from 'react-twitter-widgets';
 
 import Question from '../components/question';
 import Answer from '../components/answer';
+import FaqBtn from '../components/faqButton';
 
 
 import background from "../images/foire-aux-questions.jpg";
@@ -39,6 +40,24 @@ class FAQ extends React.Component {
     setActive = (id) => {
         this.setState({ active: id });
     }
+
+    setNext = (id) => {
+        let newId = id + 1;
+        if (newId > 31) {
+            newId = 1
+        }
+        this.setState({ active: newId });
+    }
+
+    setPrec = (id) => {
+        let newId = id - 1;
+        if (newId == 0) {
+            newId = 31
+        }
+        this.setState({ active: newId });
+    }
+
+
 
     render() {
         return (
@@ -236,7 +255,7 @@ class FAQ extends React.Component {
                             <ul>
                                 <li><span className="text-bleu">></span> L’<strong>optimisation de son site web</strong> pour le respect de critères imposés par les <strong>algorithmes des moteurs de recherche</strong>,</li>
                                 <li><span className="text-bleu">></span> L’<strong>optimisation de son site web</strong> en fonction des habitudes et du <strong>comportement des utilisateurs</strong>.</li>
-                                <br/>
+                                <br />
                                 <p>Selon les objectifs définis, le <strong>référencement naturel</strong> est utile pour <strong>développer sa visibilité</strong> auprès d’une cible définie et dans un secteur géographique donné. Il permet également d’<strong>élargir ses zones de prospection</strong> simplement et rapidement grâce au <strong>référencement local</strong>.</p>
                                 {/* <h4>Lire la suite de « À quoi sert le référencement naturel ? ».</h4> */}
                             </ul>
@@ -433,7 +452,7 @@ class FAQ extends React.Component {
                         <Answer id={30} activeId={this.state.active}>
                             <h2>Que pensent nos clients de nos services ?</h2>
                             <div className="w-full lg:w-1/2">
-                            <RoundButton url="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,," text="Ce que pensent nos clients de nos services de création et référencement de sites internet" />
+                                <RoundButton url="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,," text="Ce que pensent nos clients de nos services de création et référencement de sites internet" />
                             </div>
                         </Answer>
                         <Answer id={31} activeId={this.state.active}>
@@ -445,6 +464,7 @@ class FAQ extends React.Component {
                                 <RoundButton url="/agence-de-communication-agen-47-toulouse-31/" text="Nos réalisations" />
                             </div>
                         </Answer>
+                        <FaqBtn setNext={this.setNext} setPrec={this.setPrec} responseId={this.state.active} />
                     </div>
                 </section>
 
