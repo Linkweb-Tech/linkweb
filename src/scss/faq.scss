@@ -127,6 +127,11 @@ html {
 .btn-prec {
     transform: scale(-1, 1);
 }
+
+.question-section {
+    transition: opacity .5s ease-in-out;
+}
+
 .bloctext h2 {
     font-size: 25px;
     font-weight: bold;

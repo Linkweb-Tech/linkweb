@@ -8,7 +8,7 @@ class Answer extends React.Component {
 
     render() {
         return (
-            <div class={this.props.activeId === this.props.id ? "" : "opacity-0 absolute"}>
+            <div class={this.props.activeId === this.props.id ? "question-section" : "opacity-0 absolute bottom-0 question-section"}>
                 {this.props.children}
             </div>
         );
