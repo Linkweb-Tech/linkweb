@@ -15,6 +15,7 @@ import { Timeline } from 'react-twitter-widgets';
 
 import Question from '../components/question';
 import Answer from '../components/answer';
+import FaqBtn from '../components/faqButton';
 
 
 import background from "../images/foire-aux-questions.jpg";
@@ -39,6 +40,24 @@ class FAQ extends React.Component {
     setActive = (id) => {
         this.setState({ active: id });
     }
+
+    setNext = (id) => {
+        let newId = id + 1;
+        if (newId > 31) {
+            newId = 1
+        }
+        this.setState({ active: newId });
+    }
+
+    setPrec = (id) => {
+        let newId = id - 1;
+        if (newId == 0) {
+            newId = 31
+        }
+        this.setState({ active: newId });
+    }
+
+
 
     render() {
         return (
@@ -67,7 +86,6 @@ class FAQ extends React.Component {
                     entering: { left: '-100%' },
                     entered: { left: '0' },
                     exiting: { left: '-100%' },
-
                 }}
                 transitionTime={200}
             > */}
@@ -195,6 +213,7 @@ class FAQ extends React.Component {
                         </ul>
                     </div>
                     <div className="bloctext w-full lg:w-3/4 century text-justify order-first lg:order-last">
+                    <FaqBtn setNext={this.setNext} setPrec={this.setPrec} responseId={this.state.active} />
                         <Answer id={1} activeId={this.state.active} >
                             <h2>Pourquoi créer un site internet ?</h2>
                             <h3>Avoir un site internet est indispensable pour tous les professionnels ayant pour ambition de développer leur société. Le Web est un parfait moyen de sortir de ses frontières pour apporter une  véritable plus-value à son entreprise.</h3>
@@ -207,7 +226,7 @@ class FAQ extends React.Component {
                                 <li><span className="text-bleu">></span> <strong>Fidéliser</strong> ses clients</li>
                                 <li><span className="text-bleu">></span> Optimiser le fonctionnement de son entreprise</li>
                             </ul>
-                            {/* <h4>Lire la suite de « Pourquoi créer un site internet ? ».</h4> */}
+                            {/* <h4>Lire la suite de « Pourquoi créer un site internet ? ».</h4> */}
                         </Answer>
 
                         <Answer id={2} activeId={this.state.active}>
@@ -227,7 +246,7 @@ class FAQ extends React.Component {
                             <h3>Le référencement naturel est une notion de plus en plus courante, mais souvent mal interprétée. Toutefois, il s’agit d’un concept clé qui vaut son pesant d’or en termes de webmarketing.</h3>
                             <p>Le <strong>référencement naturel</strong> désigne la faculté d’un <strong>site web</strong> à être proposé dans les <strong>résultats de recherche des moteurs de recherche</strong>. Pourquoi est-ce si important ? <strong>97% des expériences sur le web commencent par un moteur de recherche</strong>. Être présent et <strong>optimiser sa présence</strong> dans les résultats proposés aux internautes est donc une manière essentielle pour <strong>accroître sa visibilité sur le web</strong>.</p>
                             <p>Le <strong>trafic organique</strong> représente une porte d’entrée redoutable pour un <strong>site internet</strong>. En effet, le <strong>trafic généré grâce au référencement naturel</strong> fait partie des <strong>canaux d’acquisition principaux</strong> sur un <strong>site internet</strong>. Pour postuler à un <strong>bon positionnement dans les premières pages de résultats</strong>, un travail doit être effectué au niveau du <strong>choix des mots-clés</strong> de la stratégie, au niveau de l’<strong>optimisation technique du site web</strong>, mais également de ses <strong>contenus</strong>.</p>
-                            <h4>Lire la suite de <Link to="/referencement-toulouse/quest-ce-que-le-referencement-naturel/" className="text-bleu hover:text-black">« Qu’est-ce que le référencement naturel ? »</Link>.</h4>
+                            <h4>Lire la suite de <Link to="/referencement-toulouse/quest-ce-que-le-referencement-naturel/" className="text-bleu hover:text-black">« Qu’est-ce que le référencement naturel ? »</Link>.</h4>
                         </Answer>
                         <Answer id={5} activeId={this.state.active}>
                             <h2>À quoi sert le référencement naturel ?</h2>
@@ -236,17 +255,17 @@ class FAQ extends React.Component {
                             <ul>
                                 <li><span className="text-bleu">></span> L’<strong>optimisation de son site web</strong> pour le respect de critères imposés par les <strong>algorithmes des moteurs de recherche</strong>,</li>
                                 <li><span className="text-bleu">></span> L’<strong>optimisation de son site web</strong> en fonction des habitudes et du <strong>comportement des utilisateurs</strong>.</li>
-                                <br/>
+                                <br />
                                 <p>Selon les objectifs définis, le <strong>référencement naturel</strong> est utile pour <strong>développer sa visibilité</strong> auprès d’une cible définie et dans un secteur géographique donné. Il permet également d’<strong>élargir ses zones de prospection</strong> simplement et rapidement grâce au <strong>référencement local</strong>.</p>
-                                {/* <h4>Lire la suite de « À quoi sert le référencement naturel ? ».</h4> */}
+                                {/* <h4>Lire la suite de « À quoi sert le référencement naturel ? ».</h4> */}
                             </ul>
                         </Answer>
                         <Answer id={6} activeId={this.state.active}>
                             <h2>Quelle est la différence entre le SEO et le SEA ?</h2>
                             <h3>Alors que le référencement naturel est désigné par le sigle SEO (Search Engine Optimization), le SEA (Search Engine Advertising) désigne le référencement sponsorisé par la publication d’annonces payantes.</h3>
-                            <p>Le <strong>SEO</strong> et le <strong>SEA</strong> constituent deux branches du <strong>référencement web</strong>. En effet, si l’investissement dans le <strong>référencement naturel</strong> correspond à du temps de travail et à une connaissance spécifique du sujet, le <strong>SEA</strong> est régulièrement appelé « <strong>référencement payant</strong> ». En effet, le SEA permet d’<strong>être visible sur les moteurs de recherche</strong> par l’<strong>achat d’annonce sponsorisée</strong>. L’objectif du <strong>référencement payant</strong> est donc d’<strong>obtenir un retour sur investissement</strong> à travers la mise en place de <strong>campagnes ciblées</strong>.</p>
+                            <p>Le <strong>SEO</strong> et le <strong>SEA</strong> constituent deux branches du <strong>référencement web</strong>. En effet, si l’investissement dans le <strong>référencement naturel</strong> correspond à du temps de travail et à une connaissance spécifique du sujet, le <strong>SEA</strong> est régulièrement appelé « <strong>référencement payant</strong> ». En effet, le SEA permet d’<strong>être visible sur les moteurs de recherche</strong> par l’<strong>achat d’annonce sponsorisée</strong>. L’objectif du <strong>référencement payant</strong> est donc d’<strong>obtenir un retour sur investissement</strong> à travers la mise en place de <strong>campagnes ciblées</strong>.</p>
                             <p>La réussite du projet, en termes de <strong>référencement naturel</strong>, s’évalue à partir du <strong>positionnement de vos pages dans les résultats de recherche</strong>, du <strong>trafic généré sur le site</strong> ou encore des <strong>demandes de contact obtenues</strong> en fonction de vos objectifs.</p>
-                            <h4>Lire la suite de <Link to="/referencement-toulouse/difference-seo-sea/" className="text-bleu hover:text-black">« Quelle est la différence entre le SEO et le SEA ? »</Link>.</h4>
+                            <h4>Lire la suite de <Link to="/referencement-toulouse/difference-seo-sea/" className="text-bleu hover:text-black">« Quelle est la différence entre le SEO et le SEA ? »</Link>.</h4>
                         </Answer>
 
 
@@ -272,14 +291,14 @@ class FAQ extends React.Component {
                                 <li><span className="text-bleu">></span> Le <strong>site internet catalogue</strong>,</li>
                                 <li><span className="text-bleu">></span> Mais aussi le <strong>site internet sur-mesure</strong>.</li>
                             </ul>
-                            <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/types-sites-internet/" className="text-bleu hover:text-black">« Quels sont les types de sites internet qu’il est possible de créer ? »</Link>.</h4>
+                            <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/types-sites-internet/" className="text-bleu hover:text-black">« Quels sont les types de sites internet qu’il est possible de créer ? »</Link>.</h4>
                         </Answer>
                         <Answer id={9} activeId={this.state.active}>
                             <h2>Pourquoi et quand mettre en place une refonte de site internet ?</h2>
                             <h3>La mise en place d’une refonte de site internet peut intervenir lors d’un changement de stratégie, lorsqu’une société connaît de larges transformations ou bien lorsque sont site web est tout simplement désuet.</h3>
                             <p>La réalisation d’une <strong>refonte de site internet</strong> est un moment particulièrement important dans la vie d’un <strong>site web</strong>. En effet, celle-ci intervient à un moment-clé pour une entreprise : redéfinition stratégique, nouvel élan donné à sa communication, changements majeurs au sein de l’organigramme, etc. Tout le défi va être de développer une nouvelle <strong>plateforme en ligne</strong> en suivant de <strong>nouveaux objectifs</strong>, tout en tenant compte du contenu déjà existant et <strong>présent sur le web</strong> depuis, parfois, des années.</p>
                             <p>La <strong>refonte d’un site internet</strong> est donc un travail délicat qui demande de bien faire mûrir son projet avant de se lancer sur une nouvelle ligne directrice. Dans tous les cas, la <strong>refonte de site web</strong> est une opportunité à saisir pour les entreprises souhaitant <strong>dynamiser leur communication sur le web</strong>.</p>
-                            {/* <h4>Lire la suite de « Pourquoi et quand mettre en place une refonte de site internet ? ».</h4> */}
+                            {/* <h4>Lire la suite de « Pourquoi et quand mettre en place une refonte de site internet ? ».</h4> */}
                         </Answer>
                         <Answer id={10} activeId={this.state.active}>
                             <h2>Est-il possible de mettre en place des fonctionnalités particulières pour mon projet de site web ?</h2>
@@ -294,7 +313,7 @@ class FAQ extends React.Component {
                             <h3>Le choix de son hébergement ainsi que de son nom de domaine constitue la première étape du développement de son projet web. Le nom de domaine constitue l’adresse digitale de votre site internet.</h3>
                             <p>Le <strong>choix de l’hébergement web</strong> de votre futur <strong>site internet</strong> va être lié à de nombreux critères. La <strong>qualité des serveurs</strong>, l’<strong>espace de stockage</strong> qui vous est dédié où encore les fonctionnalités proposées sont autant d’éléments sur lesquels votre choix devra s’appuyer. En somme, il est indispensable de déterminer une solution en totale cohérence avec <strong>vos ambitions sur le Web</strong>. Un <strong>expert en création de site internet</strong> vous conseillera sur cette question.</p>
                             <p>En ce qui concerne le <strong>choix du nom de domaine</strong>, celui-ci doit être réalisé selon plusieurs principes. Il peut contenir le nom de votre entreprise, mais ce n’est pas une obligation. Toutefois, il est important de veiller à ce que le nom de domaine choisi soit bien <strong>disponible et non protégé par un dépôt de marque</strong>. Enfin, pour un nom de domaine de qualité, il est important de choisir un nom facilement identifiable, mémorable, accessible et avec une extension adaptée.</p>
-                            {/* <h4>Lire la suite de « Comment choisir son nom de domaine et son hébergement ? ».</h4> */}
+                            {/* <h4>Lire la suite de « Comment choisir son nom de domaine et son hébergement ? ».</h4> */}
                         </Answer>
                         <Answer id={12} activeId={this.state.active}>
                             <h2>Je possède déjà un nom de domaine, puis-je l’utiliser pour mon nouveau site ?</h2>
@@ -307,19 +326,19 @@ class FAQ extends React.Component {
                             <h3>Nos sites web sont le résultat de projets web stratégiquement menés en fonction de vos objectifs, vos besoins, votre concurrence et le contexte dans lequel est ancré votre projet.</h3>
                             <p>C’est pourquoi, c’est une fois après vous avoir rencontré que nous démarrons la <strong>définition de votre stratégie digitale</strong>. En fonction de vos besoins, nous déterminons la solution la mieux adaptée à vos besoins, en termes de <strong>plateforme web</strong>, mais également pour <strong>développer votre visibilité</strong>. Nous choisissons les <strong>mots-clés</strong> sur lesquels nous développerons <strong>votre présence grâce au référencement naturel</strong> ainsi que l’<strong>arborescence de votre site internet</strong>.</p>
                             <p>Parallèlement, nos équipes de <strong>développeurs web</strong> se chargent de <strong>définir le web design de votre site internet</strong> à travers la <strong>création d’une maquette</strong>, ainsi que de développer les fonctionnalités sélectionnées. Une fois le site prêt à être <strong>mis en ligne</strong>, nos <strong>référenceurs</strong> se chargent, en post-production, de l’<strong>optimisation technique de votre site pour les moteurs de recherche</strong>.</p>
-                            {/* <h4>Lire la suite de « Comment sont créés les sites internet ? ».</h4> */}
+                            {/* <h4>Lire la suite de « Comment sont créés les sites internet ? ».</h4> */}
                         </Answer>
                         <Answer id={14} activeId={this.state.active}>
                             <h2>Quelles sont les technologies utilisées et maîtrisées ?</h2>
                             <h3>Nos équipes techniques sont spécialisées dans la création de site internet et maîtrisent de nombreuses technologies web pour définir les solutions les plus adaptées en fonction de vos besoins.</h3>
                             <p>Qu’ils s’agissent des <strong>langages web</strong>, des <strong>gestionnaires de bases de données</strong>, de <strong>systèmes de gestion de contenus (CMS)</strong> ou de <strong>frameworks</strong>, <strong>nos développeurs</strong> sont polyvalents et maîtrisent des technologies diverses et variées. Du <strong>HTML/CSS</strong> au <strong>JavaScript</strong>, de <strong>Wordpress</strong> à <strong>Prestashop</strong> ou encore de <strong>Symfony</strong> à <strong>Gatsby JS</strong>, nos équipes définiront la solution la plus adaptée pour votre <strong>création de site internet</strong>.</p>
-                            {/* <h4>Lire la suite de « Quelles sont les technologies utilisées et maîtrisées ? ».</h4> */}
+                            {/* <h4>Lire la suite de « Quelles sont les technologies utilisées et maîtrisées ? ».</h4> */}
                         </Answer>
                         <Answer id={15} activeId={this.state.active}>
                             <h2>Combien de temps pour créer un site internet ?</h2>
                             <h3>Le délai de production d’un site internet n’est pas fixe. Il varie en fonction de multiples critères liés à votre projet notamment.</h3>
-                            <p>Il n’existe pas de réponse précise à cette question. De nombreux paramètres entrent en jeu lorsqu’il s’agit de <strong>mettre en place un projet web</strong>. De fait, la <strong>définition des besoins</strong>, le <strong>développement technique</strong>, la <strong>création des contenus</strong> et les différents allers/retours sont autant d’éléments qui vont nécessairement jouer sur la durée du <strong>processus de création du site</strong>.</p>
-                            <p>Selon les <strong>spécificités techniques de votre projet</strong>, le <strong>délai de mise en ligne</strong> peut être d’une durée plus ou moins importante. C’est pourquoi, une <strong>création de site internet</strong> peut se compter en nombre de semaines comme en nombre de mois pour mettre en place une solution parfaitement au point et prête pour un lancement. Nous serons toutefois en mesure de vous communiquer une estimation du <strong>délai de création</strong> et de lancement une fois le <strong>cadrage du projet</strong> effectué.</p>
+                            <p>Il n’existe pas de réponse précise à cette question. De nombreux paramètres entrent en jeu lorsqu’il s’agit de <strong>mettre en place un projet web</strong>. De fait, la <strong>définition des besoins</strong>, le <strong>développement technique</strong>, la <strong>création des contenus</strong> et les différents allers/retours sont autant d’éléments qui vont nécessairement jouer sur la durée du <strong>processus de création du site</strong>.</p>
+                            <p>Selon les <strong>spécificités techniques de votre projet</strong>, le <strong>délai de mise en ligne</strong> peut être d’une durée plus ou moins importante. C’est pourquoi, une <strong>création de site internet</strong> peut se compter en nombre de semaines comme en nombre de mois pour mettre en place une solution parfaitement au point et prête pour un lancement. Nous serons toutefois en mesure de vous communiquer une estimation du <strong>délai de création</strong> et de lancement une fois le <strong>cadrage du projet</strong> effectué.</p>
                         </Answer>
                         <Answer id={16} activeId={this.state.active}>
                             <h2>Dois-je fournir les contenus du site internet ?</h2>
@@ -427,13 +446,13 @@ class FAQ extends React.Component {
                         </Answer>
                         <Answer id={29} activeId={this.state.active}>
                             <h2>Existe-t-il des facilités de paiement ?</h2>
-                            <p>Oui. Chaque <strong>projet de création et référencement naturel</strong> est porté sur une année. Ainsi, nous vous donnons la possibilité de régler le montant de votre projet sous forme de mensualités.</p>
+                            <p>Oui. Chaque <strong>projet de création et référencement naturel</strong> est porté sur une année. Ainsi, nous vous donnons la possibilité de régler le montant de votre projet sous forme de mensualités.</p>
                             <p>De plus, en fonction de votre demande, nous avons la possibilité d’adapter les modalités de paiement au cas par cas pour vous permettre de <strong>disposer d’un site internet</strong> avec une méthode de paiement qui vous convient.</p>
                         </Answer>
                         <Answer id={30} activeId={this.state.active}>
                             <h2>Que pensent nos clients de nos services ?</h2>
                             <div className="w-full lg:w-1/2">
-                            <RoundButton url="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,," text="Ce que pensent nos clients de nos services de création et référencement de sites internet" />
+                                <RoundButton url="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,," text="Ce que pensent nos clients de nos services de création et référencement de sites internet" />
                             </div>
                         </Answer>
                         <Answer id={31} activeId={this.state.active}>

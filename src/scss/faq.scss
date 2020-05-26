@@ -105,7 +105,28 @@ html {
     font-weight: bold;
     color:#37cfee;
 }
+.btn-section {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
 
+.btn-section div > img {
+    margin: 0 15px;
+}
+
+.faq-btn {
+    transition: width .5s ease-in;
+}
+
+.faq-btn:hover {
+    cursor: pointer;
+    // width: 50%;
+}
+
+.btn-prec {
+    transform: scale(-1, 1);
+}
 .bloctext h2 {
     font-size: 25px;
     font-weight: bold;
@@ -139,14 +160,14 @@ h3.intertitre3 {
 .bloctext {
     margin-left:125px;
     margin-right:125px;
-    margin-top:70px;
+    margin-top:40px;
     margin-bottom: 75px;
 
     @media(max-width: 1400px) {
         margin-left:auto;
         margin-right:auto;
         padding: 35px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom:30px;
 
     }
