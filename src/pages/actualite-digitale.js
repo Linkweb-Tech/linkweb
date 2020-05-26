@@ -107,10 +107,10 @@ render() {
                 </section>
                 {/* Menu de catégories */}
                 <section className="flex flex-row justify-center" data-aos="zoom-in">
-                    <div className="w-full menublog century uppercase lg:w-1/2 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-bold -mt-6">
+                    <div className="w-full menublog century uppercase lg:w-3/4 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-bold -mt-6">
                         <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></div>|
                         <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/agence/">Agence</Link></div>|
-                        <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/referencement/"><span className="hidden sm:block">Référencement</span><span className="block sm:hidden">SEO/SEA</span></Link></div>|
+                        <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/referencement/"><span className="opacity-0 absolute md:opacity-100 md:ml-6 lg:ml-10 md:-mr-8 md:relative mx-auto">Référencement</span><span className="opacity-100 relative md:opacity-0">SEO/SEA</span></Link></div>|
                         <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/tendances/">Tendances</Link></div>
                     </div>
                 </section>
