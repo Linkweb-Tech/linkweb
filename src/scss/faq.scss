@@ -118,6 +118,10 @@ html {
     justify-content: flex-start;
     max-width: 50px;
     }
+
+    @media(max-width:640px) {
+        display: none;
+    }
 }
 
 .btn-section div > img {
@@ -192,7 +196,10 @@ h3.intertitre3 {
     margin:0;
     background-color:#000000f0;
     max-height:1550px;
-    overflow:hidden;
+    
+    @media(max-width: 1024px) {
+        overflow:hidden;
+    }
 
     @media(max-width: 1400px) {
         margin-left:auto;

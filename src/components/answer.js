@@ -8,7 +8,7 @@ class Answer extends React.Component {
 
     render() {
         return (
-            <div id={"q" + this.props.id} class={this.props.activeId === this.props.id ? "question-section" : "m-10 opacity-25 question-section"}>
+            <div id={"q" + this.props.id} className={this.props.activeId === this.props.id ? "question-section" : "m-10 opacity-25 question-section"}>
                 {this.props.children}
             </div>
         );
