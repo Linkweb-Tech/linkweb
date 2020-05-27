@@ -143,7 +143,7 @@ class FAQ extends React.Component {
                     {/* FIN Réseaux Sociaux */}
                 </section>
 
-                <section className="w-full flex flex-col lg:flex-row mx-auto block flex justify-center justify-content-center" style={{backgroundColor:'#000000'}}>
+                <section className="w-full flex flex-col lg:flex-row mx-auto block flex justify-center justify-content-center">
 
                     <div className="w-full century lg:w-1/3 order-last lg:order-first">
                         <ul>
