@@ -391,7 +391,7 @@ class FAQ extends React.Component {
                             <p>Il n’est pas impossible qu’en essayant de <strong>rechercher votre site web sur Google</strong>, vous ne le trouviez pas. Si c’est le cas pour vous, nous vous invitons à nous contacter en vue d’éclaircir cette situation.</p>
                             <p>Toutefois et avant toute chose, il sera nécessaire de vérifier plusieurs éléments : le <strong>mot-clé recherché</strong> est-il un mot-clé travaillé par nos services ? Est-ce que le <strong>secteur géographique</strong> a bien été indiqué lors de la demande de <strong>référencement</strong> ? Effectuez-vous la recherche sur le <strong>bon moteur de recherche</strong> ?</p>
                             <p>Dans tous les cas, nous vous encourageons à nous contacter au moindre doute afin d’obtenir une réponse précise à votre interrogation.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/3">
                                 <RoundButton url="/contact-agence-web-toulouse/" text="Nous contacter" />
                             </div>
                         </Answer>
@@ -410,7 +410,7 @@ class FAQ extends React.Component {
                         <Answer id={24} activeId={this.state.active}>
                             <h2>Un problème est survenu sur mon site, que dois-je faire ?</h2>
                             <p>Un problème de nature inconnue affecte le <strong>fonctionnement de votre site web</strong> ? Une mauvaise manipulation a été réalisée <strong>sur votre site web</strong> et vous ne savez pas comment y remédier ? Notre service technique assure la <strong>maintenance de votre site</strong> : n’hésitez à nous contacter en cas de problème rendant l’<strong>accès à votre site internet</strong> impossible.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/3">
                                 <RoundButton url="/contact-agence-web-toulouse/" text="Nous contacter" />
                             </div>
                         </Answer>
@@ -446,7 +446,7 @@ class FAQ extends React.Component {
                             <p>Il est difficile de chiffrer le <strong>prix d’un site internet</strong> car il n’existe pas un <strong>type de site internet</strong>. Ainsi, le prix de la création va varier en fonction de différents postes qui composeront le <strong>tarif de votre projet web</strong>. En fonction du <strong>type de site internet</strong>, la mise en place de certaines fonctionnalités demande plus de temps et de compétences.</p>
                             <p>Ceci est également valable en ce qui concerne la <strong>stratégie à mettre en œuvre</strong>. En fonction de vos objectifs ou encore de votre concurrence, les actions à mettre en place pourront être plus ou moins conséquentes.</p>
                             <p>Ainsi, il n’existe pas de tarif exact pour <strong>créer un site internet</strong>. Celui-ci est déterminé en fonction des spécificités de votre projet. C’est pourquoi, <strong>Linkweb</strong> est en mesure de vous réaliser un <strong>devis sur-mesure</strong>.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/2">
                                 <RoundButton url="/contact-agence-web-toulouse/" text="Demander un devis" />
                             </div>
                         </Answer>
@@ -574,7 +574,7 @@ class FAQ extends React.Component {
                             <p>Vous pourrez retrouver un échantillon de <strong>nos créations</strong> sur la page de présentation de nos réalisations sur notre <strong>site internet</strong>.</p>
                             <p>Paysagistes, artisans, agences immobilières, commerces, etc. Nous collaborons avec des professionnels issus de tous types de secteurs d’activités et de toutes zones géographiques.</p>
                             <p>C’est en cela que nous sommes en mesure d’<strong>adapter nos créations en fonction de vos cibles</strong> et de vos spécificités en construisant chaque <strong>site web</strong> pour apporter une réponse claire et précise aux <strong>requêtes des utilisateurs</strong>.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/3">
                                 <RoundButton url="/agence-de-communication-agen-47-toulouse-31/" text="Nos réalisations" />
                             </div>
                         </Answer>

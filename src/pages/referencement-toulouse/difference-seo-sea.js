@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 import ButtonBlog from "../../components/buttonblog";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
-import "../../scss/faq.scss";
+import "../../scss/faqpages.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
@@ -181,7 +181,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctext w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Quelle est la différence entre le SEO et le SEA ?</p>
                         <h3>Le référencement web est une branche du marketing digital qui présente un fort potentiel pour les professionnels. Il faut savoir que sous la notion de référencement web, plusieurs disciplines cohabitent. Nous aborderons ici les deux principales : le SEO et le SEA.</h3>

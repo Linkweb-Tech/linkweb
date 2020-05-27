@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
 import ButtonBlog from "../../components/buttonblog";
-import "../../scss/faq.scss";
+import "../../scss/faqpages.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
@@ -182,7 +182,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctext w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
                         
                     <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
                         <h3>Un site internet performant ne se contente pas d’un visuel réussi : il doit être visible pour exister.</h3>
