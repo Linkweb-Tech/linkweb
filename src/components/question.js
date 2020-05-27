@@ -10,8 +10,7 @@ class Question extends React.Component {
     handleClick = () => {
         // Call parent function in order to change the active question/answer
         this.props.setActive(this.props.responseId);
-        // automaticly scroll to top
-        window.scrollTo(0, 340);
+        this.props.scrollToElement(this.props.responseId);
     }
 
     render() {

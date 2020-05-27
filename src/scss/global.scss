@@ -178,7 +178,10 @@ footer {
     transform:scale(1.2);
     transition: transform .3s;
     color:#fff;
-    font-weight:700
+    font-weight:700;
+    margin-left:auto;
+    margin-right:auto;
+    display:absolute
 }
 
 .blocliens:hover {

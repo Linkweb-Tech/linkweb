@@ -53,6 +53,7 @@ class FAQ extends React.Component {
             newId = 1
         }
         this.setState({ active: newId });
+        this.scrollToElement(newId);
     }
 
     setPrec = (id) => {
@@ -61,6 +62,11 @@ class FAQ extends React.Component {
             newId = 31
         }
         this.setState({ active: newId });
+        this.scrollToElement(newId);
+    }
+
+    scrollToElement = (id) => {
+        document.getElementById("q" + id).scrollIntoView({behavior: "smooth", block: "center"});
     }
 
 
@@ -137,9 +143,9 @@ class FAQ extends React.Component {
                     {/* FIN Réseaux Sociaux */}
                 </section>
 
-                <section className="w-full  flex flex-col lg:flex-row flex justify-content-start">
+                <section className="w-full flex flex-col lg:flex-row mx-auto block flex justify-center justify-content-center">
 
-                    <div className="w-full century lg:w-1/4 order-last lg:order-first">
+                    <div className="w-full century lg:w-1/3 order-last lg:order-first">
                         <ul>
                             <li>
                                 <div className="titre flex flex-row">
@@ -147,12 +153,12 @@ class FAQ extends React.Component {
                                     <p>Pour démarrer</p>
                                 </div>
                                 <ul className="bastitre">
-                                    <Question responseId={1} setActive={this.setActive} active={this.state.active}>Pourquoi créer un site internet ?</Question>
-                                    <Question responseId={2} setActive={this.setActive} active={this.state.active}>À qui s’adresse la création de site internet ?</Question>
-                                    <Question responseId={3} setActive={this.setActive} active={this.state.active}>Qui contacter pour créer un site internet ?</Question>
-                                    <Question responseId={4} setActive={this.setActive} active={this.state.active}>Qu’est-ce que le référencement naturel ?</Question>
-                                    <Question responseId={5} setActive={this.setActive} active={this.state.active}>À quoi sert le référencement naturel ?</Question>
-                                    <Question responseId={6} setActive={this.setActive} active={this.state.active}>Quelle est la différence entre le SEO et le SEA ?</Question>
+                                    <Question responseId={1} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Pourquoi créer un site internet ?</Question>
+                                    <Question responseId={2} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>À qui s’adresse la création de site internet ?</Question>
+                                    <Question responseId={3} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Qui contacter pour créer un site internet ?</Question>
+                                    <Question responseId={4} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Qu’est-ce que le référencement naturel ?</Question>
+                                    <Question responseId={5} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>À quoi sert le référencement naturel ?</Question>
+                                    <Question responseId={6} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Quelle est la différence entre le SEO et le SEA ?</Question>
                                 </ul>
                             </li>
                             <li><div className="titre flex flex-row">
@@ -162,41 +168,41 @@ class FAQ extends React.Component {
                                 <ul>
                                     <li><p className="soustitre">Définition du projet</p>
                                         <ul className="bastitre">
-                                            <Question responseId={7} setActive={this.setActive} active={this.state.active}>À quels objectifs répond la création d’un site internet ?</Question>
-                                            <Question responseId={8} setActive={this.setActive} active={this.state.active}>Quels types de sites internet sommes-nous en mesure de créer ?</Question>
-                                            <Question responseId={9} setActive={this.setActive} active={this.state.active}>Pourquoi mettre en place une refonte de site internet ?</Question>
-                                            <Question responseId={10} setActive={this.setActive} active={this.state.active}>Quelles fonctionnalités existent pour mon projet de site web ?</Question>
+                                            <Question responseId={7} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>À quels objectifs répond la création d’un site internet ?</Question>
+                                            <Question responseId={8} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Quels types de sites internet sommes-nous en mesure de créer ?</Question>
+                                            <Question responseId={9} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Pourquoi mettre en place une refonte de site internet ?</Question>
+                                            <Question responseId={10} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Quelles fonctionnalités existent pour mon projet de site web ?</Question>
                                         </ul>
                                     </li>
                                     <li><p className="soustitre">Nom de domaine et hébergement</p>
                                         <ul className="bastitre">
-                                            <Question responseId={11} setActive={this.setActive} active={this.state.active}>Comment choisir son nom de domaine et son hébergement ?</Question>
-                                            <Question responseId={12} setActive={this.setActive} active={this.state.active}>Je possède déjà un nom de domaine, puis-je l’utiliser pour mon nouveau site ?</Question>
+                                            <Question responseId={11} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Comment choisir son nom de domaine et son hébergement ?</Question>
+                                            <Question responseId={12} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Je possède déjà un nom de domaine, puis-je l’utiliser pour mon nouveau site ?</Question>
                                         </ul>
                                     </li>
                                     <li><p className="soustitre">Développement du site</p>
                                         <ul className="bastitre">
-                                            <Question responseId={13} setActive={this.setActive} active={this.state.active}>Comment sont créés les sites internet ?</Question>
-                                            <Question responseId={14} setActive={this.setActive} active={this.state.active}>Quelles sont les technologies utilisées et maîtrisées ?</Question>
-                                            <Question responseId={15} setActive={this.setActive} active={this.state.active}>Combien de temps pour créer un site internet ?</Question>
-                                            <Question responseId={16} setActive={this.setActive} active={this.state.active}>Dois-je fournir les contenus du site ?</Question>
+                                            <Question responseId={13} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Comment sont créés les sites internet ?</Question>
+                                            <Question responseId={14} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Quelles sont les technologies utilisées et maîtrisées ?</Question>
+                                            <Question responseId={15} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Combien de temps pour créer un site internet ?</Question>
+                                            <Question responseId={16} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Dois-je fournir les contenus du site ?</Question>
                                         </ul>
                                     </li>
                                     <li><p className="soustitre">Référencement du site</p>
                                         <ul className="bastitre">
-                                            <Question responseId={17} setActive={this.setActive} active={this.state.active}>En quoi consiste le travail de référencement naturel ?</Question>
-                                            <Question responseId={18} setActive={this.setActive} active={this.state.active}>Comment sont définis les mots-clés de ma stratégie de référencement ?</Question>
-                                            <Question responseId={19} setActive={this.setActive} active={this.state.active}>Sur quels secteurs est orientée ma stratégie de référencement naturel ?</Question>
-                                            <Question responseId={20} setActive={this.setActive} active={this.state.active}>Quels sont les moyens mis en place pour atteindre mes objectifs ?</Question>
-                                            <Question responseId={21} setActive={this.setActive} active={this.state.active}>Je ne trouve pas mon site sur les moteurs de recherche. Que dois-faire ?</Question>
+                                            <Question responseId={17} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>En quoi consiste le travail de référencement naturel ?</Question>
+                                            <Question responseId={18} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Comment sont définis les mots-clés de ma stratégie de référencement ?</Question>
+                                            <Question responseId={19} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Sur quels secteurs est orientée ma stratégie de référencement naturel ?</Question>
+                                            <Question responseId={20} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Quels sont les moyens mis en place pour atteindre mes objectifs ?</Question>
+                                            <Question responseId={21} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Je ne trouve pas mon site sur les moteurs de recherche. Que dois-faire ?</Question>
                                         </ul>
                                     </li>
                                     <li>
                                         <p className="soustitre">Suivi du site</p>
                                         <ul className="bastitre">
-                                            <Question responseId={22} setActive={this.setActive} active={this.state.active}>En quoi consiste le suivi de référencement effectué ?</Question>
-                                            <Question responseId={23} setActive={this.setActive} active={this.state.active}>À quelle fréquence est effectué le suivi de référencement ?</Question>
-                                            <Question responseId={24} setActive={this.setActive} active={this.state.active}>Un problème est survenu sur mon site, que dois-je faire ?</Question>
+                                            <Question responseId={22} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>En quoi consiste le suivi de référencement effectué ?</Question>
+                                            <Question responseId={23} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>À quelle fréquence est effectué le suivi de référencement ?</Question>
+                                            <Question responseId={24} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Un problème est survenu sur mon site, que dois-je faire ?</Question>
                                         </ul>
                                     </li>
                                 </ul>
@@ -207,18 +213,18 @@ class FAQ extends React.Component {
                                     <p>Travailler avec Linkweb</p>
                                 </div>
                                 <ul className="bastitre">
-                                    <Question responseId={25} setActive={this.setActive} active={this.state.active}>Pourquoi travailler avec Linkweb ?</Question>
-                                    <Question responseId={26} setActive={this.setActive} active={this.state.active}>Comment se déroule mon projet de création de site web ?</Question>
-                                    <Question responseId={27} setActive={this.setActive} active={this.state.active}>Suis-je propriétaire de mon site web ?</Question>
-                                    <Question responseId={28} setActive={this.setActive} active={this.state.active}>Combien coûte un site web ?</Question>
-                                    <Question responseId={29} setActive={this.setActive} active={this.state.active}>Existe-t-il des facilités de paiement ?</Question>
-                                    <Question responseId={30} setActive={this.setActive} active={this.state.active}>Que pensent nos clients de nos services ?</Question>
-                                    <Question responseId={31} setActive={this.setActive} active={this.state.active}>Où découvrir des sites internet créés par Linkweb ?</Question>
+                                    <Question responseId={25} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Pourquoi travailler avec Linkweb ?</Question>
+                                    <Question responseId={26} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Comment se déroule mon projet de création de site web ?</Question>
+                                    <Question responseId={27} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Suis-je propriétaire de mon site web ?</Question>
+                                    <Question responseId={28} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Combien coûte un site web ?</Question>
+                                    <Question responseId={29} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Existe-t-il des facilités de paiement ?</Question>
+                                    <Question responseId={30} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Que pensent nos clients de nos services ?</Question>
+                                    <Question responseId={31} scrollToElement={this.scrollToElement} setActive={this.setActive} active={this.state.active}>Où découvrir des sites internet créés par Linkweb ?</Question>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <div className="bloctext w-full lg:w-3/4 century text-justify order-first lg:order-last">
+                    <div id="answer-section" className="bloctext w-full lg:w-3/4 century text-justify order-first lg:order-last">
                     <FaqBtn setNext={this.setNext} setPrec={this.setPrec} responseId={this.state.active} />
                         <Answer id={1} activeId={this.state.active} >
                             <h2>Pourquoi créer un site internet ?</h2>
@@ -391,7 +397,7 @@ class FAQ extends React.Component {
                             <p>Il n’est pas impossible qu’en essayant de <strong>rechercher votre site web sur Google</strong>, vous ne le trouviez pas. Si c’est le cas pour vous, nous vous invitons à nous contacter en vue d’éclaircir cette situation.</p>
                             <p>Toutefois et avant toute chose, il sera nécessaire de vérifier plusieurs éléments : le <strong>mot-clé recherché</strong> est-il un mot-clé travaillé par nos services ? Est-ce que le <strong>secteur géographique</strong> a bien été indiqué lors de la demande de <strong>référencement</strong> ? Effectuez-vous la recherche sur le <strong>bon moteur de recherche</strong> ?</p>
                             <p>Dans tous les cas, nous vous encourageons à nous contacter au moindre doute afin d’obtenir une réponse précise à votre interrogation.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/3">
                                 <RoundButton url="/contact-agence-web-toulouse/" text="Nous contacter" />
                             </div>
                         </Answer>
@@ -410,7 +416,7 @@ class FAQ extends React.Component {
                         <Answer id={24} activeId={this.state.active}>
                             <h2>Un problème est survenu sur mon site, que dois-je faire ?</h2>
                             <p>Un problème de nature inconnue affecte le <strong>fonctionnement de votre site web</strong> ? Une mauvaise manipulation a été réalisée <strong>sur votre site web</strong> et vous ne savez pas comment y remédier ? Notre service technique assure la <strong>maintenance de votre site</strong> : n’hésitez à nous contacter en cas de problème rendant l’<strong>accès à votre site internet</strong> impossible.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/3">
                                 <RoundButton url="/contact-agence-web-toulouse/" text="Nous contacter" />
                             </div>
                         </Answer>
@@ -446,7 +452,7 @@ class FAQ extends React.Component {
                             <p>Il est difficile de chiffrer le <strong>prix d’un site internet</strong> car il n’existe pas un <strong>type de site internet</strong>. Ainsi, le prix de la création va varier en fonction de différents postes qui composeront le <strong>tarif de votre projet web</strong>. En fonction du <strong>type de site internet</strong>, la mise en place de certaines fonctionnalités demande plus de temps et de compétences.</p>
                             <p>Ceci est également valable en ce qui concerne la <strong>stratégie à mettre en œuvre</strong>. En fonction de vos objectifs ou encore de votre concurrence, les actions à mettre en place pourront être plus ou moins conséquentes.</p>
                             <p>Ainsi, il n’existe pas de tarif exact pour <strong>créer un site internet</strong>. Celui-ci est déterminé en fonction des spécificités de votre projet. C’est pourquoi, <strong>Linkweb</strong> est en mesure de vous réaliser un <strong>devis sur-mesure</strong>.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/2">
                                 <RoundButton url="/contact-agence-web-toulouse/" text="Demander un devis" />
                             </div>
                         </Answer>
@@ -574,7 +580,7 @@ class FAQ extends React.Component {
                             <p>Vous pourrez retrouver un échantillon de <strong>nos créations</strong> sur la page de présentation de nos réalisations sur notre <strong>site internet</strong>.</p>
                             <p>Paysagistes, artisans, agences immobilières, commerces, etc. Nous collaborons avec des professionnels issus de tous types de secteurs d’activités et de toutes zones géographiques.</p>
                             <p>C’est en cela que nous sommes en mesure d’<strong>adapter nos créations en fonction de vos cibles</strong> et de vos spécificités en construisant chaque <strong>site web</strong> pour apporter une réponse claire et précise aux <strong>requêtes des utilisateurs</strong>.</p>
-                            <div className="w-1/2 lg:w-1/5">
+                            <div className="w-1/2 lg:w-1/3">
                                 <RoundButton url="/agence-de-communication-agen-47-toulouse-31/" text="Nos réalisations" />
                             </div>
                         </Answer>

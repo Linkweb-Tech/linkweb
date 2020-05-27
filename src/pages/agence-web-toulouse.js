@@ -91,7 +91,7 @@ class AgenceWebToulouse extends React.Component {
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
                         </div>
-                        <div className="pictures w-full hidden flex-1 sm:hidden md:hidden lg:flex xl:flex">
+                        <div className="pictures w-full flex-1 sm:hidden lg:flex xl:flex">
                             <div className="w-1/3 bg-cover bg-black imageSimple "></div>
                             <div className="w-1/3 bg-cover bg-white imageSimple "></div>
                             <div className="w-1/3 bg-cover bg-bleu imageSimple "></div>

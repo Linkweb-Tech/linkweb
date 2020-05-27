@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
 import ButtonBlog from "../../components/buttonblog";
-import "../../scss/faq.scss";
+import "../../scss/faqpages.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
@@ -178,7 +178,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctext w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Définition du projet <span className="text-bleu">></span> Les différents types de sites internet</p>
                         <h3>La création de site internet pour professionnels permet de répondre à de nombreuses problématiques. En effet, à chaque problématique répond une solution web définie en fonction de votre activité, de vos objectifs et de ce qu’attendent les internautes. Pour ce faire, il n’existe pas un, mais bien plusieurs types de sites internet.</h3>
