@@ -357,6 +357,7 @@ article {
         border-radius: 20px;
         max-height:500px;
         min-height:425px;
+        
         &:hover {
             box-shadow: 0 0 20px #a1a1a1;
             transition: all ease 0.7s;
@@ -387,6 +388,9 @@ article {
             padding-bottom:00px;
             text-align:center;
            
+        }
+        @media (max-width:1024px) {
+            min-height:300px;
         }
     }
     
