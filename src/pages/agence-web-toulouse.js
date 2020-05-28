@@ -178,7 +178,7 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                     </section>
                     <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
-                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 mt-2">
+                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 mb-12 lg:mb-24">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : OÙ NOUS TROUVER ?
                         </h2>

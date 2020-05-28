@@ -29,7 +29,7 @@ class SimpleMap extends Component {
                     />
                     </GoogleMapReact>
                 </div>
-                <div className="order-first md:order-last contact w-full md:w-5/12 flex flex-col items-end lg:w-1/3 py-10 bg-white shadow-2xl  lg:mx-32 text-center text-black text-4xl century relative">
+                <div className="order-first md:order-last contact w-full md:w-5/12 flex flex-col items-end lg:w-1/3 py-10 bg-white shadow-2xl  lg:mx-32 text-center text-black text-4xl century relative" style={{minHeight:'550px'}}>
                           <h2 className="max-w-sm text-xl md:text-3xl mx-auto">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
                           <br/>
                           <div className="w-2/3 flex flex-row justify-start mx-auto">
