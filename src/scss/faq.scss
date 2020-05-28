@@ -6,6 +6,7 @@
     font-size: 20px;
     padding:10px;
     font-weight: bold;
+    max-height: 66px;
     
     @media(max-width: 1024px) {
         font-size:16px;
@@ -120,7 +121,7 @@ html {
         justify-content: flex-start;
         max-width: 50px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1023px) {
         display: none;
     }
 }

@@ -33,3 +33,11 @@
   bottom:180px;
   transition: all ease 800ms;
 }
+
+.zoombtn {
+  transition:500ms;
+}
+.zoombtn:hover {
+  transform:scale(1.3);
+  transition: 500ms;
+}

@@ -11,7 +11,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer className="bg-darkgrey w-full flex items-center relative z-20 ">
-                <section className="flex justify-start mx-auto py-12 md:py-4 md:px-8 text-sm flex-col-reverse md:flex-row">
+                <section className="flex justify-start mx-auto py-12 md:p-0 md:px-8 text-sm flex-col-reverse md:flex-row">
                     <section className="w-full md:w-1/2 lg:w-1/4 py-8 px-4 md:py-4 md:px-8" >
                         <div className="textwidget custom-html-widget">
                         <div className="copy text-white text-md">

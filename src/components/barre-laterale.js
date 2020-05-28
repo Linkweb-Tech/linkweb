@@ -21,7 +21,7 @@ class Barre extends React.Component {
 
     render(){
         return (
-                <li className="hidden lg:block z-50 toggleable">
+                <li className="opacity-0 lg:opacity-100 z-50 toggleable">
                                 <input type="checkbox" value="selected" id="toggle-one" className="toggle-input hidden"/>
                                     <label for="toggle-one" className="toogle-input block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
                                         <div className="cursor-pointer fixed h-auto z-40 py-16 font-bold bg-white px-2 font-bold" style={{bottom:'315px', writingMode:'vertical-rl', textOrientation: 'sideways', borderTopLeftRadius:'15px', borderBottomLeftRadius:'15px'}}>
