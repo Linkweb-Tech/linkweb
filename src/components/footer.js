@@ -11,8 +11,8 @@ class Footer extends React.Component {
     render() {
         return (
             <footer className="bg-darkgrey w-full flex items-center relative z-20 ">
-                <section className="flex justify-start mx-auto py-12 md:p-0 md:px-8 text-sm flex-col-reverse md:flex-row">
-                    <section className="w-full md:w-1/2 lg:w-1/4 py-8 px-4 md:py-4 md:px-8" >
+                <section className="flex justify-start mx-auto py-6 md:px-8 text-sm flex-col-reverse md:flex-row">
+                    <section className="w-full md:w-1/2 lg:w-1/4 px-4 py-6 md:px-8" >
                         <div className="textwidget custom-html-widget">
                         <div className="copy text-white text-md">
                             <img 
@@ -25,7 +25,7 @@ class Footer extends React.Component {
                         </div> <br />
                         </div>
                     </section>
-                    <section className="w-full md:w-1/2 lg:w-1/4w-full md:w-1/2 lg:w-1/4 py-8 px-4 md:py-4 md:px-8 flex flex-col navFooter">
+                    <section className="w-full md:w-1/2 lg:w-1/4 md:w-1/2 lg:w-1/4 px-4 py-6 md:px-8 flex flex-col navFooter">
                         <h3 className="century text-2xl text-white pl-4 pb-6">Navigation</h3>
                         <Link
                             to="/"
@@ -66,7 +66,7 @@ class Footer extends React.Component {
                             <span className="chevronFooter">></span> Demander un devis
                         </Link>
                     </section>
-                    <section className="w-full md:w-1/2 lg:w-1/4 py-8 md:py-4 md:px-8 px-4  flex flex-col infos">
+                    <section className="w-full md:w-1/2 lg:w-1/4 md:px-8 py-6 pb-0 px-4  flex flex-col infos">
                         <h3 className="century text-2xl text-white pl-4 pb-6">Informations</h3>
                         <div className="">
                         <ul className="pl-4">
@@ -113,7 +113,7 @@ class Footer extends React.Component {
                         </ul>
                         </div>
                     </section>
-                    <section className="w-full md:w-1/2 lg:w-1/4 py-8 md:py-4 md:px-4 px-4 flex flex-col liens">
+                    <section className="w-full md:w-1/2 lg:w-1/4 py-6 md:px-4 px-4 flex flex-col liens">
                         <div className="flex flex-col  items-center">
                             <div className="flex mb-2 flex-wrap items-center">
                                 <img 
