@@ -152,10 +152,6 @@ html {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 18px;
-
-    @media(min-width:1024px) {
-    font-size:20px;
-    }
     
 }
 
@@ -257,13 +253,18 @@ article {
 
     
 
-    .post {
+    .langages {
         border: 1px solid #cecece;
         transition: all ease 0.7s;
         padding-bottom: 10px;
-        border-radius: 5%;
-        // min-height:300px;
-        // max-height:300px;
+        border-radius: 20px;
+        background-color:#3c3c3c;
+        color:white;
+        max-height:500px;
+        min-height:380px;
+        padding-top:25px;
+            
+        
         &:hover {
             box-shadow: 0 0 20px #a1a1a1;
             transition: all ease 0.7s;
@@ -276,7 +277,11 @@ article {
         img {
             height: 50px;
             width: 50px;
-            margin: 15px;
+            margin-top: -52px;
+            width:100px;
+            height:100px;
+            
+
         }
         svg {
             margin-top:-20px;
@@ -285,15 +290,159 @@ article {
         h4 {
             margin-top:-65px;
             margin-left: 90px;
+            text-align:center;
         }
+        
+        h5 {
+            font-size:13px;
+            text-align:left;
+            margin-left:20px;
+            
+        }
+
         p {
             font-size:13px;
-            padding-left:50px;
-            padding-right:50px;
-            padding-top: 20px;
+            padding-left:20px;
+            padding-right:20px;
+            padding-top: 0px;
+            margin-top:-40px;
             padding-bottom:00px;
+            text-align:center;
            
         }
+        @media (max-width:1024px) {
+            min-height:300px;
+        }
     }
-    
+    .frcm {
+        border: 1px solid #cecece;
+        transition: all ease 0.7s;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        background-color:#3c3c3c;
+        color:white;
+        padding-top:25px;
+        min-height:490px;
+        height:470px;
+         @media (min-width:1024px) and (max-width:1740px) {
+             height:550px;
+         }
+         @media (min-width:1400px) and (max-width:1445px) {
+            height:570px;
+        }
+            
+        
+        &:hover {
+            box-shadow: 0 0 20px #a1a1a1;
+            transition: all ease 0.7s;
+            transform: scale(1.05);
+        }
+
+        .meta {
+            padding-top: 20px;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+            margin-top: -52px;
+            width:100px;
+            height:100px;
+            
+
+        }
+        svg {
+            margin-top:-20px;
+        }
+
+        h4 {
+            margin-top:-65px;
+            margin-left: 90px;
+            text-align:center;
+        }
+        
+        h5 {
+            font-size:13px;
+            text-align:left;
+            margin-left:20px;
+            
+        }
+
+        p {
+            font-size:13px;
+            padding-left:20px;
+            padding-right:20px;
+            padding-top: 0px;
+            margin-top:-40px;
+            padding-bottom:00px;
+            text-align:center;
+           
+        }
+
+    }
+
+    .sbdd {
+        border: 1px solid #cecece;
+        transition: all ease 0.7s;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        background-color:#3c3c3c;
+        color:white;
+        padding-top:25px;
+        min-height:490px;
+        height:510px;
+         @media (min-width:1024px) and (max-width:1740px) {
+             height:605px;
+         }
+         @media (min-width:1400px) and (max-width:1445px) {
+            height:605px;
+        }
+            
+        
+        &:hover {
+            box-shadow: 0 0 20px #a1a1a1;
+            transition: all ease 0.7s;
+            transform: scale(1.05);
+        }
+
+        .meta {
+            padding-top: 20px;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+            margin-top: -52px;
+            width:100px;
+            height:100px;
+            
+
+        }
+        svg {
+            margin-top:-20px;
+        }
+
+        h4 {
+            margin-top:-65px;
+            margin-left: 90px;
+            text-align:center;
+        }
+        
+        h5 {
+            font-size:13px;
+            text-align:left;
+            margin-left:20px;
+            
+        }
+
+        p {
+            font-size:13px;
+            padding-left:20px;
+            padding-right:20px;
+            padding-top: 0px;
+            margin-top:-40px;
+            padding-bottom:00px;
+            text-align:center;
+           
+        }
+
+    }
 }

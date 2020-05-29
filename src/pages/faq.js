@@ -344,7 +344,7 @@ class FAQ extends React.Component {
                             <h2>Quelles sont les technologies utilisées et maîtrisées ?</h2>
                             <h3>Nos équipes techniques sont spécialisées dans la création de site internet et maîtrisent de nombreuses technologies web pour définir les solutions les plus adaptées en fonction de vos besoins.</h3>
                             <p>Qu’ils s’agissent des <strong>langages web</strong>, des <strong>gestionnaires de bases de données</strong>, de <strong>systèmes de gestion de contenus (CMS)</strong> ou de <strong>frameworks</strong>, <strong>nos développeurs</strong> sont polyvalents et maîtrisent des technologies diverses et variées. Du <strong>HTML/CSS</strong> au <strong>JavaScript</strong>, de <strong>Wordpress</strong> à <strong>Prestashop</strong> ou encore de <strong>Symfony</strong> à <strong>Gatsby JS</strong>, nos équipes définiront la solution la plus adaptée pour votre <strong>création de site internet</strong>.</p>
-                            {/* <h4>Lire la suite de « Quelles sont les technologies utilisées et maîtrisées ? ».</h4> */}
+                            <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/technologies-web/" className="text-bleu hover:text-black">« Quelles sont les technologies utilisées et maîtrisées ? »</Link>.</h4>
                         </Answer>
                         <Answer id={15} activeId={this.state.active}>
                             <h2>Combien de temps pour créer un site internet ?</h2>
