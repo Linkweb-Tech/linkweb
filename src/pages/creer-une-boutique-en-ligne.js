@@ -59,7 +59,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux vendre mes produits en ligne" />
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
-                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl lg:text-6xl text-center text-white">
+                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl lg:text-4xl xl:text-6xl text-center text-white">
                             Créer une boutique en ligne<br/> à Agen (47)<span className="text-bleu">/</span>Toulouse(31)
                             </h1>
                             <h2 className="my-3 font-bold century uppercase text-white text-center" data-aos="fade-down">Site internet e-commerce</h2>
@@ -357,7 +357,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <div className="w-full xl:w-1/3 one px-auto">
                             <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>JE DÉFINIS LES CONTOURS DE MON PROJET
                                 </h3>
@@ -372,7 +372,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <div className="w-full xl:w-1/3 two px-auto">
                             <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>JE PRENDS RENDEZ-VOUS AVEC UN PROFESSIONNEL
                                 </h3>
@@ -386,7 +386,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <div className="w-full xl:w-1/3 three px-auto">
                             <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-24 pt-24">
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>JE SUIS FORMÉ(E) À LA GESTION DE MA BOUTIQUE EN LIGNE
                                 </h3>
