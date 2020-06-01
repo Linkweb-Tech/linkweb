@@ -51,7 +51,7 @@ class Header extends React.Component {
       <div id={this.state.isExpanded ? "navContainer" : ""} onClick={() => this.handleClick()}>
         <nav id="navBar" className={`mainNav w-full top-0 z-40 ${ (this.state.home == true ) ? 'home' : '' }`}>
           <button
-            className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white burger"
+            className="block border border-white flex items-center px-3 py-2 rounded text-white burger"
             onClick={() => (this.state.isExpanded) ? this.setState({isExpanded: false}) : this.setState({isExpanded: true}) }
           >
             <svg
@@ -94,7 +94,7 @@ class Header extends React.Component {
                 className="w-6 fill-current"
               />
             </a>
-            <a href="/contact-agence-web-toulouse/"  className="flex items-center no-underline text-white block md:hidden svg-white">
+            <a href="/contact-agence-web-toulouse/"  className="flex items-center no-underline text-white block lg:hidden svg-white">
               <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="23" width="24" viewBox="0 0 511.626 511.626">
                 <g>
                   <g>
@@ -149,7 +149,7 @@ class Header extends React.Component {
             <div
               className={`${
                 this.state.isExpanded ? `expand bg-white ` : `unexpand`
-                } md:flex md:items-center md:bg-transparent w-full md:w-auto overflow-hidden xl:m-0 md:mx-auto`}
+                } md:flex md:items-center md:bg-transparent w-full md:w-auto overflow-hidden xl:m-0 md:mx-auto lg:mx-0`}
             >
               <div className="text-xs pr-0 menu flex flex-col md:flex-row md:pr-5">
                 <nav itemProp="WebPageElement" itemScope="itemscope" itemType="http://schema.org/SiteNavigationElement">
@@ -158,7 +158,7 @@ class Header extends React.Component {
                   title="Accueil"
                   to="/"
                   activeClassName="active"
-                  className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                  className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
                   Accueil
                 </Link>
@@ -168,7 +168,7 @@ class Header extends React.Component {
                   title="Création de site internet"
                   to="/creation-site-internet-toulouse/"
                   activeClassName="active"
-                  className="block  lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                  className="block  lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
                   Création Site Internet
                 </Link>
@@ -178,7 +178,7 @@ class Header extends React.Component {
                   title="Référencement"
                   to="/referencement-toulouse/"
                   activeClassName="active"
-                  className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                  className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
                   Référencement
                 </Link>
@@ -187,7 +187,7 @@ class Header extends React.Component {
                   title="Agence Web"
                   to="/agence-web-toulouse/"
                   activeClassName="active"
-                  className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                  className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
                   Agence Web
                 </Link>
@@ -196,7 +196,7 @@ class Header extends React.Component {
                   title="Nos Réalisations"
                   to="/agence-de-communication-agen-47-toulouse-31/"
                   activeClassName="active"
-                  className="block lg:text-lg md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-6"
+                  className="block lg:text-md md:text-sm xl:text-lg  hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
                   Nos Réalisations
                 </Link>
@@ -205,7 +205,7 @@ class Header extends React.Component {
                   title="Demander un devis"
                   to="/contact-agence-web-toulouse/"
                   activeClassName="active"
-                  className="devis block lg:text-lg md:text-sm last md:inline-block mt-4 md:mt-0 rounded-lg no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-6"
+                  className="devis block lg:text-md xl:text-lg md:text-sm last md:inline-block mt-4 md:mt-0 rounded-lg no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
                   Demander un devis
                 </Link>
