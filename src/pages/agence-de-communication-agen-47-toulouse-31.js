@@ -76,7 +76,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     </section>
 
 
-                    <section className="w-full mx-auto px-4 pt-12 pb-0 my-2">
+                    <section className="w-full mx-auto px-4 pt-12 pb-0 z-50 my-2">
                        
                         <Tiles />
                     </section>
