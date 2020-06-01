@@ -10,6 +10,7 @@ import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import ButtonMenu from '../components/buttonmenu.js';
 import ButtonMenuBack from '../components/buttonmenuback.js';
+import "../scss/global.scss";
 
 import Bg from "../images/background-referencement-naturel.jpg";
 import imac from "../images/referencement-google.jpg";
@@ -53,7 +54,7 @@ class ReferencementNaturel extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(0,0,0,0.2)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
+                    <section className="w-full bloctitrescreen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{backgroundImage:'url(' + Bg +')', backgroundColor:'rgba(0,0,0,0.2)', backgroundBlendMode:'overlay', backgroundPosition:'center', height:'650px'}}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux améliorer la visibilité de mon site internet" />
                         </div>

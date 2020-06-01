@@ -7,7 +7,7 @@ import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
 import Barre from "../../components/barre-laterale";
 import "../../scss/barre.scss";
-
+import "../../scss/global.scss";
 
 import logolinkweb from "../../images/logo-linkweb.png";
 import Bg from "../../images/bg-faivre.jpg";
@@ -65,7 +65,7 @@ class faivre extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#f2f2f2e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#f2f2f2e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
                             <br/>
                         <div>
                         <a href="/agence-de-communication-agen-47-toulouse-31/" className="mt-24 font-normal century text-sm sm:text-md text-center text-black mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir aux réalisations</a>

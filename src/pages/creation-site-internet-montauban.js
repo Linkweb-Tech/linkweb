@@ -10,7 +10,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import Partenaires from '../components/partenaires';
-
+import "../scss/global.scss";
 import blocBg from "../images/background.jpg";
 import Bg from "../images/creation-site-internet-montauban.jpg";
 import imac from "../images/ecran-imac.jpg";
@@ -69,7 +69,7 @@ class CreationSiteInternetMontaubanPage extends React.Component {
                     transitionTime={200}
                 > */}
                     
-                    <section className="w-full h-screen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#000000de url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'top', backgroundSize:'cover' }}>
+                    <section className="w-full bloctitrescreen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#000000de url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'top', backgroundSize:'cover' }}>
                         <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-4xl sm:text-6xl text-center text-white">
                         Création site internet Montauban (82)
                         </h1>

@@ -7,7 +7,7 @@ import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
 import Barre from "../../components/barre-laterale";
 import "../../scss/barre.scss";
-
+import "../../scss/global.scss";
 
 import logolinkweb from "../../images/logo-linkweb.png";
 import Bg from "../../images/bg-csd.jpg";
@@ -63,7 +63,7 @@ class csdmenuiserie extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#aace57fa url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#aace57fa url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
                             <div>
                                 <Link className="invisible md:visible" to="/"><img className="mx-auto block" width="120px" src={logolinkweb} alt="création site internet Toulouse" data-aos="zoom-in"/></Link>
                                 <br/>

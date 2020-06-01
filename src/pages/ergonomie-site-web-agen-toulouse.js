@@ -6,7 +6,7 @@ import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
-
+import "../scss/global.scss";
 import Bg from "../images/ergonomie-web.jpg";
 import imac from "../images/ecran-imac.jpg";
 import bgDev from '../images/bg-dev.jpg';
@@ -57,7 +57,7 @@ class ErgonomieToulouse extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply` }}>
+                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply` }}>
                         <h1 data-aos="fade-up" data-aos-delay="500" className="century text-3xl sm:text-6xl text-center text-white">
                         Créer un site web professionnel Ergonomique
                         </h1>

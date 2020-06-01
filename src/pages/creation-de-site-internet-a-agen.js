@@ -16,6 +16,7 @@ import fondblanc from '../images/creation-site-internet-agen.jpg';
 import un from '../images/1bis.png';
 import deux from '../images/2bis.png';
 import trois from '../images/3bis.png';
+import "../scss/global.scss";
 
 
 
@@ -61,8 +62,8 @@ class Crea extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full h-screen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply`, backgroundPosition:'center' }}>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="century sm:text-6xl text-5xl text-center text-white">
+                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{backgroundColor:`#6e6e6e`, backgroundImage: 'url(' + Bg + ')', backgroundBlendMode: `multiply`, backgroundPosition:'center' }}>
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="century sm:text-6xl text-4xl text-center text-white">
                         Création de site internet Agen<br/> et Lot-et-Garonne
                         </h1>
                         <h3 className="italic text-xl md:text-2xl text-white">Votre projet sur-mesure à Agen et dans le 47</h3>
