@@ -70,7 +70,7 @@ class ReferencementAds extends React.Component {
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/referencement-toulouse/" position="center"/></div>
                         <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/referencement-toulouse/">Retour</Link></div>
                         </section>
-                        <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{ borderBottomLeftRadius:'27px'}}>
+                        <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{ borderBottomLeftRadius:'27px', minHeight:'48px'}}>
                             <div className="w-full lg:w-1/2 text-white p-1"><ButtonMenu url="/referencement-de-site-internet-47-31/" text="Référencement Naturel" position="center" /></div>
                             <div className="w-full lg:w-1/2 text-bleu p-1"><ButtonMenu url="/agence-adwords-47-31/" text="Référencement Ads" position="center" /></div>
                         </section>
