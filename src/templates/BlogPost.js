@@ -38,7 +38,7 @@ const BlogPostTemplate = ({ data }) => (
         <SEO article={true} title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} date={data.wordpressPost.date} slug={data.wordpressPost.slug} modified={data.wordpressPost.modified} image={data.wordpressPost.featured_media.source_url}/>
         <section className="bloctitrearticle w-full mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundColor:'#00000094', backgroundBlendMode:'multiply', backgroundImage: 'url(' + data.wordpressPost.featured_media.source_url + ')' }}>
                         <a href={`/blog/category/${data.wordpressPost.categories[0].slug}/`} data-aos="zoom-in" data-aos-delay="700" className="py-3 px-12 text-white text-xl font-bold hover:shadow-xl"><span className="text-bleu">/&nbsp;</span>{data.wordpressPost.categories[0].name}&nbsp;<span className="text-bleu">/</span></a>
-                        <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-48 text-4xl sm:text-6xl text-center text-white"  dangerouslySetInnerHTML={{ __html: data.wordpressPost.title }}/>
+                        <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-48 text-3xl sm:text-6xl text-center text-white"  dangerouslySetInnerHTML={{ __html: data.wordpressPost.title }}/>
                         {/*</section>{data.wordpressPost.title}
                         </h1>*/}
                         <br/>
