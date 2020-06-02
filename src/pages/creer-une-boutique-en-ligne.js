@@ -10,6 +10,7 @@ import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import ButtonMenu from '../components/buttonmenu.js';
 import ButtonMenuBack from '../components/buttonmenuback.js';
+import SousMenu from '../components/sousmenu.js';
 import "../scss/global.scss";
 
 import Bg from "../images/background-boutique-en-ligne.jpg";
@@ -67,7 +68,8 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <h3 className="italic text-lg text-center lg:text-2xl text-white">Vous souhaitez élargir votre champ d’acquisition pour vendre vos produits ? Créer une boutique en ligne va vous permettre de générer des ventes directement depuis votre site internet et ainsi compléter votre chiffre d’affaires en investissant un nouveau marché.</h3>
                         </div>
                     </section>
-                    <section className="w-full flex flex-row justify-end h-8 font-medium">
+                    <SousMenu />
+                    {/* <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
                         <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Retour</Link></div>
@@ -77,7 +79,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creer-une-boutique-en-ligne/" text="E-commerce" position="center" /></div>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
                         </section>
-                    </section>
+                    </section> */}
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
                         <h3 data-aos='fade-right' className="text-center text-4xl century">
@@ -319,7 +321,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <span className="font-bold">Créer une fiche produit, c’est considérer à la fois les besoins des utilisateurs, mais aussi la possibilité d’optimiser votre visibilité via le référencement naturel.</span>
                             </h4>
                             <p>Nous vous donnons la possibilité de <strong>créer des fiches produits</strong> très détaillées, vous permettant d’inclure de nombreuses caractéristiques pour décrire vos produits : des générales aux plus techniques, passez tout en revue pour donner envie à vos utilisateurs de <strong>commander sur votre site</strong>.</p>
-                            <Button url="/blog/comment-faire-une-fiche-produit/" text="En savoir plus sur les fiches produits" position="left" />
+                            <Button url="/blog/comment-faire-une-fiche-produit/" color="white" text="En savoir plus sur les fiches produits" position="left" />
                         </div>
                         </div>
                         <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:my-2 lg:py-2 text-justify">
@@ -332,7 +334,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <span className="font-bold">Mettre en place une boutique en ligne, c’est être capable de comprendre son interface pour être en mesure de l’appréhender.</span>
                             </h4>
                             <p>Nous vous formerons à l’utilisation du <strong>back office de votre site internet e-commerce</strong> : visualiser les dernières ventes, gérer vos stocks, ajouter ou modifier des fiches produits. Nous vous accompagnons pour mener votre projet clé en main.</p>
-                            <Button url="/blog/quest-ce-quun-back-office-et-quelle-est-son-utilite/" text="En savoir plus sur le back-office" position="left" />
+                            <Button url="/blog/quest-ce-quun-back-office-et-quelle-est-son-utilite/" color="white" text="En savoir plus sur le back-office" position="left" />
                         </div>
                         <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">

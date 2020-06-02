@@ -198,3 +198,26 @@ footer {
     height:100vh;
     min-height:750px;
 }
+
+.sousmenupages .zoom {
+    transition:0.3s;
+}
+
+.sousmenupages .zoom:hover {
+    transform:scale(1.5);
+    transition:0.2s;
+}
+
+.sousmenupages .zoom svg {
+    transition:0.2s;
+
+}
+.sousmenupages .zoom svg:hover {
+    fill:#37cfee;
+    transition:0.3s;
+
+}
+
+.sousmenupages .zoom svg:visited {
+    fill:#37cfee;
+}

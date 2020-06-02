@@ -11,15 +11,14 @@ import Accordion from '../components/accordion';
 import ButtonMenu from '../components/buttonmenu.js';
 import ButtonMenuBack from '../components/buttonmenuback.js';
 import SousMenu from '../components/sousmenu.js';
-
 import "../scss/global.scss";
 
-import Bg from "../images/site-vitrine-background.jpg";
-import imac from "../images/creation-site-vitrine.jpg";
+import Bg from "../images/creation-site-internet-catalogue.jpg";
+import imac from "../images/site-internet-catalogue.jpg";
 import bgDev from '../images/bg-dev.jpg';
 
 
-class CreationSiteInternetVitrine extends React.Component {
+class CreationSiteInternetCatalogue extends React.Component {
 
     constructor(props){
         super(props);
@@ -30,12 +29,12 @@ class CreationSiteInternetVitrine extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création site internet vitrine à Agen (47) et Toulouse (31) - Linkweb"
-                    description="Linkweb est spécialisée dans la création de site internet : nous mettons en place votre projet de site vitrine pour vous permettre de gagner en visibilité."
+                    title="Création site internet Catalogue à Toulouse (31) et Agen (47) - Linkweb"
+                    description="Linkweb est spécialisée dans la création de site internet : nous mettons en place votre projet de site catalogue pour vous permettre de gagner en visibilité."
                     keywords={[`Création site internet vitrine Agen`, `Création site internet vitrine Toulouse`, `Création site internet Lot-et-Garonne`, `Création site web 47`]}
-                    url="https://linkweb.fr/creation-site-internet-agen/"
-                    nom="Création de site vitrine"
-                    slug="creation-site-internet-agen/"
+                    url="https://linkweb.fr/creation-site-internet-catalogue/"
+                    nom="Création de site catalogue"
+                    slug="creation-site-internet-catalogue/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{
@@ -56,18 +55,19 @@ class CreationSiteInternetVitrine extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full bloctitrescreen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{ background:'#00000094 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom', backgroundSize:'cover', height:'650px' }}>
+                    <section className="w-full bloctitrescreen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{ background:'#00000094 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'center', backgroundSize:'cover', height:'650px' }}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
-                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site internet vitrine"/>
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Créer mon site internet catalogue"/>
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
-                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-4xl md:text-6xl text-center text-white">
-                            Création site internet vitrine<br/> à Agen (47)<span className="text-bleu">/</span>Toulouse(31)
+                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-4xl md:text-5xl xl:text-6xl text-center text-white">
+                            Création site internet catalogue<br/> à Toulouse (31)<span className="text-bleu">/</span>Agen(47)
                             </h1>
                             <br/>
-                            <h3 className="italic text-lg text-center md:text-2xl text-white">Vous souhaitez faire connaître votre entreprise et mettre en avant vos prestations pour obtenir des contacts dans votre secteur de chalandise ? Le site internet vitrine est parfait pour présenter ses prestations et obtenir de nouveaux clients.</h3>
+                            <h3 className="italic text-lg text-center md:text-2xl text-white">Vous souhaitez promouvoir vos biens et services ? Le site internet catalogue s'intègre parfaitement dans une stratégie de promotion en vue de l'acquisition de nouveaux clients sur le Web.</h3>
                         </div>
                     </section>
+                    <SousMenu/>
                     {/* <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
@@ -79,73 +79,72 @@ class CreationSiteInternetVitrine extends React.Component {
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
                         </section>
                     </section> */}
-                    <SousMenu/>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
                         <h3 data-aos='fade-right' className="text-center text-4xl century">
-                        TPE, PME, artisans, professions libérales : dynamisez votre <strong>communication digitale d’entreprise</strong>.
+                        Du <span className="font-bold">choix du nom de domaine</span> à la <span className="font-bold">mise en ligne de votre site internet</span>, Linkweb vous accompagne pour dynamiser votre <span className="font-bold">communication digitale d'entreprise</span>.
                         </h3>
                         <hr className="blue"></hr>
                     </section>
                     <section className="flex flex-col xl:flex-row w-full mx-auto px-4 py-6 my-4">
-                        <div className="w-full xl:w-1/2 px-12 md:px-24 py-12">
+                        <div className="w-full century xl:w-1/2 px-12 md:px-24 py-12">
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" data-aos="zoom-in">
-                                <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET VITRINE : DÉVELOPPEZ VOTRE VISIBILITÉ SUR LE WEB
+                                <span className="text-bleu">/</span>CRÉATION DE SITE INTERNET CATALOGUE : METTRE EN AVANT SON SAVOIR-FAIRE ET LA QUALITÉ DE SES PRODUITS
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" data-aos='fade-left'>
-                                <span className="font-bold">Créer un site vitrine pour son entreprise, c’est s’assurer d’être accessible 24/24h, 7/7J pour acquérir de nouveaux clients grâce au web.</span>
+                                <span className="font-bold">La création d’un site internet catalogue offre la possibilité de promouvoir ses produits tout en obtenant de la visibilité sur les moteurs de recherche.</span>
                             </h4>
-                            <p data-aos='fade-bottom' className="text-justify">Aujourd’hui, votre <strong>site internet professionnel</strong> fait partie des outils indispensables pour dynamiser votre <strong>communication d’entreprise</strong>, atteindre de nouveaux clients, et même fidéliser vos clients actuels grâce à une stratégie rondement menée.
+                            <p data-aos='fade-bottom' className="text-justify text-md">Le <strong>site internet catalogue</strong> regroupe tous les avantages du <strong>site internet vitrine</strong> et du <strong>site internet e-commerce</strong>, sans pour autant proposer de fonctionnalités lourdes en termes de gestion telles que la <strong>vente en ligne</strong>. Ce <strong>type de site internet</strong> est à privilégier lorsqu’il s’agit de <strong>mettre en avant vos produits et services</strong> à travers la mise en place de <strong>pages web</strong> de présentation fournies et très détaillées.
                             <br/><br/>
-                                                        Mettre en place un <strong>site internet vitrine</strong> pour son entreprise permet de porter un coup de projecteur sur votre activité en présentant vos prestations et en apportant l’information nécessaire pour le consommateur à la recherche d’un prestataire de votre domaine d’activité.
+                            La <strong>création d’un site internet catalogue</strong> s’adresse tout particulièrement à des <Link to="/creation-site-internet-toulouse/site-internet-immobilier/" className="text-bleu hover:text-black"><strong>agences immobilières</strong></Link> ou encore des <Link to="/creation-site-internet-toulouse/site-internet-industrie/" className="text-bleu hover:text-black"><strong>industriels</strong></Link> nécessitant la mise en avant de nombreuses informations à propos de leurs bien et produits. 
                             <br/><br/>
-                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link className="text-bleu font-bold hover:text-black" to="/ergonomie-site-web-agen-toulouse/">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
+                            À ce niveau, le <strong>site internet catalogue</strong> s’organise de la même façon que le <strong>site internet e-commerce</strong> : les produits sont classés au sein de catégories, ce qui lui permet d’arborer une certaine clarté. De plus, la <strong>construction des pages produits</strong> va être essentielle dans la mise en oeuvre de ce <strong>type de site web</strong>.</p>
                         </div>
                         <div className="order-first xl:order-last w-full xl:w-1/2 p-0 xl:p-12">
                             <img className="mx-auto block" src={imac} alt="Création site internet Toulouse"/>
                         </div>
                     </section>
-                    <section className="w-full h-full flex flex-col justify-center items-center px-4 pt-12 pb-0 my-2 bg-darkgrey text-white">
+                    <section className="w-full h-full flex flex-col century justify-center items-center px-4 pt-12 pb-0 my-2 text-white" style={{background:'#00475a'}}>
                         <div className="w-full">
                             <h2 data-aos='fade-right' className="text-center text-3xl century">
-                            <span className="text-bleu">/</span>CRÉER UN SITE INTERNET VITRINE PROFESSIONNEL À VOTRE IMAGE
+                            <span className="text-bleu">/</span>CRÉER UN SITE INTERNET CATALOGUE POUR VOTRE ENTREPRISE
                             </h2>
                         </div>
                         <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:mt-10 lg:mb-4 lg:py-2 text-justify" >
                         <div className="w-full lg:w-1/2 mb-12 mb-24 mr-16">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
-                            <span className="text-bleu">/</span>INTERFACE INTUITIVE ET ERGONOMIQUE
+                            <span className="text-bleu">/</span>DES FICHES PRODUITS SUR-MESURE
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <span className="font-bold">Créer un site internet intuitif et ergonomique pour favoriser l’expérience utilisateur et faciliter la navigation entre les contenus.</span>
+                                <span className="font-bold">Mettre en place des fiches produits exhaustives et ergonomiques pour fluidifier la transmission du message.</span>
                             </h4>
-                            <p>Nous développons un <strong>site internet</strong> favorisant la navigation entre les pages pour permettre aux utilisateurs d’accéder à l’information qu’ils recherchent de manière rapide, efficace et de façon naturelle.</p>
-                            <Button url="/ergonomie-site-web-agen-toulouse/" color="white" text="En savoir plus sur l’ergonomie web" position="left" />
+                            <p>Nous créons des <strong>fiches produits</strong> favorisant la mise en avant des caractéristiques techniques les plus précises jusqu'aux informations les plus globales concernant vos produits et services.</p>
+                            {/* <Button url="/ergonomie-site-web-agen-toulouse/" text="En savoir plus sur l’ergonomie web" position="left" /> */}
                         </div>
                         <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
-                            <span className="text-bleu">/</span>ADAPTATION AU RESPONSIVE DESIGN
+                            <span className="text-bleu">/</span>CRÉATION D'UN WEBDESIGN RESPONSIVE DESIGN
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <span className="font-bold">Créer un site internet qui s’adapte au terminal utilisé pour faciliter son accessibilité. Nous mettons en place un site adapté pour tous les supports.</span>
+                                <span className="font-bold">Créer un site internet adapté à tous les supports pour une expérience utilisateur sans faille. Nos sites web sont pensés pour être accessibles sur tous les appareils (smartphones, tablettes, ordinateur).</span>
                             </h4>
-                            <p>Face à l’exigence des <strong>moteurs de recherche</strong> pour proposer des <strong>sites internet</strong> adaptés à chaque support, nous répondons par la mise en place de <strong>sites internet responsive</strong>, à savoir, qui s’adaptent à la largeur de l’écran utilisé.</p>
+                            <p>Qu'il s'adresse aux utilisateurs ou aux <strong className="font-normal">moteurs de recherche</strong>, <strong className="font-normal">votre site internet</strong> doit proposer une <strong className="font-normal">expérience utilisateur</strong> de haute qualité grâce à la mise en place d'une <strong className="font-normal">plateforme web intuitive</strong> et performante.</p>
                             <Button url="/blog/importance-site-internet-responsive/" color="white" text="En savoir plus sur le responsive design" position="left" />
                         </div>
                         </div>
                         <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:my-2 lg:py-2 text-justify">
                         <div className="w-full lg:w-1/2 mb-12 mb-24 mr-16">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
-                            <span className="text-bleu">/</span>PARCOURS CLIENT OPTIMISÉ
+                            <span className="text-bleu">/</span>UN SITE INTERNET ADMINISTRABLE
                             </h3>
                             <br/>
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
-                                <span className="font-bold">Créer un parcours client clairement identifiable pour vous permettre d’obtenir de nouveaux contacts via le site internet.</span>
+                                <span className="font-bold">Mettre à disposition un outil de gestion et de mise à jour de ses biens et produits avec une main-mise sur la gestion des rôles d’administration du site web.</span>
                             </h4>
-                            <p>Nous déterminons un parcours client qui facilite la réalisation de vos <strong>objectifs de conversion</strong> grâce à la présence de <strong>call-to-action</strong> et autres éléments visuels permettant de mettre en avant la souscription à vos prestations.</p>
-                            <Button url="/blog/comment-optimiser-le-parcours-client-dun-site-internet/" color="white" text="En savoir plus sur le le parcours client" position="left" />
+                            <p>Nous vous formons à la <strong className="font-normal">mise en ligne</strong> ainsi qu’à la <strong className="font-normal">mise à jour de vos produits</strong> pour vous permettre d’effectuer vos propres modifications. Nous vous donnons également la possibilité de contrôler les <strong className="font-normal">permissions des administrateurs du site</strong>.</p>
+                            {/* <Button url="/blog/comment-optimiser-le-parcours-client-dun-site-internet/" text="En savoir plus sur le le parcours client" position="left" /> */}
                         </div>
                         <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -155,14 +154,14 @@ class CreationSiteInternetVitrine extends React.Component {
                             <h4 className="century text-lg tracking-wider pb-6" data-aos='fade-left'>
                                 <span className="font-bold">Mettre en place un site internet sécurisé, et rassurant pour les visiteurs via la mise en place d’un protocole HTTPS.</span>
                             </h4>
-                            <p>Nous sécurisons votre domaine par la mise en place de <strong>protocole de sécurisation HTTPS (HyperText Transfer Protocole Secure)</strong> qui permet à chaque utilisateur de vérifier l’authenticité du site internet pour s’assurer qu’il s’agit bien d’un <strong>site de confiance</strong>.</p>
+                            <p>Nous sécurisons votre domaine par la mise en place de <strong className="font-normal">protocole de sécurisation HTTPS (HyperText Transfer Protocole Secure)</strong> qui permet à chaque utilisateur de vérifier l’authenticité du site internet pour s’assurer qu’il s’agit bien d’un <strong className="font-normal">site de confiance</strong>.</p>
                             <Button url="/blog/protocole-https-a-quoi-ca-sert/" color="white" text="En savoir plus sur le le protocole de sécurisation HTTPS" position="left" />
                         </div>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 data-aos='fade-right' className="text-center text-3xl century">
-                        Vous souhaitez la création de votre site internet vitrine ?<br/> N’attendez plus !
+                        Vous souhaitez la création de votre site internet catalogue ?<br/> <span className="text-bleu">Nous le créons pour vous !</span>
                         </h2><br/>
                         <hr className="blue"></hr>
                         
@@ -202,7 +201,7 @@ class CreationSiteInternetVitrine extends React.Component {
                             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
                             <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                <span className="text-bleu">/</span>JE DÉPLOIE MON ACTIVITÉ SUR MON SITE INTERNET VITRINE
+                                <span className="text-bleu">/</span>JE PROMEUS MON ACTIVITÉ SUR MON SITE INTERNET CATALOGUE
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                     Une fois le projet établi, nous vous proposons une <strong>maquette visuelle et des contenus rédigés et optimisés pour le référencement naturel</strong>, en respectant une arborescence créée tout particulièrement pour rendre <strong>votre site internet visible</strong>.
@@ -297,7 +296,7 @@ class CreationSiteInternetVitrine extends React.Component {
                                         </g>
                                     </g>
                                 </svg>
-                                <p className="text-xl century pt-3">RESPECT DE LA CHARTE GRAPHIQUE</p>
+                                <p className="text-xl century pt-3">RESPECT DE LA CHARTE GRAPHIQUE ET IDENTITÉ VISUELLE</p>
                             </div>
                             <div className="w-full sm:w-1/3 flex flex-col items-center justify-center px-12 my-6"  data-aos='zoom-in' data-aos-delay="600">
                                 <svg width="80px" height="80px" x="0px" y="0px" viewBox="0 0 480 480" className="svg-bleu">
@@ -381,7 +380,7 @@ class CreationSiteInternetVitrine extends React.Component {
 
                         <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
                             {/* <RappelForm /> */}
-                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site internet vitrine"/>
+                            <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site internet catalogue"/>
                         </div>
 
                         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row text-center my-12">
@@ -534,39 +533,52 @@ class CreationSiteInternetVitrine extends React.Component {
                                     <g>
                                     </g>
                                 </svg>
-                                <p className="text-xl century text-white pt-3">CONTENUS OPTIMISÉS POUR VOTRE VISIBILITÉ</p>
+                                <p className="text-xl century text-white pt-3">CONTENUS OPTIMISÉS POUR VOTRE RÉFÉRENCEMENT SEO</p>
                             </div>
                             <div className="w-full py-1 sm:w-1/3 px-12 flex flex-col items-center justify-center"  data-aos='zoom-in' data-aos-delay="600">
-                                <svg className="svg-white" height="80px" viewBox="0 0 512 512" width="80px">
-                                    <path d="m34.132812 443.734375h131.261719l-8.535156 17.066406h-3.257813c-26.71875 0-42.667968 12.757813-42.667968 34.132813 0 9.425781 7.640625 17.066406 17.066406 17.066406h256c9.425781 0 17.066406-7.640625 17.066406-17.066406 0-21.375-15.949218-34.132813-42.667968-34.132813h-3.257813l-8.535156-17.066406h131.261719c18.851562 0 34.132812-15.28125 34.132812-34.132813v-298.667968c0-18.851563-15.28125-34.132813-34.132812-34.132813h-93.867188c-4.710938 0-8.535156 3.820313-8.535156 8.53125 0 4.714844 3.824218 8.535157 8.535156 8.535157h93.867188c9.425781 0 17.066406 7.640624 17.066406 17.066406v298.667968c0 9.425782-7.640625 17.066407-17.066406 17.066407h-443.734376c-9.425781 0-17.066406-7.640625-17.066406-17.066407v-298.667968c0-9.425782 7.640625-17.066406 17.066406-17.066406h93.867188c4.710938 0 8.535156-3.820313 8.535156-8.535157 0-4.710937-3.824218-8.53125-8.535156-8.53125h-93.867188c-18.851562 0-34.132812 15.28125-34.132812 34.132813v298.667968c0 18.851563 15.28125 34.132813 34.132812 34.132813zm349.867188 51.199219h-256c0-4.222656 0-17.066406 25.601562-17.066406h204.796876c25.601562 0 25.601562 12.84375 25.601562 17.066406zm-56.480469-51.199219 8.53125 17.066406h-160.109375l8.53125-17.066406zm0 0"/>
-                                    <path d="m452.265625 358.398438h-392.53125c-4.714844 0-8.535156-3.820313-8.535156-8.53125v-213.332032c0-4.714844 3.820312-8.535156 8.535156-8.535156h25.597656c4.714844 0 8.535157-3.820312 8.535157-8.535156 0-4.710938-3.820313-8.53125-8.535157-8.53125h-25.597656c-14.140625 0-25.601563 11.460937-25.601563 25.601562v213.332032c0 14.136718 11.460938 25.597656 25.601563 25.597656h392.53125c14.140625 0 25.601563-11.460938 25.601563-25.597656v-213.332032c0-14.140625-11.460938-25.601562-25.601563-25.601562h-25.597656c-4.714844 0-8.535157 3.820312-8.535157 8.53125 0 4.714844 3.820313 8.535156 8.535157 8.535156h25.597656c4.714844 0 8.535156 3.820312 8.535156 8.535156v213.332032c0 4.710937-3.820312 8.53125-8.535156 8.53125zm0 0"/>
-                                    <path d="m213.332031 392.535156c-4.710937 0-8.53125 3.820313-8.53125 8.53125 0 4.714844 3.820313 8.535156 8.53125 8.535156h85.335938c4.710937 0 8.53125-3.820312 8.53125-8.535156 0-4.710937-3.820313-8.53125-8.53125-8.53125zm0 0"/>
-                                    <path d="m365.703125 49.605469-14.230469-14.242188c-5.769531-5.75-14.796875-6.621093-21.558594-2.082031l-21.332031 14.085938c-6.597656-3.550782-13.558593-6.390626-20.761719-8.464844l-5.027343-25.15625c-1.582031-7.984375-8.582031-13.7382815-16.722657-13.746094h-20.140624c-8.132813 0-15.136719 5.738281-16.734376 13.714844l-5.160156 25.121094c-7.1875 2.128906-14.121094 5.015624-20.695312 8.617187l-21.246094-14.171875c-6.769531-4.53125-15.796875-3.644531-21.554688 2.113281l-14.253906 14.242188c-5.699218 5.773437-6.566406 14.757812-2.070312 21.515625l14.09375 21.332031c-3.546875 6.601563-6.382813 13.5625-8.464844 20.761719l-25.15625 5.015625c-7.972656 1.601562-13.722656 8.59375-13.753906 16.726562v20.15625c.019531 8.128907 5.753906 15.121094 13.722656 16.734375l25.113281 5.121094c2.132813 7.179688 5.019531 14.117188 8.609375 20.691406l-14.164062 21.289063c-4.507813 6.777343-3.617188 15.789062 2.125 21.558593l14.230468 14.230469c5.761719 5.761719 14.785157 6.644531 21.554688 2.117188l21.335938-14.085938c6.597656 3.550781 13.558593 6.386719 20.761718 8.464844l5.023438 25.15625c1.597656 7.953125 8.570312 13.6875 16.683594 13.710937h20.140624c8.132813 0 15.136719-5.738281 16.734376-13.710937l5.160156-25.125c7.1875-2.125 14.121094-5.015625 20.695312-8.617187l21.246094 14.207031c6.773438 4.535156 15.804688 3.648437 21.566406-2.117188l14.242188-14.230469c5.734375-5.773437 6.617187-14.78125 2.113281-21.558593l-14.097656-21.332031c3.535156-6.570313 6.394531-13.480469 8.535156-20.625l-8.175781-2.429688 8.140625 2.292969 25.15625-5.015625c7.945312-1.632813 13.65625-8.617188 13.679687-16.726563v-20.15625c-.019531-8.128906-5.753906-15.121093-13.722656-16.734375l-25.113281-5.117187c-2.132813-7.183594-5.019531-14.121094-8.609375-20.695313l14.207031-21.257812c4.542969-6.777344 3.652344-15.816406-2.125-21.578125zm-26.28125 33.328125c-3.476563 5.285156-3.757813 12.050781-.734375 17.605468 2.980469 5.550782 5.390625 11.386719 7.1875 17.425782 1.757812 6.105468 6.761719 10.726562 12.984375 11.996094l25.140625 5.027343v20.15625l-25.140625 5.027344c-6.222656 1.269531-11.226563 5.890625-12.984375 11.996094-1.800781 6.039062-4.207031 11.882812-7.1875 17.433593-3.035156 5.550782-2.75 12.328126.742188 17.605469l14.207031 21.257813-14.242188 14.238281-21.253906-14.207031c-5.28125-3.480469-12.054687-3.769532-17.613281-.75-5.550782 2.984375-11.394532 5.394531-17.433594 7.195312-6.078125 1.78125-10.675781 6.773438-11.945312 12.976563l-5.078126 25.148437h-20.140624l-5.035157-25.15625c-1.285156-6.21875-5.90625-11.210937-12.003906-12.980468-6.035156-1.792969-11.871094-4.199219-17.417969-7.175782-2.535156-1.367187-5.371094-2.085937-8.25-2.089844-3.34375-.007812-6.609375.976563-9.386718 2.832032l-21.257813 14.207031-14.242187-14.238281 14.214843-21.265625c3.476563-5.285157 3.757813-12.050781.734375-17.605469-2.980468-5.550781-5.386718-11.386719-7.183594-17.425781-1.757812-6.105469-6.761718-10.726563-12.988281-11.996094l-25.113281-5.027344v-20.15625l25.140625-5.027343c6.222656-1.269532 11.226563-5.890626 12.984375-11.996094 1.800781-6.039063 4.207031-11.878906 7.1875-17.433594 3.035156-5.550781 2.75-12.328125-.742188-17.605469l-14.207031-21.253906 14.242188-14.242187 21.253906 14.207031c5.277344 3.496093 12.058594 3.785156 17.613281.75 5.550782-2.984375 11.394532-5.394531 17.433594-7.191407 6.09375-1.769531 10.710938-6.765624 11.988281-12.980468l5.035157-25.148438h20.140624l5.035157 25.15625c1.285156 6.21875 5.90625 11.214844 12.003906 12.980469 6.035156 1.792969 11.871094 4.199219 17.417969 7.175781 5.554687 3.039063 12.332031 2.753906 17.613281-.742187l21.253906-14.207031 14.242188 14.242187zm0 0"/>
-                                    <path d="m256 76.800781c-37.703125 0-68.265625 30.5625-68.265625 68.265625s30.5625 68.265625 68.265625 68.265625 68.265625-30.5625 68.265625-68.265625c-.042969-37.683594-30.582031-68.222656-68.265625-68.265625zm0 119.464844c-28.277344 0-51.199219-22.921875-51.199219-51.199219s22.921875-51.199218 51.199219-51.199218 51.199219 22.921874 51.199219 51.199218c-.027344 28.265625-22.933594 51.171875-51.199219 51.199219zm0 0"/>
-                                    <path d="m264.535156 145.066406c0 4.714844-3.824218 8.535156-8.535156 8.535156s-8.535156-3.820312-8.535156-8.535156c0-4.710937 3.824218-8.53125 8.535156-8.53125s8.535156 3.820313 8.535156 8.53125zm0 0"/>
-                                </svg>
-                                <p className="text-xl century text-white pt-3">SITE ADAPTÉ POUR TOUS SUPPORTS</p>
+                                <svg className="svg-white" width="80px" viewBox="0 0 64 80"><g><path d="M61,3.994H3c-1.654,0-3,1.346-3,3v52.004c0,0.553,0.447,1,1,1h7.961C8.975,59.999,8.986,60.006,9,60.006h8.002   c0.014,0,0.025-0.007,0.039-0.008H27.96c0.014,0.001,0.025,0.008,0.039,0.008h8.002c0.014,0,0.025-0.007,0.039-0.008h10.919   c0.014,0.001,0.025,0.008,0.039,0.008H55c0.014,0,0.025-0.007,0.039-0.008H63c0.553,0,1-0.447,1-1V6.994   C64,5.34,62.654,3.994,61,3.994z M47.998,57.998v-2.99H54v2.99H47.998z M49.999,53.008c0-0.552,0.448-1,1-1s1,0.448,1,1H49.999z    M55,53.008h-1.001c0-1.654-1.346-3-3-3s-3,1.346-3,3h-1.001c-0.553,0-1,0.447-1,1v3.99h-1.999v-8.992h14v8.992H56v-3.99   C56,53.455,55.553,53.008,55,53.008z M58.999,47.006h-16c-0.553,0-1,0.447-1,1v9.992H41v-9.992c0-0.553-0.447-1-1-1H24   c-0.553,0-1,0.447-1,1v9.992h-0.999v-9.992c0-0.553-0.447-1-1-1h-16c-0.553,0-1,0.447-1,1v9.992H2V9.994h60v48.004h-2.001v-9.992   C59.999,47.453,59.552,47.006,58.999,47.006z M28.999,57.998v-2.99h6.002v2.99H28.999z M31,53.008c0-0.552,0.448-1,1-1s1,0.448,1,1   H31z M36.001,53.008H35c0-1.654-1.346-3-3-3s-3,1.346-3,3h-1.001c-0.553,0-1,0.447-1,1v3.99H25v-8.992h14v8.992h-1.999v-3.99   C37.001,53.455,36.554,53.008,36.001,53.008z M10,57.998v-2.99h6.002v2.99H10z M12,53.008c0-0.552,0.448-1,1-1s1,0.448,1,1H12z    M17.002,53.008H16c0-1.654-1.346-3-3-3s-3,1.346-3,3H9c-0.553,0-1,0.447-1,1v3.99H6.001v-8.992h14v8.992h-1.999v-3.99   C18.002,53.455,17.555,53.008,17.002,53.008z M3,5.994h1.02c-0.552,0-0.994,0.447-0.994,1s0.452,1,1.005,1c0.552,0,1-0.447,1-1   s-0.448-1-1-1h2.988c-0.552,0-0.994,0.447-0.994,1s0.452,1,1.005,1c0.552,0,1-0.447,1-1s-0.448-1-1-1h2.992   c-0.552,0-0.994,0.447-0.994,1s0.452,1,1.005,1c0.552,0,1-0.447,1-1s-0.448-1-1-1H61c0.552,0,1,0.448,1,1v1H10.032H7.029H4.03H2v-1   C2,6.442,2.448,5.994,3,5.994z"/><path d="M40,11.994H5.001c-0.553,0-1,0.447-1,1v31c0,0.553,0.447,1,1,1H40c0.553,0,1-0.447,1-1v-31   C41,12.441,40.553,11.994,40,11.994z M39,42.994H6.001v-29H39V42.994z"/><path d="M43,22.998h15.999c0.553,0,1-0.447,1-1s-0.447-1-1-1H43c-0.553,0-1,0.447-1,1S42.447,22.998,43,22.998z"/><path d="M43,19.998h15.999c0.553,0,1-0.447,1-1s-0.447-1-1-1H43c-0.553,0-1,0.447-1,1S42.447,19.998,43,19.998z"/><path d="M43,25.998h7.991c0.553,0,1-0.447,1-1s-0.447-1-1-1H43c-0.553,0-1,0.447-1,1S42.447,25.998,43,25.998z"/><path d="M43,30.996h7.991c0.553,0,1-0.447,1-1s-0.447-1-1-1H43c-0.553,0-1,0.447-1,1S42.447,30.996,43,30.996z"/><path d="M60,34.994c0-0.553-0.447-1-1-1H43c-0.553,0-1,0.447-1,1v3c0,0.553,0.447,1,1,1h16c0.553,0,1-0.447,1-1V34.994z M58,36.994   H44v-1h14V36.994z"/><path d="M56,28.998c0-0.553-0.447-1-1-1h-0.999c-0.012,0-0.021,0.006-0.032,0.007c-0.064,0.002-0.125,0.023-0.188,0.038   c-0.067,0.016-0.136,0.024-0.197,0.053c-0.009,0.004-0.02,0.003-0.029,0.008c-0.045,0.022-0.073,0.061-0.112,0.088   c-0.061,0.042-0.121,0.079-0.17,0.133c-0.044,0.047-0.072,0.103-0.106,0.157c-0.033,0.055-0.07,0.104-0.093,0.165   c-0.026,0.068-0.032,0.14-0.043,0.212c-0.007,0.048-0.028,0.09-0.028,0.14c0,0.011,0.006,0.02,0.006,0.03   c0.002,0.066,0.024,0.13,0.04,0.196c0.016,0.065,0.023,0.131,0.052,0.19c0.004,0.01,0.003,0.021,0.008,0.03l0.362,0.726   c-0.275,0.178-0.468,0.473-0.468,0.825c0,0.553,0.447,1,1,1H55l0,0c0.001,0,0.001,0,0.001,0c0.002,0,0.004-0.001,0.006-0.001   c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.019-0.003,0.027-0.007c0.045-0.022,0.073-0.061,0.113-0.088   c0.06-0.042,0.12-0.079,0.169-0.133c0.044-0.047,0.072-0.103,0.106-0.157c0.033-0.055,0.07-0.104,0.094-0.166   c0.025-0.067,0.031-0.139,0.042-0.211c0.007-0.048,0.028-0.09,0.028-0.14c0-0.011-0.006-0.02-0.006-0.03   c-0.002-0.066-0.024-0.13-0.04-0.195s-0.023-0.132-0.052-0.192c-0.004-0.009-0.003-0.02-0.008-0.029l-0.362-0.726   C55.807,29.646,56,29.351,56,28.998z"/><path d="M11,40.994h22.999c0.553,0,1-0.447,1-1v-17c0-0.553-0.447-1-1-1h-2.997v-0.002c0-0.004,0.002-0.006,0.002-0.01   c0-3.309-2.691-6-6-6c-0.894,0-1.739,0.202-2.502,0.554c-0.764-0.352-1.609-0.554-2.503-0.554c-3.309,0-6,2.691-6,6v0.012H11   c-0.553,0-1,0.447-1,1v17C10,40.547,10.447,40.994,11,40.994z M32.999,38.994h-3v-15h3V38.994z M29.003,21.976   c0,0.003-0.001,0.005-0.001,0.007v0.012h-3.001v-0.012c0-0.005-0.003-0.009-0.003-0.013c-0.003-1.508-0.569-2.884-1.493-3.937   c0.165-0.021,0.328-0.051,0.499-0.051C27.208,17.982,29,19.773,29.003,21.976z M21.004,21.982c0-1.254,0.592-2.361,1.498-3.096   c0.905,0.734,1.497,1.842,1.497,3.096c0,0.004,0.002,0.006,0.002,0.01v0.002h-2.999C21.002,21.99,21.004,21.986,21.004,21.982z    M19.999,17.982c0.171,0,0.334,0.029,0.499,0.051c-0.922,1.05-1.486,2.421-1.493,3.924c0,0.009-0.005,0.017-0.005,0.025v0.012   h-3.001v-0.012C15.999,19.776,17.793,17.982,19.999,17.982z M12,23.994h15.999v15H12V23.994z"/></g></svg>
+                                <p className="text-xl century text-white pt-3">FICHES PRODUITS CRÉÉES SUR-MESURE</p>
                             </div>
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center px-4 mt-12 mb-3">
                         <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
-                            <span className="text-bleu">/</span>Linkweb se plie en 4 pour la création de votre site vitrine à Agen et Toulouse
+                            <span className="text-bleu">/</span>Linkweb est à vos côtés pour la création de votre site internet catalogue
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Le site internet vitrine constitue la carte de visite en ligne de votre entreprise. Accessible de jour, comme de nuit, il vous apporte une visibilité considérable pour promouvoir vos prestations.</h4>
+                        <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">Le site internet catalogue est un support de communication en ligne indispensable pour une entreprise. Accessible de jour, comme de nuit, il vous apporte une visibilité considérable pour promouvoir vos produits et services.</h4>
                     </section>
                     <section  className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
                         <div className="w-full md:w-3/4 py-0 flex justify-end">
                             <Accordion>
-                                <div className="w-full" label="DANS QUELS CAS AI-JE BESOIN D'UN SITE INTERNET VITRINE ?">
-                                <p><span className="font-bold">La <strong>création d’un site internet vitrine</strong> se montre particulièrement pertinente lorsque vous souhaitez mettre en avant votre activité, vos services et obtenir des contacts locaux afin de développer votre chiffre d'affaires.</span><br/><br/> En effet, un site internet vitrine doit répondre aux besoins des utilisateurs en proposant une solution concrète et documentée face aux nombreuses interrogations.<br/><br/> Il va permettre d’affirmer votre présence sur le marché et également vous donner la possibilité de travailler votre image grâce à la mise en place d’une <strong>stratégie web</strong> efficace. <br/><br/>Tout l’intérêt d’un <strong>site vitrine</strong> réside dans l'apport de visibilité qu’il vous procurer pour mettre en lumière votre activité. De plus, ceci est possible tout en vous permettant de créer des contenus qui vont permettre de <span className="font-bold"><strong>développer votre image et votre notoriété</strong> pour <strong>acquérir de nouveaux clients</strong> sur le long terme.</span></p>
+                                <div className="w-full" label="POURQUOI CRÉER UN SITE INTERNET CATALOGUE ?">
+                                <p><span className="font-bold">La <strong>création d’un site internet catalogue</strong> est particulièrement recommandée si vous souhaitez <strong>obtenir de nouveaux contacts</strong> et <strong>demandes de devis</strong> pour vos produits ou services</span>.
+                                    <br/><br/>
+                                    En effet, le <span className="font-bold"><strong>site internet catalogue</strong> n’a pas pour vocation de <strong>vendre en ligne</strong></span>. Toutefois, il constitue un intermédiaire qui doit <strong>proposer une présentation exhaustive de vos produits et services</strong>, tout en <strong>répondant aux attentes d’un utilisateur d’un point de vue technique</strong>.
+                                    <br/><br/>
+                                    <span className="font-bold">Le <strong>site internet catalogue</strong> tire le meilleur du <strong>site internet vitrine</strong> et du <strong>site internet e-commerce</strong></span> sans fonctionnalité de <strong>vente en ligne</strong>. Ainsi, il est très utile lorsqu’il s’agit de mettre en avant des caractéristiques d’un produit ou d’un service.
+                                    <br/><br/>
+                                    De ce fait, le <strong>site internet catalogue</strong> est parfaitement adapté pour une <strong>agence immobilière</strong> ou encore une <Link to="/creation-site-internet-toulouse/site-internet-cuisiniste/" className="text-bleu hover:text-black"><strong>entreprise cuisiniste</strong></Link> qui souhaitent <span className="font-bold"><strong>présenter leurs catalogues de biens et produits</strong></span> sans restriction de contenus. 
+                                    <br/><br/>
+                                    Disposer d’un outil fonctionnel est indispensable pour <strong>développer votre image</strong> et votre <strong>notoriété</strong> en vue d’<strong>acquérir de nouveaux clients</strong>.</p>
                                 </div>
-                                <div label="QUE PUIS-JE FAIRE GRÂCE À UN SITE INTERNET VITRINE ?">
-                                <p>Le <strong>site internet vitrine</strong> est parfait pour répondre à des <span className="font-bold">objectifs commerciaux</span>, tels qu’obtenir de <strong>nouveaux contacts</strong> en vue de les convertir des clients, ou bien à des <span className="font-bold">objectifs d’image</span>. <br/><br/>Il va permettre de <strong>développer des contenus</strong> au sujet de la présentation de vos services, de votre manière de travailler, de l’histoire de votre entreprise et bien plus encore. <br/><br/>Également, <span className="font-bold">le site vitrine va vous permettre d’<strong>améliorer votre positionnement</strong> sur les <strong>moteurs de recherche</strong></span> grâce à une optimisation technique et à la <strong>création de contenu de qualité</strong>. Enfin, il vous donne la possibilité de <span className="font-bold">vous affirmer comme un expert dans votre secteur d’activité</span> pour donner confiance aux utilisateurs qui visiteront votre <strong>site internet</strong>.</p>
+                                <div label="DE QUOI SONT CONSTITUÉES LES FICHES PRODUITS ?">
+                                <p>Les <strong>fiches produits</strong> ou <strong>pages produits</strong> sont au cœur de la <span className="font-bold">mise en place d’une plateforme performante</span>. Elles doivent être suffisamment exhaustives concernant le produit ou service présenté, les modalités de souscription ou d’achat ainsi que sur la livraison.
+                                    <br/><br/>
+                                    En ce sens, le <strong>web design des fiches produits</strong> est travaillé en vue de mettre en avant les informations essentielles et ainsi ne pas brouiller le message. Tous ces éléments doivent être identifiables au sein d’une <span className="font-bold"><strong>plateforme ergonomique</strong> et claire</span>.
+                                    <br/><br/>
+                                    Par ailleurs, les <strong>fiches produits</strong> doivent également contenir du texte de description. Ce texte est d’autant plus important qu’<span className="font-bold">il s’adresse aux utilisateurs ainsi qu’aux <strong>moteurs de recherche</strong></span>. 
+                                    <br/><br/>
+                                    Il va être optimisé pour vous permettre de <span className="font-bold">vous <strong>positionner sur les moteurs de recherches</strong> pour des requêtes stratégiques.</span></p>
                                 </div>
-                                <div label="J'AI UN BESOIN PARTICULIER, EST-CE POSSIBLE D'ADAPTER UN SITE VITRINE ?">
-                                <p><span className="font-bold">Bien sûr ! Sur un <strong>site internet</strong>, tout est possible.</span> <br/><br/>En effet, ajouter des fonctionnalités à destination des utilisateurs, ou bien en vue d’optimiser la gestion de votre entreprise via un <strong>outil numérique</strong>, se traduit par de nombreuses possibilités en termes de réalisation technique. <br/><br/>Pour cela, nous vous invitons à vous rediriger vers notre <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-de-site-internet-47-31/">page sur la création de site internet sur-mesure</Link></strong> pour obtenir plus d’informations à ce propos. En fonction de vos besoins et des spécificités de votre projet, nous déterminerons tout ce qui va être nécessaire pour vous permettre d’accéder à un site qui vous ressemble et qui sera utile pour votre entreprise.</p>
+                                <div label="J'AI UN BESOIN PARTICULIER, EST-CE POSSIBLE D'ADAPTER UN SITE CATALOGUE ?">
+                                <p><strong>Avoir un site internet</strong> permet la mise en place de nombreuses fonctionnalités favorisant l’<strong>expérience utilisateur</strong>. En termes d’évolutivité, le <span className="font-bold"><strong>site internet catalogue</strong>n’échappe pas à la règle</span>. 
+                                    <br/><br/>
+                                    En effet, il est tout à fait possible de mettre en place des fonctionnalités spécifiques dans le cadre d’une <Link to="/creation-de-site-internet-47-31/" className="text-bleu hover:text-black"><strong>création de site web sur-mesure</strong></Link>.
+                                    <br/><br/>
+                                    Que ce soit au niveau de l’<strong>éditeur du site</strong>, de la mise en place d’un <strong>module de recherche</strong> ou bien d’un <strong>simulateur de devis</strong> par exemple, le <strong>site catalogue</strong> permet l’ajout de ce type d’outils. Pour <strong>créer son site internet professionnel</strong>, il est important d’<span className="font-bold">anticiper l’évolution de son <strong>projet web</strong> dans le temps</span>.
+                                    <br/><br/>
+                                    À ce niveau, le <strong>site internet catalogue</strong> n’est pas une <strong>solution web</strong> limitée. Il peut également convenir de se tourner vers une <span className="font-bold"><strong>solution sur-mesure pour un projet web</strong> de plus grande ampleur.</span></p>
                                 </div>
                             </Accordion>
                         </div>
@@ -610,7 +622,7 @@ class CreationSiteInternetVitrine extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsCreationSiteInternetVitrine {
+query lastsThreePostsCreationSiteInternetCatalogue {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -630,7 +642,7 @@ query lastsThreePostsCreationSiteInternetVitrine {
   
     
 `
-export default CreationSiteInternetVitrine;
+export default CreationSiteInternetCatalogue;
 
 
 

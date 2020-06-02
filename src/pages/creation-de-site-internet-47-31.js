@@ -10,6 +10,7 @@ import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import ButtonMenu from '../components/buttonmenu.js';
 import ButtonMenuBack from '../components/buttonmenuback.js';
+import SousMenu from '../components/sousmenu.js';
 
 import Bg from "../images/creation-site-sur-mesure-background.jpg";
 import imac from "../images/creation-site-sur-mesure.jpg";
@@ -65,7 +66,8 @@ class CreationSiteSurMesure extends React.Component {
                             <h3 className="italic text-lg text-center md:text-2xl text-white">Nous élaborons votre projet de création de site internet sur-mesure selon vos objectifs de communication d’entreprise. Site administrable, fonctionnalités sur-mesure : nous développons des solutions qui vous correspondent.</h3>
                         </div>
                     </section>
-                    <section className="w-full flex flex-row justify-end h-8 font-medium">
+                    <SousMenu/>
+                    {/* <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey" >
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
                         <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Retour</Link></div>
@@ -75,7 +77,7 @@ class CreationSiteSurMesure extends React.Component {
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creer-une-boutique-en-ligne/" text="E-commerce" position="center" /></div>
                             <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
                         </section>
-                    </section>
+                    </section> */}
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
                         <h3 data-aos='fade-right' className="text-center text-3xl md:text-4xl century">
