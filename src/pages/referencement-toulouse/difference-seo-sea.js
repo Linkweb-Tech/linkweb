@@ -58,7 +58,7 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl md:text-5xl xl:text-6xl text-center text-white mt-40">
                     Quelle est la différence entre le SEO et le SEA ?
                     </h2>

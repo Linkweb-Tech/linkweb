@@ -23,6 +23,8 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               "@id":"https://linkweb.fr/#organization",
               "name":"Linkweb",
               "logo":"https://linkweb.fr/data/logo-linkweb.jpg",
+              "telephone":"(+33)5 33 95 00 30",
+              "email":"contact@linkweb.fr",
               "image":{
                 "@type":"ImageObject",
                   "@id":"https://linkweb.fr/#primaryimage",
