@@ -19,7 +19,7 @@ class SousMenu extends React.Component {
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
                         <div className="w-full md:w-1/2 pt-2 text-sm text-left mt-0" style={{marginLeft:'-14px'}}><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Retour</Link></div>
                         </section>
-                        <section className="w-4/5 lg:w-2/5 absolute md:relative z-40 md:z-50 opacity-0 md:opacity-100 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px', minHeight:'48px'}}>
+                        <section className="w-4/5 lg:w-3/5 xl:w-2/5 absolute md:relative z-40 md:z-50 opacity-0 md:opacity-100 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px', minHeight:'48px'}}>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen/" text="Site vitrine" position="center" /></div>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creer-une-boutique-en-ligne/" text="E-commerce" position="center" /></div>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
