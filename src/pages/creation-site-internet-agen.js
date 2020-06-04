@@ -61,7 +61,7 @@ class CreationSiteInternetVitrine extends React.Component {
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site internet vitrine"/>
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
-                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-4xl md:text-6xl text-center text-white">
+                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-4xl md:text-4xl xl:text-6xl text-center text-white">
                             Création site internet vitrine<br/> à Agen (47)<span className="text-bleu">/</span>Toulouse(31)
                             </h1>
                             <br/>
@@ -79,7 +79,7 @@ class CreationSiteInternetVitrine extends React.Component {
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
                         </section>
                     </section> */}
-                    <SousMenu/>
+                    <SousMenu active="a"/>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
                         <br/>
                         <h3 data-aos='fade-right' className="text-center text-4xl century">

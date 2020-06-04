@@ -68,7 +68,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                             <h3 className="italic text-lg text-center lg:text-2xl text-white">Vous souhaitez élargir votre champ d’acquisition pour vendre vos produits ? Créer une boutique en ligne va vous permettre de générer des ventes directement depuis votre site internet et ainsi compléter votre chiffre d’affaires en investissant un nouveau marché.</h3>
                         </div>
                     </section>
-                    <SousMenu />
+                    <SousMenu active="b" />
                     {/* <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>

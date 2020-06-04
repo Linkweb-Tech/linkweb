@@ -60,14 +60,14 @@ class CreationSiteInternetCatalogue extends React.Component {
                             <RoundButton url="/contact-agence-web-toulouse/" text="Créer mon site internet catalogue"/>
                         </div>
                         <div className="w-full md:w-2/3 mt-6 p-1">
-                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-4xl md:text-5xl xl:text-6xl text-center text-white">
+                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl sm:text-4xl md:text-4xl xl:text-6xl text-center text-white">
                             Création site internet catalogue<br/> à Toulouse (31)<span className="text-bleu">/</span>Agen(47)
                             </h1>
                             <br/>
                             <h3 className="italic text-lg text-center md:text-2xl text-white">Vous souhaitez promouvoir vos biens et services ? Le site internet catalogue s'intègre parfaitement dans une stratégie de promotion en vue de l'acquisition de nouveaux clients sur le Web.</h3>
                         </div>
                     </section>
-                    <SousMenu/>
+                    <SousMenu active="c"/>
                     {/* <section className="w-full flex flex-row justify-end h-8 font-medium">
                         <section className="bg-white w-1/5 lg:w-1/12 flex text-center italic text-xs sm:text-sm md:text-md text-darkgrey">
                         <div className="w-full md:w-1/2 p-1 mt-0"><ButtonMenuBack url="/creation-site-internet-toulouse/" position="center"/></div>
