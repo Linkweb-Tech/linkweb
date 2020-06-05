@@ -401,3 +401,33 @@ article {
     height:100vh;
     min-height:500px;
 }
+
+.clictop {
+    position:fixed;
+    color:black;
+    width: 10%;
+    right:60px;
+    bottom: 50px;
+    transition:0.4s;
+
+    @media (max-width:768px) {
+        position:absolute;
+        bottom:1443px;
+    }
+    @media (min-width:768px) and (max-width:1024px) {
+        position:absolute;
+        bottom:500px;
+    }
+    @media (min-width:1023px) {
+        opacity:0;
+    }
+}
+
+.clictop:hover {
+    transform:scale(1.1);
+    transition:0.4s;
+}
+.clictop svg {
+   fill:#37cfee
+
+}
