@@ -1,17 +1,21 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
-import ButtonBlog from "../../components/buttonblog";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
+import ButtonBlog from "../../components/buttonblog";
 import "../../scss/faqpages.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
 import bgbloc from "../../images/background.jpg";
-import stratref from "../../images/referencement-moteurs.jpg";
-import seovssea from "../../images/seo-vs-sea.jpg";
+import stratref from "../../images/strategie-referencement-naturel.jpg";
+import affichage from "../../images/affichage-resultats-recherche.jpg";
+import content from "../../images/content-marketing-seo.jpg";
 import evaluation from "../../images/evaluation-strategie-seo.jpg";
+import refGoogle from "../../images/referencement-google-toulouse.jpg";
+import travailref from "../../images/travail-referencement-naturel.jpg";
+import traficref from "../../images/trafic-referencement-naturel.jpg";
 
 import fbIcon from "../../images/facebook-logo.svg";
 import twitterIcon from "../../images/twitter-logo.svg";
@@ -20,7 +24,7 @@ import instaIcon from "../../images/instagram-logo.svg";
 
 
 
-class DiffSEOSEA extends React.Component {
+class Aquoisertleref extends React.Component {
 
     constructor(props) {
         super(props);
@@ -32,12 +36,12 @@ render() {
         <Layout location={this.props.location}>
 
             <SEO
-                title="Quelle est la différence entre le SEO et le SEA ? | Création site internet à Toulouse (31)"
-                description="Le référencement naturel et le référencement sponsorisé sont deux disciplines différentes, bien loin d'être opposées."
+                title="À quoi sert le référencement naturel ? | Création site internet à Toulouse (31)"
+                description="Le référencement naturel est bénéfique pour apporter de la visibilité à une entreprise via son site web."
                 keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
-                url="https://linkweb.fr/referencement-toulouse/difference-seo-sea/"
-                nom="Quelle est la différence entre le SEO et le SEA ?"
-                slug="referencement-toulouse/difference-seo-sea/"
+                url="https://linkweb.fr/referencement-toulouse/a-quoi-sert-le-referencement-naturel/"
+                nom="À quoi sert le référencement naturel ?"
+                slug="referencement-toulouse/quest-ce-que-le-referencement-naturel/"
             />
             {/* <PageTransition
                 defaultStyle={{
@@ -60,7 +64,7 @@ render() {
             > */}
                 <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl md:text-5xl xl:text-6xl text-center text-white mt-40">
-                    Quelle est la différence entre le SEO et le SEA ?
+                    À quoi sert le référencement naturel ?
                     </h2>
                     <Link to="/referencement-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Référencement à Toulouse</h1></Link>
                     <br/>
@@ -100,7 +104,7 @@ render() {
                     {/* FIN Réseaux Sociaux */}
                 </section>
                 
-                <section className="w-full  flex flex-col lg:flex-col xl:flex-row flex justify-center">
+                <section className="w-full  flex flex-col  xl:flex-row flex justify-center">
                     
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
@@ -183,108 +187,143 @@ render() {
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
                         
-                        <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Quelle est la différence entre le SEO et le SEA ?</p>
-                        <h3>Le référencement web est une branche du marketing digital qui présente un fort potentiel pour les professionnels. Il faut savoir que sous la notion de référencement web, plusieurs disciplines cohabitent. Nous aborderons ici les deux principales : le SEO et le SEA.</h3>
+                    <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
+                        <h3>La <Link to="/creation-site-internet-toulouse/" className="text-bleu font-bold hover:text-black">création d'un site internet</Link> est un parfait moyen pour développer son entreprise en attirant une nouvelle clientèle. Mais quelle serait son utilité si aucun moyen de visibilité n'était développé à son égard ?</h3>
                         <br/>
-                        <p>Donner de la <strong>visibilité à son site internet</strong> par la voie du <strong>référencement</strong> est quasi-indispensable, de nos jours. Toutefois, il existe plusieurs façons de mettre en avant son <strong>site internet dans les pages de résultats des moteurs de recherche</strong>.</p>
-
-                        <p>À ce niveau, le <strong>SEO et le SEA</strong> sont deux disciplines qui vont permettre d’<strong>acquérir de la visibilité sur le Web</strong> à travers une méthodologie pourtant bien différente. Parfois opposés, le <strong>SEO</strong> et le <strong>SEA</strong> sont deux techniques qui vont permettre d’investir les <strong>Top positions des premières pages de résultats de Google</strong>.</p>
+                        <p className="text-center font-bold text-xl">Alors, à quoi sert le référencement naturel ?</p>
+                        <br/>
+                        <p>Le <Link to="/referencement-toulouse/quest-ce-que-le-referencement-naturel/" className="text-bleu font-bold hover:text-black"><strong>référencement naturel ou SEO (Search Engine Optimization)</strong></Link> est une discipline issue du <strong>webmarketing</strong> destinée à rendre un <strong>site internet visible sur les moteurs de recherche</strong>. De ce point de vue, vous ne cherchez plus vos clients puisque ce sont eux qui vous trouvent.</p>
+                        <p>De plus, <a href="https://www.imforza.com/blog/8-seo-stats-that-are-hard-to-ignore/" target="_blank" rel="noreferrer noopener" className="text-bleu font-bold hover:text-black">93% des expériences en ligne commencent avec un <strong>moteur de recherche</strong></a>. Développer une <strong>stratégie de référencement naturel</strong> pour <strong>son site internet</strong> est donc indispensable afin d'obtenir de la <strong>visibilité sur le Web</strong>.</p>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <h2>SEO et SEA : définitions</h2>
+                        <h2>Référencement naturel : une discipline webmarketing redoutable</h2>
                         <br/>
-                        <p>Si le SEO et le SEA se retrouvent dans la branche du <strong>Référencement Web</strong>, il faut savoir qu’elles désignent des <strong>techniques de référencement</strong> pourtant bien différentes. Pour le comprendre, il faut se pencher sur leur définition.</p>
+                        <p>Vous l'aurez compris, donner de la <strong>visibilité à votre site internet</strong> est indispensable pour développer votre activité. Ainsi, le <strong>référencement naturel</strong> permet de développer un <strong>trafic organique</strong> qui est l'un des 6 <strong>canaux d'acquisition de trafic</strong> principaux sur un <strong>site web</strong>, parmi lesquels :</p>
                         <br/>
-                        <h3 className="intertitre3">Search Engine Optimization (SEO)</h3>
+                        <ul>
+                            <li><span className="text-bleu">></span> Les <strong>réseaux sociaux</strong>,</li>
+                            <li><span className="text-bleu">></span> Le <strong>trafic organique</strong>,</li>
+                            <li><span className="text-bleu">></span> La publicité (<strong>Ads</strong>),</li>
+                            <li><span className="text-bleu">></span> Le <strong>mailing</strong>,</li>
+                            <li><span className="text-bleu">></span> Le <strong>trafic direct</strong> : lorsqu'un utilisateur saisit l'<strong>adresse URL de votre site</strong> directement dans son <strong>navigateur</strong>.</li>
+                            <li><span className="text-bleu">></span> Le <strong>referral</strong> : lorsqu'un utilisateur visite <strong>votre site web</strong> en provenance d'un autre site.</li>
+                        </ul>
                         <br/>
-                        <p>Le <strong>SEO</strong>, ou <strong>Search Engine Optimization (optimisation pour les moteurs de recherche)</strong>, est une discipline issue du <strong>webmarketing</strong> consistant à apporter de la <strong>visibilité à une page web via les moteurs de recherche</strong> de part son <strong>positionnement dans les résultats de recherche pour un mot-clé donné</strong>.</p>
-                        <p>Ainsi, le SEO désigne un travail d’optimisation qui peut-être réalisé sur ou en dehors du site et qui répond à une mise en oeuvre stratégique particulière. Le SEO, ou référencement naturel est caractérisé par la mise en place de stratégies basées sur le long terme.</p>
-                        <p>Ce travail d’<strong>optimisation</strong> répond à un ensemble de <strong>critères de pertinence définis par Google</strong> afin de favoriser le <strong>contenu de qualité</strong> et apportant une réponse à l’utilisateur.</p>
+                        <p>Le <strong>référencement naturel</strong> est même le leader des <strong>canaux d'acquisition de trafic</strong> si l'on en croit Outbrain, relayé par Ironpaper, puisqu'<a href="https://www.ironpaper.com/webintel/articles/2015-critical-seo-statistics-and-trends/" target="_blank" rel="noreferrer noopener" className="text-bleu font-bold hover:text-black">il générerait 300% de trafic en plus que les réseaux sociaux</a>.</p>
+                        <p>Toutefois, il faut savoir que le <strong>référencement naturel</strong> est une discipline qui se pratique et s'évalue sur le long terme. Le trafic généré est donc progressif lors du démarrage de la stratégie avant de se stabiliser par la suite.</p>
+                        <p>De plus, le <strong>trafic organique</strong> présente l'intérêt d'être basé sur la motivation et l'<strong>intention de recherche de l'utilisateur</strong>. Il se trouve dans une phase active de recherche. <strong>Votre site web</strong> devra donc nécessairement apporter une réponse à sa problématique.</p>
+                        <p>En ciblant les bons <strong>mots-clés</strong> dans l'établissement de votre stratégie et en mettant en place un contenu adéquat, le <strong>référencement naturel</strong> pourrait s'avérer particulièrement bénéfique pour votre entreprise.</p>
                         <br/>
-                        <h3 className="intertitre3">Search Engine Advertising (SEA)</h3>
-                        <br/>
-                        <p>Le <strong>SEA</strong>, ou <strong>Search Engine Advertising</strong> (publicité sur les <strong>moteurs de recherche</strong>) est une discipline également issue du <strong>webmarketing</strong> qui vise à <strong>apporter de la visibilité à une page de web</strong> de manière <strong>sponsorisée</strong>. Cette visibilité est acquise dans les <strong>pages de résultats de recherche</strong> pour des <strong>expressions clés</strong> données.</p>
-                        <p>Le <strong>travail de SEA</strong> est basé sur la <strong>création de pages web</strong> (<strong>landing pages</strong> ou pages d’entrées) optimisées pour la conversion. Il se base également sur l’outil <strong>Google Ads</strong> permettant de planifier des <strong>campagnes sponsorisées</strong>.</p>
-                        <p>Ce travail est encadré par la définition d’<strong>annonces de qualité</strong>. Ces annonces sont mises en concurrence pour être classées dans les <strong>pages de résultats de recherche</strong> à partir de certains critères d’évaluation.</p>
                         <hr style={{width:'100%'}}/>
                         <br/>
                         <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse"/>
                         <br/>
-                        <h2>SEO vs SEA : similitudes et différences</h2>
+                        <h2>Pourquoi parle-t-on de référencement Google ?</h2>
                         <br/>
-                        <h3 className="intertitre3">SEO vs SEA : les similitudes</h3>
+                        <p>Bien souvent, lorsque l'on parle de <strong>référencement naturel</strong>, la confusion peut être réalisée vis-à-vis de l'expression de "<strong>référencement Google</strong>". Cela peut s'expliquer par deux raisons :</p>
                         <br/>
-                        <p>Si ces deux disciplines sont différentes, il faut savoir qu’elles présentent malgré tout des similitudes qui permettent de les englober au sein d’une même branche qu’est le <strong>référencement web</strong>.</p>
+                        <h3 className="intertitre3">Un abus de langage relatif au référencement publicitaire ou référencement payant</h3>
                         <br/>
-                        <h4 className="px-12">Le même objet d’étude : la SERP</h4>
+                        <p>Parler de "<strong>référencement Google</strong>" peut signifier parler de <Link to="/agence-adwords-47-31/" className="text-bleu font-bold hover:text-black"><strong>référencement Google Ads</strong></Link>. <strong>Google Ads</strong> est une plateforme proposée par <strong>Google</strong> qui permet aux utilisateurs de créer des <strong>campagnes de référencement sponsorisé</strong>.</p>
+                        <p>Ces campagnes se matérialisent par des <strong>annonces sponsorisées</strong> que l'on peut observer directement dans les <strong>pages de résultats de recherche des moteurs</strong> avec la mention "sponsorisé".</p>
+                        <p>L'expression "<strong>référencement Google</strong>" peut donc constituer un abus de langage vis-à-vis du <strong>référencement Google Ads</strong> qui est une autre discipline <strong>webmarketing</strong> qu'englobe le <strong>référencement web</strong> et qui constitue un <strong>canal d'acquisition</strong> à part entière. </p>
                         <br/>
-                        <p>Avant tout, ce qui rassemble ces deux disciplines est leur objet d’étude, à savoir la <strong>SERP</strong> ou <strong>page de résultats de recherche</strong> (<strong>Search Engine Results Page</strong>). En effet, le <strong>SEA</strong> et le <strong>SEO</strong> ont pour vocation de <strong>positionner des pages web dans les résultats de recherche de Google</strong>. De ce point de vue, elles présentent un objectif commun : gagner sa place dans les <strong>premiers résultats de recherche</strong> pour un <strong>mot-clé</strong> donné.</p>
+                        <h3 className="intertitre3">Google est le leader mondial et incontesté du marché des moteurs de recherche</h3>
                         <br/>
-                        <h4 className="px-12">Le mot-clé au coeur de la stratégie</h4>
+                        <p>L'autre raison qui nous porte à parler de "<strong>référencement Google</strong>" est tout simplement que Google est le <strong>leader du marché du moteur de recherche</strong> dans le monde.</p>
+                        <p>En effet, les chiffres montrent que <a href="https://fr.semrush.com/blog/50-faits-incontournables-pour-votre-strategie-seo/" className="text-bleu font-bold hover:text-black" target="_blank" rel="noreferrer noopener">Google détenait 73.34% des marchés de marché sur l'année 2020</a>. Même si nous avons pu observer un retour en force de <strong>Bing</strong>, le <strong>moteur de recherche de la Mountain View</strong> reste un solide leader.</p>
+                        <p>De plus, <strong>5,5 milliards de requêtes sont effectuées chaque jour sur Google</strong> quand il en décomptait 2,3 trillons sur l'année 2019, ce qui est absolument considérable.</p>
                         <br/>
-                        <p>L’une des principales similitudes entre ces deux disciplines va être l'<strong>importance du mot-clé au coeur de la stratégie</strong>. En effet, quelque soit la stratégie, celle-ci doit s’appuyer sur le <strong>choix de mots-clés finement choisis</strong>. Ce sont eux qui vous permettront d’<strong>acquérir de la visibilité</strong>, qu’il s’agisse d’une <strong>campagne sponsorisée</strong> ou d’une <strong>stratégie de référencement naturel</strong>.</p>
-                        <br/>
-                        <h4 className="px-12">Un format similaire</h4>
-                        <br/>
-                        <p>Également, SEO et SEA trouvent des similitudes dans le format présenté sur la <strong>page de recherche</strong>. En effet, les deux disciplines ont pour vocation de mettre en avant des cartes composées d’un <strong>titre, d’une description et du chemin d’accès de la page</strong>. Les deux disciplines permettent d’afficher des informations supplémentaires en plus de ces données principales.</p>
-                        <br/>
-                        <h4 className="px-12">Des objectifs proches</h4>
-                        <br/>
-                        <p>Enfin, le SEO et le SEA répondront à des objectifs stratégiques similaires. Parmi eux : <strong>générer de la visibilité</strong>, gagner les <strong>Top positions des pages de résultats de recherche</strong>, <strong>augmenter le trafic de son site web</strong> ou encore <strong>améliorer sa notoriété</strong>. Toutefois, si on regarde de plus près, cela reste à nuancer : si le SEO a pour vocation d’installer une marque dans l’univers <strong>Google</strong>, le SEA aura tendance à rechercher une <strong>visibilité rapide pour attirer des prospects et les convertir</strong>.</p>
-                        <br/>
-                        <h3 className="intertitre3">SEO vs SEA : les différences</h3>
-                        <br/>
-                        <p>Les différences entre ces deux disciplines sont toutes aussi nombreuses.</p>
-                        <br/>
-                        <h4 className="px-12">L’affichage de la carte dans les résultats</h4>
-                        <br/>
-                        <p>Si les cartes dans les <strong>résultats de recherche</strong> présentent des similitudes, plusieurs éléments viennent les démarquer. En effet, à la différence des <strong>résultats naturels</strong>, les <strong>résultats sponsorisés</strong> contiennent la mention <strong>« Annonce » ou « Ads »</strong> pour signifier qu’il s’agit de <strong>campagnes publicitaires</strong> rémunérées.</p>
-                        <p>Également, les élémentaires complémentaires qu’il va être possible de mettre en avant seront différents : pour le <strong>SEO</strong>, il s’agira de « <strong>rich snippets</strong> » (<strong>résultats enrichis</strong>) liés aux <strong>données structurées</strong> alors que pour le <strong>SEA</strong>, il sera possible d’ajouter un numéro de téléphone à côté du chemin d’accès de la page par exemple et bien d’autres éléments.</p>
-                        <br/>
-                        <h4 className="px-12">Des stratégies à durée inégale</h4>
-                        <br/>
-                        <p>Ce qui différencie le SEO et le SEA va également être leur place dans une stratégie. Le SEO fait appel à beaucoup de travail, de rigueur et de régularité afin d’<strong>obtenir des résultats sur le long terme</strong>. Au contraire, le SEA est une stratégie dite de court terme puisqu’elle va chercher à <strong>booster la visibilité d’un site web</strong> le plus rapidement possible et de façon ponctuelle.</p>
-                        <br/>
-                        <h4 className="px-12">Une méthodologie opposée : sponsorisation vs gratuit</h4>
-                        <br/>
-                        <p>Par ailleurs, la méthodologie utilisée dans les deux disciplines est opposée. Alors que le SEA s’apparente à un <strong>référencement payant</strong>, il est tout à fait possible de mener à bien une <strong>stratégie de référencement naturel</strong> de manière gratuite.</p>
-                        <p>Toutefois, cette notion de gratuité est à nuancer : le SEO est particulièrement friand de temps de travail, c’est pourquoi le tarif du SEO va être déterminé par son besoin en compétences et en temps à y consacrer. En effet, le SEO est une discipline bien plus complexe à assimiler et qui demande des <strong>compétences techniques</strong> particulières.</p>
-                        <br/>
-                        <h4 className="px-12">La question du contenu</h4>
-                        <br/>
-                        <p>Enfin, une autre différence réside dans la <strong>question du contenu</strong>. Si le bon contenu est indispensable en termes de <strong>SEO</strong>, il ne constituera pas forcément un frein en termes de <strong>SEA</strong>. Il n’est pas question de dire que le contenu n’est pas important en termes de SEA. En revanche, il est bien loin de la place qui lui est accordée en SEO.</p>
-                        <p>Aussi, il faut savoir que cela n’empêche pas la qualité : lors de la <strong>création d’annonces sponsorisées</strong>, <strong>Google Ads</strong> détermine un <strong>score de qualité</strong> qui sera forcément un facteur déterminant quant aux modalités d’affichage de vos <strong>annonces</strong>. En d’autres termes, une annonce présentant un faible score de qualité pourra être moins bien placée qu’une <strong>annonce à score de qualité élevé et au budget inférieur</strong>.</p>
+                        <img className="mx-0 block w-full" src={refGoogle} alt="Référencement Toulouse"/>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <img className="mx-0 block w-full" src={seovssea} alt="Référencement Toulouse"/>
+                        <h2>Pourquoi faut-il miser sur le référencement naturel ?</h2>
                         <br/>
-                        <h2>SEO vs SEA : quand les utiliser ?</h2>
+                        <p>Parce qu'il s'adresse à tout le monde ! Que vous soyez une firme internationale ou bien auto-entrepreneur, vous êtes en mesure de <strong>mettre en place une stratégie de référencement naturel</strong> adaptée à vos besoins.</p>
                         <br/>
-                        <p>Après avoir défini et comparé ces deux notions, il s’agit désormais de déterminer quand chaque discipline sera la plus pertinente à utiliser. En effet, chaque discipline présentera un intérêt particulier dans des certaines situations.</p>
+                        <h3 className="intertitre3">Une stratégie adaptable en fonction de votre problématique</h3>
                         <br/>
-                        <h3 className="intertitre3">Quand utiliser le SEO ?</h3>
+                        <p>En effet, le <strong>référencement naturel</strong> vous permet d'<strong>obtenir de la visibilité</strong> à votre échelle, notamment grâce à la <strong>définition de cibles et de zones géographiques</strong> particulièrement bien réfléchie.</p>
+                        <p>Si le <strong>Web</strong> n'a pas de frontière, il faut savoir que le <strong>référencement naturel</strong> peut également vous apporter de la <strong>visibilité sur le plan local</strong>. En effet, il existe des techniques et outils permettant de <strong>développer votre visibilité</strong> en particulier sur des <strong>secteurs géographiques</strong> ciblés et pertinents pour vous.</p>
+                        <p>Cela passe par un travail d'analyse réalisé grâce à des <strong>outils d'audit SEO</strong> indispensables à la définition d'une stratégie pérenne et efficace.</p>
                         <br/>
-                        <p>Mettre en place une <strong>stratégie de référencement naturel</strong> va être pertinent lorsque vous allez souhaiter <strong>développer la visibilité</strong> et la <strong>notoriété de la marque</strong> afin d’<strong>acquérir du trafic</strong> et de <strong>nouveaux clients</strong> dans un second temps. Le <strong>référencement naturel</strong> s’applique sur le <strong>long terme</strong> et est complémentaire d’une <strong>stratégie de contenus</strong>.</p>
-                        <p>Il est recommandé de lancer sa <strong>stratégie de référencement naturel</strong> dès la création et la mise en place du <strong>projet web</strong> en question. Le <strong>SEO</strong> nécessite du temps pour apporter des résultats concrets : il est en partie soumis à l’interprétation de <strong>Google</strong> et fait face à une vive concurrence.</p>
-                        <p>En revanche, il est possible de contourner une partie de ces contraintes en vue d’écourter les délais. Cela va demander une orientation particulière de sa <strong>stratégie de référencement naturel</strong> visant à obtenir des <strong>premiers résultats</strong> dans des délais raisonnables.</p>
+                        <h3 className="intertitre3">Des outils existent pour mettre en place une stratégie efficace</h3>
                         <br/>
-                        <h3 className="intertitre3">Quand utiliser le SEA ?</h3>
+                        <p>Si le <strong>SEO</strong> peut se montrer particulièrement bénéfique pour votre entreprise, c'est tout simplement car rien n'est laissé au hasard. Disposer d'<strong>outils SEO</strong> est indispensable pour miser sur le <strong>référencement naturel</strong> de manière totalement sereine.</p>
+                        <p>C'est pourquoi, à <strong>Linkweb</strong>, nous utilisons une diversité d'outils et de <strong>logiciels SEO</strong> qui nous permettent de <strong>développer des stratégies de référencement naturel</strong> performantes générant des résultats intéressants pour nos clients.</p>
+                        <p>De la définition de la stratégie jusqu'à son évaluation, plusieurs types d'outils vont se montrer particulièrement utiles.</p>
                         <br/>
-                        <p>Au contraire d’une <strong>stratégie de référencement naturel</strong>, la mise en place de <strong>campagnes sponsorisées</strong> sera pertinente de manière ponctuelle et donc sur du court terme. En fonction de votre activité et de vos offres, le <strong>référencement sponsorisé</strong> va être pertinent afin de propulser un nouveau produit par exemple.</p>
-                        <p>Le <strong>SEA</strong> permet d’<strong>acquérir une visibilité</strong> très rapide qui vise à augmenter le nombre de commandes passées sur son site par exemple. Dans tous les cas, quelque soit l’objectif et relativement au budget engagé dans la campagne, il va être important de dégager un <strong>retour sur investissement (ROI)</strong>.</p>
-                        <p>Enfin, le SEA va être pertinent durant des périodes propices à la consommation, là où le <strong>référencement naturel</strong> vous confrontera à une très forte concurrence qu’il sera difficile de détrôner : soldes, Black Friday, fêtes de fin d’année, etc.</p>
+                        <h4>Choisir des mots-clés au potentiel important</h4>
+                        <br/>
+                        <p>Le <strong>choix de mots-clés stratégiques</strong> doit être réalisé à partir de plusieurs critères. Ceci amène à se poser les questions suivantes : </p>
+                        <br/>
+                        <ul>
+                            <li><span className="text-bleu">></span> Est-ce que ce mot-clé est cohérent vis-à-vis de l'entreprise ? Est-ce qu'il décrit son activité de façon cohérente ?</li>
+                            <li><span className="text-bleu">></span> Est-ce que ce <strong>mot-clé est recherché par les utilisateurs</strong> ?</li>
+                            <li><span className="text-bleu">></span> Quel <strong>type de contenu</strong> apparaît pour cette requête ?</li>
+                            <li><span className="text-bleu">></span> Comment se comporte la <strong>concurrence</strong> sur ce mot-clé ?</li>
+                        </ul>
+                        <br/>
+                        <p>Pour répondre à ces différentes questions, plusieurs outils proposent des indicateurs qui permettent de mesurer les différents critères abordés. Ceci est essentiel car le <strong>choix des mots-clés</strong> est l'une des étapes fondatrices de votre <strong>stratégie SEO</strong>. <strong>Choisir de bons mots-clés</strong> est la base en vue de mettre en place une stratégie performante.</p>
+                        <br/>
+                        <h4>Créer un contenu adapté</h4>
+                        <br/>
+                        <p>Le <strong>référencement naturel</strong> est une discipline particulièrement exigeante quant à la <strong>qualité du contenu</strong> à mettre en place. Que ce soit en termes de structure (forme) ou bien du <strong>champ sémantique</strong> (fond) à proposer, tout doit être soigné et ne doit pas laisser de place au hasard.</p>
+                        <p>À ce niveau, certains outils permettent d'analyser la <strong>qualité d'un contenu</strong> ainsi que d'observer à quel objectif il est destiné. Ceci est important quant à la <strong>notion d'intention de recherche</strong> notamment : qu'est-ce que l'utilisateur cherche à faire lorsqu'il réalise une requête ? Nous tenons compte de cette spécificité dans la <strong>rédaction des contenus de votre site internet</strong>.</p>
+                        <br/>
+                        <h4>Monitorer le positionnement et les performances de son site</h4>
+                        <br/>
+                        <p>Enfin, il va être nécessaire d'utiliser des outils permettant d'<strong>évaluer sa stratégie sur le long terme</strong>. Ici, il va être question de mettre en place un <strong>suivi du positionnement de ses pages</strong> pour les <strong>requêtes ciblées</strong>.</p>
+                        <p>Toutefois, <strong>évaluer une stratégie de référencement</strong> uniquement par le prisme du <strong>positionnement</strong> est une erreur. Mesurer l'activité exercée sur le <strong>site web</strong> permet d'avoir un regard plus concret sur les bénéfices apportés par le <strong>référencement naturel à votre site web</strong> et plus globalement à votre entreprise.</p>
+                        <p>En effet, le <strong>référencement naturel</strong>, à travers le <strong>positionnement dans les résultats de recherche</strong>, n'est qu'un moyen pour vous faire parvenir à vos objectifs. En vous apportant une visibilité ciblée, il doit vous permettre d'<strong>atteindre vos objectifs commerciaux</strong>.</p>
+                        <p className="text-center font-bold">Bien sûr, cette liste est non-exhaustive. Néanmoins, elle est révélatrice de l'ampleur des critères qui vont être traités pour ne pas laisser de place au hasard dans le <strong>développement de votre stratégie</strong>.</p>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
-                        <img className="mx-0 block w-full" src={stratref} alt="Référencement Toulouse"/>
+                        <img className="mx-0 block w-full" src={travailref} alt="Référencement Toulouse"/>
                         <br/>
-                        <h2>Faut-il opposer SEO et SEA ?</h2>
+                        <h2>Comment se matérialise le travail de référencement naturel ?</h2>
                         <br/>
-                        <p>En rapport à tous ces éléments, l’opposition historique entre le <strong>référencement naturel</strong> et le <strong>référencement sponsorisé</strong> est plus discutée que jamais. En effet, il ne s’agit pas d’opposer ces deux disciplines. Elles doivent être complémentaires. <strong>Combiner le SEO et le SEA</strong> au sein d’une stratégie globale de <strong>Search Engine Marketing (SEM)</strong> est d’autant plus pertinent pour maximiser ses chances d’atteindre ses objectifs.</p>
-                        <p>Tous les moyens sont bons pour <strong>acquérir de la visibilité</strong> et <strong>développer le statut digital de sa marque</strong>. En fonction de la situation, mettre en place une <strong>campagne sponsorisée</strong> pourra s’avérer plus pertinent que <strong>développer son référencement naturel</strong> et vice-versa. Toutefois, dans une logique globale, l’erreur serait de les opposer jusqu’à choisir l’un plutôt que l’autre et ainsi se priver de leur complémentarité.</p>
-                        <p>Là où le <strong>référencement naturel</strong> va demander du temps, le <strong>référencement sponsorisé</strong> va permettre d’obtenir des résultats rapides. Mixer ces deux disciplines sera alors pertinent pour démarrer tout en maximisant son efficacité.</p>
+                        <p>Si le <strong>référencement naturel</strong> peut s'avouer particulièrement bénéfique pour une entreprise, il faut savoir que cela demande beaucoup de temps et de compétences. En effet, <strong>référencer son site web dans les premiers résultats de la première page de recherche</strong> peut prendre des mois, voire des années.</p>
+                        <p>Pour pallier à cet inconvénient, les <strong>stratégies SEO</strong> sont pensées pour <strong>développer une visibilité à court ou moyen terme</strong> grâce à des alternatives particulièrement fructueuses : <strong>longue traîne</strong>, <strong>référencement local</strong>, etc.</p>
+                        <p>Toutefois, il n'y a pas de secret : obtenir un <strong>bon référencement</strong> demande de porter une attention au moindre détail. En effet, c'est dans le détail que vous parviendrez à attirer des consommateurs <strong>vers votre site</strong>.</p>
+                        <p>Le soin à apporter à la mise en œuvre de votre stratégie découle du fait que le <strong>référencement naturel</strong> est généralement divisé en deux sous-disciplines auxquelles il va falloir être particulièrement attentif : </p>
+                        <br/>
+                        <ul>
+                            <li><span className="text-bleu">></span> la <strong>création de contenus sur le site internet</strong>,</li>
+                            <li><span className="text-bleu">></span> la <strong>popularité du site internet sur le web</strong>.</li>
+                        </ul>
+                        <br/>
+                        <h3 className="intertitre3">Le contenu : faire autorité dans votre domaine</h3>
+                        <br/>
+                        <p>La <strong>création de contenus sur un site internet</strong> fait partie du travail d'<strong>optimisation</strong> sur lequel il est possible d'avoir entièrement la main. Ainsi, le <strong>contenu présent sur un site web</strong> doit être le plus travaillé possible pour générer le maximum de <strong>performance SEO</strong>.</p>
+                        <p>Dans la question du <strong>contenu publié sur un site web</strong>, il y a la question de l'<strong>optimisation sur un mot-clé</strong>, mais il y a surtout une question de plan de production. Il est important de <strong>créer du contenu de façon régulière</strong> pour réduire les délais d'<strong>indexation de vos pages web</strong>, mais bien un <strong>contenu de qualité</strong> qui s'inscrit dans le champ thématique de votre secteur ou domaine d'activité.</p>
+                        <p>Ceci est d'autant plus important que <strong>Google est particulièrement exigeant sur la qualité et la pertinence du contenu produit et publié sur les sites internet</strong>. C'est pourquoi, il propose même des <a href="https://support.google.com/websearch/answer/9281931?hl=en" className="text-bleu font-bold hover:text-black" target="_blank" rel="noreferrer noopener">règles favorisant la production d'un contenu qu'il juge de bonne qualité</a>.</p>
+                        <br/>
+                        <h3 className="intertitre3">Le balisage</h3>
+                        <br/>
+                        <p>Au-delà de la <strong>production de contenu de qualité et pertinent</strong>, cette dernière serait inefficace sans une <strong>structure HTML</strong> construite pour faciliter la <strong>lecture de vos pages web par les moteurs de recherche</strong>. En effet, ce travail est parfaitement complémentaire au travail sur le contenu et il est indispensable de proposer un <strong>balisage cohérent et soigné pour positionner au mieux vos pages dans les résultats de recherche</strong>.</p>
+                        <p>En effet, la présence de certaines <strong>balises</strong> fait figure de <strong>critère de classement</strong> (ou <strong>critère de pertinence</strong>) auprès des <strong>moteurs de recherche</strong> et notamment des <strong>algorithmes de Google</strong>. Le travail de balisage est indispensable pour favoriser le <strong>référencement d'un site internet</strong>.</p>
+                        <br/>
+                        <h3 className="intertitre3">Le netlinking : rendre votre site populaire</h3>
+                        <br/>
+                        <p>Enfin, le <strong>netlinking</strong> ou bien la <strong>construction de liens externes</strong> est l'une des pierres angulaires du <strong>référencement naturel</strong>. Contrairement au <strong>travail de référencement on-site</strong>, le <strong>netlinking</strong> consiste à développer un <strong>réseau de liens externes sur le Web</strong> et redirigeant <strong>vers votre site</strong> (<strong>backlinks</strong>).</p>
+                        <p>Ce travail est particulièrement difficile car il demande de la patience. En effet, il s'agit de l'une des missions de <strong>référencement</strong> sur lesquelles il n'est pas évident d'avoir la main. Pour développer un <strong>réseau de liens entrants vers son site</strong>, il va être nécessaire de nouer des partenariats avec d'autres sites, ou bien de <strong>créer un contenu original</strong>, qui apporte une plus-value par rapport au contenu déjà publié et qui sera donc plus à même d'être partagé par d'autres <strong>sites web</strong> ou <strong>blogs</strong>.</p>
+                        <p>En somme, le <strong>travail de netlinking</strong> est une sous-discipline à part entière, indispensable pour <strong>créer un maillage externe pour votre site internet</strong> et ainsi convaincre les <strong>moteurs de recherche</strong> de la <strong>popularité</strong>, de la <strong>légitimité</strong> et de la <strong>fiabilité de votre contenu</strong>.</p>
+                        <br/>
+                        <hr style={{width:'100%'}}/>
+                        <br/>
+                        <img className="mx-0 block w-full" src={traficref} alt="Référencement Toulouse"/>
+                        <br/>
+                        <h2>Alors, à quoi sert le référencement naturel ?</h2>
+                        <br/>
+                        <p>Face à la rigueur, la régularité et la patience auxquelles le <strong>référencement naturel</strong> fait appel, certains pourront vite se sentir découragés. Mener une <strong>stratégie de référencement naturel</strong> ne sera bénéfique si et seulement si elle est rondement menée jusqu'à son terme.</p>
+                        <p>De la <strong>définition des mots-clés</strong> à la <strong>publication des contenus</strong> et en passant par la <strong>création de liens externes</strong>, il est important d'apporter un soin important au travail effectué. Ceci est une condition nécessaire pour que le <strong>référencement naturel</strong> soit utile pour vous.</p>
+                        <p>Le <strong>référencement naturel</strong> est une discipline qui présente un potentiel conséquent et qui peut vous permettre de <strong>développer votre activité</strong> grâce à un gain en termes de <strong>visibilité</strong>, de <strong>notoriété</strong> en vous permettant également de travailler <strong>votre image de marque</strong>.</p>
+                        <p>Toutefois, afin de veiller à la mise en place d'une stratégie pérenne et performante, le recours à des professionnels comme notre <Link to="/referencement-de-site-internet-47-31/" className="font-bold text-bleu hover:text-black"><strong>agence de référencement à Toulouse et Agen</strong></Link> peut s'avérer nécessaire. L'investissement en <strong>référencement naturel</strong> se matérialise par du temps de travail et des compétences.</p>
+                        <p>Bâtie sur le long terme, une <strong>stratégie de référencement</strong> efficace vous permettra de d'<strong>attirer de nouveaux clients</strong> et, à terme, <strong>d'augmenter votre chiffre d'affaires</strong>.</p>
                     </div>
                     <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
                         <h2>Vous souhaitez mettre en place un projet web ?</h2>
@@ -307,4 +346,4 @@ render() {
 
 
 
-export default DiffSEOSEA;
+export default Aquoisertleref;

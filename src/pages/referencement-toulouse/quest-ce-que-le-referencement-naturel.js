@@ -38,7 +38,7 @@ render() {
                 keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
                 url="https://linkweb.fr/referencement-toulouse/quest-ce-que-le-referencement-naturel/"
                 nom="Qu'est-ce que le référencement naturel ?"
-                slug="creation-site-internet-toulouse/quest-ce-que-le-referencement-naturel/"
+                slug="referencement-toulouse/quest-ce-que-le-referencement-naturel/"
             />
             {/* <PageTransition
                 defaultStyle={{

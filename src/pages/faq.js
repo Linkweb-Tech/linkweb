@@ -269,7 +269,7 @@ class FAQ extends React.Component {
                                 <li><span className="text-bleu">></span> L’<strong>optimisation de son site web</strong> en fonction des habitudes et du <strong>comportement des utilisateurs</strong>.</li>
                                 <br />
                                 <p>Selon les objectifs définis, le <strong>référencement naturel</strong> est utile pour <strong>développer sa visibilité</strong> auprès d’une cible définie et dans un secteur géographique donné. Il permet également d’<strong>élargir ses zones de prospection</strong> simplement et rapidement grâce au <strong>référencement local</strong>.</p>
-                                {/* <h4>Lire la suite de « À quoi sert le référencement naturel ? ».</h4> */}
+                                <h4>Lire la suite de <Link to="/referencement-toulouse/a-quoi-sert-le-referencement-naturel/" className="text-bleu font-bold hover:text-black">« À quoi sert le référencement naturel ? »</Link>.</h4>
                             </ul>
                         </Answer>
                         <Answer id={6} activeId={this.state.active}>
