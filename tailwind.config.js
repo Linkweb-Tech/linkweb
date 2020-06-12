@@ -37,7 +37,9 @@ module.exports = {
       faivrebarre:"#aace5794",
       ledilbarre:"#23395194",
       sdisbarre:"#b71c3094",
-      siabarre:"#b71c3094"
+      siabarre:"#b71c3094",
+      aquap:"#d33683",
+      aquap1:"#333333"
     },
     borderRadius: {
       'large': '1rem',
