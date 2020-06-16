@@ -13,7 +13,8 @@ import ButtonMenuBack from '../components/buttonmenuback';
 import "../scss/global.scss";
 import Bg from "../images/background-campagnes-ads.jpg";
 import imac from "../images/analytics-site-internet.jpg";
-import bgDev from '../images/bg-dev.jpg';
+// import bgDev from '../images/bg-dev.jpg';
+import bgDev from '../images/cta-background-agence-web.jpg';
 
 
 class ReferencementAds extends React.Component {

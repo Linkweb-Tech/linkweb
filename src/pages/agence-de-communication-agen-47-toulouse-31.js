@@ -11,8 +11,10 @@ import Tiles from '../components/gallery/tiles';
 import "../scss/global.scss";
 
 
-import Bg from "../images/agence-de-communication-background.jpg";
-import bgDev from '../images/bg-dev.jpg';
+// import Bg from "../images/agence-de-communication-background.jpg";
+import Bg from "../images/agence-de-communication-bg.jpg";
+// import bgDev from '../images/bg-dev.jpg';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
 import web from '../images/web.svg';
 import laptop from '../images/laptop.svg';
@@ -58,7 +60,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom flex flex-col justify-center items-center" style={{ background: '#6e6e6e url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize:'cover' }}>
+                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom flex flex-col justify-center items-center" style={{ background: '#000000da url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize:'cover' }}>
                         <h2 data-aos="fade-up" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white">
                         Nos réalisations à Toulouse<span className="text-bleu">/</span>Agen
                         </h2>

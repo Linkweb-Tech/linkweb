@@ -14,9 +14,11 @@ import "../scss/home.scss";
 import "../scss/global.scss";
 
 import blocBg from "../images/background.jpg";
-import Bg from "../images/agence-web-bg.jpg";
+// import Bg from "../images/agence-web-bg.jpg";
+import Bg from "../images/agence-web-toulouse-bg.jpg";
 import imac from "../images/redaction.jpg";
-import bgDev from '../images/bg-dev.jpg';
+// import bgDev from '../images/bg-dev.jpg';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
 import bureau from '../images/bureau2-min.jpg';
 
@@ -65,7 +67,7 @@ class AgenceWebToulouse extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background: '#00000096 url(' + Bg + ')', backgroundPosition:'center', backgroundSize:'cover', backgroundBlendMode:'multiply' }}>
+                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background: '#000000da url(' + Bg + ')', backgroundPosition:'top', backgroundSize:'cover', backgroundBlendMode:'multiply' }}>
                         <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-4xl sm:text-6xl text-center text-white">
                             Agence web Toulouse<span className="text-bleu">/</span>Agen
                         </h1>

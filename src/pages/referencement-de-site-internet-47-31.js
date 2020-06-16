@@ -14,7 +14,8 @@ import "../scss/global.scss";
 
 import Bg from "../images/background-referencement-naturel.jpg";
 import imac from "../images/referencement-google.jpg";
-import bgDev from '../images/bg-dev.jpg';
+// import bgDev from '../images/bg-dev.jpg';
+import bgDev from '../images/cta-background-agence-web.jpg';
 
 
 class ReferencementNaturel extends React.Component {
