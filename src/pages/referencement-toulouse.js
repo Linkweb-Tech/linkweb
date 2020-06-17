@@ -212,14 +212,14 @@ class ReferencementToulouse extends React.Component {
   
           </div>
         </section>
-                    <section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">
-                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
+                    {/*<section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">
+                        <h2 /*data-aos='fade-right' className="text-center text-3xl century">
                         Agence SEO à Toulouse : la marque de Linkweb
                         </h2>
                         <hr className="blue"></hr>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-10 pb-0">
-                    <div className="w-full max-w-5xl" /*data-aos='zoom-in'*/>
+                    <div className="w-full max-w-5xl" /*data-aos='zoom-in'>
                             <p className="text-md text-center pt-4 century">Depuis plus de dix ans, <strong>Linkweb</strong> a développé sur une expertise dans le <strong>référencement naturel (SEO)</strong>. Notre agence est donc considérée comme <strong>agence SEO</strong> à part entière.<br/><br/>Ainsi, notre équipe de <strong>référenceurs</strong> est à même de répondre à vos <strong>projets web</strong> par la mise en place de <strong>stratégies SEO</strong> adaptées à vos besoins.</p>
                             <br/>
                         </div>
@@ -229,19 +229,19 @@ class ReferencementToulouse extends React.Component {
                             <img 
                                 src={mac}
                                 alt="Création site internet Toulouse"
-                                /*data-aos="fade-right"*/
+                                /*data-aos="fade-right"
                             />
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl md:px-10 md:py-32">
-                            <h2 className="font-bold px-10 text-xl" /*data-aos="fade-in"*/>1<span className="text-bleu">/</span> APPORTER DE LA VISIBILITÉ À VOTRE PROJET WEB SUR LES MOTEURS DE RECHERCHE</h2>
+                            <h2 className="font-bold px-10 text-xl" /*data-aos="fade-in">1<span className="text-bleu">/</span> APPORTER DE LA VISIBILITÉ À VOTRE PROJET WEB SUR LES MOTEURS DE RECHERCHE</h2>
                             <br/>
-                            <p className="text-md text-justify px-10 pt-6 md:py-0" /*data-aos="fade-left"*/>
+                            <p className="text-md text-justify px-10 pt-6 md:py-0" /*data-aos="fade-left">
                                 <strong className="font-light">Le canal organique</strong> est l'une des sources de trafic les plus importantes sur un <strong className="font-light">site internet</strong>. C'est pourquoi, l'<strong className="font-light">acquisition de visibilité par le référencement naturel</strong> est l'un des <strong className="font-light">leviers</strong> principaux du <strong className="font-light">webmarketing</strong>. <br/><br/>Nôtre rôle, en tant qu'<strong className="font-light">agence de référencement SEO</strong>, est de vous apporter une visibilité maximale en mettant en place une <strong className="font-light">stratégie digitale</strong> destinée à la fois au visiteur, ainsi qu'à un <strong className="font-light">moteur de recherche</strong>. De plus, notre effort se porte sur la mise en place d'une stratégie pertinente par rapport à <strong className="font-light">vos secteurs</strong> et <strong className="font-light">vos cibles</strong>.
                             </p>
                             <br/>
-                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>2<span className="text-bleu">/</span> UNE ÉQUIPE D'EXPERTS EN RÉFÉRENCEMENT</h2>
+                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in">2<span className="text-bleu">/</span> UNE ÉQUIPE D'EXPERTS EN RÉFÉRENCEMENT</h2>
                             <br/>
-                            <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
+                            <p className="text-md text-justify px-10" /*data-aos="fade-left">
                                 En choisissant <strong className="font-light">Linkweb</strong>, votre <strong className="font-light">stratégie de référencement naturel</strong> est pilotée par un <strong className="font-light">consultant SEO</strong> compétent. En effet, nos <strong className="font-light">experts en référencement</strong> sont chargés d'appliquer votre stratégie :<br/><br/>
                                 <ul>
                                     <li><span className="text-bleu font-bold">></span> en produisant des <strong className="font-light">contenus sur-mesure et optimisés</strong> pour leur visibilité,</li> 
@@ -251,13 +251,13 @@ class ReferencementToulouse extends React.Component {
                                 Un suivi est réalisé pour veiller au bon déroulement de la stratégie et se tenir au plus près de vos attentes.
                             </p>
                             <br/>
-                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>3<span className="text-bleu">/</span>ALGORITHMES ET RESPECT DES CONSIGNES DE QUALITÉ</h2>
+                            <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in">3<span className="text-bleu">/</span>ALGORITHMES ET RESPECT DES CONSIGNES DE QUALITÉ</h2>
                             <br/>
-                            <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
+                            <p className="text-md text-justify px-10" /*data-aos="fade-left">
                                 Pour <strong className="font-light">positionner vos pages web</strong> dans les meilleurs <strong className="font-light">résultats de recherche</strong>, <strong className="font-light">nos référenceurs</strong> travaillent pour remplir les critères imposés par les <strong className="font-light">algorithmes</strong> de ces derniers. De plus, nous suivons les <strong className="font-light">préconisations de Google</strong> quant à la <strong className="font-light">production d'un contenu pertinent et de qualité</strong>. <br/><br/>Nous nous attachons à répondre aux attentes du moteur en appuyant l'<strong className="font-light">expertise de votre entreprise</strong>, en <strong className="font-light">affirmant son autorité</strong> et en prouvant sa <strong className="font-light">légitimité</strong>. Ce travail est réalisé à partir d'actions réfléchies visant à <strong className="font-light">optimiser le référencement naturel de votre site web</strong> en fonction des objectifs définis.
                             </p>
                         </div>
-                    </section>
+                    </section> */}
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
                             <span className="text-bleu">/</span>QUE FAIT LINKWEB POUR VOTRE RÉFÉRENCEMENT À TOULOUSE<span className="text-bleu">/</span>AGEN ?
