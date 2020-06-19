@@ -38,11 +38,11 @@ class aquapensezvous extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Nos Réalisations - Aqua Pensez-vous ? - Linkweb"
-                    description="Le site de Aqua Pensez-vous ? est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
+                    title="Nos Réalisations - Aqua Pensez-Vous - Linkweb"
+                    description="Le site de Aqua Pensez-Vous est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
                     url="https://linkweb.fr/realisations/aquapensezvous/"
-                    nom="Aqua Pensez-vous ?"
+                    nom="Aqua Pensez-Vous"
                     slug="/realisations/aquapensezvous/"
                 />
                 {/* <PageTransition
@@ -70,7 +70,7 @@ class aquapensezvous extends React.Component {
                                 <br/>
                                 <a href="/agence-de-communication-agen-47-toulouse-31/" className="mt-24 font-normal century text-sm sm:text-md text-center text-white mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir aux réalisations</a>
                                 <h1 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl md:text-6xl lg:text-6xl text-center text-aquap">
-                                    <span className="font-extrabold">AQUA PENSEZ-VOUS ?</span>
+                                    <span className="font-extrabold">AQUA PENSEZ-VOUS</span>
                                 </h1>
                                 <h3 data-aos="fade-up" className="italic max-w-4xl font-normal text-center text-lg sm:text-2xl text-white mt-8">Développer un projet web favorisant la croissance de l'entreprise grâce à un <span className="text-aquap">gain en visibilité sur Internet</span> et une stratégie de référencement performante.</h3>
                                 <br/>
@@ -114,10 +114,10 @@ class aquapensezvous extends React.Component {
                     </section>
                     <section className="w-full mt-24">
                         <div className="w-full lg:w-2/3 bg-aquap1 text-white px-12 md:px-24 py-12" data-aos="fade-right" data-aos-delay="100">
-                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-aquap">/</span>DÉFINIR UN OUTIL WEB PERFORMANT POUR MAXIMISER LE TAUX DE CONVERSION D'AQUA PENSEZ-VOUS ?</h2>
+                            <h2 className="font-bold text-center md:text-left text-2xl md:text-3xl my-6"><span className="text-aquap">/</span>DÉFINIR UN OUTIL WEB PERFORMANT POUR MAXIMISER LE TAUX DE CONVERSION D'AQUA PENSEZ-VOUS</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                L'entreprise Aqua Pensez-vous ? a choisi Linkweb pour développer sa présence sur Internet afin d'investir un nouveau marché et acquérir une visibilité croissante.  
+                                L'entreprise Aqua Pensez-Vous a choisi Linkweb pour développer sa présence sur Internet afin d'investir un nouveau marché et acquérir une visibilité croissante.  
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">
@@ -128,12 +128,12 @@ class aquapensezvous extends React.Component {
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#d33683" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#d33683" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Promouvoir les prestations proposées par Aqua Pensez-vous ? au sein d'une stratégie de référencement naturel taillée à sa mesure.
+                                    Promouvoir les prestations proposées par Aqua Pensez-Vous au sein d'une stratégie de référencement naturel personnalisée.
                                 </li>
                                 <br/>
                                 <li className="flex flex-row">
                                     <svg style={{maxHeight:'37px', minWidth:'20px'}} className="mr-6" width="20px" viewBox="0 0 100 125"><g><g><path fill="#d33683" d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,88.9     c-21.5,0-38.9-17.5-38.9-38.9S28.5,11.1,50,11.1S88.9,28.5,88.9,50S71.5,88.9,50,88.9z"/><path fill="#d33683" d="M65.5,34L45.3,56.9l-11-11c-1.7-1.7-4.4-1.7-6.1,0c-1.7,1.7-1.7,4.4,0,6l14.2,14.2c0.8,0.8,1.9,1.3,3,1.3     c0,0,0.1,0,0.1,0c1.2,0,2.3-0.6,3.1-1.4l23.1-26.3c1.6-1.8,1.4-4.5-0.4-6C69.7,32.1,67,32.3,65.5,34z"/></g></g></svg>
-                                    Développer un webdesign en conformité avec l'image de la marque et les besoins des internautes.
+                                    Développer un webdesign en conformité avec l'image de la marque et les tendances actuelles.
                                 </li>
                             </ul>
                             <br/>
@@ -148,7 +148,7 @@ class aquapensezvous extends React.Component {
                                 </div>
                                 <div className="w-full py-6 lg:w-1/3 flex flex-col" data-aos="fade-up" data-aos-delay="1000">
                                     <svg width="80px" className="mx-auto block" viewBox="0 0 100 125" fill="#d33683"><rect x="47.75" y="68.375" width="4.5" height="4.5"/><path d="M17.75,64.625c0,0.414,0.337,0.75,0.75,0.75h27.75h7.5H81.5c0.413,0,0.75-0.336,0.75-0.75v-3.75h-64.5V64.625z"/><polygon points="52.947,44.75 58.447,36.5 34.237,36.5 36.487,44.75 "/><path d="M50,0C22.386,0,0,22.386,0,50c0,27.614,22.386,50,50,50s50-22.386,50-50C100,22.386,77.614,0,50,0z M85.25,64.625  c0,2.068-1.682,3.75-3.75,3.75H55.25v4.5h6v3h-7.5h-7.5h-7.5v-3h6v-4.5H18.5c-2.068,0-3.75-1.682-3.75-3.75v-37.5  c0-1.655,1.346-3,3-3h64.5c1.654,0,3,1.345,3,3V64.625z"/><path d="M65.938,47.563c0.384,0,0.768,0.146,1.061,0.439l3.627,3.627L72.254,50l-3.627-3.627c-0.482-0.482-0.568-1.211-0.256-1.781  l-3.549-0.394l0.394,3.549C65.441,47.624,65.689,47.563,65.938,47.563z"/><path d="M17.75,57.875h64.5v-30.75h-64.5V57.875z M63.291,41.01l8.438,0.938c0.573,0.063,1.059,0.45,1.25,0.994  s0.053,1.149-0.355,1.557l-0.814,0.814l3.627,3.627c0.586,0.586,0.586,1.535,0,2.121l-3.75,3.75  c-0.293,0.293-0.677,0.439-1.061,0.439s-0.768-0.146-1.061-0.439l-3.627-3.627l-0.814,0.814c-0.407,0.408-1.013,0.545-1.557,0.355  c-0.544-0.191-0.931-0.677-0.994-1.25l-0.938-8.438c-0.05-0.453,0.108-0.904,0.43-1.226S62.839,40.958,63.291,41.01z M25.625,29.75  h5.625c0.676,0,1.269,0.453,1.447,1.105l0.721,2.645H61.25c0.553,0,1.062,0.305,1.322,0.792c0.261,0.488,0.233,1.08-0.074,1.54  l-7.5,11.25C54.72,47.5,54.252,47.75,53.75,47.75H37.305l0.716,2.625H53.75v3H36.875c-0.676,0-1.269-0.453-1.447-1.105l-5.324-19.52  h-4.479V29.75z"/></svg>                                    
-                                    <h4 className="text-center my-4 font-bold text-lg">Mise en place d'un Drive</h4>
+                                    <h4 className="text-center my-4 font-bold text-lg">Mise en place d'une boutique en ligne</h4>
                                 </div>
                             </element>
                         </div>
@@ -161,7 +161,7 @@ class aquapensezvous extends React.Component {
                             <h2 className="font-normal text-3xl my-2 px-16"><span className="text-aquap">/</span>POSITIONNEMENT ET VALEURS PARTAGÉES</h2>
                             <br/>
                             <p className="font-bold text-lg px-16">
-                                Déployer un <strong>outil web</strong> performant en mesure d'atteindre les objectifs fixés par Aqua Pensez-vous ? et en accord ses valeurs.
+                                Déployer un <strong>outil web</strong> performant en mesure d'atteindre les objectifs fixés par Aqua Pensez-Vous et en accord avec ses valeurs.
                             </p>
                             <br/>
                             <div className="px-16 my-8">
@@ -175,7 +175,7 @@ class aquapensezvous extends React.Component {
                     </section>
                     <section className="w-full h-full lg:h-screen flex flex-col items-center" style={{background: '#00000085 url('+ bgbloc +')', backgroundSize:'cover', backgroundBlendMode:'multiply', backgroundRepeat:'no-repeat'}}>
                         <div>
-                            <h2 className="font-normal text-3xl max-w-5xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-aquap">/</span>PROMOUVOIR L'OFFRE D'AQUA PENSEZ-VOUS ? PAR LA MISE EN PLACE D'UNE PLATEFORME WEB EFFICACE</h2>
+                            <h2 className="font-normal text-3xl max-w-5xl my-6 pt-16 lg:py-32 px-16 text-white text-center uppercase" data-aos="fade-in"><span className="text-aquap">/</span>PROMOUVOIR L'OFFRE D'AQUA PENSEZ-VOUS PAR LA MISE EN PLACE D'UNE PLATEFORME WEB EFFICACE</h2>
                         </div>
                         <div className="w-full lg:w-1/2 mb-12 text-white font-bold text-center flex flex-col lg:flex-row">
                             <div className="w-full lg:w-1/3 py-5" data-aos="zoom-in" data-aos-delay="200">
@@ -229,7 +229,7 @@ class aquapensezvous extends React.Component {
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-aquap">/</span>ACCOMPAGNEMENT À LA MISE EN PLACE D'UN SYSTÈME DE DRIVE</h2>
                             <br/>
                             <p className="font-normal text-justify">
-                                Accompagner Aqua Pensez-vous dans un contexte sociétal inédit. 
+                                Accompagner Aqua Pensez-Vous dans un contexte sociétal inédit. 
                             </p>
                             <br/>
                             <ul className="font-normal text-justify">

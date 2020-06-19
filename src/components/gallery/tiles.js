@@ -11,6 +11,7 @@ import sdis from '../../images/sdis47.jpg'
 import atpt from '../../images/atouts.jpg'
 import gabriel from '../../images/gabriel-services.jpg'
 import ledil from '../../images/ledilimmo.jpg'
+import aqua from '../../images/aquapensezvous-tiles.jpg'
 
 class Tiles extends React.Component {
 	render() {
@@ -59,6 +60,12 @@ class Tiles extends React.Component {
             name: "CSD Menuiserie",
             image: csd, 
             url: "/realisations/csd-menuiserie/"
+        },
+        {
+            id: 10,
+            name: "Aqua Pensez-Vous",
+            image: aqua, 
+            url: "/realisations/aquapensezvous/"
         }];
         
         

@@ -10,6 +10,7 @@ import logofaivre from '../images/faivre-creations.png';
 import logogabrielservices from '../images/logo-gs.png';
 import logoledil from '../images/logo-ledil.png';
 import logocsd from '../images/logo-csd.png';
+import logoaqua from '../images/logo-aquapensezvous.png';
 
 class Barre extends React.Component {
     constructor(props) {
@@ -37,6 +38,7 @@ class Barre extends React.Component {
                                         <Link to="/realisations/gabriel-services/"><img className="zoom py-3 w-3/4 mx-auto block" src={logogabrielservices} alt="Création site internet Toulouse" /></Link>
                                         <Link to="/realisations/ledilimmo/"><img className="zoom py-3 w-3/4 mx-auto block" src={logoledil} alt="Création site internet Toulouse" /></Link>
                                         <Link to="/realisations/csd-menuiserie/"><img className="zoom py-3 w-1/2 mx-auto block" src={logocsd} alt="Création site internet Toulouse" /></Link>
+                                        <Link to="/realisations/aquapensezvous/"><img className="zoom py-3 w-1/2 mx-auto block" src={logoaqua} alt="Création site internet Toulouse" /></Link>
                                     </div>
                                 </div>
                             </li>
