@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../button";
 
-import sitesurmesure from '../../images/creation-de-site-sur-mesure.jpg';
+// import sitesurmesure from '../../images/creation-de-site-sur-mesure.webp';
 
 class ModalSolu extends React.Component {
 
@@ -14,7 +14,7 @@ class ModalSolu extends React.Component {
             <section id="solution-sur-mesure" className="popup flex flex-col xl:flex-row w-full justify-center mx-auto">
                 <div className="popup-inner flex justify-center xl:overflow-visible">
                     <div /*data-aos="fade-right"*/ className="w-full xl:flex hidden justify-end xl:w-auto">
-                        <img width="850px" className="h-full justify-end order-last lg:order-first" src={sitesurmesure} alt="Agence Adwords Toulouse" />
+                        {/* <img width="850px" className="h-full justify-end order-last lg:order-first" src={sitesurmesure} alt="Agence Adwords Toulouse" /> */}
                     </div>
                     <div className="blocref w-3/4 xl:w-1/3 lg:w-1/2 px-12 pt-8 lg:pt-16 lg:my-0 -my-64 shadow-xl max-h-auto lg:mx-0 py-6 lg:py-12 xl:px-12 text-black flex flex-col justify-center" /*data-aos="fade-left"*/ style={{ backgroundColor: 'rgb(211, 211, 211,0.80)' }}>
                         <h2 className="century text-xl lg:text-3xl tracking-wider" /* data-aos="zoom-in"*/>

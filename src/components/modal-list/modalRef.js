@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Button from "../button";
 
 
-import refweb from '../../images/referencement-web.jpg';
+// import refweb from '../../images/referencement-web.jpg';
 
 
 class ModalRef extends React.Component {
@@ -17,7 +17,7 @@ class ModalRef extends React.Component {
             <section id="referencement-web" className="popup flex flex-col xl:flex-row w-full justify-center mx-auto">
                 <div className="popup-inner flex justify-center xl:overflow-visible">
                     <div /* data-aos="fade-right" */ className="w-full xl:flex hidden justify-end xl:w-auto">
-                        <img width="850px" className="h-full justify-end order-last lg:order-first" src={refweb} alt="Agence Adwords Toulouse" />
+                        {/* <img width="850px" className="h-full justify-end order-last lg:order-first" src={refweb} alt="Agence Adwords Toulouse" /> */}
                     </div>
                     <div className="blocref w-3/4 xl:w-1/3 lg:w-1/2 px-12 pt-8 lg:pt-16 lg:my-0 -my-64 shadow-xl max-h-auto lg:mx-0 py-6 lg:py-12 xl:px-12 text-white flex flex-col justify-center bg-grey" /*data-aos="fade-left"*/>
                         <Link to={this.props.linkTitle}>

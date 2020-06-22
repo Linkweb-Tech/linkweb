@@ -14,8 +14,8 @@ import Tiles from '../components/gallery/tiles';
 
 import bureau from "../images/bureau.jpg";
 import stars from '../images/stars.png';
-import refads from '../images/referencement-ads.jpg';
-import besoins from '../images/besoins.jpg';
+// import refads from '../images/referencement-ads.webp';
+import besoins from '../images/besoins.webp';
 
 
 import RoundButton from "../components/roundButton";

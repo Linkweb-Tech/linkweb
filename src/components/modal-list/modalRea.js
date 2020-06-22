@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import creationsite from '../../images/creation-sites-web-toulouse.jpg';
+// import creationsite from '../../images/creation-sites-web-toulouse.webp';
 import loupe from "../../images/loupe.png";
 import menu from "../../images/menu.png";
 import souris from "../../images/mouse.png";
@@ -17,7 +17,7 @@ class ModalRea extends React.Component {
             <section id="creation-site-web" className="popup flex flex-col xl:flex-row w-full justify-center mx-auto">
                 <div className="popup-inner flex justify-center xl:overflow-visible">
                     <div className="w-full xl:flex hidden justify-end xl:w-auto">
-                        <img width="850px" className="h-auto justify-end order-last lg:order-first" src={creationsite} alt="Création site internet à Toulouse" />
+                        {/* <img width="850px" className="h-auto justify-end order-last lg:order-first" src={creationsite} alt="Création site internet à Toulouse" /> */}
                     </div>
                     <div className="blocrea w-3/4 xl:w-1/3 lg:w-1/2 px-12 pt-8 lg:pt-16 lg:my-0 -my-64 shadow-xl max-h-auto lg:mx-0 py-6 lg:py-12 xl:px-12 text-white flex flex-col justify-center" style={{ backgroundColor: 'rgba(62, 62, 62, 0.95)' }}>
                         <Link to={this.props.linkTitle}>
