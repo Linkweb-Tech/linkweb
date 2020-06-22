@@ -124,19 +124,19 @@ class Hero1 extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            isOpen: false
-        }
-    }
-    componentDidMount() {
-        setTimeout(() => {
-            this.setState({isOpen: true});
-        }, 1000);
-    }
-    componentWillUpdate() {
-        setTimeout(() => {
-            this.setState({isOpen: true});
-        }, 1000);
+    //     this.state = {
+    //         isOpen: false
+    //     }
+    // }
+    // componentDidMount() {
+    //     setTimeout(() => {
+    //         this.setState({isOpen: true});
+    //     }, 1000);
+    // }
+    // componentWillUpdate() {
+    //     setTimeout(() => {
+    //         this.setState({isOpen: true});
+    //     }, 1000);
     }
     
 
@@ -157,7 +157,7 @@ class Hero1 extends React.Component {
                         </svg>                    
                     </div>
                 </div>
-                <Orbs className="orbs flex flex-1 justify-center lg:justify-start" pose={this.state.isOpen ? 'open' : 'closed'}> 
+                <Orbs className="orbs flex flex-1 justify-center lg:justify-start" /*pose={this.state.isOpen ? 'open' : 'closed'}*/> 
                     <Top className="top text-white century" >l</Top> 
                     <Top className="top text-white century" >i</Top> 
                     <Top className="top text-white century" >n</Top> 
@@ -167,7 +167,7 @@ class Hero1 extends React.Component {
                     <Top className="top text-white century" >e</Top> 
                     <Top className="top text-white century" >b</Top> 
                 </Orbs>
-                <BigTitle className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 uppercase -mt-12" pose={this.state.isOpen ? 'open' : 'closed'}>Agence web Toulouse <span className="text-bleu">/</span> Agen</BigTitle>
+                <BigTitle className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 uppercase -mt-12" /*pose={this.state.isOpen ? 'open' : 'closed'}*/>Agence web Toulouse <span className="text-bleu">/</span> Agen</BigTitle>
                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                 <div className="w-full lg:w-2/3 lg:mx-0 flex flex-col md:flex-row justify-center lg:justify-start" /*data-aos="fade-in"*/>
                     <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>
