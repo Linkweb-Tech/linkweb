@@ -360,15 +360,15 @@ class ReferencementToulouse extends React.Component {
 
                         <b>ATTENTION ! Nous ne sommes pas des vendeurs de rêves : le référencement n’est pas une science exacte. Néanmoins, nous mettons tout en oeuvre pour vous apporter un site web optimisé et la meilleure visibilité possible.</b><br/></p>
                     </section>
-                    <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+                    <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 /*data-aos='fade-right'*/ className="text-center text-white text-2xl md:text-4xl century">
+                            <h2 /*data-aos='fade-right'*/ className="text-center text-white text-3xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ? N’attendez plus et entrez votre adresse mail.
                             </h2>
 
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
+                        <div className="max-w-6xl mx-auto flex text-center my-12">
                             {/* <RappelForm /> */}
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux améliorer ma visibilité sur internet" />
                         </div>

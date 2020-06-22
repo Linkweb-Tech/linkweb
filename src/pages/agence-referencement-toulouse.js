@@ -8,7 +8,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import "../scss/global.scss";
 import Bg from "../images/background-agence-referencement-toulouse.jpg";
-import bgDev from '../images/bg-dev.jpg';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import bureau from '../images/bureau2-min.jpg';
 import fondbloc from '../images/background.jpg';
 import mac from "../images/mac-agence.png";
@@ -156,9 +156,9 @@ render() {
                         Néanmoins, en <strong>référencement naturel SEO</strong>, rien n’est acquis : il s’adapte à l’évolution des <strong>aglorithmes de Google</strong>. C’est en quoi, il est nécessaire de faire preuve de régularité et rigueur quant au travail à lui apporter. Notre rôle, en tant que <strong>consultant SEO</strong>, est d’apporter une réponse concrète aux fluctuations engendrées par les évolutions de <strong>Google</strong>.
                     </p>
                 </section>
-                <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-3 md:pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+                <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-3 md:pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                     <div className="max-w-5xl mx-auto flex items-start md:items-center">
-                        <h2 data-aos='fade-right' className="text-center text-white text-xl md:text-4xl century">
+                        <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez obtenir un devis référencement ou un complément d’information en vue de créer votre site web ?
 
 
@@ -166,7 +166,7 @@ render() {
 
                     </div>
 
-                    <div className="flex-col md:flex-row max-w-6xl mx-auto flex text-center mt-24 mb-12">
+                    <div className="flex-col md:flex-row max-w-6xl mx-auto flex text-center my-12">
                         {/* <RappelForm /> */}
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je veux developper ma visibilité en ligne" />
                     </div>

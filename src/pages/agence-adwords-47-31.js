@@ -58,8 +58,8 @@ class ReferencementAds extends React.Component {
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux propulser mon site sur Google" />
                         </div>
-                        <div className="w-full md:w-2/3 mt-6 p-1">
-                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-3xl md:text-5xl text-center text-white">
+                        <div className="w-full md:w-2/3 mt-6">
+                            <h1 data-aos="fade-up" data-aos-delay="500" className="century text-2xl md:text-5xl text-center text-white">
                             Référencement Adwords<br/> à Agen (47)<span className="text-bleu">/</span>Toulouse(31)
                             </h1>
                             <br/>
@@ -303,15 +303,15 @@ class ReferencementAds extends React.Component {
                     </section>
                     
                     
-                    <section className="w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#000000ba url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
+                    <section className="w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#000000ba url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-3xl md:text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez améliorer votre visibilité dans les résultats de recherche ?
                             </h2>
 
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
+                        <div className="max-w-6xl mx-auto flex text-center my-12">
                             {/* <RappelForm /> */}
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux propulser mon site sur Google" />
                         </div>

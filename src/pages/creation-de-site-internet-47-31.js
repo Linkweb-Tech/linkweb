@@ -288,15 +288,15 @@ class CreationSiteSurMesure extends React.Component {
                     </section>
                     
                     
-                    <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#000000ba url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
+                    <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 bg-cover mb-24" style={{background:'#000000ba url( '+ bgDev +')', backgroundSize:'cover', backgroundBlendMode: 'overlay'}}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-3xl md:text-4xl century">
                             <span className="text-bleu">/</span>Vous souhaitez opter pour une création de site sur-mesure ?
                             </h2>
 
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
+                        <div className="max-w-6xl mx-auto flex text-center my-12">
                             {/* <RappelForm /> */}
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux la création de mon site sur-mesure"/>
                         </div>

@@ -9,7 +9,7 @@ import RappelForm from "../components/rappelForm";
 import "../scss/global.scss";
 import Bg from "../images/ergonomie-web.jpg";
 import imac from "../images/ecran-imac.jpg";
-import bgDev from '../images/bg-dev.jpg';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import blocint from '../images/ergonomie-site-web.jpg';
 import blocint1 from '../images/devices-ergonomie.png';
 import ux from '../images/ux-design.jpg';
@@ -206,9 +206,9 @@ class ErgonomieToulouse extends React.Component {
                         
                     </section>
                     
-                    <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+                    <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h2 data-aos='fade-right' className="text-center text-white text-2xl md:text-4xl century">
+                            <h2 data-aos='fade-right' className="text-center text-white text-3xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Alors, convaincu ? Vous souhaitez être contacté ?
 
 
@@ -216,7 +216,7 @@ class ErgonomieToulouse extends React.Component {
 
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
+                        <div className="max-w-6xl mx-auto flex text-center my-12">
                             {/* <RappelForm /> */}
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je souhaite créer mon site" />
                         </div>

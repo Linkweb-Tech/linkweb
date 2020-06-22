@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import "../scss/global.scss";
-import bgDev from '../images/bg-dev.jpg';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import bureau from '../images/bureau2-min.jpg';
 
 import web from '../images/web.svg';
@@ -150,9 +150,9 @@ class MentionsLegales extends React.Component {
                         N° de téléphone : <a href="tel:0533950030" className="hover:text-bleu">05 33 95 00 30</a></p>
                     </section>
                     
-                    <section className=" w-full h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+                    <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
-                            <h3 data-aos='fade-right' className="text-center text-white mt-24 text-4xl century">
+                            <h3 data-aos='fade-right' className="text-center text-white mt-24 text-3xl md:text-4xl century">
                                 <span className="text-bleu">/</span>Un projet, besoin de renseignements ?
 
 
@@ -160,7 +160,7 @@ class MentionsLegales extends React.Component {
 
                         </div>
 
-                        <div className="max-w-6xl mx-auto flex text-center mt-24 mb-12">
+                        <div className="max-w-6xl mx-auto flex text-center my-12">
                             {/* <RappelForm /> */}
                             <RoundButton url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                         </div>
