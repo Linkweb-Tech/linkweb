@@ -16,7 +16,7 @@ import "../scss/global.scss";
 import Bg from "../images/creation-site-internet-catalogue.jpg";
 import imac from "../images/site-internet-catalogue.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.jpg';
+import bgDev from '../images/cta-background-agence-web.webp';
 
 
 class CreationSiteInternetCatalogue extends React.Component {

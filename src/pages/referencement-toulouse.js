@@ -14,10 +14,10 @@ import Partenaires from '../components/partenaires';
 
 import blocBg from "../images/background.jpg";
 // import Bg from "../images/background-referencement.jpg";
-import Bg from "../images/referencement-toulouse-bg.jpg";
+import Bg from "../images/referencement-toulouse-bg.webp";
 import imac from "../images/smartphone.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.jpg';
+import bgDev from '../images/cta-background-agence-web.webp';
 import stars from '../images/stars.png';
 import mac from "../images/mac-agence.jpg";
 

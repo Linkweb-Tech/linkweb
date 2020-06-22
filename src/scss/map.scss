@@ -6,9 +6,30 @@
 }
 
 .contact {
-    bottom:610px;
-    @media(max-width: 768px) {
-        bottom:0;
-        width: 100%;
+    bottom:0px;
+
+@media (min-width: 769px) {
+    bottom:510px;
+
+}
+    @media(max-width: 768px) and (min-width:376px) {
+        bottom: 580px;
+        width: 60%;
     }
 }
+
+.map .backmap {
+    height:650px;
+    max-height:650px;
+    width:100%;
+    background: url("../images/map.jpg");
+    background-blend-mode:overlay;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    @media (max-width:375px) {
+        background-position: -445px;
+    }    
+}
+

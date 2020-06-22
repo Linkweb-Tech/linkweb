@@ -14,10 +14,10 @@ import ButtonBlog from '../components/buttonblog';
 import '../scss/global.scss';
 import blocBg from "../images/background.jpg";
 // import Bg from "../images/background-agence.jpg";
-import Bg from "../images/creation-site-internet-toulouse-bg.jpg";
+import Bg from "../images/creation-site-internet-toulouse-bg.webp";
 import imac from "../images/ecran-imac.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.jpg';
+import bgDev from '../images/cta-background-agence-web.webp';
 import stars from '../images/stars.png';
 import mac from "../images/mac-agence.jpg";
 

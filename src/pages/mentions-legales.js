@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import "../scss/global.scss";
-import bgDev from '../images/cta-background-agence-web.jpg';
+import bgDev from '../images/cta-background-agence-web.webp';
 import bureau from '../images/bureau2-min.jpg';
 
 import web from '../images/web.svg';

@@ -9,7 +9,7 @@ import RappelForm from "../components/rappelForm";
 import "../scss/global.scss";
 import Bg from "../images/ergonomie-web.jpg";
 import imac from "../images/ecran-imac.jpg";
-import bgDev from '../images/cta-background-agence-web.jpg';
+import bgDev from '../images/cta-background-agence-web.webp';
 import blocint from '../images/ergonomie-site-web.jpg';
 import blocint1 from '../images/devices-ergonomie.png';
 import ux from '../images/ux-design.jpg';
