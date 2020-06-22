@@ -169,7 +169,7 @@ class Hero1 extends React.Component {
                 </Orbs>
                 <BigTitle className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 uppercase -mt-12" pose={this.state.isOpen ? 'open' : 'closed'}>Agence web Toulouse <span className="text-bleu">/</span> Agen</BigTitle>
                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
-                <div className="w-full lg:w-2/3 lg:mx-0 flex flex-col md:flex-row justify-center lg:justify-start" data-aos="fade-in">
+                <div className="w-full lg:w-2/3 lg:mx-0 flex flex-col md:flex-row justify-center lg:justify-start" /*data-aos="fade-in"*/>
                     <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>
                     <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text="Demander un devis"/>
                 </div>
