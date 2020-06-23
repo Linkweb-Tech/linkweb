@@ -8,7 +8,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import "../scss/global.scss";
 import Bg from "../images/developpement-web.jpg";
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import blocint from '../images/developpement-internet.jpg';
 import exemples from '../images/realisations-exemples1.jpg';
 import exemples1 from '../images/visuel-sites.jpg';

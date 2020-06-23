@@ -9,7 +9,7 @@ import RappelForm from "../components/rappelForm";
 
 
 import Bg from "../images/developpement-web-agen.jpg";
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import citation from '../images/citation.png';
 import smartphone from '../images/creation-site-web-agen.jpg';
 import fondblanc from '../images/creation-site-internet-agen.jpg';

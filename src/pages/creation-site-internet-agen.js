@@ -17,7 +17,7 @@ import "../scss/global.scss";
 import Bg from "../images/site-vitrine-background.jpg";
 import imac from "../images/creation-site-vitrine.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 
 
 class CreationSiteInternetVitrine extends React.Component {

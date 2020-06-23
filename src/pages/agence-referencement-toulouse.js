@@ -8,7 +8,7 @@ import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import "../scss/global.scss";
 import Bg from "../images/background-agence-referencement-toulouse.jpg";
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import bureau from '../images/bureau2-min.jpg';
 import fondbloc from '../images/background.jpg';
 import mac from "../images/mac-agence.png";

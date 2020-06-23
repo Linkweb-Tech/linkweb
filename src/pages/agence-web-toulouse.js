@@ -15,10 +15,10 @@ import "../scss/global.scss";
 
 import blocBg from "../images/background.jpg";
 // import Bg from "../images/agence-web-bg.jpg";
-import Bg from "../images/agence-web-linkweb.webp";
+import Bg from "../images/agence-web-linkweb.jpg";
 import imac from "../images/redaction.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
 import bureau from '../images/bureau2-min.jpg';
 

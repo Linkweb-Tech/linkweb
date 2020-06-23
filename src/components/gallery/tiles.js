@@ -4,14 +4,14 @@ import '../../scss/tiles.scss';
 
 import faivre1 from '../../images/faivre1.jpg'
 import faivre2 from '../../images/faivre2.jpg'
-import faivre3 from '../../images/faivre3.webp'
-import csd from '../../images/csd-menuiserie.webp'
-import sia from '../../images/sia.webp'
-import sdis from '../../images/sdis47.webp'
-import atpt from '../../images/atouts.webp'
-import gabriel from '../../images/gabriel-services.webp'
-import ledil from '../../images/ledilimmo.webp'
-import aqua from '../../images/aquapensezvous-tiles.webp'
+import faivre3 from '../../images/faivre3.jpg'
+import csd from '../../images/csd-menuiserie.jpg'
+import sia from '../../images/sia.jpg'
+import sdis from '../../images/sdis47.jpg'
+import atpt from '../../images/atouts.jpg'
+import gabriel from '../../images/gabriel-services.jpg'
+import ledil from '../../images/ledilimmo.jpg'
+import aqua from '../../images/aquapensezvous-tiles.jpg'
 
 class Tiles extends React.Component {
 	render() {

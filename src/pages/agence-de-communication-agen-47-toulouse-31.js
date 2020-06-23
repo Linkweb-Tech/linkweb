@@ -12,9 +12,9 @@ import "../scss/global.scss";
 
 
 // import Bg from "../images/agence-de-communication-background.jpg";
-import Bg from "../images/agence-de-communication-bg.webp";
+import Bg from "../images/agence-de-communication-bg.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
 import web from '../images/web.svg';
 import laptop from '../images/laptop.svg';

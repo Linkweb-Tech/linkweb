@@ -14,7 +14,7 @@ import "../scss/global.scss";
 import blocBg from "../images/background.jpg";
 import Bg from "../images/creation-site-internet-marmande.jpg";
 import imac from "../images/referencement-site-immobilier.jpg";
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
 import mac from "../images/mac-agence.jpg";
 

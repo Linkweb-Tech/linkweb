@@ -16,7 +16,7 @@ import "../scss/global.scss";
 import Bg from "../images/background-boutique-en-ligne.jpg";
 import imac from "../images/creer-boutique-en-ligne.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 
 class CreerBoutiqueEnLigne extends React.Component {
 

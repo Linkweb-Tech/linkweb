@@ -15,7 +15,7 @@ import SousMenu from '../components/sousmenu.js';
 import Bg from "../images/creation-site-sur-mesure-background.jpg";
 import imac from "../images/creation-site-sur-mesure.jpg";
 // import bgDev from '../images/bg-dev.jpg';
-import bgDev from '../images/cta-background-agence-web.webp';
+import bgDev from '../images/cta-background-agence-web.jpg';
 
 
 class CreationSiteSurMesure extends React.Component {

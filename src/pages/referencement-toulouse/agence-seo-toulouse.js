@@ -6,22 +6,18 @@ import RoundButton from "../../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
 import LastPosts from '../../components/lastposts';
-import RappelForm from "../../components/rappelForm";
-import Accordion from '../../components/accordion';
-import ButtonMenu from '../../components/buttonmenu.js';
-import ButtonMenuBack from '../../components/buttonmenuback.js';
+
 import "../../scss/global.scss";
 
-import Bg from "../../images/agence-seo-toulouse-bg.webp";
-import imac from "../../images/referencement-google.jpg";
-import visibilite from "../../images/etre-visible-referencement-naturel.webp";
-import performance from "../../images/performances-referencement-naturel.webp";
-import moteur from "../../images/moteurs-referencement-naturel.webp";
-import utilisateur from "../../images/utilisateurs-seo.webp";
-import concurrence from "../../images/concurrence-referencement-naturel.webp";
-import opportunité from "../../images/opportunites-seo.webp";
+import Bg from "../../images/agence-seo-toulouse-bg.jpg";
+import visibilite from "../../images/etre-visible-referencement-naturel.jpg";
+import performance from "../../images/performances-referencement-naturel.jpg";
+import moteur from "../../images/moteurs-referencement-naturel.jpg";
+import utilisateur from "../../images/utilisateurs-seo.jpg";
+import concurrence from "../../images/concurrence-referencement-naturel.jpg";
+import opportunité from "../../images/opportunites-seo.jpg";
 // import bgDev from '../../images/bg-dev.jpg';
-import bgDev from '../../images/cta-background-agence-web.webp';
+import bgDev from '../../images/cta-background-agence-web.jpg';
 
 
 class AgenceSEOToulouse extends React.Component {
