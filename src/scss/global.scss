@@ -306,3 +306,41 @@ footer {
     fill:#ffffff!important;
 
 }
+
+.service-seo {
+    border:1px solid;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8px;
+    margin-bottom:8px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-radius:15px;
+    border-color: rgb(212, 212, 212);
+    min-height:520px;
+    // max-height:500px;
+    flex-wrap: wrap;
+    width:24%;
+
+    @media (max-width:1024px) {
+        width:45%;
+        min-height:670px;
+        h3 {
+            font-size:20px;
+        }
+        h4 {
+            font-size:15px;
+            text-align:justify;
+            text-align-last:center;
+        }
+        p {
+            font-size:15px;
+        }
+    }
+    @media (max-width:425px) {
+        width:100%;
+        min-height:550px;
+    }
+}
