@@ -435,6 +435,7 @@ class FAQ extends React.Component {
                             <h3>Travailler avec un interlocuteur privilégié pour un suivi régulier</h3>
                             <p>Une fois le projet lancé, un professionnel dédié à votre projet est chargé de mettre en place un suivi régulier. Ce <strong>suivi de projet</strong> vous permettra d’être tenu(e) informé(e) de l’<strong>activité de votre site web</strong> à travers : le travail effectué durant le mois écoulé, les performances (trafic, entrées, objectifs, etc.) ainsi que les perspectives d’évolution.</p>
                             <p>Travailler avec un interlocuteur privilégié est à la base d’une bonne collaboration. C’est pourquoi, vous profiterez d’une <strong>gestion de projet sur-mesure</strong> de la <strong>création au référencement de votre site internet</strong>.</p>
+                            <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/travailler-avec-linkweb/" className="text-bleu hover:text-black">"Pourquoi travailler avec Linkweb?"</Link>.</h4>
                         </Answer>
                         <Answer id={26} activeId={this.state.active}>
                             <h2>Comment se déroule mon projet de création de site web ?</h2>
