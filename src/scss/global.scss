@@ -21,6 +21,20 @@ hr{
     
 }
 
+.menu-avisclients {
+    display:none;
+    width: 20%;
+    transition:all ease 0.7s;
+    color:#000;
+    &:hover {
+        transition:all ease 0.7s;
+        color:#37cfee;
+    }
+    @media (min-width:425px) {
+        display:flex
+    }
+}
+
 .pb-128 {
     margin-bottom: 400px;
 

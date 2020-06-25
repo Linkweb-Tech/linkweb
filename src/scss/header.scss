@@ -99,7 +99,18 @@
                     background: #37c5ee;
                 }
             }
+            &.avis-menu {
+                display:flex;
+                flex-direction:row;
+                & p {
+                    padding-top:3px;
+                }
+                    @media(min-width:425px) {
+                        display:none;
+                        color:#37c5ee;
+    }
 
+            }
             &:hover, &.active {
                 &::before {
                     right: 0;

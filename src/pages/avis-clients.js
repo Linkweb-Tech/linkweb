@@ -72,10 +72,11 @@ render() {
                 transitionTime={200}
             > */}
                 <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
-                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
+                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-3xl md:text-5xl sm:text-6xl text-center text-white mt-40">
                     Ce que pensent nos clients de nos services
                     </h2>
-                    <Link to="/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Avis Clients - Agence Web Toulouse</h1></Link>
+                    <br/>
+                    <Link to="/"><h1 className="century text-xl lg:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Avis Clients - Agence Web Toulouse</h1></Link>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
