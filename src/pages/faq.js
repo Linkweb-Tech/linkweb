@@ -576,7 +576,7 @@ class FAQ extends React.Component {
                                 
                             </div>
                             <div className="w-full lg:w-3/4">
-                                <RoundButton url="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,," text="Ce que pensent nos clients de nos services de création et référencement de sites internet" />
+                                <RoundButton url="/avis-clients/" text="Ce que pensent nos clients de nos services de création et référencement de sites internet" />
                             </div>
                         </Answer>
                         <Answer id={31} activeId={this.state.active}>
