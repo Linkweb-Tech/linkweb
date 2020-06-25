@@ -136,7 +136,7 @@ class Header extends React.Component {
             </a>
           </div>
           <div className="menu-avisclients invisible md:visible  md:w-1/6 p-0 pt-2 md:p-2 flex flex-row century">
-            <a href="/avis-clients/"><svg width="20px" viewBox="0 0 100 125"><g transform="translate(0,-952.36218)"><path d="m 49.9109,960.40961 a 2.0000605,2.0003396 0 0 0 -1.8194,1.38374 l -9.4199,29.1944 -30.6675999,-0.0606 A 2.0000605,2.0003396 0 0 0 6.8278,994.548 l 24.8499,17.9824 -9.5414,29.1642 a 2.0000605,2.0003396 0 0 0 3.0794,2.2378 l 24.7793,-18.0834 24.7896,18.0837 a 2.0000605,2.0003396 0 0 0 3.0791,-2.2381 l -9.5414,-29.1642 24.8499,-17.9824 a 2.0000605,2.0003396 0 0 0 -1.1762,-3.62085 l -30.6683,0.0606 -9.4301,-29.19506 a 2.0000605,2.0003396 0 0 0 -1.9867,-1.38308 z" fill="#37cfee" fill-opacity="1" fill-rule="evenodd" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/></g></svg></a>
+            <a href="/avis-clients/"><svg width="20px" viewBox="0 0 100 125"><g transform="translate(0,-952.36218)"><path d="m 49.9109,960.40961 a 2.0000605,2.0003396 0 0 0 -1.8194,1.38374 l -9.4199,29.1944 -30.6675999,-0.0606 A 2.0000605,2.0003396 0 0 0 6.8278,994.548 l 24.8499,17.9824 -9.5414,29.1642 a 2.0000605,2.0003396 0 0 0 3.0794,2.2378 l 24.7793,-18.0834 24.7896,18.0837 a 2.0000605,2.0003396 0 0 0 3.0791,-2.2381 l -9.5414,-29.1642 24.8499,-17.9824 a 2.0000605,2.0003396 0 0 0 -1.1762,-3.62085 l -30.6683,0.0606 -9.4301,-29.19506 a 2.0000605,2.0003396 0 0 0 -1.9867,-1.38308 z" fill-opacity="1" fill-rule="evenodd" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/></g></svg></a>
             <a className="pt-1" href="/avis-clients/">Avis clients</a>
           </div>
           </section>

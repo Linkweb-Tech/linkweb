@@ -30,6 +30,9 @@ hr{
         transition:all ease 0.7s;
         color:#37cfee;
     }
+    a svg g {
+        fill:#37cfee;
+    }
     @media (min-width:425px) {
         display:flex
     }
