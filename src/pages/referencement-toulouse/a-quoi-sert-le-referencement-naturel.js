@@ -193,7 +193,7 @@ render() {
                         <p className="text-center font-bold text-xl">Alors, à quoi sert le référencement naturel ?</p>
                         <br/>
                         <p>Le <Link to="/referencement-toulouse/quest-ce-que-le-referencement-naturel/" className="text-bleu font-bold hover:text-black"><strong>référencement naturel ou SEO (Search Engine Optimization)</strong></Link> est une discipline issue du <strong>webmarketing</strong> destinée à rendre un <strong>site internet visible sur les moteurs de recherche</strong>. De ce point de vue, vous ne cherchez plus vos clients puisque ce sont eux qui vous trouvent.</p>
-                        <p>De plus, <a href="https://www.imforza.com/blog/8-seo-stats-that-are-hard-to-ignore/" target="_blank" rel="noreferrer noopener" className="text-bleu font-bold hover:text-black">93% des expériences en ligne commencent avec un <strong>moteur de recherche</strong></a>. Développer une <strong>stratégie de référencement naturel</strong> pour <strong>son site internet</strong> est donc indispensable afin d'obtenir de la <strong>visibilité sur le Web</strong>.</p>
+                        <p>De plus, <a href="https://blog-fr.orson.io/web-marketing/100-statistiques-sites-internet-2018" target="_blank" rel="noreferrer noopener" className="text-bleu font-bold hover:text-black">93% des expériences en ligne commencent avec un <strong>moteur de recherche</strong></a>. Développer une <strong>stratégie de référencement naturel</strong> pour <strong>son site internet</strong> est donc indispensable afin d'obtenir de la <strong>visibilité sur le Web</strong>.</p>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>

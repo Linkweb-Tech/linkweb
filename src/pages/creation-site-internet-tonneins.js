@@ -44,7 +44,7 @@ class CreationSiteInternetTonneinsPage extends React.Component {
 
                 <SEO
                     title="Création Site Internet à Tonneins - Agence Web Linkweb"
-                    description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
+                    description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé. L'agence web Linkweb vous accompagne dans l'élaboration et la réalisation de votre projet web."
                     keywords={[`Création site internet Tonneins`, `Création site internet Tonneins`, `Création site web Tonneins`, `Création site web Tonneins`]}
                     url="https://linkweb.fr/creation-site-internet-tonneins/"
                     nom="Création de site internet à Tonneins"

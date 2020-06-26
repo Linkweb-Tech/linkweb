@@ -48,7 +48,7 @@ render() {
                 title="Avis Clients | Agence Web à Toulouse (31) | Création site internet"
                 description="Depuis plus de 10 ans, des centaines de professionnels ont déjà fait confiance à Linkweb. Il n'existe pas de meilleure publicité que celle effectuée par nos clients."
                 keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Création site internet Toulouse`, `Création site internet Agen`]}
-                url="https://linkweb.fr/avis-client/"
+                url="https://linkweb.fr/avis-clients/"
                 nom="Avis Clients"
                 slug="avis-clients"
             />
