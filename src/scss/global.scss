@@ -190,7 +190,10 @@ footer {
     font-size:20px;
     
 }
-
+.itemmenublog {
+    display:flex;
+    align-items:center;    
+}
 .itemmenublog:hover {
     transform:scale(1.2);
     transition: transform .3s;

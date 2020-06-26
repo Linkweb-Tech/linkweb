@@ -10,6 +10,8 @@ import RoundButton from "../components/roundButton.js";
 import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
+import ButtonMenu from '../components/buttonmenu.js';
+import BlogMenu from '../components/menublog.js';
 import '../scss/global.scss';
 
 import background from "../images/background-blog.jpg";
@@ -64,11 +66,12 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full mx-auto pb-0 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000d9 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px', minHeight:'550px'}}>
-                    <Link to="/actualite-digitale/"><h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
+                
+                <section className="w-full mx-auto pb-0 px-4 bg-black flex flex-col justify-center items-center" style={{background:'#000000d9 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px', minHeight:'550px'}}>
+                    <Link to="/actualite-digitale/"><h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white mt-40">
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h2></Link>
-                    <h1 className="century text-xl sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'actualité digitale</h1>
+                    <h1 className="century text-lg sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'actualité digitale</h1>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
@@ -105,7 +108,7 @@ render() {
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-                {/* Menu de catégories */}
+                {/* Menu de catégories 
                 <section className="flex flex-row justify-center" data-aos="zoom-in">
                     <div className="w-full menublog century uppercase lg:w-3/4 bg-bleu flex flex-row text-md text-center text-white p-3 py-4 font-bold -mt-6">
                         <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></div>|
@@ -114,13 +117,24 @@ render() {
                         <div className="itemmenublog w-full lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/tendances/">Tendances</Link></div>
                     </div>
                 </section>
-                {/* FIN Menu de catégories */}
+                FIN Menu de catégories 
+                <section className="w-full flex flex-row justify-end h-4 mb-10 font-medium">
+                        <section className="w-full md:w-4/5 lg:w-3/5 xl:w-2/5 flex bg-bleu text-white text-center text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px', minHeight:'48px'}}>
+                            <ul className="flex flex-row w-full text-xs md:text-base uppercase font-bold mx-auto items-center text-center">
+                                <li className=" w-full md:w-1/4 lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/actus/">Actualités</Link></li>
+                                <li className=" w-full md:w-1/4 lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/agence/">Agence</Link></li>
+                                <li className=" w-full md:w-1/4 lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/referencement/">Référencement</Link></li>
+                                <li className=" w-full md:w-1/4 lg:w-1/4 hover:text-darkgrey"><Link to="/blog/category/tendances/">Tendances</Link></li>
+                            </ul>
+                        </section>
+                </section>*/}
+                <BlogMenu />
                 <section className=" flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
                     <div className="w-full xl:w-3/4">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
                             <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
                             <section className="flex justify-center">
-                                <div className="w-2/3 md:w-1/4" data-aos="fade-up">
+                                <div className="w-2/3 lg:w-1/4" data-aos="fade-up">
                                     <ButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
                                 </div>
                             </section>
@@ -147,12 +161,12 @@ render() {
                                     <ButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
                                 </div>
                                 </section>
-                                <section className="flex flex-col md:flex-row px-5 mr-0">
+                                <section className="flex flex-col md:flex-row justify-center px-5 mr-0">
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00cfffe0 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
                                         <img src={world} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
                                         <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/creation-site-internet-toulouse/"><h2 className="text-center text-white text-xl px-4 font-bold century">Création Web</h2></Link>
                                         <hr className="blue"></hr>
-                                        <p className="text-sm px-4 text-white text-center">L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
+                                        <p className="text-xs px-4 text-white text-center">L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
@@ -163,7 +177,7 @@ render() {
                                         <img src={iconseo} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
                                         <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/referencement-de-site-internet-47-31/"><h2 className="text-center text-white text-xl px-4 font-bold century">Référencement Naturel</h2></Link>
                                         <hr className="blue"></hr>
-                                        <p className="text-sm px-4 text-white text-center">Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
+                                        <p className="text-xs px-4 text-white text-center">Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
@@ -174,7 +188,7 @@ render() {
                                         <img src={iconsea} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
                                         <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/agence-adwords-47-31/"><h2 className="text-center text-white text-xl px-4 font-bold century">Référencement Payant</h2></Link>
                                         <hr className="blue"></hr>
-                                        <p className="text-sm px-4 text-white text-center">Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
+                                        <p className="text-xs px-4 text-white text-center">Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />

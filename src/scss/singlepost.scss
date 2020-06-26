@@ -1,3 +1,35 @@
+.enhautblog {
+    position:fixed;
+    color:black;
+    width: 10%;
+    right:60px;
+    bottom: 50px;
+    transition:0.4s;
+
+    @media (max-width:768px) {
+        position:fixed;
+        bottom:0px;
+        right:42px;
+    }
+    @media (min-width:768px) and (max-width:1024px) {
+        position:fixed;
+        bottom:500px;
+    }
+}
+
+.enhautblog:hover {
+    transform:scale(1.1);
+    transition:0.4s;
+}
+.enhautblog svg {
+   fill:#37cfee;
+
+   @media (max-width:768px) {
+    width:40px;
+
+}
+}
+
 .post_content {
     .wp-caption {
         width: 100% !important;

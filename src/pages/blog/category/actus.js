@@ -10,6 +10,7 @@ import RoundButton from "../../../components/roundButton";
 import CategoriesList from "../../../components/categoriesList";
 import LastPostsMini from '../../../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
+import BlogMenu from "../../../components/menublog.js";
 
 import CreerSite from "../../../images/creer-un-site.jpg";
 import RefSite from "../../../images/referencer-un-site.jpg";
@@ -98,6 +99,7 @@ render() {
                             </div>
                     </section>
                 </section>
+                <BlogMenu />
                 <section className=" flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
                     <div className="w-full xl:w-3/4">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
