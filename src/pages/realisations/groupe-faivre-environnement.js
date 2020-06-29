@@ -9,23 +9,17 @@ import Barre from "../../components/barre-laterale";
 import "../../scss/barre.scss";
 import "../../scss/global.scss";
 
-import logolinkweb from "../../images/logo-linkweb.png";
 import Bg from "../../images/bg-faivre.jpg";
 import bgbloc from "../../images/bloc-faivre.jpg";
 import smartphone from "../../images/mockup1-faivre.jpg";
 import mockup from "../../images/mockup-tablette-faivre.jpg";
 import imac from "../../images/mockup-faivre.jpg";
 import bloccontact from '../../images/faivre-contact.jpg';
-import logo from '../../images/cypiere.png';
-import logo1 from '../../images/faivre-creations.png';
-import logo2 from '../../images/cypiere-paysages.png';
-import logosia from '../../images/logo-sia.png';
-import logoatpt from '../../images/logo-atpt.png';
-import logosdis from '../../images/logo-sdis47-real.png';
-import logofaivre from '../../images/faivre-creations.png';
-import logogabrielservices from '../../images/logo-gs.png';
-import logoledil from '../../images/logo-ledil.png';
-import logocsd from '../../images/logo-csd.png';
+import logo from '../../images/faivre-service.png';
+import logo1 from '../../images/faivre-creation.png';
+import logo2 from '../../images/faivre-paysage.png';
+import logo3 from '../../images/very-garden.png';
+
 
 
 class faivre extends React.Component {
@@ -65,7 +59,7 @@ class faivre extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#f2f2f2e6 url(' + Bg + ')', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
+                    <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background:'#f2f2f2e6 url(' + Bg + ')', height:'125vh', backgroundRepeat:'no-repeat', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center' }}>
                             <br/>
                         <div>
                         <a href="/agence-de-communication-agen-47-toulouse-31/" className="mt-24 font-normal century text-sm sm:text-md text-center text-black mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir aux réalisations</a>
@@ -74,17 +68,20 @@ class faivre extends React.Component {
                             </h1>
                             <h3 data-aos="fade-up" className="italic font-bold text-center text-lg sm:text-2xl text-csd1 mt-8">Développer la visibilité en ligne du groupe Faivre Environnement et de ses trois filiales </h3>
                             <br/>
-                            <a data-aos="fade-dow" className="mb-12" href="/realisations/groupe-faivre-environnement/#start"><svg className="zoombtn mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#5a4d46" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
-                            <div className="flex flex-row mt-48">
-                            <div className="w-1/3 md:w-1/3 mx-auto mr-10 py-6 mb-4 -mt-48" id="start" data-aos="zoom-in">
-                                <img src={logo1} className="mx-auto block md:mx-0" />
-                            </div>
-                            <div className="w-1/3 md:w-1/3 mx-auto mr-10 py-6 mb-4 -mt-48" id="start" data-aos="zoom-in">
-                                <img src={logo} className="mx-auto block md:mx-0" />
-                            </div>
-                            <div className="w-1/3 md:w-1/3 mx-auto mr-10 py-6 mb-4 -mt-48" id="start" data-aos="zoom-in">
-                                <img src={logo2} className="mx-auto block md:mx-0" />
-                            </div>
+                            <a data-aos="fade-dow" href="/realisations/groupe-faivre-environnement/#start"><svg className="zoombtn mx-auto block" width="60px" viewBox="0 0 100 125"><g><g><path fill="#5a4d46" d="M59.3,46.5l-8.7,8.7l-8.7-8.7c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l10.1,10.1c0.4,0.4,0.9,0.6,1.4,0.6    s1-0.2,1.4-0.6l10.1-10.1c0.8-0.8,0.8-2,0-2.8C61.4,45.7,60.1,45.7,59.3,46.5z M50.8,5c-24.9,0-45,20.1-45,45    c0,24.9,20.1,45,45,45c24.9,0,45-20.1,45-45C95.8,25.1,75.6,5,50.8,5z M50.8,91c-22.6,0-41-18.4-41-41s18.4-41,41-41    s41,18.4,41,41S73.4,91,50.8,91z"/></g></g></svg></a>
+                            <div className="flex flex-wrap flex-col justify-center items-center md:flex-row">
+                                <div className="w-1/2 md:w-1/4 mx-auto px-4 py-2 mb-4" id="start" data-aos="zoom-in">
+                                    <img src={logo1} width="300px" className="mx-auto block md:mx-0" />
+                                </div>
+                                <div className="w-1/2 md:w-1/4 mx-auto px-4 py-2 mb-4" id="start" data-aos="zoom-in">
+                                    <img src={logo} width="300px" className="mx-auto block md:mx-0" />
+                                </div>
+                                <div className="w-1/2 md:w-1/4 mx-auto px-4 py-2 mb-4" id="start" data-aos="zoom-in">
+                                    <img src={logo2} width="300px" className="mx-auto block md:mx-0" />
+                                </div>
+                                <div className="w-1/2 md:w-1/4 mx-auto px-4 py-2 mb-4" id="start" data-aos="zoom-in">
+                                    <img src={logo3} width="150px" className="mx-auto block md:mx-0" />
+                                </div>
                             </div>
                         </div>
                         <Barre color="faivrebarre"/>
