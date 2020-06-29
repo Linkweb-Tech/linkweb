@@ -226,7 +226,12 @@ class ReferencementToulouse extends React.Component {
                             <br/>
                         </div>
                     </section>
-                    <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-6 md:my-4">
+                    <br/>
+                    <div className="max-w-6xl mx-auto flex text-center my-0">
+                            {/* <RappelForm /> */}
+                            <RoundButton url="/referencement-toulouse/agence-seo-toulouse/" text="Notre agence SEO à Toulouse" />
+                        </div>
+                    <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-2 md:my-0">
                         <div className="w-full lg:w-1/2 pt-6">
                             <img 
                                 src={mac}
