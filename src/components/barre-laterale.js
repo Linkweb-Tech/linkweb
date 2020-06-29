@@ -6,7 +6,8 @@ import logo from '../images/logo-gs.png';
 import logosia from '../images/logo-sia.png';
 import logoatpt from '../images/logo-atpt.png';
 import logosdis from '../images/logo-sdis47-real.png';
-import logofaivre from '../images/faivre-creations.png';
+//import logofaivre from '../images/faivre-creations.png';//
+import logofaivre from '../images/faivre-creation.png';
 import logogabrielservices from '../images/logo-gs.png';
 import logoledil from '../images/logo-ledil.png';
 import logocsd from '../images/logo-csd.png';
