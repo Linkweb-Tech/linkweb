@@ -19,7 +19,7 @@ import imac from "../images/ecran-imac.jpg";
 // import bgDev from '../images/bg-dev.jpg';
 import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
-import mac from "../images/mac-agence.jpg";
+import mac from "../images/mac-linkweb.jpg";
 
 class CreationSiteInternetToulousePage extends React.Component {
 
@@ -266,7 +266,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-6 md:my-4">
-                        <div className="w-full lg:w-1/2 pt-6">
+                        <div className="w-full flex flex-col justify-center lg:w-1/2 pt-6">
                             <img 
                                 src={mac}
                                 alt="Création site internet Toulouse"

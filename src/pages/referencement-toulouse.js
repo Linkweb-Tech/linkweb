@@ -19,7 +19,7 @@ import imac from "../images/smartphone.jpg";
 // import bgDev from '../images/bg-dev.jpg';
 import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
-import mac from "../images/mac-agence.jpg";
+import mac from "../images/mac-linkweb.jpg";
 
 
 import web from '../images/web.svg';
@@ -232,7 +232,7 @@ class ReferencementToulouse extends React.Component {
                             <RoundButton url="/referencement-toulouse/agence-seo-toulouse/" text="Notre agence SEO à Toulouse" />
                         </div>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-2 md:my-0">
-                        <div className="w-full lg:w-1/2 pt-6">
+                        <div className="w-full flex flex-col justify-center lg:w-1/2 pt-6">
                             <img 
                                 src={mac}
                                 alt="Création site internet Toulouse"

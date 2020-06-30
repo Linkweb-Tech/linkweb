@@ -11,9 +11,9 @@ import "../../scss/global.scss";
 
 import Bg from "../../images/bg-faivre.jpg";
 import bgbloc from "../../images/bloc-faivre.jpg";
-import smartphone from "../../images/mockup1-faivre.jpg";
-import mockup from "../../images/mockup-tablette-faivre.jpg";
-import imac from "../../images/mockup-faivre.jpg";
+import smartphone from "../../images/mockup1-faivre-creation.jpg";
+import mockup from "../../images/mockup-tablette-faivre-services.jpg";
+import imac from "../../images/mockup-faivre-services.jpg";
 import bloccontact from '../../images/faivre-contact.jpg';
 import logo from '../../images/faivre-service.png';
 import logo1 from '../../images/faivre-creation.png';
@@ -255,14 +255,14 @@ class faivre extends React.Component {
                             </ul>
                         </div>
                         <div className="w-full lg:w-1/2 mx-auto block order-first lg:order-last" data-aos="fade-left">
-                            <img className="pl-24 md:pr-0 lg:ml-0 lg:pr-0 xl:pr-0 pb-16 xl:py-0 xl:pb-32" src={smartphone} alt="Création site internet Toulouse"/>
+                            <img className="pl-24 md:pr-0 lg:ml-0 lg:pr-0 xl:pr-0 pb-16 xl:py-0 xl:pb-32" src={smartphone} width="700px" alt="Création site internet Toulouse"/>
                         </div>
                     </section>
                     <section className="h-full w-full flex flex-col lg:flex-row">
                         <div className="w-full lg:w-1/2 mx-auto block" data-aos="fade-right">
                             <img className="mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup} alt="Création site internet Toulouse"/>
                         </div>
-                        <div className="w-full lg:w-1/2 mt-5 lg:mt-32 text-black px-12 lg:px-24 xl:px-48" data-aos="fade-left">
+                        <div className="w-full lg:w-1/2 mt-5 lg:mt-8 text-black px-12 lg:px-24 xl:px-48" data-aos="fade-left">
                             <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-csd1">/</span>une stratégie de référencement au détail</h2>
                             <br/>
                             <p className="font-normal text-justify">
