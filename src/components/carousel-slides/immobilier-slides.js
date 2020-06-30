@@ -138,6 +138,15 @@ class ImmobilierSlides extends React.Component {
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-mode/" text="Création de site web Mode et accessoires" />
                     </div>
                 </div>
+                <div>
+                    <svg width="80px" className="mx-auto block" viewBox="0 0 25 31.25" fill="#37cfee"><g><rect x="13" y="17" width="4" height="2"/><rect x="6" y="14" width="3" height="2"/><path d="M18.428,9a1.55,1.55,0,0,0,1.5531-1.188,1.5237,1.5237,0,0,0-.2224-1.1534.5006.5006,0,0,1,.249-.7567A1.4978,1.4978,0,0,0,19.51,2.99a1.5332,1.5332,0,0,0-1.3187.78.5.5,0,0,1-.8143.0768,2.4944,2.4944,0,0,0-4.37,1.462.5009.5009,0,0,1-.8358.3361A2.4859,2.4859,0,0,0,8.1442,6.6674.507.507,0,0,1,7.59,7H7.5831A1.5,1.5,0,0,0,6.0742,9ZM13.5205,4.9731A2.5,2.5,0,0,1,18,6.5a.5.5,0,0,1-1,0,1.5,1.5,0,0,0-2.688-.9155.5.5,0,0,1-.7915-.6114ZM8.6221,6.8491a2.5729,2.5729,0,0,1,3.646-.1167.5.5,0,0,1-.708.7071A1.5416,1.5416,0,0,0,9.373,7.51a.5.5,0,1,1-.7509-.6612Z"/><rect x="10" y="14" width="5" height="2"/><rect x="6" y="20" width="3" height="2"/><rect x="8" y="17" width="4" height="2"/><rect x="16" y="14" width="3" height="2"/><rect x="6" y="17" width="1" height="2"/><polygon points="18.5 10 5.77 10 3 10 3 13 5.5 13 19.5 13 22 13 22 10 18.5 10"/><rect x="18" y="17" width="1" height="2"/><rect x="10" y="20" width="5" height="2"/><rect x="16" y="20" width="3" height="2"/></g></svg>
+                    <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
+                        Vous souhaitez créer un site internet <br /><span className="text-bleu">de ramoneur</span> ?
+                            </h3>
+                    <div className="w-2/3 mx-auto block mb-16">
+                        <RoundButton url="/creation-site-internet-toulouse/site-internet-ramoneur/" text="Création de site web pour Ramoneur" />
+                    </div>
+                </div>
                 <div id="last-item">
                     <img src={surmesure} width="80px" className="mx-auto block mb-4" alt="Création site internet à Toulouse" />
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
