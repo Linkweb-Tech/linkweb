@@ -4,7 +4,7 @@ import '../../scss/tiles.scss';
 
 import faivre1 from '../../images/faivre1.jpg'
 import faivre2 from '../../images/faivre2.jpg'
-import faivre3 from '../../images/faivre3.jpg'
+import faivre3 from '../../images/faivre4.jpg'
 import csd from '../../images/csd-menuiserie.jpg'
 import sia from '../../images/sia.jpg'
 import sdis from '../../images/sdis47.jpg'
