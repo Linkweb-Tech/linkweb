@@ -79,7 +79,7 @@ class ReferencementNaturel extends React.Component {
                     </section>
                     <section className="max-w-5xl century text-center w-full mx-auto px-4 py-6 my-4">
                         <br/>
-                        <h2 className="text-sm">Agence SEO à Toulouse - Linkweb</h2>
+                        <Link to="/referencement-toulouse/agence-seo-toulouse/" className="text-black hover:text-bleu"><h2 className="text-sm">Agence SEO à Toulouse - Linkweb</h2></Link>
                         <hr className="blue" style={{borderTop:'1px solid #37cfee'}}/>
                         <h2 data-aos='fade-right' className="text-4xl">
                         Avec Linkweb, votre agence de communication digitale à Agen et Toulouse, vous ne cherchez plus vos clients, ce sont eux qui vous trouvent grâce à votre site web.
