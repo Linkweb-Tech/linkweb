@@ -73,11 +73,17 @@
     }
     blockquote {
         background-color:#057898;
-        padding:2% 3% 2% 3%;
+        padding:2% 3% 5% 3%;
         margin-top:5px;
         color:white;
         font-style: italic;
         font-family: "Century Gothic", sans-serif;
+
+        @media (max-width:425px) {
+            margin-left: 0;
+            margin-right: 0;
+            padding: 11%;
+        }
         
     }
     .wp-caption-text {
