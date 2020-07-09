@@ -145,9 +145,25 @@ class Footer extends React.Component {
                             >
                                 Voir les offres
                             </Link>
-                            <Link className="my-6 century text-white font-bold text-md" to="/faq/">
-                            <span className="text-bleu century">></span> Foire aux Questions
+                        </div>
+                        <div className="flex flex-col mt-12 items-center">
+                            <div className="flex mb-2 flex-wrap items-center">
+                                <img 
+                                src={ LinkwebWhite }
+                                alt="Linkweb"
+                                className="w-32 mb-1"
+                                />
+                                <span className="century text-base lg:text-2xl lg:pl-2 text-white">F.A.Q.</span>
+                            </div>
+                            <Link
+                                to="/faq/"
+                                className=" w-full block last md:inline-block mt-0s md:mt-0  no-underline text-white century bg-bleu text-center py-2 px-4"
+                            >
+                                Foire aux Questions
                             </Link>
+                            {/*<Link className="my-6 century text-white font-bold text-md" to="/faq/">
+                            <span className="text-bleu century">></span> Foire aux Questions
+                            </Link>*/}
                         </div>
                     </section>
                 </section>
