@@ -24,7 +24,7 @@ import laptop from '../images/laptop.svg';
 import bullhorn from '../images/bullhorn.svg';
 
 
-class AgenceWebAgen extends React.Component {
+class AgenceWebMarmande extends React.Component {
 
     constructor(props) {
         super(props);
@@ -35,12 +35,12 @@ class AgenceWebAgen extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Agen : agence de communication pour vos projets web à Agen - Linkweb"
-                    description="L'agence web Linkweb à Agen vous accompagne dans le développements de vos projets web sur-mesure : création de site internet, référencement SEO, campagnes sponsorisées Ads."
-                    keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
-                    url="https://linkweb.fr/agence-web-agen/"
-                    nom="Agence Web"
-                    slug="agence-web-agen/"
+                    title="Agence Web Marmande - Projets Web sur-mesure - Linkweb"
+                    description="L'agence web Linkweb à Marmande vous accompagne dans le développements de vos projets web sur-mesure : création de site internet, référencement SEO, campagnes sponsorisées Ads."
+                    keywords={[`Agence Web Marmande`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Marmande`]}
+                    url="https://linkweb.fr/agence-web-marmande/"
+                    nom="Agence Web Marmande"
+                    slug="agence-web-marmande/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -63,7 +63,7 @@ class AgenceWebAgen extends React.Component {
                 > */}
                     <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ background: 'rgba(0,0,0,.65) url(' + Bg + ')', backgroundPosition:'center', backgroundSize:'cover', backgroundBlendMode:'multiply' }}>
                         <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-4xl sm:text-6xl text-center text-white">
-                            Agence web Agen
+                            Agence web Marmande
                         </h1>
                         <h3 className="italic text-center text-lg sm:text-2xl text-white mt-3">Pour vous rapprocher de l’essentiel, faites le choix du savoir-faire et de l’expérience.</h3>
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je veux developper ma communication en ligne" />
@@ -79,7 +79,7 @@ class AgenceWebAgen extends React.Component {
                         <svg width="40px" className="cursor-pointer mx-auto block" viewBox="12.938 70.193 487.061 465.68874999999997"><g><path fill="#37cfee" d="M499.811,74.173c-0.011-2.202-1.799-3.98-4-3.98H135.94c-2.209,0-3.999,1.791-3.999,4v70.337   c0,0.003-0.001,0.006-0.001,0.01s0.001,0.006,0.001,0.01v72.281c-1.976-0.103-3.965-0.157-5.967-0.157   c-33.125,0-62.967,14.323-83.661,37.1c-0.173,0.162-0.328,0.34-0.471,0.53c-17.961,20.019-28.905,46.456-28.905,75.405   c0,28.943,10.939,55.375,28.893,75.392c0.146,0.197,0.307,0.38,0.485,0.547c20.693,22.775,50.534,37.096,83.657,37.096   c33.116,0,62.953-14.3,83.655-37.047c0.249-0.224,0.478-0.468,0.664-0.747c6.789-7.592,12.568-16.102,17.127-25.32h268.579   c2.209,0,4-1.791,4-4V112.869L499.811,74.173z M491.83,78.193l0.169,34.695v27.652H139.94l0-62.347H491.83z M230.826,336.737   c-0.027,0.404-0.05,0.809-0.081,1.212c-0.044,0.567-0.098,1.131-0.151,1.695c-0.031,0.331-0.06,0.663-0.094,0.994   c-0.063,0.611-0.136,1.219-0.21,1.827c-0.034,0.278-0.066,0.556-0.101,0.833c-0.084,0.65-0.177,1.297-0.273,1.943   c-0.034,0.227-0.067,0.454-0.102,0.68c-0.107,0.687-0.221,1.371-0.341,2.053c-0.031,0.177-0.062,0.354-0.094,0.531   c-0.132,0.727-0.271,1.451-0.418,2.173c-0.024,0.117-0.048,0.234-0.072,0.35c-0.162,0.783-0.331,1.563-0.511,2.339   c-0.006,0.026-0.012,0.053-0.019,0.079c-3.957,17.051-12.082,32.522-23.237,45.283h-47.846c4.839-19.064,7.468-42.21,7.744-65.022   h65.963c-0.019,0.508-0.035,1.017-0.061,1.525C230.896,335.736,230.859,336.236,230.826,336.737z M46.868,260.688h47.897   c-4.825,19.064-7.445,42.209-7.72,65.021H21.022C21.957,300.876,31.549,278.222,46.868,260.688z M165.02,325.709   c-0.276-22.812-2.904-45.957-7.743-65.021h47.846c15.327,17.534,24.925,40.188,25.86,65.021H165.02z M95.044,325.709   c0.294-25.694,3.406-47.972,7.998-65.021h45.952c4.609,17.05,7.732,39.328,8.028,65.021H95.044z M157.021,333.709   c-0.295,25.694-3.419,47.972-8.028,65.022h-45.952c-4.592-17.05-7.704-39.328-7.998-65.022H157.021z M155.041,252.688   c-3.425-11.13-7.709-20.404-12.812-26.756c21.094,3.287,40.126,12.87,55.117,26.756H155.041z M146.599,252.688h-41.171   c5.853-17.727,13.399-28.014,20.547-28.014C133.149,224.674,140.724,234.96,146.599,252.688z M96.994,252.688H54.64   c14.993-13.896,34.032-23.483,55.133-26.764C104.683,232.276,100.41,241.553,96.994,252.688z M87.045,333.709   c0.275,22.813,2.896,45.958,7.72,65.022H46.869c-15.319-17.535-24.912-40.189-25.847-65.022H87.045z M96.994,406.731   c3.416,11.134,7.689,20.411,12.779,26.763c-21.1-3.281-40.139-12.867-55.132-26.763H96.994z M105.427,406.731h41.171   c-5.875,17.727-13.449,28.013-20.624,28.013C118.826,434.744,111.28,424.458,105.427,406.731z M155.041,406.731h42.304   c-14.99,13.885-34.023,23.468-55.116,26.755C147.332,427.135,151.616,417.861,155.041,406.731z M231.04,371.63   c2.484-6.252,4.388-12.648,5.722-19.156c0.002-0.009,0.004-0.019,0.006-0.029c0.18-0.88,0.35-1.762,0.508-2.646   c0.013-0.072,0.026-0.143,0.038-0.215c0.147-0.825,0.284-1.652,0.412-2.481c0.019-0.122,0.038-0.244,0.057-0.367   c0.118-0.78,0.227-1.561,0.329-2.343c0.022-0.168,0.044-0.335,0.066-0.503c0.093-0.739,0.177-1.48,0.255-2.222   c0.022-0.207,0.045-0.414,0.066-0.621c0.07-0.705,0.132-1.411,0.189-2.118c0.02-0.242,0.042-0.483,0.06-0.725   c0.051-0.683,0.092-1.368,0.131-2.053c0.015-0.261,0.033-0.522,0.046-0.783c0.034-0.69,0.057-1.381,0.079-2.072   c0.008-0.255,0.021-0.509,0.027-0.765c0.023-0.939,0.036-1.88,0.036-2.822c0-0.93-0.013-1.858-0.035-2.786   c-0.008-0.334-0.024-0.665-0.035-0.998c-0.02-0.591-0.039-1.183-0.068-1.773c-0.019-0.396-0.046-0.791-0.069-1.186   c-0.031-0.524-0.062-1.047-0.1-1.57c-0.031-0.42-0.067-0.838-0.103-1.257c-0.042-0.498-0.085-0.995-0.133-1.492   c-0.041-0.423-0.087-0.844-0.133-1.265c-0.054-0.496-0.11-0.992-0.171-1.487c-0.05-0.408-0.103-0.815-0.157-1.222   c-0.069-0.517-0.141-1.034-0.218-1.549c-0.055-0.374-0.112-0.747-0.171-1.12c-0.089-0.565-0.184-1.13-0.281-1.693   c-0.055-0.315-0.109-0.63-0.166-0.943c-0.119-0.655-0.246-1.307-0.376-1.959c-0.043-0.216-0.085-0.433-0.13-0.648   c-0.169-0.817-0.347-1.632-0.534-2.444c-0.01-0.045-0.02-0.09-0.03-0.135c-4.36-18.872-13.53-36.405-26.868-50.92   c-14.275-15.535-32.39-26.606-52.326-32.273c-0.042-0.012-0.083-0.024-0.125-0.036c-1.646-0.466-3.303-0.895-4.973-1.286   c-0.171-0.04-0.341-0.082-0.512-0.122c-2.592-0.595-5.21-1.1-7.852-1.512c-0.49-0.076-0.982-0.145-1.473-0.215   c-0.696-0.099-1.388-0.218-2.088-0.305l0-68.973h352.059v223.09H231.04z" /><path fill="#37cfee" d="M185.225,124.736c8.491,0,15.399-6.908,15.399-15.398c0-8.459-6.908-15.341-15.399-15.341   c-8.459,0-15.341,6.882-15.341,15.341C169.884,117.828,176.766,124.736,185.225,124.736z M185.225,101.997   c4.08,0,7.399,3.293,7.399,7.341c0,4.079-3.319,7.398-7.399,7.398c-4.048,0-7.341-3.319-7.341-7.398   C177.884,105.222,181.108,101.997,185.225,101.997z" /><path fill="#37cfee" d="M261.857,124.736c8.494,0,15.405-6.908,15.405-15.398c0-8.459-6.911-15.341-15.405-15.341   c-8.491,0-15.399,6.882-15.399,15.341C246.458,117.828,253.366,124.736,261.857,124.736z M261.857,101.997   c4.083,0,7.405,3.293,7.405,7.341c0,4.079-3.322,7.398-7.405,7.398c-4.08,0-7.399-3.319-7.399-7.398   C254.458,105.29,257.777,101.997,261.857,101.997z" /><path fill="#37cfee" d="M338.496,124.736c8.456,0,15.335-6.908,15.335-15.398c0-8.459-6.879-15.341-15.335-15.341   c-8.494,0-15.405,6.882-15.405,15.341C323.091,117.828,330.002,124.736,338.496,124.736z M338.496,101.997   c4.113,0,7.335,3.225,7.335,7.341c0,4.079-3.29,7.398-7.335,7.398c-4.083,0-7.405-3.319-7.405-7.398   C331.091,105.29,334.413,101.997,338.496,101.997z" /><path fill="#37cfee" d="M419.925,194.432H259.551c-2.209,0-4,1.791-4,4s1.791,4,4,4h160.374c2.209,0,4-1.791,4-4S422.134,194.432,419.925,194.432z   " /><path fill="#37cfee" d="M419.925,261.972H272.699c-2.209,0-4,1.791-4,4s1.791,4,4,4h147.226c2.209,0,4-1.791,4-4S422.134,261.972,419.925,261.972z   " /><path fill="#37cfee" d="M419.925,329.448H319.612c-2.209,0-4,1.791-4,4s1.791,4,4,4h100.313c2.209,0,4-1.791,4-4S422.134,329.448,419.925,329.448z   " /></g></svg>
                         <h3 className="text-center text-2xl font-bold century">Création de site internet</h3>
                         <hr className="blue"></hr>
-                        <p className="text-center px-6 text-md">Site internet <strong><Link className="text-bleu hover:text-black" to="/creation-site-internet-agen/">vitrine</Link></strong>, <strong><Link className="text-bleu hover:text-black" to="/creer-une-boutique-en-ligne/">e-commerce</Link></strong> ou <strong>administrable</strong>, Linkweb crée votre site internet à Toulouse et Agen.</p>
+                        <p className="text-center px-6 text-md">Site internet <strong><Link className="text-bleu hover:text-black" to="/creation-site-internet-agen/">vitrine</Link></strong>, <strong><Link className="text-bleu hover:text-black" to="/creer-une-boutique-en-ligne/">e-commerce</Link></strong> ou <strong>administrable</strong>, Linkweb crée votre site internet à Marmande.</p>
                         <br />
                         <ul className="text-bold text-center py-2">
                             <li className="py-2 flex flex-row justify-center">
@@ -195,7 +195,7 @@ class AgenceWebAgen extends React.Component {
                         <hr className="blue"></hr>
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">
-                                Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Agen</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
+                                Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Marmande</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
                         </div>
                     </section>
                     <section className="w-full flex flex-1 mt-6 equipe min-h-0 lg:min-h-600">
@@ -268,11 +268,11 @@ class AgenceWebAgen extends React.Component {
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-0 py-6 my-4">
                         <div className="w-full lg:w-1/2 ">
-                            <img src={imac} alt="Agence Web Toulouse" />
+                            <img src={imac} alt="Agence Web Marmande" />
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
-                                <span className="text-bleu">/</span>AGENCE WEB À AGEN : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
+                                <span className="text-bleu">/</span>AGENCE WEB À MARMANDE : NOTRE CRÉATIVITÉ AU SERVICE DE VOTRE EFFICACITÉ
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
                                 <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
@@ -280,23 +280,23 @@ class AgenceWebAgen extends React.Component {
                             <p /*data-aos='fade-bottom'*/ className="text-justify">
                                 Depuis plus de 10 ans, notre expérience dans la <strong><Link to="creation-site-internet-toulouse/" className="hover:text-bleu">création de sites internet</Link></strong> nous a permis de développer nos compétences<strong> en tant qu'agence de conseil en communication</strong> pour d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br/>
 
-                                Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne (47)</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong><Link to="/" className="hover:text-bleu">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
+                                Présente à <strong>Marmande</strong> en <strong>Lot-et-Garonne (47)</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong><Link to="/" className="hover:text-bleu">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
 
                                 De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-de-site-internet-47-31/" className="hover:text-bleu">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31/" className="hover:text-bleu">référencement naturel</Link></strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
                             </p>
                             
                         </div>
                     </section>
-                    <section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
+                    {/*<section className="flex-wrap flex flex-col md:flex-row md:w-full max-w-5xl mx-auto py-2 my-2 ">
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 mb-12 lg:mb-24">
-                        <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
+                        <h2 /*data-aos='fade-right' className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À AGEN : OÙ NOUS TROUVER ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h4 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-2">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
+                        <h4 /*data-aos='fade-left' className="text-xl text-grey text-center century italic pb-2">Notre relation est basée sur la confiance et la collaboration : embarquez avec nous !</h4>
                     </section>
                     <section className="flex flex-col md:flex-row md:w-full max-w-7xl mx-auto py-2 mt-0 md:-mt-24 lg:-mt-16">
-                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col mt-24 lg:mt-0 text-center" /*data-aos="zoom-in"*/>
+                        <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col mt-24 lg:mt-0 text-center" /*data-aos="zoom-in">
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
@@ -305,14 +305,14 @@ class AgenceWebAgen extends React.Component {
                         <div>
                             <p className="text-bleu mx-12 hidden md:block" style={{fontSize:'350px'}}>/</p>
                         </div>
-                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col mt-24 lg:mt-0 text-center" /*data-aos="zoom-in" data-aos-delay="200"*/>
+                        <div className="font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col mt-24 lg:mt-0 text-center" /*data-aos="zoom-in" data-aos-delay="200">
                             <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
                             <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
                         </div>
                     </section>
-                        {/* <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in">
+                         <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in">
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
@@ -323,9 +323,9 @@ class AgenceWebAgen extends React.Component {
                             <p className="text-xl century">44 Rue de Bayard <br/>
                             31000 TOULOUSE</p>
                             <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
-                        </div> */}
+                        </div> 
 
-                    </section>                    
+                    </section>  */}                  
                     <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                         <div className="max-w-5xl mx-auto flex items-center">
                             <h2 /*data-aos='fade-right'*/ className="text-center text-white text-2xl md:text-4xl century">
@@ -348,21 +348,21 @@ class AgenceWebAgen extends React.Component {
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="400"*/>
 
-                                <img src={web} alt="Agence Web Toulouse" width="80px" />
+                                <img src={web} alt="Agence Web Marmande" width="80px" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT NATUREL</p>
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-6 sm:px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="600"*/>
-                                <img src={bullhorn} alt="Agence Web Agen" width="80px" />
+                                <img src={bullhorn} alt="Agence Web Marmande" width="80px" />
                                 <p className="text-xl century text-white pt-3">RÉFÉRENCEMENT GOOGLE ADS</p>
                             </div>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 lg:pt-2 pb-0 my-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
-                            <span className="text-bleu">/</span>AGENCE WEB À AGEN : QUI SOMMES-NOUS ?
+                            <span className="text-bleu">/</span>AGENCE WEB À MARMANDE : QUI SOMMES-NOUS ?
                         </h2>
                         <hr className="blue"></hr>
-                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Agence Web Agen</h3>
+                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Agence Web Marmande</h3>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-0 pb-0 my-2">
                         <ul className="mt-6 pl-1 sm:pl-6">
@@ -525,7 +525,7 @@ class AgenceWebAgen extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
                         <h2 className="century text-center text-xl md:text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
-                            <span className="text-bleu">/</span>Agence Web Agen : que gagner à se lancer dans un projet web ?
+                            <span className="text-bleu">/</span>Agence Web Marmande : que gagner à se lancer dans un projet web ?
                         </h2>
                         <hr className="blue"></hr>
                         <h4 /*data-aos='fade-left'*/ className="text-lg md:text-xl text-grey text-center century italic px-6 pb-6">Tout ! Ou bien presque. Investir dans un site web vous confère de nombreux avantages pour le développement de votre société, et d’abord celui de montrer que vous êtes bien présent.</h4>
@@ -557,11 +557,11 @@ class AgenceWebAgen extends React.Component {
                         </div>
                     </section>
                     <section className="max-w-5xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3 bg-gris p-10">
-                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight"><span className="text-bleu">/</span>Vous souhaitez faire appel à notre agence web à Toulouse ?</h2>
+                        <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight"><span className="text-bleu">/</span>Vous souhaitez faire appel à notre agence web à Agen ?</h2>
                         <br/>
-                        <p className="century text-center text-md">Linkweb conduit tous vos <strong>projets web à Toulouse</strong>, de leur conception à la mise en oeuvre avec un suivi régulier. Notre équipe vous accompagne dans la mise en route technique et dans le choix de la stratégie éditoriale à adopter pour répondre à vos objectifs.</p>
+                        <p className="century text-center text-md">Linkweb conduit tous vos <strong>projets web à Agen</strong>, de leur conception à la mise en oeuvre avec un suivi régulier. Notre équipe vous accompagne dans la mise en route technique et dans le choix de la stratégie éditoriale à adopter pour répondre à vos objectifs.</p>
                         <div className="max-w-sm mx-auto block">
-                            <RoundButton url="/agence-web-toulouse/" text="Faire appel à l'agence web à Toulouse" />
+                            <RoundButton url="/agence-web-toulouse/" text="Faire appel à l'agence web à Agen" />
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
@@ -581,7 +581,7 @@ class AgenceWebAgen extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsAgenceAgen {
+query lastsThreePostsAgenceMarmande {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -601,7 +601,7 @@ query lastsThreePostsAgenceAgen {
   
     
 `
-export default AgenceWebAgen;
+export default AgenceWebMarmande;
 
 
 
