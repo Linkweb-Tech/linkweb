@@ -10,6 +10,7 @@ import ButtonBlog from "../components/buttonblog";
 import RoundButton from "../components/roundButton.js";
 import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 import { Timeline } from 'react-twitter-widgets';
 import {
   FacebookShareButton,
