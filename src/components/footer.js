@@ -20,7 +20,7 @@ class Footer extends React.Component {
                             alt="Linkweb"
                             className="w-full mb-6"
                             />
-                            <p> © 2019 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p> 
+                            <p> © 2020 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p> 
                             <a className="text-xs"  title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</a>
                         </div> <br />
                         </div>
