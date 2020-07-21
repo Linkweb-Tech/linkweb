@@ -238,7 +238,7 @@ class FAQ extends React.Component {
                                 <li><span className="text-bleu">></span> <strong>Fidéliser</strong> ses clients</li>
                                 <li><span className="text-bleu">></span> Optimiser le fonctionnement de son entreprise</li>
                             </ul>
-                            {/* <h4>Lire la suite de « Pourquoi créer un site internet ? ».</h4> */}
+                            <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/pourquoi-creer-site-internet/" className="text-bleu hover:text-black">« Pourquoi créer un site internet ? »</Link>.</h4>
                         </Answer>
 
                         <Answer id={2} activeId={this.state.active}>
