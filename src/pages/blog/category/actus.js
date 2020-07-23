@@ -177,7 +177,7 @@ query lastsThreePostsCatActus {
             }
         }
     }
-    actus: allWordpressPost(limit: 50, filter: {categories: {elemMatch: {slug: {eq: "actus"}}}}) {
+    actus: allWordpressPost(limit: 100, filter: {categories: {elemMatch: {slug: {eq: "actus"}}}}) {
         edges {
             node {
             id
