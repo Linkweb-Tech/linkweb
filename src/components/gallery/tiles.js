@@ -12,6 +12,7 @@ import atpt from '../../images/atouts.jpg'
 import gabriel from '../../images/gabriel-services.jpg'
 import ledil from '../../images/ledilimmo.jpg'
 import aqua from '../../images/aquapensezvous-tiles.jpg'
+import cdhg from '../../images/cdhg.jpg'
 
 class Tiles extends React.Component {
 	render() {
@@ -66,6 +67,12 @@ class Tiles extends React.Component {
             name: "Aqua Pensez-Vous",
             image: aqua, 
             url: "/realisations/aquapensezvous/"
+        },
+        {
+            id: 11,
+            name: "Conseil Départemental de Haute-Garonne",
+            image: cdhg, 
+            url: "/realisations/conseil-departemental-haute-garonne/"
         }];
         
         

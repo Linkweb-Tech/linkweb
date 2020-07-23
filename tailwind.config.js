@@ -39,7 +39,8 @@ module.exports = {
       sdisbarre:"#b71c3094",
       siabarre:"#b71c3094",
       aquap:"#d33683",
-      aquap1:"#333333"
+      aquap1:"#333333",
+      hg:"#0095B4"
     },
     borderRadius: {
       'large': '1rem',
