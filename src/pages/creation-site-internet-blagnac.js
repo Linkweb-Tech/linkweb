@@ -87,7 +87,7 @@ class CreationSiteInternetBlagnacPage extends React.Component {
                     <Partenaires/>
                     <section className="max-w-5xl w-full mx-auto px-12 py-6 my-4 century">
                         <h2 className="text-justify text-xl font-bold" style={{textAlignLast:'center'}}>
-                            Depuis 2008, Linkweb est à l'origine de la création de sites internet pour des entreprises du Haute-Garonne (31) issues d'horizons différents. Notre rôle est de vous accompagner pour atteindre vos objectifs de visibilité sur le Web.
+                            Depuis 2008, Linkweb est à l'origine de la création de sites internet pour des entreprises de Haute-Garonne (31) issues d'horizons différents. Notre rôle est de vous accompagner pour atteindre vos objectifs de visibilité sur le Web.
                         </h2>
                     <ul className="px-16 list-disc mt-10 max-w-5xl text-xl">
                         <li>Vous avez besoin de <strong className="font-normal">créer un site internet</strong> pour <strong>vendre vos produits en ligne</strong> ?</li><br/>

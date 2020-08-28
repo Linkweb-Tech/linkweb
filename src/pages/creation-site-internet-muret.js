@@ -11,14 +11,15 @@ import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
 import Partenaires from '../components/partenaires';
 import "../scss/global.scss";
+
 import blocBg from "../images/background.jpg";
-import Bg from "../images/creation-site-internet-balma.jpg";
+import Bg from "../images/creation-site-internet-muret.jpg";
 import imac from "../images/referencement-site-immobilier.jpg";
 import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
 import mac from "../images/mac-agence.jpg";
 
-class CreationSiteInternetBalmaPage extends React.Component {
+class CreationSiteInternetMuretPage extends React.Component {
 
     constructor(props){
         super(props);
@@ -42,12 +43,12 @@ class CreationSiteInternetBalmaPage extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de Site Internet à Balma (31) - Agence Web Linkweb"
-                    description="Création de site internet à Balma (31). Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
-                    keywords={[`Création site internet Balma`, `Création site internet Balma`, `Création site web Balma`, `Création site web Balma`]}
-                    url="https://linkweb.fr/creation-site-internet-balma/"
-                    nom="Création de site internet à Balma"
-                    slug="creation-site-internet-balma/"
+                    title="Création de Site Internet à Muret (31) - Agence Web Linkweb"
+                    description="Création de site internet à Muret (31). Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
+                    keywords={[`Création site internet Muret`, `Création site internet Muret`, `Création site web Muret`, `Création site web Muret`]}
+                    url="https://linkweb.fr/creation-site-internet-muret/"
+                    nom="Création de site internet à Muret"
+                    slug="creation-site-internet-muret/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{
@@ -71,7 +72,7 @@ class CreationSiteInternetBalmaPage extends React.Component {
                     
                     <section className="w-full bloctitrescreen mx-auto px-10 sm:px-4 py-6 bg-no-repeat bg-cover flex flex-col justify-center items-center" style={{ background:'#00000084 url(' + Bg + ')', backgroundBlendMode:'multiply', backgroundPosition:'bottom', backgroundSize:'cover' }}>
                         <h1 /*data-aos="fade-up" data-aos-delay="500"*/ className="century text-4xl sm:text-6xl text-center text-white">
-                        Création de site internet à Balma (31)
+                        Création de site internet à Muret (31)
                         </h1>
                         <h3 className="italic text-lg text-center sm:text-2xl text-white mt-2">Tous les jours, des millions de sites internet voient le jour, pourquoi pas le vôtre ?</h3>
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je veux créer mon site internet professionnel" />
@@ -116,18 +117,18 @@ class CreationSiteInternetBalmaPage extends React.Component {
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 py-6 my-4">
                         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
-                            <img src={imac} className="mx-auto flex my-6" alt="Création site internet Balma"/>
+                            <img src={imac} className="mx-auto flex my-6" alt="Création site internet Muret"/>
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
                             <h2 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
-                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET BALMA : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE
+                                <span className="text-bleu">/</span>CRÉATION SITE INTERNET MURET : OPTER POUR UNE AGENCE WEB PROFESSIONNELLE
                             </h2>
                             <h4 className="century text-lg tracking-wider pb-6 text-justify" /*data-aos='fade-left'*/>
-                                <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. <strong>Linkweb</strong> met en place le site web qu’il vous faut à Balma.</span>
+                                <span className="font-bold">La <strong>création de sites internet</strong> est un vecteur de développement pour une entreprise. <strong>Linkweb</strong> met en place le site web qu’il vous faut à Muret.</span>
                             </h4>
-                            <p /*data-aos='fade-bottom'*/ className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise en fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Balma</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
+                            <p /*data-aos='fade-bottom'*/ className="text-justify"><Link className="hover:text-bleu" to="/">Linkweb</Link> met en place votre <strong>solution web</strong> d’entreprise en fonction de vos besoins en termes de <strong>communication</strong>. Nous déterminerons quelle sera la solution la plus efficace et adaptée pour la <strong>création de votre site internet à Muret</strong>. Mettre en avant vos prestations et services, développer une plateforme de <strong>vente en ligne</strong> de vos produits, ou tout simplement obtenir un outil en ligne professionnel pour présenter votre activité, il faut s'avoir qu'il existe d'inombrables solutions pour <strong>créer votre site internet</strong>. <br /><br />
 
-                            En fonction de votre demande, les équipes de <strong>consultants web</strong> de notre <strong className="font-light">agence de création de sites web</strong> définiront la solution la plus adaptée pour votre site internet quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Balma</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. Le <strong>référencement d'un site</strong> est un travail essentiel pour maximiser sa visibilité. De l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">arborescence</Link> à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
+                            En fonction de votre demande, les équipes de <strong>consultants web</strong> de notre <strong className="font-light">agence de création de sites web</strong> définiront la solution la plus adaptée pour votre site internet quant à vos objectifs, votre secteur concurrentiel, mais aussi sur la partie technique pour votre <strong>création de site internet à Muret</strong>. Votre <strong>projet web</strong> sera mené par nos équipes de <strong>développeurs web</strong> et <strong>référenceurs</strong> afin de rédiger un contenu construit pour <strong>être visible</strong>, ainsi qu’un contenant capable de présenter au mieux l’information. Le <strong>référencement d'un site</strong> est un travail essentiel pour maximiser sa visibilité. De l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/">arborescence</Link> à la mise en ligne, nous mettons notre expertise à votre service.</p><br/>
                             {/* <Button url="#" text="En savoir plus sur la création de site internet" position="start" /> */}
                             <br/>
                             {/* <button data-aos="fade-left" className="text-md hover:text-bleu" onClick={this.onOpenModal}><span className="text-bleu">>></span> En savoir plus sur la création de site internet</button> */}
@@ -143,7 +144,7 @@ class CreationSiteInternetBalmaPage extends React.Component {
                         Faites connaître votre entreprise sur (<span className="text-bleu">l’</span>)<span className="text-bleu">Internet</span> !
                         </h2>
                         <hr className="blue"></hr>
-                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Création de site internet à Balma</h3>
+                        <h3 /*data-aos="fade-in"*/ className="text-center font-normal italic century text-sm">Création de site internet à Muret</h3>
                     </section>
                     <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
                         <div className="w-full xl:w-1/3 one px-auto">
@@ -195,20 +196,20 @@ class CreationSiteInternetBalmaPage extends React.Component {
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
-                        Création de site internet à Balma : Linkweb, votre solution web professionnelle
+                        Création de site internet à Muret : Linkweb, votre solution web professionnelle
                         </h2>
                         <hr className="blue"></hr>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-10 pb-0">
                     <div className="w-full max-w-5xl" /*data-aos='zoom-in'*/>
-                            <p className="text-md text-center pt-4 century">Vous souhaitez une création de site internet à Balma ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. <br/><br/>Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
+                            <p className="text-md text-center pt-4 century">Vous souhaitez une création de site internet à Muret ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. <br/><br/>Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
                         </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-6 md:my-4">
                         <div className="w-full lg:w-1/2 pt-6">
                             <img 
                                 src={mac}
-                                alt="Création site internet Balma"
+                                alt="Création site internet Muret"
                                 /*data-aos="fade-right"*/
                             />
                         </div>
@@ -222,19 +223,19 @@ class CreationSiteInternetBalmaPage extends React.Component {
                             <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>2<span className="text-bleu">/</span> DES EXPERTS QUALIFIÉS</h2>
                             <br/>
                             <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
-                                <strong className="font-light">Linkweb</strong>, c’est une équipe de référenceurs spécialisés dans l’<strong>optimisation SEO</strong> en plus de <strong>développeurs <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/">front-end</Link> et <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/back-end/">back-end</Link></strong> spécialisés dans l’<Link className="font-bold text-bleu hover:text-black" to="/creation-site-internet-toulouse/ui-design/"><strong>UI design</strong></Link> (<strong className="font-light">interface utilisateur</strong> et travail de l'<strong className="font-light">ergonomie</strong>) et l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/"><strong>UX design</strong></Link> <strong className="font-light">(expérience utilisateur)</strong> à <strong className="font-light">Balma</strong>. Les équipes de notre <strong>agence de communication web</strong> vous proposent des plateformes adaptées aux standards du Web (<strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/w3c/">W3C</Link></strong>) et aux dernières tendances dans le but d’améliorer l’<strong className="font-light">expérience</strong> passée sur votre site. Nous mettons en place votre site internet au <strong className="font-light"><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">webdesign</Link></strong> moderne, ergonomique, <strong className="font-light">intuitif</strong>, accessible et adapté au <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">responsive design</Link></strong>. Chaque fonctionnalité est étudiée pour apporter une plus-value à <strong>votre site internet</strong>.
+                                <strong className="font-light">Linkweb</strong>, c’est une équipe de référenceurs spécialisés dans l’<strong>optimisation SEO</strong> en plus de <strong>développeurs <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/">front-end</Link> et <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/back-end/">back-end</Link></strong> spécialisés dans l’<Link className="font-bold text-bleu hover:text-black" to="/creation-site-internet-toulouse/ui-design/"><strong>UI design</strong></Link> (<strong className="font-light">interface utilisateur</strong> et travail de l'<strong className="font-light">ergonomie</strong>) et l’<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/"><strong>UX design</strong></Link> <strong className="font-light">(expérience utilisateur)</strong> à <strong className="font-light">Muret</strong>. Les équipes de notre <strong>agence de communication web</strong> vous proposent des plateformes adaptées aux standards du Web (<strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/w3c/">W3C</Link></strong>) et aux dernières tendances dans le but d’améliorer l’<strong className="font-light">expérience</strong> passée sur votre site. Nous mettons en place votre site internet au <strong className="font-light"><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/">webdesign</Link></strong> moderne, ergonomique, <strong className="font-light">intuitif</strong>, accessible et adapté au <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/">responsive design</Link></strong>. Chaque fonctionnalité est étudiée pour apporter une plus-value à <strong>votre site internet</strong>.
                             </p>
                             <br/>
                             <h2 className="font-bold px-10 text-xl py-6 md:py-0" /*data-aos="fade-in"*/>3<span className="text-bleu">/</span> UN SUIVI PRÉCIS DES PERFORMANCES</h2>
                             <br/>
                             <p className="text-md text-justify px-10" /*data-aos="fade-left"*/>
-                                Le <strong>référencement d’un site internet</strong> s’effectue sur le long terme. C’est pourquoi nous disposons d'<strong>outils indispensables</strong> qui permettent d'effectuer un suivi régulier pour vous donner la possibilité d’avoir un regard professionnel sur le positionnement des pages de votre site dans les résultats des <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/"><strong>moteurs de recherche</strong></Link> par rapport à vos concurrents. Par ailleurs, nos consultants à <strong className="font-light">Balma</strong> sont force de proposition pour vous présenter des mises à jour qui permettront d’affiner la <strong>stratégie de référencement</strong> déployée sur <strong>votre site web</strong>.
+                                Le <strong>référencement d’un site internet</strong> s’effectue sur le long terme. C’est pourquoi nous disposons d'<strong>outils indispensables</strong> qui permettent d'effectuer un suivi régulier pour vous donner la possibilité d’avoir un regard professionnel sur le positionnement des pages de votre site dans les résultats des <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/"><strong>moteurs de recherche</strong></Link> par rapport à vos concurrents. Par ailleurs, nos consultants à <strong className="font-light">Muret</strong> sont force de proposition pour vous présenter des mises à jour qui permettront d’affiner la <strong>stratégie de référencement</strong> déployée sur <strong>votre site web</strong>.
                             </p>
                         </div>
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
-                        <span className="text-bleu">/</span>Création de site internet à Balma : <span className="text-bleu">le mode opératoire</span> 
+                        <span className="text-bleu">/</span>Création de site internet à Muret : <span className="text-bleu">le mode opératoire</span> 
                         </h2>
                         <hr className="blue"></hr>
                         
@@ -468,7 +469,7 @@ class CreationSiteInternetBalmaPage extends React.Component {
                     </section>
                     <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
                         <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight" /*data-aos="zoom-in"*/>
-                            <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Balma ?
+                            <span className="text-bleu">/</span>Vous souhaitez en savoir plus sur la création de site internet à Muret ?
                         </h2>
                         <hr className="blue"></hr>
                         <h4 /*data-aos='fade-left'*/ className="text-lg px-6 md:text-xl text-grey text-center century italic pb-6">Vous souhaitez en savoir plus sur votre future création de sites web ?
@@ -507,7 +508,7 @@ class CreationSiteInternetBalmaPage extends React.Component {
                         <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
                             <img 
                                 src={ stars }
-                                alt="Création site internet Balma"
+                                alt="Création site internet Muret"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Château de Boisverdun</div>
@@ -516,7 +517,7 @@ class CreationSiteInternetBalmaPage extends React.Component {
                         <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up" data-aos-delay="300"*/>
                             <img 
                                 src={ stars }
-                                alt="Création site internet Balma"
+                                alt="Création site internet Muret"
                                 className="w-32 mx-auto h-auto mt-3"
                             />
                             <div className="text-lg century my-2">Auto École Anne</div>
@@ -578,7 +579,7 @@ class CreationSiteInternetBalmaPage extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsBalma {
+query lastsThreePostsMuret {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -598,7 +599,7 @@ query lastsThreePostsBalma {
   
     
 `
-export default CreationSiteInternetBalmaPage;
+export default CreationSiteInternetMuretPage;
 
 
 
