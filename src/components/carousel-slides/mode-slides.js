@@ -182,6 +182,15 @@ class ModeSlides extends React.Component {
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-psychologue/" text="Création de site web pour psychologue" />
                     </div>
                 </div>
+                <div>
+                <svg width="35px" fill="#37cfee" className="mt-4 mx-auto block" viewBox="0 0 319 800"><g xmlns=""><polygon points="119,9 237,0 138,226 319,201 36,640 31,621 169,300 0,335 "/></g></svg>                    
+                    <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
+                        Vous souhaitez créer un site internet d'<br /><span className="text-bleu">électricien</span> ?
+                            </h3>
+                    <div className="w-2/3 mx-auto block mb-16">
+                        <RoundButton url="/creation-site-internet-toulouse/site-internet-electricien/" text="Création de site web pour électricien" />
+                    </div>
+                </div>
                 <div id="last-item">
                     <img src={surmesure} width="80px" className="mx-auto block mb-4" alt="Création site internet à Toulouse" />
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
