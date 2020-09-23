@@ -87,6 +87,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         
                     </section>
                     <Partenaires/>
+                    
                     <section className="max-w-5xl w-full mx-auto px-12 py-6 my-4 century">
                         <h2 className="text-justify text-xl font-bold" style={{textAlignLast:'center'}}>
                             Depuis 2008, Linkweb est à l'origine de la création de sites internet pour des entreprises issues d'horizons différents. Notre rôle, en tant qu'agence web à Toulouse, est de vous accompagner pour atteindre vos objectifs de visibilité sur le Web.

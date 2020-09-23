@@ -322,6 +322,7 @@ class ReferencementNaturel extends React.Component {
                                 <span className="font-bold">Réaliser une étude de la concurrence est nécessaire pour se positionner le plus précisément sur les bons mots-clés et être visible.</span>
                             </h4>
                             <p>Nous disposons d’un outil complet pour étudier votre <strong>concurrence en ligne</strong> afin d’être toujours en <strong>première page</strong> et <strong>référencer votre site</strong> sur les mots clés de vos concurrents. Un <strong>expert en référencement</strong> déterminera les opportunités qui vous permettrons de <strong>générer du trafic</strong>. Avant cela, nous devons savoir contre quoi et contre qui nous serons confrontés.</p>
+                            <Button url="/blog/referencement-pourquoi-etude-concurrence-est-necessaire/" text="En savoir plus sur l'étude de la concurrence" position="left" color="white"/>
                         </div>
                         </div>
                         <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:my-2 lg:py-2 text-justify">
