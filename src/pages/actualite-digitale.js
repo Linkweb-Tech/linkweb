@@ -78,7 +78,7 @@ render() {
                     <Link to="/actualite-digitale/"><h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white mt-40">
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h2></Link>
-                    <h1 className="century text-lg sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'actualité digitale</h1>
+                    <h1 className="century text-lg sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'Actualité Digitale</h1>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
