@@ -366,3 +366,50 @@ footer {
         min-height:550px;
     }
 }
+
+.hrblog {
+    border-top: 1px solid #37cff57a;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.sidebarlinks {
+    min-height:70px;
+    max-width:500px;
+    border-radius:15px;
+    transition:all ease 0.5s;
+    margin-bottom:5px;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-blend-mode:luminosity;
+}
+
+.sidebarlinks:hover {
+    transform:scale(1.05);
+    transition: all ease 0.5s;
+    box-shadow: 0 0 20px #a1a1a1;
+    background-blend-mode:overlay;
+}
+
+.sidebarlinks h4 {
+    display:none;
+}
+
+.sidebarlinks:hover h4 {
+    display:block;
+}
+
+.blocblog {
+    transition: all ease 0.5s;
+}
+
+.blocblog:hover {
+    transform:scale(1.05);
+    transition: all ease 0.5s;
+    box-shadow: 0 0 20px #a1a1a1;
+}

@@ -4,21 +4,28 @@ import Layout from "../components/layout";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
+import Postune from '../components/postune';
 import ButtonBlog from "../components/buttonblog";
+import RoundButtonBlog from "../components/roundButtonBlog.js";
 import RoundButton from "../components/roundButton.js";
 // import RappelForm from "../components/rappelForm";
 import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
+import LastPostsList from '../components/lastpostslist';
+import LastPostsTendances from '../components/lastpoststendances';
+
+
 import { Timeline } from 'react-twitter-widgets';
 import ButtonMenu from '../components/buttonmenu.js';
 import BlogMenu from '../components/menublog.js';
 import '../scss/global.scss';
 
+import bgbloc from "../images/creation-sites-web-toulouse.jpg";
 import background from "../images/background-blog.jpg";
 import blocBg from "../images/background.jpg";
-import CreerSite from "../images/creer-un-site.jpg";
-import RefSite from "../images/referencer-un-site.jpg";
-import AgenceAds from "../images/campagne-ads.jpg";
+import CreerSite from "../images/besoins.jpg";
+import RefSite from "../images/referencement-google-toulouse.jpg";
+import AgenceAds from "../images/analytics-site-internet.jpg";
 import world from "../images/grid-world.png";
 import iconseo from "../images/seo-performance-marketing-graphic.png";
 import iconsea from "../images/waving-flag.png";
@@ -129,16 +136,29 @@ render() {
                         </section>
                 </section>*/}
                 <BlogMenu />
-                <section className=" flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
-                    <div className="w-full xl:w-3/4">
+                <section className=" flex flex-col xl:flex-row flex justify-center mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
+                    <div className="w-full xl:w-3/5">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
-                            <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
-                            <section className="flex justify-center">
+                        <div className="flex flex-row items-center">
+                                        <Link to="/blog/category/referencement/">
+                                            <h2 className="font-bold century text-bleu text-3xl py-2 justify-start flex px-6">
+                                                À la Une
+                                            </h2>
+                                        </Link>
+                                        <hr className="hrblog mt-1 px-6 mr-6" style={{width:'70%'}}></hr>
+                                    </div>
+                            <Postune postune={this.props.data.allWordpressPost.edges} />
+                            <div className="flex flex-row items-center">
+                                <Link to="/blog/category/actus/"><h3 className="font-bold century text-bleu text-xl py-2 justify-start flex px-6">Actualités</h3></Link>
+                                <hr className="hrblog mt-1 px-6 mr-6"></hr>
+                            </div>
+                            <LastPosts lastposts={this.props.data.actus.edges} />
+                            {/* <section className="flex justify-center ">
                                 <div className="w-2/3 lg:w-1/4" data-aos="fade-up">
-                                    <ButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
+                                    <RoundButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
                                 </div>
-                            </section>
-                                <section className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24">
+                            </section> */}
+                                <section className="blocblog w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24" style={{background:'#37cfeede url(' + blocBg +')', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode:'overlay', borderRadius:'15px'}}>
                                     <div className="max-w-5xl mx-auto flex items-center">
                                         <h2 data-aos='fade-right' className="text-center text-white text-2xl lg:text-4xl century">
                                             Vous souhaitez être recontacté pour la mise en place de votre solution web ?
@@ -150,15 +170,20 @@ render() {
                                     </div>
                                 </section>
                                 <section className="w-full mx-auto py-6 mt-4 mb-0">
-                                    <h2 data-aos='fade-right' className="text-left text-4xl century pl-8">
-                                        À propos de Référencement
-                                    </h2>
+                                    <div className="flex flex-row items-center">
+                                        <Link to="/blog/category/referencement/">
+                                            <h2 className="font-bold century text-bleu text-xl py-2 justify-start flex px-6">
+                                                À propos de Référencement
+                                            </h2>
+                                        </Link>
+                                        <hr className="hrblog mt-1 px-6 mr-6" style={{width:'55%'}}></hr>
+                                    </div>
                                     <br/>
-                                    <LastPosts lastposts={this.props.data.ref.edges} />
+                                    <LastPostsList lastposts={this.props.data.ref.edges} />
                                 </section>
                                 <section className="flex justify-center">
                                 <div className="w-2/3 md:w-1/4" data-aos="fade-up">
-                                    <ButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
+                                    <RoundButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
                                 </div>
                                 </section>
                                 <section className="flex flex-col md:flex-row justify-center px-5 mr-0">
@@ -170,7 +195,7 @@ render() {
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <ButtonBlog url="/creation-site-internet-toulouse/" text="Créer son site web" color="bleu" />
+                                            <RoundButtonBlog url="/creation-site-internet-toulouse/" text="Créer son site web" color="bleu" />
                                         </div>
                                     </div>
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00b1e2 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
@@ -181,7 +206,7 @@ render() {
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <ButtonBlog url="/referencement-de-site-internet-47-31/" text="Développer son SEO" color="bleu" />
+                                            <RoundButtonBlog url="/referencement-de-site-internet-47-31/" text="Développer son SEO" color="bleu" />
                                         </div>
                                     </div>
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#057898 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
@@ -192,22 +217,42 @@ render() {
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <ButtonBlog url="/agence-adwords-47-31/" text="Créer une campagne Ads" color="bleu" />
+                                            <RoundButtonBlog url="/agence-adwords-47-31/" text="Créer une campagne Ads" color="bleu" />
                                         </div>
                                     </div>
                                 </section>
                         </section>                    
                     </div>
-                    <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 mt-20">
-                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse/" text="Demander un devis"/><br/>
+                    <div className="w-full xl:w-1/3 mt-0 mb-3 px-12 mt-0 xl:mt-16">
+                        <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br/>
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br/>
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                            <br/>
+                                <RoundButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
+                        </div>
+                        <br/>
                         {/* <h3 className="font-bold pb-3">CATÉGORIES</h3>
                         <CategoriesList list={ this.props.data.allWordpressCategory.edges} /> */}
-                        <h3 className="font-bold pt-3 pb-3">DERNIERS ARTICLES</h3>
+                        <hr className="hrblog"></hr>
+                        <h3 className="font-bold century text-bleu pt-3 pb-3">Toute l'actualité digitale</h3>
+                        <hr className="hrblog"></hr>
                         <LastPostsMini lastposts={this.props.data.lastmini.edges} />
-                        <Link to="/creation-site-internet-toulouse/"><img src={CreerSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/referencement-de-site-internet-47-31/"><img src={RefSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/agence-adwords-47-31/"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
-                        <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
+                        <Link to="/creation-site-internet-toulouse/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + CreerSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Créer un site internet</h4></section></Link>
+                        <Link to="/referencement-de-site-internet-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + RefSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Optimiser mon référencement naturel</h4></section></Link>
+                        <Link to="/agence-adwords-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + AgenceAds +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Lancer une campagne Google Ads</h4></section></Link>
+                        <br/>
+                        <hr className="hrblog"></hr>
+                        <h3 className="font-bold century text-bleu pt-3 pb-3">Tendances</h3>
+                        <hr className="hrblog"></hr>
+                        <LastPostsTendances lastposts={this.props.data.tendances.edges} />
+                        <br/>
+                        <hr className="hrblog"></hr>
+                        <h3 className="font-bold century text-bleu pt-3 ">Retrouvez Linkweb sur Twitter</h3><br/>
+                        <hr className="hrblog"></hr>
                         <Timeline
                             dataSource={{
                             sourceType: 'profile',
@@ -234,7 +279,22 @@ render() {
 
 export const query = graphql`
 query lastsThreePostsActualitedigitale {
-    allWordpressPost(limit: 6) {
+   actus: allWordpressPost(limit: 4, filter: {categories: {elemMatch: {slug: {eq: "actus"}}}}) {
+        edges {
+            node {
+            id
+            title
+            slug
+            modified(locale: "fr", formatString: "DD/MM/YYYY")
+            date(locale: "fr", formatString: "dddd DD MMMM YYYY")
+            link
+            featured_media {
+                source_url
+            }
+            }
+        }
+    }
+    allWordpressPost(limit: 1) {
         edges {
             node {
             id
@@ -272,7 +332,22 @@ query lastsThreePostsActualitedigitale {
             }
         }
     }
-    ref: allWordpressPost(limit: 3, filter: {categories: {elemMatch: {slug: {eq: "referencement"}}}}) {
+    tendances: allWordpressPost(limit:3, filter: {categories: {elemMatch: {slug: {eq: "tendances"}}}}) {
+        edges {
+            node {
+            id
+            title
+            slug
+            modified(locale: "fr", formatString: "DD/MM/YYYY")
+            date(locale: "fr", formatString: "dddd DD MMMM YYYY")
+            link
+            featured_media {
+                source_url
+            }
+            }
+        }
+    }
+    ref: allWordpressPost(limit: 4, filter: {categories: {elemMatch: {slug: {eq: "referencement"}}}}) {
         edges {
             node {
             id
@@ -289,6 +364,7 @@ query lastsThreePostsActualitedigitale {
     }
 
 }
+
 
 
 `

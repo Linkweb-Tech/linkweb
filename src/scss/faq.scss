@@ -325,6 +325,43 @@ h3.intertitre3 {
     }
 }
 
+.bloccontactblog {
+    background: #00cfffe0;
+    height:350px;
+    margin-top:70px;
+    position:relative;
+    border-radius:15px;
+    transition: all ease 0.7s;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+    @media(max-width: 1400px) {
+        border-radius:0px;
+    }
+}
+.bloccontactblog:hover {
+    box-shadow: 0 0 20px #a1a1a1;
+    transition: all ease 0.7s;
+    transform: scale(1.05);
+}
+
+.bloccontactblog h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:center;
+    color:white;
+}
+.bloccontactblog h3 {
+    font-size: 17px;
+    font-weight:normal;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:center;
+    color:white;
+}
+
 .bloccontact h2 {
     font-size: 20px;
     font-weight: bold;

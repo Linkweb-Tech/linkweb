@@ -1,10 +1,11 @@
 import React from 'react'
 import '../scss/lastpostsmini.scss'
 import {Link} from 'gatsby'
+import RoundButtonBlog from '../components/RoundButtonBlog'
 
 
 
-class LastPosts extends React.Component {
+class LastPostsList extends React.Component {
     constructor(props){
         super(props);
     }
@@ -14,10 +15,10 @@ class LastPosts extends React.Component {
         const lastposts = this.props.lastposts;
         
         return(
-            <section className="flex flex-1 flex-wrap lastpostside flex-col w-full mt-4 mb-6">
+            <section className="flex flex-1 flex-wrap flex-col w-full mt-4 mb-6">
                 {
                     lastposts.map(( {node} ) => (
-                        <article className="w-full mx-0 md:px-0 pb-1 flex flex-col align-center  sidebarPosts">
+                        <article className="w-full mx-0 md:px-0 pb-1 flex flex-col align-center  listPosts">
                             <div className="pb-3">
                                 <Link
                                     to={`/blog/${node.slug}/`}
@@ -27,8 +28,9 @@ class LastPosts extends React.Component {
                                         <img className="img" src={node.featured_media.source_url} />
                                     </div>
                                     <div>  
-                                        <h5 className="text-sm text-left px-3 font-bold hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }}/>{/*{ node.title }</h5>*/}
-                                        <div className=" meta px-3 mt-1 text-left italic" style={{fontSize:'11px'}}>Mis à jour le { node.modified }</div>                                       
+                                        <h5 className="text-sm text-left font-bold hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }}/>{/*{ node.title }</h5>*/}
+                                        <div className="meta px-5 text-left italic" style={{fontSize:'12px'}}>Mis à jour le { node.modified }</div>
+                                        <div className="px-5" style={{maxWidth:'100px', maxHeight:'30px', marginTop:'10px'}}><RoundButtonBlog color="bleu" url={`/blog/${node.slug}/`} text="Lire l'article" /></div>                              
                                     </div>                                    
                                 </Link>
                             </div>
@@ -42,7 +44,7 @@ class LastPosts extends React.Component {
     }
 }
 
-export default LastPosts;
+export default LastPostsList;
 
 
 

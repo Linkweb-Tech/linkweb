@@ -1,16 +1,74 @@
 .sidebarPosts {
     .imgBloc {
-        min-width: 120px;
+        min-width: 80px;
         position: relative;
-        width: 120px;
+        width: 80px;
         height: 80px;
+        border-radius:15px;
         overflow: hidden;
+        transition:0.3s;
         img {
             position: absolute;
-            top: -10%;
+            /*top: -10%;*/
             min-width: 150%;
             left: -25%;
         }
     
     }
+    .imgBloc:hover {
+        transition:0.3s;
+        transform:scale(1.1);
+        box-shadow: 0 0 20px #a1a1a1;
+
+    }
+}
+
+//  .lastpostside {
+//      article:first-child {
+//      .sidebarPosts {
+//          .imgBloc {
+//                 background-image: url(../images/img_9223-vignette.jpg);
+//         }
+//     }
+// }
+//  }
+
+.listPosts {
+    background:#bfbebefa url(../images/background-blog.jpg);
+    background-size:cover;
+    background-blend-mode:overlay;
+    margin-bottom:20px;
+    max-height:180px;
+    border-radius:15px;
+    transition: all ease 0.5s;
+    h5 {
+        font-size:20px;
+        padding-left:5%;
+        padding-right:5%;
+        padding-top:4%;
+        padding-bottom:1%;
+    }
+    .imgBloc {
+        min-width: 80px;
+        position: relative;
+        width: 180px;
+        height: 180px;
+        border-top-left-radius:15px;
+        border-bottom-left-radius:15px;
+        overflow: hidden;
+        img {
+            position: absolute;
+            /*top: -10%;*/
+            min-width: 150%;
+            left: -25%;
+        }
+    
+    }
+    
+}
+
+.listPosts:hover {
+    transition: all ease 0.5s;
+    transform:scale(1.1);
+    box-shadow: 0 0 20px #a1a1a1;
 }
