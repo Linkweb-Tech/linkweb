@@ -413,3 +413,17 @@ footer {
     transition: all ease 0.5s;
     box-shadow: 0 0 20px #a1a1a1;
 }
+
+//Navigation Blog //
+.itemblog:first-child {
+    border-bottom-left-radius:27px;
+}
+.itemblog:hover {
+    background-color:#a8e3efde;
+    transition: all ease 0.5s;
+    color:white;
+    &:first-child {
+        border-bottom-left-radius:27px;
+    }
+}
+
