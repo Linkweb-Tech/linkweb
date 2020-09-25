@@ -28,6 +28,7 @@ class LastPosts extends React.Component {
                                     </div>
                                     <div>  
                                         <h5 className="text-sm text-left px-3 font-bold hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }}/>{/*{ node.title }</h5>*/}
+                                        
                                         <div className=" meta px-3 mt-1 text-left italic" style={{fontSize:'11px'}}>Mis à jour le { node.modified }</div>                                       
                                     </div>                                    
                                 </Link>

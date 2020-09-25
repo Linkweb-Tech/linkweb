@@ -6,8 +6,8 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import Postune from '../components/postune';
 import ButtonBlog from "../components/buttonblog";
-import boutonBlog from "../components/boutonBlog.js";
-import RoundButton from "../components/roundButton.js";
+import BoutonBlog from '../components/boutonBlog.js';
+import RoundButton from '../components/roundButton.js';
 // import RappelForm from "../components/rappelForm";
 import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
@@ -183,41 +183,44 @@ render() {
                                 </section>
                                 <section className="flex justify-center">
                                 <div className="w-2/3 md:w-1/4" data-aos="fade-up">
-                                    <boutonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
+                                    <BoutonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
                                 </div>
                                 </section>
-                                <section className="flex flex-col md:flex-row justify-center px-5 mr-0">
+                                <section className="flex flex-col md:flex-row justify-center px-5 xl:px-0 mr-0">
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00cfffe0 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
-                                        <img src={world} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
+                                        <svg width="60px" className="mx-auto block" fill="#fffff" viewBox="-949 951 100 125"><switch><g><g><path fill="#ffffff" d="M-899.6,1026.9c2.2,0,4.2-0.3,6.2-1c-1-0.4-1.7-1.2-2.1-2.2l-0.8-2.4c-0.6,1-1.4,2-2.1,2.9c-0.1,0.1-0.1,0.2-0.2,0.2     c-0.3,0-0.6,0-0.9,0c-0.3,0-0.6,0-0.9,0c-0.1-0.1-0.1-0.2-0.2-0.2c-1.8-2.1-3.3-4.7-4.4-7.5c1.8-0.3,3.6-0.5,5.6-0.5     c0.5,0,1,0,1.5,0l-0.9-2.5c-0.2,0-0.4,0-0.6,0c-2.2,0-4.3,0.2-6.3,0.6c-0.6-2-0.9-4.2-1-6.4h5.9l-0.4-1.2     c-0.2-0.4-0.2-0.8-0.2-1.3h-5.3c0.1-2.2,0.4-4.4,1-6.4c2,0.4,4.1,0.6,6.3,0.6c2.2,0,4.3-0.2,6.3-0.6c0.4,1.4,0.7,3,0.8,4.5     l2.5,0.9c-0.1-2.1-0.5-4.1-1-6c1.9-0.6,3.8-1.3,5.5-2.2c0.1,0,0.1-0.1,0.2-0.1c1.9,2.6,3.2,5.8,3.4,9.3h-5.1l7.2,2.5     c0.1,0,0.2,0.1,0.3,0.1c0-0.5,0.1-0.9,0.1-1.4c0-11.2-9.1-20.3-20.3-20.3c-11.2,0-20.3,9.1-20.3,20.3     C-919.9,1017.8-910.8,1026.9-899.6,1026.9z M-904.3,1023.5c0.1,0.1,0.1,0.2,0.2,0.3c-3.2-0.8-6-2.5-8.2-4.8     c0.1,0,0.1-0.1,0.2-0.1c1.4-0.7,3-1.3,4.6-1.8C-906.8,1019.5-905.7,1021.6-904.3,1023.5z M-886.9,994.1c-0.1,0-0.1,0.1-0.2,0.1     c-1.4,0.7-3,1.3-4.6,1.7c-0.8-2.3-1.9-4.4-3.3-6.3c-0.1-0.1-0.1-0.2-0.2-0.3C-892,990.2-889.2,991.9-886.9,994.1z M-900.6,988.8     c0.3,0,0.6,0,0.9,0c0.3,0,0.6,0,0.9,0c0.1,0.1,0.1,0.1,0.2,0.2c1.8,2.1,3.3,4.7,4.4,7.5c-1.8,0.3-3.6,0.5-5.5,0.5     c-1.9,0-3.8-0.2-5.6-0.5c1.1-2.9,2.6-5.4,4.4-7.5C-900.7,988.9-900.6,988.9-900.6,988.8z M-904.2,989.4c-0.1,0.1-0.1,0.2-0.2,0.3     c-1.3,1.9-2.4,4-3.3,6.4c-1.6-0.5-3.1-1-4.6-1.7c-0.1,0-0.1-0.1-0.2-0.1C-910.1,991.9-907.3,990.2-904.2,989.4z M-914,996     c0.1,0,0.1,0.1,0.2,0.1c1.7,0.9,3.5,1.6,5.5,2.2c-0.6,2.2-1,4.6-1.1,7h-8C-917.2,1001.9-915.9,998.7-914,996z M-909.4,1007.8     c0.1,2.4,0.5,4.8,1.1,7c-1.9,0.6-3.8,1.3-5.5,2.2c-0.1,0-0.1,0.1-0.2,0.1c-1.9-2.6-3.2-5.8-3.4-9.3H-909.4z"/><path fill="#ffffff" d="M-880.5,1012.1c0.7-0.3,0.6-1.3-0.1-1.6l-17.1-5.9c-0.7-0.2-1.3,0.4-1.1,1.1l5.9,17.1c0.3,0.7,1.3,0.8,1.6,0.1l2.1-4.1     l8.4,8.4c0.3,0.3,0.9,0.3,1.2,0l3.4-3.4c0.3-0.3,0.3-0.9,0-1.2l-8.4-8.4L-880.5,1012.1z"/><path fill="#ffffff" d="M-855.3,964.1h-87.3c-2.9,0-5.3,2.4-5.3,5.3v63.1c0,2.9,2.4,5.3,5.3,5.3h87.3c2.9,0,5.3-2.4,5.3-5.3v-63.1     C-850,966.5-852.4,964.1-855.3,964.1z M-852.8,1032.6c0,1.4-1.1,2.5-2.5,2.5h-87.3c-1.4,0-2.5-1.1-2.5-2.5v-54.7h92.4V1032.6z      M-852.8,975.1h-92.4v-5.7c0-1.4,1.1-2.5,2.5-2.5h87.3c1.4,0,2.5,1.1,2.5,2.5V975.1z"/><path fill="#ffffff" d="M-881.4,969.6h-35.3c-0.8,0-1.4,0.6-1.4,1.4s0.6,1.4,1.4,1.4h35.3c0.8,0,1.4-0.6,1.4-1.4S-880.6,969.6-881.4,969.6z"/><circle fill="#ffffff" cx="-941.2" cy="971" r="1.4"/><circle fill="#ffffff" cx="-936.6" cy="971" r="1.4"/><circle fill="#ffffff" cx="-931.9" cy="971" r="1.4"/></g></g></switch></svg>
+                                        {/* <img src={world} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/> */}
                                         <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/creation-site-internet-toulouse/"><h2 className="text-center text-white text-xl px-4 font-bold century">Création Web</h2></Link>
                                         <hr className="blue"></hr>
                                         <p className="text-xs px-4 text-white text-center">L’<strong>Agence web</strong> est spécialisée dans la <strong>création de site internet à Agen (47) et Toulouse (31)</strong>. <strong>Site vitrine, e-commerce ou administrable</strong>, notre équipe est en mesure de mettre en place la solution qui s’impose en fonction de vos besoins, de vos envies mais aussi des dernières <strong>tendances digitales</strong>.</p>
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <boutonBlog url="/creation-site-internet-toulouse/" text="Créer son site web" color="bleu" />
+                                            <BoutonBlog url="/creation-site-internet-toulouse/" text="Créer son site web" color="bleu" />
                                         </div>
                                     </div>
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00b1e2 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
-                                        <img src={iconseo} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
+                                        <svg width="60px" className="mx-auto block" fill="#ffffff" viewBox="0 0 128 160"><g><path d="M52.5,35.2h-5.2V47h5.2c0.5,1.7,1.2,3.4,2,4.9l-3.7,3.7l8.3,8.3l3.7-3.7c1.5,0.9,3.2,1.6,4.9,2v5.2h11.7v-5.2   c1.7-0.5,3.4-1.2,4.9-2l3.7,3.7l8.3-8.3l-3.7-3.7c0.9-1.5,1.6-3.2,2-4.9h5.2V35.2h-5.2c-0.5-1.7-1.2-3.4-2-4.9l3.7-3.7l-8.3-8.3   l-3.7,3.7c-1.5-0.9-3.2-1.6-4.9-2v-5.2H67.8V20c-1.7,0.5-3.4,1.2-4.9,2l-3.7-3.7l-8.3,8.3l3.7,3.7C53.7,31.9,53,33.5,52.5,35.2z    M55.1,26.7l4-4l3.2,3.2l1-0.6c1.9-1.2,4-2.1,6.2-2.5l1.2-0.3v-4.6h5.7v4.6l1.2,0.3c2.2,0.5,4.3,1.3,6.2,2.5l1,0.7l3.2-3.3l4,4   l-3.2,3.2l0.6,1c1.2,1.9,2.1,4,2.5,6.2l0.3,1.2h4.6V44h-4.6l-0.3,1.2c-0.5,2.2-1.3,4.3-2.5,6.2l-0.7,1l3.2,3.2l-4,4l-3.2-3.2   l-1,0.6c-1.9,1.2-4,2.1-6.2,2.5l-1.2,0.3v4.6h-5.7v-4.6l-1.2-0.3c-2.2-0.5-4.3-1.3-6.2-2.5l-1-0.7l-3.2,3.2l-4-4l3.2-3.2l-0.6-1   c-1.2-1.9-2.1-4-2.5-6.2L54.9,44h-4.6v-5.7h4.6l0.3-1.2c0.5-2.2,1.3-4.3,2.5-6.2l0.7-1L55.1,26.7z"/><path d="M73.6,56.3c8.4,0,15.2-6.8,15.2-15.2S82,25.9,73.6,25.9s-15.2,6.8-15.2,15.2S65.2,56.3,73.6,56.3z M73.6,28.9   c6.7,0,12.2,5.5,12.2,12.2s-5.5,12.2-12.2,12.2s-12.2-5.5-12.2-12.2S66.9,28.9,73.6,28.9z"/><path d="M53.9,93c6.8,0,13.3-2,18.7-5.5l23.6,23.6c1.4,1.4,3.3,2.1,5.1,2.1c1.8,0,3.7-0.7,5.1-2.1c2.8-2.8,2.8-7.4,0-10.2   L82.8,77.2c1.6-2.4,2.9-5.1,3.8-7.9c0.3-1,0.6-2.1,0.9-3.1c0.2-0.8-0.3-1.6-1.1-1.8c-0.8-0.2-1.6,0.3-1.8,1.1   c-0.2,1-0.5,1.9-0.8,2.9C79.5,81.3,67.5,90,53.9,90c-17.3,0-31.4-14.1-31.4-31.4c0-15.4,11.4-28.7,26.6-31.1   c0.8-0.1,1.4-0.9,1.3-1.7c-0.1-0.8-0.9-1.4-1.7-1.3c-16.6,2.6-29.2,17.2-29.2,34C19.5,77.5,34.9,93,53.9,93z M104.3,108.9   c-1.6,1.6-4.3,1.6-6,0L75.5,86.1l6-6l22.9,22.9C105.9,104.6,105.9,107.3,104.3,108.9z"/><path d="M45.6,35.9c0.8-0.3,1.1-1.2,0.8-2c-0.3-0.8-1.2-1.1-2-0.8c-10.1,4.1-16.6,13.8-16.6,24.6c0,14.7,11.9,26.6,26.6,26.6   c9.5,0,18.4-5.1,23.1-13.4c0.4-0.7,0.2-1.6-0.6-2s-1.6-0.2-2,0.6c-4.2,7.3-12,11.9-20.5,11.9c-13,0-23.6-10.6-23.6-23.6   C30.9,48.1,36.7,39.5,45.6,35.9z"/></g></svg>
+                                        {/* <img src={iconseo} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/> */}
                                         <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/referencement-de-site-internet-47-31/"><h2 className="text-center text-white text-xl px-4 font-bold century">Référencement Naturel</h2></Link>
                                         <hr className="blue"></hr>
                                         <p className="text-xs px-4 text-white text-center">Notre <strong>agence de référencement</strong> apporte de la <strong>visibilité</strong> à <strong>votre site internet</strong> grâce à la méthode du <strong>référencement naturel (SEO)</strong>. Notre équipe de spécialistes effectue un travail à la fois technique et éditorial régulier pour vous permettre d’avoir un site qui répondant aux canons de <strong>Google</strong>.</p>
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <boutonBlog url="/referencement-de-site-internet-47-31/" text="Développer son SEO" color="bleu" />
+                                            <BoutonBlog url="/referencement-de-site-internet-47-31/" text="Développer son SEO" color="bleu" />
                                         </div>
                                     </div>
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#057898 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
-                                        <img src={iconsea} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/>
+                                        <svg width="60px" className="mx-auto block" fill="#ffffff" viewBox="0 0 70 87.5"><g><g><g><path fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="     M11,27.9023037v11.4893436c0,0.9677048,0.6433992,1.7521858,1.4370718,1.7521858h11.0287695V26.1501198H12.4370718     C11.6433992,26.1501198,11,26.9345989,11,27.9023037z"/><path fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="     M23.4658413,26.1501198v14.9937134c11.1650333,0,21.916132,4.3558006,29.8110332,12.1091156V14.0407305     C45.3819733,21.7941818,34.6309967,26.1501198,23.4658413,26.1501198z"/><path fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="     M27.4612389,29.9713554c7.7992516-0.6778984,15.3473396-3.3212166,21.8205452-7.5934429"/></g><polygon fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    23.4626102,55.9592705 16.930397,55.9592705 13.4545794,41.1469345 19.9867325,41.1469345   "/></g><path fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M53.2768745,27.3235264C56.4430656,27.3235264,59,29.890398,59,33.0566483c0,3.1562538-2.5569344,5.7231255-5.7231255,5.7231255   V27.3235264z"/></g></svg>
+                                        {/* <img src={iconsea} className="w-9 h-10 mx-auto block" alt="Création site internet Toulouse/"/><br/> */}
                                         <Link className="w-2/3 font-bold hover:text-bleu text-left" to="/agence-adwords-47-31/"><h2 className="text-center text-white text-xl px-4 font-bold century">Référencement Payant</h2></Link>
                                         <hr className="blue"></hr>
                                         <p className="text-xs px-4 text-white text-center">Vous souhaitez <strong>générer du trafic</strong>, attirer de nouveaux prospects ou bien convertir vos utilisateurs ? Nous mettons en place vos <strong>campagnes Google Ads</strong> basées sur la qualité et la pertinence des annonces afin de vous permettre de maximiser votre <strong>retour sur investissement</strong> grâce à votre site.</p>
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <boutonBlog url="/agence-adwords-47-31/" text="Créer une campagne Ads" color="bleu" />
+                                            <BoutonBlog url="/agence-adwords-47-31/" text="Créer une campagne Ads" color="bleu" />
                                         </div>
                                     </div>
                                 </section>
@@ -231,7 +234,7 @@ render() {
                             <br/>
                             <div className="w-1/2 flex flex-row justify-center items-center">
                             <br/>
-                                <boutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
                             </div>
                         </div>
                         <br/>
@@ -246,7 +249,7 @@ render() {
                         <Link to="/agence-adwords-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + AgenceAds +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Lancer une campagne Google Ads</h4></section></Link>
                         <br/>
                         <hr className="hrblog"></hr>
-                        <h3 className="font-bold century text-bleu pt-3 pb-3">Tendances</h3>
+                        <Link to="/blog/category/tendances/"><h3 className="font-bold century text-bleu pt-3 pb-3">Tendances</h3></Link>
                         <hr className="hrblog"></hr>
                         <LastPostsTendances lastposts={this.props.data.tendances.edges} />
                         <br/>
