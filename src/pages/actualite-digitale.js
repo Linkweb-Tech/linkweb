@@ -140,8 +140,8 @@ render() {
                     <div className="w-full xl:w-3/5">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
                         <div className="flex flex-row items-center">
-                                        <Link to="/blog/category/referencement/">
-                                            <h2 className="font-bold century text-bleu text-3xl py-2 justify-start flex px-6">
+                                        <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/category/referencement/" style={{transition:'all ease 0.5s'}}>
+                                            <h2 className="font-bold century text-3xl py-2 justify-start flex px-6">
                                                 À la Une
                                             </h2>
                                         </Link>
@@ -149,7 +149,7 @@ render() {
                                     </div>
                             <Postune postune={this.props.data.allWordpressPost.edges} />
                             <div className="flex flex-row items-center">
-                                <Link to="/blog/category/actus/"><h3 className="font-bold century text-bleu text-xl py-2 justify-start flex px-6">Actualités</h3></Link>
+                                <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/category/actus/" style={{transition:'all ease 0.5s'}}><h3 className="font-bold century text-xl py-2 justify-start flex px-6">Actualités</h3></Link>
                                 <hr className="hrblog mt-1 px-6 mr-6"></hr>
                             </div>
                             <LastPosts lastposts={this.props.data.actus.edges} />
@@ -171,8 +171,8 @@ render() {
                                 </section>
                                 <section className="w-full mx-auto py-6 mt-4 mb-0">
                                     <div className="flex flex-row items-center">
-                                        <Link to="/blog/category/referencement/">
-                                            <h2 className="font-bold century text-bleu text-xl py-2 justify-start flex px-6">
+                                        <Link to="/blog/category/referencement/" className="text-bleu hover:text-white hover:bg-bleu" style={{transition:'all ease 0.5s'}}>
+                                            <h2 className="font-bold century text-xl py-2 justify-start flex px-6">
                                                 À propos de Référencement
                                             </h2>
                                         </Link>
@@ -249,7 +249,7 @@ render() {
                         <Link to="/agence-adwords-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + AgenceAds +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Lancer une campagne Google Ads</h4></section></Link>
                         <br/>
                         <hr className="hrblog"></hr>
-                        <Link to="/blog/category/tendances/"><h3 className="font-bold century text-bleu pt-3 pb-3">Tendances</h3></Link>
+                        <Link to="/blog/category/tendances/" className="text-bleu"><h3 className="font-bold century pt-3 pb-3">Tendances</h3></Link>
                         <hr className="hrblog"></hr>
                         <LastPostsTendances lastposts={this.props.data.tendances.edges} />
                         <br/>
