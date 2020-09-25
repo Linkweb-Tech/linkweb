@@ -1,7 +1,7 @@
 import React from 'react'
 import '../scss/lastpostsmini.scss'
 import {Link} from 'gatsby'
-import RoundButtonBlog from '../components/RoundButtonBlog'
+import boutonBlog from '../components/boutonBlog'
 
 
 
@@ -30,7 +30,7 @@ class LastPostsList extends React.Component {
                                     <div>  
                                         <h5 className="text-sm text-left font-bold hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }}/>{/*{ node.title }</h5>*/}
                                         <div className="meta px-5 text-left italic" style={{fontSize:'12px'}}>Mis à jour le { node.modified }</div>
-                                        <div className="px-5" style={{maxWidth:'100px', maxHeight:'30px', marginTop:'10px'}}><RoundButtonBlog color="bleu" url={`/blog/${node.slug}/`} text="Lire l'article" /></div>                              
+                                        <div className="px-5" style={{maxWidth:'100px', maxHeight:'30px', marginTop:'10px'}}><boutonBlog color="bleu" url={`/blog/${node.slug}/`} text="Lire l'article" /></div>                              
                                     </div>                                    
                                 </Link>
                             </div>

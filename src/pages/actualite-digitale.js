@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import Postune from '../components/postune';
 import ButtonBlog from "../components/buttonblog";
-import RoundButtonBlog from "../components/roundButtonBlog.js";
+import boutonBlog from "../components/boutonBlog.js";
 import RoundButton from "../components/roundButton.js";
 // import RappelForm from "../components/rappelForm";
 import CategoriesList from "../components/categoriesList";
@@ -78,7 +78,7 @@ render() {
                     <Link to="/actualite-digitale/"><h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl sm:text-6xl text-center text-white mt-40">
                     Le Blog<span className="text-bleu">/</span>Linkweb
                     </h2></Link>
-                    <h1 className="century text-lg sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'Actualité Digitale</h1>
+                    <h1 className="century text-lg sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Toute l'Actualité digitale</h1>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
@@ -183,7 +183,7 @@ render() {
                                 </section>
                                 <section className="flex justify-center">
                                 <div className="w-2/3 md:w-1/4" data-aos="fade-up">
-                                    <RoundButtonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
+                                    <boutonBlog className="rounded-none century font-thin" url="/blog/category/referencement/" text="En savoir plus"/><br/>
                                 </div>
                                 </section>
                                 <section className="flex flex-col md:flex-row justify-center px-5 mr-0">
@@ -195,7 +195,7 @@ render() {
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <RoundButtonBlog url="/creation-site-internet-toulouse/" text="Créer son site web" color="bleu" />
+                                            <boutonBlog url="/creation-site-internet-toulouse/" text="Créer son site web" color="bleu" />
                                         </div>
                                     </div>
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00b1e2 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
@@ -206,7 +206,7 @@ render() {
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <RoundButtonBlog url="/referencement-de-site-internet-47-31/" text="Développer son SEO" color="bleu" />
+                                            <boutonBlog url="/referencement-de-site-internet-47-31/" text="Développer son SEO" color="bleu" />
                                         </div>
                                     </div>
                                     <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#057898 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
@@ -217,7 +217,7 @@ render() {
                                         <br />
                                         <div className="w-2/3 mx-auto block">
                                             <br />
-                                            <RoundButtonBlog url="/agence-adwords-47-31/" text="Créer une campagne Ads" color="bleu" />
+                                            <boutonBlog url="/agence-adwords-47-31/" text="Créer une campagne Ads" color="bleu" />
                                         </div>
                                     </div>
                                 </section>
@@ -231,14 +231,14 @@ render() {
                             <br/>
                             <div className="w-1/2 flex flex-row justify-center items-center">
                             <br/>
-                                <RoundButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                <boutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
                             </div>
                         </div>
                         <br/>
                         {/* <h3 className="font-bold pb-3">CATÉGORIES</h3>
                         <CategoriesList list={ this.props.data.allWordpressCategory.edges} /> */}
                         <hr className="hrblog"></hr>
-                        <h3 className="font-bold century text-bleu pt-3 pb-3">Toute l'actualité digitale</h3>
+                        <h3 className="font-bold century text-bleu pt-3 pb-3">Toute l'Actualité Digitale</h3>
                         <hr className="hrblog"></hr>
                         <LastPostsMini lastposts={this.props.data.lastmini.edges} />
                         <Link to="/creation-site-internet-toulouse/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + CreerSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Créer un site internet</h4></section></Link>
