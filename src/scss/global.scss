@@ -415,6 +415,9 @@ footer {
 }
 
 //Navigation Blog //
+.itemblog {
+    transition: all ease 0.5s;
+}
 .itemblog:first-child {
     border-bottom-left-radius:27px;
 }
