@@ -5,16 +5,19 @@ import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../../components/seo";
 import LastPosts from '../../../components/lastposts';
 // import RappelForm from "../../../components/rappelForm";
-import ButtonBlog from "../../../components/buttonblog";
+import BoutonBlog from '../../../components/boutonBlog.js';
 import CategoriesList from "../../../components/categoriesList";
 import RoundButton from "../../../components/roundButton";
 import LastPostsMini from '../../../components/lastpostsmini';
 import { Timeline } from 'react-twitter-widgets';
 import BlogMenu from "../../../components/menublog.js";
+import '../../../scss/global.scss';
 
-import CreerSite from "../../../images/creer-un-site.jpg";
-import RefSite from "../../../images/referencer-un-site.jpg";
-import AgenceAds from "../../../images/campagne-ads.jpg";
+import blocBg from "../../../images/background.jpg";
+import bgbloc from "../../../images/creation-sites-web-toulouse.jpg";
+import CreerSite from "../../../images/besoins.jpg";
+import RefSite from "../../../images/referencement-google-toulouse.jpg";
+import AgenceAds from "../../../images/analytics-site-internet.jpg";
 import fbIcon from "../../../images/facebook-logo.svg";
 import twitterIcon from "../../../images/twitter-logo.svg";
 import instaIcon from "../../../images/instagram-logo.svg";
@@ -69,7 +72,7 @@ render() {
                     <br/>>
                     <section className="w-full flex flex-row justify-center text-white">
                             <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-left">
+                                <div className="blocauteur mx-auto" data-aos="fade-left">
                                     <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
                                     <img 
                                     src={ fbIcon }
@@ -78,7 +81,7 @@ render() {
                                     />
                                     </a>
                                 </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                <div className="blocauteur mx-auto" data-aos="fade-up">
                                     <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
                                     <img 
                                     src={ twitterIcon }
@@ -87,7 +90,7 @@ render() {
                                     />
                                     </a>
                                 </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                <div className="blocauteur mx-auto" data-aos="fade-right">
                                     <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
                                     <img 
                                     src={ instaIcon }
@@ -100,11 +103,11 @@ render() {
                     </section>
                 </section>
                 <BlogMenu />
-                <section className=" flex flex-col xl:flex-row flex justify-content-start mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
-                    <div className="w-full xl:w-3/4">
+                <section className="flex flex-col xl:flex-row flex justify-center mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
+                    <div className="w-full xl:w-3/5">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
                             <LastPosts lastposts={this.props.data.agence.edges} />
-                                <section className="w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24">
+                            <section className="blocblog w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24" style={{background:'#37cfeede url(' + blocBg +')', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode:'overlay', borderRadius:'15px'}}>
                                     <div className="max-w-5xl mx-auto flex items-center">
                                         <h2 data-aos='fade-right' className="text-center text-white text-2xl lg:text-4xl century">
                                             Vous souhaitez être recontacté pour la mise en place de votre solution web ?
@@ -118,16 +121,37 @@ render() {
 
                         </section>                    
                     </div>
-                    <div className="w-full xl:w-1/4 mt-6 mb-3 px-12 ">
-                        <ButtonBlog className="rounded-none century font-thin" url="/contact-agence-web-toulouse/" text="Demander un devis"/><br/>
-                        <h3 className="font-bold pb-3">CATÉGORIES</h3>
-                        <CategoriesList list={ this.props.data.allWordpressCategory.edges} />
-                        <h3 className="font-bold pt-12 pb-3">DERNIERS ARTICLES</h3>
+                    <div className="w-full xl:w-1/3 mt-0 mb-3 px-12 mt-0">
+                        <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br/>
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br/>
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                            <br/>
+                                <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
+                        </div>
+                        <br/>
+                        {/* <h3 className="font-bold pb-3">CATÉGORIES</h3>
+                        <CategoriesList list={ this.props.data.allWordpressCategory.edges} /> */}
+                        <hr className="hrblog"></hr>
+                        <h3 className="font-bold century text-bleu pt-3 pb-3">Toute l'Actualité Digitale</h3>
+                        <hr className="hrblog"></hr>
                         <LastPostsMini lastposts={this.props.data.lastmini.edges} />
-                        <Link to="/creation-site-internet-toulouse/"><img src={CreerSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/referencement-de-site-internet-47-31/"><img src={RefSite} alt="Création site internet Agen"/></Link>
-                        <Link to="/agence-adwords-47-31/"><img src={AgenceAds} alt="Création site internet Agen"/></Link><br/>
-                        <h3 className="font-bold">LINKWEB SUR TWITTER</h3><br/>
+                        <section className="flex -mt-4 justify-center mb-3 " >
+                            <div className="w-1/2 md:w-full py-2 hover:bg-bleu text-bleu hover:text-white" style={{border:'solid 1px #37cfee', transition:'all ease 0.5s'}}>
+                                <Link className="text-sm century font-thin" to="/blog/category/tous-articles/"><span className="font-bold py-2 mx-auto flex justify-center">Voir tous les articles</span></Link>
+                            </div>
+                        </section>
+                        <br/>
+                        <Link to="/creation-site-internet-toulouse/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + CreerSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Créer un site internet</h4></section></Link>
+                        <Link to="/referencement-de-site-internet-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + RefSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Optimiser mon référencement naturel</h4></section></Link>
+                        <Link to="/agence-adwords-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + AgenceAds +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Lancer une campagne Google Ads</h4></section></Link>
+                        <br/>
+                        <hr className="hrblog"></hr>
+                        <h3 className="font-bold century text-bleu pt-3 ">Retrouvez Linkweb sur Twitter</h3><br/>
+                        <hr className="hrblog"></hr>
                         <Timeline
                             dataSource={{
                             sourceType: 'profile',
@@ -154,7 +178,7 @@ render() {
 
 export const query = graphql`
 query lastsThreePostsCatAgence {
-    lastmini: allWordpressPost(limit: 3) {
+    lastmini: allWordpressPost(limit: 5) {
         edges {
             node {
             id

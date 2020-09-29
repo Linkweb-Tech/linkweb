@@ -430,3 +430,29 @@ footer {
     }
 }
 
+// AUTEUR BLOG //
+
+.blocauteur {
+    transition: all ease 0.5s;
+    border-radius:15px;
+}
+
+.blocauteur:hover {
+    border-radius:15px;
+    transform:scale(1.05);
+    transition: all ease 0.5s;
+    box-shadow: 0 0 20px #a1a1a1;
+}
+
+.blocauteur img {
+    transition: all ease 0.5s;
+    border-radius:8888px;
+}
+
+.blocauteur img:hover {
+    transform:scale(1.2);
+    transition: all ease 0.5s;
+    box-shadow: 0 0 20px #a1a1a1;
+    border-radius:8888px;
+
+}
