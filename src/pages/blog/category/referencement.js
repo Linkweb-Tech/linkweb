@@ -64,11 +64,11 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full mx-auto pb-0 px-4 py-6 bg-blackflex flex-col justify-center items-center" style={{background:'#000000d9 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full mx-auto pb-0 px-4 py-6 bg-black flex flex-col items-center" style={{background:'#000000d9 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
                     <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Référencement
                     </h1>
-                    <a href="/actualite-digitale/" className="century text-sm sm:text-md text-center text-white mx-auto block hover:text-bleu" data-aos="zoom-in" data-aos-delay="900"><span className="text-bleu font-bold">>></span> Revenir à l'accueil</a>
+                    <div className="w-1/2 md:w-full py-2 hover:bg-white flex text-white hover:text-bleu" style={{border:'solid 1px #ffffff', borderRadius:'15px', width:'10%', transition:'all ease 0.5s'}}><a href="/actualite-digitale/" className="w-full flex font-bold justify-center century my-2 font-normal text-sm">Revenir à l'accueil</a></div>
                     <br/>
                     <section className="w-full flex flex-row justify-center text-white">
                             <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
