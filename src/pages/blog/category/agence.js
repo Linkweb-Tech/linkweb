@@ -68,7 +68,7 @@ render() {
                     <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-48">
                     Agence
                     </h1>
-                    <div className="w-1/2 md:w-full py-2 hover:bg-white flex text-white hover:text-bleu" style={{border:'solid 1px #ffffff', borderRadius:'15px', width:'10%', transition:'all ease 0.5s'}}><a href="/actualite-digitale/" className="w-full flex font-bold justify-center century my-2 font-normal text-sm">Revenir à l'accueil</a></div>
+                    <div className="w-1/2 md:w-full py-2 hover:bg-white flex text-white hover:text-black" style={{border:'solid 1px #ffffff', borderRadius:'15px', width:'10%', transition:'all ease 0.5s'}}><a href="/actualite-digitale/" className="w-full flex font-bold justify-center century my-2 font-normal text-sm">Revenir à l'accueil</a></div>
                     <br/>
                     <section className="w-full flex flex-row justify-center text-white">
                             <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">

@@ -50,7 +50,7 @@ const BlogPostTemplate = ({ data }) => (
                         <p className="text-white text-center italic my-6 font-bold" data-aos="fade-left">
                           Par {data.wordpressPost.author.name} <br/> Le {data.wordpressPost.date}
                         </p>
-                        <div className="w-1/2 md:w-full py-2 hover:bg-white flex text-white hover:text-bleu" style={{border:'solid 1px #ffffff', borderRadius:'15px', width:'10%', transition:'all ease 0.5s'}}><a href="/actualite-digitale/" className="w-full flex font-bold justify-center century my-2 font-normal text-sm">Revenir à l'accueil</a></div>
+                        <div className="w-1/2 md:w-full py-2 hover:bg-white flex text-white hover:text-black" style={{border:'solid 1px #ffffff', borderRadius:'15px', width:'10%', transition:'all ease 0.5s'}}><a href="/actualite-digitale/" className="w-full flex font-bold justify-center century my-2 font-normal text-sm">Revenir à l'accueil</a></div>
 
         </section>
         <section className="px-6 lg:px-64 font-bold" data-aos="fade-left">
