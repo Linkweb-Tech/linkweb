@@ -152,7 +152,7 @@ render() {
                                 <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/category/actus/" style={{transition:'all ease 0.5s'}}><h3 className="font-bold century text-xl py-2 justify-start flex px-6">Actualités</h3></Link>
                                 <hr className="hrblog mt-1 px-6 mr-6"></hr>
                             </div>
-                            <LastPosts lastposts={this.props.data.actus.edges} />
+                            <LastPosts wrap='false' lastposts={this.props.data.actus.edges} />
                             {/* <section className="flex justify-center ">
                                 <div className="w-2/3 lg:w-1/4" data-aos="fade-up">
                                     <RoundButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
