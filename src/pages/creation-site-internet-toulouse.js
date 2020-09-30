@@ -6,6 +6,7 @@ import Button from "../components/button";
 import RoundButton from "../components/roundButton";
 import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";
+import Tiles from '../components/gallery/tiles';
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
 import Accordion from '../components/accordion';
@@ -254,6 +255,10 @@ class CreationSiteInternetToulousePage extends React.Component {
                             </div>
                 
                         </div>
+                    </section>
+                    <section className="w-full mx-auto px-4 pt-0 pb-0 my-0">
+                        <h2 className="text-center text-3xl century">Ils ont choisi <span className="text-bleu">Linkweb</span> pour la création de leur site internet</h2>
+                        <Tiles />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">
                         <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
