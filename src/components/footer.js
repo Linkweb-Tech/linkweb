@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from 'gatsby';
-import LinkwebWhite from "../images/logo-linkweb.png"
+import LinkwebWhite from "../images/logo-linkweb.png";
+import Datadock from "../images/logo_datadock.png"
 
 class Footer extends React.Component {
 
@@ -22,6 +23,10 @@ class Footer extends React.Component {
                             />
                             <p> © 2020 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p> 
                             <a className="text-xs"  title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</a>
+                            <br/>
+                            <h3 className="century text-2xl text-white pl-4 pt-6">Certifications</h3>
+                            <br/>
+                            <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"><img src={Datadock} width="200px" alt="Formation SEO Toulouse" /></a>
                         </div> <br />
                         </div>
                     </section>
