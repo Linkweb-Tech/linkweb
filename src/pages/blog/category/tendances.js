@@ -105,7 +105,7 @@ render() {
                 <section className="flex flex-col xl:flex-row flex justify-center mb-10 px-12 md:px-24 lg:px-32 xl:px-48">
                     <div className="w-full xl:w-3/5">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
-                            <LastPosts lastposts={this.props.data.tendances.edges} />
+                            <LastPosts wrap='false' lastposts={this.props.data.tendances.edges} />
                             <section className="blocblog w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24" style={{background:'#37cfeede url(' + blocBg +')', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode:'overlay', borderRadius:'15px'}}>
                                     <div className="max-w-5xl mx-auto flex items-center">
                                         <h2 data-aos='fade-right' className="text-center text-white text-2xl lg:text-4xl century">

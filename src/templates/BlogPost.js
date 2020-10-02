@@ -182,7 +182,7 @@ const BlogPostTemplate = ({ data }) => (
                 <h3 className="text-center">En savoir plus sur l'actualité digitale</h3>
                 <hr className="blue"/>
                 <br/>
-                <LastPosts lastposts={data.allWordpressPost.edges} />
+                <LastPosts wrap='false' lastposts={data.allWordpressPost.edges} />
           </div>
           <div className="w-2/3 md:w-2/5 mb-6" data-aos="fade-up">
                <ButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
