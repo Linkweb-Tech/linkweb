@@ -422,7 +422,11 @@ footer {
     border-bottom-left-radius:27px;
 }
 .itemblog:hover {
+    background:#a8e3efeb url('../images/background-blog.jpg') ;
     background-color:#a8e3efde;
+    background-position: center right;
+    background-size: cover;
+    background-blend-mode:multiply;
     transition: all ease 0.5s;
     color:white;
     &:first-child {
