@@ -18,7 +18,7 @@ class LastPosts extends React.Component {
                 {
                     lastposts.map(( {node} ) => (
                         <article className="w-full mx-0 md:px-0 pb-1 flex flex-col align-center  sidebarPosts">
-                            <div className="pb-3">
+                            <div className="pb-3 postsidebar">
                                 <Link
                                     to={`/blog/${node.slug}/`}
                                     className="century flex "

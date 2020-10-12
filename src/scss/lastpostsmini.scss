@@ -4,7 +4,8 @@
         position: relative;
         width: 80px;
         height: 80px;
-        border-radius:15px;
+        border-top-left-radius:15px;
+        border-bottom-left-radius:15px;
         overflow: hidden;
         transition:0.3s;
         img {
@@ -14,12 +15,6 @@
             left: -25%;
         }
     
-    }
-    .imgBloc:hover {
-        transition:0.3s;
-        transform:scale(1.1);
-        box-shadow: 0 0 20px #a1a1a1;
-
     }
 }
 
