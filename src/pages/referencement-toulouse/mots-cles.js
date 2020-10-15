@@ -7,7 +7,11 @@ import posed from 'react-pose';
 import SEO from "../../components/seo";
 
 
-import banniere from "../../images/referencement-ban.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
+
+import banniere from "../../images/creation-site-internet-ban.png";
+import Bg from "../../images/creation-site-internet-colomiers.jpg"
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
 
 
 
@@ -48,13 +52,21 @@ class MotsCles extends React.Component {
                     transitionTime={200}
                 > */}
 
-                    <section className="w-full mt-40 text-justify font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
+                    <section className="w-full century mt-40 flex flex-col items-center justify-start bg-bleu" style={{background:'#00000073 url('+ Bg +')', minHeight:'300px', backgroundPosition:'center', backgroundSize:'cover',backgroundBlendMode:'overlay'}}>
+                        <div className="topdef">
+                            <h2 className="text-center text-xl font-bold text-white">Définition</h2>
+                        </div>
+                        <div>
+                            <h1 data-aos="fade-up" className="century text-5xl sm:text-6xl text-bleu text-center text-white mt-4 lg:mt-6">
+                                Mots-clés
+                            </h1>
+                        </div>
+                    </section>
+                    <section className="w-full mt-10 text-justify century font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
-                        <h1 data-aos="fade-up" className="century text-4xl sm:text-5xl text-center text-bleu mt-4 lg:mt-6">
-                            Mots-Clés
-                        </h1>
-                        <hr className="blue" data-aos="fade-up"></hr>
                         <br/>
+                        <h2 className="text-3xl text-bleu font-bold">Qu'est-ce que les mots-clés ?</h2>
+                            <br/>
                             <p>
                                 La notion de <strong>mots-clés</strong> désigne les <strong className="font-normal">termes de recherche</strong> utilisés lors d’une requête effectuée sur des <strong className="font-normal">moteurs de recherche</strong> tels que <strong className="font-normal">Google, Bing ou Yahoo!</strong>, par exemple. Ils sont à la base d’une <strong className="font-normal">stratégie de référencement</strong> efficace. En effet, le <strong className="font-normal">choix des mots-clés</strong> sur lesquels se positionner va être décisif pour mener la stratégie de <strong className="font-normal">référencement naturel de votre site internet</strong>.<br/>
                                 <br/>
@@ -84,33 +96,48 @@ class MotsCles extends React.Component {
                                 <br/>
                                 <strong className="font-normal">Choisir ses mots-clés</strong> n’est pas l’étape la plus évidente de la <strong className="font-normal">stratégie de référencement</strong>, mais elle est sans doute l’une des plus décisives.<br/>
                         </p>
-                        <img
+                        <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Référencement Toulouse"
                             className="mx-auto block max-w-full mt-12"
-                        />
+                        /></Link>
                         </div>
-                        <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées aux mots-clés :</b></p>
+                        <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                            <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                <br/>
+                                <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                <br/>
+                                <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br/>
+                                    <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                </div>
+                            </div>
                             <br/>
-                            <div className="flex flex-row justify-center">
-                            <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/referencement-local/">Référencement Local</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/backlinks/">Backlinks</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/techniques-referencement/">Techniques de référencement</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/optimisation-interne/">Optimisation interne</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/donnees-structurees/">Données structurées</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/arborescence-seo/">Arborescence SEO</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/serp/">SERP</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/e-reputation/">E-Réputation</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/landing-page/">Landing Page</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/longue-traine/">Longue Traîne</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/courte-traine/">Courte Traîne</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/rapport-positionnement/">Rapport de positionnement</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/">Critères de qualité</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/sur-optimisation/">Sur-Optimisation</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/erreur-404/">Erreurs 404</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/audit-seo/">Audit SEO</Link></li>
+                            <hr className="hrblog"></hr>
+                            <br/>
+                            <h3 className="font-bold">Les notions liées aux Mots-clés :</h3>
+                            <br/>
+                            <hr className="hrblog"></hr>
+                            <br/>
+                            <div className="flex flex-row uppercase italic justify-center">
+                            <ul className="list-def flex justify-center flex-col" data-aos="fade-left">
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/referencement-local/"><li>Référencement local</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/audit-seo/"><li>Audit SEO</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/techniques-referencement/"><li>Techniques de référencement</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/optimisation-interne/"><li>Optimisation interne</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/"><li>Critères de qualité</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/serp/"><li>SERP</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/donnees-structurées/"><li>Données Structurées</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/erreur-404/"><li>Erreurs 404</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/landing-page/"><li>Landing Page</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/backlinks/"><li>Backlinks</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/rapport-positionnement/"><li>Rapport de positionnement</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/"><li>Courte traîne</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/longue-traine/"><li>Longue Traîne</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/sur-optimisation/"><li>Sur-Optimisation</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/e-reputation/"><li>E-Réputation</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/arborescence-seo/"><li>Arborescence SEO</li></Link>
                             </ul>
                         </div>
                         </div>

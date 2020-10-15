@@ -472,3 +472,46 @@ footer {
     border-radius:8888px;
 
 }
+
+//DÉFINITIONS//
+
+.topdef {
+    background-color:#37cfee;
+    width:33%;
+    padding:10px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+.list-def {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.list-def li {
+    background:#37cfee;
+    padding:10px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    border-radius:15px;
+    transition:all ease 0.5s;
+    text-align:center;
+}
+
+.list-def li:hover {
+    background:#3c3c3c;
+    padding:10px;
+    margin-bottom:5px;
+    border-radius:15px;
+    text-align:center;
+    transition:all ease 0.5s;
+    transform:scale(1.2)
+}
+.list-def a li {
+    color:white;
+    }
+.list-def a li:hover {
+color:white;
+}

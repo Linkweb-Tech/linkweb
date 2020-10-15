@@ -7,8 +7,11 @@ import posed from 'react-pose';
 import SEO from "../../components/seo";
 
 
-import banniere from "../../images/referencement-ban.jpg";
-import illustration from "../../images/landing-page.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
+
+import banniere from "../../images/creation-site-internet-ban.png";
+import Bg from "../../images/creation-site-internet-colomiers.jpg"
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
 
 
 
@@ -49,13 +52,21 @@ class erreur404 extends React.Component {
                     transitionTime={200}
                 > */}
 
-                    <section className="w-full mt-40 text-justify font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
+                    <section className="w-full century mt-40 flex flex-col items-center justify-start bg-bleu" style={{background:'#00000073 url('+ Bg +')', minHeight:'300px', backgroundPosition:'center', backgroundSize:'cover',backgroundBlendMode:'overlay'}}>
+                        <div className="topdef">
+                            <h2 className="text-center text-xl font-bold text-white">Définition</h2>
+                        </div>
+                        <div>
+                            <h1 data-aos="fade-up" className="century text-5xl sm:text-6xl text-bleu text-center text-white mt-4 lg:mt-6">
+                                Liens brisés et erreurs 404
+                            </h1>
+                        </div>
+                    </section>
+                    <section className="w-full mt-10 text-justify century font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
-                        <h1 data-aos="fade-up" className="century text-4xl sm:text-5xl text-center text-bleu mt-4 lg:mt-6">
-                            Liens brisés et erreurs 404
-                        </h1>
-                        <hr className="blue" data-aos="fade-up"></hr>
                         <br/>
+                        <h2 className="text-3xl text-bleu font-bold">Qu'est-ce que les liens brisés et les erreurs 404 ?</h2>
+                            <br/>
                             <p>
                                 Une <strong>erreur 404</strong> apparaît sur un <strong className="font-normal">site web</strong> lorsqu’une <strong className="font-normal">adresse URL</strong> renvoie vers une <strong className="font-normal">page web</strong> qui n’existe pas ou qui n’existe plus. Dans ce cas, le <strong className="font-normal">serveur web</strong> est incapable de restituer le contenu demandé au <strong className="font-normal">navigateur</strong> : il renvoie une <strong className="font-normal">erreur de type 404</strong>. Ainsi, lorsqu’un <strong className="font-normal">code d’erreur</strong> 404 apparaît, le lien est considéré comme brisé et constitue une entrave en termes d’<strong className="font-normal">expérience utilisateur</strong> puisqu’il participe à impacter négativement <strong className="font-normal">le taux de rebond</strong> du site. Nous veillons à ce qu’aucune erreur 404 ne soit présente sur nos <strong className="font-normal">sites web</strong> dans le cadre de notre travail de <strong><Link className="text-bleu hover:text-black font-bold" to="/referencement-toulouse/">référencement à Toulouse</Link></strong>.<br/>
                                 <br/>
@@ -97,33 +108,48 @@ class erreur404 extends React.Component {
                                 Attention, la mise en place de <strong className="font-normal">redirections</strong> doit être réalisée avec précaution : les URL de redirection sont considérées comme nouvelles par <strong className="font-normal">Google</strong> : un délai va donc exister avant que les URL de remplacement soient bien indexées à la place des anciennes. Par ailleurs, il est fortement déconseillé de réaliser des <strong className="font-normal">redirections en cascade</strong> (mettre en place des redirections sur d’autres redirections) : l’impact est nocif en termes de <strong className="font-normal">SEO</strong>.<br/>
                             </p>
                             
-                        <img
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Référencement Toulouse"
                             className="mx-auto block max-w-full mt-12"
-                        />
+                        /></Link>
                         </div>
-                        <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start lg:mt-40" >
-                            <p className="flex justify-center" data-aos="fade-left"><b>Les autres notions liées aux Erreurs 404 :</b></p>
+                        <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                            <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                <br/>
+                                <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                <br/>
+                                <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br/>
+                                    <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                </div>
+                            </div>
                             <br/>
-                            <div className="flex flex-row justify-center">
-                            <ul className="list-disc pl-4 flex justify-center flex-col" data-aos="fade-left">
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/referencement-local/">Référencement Local</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/backlinks/">Backlinks</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/techniques-referencement/">Techniques de référencement</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/optimisation-interne/">Optimisation interne</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/donnees-structurees/">Données structurées</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/arborescence-seo/">Arborescence SEO</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/serp/">SERP</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/e-reputation/">E-Réputation</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/landing-page/">Landing Page</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/mots-cles/">Mots-clés</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/longue-traine/">Longue Traîne</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/courte-traine/">Courte Traîne</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/rapport-positionnement/">Rapport de positionnement</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/">Critères de qualité</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/sur-optimisation/">Sur-Optimisation</Link></li>
-                            <li><Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/audit-seo/">Audit SEO</Link></li>
+                            <hr className="hrblog"></hr>
+                            <br/>
+                            <h3 className="font-bold">Les notions liées aux Erreurs 404 :</h3>
+                            <br/>
+                            <hr className="hrblog"></hr>
+                            <br/>
+                            <div className="flex flex-row uppercase italic justify-center">
+                            <ul className="list-def flex justify-center flex-col" data-aos="fade-left">
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/referencement-local/"><li>Référencement local</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/audit-seo/"><li>Audit SEO</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/techniques-referencement/"><li>Techniques de référencement</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/optimisation-interne/"><li>Optimisation interne</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/"><li>Critères de qualité</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/serp/"><li>SERP</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/donnees-structurées/"><li>Données Structurées</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/landing-page/"><li>Landing Page</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/mots-cles/"><li>Mots-clés</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/longue-traine/"><li>Longue Traîne</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/backlinks/"><li>Backlinks</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/rapport-positionnement/"><li>Rapport de positionnement</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/"><li>courte traîne</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/sur-optimisation/"><li>Sur-Optimisation</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/e-reputation/"><li>E-Réputation</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/arborescence-seo/"><li>Arborescence SEO</li></Link>
                             </ul>
                         </div>
                         </div>
