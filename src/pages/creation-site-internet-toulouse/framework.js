@@ -64,7 +64,7 @@ class framework extends React.Component {
                     <section className="w-full mt-10 text-justify century font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
                         <br/>
-                        <h2 className="text-3xl text-bleu font-bold">Qu'est-ce qu'un framework'b ?</h2>
+                        <h2 className="text-3xl text-bleu font-bold">Qu'est-ce qu'un framework ?</h2>
                             <br/>
                             <p>
                                 Un <strong>framework</strong> est ce que l’on appelle une infrastructure logicielle qui va prêter assistance lors du <strong className="font-normal">développement d’applications web (Web Apps)</strong> et plus généralement du <strong className="font-normal">développement web</strong>. Dans d’autres termes, le framework web est une forme d’application contenant une bibliothèque (ou <strong className="font-normal">librairies</strong>) <strong className="font-normal">open source</strong> qui va proposer des ressources dans un <strong className="font-normal">langage de programmation</strong> donné pour standardiser et faciliter le travail du <strong className="font-normal">développeur</strong>.<br/>

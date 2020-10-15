@@ -83,14 +83,14 @@ class Header extends React.Component {
             <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
               <img 
                 src={ twitterIcon }
-                alt="Réseaux sociaux"
+                alt="Twitter"
                 className="w-6 fill-current"
               />
             </a>
             <a href="https://www.instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
               <img 
                 src={ instaIcon }
-                alt="Réseaux sociaux"
+                alt="Instagram"
                 className="w-6 fill-current"
               />
             </a>
