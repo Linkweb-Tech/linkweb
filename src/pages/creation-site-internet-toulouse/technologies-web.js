@@ -28,9 +28,10 @@ import mysql from "../../images/mysql-logo.png";
 import postgresql from "../../images/postgresql-logo.png";
 
 import fbIcon from "../../images/facebook-logo.svg";
-import bgbloc from "../../images/background.jpg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
@@ -116,7 +117,7 @@ render() {
                 </section>
                 
                 <section className="w-full  flex flex-col xl:flex-row flex justify-center">
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Développement du site <span className="text-bleu">></span> Quelles sont les technologies Web utilisées et maîtrisées ?</p>
                         <h3>Créer des sites web fait partie de notre quotidien. Toutefois, saviez-vous qu’il existe plusieurs façon de réaliser la création de votre site internet ?</h3>
@@ -565,13 +566,16 @@ render() {
 
                         <p>Ces adaptations seront possibles notamment dans le cadre de la <strong>création de sites internet sur-mesure</strong>. Les alternatives sont nombreuses pour <strong>créer un site internet professionnel</strong>, tout en développant un <strong>web design intuitif</strong> et une <strong>stratégie SEO</strong> adaptée <strong>à votre image</strong> et à vos besoins et cela quel que soit le <strong>type de site internet</strong>.</p>
                         </div>
-                        <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de création de site internet.</h3>
-                        <br/>
-                        <div className="w-1/2">
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                        <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                 </section>

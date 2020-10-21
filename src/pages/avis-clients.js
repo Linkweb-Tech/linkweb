@@ -26,10 +26,10 @@ import cerem from "../images/cerem-avis.png";
 import hontans from "../images/hontans-avis.png";
 
 import fbIcon from "../images/facebook-logo.svg";
-import bgbloc from "../images/background.jpg";
 import twitterIcon from "../images/twitter-logo.svg";
 import instaIcon from "../images/instagram-logo.svg";
-
+import bgbloc from "../images/creation-sites-web-toulouse.jpg";
+import BoutonBlog from '../components/boutonBlog.js';
 
 
 
@@ -195,7 +195,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Travailler avec Linkweb <span className="text-bleu">></span> Avis Clients</p>
                         <h3>Depuis plus de dix ans, ce sont des centaines de clients qui ont fait ou font confiance à Linkweb. Des dizaines d’entreprises ont déjà adressé leur retour client sur le profil My Business de Linkweb.</h3>
@@ -498,14 +498,16 @@ render() {
                             </div>
                     </div>
 
-                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de création de site web.</h3>
-                        <br/>
-                        <div className="w-1/2 flex flex-row justify-center items-center">
-                        <br/>
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                    <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                     

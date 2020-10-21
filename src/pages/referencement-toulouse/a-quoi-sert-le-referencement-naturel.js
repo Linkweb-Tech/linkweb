@@ -8,7 +8,6 @@ import "../../scss/faqpages.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
-import bgbloc from "../../images/background.jpg";
 import stratref from "../../images/strategie-referencement-naturel.jpg";
 import affichage from "../../images/affichage-resultats-recherche.jpg";
 import content from "../../images/content-marketing-seo.jpg";
@@ -20,7 +19,8 @@ import traficref from "../../images/trafic-referencement-naturel.jpg";
 import fbIcon from "../../images/facebook-logo.svg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
-
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
@@ -185,7 +185,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                     <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
                         <h3>La <Link to="/creation-site-internet-toulouse/" className="text-bleu font-bold hover:text-black">création d'un site internet</Link> est un parfait moyen pour développer son entreprise en attirant une nouvelle clientèle. Mais quelle serait son utilité si aucun moyen de visibilité n'était développé à son égard ?</h3>
@@ -325,13 +325,16 @@ render() {
                         <p>Toutefois, afin de veiller à la mise en place d'une stratégie pérenne et performante, le recours à des professionnels comme notre <Link to="/referencement-de-site-internet-47-31/" className="font-bold text-bleu hover:text-black"><strong>agence de référencement à Toulouse et Agen</strong></Link> peut s'avérer nécessaire. L'investissement en <strong>référencement naturel</strong> se matérialise par du temps de travail et des compétences.</p>
                         <p>Bâtie sur le long terme, une <strong>stratégie de référencement</strong> efficace vous permettra de d'<strong>attirer de nouveaux clients</strong> et, à terme, <strong>d'augmenter votre chiffre d'affaires</strong>.</p>
                     </div>
-                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de référencement.</h3>
-                        <br/>
-                        <div className="w-1/2">
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                    <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                 </section>

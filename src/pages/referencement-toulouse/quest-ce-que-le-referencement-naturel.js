@@ -8,7 +8,6 @@ import "../../scss/faqpages.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
-import bgbloc from "../../images/background.jpg";
 import stratref from "../../images/strategie-referencement-naturel.jpg";
 import affichage from "../../images/affichage-resultats-recherche.jpg";
 import content from "../../images/content-marketing-seo.jpg";
@@ -17,7 +16,8 @@ import evaluation from "../../images/evaluation-strategie-seo.jpg";
 import fbIcon from "../../images/facebook-logo.svg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
-
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
@@ -182,7 +182,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                     <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
                         <h3>Un site internet performant ne se contente pas d’un visuel réussi : il doit être visible pour exister.</h3>
@@ -301,13 +301,16 @@ render() {
                         <p>Une <strong>stratégie de référencement naturel</strong> nécessite du temps avant de générer des résultats satisfaisants. Il est donc important de se lancer dans la bonne direction, et ce, dès le départ.</p>
                         <p>Si vous souhaitez mener un <strong>projet de référencement naturel</strong>, <strong>Linkweb</strong> est en mesure de vous apporter une réponse qualifiée et fonctionnelle.</p>
                     </div>
-                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de référencement.</h3>
-                        <br/>
-                        <div className="w-1/2">
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                    <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                 </section>

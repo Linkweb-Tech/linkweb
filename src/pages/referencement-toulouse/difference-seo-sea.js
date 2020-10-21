@@ -8,7 +8,6 @@ import "../../scss/faqpages.scss";
 
 
 import background from "../../images/foire-aux-questions.jpg";
-import bgbloc from "../../images/background.jpg";
 import stratref from "../../images/referencement-moteurs.jpg";
 import seovssea from "../../images/seo-vs-sea.jpg";
 import evaluation from "../../images/evaluation-strategie-seo.jpg";
@@ -16,7 +15,8 @@ import evaluation from "../../images/evaluation-strategie-seo.jpg";
 import fbIcon from "../../images/facebook-logo.svg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
-
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
@@ -181,7 +181,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Quelle est la différence entre le SEO et le SEA ?</p>
                         <h3>Le référencement web est une branche du marketing digital qui présente un fort potentiel pour les professionnels. Il faut savoir que sous la notion de référencement web, plusieurs disciplines cohabitent. Nous aborderons ici les deux principales : le SEO et le SEA.</h3>
@@ -286,13 +286,16 @@ render() {
                         <p>Tous les moyens sont bons pour <strong>acquérir de la visibilité</strong> et <strong>développer le statut digital de sa marque</strong>. En fonction de la situation, mettre en place une <strong>campagne sponsorisée</strong> pourra s’avérer plus pertinent que <strong>développer son référencement naturel</strong> et vice-versa. Toutefois, dans une logique globale, l’erreur serait de les opposer jusqu’à choisir l’un plutôt que l’autre et ainsi se priver de leur complémentarité.</p>
                         <p>Là où le <strong>référencement naturel</strong> va demander du temps, le <strong>référencement sponsorisé</strong> va permettre d’obtenir des résultats rapides. Mixer ces deux disciplines sera alors pertinent pour démarrer tout en maximisant son efficacité.</p>
                     </div>
-                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de référencement.</h3>
-                        <br/>
-                        <div className="w-1/2">
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                    <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                 </section>

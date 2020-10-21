@@ -452,3 +452,39 @@ article {
     height:100vh;
     min-height:550px;
 }
+
+.bloccontactsticky 
+{
+    background: #00cfffe0;
+    height:300px;
+    margin-top:70px;
+    position:fixed;
+    border-radius:15px;
+    right:50px; 
+    width:30%;
+    @media(max-width: 1400px) {
+        border-radius:0px;
+        position:relative;
+        width:100%;
+        margin-top:0px;
+        right:0px;
+    }
+    
+}
+
+.bloccontactsticky h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align:center;
+    color:white;
+}
+.bloccontactsticky h3 {
+    font-size: 17px;
+    font-weight:normal;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align:center;
+    color:white;
+}

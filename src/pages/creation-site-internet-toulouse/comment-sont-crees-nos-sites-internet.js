@@ -20,9 +20,10 @@ import performance from "../../images/creation-site-internet-performant.jpg";
 import linkweb from "../../images/cta-background-agence-web.jpg";
 
 import fbIcon from "../../images/facebook-logo.svg";
-import bgbloc from "../../images/background.jpg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
@@ -188,7 +189,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Développement du site <span className="text-bleu">></span> Comment sont créés les sites internet ?</p>
                         <h3>Lorsque vous choisissez Linkweb pour la création de votre site internet, vous bénéficiez d’un accompagnement tout au long de votre projet web. </h3>
@@ -363,13 +364,16 @@ render() {
                         <p>Une majeure partie de la <strong className="font-bold">réussite d’un projet web</strong> réside dans la collaboration mise en place. C’est pourquoi, nous nous attachons à mener un partenariat solide tout au long de votre projet.</p>
                         <p>La <strong>création de sites web</strong> doit vous apporter un <strong className="font-bold">retour sur investissement</strong>. C’est à ce prix que nous vous proposerons un <strong>site web clé en main</strong>, conçu pour <strong>être visible</strong> et qui vous permettra d’obtenir de <strong>nouveaux clients</strong> grâce au <strong>web</strong>.</p>
                     </div>
-                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de création de site web.</h3>
-                        <br/>
-                        <div className="w-1/2">
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                    <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                     

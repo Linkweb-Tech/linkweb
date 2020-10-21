@@ -10,10 +10,10 @@ import "../../scss/faqpages.scss";
 import background from "../../images/foire-aux-questions.jpg";
 
 import fbIcon from "../../images/facebook-logo.svg";
-import bgbloc from "../../images/background.jpg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
-
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
+import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
@@ -178,7 +178,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Définition du projet <span className="text-bleu">></span> Les différents types de sites internet</p>
                         <h3>La création de site internet pour professionnels permet de répondre à de nombreuses problématiques. En effet, à chaque problématique répond une solution web définie en fonction de votre activité, de vos objectifs et de ce qu’attendent les internautes. Pour ce faire, il n’existe pas un, mais bien plusieurs types de sites internet.</h3>
@@ -327,13 +327,16 @@ render() {
                         <p>Ainsi, <strong>créer un site internet sur-mesure</strong> est la meilleure solution pour mettre en place des fonctionnalités en vue de l’optimisation de votre organisation ou bien pour favoriser l’<strong>expérience utilisateur sur votre site</strong> (applications métiers et intranet, web services et API, création de module de réservation, outil de personnalisation de produits, générateur de devis, etc.).</p>
                         <Link className="text-black font-bold hover:text-bleu" to="../creation-de-site-internet-47-31/">>> En savoir plus sur le site internet sur-mesure</Link>
                     </div>
-                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de création de site web.</h3>
-                        <br/>
-                        <div className="w-1/2">
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                    <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                     

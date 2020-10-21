@@ -5,6 +5,7 @@ import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
 import ButtonBlog from "../../components/buttonblog";
 import "../../scss/faqpages.scss";
+import BoutonBlog from '../../components/boutonBlog.js';
 
 
 import background from "../../images/foire-aux-questions.jpg";
@@ -13,9 +14,9 @@ import pourquoi from "../../images/pourquoi-creer-site-internet.jpg";
 import intranet from "../../images/solution-web-entreprise.jpg";
 
 import fbIcon from "../../images/facebook-logo.svg";
-import bgbloc from "../../images/background.jpg";
 import twitterIcon from "../../images/twitter-logo.svg";
 import instaIcon from "../../images/instagram-logo.svg";
+import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
 
 
 
@@ -58,7 +59,7 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-black flex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
                     Pourquoi créer un site internet ?
                     </h2>
@@ -181,7 +182,7 @@ render() {
                             </li>
                         </ul>
                     </div> */}
-                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify order-first lg:order-last">
+                    <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
                         
                         <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Pourquoi créer un site internet ?</p>
                         <h3>La création de site internet fait partie des moyens de communication indispensables dans le cadre du développement de son entreprise. En effet, avoir un site internet professionnel est devenu une condition essentielle pour développer la visibilité d’un site web.</h3>
@@ -282,13 +283,16 @@ render() {
                         <p><strong>Créer des sites internet</strong> ne s’improvise pas. Le choix d’un <strong>hébergement web</strong> solide, la définition d’un <strong>design intuitif</strong> et <strong>responsive</strong> ou la mise en place d’une <strong>ergonomie</strong> optimale sont des éléments indispensables, mais insuffisants. Le <strong>référencement d’un site internet</strong> est également l’un des critères qui va avoir du poids selon vos objectifs.</p>
                         <p>En revanche, il serait une erreur colossale de négliger <strong>votre site internet</strong> durant la mise en œuvre d’un <strong>projet web</strong>. Celui-ci répond à de très nombreux objectifs et constitue un outil polyvalent. Il est accessible à tous de tirer profit d’un tel outil. Ceci doit être rendu possible à travers un travail rigoureux, régulier et professionnel.</p>
                     </div>
-                    <div className="bloccontact w-full lg:w-full xl:w-1/5 flex flex-col justify-center items-center century text-justify order-first lg:order-last flex" style={{background:'#38d5ff url(' + bgbloc +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center'}}>
-                        <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                        <br/>
-                        <h3>Linkweb met en place votre projet de création de site web.</h3>
-                        <br/>
-                        <div className="w-1/2">
-                            <ButtonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                    <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
                     
