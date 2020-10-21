@@ -61,9 +61,9 @@ class SiteInternetMacon extends React.Component {
                 <SEO
                     title="Création site internet Maçon à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour votre entreprise de maçonnerie à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-maconnerie/"
+                    url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-macon/"
                     nom="Créer un site internet internet Maçon"
-                    slug="creation-site-internet-toulouse/site-internet-maconnerie/"
+                    slug="creation-site-internet-toulouse/site-internet-macon/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
