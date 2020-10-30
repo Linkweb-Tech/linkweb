@@ -515,3 +515,43 @@ footer {
 .list-def a li:hover {
 color:white;
 }
+
+// BANDEAU CONFINEMENT//
+
+.covid {
+    border-top:5px solid #FFFFFF;
+    top: -2px;
+    right: 0px;
+    max-height:95px;
+    @media (max-width:1024px) {
+        top: -10px;
+        position: relative;
+        margin-bottom: -180px;
+        max-height:220px;
+    }
+    @media (max-width:823px) {
+        top: -25px;
+        position: relative;
+        margin-bottom: -180px;
+        max-height:220px;
+    }
+    @media (max-width:768px) {
+        top: -25px;
+        position: relative;
+        margin-bottom: -180px;
+        max-height:220px;
+    }
+    @media (max-width:450px) {
+        top: 0px;
+        position: relative;
+        margin-bottom: -160px;
+        max-height:220px;
+    }
+}
+
+.covid svg {
+    display:block;
+    @media (max-width:450px) {
+        display:none;
+    }
+}

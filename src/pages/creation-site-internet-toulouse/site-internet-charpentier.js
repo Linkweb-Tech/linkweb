@@ -85,7 +85,7 @@ class SiteInternetCharpentier extends React.Component {
                     transitionTime={200}
                 > */}
 
-                <section className="flex items-center justify-start w-full mx-auto pb-0 my-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <section className="flex items-center justify-start w-full mx-auto pb-0 my-32 md:my-42 lg:my-42 xl:my-48 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end">
                         <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                             <div className="w-1/2  text-3xl text-center font-bold text-white century">4,5/5</div>

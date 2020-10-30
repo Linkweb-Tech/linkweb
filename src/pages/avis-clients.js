@@ -72,7 +72,7 @@ render() {
                 transitionTime={200}
             > */}
                 <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
-                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-3xl md:text-5xl sm:text-6xl text-center text-white mt-40">
+                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-3xl md:text-5xl sm:text-6xl text-center text-white mt-64">
                     Ce que pensent nos clients de nos services
                     </h2>
                     <br/>
