@@ -54,7 +54,7 @@ class ReferencementAds extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                    <section className="w-full bloctitrescreen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{background:'#000000ba url(' + Bg +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'650px'}}>
+                    <section className="w-full mt-24 bloctitrescreen mx-auto px-2 md:px-4 py-6 bg-no-repeat bg-cover bg-center flex md:flex-row flex-col justify-center items-center" style={{background:'#000000ba url(' + Bg +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'650px'}}>
                         <div className="order-last md:order-first w-full md:w-1/3 max-w-5xl mx-auto p-1 my-4 md:mx-6 mx-2" >
                             <RoundButton url="/contact-agence-web-toulouse/" text="Je veux propulser mon site sur Google" />
                         </div>
