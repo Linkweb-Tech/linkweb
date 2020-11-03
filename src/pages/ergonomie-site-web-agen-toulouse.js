@@ -65,6 +65,8 @@ class ErgonomieToulouse extends React.Component {
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je souhaite créer mon site internet" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
+                    <div>VERIRL</div>
+
                     <p className="text-justify" style={{textAlignLast:`center`}}>
                     <strong>Créer un site internet professionnel</strong> fait appel à des <strong>connaissances techniques</strong> et à une réflexion très précises en termes de création et <strong>gestion de contenu</strong>, mais aussi en termes de <strong>responsive web design</strong>. En tant qu’<strong>agence de création de site internet à Agen et Toulouse</strong>, faire un <strong>site internet vitrine</strong> ou <strong>e-commerce</strong> sur-mesure fait partie de nos objectifs.</p>
                     </section>
