@@ -63,7 +63,7 @@ function IndexPage(props) {
           
       {/* List of modals (Creation de sites, Referencement, Solution, Google Ads) */}
       <Modals />
-      <div className="hidden">170b10c140590534</div>
+      <div>170b10c140590534</div>
       <Hero1></Hero1>
       <section id="x" className="max-w-md w-full mx-auto mt-12 px-4 py-0 my-0">
         <h2 /*data-aos='fade-right'*/ className="text-center">
