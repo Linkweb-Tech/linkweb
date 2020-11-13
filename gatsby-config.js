@@ -148,7 +148,6 @@ module.exports = {
         // dataLayerName: "YOUR_DATA_LAYER_NAME",
       },
     },
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`, 
     {
       resolve: `gatsby-plugin-google-analytics`,
