@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://linkweb.fr`, 
+    siteUrl: `https://linkweb.fr`,
     title: `Linkweb`,
     description: `Linkweb, agence web de création de site internet à Agen (47) et Toulouse (31).`,
     author: `@AgenceLinkweb`
@@ -45,7 +45,7 @@ module.exports = {
           //htaccess_pass: "your-htaccess-password",
           //htaccess_sendImmediately: false,
 
-          
+
 
           // If you use "JWT Authentication for WP REST API" (https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/)
           // or (https://github.com/jonathan-dejong/simple-jwt-authentication) requires jwt_base_path, path can be found in wordpress wp-api.
@@ -80,10 +80,10 @@ module.exports = {
         includedRoutes: [
           "**/categories",
           "**/posts",
-          "**/pages",
+          //"**/pages",
           "**/media",
-          "**/tags",
-          "**/taxonomies",
+          //"**/tags",
+          //"**/taxonomies",
           "**/users",
         ],
         // Blacklisted routes using glob patterns
@@ -94,7 +94,7 @@ module.exports = {
         // Defaults to false
         keepMediaSizes: false,
         // use a custom normalizer which is applied after the built-in ones.
-        normalizer: function({ entities }) {
+        normalizer: function ({ entities }) {
           return entities
         },
       },
@@ -132,23 +132,84 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-WJMB7VQ",
-  
+
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false,
-  
+
         // datalayer to be set before GTM is loaded
         // should be an object or a function that is executed in the browser
         // Defaults to null
         defaultDataLayer: { platform: "gatsby" },
-  
+
         // Specify optional GTM environment details.
         // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
         // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
         // dataLayerName: "YOUR_DATA_LAYER_NAME",
       },
     },
-    `gatsby-plugin-offline`, 
+    // {
+    //   resolve: `gatsby-plugin-sitemap`,
+    //   options: {
+    //     output: `/blog-sitemap.xml`,
+    //     // Exclude specific pages or groups of pages using glob parameters
+    //     // See: https://github.com/isaacs/minimatch
+    //     // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+    //     exclude: [`/blog/*`],
+    //     query: `
+    //     {
+    //       allSitePage {
+    //         nodes {
+    //           path
+    //         }
+    //       }
+    //   }`,
+    //     resolveSiteUrl: ({ site, allSitePage }) => {
+    //       //Alternatively, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
+    //       return 'https://linkweb.fr'
+    //     },
+    //     serialize: ({ site, allSitePage }) =>
+    //       allSitePage.nodes.map(node => {
+    //         return {
+    //           url: `https://linkweb.fr${node.path}`,
+    //           changefreq: `daily`,
+    //           priority: 0.7,
+    //         }
+    //       })
+    //   }
+    // }, 
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      // options: {
+      //   output: `/page-sitemap.xml`,
+      //   // Exclude specific pages or groups of pages using glob parameters
+      //   // See: https://github.com/isaacs/minimatch
+      //   // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+      //   query: `
+      //   {
+      //     post: allWordpressPost {
+      //       nodes {
+      //         path
+      //       }
+      //     }
+      //   }`,
+      //   resolveSiteUrl: ({ post }) => {
+      //     //Alternatively, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
+      //     return 'https://linkweb.fr'
+      //   },
+      //   serialize: ({ post }) => {
+      //     post.nodes.map(node => {
+      //       return {
+      //         url: `https://linkweb.fr${node.path}`,
+      //         changefreq: `daily`,
+      //         priority: 0.7,
+      //       }
+      //     })
+      //   }
+      //}
+    },
+    // yarn 
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -165,6 +226,6 @@ module.exports = {
         // siteSpeedSampleRate: 10,
         // cookieDomain: "linkweb.fr",
       },
-    }, 
+    },
   ]
 };
