@@ -190,23 +190,24 @@ module.exports = {
       //     post: allWordpressPost {
       //       nodes {
       //         path
+      //         slug
       //       }
       //     }
       //   }`,
-      //   resolveSiteUrl: ({ post }) => {
+      //   resolveSiteUrl: (post) => {
       //     //Alternatively, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
-      //     return 'https://linkweb.fr'
+      //     return 'https://linkweb.fr/blog'
       //   },
-      //   serialize: ({ post }) => {
+      //   serialize: (post) => {
       //     post.nodes.map(node => {
       //       return {
-      //         url: `https://linkweb.fr${node.path}`,
+      //         url: `https://linkweb.fr/blog${node.path}`,
       //         changefreq: `daily`,
       //         priority: 0.7,
       //       }
       //     })
       //   }
-      //}
+      // }
     },
     // yarn 
     `gatsby-plugin-offline`,
