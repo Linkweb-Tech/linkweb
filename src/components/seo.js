@@ -187,6 +187,10 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               {
                 name: `twitter:description`,
                 content: metaDescription
+              },
+              {
+                name: `verify`,
+                content: `5fbb730d33259-5jeQfl8v`
               }
             ]
               .concat(
