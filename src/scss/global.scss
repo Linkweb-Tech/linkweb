@@ -707,3 +707,11 @@ color:white;
     
 
 }
+
+.pageButton {
+    transition: all ease 0.7s;
+    &:hover {
+        background-color: #ffffff;
+        transition: all ease 0.7s;
+    }
+}
