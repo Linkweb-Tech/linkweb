@@ -122,7 +122,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                             <br/>
                             <hr className="border-solid w-1/6 border-white"></hr>
                             <br/>
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-center century text-black px-4 pb-0">Notre rôle : mettre en place un projet web adapté à l'image de votre société.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="text-xl text-center century text-black px-4 pb-0"><span className="font-bold">Notre rôle :</span> mettre en place un projet web adapté à l'image de votre société.</h3>
                         </section>
             <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
                 <div className="w-full flex justify-center items-center lg:w-5/12">
