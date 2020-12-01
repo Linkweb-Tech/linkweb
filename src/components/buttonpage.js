@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-class RoundButton extends React.Component {
+class buttonPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -17,7 +17,8 @@ class RoundButton extends React.Component {
             <a 
             href={ this.props.url }     
             /*to={ this.props.url } */
-                className={`font-light roundedButton bg-${this.props.color || 'bleu'} text-${this.props.colortext || 'white'} hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12`}
+                className={`font-light pageButton bg-${this.props.color || 'bleu'} text-${this.props.colortext || 'black'} hover:text-bleu flex justify-center mt-3 items-center hover:bg-white text-center text-sm md:text-md lg:text-md rounded-huge px-4 py-4 mt-0`}
+                style={{minWidth:'150px'}}
             >
               {this.props.text}
             </a>
@@ -26,4 +27,4 @@ class RoundButton extends React.Component {
     }
 }
 
-export default RoundButton;
+export default buttonPage;

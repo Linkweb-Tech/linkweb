@@ -579,3 +579,134 @@ color:white;
         }
     }
 }
+
+// CRÉATION SITE INTERNET TOULOUSE //
+
+.blocpresta {
+    
+    width:100%;
+    background:#000000ad url('../images/cta-background-agence-web.jpg');
+    background-size:cover;
+    background-blend-mode:multiply;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-align:center;
+    min-height: 100vh;
+}
+.blocpresta {
+    
+    ul li .check {
+        color:#37cfee;
+        width:25%;
+        text-align:center;
+    }
+    hr {
+        width:25%;
+        border:solid 1px #37cfee;
+        margin-top:5px;
+        margin-bottom:10px;
+    }
+
+}
+
+.phototext {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.sidetitle {
+    h4 {
+        font-weight:bold;
+    }
+    .line-title {
+        display:flex;
+        flex-direction:row;
+        justify-content:left;
+        text-align:left;
+        align-items:left;
+    }
+    hr {
+        margin-top:15px;
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+        align-items:left;
+        margin-left:0;
+        margin-right:40px;
+    }
+}
+
+.phototext {
+
+    
+    h4 {
+        font-weight:bold;
+    }
+    .line-title {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        text-align:left;
+        align-items:center;
+    }
+    hr {
+        margin-top:15px;
+        border:solid 1px #37cfee;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .blocchiffres {
+        font-size: 100px;
+        opacity: 0.12;
+        margin-top:0rem;
+        color: #a5a5a5;
+        transition: all ease 0.4s;
+        position:relative;
+        z-index:1;
+    }
+    .blocchiffres:hover {
+            color:#37cfee;
+            opacity: 0.2;
+            transition: all ease 0.4s;
+            transform: scale(2);
+        
+    }
+    a {
+        color:#37cfee;
+        font-weight:bold;
+        transition:all ease 0.2s
+    }
+    a:hover {
+        color:#3c3c3c;
+        font-weight:bold;
+        transition:all ease 0.2s
+    }
+}
+
+.bordbloc {
+    background-color:#37cfee;
+}
+
+.bordbloc:after {
+}
+
+.svgtransform {
+    transition: all ease 0.5s;
+}
+
+.svgtransform:hover {
+    transform:scale(1.2);
+    transition: all ease 0.5s;
+    
+
+}
