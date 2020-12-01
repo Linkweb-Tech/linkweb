@@ -495,6 +495,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                         <div className="w-full mx-auto block lg:w-3/12">
                         {/*<ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>*/}
+                        <RoundButton url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white" text="CONTACTEZ-NOUS" />
                         </div>
                     </section>
                     <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
