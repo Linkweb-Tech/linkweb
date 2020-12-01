@@ -349,6 +349,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <div className="w-2/3 mx-auto block">
                                         <br />
                                         {/*<ButtonPage url="/creation-site-internet-agen/" text="SÉLECTIONNER" color="bleu" />*/}
+                                        <RoundButton url="/creation-site-internet-agen/" color="bleu" colortext="black" text="SÉLECTIONNER" />
                                     </div>
                                 </div>
                                 <div className="blocliens w-full lg:w-1/2 xl:w-6/12 my-4 border mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{border:'2px solid #ffffff' }}>
@@ -388,6 +389,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <div className="w-2/3 mx-auto block">
                                         <br />
                                         {/*<ButtonPage url="/creer-une-boutique-en-ligne/" text="SÉLECTIONNER" color="bleu" />*/}
+                                        <RoundButton url="/creer-une-boutique-en-ligne/" color="bleu" colortext="black" text="SÉLECTIONNER" />
                                     </div>
                                 </div>
                             </section>
@@ -429,6 +431,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <div className="w-2/3 mx-auto block">
                                         <br />
                                         {/*<ButtonPage url="/creation-site-internet-catalogue/" text="SÉLECTIONNER" color="bleu" />*/}
+                                        <RoundButton url="/creation-site-internet-catalogue/" color="bleu" colortext="black" text="SÉLECTIONNER" />
                                     </div>
                                 </div>
                                 <div className="blocliens w-full lg:w-1/2 xl:w-6/12 my-4 border mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{border:'2px solid #ffffff' }}>
@@ -469,6 +472,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                         <br />
                                         
                                         {/*<ButtonPage url="/creation-de-site-internet-47-31/" text="SÉLECTIONNER" color="bleu" />*/}
+                                        <RoundButton url="/creation-de-site-internet-47-31/" color="bleu" colortext="black" text="SÉLECTIONNER" />
                                     </div>
                                 </div>
                             </section>
