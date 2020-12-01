@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-class buttonPage extends React.Component {
+class ButtonPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -27,4 +27,4 @@ class buttonPage extends React.Component {
     }
 }
 
-export default buttonPage;
+export default ButtonPage;
