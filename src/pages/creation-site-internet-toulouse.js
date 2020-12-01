@@ -6,7 +6,7 @@ import posed from 'react-pose';
 import RoundButtonPages from "../components/roundButtonPages";
 import RoundButtonPagesMail from "../components/roundButtonPagesMail";
 import RoundButton from "../components/roundButton";
-import ButtonPage from "../components/buttonPage.js";
+/*import ButtonPage from "../components/buttonPage.js";*/
 import Button from "../components/button.js";
 import Tiles from '../components/gallery/tiles';
 
@@ -348,7 +348,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <br />
                                     <div className="w-2/3 mx-auto block">
                                         <br />
-                                        <ButtonPage url="/creation-site-internet-agen/" text="SÉLECTIONNER" color="bleu" />
+                                        {/*<ButtonPage url="/creation-site-internet-agen/" text="SÉLECTIONNER" color="bleu" />*/}
                                     </div>
                                 </div>
                                 <div className="blocliens w-full lg:w-1/2 xl:w-6/12 my-4 border mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{border:'2px solid #ffffff' }}>
@@ -387,7 +387,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <br />
                                     <div className="w-2/3 mx-auto block">
                                         <br />
-                                        <ButtonPage url="/creer-une-boutique-en-ligne/" text="SÉLECTIONNER" color="bleu" />
+                                        {/*<ButtonPage url="/creer-une-boutique-en-ligne/" text="SÉLECTIONNER" color="bleu" />*/}
                                     </div>
                                 </div>
                             </section>
@@ -428,7 +428,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <br />
                                     <div className="w-2/3 mx-auto block">
                                         <br />
-                                        <ButtonPage url="/creation-site-internet-catalogue/" text="SÉLECTIONNER" color="bleu" />
+                                        {/*<ButtonPage url="/creation-site-internet-catalogue/" text="SÉLECTIONNER" color="bleu" />*/}
                                     </div>
                                 </div>
                                 <div className="blocliens w-full lg:w-1/2 xl:w-6/12 my-4 border mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{border:'2px solid #ffffff' }}>
@@ -468,7 +468,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <div className="w-2/3 mx-auto block">
                                         <br />
                                         
-                                        <ButtonPage url="/creation-de-site-internet-47-31/" text="SÉLECTIONNER" color="bleu" />
+                                        {/*<ButtonPage url="/creation-de-site-internet-47-31/" text="SÉLECTIONNER" color="bleu" />*/}
                                     </div>
                                 </div>
                             </section>
@@ -490,7 +490,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         <h4>Linkweb soutient les professionnels souhaitant développer leur visibilité en ligne.</h4>
                         </div>
                         <div className="w-full mx-auto block lg:w-3/12">
-                        <ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>
+                        {/*<ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>*/}
                         </div>
                     </section>
                     <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
