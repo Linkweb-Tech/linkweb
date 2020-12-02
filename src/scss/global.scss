@@ -693,9 +693,6 @@ color:white;
     }
 }
 
-.bordbloc {
-    background-color:#37cfee;
-}
 
 .svgtransform {
     transition: all ease 0.5s;
@@ -714,4 +711,69 @@ color:white;
         background-color: #ffffff;
         transition: all ease 0.7s;
     }
+}
+
+/* AGENCE WEB TOULOUSE */
+
+.bloctextimg .image {
+    margin-left:325px;
+  
+    @media (max-width:2048px) and (min-width:2250px) {
+        margin-left:500px;
+    }
+    @media (max-width:1400px) and (min-width:1024px) {
+        margin-left:20px;
+        
+        }
+        @media (max-width:1024px) and (min-width:768px) {
+            margin-left:0px;
+            
+            }
+    @media (max-width:768px){
+        margin-left:0px;
+            
+        }
+    @media (max-width:1024px) and (min-width:768px) {
+    padding-right:0px;
+    
+    }
+}
+.bloctextimg img {
+    -webkit-box-shadow: -19px 0px 54px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -19px 0px 54px 0px rgba(0,0,0,0.75);
+    box-shadow: -19px 0px 54px 0px rgba(0,0,0,0.75);
+}
+
+.bloctextimg .text {
+        @media (min-width:2048px) {
+            margin-left:1000px;
+        }
+        @media (max-width:2048px) and (min-width:1900px) {
+            margin-left:1000px;
+        }
+        @media (max-width:1900px) and (min-width:1800px) {
+            margin-left:950px;
+        }
+        @media (max-width:1900px) and (min-width:1650px) {
+            margin-left:900px;
+            }
+        @media (max-width:1650px) and (min-width:1500px) {
+            margin-left:850px;
+            }
+        @media (max-width:1500px) and (min-width:1400px) {
+            margin-left:800px;
+            }
+        @media (max-width:1400px) and (min-width:1250px) {
+            margin-left:550px;
+            }
+        @media (max-width:1400px) and (min-width:1250px) {
+            margin-left:550px;
+            }
+        @media (max-width:1250px) and (min-width:1060px) {
+            margin-left:450px;
+            }
+        @media (max-width:1060px) and (min-width:1024px) {
+            margin-left:400px;
+            }
+        
 }
