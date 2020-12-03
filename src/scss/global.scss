@@ -23,7 +23,6 @@ hr{
 
 .menu-avisclients {
     display:none;
-    width: 20%;
     transition:all ease 0.7s;
     color:#000;
     &:hover {
@@ -31,7 +30,7 @@ hr{
         color:#37cfee;
     }
     a svg g {
-        fill:#37cfee;
+        fill:#ffffff;
     }
     @media (min-width:425px) {
         display:flex

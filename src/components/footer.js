@@ -43,9 +43,16 @@ class Footer extends React.Component {
                             to="/creation-site-internet-toulouse/"
                             className="block md:inline-block mt-2 md:mt-0  no-underline text-white century py-2 px-4"
                         >
-                            <span className="chevronFooter">></span> Création Site Internet
+                            <span className="chevronFooter">></span> Création Site Internet à Toulouse
                         </Link>
-            
+                        
+                        <Link
+                            to="/creation-de-site-internet-a-agen/"
+                            className="block md:inline-block mt-2 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Création Site Internet à Agen
+                        </Link>
+
                         <Link
                             to="/referencement-toulouse/"
                             className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"

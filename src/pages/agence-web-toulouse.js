@@ -10,6 +10,7 @@ import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import RappelForm from "../components/rappelForm";
+import SimpleMap from "../components/simpleMap";
 import Accordion from '../components/accordion';
 import Partenaires from '../components/partenaires';
 import "../scss/home1.scss";
@@ -74,7 +75,7 @@ class AgenceWebToulouse extends React.Component {
                     }}
                     transitionTime={200}
                 > */}
-                <section className="flex items-center w-full mx-auto pb-0 mt-48 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ Bg +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center top'}}>
+                <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ Bg +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center top'}}>
             <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                 <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                     <div className="w-full  text-3xl text-center font-bold text-white century">4,5/5</div>
@@ -625,6 +626,7 @@ class AgenceWebToulouse extends React.Component {
                         </div>
                         <br/>
                     </section>
+                    <SimpleMap/>
                 {/* </PageTransition> */}
             </Layout>
         );

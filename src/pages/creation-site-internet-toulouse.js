@@ -86,7 +86,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                 > */}
 
 
-<section className="flex items-center w-full mx-auto pb-0 mt-48 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ arriereplan +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center top'}}>
+<section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ arriereplan +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center top'}}>
             <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                 <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                     <div className="w-full  text-3xl text-center font-bold text-white century">4,5/5</div>
@@ -186,7 +186,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                                         <span className="text-bleu">/</span>WEB ANALYTICS
                                     </h3>
                                     
-                                    <h4 className="century">Ce travai a pour vocation de définir et adapter nos réalisations pour permettre à chacun de se positionner de façon optimale sur son marché.</h4>
+                                    <h4 className="century">Ce travail a pour vocation de définir et adapter nos réalisations pour permettre à chacun de se positionner de façon optimale sur son marché.</h4>
                                     <br/>
                                     <p className="century pb-6 text-justify">Nous utilisons les données en vue de maximiser les performances de nos réalisations. <strong>Audit concurrentiel</strong>, analyse comportementale des utilisateurs et détection d'opportunités sont rendus possibles grâce à l'exploitation des données récoltées.
                                     </p>
