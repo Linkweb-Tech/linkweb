@@ -57,7 +57,13 @@ class Footer extends React.Component {
                             to="/referencement-toulouse/"
                             className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"
                         >
-                            <span className="chevronFooter">></span> Référencement
+                            <span className="chevronFooter">></span> Référencement Toulouse
+                        </Link>
+                        <Link
+                            to="/referencement-agen/"
+                            className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Référencement Agen
                         </Link>
                         <Link
                             to="/agence-web-toulouse/"
