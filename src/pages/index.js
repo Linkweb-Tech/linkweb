@@ -116,7 +116,7 @@ function IndexPage(props) {
           <svg className="cursor-pointer mx-auto block" width="40px" viewBox="0 0 48 60"><g><polygon fill="#37cfee" points="47,47 1,47 1,1 3,1 3,45 47,45  " /><g><path fill="#37cfee" d="M15.9,47H7.4V33h8.4V47z M9.4,45h4.4V35H9.4V45z" /><path fill="#37cfee" d="M28.7,47h-8.4V23h8.4V47z M22.3,45h4.4V25h-4.4V45z" /><path fill="#37cfee" d="M41.6,47h-8.4V13h8.4V47z M35.1,45h4.4V15h-4.4V45z" /></g><g><path fill="#37cfee" d="M10.4,26.2l-0.9-1.8c6.4-3.1,14-10.1,18.6-17l1.7,1.1C25.1,15.7,17.1,23,10.4,26.2z" /><g><polygon fill="#37cfee" points="24.4,6 32.8,10.9 31,4.2    " /></g></g></g></svg>
           <a href="#referencement-web"><h3 className="text-center text-2xl font-bold century">Référencement</h3></a>
           <hr className="blue"></hr>
-          <p className="text-center px-6">Nous définissons et appliquons une <strong>stratégie de <Link className="text-bleu hover:text-black" to="/agence-referencement-toulouse/">référencement web</Link></strong> adaptée à vos besoins et à la concurrence.</p>
+          <p className="text-center px-6">Nous définissons et appliquons une <strong>stratégie de <Link className="text-bleu hover:text-black" to="/referencement-toulouse/">référencement web</Link></strong> adaptée à vos besoins et à la concurrence.</p>
           <br />
           <ul className="text-bold text-center py-2">
             <li className="py-2 flex flex-row justify-center">
@@ -198,7 +198,7 @@ function IndexPage(props) {
             <h4 className="text-4xl text-white mt-0 lg:-mt-5">d'expérience</h4>
 
             <p className="text-white font-normal">
-              Depuis 2008, notre <strong><Link to="/agence-web-agen/" className="text-bleu hover:text-white">agence à Agen</Link></strong> et <strong>Toulouse</strong> accompagne les professionnels pour développer leur <strong>visibilité sur le Web</strong>.
+              Depuis 2008, notre <strong>agence à Agen</strong> et <strong>Toulouse</strong> accompagne les professionnels pour développer leur <strong>visibilité sur le Web</strong>.
             </p>
           </div>
           <div className="max-w-3xl w-full lg:w-1/2 flex flex-col pl-0 lg:pl-32">

@@ -84,10 +84,10 @@ class ReferencementToulouse extends React.Component {
                         </div>
                     </div>
                     <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                    <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Référencement Toulouse<span className="text-bleu">/</span>Agen</h1>
+                    <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Référencement Toulouse</h1>
                     </div>
                     <br/>
-                    <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence SEO & SEA spécialisée en stratégie de référencement web à Toulouse et Agen.</h2>
+                    <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence SEO & SEA spécialisée en stratégie de référencement web à Toulouse.</h2>
                     {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                     <div className="w-full lg:w-full flex flex-col lg:flex-row justify-center pb-24 lg:justify-center mx-auto" style={{maxWidth:'460px'}}>
                         <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30"/>
@@ -124,7 +124,7 @@ class ReferencementToulouse extends React.Component {
                                 <br/>
                                 <p className="w-full century pb-4 text-justify">Le <strong>référencement naturel SEO</strong> est une source pertinente pour <strong>générer du trafic sur un site internet</strong> en vue de <strong>vendre des produits</strong>, <strong>présenter sa société</strong> ou <strong>obtenir des contacts</strong>. De manière générale, il permet à tout type de société d’exploiter le potentiel proposé par les <strong>moteurs</strong> en prenant part à son <strong>marché web</strong>.
                                 </p>
-                                <Button url="/referencement-de-site-internet-47-31/" text="Notre formule SEO" position="left" />
+                                {/*<Button url="/referencement-de-site-internet-47-31/" text="Notre formule SEO" position="left" />*/}
                                 <br/>
                         </div>
                         </div>
