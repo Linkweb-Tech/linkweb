@@ -55,7 +55,7 @@ const BlogPostTemplate = ({ data }) => (
         </section>
         <section className="px-6 lg:px-64 font-bold" data-aos="fade-left">
           <Link className="hover:text-bleu" to="/actualite-digitale/"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu" 
-          href={`/blog/category/${data.wordpressPost.categories[0].slug}/`}>{data.wordpressPost.categories[0].name}</a> 
+          href={`/blog/${data.wordpressPost.categories[0].slug}/`}>{data.wordpressPost.categories[0].name}</a> 
             <span className="text-bleu">>></span> 
             <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}/`}>{data.wordpressPost.title}</Link> 
         </section>
@@ -185,7 +185,7 @@ const BlogPostTemplate = ({ data }) => (
                 <LastPosts wrap='false' lastposts={data.allWordpressPost.edges} />
           </div>
           <div className="w-2/3 md:w-2/5 mb-6" data-aos="fade-up">
-               <ButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
+               <ButtonBlog className="rounded-none century font-thin " url="/blog/tous-articles/" text="Voir tous les articles"/><br/>
           </div>
         </section>
         <div className="w-full flex justify-end flex-row enhautblog">

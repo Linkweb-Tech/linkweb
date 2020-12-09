@@ -140,7 +140,7 @@ render() {
                     <div className="w-full xl:w-3/5">
                         <section className=" flex flex-col align-center justify-center text-center md:mt-12 my-0 sm:mb-3">
                         <div className="flex flex-row items-center">
-                                        <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/category/referencement/" style={{transition:'all ease 0.5s'}}>
+                                        <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/referencement/" style={{transition:'all ease 0.5s'}}>
                                             <h2 className="font-bold century text-3xl py-2 justify-start flex px-6">
                                                 À la Une
                                             </h2>
@@ -149,13 +149,13 @@ render() {
                                     </div>
                             <Postune postune={this.props.data.allWordpressPost.edges} />
                             <div className="flex flex-row items-center">
-                                <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/category/actus/" style={{transition:'all ease 0.5s'}}><h3 className="font-bold century text-xl py-2 justify-start flex px-6">Actualités</h3></Link>
+                                <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/actus/" style={{transition:'all ease 0.5s'}}><h3 className="font-bold century text-xl py-2 justify-start flex px-6">Actualités</h3></Link>
                                 <hr className="hrblog mt-1 px-6 mr-6"></hr>
                             </div>
                             <LastPosts wrap='false' lastposts={this.props.data.actus.edges} />
                             {/* <section className="flex justify-center ">
                                 <div className="w-2/3 lg:w-1/4" data-aos="fade-up">
-                                    <RoundButtonBlog className="rounded-none century font-thin " url="/blog/category/tous-articles/" text="Voir tous les articles"/><br/>
+                                    <RoundButtonBlog className="rounded-none century font-thin " url="/blog/tous-articles/" text="Voir tous les articles"/><br/>
                                 </div>
                             </section> */}
                                 <section className="blocblog w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:my-2 bg-cover my-24" style={{background:'#37cfeede url(' + blocBg +')', backgroundSize:'cover', backgroundPosition:'center', backgroundBlendMode:'overlay', borderRadius:'15px'}}>
@@ -171,7 +171,7 @@ render() {
                                 </section>
                                 <section className="w-full mx-auto py-6 mt-4 mb-0">
                                     <div className="flex flex-row items-center">
-                                        <Link to="/blog/category/referencement/" className="text-bleu hover:text-white hover:bg-bleu" style={{transition:'all ease 0.5s'}}>
+                                        <Link to="/blog/referencement/" className="text-bleu hover:text-white hover:bg-bleu" style={{transition:'all ease 0.5s'}}>
                                             <h2 className="font-bold century text-xl py-2 justify-start flex px-6">
                                                 À propos de Référencement
                                             </h2>
@@ -241,16 +241,16 @@ render() {
                         <LastPostsMini lastposts={this.props.data.lastmini.edges} />
                         <section className="flex -mt-4 justify-center mb-3 " >
                             <div className="w-1/2 md:w-full py-2 hover:bg-bleu text-bleu hover:text-white" style={{border:'solid 1px #37cfee', transition:'all ease 0.5s'}}>
-                                <Link className="text-sm century font-thin" to="/blog/category/tous-articles/"><span className="font-bold py-2 mx-auto flex justify-center">Voir tous les articles</span></Link>
+                                <Link className="text-sm century font-thin" to="/blog/tous-articles/"><span className="font-bold py-2 mx-auto flex justify-center">Voir tous les articles</span></Link>
                             </div>
                         </section>
                         <br/>
                         <Link to="/creation-site-internet-toulouse/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + CreerSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Créer un site internet</h4></section></Link>
-                        <Link to="/referencement-de-site-internet-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + RefSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Optimiser mon référencement naturel</h4></section></Link>
+                        <Link to="/referencement-toulouse/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + RefSite +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Optimiser mon référencement naturel</h4></section></Link>
                         <Link to="/agence-adwords-47-31/"><section className="sidebarlinks century uppercase" style={{background:'#000000cf url(' + AgenceAds +')', backgroundSize:'cover', backgroundPosition:'center'}}><h4>Lancer une campagne Google Ads</h4></section></Link>
                         <br/>
                         <hr className="hrblog"></hr>
-                        <Link to="/blog/category/tendances/" className="text-bleu"><h3 className="font-bold century pt-3 pb-3">Tendances</h3></Link>
+                        <Link to="/blog/tendances/" className="text-bleu"><h3 className="font-bold century pt-3 pb-3">Tendances</h3></Link>
                         <hr className="hrblog"></hr>
                         <LastPostsTendances lastposts={this.props.data.tendances.edges} />
                         <br/>
