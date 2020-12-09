@@ -145,7 +145,7 @@ class CatActus extends React.Component {
                         </section>
                         <br />
                         <Link to="/creation-site-internet-toulouse/"><section className="sidebarlinks century uppercase" style={{ background: '#000000cf url(' + CreerSite + ')', backgroundSize: 'cover', backgroundPosition: 'center' }}><h4>Créer un site internet</h4></section></Link>
-                        <Link to="/referencement-de-site-internet-47-31/"><section className="sidebarlinks century uppercase" style={{ background: '#000000cf url(' + RefSite + ')', backgroundSize: 'cover', backgroundPosition: 'center' }}><h4>Optimiser mon référencement naturel</h4></section></Link>
+                        <Link to="/referencement-toulouse/"><section className="sidebarlinks century uppercase" style={{ background: '#000000cf url(' + RefSite + ')', backgroundSize: 'cover', backgroundPosition: 'center' }}><h4>Optimiser mon référencement naturel</h4></section></Link>
                         <Link to="/agence-adwords-47-31/"><section className="sidebarlinks century uppercase" style={{ background: '#000000cf url(' + AgenceAds + ')', backgroundSize: 'cover', backgroundPosition: 'center' }}><h4>Lancer une campagne Google Ads</h4></section></Link>
                         <br />
                         <hr className="hrblog"></hr>

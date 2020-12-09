@@ -35,9 +35,9 @@ class Modals extends React.Component {
                     linkInterface={"/creation-site-internet-agen/"} />
 
                 <ModalRef
-                    linkTitle={"/referencement-de-site-internet-47-31/"}
-                    linkRefAgence={"/agence-referencement-toulouse/"}
-                    linkRef={"/referencement-de-site-internet-47-31/"} />
+                    linkTitle={"/referencement-toulouse/"}
+                    linkRefAgence={"/referencement-toulouse/"}
+                    linkRef={"/referencement-toulouse/"} />
 
                 <ModalSolu
                     linkSolution={"/creation-de-site-internet-47-31/"} />
