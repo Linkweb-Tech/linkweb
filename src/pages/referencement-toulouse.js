@@ -42,7 +42,7 @@ class ReferencementToulouse extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Référencement Toulouse / Agen - Agence Web Linkweb"
+                    title="Référencement Toulouse - Agence Web Linkweb"
                     description="Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
                     url="https://linkweb.fr/referencement-toulouse/"
@@ -237,7 +237,7 @@ class ReferencementToulouse extends React.Component {
         </section>
         <section className="bg-darkgrey sidetitle py-10">
                         <section className="w-full lg:w-2/3 flex flex-col justify-center century my-10 px-4 lg:px-32 md:mx-6 sm:mx-12 mt-2 lg:mx-64">
-                            <h2 className="century text-center lg:text-left text-white text-3xl md:text-5xl leading-none">Que fait <span className="text-bleu">notre agence</span> pour <span className="text-bleu">votre référencement</span> ?</h2>
+                            <h2 className="century text-center lg:text-left text-white text-3xl md:text-5xl leading-none">Que fait <span className="text-bleu">notre agence</span> pour <span className="text-bleu">votre référencement</span> SEO à Toulouse ?</h2>
                             <br/>
                             <div className="line-title my-4 ">
                                 <br/>

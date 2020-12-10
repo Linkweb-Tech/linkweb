@@ -49,8 +49,8 @@ class AgenceDigitaleToulouse extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Toulouse - Projets Web sur-mesure - Linkweb"
-                    description="L'agence web Linkweb déploie son offre en termes de communication web à Toulouse (31) : création de site internet, référencement naturel et ads."
+                    title="Agence Digitale Toulouse - Projets Web sur-mesure - Linkweb"
+                    description="L'agence digitale Linkweb développe votre visibilité web à Toulouse (31) : création de site internet, référencement naturel et Ads."
                     keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
                     url="https://linkweb.fr/agence-digitale-toulouse/"
                     nom="Agence Web"
@@ -91,7 +91,7 @@ class AgenceDigitaleToulouse extends React.Component {
                         </div>
                     </div>
                     <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                    <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence web Toulouse<span className="text-bleu">/</span>Agen</h1>
+                    <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Digitale Toulouse</h1>
                     </div>
                     <br/>
                     <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Refonte, création et référencement de site internet à Toulouse et Agen.</h2>
@@ -133,7 +133,7 @@ class AgenceDigitaleToulouse extends React.Component {
                     </section>   
         <section className="my-24 phototext">
                         <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                            <h2 className="century text-black leading-none">Notre agence est taillée pour<br/><span className="text-3xl md:text-5xl lg:text-6xl text-bleu font-bold">VOTRE PROJET WEB</span></h2>
+                            <h2 className="century text-black leading-none">Notre agence digitale est taillée pour<br/><span className="text-3xl md:text-5xl lg:text-6xl text-bleu font-bold">VOTRE PROJET WEB</span></h2>
                             <br/>
                             <hr className="border-solid w-1/6 border-white"></hr>
                         </section>
@@ -264,7 +264,7 @@ class AgenceDigitaleToulouse extends React.Component {
                     </section>
                     <section className="flex w-full flex-col mx-auto px-0 py-6 my-4">
                         <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                            <h2 className="text-bleu text-lg text-center century">Agence Web Toulouse</h2>
+                            <h2 className="text-bleu text-lg text-center century">Agence Digitale Toulouse</h2>
                             <br/>
                             <h3 className="century text-3xl md:text-5xl text-black leading-none">Notre créativité au service de votre efficacité</h3>
                             <br/>

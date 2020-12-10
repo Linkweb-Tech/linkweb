@@ -58,7 +58,7 @@ class CreationSiteInternetToulousePage extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création Site Internet Toulouse / Agen - Agence Web Linkweb"
+                    title="Création Site Internet Toulouse - Agence Web Linkweb"
                     description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
                     keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Création site web Agen`, `Création site web Toulouse`]}
                     url="https://linkweb.fr/creation-site-internet-toulouse/"
@@ -102,7 +102,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                         </div>
                     </div>
                     <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                    <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Création site internet Toulouse <span className="text-bleu">/</span> Agen</h1>
+                    <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Création site internet Toulouse</h1>
                     </div>
                     <br/>
                     <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence spécialisée dans le développement de sites web sur-mesure</h2>

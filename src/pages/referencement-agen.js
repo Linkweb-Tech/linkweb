@@ -42,7 +42,7 @@ class ReferencementAgen extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence SEO - Référencement Agen - Agence Web Linkweb"
+                    title="Référencement Site Internet à Agen - Agence SEO Linkweb"
                     description="Définition stratégique et mise en application pour votre projet de référencement naturel avec Linkweb, agence SEO à Agen."
                     keywords={[`Référencement Agen`, `Référencement Agen`, `Agence de Référencement Agen`, `Agence de Référencement Agen`, `Référencement Google`]}
                     url="https://linkweb.fr/referencement-agen/"
