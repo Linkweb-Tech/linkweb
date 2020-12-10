@@ -80,7 +80,7 @@ class ArborescenceSEO extends React.Component {
                                 <br/>
                                 L’<strong className="font-normal">optimisation SEO de son site internet</strong> passe avant tout par une construction interne irréprochable (de la <strong className="font-normal">définition des pages web</strong> à leur <strong className="font-normal">optimisation sémantique</strong>). Ceci est aussi, voire plus important qu’une discipline telle que le <strong className="font-normal">netlinking</strong>. C’est en ce sens que devra être déployée une <strong className="font-normal">stratégie de contenus</strong> qui va générer de la performance (<strong className="font-normal">visibilité, trafic, contacts</strong>) et permettre d’activer tous les <strong className="font-normal">leviers</strong> pour <strong className="font-normal">améliorer le référencement Google</strong> du site en question. Cela témoigne de l'importance d'une arborescence bien pensée dès le départ.<br/>
                         </p>
-                        {/*<br/>
+                        <br/>
                         <h2 className="text-3xl text-bleu font-bold">Pourquoi l’arborescence SEO doit être anticipée avant la création de son site ?</h2>
                         <br/>
                         <p>
@@ -99,7 +99,7 @@ class ArborescenceSEO extends React.Component {
                             En définitive, les problèmes liés à une arborescence non pensée pour le <strong className="font-normal">référencement naturel</strong> peuvent être nombreux. En anticipant cette problématique, vous serez en mesure de <strong className="font-normal">développer un site internet</strong> pertinent sur le long terme, mais également de dénicher les meilleures <strong className="font-normal">opportunités de mots-clés pour votre stratégie</strong>. En effet, établir sa <strong className="font-normal">stratégie SEO</strong>, c’est également <strong className="font-normal">cibler des expressions de longue traîne</strong> qui, sur la durée, pourront <strong className="font-normal">générer du trafic vers votre site web</strong> et développer son activité.<br/>
                             <br/>
                             En tant que principal vecteur d’<strong className="font-normal">acquisition de trafic</strong>, le <strong className="font-normal">référencement naturel</strong> doit être considéré avant même la <strong className="font-normal">création de votre site internet</strong> avec pour objectif de mettre en place une stratégie compatible avec vos besoins et votre activité. La <strong className="font-normal">création d’une arborescence SEO Friendly</strong> est l’une des premières étapes de votre stratégie. Au contraire, un manque d’anticipation pourrait causer des troubles ainsi que de nombreux retours en arrière pour la <strong className="font-normal">visibilité de votre site internet</strong> sur le long terme.<br/>
-                        </p>*/}
+                        </p>
                         <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Référencement Toulouse"

@@ -122,7 +122,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends React.Component {
                   <span className="text-bleu">/</span>JE CHOISIS LINKWEB POUR CRÉER MON SITE INTERNET
                 </h3>
                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                  Faites confiance à l’expertise de <strong>Linkweb</strong> dans la <strong>création de site internet</strong>. Nos <strong>consultants en <Link to="/referencement-toulouse/" className="text-bleu font-bold hover:text-black">référencement</Link> et <Link to="/creation-de-site-internet-47-31/" className="text-bleu font-bold hover:text-black">développement web</Link></strong> vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un <strong>site internet</strong> qui fonctionne.
+                  Faites confiance à l’expertise de <strong>Linkweb</strong> dans la <strong>création de site internet</strong>. Nos <strong>consultants en <Link to="/referencement-toulouse/" className="text-bleu font-bold hover:text-black">référencement</Link> et <Link to="/creation-site-internet-toulouse/" className="text-bleu font-bold hover:text-black">développement web</Link></strong> vous apportent les meilleurs solutions pour concrétiser vos projets et mettre en place un <strong>site internet</strong> qui fonctionne.
                 </div>
                 <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" />
               </section>

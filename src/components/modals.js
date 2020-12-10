@@ -30,9 +30,9 @@ class Modals extends React.Component {
             <div id="modalContainer" onClick={(e) => this.handleClick(e)}>
                 <ModalRea
                     linkTitle={"/creation-de-site-internet-a-agen/"}
-                    linkLoupe={"/creation-de-site-internet-a-agen/"}
-                    linkResponsive={"/creation-de-site-internet-47-31/"}
-                    linkInterface={"/creation-site-internet-agen/"} />
+                    linkLoupe={"/creation-site-internet-sur-mesure/"}
+                    linkResponsive={"/creation-de-site-internet-a-agen/"}
+                    linkInterface={"/creation-site-internet-vitrine/"} />
 
                 <ModalRef
                     linkTitle={"/referencement-toulouse/"}
@@ -40,7 +40,7 @@ class Modals extends React.Component {
                     linkRef={"/referencement-toulouse/"} />
 
                 <ModalSolu
-                    linkSolution={"/creation-de-site-internet-47-31/"} />
+                    linkSolutions={"/creation-site-internet-sur-mesure/"} />
 
                 <ModalAds
                     linkTitle={"/agence-adwords-47-31/"}

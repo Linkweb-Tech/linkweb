@@ -38,7 +38,7 @@ import analysis from '../images/analysis.svg';
 import contract from '../images/contract.svg';
 
 
-class AgenceWebToulouse extends React.Component {
+class AgenceDigitaleToulouse extends React.Component {
 
     constructor(props) {
         super(props);
@@ -52,9 +52,9 @@ class AgenceWebToulouse extends React.Component {
                     title="Agence Web Toulouse - Projets Web sur-mesure - Linkweb"
                     description="L'agence web Linkweb déploie son offre en termes de communication web à Toulouse (31) : création de site internet, référencement naturel et ads."
                     keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
-                    url="https://linkweb.fr/agence-web-toulouse/"
+                    url="https://linkweb.fr/agence-digitale-toulouse/"
                     nom="Agence Web"
-                    slug="agence-web-toulouse/"
+                    slug="agence-digitale-toulouse/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -121,7 +121,7 @@ class AgenceWebToulouse extends React.Component {
                         <div className="content century text-xl">
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">8</span>  développeurs web Front-End & Back-End</p>
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong> et professionnels du <strong>développement web</strong></p>
-                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/agence-referencement-toulouse/">référencement web</Link></strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
+                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/referencement-toulouse/">référencement web</Link></strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
                         </div>
                         <div className="pictures w-full flex-1 sm:hidden lg:flex xl:flex">
@@ -283,7 +283,7 @@ class AgenceWebToulouse extends React.Component {
                             <br/>
                                 Présents à <strong>Agen en Lot-et-Garonne</strong>, nous avons également développé une <strong>filiale toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, <strong>notre agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. L’agence <Link to="/" className="text-bleu hover:text-black font-bold">Linkweb</Link> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br/>
                             <br/>
-                                De part son savoir-faire et sa réactivité en tant qu’<strong>agence digitale</strong>, <strong>Linkweb</strong> met en place <strong>votre site internet</strong> grâce à des <strong>solutions de <Link to="/creation-de-site-internet-47-31/" className="text-bleu hover:text-black font-bold">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> grâce à une veille permanente liée au <strong>web marketing</strong> et autres <strong>outils digitaux</strong>. Quelle que soit la nature de votre activité, nous possédons le <strong>savoir-faire</strong> et les <strong>expertises</strong> pour vous permettre d’<strong>atteindre vos objectifs</strong>.<br/>
+                                De part son savoir-faire et sa réactivité en tant qu’<strong>agence digitale</strong>, <strong>Linkweb</strong> met en place <strong>votre site internet</strong> grâce à des <strong>solutions de <Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> grâce à une veille permanente liée au <strong>web marketing</strong> et autres <strong>outils digitaux</strong>. Quelle que soit la nature de votre activité, nous possédons le <strong>savoir-faire</strong> et les <strong>expertises</strong> pour vous permettre d’<strong>atteindre vos objectifs</strong>.<br/>
                             </p>
                         </div>
 
@@ -306,7 +306,7 @@ class AgenceWebToulouse extends React.Component {
 
                                 Présente à <strong>Agen</strong> en <strong>Lot-et-Garonne</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong><Link to="/" className="hover:text-bleu">Linkweb</Link></strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br /><br/>
 
-                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-de-site-internet-47-31/" className="hover:text-bleu">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31/" className="hover:text-bleu">référencement naturel</Link></strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
+                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong><Link to="/creation-site-internet-toulouse/" className="hover:text-bleu">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-de-site-internet-47-31/" className="hover:text-bleu">référencement naturel</Link></strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
                             </p>
                             
                         </div>
@@ -635,7 +635,7 @@ class AgenceWebToulouse extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsAgence {
+query lastsThreePostsAgenceDigitale {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -655,7 +655,7 @@ query lastsThreePostsAgence {
   
     
 `
-export default AgenceWebToulouse;
+export default AgenceDigitaleToulouse;
 
 
 

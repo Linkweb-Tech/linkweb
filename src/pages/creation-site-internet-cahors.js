@@ -110,7 +110,7 @@ class CreationSiteInternetCahors extends React.Component {
                                 <br />
                                 <div className="w-2/3 mx-auto block">
                                     <br />
-                                    <ButtonBlog url="/creation-site-internet-agen/" text="Création de site vitrine" color="bleu" />
+                                    <ButtonBlog url="/creation-site-internet-vitrine/" text="Création de site vitrine" color="bleu" />
                                 </div>
                             </div>
                             <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{background:'#00cfffe0 url( '+ blocBg +')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
@@ -146,7 +146,7 @@ class CreationSiteInternetCahors extends React.Component {
                                 <div className="w-2/3 mx-auto block">
                                     <br />
                                     
-                                    <ButtonBlog url="/creation-de-site-internet-47-31/" text="Créer un site internet sur-mesure" color="bleu" />
+                                    <ButtonBlog url="/creation-site-internet-sur-mesure/" text="Créer un site internet sur-mesure" color="bleu" />
                                 </div>
                             </div>
                         </section>
@@ -464,7 +464,7 @@ class CreationSiteInternetCahors extends React.Component {
                                     </g>
                                 </g> 
                             </svg>
-                                <Link to="/creation-site-internet-agen/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
+                                <Link to="/creation-site-internet-vitrine/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="400"*/>
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
@@ -523,7 +523,7 @@ class CreationSiteInternetCahors extends React.Component {
                                         </g>
                                     </g> 
                                 </svg>
-                                <Link to="/creation-de-site-internet-47-31/"><p className="text-xl century text-white pt-3">SITE SUR-MESURE</p></Link>
+                                <Link to="/creation-site-internet-sur-mesure/"><p className="text-xl century text-white pt-3">SITE SUR-MESURE</p></Link>
                             </div>
                         </div>
                     </section>

@@ -102,7 +102,7 @@ class CreationSiteInternetColomiersPage extends React.Component {
                         <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfffe0 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET VITRINE</h3>
                             <p>Mettre en avant vos prestations, activités, et même votre structure va vous permettra de <strong>booster votre communication</strong>. Le <strong>site internet vitrine</strong> est idéal pour les <strong>TPE/PME</strong> souhaitant faire découvrir leur activité et leurs prestations afin de toucher des consommateurs proches de chez eux. </p>
-                            <RoundButton color="darkgrey" url="/creation-site-internet-agen/" text="Création de site vitrine" />
+                            <RoundButton color="darkgrey" url="/creation-site-internet-vitrine/" text="Création de site vitrine" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET E-COMMERCE</h3>
@@ -112,7 +112,7 @@ class CreationSiteInternetColomiersPage extends React.Component {
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET SUR-MESURE</h3>
                             <p>La mise en place de <strong>fonctionnalités spécifiques</strong> passe par la <strong>création d'un site internet sur-mesure</strong>. Ce dernier s'adapte inévitablement à vos besoins, qu'il s'agisse d'<strong>optimiser l'organisation de votre structure</strong> ou de fabriquer un outil destiné à votre clientèle et à vos utilisateurs.</p>
-                            <RoundButton color="darkgrey" url="/creation-de-site-internet-47-31/" text="Créer un site internet sur-mesure" />
+                            <RoundButton color="darkgrey" url="/creation-site-internet-sur-mesure/" text="Créer un site internet sur-mesure" />
                         </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 py-6 my-4">
@@ -405,7 +405,7 @@ class CreationSiteInternetColomiersPage extends React.Component {
                                     </g>
                                 </g> 
                             </svg>
-                                <Link to="/creation-site-internet-agen/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
+                                <Link to="/creation-site-internet-vitrine/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="400"*/>
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
@@ -464,7 +464,7 @@ class CreationSiteInternetColomiersPage extends React.Component {
                                         </g>
                                     </g> 
                                 </svg>
-                                <Link to="/creation-de-site-internet-47-31/"><p className="text-xl century text-white pt-3">SITE SUR-MESURE</p></Link>
+                                <Link to="/creation-site-internet-sur-mesure/"><p className="text-xl century text-white pt-3">SITE SUR-MESURE</p></Link>
                             </div>
                         </div>
                     </section>

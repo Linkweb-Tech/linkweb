@@ -155,7 +155,7 @@ class Header extends React.Component {
             >
               <div className="text-xs pr-0 menu flex flex-col md:flex-row md:pr-5">
                 <nav itemProp="WebPageElement" itemScope="itemscope" itemType="http://schema.org/SiteNavigationElement">
-                <Link
+                {/*<Link
                   itemProp="url"
                   title="Accueil"
                   to="/"
@@ -164,7 +164,7 @@ class Header extends React.Component {
                 >
                   Accueil
                 </Link>
-    
+                */}
                 <Link
                   itemProp="url"
                   title="Création de site internet"
@@ -186,12 +186,21 @@ class Header extends React.Component {
                 </Link>
                 <Link
                   itemProp="url"
+                  title="Adwords"
+                  to="/agence-adwords-47-31/"
+                  activeClassName="active"
+                  className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
+                >
+                  Adwords
+                </Link>
+                <Link
+                  itemProp="url"
                   title="Agence Web"
-                  to="/agence-web-toulouse/"
+                  to="/agence-digitale-toulouse/"
                   activeClassName="active"
                   className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
-                  Agence Web
+                  Agence Digitale
                 </Link>
                 <Link
                   itemProp="url"

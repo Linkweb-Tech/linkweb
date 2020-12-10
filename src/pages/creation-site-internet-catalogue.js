@@ -575,7 +575,7 @@ class CreationSiteInternetCatalogue extends React.Component {
                                 <div label="J'AI UN BESOIN PARTICULIER, EST-CE POSSIBLE D'ADAPTER UN SITE CATALOGUE ?">
                                 <p><strong>Avoir un site internet</strong> permet la mise en place de nombreuses fonctionnalités favorisant l’<strong>expérience utilisateur</strong>. En termes d’évolutivité, le <span className="font-bold"><strong>site internet catalogue</strong>n’échappe pas à la règle</span>. 
                                     <br/><br/>
-                                    En effet, il est tout à fait possible de mettre en place des fonctionnalités spécifiques dans le cadre d’une <Link to="/creation-de-site-internet-47-31/" className="text-bleu hover:text-black"><strong>création de site web sur-mesure</strong></Link>.
+                                    En effet, il est tout à fait possible de mettre en place des fonctionnalités spécifiques dans le cadre d’une <Link to="/creation-site-internet-sur-mesure/" className="text-bleu hover:text-black"><strong>création de site web sur-mesure</strong></Link>.
                                     <br/><br/>
                                     Que ce soit au niveau de l’<strong>éditeur du site</strong>, de la mise en place d’un <strong>module de recherche</strong> ou bien d’un <strong>simulateur de devis</strong> par exemple, le <strong>site catalogue</strong> permet l’ajout de ce type d’outils. Pour <strong>créer son site internet professionnel</strong>, il est important d’<span className="font-bold">anticiper l’évolution de son <strong>projet web</strong> dans le temps</span>.
                                     <br/><br/>
@@ -607,7 +607,7 @@ class CreationSiteInternetCatalogue extends React.Component {
                                 <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{borderRadius:'5px'}}>
-                                <Link to="/agence-web-toulouse/">Agence Web</Link>
+                                <Link to="/agence-digitale-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>

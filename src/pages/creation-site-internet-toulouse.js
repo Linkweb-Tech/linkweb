@@ -348,8 +348,8 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <br />
                                     <div className="w-2/3 mx-auto block">
                                         <br />
-                                        {/*<ButtonPage url="/creation-site-internet-agen/" text="SÉLECTIONNER" color="bleu" />*/}
-                                        <RoundButton url="/creation-site-internet-agen/" color="bleu" colortext="black" text="SÉLECTIONNER" />
+                                        {/*<ButtonPage url="/creation-site-internet-vitrine/" text="SÉLECTIONNER" color="bleu" />*/}
+                                        <RoundButton url="/creation-site-internet-vitrine/" color="bleu" colortext="black" text="SÉLECTIONNER" />
                                     </div>
                                 </div>
                                 <div className="blocliens w-full lg:w-1/2 xl:w-6/12 my-4 border mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{border:'2px solid #ffffff' }}>
@@ -471,8 +471,8 @@ class CreationSiteInternetToulousePage extends React.Component {
                                     <div className="w-2/3 mx-auto block">
                                         <br />
                                         
-                                        {/*<ButtonPage url="/creation-de-site-internet-47-31/" text="SÉLECTIONNER" color="bleu" />*/}
-                                        <RoundButton url="/creation-de-site-internet-47-31/" color="bleu" colortext="black" text="SÉLECTIONNER" />
+                                        {/*<ButtonPage url="/creation-site-internet-sur-mesure/" text="SÉLECTIONNER" color="bleu" />*/}
+                                        <RoundButton url="/creation-site-internet-sur-mesure" color="bleu" colortext="black" text="SÉLECTIONNER" />
                                     </div>
                                 </div>
                             </section>

@@ -20,7 +20,7 @@ import imac from "../images/creation-site-vitrine.jpg";
 import bgDev from '../images/cta-background-agence-web.jpg';
 
 
-class CreationSiteInternetVitrine extends React.Component {
+class CreationSiteVitrine extends React.Component {
 
     constructor(props){
         super(props);
@@ -34,9 +34,9 @@ class CreationSiteInternetVitrine extends React.Component {
                     title="Création site internet vitrine à Agen (47) et Toulouse (31) - Linkweb"
                     description="Linkweb est spécialisée dans la création de site internet : nous mettons en place votre projet de site vitrine pour vous permettre de gagner en visibilité."
                     keywords={[`Création site internet vitrine Agen`, `Création site internet vitrine Toulouse`, `Création site internet Lot-et-Garonne`, `Création site web 47`]}
-                    url="https://linkweb.fr/creation-site-internet-agen/"
+                    url="https://linkweb.fr/creation-site-internet-vitrine/"
                     nom="Création de site vitrine"
-                    slug="creation-site-internet-agen/"
+                    slug="creation-site-internet-vitrine/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{
@@ -75,9 +75,9 @@ class CreationSiteInternetVitrine extends React.Component {
                         <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px', minHeight:'48px'}}>
-                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creation-site-internet-agen/" text="Site vitrine" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creation-site-internet-vitrine/" text="Site vitrine" position="center" /></div>
                             <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creer-une-boutique-en-ligne/" text="E-commerce" position="center" /></div>
-                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-sur-mesure/" text="Site sur-mesure" position="center" /></div>
                         </section>
                     </section> */}
                     <SousMenu active="a"/>
@@ -567,7 +567,7 @@ class CreationSiteInternetVitrine extends React.Component {
                                 <p>Le <strong>site internet vitrine</strong> est parfait pour répondre à des <span className="font-bold">objectifs commerciaux</span>, tels qu’obtenir de <strong>nouveaux contacts</strong> en vue de les convertir des clients, ou bien à des <span className="font-bold">objectifs d’image</span>. <br/><br/>Il va permettre de <strong>développer des contenus</strong> au sujet de la présentation de vos services, de votre manière de travailler, de l’histoire de votre entreprise et bien plus encore. <br/><br/>Également, <span className="font-bold">le site vitrine va vous permettre d’<strong>améliorer votre positionnement</strong> sur les <strong>moteurs de recherche</strong></span> grâce à une optimisation technique et à la <strong>création de contenu de qualité</strong>. Enfin, il vous donne la possibilité de <span className="font-bold">vous affirmer comme un expert dans votre secteur d’activité</span> pour donner confiance aux utilisateurs qui visiteront votre <strong>site internet</strong>.</p>
                                 </div>
                                 <div label="J'AI UN BESOIN PARTICULIER, EST-CE POSSIBLE D'ADAPTER UN SITE VITRINE ?">
-                                <p><span className="font-bold">Bien sûr ! Sur un <strong>site internet</strong>, tout est possible.</span> <br/><br/>En effet, ajouter des fonctionnalités à destination des utilisateurs, ou bien en vue d’optimiser la gestion de votre entreprise via un <strong>outil numérique</strong>, se traduit par de nombreuses possibilités en termes de réalisation technique. <br/><br/>Pour cela, nous vous invitons à vous rediriger vers notre <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-de-site-internet-47-31/">page sur la création de site internet sur-mesure</Link></strong> pour obtenir plus d’informations à ce propos. En fonction de vos besoins et des spécificités de votre projet, nous déterminerons tout ce qui va être nécessaire pour vous permettre d’accéder à un site qui vous ressemble et qui sera utile pour votre entreprise.</p>
+                                <p><span className="font-bold">Bien sûr ! Sur un <strong>site internet</strong>, tout est possible.</span> <br/><br/>En effet, ajouter des fonctionnalités à destination des utilisateurs, ou bien en vue d’optimiser la gestion de votre entreprise via un <strong>outil numérique</strong>, se traduit par de nombreuses possibilités en termes de réalisation technique. <br/><br/>Pour cela, nous vous invitons à vous rediriger vers notre <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-sur-mesure/">page sur la création de site internet sur-mesure</Link></strong> pour obtenir plus d’informations à ce propos. En fonction de vos besoins et des spécificités de votre projet, nous déterminerons tout ce qui va être nécessaire pour vous permettre d’accéder à un site qui vous ressemble et qui sera utile pour votre entreprise.</p>
                                 </div>
                             </Accordion>
                         </div>
@@ -595,7 +595,7 @@ class CreationSiteInternetVitrine extends React.Component {
                                 <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{borderRadius:'5px'}}>
-                                <Link to="/agence-web-toulouse/">Agence Web</Link>
+                                <Link to="/agence-digitale-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
@@ -611,7 +611,7 @@ class CreationSiteInternetVitrine extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsCreationSiteInternetVitrine {
+query lastsThreePostsCreationSiteVitrine {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -631,7 +631,7 @@ query lastsThreePostsCreationSiteInternetVitrine {
   
     
 `
-export default CreationSiteInternetVitrine;
+export default CreationSiteVitrine;
 
 
 

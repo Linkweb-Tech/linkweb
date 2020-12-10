@@ -18,7 +18,7 @@ import imac from "../images/creation-site-sur-mesure.jpg";
 import bgDev from '../images/cta-background-agence-web.jpg';
 
 
-class CreationSiteSurMesure extends React.Component {
+class CreationSiteInternetSurMesure extends React.Component {
 
     constructor(props){
         super(props);
@@ -32,9 +32,9 @@ class CreationSiteSurMesure extends React.Component {
                     title="Création Site Internet sur mesure à Agen (47) et Toulouse (31) - Linkweb"
                     description="Vous souhaitez développer un projet sur-mesure ? Linkweb crée le site web de vos envies ! Définissez un projet, nous vous apportons une solution concrète."
                     keywords={[`Création site internet sur-mesure Agen`, `Création site internet sur-mesure Toulouse`, `Créer un site internet sur-mesure`, `Développement solution web`]}
-                    url="https://linkweb.fr/creation-de-site-internet-47-31/"
+                    url="https://linkweb.fr/creation-site-internet-sur-mesure/"
                     nom="Site sur-mesure"
-                    slug="creation-de-site-internet-47-31/"
+                    slug="creation-site-internet-sur-mesure/"
                 /> 
                 {/* <PageTransition
                     defaultStyle={{
@@ -407,7 +407,7 @@ class CreationSiteSurMesure extends React.Component {
                                 <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
-                                <Link to="/agence-web-toulouse/">Agence Web</Link>
+                                <Link to="/agence-digitale-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
@@ -423,7 +423,7 @@ class CreationSiteSurMesure extends React.Component {
 
 
 export const query = graphql`
-query lastsThreePostsCreationSiteSurMesure {
+query lastsThreePostsCreationSiteInternetSurMesure {
     allWordpressPost(limit: 3) {
       edges {
         node {
@@ -443,7 +443,7 @@ query lastsThreePostsCreationSiteSurMesure {
   
     
 `
-export default CreationSiteSurMesure;
+export default CreationSiteInternetSurMesure;
 
 
 

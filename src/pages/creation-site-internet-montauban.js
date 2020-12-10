@@ -101,7 +101,7 @@ class CreationSiteInternetMontaubanPage extends React.Component {
                         <div className=" font-bold	w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00cfffe0 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET VITRINE</h3>
                             <p><strong className="font-normal">Dynamiser la communication de son entreprise</strong> à travers la <strong className="font-normal">création d’un site internet vitrine</strong> est déterminant pour les TPE et PME. En effet, <strong className="font-normal">créer un site internet</strong> va permettre d’apporter de la visibilité destinée à <strong className="font-normal">attirer de nouveaux acquéreurs</strong> dans des secteurs géographiques pertinents pour vous.</p>
-                            <RoundButton color="darkgrey" url="/creation-site-internet-agen/" text="Création de site vitrine" />
+                            <RoundButton color="darkgrey" url="/creation-site-internet-vitrine/" text="Création de site vitrine" />
                         </div>
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#009991 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET E-COMMERCE</h3>
@@ -111,7 +111,7 @@ class CreationSiteInternetMontaubanPage extends React.Component {
                         <div className="font-bold w-full md:w-1/3 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white" style={{background:'#00b1e2 url( '+ blocBg +')', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
                             <h3 className="text-xl pb-6" >CRÉATION DE SITE INTERNET SUR-MESURE</h3>
                             <p>Mettre en place un <strong className="font-normal">site web multifonctions</strong> : possibilité de réservation, simulateur, configurateur et plus encore. <strong className="font-normal">Créer un site internet sur-mesure</strong>, c’est aussi faire le choix d’optimiser votre organisation interne grâce à un <strong className="font-normal">outil de type intranet</strong>.</p>
-                            <RoundButton color="darkgrey" url="/creation-de-site-internet-47-31/" text="Créer un site internet sur-mesure" />
+                            <RoundButton color="darkgrey" url="/creation-site-internet-sur-mesure/" text="Créer un site internet sur-mesure" />
                         </div>
                     </section>
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-4 py-6 my-4">
@@ -402,7 +402,7 @@ class CreationSiteInternetMontaubanPage extends React.Component {
                                     </g>
                                 </g> 
                             </svg>
-                                <Link to="/creation-site-internet-agen/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
+                                <Link to="/creation-site-internet-vitrine/"><p className="text-xl text-white century pt-3">SITE INTERNET VITRINE</p></Link>
                             </div>
                             <div className="w-full my-6 sm:w-1/3 px-12 flex flex-col items-center justify-center" /*data-aos='zoom-in' data-aos-delay="400"*/>
                                 <svg  x="0px" y="0px" viewBox="0 0 512 512"  width="80px" height="80px">
@@ -461,7 +461,7 @@ class CreationSiteInternetMontaubanPage extends React.Component {
                                         </g>
                                     </g> 
                                 </svg>
-                                <Link to="/creation-de-site-internet-47-31/"><p className="text-xl century text-white pt-3">SITE SUR-MESURE</p></Link>
+                                <Link to="/creation-site-internet-sur-mesure/"><p className="text-xl century text-white pt-3">SITE SUR-MESURE</p></Link>
                             </div>
                         </div>
                     </section>

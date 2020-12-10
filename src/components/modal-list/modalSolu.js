@@ -27,7 +27,7 @@ class ModalSolu extends React.Component {
                         <p /*data-aos='fade-bottom'*/ className="century text-justify text-sm lg:text-md">
                             Nos <strong>concepteurs de sites internet</strong> analysent vos besoins pour vous proposer une solution pertinente pour vous et vos utilisateurs. Du <strong>simulateur de devis</strong> au <strong>configurateur de produits</strong>, nous <strong>créons des sites web sur-mesure</strong> pour vous apporter une plus-value par rapport à vos concurrents grâce à <strong>votre site internet</strong>.
                             </p>
-                        <Button url={this.props.solutions} text="En savoir plus sur les solutions web sur-mesure" position="start" />
+                        <Button url={this.props.linkSolutions} text="En savoir plus sur les solutions web sur-mesure" position="start" />
                         <a class="popup__close" href="#x">X</a>
                     </div>
                 </div>

@@ -75,9 +75,9 @@ class CreerBoutiqueEnLigne extends React.Component {
                         <div className="w-full md:w-1/2 p-1 text-left mt-0 hidden md:block"><Link className="hover:text-bleu" to="/creation-site-internet-toulouse/">Retour</Link></div>
                         </section>
                         <section className="w-full lg:w-2/5 flex bg-darkgrey text-xs sm:text-sm md:text-md" style={{borderBottomLeftRadius:'27px', minHeight:'48px'}}>
-                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-agen/" text="Site vitrine" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-vitrine/" text="Site vitrine" position="center" /></div>
                             <div className="w-full lg:w-1/3 text-bleu p-1"><ButtonMenu url="/creer-une-boutique-en-ligne/" text="E-commerce" position="center" /></div>
-                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-de-site-internet-47-31/" text="Site sur-mesure" position="center" /></div>
+                            <div className="w-full lg:w-1/3 text-white p-1"><ButtonMenu url="/creation-site-internet-sur-mesure/" text="Site sur-mesure" position="center" /></div>
                         </section>
                     </section> */}
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
@@ -601,7 +601,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <Link to="/referencement-toulouse/">Référencement</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
-                                <Link to="/agence-web-toulouse/">Agence Web</Link>
+                                <Link to="/agence-digitale-toulouse/">Agence Web</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 text-white font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>

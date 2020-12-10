@@ -234,7 +234,7 @@ render() {
 
                             <p>Tout son intérêt dépend de la mise en place d’un outil fonctionnel présentant l’ensemble des informations nécessaires tout en donnant la possibilité d’être contacté. Le <strong>site internet vitrine</strong> est notamment utilisé pour la <strong>création de site internet institutionnel</strong> ou encore pour la <strong>création d’un site internet</strong> pour une entreprise artisanale par exemple.</p>
 
-                            <Link className="text-black font-bold hover:text-bleu" to="../creation-site-internet-agen/">>> En savoir plus sur le site internet vitrine</Link>
+                            <Link className="text-black font-bold hover:text-bleu" to="../creation-site-internet-vitrine/">>> En savoir plus sur le site internet vitrine</Link>
                             <br/>
                             <hr style={{width:'100%'}}/>
                             <br/>

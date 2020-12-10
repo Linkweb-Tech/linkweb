@@ -444,7 +444,7 @@ class ReferencementAds extends React.Component {
                                 <Link to="/creation-site-internet-toulouse/">Création site internet</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
-                                <Link to="/agence-web-toulouse/">Agence Web</Link>
+                                <Link to="/agence-digitale-toulouse/">Agence Digitale</Link>
                             </div>
                             <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 text-white mr-5 p-2 font-bold" style={{borderRadius:'5px'}}>
                                 <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
