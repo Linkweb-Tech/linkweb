@@ -85,7 +85,7 @@ class ContactAgenceWebToulouse extends React.Component {
                     </section>
                     <section className="phototext">
                         <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                            <h2 className="century text-black leading-none">Nous contacter</h2>
+                            <h2 className="century text-3xl md:text-5xl text-black leading-none">Nous contacter</h2>
                             <br/>
                             <hr className="border-solid w-1/6 border-white"></hr>
                             <br/>
@@ -95,12 +95,14 @@ class ContactAgenceWebToulouse extends React.Component {
                     </section>
                     
                     <ContactForm /> 
-                    <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 mb-16 mt-2">
-                        <h3 data-aos='fade-right' className="text-center text-3xl century">
-                            Notre agence est taillée pour <span className="text-bleu">votre projet web</span>
-                        </h3>
-                        <hr className="blue"></hr>
+                    <section className="phototext">
+                        <section className="max-w-5xl text-center w-full mx-auto px-4 pt-12 pb-0 mb-16 mt-2">
+                            <h3 data-aos='fade-right' className="century text-black leading-none">
+                                Notre agence est taillée pour <br/><span className="text-3xl md:text-5xl lg:text-6xl text-bleu font-bold">VOTRE PROJET WEB</span>
+                            </h3>
+                            <hr className="border-solid w-1/6 border-white"></hr>
 
+                        </section>
                     </section>
                     {/* Espace Pictos */}
                     <section className="w-full flex items-center flex-col text-center font-bold century">
