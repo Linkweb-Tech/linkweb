@@ -462,7 +462,24 @@ class ReferencementAgen extends React.Component {
                             </Accordion>
                         </div>
                     </section>
-                    
+                    <section className="w-full bg-black flex flex-col md:flex-row">
+                      <div className="w-full order-last md:order-first md:w-1/4 bg-bleu bordbloc text-white flex flex-col items-center justify-center mx-auto">
+                        <span className="my-10"><a href="tel:0533950030" className="text-center text-xl lg:text-3xl xl:text-5xl century"><span className="text-2xl lg:text-6xl font-bold">/</span> 05 33 95 00 30</a></span>
+                      </div>
+                      <div className="w-full order-first md:order-last md:w-3/4 my-6 text-white p-6 lg:px-24">
+                          <h2 className="century text-center md:text-right text-2xl lg:text-3xl xl:text-4xl tracking-wider pb-3 leading-tight">Vous souhaitez développer votre référencement à Toulouse ?</h2>
+                        <br/>
+                        <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0"/>
+                        <br/>
+                        <div className="flex items-end my-10 justify-end flex-col">
+                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Linkweb conduit votre projet <strong>de référencement à Toulouse en Haute-Garonne</strong>, de la définition de votre stratégie jusqu'à sa mise en place. Notre équipe vous accompagne durant chaque étape de votre projet pour répondre à vos objectifs.</p>
+                            <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
+                                <RoundButton url="/referencement-toulouse/" color="darkgrey" text="RÉFÉRENCEMENT À TOULOUSE" />
+                            </div>
+                        </div>
+                        
+                      </div>
+                    </section>
                     {/*<section className="max-w-5xl w-full mx-auto px-4 pt-4 pb-0 mt-2">
                         <h2 /*data-aos='fade-right' className="text-center text-3xl century">
                         Agence SEO à Toulouse : la marque de Linkweb
