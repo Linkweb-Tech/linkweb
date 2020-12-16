@@ -123,6 +123,53 @@
                 }
             }            
         }
+
+        .adwords {
+            .blue {
+                color: #4284f7;
+                transition: all ease 1s;
+            }
+            
+            .red {
+                color: #ed4239;
+                transition: all ease 1s;
+            }
+
+            .yellow {
+                color: #ffbd06;
+                transition: all ease 1s;
+            }
+
+            .green {
+                color: #31ae53;
+                transition: all ease 1s;
+            }
+
+            &:hover {
+               .blue {
+                    color: #ffbd06;
+                    transition: all ease 1s;
+                }
+                
+                .red {
+                    
+                    color: #31ae53;
+                    transition: all ease 1s;
+                }
+
+                .yellow {
+                    
+                    color: #ed4239;
+                    transition: all ease 1s;
+                }
+
+                .green {
+                    
+                    color: #4284f7;
+                    transition: all ease 1s;
+                } 
+            }
+        }
     }
 
     .burger {
