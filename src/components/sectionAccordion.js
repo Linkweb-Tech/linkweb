@@ -7,20 +7,21 @@ class SectionAccordion extends Component {
     children: PropTypes.instanceOf(Object).isRequired,
     isOpen: PropTypes.bool.isRequired,
     label: PropTypes.string.isRequired,
-    onClick: PropTypes.func.isRequired
-    
+    onClick: PropTypes.func.isRequired,
+    isFirst: PropTypes.bool.isRequired
   };
+
 
   onClick = () => {
     this.props.onClick(this.props.label);
   };
 
   render() {
-    const { onClick, props: { isOpen, label } } = this;
+    const { onClick, props: { isOpen, label, isFirst } } = this;
 
     return (
       <div
-        className="tab relative text-white century text-2xl tracking-wider my-6"
+        className={"tab relative text-white century text-2xl tracking-wider my-6" + (isFirst?" first":"")} //ajoute une classe si il s'agit du premier block
         style={{
           background: isOpen ? "#3e3e3e" : "#3e3e3e",
           padding: "0px"

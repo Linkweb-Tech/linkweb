@@ -8,7 +8,7 @@
         left: 10px;
         svg {
             transform: rotate(0deg);
-            transition: all ease 800ms;
+            transition: 0.3s;
             width: 20px;
             height: 20px;
             polygon {
@@ -18,7 +18,7 @@
         &.open {
             svg {
                 transform: rotate(45deg);
-                transition: all ease 800ms;
+                transition: 0.5s;
                 width: 20px;
                 height: 20px;
                 polygon {
@@ -30,18 +30,37 @@
 
     .content {
         opacity: 0;
-        max-height: 0px;
+        height: 0;
         //transform: scaleY(0);
-        transition: transform ease 800ms, max-height ease  400ms, transform ease 600ms, opacity ease 300ms;
+        transition: 0.5s;
         &.open {
             // visibility: visible;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            max-height: 100%;
+            height: 450px;
             //transform: scaleY(1);
             opacity: 1;
-            
-            transition: transform ease 800ms, max-height ease 600ms, transform ease 600ms, opacity ease 600ms;
+            transition: 0.5s;
+        }
+        @media (max-width: 650px) {
+            &.open {
+                height: 1000px;
+            }
+        }
+        @media (max-width: 1450px) {
+            &.open {
+                height: 500px;
+            }
+        }
+    }
+    @media (max-width: 650px) {
+        .first .open {
+            height: 1400px!important;
+        }
+    }
+    @media (max-width: 1450px) {
+        .first .open {
+            height: 800px!important;
         }
     }
 

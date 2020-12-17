@@ -56,14 +56,15 @@ class Accordion extends Component {
       props: { children },
       state: { openSections },
     } = this;
-
+    console.log(children)
     return (
       <div className="w-full pl-12 accordion">
-        {children.map(child => (
+        {children.map((child,key) => (
           <SectionAccordion
             isOpen={!!openSections[child.props.label]}
             label={child.props.label}
             onClick={onClick}
+            isFirst={key === 0} //Signale qu'il s'agit du premier conteneur (plus grande hauteur pour le responsive)
           >
             {child.props.children}
           </SectionAccordion>
