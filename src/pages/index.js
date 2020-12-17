@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import posed from 'react-pose';
+
 import Layout from "../components/layout";
 import Button from "../components/button";
 import SEO from "../components/seo";
@@ -21,7 +21,7 @@ import besoins from '../images/besoins.jpg';
 import RoundButton from "../components/roundButton";
 import ButtonBlog from "../components/buttonblog";
 import Accordion from "../components/accordion";
-import PageTransition from "gatsby-plugin-page-transitions";
+// import PageTransition from "gatsby-plugin-page-transitions";
 import "../scss/heroa.scss";
 import "../scss/home1.scss";
 import '../scss/blogposts.scss';

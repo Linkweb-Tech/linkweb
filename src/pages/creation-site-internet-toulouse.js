@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
-import PageTransition from "gatsby-plugin-page-transitions";
-import posed from 'react-pose';
+// import PageTransition from "gatsby-plugin-page-transitions";
+
 import RoundButtonPages from "../components/roundButtonPages";
 import RoundButtonPagesMail from "../components/roundButtonPagesMail";
 import RoundButton from "../components/roundButton";

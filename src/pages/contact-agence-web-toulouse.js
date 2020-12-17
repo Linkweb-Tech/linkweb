@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
-import posed from 'react-pose';
+
 import Layout from "../components/layout";
 import Button from "../components/button";
 import RoundButton from "../components/roundButton";
-import PageTransition from "gatsby-plugin-page-transitions";
+// import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";
 import RoundButtonPages from "../components/roundButtonPages";
 import RoundButtonPagesMail from "../components/roundButtonPagesMail";

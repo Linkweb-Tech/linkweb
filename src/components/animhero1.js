@@ -1,120 +1,120 @@
 import React from "react";
-import posed from "react-pose";
+
 import RoundButtonAccueil from "../components/roundButtonAccueil";
 import RoundButtonAccueilMail from "../components/roundButtonAccueilMail";
 
 import Test from "../images/motiontest.svg";
 
-const Orbs = posed.div({
-    open: { 
-        staggerChildren: 150, 
-    },
-    closed: {}
-});
-const Blue = posed.span({
-    open: { 
-        y: 0, 
-        opacity: 1,
-        transition: {
-            duration: 300,
-            ease: 'linear'
-        }
-    },
-    closed: { 
-        y: 700, 
-        opacity: 1,
-        transition: {
-            duration: 300,
-            ease: 'linear'
-        }
-    },
-    initialPose: 'closed'
-});
+// const Orbs = posed.div({
+//     open: { 
+//         staggerChildren: 150, 
+//     },
+//     closed: {}
+// });
+// const Blue = posed.span({
+//     open: { 
+//         y: 0, 
+//         opacity: 1,
+//         transition: {
+//             duration: 300,
+//             ease: 'linear'
+//         }
+//     },
+//     closed: { 
+//         y: 700, 
+//         opacity: 1,
+//         transition: {
+//             duration: 300,
+//             ease: 'linear'
+//         }
+//     },
+//     initialPose: 'closed'
+// });
 
-const Top = posed.span({
-    open: { 
-        y: 0, 
-        opacity: 1, 
-        transition: {
-            duration: 400,
-            ease: 'linear'
-          }
+// const Top = posed.span({
+//     open: { 
+//         y: 0, 
+//         opacity: 1, 
+//         transition: {
+//             duration: 400,
+//             ease: 'linear'
+//           }
         
-    },
-    closed: { 
-        y: -600, 
-        opacity: 1,
-        transition: {
-            duration: 400,
-            ease: 'linear'
-        }
-    },
-    initialPose: 'closed'
-});
+//     },
+//     closed: { 
+//         y: -600, 
+//         opacity: 1,
+//         transition: {
+//             duration: 400,
+//             ease: 'linear'
+//         }
+//     },
+//     initialPose: 'closed'
+// });
 
-const BigTitle = posed.h1({
-    open: { 
-        x: 0, 
-        delay: 1300,
-        opacity: 1, 
-        transition: {
-            duration: 400,
-            ease: 'linear'
-          }
+// const BigTitle = posed.h1({
+//     open: { 
+//         x: 0, 
+//         delay: 1300,
+//         opacity: 1, 
+//         transition: {
+//             duration: 400,
+//             ease: 'linear'
+//           }
         
-    },
-    closed: { 
-        x: -1100, 
-        opacity: 1,
-        transition: {
-            duration: 400,
-            ease: 'linear'
-        }
-    },
-    initialPose: 'closed'
-});
-const Note = posed.h3({
-    open: { 
-        y: 0, 
-        delay: 1300,
-        opacity: 1, 
-        transition: {
-            duration: 400,
-            ease: 'linear'
-          }
+//     },
+//     closed: { 
+//         x: -1100, 
+//         opacity: 1,
+//         transition: {
+//             duration: 400,
+//             ease: 'linear'
+//         }
+//     },
+//     initialPose: 'closed'
+// });
+// const Note = posed.h3({
+//     open: { 
+//         y: 0, 
+//         delay: 1300,
+//         opacity: 1, 
+//         transition: {
+//             duration: 400,
+//             ease: 'linear'
+//           }
         
-    },
-    closed: { 
-        y: -700, 
-        opacity: 1,
-        transition: {
-            duration: 400,
-            ease: 'linear'
-        }
-    },
-    initialPose: 'closed'
-});
-const SmallTitle = posed.h2({
-    open: { 
-        x: 0, 
-        opacity: 1, 
-        delay: 1500,
-        transition: {
-            duration: 800,
-            ease: 'linear'
-          }
+//     },
+//     closed: { 
+//         y: -700, 
+//         opacity: 1,
+//         transition: {
+//             duration: 400,
+//             ease: 'linear'
+//         }
+//     },
+//     initialPose: 'closed'
+// });
+// const SmallTitle = posed.h2({
+//     open: { 
+//         x: 0, 
+//         opacity: 1, 
+//         delay: 1500,
+//         transition: {
+//             duration: 800,
+//             ease: 'linear'
+//           }
         
-    },
-    closed: { 
-        x: 900, 
-        opacity: 1,
-        transition: {
-            duration: 800,
-            ease: 'linear'
-        }
-    },
-    initialPose: 'closed'
-});
+//     },
+//     closed: { 
+//         x: 900, 
+//         opacity: 1,
+//         transition: {
+//             duration: 800,
+//             ease: 'linear'
+//         }
+//     },
+//     initialPose: 'closed'
+// });
 
 
 
@@ -145,7 +145,7 @@ class Hero1 extends React.Component {
         <section className="hero flex items-center justify-center flex-col">
             <div className="max-w-6xl mt-32 mx-auto lg:ml-56 xl:mx-56 w-full flex-col items-end">
                 <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start" /*data-aos="fade-in" data-aos-delay="2200"*/>
-                    <Note className="w-1/3 text-3xl text-center font-bold text-white century">4,5/5</Note>
+                    <h3 className="w-1/3 text-3xl text-center font-bold text-white century">4,5/5</h3>
                     <p className="w-1/3 text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
                     <div className="w-1/3 -mt-8">
                         <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
@@ -157,17 +157,17 @@ class Hero1 extends React.Component {
                         </svg>                    
                     </div>
                 </div>
-                <Orbs className="orbs flex flex-1 justify-center lg:justify-start" /*pose={this.state.isOpen ? 'open' : 'closed'}*/> 
-                    <Top className="top text-white century" >l</Top> 
-                    <Top className="top text-white century" >i</Top> 
-                    <Top className="top text-white century" >n</Top> 
-                    <Top className="top text-white century" >k</Top> 
-                    <Blue className="blue text-bleu" >/</Blue> 
-                    <Top className="top text-white century" >w</Top> 
-                    <Top className="top text-white century" >e</Top> 
-                    <Top className="top text-white century" >b</Top> 
-                </Orbs>
-                <BigTitle className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 uppercase -mt-12" /*pose={this.state.isOpen ? 'open' : 'closed'}*/>Agence web Toulouse <span className="text-bleu">/</span> Agen</BigTitle>
+                <div className="orbs flex flex-1 justify-center lg:justify-start" /*pose={this.state.isOpen ? 'open' : 'closed'}*/> 
+                    <span className="top text-white century" >l</span> 
+                    <span className="top text-white century" >i</span> 
+                    <span className="top text-white century" >n</span> 
+                    <span className="top text-white century" >k</span> 
+                    <span className="blue text-bleu" >/</span> 
+                    <span className="top text-white century" >w</span> 
+                    <span className="top text-white century" >e</span> 
+                    <span className="top text-white century" >b</span> 
+                </div>
+                <h1 className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 uppercase -mt-12" /*pose={this.state.isOpen ? 'open' : 'closed'}*/>Agence web Toulouse <span className="text-bleu">/</span> Agen</h1>
                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                 <div className="w-full lg:w-2/3 lg:mx-0 flex flex-col md:flex-row justify-center lg:justify-start" /*data-aos="fade-in"*/>
                     <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>

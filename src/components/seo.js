@@ -208,7 +208,7 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
                 json
               }
             </script>
-            <script src={withPrefix('./cookie/tarteaucitron.js')}></script>
+            {/* <script src={withPrefix('./cookie/tarteaucitron.js')}></script> */}
           </Helmet>
         );
       }}

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
-import PageTransition from "gatsby-plugin-page-transitions";
-import posed from 'react-pose';
+// mport PageTransition from "gatsby-plugin-page-transitions";
+
 
 import SEO from "../../components/seo";
 

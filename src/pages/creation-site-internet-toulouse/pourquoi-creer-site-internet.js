@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
-import PageTransition from "gatsby-plugin-page-transitions";
+// import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../../components/seo";
 import ButtonBlog from "../../components/buttonblog";
 import "../../scss/faqpages.scss";
