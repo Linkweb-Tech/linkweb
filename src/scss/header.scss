@@ -125,7 +125,7 @@
         }
 
         .adwords {
-            .blue {
+            /*.blue {
                 color: #4284f7;
                 transition: all ease 1s;
             }
@@ -144,9 +144,47 @@
                 color: #31ae53;
                 transition: all ease 1s;
             }
+            */
+            .blue {
+                color: #000;
+                transition: all ease 1s;
+            }
+            
+            .red {
+                color: #000;
+                transition: all ease 1s;
+            }
 
+            .yellow {
+                color: #000;
+                transition: all ease 1s;
+            }
+
+            .green {
+                color: #000;
+                transition: all ease 1s;
+            }
             &:hover {
-               .blue {
+                .blue {
+                color: #4284f7;
+                transition: all ease 1s;
+            }
+            
+            .red {
+                color: #ed4239;
+                transition: all ease 1s;
+            }
+
+            .yellow {
+                color: #ffbd06;
+                transition: all ease 1s;
+            }
+
+            .green {
+                color: #31ae53;
+                transition: all ease 1s;
+            }
+               /*.blue {
                     color: #ffbd06;
                     transition: all ease 1s;
                 }
@@ -168,6 +206,7 @@
                     color: #4284f7;
                     transition: all ease 1s;
                 } 
+                */
             }
         }
     }
