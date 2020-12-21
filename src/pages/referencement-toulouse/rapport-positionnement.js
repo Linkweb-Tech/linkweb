@@ -83,6 +83,26 @@ class RapportdePositionnement extends React.Component {
                             <br/>
                             Le <strong className="font-normal">rapport de positionnement</strong> est un outil particulièrement important que nous utilisons dans notre <strong><Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">travail de référencement à Toulouse</Link></strong> pour évaluer les optimisations mises en place et définir la pertinence de nos actions pour des <strong className="font-normal">stratégies de référencement naturel</strong> efficaces.<br/>
                         </p>
+                        <br/>
+                            <h2 className="text-xl font-bold text-bleu">Pourquoi utiliser le rapport de positionnement ?</h2>
+                        <br/>
+                        <p>
+                            Lorsque l’on se lance dans une <strong className="font-normal">stratégie de référencement naturel</strong>, il est important de se doter d’<strong>outils professionnels</strong>. Ceci est particulièrement valable pour le <strong className="font-normal">suivi et l’évaluation de sa stratégie par le prisme du positionnement</strong>.<br/>
+                            <br/>
+                            Maîtriser sa <strong className="font-normal">stratégie de référencement</strong> pour <a href="https://startleader.fr/" target="_blank" rel="noopener noreferer" className="font-bold text-bleu hover:text-black"><strong>améliorer son positionnement</strong></a>, c’est avant tout être en mesure d’anticiper, mais aussi de réagir. Pour évaluer les effets du travail et des investissements réalisés, ce suivi va être important.<br/>
+                            <br/>
+                            En ce sens, le <strong>rapport de positionnement</strong> est exhaustif et doit faire partie des outils que vous vous appropriez. En revanche, <strong>mesurer sa stratégie de référencement uniquement par le biais de son positionnement reste insuffisant</strong>. En effet, un <strong className="font-normal">expert en référencement</strong> se base sur d’autres critères pour juger de la pertinence de votre <strong className="font-normal">stratégie SEO</strong> :<br/>
+                            <br/>
+                            <ul className="px-12 list-disc">
+                            <li>le <strong className="font-normal">trafic généré</strong>,</li>
+                            <li>le <strong className="font-normal">nombre de mots-clés positionnés</strong>,</li>
+                            <li>les <strong className="font-normal">objectifs réalisés sur votre site</strong>,</li>
+                            <li>le <strong className="font-normal">comportement des utilisateurs</strong> sur votre site,</li>
+                            <li>etc.</li>
+                            </ul>
+                            <br/>
+                            En somme, il ne faut jamais perdre de vue que le <strong className="font-normal">travail de référencement naturel est un travail de long terme</strong> et que toutes les actions que vous mènerez pourront jouer un rôle. C’est pourquoi, le travail de suivi et d’évaluation est important afin de <strong>maîtriser au mieux sa stratégie en vue de l’infirmer, la confirmer ou l’ajuster</strong>.<br/>
+                        </p>
                         <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Référencement Toulouse"
