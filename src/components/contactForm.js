@@ -35,7 +35,7 @@ class ContactForm extends React.Component {
         if( this.state.email == '' && this.state.nom == '' && this.state.prenom == '' && this.state.message == "") {
             store.addNotification({
                 id: "notif",
-                title: "Le formualire est vide",
+                title: "Le formulaire est vide",
                 message: "Veuillez saisir les champs obligatoire avant de soumettre le formulaire" ,
                 type: "danger",
                 insert: "top",
@@ -191,7 +191,7 @@ class ContactForm extends React.Component {
                     className="py-3 border-bottom-bleu w-full"
                     name="telephone"
                     value={this.state.telephone}
-                    onChange={e => this.setState({ telephone: e.target.value })}
+                    onChange={e => this.setState({ telephone: e.target.value.replace(/\s/g, '') })}
 
                 
                 />
