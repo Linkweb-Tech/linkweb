@@ -147,7 +147,7 @@ class Hero1 extends React.Component {
             <div className="max-w-6xl mt-32 mx-auto lg:ml-56 xl:mx-56 w-full flex-col items-end">
                 <section className="flex justify-center lg:justify-start" style={{marginBottom: "-80px",marginTop: "80px", paddingLeft: "60px"}}>
                 <div className="mr-3 mt-3">
-                    <img  src={googlePartner} alt="Référencement Toulouse" style={{ width: '150px' }} />
+                    <img  src={googlePartner} alt="Référencement Toulouse" style={{ width: '200px' }} />
                 </div>
                 <div className=" flex flex-col items-center " /*data-aos="fade-in" data-aos-delay="2200"*/>
                     <h3 className=" text-3xl text-center font-bold text-white century">4,5/5</h3>
