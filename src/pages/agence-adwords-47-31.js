@@ -8,7 +8,7 @@ import LastPosts from '../components/lastposts';
 import RoundButtonPages from "../components/roundButtonPages";
 import RoundButtonPagesMail from "../components/roundButtonPagesMail";
 import Accordion from '../components/accordion';
-
+import googlePartner from "../images/PartnerBadge-RGB.png";
 import "../scss/global.scss";
 import "../scss/info.scss";
 
@@ -63,7 +63,7 @@ class ReferencementAds extends React.Component {
                     <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ Bg +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}}>
                         <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                             <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
-                                <div className="w-full  text-3xl text-center font-bold text-white century">4,5/5</div>
+                                {/* <div className="w-full  text-3xl text-center font-bold text-white century">4,5/5</div>
                                     <p className="w-full  text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
                                     <div className="w-full -mt-8">
                                         <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
@@ -74,6 +74,9 @@ class ReferencementAds extends React.Component {
                                             <path fill="#FFFFFF" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z   M89.8,54.7c0.1-0.1,0.4,0,0.4,0l4.2,2.2l-0.8-4.7c0-0.2,0-0.3,0.1-0.4l3.4-3.3l-4.7-0.7c-0.2,0-0.3-0.1-0.4-0.3l-2.1-4.3L89.8,54.7  z"/>
                                         </svg>                    
                                     </div>
+                                </div> */}
+                                <div className="w-full lg:w-full flex justify-center lg:justify-center">
+                                    <img  src={googlePartner} alt="Référencement Toulouse" style={{ width: '200px' }} />
                                 </div>
                                 <div className="w-full lg:w-full flex justify-center lg:justify-center">
                                 <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Adwords Toulouse <span className="text-bleu">/</span> Agen</h1>
@@ -85,10 +88,11 @@ class ReferencementAds extends React.Component {
                                     <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30"/>
                                     <RoundButtonPagesMail url="/contact-agence-web-toulouse/" text="Demander un devis"/>
                                 </div>
-                        </div>
-                            <div className="w-full flex items-end justify-center mx-auto block pb-16">
+                            </div>
+                            <div className="w-full flex items-end justify-center mx-auto block pb-16 mt-16">
                                 <img src={scroll} alt="Scroll" width="60px"/>
                             </div>
+                        </div>    
                     </section>
                     
                     <section className="phototext">
@@ -393,8 +397,13 @@ class ReferencementAds extends React.Component {
                                     </div>
                                 </article>
                                 </div>
+                               
                 </section>
+                <div className="max-w-6xl mx-auto flex align-center justify-center text-center">
+                                <img src={googlePartner} alt="Référencement Toulouse" style={{ width: '300px', marginBottom: '30px' }} />
+                        </div>
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
+                        
                         <div className="w-full flex flex-col md:flex-row justify-center">
                             <a 
                                 className="century text-sm hover:text-bleu"

@@ -1,7 +1,8 @@
 import React from "react";
 import {Link} from 'gatsby';
 import LinkwebWhite from "../images/logo-linkweb.png";
-import Datadock from "../images/logo_datadock.png"
+import Datadock from "../images/logo_datadock.png";
+import googlePartner from "../images/PartnerBadge-RGB.png";
 
 class Footer extends React.Component {
 
@@ -19,6 +20,7 @@ class Footer extends React.Component {
                             <img 
                             src={ LinkwebWhite }
                             alt="Linkweb"
+                            width="200px"
                             className="w-full mb-6"
                             />
                             <p> © 2020 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p> 
@@ -27,6 +29,7 @@ class Footer extends React.Component {
                             <h3 className="century text-2xl text-white pl-4 pt-6">Certifications</h3>
                             <br/>
                             <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"><img src={Datadock} width="200px" alt="Formation SEO Toulouse" /></a>
+                            <img src={googlePartner} width="200px" className="mt-3" alt="Formation SEO Toulouse" />
                         </div> <br />
                         </div>
                     </section>
