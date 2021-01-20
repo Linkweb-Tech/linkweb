@@ -194,7 +194,16 @@ class Header extends React.Component {
                   </Link>
                   <Link
                     itemProp="url"
-                    title="Agence Web"
+                    title="Formation Datadock"
+                    to="/formation-datadock/"
+                    activeClassName="active"
+                    className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
+                  >
+                    Nos Formations
+                </Link>
+                  <Link
+                    itemProp="url"
+                    title="Agence Digitale"
                     to="/agence-digitale-toulouse/"
                     activeClassName="active"
                     className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
