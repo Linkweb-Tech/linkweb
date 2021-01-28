@@ -280,7 +280,7 @@ function IndexPage(props) {
                 <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                Nos <strong>consultants en communication web</strong> définissent les contours de votre projet, du choix de l'<strong>hébergement</strong> jusqu'à l’<strong>application de votre stratégie marketing</strong> à travers les différents axes définis. Notre équipe est composée de spécialistes de la <strong>création de site internet</strong>, de <strong>référencement naturel</strong> et <strong>Ads</strong> qui font preuve de <strong>réactivité</strong> dans le but de répondre à vos attentes.
+                Nos <strong>consultants en <Link to="/agence-communication-web-toulouse/" className="text-bleu font-bold hover:text-black">communication web</Link></strong> définissent les contours de votre projet, du choix de l'<strong>hébergement</strong> jusqu'à l’<strong>application de votre stratégie marketing</strong> à travers les différents axes définis. Notre équipe est composée de spécialistes de la <strong>création de site internet</strong>, de <strong>référencement naturel</strong> et <strong>Ads</strong> qui font preuve de <strong>réactivité</strong> dans le but de répondre à vos attentes.
                 </div>
               <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" />
             </section>
@@ -488,8 +488,8 @@ function IndexPage(props) {
           </Accordion>
         </div>
       </section>
-      <section className="max-w-2xl w-full mx-auto lg:mt-12 px-4 py-0 pt-24 lg:pt-6 my-0">
-        <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
+      {/* <section className="max-w-2xl w-full mx-auto lg:mt-12 px-4 py-0 pt-24 lg:pt-6 my-0">
+        <h2 /*data-aos='fade-right' className="text-center text-black text-4xl century">
           Nous devons connaître
                         </h2>
         <hr className="blue"></hr>
@@ -504,7 +504,7 @@ function IndexPage(props) {
         </div>
 
         <br />
-      </section>
+      </section> */}
       <section className="max-w-5xl w-full mx-auto px-4 py-2 mt-16 mb-2">
         <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
           Ils nous ont fait confiance
