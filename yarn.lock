@@ -9595,6 +9595,13 @@ react-twitter-widgets@^1.7.1:
     prop-types "^15.3.0"
     scriptjs "^2.5.8"
 
+react-zendesk@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/react-zendesk/-/react-zendesk-0.1.10.tgz#3f2ebe45e06b006b2ceadc09af7bed58cdd015b2"
+  integrity sha512-QDqHfk2tK1QzWubOnNEWxmyexKIXV3j0w7LjZ161z2K2DmkaPErIDwtBokQVgvzDvM7S657S2DbQY9vIYQsf0g==
+  dependencies:
+    prop-types "^15.7.2"
+
 react@16.13.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"

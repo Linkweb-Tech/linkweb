@@ -40,6 +40,7 @@
     "react-sticky-header": "^0.2.0",
     "react-twitter-embed": "^3.0.3",
     "react-twitter-widgets": "^1.7.1",
+    "react-zendesk": "^0.1.10",
     "slick-carousel": "^1.8.1",
     "typeface-lato": "0.0.75"
   },
