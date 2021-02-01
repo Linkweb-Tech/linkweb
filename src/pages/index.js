@@ -251,7 +251,7 @@ function IndexPage(props) {
                 <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                Faire appel à une <strong>agence de création web</strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et définir une <strong>stratégie digitale</strong>. En effet, il est recommandé de bénéficier d'une expertise pour poursuivre des objectifs bien précis. <strong>Propulser sa communication en ligne</strong> par le <strong>webmarketing (marketing digital)</strong> peut constituer un véritable moteur pour une société.
+                Faire appel à une <strong><Link to="agence-developpement-web-toulouse/" className="text-bleu font-bold hover:text-black">agence de création web</Link></strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et définir une <strong>stratégie digitale</strong>. En effet, il est recommandé de bénéficier d'une expertise pour poursuivre des objectifs bien précis. <strong>Propulser sa communication en ligne</strong> par le <strong>webmarketing (marketing digital)</strong> peut constituer un véritable moteur pour une société.
                 </div>
               <Button url="/blog/foire-aux-questions/" text="En savoir plus" position="center" />
 

@@ -42,7 +42,7 @@ class AgenceCommunicationWebToulouse extends React.Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence de Communication Toulouse - Linkweb"
+                    title="Agence de Communication Web Toulouse - Linkweb"
                     description="Linkweb est une agence de communication web à Toulouse qui s'adresse aux professionnels exigeants."
                     url="https://linkweb.fr/agence-communication-web-toulouse/"
                     nom="Agence Communication Web"
@@ -106,7 +106,7 @@ class AgenceCommunicationWebToulouse extends React.Component {
                             <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Miser sur la communication web et le web marketing est important pour le développement de votre entreprise et de son identité en tant que marque. Pour atteindre vos objectifs de développement, les solutions sont nombreuses en vue de construire votre projet digital sur-mesure.</h3>
                         </div>
         </section>
-        <section className="phototext my-24">
+        <section className="phototext mb-24">
         <section className="w-full  my-10 flex flex-col lg:flex-row items-center justify-start">
                 <div className="w-full flex justify-center items-center lg:w-5/12">
                     <img className="w-full" src={mac} alt="Linkweb"/>
@@ -276,7 +276,7 @@ class AgenceCommunicationWebToulouse extends React.Component {
                             <h4 className="century text-xl"><span className="font-bold">Proposer des solutions fonctionnelles et performantes fait partie de notre ligne directrice. Nos consultants en communication veillent à déceler les meilleures opportunités pour répondre à vos objectifs.</span></h4>
                             <br/>
                             <p style={{fontSize:'16px'}}>
-                                En tant qu’<strong>agence de conseil en communication</strong>, nous sommes particulièrement exigeants quant à la remise en question permanentes des techniques employées sur les <strong>sites internet</strong> que nous créons. Nos <strong>spécialistes du marketing digital et de la communication web</strong> sont à l’affut des dernières tendances (<strong>web design</strong>, techniques d’optimisation, émergence d’outils professionnels, etc.) pour rester à la pointe en matière de <strong>référencement naturel</strong> et de <strong>développement web</strong>.<br/>
+                                En tant qu’<strong>agence de conseil en communication</strong>, nous sommes particulièrement exigeants quant à la remise en question permanentes des techniques employées sur les <strong>sites internet</strong> que nous créons. Nos <strong>spécialistes du marketing digital et de la communication web</strong> sont à l’affut des dernières tendances (<strong>web design</strong>, techniques d’optimisation, émergence d’outils professionnels, etc.) pour rester à la pointe en matière de <strong>référencement naturel</strong> et de <strong><Link to="/agence-developpement-web-toulouse/" className="text-bleu font-bold hover:text-black">développement web</Link></strong>.<br/>
                             <br/>
                                 Depuis plus de 10 ans et grâce aux centaines de projets traités par l’<strong>agence</strong>, Linkweb est en mesure de proposer des solutions uniques et parfaitement adaptées aux besoins de ses <strong>clients</strong>. Nous tenons compte de l’ensemble des paramètres et mettons nos différents savoir-faire à contribution en matière de <strong>développement web</strong>, comme de <strong>référencement naturel</strong>.<br/>
                             <br/>
