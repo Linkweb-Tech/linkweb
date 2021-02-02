@@ -137,7 +137,7 @@ class AgenceDeveloppementWebToulouse extends React.Component {
                                         <span className="text-bleu">/</span>CONCEPTION UI & UX DESIGN
                                     </h3>
                                     <br/>
-                                    <h4 className="century">Création d’un webdesign intuitif et conception d’une ergonomie ainsi que d’une expérience utilisateur parfaites.</h4>
+                                    <h4 className="century">Création d’un <Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black">webdesign intuitif</Link> et conception d’une ergonomie ainsi que d’une expérience utilisateur parfaites.</h4>
                                     <br/>
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Parmi nos services, notre <strong>agence</strong> vous propose une interface conçue pour être attrayante et offrir une <strong>expérience utilisateur optimale</strong>. Le travail de <strong>développement web</strong> a pour but de proposer un accompagnement à l’utilisateur tout au long de sa <strong>navigation sur le site</strong> en lui proposant du contenu intuitif. L'utilisateur est alors guidé vers les informations qu’il recherche : nous vous permettons de définir un <strong>tunnel de navigation</strong> pour aboutir à une conversion.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
