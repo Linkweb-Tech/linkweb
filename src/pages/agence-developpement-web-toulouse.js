@@ -278,7 +278,7 @@ class AgenceDeveloppementWebToulouse extends React.Component {
                   <span className="text-bleu">/</span>JE CONFIE LE DÉVELOPPEMENT DE MON SITE À DES EXPERTS
                 </h3>
                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                Nos <strong>spécialistes du développement</strong> travaillent pour apporter une <strong>expérience utilisateur</strong> de qualité à vos utilisateurs. Nos référenceurs réalisent toutes les <strong>optimisations nécessaires</strong> pour vous faire figurer dans les <strong>premiers résultats de Google</strong> grâce au <strong>référencement SEO</strong>. Bénéficiez d'une expertise dans la définition de votre <strong>stratégie web marketing</strong>.
+                Nos <strong>spécialistes du développement</strong> travaillent pour apporter une <strong>expérience utilisateur</strong> de qualité à vos utilisateurs. Nos référenceurs réalisent toutes les <strong>optimisations nécessaires</strong> pour vous faire figurer dans les <strong>premiers résultats de Google</strong> grâce au <strong>référencement SEO</strong>. Bénéficiez d'une expertise dans la définition de votre <Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-black font-bold"><strong>stratégie web marketing</strong></Link>.
                 </div>
               </section>
               

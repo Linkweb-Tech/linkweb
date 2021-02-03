@@ -103,7 +103,7 @@ class AgenceCommunicationWebToulouse extends React.Component {
                         <div className="line-title my-4">
                             <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                             <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Miser sur la communication web et le web marketing est important pour le développement de votre entreprise et de son identité en tant que marque. Pour atteindre vos objectifs de développement, les solutions sont nombreuses en vue de construire votre projet digital sur-mesure.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Miser sur la communication web et <Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-black font-bold">le web marketing</Link> est important pour le développement de votre entreprise et de son identité en tant que marque. Pour atteindre vos objectifs de développement, les solutions sont nombreuses en vue de construire votre projet digital sur-mesure.</h3>
                         </div>
         </section>
         <section className="phototext mb-24">

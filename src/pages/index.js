@@ -251,7 +251,7 @@ function IndexPage(props) {
                 <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                Faire appel à une <strong><Link to="agence-developpement-web-toulouse/" className="text-bleu font-bold hover:text-black">agence de création web</Link></strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et définir une <strong>stratégie digitale</strong>. En effet, il est recommandé de bénéficier d'une expertise pour poursuivre des objectifs bien précis. <strong>Propulser sa communication en ligne</strong> par le <strong>webmarketing (marketing digital)</strong> peut constituer un véritable moteur pour une société.
+                Faire appel à une <strong><Link to="agence-developpement-web-toulouse/" className="text-bleu font-bold hover:text-black">agence de création web</Link></strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et définir une <strong>stratégie digitale</strong>. En effet, il est recommandé de bénéficier d'une expertise pour poursuivre des objectifs bien précis. <strong>Propulser sa communication en ligne</strong> par <Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-black font-bold">le <strong>webmarketing (marketing digital)</strong></Link> peut constituer un véritable moteur pour une société.
                 </div>
               <Button url="/blog/foire-aux-questions/" text="En savoir plus" position="center" />
 
@@ -291,7 +291,7 @@ function IndexPage(props) {
       </section>
       <section className="max-w-2xl w-full mx-auto px-4 py-0 mt-12 mb-0">
         <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-          Création Site internet :<span className="font-bold text-black text-center text-4xl century"> Ils ont fait <span className="font-bold">confiance</span> à <span className="font-bold">Linkweb</span></span>
+          Création Site internet :<span className="font-bold text-black text-center text-4xl century">Ils ont fait <span className="font-bold">confiance</span> à <span className="font-bold">Linkweb</span></span>
         </h2>
         <hr className="blue"></hr>
         <br />
