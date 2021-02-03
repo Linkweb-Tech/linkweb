@@ -222,7 +222,16 @@ class AgenceDigitaleToulouse extends React.Component {
                                     <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                     Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong>agence de création</strong> définit des propositions concrètes pour y parvenir. Mettez tous les atouts de votre côté pour <strong>mener votre campagne de communication en ligne</strong>.
                                     </div>
-                                    <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" />
+                                    {/* <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" /> */}
+                                    <button
+                                        className="link flex  mt-3 items-center text-white text-lg mx-auto block justify-center lg:text-xl"                    
+                                        type="button"
+                                        onClick={(e) => {
+                                        e.preventDefault();
+                                        window.location.href='/contact-agence-web-toulouse/';
+                                        }}
+                                    ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
+                                    </button>
                     
                                 </section>
                             </div>
@@ -239,26 +248,55 @@ class AgenceDigitaleToulouse extends React.Component {
                                     <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
                                     TPE, PME, commerçants, l’<strong>agence Linkweb</strong> répond à vos besoins de <strong>visibilité et de notoriété</strong> par la <strong>mise en place de stratégies digitales efficaces</strong> et qui vous rapprochent de vos prospects. Nous activons tous les <strong>leviers</strong> pour développer et faire connaître votre <strong>outil en ligne</strong>.
                                     </div>
-                                    <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" />
+                                    {/* <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" /> */}
+                                    <button
+                                        className="link flex  mt-3 items-center text-white text-lg mx-auto block justify-center lg:text-xl"                    
+                                        type="button"
+                                        onClick={(e) => {
+                                        e.preventDefault();
+                                        window.location.href='/contact-agence-web-toulouse/';
+                                        }}
+                                    ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
+                                    </button>
                                 </section>
                             </div>
                         </div>
                     </section>
                     <section className="max-w-6xl mx-auto flex align-center my-16 justify-center text-center mb-6">
                         <div className="w-full flex flex-col md:flex-row justify-center">
-                            <Link
+                            {/* <Link
                                 className="century text-sm hover:text-bleu"
                                 to="/creation-site-internet-toulouse/"
-                            >
+                            > */}
+                            <button
+                                        className="century text-sm hover:text-bleu"                    
+                                        type="button"
+                                        onClick={(e) => {
+                                        e.preventDefault();
+                                        window.location.href='/creation-site-internet-toulouse/';
+                                        }}
+                                    >
+                                    
                                 Je souhaite la création de mon site internet
-                            </Link>&nbsp;
+                            {/* </Link> */}</button>&nbsp;
                             |&nbsp;
-                            <Link
+                            <button
+                                        className="century text-sm hover:text-bleu"                    
+                                        type="button"
+                                        onClick={(e) => {
+                                        e.preventDefault();
+                                        window.location.href='/referencement-toulouse/';
+                                        }}
+                                    >
+                                    
+                                Je souhaite améliorer la visibilité de mon site existant
+                            {/* </Link> */}</button>
+                            {/* <Link
                                 className="century text-sm hover:text-bleu"
                                 to="/referencement-toulouse/"
                             >
                                 Je souhaite améliorer la visibilité de mon site existant
-                            </Link>
+                            </Link> */}
                         </div>
                     </section>
                     </section>
@@ -279,11 +317,11 @@ class AgenceDigitaleToulouse extends React.Component {
                             <h4 className="century text-xl"><span className="font-bold">Notre vocation : développer votre projet pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span></h4>
                             <br/>
                             <p style={{fontSize:'16px'}}>
-                                Depuis plus de 10 ans, notre expérience dans la <strong><Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">création de sites internet</Link></strong> nous a permis de développer nos compétences en tant qu'<strong>agence de conseil en communication</strong>. Nous envisageons les <strong>projets web</strong> comme des <strong>solutions uniques</strong> répondant aux besoins de chaque <strong>client</strong>.<br/>
+                                Depuis plus de 10 ans, notre expérience dans la <strong>{/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}création de sites internet{/*</Link>*/}</strong> nous a permis de développer nos compétences en tant qu'<strong>agence de conseil en communication</strong>. Nous envisageons les <strong>projets web</strong> comme des <strong>solutions uniques</strong> répondant aux besoins de chaque <strong>client</strong>.<br/>
                             <br/>
                                 Présents à <strong>Agen en Lot-et-Garonne</strong>, nous avons également développé une <strong>filiale toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, <Link to="/agence-communication-web-toulouse/" className="text-bleu hover:text-black font-bold"><strong>notre agence de communication web</strong></Link> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. L’agence <Link to="/" className="text-bleu hover:text-black font-bold">Linkweb</Link> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br/>
                             <br/>
-                                De part son savoir-faire et sa réactivité en tant qu’<strong>agence digitale</strong>, <strong>Linkweb</strong> met en place <strong>votre site internet</strong> grâce à des <strong>solutions de <Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">développement web</Link></strong> récentes et optimise votre <strong><Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> grâce à une veille permanente liée au <Link to="/agence-web-marketing-toulouse/" className="font-bold text-bleu hover:text-black"><strong>web marketing</strong></Link> et autres <strong>outils digitaux</strong>. Quelle que soit la nature de votre activité, nous possédons le <strong>savoir-faire</strong> et les <strong>expertises</strong> pour vous permettre d’<strong>atteindre vos objectifs</strong>.<br/>
+                                De part son savoir-faire et sa réactivité en tant qu’<strong>agence digitale</strong>, <strong>Linkweb</strong> met en place <strong>votre site internet</strong> grâce à des <strong>solutions de {/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}développement web{/*</Link>*/}</strong> récentes et optimise votre <strong>{/*<Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">*/}référencement naturel{/*</Link>*/}</strong> grâce à une veille permanente liée au <Link to="/agence-web-marketing-toulouse/" className="font-bold text-bleu hover:text-black"><strong>web marketing</strong></Link> et autres <strong>outils digitaux</strong>. Quelle que soit la nature de votre activité, nous possédons le <strong>savoir-faire</strong> et les <strong>expertises</strong> pour vous permettre d’<strong>atteindre vos objectifs</strong>.<br/>
                             </p>
                         </div>
 
@@ -325,13 +363,29 @@ class AgenceDigitaleToulouse extends React.Component {
                         <h2 className="text-2xl text-white century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                                     <p className="text-xl text-white century">10 rue Albert Ferrasse <br/>
                                     47550 BOÉ</p>
-                                    <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a>
+                                    <button
+                                        className="font-light mx-auto roundedButton bg-black hover:bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
+                                        type="button"
+                                        onClick={(e) => {
+                                        e.preventDefault();
+                                        window.open('https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994', '_blank')
+                                        }}
+                                    >Plus d'informations pratiques</button>
+                                    {/* <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a> */}
                         </div>
                         <div className="w-full md:w-1/2 bg-black flex flex-col justify-center items-center h-auto text-white text-center" style={{minHeight:'700px'}}>
                         <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
                                     <p className="text-xl century">44 Rue de Bayard <br/>
                                     31000 TOULOUSE</p>
-                                    <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
+                                    <button
+                                        className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
+                                        type="button"
+                                        onClick={(e) => {
+                                        e.preventDefault();
+                                        window.open('https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768', '_blank')
+                                        }}
+                                    >Plus d'informations pratiques</button>
+                                    {/* <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a>  */}
                         </div>
                     </section>
                         {/* <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in">
@@ -465,9 +519,9 @@ class AgenceDigitaleToulouse extends React.Component {
                                 <div className="w-full" label="ÊTRE VISIBLE GRÂCE AU RÉFÉRENCEMENT NATUREL">
                                     <p>L’aspect stratégique est essentiel dans la <strong className="font-bold">conception de sites internet</strong>. En effet, c’est dès l’élaboration de <strong>votre projet</strong> que notre <strong>agence de communication digitale</strong> intervient pour <strong className="font-bold">définir votre stratégie SEO</strong>. Nous développons une <strong>arborescence</strong> totalement fonctionnelle et pertinente : <strong>chaque page</strong> dispose d’une fonction précise. Ceci est essentiel dans le cadre du <strong className="font-bold">référencement d'un site internet</strong>.<br/>
                                     <br/>
-                                    En parallèle, les spécialistes de notre <strong><Link to="/referencement-toulouse/" className="font-bold text-bleu hover:text-black">agence de référencement SEO</Link></strong> identifient les <strong className="font-bold">expressions clés ciblées</strong> qui vont déterminer les <strong className="font-bold">objectifs de positionnement de votre stratégie de référencement naturel</strong>. Par la suite, nous définissons un plan d’actions correspondant à vos attentes ainsi qu’à vos moyens pour <strong classname="font-bold">déployer votre projet</strong>.<br/>
+                                    En parallèle, les spécialistes de notre <strong>{/*<Link to="/referencement-toulouse/" className="font-bold text-bleu hover:text-black">*/}agence de référencement SEO{/*</Link>*/}</strong> identifient les <strong className="font-bold">expressions clés ciblées</strong> qui vont déterminer les <strong className="font-bold">objectifs de positionnement de votre stratégie de référencement naturel</strong>. Par la suite, nous définissons un plan d’actions correspondant à vos attentes ainsi qu’à vos moyens pour <strong classname="font-bold">déployer votre projet</strong>.<br/>
                                     <br/>
-                                    Cependant, s’il est urgent pour vous d’<strong>être visible sur les moteurs de recherche</strong>, nous vous proposons la <strong><Link to="/agence-adwords-47-31/" className="font-bold text-bleu hover:text-black">création d’une campagne Ads</Link></strong>, via la plateforme <strong>Google Adwords</strong>, qui vous permettra d’obtenir des résultats plus rapidement grâce au <strong>référencement payant</strong>.<br/>
+                                    Cependant, s’il est urgent pour vous d’<strong>être visible sur les moteurs de recherche</strong>, nous vous proposons la <strong>{/*<Link to="/agence-adwords-47-31/" className="font-bold text-bleu hover:text-black">*/}création d’une campagne Ads{/*</Link>*/}</strong>, via la plateforme <strong>Google Adwords</strong>, qui vous permettra d’obtenir des résultats plus rapidement grâce au <strong>référencement payant</strong>.<br/>
                                     <br/>
                                     Notre rôle, en tant qu'<strong>agence spécialisée dans la création de sites web</strong>, est de <strong className="font-bold">vous proposer les stratégies les plus performantes</strong>, tout en tenant compte de <strong className="font-bold">vos besoins</strong>.
                                     </p>
@@ -498,7 +552,15 @@ class AgenceDigitaleToulouse extends React.Component {
                         </div>
                         <div className="w-full mx-auto block lg:w-3/12">
                         {/*<ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>*/}
-                        <RoundButton url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white" text="CONTACTEZ-NOUS" />
+                        {/* <RoundButton url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white" text="CONTACTEZ-NOUS" /> */}
+                        <button
+                                    className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                                    type="button"
+                                    onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href='/contact-agence-web-toulouse/';
+                                    }}
+                                >CONTACTEZ-NOUS</button>
                         </div>
                     </section>
                     <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
@@ -567,7 +629,7 @@ class AgenceDigitaleToulouse extends React.Component {
                     
                     <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
                         <div className="w-full flex flex-col md:flex-row justify-center">
-                            <a
+                            {/* <a
                                 className="century text-sm hover:text-bleu"
                                 target="blank" rel="noreferrer noopener"
                                 href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
@@ -581,7 +643,27 @@ class AgenceDigitaleToulouse extends React.Component {
                                 href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
                             >
                                 Vous travaillez déjà avec nous ? Donnez nous votre avis !
-                            </a>
+                            </a> */}
+                            <button
+                            className="century text-sm hover:text-bleu"
+                            type="button"
+                            formtarget="_blank"
+                            onClick={(e) => {
+                            e.preventDefault();
+                            window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
+                            }}
+                        >Voir plus de témoignages</button>
+                            &nbsp;
+                            |&nbsp;
+                            <button
+                            className="century text-sm hover:text-bleu"
+                            type="button"
+                            target="_blank"
+                            onClick={(e) => {
+                            e.preventDefault();
+                            window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
+                        }}
+                        >Vous travaillez déjà avec nous ? Donnez nous votre avis !</button>
                         </div>
                     </section>
                     <section className="w-full bg-bleu flex flex-col md:flex-row">
@@ -596,7 +678,15 @@ class AgenceDigitaleToulouse extends React.Component {
                         <div className="flex items-end my-10 justify-end flex-col">
                             <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-2xl"><strong>Linkweb</strong> conduit tous vos <strong>projets à Agen</strong>, de leur conception à leur mise en oeuvre avec un suivi régulier. Notre équipe vous accompagne dans le choix de <strong>votre stratégie éditoriale et marketing</strong> jusqu’à la mise en route technique de votre projet.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
-                                <RoundButton url="/contact-agence-web-toulouse/" color="darkgrey" text="CONTACTEZ-NOUS" />
+                                {/* <RoundButton url="/contact-agence-web-toulouse/" color="darkgrey" text="CONTACTEZ-NOUS" /> */}
+                                <button
+                                    className="font-light mx-auto roundedButton bg-black text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                                    type="button"
+                                    onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href='/contact-agence-web-toulouse/';
+                                    }}
+                                >CONTACTEZ-NOUS</button>
                             </div>
                         </div>
                         
@@ -608,7 +698,15 @@ class AgenceDigitaleToulouse extends React.Component {
                                 <span className="text-bleu">/</span>Vous souhaitez intégrer l’équipe de Linkweb ?
                                 Nous recrutons des développeurs et référenceurs à Agen.
                             </h2>
-                             <RoundButton url="/recrutement-creation-site-internet-agen/" text="Postuler" />
+                            <button
+                                    className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                                    type="button"
+                                    onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href='/recrutement-creation-site-internet-agen/';
+                                    }}
+                                >Postuler</button>
+                             {/* <RoundButton url="/recrutement-creation-site-internet-agen/" text="Postuler" /> */}
                         </div>
                     </section>
                     <section className="flex w-full flex-col mx-auto px-0 py-6 my-4 lg:my-0">
@@ -622,7 +720,15 @@ class AgenceDigitaleToulouse extends React.Component {
                     <section className="max-w-6xl mx-auto flex flex-col align-center flex flex-col justify-center items-center justify-center text-center mt-12 mb-3">
                         <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
                         <div className="w-2/5 flex flex-row justify-center items-center">
-                        <RoundButton url="/actualite-digitale/" text="Accéder au Blog"/>
+                        {/* <RoundButton url="/actualite-digitale/" text="Accéder au Blog"/> */}
+                        <button
+                                    className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                                    type="button"
+                                    onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href='/actualite-digitale/';
+                                    }}
+                                >ACCÉDER AU BLOG</button>
                         </div>
                         <br/>
                     </section>
