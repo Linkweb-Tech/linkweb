@@ -70,7 +70,7 @@ class Tile extends React.Component {
 
 		return (
 			<div className="tile">
-                <a className="referenceItem" href={this.props.data.url} style={bgStyle}>
+                 <a className="referenceItem" href={this.props.data.url} style={bgStyle}> */}
                     <img
                         onMouseEnter={this._mouseEnter}
                         onMouseLeave={this._mouseLeave}
@@ -80,7 +80,7 @@ class Tile extends React.Component {
                         style={tileStyle}
                     />
 					<h4 className="text-xl font-extrabold century">{this.props.data.name}</h4>
-                </a>
+                 </a>
 			</div>
 		);
 	}

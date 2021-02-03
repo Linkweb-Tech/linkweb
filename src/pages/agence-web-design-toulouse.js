@@ -427,7 +427,7 @@ class AgencenWebDesignToulouse extends React.Component {
                             <br/>
                             <hr className="border-solid w-1/6 border-bleu"></hr>
                             <br/>
-                            <h3 className="text-black text-xl text-center century">Internet est l’une des sources principales de visibilité pour une société. Ainsi, portez des projets de marketing digital peut devenir un vecteur de succès en ligne important pour votre société.</h3>
+                            <h3 className="text-black text-xl text-center century">Internet est l’une des sources principales de visibilité pour une société. Ainsi, portez des projets de <Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black">marketing digital</Link> peut devenir un vecteur de succès en ligne important pour votre société.</h3>
                         </section>
                     </section>
                     <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
