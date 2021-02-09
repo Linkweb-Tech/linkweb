@@ -221,7 +221,7 @@ render() {
                         <p>Nos professionnels spécialisés dans le <strong>Web</strong> mettent leur <strong>expertise</strong> ainsi que leur expérience à votre profit pour vous permettre d'accéder à une <strong>stratégie web</strong> fondée sur vos besoins. Ceci est indispensable afin que vous vous y retrouviez lorsque vous ferez le bilan de votre projet.</p>
                         <p>Par ailleurs, il est indispensable de tenir compte des <strong>spécificités de votre entreprise</strong>, de <strong>votre projet</strong> et du contexte dans lequel il doit s'ancrer en vue de mettre en place une <strong>stratégie de communication digitale</strong> la plus adaptée possible.</p>
                         <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Une agence à l'écoute face à vos problématique</h3>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Une agence à l'écoute face à vos problématiques</h3>
                         <br/>
                         <p>Chaque projet est différent. Cette différence est ce qui constitue leur force. Pour <strong>développer un projet</strong> au plus près de vos besoins et qui vous ressemble, <strong>nos professionnels</strong> sont à l'écoute de vos problématiques. Un état des lieux est réalisé pour englober tous les paramètres nécessaires à la <strong>définition d'une stratégie sur-mesure</strong> déployée pour vous et vos clients. Le <strong>marketing digital</strong> est un outil qui doit vous permettre de répondre à vos besoins les plus spécifiques en termes de <strong>communication</strong>.</p>
                         <br/>
