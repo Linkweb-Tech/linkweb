@@ -24,7 +24,6 @@ import climaf from "../images/climaf-avis.png";
 import faivre from "../images/faivre-avis.png";
 import contis from "../images/contis-avis.png";
 import mac from "../images/mac-linkweb.jpg";
-import arriereplan from "../images/creation-site-internet-toulouse-bg.jpg";
 
 
 class CreationSiteInternetToulousePage extends React.Component {
@@ -86,7 +85,7 @@ class CreationSiteInternetToulousePage extends React.Component {
                 > */}
 
 
-<section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ arriereplan +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center top'}}>
+<section className="flex bg-creation items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center">
             <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                 <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                     <div className="w-full  text-3xl text-center font-bold text-white century">4,5/5</div>

@@ -132,6 +132,13 @@ footer {
     z-index: 15;
 }
 
+.bg-creation {
+    background:#000000ad url("../images/creation-site-internet-toulouse-bg.jpg");
+    background-blend-mode:overlay; 
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-position:center top;
+}
 
 .roundedButton {
     transition: all ease 0.7s;
