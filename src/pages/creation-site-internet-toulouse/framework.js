@@ -61,7 +61,7 @@ class framework extends React.Component {
                             </h1>
                         </div>
                     </section>
-                    <section className="w-full mt-10 text-justify century font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
+                    <section className="w-full mt-10 text-justify century font-normal flex flex-col lg:flex-row lg:justify-center" data-aos="fade-right">
                         <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
                         <br/>
                         <h2 className="text-3xl text-bleu font-bold">Qu'est-ce qu'un framework ?</h2>
@@ -73,15 +73,15 @@ class framework extends React.Component {
                                     <br/>
                                 Les frameworks s’apparentent à des <strong className="font-normal">plugins</strong> que l’on va venir greffer au <strong className="font-normal">site internet</strong> ou à l’<strong className="font-normal">application web</strong> pour les rendre utilisables. Ils possèdent généralement un <strong className="font-normal">support de documentation</strong> dans lequel sont indiqués les classes et autres éléments prédéfinis. Ceci est très utile dans le travail des <strong className="font-normal">développeurs front end</strong> en termes de <strong className="font-normal">web design</strong>. Non seulement cela permet de gagner du temps dans la <strong className="font-normal">conception du site</strong>, mais il est également possible de travailler son <strong className="font-normal">responsive design</strong> sans passer nécessairement par les « media queries » pour mettre en place des <strong className="font-normal">interfaces user</strong> friendly.<br/>
                                     <br/>
-                                Tout cela est rendu possible grâce aux frameworks. Linkweb est en mesure de travailler avec certains frameworks pour la <strong><Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/">création de site internet à Toulouse</Link></strong>.
+                                Tout cela est rendu possible grâce aux frameworks. Linkweb est une <Link to="/" className="text-bleu hover:text-black font-bold">agence web</Link> en mesure de travailler avec certains frameworks pour la <strong>{/*<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/">*/}création de site internet à Toulouse{/*</Link>*/}</strong>.
                             </p>
-                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
+                            {/*<Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Création site internet Toulouse"
                             className="mx-auto block max-w-full mt-12"
-                        /></Link>
+                            /></Link>*/}
                         </div>
-                        <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                        {/*<div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
                             <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
                                 <h2>Vous souhaitez mettre en place un projet web ?</h2>
                                 <br/>
@@ -124,7 +124,7 @@ class framework extends React.Component {
                             <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/"><li>Webmarketing</li></Link>
                             </ul>
                             </div>
-                        </div>
+                        </div>*/}
                     </section>
                 {/* </PageTransition> */}
             </Layout>
