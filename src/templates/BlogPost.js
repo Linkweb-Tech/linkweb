@@ -54,9 +54,9 @@ const BlogPostTemplate = ({ data }) => (
 
     </section>
     <section className="px-6 lg:px-64 font-bold" data-aos="fade-left">
-      <Link className="hover:text-bleu" to="/actualite-digitale/"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu"
+      <Link className="hover:text-bleu" to="/actualite-digitale/"> Accueil du blog</Link> <span className="text-bleu">`{'>>'}`</span> <a className="hover:text-bleu"
         href={`/blog/${data.wordpressPost.categories[0].slug}/`}>{data.wordpressPost.categories[0].name}</a>
-      <span className="text-bleu">>></span>
+      <span className="text-bleu">`{'>>'}`</span>
       <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}/`}>{data.wordpressPost.title}</Link>
     </section>
     <section className="flex flex-col xl:flex-row flex justify-center px-12 md:px-24 lg:px-32 xl:px-48">

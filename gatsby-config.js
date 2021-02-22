@@ -114,13 +114,13 @@ module.exports = {
         icon: `src/images/lw.png`
       }
     },
-    `gatsby-plugin-page-transitions`,
-    {
-      resolve: 'gatsby-plugin-page-transitions',
-      options: {
-        transitionTime: 700
-      }
-    },
+    // `gatsby-plugin-page-transitions`,
+    // {
+    //   resolve: 'gatsby-plugin-page-transitions',
+    //   options: {
+    //     transitionTime: 700
+    //   }
+    // },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -211,6 +211,7 @@ module.exports = {
       // }
     },
     // yarn 
+    `gatsby-plugin-loadable-component-ssr`,
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-google-analytics`,
