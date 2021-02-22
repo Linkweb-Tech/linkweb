@@ -211,7 +211,7 @@ module.exports = {
       // }
     },
     // yarn 
-    `gatsby-plugin-loadable-component-ssr`,
+    `gatsby-plugin-loadable-components-ssr`,
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-google-analytics`,
