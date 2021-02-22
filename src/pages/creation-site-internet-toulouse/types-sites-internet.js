@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -17,26 +17,26 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class TypesSites extends React.Component {
+class TypesSites extends Component {
 
     constructor(props) {
         super(props);
-    
+
     }
 
-render() {
-    return (
-        <Layout location={this.props.location}>
+    render() {
+        return (
+            <Layout location={this.props.location}>
 
-            <SEO
-                title="Types de sites internet | Création site internet à Toulouse (31)"
-                description="Nous développons différents types de sites internet pour répondre aux besoins les plus précis pour des professionnels de tout horizon."
-                keywords={[`Création site internet Toulouse`, `Création site internet Agen`, `Agence Web Toulouse`]}
-                url="https://linkweb.fr/creation-site-internet-toulouse/types-sites-internet/"
-                nom="Les différents types de sites internet"
-                slug="creation-site-internet-toulouse/types-sites-internet/"
-            />
-            {/* <PageTransition
+                <SEO
+                    title="Types de sites internet | Création site internet à Toulouse (31)"
+                    description="Nous développons différents types de sites internet pour répondre aux besoins les plus précis pour des professionnels de tout horizon."
+                    keywords={[`Création site internet Toulouse`, `Création site internet Agen`, `Agence Web Toulouse`]}
+                    url="https://linkweb.fr/creation-site-internet-toulouse/types-sites-internet/"
+                    nom="Les différents types de sites internet"
+                    slug="creation-site-internet-toulouse/types-sites-internet/"
+                />
+                {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -55,50 +55,50 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{ background: '#00000094 url(' + background + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center', height: '450px' }}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-64">
-                    Les différents types de sites internet
+                        Les différents types de sites internet
                     </h2>
                     <Link to="/creation-site-internet-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Création de site internet à Toulouse</h1></Link>
-                    <br/>
+                    <br />
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
-                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ fbIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
+                        <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                            <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={fbIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
                                     />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ twitterIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ instaIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    style={{maxHeight:'50px', minWidth:'15px'}}
-                                    />
-                                    </a>
-                                </div>
+                                </a>
                             </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={twitterIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                    />
+                                </a>
+                            </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={instaIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                        style={{ maxHeight: '50px', minWidth: '15px' }}
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-                
+
                 <section className="w-full  flex flex-col xl:flex-row flex justify-center">
-                    
+
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
                             <li>
@@ -179,77 +179,77 @@ render() {
                         </ul>
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
-                        
-                        <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Définition du projet <span className="text-bleu">></span> Les différents types de sites internet</p>
-                        <h3>La création de site internet pour professionnels permet de répondre à de nombreuses problématiques. En effet, à chaque problématique répond une solution web définie en fonction de votre activité, de vos objectifs et de ce qu’attendent les internautes. Pour ce faire, il n’existe pas un, mais bien plusieurs types de sites internet.</h3>
-                        <br/>
-                        <h2>Créer un site web selon vos motivations</h2>
-                            <p>Si vous souhaitez <strong>créer un site internet pour votre entreprise</strong>, il est logique de prendre le temps de rechercher la bonne formule, celle qui répondra le mieux à vos besoins.</p>
-                            <p>Que vous souhaitiez <strong>vendre vos produits en ligne</strong>, <strong>promouvoir votre activité</strong> ou développer une <strong>carte de visite en ligne</strong> pour votre entreprise, il existe une solution.</p>
-                            <p>Ainsi, il est essentiel de bien réfléchir à vos motivations ainsi qu’aux objectifs de votre création de site internet en vue de définir le type de site web qui vous correspondra le mieux.</p>
-                            <p>Ceci est déterminant afin de <strong>créer un site internet</strong> fonctionnel et <strong>à votre image</strong> et ainsi affirmer votre <strong>présence sur le web</strong>.</p>
-                        <h2>Les différents types de sites internet</h2>
-                            <p>En <strong>création de site internet</strong>, choisir le <strong>type de site internet</strong> qui vous correspond est essentiel pour la suite de <strong>votre projet web</strong>. Toutefois, il faut savoir qu’il est aussi possible de mettre en place une <strong>solution sur-mesure</strong>. L’intérêt du sur-mesure consiste à former une interface qui répond le plus précisément à vos besoins à partir de vos objectifs.</p>
 
-                            <p>Parmi les <strong>types de sites internet</strong>, nous en dénombrons cinq en particulier. Parmi eux, nous notons :</p> 
-                            <ul>
-                                <li><span className="text-bleu">></span> Le <strong>site internet vitrine</strong>,</li>
-                                <li><span className="text-bleu">></span> Le <strong>site internet e-commerce</strong>,</li>
-                                <li><span className="text-bleu">></span> Le <strong>site internet catalogue</strong>,</li>
-                                <li><span className="text-bleu">></span> Le <strong>site internet administrable</strong>,</li>
-                                <li><span className="text-bleu">></span> Ainsi que le site internet sur-mesure.</li>
-                            </ul>
-                            <p>Chaque <strong>type de site web</strong> présente des spécificités qui vont permettre de répondre aux attentes de chaque professionnel.</p>
-                            <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet vitrine</h3>
+                        <p style={{ marginBottom: '50px' }}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Définition du projet <span className="text-bleu">></span> Les différents types de sites internet</p>
+                        <h3>La création de site internet pour professionnels permet de répondre à de nombreuses problématiques. En effet, à chaque problématique répond une solution web définie en fonction de votre activité, de vos objectifs et de ce qu’attendent les internautes. Pour ce faire, il n’existe pas un, mais bien plusieurs types de sites internet.</h3>
+                        <br />
+                        <h2>Créer un site web selon vos motivations</h2>
+                        <p>Si vous souhaitez <strong>créer un site internet pour votre entreprise</strong>, il est logique de prendre le temps de rechercher la bonne formule, celle qui répondra le mieux à vos besoins.</p>
+                        <p>Que vous souhaitiez <strong>vendre vos produits en ligne</strong>, <strong>promouvoir votre activité</strong> ou développer une <strong>carte de visite en ligne</strong> pour votre entreprise, il existe une solution.</p>
+                        <p>Ainsi, il est essentiel de bien réfléchir à vos motivations ainsi qu’aux objectifs de votre création de site internet en vue de définir le type de site web qui vous correspondra le mieux.</p>
+                        <p>Ceci est déterminant afin de <strong>créer un site internet</strong> fonctionnel et <strong>à votre image</strong> et ainsi affirmer votre <strong>présence sur le web</strong>.</p>
+                        <h2>Les différents types de sites internet</h2>
+                        <p>En <strong>création de site internet</strong>, choisir le <strong>type de site internet</strong> qui vous correspond est essentiel pour la suite de <strong>votre projet web</strong>. Toutefois, il faut savoir qu’il est aussi possible de mettre en place une <strong>solution sur-mesure</strong>. L’intérêt du sur-mesure consiste à former une interface qui répond le plus précisément à vos besoins à partir de vos objectifs.</p>
+
+                        <p>Parmi les <strong>types de sites internet</strong>, nous en dénombrons cinq en particulier. Parmi eux, nous notons :</p>
+                        <ul>
+                            <li><span className="text-bleu">></span> Le <strong>site internet vitrine</strong>,</li>
+                            <li><span className="text-bleu">></span> Le <strong>site internet e-commerce</strong>,</li>
+                            <li><span className="text-bleu">></span> Le <strong>site internet catalogue</strong>,</li>
+                            <li><span className="text-bleu">></span> Le <strong>site internet administrable</strong>,</li>
+                            <li><span className="text-bleu">></span> Ainsi que le site internet sur-mesure.</li>
+                        </ul>
+                        <p>Chaque <strong>type de site web</strong> présente des spécificités qui vont permettre de répondre aux attentes de chaque professionnel.</p>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Le site internet vitrine</h3>
                         <ul>
                             <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#3c3c3c3c" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#3c3c3c3c" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
+                                <svg width="80px" viewBox="0 0 100 125" style={{ marginTop: '-28px' }}>
+                                    <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                    <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                    <path fill="#3c3c3c3c" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                    <path fill="#3c3c3c3c" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                    <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                </svg>
                             </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS</li>
+                            <li style={{ marginTop: '-53px' }}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS</li>
                             <li><span className="font-bold">Objectifs :</span> présenter et promouvoir son activité, <strong>acquérir de la visibilité</strong>, obtenir de <strong>nouveaux contacts</strong> en élargissant sa zone de prospection.</li>
                             <li><span className="font-bold">Intérêt :</span> Développer sa <strong>présence sur le Web</strong> de manière simple.</li>
                             <li><span className="font-bold">Type de référencement envisagé :</span> <strong>référencement naturel</strong>, <strong>référencement local</strong>.</li>
                         </ul>
-                            <p>Dès lors qu’il est question de mettre en avant vos services, votre activité ou encore votre entreprise, le <strong>site internet vitrine</strong> est la <strong>solution internet</strong> la mieux adaptée. En effet, le <strong>site internet vitrine</strong>, comme son nom l’indique, est une interface de présentation de votre entreprise.</p>
+                        <p>Dès lors qu’il est question de mettre en avant vos services, votre activité ou encore votre entreprise, le <strong>site internet vitrine</strong> est la <strong>solution internet</strong> la mieux adaptée. En effet, le <strong>site internet vitrine</strong>, comme son nom l’indique, est une interface de présentation de votre entreprise.</p>
 
-                            <p>À ce niveau, il est essentiel que ce dernier présente les informations principales concernant votre entreprise :</p>
-                            <ul>
-                                <li><span className="text-bleu">></span> Son activité,</li>
-                                <li><span className="text-bleu">></span> Sa particularité,</li>
-                                <li><span className="text-bleu">></span> Son rôle et son organisation,</li>
-                                <li><span className="text-bleu">></span> Sa situation géographique,</li>
-                                <li><span className="text-bleu">></span> Ses modalités de contact (téléphone ou mail),</li>
-                                <li><span className="text-bleu">></span> Etc.</li>
-                            </ul>
-                            <p>La <strong>création de ce type de site internet</strong> est utile lorsqu’il est question de donner de la <strong>visibilité</strong> à son entreprise sur <strong>Internet</strong>. Il est possible, grâce à un <strong>site internet vitrine</strong>, d’élargir son ciblage grâce au <strong>référencement naturel</strong>.</p>
+                        <p>À ce niveau, il est essentiel que ce dernier présente les informations principales concernant votre entreprise :</p>
+                        <ul>
+                            <li><span className="text-bleu">></span> Son activité,</li>
+                            <li><span className="text-bleu">></span> Sa particularité,</li>
+                            <li><span className="text-bleu">></span> Son rôle et son organisation,</li>
+                            <li><span className="text-bleu">></span> Sa situation géographique,</li>
+                            <li><span className="text-bleu">></span> Ses modalités de contact (téléphone ou mail),</li>
+                            <li><span className="text-bleu">></span> Etc.</li>
+                        </ul>
+                        <p>La <strong>création de ce type de site internet</strong> est utile lorsqu’il est question de donner de la <strong>visibilité</strong> à son entreprise sur <strong>Internet</strong>. Il est possible, grâce à un <strong>site internet vitrine</strong>, d’élargir son ciblage grâce au <strong>référencement naturel</strong>.</p>
 
-                            <p>Toutefois, l’une des motivations principales d’un <strong>site internet vitrine</strong> consiste à <strong>obtenir des contacts</strong>. À l’image d’une carte de visite, le <strong>site internet</strong> est accessible 24h/24 et 7 jours/7 et vise à faciliter l’obtention de contacts prospects par voie numérique.</p>
+                        <p>Toutefois, l’une des motivations principales d’un <strong>site internet vitrine</strong> consiste à <strong>obtenir des contacts</strong>. À l’image d’une carte de visite, le <strong>site internet</strong> est accessible 24h/24 et 7 jours/7 et vise à faciliter l’obtention de contacts prospects par voie numérique.</p>
 
-                            <p>Tout son intérêt dépend de la mise en place d’un outil fonctionnel présentant l’ensemble des informations nécessaires tout en donnant la possibilité d’être contacté. Le <strong>site internet vitrine</strong> est notamment utilisé pour la <strong>création de site internet institutionnel</strong> ou encore pour la <strong>création d’un site internet</strong> pour une entreprise artisanale par exemple.</p>
+                        <p>Tout son intérêt dépend de la mise en place d’un outil fonctionnel présentant l’ensemble des informations nécessaires tout en donnant la possibilité d’être contacté. Le <strong>site internet vitrine</strong> est notamment utilisé pour la <strong>création de site internet institutionnel</strong> ou encore pour la <strong>création d’un site internet</strong> pour une entreprise artisanale par exemple.</p>
 
-                            <Link className="text-black font-bold hover:text-bleu" to="../creation-site-internet-vitrine/">>> En savoir plus sur le site internet vitrine</Link>
-                            <br/>
-                            <hr style={{width:'100%'}}/>
-                            <br/>
-                            <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet e-commerce</h3>
+                        <Link className="text-black font-bold hover:text-bleu" to="../creation-site-internet-vitrine/">>> En savoir plus sur le site internet vitrine</Link>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Le site internet e-commerce</h3>
                         <ul>
                             <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
+                                <svg width="80px" viewBox="0 0 100 125" style={{ marginTop: '-28px' }}>
+                                    <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                    <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                    <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                    <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                    <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                </svg>
                             </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
+                            <li style={{ marginTop: '-53px' }}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
                             <li><span className="font-bold">Objectifs :</span> Vendre ses produits, élargir sa zone de prospection, <strong>augmenter sa visibilité et sa notoriété</strong>.</li>
                             <li><span className="font-bold">Intérêt :</span> Vendre ses produits auprès d’une cible élargie et complémentaire à son commerce physique.</li>
                             <li><span className="font-bold">Type de référencement envisagé :</span> référencement au détail de type longue traine.</li>
@@ -258,21 +258,21 @@ render() {
                         <p>Le <strong>site internet e-commerce</strong> dispose de tous les modules nécessaires pour faciliter les interactions, que ce soit en termes de <strong>back office</strong>, ou bien d’<strong>interface utilisateur</strong>.</p>
                         <p>Ainsi, du compte client à la <strong>fiche produit</strong> en passant par les modalités de livraison et les moyens de paiement, le <strong>site internet e-commerce</strong> est parfaitement adapté pour les commerces. Combiné à une <strong>stratégie de référencement naturel</strong> basée sur la longue traîne, le <strong>site internet e-commerce</strong> s’avère être un outil redoutable.</p>
                         <Link className="text-black font-bold hover:text-bleu" to="../creer-une-boutique-en-ligne/">>> En savoir plus sur le site internet e-commerce</Link>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet catalogue</h3>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Le site internet catalogue</h3>
                         <ul>
                             <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#3c3c3c3c" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
+                                <svg width="80px" viewBox="0 0 100 125" style={{ marginTop: '-28px' }}>
+                                    <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                    <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                    <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                    <path fill="#3c3c3c3c" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                    <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                </svg>
                             </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS</li>
+                            <li style={{ marginTop: '-53px' }}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS</li>
                             <li><span className="font-bold">Objectifs :</span> Présenter ses produits ou services, <strong>améliorer sa visibilité et sa notoriété</strong>, <strong>acquérir de nouveaux contacts</strong>.</li>
                             <li><span className="font-bold">Intérêt :</span> Profiter des avantages de mise en avant des produits du <strong>e-commerce</strong> sans la vente de produits.</li>
                             <li><span className="font-bold">Type de référencement envisagé :</span> référencement au détail de type longue traine, référencement local.</li>
@@ -280,21 +280,21 @@ render() {
                         <p>La <strong>création d’un site internet catalogue</strong> est recommandée lorsque vous souhaitez présenter vos produits et leurs spécificités sans donner la possibilité de les vendre directement en ligne. Le <strong>site internet catalogue</strong> est un bon moyen de tirer profit des avantages du <strong>site vitrine</strong> et du <strong>site e-commerce</strong> à la fois.</p>
                         <p>Le site internet catalogue permet la mise en place de fiches produits vous permettant de mettre en avant les spécificités de vos produits. Cela peut s’avérer particulièrement utile pour un professionnel travaillant sur devis.</p>
                         <p>Ce type de <strong>site internet</strong> doit permettre de mettre en avant ses produits et leurs spécificités afin d’<strong>acquérir de nouveaux contacts</strong>. Ce type de site peut-être parfaitement adapté pour des professionnels de la vente de cuisines, de carrelage, pour les agences immobilières et bien plus encore.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet administrable</h3>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Le site internet administrable</h3>
                         <ul>
-                        <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
+                            <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
+                                <svg width="80px" viewBox="0 0 100 125" style={{ marginTop: '-28px' }}>
+                                    <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                    <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                    <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                    <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                    <path fill="#3c3c3c3c" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                </svg>
                             </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
+                            <li style={{ marginTop: '-53px' }}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
                             <li><span className="font-bold">Objectifs :</span> <strong>Améliorer sa visibilité</strong> et sa notoriété, faciliter l’accès et la <strong>gestion de l’administration du site</strong>.</li>
                             <li><span className="font-bold">Intérêt :</span> Faciliter et optimiser la <strong>mise à jour du site internet</strong> en interne.</li>
                             <li><span className="font-bold">Type de référencement envisagé :</span> référencement naturel.</li>
@@ -303,21 +303,21 @@ render() {
                         <p>Ceci a pour objectif de faciliter la mise à jour des informations présentes sur le site et ainsi avoir la main sur le contenu publié.</p>
                         <p>La mise en place de ce type de solution présente un intérêt lorsqu’il est question d’ajouter ou supprimer des produits de son <strong>site web</strong> ou encore lorsque le site internet dispose d’un blog à mettre à jour, par exemple.</p>
                         <p>Il existe de nombreuses possibilités permettant d’améliorer son efficacité et son organisation par le biais d’un accès direct à l’<strong>administration de son site internet</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Le site internet sur-mesure</h3>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Le site internet sur-mesure</h3>
                         <ul>
-                        <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
-                            <svg  width="80px" viewBox="0 0 100 125" style={{marginTop:'-28px'}}>
-                            <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                            <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                            <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                            <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                            <path fill="#37cfee" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                        </svg>
+                            <li className="flex flex-row "><span className="font-bold">Difficulté :</span>
+                                <svg width="80px" viewBox="0 0 100 125" style={{ marginTop: '-28px' }}>
+                                    <path fill="#37cfee" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                    <path fill="#37cfee" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                    <path fill="#37cfee" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                    <path fill="#37cfee" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                    <path fill="#37cfee" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                </svg>
                             </li>
-                            <li style={{marginTop:'-53px'}}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
+                            <li style={{ marginTop: '-53px' }}><span className="font-bold">Technologies mobilisées :</span> HTML/CSS/JS/PHP/MySQL, CMS</li>
                             <li><span className="font-bold">Objectifs :</span> Vendre ses produits, <strong>améliorer sa visibilité</strong> et sa notoriété, développer des fonctionnalités propres à son secteur d’activité (<strong>module de réservation, générateurs de devis, web services et API</strong>, etc.), acquérir de nouveaux contacts.</li>
                             <li><span className="font-bold">Intérêt :</span> Obtenir une solution qui s’adapte parfaitement à sa problématique.</li>
                             <li><span className="font-bold">Type de référencement envisagé :</span> référencement sur-mesure.</li>
@@ -328,26 +328,26 @@ render() {
                         <Link className="text-black font-bold hover:text-bleu" to="../creation-de-site-internet-47-31/">>> En savoir plus sur le site internet sur-mesure</Link>
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
-                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                                    <br/>
-                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
-                                    <br/>
-                                    <div className="w-1/2 flex flex-row justify-center items-center">
-                                    <br/>
-                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
-                                    </div>
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br />
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br />
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br />
+                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
                         </div>
                     </div>
-                    
+
                 </section>
 
-                
-                
-            {/* </PageTransition> */}
-        </Layout>
-    );
-}
+
+
+                {/* </PageTransition> */}
+            </Layout>
+        );
+    }
 };
 
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
@@ -60,14 +60,14 @@ function IndexPage(props) {
             transitionTime={200}
           > */}
 
-          
+
       {/* List of modals (Creation de sites, Referencement, Solution, Google Ads) */}
       <Modals />
       <Hero1></Hero1>
       <section id="x" className="max-w-md w-full mx-auto mt-12 px-4 py-0 my-0">
         <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
           {/*<Link to="/agence-digitale-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
-            <span className="font-bold">Agence digitale</span> à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span>
+          <span className="font-bold">Agence digitale</span> à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span>
           {/*</Link>*/}
         </h2>
         <hr className="blue"></hr>
@@ -114,13 +114,13 @@ function IndexPage(props) {
           <div className="w-1/2 mx-auto block">
             <br />
             <button
-                                    className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"                    
-                                    type="button"
-                                    onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href='/creation-site-internet-toulouse/';
-                                    }}
-                                > Créer votre site
+              className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = '/creation-site-internet-toulouse/';
+              }}
+            > Créer votre site
                                 </button>
             {/* <ButtonBlog url="/creation-site-internet-toulouse/" text="Créer votre site" color="darkgrey" /> */}
           </div>
@@ -164,13 +164,13 @@ function IndexPage(props) {
           <div className="w-1/2 mx-auto block">
             <br />
             <button
-                                    className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"                    
-                                    type="button"
-                                    onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href='/referencement-toulouse/';
-                                    }}
-                                > Devenir visible
+              className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = '/referencement-toulouse/';
+              }}
+            > Devenir visible
                                 </button>
             {/* <ButtonBlog url="/referencement-toulouse/" text="Devenir visible" color="darkgrey" /> */}
           </div>
@@ -215,13 +215,13 @@ function IndexPage(props) {
             <br />
             {/* <ButtonBlog url="/contact-agence-web-toulouse/" text="Définir votre projet" color="darkgrey" /> */}
             <button
-                                    className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"                    
-                                    type="button"
-                                    onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href='/contact-agence-web-toulouse/';
-                                    }}
-                                > Définir votre projet
+              className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = '/contact-agence-web-toulouse/';
+              }}
+            > Définir votre projet
                                 </button>
           </div>
         </div>
@@ -294,13 +294,13 @@ function IndexPage(props) {
                 </div>
               {/* <Button url="/blog/foire-aux-questions/" text="En savoir plus" position="center" /> */}
               <button
-                    className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"                    
-                    type="button"
-                    onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href='/blog/foire-aux-questions/';
-                    }}
-                ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
+                className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = '/blog/foire-aux-questions/';
+                }}
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
                 </button>
             </section>
           </div>
@@ -317,13 +317,13 @@ function IndexPage(props) {
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" /> */}
               <button
-                    className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"                    
-                    type="button"
-                    onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href='/contact-agence-web-toulouse/';
-                    }}
-                ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> Être recontacté
+                className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = '/contact-agence-web-toulouse/';
+                }}
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> Être recontacté
                 </button>
             </section>
           </div>
@@ -340,13 +340,13 @@ function IndexPage(props) {
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" /> */}
               <button
-                    className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"                    
-                    type="button"
-                    onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href='/contact-agence-web-toulouse/';
-                    }}
-                ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> Demander un devis
+                className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = '/contact-agence-web-toulouse/';
+                }}
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> Demander un devis
                 </button>
             </section>
 
@@ -372,14 +372,14 @@ function IndexPage(props) {
         <div className="w-1/2 mx-auto block lg:w-3/12">
           {/* <RoundButton className="items-center" color="darkgrey" text="Contactez-nous" url="/contact-agence-web-toulouse/" /> */}
           <button
-                            className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
-                            type="button"
-                            formtarget="_blank"
-                            onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href='/contact-agence-web-toulouse/';
-                            }}
-                        >CONTACTEZ-NOUS</button>
+            className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
+            type="button"
+            formtarget="_blank"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = '/contact-agence-web-toulouse/';
+            }}
+          >CONTACTEZ-NOUS</button>
         </div>
       </section>
       <section className="max-w-xl w-full mx-auto px-4 py-0 my-0">
@@ -439,26 +439,26 @@ function IndexPage(props) {
           >
             Vous êtes déjà clients ? Donnez nous votre avis !
                               </a> */}
-                              <button
-                            className="century text-sm hover:text-bleu"
-                            type="button"
-                            formtarget="_blank"
-                            onClick={(e) => {
-                            e.preventDefault();
-                            window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
-                            }}
-                        >Voir plus de témoignages</button>
+          <button
+            className="century text-sm hover:text-bleu"
+            type="button"
+            formtarget="_blank"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
+            }}
+          >Voir plus de témoignages</button>
                             &nbsp;
                             |&nbsp;
                             <button
-                            className="century text-sm hover:text-bleu"
-                            type="button"
-                            target="_blank"
-                            onClick={(e) => {
-                            e.preventDefault();
-                            window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
-                        }}
-                        >Vous travaillez déjà avec nous ? Donnez nous votre avis !</button>
+            className="century text-sm hover:text-bleu"
+            type="button"
+            target="_blank"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
+            }}
+          >Vous travaillez déjà avec nous ? Donnez nous votre avis !</button>
         </div>
       </section>
       {/* <section className="max-w-xl w-full mx-auto px-4 py-0 my-0">

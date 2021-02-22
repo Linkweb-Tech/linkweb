@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -17,26 +17,26 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class TravaillerAvecLinkweb extends React.Component {
+class TravaillerAvecLinkweb extends Component {
 
     constructor(props) {
         super(props);
-    
+
     }
 
-render() {
-    return (
-        <Layout location={this.props.location}>
+    render() {
+        return (
+            <Layout location={this.props.location}>
 
-            <SEO
-                title="Pourquoi travailler avec Linkweb ? | Agence Web à Toulouse (31)"
-                description="Linkweb est une agence web à taille humaine située à Toulouse et Agen. Voici les 6 raisons de travailler avec nous pour mener votre projet web."
-                keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Création site internet Toulouse`, `Création site internet Agen`]}
-                url="https://linkweb.fr/creation-site-internet-toulouse/travailler-avec-linkweb/"
-                nom="Travailler avec Linkweb"
-                slug="creation-site-internet-toulouse/travailler-avec-linkweb/"
-            />
-            {/* <PageTransition
+                <SEO
+                    title="Pourquoi travailler avec Linkweb ? | Agence Web à Toulouse (31)"
+                    description="Linkweb est une agence web à taille humaine située à Toulouse et Agen. Voici les 6 raisons de travailler avec nous pour mener votre projet web."
+                    keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Création site internet Toulouse`, `Création site internet Agen`]}
+                    url="https://linkweb.fr/creation-site-internet-toulouse/travailler-avec-linkweb/"
+                    nom="Travailler avec Linkweb"
+                    slug="creation-site-internet-toulouse/travailler-avec-linkweb/"
+                />
+                {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -55,50 +55,50 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{ background: '#00000094 url(' + background + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center', height: '450px' }}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-64">
-                    Pourquoi travailler avec Linkweb ?
+                        Pourquoi travailler avec Linkweb ?
                     </h2>
                     <Link to="/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Agence Web Toulouse</h1></Link>
-                    <br/>
+                    <br />
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
-                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ fbIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
+                        <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                            <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={fbIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
                                     />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ twitterIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ instaIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    style={{maxHeight:'50px', minWidth:'15px'}}
-                                    />
-                                    </a>
-                                </div>
+                                </a>
                             </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={twitterIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                    />
+                                </a>
+                            </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={instaIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                        style={{ maxHeight: '50px', minWidth: '15px' }}
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-                
+
                 <section className="w-full  flex flex-col xl:flex-row flex justify-center">
-                    
+
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
                             <li>
@@ -179,105 +179,105 @@ render() {
                         </ul>
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
-                        
-                        <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Travailler avec Linkweb <span className="text-bleu">></span> Pourquoi travailler avec Linkweb ?</p>
+
+                        <p style={{ marginBottom: '50px' }}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Travailler avec Linkweb <span className="text-bleu">></span> Pourquoi travailler avec Linkweb ?</p>
                         <h3>De nombreuses entreprises ont déjà choisi Linkweb pour mener leur projet de développement à travers le webmarketing. De la création sites internet à la mise en place de votre stratégie de référencement, Linkweb met en œuvre votre communication digitale pour apporter de la visibilité à votre entreprise.</h3>
-                        <br/>
+                        <br />
                         <p>Choisir une <strong>agence web</strong> pour développer son projet de <strong>création de site internet</strong> ou de développement de <strong>stratégie digitale</strong> peut parfois s'avérer laborieux. Pour comprendre pourquoi <strong>Linkweb</strong> est l'<strong>agence web</strong> qu'il vous faut pour mener votre <strong>projet web</strong>, voici 6 raisons de travailler avec <strong>Linkweb</strong>.</p>
-                        <br/>
+                        <br />
                         <h2>1/ Une agence web experte dans son domaine d'activité</h2>
-                        <br/>
-                            <p>La première raison qui doit vous encourager à choisir Linkweb est que vous avez affaire à une <strong>agence spécialisée dans la création de sites internet et le référencement SEO (Search Engine Optimization)</strong> depuis plus de dix ans.</p>
-                            <p>En effet, <strong>créer des sites internet</strong> fait partie de notre quotidien. C'est pourquoi, <strong>notre agence</strong> est à même de vous proposer un service de qualité pour atteindre vos <strong>objectifs de communication web</strong> et obtenir de <strong>nouveaux clients</strong>.</p>
-                            <p>Linkweb est experte dans trois domaines d'activité en particulier : </p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Création de site web</h3>
-                        <br/>
+                        <br />
+                        <p>La première raison qui doit vous encourager à choisir Linkweb est que vous avez affaire à une <strong>agence spécialisée dans la création de sites internet et le référencement SEO (Search Engine Optimization)</strong> depuis plus de dix ans.</p>
+                        <p>En effet, <strong>créer des sites internet</strong> fait partie de notre quotidien. C'est pourquoi, <strong>notre agence</strong> est à même de vous proposer un service de qualité pour atteindre vos <strong>objectifs de communication web</strong> et obtenir de <strong>nouveaux clients</strong>.</p>
+                        <p>Linkweb est experte dans trois domaines d'activité en particulier : </p>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Création de site web</h3>
+                        <br />
                         <p>Tout d'abord, notre <Link to="/" className="text-bleu hover:text-black font-bold"><strong>agence web à Toulouse</strong></Link> est compétente pour la <strong>création de votre site internet</strong>. Qu'il s'agisse d'un <strong>site vitrine</strong>, d'un <strong>site administrable</strong>, d'un <strong>site e commerce</strong> ou tout autre <strong>type de site internet</strong>, <strong>nos développeurs</strong> réalisent le <strong>développement sur mesure de sites web</strong> à <strong>votre image</strong> et qui respectent votre <strong>identité visuelle</strong>. Par l'utilisation de <strong>CMS</strong> (<strong>système de gestion de contenu</strong>comme <strong>Wordpress</strong>) ou bien par la <strong>création de sites "en dur"</strong>, nous proposons des <strong>solutions web</strong> variées et qui répondent à vos besoins.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Référencement Naturel</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Référencement Naturel</h3>
+                        <br />
                         <p><strong>Linkweb</strong> est également spécialisée dans le développement et l'application de <strong>stratégies de référencement naturel</strong>. Qu'il s'agisse d'une <strong>création de site</strong> ou bien de la réalisation d'une <strong>refonte du site</strong> de votre entreprise, <strong>nos solutions</strong> vous donnent accès à un <strong>site web visible dans les résultats des moteurs de recherche</strong> pour des <strong>requêtes recherchées</strong>. Nous mettons le <strong>web marketing</strong> à votre service en vous proposant des contenus et une <strong>optimisation technique</strong> qui vous permettront d'acquérir de la <strong>visibilité</strong>, de la <strong>notoriété</strong> et de la<strong>popularité sur le Web</strong>.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Gestion de campagnes Ads</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Gestion de campagnes Ads</h3>
+                        <br />
                         <p>Notre <strong>agence de communication web</strong> est également spécialisée dans la <strong>création de campagnes sponsorisées</strong> pour maximiser votre visibilité dans les <strong>pages de résultats de recherche</strong> grâce au <strong>référencement payant</strong>. Nous vous accompagnons dans la création de vos <strong>annonces Google Ads (anciennement Google Adwords)</strong> pour vous permettre d'obtenir un <strong>retour sur investissement</strong> grâce à des annonces de qualité et qui boosteront le <strong>taux de clics vers votre site web</strong>.</p>
-                        <br/>
+                        <br />
                         <h2>2/ Une agence web de proximité avec des interlocuteurs privilégiés</h2>
-                        <br/>
-                            <p><strong>Linkweb</strong> est une <strong>agence web</strong> à taille humaine située à <strong>Toulouse</strong> et <strong>Agen</strong>. Vous aurez affaire à des interlocuteurs à l'écoute et disponibles pour répondre à vos attentes et faire mûrir votre projet.</p>
-                            <p>Un suivi régulier est mis en place pour que vous soyez au plus proche des avancées effectuées sur <strong>votre site internet</strong>.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Une agence web à taille humaine à Toulouse et Agen</h3>
-                        <br/>
+                        <br />
+                        <p><strong>Linkweb</strong> est une <strong>agence web</strong> à taille humaine située à <strong>Toulouse</strong> et <strong>Agen</strong>. Vous aurez affaire à des interlocuteurs à l'écoute et disponibles pour répondre à vos attentes et faire mûrir votre projet.</p>
+                        <p>Un suivi régulier est mis en place pour que vous soyez au plus proche des avancées effectuées sur <strong>votre site internet</strong>.</p>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Une agence web à taille humaine à Toulouse et Agen</h3>
+                        <br />
                         <p>Notre agence est une agence à taille humaine. Nous attachons une importance toute particulière aux relations entretenues avec nos partenaires. Nous pensons que la mise en place d'une <strong>collaboration de qualité</strong> est indispensable à la réussite de vos <strong>projets web</strong>. C'est pourquoi, nos collaborateurs font preuve d'accessibilité, d'écoute et de <strong>réactivité</strong> pour répondre à vos besoins.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Un référent unique pour suivre votre projet</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Un référent unique pour suivre votre projet</h3>
+                        <br />
                         <p>Lorsque vous vous engagez avec <strong>Linkweb</strong>, un référent de votre projet est désigné pour assurer à la fois le <strong>travail sur votre site web</strong>, mais également le suivi vous permettant de vous tenir informé de l'avancée du projet. Des points réguliers sont fixés pour vous exposer le travail effectué et veiller à ce que des perspectives d'évolution en accord avec vos objectifs soient fixées. Ce suivi est important à la fois pour vous, comme pour nous. Nous devons connaître votre ressenti pour réaliser un travail qui collera au mieux à vos attentes.</p>
-                        <br/>
+                        <br />
                         <h2>3/ Une agence web proche des besoins de ses clients</h2>
-                        <br/>
+                        <br />
                         <p>Nos professionnels spécialisés dans le <strong>Web</strong> mettent leur <strong>expertise</strong> ainsi que leur expérience à votre profit pour vous permettre d'accéder à une <strong>stratégie web</strong> fondée sur vos besoins. Ceci est indispensable afin que vous vous y retrouviez lorsque vous ferez le bilan de votre projet.</p>
                         <p>Par ailleurs, il est indispensable de tenir compte des <strong>spécificités de votre entreprise</strong>, de <strong>votre projet</strong> et du contexte dans lequel il doit s'ancrer en vue de mettre en place une <strong>stratégie de communication digitale</strong> la plus adaptée possible.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Une agence à l'écoute face à vos problématiques</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Une agence à l'écoute face à vos problématiques</h3>
+                        <br />
                         <p>Chaque projet est différent. Cette différence est ce qui constitue leur force. Pour <strong>développer un projet</strong> au plus près de vos besoins et qui vous ressemble, <strong>nos professionnels</strong> sont à l'écoute de vos problématiques. Un état des lieux est réalisé pour englober tous les paramètres nécessaires à la <strong>définition d'une stratégie sur-mesure</strong> déployée pour vous et vos clients. Le <strong>marketing digital</strong> est un outil qui doit vous permettre de répondre à vos besoins les plus spécifiques en termes de <strong>communication</strong>.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Des professionnels forces de proposition</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Des professionnels forces de proposition</h3>
+                        <br />
                         <p>Grâce à leurs connaissances aiguisées du <strong>Web</strong> et des problématiques <strong>digitales</strong>, nos professionnels sont forces de proposition pour vous donner accès à des <strong>améliorations techniques et éditoriales</strong>. En effet, grâce à leur expérience, ils vous proposeront de nouvelles évolutions pour faire vivre votre projet et <strong>atteindre efficacement vos cibles</strong>. Cela passe notamment par la mise en place d'une <strong>expérience utilisateur</strong> et d'une <strong>ergonomie</strong> de plateforme soignées.</p>
-                        <br/>
+                        <br />
                         <h2>4/ Des spécialistes du référencement et de la création de site internet</h2>
-                        <br/>
+                        <br />
                         <p>La <strong>conception de sites internet</strong> fait partie de notre quotidien. En choisissant <strong>Linkweb</strong>, vous bénéficierez d'un contact privilégié avec des <strong>spécialistes du référencement</strong> et du <strong>développement web</strong>. Cette approche est essentielle pour définir des projets réalistes.</p>
                         <p>Que ce soit pour la définition du <strong>webdesign</strong> ou le <strong>référencement d'un site internet</strong>, <strong>nos compétences</strong> nous permettent de <strong>développer des projets globaux maîtrisés</strong>. Nous définissons les opportunités qui vous permettront de tirer profit d'une <strong>stratégie marketing</strong> conçue pour le succès.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Des professionnels compétents...</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Des professionnels compétents...</h3>
+                        <br />
                         <p>Les professionnels de notre <strong>agence digitale à Toulouse</strong> sont formés pour mettre en place des plateformes de qualité qui répondent aux <strong>attentes des utilisateurs</strong>, comme celles des <strong>robots</strong>. <strong>Créer un site internet responsive design</strong> est devenue la norme à l'heure où les robots sont plus que jamais attentifs à la <strong>qualité des sites web</strong>. De plus, nous nous adonnons à la <strong>création de contenus optimisés</strong> pour vous, pour les <strong>utilisateurs</strong> et pour les <strong>moteurs de recherche</strong>. Un <strong>développeur web</strong> est chargé de la <strong>conception de site internet vitrine</strong>, <strong>e-commerce</strong> ou tout simplement qui vous correspond.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>...pour la mise en place d'un projet web maîtrisé</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>...pour la mise en place d'un projet web maîtrisé</h3>
+                        <br />
                         <p>Le souci apporté au travail réalisé <strong>sur le site</strong> est tel qu'il est indispensable d'accorder une importance toute particulière aux détails pour <strong>être visible en première page des résultats de recherche</strong> pour des <strong>mots clés</strong> recherchés. Il n'est pas question de laisser de place au hasard pour vous permettre d'<strong>atteindre vos objectifs digitaux</strong>. Le <strong>site internet</strong> fait partie des <strong>supports de communication</strong> qui peuvent être particulièrement opportuns que ce soit en matière de <strong>visibilité</strong>, <strong>notoriété</strong>, <strong>image de marque</strong> ou <strong>e réputation</strong>.</p>
-                        <br/>
+                        <br />
                         <h2>5/ Un rôle de conseil dans le développement de votre entreprise sur le Web</h2>
-                        <br/>
+                        <br />
                         <p>Chaque <strong>nouveau site</strong> que nous créons répond à une nécessité bien spécifique. Pour mener à bien nos <strong>projets web</strong>, nous exerçons un rôle de <strong>conseil en stratégie digitale</strong>. Nous déterminerons parmi les différents <strong>moyens de communication</strong>, ceux qui seront les plus à même de répondre à vos besoins.</p>
                         <p>En effet, il peut-être souhaitable pour une entreprise d'intégrer des <strong>médias sociaux</strong> dans sa stratégie, par exemple, avec une <strong>visée de communication globale</strong>. Le <strong>webmarketing</strong> propose de nombreuses <strong>solutions digitales</strong> qui permettent de <strong>générer du trafic</strong> et de <strong>fidéliser</strong> les utilisateurs. Grâce à nos différentes <strong>expertises</strong>, nous chercherons la meilleure manière pour vous, de tirer profit des <strong>nombreux outils</strong> qui s'offrent à vous.</p>
                         <p>Du <strong>choix du nom de domaine de votre site</strong>, jusqu'à la <strong>conception web</strong> et la <strong>recherche de visibilité</strong>, notre <strong>agence web</strong> remplit un rôle de <strong>conseil en stratégie</strong> et de <strong>conseil en communication web</strong>. Il est important d'activer tous les <strong>leviers</strong> qui vous seront bénéfiques. Il en va de notre position de vous donner accès aux solutions les plus performantes possibles.</p>
-                        <br/>
+                        <br />
                         <h2>6/ Plus de 300 clients ont fait confiance à Linkweb</h2>
-                        <br/>
+                        <br />
                         <p>Avec plus de dix années d'ancienneté, ce sont déjà des <strong>centaines de clients qui ont fait confiance à Linkweb</strong> pour le <strong>développement de leur projet web</strong>. Qu'il s'agisse de la <strong>création de sites web</strong> ou de l'application de <strong>stratégies de visibilité</strong>, notre <strong>agence web</strong> a déjà contribué à de très nombreux projets.</p>
                         <p>C'est notamment grâce à cette expérience acquise auprès de <strong>professionnels issus de tous secteurs d'activité</strong> que notre <strong>agence de référencement</strong> est à même de proposer des services complets et qualifiés.</p>
                         <p>Du <strong>web design</strong> à la <strong>création graphique</strong> des éléments de <strong>votre site web</strong> en passant par la délimitation de son <strong>hébergement web</strong>, <strong>Linkweb</strong> est le <strong>prestataire web</strong> qui vous accompagne dans la <strong>réalisation d'un site web</strong> taillé pour vous.</p>
                         <div className="w-1/2">
-                            <ButtonBlog  url="/agence-de-communication-agen-47-toulouse-31/" text="Consulter nos réalisations" position="center" />
+                            <ButtonBlog url="/agence-de-communication-agen-47-toulouse-31/" text="Consulter nos réalisations" position="center" />
                         </div>
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
-                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                                    <br/>
-                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
-                                    <br/>
-                                    <div className="w-1/2 flex flex-row justify-center items-center">
-                                    <br/>
-                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
-                                    </div>
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br />
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br />
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br />
+                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
                         </div>
                     </div>
-                    
+
                 </section>
 
-                
-                
-            {/* </PageTransition> */}
-        </Layout>
-    );
-}
+
+
+                {/* </PageTransition> */}
+            </Layout>
+        );
+    }
 };
 
 

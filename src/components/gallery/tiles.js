@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Tile from './tile'
 import '../../scss/tiles.scss';
 
-import faivre1 from '../../images/faivre1.jpg'
-import faivre2 from '../../images/faivre2.jpg'
+//import faivre1 from '../../images/faivre1.jpg'
+//import faivre2 from '../../images/faivre2.jpg'
 import faivre3 from '../../images/faivre4.jpg'
 import csd from '../../images/csd-menuiserie.jpg'
 import sia from '../../images/sia.jpg'
@@ -14,22 +14,22 @@ import ledil from '../../images/ledilimmo.jpg'
 import aqua from '../../images/aquapensezvous-tiles.jpg'
 import cdhg from '../../images/cdhg.jpg'
 
-class Tiles extends React.Component {
-	render() {
+class Tiles extends Component {
+    render() {
         const data = [{
             id: 1,
             name: "SIA Université Toulouse 2",
-            image: sia, 
+            image: sia,
             url: "/realisations/sia/"
         }, {
             id: 2,
             name: "Atouts pour Tous",
-            image: atpt, 
+            image: atpt,
             url: "/realisations/atpt/"
         }, {
             id: 3,
             name: "SDIS 47",
-            image: sdis, 
+            image: sdis,
             url: "/realisations/sdis47/"
         }, /*{
             id: 4,
@@ -39,12 +39,12 @@ class Tiles extends React.Component {
         },*/ {
             id: 5,
             name: "Faivre Environnement",
-            image: faivre3, 
+            image: faivre3,
             url: "/realisations/groupe-faivre-environnement/"
         }, {
             id: 6,
             name: "Gabriel Services",
-            image: gabriel, 
+            image: gabriel,
             url: "/realisations/gabriel-services/"
         }, /*{
             id: 7,
@@ -54,39 +54,39 @@ class Tiles extends React.Component {
         },*/ {
             id: 8,
             name: "Ledil Immo",
-            image: ledil, 
+            image: ledil,
             url: "/realisations/ledilimmo/"
         }, {
             id: 9,
             name: "CSD Menuiserie",
-            image: csd, 
+            image: csd,
             url: "/realisations/csd-menuiserie/"
         },
         {
             id: 10,
             name: "Aqua Pensez-Vous",
-            image: aqua, 
+            image: aqua,
             url: "/realisations/aquapensezvous/"
         },
         {
             id: 11,
             name: "Conseil Départemental de Haute-Garonne",
-            image: cdhg, 
+            image: cdhg,
             url: "/realisations/conseil-departemental-haute-garonne/"
         }];
-        
-        
-		// Create tile for each item in data array
-		// Pass data to each tile and assign a key
-		return (
-            
-			<div className="tiles">
-				{data.map((data) => {
-					return <Tile data={data} key={data.id} name={data.name} url={data.url}/>
-				})}
-			</div>
-		);
-	}
+
+
+        // Create tile for each item in data array
+        // Pass data to each tile and assign a key
+        return (
+
+            <div className="tiles">
+                {data.map((data) => {
+                    return <Tile data={data} key={data.id} name={data.name} url={data.url} />
+                })}
+            </div>
+        );
+    }
 }
 
 export default Tiles; 

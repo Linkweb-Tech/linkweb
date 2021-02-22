@@ -1,21 +1,21 @@
-import React from 'react'
-import {Link} from 'gatsby'
+import React, { Component } from 'react'
+import { Link } from 'gatsby'
 import '../scss/categorieslist.scss'
 
-class CategoriesList extends React.Component {
+class CategoriesList extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props)
     }
 
-    render(){
+    render() {
 
         const list = this.props.list;
-        
-        return(
+
+        return (
             <section className="flex flex-col justify-center items-start pl-3">
                 {
-                    list.map(( {node} ) => (
+                    list.map(({ node }) => (
                         <a className="hover:text-bleu font-normal" href={`/blog/category/${node.slug}/`}><span> <span className="text-bleu">>></span> {node.name} </span></a>
                     ))
                 }

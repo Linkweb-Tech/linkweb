@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from 'react'
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
@@ -10,7 +10,7 @@ const BlogCatTemplate = ({ data }) => (
     <Layout location={data.wordpressPost.title}>
         {/* <SEO title={data.wordpressPost.title} description={data.wordpressPost.excerpt} /> */}
         <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
-        
+
     </Layout>
 )
 export default BlogCatTemplate

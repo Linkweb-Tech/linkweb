@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 import { Link } from "gatsby";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 
 import fbIcon from "../images/facebook-logo.svg";
 import twitterIcon from "../images/twitter-logo.svg";
@@ -9,7 +9,7 @@ import linkwebLogo from "../images/linkweb-black.png";
 import "../scss/header.scss";
 
 
-class Header extends React.Component {
+class Header extends Component {
 
   constructor(props) {
     super(props);

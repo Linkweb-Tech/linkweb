@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -21,26 +21,26 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class Questcequeleref extends React.Component {
+class Questcequeleref extends Component {
 
     constructor(props) {
         super(props);
-    
+
     }
 
-render() {
-    return (
-        <Layout location={this.props.location}>
+    render() {
+        return (
+            <Layout location={this.props.location}>
 
-            <SEO
-                title="Qu'est-ce que le référencement naturel ? | Création site internet à Toulouse (31)"
-                description="Le référencement naturel constitue l'une des principales portes d'entrée sur un site web."
-                keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
-                url="https://linkweb.fr/referencement-toulouse/quest-ce-que-le-referencement-naturel/"
-                nom="Qu'est-ce que le référencement naturel ?"
-                slug="referencement-toulouse/quest-ce-que-le-referencement-naturel/"
-            />
-            {/* <PageTransition
+                <SEO
+                    title="Qu'est-ce que le référencement naturel ? | Création site internet à Toulouse (31)"
+                    description="Le référencement naturel constitue l'une des principales portes d'entrée sur un site web."
+                    keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
+                    url="https://linkweb.fr/referencement-toulouse/quest-ce-que-le-referencement-naturel/"
+                    nom="Qu'est-ce que le référencement naturel ?"
+                    slug="referencement-toulouse/quest-ce-que-le-referencement-naturel/"
+                />
+                {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -59,50 +59,50 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{ background: '#00000094 url(' + background + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center', height: '450px' }}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl md:text-5xl xl:text-6xl text-center text-white mt-64">
-                    Qu'est-ce que le référencement naturel ?
+                        Qu'est-ce que le référencement naturel ?
                     </h2>
                     <Link to="/referencement-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Référencement à Toulouse</h1></Link>
-                    <br/>
+                    <br />
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
-                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ fbIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
+                        <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                            <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={fbIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
                                     />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ twitterIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ instaIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    style={{maxHeight:'50px', minWidth:'15px'}}
-                                    />
-                                    </a>
-                                </div>
+                                </a>
                             </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={twitterIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                    />
+                                </a>
+                            </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={instaIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                        style={{ maxHeight: '50px', minWidth: '15px' }}
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-                
+
                 <section className="w-full  flex flex-col  xl:flex-row flex justify-center">
-                    
+
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
                             <li>
@@ -183,110 +183,110 @@ render() {
                         </ul>
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
-                        
-                    <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
+
+                        <p style={{ marginBottom: '50px' }}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
                         <h3>Un site internet performant ne se contente pas d’un visuel réussi : il doit être visible pour exister.</h3>
-                        <br/>
+                        <br />
                         <p>Lorsqu’un <strong>site internet</strong> est créé, ce dernier n’est pas encore répertorié par les différents <strong>moteurs de recherche</strong>. Cela signifie qu’il n’est pas accessible, hormis par voie directe. Le <strong>référencement naturel</strong> consiste à faire connaître <strong>votre site internet aux moteurs de recherche</strong>, mais pas seulement.</p>
 
                         <p>Une fois votre site inscrit dans la base de données des moteurs, aussi appelée « <strong>index</strong> », il est important de mettre en place des actions qui vont permettre à votre site de ressortir lorsque des <strong>requêtes pertinentes</strong> sont effectuées. Ceci a pour objectif d’<strong>augmenter sa visibilité</strong> afin de <strong>générer du trafic vers votre site</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
                         <h2>Référencement naturel : définition</h2>
-                        <br/>
+                        <br />
                         <p>Au sens strict du terme, le <strong>référencement naturel</strong> consiste uniquement à répertorier un <strong>site internet sur Google</strong>, <strong>Bing</strong>, et bien d'autres <strong>moteurs de recherche</strong>. En effet, si le <strong>site internet</strong> n’est pas présent dans, ce que l’on appelle l’<strong>index des moteurs de recherche</strong>, ces derniers ne peuvent le restituer lorsqu’une recherche est effectuée.</p>
                         <p>Toutefois, le de <strong>référencement naturel</strong> ne se limite pas à cela. Le référencement naturel est directement lié à la notion de <strong>SEO : Search Engine Optimization</strong>, à savoir, <strong>optimisation pour les moteurs de recherche</strong>.</p>
                         <p>Ainsi, sous « <strong>référencement naturel</strong> » ou « <strong>SEO</strong> », est englobé l’ensemble des actions effectuées sur un site internet pour faire évoluer sa <strong>position dans les pages de résultats de recherche pour un mot-clé donné</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse" />
+                        <br />
                         <h2>Pourquoi travailler le référencement naturel ?</h2>
-                        <br/>
+                        <br />
                         <p>Il faut savoir que le <strong>référencement naturel</strong> est l’une des portes d’entrée principales pour un <strong>site web</strong>. Il consiste à <strong>apporter de la visibilité à un site internet</strong> via sa mise en avant dans les <strong>résultats de recherche des moteurs</strong>.</p>
                         <p>S’il est important de miser sur le <strong>référencement naturel</strong>, c’est tout simplement parce qu’il représente l’une des voies les plus prolifiques pour apporter du <strong>trafic sur son site internet</strong>. En effet, <a href="https://www.abondance.com/20171224-18757-infographie-33-chiffres-autour-seo.html" target="_blank" rel="noopener noreferrer" className="text-bleu hover:text-black">97% des expériences web commencent par un moteur de recherche</a>. Négliger ce facteur pourrait être dommageable pour la <strong>visibilité de son site web</strong>.</p>
                         <p>Une <strong>stratégie de référencement naturel</strong> peut-être orientée pour répondre à une problématique spécifique. Par exemple, une entreprise de services de proximité pourra bénéficier d’une <strong>stratégie de référencement local</strong> pour <strong>être visible</strong> dans sa zone de chalandise et ainsi générer de potentiels contacts.</p>
                         <p>La réussite d’une <strong>stratégie de référencement</strong> repose en partie sur le <strong>choix des mots-clés</strong>. En effet,  il est indispensable de <strong>choisir des mots-clés pertinents</strong> et fréquemment recherchés pour <strong>obtenir une visibilité ciblée</strong> et conséquente dans les <strong>pages de recherche d’un moteur</strong>.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Typologie de mots-clés</h3>
-                        <br/>
+                        <br />
                         <p>Le <strong>mot-clé</strong> a toujours constitué une question centrale en termes de référencement naturel. En effet, <strong>bien choisir ses mots-clés</strong> est décisif dans la mise en route d’une <strong>stratégie de référencement naturel</strong>. Aujourd’hui, le <strong>choix des mots-clés</strong> ne dépend plus seulement de facteurs statistiques. Il va également prendre en compte la notion d’<strong>intention de recherche</strong>.</p>
                         <p>Afin de proposer des <strong>résultats de recherche toujours plus pertinents</strong>, <strong>Google</strong> va interpréter la <strong>requête de l’utilisateur</strong> pour déterminer son <strong>intention de recherche</strong>. Est-ce qu’il cherche à acheter un produit ou un service ? Est-ce qu’il cherche simplement une information ? Google va interpréter la recherche pour lui fournir des résultats adaptés. C’est un critère dont il va falloir tenir compte.</p>
                         <p>Par ailleurs, il faut savoir qu’il existe une <strong>typologie de mots-clés</strong> en fonction de plusieurs paramètres : leur <strong>volume de recherche</strong> sur le moteur, le <strong>potentiel de conversion</strong> qu’il présente, ou encore le nombre de <strong>sites concurrents déjà positionnés</strong>. Parmi les plus connus, nous pouvons citer :</p>
-                        <br/>
+                        <br />
                         <ul>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Les mots-clés de courte traîne :</strong> ils sont composés de peu de termes et correspondent à une requête générique qui va drainer un <strong>fort volume de recherche</strong>, mais également une <strong>forte concurrence</strong>.</li>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Les mots-clés de longue traîne :</strong> ils sont composés, en général, de plus de trois termes, correspondent à des <strong>requêtes spécifiques</strong> qui vont générer un <strong>volume de recherche plus faible</strong>, mais avec une concurrence moins importante.</li>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Les mots-clés locaux :</strong> il s’agit d’expressions clés qui contiennent le nom d’une ville, d’un département ou encore d’une région.</li>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Les mots-clés événementiels :</strong> ce sont des mots-clés qui vont obtenir un <strong>fort volume de recherche sur une période de temps précise</strong>.</li>
                         </ul>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Comprendre une page de résultat de recherche (SERP)</h3>
-                        <br/>
+                        <br />
                         <p>Les <strong>pages de résultats des moteurs de recherche</strong>, appelées aussi <strong>SERP</strong> (de l’anglais <strong>Search Engine Results Page</strong>), vont être au coeur de l’<strong>évaluation de sa stratégie de référencement naturel</strong>. Toutefois, évaluer sa <strong>stratégie de référencement</strong> uniquement sur ce critère est insuffisant. Néanmoins, comprendre la composition d’une <strong>page de résultats</strong> est important pour partir sur de bonnes bases.</p>
                         <p>Tout d’abord, il faut savoir qu’il n’existe pas un seul modèle de <strong>page de résultats</strong>. Si l’on s’attèle à l’exemple de <strong>Google</strong>, il faut savoir que la <strong>composition des SERP</strong> va varier en fonction de l’<strong>intention de recherche</strong>. En interprétant la <strong>requête d’un utilisateur</strong>, le moteur va renvoyer une page de résultat qu’il va juger adaptée.</p>
                         <p>Par exemple, si la requête est de type « informationnel », alors le moteur va identifier que la réponse la plus adaptée sera une définition. En revanche, si la requête a pour finalité un achat, alors le moteur va proposer des <strong>pages web</strong> d’entreprises, ainsi que des annonces.</p>
-                        <br/>
+                        <br />
                         <h4>Composition classqie d'une page de résultat</h4>
-                        <br/>
+                        <br />
                         <p>Généralement, une <strong>page de résultat</strong> va être composée par des <strong>liens sponsorisés</strong> en haut et bas de page, marqués par la mention « Annonce », ainsi que 10 <strong>liens naturels</strong> classés par page en fonction de leur pertinence par rapport à la requête. Les <strong>liens sponsorisés</strong> sont directement liés à des annonces rémunérées via l’outil <strong>Google Ads</strong>. Les <strong>liens naturels</strong> sont « gratuits ».</p>
                         <p>Chacun des 10 <strong>liens naturels</strong> va présenter différents éléments : </p>
-                        <br/>
+                        <br />
                         <ul>
                             <li><span className="text-bleu">></span> Le <strong>chemin de l’URL</strong> (qui a remplacé l’adresse URL),</li>
                             <li><span className="text-bleu">></span> Le contenu de la <strong>balise « title » de la page</strong>,</li>
                             <li><span className="text-bleu">></span> Le contenu de la balise <strong>meta-description</strong> de la page,</li>
                         </ul>
-                        <br/>
-                        <img className="mx-0 block w-full" src={affichage} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <img className="mx-0 block w-full" src={affichage} alt="Référencement Toulouse" />
+                        <br />
                         <p>Si le travail d’optimisation n’est pas effectué, <strong>Google</strong> se chargera lui-même de définir les informations à afficher aux yeux des utilisateurs, d’où l’importance d’avoir la main sur ces éléments.</p>
-                        <br/>
+                        <br />
                         <h4>Autres éléments</h4>
-                        <br/>
+                        <br />
                         <p>En fonction de la recherche, Google va être en mesure d’afficher des éléments qui vont viser à apporter une information directement sur la <strong>page de recherche</strong> et ainsi permettre à l’utilisateur de gagner du temps. Cela peut avoir un impact négatif sur le <strong>trafic des sites web</strong> dans la mesure où l’internaute obtient sa réponse directement dans les <strong>résultats de recherche</strong>, avant même d'<strong>entrer sur le site</strong>.</p>
                         <p>Parmi les éléments que Google est en mesure d’afficher directement dans les <strong>pages de résultats de recherche</strong>, nous pouvons trouver :</p>
-                        <br/>
+                        <br />
                         <ul>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Des informations liées à la notion de recherche universelle :</strong> Google va afficher des éléments issus de ses différentes catégories de recherche à savoir : des résultats en provenance de <strong>Google Images</strong>, de <strong>Google Actualités</strong>, de <strong>Google Vidéos</strong>, etc.</li>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Des featured snippets :</strong> ils correspondent à la <strong>position 0 sur Google</strong> et constituent un encadré présentant une succincte information répondant à la requête d’un internaute. Son contenu provient de l’une des <strong>pages web répertoriées dans l’index</strong>.</li>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Des rich snippets :</strong> les <strong>données enrichies</strong> vont être directement liées à la notion de <strong>données structurées</strong>. Elles vont permettre d’afficher des informations complémentaires pour chaque lien. Il existe des <strong>schémas de données structurées</strong> pour tous types d'affichage : afficher le <strong>prix d’un produit</strong>, afficher les <strong>étoiles de notation d’un article de blog</strong>, afficher des <strong>recettes de cuisine</strong>.</li>
                             <li><span className="text-bleu">></span> <strong className="font-bold">Le local pack :</strong> le local pack est un encart qui se trouve généralement en haut d’une page de résultat. Il apparaît notamment lorsque la requête effectuée est de type <strong>local</strong>. Il va donc restituer trois entreprises inscrites sur l’outil <strong>Google My Business</strong> en fonction de plusieurs critères comme par exemple la <strong>géolocalisation</strong>.</li>
                         </ul>
-                        <br/>
+                        <br />
                         <p>Il faut savoir que Google met à jour régulièrement ses <strong>pages de résultats de recherche</strong>, ce qui peut amener à ce que de nouveaux éléments apparaissent.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={content} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={content} alt="Référencement Toulouse" />
+                        <br />
                         <h2>En quoi consiste le travail de référencement naturel ?</h2>
-                        <br/>
+                        <br />
                         <p>Le travail de référencement naturel est un travail qui demande des compétences techniques, une vision d’ensemble et ne peut s’évaluer que sur la durée. Appelé aussi « référencement gratuit » en opposition au <Link to="/agence-adwords-47-31/" className="text-bleu hover:text-black">« <strong>référencement payant</strong> »</Link> mené via <strong>Google Ads</strong>, il se mesure en main d’œuvre et en heures de travail.</p>
                         <p>S’il demande une vision d’ensemble, c’est tout simplement car il est pluridisciplinaire. <strong>Travailler le référencement naturel d’un site internet</strong> peut-être réalisé <strong>sur le site web</strong>, mais également en dehors de ce site internet. C’est aussi car il demande une certaine polyvalence et un certain équilibre entre réalisation technique et éditoriale.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Des compétences techniques</h3>
-                        <br/>
+                        <br />
                         <p>S’il n’est pas obligatoire d’avoir une formation dans le <strong>développement web</strong> pour travailler le <strong>référencement naturel d’un site</strong>, il faut en revanche en avoir des notions. Le référencement naturel est bien souvent une question de détails, c’est pourquoi il va être nécessaire de <strong>construire ses pages web</strong> de manière structurée.</p>
                         <p><strong>Optimiser la structure d’une page</strong>, mettre en place des <strong>données structurées</strong>, optimiser ses images, ou encore créer des <strong>contenus sur-mesure</strong> pour que le site réponde à la fois aux utilisateurs et aux <strong>robots des moteurs de recherche</strong> n’est pas une mince affaire.</p>
                         <p>Par ailleurs, avoir une vision stratégique est, d’emblée, indispensable pour mettre en œuvre une <strong>stratégie de référencement naturel</strong> qui se veut efficace. Ceci est élémentaire, car le référencement est une affaire de longue durée.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Un travail de longue haleine</h3>
-                        <br/>
+                        <br />
                         <p><strong>Bien positionner un site web</strong> sur une requête à succès demande du temps. Cela s’explique par le fait que la concurrence peut y être rude, mais également parce que <strong>Google a besoin d’indices pour accorder sa confiance à un site web</strong>. Pour déployer ces indices, cela va demander du temps. Non seulement, le contenu présenté doit être irréprochable, mais il va falloir prouver que <strong>votre site web</strong> est digne de confiance et se trouve donc légitime à être partagé.</p>
                         <p>Pour cela, il existe la notion d’autorité. En effet, Google se base sur des critères qui vont être liés à l’<strong>expertise, l’autorité et à la crédibilité</strong> (<Link to="/blog/les-3-piliers-du-referencement-naturel-lautorite-du-domaine/" className="text-bleu hover:text-black">E-A-T</Link> en anglais) du détenteur du site web en question dans son domaine de prédilection.</p>
                         <p>Ces indices, Google va aller les chercher partout sur le Web. En référencement naturel, ce qui se trouve sur le site internet est aussi important que ce qui se trouve en dehors. En fonction des <strong>requêtes ciblées</strong>, il va donc être plus ou moins compliqué de se positionner dans les meilleures places. C’est pourquoi, le <strong>travail de référencement naturel</strong> est un travail qui s’évalue sur la durée.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={stratref} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={stratref} alt="Référencement Toulouse" />
+                        <br />
                         <h2>Comment mettre en place une stratégie de référencement naturel ?</h2>
-                        <br/>
+                        <br />
                         <p>Avant de se lancer dans la <strong>mise en place d’une stratégie de référencement naturel</strong>, il est important de bien connaître le marché sur lequel on souhaite s’installer :</p>
-                        <br/>
+                        <br />
                         <ul>
                             <li><span className="text-bleu">></span> Quelles sont les attentes des utilisateurs ?</li>
                             <li><span className="text-bleu">></span> Quels sont les <strong>mots-clés</strong> les plus performants ?</li>
@@ -295,32 +295,32 @@ render() {
                             <li><span className="text-bleu">></span> Qu’est-ce que je gagne à me lancer dans le référencement naturel ?</li>
                         </ul>
                         <Link to="/contact-agence-web-toulouse/" className="font-bold text-bleu text-center text-xl hover:text-black">>> Demander un devis </Link>
-                        <br/>
+                        <br />
                         <p>Ceci est valable que vous possédiez déjà un site internet ou non. Il faut savoir qu’il existe des outils professionnels qui vont vous permettre d’obtenir des réponses à ces questions. Définir le <strong>cadre de son projet</strong> en amont de sa stratégie est important pour <strong>se lancer dans la bonne direction et ainsi saisir les bonnes opportunités</strong>.</p>
                         <p>Pour ce faire, avoir recours à une agence web spécialisée dans le référencement naturel peut-être un premier pas. En tant que spécialistes de ce domaine, nous encourageons les professionnels pour les accompagner dans le lancement de leurs projets. En effet, faire appel à des professionnels du référencement naturel vous fera économiser de nombreuses heures passées derrière votre écran.</p>
                         <p>Une <strong>stratégie de référencement naturel</strong> nécessite du temps avant de générer des résultats satisfaisants. Il est donc important de se lancer dans la bonne direction, et ce, dès le départ.</p>
                         <p>Si vous souhaitez mener un <strong>projet de référencement naturel</strong>, <strong>Linkweb</strong> est en mesure de vous apporter une réponse qualifiée et fonctionnelle.</p>
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
-                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                                    <br/>
-                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
-                                    <br/>
-                                    <div className="w-1/2 flex flex-row justify-center items-center">
-                                    <br/>
-                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
-                                    </div>
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br />
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br />
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br />
+                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                
-                
-            {/* </PageTransition> */}
-        </Layout>
-    );
-}
+
+
+                {/* </PageTransition> */}
+            </Layout>
+        );
+    }
 };
 
 

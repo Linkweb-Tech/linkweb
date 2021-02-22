@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'gatsby';
 
-class BlogMenu extends React.Component {
+class BlogMenu extends Component {
     constructor(props) {
         super(props);
     }

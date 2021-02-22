@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -28,26 +28,26 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class CommentSontCreesNosSites extends React.Component {
+class CommentSontCreesNosSites extends Component {
 
     constructor(props) {
         super(props);
-    
+
     }
 
-render() {
-    return (
-        <Layout location={this.props.location}>
+    render() {
+        return (
+            <Layout location={this.props.location}>
 
-            <SEO
-                title="Comment sont créés nos sites internet ? | Création site internet à Toulouse (31)"
-                description="Nous accompagnons les professionnels de l'élaboration de leur projet web à la mise à jour régulière de leur site internet. Voici comment sont créés nos sites internet."
-                keywords={[`Création site internet Toulouse`, `Création site internet Agen`, `Agence Web Toulouse`]}
-                url="https://linkweb.fr/creation-site-internet-toulouse/comment-sont-crees-nos-sites-internet/"
-                nom="Comment sont créés nos sites internet ?"
-                slug="creation-site-internet-toulouse/comment-sont-crees-nos-sites-internet/"
-            />
-            {/* <PageTransition
+                <SEO
+                    title="Comment sont créés nos sites internet ? | Création site internet à Toulouse (31)"
+                    description="Nous accompagnons les professionnels de l'élaboration de leur projet web à la mise à jour régulière de leur site internet. Voici comment sont créés nos sites internet."
+                    keywords={[`Création site internet Toulouse`, `Création site internet Agen`, `Agence Web Toulouse`]}
+                    url="https://linkweb.fr/creation-site-internet-toulouse/comment-sont-crees-nos-sites-internet/"
+                    nom="Comment sont créés nos sites internet ?"
+                    slug="creation-site-internet-toulouse/comment-sont-crees-nos-sites-internet/"
+                />
+                {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -66,50 +66,50 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{ background: '#00000094 url(' + background + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center', height: '450px' }}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-64">
-                    Comment sont créés nos sites internet ?
+                        Comment sont créés nos sites internet ?
                     </h2>
                     <Link to="/creation-site-internet-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Création de site internet à Toulouse</h1></Link>
-                    <br/>
+                    <br />
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
-                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ fbIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
+                        <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                            <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={fbIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
                                     />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ twitterIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ instaIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    style={{maxHeight:'50px', minWidth:'15px'}}
-                                    />
-                                    </a>
-                                </div>
+                                </a>
                             </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={twitterIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                    />
+                                </a>
+                            </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={instaIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                        style={{ maxHeight: '50px', minWidth: '15px' }}
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-                
+
                 <section className="w-full  flex flex-col xl:flex-row flex justify-center">
-                    
+
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
                             <li>
@@ -190,75 +190,75 @@ render() {
                         </ul>
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
-                        
-                        <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Développement du site <span className="text-bleu">></span> Comment sont créés les sites internet ?</p>
+
+                        <p style={{ marginBottom: '50px' }}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Questions techniques <span className="text-bleu">></span> Développement du site <span className="text-bleu">></span> Comment sont créés les sites internet ?</p>
                         <h3>Lorsque vous choisissez Linkweb pour la création de votre site internet, vous bénéficiez d’un accompagnement tout au long de votre projet web. </h3>
-                        <br/>
+                        <br />
                         <p>Par ailleurs, la <strong>mise en ligne de votre site web</strong> ne constitue pas une étape finale puisqu’un suivi est réalisé tout au long de votre engagement.</p>
                         <p>Nous mettons tout en œuvre pour vous proposer un <strong className="font-bold">site internet en totale adéquation avec vos objectifs, vos cibles ainsi qu’avec le marché</strong> que vous souhaitez intégrer.</p>
-                        <br/>
-                        <img src={linkweb} className="w-full" alt="Création site internet à Toulouse"/>
-                        <br/>
+                        <br />
+                        <img src={linkweb} className="w-full" alt="Création site internet à Toulouse" />
+                        <br />
                         <h2>Une expertise dans la création de site internet</h2>
-                        <br/>
+                        <br />
                         <p>Depuis plus de dix ans, la <strong className="font-bold">création de sites internet fait partie du quotidien de Linkweb</strong>. Grâce à notre expérience et notre compétence, nous sommes en mesure de <strong>proposer des sites internet professionnels</strong> qui répondent aux attentes de nos partenaires d’un point de vue <strong>technique</strong>, mais aussi <strong>éditorial</strong>.</p>
                         <p>Grâce à cette expérience, nous avons su approfondir nos <strong>connaissances dans le Web</strong> et aiguiser nos compétences pour proposer des <strong>projets web</strong> en total accord avec les standards actuels. Le <strong>Web</strong> est un monde en constante évolution, c’est pourquoi il est indispensable de se tenir informé des toutes dernières tendances.</p>
                         <p>Par ailleurs, notre expertise ne s’arrête pas à la <strong>création de site internet</strong> puisque nous développons des <strong>stratégies de visibilité</strong> destinées à offrir le maximum de <strong>performances à nos sites internet</strong>. L’<strong>acquisition de trafic</strong> est un <strong className="font-bold">moteur dans la vie d’un site internet</strong>, c’est pourquoi nous jugeons indispensable de mettre en place des procédés qui vous permettront d’obtenir un <strong>site web performant</strong>.</p>
-                        <br/>
-                        <hr className="bleu w-1/3" style={{borderTop:'1px solid #37cfee'}}/>
-                        <br/>
+                        <br />
+                        <hr className="bleu w-1/3" style={{ borderTop: '1px solid #37cfee' }} />
+                        <br />
                         <h2>Une ligne directrice : rendre votre site web performant</h2>
-                        <br/>
+                        <br />
                         <p>Lorsque nous <strong>créons un site internet</strong>, nous nous chargeons de définir un projet global en vue de propulser au mieux <strong>votre site sur le web</strong>. Ce travail passe par la <strong>définition d’une stratégie d’acquisition de trafic</strong> basée sur la <strong className="font-bold">visibilité de votre site internet sur le Web</strong>.</p>
                         <p>En effet, il existe plusieurs <strong>canaux d’acquisition de trafic</strong>. Pour rendre <strong>votre site web le plus performant</strong> possible, nous mettons en place une stratégie basée sur le <strong>canal d’acquisition</strong> le plus utilisé : <strong className="font-bold">le référencement naturel (trafic organique)</strong>. Il constitue une réelle porte d’entrée pour les <strong>utilisateurs sur votre site web</strong>.</p>
-                        <br/>
-                        <img src={performance} className="w-full" alt="creation site internet Toulouse"/>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Un site web conçu pour vos utilisateurs<span className="text-bleu">…</span></h3>
-                        <br/>
+                        <br />
+                        <img src={performance} className="w-full" alt="creation site internet Toulouse" />
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Un site web conçu pour vos utilisateurs<span className="text-bleu">…</span></h3>
+                        <br />
                         <p>Tout d’abord, il faut savoir que nous <strong>concevons des sites internet</strong> adaptés en fonction des <strong className="font-bold">habitudes et comportements des utilisateurs</strong>.</p>
                         <p>En effet, les <strong>attentes des internautes</strong>, lorsqu’ils visitent un <strong>site web</strong>, évoluent aux rythmes de l’<strong className="font-bold">apparition de nouvelles technologies de communication</strong>.</p>
                         <p>Il est donc important de produire un <strong className="font-bold">design intuitif et accessible</strong> en fonction des habitudes des utilisateurs, quel que soit le <strong className="font-bold">support utilisé (smartphone, tablette, ordinateur, etc.)</strong>.</p>
                         <p>Ceci a pour vocation de déployer une <strong>expérience utilisateur (UX design)</strong> optimale pour <strong className="font-bold">guider les utilisateurs tout au long de leur navigation</strong>. Une <strong>expérience utilisateur</strong> soignée est indispensable pour éviter des pertes de <strong>trafic</strong> liées à un <strong>temps de chargement</strong> trop long ou bien à une <strong>plateforme mal optimisée</strong>.</p>
                         <p>Une réflexion est donc portée sur le <strong>web design du site</strong> en vue de le rendre <strong>fonctionnel, intuitif et ludique</strong>.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}><span className="text-bleu">…</span>ainsi que pour les robots de recherche</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}><span className="text-bleu">…</span>ainsi que pour les robots de recherche</h3>
+                        <br />
                         <p>Par ailleurs et en vue d’<strong className="font-bold">obtenir des performances maximales</strong>, les <strong>sites web</strong> que nous créons sont également <strong className="font-bold">optimisés pour les moteurs de recherche</strong>. Dans le cadre d’une <strong>stratégie de référencement naturel</strong>, certaines <strong>optimisations techniques</strong> (au niveau du <strong>code HTML</strong> notamment) vont permettre de <strong className="font-bold">faciliter la lecture et la compréhension de votre page par les robots de recherche</strong>.</p>
                         <p>De plus, ceci est important pour que les <strong>pages web de votre site internet</strong> soient proposées dans les <strong>pages de résultats d’un moteur de recherche comme Google</strong>. <strong>Créer un site internet</strong> nécessite <strong className="font-bold">d’adopter une vision globale</strong> et l’<strong>acquisition de visibilité par les moteurs de recherche</strong> fait partie des critères importants.</p>
                         <p>Pour <strong className="font-bold">créer un site internet optimisé pour les moteurs de recherche</strong>, il faut garder à l’esprit que sa cible principale est un utilisateur humain. L’<strong>optimisation de votre site web</strong> va donc se traduire par la <strong>définition de mots-clés</strong> ciblés en fonction des <strong>requêtes</strong> effectuées et de <strong>contenus optimisés pour être pertinents</strong> vis-à-vis du champ sémantique du mot-clé visé.</p>
                         <p><strong className="font-bold">Obtenir de la visibilité sur les moteurs</strong> a pour objectif de maximiser le <strong>taux de clics vers votre site</strong>, tout en proposant un <strong>contenu adapté aux utilisateurs</strong>. En effet, le <strong>référencement naturel</strong> est une discipline particulière puisque c’est l’utilisateur qui vient à vous et non l’inverse. Il est donc nécessaire de proposer un contenu adéquat en rapport à ses besoins, sans oublier les contraintes techniques.</p>
-                        <br/>
-                        <hr className="bleu w-1/3" style={{borderTop:'1px solid #37cfee'}}/>
-                        <br/>
+                        <br />
+                        <hr className="bleu w-1/3" style={{ borderTop: '1px solid #37cfee' }} />
+                        <br />
                         <h2>Création de site internet : les étapes du projet</h2>
-                        <br/>
+                        <br />
                         <p>En choisissant <strong>Linkweb</strong> pour <strong>créer son site internet professionnel</strong>, vous bénéficiez d’un <strong className="font-bold">accompagnement de la définition de vos objectifs jusqu’à la mise à jour régulière de votre site</strong>. Notre <strong>service de création</strong> inclut également la sélection d’un <strong>hébergement web</strong> de qualité ainsi que d’un <strong>nom de domaine</strong> personnalisé.</p>
                         <p>Par ailleurs, la <strong>création d’un projet web</strong> va suivre des étapes qui nous permettrons de <strong className="font-bold">définir une solution web qui vous convient</strong>.</p>
-                        
+
                         <section className="flex my-4 flex-col md:flex-row items-center justify-center mx-auto max-w-5xl century px-0 text-justify">
                             <div className="w-full md:w-1/2 px-5 lg:px-0">
-                                <h3 className="font-bold text-bleu" style={{fontSize:'23px'}}>1/ Vous prenez contact avec nous</h3>
-                                <br/>
+                                <h3 className="font-bold text-bleu" style={{ fontSize: '23px' }}>1/ Vous prenez contact avec nous</h3>
+                                <br />
                                 <p>Si vous souhaitez vous engager dans un <strong>projet web</strong> (<strong>création de site web vitrine</strong>, <strong>e-commerce</strong>, <strong>sur-mesure</strong>, etc.), la première étape consiste à prendre contact avec nous, soit <a href="tel:0533950030" className="font-bold text-bleu hover:text-black">par téléphone</a>, soit via le <Link to="/contact-agence-web-toulouse/" className="text-bleu font-bold hover:text-black">formulaire de contact</Link> présent sur notre site.
                                 Nous vous recontacterons en vue de définir un devis précis et transparent concernant la <strong>définition de votre projet</strong>. Il est conseillé d’indiquer le maximum d’informations à propos de votre projet afin que nous ayons le maximum d’éléments pour vous fournir une réponse pertinente.</p>
-                                <br/>
+                                <br />
                             </div>
                             <div className="w-full flex justify-center md:w-1/2 my-8 px-5 lg:px-5 order-first md:order-last">
-                                <img width="200px" src={contact} alt="Agence Web Toulouse"/>
-                                <br/>
+                                <img width="200px" src={contact} alt="Agence Web Toulouse" />
+                                <br />
                             </div>
                         </section>
                         <section className="flex my-4 md:my-16 flex-col md:flex-row justify-center items-center mx-auto max-w-5xl century px-0 text-justify">
-                        <div className="w-full flex justify-center items-center md:w-1/2 my-8 px-5 lg:px-5">
-                                <img width="400px" src={demande} alt="agence de création de site web Toulouse"/>
-                                <br/>
+                            <div className="w-full flex justify-center items-center md:w-1/2 my-8 px-5 lg:px-5">
+                                <img width="400px" src={demande} alt="agence de création de site web Toulouse" />
+                                <br />
                             </div>
                             <div className="w-full md:w-1/2 px-5 lg:px-0">
-                                <h3 className="font-bold text-bleu" style={{fontSize:'23px'}}>2/ Nous étudions votre demande</h3>
-                                <br/>
+                                <h3 className="font-bold text-bleu" style={{ fontSize: '23px' }}>2/ Nous étudions votre demande</h3>
+                                <br />
                                 <p>Une fois la prise de contact effectuée, nous effectuons une <strong className="font-bold">étude de votre projet</strong> en fonction :</p>
-                                <br/>
+                                <br />
                                 <ul className="px-5">
                                     <li><span className="text-bleu">></span> du <strong>type de projet</strong> que vous souhaitez mener,</li>
                                     <li><span className="text-bleu">></span> de vos <strong>objectifs</strong>,</li>
@@ -266,125 +266,125 @@ render() {
                                     <li><span className="text-bleu">></span> ainsi que des opportunités qui pourraient s’offrir à vous.</li>
                                 </ul>
                                 <p>En fonction de ces éléments, nous délimitons le <strong>cadre de votre projet</strong> pour vous donner une idée de la stratégie qui va être nécessaire et de l’investissement que cela incombe. Nous organisons par la suite une rencontre afin de préciser votre projet.</p>
-                                <br/>
+                                <br />
                             </div>
                         </section>
                         <section className="flex my-4 flex-col md:flex-row items-center justify-center mx-auto max-w-5xl century px-0 text-justify">
                             <div className="w-full md:w-1/2 px-5 lg:px-0">
-                                <h3 className="font-bold text-bleu" style={{fontSize:'23px'}}>3/ Nous nous rencontrons pour définir au mieux votre projet</h3>
-                                <br/>
+                                <h3 className="font-bold text-bleu" style={{ fontSize: '23px' }}>3/ Nous nous rencontrons pour définir au mieux votre projet</h3>
+                                <br />
                                 <p>Notre rencontre est un moment décisif de la <strong>définition de votre projet</strong> puisque c’est à ce moment-là que nous pourrons travailler sur des objectifs précis ainsi qu’un ciblage défini. Nous sommes particulièrement à l’écoute pour comprendre les spécificités de votre organisation, mais également le contexte dans lequel vous vous ancrez.</p>
                                 <p>Ceci est indispensable en vue de mettre en place un <strong>projet web</strong> adapté pour vous. Une fois cette rencontre effectuée, nous sommes en mesure de vous faire une <strong className="font-bold">proposition en totale adéquation avec vos objectifs ainsi que votre budget</strong>. Cette dernière comprend l’<strong>arborescence de votre futur site</strong> ainsi que les <strong>mots-clés ciblés</strong> en fonction des <strong>requêtes des internautes</strong> et de votre activité.</p>
-                                <br/>
+                                <br />
                             </div>
                             <div className="w-full mb-16  flex justify-center md:w-1/2 my-8 px-5 lg:px-5 order-first md:order-last">
-                                <img width="300px" src={projet} alt="Création de site internet à Toulouse"/>
-                                <br/>
+                                <img width="300px" src={projet} alt="Création de site internet à Toulouse" />
+                                <br />
                             </div>
                         </section>
                         <section className="flex my-4 md:my-16 flex-col md:flex-row justify-center items-center mx-auto max-w-5xl century px-0 text-justify">
                             <div className="w-full mb-16 flex justify-center md:w-1/2 px-5 lg:px-0">
-                                <img width="300px" src={redaction} alt="Création de site internet à Toulouse"/>
-                                <br/>
+                                <img width="300px" src={redaction} alt="Création de site internet à Toulouse" />
+                                <br />
                             </div>
                             <div className="w-full md:w-1/2 px-5 lg:px-0">
-                                <h3 className="font-bold text-bleu" style={{fontSize:'23px'}}>4/ Nous rédigeons les contenus optimisés pour le SEO</h3>
-                                <br/>
+                                <h3 className="font-bold text-bleu" style={{ fontSize: '23px' }}>4/ Nous rédigeons les contenus optimisés pour le SEO</h3>
+                                <br />
                                 <p>Dès lors que vous validez notre proposition, nos <strong>référenceurs web</strong> se chargent de créer et <strong className="font-bold">rédiger des contenus optimisés pour le référencement naturel</strong>. Ces contenus sont totalement originaux et structurés en fonction des <strong>mots-clés ciblés</strong>, mais également des <strong className="font-bold">informations que vous nous fournirez à propos de votre entreprise</strong>.</p>
                                 <p>Il faut savoir que nos <strong>référenceurs</strong> sont spécialisés dans la <strong>rédaction web</strong> pour proposer des contenus qui s’incorporeront parfaitement <strong>sur vos pages</strong> et contribueront au <strong>référencement de votre site web</strong>. Une fois les contenus rédigés, ils vous seront adressés pour être soumis à votre validation. Toutefois, il faut savoir que ces contenus sont voués à évoluer en fonction de <strong className="font-bold">l’activité de votre entreprise, mais également des attentes des utilisateurs ainsi que des moteurs de recherche</strong>.</p>
-                                <br/>
+                                <br />
                             </div>
                         </section>
                         <section className="flex my-4 flex-col md:flex-row items-center justify-center mx-auto max-w-5xl century px-0 text-justify">
                             <div className="w-full md:w-1/2 px-5 lg:px-0">
-                                <h3 className="font-bold text-bleu" style={{fontSize:'23px'}}>5/ Nous développons votre site internet en fonction du contenu</h3>
-                                <br/>
+                                <h3 className="font-bold text-bleu" style={{ fontSize: '23px' }}>5/ Nous développons votre site internet en fonction du contenu</h3>
+                                <br />
                                 <p>Une fois le contenu défini, les <strong>développeurs web de notre agence web</strong> se chargent de mettre en place un <strong>web design responsive</strong> et adapté à votre <strong>identité visuelle</strong>. De plus, les contenus proposés par <strong>nos référenceurs</strong> seront intégrés sur les <strong>pages de votre site internet</strong>. <strong>Créer des sites web</strong> fait partie de notre quotidien, nous sommes en mesure de vous proposer la mise en place de <strong>fonctionnalités précises</strong> et pertinentes pour vous.</p>
                                 <p>Par ailleurs, le <strong>design de votre site web</strong> est unique. Nous vous donnons accès à une <strong>plateforme web originale et à votre image</strong>, conçue pour vous et vos <strong>utilisateurs</strong>. Ceci est indispensable pour être reconnu et développer une <strong>image de marque</strong> propre à votre entreprise. D’un point de vue technique, il est important de confier la <strong>création de son site web</strong> à des professionnels spécialistes du <strong>développement web</strong>.</p>
-                                <br/>
+                                <br />
                             </div>
                             <div className="w-full flex justify-center md:w-1/2 my-8 px-5 lg:px-5 order-first md:order-last">
-                                <img width="250px" src={developpement} alt="Développement site internet Toulouse"/>
-                                <br/>
+                                <img width="250px" src={developpement} alt="Développement site internet Toulouse" />
+                                <br />
                             </div>
                         </section>
                         <section className="flex my-4 md:my-16 flex-col md:flex-row justify-center items-center mx-auto max-w-5xl century px-0 text-justify">
                             <div className="w-full mb-16 flex justify-center md:w-1/2 px-5 lg:px-5">
-                                <img width="400px" src={maquette} alt="Site internet Toulouse"/>
-                                <br/>
+                                <img width="400px" src={maquette} alt="Site internet Toulouse" />
+                                <br />
                             </div>
                             <div className="w-full md:w-1/2 px-5 lg:px-0">
-                                <h3 className="font-bold text-bleu" style={{fontSize:'23px'}}>6/ Nous vous proposons une maquette de votre nouveau site internet</h3>
-                                <br/>
+                                <h3 className="font-bold text-bleu" style={{ fontSize: '23px' }}>6/ Nous vous proposons une maquette de votre nouveau site internet</h3>
+                                <br />
                                 <p>Une fois le <strong>webdesign et les contenus de votre site internet</strong> créés, nous vous proposons une <strong>maquette de votre nouveau site internet</strong>. Une fois la maquette transmise, il faut savoir que nous traitons autant d’allers / retours que nécessaires pour vous <strong className="font-bold">proposer un site web en adéquation totale avec vos attentes</strong>.</p>
                                 <p>Ce n’est qu’une fois que <strong>votre site web</strong> vous convient parfaitement que nous procédons à sa <strong>mise en ligne</strong>. Nous sommes à l’écoute de l’ensemble de vos remarques avant de vous permettre de valider la version de <strong>votre site internet</strong> qui sera mise en ligne.</p>
-                                <br/>
+                                <br />
                             </div>
                         </section>
                         <section className="flex my-4 md:mt-16 flex-col md:flex-row justify-center items-center mx-auto max-w-5xl century px-0 text-justify">
                             <div className="w-full flex justify-center md:w-1/2 my-8 px-5 lg:px-0 lg:pl-5 order-first md:order-last">
-                                <img width="300px" src={miseenligne} alt="Développement de site internet à Toulouse"/>
-                                <br/>
+                                <img width="300px" src={miseenligne} alt="Développement de site internet à Toulouse" />
+                                <br />
                             </div>
                             <div className="w-full md:w-1/2 px-5 lg:px-0">
-                                <h3 className="font-bold text-bleu" style={{fontSize:'23px'}}>7/ Nous mettons en ligne votre site</h3>
-                                <br/>
+                                <h3 className="font-bold text-bleu" style={{ fontSize: '23px' }}>7/ Nous mettons en ligne votre site</h3>
+                                <br />
                                 <p>Une fois les modifications de la version originale validées par vos soins, nous procédons à la <strong>mise en ligne de votre site internet</strong>. Toutefois, <strong className="font-bold">le site que nous mettons en ligne n’est pas une version définitive</strong>. Ce dernier sera amené à évoluer de manière régulière. Un <strong>site internet</strong> n’est jamais terminé. Nous proposons un <strong>suivi régulier</strong> pour vous rendre compte du travail effectué <strong>sur votre site internet</strong>, mais également pour connaître votre ressenti et nous tenir informés de votre actualité. Également, un <strong>support technique</strong> est proposé en cas de désagrément intervenu sur <strong>votre site internet</strong>.</p>
                                 <p>Il est indispensable de <strong className="font-bold">mettre à jour le contenu de votre site web</strong> de manière régulière. C’est pourquoi, <strong>nos référenceurs</strong> travaillerons chaque mois sur <strong>votre site</strong> afin de <strong className="font-bold">répondre aux attentes des moteurs des recherche</strong>, mais également pour <strong className="font-bold">mettre en place de nouveaux contenus en fonction de vos nouveaux besoins</strong> et objectifs. Une relation de collaboration est entreprise pour vous permettre de <strong className="font-bold">mener un projet web serein et qui générera des performances pour votre entreprise</strong> à court ou moyen termes.</p>
-                                <br/>
+                                <br />
                             </div>
                         </section>
-                        <br/>
-                        <hr className="bleu w-1/3" style={{borderTop:'1px solid #37cfee'}}/>
-                        <br/>
+                        <br />
+                        <hr className="bleu w-1/3" style={{ borderTop: '1px solid #37cfee' }} />
+                        <br />
                         <h2>Les technologies maîtrisées</h2>
-                        <br/>
+                        <br />
                         <p>Pour <strong>développer un site web performant</strong> et adapté à vos besoins, nous maîtrisons plusieurs <strong>technologies web</strong> nous permettant d’être au plus proche de vos besoins. Le choix de la, ou des <strong>technologies web</strong> va être important puisqu'il va conditionner le travail de <strong>mise à jour de votre site internet</strong>.</p>
                         <p>Quelle que soit votre demande, notre maîtrise des différentes technologies nous permet de <strong>mettre en place une solution web</strong> adaptée au mieux et qui répondra à vos attentes d’un point de vue technique.</p>
-                        <br/>
-                        <img src={cms} className="w-full" alt="Création site internet Wordpress"/>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Création de site internet via un système de gestion de contenu (CMS)</h3>
+                        <br />
+                        <img src={cms} className="w-full" alt="Création site internet Wordpress" />
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Création de site internet via un système de gestion de contenu (CMS)</h3>
                         <p>Dans le cadre de votre projet, nous sommes en mesure de <strong className="font-bold">créer un site web performant et totalement adapté au responsive design</strong> en faisant le choix d’un <strong>CMS (Content Management System ou système de gestion de contenus)</strong>. Cet <strong>outil de création</strong> permet de <strong>créer un site</strong> à partir d’un tableau de bord donnant accès à l’<strong>éditeur du site</strong>.</p>
                         <p>Parmi les plus populaires, <strong>Wordpress</strong>, <strong>Prestashop</strong> ou <strong>Drupal</strong> sont des <strong>CMS</strong> que nous sommes en mesure d’utiliser pour la <strong>création de votre site web</strong>. Ce type d’outil est particulièrement utile lorsque vous souhaitez <strong className="font-bold">mettre en place une solution administrable</strong> ou bien accéder à la plateforme pour mettre à jour ou ajouter les produits de <strong>votre site e-commerce</strong>.</p>
-                        <br/>
-                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Création de site internet en dur</h3>
-                        <br/>
+                        <br />
+                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Création de site internet en dur</h3>
+                        <br />
                         <p>Nos <strong>développeurs</strong> sont également compétents dans la <strong>création de solutions sur-mesure</strong> « en dur ». Ce mode de création consiste à <strong>concevoir des sites internet</strong> en les codant directement à la main grâce aux langages <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>PHP</strong>, etc. Cette solution présente l’intérêt d’accéder rapidement à une totale maîtrise de <strong>son site internet</strong>.</p>
                         <p>En revanche, il faut savoir que cette technique nécessite un <strong>délai de production</strong> plus important. En fonction du <strong>type de site</strong>, nous serons à même de définir la <strong>solution web</strong> la plus adaptée en fonction de <strong className="font-bold">vos besoins et des spécificités de votre projet</strong>.</p>
                         <div className="w-full md:w-2/3 lg:w-1/2">
-                            <ButtonBlog url="/creation-site-internet-toulouse/technologies-web/" text="En savoir plus sur les technologies web que nous maîtrisons."/>
+                            <ButtonBlog url="/creation-site-internet-toulouse/technologies-web/" text="En savoir plus sur les technologies web que nous maîtrisons." />
                         </div>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         <h2>Créer votre site internet avec Linkweb</h2>
-                        <br/>
+                        <br />
                         <p><strong>Avoir un site internet</strong> est devenu indispensable pour une entreprise. C’est pourquoi, notre <strong>agence de création de site internet</strong> a pour vocation d’<strong className="font-bold">accompagner les professionnels issus de tous types de secteurs pour leur proposer un suivi sur-mesure</strong>. Nous maîtrisons votre projet de sa définition, jusqu’à la <strong>mise à jour de votre site internet</strong>.</p>
                         <p>Lorsque l’on s’engage sur le <strong>Web</strong>, il est important d’être bien accompagné que ce soit pour mettre en place une <strong>ergonomie web</strong> de qualité ou bien <strong className="font-bold">développer une stratégie de visibilité</strong> efficace. <strong>Linkweb</strong> est à l’écoute de ses clients pour leur proposer une action en totale adéquation avec leurs besoins et les spécificités de leurs entreprises. </p>
                         <p>Une majeure partie de la <strong className="font-bold">réussite d’un projet web</strong> réside dans la collaboration mise en place. C’est pourquoi, nous nous attachons à mener un partenariat solide tout au long de votre projet.</p>
                         <p>La <strong>création de sites web</strong> doit vous apporter un <strong className="font-bold">retour sur investissement</strong>. C’est à ce prix que nous vous proposerons un <strong>site web clé en main</strong>, conçu pour <strong>être visible</strong> et qui vous permettra d’obtenir de <strong>nouveaux clients</strong> grâce au <strong>web</strong>.</p>
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
-                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                                    <br/>
-                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
-                                    <br/>
-                                    <div className="w-1/2 flex flex-row justify-center items-center">
-                                    <br/>
-                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
-                                    </div>
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br />
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br />
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br />
+                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
                         </div>
                     </div>
-                    
+
                 </section>
 
-                
-                
-            {/* </PageTransition> */}
-        </Layout>
-    );
-}
+
+
+                {/* </PageTransition> */}
+            </Layout>
+        );
+    }
 };
 
 

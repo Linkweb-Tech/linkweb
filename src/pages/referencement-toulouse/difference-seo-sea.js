@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 import ButtonBlog from "../../components/buttonblog";
@@ -20,26 +20,26 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class DiffSEOSEA extends React.Component {
+class DiffSEOSEA extends Component {
 
     constructor(props) {
         super(props);
-    
+
     }
 
-render() {
-    return (
-        <Layout location={this.props.location}>
+    render() {
+        return (
+            <Layout location={this.props.location}>
 
-            <SEO
-                title="Quelle est la différence entre le SEO et le SEA ? | Création site internet à Toulouse (31)"
-                description="Le référencement naturel et le référencement sponsorisé sont deux disciplines différentes, bien loin d'être opposées."
-                keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
-                url="https://linkweb.fr/referencement-toulouse/difference-seo-sea/"
-                nom="Quelle est la différence entre le SEO et le SEA ?"
-                slug="referencement-toulouse/difference-seo-sea/"
-            />
-            {/* <PageTransition
+                <SEO
+                    title="Quelle est la différence entre le SEO et le SEA ? | Création site internet à Toulouse (31)"
+                    description="Le référencement naturel et le référencement sponsorisé sont deux disciplines différentes, bien loin d'être opposées."
+                    keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
+                    url="https://linkweb.fr/referencement-toulouse/difference-seo-sea/"
+                    nom="Quelle est la différence entre le SEO et le SEA ?"
+                    slug="referencement-toulouse/difference-seo-sea/"
+                />
+                {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -58,50 +58,50 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{ background: '#00000094 url(' + background + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center', height: '450px' }}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl md:text-5xl xl:text-6xl text-center text-white mt-64">
-                    Quelle est la différence entre le SEO et le SEA ?
+                        Quelle est la différence entre le SEO et le SEA ?
                     </h2>
                     <Link to="/referencement-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Référencement à Toulouse</h1></Link>
-                    <br/>
+                    <br />
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
-                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ fbIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
+                        <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                            <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={fbIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
                                     />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ twitterIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ instaIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    style={{maxHeight:'50px', minWidth:'15px'}}
-                                    />
-                                    </a>
-                                </div>
+                                </a>
                             </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={twitterIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                    />
+                                </a>
+                            </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={instaIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                        style={{ maxHeight: '50px', minWidth: '15px' }}
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-                
+
                 <section className="w-full  flex flex-col lg:flex-col xl:flex-row flex justify-center">
-                    
+
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
                             <li>
@@ -182,137 +182,137 @@ render() {
                         </ul>
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
-                        
-                        <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Quelle est la différence entre le SEO et le SEA ?</p>
+
+                        <p style={{ marginBottom: '50px' }}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Quelle est la différence entre le SEO et le SEA ?</p>
                         <h3>Le référencement web est une branche du marketing digital qui présente un fort potentiel pour les professionnels. Il faut savoir que sous la notion de référencement web, plusieurs disciplines cohabitent. Nous aborderons ici les deux principales : le SEO et le SEA.</h3>
-                        <br/>
+                        <br />
                         <p>Donner de la <strong>visibilité à son site internet</strong> par la voie du <strong>référencement</strong> est quasi-indispensable, de nos jours. Toutefois, il existe plusieurs façons de mettre en avant son <strong>site internet dans les pages de résultats des moteurs de recherche</strong>.</p>
 
                         <p>À ce niveau, le <strong>SEO et le SEA</strong> sont deux disciplines qui vont permettre d’<strong>acquérir de la visibilité sur le Web</strong> à travers une méthodologie pourtant bien différente. Parfois opposés, le <strong>SEO</strong> et le <strong>SEA</strong> sont deux techniques qui vont permettre d’investir les <strong>Top positions des premières pages de résultats de Google</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
                         <h2>SEO et SEA : définitions</h2>
-                        <br/>
+                        <br />
                         <p>Si le SEO et le SEA se retrouvent dans la branche du <strong>Référencement Web</strong>, il faut savoir qu’elles désignent des <strong>techniques de référencement</strong> pourtant bien différentes. Pour le comprendre, il faut se pencher sur leur définition.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Search Engine Optimization (SEO)</h3>
-                        <br/>
+                        <br />
                         <p>Le <strong>SEO</strong>, ou <strong>Search Engine Optimization (optimisation pour les moteurs de recherche)</strong>, est une discipline issue du <strong>webmarketing</strong> consistant à apporter de la <strong>visibilité à une page web via les moteurs de recherche</strong> de part son <strong>positionnement dans les résultats de recherche pour un mot-clé donné</strong>.</p>
                         <p>Ainsi, le SEO désigne un travail d’optimisation qui peut-être réalisé sur ou en dehors du site et qui répond à une mise en oeuvre stratégique particulière. Le SEO, ou référencement naturel est caractérisé par la mise en place de stratégies basées sur le long terme.</p>
                         <p>Ce travail d’<strong>optimisation</strong> répond à un ensemble de <strong>critères de pertinence définis par Google</strong> afin de favoriser le <strong>contenu de qualité</strong> et apportant une réponse à l’utilisateur.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Search Engine Advertising (SEA)</h3>
-                        <br/>
+                        <br />
                         <p>Le <strong>SEA</strong>, ou <strong>Search Engine Advertising</strong> (publicité sur les <strong>moteurs de recherche</strong>) est une discipline également issue du <strong>webmarketing</strong> qui vise à <strong>apporter de la visibilité à une page de web</strong> de manière <strong>sponsorisée</strong>. Cette visibilité est acquise dans les <strong>pages de résultats de recherche</strong> pour des <strong>expressions clés</strong> données.</p>
                         <p>Le <strong>travail de SEA</strong> est basé sur la <strong>création de pages web</strong> (<strong>landing pages</strong> ou pages d’entrées) optimisées pour la conversion. Il se base également sur l’outil <strong>Google Ads</strong> permettant de planifier des <strong>campagnes sponsorisées</strong>.</p>
                         <p>Ce travail est encadré par la définition d’<strong>annonces de qualité</strong>. Ces annonces sont mises en concurrence pour être classées dans les <strong>pages de résultats de recherche</strong> à partir de certains critères d’évaluation.</p>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse"/>
-                        <br/>
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse" />
+                        <br />
                         <h2>SEO vs SEA : similitudes et différences</h2>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">SEO vs SEA : les similitudes</h3>
-                        <br/>
+                        <br />
                         <p>Si ces deux disciplines sont différentes, il faut savoir qu’elles présentent malgré tout des similitudes qui permettent de les englober au sein d’une même branche qu’est le <strong>référencement web</strong>.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">Le même objet d’étude : la SERP</h4>
-                        <br/>
+                        <br />
                         <p>Avant tout, ce qui rassemble ces deux disciplines est leur objet d’étude, à savoir la <strong>SERP</strong> ou <strong>page de résultats de recherche</strong> (<strong>Search Engine Results Page</strong>). En effet, le <strong>SEA</strong> et le <strong>SEO</strong> ont pour vocation de <strong>positionner des pages web dans les résultats de recherche de Google</strong>. De ce point de vue, elles présentent un objectif commun : gagner sa place dans les <strong>premiers résultats de recherche</strong> pour un <strong>mot-clé</strong> donné.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">Le mot-clé au coeur de la stratégie</h4>
-                        <br/>
+                        <br />
                         <p>L’une des principales similitudes entre ces deux disciplines va être l'<strong>importance du mot-clé au coeur de la stratégie</strong>. En effet, quelque soit la stratégie, celle-ci doit s’appuyer sur le <strong>choix de mots-clés finement choisis</strong>. Ce sont eux qui vous permettront d’<strong>acquérir de la visibilité</strong>, qu’il s’agisse d’une <strong>campagne sponsorisée</strong> ou d’une <strong>stratégie de référencement naturel</strong>.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">Un format similaire</h4>
-                        <br/>
+                        <br />
                         <p>Également, SEO et SEA trouvent des similitudes dans le format présenté sur la <strong>page de recherche</strong>. En effet, les deux disciplines ont pour vocation de mettre en avant des cartes composées d’un <strong>titre, d’une description et du chemin d’accès de la page</strong>. Les deux disciplines permettent d’afficher des informations supplémentaires en plus de ces données principales.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">Des objectifs proches</h4>
-                        <br/>
+                        <br />
                         <p>Enfin, le SEO et le SEA répondront à des objectifs stratégiques similaires. Parmi eux : <strong>générer de la visibilité</strong>, gagner les <strong>Top positions des pages de résultats de recherche</strong>, <strong>augmenter le trafic de son site web</strong> ou encore <strong>améliorer sa notoriété</strong>. Toutefois, si on regarde de plus près, cela reste à nuancer : si le SEO a pour vocation d’installer une marque dans l’univers <strong>Google</strong>, le SEA aura tendance à rechercher une <strong>visibilité rapide pour attirer des prospects et les convertir</strong>.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">SEO vs SEA : les différences</h3>
-                        <br/>
+                        <br />
                         <p>Les différences entre ces deux disciplines sont toutes aussi nombreuses.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">L’affichage de la carte dans les résultats</h4>
-                        <br/>
+                        <br />
                         <p>Si les cartes dans les <strong>résultats de recherche</strong> présentent des similitudes, plusieurs éléments viennent les démarquer. En effet, à la différence des <strong>résultats naturels</strong>, les <strong>résultats sponsorisés</strong> contiennent la mention <strong>« Annonce » ou « Ads »</strong> pour signifier qu’il s’agit de <strong>campagnes publicitaires</strong> rémunérées.</p>
                         <p>Également, les élémentaires complémentaires qu’il va être possible de mettre en avant seront différents : pour le <strong>SEO</strong>, il s’agira de « <strong>rich snippets</strong> » (<strong>résultats enrichis</strong>) liés aux <strong>données structurées</strong> alors que pour le <strong>SEA</strong>, il sera possible d’ajouter un numéro de téléphone à côté du chemin d’accès de la page par exemple et bien d’autres éléments.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">Des stratégies à durée inégale</h4>
-                        <br/>
+                        <br />
                         <p>Ce qui différencie le SEO et le SEA va également être leur place dans une stratégie. Le SEO fait appel à beaucoup de travail, de rigueur et de régularité afin d’<strong>obtenir des résultats sur le long terme</strong>. Au contraire, le SEA est une stratégie dite de court terme puisqu’elle va chercher à <strong>booster la visibilité d’un site web</strong> le plus rapidement possible et de façon ponctuelle.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">Une méthodologie opposée : sponsorisation vs gratuit</h4>
-                        <br/>
+                        <br />
                         <p>Par ailleurs, la méthodologie utilisée dans les deux disciplines est opposée. Alors que le SEA s’apparente à un <strong>référencement payant</strong>, il est tout à fait possible de mener à bien une <strong>stratégie de référencement naturel</strong> de manière gratuite.</p>
                         <p>Toutefois, cette notion de gratuité est à nuancer : le SEO est particulièrement friand de temps de travail, c’est pourquoi le tarif du SEO va être déterminé par son besoin en compétences et en temps à y consacrer. En effet, le SEO est une discipline bien plus complexe à assimiler et qui demande des <strong>compétences techniques</strong> particulières.</p>
-                        <br/>
+                        <br />
                         <h4 className="px-12">La question du contenu</h4>
-                        <br/>
+                        <br />
                         <p>Enfin, une autre différence réside dans la <strong>question du contenu</strong>. Si le bon contenu est indispensable en termes de <strong>SEO</strong>, il ne constituera pas forcément un frein en termes de <strong>SEA</strong>. Il n’est pas question de dire que le contenu n’est pas important en termes de SEA. En revanche, il est bien loin de la place qui lui est accordée en SEO.</p>
                         <p>Aussi, il faut savoir que cela n’empêche pas la qualité : lors de la <strong>création d’annonces sponsorisées</strong>, <strong>Google Ads</strong> détermine un <strong>score de qualité</strong> qui sera forcément un facteur déterminant quant aux modalités d’affichage de vos <strong>annonces</strong>. En d’autres termes, une annonce présentant un faible score de qualité pourra être moins bien placée qu’une <strong>annonce à score de qualité élevé et au budget inférieur</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={seovssea} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={seovssea} alt="Référencement Toulouse" />
+                        <br />
                         <h2>SEO vs SEA : quand les utiliser ?</h2>
-                        <br/>
+                        <br />
                         <p>Après avoir défini et comparé ces deux notions, il s’agit désormais de déterminer quand chaque discipline sera la plus pertinente à utiliser. En effet, chaque discipline présentera un intérêt particulier dans des certaines situations.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Quand utiliser le SEO ?</h3>
-                        <br/>
+                        <br />
                         <p>Mettre en place une <strong>stratégie de référencement naturel</strong> va être pertinent lorsque vous allez souhaiter <strong>développer la visibilité</strong> et la <strong>notoriété de la marque</strong> afin d’<strong>acquérir du trafic</strong> et de <strong>nouveaux clients</strong> dans un second temps. Le <strong>référencement naturel</strong> s’applique sur le <strong>long terme</strong> et est complémentaire d’une <strong>stratégie de contenus</strong>.</p>
                         <p>Il est recommandé de lancer sa <strong>stratégie de référencement naturel</strong> dès la création et la mise en place du <strong>projet web</strong> en question. Le <strong>SEO</strong> nécessite du temps pour apporter des résultats concrets : il est en partie soumis à l’interprétation de <strong>Google</strong> et fait face à une vive concurrence.</p>
                         <p>En revanche, il est possible de contourner une partie de ces contraintes en vue d’écourter les délais. Cela va demander une orientation particulière de sa <strong>stratégie de référencement naturel</strong> visant à obtenir des <strong>premiers résultats</strong> dans des délais raisonnables.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Quand utiliser le SEA ?</h3>
-                        <br/>
+                        <br />
                         <p>Au contraire d’une <strong>stratégie de référencement naturel</strong>, la mise en place de <strong>campagnes sponsorisées</strong> sera pertinente de manière ponctuelle et donc sur du court terme. En fonction de votre activité et de vos offres, le <strong>référencement sponsorisé</strong> va être pertinent afin de propulser un nouveau produit par exemple.</p>
                         <p>Le <strong>SEA</strong> permet d’<strong>acquérir une visibilité</strong> très rapide qui vise à augmenter le nombre de commandes passées sur son site par exemple. Dans tous les cas, quelque soit l’objectif et relativement au budget engagé dans la campagne, il va être important de dégager un <strong>retour sur investissement (ROI)</strong>.</p>
                         <p>Enfin, le SEA va être pertinent durant des périodes propices à la consommation, là où le <strong>référencement naturel</strong> vous confrontera à une très forte concurrence qu’il sera difficile de détrôner : soldes, Black Friday, fêtes de fin d’année, etc.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={stratref} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={stratref} alt="Référencement Toulouse" />
+                        <br />
                         <h2>Faut-il opposer SEO et SEA ?</h2>
-                        <br/>
+                        <br />
                         <p>En rapport à tous ces éléments, l’opposition historique entre le <strong>référencement naturel</strong> et le <strong>référencement sponsorisé</strong> est plus discutée que jamais. En effet, il ne s’agit pas d’opposer ces deux disciplines. Elles doivent être complémentaires. <strong>Combiner le SEO et le SEA</strong> au sein d’une stratégie globale de <strong>Search Engine Marketing (SEM)</strong> est d’autant plus pertinent pour maximiser ses chances d’atteindre ses objectifs.</p>
                         <p>Tous les moyens sont bons pour <strong>acquérir de la visibilité</strong> et <strong>développer le statut digital de sa marque</strong>. En fonction de la situation, mettre en place une <strong>campagne sponsorisée</strong> pourra s’avérer plus pertinent que <strong>développer son référencement naturel</strong> et vice-versa. Toutefois, dans une logique globale, l’erreur serait de les opposer jusqu’à choisir l’un plutôt que l’autre et ainsi se priver de leur complémentarité.</p>
                         <p>Là où le <strong>référencement naturel</strong> va demander du temps, le <strong>référencement sponsorisé</strong> va permettre d’obtenir des résultats rapides. Mixer ces deux disciplines sera alors pertinent pour démarrer tout en maximisant son efficacité.</p>
-                        <br/>
+                        <br />
                         <h2>Conclusion</h2>
-                        <br/>
+                        <br />
                         <p>En définitive, le <strong>référencement naturel</strong> et le <strong>référencement publicitaire</strong> possèdent de nombreuses différences. Toutefois, ce sont ces différences qui font leur complémentarité. Qu’il s’agisse de <strong>SEO</strong> ou de <strong>SEA</strong>, l’objectif va être de <strong>maximiser sa présence et sa visibilité dans les pages de résultats des moteurs de recherche</strong> comme <strong>Google</strong>.</p>
                         <p>En effet, il s’agit de deux moyens différents pour <strong>obtenir de la visibilité dans les SERP</strong>. En revanche, dans les deux cas, l’accent doit être mis sur le <strong>contenu</strong> (le <strong>contenu de la page web</strong> ou de l’<strong>annonce publicitaire</strong>). Un <strong>moteur</strong> comme <strong>Google</strong> évalue la pertinence des annonces et des <strong>liens</strong> qu’il classe dans ses résultats, mais également la <strong>qualité du contenu</strong>. C’est pourquoi, la <strong>visibilité sur Internet</strong> s’acquiert par une <strong>optimisation parfaite des contenus de son site internet</strong> ou bien de ses campagnes et <strong>annonces publicitaires</strong>.</p>
-                        <p>Bien sûr, la <strong>qualité et la pertinence</strong> ne sont pas les uniques critères sur lesquels <strong>Google</strong> se base pour classer les sites dans son index. Si vous souhaitez en savoir plus sur la façon dont <strong>Google</strong> établit son classement, <a className="text-bleu hover:text-black font-bold" target="_blank" rel="noopener noreferrer"  href="https://www.netoffensive.blog/referencement-naturel/">vous pouvez lire ce guide sur le positionnement Google</a>. Quoi qu’il en soit, il est important de ne pas négliger son contenu pour une parfaite application de sa <strong>stratégie de référencement</strong>.</p>
-                        
+                        <p>Bien sûr, la <strong>qualité et la pertinence</strong> ne sont pas les uniques critères sur lesquels <strong>Google</strong> se base pour classer les sites dans son index. Si vous souhaitez en savoir plus sur la façon dont <strong>Google</strong> établit son classement, <a className="text-bleu hover:text-black font-bold" target="_blank" rel="noopener noreferrer" href="https://www.netoffensive.blog/referencement-naturel/">vous pouvez lire ce guide sur le positionnement Google</a>. Quoi qu’il en soit, il est important de ne pas négliger son contenu pour une parfaite application de sa <strong>stratégie de référencement</strong>.</p>
+
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
-                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                                    <br/>
-                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
-                                    <br/>
-                                    <div className="w-1/2 flex flex-row justify-center items-center">
-                                    <br/>
-                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
-                                    </div>
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br />
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br />
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br />
+                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                
-                
-            {/* </PageTransition> */}
-        </Layout>
-    );
-}
+
+
+                {/* </PageTransition> */}
+            </Layout>
+        );
+    }
 };
 
 

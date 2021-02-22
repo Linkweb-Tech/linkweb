@@ -1,7 +1,7 @@
-import React from 'react';
-import {Link} from 'gatsby';
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
 
-class ButtonBlog extends React.Component {
+class ButtonBlog extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -11,15 +11,15 @@ class ButtonBlog extends React.Component {
         }
     }
 
-    render(){
+    render() {
         return (
-            <Link 
-                to={ this.props.url } 
+            <Link
+                to={this.props.url}
                 className={`font-normal roundedButton bg-${this.props.color || 'bleu'} text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4`}
             >
-              {this.props.text || 'skew'}
+                {this.props.text || 'skew'}
             </Link>
-            
+
         )
     }
 }

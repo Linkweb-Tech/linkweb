@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 
-class Question extends React.Component {
+class Question extends Component {
 
     constructor(props) {
         super(props);
@@ -16,7 +16,7 @@ class Question extends React.Component {
     render() {
         return (
             <div onClick={this.handleClick}>
-                <li class={this.props.active === this.props.responseId ? "active" : "" }><span className="text-bleu">> </span> { this.props.children }</li>
+                <li class={this.props.active === this.props.responseId ? "active" : ""}><span className="text-bleu">> </span> {this.props.children}</li>
             </div>
         );
     }

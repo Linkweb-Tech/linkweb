@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -24,26 +24,26 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class Aquoisertleref extends React.Component {
+class Aquoisertleref extends Component {
 
     constructor(props) {
         super(props);
-    
+
     }
 
-render() {
-    return (
-        <Layout location={this.props.location}>
+    render() {
+        return (
+            <Layout location={this.props.location}>
 
-            <SEO
-                title="À quoi sert le référencement naturel ? | Création site internet à Toulouse (31)"
-                description="Le référencement naturel est bénéfique pour apporter de la visibilité à une entreprise via son site web."
-                keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
-                url="https://linkweb.fr/referencement-toulouse/a-quoi-sert-le-referencement-naturel/"
-                nom="À quoi sert le référencement naturel ?"
-                slug="referencement-toulouse/quest-ce-que-le-referencement-naturel/"
-            />
-            {/* <PageTransition
+                <SEO
+                    title="À quoi sert le référencement naturel ? | Création site internet à Toulouse (31)"
+                    description="Le référencement naturel est bénéfique pour apporter de la visibilité à une entreprise via son site web."
+                    keywords={[`Référencement naturel Toulouse`, `Référencement naturel Agen`, `Agence Web Toulouse`]}
+                    url="https://linkweb.fr/referencement-toulouse/a-quoi-sert-le-referencement-naturel/"
+                    nom="À quoi sert le référencement naturel ?"
+                    slug="referencement-toulouse/quest-ce-que-le-referencement-naturel/"
+                />
+                {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -62,50 +62,50 @@ render() {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-blackflex flex-col justify-center items-center" style={{ background: '#00000094 url(' + background + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center', height: '450px' }}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-4xl md:text-5xl xl:text-6xl text-center text-white mt-64">
-                    À quoi sert le référencement naturel ?
+                        À quoi sert le référencement naturel ?
                     </h2>
                     <Link to="/referencement-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Référencement à Toulouse</h1></Link>
-                    <br/>
+                    <br />
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
-                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ fbIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
+                        <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                            <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={fbIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
                                     />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ twitterIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    />
-                                    </a>
-                                </div>
-                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img 
-                                    src={ instaIcon }
-                                    alt="Réseaux sociaux"
-                                    className="w-6 fill-current"
-                                    style={{maxHeight:'50px', minWidth:'15px'}}
-                                    />
-                                    </a>
-                                </div>
+                                </a>
                             </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={twitterIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                    />
+                                </a>
+                            </div>
+                            <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img
+                                        src={instaIcon}
+                                        alt="Réseaux sociaux"
+                                        className="w-6 fill-current"
+                                        style={{ maxHeight: '50px', minWidth: '15px' }}
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-                
+
                 <section className="w-full  flex flex-col  xl:flex-row flex justify-center">
-                    
+
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
                             <li>
@@ -186,21 +186,21 @@ render() {
                         </ul>
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
-                        
-                    <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
+
+                        <p style={{ marginBottom: '50px' }}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Qu'est-ce que le référencement naturel ?</p>
                         <h3>La <Link to="/creation-site-internet-toulouse/" className="text-bleu font-bold hover:text-black">création d'un site internet</Link> est un parfait moyen pour développer son entreprise en attirant une nouvelle clientèle. Mais quelle serait son utilité si aucun moyen de visibilité n'était développé à son égard ?</h3>
-                        <br/>
+                        <br />
                         <p className="text-center font-bold text-xl">Alors, à quoi sert le référencement naturel ?</p>
-                        <br/>
+                        <br />
                         <p>Le <Link to="/referencement-toulouse/quest-ce-que-le-referencement-naturel/" className="text-bleu font-bold hover:text-black"><strong>référencement naturel ou SEO (Search Engine Optimization)</strong></Link> est une discipline issue du <strong>webmarketing</strong> destinée à rendre un <strong>site internet visible sur les moteurs de recherche</strong>. De ce point de vue, vous ne cherchez plus vos clients puisque ce sont eux qui vous trouvent.</p>
                         <p>De plus, <a href="https://blog-fr.orson.io/web-marketing/100-statistiques-sites-internet-2018" target="_blank" rel="noreferrer noopener" className="text-bleu font-bold hover:text-black">93% des expériences en ligne commencent avec un <strong>moteur de recherche</strong></a>. Développer une <strong>stratégie de référencement naturel</strong> pour <strong>son site internet</strong> est donc indispensable afin d'obtenir de la <strong>visibilité sur le Web</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
                         <h2>Référencement naturel : une discipline webmarketing redoutable</h2>
-                        <br/>
+                        <br />
                         <p>Vous l'aurez compris, donner de la <strong>visibilité à votre site internet</strong> est indispensable pour développer votre activité. Ainsi, le <strong>référencement naturel</strong> permet de développer un <strong>trafic organique</strong> qui est l'un des 6 <strong>canaux d'acquisition de trafic</strong> principaux sur un <strong>site web</strong>, parmi lesquels :</p>
-                        <br/>
+                        <br />
                         <ul>
                             <li><span className="text-bleu">></span> Les <strong>réseaux sociaux</strong>,</li>
                             <li><span className="text-bleu">></span> Le <strong>trafic organique</strong>,</li>
@@ -209,116 +209,116 @@ render() {
                             <li><span className="text-bleu">></span> Le <strong>trafic direct</strong> : lorsqu'un utilisateur saisit l'<strong>adresse URL de votre site</strong> directement dans son <strong>navigateur</strong>.</li>
                             <li><span className="text-bleu">></span> Le <strong>referral</strong> : lorsqu'un utilisateur visite <strong>votre site web</strong> en provenance d'un autre site.</li>
                         </ul>
-                        <br/>
+                        <br />
                         <p>Le <strong>référencement naturel</strong> est même le leader des <strong>canaux d'acquisition de trafic</strong> si l'on en croit Outbrain, relayé par Ironpaper, puisqu'<a href="https://www.ironpaper.com/webintel/articles/2015-critical-seo-statistics-and-trends/" target="_blank" rel="noreferrer noopener" className="text-bleu font-bold hover:text-black">il générerait 300% de trafic en plus que les réseaux sociaux</a>.</p>
                         <p>Toutefois, il faut savoir que le <strong>référencement naturel</strong> est une discipline qui se pratique et s'évalue sur le long terme. Le trafic généré est donc progressif lors du démarrage de la stratégie avant de se stabiliser par la suite.</p>
                         <p>De plus, le <strong>trafic organique</strong> présente l'intérêt d'être basé sur la motivation et l'<strong>intention de recherche de l'utilisateur</strong>. Il se trouve dans une phase active de recherche. <strong>Votre site web</strong> devra donc nécessairement apporter une réponse à sa problématique.</p>
                         <p>En ciblant les bons <strong>mots-clés</strong> dans l'établissement de votre stratégie et en mettant en place un contenu adéquat, le <strong>référencement naturel</strong> pourrait s'avérer particulièrement bénéfique pour votre entreprise.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={evaluation} alt="Référencement Toulouse" />
+                        <br />
                         <h2>Pourquoi parle-t-on de référencement Google ?</h2>
-                        <br/>
+                        <br />
                         <p>Bien souvent, lorsque l'on parle de <strong>référencement naturel</strong>, la confusion peut être réalisée vis-à-vis de l'expression de "<strong>référencement Google</strong>". Cela peut s'expliquer par deux raisons :</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Un abus de langage relatif au référencement publicitaire ou référencement payant</h3>
-                        <br/>
+                        <br />
                         <p>Parler de "<strong>référencement Google</strong>" peut signifier parler de <Link to="/agence-adwords-47-31/" className="text-bleu font-bold hover:text-black"><strong>référencement Google Ads</strong></Link>. <strong>Google Ads</strong> est une plateforme proposée par <strong>Google</strong> qui permet aux utilisateurs de créer des <strong>campagnes de référencement sponsorisé</strong>.</p>
                         <p>Ces campagnes se matérialisent par des <strong>annonces sponsorisées</strong> que l'on peut observer directement dans les <strong>pages de résultats de recherche des moteurs</strong> avec la mention "sponsorisé".</p>
                         <p>L'expression "<strong>référencement Google</strong>" peut donc constituer un abus de langage vis-à-vis du <strong>référencement Google Ads</strong> qui est une autre discipline <strong>webmarketing</strong> qu'englobe le <strong>référencement web</strong> et qui constitue un <strong>canal d'acquisition</strong> à part entière. </p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Google est le leader mondial et incontesté du marché des moteurs de recherche</h3>
-                        <br/>
+                        <br />
                         <p>L'autre raison qui nous porte à parler de "<strong>référencement Google</strong>" est tout simplement que Google est le <strong>leader du marché du moteur de recherche</strong> dans le monde.</p>
                         <p>En effet, les chiffres montrent que <a href="https://fr.semrush.com/blog/50-faits-incontournables-pour-votre-strategie-seo/" className="text-bleu font-bold hover:text-black" target="_blank" rel="noreferrer noopener">Google détenait 73.34% des marchés de marché sur l'année 2020</a>. Même si nous avons pu observer un retour en force de <strong>Bing</strong>, le <strong>moteur de recherche de la Mountain View</strong> reste un solide leader.</p>
                         <p>De plus, <strong>5,5 milliards de requêtes sont effectuées chaque jour sur Google</strong> quand il en décomptait 2,3 trillons sur l'année 2019, ce qui est absolument considérable.</p>
-                        <br/>
-                        <img className="mx-0 block w-full" src={refGoogle} alt="Référencement Toulouse"/>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
+                        <br />
+                        <img className="mx-0 block w-full" src={refGoogle} alt="Référencement Toulouse" />
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
                         <h2>Pourquoi faut-il miser sur le référencement naturel ?</h2>
-                        <br/>
+                        <br />
                         <p>Parce qu'il s'adresse à tout le monde ! Que vous soyez une firme internationale ou bien auto-entrepreneur, vous êtes en mesure de <strong>mettre en place une stratégie de référencement naturel</strong> adaptée à vos besoins.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Une stratégie adaptable en fonction de votre problématique</h3>
-                        <br/>
+                        <br />
                         <p>En effet, le <strong>référencement naturel</strong> vous permet d'<strong>obtenir de la visibilité</strong> à votre échelle, notamment grâce à la <strong>définition de cibles et de zones géographiques</strong> particulièrement bien réfléchie.</p>
                         <p>Si le <strong>Web</strong> n'a pas de frontière, il faut savoir que le <strong>référencement naturel</strong> peut également vous apporter de la <strong>visibilité sur le plan local</strong>. En effet, il existe des techniques et outils permettant de <strong>développer votre visibilité</strong> en particulier sur des <strong>secteurs géographiques</strong> ciblés et pertinents pour vous.</p>
                         <p>Cela passe par un travail d'analyse réalisé grâce à des <strong>outils d'audit SEO</strong> indispensables à la définition d'une stratégie pérenne et efficace.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Des outils existent pour mettre en place une stratégie efficace</h3>
-                        <br/>
+                        <br />
                         <p>Si le <strong>SEO</strong> peut se montrer particulièrement bénéfique pour votre entreprise, c'est tout simplement car rien n'est laissé au hasard. Disposer d'<strong>outils SEO</strong> est indispensable pour miser sur le <strong>référencement naturel</strong> de manière totalement sereine.</p>
                         <p>C'est pourquoi, à <strong>Linkweb</strong>, nous utilisons une diversité d'outils et de <strong>logiciels SEO</strong> qui nous permettent de <strong>développer des stratégies de référencement naturel</strong> performantes générant des résultats intéressants pour nos clients.</p>
                         <p>De la définition de la stratégie jusqu'à son évaluation, plusieurs types d'outils vont se montrer particulièrement utiles.</p>
-                        <br/>
+                        <br />
                         <h4>Choisir des mots-clés au potentiel important</h4>
-                        <br/>
+                        <br />
                         <p>Le <strong>choix de mots-clés stratégiques</strong> doit être réalisé à partir de plusieurs critères. Ceci amène à se poser les questions suivantes : </p>
-                        <br/>
+                        <br />
                         <ul>
                             <li><span className="text-bleu">></span> Est-ce que ce mot-clé est cohérent vis-à-vis de l'entreprise ? Est-ce qu'il décrit son activité de façon cohérente ?</li>
                             <li><span className="text-bleu">></span> Est-ce que ce <strong>mot-clé est recherché par les utilisateurs</strong> ?</li>
                             <li><span className="text-bleu">></span> Quel <strong>type de contenu</strong> apparaît pour cette requête ?</li>
                             <li><span className="text-bleu">></span> Comment se comporte la <strong>concurrence</strong> sur ce mot-clé ?</li>
                         </ul>
-                        <br/>
+                        <br />
                         <p>Pour répondre à ces différentes questions, plusieurs outils proposent des indicateurs qui permettent de mesurer les différents critères abordés. Ceci est essentiel car le <strong>choix des mots-clés</strong> est l'une des étapes fondatrices de votre <strong>stratégie SEO</strong>. <strong>Choisir de bons mots-clés</strong> est la base en vue de mettre en place une stratégie performante.</p>
-                        <br/>
+                        <br />
                         <h4>Créer un contenu adapté</h4>
-                        <br/>
+                        <br />
                         <p>Le <strong>référencement naturel</strong> est une discipline particulièrement exigeante quant à la <strong>qualité du contenu</strong> à mettre en place. Que ce soit en termes de structure (forme) ou bien du <strong>champ sémantique</strong> (fond) à proposer, tout doit être soigné et ne doit pas laisser de place au hasard.</p>
                         <p>À ce niveau, certains outils permettent d'analyser la <strong>qualité d'un contenu</strong> ainsi que d'observer à quel objectif il est destiné. Ceci est important quant à la <strong>notion d'intention de recherche</strong> notamment : qu'est-ce que l'utilisateur cherche à faire lorsqu'il réalise une requête ? Nous tenons compte de cette spécificité dans la <strong>rédaction des contenus de votre site internet</strong>.</p>
-                        <br/>
+                        <br />
                         <h4>Monitorer le positionnement et les performances de son site</h4>
-                        <br/>
+                        <br />
                         <p>Enfin, il va être nécessaire d'utiliser des outils permettant d'<strong>évaluer sa stratégie sur le long terme</strong>. Ici, il va être question de mettre en place un <strong>suivi du positionnement de ses pages</strong> pour les <strong>requêtes ciblées</strong>.</p>
                         <p>Toutefois, <strong>évaluer une stratégie de référencement</strong> uniquement par le prisme du <strong>positionnement</strong> est une erreur. Mesurer l'activité exercée sur le <strong>site web</strong> permet d'avoir un regard plus concret sur les bénéfices apportés par le <strong>référencement naturel à votre site web</strong> et plus globalement à votre entreprise.</p>
                         <p>En effet, le <strong>référencement naturel</strong>, à travers le <strong>positionnement dans les résultats de recherche</strong>, n'est qu'un moyen pour vous faire parvenir à vos objectifs. En vous apportant une visibilité ciblée, il doit vous permettre d'<strong>atteindre vos objectifs commerciaux</strong>.</p>
                         <p className="text-center font-bold">Bien sûr, cette liste est non-exhaustive. Néanmoins, elle est révélatrice de l'ampleur des critères qui vont être traités pour ne pas laisser de place au hasard dans le <strong>développement de votre stratégie</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={travailref} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={travailref} alt="Référencement Toulouse" />
+                        <br />
                         <h2>Comment se matérialise le travail de référencement naturel ?</h2>
-                        <br/>
+                        <br />
                         <p>Si le <strong>référencement naturel</strong> peut s'avouer particulièrement bénéfique pour une entreprise, il faut savoir que cela demande beaucoup de temps et de compétences. En effet, <strong>référencer son site web dans les premiers résultats de la première page de recherche</strong> peut prendre des mois, voire des années.</p>
                         <p>Pour pallier à cet inconvénient, les <strong>stratégies SEO</strong> sont pensées pour <strong>développer une visibilité à court ou moyen terme</strong> grâce à des alternatives particulièrement fructueuses : <strong>longue traîne</strong>, <strong>référencement local</strong>, etc.</p>
                         <p>Toutefois, il n'y a pas de secret : obtenir un <strong>bon référencement</strong> demande de porter une attention au moindre détail. En effet, c'est dans le détail que vous parviendrez à attirer des consommateurs <strong>vers votre site</strong>.</p>
                         <p>Le soin à apporter à la mise en œuvre de votre stratégie découle du fait que le <strong>référencement naturel</strong> est généralement divisé en deux sous-disciplines auxquelles il va falloir être particulièrement attentif : </p>
-                        <br/>
+                        <br />
                         <ul>
                             <li><span className="text-bleu">></span> la <strong>création de contenus sur le site internet</strong>,</li>
                             <li><span className="text-bleu">></span> la <strong>popularité du site internet sur le web</strong>.</li>
                         </ul>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Le contenu : faire autorité dans votre domaine</h3>
-                        <br/>
+                        <br />
                         <p>La <strong>création de contenus sur un site internet</strong> fait partie du travail d'<strong>optimisation</strong> sur lequel il est possible d'avoir entièrement la main. Ainsi, le <strong>contenu présent sur un site web</strong> doit être le plus travaillé possible pour générer le maximum de <strong>performance SEO</strong>.</p>
                         <p>Dans la question du <strong>contenu publié sur un site web</strong>, il y a la question de l'<strong>optimisation sur un mot-clé</strong>, mais il y a surtout une question de plan de production. Il est important de <strong>créer du contenu de façon régulière</strong> pour réduire les délais d'<strong>indexation de vos pages web</strong>, mais bien un <strong>contenu de qualité</strong> qui s'inscrit dans le champ thématique de votre secteur ou domaine d'activité.</p>
                         <p>Ceci est d'autant plus important que <strong>Google est particulièrement exigeant sur la qualité et la pertinence du contenu produit et publié sur les sites internet</strong>. C'est pourquoi, il propose même des <a href="https://support.google.com/websearch/answer/9281931?hl=en" className="text-bleu font-bold hover:text-black" target="_blank" rel="noreferrer noopener">règles favorisant la production d'un contenu qu'il juge de bonne qualité</a>.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Le balisage</h3>
-                        <br/>
+                        <br />
                         <p>Au-delà de la <strong>production de contenu de qualité et pertinent</strong>, cette dernière serait inefficace sans une <strong>structure HTML</strong> construite pour faciliter la <strong>lecture de vos pages web par les moteurs de recherche</strong>. En effet, ce travail est parfaitement complémentaire au travail sur le contenu et il est indispensable de proposer un <strong>balisage cohérent et soigné pour positionner au mieux vos pages dans les résultats de recherche</strong>.</p>
                         <p>En effet, la présence de certaines <strong>balises</strong> fait figure de <strong>critère de classement</strong> (ou <strong>critère de pertinence</strong>) auprès des <strong>moteurs de recherche</strong> et notamment des <strong>algorithmes de Google</strong>. Le travail de balisage est indispensable pour favoriser le <strong>référencement d'un site internet</strong>.</p>
-                        <br/>
+                        <br />
                         <h3 className="intertitre3">Le netlinking : rendre votre site populaire</h3>
-                        <br/>
+                        <br />
                         <p>Enfin, le <strong>netlinking</strong> ou bien la <strong>construction de liens externes</strong> est l'une des pierres angulaires du <strong>référencement naturel</strong>. Contrairement au <strong>travail de référencement on-site</strong>, le <strong>netlinking</strong> consiste à développer un <strong>réseau de liens externes sur le Web</strong> et redirigeant <strong>vers votre site</strong> (<strong>backlinks</strong>).</p>
                         <p>Ce travail est particulièrement difficile car il demande de la patience. En effet, il s'agit de l'une des missions de <strong>référencement</strong> sur lesquelles il n'est pas évident d'avoir la main. Pour développer un <strong>réseau de liens entrants vers son site</strong>, il va être nécessaire de nouer des partenariats avec d'autres sites, ou bien de <strong>créer un contenu original</strong>, qui apporte une plus-value par rapport au contenu déjà publié et qui sera donc plus à même d'être partagé par d'autres <strong>sites web</strong> ou <strong>blogs</strong>.</p>
                         <p>En somme, le <strong>travail de netlinking</strong> est une sous-discipline à part entière, indispensable pour <strong>créer un maillage externe pour votre site internet</strong> et ainsi convaincre les <strong>moteurs de recherche</strong> de la <strong>popularité</strong>, de la <strong>légitimité</strong> et de la <strong>fiabilité de votre contenu</strong>.</p>
-                        <br/>
-                        <hr style={{width:'100%'}}/>
-                        <br/>
-                        <img className="mx-0 block w-full" src={traficref} alt="Référencement Toulouse"/>
-                        <br/>
+                        <br />
+                        <hr style={{ width: '100%' }} />
+                        <br />
+                        <img className="mx-0 block w-full" src={traficref} alt="Référencement Toulouse" />
+                        <br />
                         <h2>Alors, à quoi sert le référencement naturel ?</h2>
-                        <br/>
+                        <br />
                         <p>Face à la rigueur, la régularité et la patience auxquelles le <strong>référencement naturel</strong> fait appel, certains pourront vite se sentir découragés. Mener une <strong>stratégie de référencement naturel</strong> ne sera bénéfique si et seulement si elle est rondement menée jusqu'à son terme.</p>
                         <p>De la <strong>définition des mots-clés</strong> à la <strong>publication des contenus</strong> et en passant par la <strong>création de liens externes</strong>, il est important d'apporter un soin important au travail effectué. Ceci est une condition nécessaire pour que le <strong>référencement naturel</strong> soit utile pour vous.</p>
                         <p>Le <strong>référencement naturel</strong> est une discipline qui présente un potentiel conséquent et qui peut vous permettre de <strong>développer votre activité</strong> grâce à un gain en termes de <strong>visibilité</strong>, de <strong>notoriété</strong> en vous permettant également de travailler <strong>votre image de marque</strong>.</p>
@@ -326,25 +326,25 @@ render() {
                         <p>Bâtie sur le long terme, une <strong>stratégie de référencement</strong> efficace vous permettra de d'<strong>attirer de nouveaux clients</strong> et, à terme, <strong>d'augmenter votre chiffre d'affaires</strong>.</p>
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
-                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                                    <br/>
-                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
-                                    <br/>
-                                    <div className="w-1/2 flex flex-row justify-center items-center">
-                                    <br/>
-                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
-                                    </div>
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                            <br />
+                            <h3>Linkweb met en place votre projet de création de site web.</h3>
+                            <br />
+                            <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br />
+                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                
-                
-            {/* </PageTransition> */}
-        </Layout>
-    );
-}
+
+
+                {/* </PageTransition> */}
+            </Layout>
+        );
+    }
 };
 
 

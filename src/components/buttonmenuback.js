@@ -1,22 +1,22 @@
-import React from 'react';
-import {Link} from 'gatsby';
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
 
-class ButtonMenuBack extends React.Component {
+class ButtonMenuBack extends Component {
     constructor(props) {
-    super(props);
+        super(props);
     }
 
-    render(){
+    render() {
         return (
-            <Link 
-                to={ this.props.url } 
+            <Link
+                to={this.props.url}
                 activeClassName="active"
-                className={`link flex buttonmenu justify-${ this.props.position } mt-0 items-center text-l`}
+                className={`link flex buttonmenu justify-${this.props.position} mt-0 items-center text-l`}
             >
-              <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
-              
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg>
+
             </Link>
-            
+
         )
     }
 }

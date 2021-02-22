@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 import "../scss/form.scss";
 import ReactNotification from 'react-notifications-component'
@@ -7,7 +7,7 @@ import ReCaptchaBlock from '../components/recaptcha'
 import { store } from 'react-notifications-component'
 import { loadReCaptcha } from 'react-recaptcha-v3'
 
-class ContactForm extends React.Component {
+class ContactForm extends Component {
 
     constructor(props) {
         super(props)
@@ -24,19 +24,19 @@ class ContactForm extends React.Component {
             submitDisplay: "block"
         }
     }
-    
-    componentDidMount(){
+
+    componentDidMount() {
         loadReCaptcha('6LfT84MUAAAAADxf0gSSMIhpMWh2CIAKHdobtTtq')
     }
 
-    handleFormSubmit (event) {
+    handleFormSubmit(event) {
         event.preventDefault()
         console.log(JSON.stringify(this.state.mailSent));
-        if( this.state.email == '' && this.state.nom == '' && this.state.prenom == '' && this.state.message == "") {
+        if (this.state.email == '' && this.state.nom == '' && this.state.prenom == '' && this.state.message == "") {
             store.addNotification({
                 id: "notif",
                 title: "Le formulaire est vide",
-                message: "Veuillez saisir les champs obligatoire avant de soumettre le formulaire" ,
+                message: "Veuillez saisir les champs obligatoire avant de soumettre le formulaire",
                 type: "danger",
                 insert: "top",
                 container: "top-right",
@@ -50,180 +50,181 @@ class ContactForm extends React.Component {
         } else {
             axios({
                 method: 'post',
-                url:'https://api.linkweb.fr/data/form.php',
+                url: 'https://api.linkweb.fr/data/form.php',
                 // url:'../form.php',
-                headers: {'content-type': 'application/json' },
+                headers: { 'content-type': 'application/json' },
                 data: this.state
             })
-            .then( result => {
-                this.setState({ mailSent: result.data.sent })
-                console.log(result.data)
-                let isOK = result.data.sent
-                if (isOK === true) {
-                    this.setState({submitDisplay: "hidden"})
-                    store.addNotification({
-                        id: "notif",
-                        title: "Votre message a bien été pris en compte!",
-                        message: "Nous reviendrons vers vous d'ici les prochaines 24h",
-                        type: "success",
-                        insert: "top",
-                        container: "top-right",
-                        animationIn: ["animated", "fadeIn"],
-                        animationOut: ["animated", "fadeOut"],
-                        dismiss: {
-                            duration: 5000,
-                            onScreen: true
-                        }
-                    })
+                .then(result => {
+                    this.setState({ mailSent: result.data.sent })
+                    console.log(result.data)
+                    let isOK = result.data.sent
+                    if (isOK === true) {
+                        this.setState({ submitDisplay: "hidden" })
+                        store.addNotification({
+                            id: "notif",
+                            title: "Votre message a bien été pris en compte!",
+                            message: "Nous reviendrons vers vous d'ici les prochaines 24h",
+                            type: "success",
+                            insert: "top",
+                            container: "top-right",
+                            animationIn: ["animated", "fadeIn"],
+                            animationOut: ["animated", "fadeOut"],
+                            dismiss: {
+                                duration: 5000,
+                                onScreen: true
+                            }
+                        })
 
-                    this.setState({
-                        email: "",
-                        nom: "",
-                        prenom: "",
-                        telephone: "",
-                        ville: "",
-                        objet: "",
-                        message: "",
-                        mailSent: false,
-                        error: null
-                    })
-    
-                } else {
-                    let nom = '';
-                    let prenom = '';
-                    let tel = '';
-                    let message = '';
-                    let adresse = '';
-                    let objet = '';
-                    let email = '';
-                    if(!result.data.nameMessage == ''){
-                        nom = 'Nom ';
-                    }
-                    if(!result.data.prenomMessage == ''){
-                        prenom = 'Prénom ';
-                    }
-                    if(!result.data.phoneMessage == ''){
-                        tel = 'Téléphone ';
-                    }
-                    if(!result.data.messageMessage == ''){
-                        message = 'Message ';
-                    }
-                    if(!result.data.adresseMessage == ''){
-                        adresse = 'Adresse ';
-                    }
-                    if(!result.data.objetMessage == ''){
-                        objet = 'Objet ';
-                    }
-                    if(!result.data.emailMessage == ''){
-                        email = 'Email ';
-                    }
-                    store.addNotification({
-                        id: "notif",
-                        title: "Certains champs sont manquants ou incomplets",
-                        message: "Veuillez corriger les champs avant de valider ce formulaire : " + nom + prenom + tel + message + adresse + objet + email ,
-                        type: "danger",
-                        insert: "top",
-                        container: "top-right",
-                        animationIn: ["animated", "fadeIn"],
-                        animationOut: ["animated", "fadeOut"],
-                        dismiss: {
-                            duration: 5000,
-                            onScreen: true
+                        this.setState({
+                            email: "",
+                            nom: "",
+                            prenom: "",
+                            telephone: "",
+                            ville: "",
+                            objet: "",
+                            message: "",
+                            mailSent: false,
+                            error: null
+                        })
+
+                    } else {
+                        let nom = '';
+                        let prenom = '';
+                        let tel = '';
+                        let message = '';
+                        let adresse = '';
+                        let objet = '';
+                        let email = '';
+                        if (!result.data.nameMessage == '') {
+                            nom = 'Nom ';
                         }
-                    });
-                }
-    
-            })
-            .catch(error=>{this.setState({
-                error: error.message,
+                        if (!result.data.prenomMessage == '') {
+                            prenom = 'Prénom ';
+                        }
+                        if (!result.data.phoneMessage == '') {
+                            tel = 'Téléphone ';
+                        }
+                        if (!result.data.messageMessage == '') {
+                            message = 'Message ';
+                        }
+                        if (!result.data.adresseMessage == '') {
+                            adresse = 'Adresse ';
+                        }
+                        if (!result.data.objetMessage == '') {
+                            objet = 'Objet ';
+                        }
+                        if (!result.data.emailMessage == '') {
+                            email = 'Email ';
+                        }
+                        store.addNotification({
+                            id: "notif",
+                            title: "Certains champs sont manquants ou incomplets",
+                            message: "Veuillez corriger les champs avant de valider ce formulaire : " + nom + prenom + tel + message + adresse + objet + email,
+                            type: "danger",
+                            insert: "top",
+                            container: "top-right",
+                            animationIn: ["animated", "fadeIn"],
+                            animationOut: ["animated", "fadeOut"],
+                            dismiss: {
+                                duration: 5000,
+                                onScreen: true
+                            }
+                        });
+                    }
+
                 })
-                //console.log(JSON.stringify(this.state));
-            });
+                .catch(error => {
+                    this.setState({
+                        error: error.message,
+                    })
+                    //console.log(JSON.stringify(this.state));
+                });
         }
-        
+
     }
 
-    render(){
-        
-        return(
+    render() {
+
+        return (
             <form onSubmit={this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto">
 
                 <div className="w-full md:w-1/2 px-2 py-4">
-                <input 
-                    placeholder="Nom (*)" 
-                    type="text" 
-                    className=" border-bottom-bleu py-3 w-full"
-                    name="nom"
-                    value={this.state.nom}
-                    onChange={e => this.setState({ nom: e.target.value })}
+                    <input
+                        placeholder="Nom (*)"
+                        type="text"
+                        className=" border-bottom-bleu py-3 w-full"
+                        name="nom"
+                        value={this.state.nom}
+                        onChange={e => this.setState({ nom: e.target.value })}
 
-                
-                />
+
+                    />
                 </div>
                 <div className="w-full md:w-1/2 px-2 py-4">
-                <input 
-                    placeholder="Prénom (*)" 
-                    type="text" 
-                    className="py-3 border-bottom-bleu w-full"
-                    name="prenom"
-                    value={this.state.prenom}
-                    onChange={e => this.setState({ prenom: e.target.value })}
+                    <input
+                        placeholder="Prénom (*)"
+                        type="text"
+                        className="py-3 border-bottom-bleu w-full"
+                        name="prenom"
+                        value={this.state.prenom}
+                        onChange={e => this.setState({ prenom: e.target.value })}
 
-                
-                />
+
+                    />
                 </div>
                 <div className="w-full md:w-1/3 px-2 py-4">
-                <input 
-                    placeholder="Email (*)" 
-                    type="email" 
-                    className="py-3 border-bottom-bleu w-full"
-                    name="email"
-                    value={this.state.email}
-                    onChange={e => this.setState({ email: e.target.value })}
+                    <input
+                        placeholder="Email (*)"
+                        type="email"
+                        className="py-3 border-bottom-bleu w-full"
+                        name="email"
+                        value={this.state.email}
+                        onChange={e => this.setState({ email: e.target.value })}
 
-                
-                />
+
+                    />
                 </div>
                 <div className="w-full md:w-1/3 px-2 py-4">
-                <input 
-                    placeholder="Téléphone (*)" 
-                    type="text" 
-                    className="py-3 border-bottom-bleu w-full"
-                    name="telephone"
-                    value={this.state.telephone}
-                    onChange={e => this.setState({ telephone: e.target.value.replace(/\s/g, '') })}
+                    <input
+                        placeholder="Téléphone (*)"
+                        type="text"
+                        className="py-3 border-bottom-bleu w-full"
+                        name="telephone"
+                        value={this.state.telephone}
+                        onChange={e => this.setState({ telephone: e.target.value.replace(/\s/g, '') })}
 
-                
-                />
+
+                    />
                 </div>
                 <div className="w-full md:w-1/3 px-2 py-4">
-                <input 
-                    placeholder="Ville (*)" 
-                    type="text" 
-                    className="py-3 border-bottom-bleu w-full"
-                    name="ville"
-                    value={this.state.ville}
-                    onChange={e => this.setState({ ville: e.target.value })}
+                    <input
+                        placeholder="Ville (*)"
+                        type="text"
+                        className="py-3 border-bottom-bleu w-full"
+                        name="ville"
+                        value={this.state.ville}
+                        onChange={e => this.setState({ ville: e.target.value })}
 
-                
-                />
+
+                    />
                 </div>
                 <div className="w-full  px-2 py-4">
-                <input 
-                    placeholder="Objet (*)" 
-                    type="text" 
-                    className="py-3 border-bottom-bleu w-full"
-                    name="objet"
-                    value={this.state.objet}
-                    onChange={e => this.setState({ objet: e.target.value })}
+                    <input
+                        placeholder="Objet (*)"
+                        type="text"
+                        className="py-3 border-bottom-bleu w-full"
+                        name="objet"
+                        value={this.state.objet}
+                        onChange={e => this.setState({ objet: e.target.value })}
 
-                
-                />
+
+                    />
                 </div>
                 <div className="w-full px-2 py-4">
-                    <textarea 
-                        placeholder="Message (*)" 
-                        type="text" 
+                    <textarea
+                        placeholder="Message (*)"
+                        type="text"
                         className="py-3 border-bottom-bleu w-full"
                         name="message"
                         value={this.state.message}
@@ -234,8 +235,8 @@ class ContactForm extends React.Component {
                 <ReactNotification />
                 <ReCaptchaBlock />
 
-                <div className={`w-full flex justify-center mt-12 mb-12 ${ this.state.submitDisplay } `}>
-                     <button onClick={e=>this.handleFormSubmit(e)} className="contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
+                <div className={`w-full flex justify-center mt-12 mb-12 ${this.state.submitDisplay} `}>
+                    <button onClick={e => this.handleFormSubmit(e)} className="contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
                 </div>
             </form>
         );
