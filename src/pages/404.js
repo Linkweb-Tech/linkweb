@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link, graphql } from "gatsby";;
+//import { Link, graphql } from "gatsby";;
 import Layout from "../components/layout";
-import Button from "../components/button";
+//import Button from "../components/button";
 import RoundButton from "../components/roundButton";
 // import PageTransition from "gatsby-plugin-page-transitions";
 import SEO from "../components/seo";

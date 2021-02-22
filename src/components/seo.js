@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import { StaticQuery, graphql, withPrefix } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 
-import linkwebLogo from "../images/linkweb-black.png";
+//import linkwebLogo from "../images/linkweb-black.png";
 
 function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified, nom, image }) {
   return (

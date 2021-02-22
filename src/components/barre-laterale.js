@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import "../scss/barre.scss";
 
-import logo from '../images/logo-gs.png';
+//import logo from '../images/logo-gs.png';
 import logosia from '../images/logo-sia.png';
 import logoatpt from '../images/logo-atpt.png';
 import logosdis from '../images/logo-sdis47-real.png';

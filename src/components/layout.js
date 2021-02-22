@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
-import CookieConsent from 'react-cookie-consent';
+//import CookieConsent from 'react-cookie-consent';
 import Header from "./header";
 import Footer from "./footer";
 import "../scss/global.scss";

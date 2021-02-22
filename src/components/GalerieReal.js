@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import QueueAnim from 'rc-queue-anim';
 import PropTypes from 'prop-types';
 import TweenOne, { TweenOneGroup } from 'rc-tween-one';

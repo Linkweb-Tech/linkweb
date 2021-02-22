@@ -5,18 +5,18 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import LastPosts from '../components/lastposts';
 import Postune from '../components/postune';
-import ButtonBlog from "../components/buttonblog";
+//import ButtonBlog from "../components/buttonblog";
 import BoutonBlog from '../components/boutonBlog.js';
 import RoundButton from '../components/roundButton.js';
 // import RappelForm from "../components/rappelForm";
-import CategoriesList from "../components/categoriesList";
+//import CategoriesList from "../components/categoriesList";
 import LastPostsMini from '../components/lastpostsmini';
 import LastPostsList from '../components/lastpostslist';
 import LastPostsTendances from '../components/lastpoststendances';
 
 
 import { Timeline } from 'react-twitter-widgets';
-import ButtonMenu from '../components/buttonmenu.js';
+//import ButtonMenu from '../components/buttonmenu.js';
 import BlogMenu from '../components/menublog.js';
 import '../scss/global.scss';
 
@@ -26,9 +26,7 @@ import blocBg from "../images/background.jpg";
 import CreerSite from "../images/besoins.jpg";
 import RefSite from "../images/referencement-google-toulouse.jpg";
 import AgenceAds from "../images/analytics-site-internet.jpg";
-import world from "../images/grid-world.png";
-import iconseo from "../images/seo-performance-marketing-graphic.png";
-import iconsea from "../images/waving-flag.png";
+
 import fbIcon from "../images/facebook-logo.svg";
 import twitterIcon from "../images/twitter-logo.svg";
 import instaIcon from "../images/instagram-logo.svg";
