@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-//import ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import QueueAnim from 'rc-queue-anim';
 import PropTypes from 'prop-types';
 import TweenOne, { TweenOneGroup } from 'rc-tween-one';
@@ -7,12 +7,12 @@ import '../css/style.css';
 
 const textData = {
   content: 'Taiwan called motorcycle, motor bike [1] or a motorcycle,' +
-    ' the motorcycle referred to in the mainland, Hong Kong and Southeast' +
-    ' Asia known as motorcycles.',
+  ' the motorcycle referred to in the mainland, Hong Kong and Southeast' +
+  ' Asia known as motorcycles.',
   title: 'Gabriel Services',
 };
 let dataArray = [
-  { image: 'https://linkweb.fr/wp-content/uploads/2019/06/atouts.jpg' },
+  { image: 'https://linkweb.fr/wp-content/uploads/2019/06/atouts.jpg'},
   { image: 'https://linkweb.fr/wp-content/uploads/2019/06/sia-min1.jpg' },
   { image: 'https://linkweb.fr/wp-content/uploads/2019/06/sdis.jpg' },
   { image: 'https://linkweb.fr/wp-content/uploads/2019/06/gabriel-services.jpg' },
@@ -23,7 +23,7 @@ let dataArray = [
   { image: 'https://linkweb.fr/wp-content/uploads/2019/06/cypiere-paysage-services.jpg' },
 ];
 dataArray = dataArray.map(item => ({ ...item, ...textData }));
-class GalerieReal extends Component {
+class GalerieReal extends React.Component {
   static propTypes = {
     className: PropTypes.string,
   };
@@ -117,7 +117,7 @@ class GalerieReal extends Component {
 
       // 位置 js 控制；
       return (
-        <TweenOne
+        <TweenOne 
           key={i}
           style={{
             left,
@@ -173,16 +173,16 @@ class GalerieReal extends Component {
     return (
       <div className="w-full flex flex-row justify-center my-6">
         <div>
-          <QueueAnim
-            delay={this.getDelay}
-            component="ul"
-            className={`${this.props.className}-image-wrapper`}
-            interval={0}
-            type="bottom"
-          >
-            {this.getLiChildren()}
-          </QueueAnim>
-        </div>
+            <QueueAnim
+              delay={this.getDelay}
+              component="ul"
+              className={`${this.props.className}-image-wrapper`}
+              interval={0}
+              type="bottom"
+            >
+              {this.getLiChildren()}
+            </QueueAnim>
+            </div>
       </div>
     );
   }

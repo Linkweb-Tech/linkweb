@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-//import Button from "../button";
+import React from "react";
+import Button from "../button";
 
 // import sitesurmesure from '../../images/creation-de-site-sur-mesure.webp';
 
-class ModalSolu extends Component {
+class ModalSolu extends React.Component {
 
     constructor(props) {
         super(props);

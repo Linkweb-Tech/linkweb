@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from "react";
 import { Link } from 'gatsby';
 import LinkwebWhite from "../images/logo-linkweb.png";
 import Datadock from "../images/logo_datadock.png";
@@ -11,7 +11,7 @@ import googlePartner from "../images/PartnerBadge-RGB.png";
 import Zendesk from "react-zendesk";
 
 const ZENDESK_KEY = "0799bea2-f202-4823-8ba0-93bc404a2ec6";
-class Footer extends Component {
+class Footer extends React.Component {
 
     // constructor(props) {
     //     super(props);

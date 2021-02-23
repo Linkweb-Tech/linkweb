@@ -6,7 +6,14 @@ module.exports = {
     author: `@AgenceLinkweb`
   },
   plugins: [
-
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true, // optional parameter to include script in development
+        id: 2170277,
+        sv: 6,
+      },
+    },
     /*
      * Gatsby's data processing layer begins with “source”
      * plugins. Here the site sources its data from Wordpress.
@@ -114,13 +121,13 @@ module.exports = {
         icon: `src/images/lw.png`
       }
     },
-    // `gatsby-plugin-page-transitions`,
-    // {
-    //   resolve: 'gatsby-plugin-page-transitions',
-    //   options: {
-    //     transitionTime: 700
-    //   }
-    // },
+    `gatsby-plugin-page-transitions`,
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 700
+      }
+    },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -211,7 +218,6 @@ module.exports = {
       // }
     },
     // yarn 
-    `gatsby-plugin-loadable-components-ssr`,
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-google-analytics`,

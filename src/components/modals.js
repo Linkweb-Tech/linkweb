@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from "react";
 
 import ModalRea from './modal-list/modalRea';
 import ModalRef from "./modal-list/modalRef";
 import ModalSolu from "./modal-list/modalSolu";
 import ModalAds from "./modal-list/modalAds";
 
-class Modals extends Component {
+class Modals extends React.Component {
 
     constructor(props) {
         super(props);
@@ -19,10 +19,10 @@ class Modals extends Component {
         const modalDumpBackground = modalBackground.getElementsByClassName("popup-inner")[0];
         const close = document.getElementsByClassName('popup__close')[0];
 
-        if (e.target === modalBackground || e.target === modalDumpBackground) {
+        if(e.target === modalBackground || e.target === modalDumpBackground) {
             // Simulate click on close popup link
             close.click();
-        }
+        }         
     }
 
     render() {

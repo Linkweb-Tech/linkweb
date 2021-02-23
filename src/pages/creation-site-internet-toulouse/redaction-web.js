@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -14,7 +14,7 @@ import Bg from "../../images/creation-site-internet-colomiers.jpg"
 import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
 
 
-class redactionweb extends Component {
+class redactionweb extends React.Component {
 
     constructor(props) {
         super(props);
@@ -51,83 +51,83 @@ class redactionweb extends Component {
                     transitionTime={200}
                 > */}
 
-                <section className="w-full century mt-40 flex flex-col items-center justify-start bg-bleu" style={{ background: '#00000073 url(' + Bg + ')', minHeight: '300px', backgroundPosition: 'center', backgroundSize: 'cover', backgroundBlendMode: 'overlay' }}>
-                    <div className="topdef">
-                        <h2 className="text-center text-xl font-bold text-white">Définition</h2>
-                    </div>
-                    <div>
-                        <h1 data-aos="fade-up" className="century text-5xl sm:text-6xl text-bleu text-center text-white mt-4 lg:mt-6">
-                            Rédaction Web
+                <section className="w-full century mt-40 flex flex-col items-center justify-start bg-bleu" style={{background:'#00000073 url('+ Bg +')', minHeight:'300px', backgroundPosition:'center', backgroundSize:'cover',backgroundBlendMode:'overlay'}}>
+                        <div className="topdef">
+                            <h2 className="text-center text-xl font-bold text-white">Définition</h2>
+                        </div>
+                        <div>
+                            <h1 data-aos="fade-up" className="century text-5xl sm:text-6xl text-bleu text-center text-white mt-4 lg:mt-6">
+                                Rédaction Web
                             </h1>
-                    </div>
-                </section>
-                <section className="w-full mt-10 text-justify century font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
-                    <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
-                        <br />
+                        </div>
+                    </section>
+                    <section className="w-full mt-10 text-justify century font-normal flex flex-col lg:flex-row lg:justify-end" data-aos="fade-right">
+                        <div className="w-full lg:w-2/3 px-16 md:px-24 lg:px-24 xl:pl-40 xl:ml-64 mb-24">
+                        <br/>
                         <h2 className="text-3xl text-bleu font-bold">Qu'est-ce que la rédaction web ?</h2>
-                        <br />
-                        <p>
-                            La <strong>rédaction web</strong> est une discipline ayant pour objectif de <strong className="font-normal">rédiger des contenus</strong> adaptés pour les spécificités du web (nous pouvons également parler de <strong className="font-normal">contenus optimisés</strong>). En ce sens, <strong className="font-normal">écrire pour le web</strong> fait appel à un <strong className="font-normal">style de rédaction</strong> bien particulier et basé sur l’<strong className="font-normal">optimisation du contenu web</strong> pour les <strong className="font-normal">moteurs de recherche</strong>, en même temps que pour les humains à travers le <strong className="font-normal">marketing de contenu (content marketing)</strong>. La mise en place d’une <strong className="font-normal">stratégie éditoriale optimisée</strong> ainsi que la <strong className="font-normal">création de contenu unique</strong> (qu’il s’agisse d’<strong className="font-normal">articles</strong>, de <strong className="font-normal">contenus rédigés</strong> pour un site vitrine et bien d’autres types de <strong className="font-normal">contenus web</strong>) fait partie de notre travail <strong><Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">de création de site internet à Toulouse</Link></strong>.<br />
-                            <br />
-                                En effet, les <strong className="font-normal">textes produits par les rédacteurs web</strong> doivent être structurés pour une meilleure compréhension des moteurs de recherche. À ce titre, pour <strong className="font-normal">structurer une page web</strong>, il est important de faire appel aux <strong className="font-normal">balises</strong> hn qui correspondent à des niveaux de titres et peuvent contenir certains <strong className="font-normal">mots-clés</strong> imposés par la stratégie de <strong className="font-normal">référencement naturel</strong>, tout en présentant un <strong className="font-normal">contenu de qualité</strong> pour les utilisateurs.<br />
-                            <br />
-                            <strong className="font-normal">Rédiger du contenu pour le web</strong>, c’est aussi être capable d’adapter une <strong className="font-normal">ligne éditoriale</strong> à la méthodologie spécifique avec un <strong className="font-normal">nombre de mots</strong> et de <strong className="font-normal">paragraphes</strong> à minima par exemple, des thématiques engageantes pour les utilisateurs ou encore un ton <strong className="font-normal">pertinent</strong>. La rédaction web regroupe plusieurs types de rédactions, à savoir, l’<strong className="font-normal">article de blog</strong>, le contenu présent sur les pages web d’un site vitrine, les <strong className="font-normal">fiches produits</strong> et a également investi le domaine du <strong className="font-normal">journalisme</strong>.<br />
-                            <br />
-                                Il faut avoir conscience que la <strong className="font-normal">rédaction de contenu sur votre site internet</strong> possède deux objectifs : elle s’adresse à plusieurs types de lectorat, c’est en cela que votre <strong className="font-normal">contenu éditorial</strong> va être adapté à tous les publics. Il est important de bien comprendre cela pour <strong className="font-normal">référencer</strong> son site sur les moteurs de recherche et obtenir une visibilité intéressante avec un contenu qui reste adapté pour les utilisateurs.<br />
-                            <br />
-                                Enfin, outre le contenu <strong className="font-normal">rédigé</strong> en lui-même, le domaine de la rédaction web est un domaine large qui englobe également la mise en place de <strong className="font-normal">stratégie de contenu</strong>. Cette dernière va aboutir à l’établissement d’un <strong className="font-normal">maillage interne</strong> entre les différents contenus présents sur le site, possédant un lien thématique et qui va contribuer à améliorer l’<strong className="font-normal">expérience utilisateur</strong> du site. Intégrer la rédaction web dans le travail de son contenu est indispensable pour proposer du <strong className="font-normal">contenu rédactionnel</strong> adapté et qui vous apportera de la performance.<br />
-                        </p>
-                        <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
+                            <br/>
+                            <p>
+                                La <strong>rédaction web</strong> est une discipline ayant pour objectif de <strong className="font-normal">rédiger des contenus</strong> adaptés pour les spécificités du web (nous pouvons également parler de <strong className="font-normal">contenus optimisés</strong>). En ce sens, <strong className="font-normal">écrire pour le web</strong> fait appel à un <strong className="font-normal">style de rédaction</strong> bien particulier et basé sur l’<strong className="font-normal">optimisation du contenu web</strong> pour les <strong className="font-normal">moteurs de recherche</strong>, en même temps que pour les humains à travers le <strong className="font-normal">marketing de contenu (content marketing)</strong>. La mise en place d’une <strong className="font-normal">stratégie éditoriale optimisée</strong> ainsi que la <strong className="font-normal">création de contenu unique</strong> (qu’il s’agisse d’<strong className="font-normal">articles</strong>, de <strong className="font-normal">contenus rédigés</strong> pour un site vitrine et bien d’autres types de <strong className="font-normal">contenus web</strong>) fait partie de notre travail <strong><Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">de création de site internet à Toulouse</Link></strong>.<br/>
+                                <br/>
+                                En effet, les <strong className="font-normal">textes produits par les rédacteurs web</strong> doivent être structurés pour une meilleure compréhension des moteurs de recherche. À ce titre, pour <strong className="font-normal">structurer une page web</strong>, il est important de faire appel aux <strong className="font-normal">balises</strong> hn qui correspondent à des niveaux de titres et peuvent contenir certains <strong className="font-normal">mots-clés</strong> imposés par la stratégie de <strong className="font-normal">référencement naturel</strong>, tout en présentant un <strong className="font-normal">contenu de qualité</strong> pour les utilisateurs.<br/>
+                                <br/>
+                                <strong className="font-normal">Rédiger du contenu pour le web</strong>, c’est aussi être capable d’adapter une <strong className="font-normal">ligne éditoriale</strong> à la méthodologie spécifique avec un <strong className="font-normal">nombre de mots</strong> et de <strong className="font-normal">paragraphes</strong> à minima par exemple, des thématiques engageantes pour les utilisateurs ou encore un ton <strong className="font-normal">pertinent</strong>. La rédaction web regroupe plusieurs types de rédactions, à savoir, l’<strong className="font-normal">article de blog</strong>, le contenu présent sur les pages web d’un site vitrine, les <strong className="font-normal">fiches produits</strong> et a également investi le domaine du <strong className="font-normal">journalisme</strong>.<br/>
+                                <br/>
+                                Il faut avoir conscience que la <strong className="font-normal">rédaction de contenu sur votre site internet</strong> possède deux objectifs : elle s’adresse à plusieurs types de lectorat, c’est en cela que votre <strong className="font-normal">contenu éditorial</strong> va être adapté à tous les publics. Il est important de bien comprendre cela pour <strong className="font-normal">référencer</strong> son site sur les moteurs de recherche et obtenir une visibilité intéressante avec un contenu qui reste adapté pour les utilisateurs.<br/>
+                                <br/>
+                                Enfin, outre le contenu <strong className="font-normal">rédigé</strong> en lui-même, le domaine de la rédaction web est un domaine large qui englobe également la mise en place de <strong className="font-normal">stratégie de contenu</strong>. Cette dernière va aboutir à l’établissement d’un <strong className="font-normal">maillage interne</strong> entre les différents contenus présents sur le site, possédant un lien thématique et qui va contribuer à améliorer l’<strong className="font-normal">expérience utilisateur</strong> du site. Intégrer la rédaction web dans le travail de son contenu est indispensable pour proposer du <strong className="font-normal">contenu rédactionnel</strong> adapté et qui vous apportera de la performance.<br/>
+                            </p>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Création site internet Toulouse"
                             className="mx-auto block max-w-full mt-12"
                         /></Link>
-                    </div>
-                    <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                            <br />
-                            <h3>Linkweb met en place votre projet de création de site web.</h3>
-                            <br />
-                            <div className="w-1/2 flex flex-row justify-center items-center">
-                                <br />
-                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                        </div>
+                        <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
+                            <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                <br/>
+                                <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                <br/>
+                                <div className="w-1/2 flex flex-row justify-center items-center">
+                                <br/>
+                                    <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                </div>
+                            </div>
+                            <br/>
+                            <hr className="hrblog"></hr>
+                            <br/>
+                            <h3 className="font-bold">Les notions liées à la rédaction web :</h3>
+                            <br/>
+                            <hr className="hrblog"></hr>
+                            <br/>
+                            <div className="flex flex-row uppercase italic justify-center">
+                            <ul className="list-def flex justify-center flex-col" data-aos="fade-left">
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ui-design/"><li>UI Design</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/"><li>UX Design</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/"><li>CMS</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/framework/"><li>Framework</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/"><li>Front-End</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/back-end/"><li>Back-End</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/"><li>HTML/CSS</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/"><li>Arborescence de site internet</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/w3c/"><li>W3C</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/"><li>Responsive Design</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/maquette-site-web/"><li>Maquette de site web</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/"><li>Webdesign</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/"><li>Nom de domaine</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/"><li>Refonte site internet</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/charte-graphique/"><li>Charte Graphique</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/"><li>CMS</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/"><li>Développement Web</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/mobile-first/"><li>Mobile-First</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/"><li>Moteurs de recherche</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/strategie-digitale/"><li>Stratégie Digitale</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/"><li>Webmarketing</li></Link>
+                            </ul>
                             </div>
                         </div>
-                        <br />
-                        <hr className="hrblog"></hr>
-                        <br />
-                        <h3 className="font-bold">Les notions liées à la rédaction web :</h3>
-                        <br />
-                        <hr className="hrblog"></hr>
-                        <br />
-                        <div className="flex flex-row uppercase italic justify-center">
-                            <ul className="list-def flex justify-center flex-col" data-aos="fade-left">
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ui-design/"><li>UI Design</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/ux-design/"><li>UX Design</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/"><li>CMS</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/framework/"><li>Framework</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/front-end/"><li>Front-End</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/back-end/"><li>Back-End</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/html-css/"><li>HTML/CSS</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/arborescence-site-internet/"><li>Arborescence de site internet</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/w3c/"><li>W3C</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/responsive-design/"><li>Responsive Design</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/maquette-site-web/"><li>Maquette de site web</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webdesign/"><li>Webdesign</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/nom-de-domaine/"><li>Nom de domaine</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/refonte-site-internet/"><li>Refonte site internet</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/charte-graphique/"><li>Charte Graphique</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/cms/"><li>CMS</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/developpement-web/"><li>Développement Web</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/mobile-first/"><li>Mobile-First</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/moteurs-recherche/"><li>Moteurs de recherche</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/strategie-digitale/"><li>Stratégie Digitale</li></Link>
-                                <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/"><li>Webmarketing</li></Link>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+                    </section>
                 {/* </PageTransition> */}
             </Layout>
         );

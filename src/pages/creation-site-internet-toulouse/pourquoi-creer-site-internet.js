@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -21,26 +21,26 @@ import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
 
 
 
-class PourquoiCreerSiteInternet extends Component {
+class PourquoiCreerSiteInternet extends React.Component {
 
     constructor(props) {
         super(props);
-
+    
     }
 
-    render() {
-        return (
-            <Layout location={this.props.location}>
+render() {
+    return (
+        <Layout location={this.props.location}>
 
-                <SEO
-                    title="Pourquoi créer un site internet ? | Création site internet à Toulouse (31)"
-                    description="La création de site internet présente de nombreux avantages. Le site web est un outil polyvalent et au potentiel particulière élevé."
-                    keywords={[`Création site internet Toulouse`, `Création site internet Agen`, `Agence Web Toulouse`]}
-                    url="https://linkweb.fr/creation-site-internet-toulouse/pourquoi-creer-site-internet/"
-                    nom="Pourquoi créer un site internet ?"
-                    slug="creation-site-internet-toulouse/pourquoi-creer-site-internet/"
-                />
-                {/* <PageTransition
+            <SEO
+                title="Pourquoi créer un site internet ? | Création site internet à Toulouse (31)"
+                description="La création de site internet présente de nombreux avantages. Le site web est un outil polyvalent et au potentiel particulière élevé."
+                keywords={[`Création site internet Toulouse`, `Création site internet Agen`, `Agence Web Toulouse`]}
+                url="https://linkweb.fr/creation-site-internet-toulouse/pourquoi-creer-site-internet/"
+                nom="Pourquoi créer un site internet ?"
+                slug="creation-site-internet-toulouse/pourquoi-creer-site-internet/"
+            />
+            {/* <PageTransition
                 defaultStyle={{
                     transition: 'left 200ms cubic-bezier(0.47, 0, 0.75, 0.72)',
                     transitionDuration: '0.5s',
@@ -59,50 +59,50 @@ class PourquoiCreerSiteInternet extends Component {
                 }}
                 transitionTime={200}
             > */}
-                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-black flex flex-col justify-center items-center" style={{ background: '#00000094 url(' + background + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center', height: '450px' }}>
+                <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-black flex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
-                        Pourquoi créer un site internet ?
+                    Pourquoi créer un site internet ?
                     </h2>
                     <Link to="/creation-site-internet-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Création de site internet à Toulouse</h1></Link>
-                    <br />
+                    <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
-                        <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                            <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img
-                                        src={fbIcon}
-                                        alt="Réseaux sociaux"
-                                        className="w-6 fill-current"
+                            <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
+                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                    <a href="https://facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img 
+                                    src={ fbIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
                                     />
-                                </a>
-                            </div>
-                            <div className="w-1/3 block, mx-auto" data-aos="fade-up">
-                                <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img
-                                        src={twitterIcon}
-                                        alt="Réseaux sociaux"
-                                        className="w-6 fill-current"
+                                    </a>
+                                </div>
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-up">
+                                    <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img 
+                                    src={ twitterIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
                                     />
-                                </a>
-                            </div>
-                            <div className="w-1/3 block, mx-auto" data-aos="fade-right">
-                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
-                                    <img
-                                        src={instaIcon}
-                                        alt="Réseaux sociaux"
-                                        className="w-6 fill-current"
-                                        style={{ maxHeight: '50px', minWidth: '15px' }}
+                                    </a>
+                                </div>
+                                <div className="w-1/3 block, mx-auto" data-aos="fade-right">
+                                    <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                    <img 
+                                    src={ instaIcon }
+                                    alt="Réseaux sociaux"
+                                    className="w-6 fill-current"
+                                    style={{maxHeight:'50px', minWidth:'15px'}}
                                     />
-                                </a>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
                     </section>
                     {/* FIN Réseaux Sociaux */}
                 </section>
-
+                
                 <section className="w-full  flex flex-col xl:flex-row flex justify-center">
-
+                    
                     {/* <div className="w-full century lg:w-1/4 order-last lg:order-first">
                         <ul>
                             <li>
@@ -183,21 +183,21 @@ class PourquoiCreerSiteInternet extends Component {
                         </ul>
                     </div> */}
                     <div className="bloctextpages w-full lg:w-1/2 flex flex-col justify-center century text-justify">
-
-                        <p style={{ marginBottom: '50px' }}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Pourquoi créer un site internet ?</p>
+                        
+                        <p style={{marginBottom:'50px'}}><Link to="/faq/" className="text-bleu hover:text-black">Foire aux questions</Link> <span className="text-bleu">></span> Pour démarrer <span className="text-bleu">></span> Pourquoi créer un site internet ?</p>
                         <h3>La création de site internet fait partie des moyens de communication indispensables dans le cadre du développement de son entreprise. En effet, avoir un site internet professionnel est devenu une condition essentielle pour développer la visibilité d’un site web.</h3>
-                        <br />
+                        <br/>
                         <p>Qu’il s’agisse de <strong className="font-bold">développer sa communication web</strong> ou bien de mettre en place une <strong className="font-bold">stratégie d’acquisition de visibilité ou de notoriété</strong>, le <strong>site internet</strong> est un outil particulièrement pertinent. En ce sens, il constitue la <strong>vitrine en ligne</strong> d’une entreprise.</p>
                         <p>En effet, quel que soit son secteur d’activité, il existe mille et une raisons de <strong className="font-bold">créer un site internet d’entreprise</strong> et d’en tirer bénéfice.</p>
-                        <br />
-                        <img src={pourquoi} className="w-full" alt="Création site internet à Toulouse" />
-                        <br />
+                        <br/>
+                        <img src={pourquoi} className="w-full" alt="Création site internet à Toulouse"/>
+                        <br/>
                         <h2>Un outil de communication aux multiples usages</h2>
-                        <br />
+                        <br/>
                         <p>Lorsque l’on décide de se lancer dans la <strong className="font-bold">création de site web pour une entreprise</strong>, ce dernier va répondre à de nombreux usages.</p>
                         <p>En effet, le <strong>site web</strong> peut constituer une <strong>interface de contact</strong> pour votre marque, tout comme il peut être un <strong className="font-bold">moteur pour votre stratégie de visibilité</strong>.</p>
                         <p><strong>Créer un site web</strong> vous permet d’élargir le champ des possibles, que ce soit en termes de <strong>communication</strong> ou bien de <strong>webmarketing</strong>. En ce sens, il peut vous permettre d’atteindre plusieurs objectifs : </p>
-                        <br />
+                        <br/>
                         <ul>
                             <li><span className="text-bleu">></span> Disposer d’un outil pour <strong>maîtriser sa communication</strong></li>
                             <li><span className="text-bleu">></span> <strong>Accroître sa visibilité et sa notoriété</strong></li>
@@ -206,112 +206,112 @@ class PourquoiCreerSiteInternet extends Component {
                             <li><span className="text-bleu">></span> Optimiser le fonctionnement de son entreprise</li>
                         </ul>
                         <p>Quoi qu’il en soit, <strong>créer votre site internet</strong> vous permet d’accéder à ce qui fait partie des <strong>outils indispensables</strong> en matière de <strong>communication</strong>.</p>
-                        <br />
-                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Les différents usages d’un site internet</h3>
-                        <br />
+                        <br/>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Les différents usages d’un site internet</h3>
+                        <br/>
                         <p><strong>La création de sites internet</strong> peut répondre à des objectifs parfois très diversifiés. Un <strong className="font-bold">site web conçu pour le référencement naturel</strong> n’aura pas les mêmes besoins qu’un <strong className="font-bold">site web utilisé pour faire du branding</strong>.</p>
                         <p>En effet, le <strong>référencement naturel</strong> demande d’intégrer des paramètres qui auront peu d’importance dans le cas du <strong>branding</strong> par exemple. Dans le cas inverse, le <strong>nom de domaine</strong> est un critère essentiel pour poursuivre une <strong className="font-bold">stratégie de branding</strong> et qui a pourtant un faible poids en termes de <strong className="font-bold">référencement</strong>.</p>
                         <p>En fonction des <strong className="font-bold">objectifs d’un projet web</strong>, un <strong>site internet</strong> pourra avoir plusieurs fonctionnalités. Il est indispensable de délimiter les différents usages recherchés pour son <strong>site web</strong> avant d’en définir la structure. À partir de là, une <strong className="font-bold">étude de ses besoins</strong> est nécessaire afin de <strong className="font-bold">déterminer sa problématique</strong>.</p>
-                        <br />
-                        <img src={usage} className="w-full" alt="creation site internet Toulouse" />
-                        <br />
-                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Création de site internet : un outil qui répond à vos besoins</h3>
-                        <br />
+                        <br/>
+                        <img src={usage} className="w-full" alt="creation site internet Toulouse"/>
+                        <br/>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Création de site internet : un outil qui répond à vos besoins</h3>
+                        <br/>
                         <p>Cette diversité prédominante en ce qui concerne les <strong className="font-bold">usages d’un site web</strong> va être une force relativement aux objectifs que vous poursuivez. En effet, il n’existe pas un seul <strong className="font-bold">type de site internet</strong>. De plus, le <strong>site web</strong> est un outil particulièrement flexible et adaptable en fonction de ses <strong className="font-bold">objectifs de communication</strong>, mais également de ses <strong className="font-bold">objectifs commerciaux</strong>.</p>
                         <p>Le <strong>site internet</strong> s’adapte à vos besoins et offre un potentiel particulièrement intéressant à tous points de vue. Si vous êtes une entreprise reconnue, bénéficiant d’une forte notoriété, vos besoins concernant la <strong>création de site web</strong> seront complètement différents de ceux d’une <strong>entreprise cherchant à obtenir de la visibilité</strong>.</p>
                         <p>De plus, le <strong className="font-bold">site internet est un outil malléable</strong>. Il est donc possible d’en faire un projet à <strong>votre image</strong> et défini en totale adéquation avec vos spécificités, vos besoins et la fonction que vous souhaitez lui dédier.</p>
-                        <br />
-                        <hr className="bleu w-1/3" style={{ borderTop: '1px solid #37cfee' }} />
-                        <br />
+                        <br/>
+                        <hr className="bleu w-1/3" style={{borderTop:'1px solid #37cfee'}}/>
+                        <br/>
                         <h2>Le site internet : un outil polyvalent pour sa communication d’entreprise</h2>
-                        <br />
+                        <br/>
                         <p><strong>Pour créer un site internet performant</strong>, il va tout d’abord falloir <strong className="font-bold">définir ses objectifs et les hiérarchiser</strong>. En effet, bien que les <strong>sites web</strong> soient des outils polyvalents, ils ne doivent pas être utilisés de la même façon en fonction des objectifs qu’ils poursuivent. </p>
                         <p>Par exemple, <strong className="font-bold">faire un site pour dynamiser sa communication en ligne</strong> est une bonne occasion en vue de <strong className="font-bold">développer son image de marque</strong> et asseoir son <strong>positionnement communicationnel</strong>.</p>
                         <p>De même que la <strong>création d’un site internet</strong> est une étape indispensable en vue d’<strong className="font-bold">acquérir de la visibilité sur les moteurs de recherche</strong> et <strong className="font-bold">développer sa notoriété via le Web</strong>.</p>
                         <p>Il est donc nécessaire de se fixer une ligne de conduite et de s’y tenir tout au long de son projet.</p>
-                        <br />
-                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Maîtriser sa communication en ligne</h3>
-                        <br />
+                        <br/>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Maîtriser sa communication en ligne</h3>
+                        <br/>
                         <p><strong>Créer son site internet</strong>, c’est <strong>développer un outil de communication en ligne</strong> qui doit vous permettre d’atteindre vos <strong>objectifs de communication</strong>. Il représente votre entreprise <strong>en ligne</strong> puisqu’il en porte le nom. En ce sens, <strong>votre site web</strong> vous permettra d’être trouvé et contacté, lorsqu’un internaute vous recherche.</p>
                         <p>De plus, le <strong>site internet</strong> permet de <strong>développer un outil comme le blog</strong> qui vous permettra de <strong className="font-bold">renforcer votre image d’expert et proposer un contenu destiné à fidéliser vos cibles</strong>. Aussi, le <strong>site internet e-commerce</strong> vous permet de <strong className="font-bold">vendre directement vos produits en ligne</strong>. Il contribue directement au <strong>développement de votre entreprise</strong>.</p>
                         <p>Il existe une multitude de fonctions que l’on peut attribuer à un <strong>site internet</strong> pour atteindre ses objectifs.</p>
-                        <br />
-                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Accroître sa visibilité et sa notoriété</h3>
-                        <br />
+                        <br/>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Accroître sa visibilité et sa notoriété</h3>
+                        <br/>
                         <p>Une autre façon de contribuer au développement de votre entreprise par l’intermédiaire de <strong>votre site internet</strong> consiste à <strong className="font-bold">développer une stratégie de visibilité</strong>. Que ce soit via <strong>Google Adwords (Ads)</strong> ou bien via le <strong>référencement naturel SEO</strong>, le <strong>site internet</strong> peut constituer un outil redoutable s’il est utilisé à bon escient.</p>
                         <p>Pour <strong className="font-bold">créer un site web optimisé afin d’obtenir de la visibilité</strong>, l’ensemble de ses <strong>pages web</strong> va devoir être optimisé techniquement et sémantiquement. Ces <strong>optimisations</strong> concernent le <strong>contenu présent sur les pages de votre site</strong>, le <strong>code HTML</strong>, mais également l’<strong>expérience utilisateur</strong> (la <strong>vitesse de chargement</strong> notamment).</p>
                         <p>Le site internet constitue la plaque tournante d’une stratégie de visibilité basée sur le référencement web, qu’il soit naturel ou bien sponsorisé.</p>
-                        <br />
-                        <hr className="bleu w-1/3" style={{ borderTop: '1px solid #37cfee' }} />
-                        <br />
+                        <br/>
+                        <hr className="bleu w-1/3" style={{borderTop:'1px solid #37cfee'}}/>
+                        <br/>
                         <h2>Créer un site internet pour optimiser le fonctionnement de son entreprise</h2>
-                        <br />
+                        <br/>
                         <p>Une autre fonction que l’on peut attribuer à un <strong>site internet</strong>, consiste à se servir d’une <strong>interface web</strong> afin d’<strong>optimiser le fonctionnement de son entreprise</strong>. Comment cela se traduit-il ?</p>
                         <p>Le <strong>site internet</strong> est un outil qui va permettre de <strong>gérer des bases de données</strong>. Ceci est important dans la mesure où il va vous permettre de <strong>stocker un certain nombre d’informations</strong>.</p>
-                        <br />
-                        <img src={intranet} className="w-full" alt="creation site internet Toulouse" />
-                        <br />
+                        <br/>
+                        <img src={intranet} className="w-full" alt="creation site internet Toulouse"/>
+                        <br/>
                         <p>En lui attribuant certaines fonctionnalités utiles, il deviendra très rapidement <strong className="font-bold">un outil dont vous ne pourrez plus vous passer</strong>.</p>
-                        <br />
-                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Créer un intranet d’entreprise</h3>
-                        <br />
+                        <br/>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Créer un intranet d’entreprise</h3>
+                        <br/>
                         <p>La <strong>création de sites web</strong> peut donc être totalement orientée en vue de la définition d’un <strong className="font-bold">intranet d’entreprise</strong>. L’intranet est un <strong>outil de communication interne</strong> devenu indispensable de nos jours.  Face à la <strong>transition numérique</strong>, il est important de mettre en place des outils qui permettent de fluidifier les échanges au sein de l’entreprise, mais également de <strong className="font-bold">simplifier l’accès à l’information</strong>.</p>
                         <p>En ce sens, la <strong>création de site internet</strong> permet de créer un outil au potentiel infini. En effet, miser sur le <strong>Web</strong> n’est pas uniquement destiné à <strong>créer une boutique en ligne</strong> ou mettre en place un <strong>site internet vitrine</strong>.</p>
-                        <br />
+                        <br/>
                         <p>Il est possible d’accéder à un <strong>outil administrable clé en main</strong> avec l’utilisation d'un <strong>système de gestion de contenu (CMS)</strong> comme <strong>Wordpress</strong> ou <strong>Drupal</strong> ou bien grâce à une <strong>plateforme web</strong> définie sur-mesure (<strong>HTML, CSS, PHP, JavaScript</strong>, etc.).</p>
-                        <br />
-                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Profiter de la richesse offerte par les web services et API</h3>
-                        <br />
+                        <br/>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Profiter de la richesse offerte par les web services et API</h3>
+                        <br/>
                         <p>Il existe un autre avantage à se lancer dans ce type de <strong>projet web</strong> : profiter de la richesse offerte par les <strong className="font-bold">services web</strong> et autres <strong className="font-bold">API</strong>. Avant de voir pourquoi et comment profiter de ces deux incontournables, il faut tout d'abord savoir de quoi il s’agit.</p>
-                        <br />
+                        <br/>
                         <h4>API et Web Services : de quoi s’agit-il ?</h4>
-                        <br />
+                        <br/>
                         <p>L’<strong>API (Applications Programming Interface)</strong> est une <strong className="font-bold">interface de programmation destinée aux applications</strong>, comme son nom l’indique, visant à <strong className="font-bold">favoriser les échanges de données</strong>. Autrement dit, elle permet de greffer à une application à une autre afin qu’elles partagent des informations entre elles.</p>
                         <p>Dans le cas des <strong>web services</strong>, il s’agit d'interfaces standardisées où <strong className="font-bold">la communication va être optimisée entre des applications clients utilisant des langages web différents et un serveur</strong>. En effet, le principe est le même que pour les <strong>API</strong> puisqu’il s’agit de faciliter la communication entre deux entités. Or, les <strong>web services</strong> ne permettent pas l’échange d’informations entre deux applications, mais bien entre <strong className="font-bold">deux dispositifs présents sur le Web</strong>.</p>
-                        <br />
+                        <br/>
                         <h4>Un monde ouvert et infini</h4>
-                        <br />
+                        <br/>
                         <p>Qu’il s’agisse de <strong>web services</strong> ou d’<strong>API</strong>, ces deux systèmes d’échanges procurent un <strong className="font-bold">gain de temps et une automatisation particulièrement puissants</strong>. Par ailleurs, cela permet également d’alléger la charge de données présentes sur un <strong>serveur</strong>.</p>
                         <p>Ils vont être utilisés lorsqu’il s’agit de <strong>développer une interface web</strong> et de mettre en place un affichage de <strong>données dynamiques</strong>. En effet, ceci est important, car les données échangées vont provenir de sources logicielles très nombreuses.</p>
                         <p>Ces fonctions vont être particulièrement importantes dans l'optimisation de ses processus de travail. Toutefois, ce type de configuration demande de <strong className="font-bold">faire appel à une agence web</strong>. Il est très compliqué, voire tout simplement illusoire, de mettre en place ce type d’échanges sans <strong>aucune connaissance technique</strong>.</p>
-                        <br />
-                        <h3 className="text-darkgrey" style={{ fontSize: '23px' }}>Générer des ventes grâce au référencement naturel</h3>
-                        <br />
+                        <br/>
+                        <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Générer des ventes grâce au référencement naturel</h3>
+                        <br/>
                         <p><strong>Créer un site internet professionnel</strong> est bénéfique à tous points de vue. En plus du gain en <strong>visibilité</strong> et en <strong>notoriété</strong> qui est généré grâce à votre site, ce dernier constitue également une <strong className="font-bold">vitrine pour votre commerce</strong>.</p>
                         <p>En optimisant votre site pour le <a href="https://www.la-reference.eu/seo/" target="_blank" rel="noopener noreferer" className="text-bleu hover:text-black">référencement naturel</a>, vous pouvez <strong>développer votre visibilité sur les moteurs de recherche</strong> pour acquérir <strong className="font-bold">plus de trafic et de clients potentiels</strong>. En effet, le <strong>référencement naturel</strong>, via l’<strong className="font-bold">optimisation pour les moteurs de recherche (Search Engine Optimization)</strong>, permet de mettre en avant son entreprise auprès de milliers, voire de millions d’utilisateurs.</p>
                         <p>Il faut savoir que la très grande majorité des <strong>expériences sur le Web</strong> démarrent sur un <strong className="font-bold">moteur de recherche</strong>. <strong>Optimiser ses pages web</strong> dans le but d’<strong>optimiser votre présence en ligne</strong> va permettre à <strong className="font-bold">votre site web de se classer parmi les premiers résultats dans les pages de recherche</strong>.</p>
                         <p>L’objectif va être de <strong className="font-bold">générer du trafic</strong> en incitant les utilisateurs à cliquer sur votre lien. Vos futurs prospects se trouveront très certainement dans ce groupe d’utilisateurs. Cette phase est révélatrice de la réussite ou non, de l’<strong>étape de ciblage de votre stratégie</strong>.</p>
                         <p>Le <strong className="font-bold">canal de conversion</strong> mis en place sur votre site doit, par la suite, vous permettre d’<strong className="font-bold">être contacté</strong>, d’obtenir des <strong className="font-bold">demandes de devis</strong> ou même de <strong className="font-bold">générer des ventes via votre site e-commerce</strong>. Tous les chiffres liés à l’<strong>activité de votre site</strong> remontent grâce à des outils d’analyse qui vous permettront d’<strong className="font-bold">évaluer les performances de votre entreprise sur le Web</strong>.</p>
-                        <br />
-                        <hr className="bleu w-1/3" style={{ borderTop: '1px solid #37cfee' }} />
-                        <br />
+                        <br/>
+                        <hr className="bleu w-1/3" style={{borderTop:'1px solid #37cfee'}}/>
+                        <br/>
                         <h2>Conclusion</h2>
-                        <br />
+                        <br/>
                         <p><strong>Créer un site internet</strong> présente de très nombreux avantages pour des professionnels. Toutefois, il est important de ne pas perdre de vue que la <strong>création du site web</strong> doit s’accompagner de procédés réfléchis et efficaces. De ce point de vue, il est indispensable de faire de <strong>son site internet</strong>, un outil particulièrement puissant pour lui donner toutes les chances de performer.</p>
                         <p><strong>Créer des sites internet</strong> ne s’improvise pas. Le choix d’un <strong>hébergement web</strong> solide, la définition d’un <strong>design intuitif</strong> et <strong>responsive</strong> ou la mise en place d’une <strong>ergonomie</strong> optimale sont des éléments indispensables, mais insuffisants. Le <strong>référencement d’un site internet</strong> est également l’un des critères qui va avoir du poids selon vos objectifs.</p>
                         <p>En revanche, il serait une erreur colossale de négliger <strong>votre site internet</strong> durant la mise en œuvre d’un <strong>projet web</strong>. Celui-ci répond à de très nombreux objectifs et constitue un outil polyvalent. Il est accessible à tous de tirer profit d’un tel outil. Ceci doit être rendu possible à travers un travail rigoureux, régulier et professionnel.</p>
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
-                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                            <h2>Vous souhaitez mettre en place un projet web ?</h2>
-                            <br />
-                            <h3>Linkweb met en place votre projet de création de site web.</h3>
-                            <br />
-                            <div className="w-1/2 flex flex-row justify-center items-center">
-                                <br />
-                                <BoutonBlog url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
-                            </div>
+                        <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>
+                                    <h2>Vous souhaitez mettre en place un projet web ?</h2>
+                                    <br/>
+                                    <h3>Linkweb met en place votre projet de création de site web.</h3>
+                                    <br/>
+                                    <div className="w-1/2 flex flex-row justify-center items-center">
+                                    <br/>
+                                        <BoutonBlog  url="/contact-agence-web-toulouse/" text="Contactez-nous" position="center" />
+                                    </div>
                         </div>
                     </div>
-
+                    
                 </section>
 
-
-
-                {/* </PageTransition> */}
-            </Layout>
-        );
-    }
+                
+                
+            {/* </PageTransition> */}
+        </Layout>
+    );
+}
 };
 
 

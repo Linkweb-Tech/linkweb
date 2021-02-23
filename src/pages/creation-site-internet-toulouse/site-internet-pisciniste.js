@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -28,7 +28,7 @@ import map from "../../images/map.jpg";
 import surmesure from "../../images/web.svg"
 
 
-class CreationSitePisciniste extends Component {
+class CreationSitePisciniste extends React.Component {
 
     constructor(props) {
         super(props);

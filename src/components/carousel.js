@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from "react";
 import Slider from "react-slick";
 
 
@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-class Carousel extends Component {
+class Carousel extends React.Component {
 
     constructor(props) {
         super(props);
