@@ -137,7 +137,7 @@ class AgenceWebMarketingToulouse extends React.Component {
                                         <span className="text-bleu">/</span>RÉFÉRENCEMENT SEA GOOGLE ADS
                                     </h3>
                                     <br/>
-                                    <h4>Vous êtes mpatient d'obtenir un retour sur investissement grâce à votre boutique digitale ou à votre site vitrine ?</h4>
+                                    <h4 className="century">Vous êtes impatient d'obtenir un retour sur investissement grâce à votre boutique digitale ou à votre site vitrine ?</h4>
                                     <br/>
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La régie <strong>Google Adwords</strong> propose une solution payante pour <strong>référencer son site</strong> à travers le sponsoring. Cette <strong>stratégie de communication</strong> permet de créer un <strong>contenu publicitaire</strong> très présent dans les <strong>résultats de recherche</strong>. Il s'agit d'une <strong>solution digitale</strong> chaudement recommandée aux professionnels optant pour un <strong>retour sur investissement</strong> expéditif.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
@@ -192,7 +192,7 @@ class AgenceWebMarketingToulouse extends React.Component {
                                             <span className="text-bleu">/</span>DEVENIR LA RÉFÉRENCE DE SON SECTEUR D'ACTIVITÉ SUR LE WEB
                                             </h3>
                                             <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                                Faire appel à l’équipe <strong>SEO</strong> de notre <strong>agence spécialisée</strong>, c’est choisir une collaboration judicieuse pour l’avenir. Grâce à un fonctionnement pérenne, la <strong>communication digitale</strong> répond à plusieurs objectifs. Elle génère des visites sur <strong>votre site</strong>, mais apporte également des contacts tout en permettant le développement de votre e-réputation.
+                                                Faire appel à l’équipe <strong>SEO</strong> de notre <strong>agence spécialisée</strong>, c’est <a href="/comment-choisir-son-agence-de-communication-web/" className="text-bleu hover:text-white font-bold">choisir une collaboration judicieuse</a> pour l’avenir. Grâce à un fonctionnement pérenne, la <strong>communication digitale</strong> répond à plusieurs objectifs. Elle génère des visites sur <strong>votre site</strong>, mais apporte également des contacts tout en permettant le développement de votre e-réputation.
                                             </div>
                             
                                         </section>
