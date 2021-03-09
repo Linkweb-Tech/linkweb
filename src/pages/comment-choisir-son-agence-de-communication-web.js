@@ -239,7 +239,7 @@ class CommentChoisirSonAgenceDeCommunicationWeb extends React.Component {
                                 <br/><br/>
                                 En effet, le <strong className="font-normal">prestataire chargé de votre site</strong> entretient une relation unique avec vous pour mener votre site à l’effet escompté : <strong className="font-normal">obtenir une visibilité sur-mesure</strong>. 
                                 <br/><br/> 
-                                Sa priorité est de vous apporter un soutien constant dans le temps, de vous accompagner dans l’avancement du <strong className="font-normal">travail de référencement SEO et SEA</strong> sur des <strong className="font-normal">moteurs de recherche</strong> influents comme <strong className="font-normal">Google</strong>.
+                                Sa priorité est de vous apporter un soutien constant dans le temps, de vous accompagner dans l’avancement du <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold"><strong className="font-normal">travail de référencement SEO et SEA</strong></Link> sur des <strong className="font-normal">moteurs de recherche</strong> influents comme <strong className="font-normal">Google</strong>.
                             </p>
                             </div>
                         </Accordion>
