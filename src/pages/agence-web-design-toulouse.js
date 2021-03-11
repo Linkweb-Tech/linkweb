@@ -184,7 +184,7 @@ class AgencenWebDesignToulouse extends React.Component {
                                 <br/>
                                 <hr className="w-1/2 border-bleu lg:w-1/12"/>
                                 <br/>
-                                <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Nos méthodes de conception et de développement sont orientées pour vous donner accès à un site web opérationnel et vous permettre d’obtenir de hautes performances.</h3>
+                                <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Nos <Link to="/comment-notre-agence-de-conception-realise-votre-projet/" className="font-bold text-bleu hover:text-white">méthodes de conception</Link> et de développement sont orientées pour vous donner accès à un site web opérationnel et vous permettre d’obtenir de hautes performances.</h3>
                             </div>
                         </section>
                         <section className="flex justify-center flex-col items-center">
