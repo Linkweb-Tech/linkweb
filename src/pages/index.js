@@ -262,7 +262,7 @@ function IndexPage(props) {
           </div>
           <div className="max-w-3xl w-full lg:w-1/2 pl-0 lg:pl-32 flex flex-col mb-12">
             <h3 className="text-6xl text-bleu font-bold">
-              4,5/5
+              4.6/5
             </h3>
             <h4 className="text-4xl text-white mt-0 lg:-mt-5">sur Google</h4>
             <p className="text-white font-normal">

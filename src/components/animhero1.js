@@ -150,7 +150,7 @@ class Hero1 extends React.Component {
                     <img  src={googlePartner} alt="Référencement Toulouse" style={{ width: '200px' }} />
                 </div>
                 <div className=" flex flex-col items-center " /*data-aos="fade-in" data-aos-delay="2200"*/>
-                    <h3 className=" text-3xl text-center font-bold text-white century">4,5/5</h3>
+                    <h3 className=" text-3xl text-center font-bold text-white century">4.6/5</h3>
                     <p className=" text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
                     <div className=" -mt-8">
                         <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">

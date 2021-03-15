@@ -78,7 +78,7 @@ class AgenceDigitaleToulouse extends React.Component {
                 <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ Bg +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center top'}}>
             <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                 <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
-                    <div className="w-full  text-3xl text-center font-bold text-white century">4,5/5</div>
+                    <div className="w-full  text-3xl text-center font-bold text-white century">4.6/5</div>
                         <p className="w-full  text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
                         <div className="w-full -mt-8">
                             <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
@@ -187,7 +187,7 @@ class AgenceDigitaleToulouse extends React.Component {
                             </div>
                             <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>4,5/5 sur Google
+                                        <span className="text-bleu">/</span>4.6/5 sur Google
                                     </h3>
                                     <p className="w-full century pb-6 text-lg md:text-xl text-justify">Nos clients sont satisfaits du travail engagé sur leur site. Note basée sur 91 avis.
                                     </p>
