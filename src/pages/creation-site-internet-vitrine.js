@@ -146,7 +146,7 @@ class CreationSiteVitrine extends React.Component {
                                 <span className="font-bold">Créer un parcours client clairement identifiable pour vous permettre d’obtenir de nouveaux contacts via le site internet.</span>
                             </h4>
                             <p>Nous déterminons un parcours client qui facilite la réalisation de vos <strong>objectifs de conversion</strong> grâce à la présence de <strong>call-to-action</strong> et autres éléments visuels permettant de mettre en avant la souscription à vos prestations.</p>
-                            <Button url="/blog/comment-optimiser-le-parcours-client-dun-site-internet/" color="white" text="En savoir plus sur le le parcours client" position="left" />
+                            {/* <Button url="/blog/comment-optimiser-le-parcours-client-dun-site-internet/" color="white" text="En savoir plus sur le le parcours client" position="left" /> */}
                         </div>
                         <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -157,7 +157,7 @@ class CreationSiteVitrine extends React.Component {
                                 <span className="font-bold">Mettre en place un site internet sécurisé, et rassurant pour les visiteurs via la mise en place d’un protocole HTTPS.</span>
                             </h4>
                             <p>Nous sécurisons votre domaine par la mise en place de <strong>protocole de sécurisation HTTPS (HyperText Transfer Protocole Secure)</strong> qui permet à chaque utilisateur de vérifier l’authenticité du site internet pour s’assurer qu’il s’agit bien d’un <strong>site de confiance</strong>.</p>
-                            <Button url="/blog/protocole-https-a-quoi-ca-sert/" color="white" text="En savoir plus sur le le protocole de sécurisation HTTPS" position="left" />
+                            {/* <Button url="/blog/protocole-https-a-quoi-ca-sert/" color="white" text="En savoir plus sur le le protocole de sécurisation HTTPS" position="left" /> */}
                         </div>
                         </div>
                     </section>

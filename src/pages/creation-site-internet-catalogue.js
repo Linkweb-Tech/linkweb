@@ -156,7 +156,7 @@ class CreationSiteInternetCatalogue extends React.Component {
                                 <span className="font-bold">Mettre en place un site internet sécurisé, et rassurant pour les visiteurs via la mise en place d’un protocole HTTPS.</span>
                             </h4>
                             <p>Nous sécurisons votre domaine par la mise en place de <strong className="font-normal">protocole de sécurisation HTTPS (HyperText Transfer Protocole Secure)</strong> qui permet à chaque utilisateur de vérifier l’authenticité du site internet pour s’assurer qu’il s’agit bien d’un <strong className="font-normal">site de confiance</strong>.</p>
-                            <Button url="/blog/protocole-https-a-quoi-ca-sert/" color="white" text="En savoir plus sur le le protocole de sécurisation HTTPS" position="left" />
+                            {/* <Button url="/blog/protocole-https-a-quoi-ca-sert/" color="white" text="En savoir plus sur le le protocole de sécurisation HTTPS" position="left" /> */}
                         </div>
                         </div>
                     </section>

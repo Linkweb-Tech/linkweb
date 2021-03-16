@@ -321,7 +321,7 @@ class CreerBoutiqueEnLigne extends React.Component {
                                 <span className="font-bold">Créer une fiche produit, c’est considérer à la fois les besoins des utilisateurs, mais aussi la possibilité d’optimiser votre visibilité via le référencement naturel.</span>
                             </h4>
                             <p>Nous vous donnons la possibilité de <strong>créer des fiches produits</strong> très détaillées, vous permettant d’inclure de nombreuses caractéristiques pour décrire vos produits : des générales aux plus techniques, passez tout en revue pour donner envie à vos utilisateurs de <strong>commander sur votre site</strong>.</p>
-                            <Button url="/blog/comment-faire-une-fiche-produit/" color="white" text="En savoir plus sur les fiches produits" position="left" />
+                            {/* <Button url="/blog/comment-faire-une-fiche-produit/" color="white" text="En savoir plus sur les fiches produits" position="left" /> */}
                         </div>
                         </div>
                         <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:my-2 lg:py-2 text-justify">
