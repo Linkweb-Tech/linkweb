@@ -129,10 +129,9 @@ class RapportdePositionnement extends React.Component {
                             <br/>
                             <div className="flex flex-row uppercase italic justify-center">
                             <ul className="list-def flex justify-center flex-col" data-aos="fade-left">
-                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/"><li>Critères de qualité</li></Link>
                             <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/landing-page/"><li>Landing Page</li></Link>
                             <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/optimisation-interne/"><li>Optimisation Interne</li></Link>
-                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/criteres-qualite/"><li>Courte traîne</li></Link>
+                            <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/courte-traine/"><li>Courte traîne</li></Link>
                             <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/longue-traine/"><li>Longue Traîne</li></Link>
                             <Link className="text-bleu font-bold hover:text-black" to="/referencement-toulouse/arborescence-seo/"><li>Arborescence SEO</li></Link>
                             </ul>
