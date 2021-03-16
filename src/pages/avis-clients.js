@@ -205,7 +205,7 @@ render() {
                         <h3 className="text-dargrey text-center underline" style={{fontSize:'23px', textDecoration:'underline #37cfee'}}>Note globale</h3>
                         <br/>
                             <div className="w-full flex flex-col items-center lg:items-center" /*data-aos="fade-in" data-aos-delay="2200"*/>
-                                <div className="text-6xl text-center -mt-8 font-bold text-darkgrey century">4,5<span className="text-bleu">/</span>5</div>
+                                <div className="text-6xl text-center -mt-8 font-bold text-darkgrey century">4,6<span className="text-bleu">/</span>5</div>
                                 <p className="w-1/3 text-sm text-center font-bold text-darkgrey century -mt-2">Avis Google</p>
                                 <div className="w-1/3 -mt-8">
                                     <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
