@@ -71,7 +71,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Rea
                     <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
                         <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez démarrer un projet de création de site internet ?</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-white text-center century text-md">En tant qu'<strong className="font-normal">agence spécialisée dans le développement de sites</strong>, Linkweb vous apporte tout son savoir-faire digital pour faire fructifier votre <strong className="font-normal">projet de communication</strong> et de <strong className="font-normal">marketing web</strong>.</p>
+                        <p className="px-8 lg:px-16 text-white text-center century text-md">En tant qu'<strong className="font-normal"><Link to="/agence-web-marmande/" className="text-bleu hover:text-black font-bold">agence spécialisée dans le développement de sites</Link></strong>, Linkweb vous apporte tout son savoir-faire digital pour faire fructifier votre <strong className="font-normal">projet de communication</strong> et de <strong className="font-normal">marketing web</strong>.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
                         <button
@@ -118,7 +118,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Rea
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Pour développer une solution </span><br /><span className="font-bold text-6xl">FONCTIONNELLE</span></h3>
                         <p className="text century text-lg lg:text-sm xl:text-lg">Les <strong className="font-normal">standards du Web</strong> ne cessent d’évoluer, il existe un nombre considérable de critères imposés par des <strong className="font-normal">moteurs comme Google</strong>. Parmi eux, la qualité de l’<strong className="font-normal">expérience des utilisateurs</strong> (rapidité et la réactivité du site) ou encore le <strong className="font-normal">responsive design</strong> qui peut permettre d’<strong className="font-normal">accéder au site sur mobile</strong>, sont des éléments clés.
                             Pour cela, le travail de <strong className="font-normal">conception UI et UX design</strong> s’intègre dans la phase de <strong className="font-normal">réalisation du site</strong> telle que mise en place par notre <strong className="font-normal">agence</strong>.
-                            <br/><br/>En développant votre <strong className="font-normal">site internet</strong>, notre <strong className="font-normal">agence web</strong> travaille aussi bien l'<strong className="font-normal">ergonomie</strong> que la <strong className="font-normal">sécurisation de la navigation</strong> (protocole HTTPS) de votre site. Nous concevons, en accord avec le besoin de nos <strong className="font-normal">clients</strong>, des pages fonctionnelles (critères W3C qui régissent la compatibilité du langage sur les <strong className="font-normal">navigateurs web</strong>) et soignées.
+                            <br/><br/>En développant votre <strong className="font-normal">site internet</strong>, notre <strong className="font-normal"><Link to="/quelle-agence-web-choisir/" className="font-bold text-bleu hover:text-black">agence web</Link></strong> travaille aussi bien l'<strong className="font-normal">ergonomie</strong> que la <strong className="font-normal">sécurisation de la navigation</strong> (protocole HTTPS) de votre site. Nous concevons, en accord avec le besoin de nos <strong className="font-normal">clients</strong>, des pages fonctionnelles (critères W3C qui régissent la compatibilité du langage sur les <strong className="font-normal">navigateurs web</strong>) et soignées.
                             Cette conformité participe à la visibilité du site et de ce fait, à la génération de trafic pour aboutir à une conversion intéressante.</p>
                     </div>
                 </section>
@@ -252,7 +252,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Rea
             </section>
             <section className="w-full flex mt-12 flex-col items-center lg:flex-row text-white bg-bleu century text-center mx-auto lg:text-justify px-16 xl:px-48 py-16">
                         <div className="w-full lg:w-8/12 text-2xl">
-                        <h3>Vous souhaitez faire appel à notre agence web spécialisée pour atteindre vos objectifs ?</h3>
+                        <h3>Vous souhaitez faire appel à notre <Link to="/agence-web-cahors/" className="text-white hover:text-black font-bold">agence web spécialisée</Link> pour atteindre vos objectifs ?</h3>
                         <h4>Linkweb fait partie des agences qui proposent des solutions personnalisées aux professionnels souhaitant s’investir dans une création web ou une refonte de site.</h4>
                         </div>
                         <div className="w-full mx-auto block lg:w-3/12">
