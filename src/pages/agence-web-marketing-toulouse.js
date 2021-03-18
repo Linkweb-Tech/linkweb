@@ -139,7 +139,7 @@ class AgenceWebMarketingToulouse extends React.Component {
                                     <br/>
                                     <h4 className="century">Vous êtes impatient d'obtenir un retour sur investissement grâce à votre boutique digitale ou à votre site vitrine ?</h4>
                                     <br/>
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La régie <strong>Google Adwords</strong> propose une solution payante pour <strong>référencer son site</strong> à travers le sponsoring. Cette <strong>stratégie de communication</strong> permet de créer un <strong>contenu publicitaire</strong> très présent dans les <strong>résultats de recherche</strong>. Il s'agit d'une <strong>solution digitale</strong> chaudement recommandée aux professionnels optant pour un <strong>retour sur investissement</strong> expéditif.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La régie <strong><Link to="/agence-sea-toulouse/" className="text-bleu hover:text-black font-bold">Google Adwords</Link></strong> propose une solution payante pour <strong>référencer son site</strong> à travers le sponsoring. Cette <strong>stratégie de communication</strong> permet de créer un <strong>contenu publicitaire</strong> très présent dans les <strong>résultats de recherche</strong>. Il s'agit d'une <strong>solution digitale</strong> chaudement recommandée aux professionnels optant pour un <strong>retour sur investissement</strong> expéditif.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                             </div>
                         </div>
@@ -312,7 +312,7 @@ class AgenceWebMarketingToulouse extends React.Component {
                     </section>
                     <section className="w-full flex my-12 flex-col items-center lg:flex-row text-white bg-bleu century text-center mx-auto lg:text-justify px-16 xl:px-48 py-16">
                         <div className="w-full lg:w-8/12 text-2xl">
-                        <h2>Vous souhaitez collaborer avec notre agence de web marketing (SEO/SEA) à Toulouse ?</h2>
+                        <h2>Vous souhaitez collaborer avec notre <Link to="/agence-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence de web marketing</Link> (SEO/SEA) à Toulouse ?</h2>
                         <h4>Linkweb soutient les professionnels souhaitant développer leur présence sur Internet.</h4>
                         </div>
                         <div className="w-full mx-auto flex flex-col items-center justify-center lg:w-3/12">
@@ -447,7 +447,7 @@ class AgenceWebMarketingToulouse extends React.Component {
                                 <div label="COMMENT COMMUNIQUER EFFICACEMENT ENVERS MES CIBLES ?">
                                     <p>La stratégie choisie pour vous permettre d'<strong>être visible en ligne</strong> va faciliter une bonne transmission de l'information. Les objectifs étant de faciliter l’accès aux éléments recherchés par l’utilisateur sur les sites, ce n'est plus vous qui recherchez vos contacts prospects, mais bien eux qui vous trouvent.</p>
                                     <br/>
-                                    <p>Avec le <strong>référencement naturel</strong>, la donne change. Notre équipe <strong>webmarketing</strong> va appuyer une <strong>identité visuelle</strong> et une <strong>charte graphique</strong> performante et reconnaissable accompagnée d’un <strong>contenu pertinent</strong> pour vous proposer un <strong>site internet</strong> proche de vos attentes en termes de rendu, comme de performances.</p>
+                                    <p>Avec le <strong>référencement naturel</strong>, la donne change. Notre <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold">équipe <strong>webmarketing</strong></Link> va appuyer une <strong>identité visuelle</strong> et une <strong>charte graphique</strong> performante et reconnaissable accompagnée d’un <strong>contenu pertinent</strong> pour vous proposer un <strong>site internet</strong> proche de vos attentes en termes de rendu, comme de performances.</p>
                                     <br/>
                                     <p>Grâce à la maîtrise technique de <Link to="/agence-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">nos <strong>développeurs</strong></Link>, vous disposerez d'une interface à votre image, d’un projet au <strong>web design</strong> taillé pour votre entreprise. Mettre à votre disposition un outil performant, utile, unique et ergonomique est notre priorité.</p>
                                 </div>

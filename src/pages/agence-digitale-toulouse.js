@@ -206,7 +206,7 @@ class AgenceDigitaleToulouse extends React.Component {
                     <section className="max-w-5xl w-full mx-auto px-4 text-lg pb-0 my-2">
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">
-                                Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Toulouse</strong> ou Agen pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vous proposer une solution taillée pour vous.</p>
+                                Vous êtes un organisme public ou privé à la recherche d’une <strong><Link to="/web-agency-toulouse/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link></strong> ou Agen pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vous proposer une solution taillée pour vous.</p>
                         </div>
                     </section>
                     <section className="flex flex-col lg:flex-row mt-8 mb-12 my-8 px-4 lg:my-5 lg:px-24">
@@ -220,7 +220,7 @@ class AgenceDigitaleToulouse extends React.Component {
                                     <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
                                     </h3>
                                     <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong>agence de création</strong> définit des propositions concrètes pour y parvenir. Mettez tous les atouts de votre côté pour <strong>mener votre campagne de communication en ligne</strong>.
+                                    Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong><Link to="/agence-web-montauban/" className="text-bleu hover:text-white font-bold">agence de création</Link></strong> définit des propositions concrètes pour y parvenir. Mettez tous les atouts de votre côté pour <strong>mener votre campagne de communication en ligne</strong>.
                                     </div>
                                     {/* <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" /> */}
                                     <button

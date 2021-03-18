@@ -71,7 +71,7 @@ class PourquoiTravaillerdansuneAgenceWeb extends React.Component {
                     <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
                         <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez postuler ?</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-white text-center century text-md">En postulant auprès de l’agence Linkweb, découvrez les enjeux du web et le travail en équipe. Nous étudions tous les profils.</p>
+                        <p className="px-8 lg:px-16 text-white text-center century text-md">En postulant auprès de l’<Link to="/agence-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence Linkweb</Link>, découvrez les enjeux du web et le travail en équipe. Nous étudions tous les profils.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
                         <button
@@ -219,7 +219,7 @@ class PourquoiTravaillerdansuneAgenceWeb extends React.Component {
                                 <br/><br/>
                                 Nos <strong className="font-normal">professionnels en gestion du référencement naturel</strong> maîtrisent les techniques pour répondre aux attentes des <strong className="font-normal">algorithmes</strong> et créer du <strong className="font-normal">contenu optimisé</strong> adapté pour les robots commme pour les utilisateurs. 
                                 <br/><br/>
-                                Pour l’entreprise cliente poursuivant des <strong className="font-normal">objectifs de conversion</strong> élevés et à la recherche d'un <strong className="font-normal">retour sur investissement</strong> rapidement, les consultants proposent aussi du <strong className="font-normal">référencement payant SEA</strong>.
+                                Pour l’entreprise cliente poursuivant des <strong className="font-normal">objectifs de conversion</strong> élevés et à la recherche d'un <strong className="font-normal">retour sur investissement</strong> rapidement, les consultants proposent aussi du <strong className="font-normal"><Link to="/agence-sea-toulouse/" className="font-bold text-bleu hover:text-black">référencement payant SEA</Link></strong>.
                                 </p>
                             </div>
                             <div label="LE SUIVI DES DOSSIERS CLIENTS">

@@ -71,7 +71,7 @@ class CommentChoisirSonAgenceDeCommunicationWeb extends React.Component {
                     <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
                         <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez nous contacter ?</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-white text-center century text-md">Pour vous projeter et obtenir un chiffrage de votre projet n’hésitez pas à nous contacter. <br/><br/>Notre agence de communication web, vous accompagne pour définir votre stratégie web marketing.</p>
+                        <p className="px-8 lg:px-16 text-white text-center century text-md">Pour vous projeter et obtenir un chiffrage de votre projet n’hésitez pas à nous contacter. <br/><br/>Notre <Link to="/agence-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence de communication web</Link>, vous accompagne pour définir votre stratégie web marketing.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
                         <button
@@ -227,7 +227,7 @@ class CommentChoisirSonAgenceDeCommunicationWeb extends React.Component {
                                 </p>
                             </div>
                             <div label="DES PROFESSIONNELS COMPÉTENTS ET EXPÉRIMENTÉS">
-                                <p>Concernant la <strong className="font-normal">conception de votre site</strong>, de votre <strong className="font-normal">webdesign</strong>, le <strong className="font-normal">référencement SEO ou SEA</strong>, les <strong className="font-normal">consultants</strong> mettent tout en œuvre pour vous permettre d’atteindre les <strong className="font-normal">objectifs</strong> que vous vous êtes fixé. 
+                                <p>Concernant la <strong className="font-normal">conception de votre site</strong>, de votre <strong className="font-normal">webdesign</strong>, le <strong className="font-normal">référencement SEO ou <Link to="/agence-sea-toulouse/" className="text-bleu hover:text-black font-bold">SEA</Link></strong>, les <strong className="font-normal">consultants</strong> mettent tout en œuvre pour vous permettre d’atteindre les <strong className="font-normal">objectifs</strong> que vous vous êtes fixé. 
                                 <br/><br/>
                                 Les <strong className="font-normal">professionnels de l’agence</strong> mettent à profit leurs connaissances ainsi que leur <strong className="font-normal">expérience</strong> pour mener à bien <strong className="font-normal">votre projet</strong>. Grâce à cette expérience, les choix qui seront effectués seront fondés grâce à une connaissance parfaite du domaine et donneront lieu à la mise en place de services adaptés pour votre société.
                                 <br/><br/>

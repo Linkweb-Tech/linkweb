@@ -89,7 +89,7 @@ class AgenceMarketingToulouse extends React.Component {
                 <section className="w-full lg:w-3/5 px-10 mt-16 lg:-mt-48 mb-16 lg:mb-48">
                     <br/>
                     <h3 className="century text-xl text-center">
-                    Linkweb fait partie des agences qui ont un rôle de conseil en stratégie marketing et apportent des solutions concrètes pour votre entreprise.
+                    Linkweb fait partie des <Link to="/comment-choisir-son-agence-de-communication-web/" className="text-bleu hover:text-black font-bold">agences de communication web</Link> qui ont un rôle de conseil en stratégie marketing et apportent des solutions concrètes pour votre entreprise.
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
@@ -297,7 +297,7 @@ class AgenceMarketingToulouse extends React.Component {
                                         <span className="text-bleu">/</span>CONCEPTION UI & UX DESIGN
                                     </h3>
                                     <br/>
-                                    <h4 className="century"><span className="font-bold">Nous mettons notre expertise à votre service pour vous proposer le développement d’une plateforme parfaite adaptée aux attentes de vos futurs visiteurs.</span></h4>
+                                    <h4 className="century"><span className="font-bold">Nous mettons notre expertise à votre service pour vous proposer le <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold">éveloppement d’une plateforme</Link>d parfaite adaptée aux attentes de vos futurs visiteurs.</span></h4>
                                     <br/>
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Construire une <strong className="font-normal">expérience utilisateur</strong> parfaite au sein d’une interface graphique adaptée aux tendances du moment ainsi qu’à votre <strong className="font-normal">charte graphique</strong> est indispensable pour guider vos visiteurs et asseoir votre <strong className="font-normal">identité de marque</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
@@ -381,7 +381,7 @@ class AgenceMarketingToulouse extends React.Component {
                 <span className="text-bleu">/</span>JE SOUHAITE BÉNÉFICIER D’UNE EXPERTISE
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-              <strong className="font-normal">Linkweb</strong> fait partie des <strong className="font-normal">agences de marketing en France</strong> qui sont en mesure de vous proposer des solutions ajustées à vos besoins. Qu’il s’agisse de <strong className="font-normal">création de sites sur-mesure</strong>, d’<strong className="font-normal">acquisition de visibilité</strong> ou de paramètrage de votre <strong className="font-normal">campagne de publicité Adwords (Google Ads</strong> comme sur les réseaux sociaux en <strong className="font-normal">social media marketing</strong>), <strong className="font-normal">Linkweb</strong> est en mesure de vous proposer un des <strong className="font-normal">solutions fonctionnelles</strong>.
+              <strong className="font-normal">Linkweb</strong> fait partie des <strong className="font-normal"><Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-bleu font-bold">agences de marketing en France</Link></strong> qui sont en mesure de vous proposer des solutions ajustées à vos besoins. Qu’il s’agisse de <strong className="font-normal">création de sites sur-mesure</strong>, d’<strong className="font-normal">acquisition de visibilité</strong> ou de paramètrage de votre <strong className="font-normal"><Link to="/agence-sea-toulouse/" className="text-bleu hover:text-black font-bold">campagne de publicité Adwords</Link> (Google Ads</strong> comme sur les réseaux sociaux en <strong className="font-normal">social media marketing</strong>), <strong className="font-normal">Linkweb</strong> est en mesure de vous proposer un des <strong className="font-normal">solutions fonctionnelles</strong>.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" /> */}
               <button
