@@ -101,7 +101,7 @@ const BlogPostTemplate = ({ data }) => (
                   <br/>
             <div className="w-2/3 lg:w-1/2 xl:w-2/3 flex mx-auto block my-4">
               <div className="w-1/3">
-                  <a href="https://www.facebook.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex no-underline text-white">
+                  <a href="https://www.facebook.com/AgenceLw" target="blank" rel="noreferrer noopener" className="flex no-underline text-white">
                   <img 
                   src={ fbIcon }
                   alt="Réseaux sociaux"
