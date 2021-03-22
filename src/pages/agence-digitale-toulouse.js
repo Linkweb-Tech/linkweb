@@ -206,7 +206,7 @@ class AgenceDigitaleToulouse extends React.Component {
                     <section className="max-w-5xl w-full mx-auto px-4 text-lg pb-0 my-2">
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">
-                                Vous êtes un organisme public ou privé à la recherche d’une <strong><Link to="/web-agency-toulouse/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link></strong> ou Agen pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vous proposer une solution taillée pour vous.</p>
+                                Vous êtes un organisme public ou privé à la recherche d’une <strong><Link to="/web-agency-toulouse/" className="text-bleu hover:text-white font-bold">agence web à Toulouse</Link></strong> ou Agen pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vous proposer une solution taillée pour vous.</p>
                         </div>
                     </section>
                     <section className="flex flex-col lg:flex-row mt-8 mb-12 my-8 px-4 lg:my-5 lg:px-24">
@@ -246,7 +246,7 @@ class AgenceDigitaleToulouse extends React.Component {
                                     <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                     </h3>
                                     <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    TPE, PME, commerçants, l’<strong>agence Linkweb</strong> répond à vos besoins de <strong>visibilité et de notoriété</strong> par la <strong>mise en place de stratégies digitales efficaces</strong> et qui vous rapprochent de vos prospects. Nous activons tous les <strong>leviers</strong> pour développer et faire connaître votre <strong>outil en ligne</strong>.
+                                    TPE, PME, commerçants, l’<strong><Link to="/agence-web-ramonville/" className="font-bold text-bleu hover:text-white">agence Linkweb</Link></strong> répond à vos besoins de <strong>visibilité et de notoriété</strong> par la <strong>mise en place de stratégies digitales efficaces</strong> et qui vous rapprochent de vos prospects. Nous activons tous les <strong>leviers</strong> pour développer et faire connaître votre <strong>outil en ligne</strong>.
                                     </div>
                                     {/* <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" /> */}
                                     <button
@@ -523,7 +523,7 @@ class AgenceDigitaleToulouse extends React.Component {
                                     <br/>
                                     Cependant, s’il est urgent pour vous d’<strong>être visible sur les moteurs de recherche</strong>, nous vous proposons la <strong>{/*<Link to="/agence-adwords-47-31/" className="font-bold text-bleu hover:text-black">*/}création d’une campagne Ads{/*</Link>*/}</strong>, via la plateforme <strong>Google Adwords</strong>, qui vous permettra d’obtenir des résultats plus rapidement grâce au <strong>référencement payant</strong>.<br/>
                                     <br/>
-                                    Notre rôle, en tant qu'<strong>agence spécialisée dans la création de sites web</strong>, est de <strong className="font-bold">vous proposer les stratégies les plus performantes</strong>, tout en tenant compte de <strong className="font-bold">vos besoins</strong>.
+                                    Notre rôle, en tant qu'<strong>agence spécialisée dans la création de sites web</strong>, est de <strong className="font-bold">vous proposer les <Link to="/strategie-digitale-toulouse/" className="font-bold text-bleu hover:text-black">stratégies les plus performantes</Link></strong>, tout en tenant compte de <strong className="font-bold">vos besoins</strong>.
                                     </p>
                                 </div>
                                 <div label="COMMUNIQUER DE MANIÈRE EFFICACE EN DIRECTION DE VOS CIBLES">
