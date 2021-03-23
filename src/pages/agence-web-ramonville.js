@@ -13,7 +13,7 @@ import "../scss/global.scss";
 
 // import Bg from "../images/agence-web-bg.jpg";
 import Bg from "../images/agence-web-linkweb.jpg";
-import imac from "../images/redaction.jpg";
+import imac from "../images/agence-web-ramonville.jpg";
 // import bgDev from '../images/bg-dev.jpg';
 import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
@@ -287,7 +287,7 @@ class AgenceWebRamonville extends React.Component {
                                 <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    Linkweb travaille avec des professionnels d'horizons différents : TPE, PME, commerçants, etc. Notre agence met tout en oeuvre pour répondre à vos attentes en termes de visibilité commme de notoriété grâce à la mise en place de stratégies digitales adaptées à vos besoins.
+                                    Linkweb travaille avec des professionnels d'horizons différents : TPE, PME, commerçants, etc. Notre <strong>agence</strong> met tout en oeuvre pour répondre à vos attentes en termes de <strong>visibilité</strong> commme de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> adaptées à vos besoins.
                                 </div>
                                 {/* <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" /> */}
                                 <button
@@ -343,8 +343,8 @@ class AgenceWebRamonville extends React.Component {
                             </Link> */}
                         </div>
                     </section>
-                    <section className="flex w-full flex-col lg:flex-row mx-auto px-0 py-6 my-4">
-                        <div className="w-full lg:w-1/2 ">
+                    <section className="flex w-full flex-col xl:flex-row mx-auto px-0 py-6 my-4">
+                        <div className="justify-center flex xl:w-1/2 ">
                             <img src={imac} alt="Agence Web Ramonville" />
                         </div>
                         <div className="w-full lg:w-1/2 max-w-3xl px-12 py-12" >
@@ -355,11 +355,11 @@ class AgenceWebRamonville extends React.Component {
                                 <span className="font-bold">Notre vocation : vous apporter toute la visibilité que votre entreprise mérite à travers la mise en place de projets performants.</span>
                             </h4>
                             <p /*data-aos='fade-bottom'*/ className="text-justify">
-                            Avec plus de 10 ans d’expérience dans la <strong>création de sites web</strong>, <strong>Linkweb</strong> a développé ses compétences d’<strong>agence conseil</strong> pour le développement d’une communication efficace à destination des <strong>projets web</strong> ainsi que des contenus digitaux que nous portons pour nos <strong>clients</strong>.<br /><br/>
+                            Avec plus de 10 ans d’expérience dans la <strong>création de sites web</strong>, <strong>Linkweb</strong> a développé ses compétences d’<strong>agence conseil</strong> pour le développement d’une communication efficace dans le cadre des <strong>projets web</strong> ainsi que des contenus digitaux que nous portons pour nos <strong>clients</strong>.<br /><br/>
 
-                            Dans le secteur <strong>Ramonville Saint Agne, proche de Toulouse en Haute-Garonne (31)</strong>, l’<strong>agence web Linkweb</strong> continue de développer sa filiale occitane. Qualifiée dans le domaine du marché privé comme du marché public, l’<strong>agence</strong> se montre très réactive en <strong>communication web</strong> et se veut constamment réactive pour répondre aux demandes d’organismes de divers horizons tout en s’appuyant sur ses expertises et son principal atout : le <strong>marketing digital</strong>. Nous déployons notre offre de <strong>création de site web</strong>, de <strong>référencement naturel</strong> ou encore la <strong>refonte de site internet</strong> à <strong>Ramonville</strong> et ses environs.<br /><br/>
+                            Dans le secteur de <strong>Ramonville Saint Agne, près de Toulouse en Haute-Garonne (31)</strong>, l’<strong>agence web Linkweb</strong> continue de développer sa filiale occitane. Qualifiée dans le domaine du marché privé comme du marché public, l’<strong>agence</strong> se montre très réactive en termes de <strong>communication web</strong> et se veut constamment force de proposition pour répondre aux demandes d’organismes de divers horizons tout en s’appuyant sur ses expertises et son principal atout : le <strong>marketing digital</strong>. Nous déployons notre offre de <strong>création de site web</strong>, de <strong>référencement naturel</strong> ou encore la <strong>refonte de site internet</strong> à <strong>Ramonville</strong> et ses environs.<br /><br/>
 
-                            À travers son expérience en tant qu'<strong>agence digitale</strong>, <strong>Linkweb</strong> conçoit votre <strong>site internet</strong> en utilisant des <strong>outils de développement web</strong> innovants et des solutions d’optimisation pour le <strong>référencement Google</strong> en se basant sur la mesure de <strong>trafic sur votre site</strong>, une veille régulière en <strong>web marketing</strong>. Quel que soit votre domaine d'activité, nous possédons des connaissances et un savoir-faire qui vous permettra d’atteindre vos <strong>objectifs</strong>.<br />
+                            À travers son expérience en tant qu'<strong>agence digitale</strong>, <strong>Linkweb</strong> conçoit votre <strong>site internet</strong> en utilisant des <strong>outils de développement web</strong> innovants et des solutions d’optimisation pour le <strong>référencement Google</strong> en se basant sur la mesure de <strong>trafic sur votre site</strong>, une veille régulière en <strong>web marketing</strong> et bien plus encore. Quel que soit votre domaine d'activité, nous possédons des connaissances et un savoir-faire qui vous permettra d’atteindre vos <strong>objectifs</strong> de visibilité.<br />
                             </p>
                             
                         </div>
