@@ -69,7 +69,7 @@ class AgenceWebBalma extends React.Component {
                         <RoundButton url="/contact-agence-web-toulouse/" text="Je veux developper ma communication en ligne" />
                     </section>
                     <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                        <h2 className="text-center text-lg sm:text-2xl text-black century mt-3">Linkweb est l'agence web qui vous accompagne dans la conception, la mise en oeuvre et le suivi de votre projet web ainsi que de votre communication digitale.</h2>
+                        <h2 className="text-center text-lg sm:text-2xl text-black century mt-3">Linkweb est l'<Link to="/agence-internet-toulouse/" className="text-bleu hover:text-black font-bold">agence web</Link> qui vous accompagne dans la conception, la mise en oeuvre et le suivi de votre projet web ainsi que de votre communication digitale.</h2>
                         <br/>
                         <hr style={{borderTop:'1px solid #37cfee', width:'33%'}}/>
                         <br/>
