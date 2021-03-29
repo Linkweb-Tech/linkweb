@@ -174,7 +174,7 @@ class EntrepriseDeveloppementWebToulouse extends React.Component {
                         <div className="line-title my-4">
                             <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                             <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Linkweb fait partie des agences qui mettent toute leur équipe expérimentée au service de vos projets web à Toulouse. Chacune de nos prestations de création comme de référencement est adaptée en fonction de votre projet.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Linkweb fait partie des agences qui mettent toute leur équipe expérimentée au service de vos <Link to="/agence-web-haute-garonne/" className="font-bold text-bleu hover:text-black">projets web à Toulouse</Link>. Chacune de nos prestations de création comme de référencement est adaptée en fonction de votre projet.</h3>
                         </div>
                 </section>
                 <section className="phototext mb-24">
