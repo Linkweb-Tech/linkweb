@@ -162,7 +162,7 @@ class AgenceCommunicationWebToulouse extends React.Component {
                                 <br/>
                                 <hr className="w-1/2 border-bleu lg:w-1/12"/>
                                 <br/>
-                                <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Linkweb, agence de communication web à Toulouse met son savoir-faire à profit pour vous proposer un service performant.</h3>
+                                <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Linkweb, <Link to="/agence-web-balma/" className="font-bold text-bleu hover:text-white">agence de communication web</Link> à Toulouse met son savoir-faire à profit pour vous proposer un service performant.</h3>
                             </div>
                         </section>
                         <section className="flex justify-center flex-col items-center">
@@ -231,7 +231,7 @@ class AgenceCommunicationWebToulouse extends React.Component {
                   <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ PAR DES PROFESSIONNELS
                 </h3>
                 <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                Contacter une <strong>agence de communication spécialisée dans les problématiques du Web</strong> est pertinent en vue d’être accompagné au cours de la construction de son <strong>projet</strong>. Les <strong>professionnels de Linkweb</strong> sont formés et compétents pour répondre à votre problématique et trouver des solutions qui vous correspondent.
+                Contacter une <strong><Link to="/agence-web-albi/" className="font-bold text-bleu hover:text-black">agence de communication spécialisée</Link> dans les problématiques du Web</strong> est pertinent en vue d’être accompagné au cours de la construction de son <strong>projet</strong>. Les <strong>professionnels de Linkweb</strong> sont formés et compétents pour répondre à votre problématique et trouver des solutions qui vous correspondent.
                 </div>
                 <br/>
                 <button
