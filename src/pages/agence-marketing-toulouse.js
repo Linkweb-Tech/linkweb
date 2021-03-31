@@ -297,7 +297,7 @@ class AgenceMarketingToulouse extends React.Component {
                                         <span className="text-bleu">/</span>CONCEPTION UI & UX DESIGN
                                     </h3>
                                     <br/>
-                                    <h4 className="century"><span className="font-bold">Nous mettons notre expertise à votre service pour vous proposer le <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold">éveloppement d’une plateforme</Link>d parfaite adaptée aux attentes de vos futurs visiteurs.</span></h4>
+                                    <h4 className="century"><span className="font-bold">Nous mettons notre expertise à votre service pour vous proposer le <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold">développement d’une plateforme</Link>d parfaite adaptée aux attentes de vos futurs visiteurs.</span></h4>
                                     <br/>
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Construire une <strong className="font-normal">expérience utilisateur</strong> parfaite au sein d’une interface graphique adaptée aux tendances du moment ainsi qu’à votre <strong className="font-normal">charte graphique</strong> est indispensable pour guider vos visiteurs et asseoir votre <strong className="font-normal">identité de marque</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}

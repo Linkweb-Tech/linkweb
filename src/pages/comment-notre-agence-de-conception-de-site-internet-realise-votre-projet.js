@@ -71,7 +71,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Rea
                     <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
                         <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez démarrer un projet de création de site internet ?</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-white text-center century text-md">En tant qu'<strong className="font-normal"><Link to="/agence-web-marmande/" className="text-bleu hover:text-black font-bold">agence spécialisée dans le développement de sites</Link></strong>, Linkweb vous apporte tout son savoir-faire digital pour faire fructifier votre <strong className="font-normal">projet de communication</strong> et de <strong className="font-normal">marketing web</strong>.</p>
+                        <p className="px-8 lg:px-16 text-white text-center century text-md">En tant qu'<strong className="font-normal"><Link to="/agence-web-marmande/" className="text-white hover:text-black font-bold">agence spécialisée dans le développement de sites</Link></strong>, Linkweb vous apporte tout son savoir-faire digital pour faire fructifier votre <strong className="font-normal">projet de communication</strong> et de <strong className="font-normal">marketing web</strong>.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
                         <button

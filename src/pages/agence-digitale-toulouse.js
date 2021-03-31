@@ -121,7 +121,7 @@ class AgenceDigitaleToulouse extends React.Component {
                         <div className="content century text-xl">
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">8</span>  développeurs web Front-End & Back-End</p>
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong> et <Link to="/agence-developpement-web-toulouse/" className="text-bleu font-bold hover:text-black">professionnels du <strong>développement web</strong></Link></p>
-                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong><Link className="hover:text-bleu" to="/referencement-toulouse/">référencement web</Link></strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
+                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong>référencement web</strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
                         </div>
                         <div className="pictures w-full flex-1 sm:hidden lg:flex xl:flex">
