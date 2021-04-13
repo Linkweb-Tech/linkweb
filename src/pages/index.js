@@ -35,7 +35,7 @@ function IndexPage(props) {
 
     <Layout location="home">
       <SEO
-        title="Agence Web Toulouse, Agen - Création Site Internet - Linkweb"
+        title="Agence Digitale Toulouse, Agen - Création Site Internet - Linkweb"
         description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
         url="https://linkweb.fr/"
       />
@@ -270,8 +270,8 @@ function IndexPage(props) {
             </p>
           </div>
         </div>
-        <div className="w-2/3 -mt-16 mb-12">
-          <Button url="/agence-digitale-toulouse/" color="white" text="Découvrir notre agence web" position="center" />
+        <div className="w-2/3 -mt-16 mb-12 century text-center">
+          <p className="text-white text-xl"><span className="text-bleu">>></span> Découvrir notre <Link to="/agence-digitale-toulouse/" className="text-white hover:text-bleu font-bold">agence web à Toulouse</Link></p>
         </div>
       </section>
       <section className="max-w-xl w-full mx-auto px-4 py-0 my-0">
