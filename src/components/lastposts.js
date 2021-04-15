@@ -9,14 +9,15 @@ class LastPosts extends React.Component {
         super(props);
     }
 
-
     render(){
         const lastposts = this.props.lastposts;
+        
         const wrap = this.props.wrap ? 'flex-wrap' : 'flex-nowrap';
         return(
             <section className={`flex flex-1 ${wrap} flex-col md:flex-row w-full mt-6 mb-6`}>
                 {
                     lastposts.map(( {node} ) => (
+                        
                         <article className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 w-1/2 mx-0 md:px-6 pb-4 flex flex-col align-center " /*data-aos="zoom-in"*/>
                             <div className="post">
                                     {/* <img 
@@ -48,3 +49,4 @@ export default LastPosts;
 
 
 
+;  

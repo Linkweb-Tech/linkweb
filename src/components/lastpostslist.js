@@ -13,7 +13,7 @@ class LastPostsList extends React.Component {
 
     render(){
         const lastposts = this.props.lastposts;
-        
+        console.log(lastposts);
         return(
             <section className="flex flex-1 flex-wrap flex-col w-full mt-4 mb-6">
                 {
