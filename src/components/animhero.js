@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import posed from "react-pose";
 
 const Orbs = posed.div({
@@ -94,7 +94,7 @@ const SmallTitle = posed.h2({
 
 
 
-class Hero extends React.Component {
+class Hero extends Component {
 
     constructor(props) {
         super(props);

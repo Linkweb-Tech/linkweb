@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import QueueAnim from 'rc-queue-anim';
 import PropTypes from 'prop-types';
@@ -23,7 +23,7 @@ let dataArray = [
   { image: 'https://linkweb.fr/wp-content/uploads/2019/06/cypiere-paysage-services.jpg' },
 ];
 dataArray = dataArray.map(item => ({ ...item, ...textData }));
-class GalerieReal extends React.Component {
+class GalerieReal extends Component {
   static propTypes = {
     className: PropTypes.string,
   };

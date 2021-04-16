@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -27,7 +27,7 @@ import map from "../../images/map.jpg";
 import surmesure from "../../images/web.svg"
 
 
-class SiteInternetchauffageclim extends React.Component {
+class SiteInternetchauffageclim extends Component {
 
     constructor(props) {
         super(props);

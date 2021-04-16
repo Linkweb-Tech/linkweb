@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import tlse from "../images/logo_universite-federale.png";
 import peugeot from "../images/peugeot.png";
 import onco from "../images/logo-onco.png";
@@ -7,7 +7,7 @@ import normand from "../images/normandie.png";
 import hg from "../images/logo_cd31.svg";
 import cotesarmor from "../images/logo-cotes-armor.svg";
 
-class Partenaires extends React.Component {
+class Partenaires extends Component {
     constructor(props) {
     super(props);
     }

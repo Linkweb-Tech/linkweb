@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
@@ -16,7 +16,7 @@ import bureau from '../images/bureau2-min.jpg';
 import scroll from "../images/motiontest.svg";
 
 
-class ContactAgenceWebToulouse extends React.Component {
+class ContactAgenceWebToulouse extends Component {
 
     constructor(props) {
         super(props);

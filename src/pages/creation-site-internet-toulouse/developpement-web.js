@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -14,7 +14,7 @@ import Bg from "../../images/creation-site-internet-colomiers.jpg"
 import bgbloc from "../../images/creation-sites-web-toulouse.jpg";
 
 
-class developpementWeb extends React.Component {
+class developpementWeb extends Component {
 
     constructor(props) {
         super(props);

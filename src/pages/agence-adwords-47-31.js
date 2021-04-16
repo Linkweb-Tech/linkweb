@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Button from "../components/button";
@@ -23,7 +23,7 @@ import savi from "../images/savi.png";
 import bgDev from '../images/cta-background-agence-web.jpg';
 import scroll from "../images/motiontest.svg";
 
-class ReferencementAds extends React.Component {
+class ReferencementAds extends Component {
 
     constructor(props){
         super(props);

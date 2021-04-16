@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";
@@ -31,7 +31,7 @@ import scroll from "../images/motiontest.svg";
 
 
 
-class AgenceDeveloppementWebToulouse extends React.Component {
+class AgenceDeveloppementWebToulouse extends Component {
 
     constructor(props) {
         super(props);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../../components/layout";
@@ -22,7 +22,7 @@ import logo3 from '../../images/very-garden.png';
 
 
 
-class faivre extends React.Component {
+class faivre extends Component {
 
     constructor(props) {
         super(props);

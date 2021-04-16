@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";
@@ -31,7 +31,7 @@ import contis from '../images/contis-avis.png';
 import "../scss/info.scss";
 import '../scss/global.scss';
 
-class ReferencementToulouse extends React.Component {
+class ReferencementToulouse extends Component {
 
     constructor(props) {
         super(props);

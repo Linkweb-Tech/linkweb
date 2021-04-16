@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -28,7 +28,7 @@ import surmesure from "../../images/web.svg"
 
 
 
-class SiteInternetChocolatier extends React.Component {
+class SiteInternetChocolatier extends Component {
 
     constructor(props) {
         super(props);

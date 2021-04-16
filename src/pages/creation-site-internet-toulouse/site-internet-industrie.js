@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -26,7 +26,7 @@ import realisation3 from "../../images/danhydro.jpg";
 import map from "../../images/map.jpg";
 
 
-class CreationSitePourIndustrie extends React.Component {
+class CreationSitePourIndustrie extends Component {
 
     constructor(props) {
         super(props);

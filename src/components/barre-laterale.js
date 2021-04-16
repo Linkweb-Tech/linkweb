@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import {Link} from 'gatsby';
 import "../scss/barre.scss";
 
@@ -15,7 +15,7 @@ import logoaqua from '../images/logo-aquapensezvous.png';
 import logocd from '../images/logo_cd31.svg';
 
 
-class Barre extends React.Component {
+class Barre extends Component {
     constructor(props) {
     super(props);
     this.state = {

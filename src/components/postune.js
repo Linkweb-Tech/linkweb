@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Component } from "react"
 import {Link} from 'gatsby'
 import '../scss/blogposts.scss'
 
 
 
-class Postune extends React.Component {
+class Postune extends Component {
     constructor(props){
         super(props);
     }

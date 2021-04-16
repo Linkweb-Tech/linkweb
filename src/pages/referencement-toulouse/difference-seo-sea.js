@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 import ButtonBlog from "../../components/buttonblog";
@@ -20,7 +20,7 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class DiffSEOSEA extends React.Component {
+class DiffSEOSEA extends Component {
 
     constructor(props) {
         super(props);

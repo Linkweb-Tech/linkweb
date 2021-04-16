@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -36,7 +36,7 @@ import instaIcon from "../images/instagram-logo.svg";
 
 
 
-class ActualiteDigitale extends React.Component {
+class ActualiteDigitale extends Component {
 
     constructor(props) {
         super(props);

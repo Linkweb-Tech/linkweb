@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Component } from "react"
 import '../scss/lastpostsmini.scss'
 import {Link} from 'gatsby'
 import BoutonBlog from '../components/boutonBlog'
 
 
 
-class LastPostsList extends React.Component {
+class LastPostsList extends Component {
     constructor(props){
         super(props);
     }

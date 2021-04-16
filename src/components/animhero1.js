@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import RoundButtonAccueil from "../components/roundButtonAccueil";
 import RoundButtonAccueilMail from "../components/roundButtonAccueilMail";
@@ -121,7 +121,7 @@ import googlePartner from "../images/PartnerBadge-RGB.png";
 
 
 
-class Hero1 extends React.Component {
+class Hero1 extends Component {
 
     constructor(props) {
         super(props);

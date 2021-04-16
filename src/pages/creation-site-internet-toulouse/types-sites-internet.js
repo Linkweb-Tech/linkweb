@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -17,7 +17,7 @@ import BoutonBlog from '../../components/boutonBlog.js';
 
 
 
-class TypesSites extends React.Component {
+class TypesSites extends Component {
 
     constructor(props) {
         super(props);

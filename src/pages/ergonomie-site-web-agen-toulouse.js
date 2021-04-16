@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import RoundButton from "../components/roundButton";
@@ -20,7 +20,7 @@ import web from '../images/web.svg';
 import laptop from '../images/laptop.svg';
 import bullhorn from '../images/bullhorn.svg';
 
-class ErgonomieToulouse extends React.Component {
+class ErgonomieToulouse extends Component {
 
     constructor(props) {
         super(props);

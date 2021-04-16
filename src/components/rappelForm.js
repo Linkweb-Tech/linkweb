@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from "react";
 import axios from 'axios';
 import "../scss/form.scss";
 
-class RappelForm extends React.Component {
+class RappelForm extends Component {
 
     constructor(props) {
         super(props)

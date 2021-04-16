@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 
 import ModalRea from './modal-list/modalRea';
 import ModalRef from "./modal-list/modalRef";
 import ModalSolu from "./modal-list/modalSolu";
 import ModalAds from "./modal-list/modalAds";
 
-class Modals extends React.Component {
+class Modals extends Component {
 
     constructor(props) {
         super(props);

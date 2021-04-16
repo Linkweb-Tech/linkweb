@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -26,7 +26,7 @@ import contis from "../images/contis-avis.png";
 import mac from "../images/mac-linkweb.jpg";
 
 
-class CreationSiteInternetToulousePage extends React.Component {
+class CreationSiteInternetToulousePage extends Component {
     
     constructor(props) {
         super(props);

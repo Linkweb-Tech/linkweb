@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "gatsby";
 
 // import creationsite from '../../images/creation-sites-web-toulouse.webp';
@@ -6,7 +6,7 @@ import loupe from "../../images/loupe.png";
 import menu from "../../images/menu.png";
 import souris from "../../images/mouse.png";
 
-class ModalRea extends React.Component {
+class ModalRea extends Component {
 
     constructor(props) {
         super(props);

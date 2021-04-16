@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";
@@ -18,7 +18,7 @@ import bgDev from '../images/cta-background-agence-web.jpg';
 import stars from '../images/stars.png';
 import mac from "../images/mac-agence.jpg";
 
-class CreationSiteInternetLotetGaronnePage extends React.Component {
+class CreationSiteInternetLotetGaronnePage extends Component {
 
     constructor(props){
         super(props);

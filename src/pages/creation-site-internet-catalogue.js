@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Button from "../components/button";
@@ -19,7 +19,7 @@ import imac from "../images/site-internet-catalogue.jpg";
 import bgDev from '../images/cta-background-agence-web.jpg';
 
 
-class CreationSiteInternetCatalogue extends React.Component {
+class CreationSiteInternetCatalogue extends Component {
 
     constructor(props){
         super(props);

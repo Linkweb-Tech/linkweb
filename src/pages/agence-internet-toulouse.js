@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -23,7 +23,7 @@ import webdesign from "../images/freelance.jpg";
 
 
 
-class AgenceInternetToulouse extends React.Component {
+class AgenceInternetToulouse extends Component {
 
     render() {
         return (

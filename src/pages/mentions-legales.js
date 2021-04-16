@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import RoundButton from "../components/roundButton";
@@ -15,7 +15,7 @@ import laptop from '../images/laptop.svg';
 import bullhorn from '../images/bullhorn.svg';
 
 
-class MentionsLegales extends React.Component {
+class MentionsLegales extends Component {
 
     constructor(props) {
         super(props);

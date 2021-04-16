@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Component } from "react"
 import '../scss/lastpostsmini.scss'
 import {Link} from 'gatsby'
 
 
 
-class LastPosts extends React.Component {
+class LastPosts extends Component {
     constructor(props){
         super(props);
     }

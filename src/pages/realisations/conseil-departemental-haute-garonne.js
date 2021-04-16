@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../../components/layout";
@@ -21,7 +21,7 @@ import logo from '../../images/logo_cd31.svg';
 
 
 
-class HauteGaronne extends React.Component {
+class HauteGaronne extends Component {
 
     constructor(props) {
         super(props);

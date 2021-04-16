@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from "react"
 
 
 
-class Tile extends React.Component {
+class Tile extends Component {
 	constructor(props) {
 			super(props);
 			this.state = {

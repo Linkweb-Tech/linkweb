@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from "react";
 import {Link} from 'gatsby';
 
-class ButtonMenuBack extends React.Component {
+class ButtonMenuBack extends Component {
     constructor(props) {
     super(props);
     }

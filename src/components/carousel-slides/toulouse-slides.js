@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Slider from "react-slick";
 import RoundButton from "../roundButton";
 import surmesure from "../../images/web.svg"
@@ -11,7 +11,7 @@ import "../../scss/carousel.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-class ToulouseSlides extends React.Component {
+class ToulouseSlides extends Component {
 
     constructor(props) {
         super(props);

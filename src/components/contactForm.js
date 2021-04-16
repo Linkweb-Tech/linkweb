@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import axios from 'axios';
 import "../scss/form.scss";
 import ReactNotification from 'react-notifications-component'
@@ -7,7 +7,7 @@ import ReCaptchaBlock from '../components/recaptcha'
 import { store } from 'react-notifications-component'
 import { loadReCaptcha } from 'react-recaptcha-v3'
 
-class ContactForm extends React.Component {
+class ContactForm extends Component {
 
     constructor(props) {
         super(props)

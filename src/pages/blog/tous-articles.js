@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 // import PageTransition from "gatsby-plugin-page-transitions";
@@ -26,7 +26,7 @@ import background from "../../images/background-blog.jpg";
 
 
 
-class CatTous extends React.Component {
+class CatTous extends Component {
 
     constructor(props) {
         super(props);

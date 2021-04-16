@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";;
 import Layout from "../components/layout";
 import Button from "../components/button";
@@ -15,7 +15,7 @@ import twitterIcon from "../images/twitter-logo.svg";
 import instaIcon from "../images/instagram-logo.svg";
 
 
-class Error404 extends React.Component {
+class Error404 extends Component {
 
     constructor(props) {
         super(props);

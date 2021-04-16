@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -10,7 +10,7 @@ import Bg from "../images/bg-agence-adwords-toulouse.jpg";
 import scroll from "../images/motiontest.svg";
 import { array } from "prop-types";
 
-class Test extends React.Component {
+class Test extends Component {
 
     constructor(props) {
         super(props);

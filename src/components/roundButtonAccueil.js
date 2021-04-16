@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from "react";
 import {Link} from 'gatsby';
 
-class RoundButtonAccueil extends React.Component {
+class RoundButtonAccueil extends Component {
     constructor(props) {
         super(props);
         this.state = {

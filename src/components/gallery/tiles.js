@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from "react"
 import Tile from './tile'
 import '../../scss/tiles.scss';
 
@@ -14,7 +14,7 @@ import ledil from '../../images/ledilimmo.jpg'
 import aqua from '../../images/aquapensezvous-tiles.jpg'
 import cdhg from '../../images/cdhg.jpg'
 
-class Tiles extends React.Component {
+class Tiles extends Component {
 	render() {
         const data = [{
             id: 1,

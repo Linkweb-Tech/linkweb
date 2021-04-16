@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import {Link} from 'gatsby';
 import ButtonMenu from "../components/buttonmenu.js";
 import ButtonMenuBack from "../components/buttonmenuback.js";
 import "../scss/global.scss";
-class SousMenu extends React.Component {
+class SousMenu extends Component {
 
     constructor(props) {
         super(props);

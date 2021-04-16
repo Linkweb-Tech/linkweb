@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "gatsby";
 import Button from "../button";
 
@@ -6,7 +6,7 @@ import Button from "../button";
 // import refweb from '../../images/referencement-web.jpg';
 
 
-class ModalRef extends React.Component {
+class ModalRef extends Component {
 
     constructor(props) {
         super(props);

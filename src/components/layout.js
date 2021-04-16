@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 import CookieConsent from 'react-cookie-consent';
 import Header from "./header";
@@ -8,7 +8,7 @@ import "../scss/global.scss";
 
 
 
-class Layout extends React.Component {
+class Layout extends Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     location: PropTypes.object.isRequired

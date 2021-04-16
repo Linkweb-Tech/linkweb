@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import RoundButton from "../components/roundButton";
@@ -11,7 +11,7 @@ import Bg from "../images/developpement-web-agen.jpg";
 
 
 
-class Recrutement extends React.Component {
+class Recrutement extends Component {
 
     constructor(props) {
         super(props);

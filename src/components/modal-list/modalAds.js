@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "gatsby";
 import Button from "../button";
 
 // import refads from '../../images/referencement-ads.webp';
 
-class ModalAds extends React.Component {
+class ModalAds extends Component {
 
     constructor(props) {
         super(props);

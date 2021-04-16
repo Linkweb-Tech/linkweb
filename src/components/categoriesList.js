@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from "react"
 import {Link} from 'gatsby'
 import '../scss/categorieslist.scss'
 
-class CategoriesList extends React.Component {
+class CategoriesList extends Component {
 
     constructor(props){
         super(props)

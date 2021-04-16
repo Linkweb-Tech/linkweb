@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../../components/layout";
@@ -27,7 +27,7 @@ import logocsd from '../../images/logo-csd.png';
 
 
 
-class sia extends React.Component {
+class sia extends Component {
 
     constructor(props) {
         super(props);
