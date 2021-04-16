@@ -6,14 +6,6 @@ module.exports = {
     author: `@AgenceLinkweb`
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        includeInDevelopment: true, // optional parameter to include script in development
-        id: 2170277,
-        sv: 6,
-      },
-    },
     /*
      * Gatsby's data processing layer begins with “source”
      * plugins. Here the site sources its data from Wordpress.

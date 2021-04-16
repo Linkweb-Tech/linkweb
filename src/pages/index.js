@@ -1,26 +1,32 @@
-import React from "react";
+import React, {Suspense} from "react";
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Button from "../components/button";
+//import Button from "../components/button";
 import SEO from "../components/seo";
 import Hero1 from "../components/animhero1";
-import SimpleMap from "../components/simpleMap";
-import Partenaires from '../components/partenaires';
-import Carousel from '../components/carousel';
-import Modals from "../components/modals";
+const SimpleMap = React.lazy(() => import('../components/simpleMap'));
+//import SimpleMap from "../components/simpleMap";
+const Partenaires = React.lazy(() => import('../components/partenaires'));
+//import Partenaires from '../components/partenaires';
+//import Carousel from '../components/carousel';
 
-import Tiles from '../components/gallery/tiles';
+const Modals = React.lazy(() => import('../components/modals'));
+//import Modals from "../components/modals";
+
+const Tiles = React.lazy(() => import('../components/gallery/tiles'));
+//import Tiles from '../components/gallery/tiles';
 
 import bureau from "../images/bureau.jpg";
 import stars from '../images/stars.png';
 // import refads from '../images/referencement-ads.webp';
-import besoins from '../images/besoins.jpg';
+//import besoins from '../images/besoins.jpg';
 
 
 import RoundButton from "../components/roundButton";
 import ButtonBlog from "../components/buttonblog";
-import Accordion from "../components/accordion";
+const Accordion = React.lazy(() => import('../components/accordion') );
+//import Accordion from "../components/accordion";
 // import PageTransition from "gatsby-plugin-page-transitions";
 import "../scss/heroa.scss";
 import "../scss/home1.scss";
@@ -62,7 +68,8 @@ function IndexPage(props) {
 
           
       {/* List of modals (Creation de sites, Referencement, Solution, Google Ads) */}
-      <Modals />
+      <Suspense fallback={<div>Loading...</div>}>     <Modals /></Suspense>
+
       <Hero1></Hero1>
       <section id="x" className="max-w-md w-full mx-auto mt-12 px-4 py-0 my-0">
         <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
@@ -271,7 +278,7 @@ function IndexPage(props) {
           </div>
         </div>
         <div className="w-2/3 -mt-16 mb-12 century text-center">
-          <p className="text-white text-xl"><span className="text-bleu">>></span> Découvrir notre <Link to="/agence-digitale-toulouse/" className="text-white hover:text-bleu font-bold">agence web à Toulouse</Link></p>
+          <p className="text-white text-xl"><span className="text-bleu"></span> Découvrir notre <Link to="/agence-digitale-toulouse/" className="text-white hover:text-bleu font-bold">agence web à Toulouse</Link></p>
         </div>
       </section>
       <section className="max-w-xl w-full mx-auto px-4 py-0 my-0">
@@ -362,7 +369,9 @@ function IndexPage(props) {
         <br />
       </section>
       <section className="w-full mx-auto px-4 pt-0 pb-0 my-0">
-        <Tiles />
+        <Suspense fallback={<div>Loading...</div>}> 
+          <Tiles />
+          </Suspense>
       </section>
       <section className="w-full flex my-12 flex-col lg:flex-row text-white bg-bleu century text-center lg:text-justify px-4 lg:px-16 xl:px-48 py-16">
         <div className="w-full lg:w-8/12 text-xl lg:text-3xl">
@@ -567,6 +576,7 @@ function IndexPage(props) {
       </section>
       <section className="tabPanel flex flex-1 w-full justify-end ml-0">
         <div className="w-full md:w-3/4 py-0 flex justify-end">
+        <Suspense fallback={<div>Loading...</div>}> 
           <Accordion>
             <div className="w-full" label="UNE AUGMENTATION DE VOS CONTACTS PROSPECTS ?">
               <p><span className="font-bold">Vous souhaitez développer la <strong>stratégie de communication digitale</strong> de votre société ? Développer la vente de vos produits ?</span><br /><br /> Le <strong>retour sur investissement</strong> fait partie des objectifs communs à tous chefs d’entreprise. Trouver de nouveaux prospects potentiels nécessite de pouvoir être trouvé en ligne. C'est votre présence en ligne et sur les moteurs de recherche qui permettra de propulser <strong>votre site</strong> au premier plan. Le contenu que vous allez proposer sur <strong>votre site</strong> doit donner envie de travailler avec vous.<br /><br /> Par ailleurs, le contenu n'est pas la seule clé pour rendre votre site performant. En effet, un <span className="font-bold"><Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black"><strong>webdesign</strong> adapté</Link></span>, une <span className="font-bold"><strong>expérience utilisateur</strong> (<strong>UX Design</strong>) et des <strong>outils digitaux</strong> bien construits</span> vous permettront de <strong>créer un site internet</strong> efficace.<br /><br /> Le <strong>site internet</strong> est un parfait outil pour <strong>dynamiser sa communication d’entreprise</strong> tout en la maîtrisant. Au-delà des objectifs d'image, le site internet vous permettra de gagner en visibilité pour atteindre vos cibles et obtenir des contacts qualifiés. Notre méthode de travail vous permettra d'atteindre vos objectifs grâce à des <strong>projets en ligne</strong> efficaces.<br /><br /> <span className="font-bold">En faisant le choix de <strong>nos solutions</strong>, notre <strong>agence de création</strong> vous propose, de part nos compétences en <strong>référencement et developpement web</strong>, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>refonte</strong> ou de la <strong>création de votre site</strong> vitrine ou <strong>site marchand</strong>.</span></p>
@@ -580,6 +590,7 @@ function IndexPage(props) {
                         <br /><br /><strong>Avoir un site</strong> professionnel est un <span className="font-bold">gage de confiance vis-à-vis de vos prospects</span>. Faire appel à une <strong>agence de communication digitale</strong> spécialisée dans la <strong>création de site internet</strong> pour développer un outil rentable est conseillé : ce choix vous permettra d'accéder à <span className="font-bold">une solution construite à partir de vos besoins, mais aussi en corrélation avec ceux de vos prospects pour des stratégies <strong>digitales</strong> optimales.</span></p>
             </div>
           </Accordion>
+          </Suspense>
         </div>
       </section>
       {/* <section className="max-w-2xl w-full mx-auto lg:mt-12 px-4 py-0 pt-24 lg:pt-6 my-0">
@@ -606,8 +617,10 @@ function IndexPage(props) {
         <hr className="blue"></hr>
         <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-6">Nos partenaires</h3>
       </section>
-      <Partenaires />
-      <SimpleMap />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Partenaires />
+        <SimpleMap />
+      </Suspense>
 
       {/* </PageTransition> */}
     </Layout>
