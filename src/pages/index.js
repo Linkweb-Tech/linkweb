@@ -579,6 +579,13 @@ function IndexPage(props) {
                 En mettant en place une <strong>stratégie digitale</strong> cohérente et pertinente vous aurez l'occasion de développer la <strong>communication en ligne</strong> de votre société via le canal le plus consulté en France et dans le monde : Internet.<br /><br />Un plan de communication construit pour convertir vous permettra de <span className="font-bold">développer le chiffre d’affaires de votre société</span> avec un <strong>projet web</strong> marketing personnalisé.
                         <br /><br /><strong>Avoir un site</strong> professionnel est un <span className="font-bold">gage de confiance vis-à-vis de vos prospects</span> (entreprises et organismes ciblés). Faire appel à une <strong>agence de communication digitale</strong> spécialisée dans la <strong>création de site internet</strong> pour développer un outil rentable est conseillé : ce choix vous permettra d'accéder à <span className="font-bold">une solution construite à partir de vos besoins, mais aussi en corrélation avec ceux de vos prospects pour des stratégies <strong>digitales</strong> optimales.</span></p>
             </div>
+            <div label="LA CRÉATION DE VOTRE IMAGE DE MARQUE ?">
+              <p>Linkweb fait partie des <strong>agences en France</strong> qui définissent des <span className="font-bold">stratégies en parfait accord avec les projets des professionnels</span>. Nous mettons le <strong>digital au coeur de votre stratégie</strong> pour vous permettre de poursuivre des objectifs de positionnement, mais également de branding.
+
+               <br/><br/>En effet, la <span className="font-bold"><strong>formation de votre image de marque</strong></span> passe avant tout par une interconnexion entre chaque media (réseaux sociaux, site internet, newsletter, etc.) dont vous disposez. Notre entreprise est <span className="font-bold">spécialisée dans les <strong>problématiques du digital</strong></span> et vous apporte un conseil pertinent en fonction de vos besoins.
+
+               <br/><br/>Les <strong>agences comme Linkweb</strong> ont pour ambition de <span className="font-bold">conduire vos projets jusqu'au succès</span>, que ce soit en termes d’<strong>image</strong>, de <strong>visibilité</strong>, mais également de <strong>conversion</strong>.</p>
+            </div>
           </Accordion>
         </div>
       </section>
