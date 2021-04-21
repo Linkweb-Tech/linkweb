@@ -431,7 +431,7 @@ class SiteInternetCuisiniste extends Component {
 
 export const query = graphql`
 query lastsThreePostsSiteInternetCuisiniste {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -440,8 +440,10 @@ query lastsThreePostsSiteInternetCuisiniste {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            node {
+                sourceUrl
+            }
           }
         }
       }

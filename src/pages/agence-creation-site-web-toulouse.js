@@ -64,7 +64,7 @@ class AgenceCreaSiteWeb extends Component {
                         <br />
                         <h2 className="flex mb-16 full lg:w-3/5 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Agence de création de site web et de refonte de site internet à Toulouse</h2>
                         {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
-                        
+
                     </div>
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
@@ -74,164 +74,164 @@ class AgenceCreaSiteWeb extends Component {
                         <p className="px-8 lg:px-16 text-white text-center century text-md">Nous définissons et mettons en application les <strong>projet de création web et de référencement sur Google</strong> pour nos clients souhaitant développer leur visibilité en ligne.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
-                        <button
-                            className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
-                            type="button"
-                            onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href='/contact-agence-web-toulouse/';
-                            }}
-                        >Demander un devis</button>
+                            <button
+                                className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                                type="button"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = '/contact-agence-web-toulouse/';
+                                }}
+                            >Demander un devis</button>
                             {/* <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" color="darkgrey" text="Je demande un devis" /> */}
                         </div>
                     </div>
                 </section>
                 <section className="w-full lg:w-3/5 px-10 mt-16 lg:-mt-48 mb-16 lg:mb-48">
-                    <br/>
+                    <br />
                     <h3 className="century text-xl text-center">
-                    Bénéficier d’un accompagnement professionnel pour le développement de son projet en ligne : de son design jusqu’à sa stratégie marketing.
+                        Bénéficier d’un accompagnement professionnel pour le développement de son projet en ligne : de son design jusqu’à sa stratégie marketing.
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence création site web : produire une solution fonctionnelle</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">En tant qu’<Link to="/agence-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">agence spécialisée dans le développement web</Link> et la conception de sites internet, nous nous attachons à livrer un résultat parfaitement fonctionnel et qui répond à vos attentes.</h3>
-                        </div>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence création site web : produire une solution fonctionnelle</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">En tant qu’<Link to="/agence-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">agence spécialisée dans le développement web</Link> et la conception de sites internet, nous nous attachons à livrer un résultat parfaitement fonctionnel et qui répond à vos attentes.</h3>
+                    </div>
                 </section>
                 <section className="w-full my-10 flex flex-col lg:flex-row">
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + siteinternet + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Conception</span><br /><span className="font-bold text-5xl md:text-6xl">UI & UX DESIGN</span></h3>
                         <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">Notre rôle est de concevoir une interface parfaitement fonctionnelle pour vos utilisateurs. En ce sens, nous mettons l’accent sur l’<strong className="font-normal">ergonomie de votre plateforme</strong> en définissant un <strong className="font-normal">webdesign</strong> parfaitement intuitif. L’objectif est de proposer une <strong className="font-normal">expérience utilisateur</strong> irréprochable afin de guider vos visiteurs tout au long de leur navigation sur <strong className="font-normal">votre site web</strong>.
-                        <br/><br/>Cela passe par la <strong className="font-normal">conception d’un design</strong> adapté pour tous les supports (<strong className="font-normal">mobile</strong>, tablette, écran d’ordinateur, etc.), mais également par la mise en place d’un temps de chargement optimal ou d’une <strong className="font-normal">navigation sécurisée</strong>. Chaque détail est important pour proposer l’expérience la plus adaptée aux utilisateurs à la recherche d’une information sur votre site.</p>
+                        <br /><br />Cela passe par la <strong className="font-normal">conception d’un design</strong> adapté pour tous les supports (<strong className="font-normal">mobile</strong>, tablette, écran d’ordinateur, etc.), mais également par la mise en place d’un temps de chargement optimal ou d’une <strong className="font-normal">navigation sécurisée</strong>. Chaque détail est important pour proposer l’expérience la plus adaptée aux utilisateurs à la recherche d’une information sur votre site.</p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + referencement + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Conformité du</span><br /><span className="font-bold text-6xl">SITE INTERNET</span></h3>
-                        <p className="text century text-lg lg:text-sm xl:text-lg">En plus d’être conçu à destination de vos utilisateurs, <strong className="font-normal">votre site web</strong> doit également en totale compatibilité vis-à-vis de l’ensemble des acteurs du <strong className="font-normal">web</strong> : navigateurs, <strong className="font-normal">moteurs de recherche</strong> et bien plus encore. C’est pourquoi, les sites que nous créons sont conçus en parfaite conformité avec le World Wide Web Consortium (W3C) pour une parfaite interprétation de votre site. 
-                        <br/><br/>Ceci est important pour proposer une expérience parfaitement homogène, quel que soit le navigateur utilisé. Également, cela facilite la lecture de votre page pour les robots des <strong className="font-normal">moteurs de recherche</strong> pour une parfaite interprétation du contenu mis en avant sur l’ensemble de vos <strong className="font-normal">pages web</strong>.
+                        <p className="text century text-lg lg:text-sm xl:text-lg">En plus d’être conçu à destination de vos utilisateurs, <strong className="font-normal">votre site web</strong> doit également en totale compatibilité vis-à-vis de l’ensemble des acteurs du <strong className="font-normal">web</strong> : navigateurs, <strong className="font-normal">moteurs de recherche</strong> et bien plus encore. C’est pourquoi, les sites que nous créons sont conçus en parfaite conformité avec le World Wide Web Consortium (W3C) pour une parfaite interprétation de votre site.
+                        <br /><br />Ceci est important pour proposer une expérience parfaitement homogène, quel que soit le navigateur utilisé. Également, cela facilite la lecture de votre page pour les robots des <strong className="font-normal">moteurs de recherche</strong> pour une parfaite interprétation du contenu mis en avant sur l’ensemble de vos <strong className="font-normal">pages web</strong>.
                         </p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + webdesign + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Vision </span><br /><span className="font-bold text-6xl">WEBMARKETING</span></h3>
                         <p className="text century text-lg lg:text-sm xl:text-lg">Lorsque nous développons un <strong className="font-normal">site internet</strong>, nous développons avant tout un <strong className="font-normal">outil de communication</strong> apte à jouer un rôle dans le <strong className="font-normal">développement de votre entreprise en ligne</strong>. C’est pourquoi, nous intégrons à la conception de votre site, la définition d’une <strong className="font-normal">stratégie de référencement naturel (SEO)</strong> en vue de vous permettre d’acquérir de la visibilité sur votre secteur de prédilection (Paris, comme partout en France).
-                        <br/><br/>En somme, le <strong className="font-normal">site internet</strong> est un support de communication qui doit permettre de véhiculer votre message. Il est donc indispensable de <strong className="font-normal">définir une stratégie de visibilité</strong> pour générer du trafic afin d’attirer de potentiels prospects. Nous activons tous les <strong className="font-normal">leviers du web marketing</strong> qui vous permettrons d’atteindre vos objectifs commerciaux.</p>
+                        <br /><br />En somme, le <strong className="font-normal">site internet</strong> est un support de communication qui doit permettre de véhiculer votre message. Il est donc indispensable de <strong className="font-normal">définir une stratégie de visibilité</strong> pour générer du trafic afin d’attirer de potentiels prospects. Nous activons tous les <strong className="font-normal">leviers du web marketing</strong> qui vous permettrons d’atteindre vos objectifs commerciaux.</p>
                     </div>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">La méthode Linkweb : mener votre projet avec notre agence</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Linkweb fait partie des agences en France qui s’attachent à cerner les besoins de ses clients avant d’envisager les solutions les plus pertinentes par rapport à leur activité ainsi qu’à leurs opportunités en ligne.</h3>
-                        </div>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">La méthode Linkweb : mener votre projet avec notre agence</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Linkweb fait partie des agences en France qui s’attachent à cerner les besoins de ses clients avant d’envisager les solutions les plus pertinentes par rapport à leur activité ainsi qu’à leurs opportunités en ligne.</h3>
+                    </div>
                 </section>
                 <section className="phototext mb-24">
                     <section className="w-full  my-10 flex flex-col lg:flex-row items-center justify-start">
-                <div className="w-full flex justify-center items-center lg:w-5/12">
-                    <img className="w-full" src={mac} alt="Agence SEA Toulouse"/>
-                </div>
-                <div className="w-full lg:w-1/2 my-10  flex flex-col">
-                    <div className="w-full flex-col md:flex-row flex px-auto">
-                        <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
-                            <p className="text-center">1</p>
+                        <div className="w-full flex justify-center items-center lg:w-5/12">
+                            <img className="w-full" src={mac} alt="Agence SEA Toulouse" />
                         </div>
-                        <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
-                                <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>PRENEZ CONTACT POUR NOUS PRÉSENTER VOTRE PROJET
+                        <div className="w-full lg:w-1/2 my-10  flex flex-col">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
+                                    <p className="text-center">1</p>
+                                </div>
+                                <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
+                                    <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
+                                        <span className="text-bleu">/</span>PRENEZ CONTACT POUR NOUS PRÉSENTER VOTRE PROJET
                                 </h3>
-                                <br/>
-                                <h4 className="century"><span className="font-bold">En prenant contact avec Linkweb, un expert étudiera votre demande en vue de vous contacter pour mieux cerner vos besoins.</span></h4>
-                                <br/>
-                                <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Nous devons connaître vos objectifs, vos cibles, mais également votre activité ainsi que vos motivations. Plus votre demande sera détaillée, plus nous serons prompts à vous proposer une <strong className="font-normal">solution pertinente</strong>.</p>
-                                </p>
-                                {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
-                        </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">2</p>
+                                    <br />
+                                    <h4 className="century"><span className="font-bold">En prenant contact avec Linkweb, un expert étudiera votre demande en vue de vous contacter pour mieux cerner vos besoins.</span></h4>
+                                    <br />
+                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Nous devons connaître vos objectifs, vos cibles, mais également votre activité ainsi que vos motivations. Plus votre demande sera détaillée, plus nous serons prompts à vous proposer une <strong className="font-normal">solution pertinente</strong>.</p>
+                                    </p>
+                                    {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">2</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>NOUS ÉTUDIONS L’ENSEMBLE DE VOS BESOINS POUR DÉFINIR VOTRE PROJET WEB
                                     </h3>
-                                    <br/>
+                                    <br />
                                     <h4 className="century"><span className="font-bold">Un rendez-vous est fixé pour définir vos besoins ainsi que pour formuler une proposition fonctionnelle, pertinente et de qualité.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Cette étape est fondamentale pour comprendre vos besoins, mais également évaluer l’environnement concurrentiel autour de <strong className="font-normal">votre marché en ligne</strong>. En effet, de cette étape doit résulter la <strong className="font-normal">définition d’une stratégie</strong> parfaitement adaptée à votre projet.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">3</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">3</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>VOUS VALIDEZ LE PROJET UNE FOIS QU’IL VOUS CORRESPOND
                                     </h3>
-                                    <br/>
+                                    <br />
                                     <h4 className="century"><span className="font-bold">Une fois la stratégie validée, nous vous proposons une maquette visuelle ainsi que des contenus parfaitement originaux et optimisés pour être visibles.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Dès lors que la <strong className="font-normal">maquette du site</strong> vous est livrée, un circuit de validation se met en place pour chaque page. À la suite d’échanges et d’ajustements réalisés à partir de la maquette, une version définitive est sélectionnée en vue d’être mise en ligne.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">4</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">4</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>NOUS LANÇONS LA PRODUCTION DE VOTRE PROJET
                                     </h3>
                                     <h4 className="century"><span className="font-bold">Dès que la proposition est validée, nos développeurs se chargent de mettre en production votre site ainsi que d’envisager sa mise en ligne.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Les <strong className="font-normal">experts de notre <Link to="/agence-web-muret/" className="text-bleu hover:text-black font-bold">agence de création de site web</Link></strong> mettent votre <strong className="font-normal">site en ligne</strong> sur le nom de domaine sélectionné. Par ailleurs, nos référenceurs réalisent toutes les optimisations nécessaires pour rendre votre <strong className="font-normal">site web visible via les moteurs de recherche</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
                         </div>
+                    </section>
+                </section>
+                <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Un accompagnement professionnel pour une solution complète</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Faire le choix d’agences spécialisées dans la création de site internet comme Linkweb permet d’accéder à une prestation totale et parfaitement ajustée en fonction des besoins de son entreprise.</h3>
                     </div>
-            </section>
-            </section>
-            <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Un accompagnement professionnel pour une solution complète</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Faire le choix d’agences spécialisées dans la création de site internet comme Linkweb permet d’accéder à une prestation totale et parfaitement ajustée en fonction des besoins de son entreprise.</h3>
-                        </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-24">
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                             <div className="w-full" label="DES EXPERTS COMPÉTENTS EN DÉVELOPPEMENT WEB">
-                                <p>En faisant le choix d’une <strong className="font-normal"><Link to="/entreprise-developpement-web-toulouse/" className="font-bold text-bleu hover:text-white">agence comme Linkweb</Link></strong>, vous faites appel à des spécialistes de la <strong className="font-normal">création de sites internet en France</strong>. Nos <strong className="font-normal">développeurs</strong> maîtrisent parfaitement les rouages du net sont compétents pour mettre en place votre <strong className="font-normal">solution sur-mesure</strong>. 
-                                    <br/><br/>
+                                <p>En faisant le choix d’une <strong className="font-normal"><Link to="/entreprise-developpement-web-toulouse/" className="font-bold text-bleu hover:text-white">agence comme Linkweb</Link></strong>, vous faites appel à des spécialistes de la <strong className="font-normal">création de sites internet en France</strong>. Nos <strong className="font-normal">développeurs</strong> maîtrisent parfaitement les rouages du net sont compétents pour mettre en place votre <strong className="font-normal">solution sur-mesure</strong>.
+                                    <br /><br />
                                     Grâce à sa parfaite connaissance des nombreuses <strong className="font-normal">technologies web</strong>, notre <strong className="font-normal">équipe de développeurs</strong> est apte à prendre les meilleures décisions en vue de vous livrer l’<strong className="font-normal">outil de communication</strong> qui vous correspond le mieux en fonction de vos objectifs. Aussi, ils vous accompagnent dans le cadre d’un <strong className="font-normal">contrat de gestion</strong> pour sélectionner l’offre d’hébergement ainsi que le <strong className="font-normal">nom de domaine</strong> qui collent le plus à vos besoins.
-                                    <br/><br/>
+                                    <br /><br />
                                     Quel que soit le <strong className="font-normal">type de site (vitrine, ecommerce, administrable ou catalogue)</strong> ou bien la technologie utilisée (système de gestion de contenu CMS comme le <strong className="font-normal">CMS Wordpress</strong>, application web, langage HTML/CSS, etc.), nos experts sont en mesure de mettre en place la solution qui vous correspond (pour mettre en avant vos services et produits, <strong className="font-normal">développer votre communication</strong> corporate ou proposer un outil complémentaire à vos <strong className="font-normal">réseaux sociaux</strong>).
                                 </p>
-                            </div>  
+                            </div>
                             <div label="UN PROJET CONÇU AUTOUR DE LA CRÉATION DE SON SITE">
                                 <p>
-                                Notre <strong className="font-normal">agence</strong> fait partie des <strong className="font-normal">agences</strong> structurées à partir de procédés spécifiques à la <strong className="font-normal">création web</strong> (ou refonte de sites web) en vue d’optimiser la <strong className="font-normal">réalisation de votre projet</strong>. C’est pourquoi, de la conception à la structure votre interface, tout est pensé pour vous permettre de tirer profit d’un outil au potentiel aussi fort qu’un <strong className="font-normal">site internet</strong>. 
-                                <br/><br/>
+                                    Notre <strong className="font-normal">agence</strong> fait partie des <strong className="font-normal">agences</strong> structurées à partir de procédés spécifiques à la <strong className="font-normal">création web</strong> (ou refonte de sites web) en vue d’optimiser la <strong className="font-normal">réalisation de votre projet</strong>. C’est pourquoi, de la conception à la structure votre interface, tout est pensé pour vous permettre de tirer profit d’un outil au potentiel aussi fort qu’un <strong className="font-normal">site internet</strong>.
+                                <br /><br />
                                 Cette organisation spécifique nous permet de mettre en oeuvre votre projet dans des conditions optimales afin de vous fournir une <strong className="font-normal">solution de qualité</strong> et durable. Chaque critère est analysé pour vous proposer une interface en totale conformité avec les attentes de vos futurs utilisateurs, comme de chaque <strong className="font-normal">acteur du web</strong>. C’est pourquoi, toutes nos réalisations sont soignées pour une accessibilité optimale.
-                                <br/><br/>
+                                <br /><br />
                                 Dès le cadrage de votre <strong className="font-normal">stratégie</strong>, notre <strong className="font-normal">équipe</strong> est en mesure d’estimer le temps de production nécessaire pour vous proposer une solution en total accord avec vos attentes. Ceci nous permet alors de vous fournir un devis détaillé selon les besoins que requiert un <strong className="font-normal">projet digital</strong> comme le votre : utilisation de <strong className="font-normal">CMS comme Wordpress</strong>, optimisation pour mobile, module ecommerce, création d’une vitrine de votre société, <strong className="font-normal">référencement naturel</strong>, etc.
                                 </p>
                             </div>
                             <div label="UN SITE INTERNET POUR DYNAMISER VOTRE STRATÉGIE DE MARKETING DIGITAL">
                                 <p>
-                                Lorsque vous faites le choix d’une <Link to="/agence-web-haute-garonne/" className="font-bold text-bleu hover:text-black"><strong className="font-normal">agence comme Linkweb</strong></Link>, vous optez également pour la mise en place d’une réelle de <strong className="font-normal">stratégie marketing</strong>. En ce sens votre site est un support et non un objectif. En effet, nous pensons que le <strong className="font-normal">site internet</strong> est un véritable moteur pour développer la visibilité et la <strong className="font-normal">notoriété d’une entreprise</strong> sur le net.
-                                <br/><br/>
+                                    Lorsque vous faites le choix d’une <Link to="/agence-web-haute-garonne/" className="font-bold text-bleu hover:text-black"><strong className="font-normal">agence comme Linkweb</strong></Link>, vous optez également pour la mise en place d’une réelle de <strong className="font-normal">stratégie marketing</strong>. En ce sens votre site est un support et non un objectif. En effet, nous pensons que le <strong className="font-normal">site internet</strong> est un véritable moteur pour développer la visibilité et la <strong className="font-normal">notoriété d’une entreprise</strong> sur le net.
+                                <br /><br />
                                 Par ailleurs, ne pas exploiter le potentiel de <strong className="font-normal">visibilité</strong> qu’offre le web peut être une erreur. C’est pourquoi, notre <strong className="font-normal">équipe de référenceurs</strong> met en place des procédés propres au <strong className="font-normal">référencement naturel SEO</strong> pour vous permettre de <strong className="font-normal">rendre les pages de votre site visibles</strong> via un <strong className="font-normal">moteur de recherche comme Google</strong> sur votre secteur géographique (Paris et l’ensemble de la France).
-                                <br/><br/>
+                                <br /><br />
                                 Toutefois, le <strong className="font-normal">référencement de votre interface</strong> doit être défini en fonction des habitudes des utilisateurs. Ceci vous permettra d’identifier les <strong className="font-normal">opportunités de visibilité</strong> en termes de <strong className="font-normal">mots-clés</strong> afin de promouvoir votre activité et vos solutions auprès d’un public ciblé. Tout ceci a pour but de drainer du <strong className="font-normal">trafic qualifié vers votre site</strong> afin de gagner en <strong className="font-normal">notoriété</strong>. Rendez vos produits <strong className="font-normal">visibles</strong> sur des requêtes pertinentes sur <strong className="font-normal">Google</strong>, que vous soyez à Paris comme partout en France.
                             </p>
                             </div>
@@ -281,7 +281,7 @@ class AgenceCreaSiteWeb extends Component {
 
 export const query = graphql`
 query lastsThreePostsQuelleAgenceCreaSiteWeb {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -290,8 +290,10 @@ query lastsThreePostsQuelleAgenceCreaSiteWeb {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            node {
+                sourceUrl
+            }
           }
         }
       }

@@ -133,7 +133,7 @@ class CatAgence extends Component {
                         </div>
                         <br />
                         {/* <h3 className="font-bold pb-3">CATÉGORIES</h3>
-                        <CategoriesList list={ this.props.data.allWordpressCategory.edges} /> */}
+                        <CategoriesList list={ this.props.data.allWpCategory.edges} /> */}
                         <hr className="hrblog"></hr>
                         <h3 className="font-bold century text-bleu pt-3 pb-3">Toute l'Actualité Digitale</h3>
                         <hr className="hrblog"></hr>
@@ -177,7 +177,7 @@ class CatAgence extends Component {
 
 export const query = graphql`
 query lastsThreePostsCatAgence {
-    lastmini: allWordpressPost(limit: 5) {
+    lastmini: allWpPost(limit: 5) {
         edges {
             node {
             id
@@ -185,13 +185,15 @@ query lastsThreePostsCatAgence {
             slug
             modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
-            featured_media {
-                source_url
+            featuredImage {
+                node {
+                    sourceUrl
+                }
             }
             }
         }
     }
-    allWordpressCategory {
+    allWpCategory {
         edges {
             node {
             slug
@@ -200,7 +202,7 @@ query lastsThreePostsCatAgence {
             }
         }
     }
-    agence: allWordpressPost(limit: 100, filter: {categories: {elemMatch: {slug: {eq: "agence"}}}}) {
+    agence: allWpPost(limit: 100, filter: {categories: {nodes:{elemMatch: {slug: {eq: "agence"}}}}}) {
         edges {
             node {
             id
@@ -209,15 +211,15 @@ query lastsThreePostsCatAgence {
             date(locale: "fr", formatString: "dddd DD MMMM YYYY")
             modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
-            featured_media {
-                source_url
+            featuredImage {
+                node {
+                    sourceUrl
+                }
             }
             }
         }
     }
 
-}
+}`
 
-
-`
 export default CatAgence;

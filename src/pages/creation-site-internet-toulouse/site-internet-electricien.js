@@ -114,14 +114,14 @@ class SiteInternetElectricien extends Component {
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
                     <div className="w-11/12 lg:w-1/3 bg-white shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
-                        <svg width="40px" fill="#37cfee" className="mt-4 mx-auto block" viewBox="0 0 319 800"><g xmlns=""><polygon points="119,9 237,0 138,226 319,201 36,640 31,621 169,300 0,335 "/></g></svg>
+                        <svg width="40px" fill="#37cfee" className="mt-4 mx-auto block" viewBox="0 0 319 800"><g xmlns=""><polygon points="119,9 237,0 138,226 319,201 36,640 31,621 169,300 0,335 " /></g></svg>
                         <h2 className="flex text-black justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Vous êtes un <span className="text-bleu">{this.state.metier}</span>&nbsp;?</span></h2>
                         <br />
                         <p className="px-8 lg:px-16 text-center century text-md">Vous souhaitez <strong className="font-normal">créer un site internet</strong> pour votre entreprise ?<br /> <strong className="font-normal">Linkweb</strong> vous accompagne dans la mise en oeuvre de votre <strong className="font-normal">projet web</strong> pour répondre à vos objectifs.</p>
                         <br />
                         <div className="flex flex-col md:flex-row text-center pb-6 century px-2 lg:px-5 text-sm">
                             <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                                <svg width="60px" className="mx-auto block" fill="#37cfee" viewBox="0 0 846.66 1058.325"><g><path class="fil0" d="M462.15 681.24l0 -43.35c0,-52.4 42.79,-95.19 95.2,-95.19l180.28 0 0 41.28 -180.28 0c-29.62,0 -53.92,24.3 -53.92,53.91 0,14.55 0.11,29.17 0,43.69 -0.96,51.93 -43.15,93.82 -95.19,93.82l-43.83 0c-52.4,0 -95.2,-42.8 -95.2,-95.2l0 -113.54c-88.18,-0.14 -160.18,-72.24 -160.18,-160.43l0 -184.22 72.21 0 0 -72.96 -6.39 0 0 -77.78 57.69 0 0 77.78 -6.4 0 0 72.96 129.85 0 0 -72.96 -6.4 0 0 -77.78c19.24,0 38.47,0 57.7,0l0 77.78 -6.4 0 0 72.96 72.21 0 0 184.22c0,90.12 -73.06,160.43 -162.61,160.43l0 113.54c0,29.61 24.31,53.92 53.92,53.92l43.83 0c29.22,0 53.35,-23.68 53.91,-52.88zm-162.43 -418.65l-76.81 126.88c-4.07,6.56 -12.31,16.53 2.05,17.97l50.98 4.78 -15.19 96.58c-2.74,17.47 15.31,20.64 23.24,7.54l76.81 -126.87c4.07,-6.57 12.31,-16.54 -2.05,-17.98l-50.98 -4.78 15.19 -96.58c2.74,-17.47 -15.31,-20.64 -23.24,-7.54zm86.93 -170.68l-16.42 0 0 36.51 16.42 0 0 -36.51zm-174.75 0l-16.41 0 0 36.51 16.41 0 0 -36.51z"/></g></svg>
+                                <svg width="60px" className="mx-auto block" fill="#37cfee" viewBox="0 0 846.66 1058.325"><g><path class="fil0" d="M462.15 681.24l0 -43.35c0,-52.4 42.79,-95.19 95.2,-95.19l180.28 0 0 41.28 -180.28 0c-29.62,0 -53.92,24.3 -53.92,53.91 0,14.55 0.11,29.17 0,43.69 -0.96,51.93 -43.15,93.82 -95.19,93.82l-43.83 0c-52.4,0 -95.2,-42.8 -95.2,-95.2l0 -113.54c-88.18,-0.14 -160.18,-72.24 -160.18,-160.43l0 -184.22 72.21 0 0 -72.96 -6.39 0 0 -77.78 57.69 0 0 77.78 -6.4 0 0 72.96 129.85 0 0 -72.96 -6.4 0 0 -77.78c19.24,0 38.47,0 57.7,0l0 77.78 -6.4 0 0 72.96 72.21 0 0 184.22c0,90.12 -73.06,160.43 -162.61,160.43l0 113.54c0,29.61 24.31,53.92 53.92,53.92l43.83 0c29.22,0 53.35,-23.68 53.91,-52.88zm-162.43 -418.65l-76.81 126.88c-4.07,6.56 -12.31,16.53 2.05,17.97l50.98 4.78 -15.19 96.58c-2.74,17.47 15.31,20.64 23.24,7.54l76.81 -126.87c4.07,-6.57 12.31,-16.54 -2.05,-17.98l-50.98 -4.78 15.19 -96.58c2.74,-17.47 -15.31,-20.64 -23.24,-7.54zm86.93 -170.68l-16.42 0 0 36.51 16.42 0 0 -36.51zm-174.75 0l-16.41 0 0 36.51 16.41 0 0 -36.51z" /></g></svg>
                                 <h4>Promotion de vos compétences</h4>
                             </div>
                             <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
@@ -129,7 +129,7 @@ class SiteInternetElectricien extends Component {
                                 <h4>Optimisations pour le référencement naturel</h4>
                             </div>
                             <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                                <svg width="60px" className="mx-auto block" fill="#37cfee" viewBox="0 0 100 125"><path d="M22.27539,67.04688a1,1,0,0,0,0,2h9.3125v7.48535a2.41959,2.41959,0,0,0,2.417,2.4165H76.30762a2.41959,2.41959,0,0,0,2.417-2.4165V23.46777a2.41959,2.41959,0,0,0-2.417-2.4165H34.00488a2.41959,2.41959,0,0,0-2.417,2.4165v5.916h-9.3125a1,1,0,0,0,0,2h9.3125v7.41553h-9.3125a1,1,0,0,0,0,2h9.3125v7.416h-9.3125a1,1,0,0,0,0,2h9.3125v7.416h-9.3125a1,1,0,0,0,0,2h9.3125v7.41553Zm11.3125-7.41553h7.0708a1,1,0,0,0,0-2h-7.0708v-7.416h7.0708a1,1,0,0,0,0-2h-7.0708v-7.416h7.0708a1,1,0,0,0,0-2h-7.0708V31.38379h7.0708a1,1,0,0,0,0-2h-7.0708v-5.916a.4173.4173,0,0,1,.417-.4165H76.30762a.4173.4173,0,0,1,.417.4165V76.53223a.4173.4173,0,0,1-.417.4165H34.00488a.4173.4173,0,0,1-.417-.4165V69.04688h7.0708a1,1,0,0,0,0-2h-7.0708Z"/><path d="M62.19922,62.78125a4.94808,4.94808,0,0,0,6.99756,0l4.10059-4.1001a.99964.99964,0,0,0,0-1.41406l-5.72754-5.72754a1.02932,1.02932,0,0,0-1.41406,0l-3.07861,3.0791L52.98584,44.52734l3.07861-3.0791a.99964.99964,0,0,0,0-1.41406L50.3374,34.30713a1.02932,1.02932,0,0,0-1.41406,0l-4.1001,4.10059a4.94808,4.94808,0,0,0,0,6.99756ZM46.2373,39.82178l3.39307-3.39355,4.313,4.313-3.07861,3.0791a.99964.99964,0,0,0,0,1.41406L62.37012,56.73975a1.02932,1.02932,0,0,0,1.41406,0l3.07861-3.0791,4.31348,4.31348-3.39355,3.39307a3.02,3.02,0,0,1-4.16943,0l-17.376-17.376a2.94881,2.94881,0,0,1,0-4.16943Z"/></svg>
+                                <svg width="60px" className="mx-auto block" fill="#37cfee" viewBox="0 0 100 125"><path d="M22.27539,67.04688a1,1,0,0,0,0,2h9.3125v7.48535a2.41959,2.41959,0,0,0,2.417,2.4165H76.30762a2.41959,2.41959,0,0,0,2.417-2.4165V23.46777a2.41959,2.41959,0,0,0-2.417-2.4165H34.00488a2.41959,2.41959,0,0,0-2.417,2.4165v5.916h-9.3125a1,1,0,0,0,0,2h9.3125v7.41553h-9.3125a1,1,0,0,0,0,2h9.3125v7.416h-9.3125a1,1,0,0,0,0,2h9.3125v7.416h-9.3125a1,1,0,0,0,0,2h9.3125v7.41553Zm11.3125-7.41553h7.0708a1,1,0,0,0,0-2h-7.0708v-7.416h7.0708a1,1,0,0,0,0-2h-7.0708v-7.416h7.0708a1,1,0,0,0,0-2h-7.0708V31.38379h7.0708a1,1,0,0,0,0-2h-7.0708v-5.916a.4173.4173,0,0,1,.417-.4165H76.30762a.4173.4173,0,0,1,.417.4165V76.53223a.4173.4173,0,0,1-.417.4165H34.00488a.4173.4173,0,0,1-.417-.4165V69.04688h7.0708a1,1,0,0,0,0-2h-7.0708Z" /><path d="M62.19922,62.78125a4.94808,4.94808,0,0,0,6.99756,0l4.10059-4.1001a.99964.99964,0,0,0,0-1.41406l-5.72754-5.72754a1.02932,1.02932,0,0,0-1.41406,0l-3.07861,3.0791L52.98584,44.52734l3.07861-3.0791a.99964.99964,0,0,0,0-1.41406L50.3374,34.30713a1.02932,1.02932,0,0,0-1.41406,0l-4.1001,4.10059a4.94808,4.94808,0,0,0,0,6.99756ZM46.2373,39.82178l3.39307-3.39355,4.313,4.313-3.07861,3.0791a.99964.99964,0,0,0,0,1.41406L62.37012,56.73975a1.02932,1.02932,0,0,0,1.41406,0l3.07861-3.0791,4.31348,4.31348-3.39355,3.39307a3.02,3.02,0,0,1-4.16943,0l-17.376-17.376a2.94881,2.94881,0,0,1,0-4.16943Z" /></svg>
                                 <h4>Génération de contacts pertinents</h4>
                             </div>
                         </div>
@@ -178,7 +178,7 @@ class SiteInternetElectricien extends Component {
                 <section className="flex justify-center flex-col items-center">
                     <div className="w-full flex justify-center flex-col md:flex-row lg:w-3/4 mt-5">
                         <div className="w-full -mt-2 md:w-1/4 mx-auto px-2 mb-10 md:mb-0 century text-center">
-                            <svg width="50px" className="mx-auto block" viewBox="0 0 96 120" fill="#37cfee"><g><path d="M64.36,25.91a23.39,23.39,0,0,0-17.64-6.34,23.75,23.75,0,0,0-22,22.57,23.46,23.46,0,0,0,8.47,19.07,8.93,8.93,0,0,1,3.28,6.89V73a3.13,3.13,0,0,0,3.13,3.13H55.42A3.13,3.13,0,0,0,58.55,73V69a8.17,8.17,0,0,1,3.36-6.69,23.57,23.57,0,0,0,2.45-36.36ZM60.74,60.65A10.2,10.2,0,0,0,56.55,69V73a1.14,1.14,0,0,1-1.13,1.13H51.53V49.5L56,45a1,1,0,0,0-1.42-1.42l-4.77,4.77a1,1,0,0,0-.29.71V74.15H46.34V49.09a1,1,0,0,0-.3-.71l-4.77-4.77a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.48,4.47V74.15H39.56A1.14,1.14,0,0,1,38.43,73V68.1a11,11,0,0,0-4-8.43,21.49,21.49,0,0,1-7.76-17.45A21.75,21.75,0,0,1,46.85,21.56c.46,0,.93,0,1.39,0A21.57,21.57,0,0,1,69.79,43.09,21.62,21.62,0,0,1,60.74,60.65Z"/><path d="M56.6,77.46H38.78A1.74,1.74,0,0,0,37,79.2v7.94a5.65,5.65,0,0,0,5.64,5.64h10a5.65,5.65,0,0,0,5.64-5.64V79.2A1.74,1.74,0,0,0,56.6,77.46Zm-.25,2V83.6H39V79.46ZM52.71,90.78h-10A3.65,3.65,0,0,1,39,87.14V85.6H56.35v1.54A3.65,3.65,0,0,1,52.71,90.78Z"/><path d="M40.45,28.15c-5,2.47-8.41,8.21-8.72,14.63a1,1,0,0,0,.95,1h0a1,1,0,0,0,1-.95C34.07,35.94,38,31.58,41.33,30a1,1,0,1,0-.88-1.8Z"/><path d="M48.06,15.34a1,1,0,0,0,1-1V4.2a1,1,0,0,0-2,0V14.34A1,1,0,0,0,48.06,15.34Z"/><path d="M17.83,42.38a1,1,0,0,0-1-1H6.7a1,1,0,0,0,0,2H16.83A1,1,0,0,0,17.83,42.38Z"/><path d="M89.45,41.42H79.31a1,1,0,0,0,0,2H89.45a1,1,0,0,0,0-2Z"/><path d="M22.56,18.35A1,1,0,1,0,24,16.94L16.81,9.77a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41Z"/><path d="M73.84,66.78a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l7.17,7.17A1,1,0,0,0,81,74Z"/><path d="M73.29,18.78l7.17-7.17a1,1,0,0,0-1.41-1.41l-7.17,7.17a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0Z"/><path d="M22.61,66.68l-7.17,7.17a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L24,68.1a1,1,0,0,0-1.41-1.42Z"/></g></svg>
+                            <svg width="50px" className="mx-auto block" viewBox="0 0 96 120" fill="#37cfee"><g><path d="M64.36,25.91a23.39,23.39,0,0,0-17.64-6.34,23.75,23.75,0,0,0-22,22.57,23.46,23.46,0,0,0,8.47,19.07,8.93,8.93,0,0,1,3.28,6.89V73a3.13,3.13,0,0,0,3.13,3.13H55.42A3.13,3.13,0,0,0,58.55,73V69a8.17,8.17,0,0,1,3.36-6.69,23.57,23.57,0,0,0,2.45-36.36ZM60.74,60.65A10.2,10.2,0,0,0,56.55,69V73a1.14,1.14,0,0,1-1.13,1.13H51.53V49.5L56,45a1,1,0,0,0-1.42-1.42l-4.77,4.77a1,1,0,0,0-.29.71V74.15H46.34V49.09a1,1,0,0,0-.3-.71l-4.77-4.77a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.48,4.47V74.15H39.56A1.14,1.14,0,0,1,38.43,73V68.1a11,11,0,0,0-4-8.43,21.49,21.49,0,0,1-7.76-17.45A21.75,21.75,0,0,1,46.85,21.56c.46,0,.93,0,1.39,0A21.57,21.57,0,0,1,69.79,43.09,21.62,21.62,0,0,1,60.74,60.65Z" /><path d="M56.6,77.46H38.78A1.74,1.74,0,0,0,37,79.2v7.94a5.65,5.65,0,0,0,5.64,5.64h10a5.65,5.65,0,0,0,5.64-5.64V79.2A1.74,1.74,0,0,0,56.6,77.46Zm-.25,2V83.6H39V79.46ZM52.71,90.78h-10A3.65,3.65,0,0,1,39,87.14V85.6H56.35v1.54A3.65,3.65,0,0,1,52.71,90.78Z" /><path d="M40.45,28.15c-5,2.47-8.41,8.21-8.72,14.63a1,1,0,0,0,.95,1h0a1,1,0,0,0,1-.95C34.07,35.94,38,31.58,41.33,30a1,1,0,1,0-.88-1.8Z" /><path d="M48.06,15.34a1,1,0,0,0,1-1V4.2a1,1,0,0,0-2,0V14.34A1,1,0,0,0,48.06,15.34Z" /><path d="M17.83,42.38a1,1,0,0,0-1-1H6.7a1,1,0,0,0,0,2H16.83A1,1,0,0,0,17.83,42.38Z" /><path d="M89.45,41.42H79.31a1,1,0,0,0,0,2H89.45a1,1,0,0,0,0-2Z" /><path d="M22.56,18.35A1,1,0,1,0,24,16.94L16.81,9.77a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41Z" /><path d="M73.84,66.78a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l7.17,7.17A1,1,0,0,0,81,74Z" /><path d="M73.29,18.78l7.17-7.17a1,1,0,0,0-1.41-1.41l-7.17,7.17a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0Z" /><path d="M22.61,66.68l-7.17,7.17a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L24,68.1a1,1,0,0,0-1.41-1.42Z" /></g></svg>
                             <h4 className="font-bold century"><span className="font-bold">Présentation de vos prestations</span></h4>
                             <p>Nous mettons en avant les spécificités de vos prestations d'<strong className="font-normal">électricité générale</strong> au sein de <strong className="font-normal">pages web</strong> dédiées.</p>
                         </div>
@@ -188,7 +188,7 @@ class SiteInternetElectricien extends Component {
                             <p>Nous garantissons la mise en place de <strong className="font-normal">certificat sécurisé</strong> pour une navigation en toute confiance.</p>
                         </div>
                         <div className="w-full md:w-1/4 mx-auto px-2 mb-10 md:mb-0 century text-center">
-                            <svg width="50px" fill="#37cfee" className="mx-auto block" viewBox="0 0 100 125"><g><g><g><g><path d="M84.5,78.07h-69c-1.104,0-2-0.896-2-2V23.93c0-1.104,0.896-2,2-2h69c1.104,0,2,0.896,2,2V76.07      C86.5,77.175,85.604,78.07,84.5,78.07z M17.5,74.07h65V25.93h-65V74.07z"/></g></g><g><g><path d="M50,59.07c-0.499,0-0.998-0.187-1.386-0.558l-34.5-33.141c-0.589-0.565-0.774-1.432-0.47-2.188      c0.305-0.758,1.039-1.254,1.855-1.254h69c0.816,0,1.551,0.496,1.855,1.254c0.305,0.757,0.119,1.623-0.47,2.188l-34.5,33.141      C50.998,58.884,50.499,59.07,50,59.07z M20.469,25.93L50,54.297L79.531,25.93H20.469z"/></g></g></g></g></svg>
+                            <svg width="50px" fill="#37cfee" className="mx-auto block" viewBox="0 0 100 125"><g><g><g><g><path d="M84.5,78.07h-69c-1.104,0-2-0.896-2-2V23.93c0-1.104,0.896-2,2-2h69c1.104,0,2,0.896,2,2V76.07      C86.5,77.175,85.604,78.07,84.5,78.07z M17.5,74.07h65V25.93h-65V74.07z" /></g></g><g><g><path d="M50,59.07c-0.499,0-0.998-0.187-1.386-0.558l-34.5-33.141c-0.589-0.565-0.774-1.432-0.47-2.188      c0.305-0.758,1.039-1.254,1.855-1.254h69c0.816,0,1.551,0.496,1.855,1.254c0.305,0.757,0.119,1.623-0.47,2.188l-34.5,33.141      C50.998,58.884,50.499,59.07,50,59.07z M20.469,25.93L50,54.297L79.531,25.93H20.469z" /></g></g></g></g></svg>
                             <h4 className="font-bold century"><span className="font-bold">Optimisation des conversions</span></h4>
                             <p>Nous vous donnons accès à une <strong className="font-normal">plateforme web</strong> optimisée pour <strong className="font-normal">générer des contacts</strong> pertinents pour vous.</p>
                         </div>
@@ -290,7 +290,7 @@ class SiteInternetElectricien extends Component {
                     <hr className="blue"></hr>
                 </section>
                 <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center century text-center mt-3 px-6 mb-12">
-                <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
+                    <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
                         <img
                             src={stars}
                             alt="Création site internet Agen"
@@ -308,9 +308,9 @@ class SiteInternetElectricien extends Component {
                         />
                         <div className="text-lg century my-2">Dix doigts deux pieds</div>
                         <div className="italic">« Equipe sérieuse.
-                            Partenaire à l'écoute, réactif et de bon conseil.
-                            Travail satisfaisant et un bon suivi du site chaque mois 
-                            Je recommande !!! »
+                        Partenaire à l'écoute, réactif et de bon conseil.
+                        Travail satisfaisant et un bon suivi du site chaque mois
+                        Je recommande !!! »
                             </div>
                     </div>
                     <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up" data-aos-delay="500"*/>
@@ -371,7 +371,7 @@ class SiteInternetElectricien extends Component {
 
                                 <br /><br />
                                 Plus encore le <strong>site internet</strong> permet de travailler son <strong className="font-bold">image de marque</strong> tout en étendant sa <strong className="font-bold">notoriété sur le Web</strong>. Il est important de soigner le <strong>contenu de ses pages</strong> en exposant le maximum d’<strong className="font-bold">informations utiles pour les utilisateurs</strong>.
-                                <br/><br/>
+                                <br /><br />
                                 En effet, la <strong className="font-bold">création de contenus de qualité</strong> et qui répondent aux <strong className="font-bold">attentes des internautes</strong> est indispensable pour se démarquer et ainsi <strong className="font-bold">attirer de nouveaux clients</strong>.
                                 </p>
                             </div>
@@ -379,7 +379,7 @@ class SiteInternetElectricien extends Component {
                                 <p>Un <strong>site internet performant</strong> est un <strong className="font-bold">site internet visible</strong>. En effet, la <strong>création d’un site internet professionnel</strong> nécessite la mise en place d’une <strong className="font-bold">stratégie de visibilité</strong> adaptée. C’est pourquoi, nous déterminons une <strong>stratégie de référencement naturel</strong> orientée pour <strong className="font-bold">générer du trafic</strong> et <strong className="font-bold">attirer de potentiels clients</strong>.
                             <br /><br />
                                     Par ailleurs, nous proposons des <strong>stratégies de référencement sur-mesure</strong> pour coller au mieux à vos besoins et vous permettre d’<strong>obtenir des premiers résultats</strong> à court ou moyen terme.
-                            <br/><br/>
+                            <br /><br />
                                     C’est pourquoi, nous mettons tout en oeuvre pour vous donner accès à une stratégie évolutive et adaptée en fonction de vos <strong>cibles</strong>. De la mise en place d’un <strong>code HTML</strong> valide vis-à-vis des <strong className="font-bold">standards du web</strong>, à la <strong className="font-bold">rédaction web optimisée pour des mots-clés finement sélectionnés</strong>, notre travail a pour vocation de vous apporter des performances maximales.
                                 </p>
                             </div>
@@ -387,7 +387,7 @@ class SiteInternetElectricien extends Component {
                                 <p>Outre la mise en place d’une <strong>stratégie de référencement naturel</strong>, la <strong>création d’un site web</strong> doit être réalisée selon certains procédés pour <strong className="font-bold">générer des performances</strong> intéressantes. En effet, le <strong>site web</strong> s’adresse avant tout à des utilisateurs humains, il doit donc être conçu pour eux en priorité.
                                 <br /><br />
                                 À ce niveau, la mise en place d’un <strong>site web professionnel</strong> doit résulter d’un travail autour de la <strong className="font-bold">création d’une interface intuitive</strong> et d’une <strong className="font-bold">expérience utilisateur</strong> soignée. Ceci est indispensable pour amener les utilisateurs où vous souhaitez qu’ils aillent.
-                                <br/><br/>
+                                <br /><br />
                                 De plus, un <strong>site web</strong> dont la <strong>navigation</strong> sera facilitée est un <strong>site web</strong> susceptible d’<strong className="font-bold">obtenir des contacts</strong> et donc de vous permettre d'<strong className="font-bold">atteindre vos objectifs</strong>.
                             </p>
                             </div>
@@ -444,7 +444,7 @@ class SiteInternetElectricien extends Component {
 
 export const query = graphql`
 query lastsThreePostsSiteInternetElectricien {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -453,8 +453,10 @@ query lastsThreePostsSiteInternetElectricien {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            node {
+                sourceUrl
+            }
           }
         }
       }

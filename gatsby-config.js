@@ -10,6 +10,8 @@ module.exports = {
      * Gatsby's data processing layer begins with “source”
      * plugins. Here the site sources its data from Wordpress.
      */
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: "gatsby-source-wordpress",
       options: {
@@ -17,7 +19,7 @@ module.exports = {
          * The base URL of the Wordpress site without the trailingslash and the protocol. This is required.
          * Example : 'gatsbyjsexamplewordpress.wordpress.com' or 'www.example-site.com'
          */
-        baseUrl: "api.linkweb.fr",
+        url: "https://api.linkweb.fr/graphql/",
         // The protocol. This can be http or https.
         protocol: "https",
         // Indicates whether the site is hosted on wordpress.com.
@@ -38,29 +40,13 @@ module.exports = {
         // options page using the provided `acf_add_options_page` method, in your WordPress setup
         // Dashes in IDs will be converted to underscores for use in GraphQL
         acfOptionPageIds: [],
-        auth: {
-          // If auth.user and auth.pass are filled, then the source plugin will be allowed
-          // to access endpoints that are protected with .htaccess.
-          //htaccess_user: "your-htaccess-username",
-          //htaccess_pass: "your-htaccess-password",
-          //htaccess_sendImmediately: false,
-
-
-
-          // If you use "JWT Authentication for WP REST API" (https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/)
-          // or (https://github.com/jonathan-dejong/simple-jwt-authentication) requires jwt_base_path, path can be found in wordpress wp-api.
-          // plugin, you can specify user and password to obtain access token and use authenticated requests against wordpress REST API.
-          jwt_user: process.env.JWT_USER,
-          jwt_pass: process.env.JWT_PASSWORD,
-          jwt_base_path: "/jwt-auth/v1/token", // Default - can skip if you are using https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/
-        },
         // Set cookies that should be send with requests to wordpress as key value pairs
         cookies: {},
         // Set verboseOutput to true to display a verbose output on `npm run develop` or `npm run build`
         // It can help you debug specific API Endpoints problems.
         verboseOutput: false,
         // Set how many pages are retrieved per API request.
-        perPage: 100,
+        perPage: 200,
         // Search and Replace Urls across WordPress content.
         // searchAndReplaceContentUrls: {
         //   sourceUrl: "https://api.linkweb.fr",
@@ -187,7 +173,7 @@ module.exports = {
       //   // The example below will exclude the single `path/to/page` and all routes beginning with `category`
       //   query: `
       //   {
-      //     post: allWordpressPost {
+      //     post: allWpPost {
       //       nodes {
       //         path
       //         slug

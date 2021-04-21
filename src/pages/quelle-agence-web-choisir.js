@@ -64,7 +64,7 @@ class QuelleAgenceWebChoisir extends Component {
                         <br />
                         <h2 className="flex mb-16 full lg:w-3/5 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Agence spécialisée dans la création et le référencement web. Mise en place d’une solution fonctionnelle sur-mesure, en marketing et en communication digitale.</h2>
                         {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
-                        
+
                     </div>
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
@@ -74,152 +74,152 @@ class QuelleAgenceWebChoisir extends Component {
                         <p className="px-8 lg:px-16 text-white text-center century text-md">Vous êtes un prestataire désirant établir une stratégie de communication web pour faire connaître votre entreprise ? Nous mettons nos compétences au service de votre projet.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
-                        <button
-                            className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
-                            type="button"
-                            onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href='/contact-agence-web-toulouse/';
-                            }}
-                        >Demander un devis</button>
+                            <button
+                                className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                                type="button"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = '/contact-agence-web-toulouse/';
+                                }}
+                            >Demander un devis</button>
                             {/* <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" color="darkgrey" text="Je demande un devis" /> */}
                         </div>
                     </div>
                 </section>
                 <section className="w-full lg:w-3/5 px-10 mt-16 lg:-mt-48 mb-16 lg:mb-48">
-                    <br/>
+                    <br />
                     <h3 className="century text-xl text-center">
-                    Pour débuter sur le web, il est indispensable de se tourner vers les bons partenaires. Bien s’entourer lors du lancement de son projet de site web garantit la pérennité de votre démarche et des retombées pertinentes.
+                        Pour débuter sur le web, il est indispensable de se tourner vers les bons partenaires. Bien s’entourer lors du lancement de son projet de site web garantit la pérennité de votre démarche et des retombées pertinentes.
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Quels sont les différents types d’agences web ?</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Les services proposés par les agences (ou freelance) dépendent de leur domaine de spécialisation. Les stratégies web proposées sont adaptées selon vos objectifs grâce à une expertise spécifique dans le domaine. Dans le cadre de votre recherche de prestataire digital, il vous faut veiller à choisir parmi les agences web, celle qui sera la plus disposée à répondre à votre cahier des charges et qui satisfera vos attentes. </h3>
-                        </div>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Quels sont les différents types d’agences web ?</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Les services proposés par les agences (ou freelance) dépendent de leur domaine de spécialisation. Les stratégies web proposées sont adaptées selon vos objectifs grâce à une expertise spécifique dans le domaine. Dans le cadre de votre recherche de prestataire digital, il vous faut veiller à choisir parmi les agences web, celle qui sera la plus disposée à répondre à votre cahier des charges et qui satisfera vos attentes. </h3>
+                    </div>
                 </section>
                 <section className="w-full my-10 flex flex-col lg:flex-row">
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + siteinternet + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Agence spécialisée dans le</span><br /><span className="font-bold text-5xl md:text-6xl">DIGITAL</span></h3>
-                        <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">Les <strong className="font-normal">agences digitales</strong> proposent un savoir-faire en matière de <strong className="font-normal">marketing</strong> pour communiquer via les <strong className="font-normal">réseaux sociaux</strong>, les newsletters ou via les campagnes de SMS, par exemple. Ce type d’<strong className="font-normal">agence spécialisée</strong> offre des solutions concernant les problématiques du <strong className="font-normal">Web</strong> et il peut être utile de lui faire appel pour dynamiser son <strong className="font-normal">marketing digital</strong>. 
-                            <br/><br/>En effet, il est possible de faire appel à ce type d'agence pour la mise en place de <strong className="font-normal">newsletter (campagne de mailing)</strong> ou pour mobiliser ses <strong className="font-normal">réseaux sociaux comme Twitter ou Facebook</strong> (live vidéo sur Facebook ou accompagnement digitalisé d'événements) pour développer l'activité en ligne du <strong className="font-normal">client</strong>. De la même façon, la promotion d'<strong className="font-normal">actions de communication sur le Web</strong> peut passer par des campagnes marketing sur-mesure comme par la création d’une <strong className="font-normal">application mobile</strong>. 
-                            <br/><br/>Ce type d’agence se charge de toute la communication qui gravite autour d’un <strong className="font-normal">projet digital</strong>.</p>
+                        <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">Les <strong className="font-normal">agences digitales</strong> proposent un savoir-faire en matière de <strong className="font-normal">marketing</strong> pour communiquer via les <strong className="font-normal">réseaux sociaux</strong>, les newsletters ou via les campagnes de SMS, par exemple. Ce type d’<strong className="font-normal">agence spécialisée</strong> offre des solutions concernant les problématiques du <strong className="font-normal">Web</strong> et il peut être utile de lui faire appel pour dynamiser son <strong className="font-normal">marketing digital</strong>.
+                            <br /><br />En effet, il est possible de faire appel à ce type d'agence pour la mise en place de <strong className="font-normal">newsletter (campagne de mailing)</strong> ou pour mobiliser ses <strong className="font-normal">réseaux sociaux comme Twitter ou Facebook</strong> (live vidéo sur Facebook ou accompagnement digitalisé d'événements) pour développer l'activité en ligne du <strong className="font-normal">client</strong>. De la même façon, la promotion d'<strong className="font-normal">actions de communication sur le Web</strong> peut passer par des campagnes marketing sur-mesure comme par la création d’une <strong className="font-normal">application mobile</strong>.
+                            <br /><br />Ce type d’agence se charge de toute la communication qui gravite autour d’un <strong className="font-normal">projet digital</strong>.</p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + referencement + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Agence de développement de </span><br /><span className="font-bold text-6xl">SITES WEB</span></h3>
-                        <p className="text century text-lg lg:text-sm xl:text-lg">Linkweb fait partie des <strong className="font-normal"><Link to="/agence-web-cahors/" className="text-bleu hover:text-black font-bold">agences spécialisées</Link></strong> dans la définition et l’accompagnement de <strong className="font-normal">projets web sur-mesure</strong>. En effet, les prestations proposées sont garantes de qualité sur le plan de la réalisation (travail du <strong className="font-normal"><Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black">webdesign</Link></strong>, mobilisation de <strong className="font-normal">CMS</strong>, création de <strong className="font-normal">liens externes</strong>, optimisation interne <strong className="font-normal">SEO</strong>) et du suivi. Les consultants des <strong className="font-normal">agences de développement de sites internet</strong> possèdent une grande marge de manœuvre pour leurs interventions en fonction des <strong className="font-normal">types de sites</strong>. 
-                        <br/><br/>Ils adaptent les technologies utilisées en fonction du <strong className="font-normal">projet web</strong> qui leur est confié. En effet, ce type d'agence vous accompagne du choix de la réalisation au <strong className="font-normal">référencement naturel SEO du site</strong> en passant par un suivi régulier pour toujours produire une <strong className="font-normal">solution web</strong> adaptée à son client.
+                        <p className="text century text-lg lg:text-sm xl:text-lg">Linkweb fait partie des <strong className="font-normal"><Link to="/agence-web-cahors/" className="text-bleu hover:text-black font-bold">agences spécialisées</Link></strong> dans la définition et l’accompagnement de <strong className="font-normal">projets web sur-mesure</strong>. En effet, les prestations proposées sont garantes de qualité sur le plan de la réalisation (travail du <strong className="font-normal"><Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black">webdesign</Link></strong>, mobilisation de <strong className="font-normal">CMS</strong>, création de <strong className="font-normal">liens externes</strong>, optimisation interne <strong className="font-normal">SEO</strong>) et du suivi. Les consultants des <strong className="font-normal">agences de développement de sites internet</strong> possèdent une grande marge de manœuvre pour leurs interventions en fonction des <strong className="font-normal">types de sites</strong>.
+                        <br /><br />Ils adaptent les technologies utilisées en fonction du <strong className="font-normal">projet web</strong> qui leur est confié. En effet, ce type d'agence vous accompagne du choix de la réalisation au <strong className="font-normal">référencement naturel SEO du site</strong> en passant par un suivi régulier pour toujours produire une <strong className="font-normal">solution web</strong> adaptée à son client.
                         </p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + webdesign + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Agence de communication </span><br /><span className="font-bold text-6xl">GLOBALE</span></h3>
-                        <p className="text century text-lg lg:text-sm xl:text-lg">Souvent appelées « <strong className="font-normal">agences de communication 360°</strong> », elles proposent de nombreux services différents en termes de <strong className="font-normal">communication en ligne</strong> : ses services vont du webmarketing à l'événementiel en passant par le graphisme. 
+                        <p className="text century text-lg lg:text-sm xl:text-lg">Souvent appelées « <strong className="font-normal">agences de communication 360°</strong> », elles proposent de nombreux services différents en termes de <strong className="font-normal">communication en ligne</strong> : ses services vont du webmarketing à l'événementiel en passant par le graphisme.
                         Ces <strong className="font-normal">agences</strong> sont pluridisciplinaires, elles basent leurs interventions sur la communication globale autour des projets de leurs <strong className="font-normal">clients</strong>.
-                        <br/><br/>Enfin, elles proposent des services permettant à une entreprise de se positionner de manière pertinente en termes de <strong className="font-normal">communication</strong> et en fonction des objectifs définis (mobilisation des canaux de <strong className="font-normal">communication web</strong>). Cependant, les <strong className="font-normal">agences de communication</strong> ne fournissent pas forcément de solutions spécifiques à des problématiques particulières tel que cela pourrait l'être avec le <strong className="font-normal">digital</strong>.</p>
+                        <br /><br />Enfin, elles proposent des services permettant à une entreprise de se positionner de manière pertinente en termes de <strong className="font-normal">communication</strong> et en fonction des objectifs définis (mobilisation des canaux de <strong className="font-normal">communication web</strong>). Cependant, les <strong className="font-normal">agences de communication</strong> ne fournissent pas forcément de solutions spécifiques à des problématiques particulières tel que cela pourrait l'être avec le <strong className="font-normal">digital</strong>.</p>
                     </div>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Quelle agence web choisir dans le cadre des problématiques du Web ?</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Notre agence web met un point d’honneur à vous apporter des solutions conçues spécialement pour vous. Notre savoir-faire et nos compétences nous permettent de vous fournir une prestation complète et de qualité répondant efficacement à votre cahier des charges. </h3>
-                        </div>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Quelle agence web choisir dans le cadre des problématiques du Web ?</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Notre agence web met un point d’honneur à vous apporter des solutions conçues spécialement pour vous. Notre savoir-faire et nos compétences nous permettent de vous fournir une prestation complète et de qualité répondant efficacement à votre cahier des charges. </h3>
+                    </div>
                 </section>
                 <section className="phototext mb-24">
                     <section className="w-full  my-10 flex flex-col lg:flex-row items-center justify-start">
-                <div className="w-full flex justify-center items-center lg:w-5/12">
-                    <img className="w-full" src={mac} alt="Comment choisir son agence de communication web"/>
-                </div>
-                <div className="w-full lg:w-1/2 my-10  flex flex-col">
-                    <div className="w-full flex-col md:flex-row flex px-auto">
-                        <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
-                            <p className="text-center">1</p>
+                        <div className="w-full flex justify-center items-center lg:w-5/12">
+                            <img className="w-full" src={mac} alt="Comment choisir son agence de communication web" />
                         </div>
-                        <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
-                                <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>CONCEPTION DE SITES INTERNET SUR-MESURE
+                        <div className="w-full lg:w-1/2 my-10  flex flex-col">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
+                                    <p className="text-center">1</p>
+                                </div>
+                                <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
+                                    <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
+                                        <span className="text-bleu">/</span>CONCEPTION DE SITES INTERNET SUR-MESURE
                                 </h3>
-                                <br/>
-                                <h4 className="century"><span className="font-bold">Notre équipe de développeurs produit une navigation accessible et simplifiée sur votre site. Notre agence définit un design de plateforme pour rendre votre site internet intuitif et accessibles pour vos visiteurs.</span></h4>
-                                <br/>
-                                <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Grâce à nos compétences en <strong className="font-normal">UI et UX design</strong>, nous garantissons l'ergonomie et la fluidité de navigation pour votre <strong className="font-normal">projet web</strong> afin de produire une accessibilité conforme en direction des <strong className="font-normal">moteurs de recherche comme Google</strong>, des navigateurs mais aussi des utilisateurs. Pour sécuriser la navigation sur <strong className="font-normal">votre site en ligne</strong>, nous respectons les conformités RGPD et la sécurisation HTTPS. </p>
-                                </p>
-                                {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
-                        </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">2</p>
+                                    <br />
+                                    <h4 className="century"><span className="font-bold">Notre équipe de développeurs produit une navigation accessible et simplifiée sur votre site. Notre agence définit un design de plateforme pour rendre votre site internet intuitif et accessibles pour vos visiteurs.</span></h4>
+                                    <br />
+                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Grâce à nos compétences en <strong className="font-normal">UI et UX design</strong>, nous garantissons l'ergonomie et la fluidité de navigation pour votre <strong className="font-normal">projet web</strong> afin de produire une accessibilité conforme en direction des <strong className="font-normal">moteurs de recherche comme Google</strong>, des navigateurs mais aussi des utilisateurs. Pour sécuriser la navigation sur <strong className="font-normal">votre site en ligne</strong>, nous respectons les conformités RGPD et la sécurisation HTTPS. </p>
+                                    </p>
+                                    {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">2</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>DÉFINITION D'UNE STRATÉGIE DE VISIBILITÉ SUR-MESURE
                                     </h3>
-                                    <br/>
+                                    <br />
                                     <h4 className="century"><span className="font-bold">En contactant l’équipe de Linkweb pour la réalisation de votre projet, il faut savoir qu'il est essentiel de travailler ensemble pour comprendre et préciser vos besoins.</span></h4>
-                                    <br/>
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal">agence</strong> prend en compte chacune de vos demandes, étudie la concurrence et vous suggère un <strong className="font-normal">plan d’actions SEO et/ou SEA</strong> selon vos <strong className="font-normal">objectifs</strong>, vos cibles et les moyens à investir dans la stratégie. 
+                                    <br />
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal">agence</strong> prend en compte chacune de vos demandes, étudie la concurrence et vous suggère un <strong className="font-normal">plan d’actions SEO et/ou SEA</strong> selon vos <strong className="font-normal">objectifs</strong>, vos cibles et les moyens à investir dans la stratégie.
                                         Grâce à notre expertise et nos compétences dans le domaine, nous faisons tout pour vous apporter la <strong className="font-normal">visibilité</strong> que vous méritez.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">3</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">3</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>ACCOMPAGNEMENT DANS LA PRISE DE DÉCISION
                                     </h3>
-                                    <br/>
+                                    <br />
                                     <h4 className="century"><span className="font-bold">Pour répondre à votre recherche de visibilité et dynamiser votre activité, notre entreprise spécialisée déploie toute son expertise dans le webmarketing.</span></h4>
-                                    <br/>
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal">équipe de consultants</strong> utilise des <strong className="font-normal">outils professionnels</strong> (CMS, suivi de positionnement, audit SEO, outil d'analyse de mots-clés, etc.) performants pour vous guider vers la décision la plus appropriée en fonction de vos attentes. 
+                                    <br />
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal">équipe de consultants</strong> utilise des <strong className="font-normal">outils professionnels</strong> (CMS, suivi de positionnement, audit SEO, outil d'analyse de mots-clés, etc.) performants pour vous guider vers la décision la plus appropriée en fonction de vos attentes.
                                         Nous vous fournissons toutes les clés pour faire évoluer constamment vos <strong className="font-normal">projets en ligne</strong> et vous accompagner régulièrement dans le domaine du <strong className="font-normal">digital</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">4</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">4</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>SUIVI ET GESTION DE PROJET
                                     </h3>
                                     <h4 className="century"><span className="font-bold">En faisant le choix de collaborer avec notre agence pour vos projets, vous misez sur un développement régulier de votre activité web.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Grâce au suivi effectué, nos <strong className="font-normal">clients</strong> sont informés de l’activité et des résultats du <strong className="font-normal">référencement naturel de leur site</strong> par nos consultants qualifiés.
                                         Faire appel à notre <strong className="font-normal">agence</strong>, c’est choisir une expertise et des stratégies évolutives viables pour <strong className="font-normal">votre site internet</strong>. Nous travaillons à répondre ensemble à votre cahier des charges performants tout en améliorant votre <strong className="font-normal">positionnement dans les résultats de Google</strong> (utilisation de CMS, contenus éditoriaux, design, budget, etc.).</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
                         </div>
+                    </section>
+                </section>
+                <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Quelles sont les différences entre les différents types d'agence web ?</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Le fonctionnement des agences web offre la possibilité de mettre en place un travail d’équipe permettant une polyvalence dans leurs prestations, à la différence d'une prestation en freelance. Ces entreprises font appel à des techniques spécifiques et des procédés variés, ce qui explique la différence entre les prestations proposées.</h3>
                     </div>
-            </section>
-            </section>
-            <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Quelles sont les différences entre les différents types d'agence web ?</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Le fonctionnement des agences web offre la possibilité de mettre en place un travail d’équipe permettant une polyvalence dans leurs prestations, à la différence d'une prestation en freelance. Ces entreprises font appel à des techniques spécifiques et des procédés variés, ce qui explique la différence entre les prestations proposées.</h3>
-                        </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-24">
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                             <div className="w-full" label="DES PRESTATIONS DIFFÉRENTES PROPOSÉES">
                                 <p>Dans la présentation des différents services que l'<Link to="/agence-web-marmande" className="text-bleu hover:text-black font-bold">agence</Link> peut vous proposer, il faut savoir que la formulation des engagements ainsi que les tarifs avancés ont une importance toute particulière. Certaines propositions peuvent sembler similaires d’une agence à l’autre, mais ne sont pas exécutés de la même façon et le budget à prévoir diffère, de la même façon que le résultat attendu. Cela dépend principalement des <strong className="font-normal">moyens engagés dans la stratégie</strong>.
-                                    <br/><br/>
-                                    Linkweb est une <strong className="font-normal">agence</strong> qui veille à fournir de la <strong className="font-normal">visibilité</strong> et une parfaite transparence quant à la <strong className="font-normal">qualité du contenu</strong> et de la rigueur dans sa <strong className="font-normal"><Link to="/comment-notre-agence-de-conception-de-site-internet-realise-votre-projet/" className="font-bold text-bleu hover:text-black">conception de site</Link></strong>. 
+                                    <br /><br />
+                                    Linkweb est une <strong className="font-normal">agence</strong> qui veille à fournir de la <strong className="font-normal">visibilité</strong> et une parfaite transparence quant à la <strong className="font-normal">qualité du contenu</strong> et de la rigueur dans sa <strong className="font-normal"><Link to="/comment-notre-agence-de-conception-de-site-internet-realise-votre-projet/" className="font-bold text-bleu hover:text-black">conception de site</Link></strong>.
                                 </p>
-                            </div>  
+                            </div>
                             <div label="DU SUIVI DE PROJET DE L'ENTREPRISE">
                                 <p>Une entreprise <strong className="font-normal">Web</strong> doit faire preuve de pédagogie et afficher une méthode claire pour rendre son domaine de compétence accessible à ses <strong className="font-normal">clients</strong>.
                                     Il existe plusieurs méthodes pour une offrir un <strong className="font-normal">suivi régulier et constructif</strong>. Les techniques diffèrent, mais toujours avec transparence et clarté.
@@ -277,7 +277,7 @@ class QuelleAgenceWebChoisir extends Component {
 
 export const query = graphql`
 query lastsThreePostsQuelleAgenceWebChoisir {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -286,8 +286,10 @@ query lastsThreePostsQuelleAgenceWebChoisir {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            node {
+                sourceUrl
+            }
           }
         }
       }

@@ -439,7 +439,7 @@ class CreationSitePisciniste extends Component {
 
 export const query = graphql`
 query lastsThreePostsCreationSitePisciniste {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -448,7 +448,7 @@ query lastsThreePostsCreationSitePisciniste {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
+          featuredImage {
             source_url
           }
         }

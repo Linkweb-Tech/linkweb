@@ -51,7 +51,7 @@ class AgenceDigitaleToulouse extends Component {
                 <SEO
                     title="Agence Web Toulouse - Projets digitaux sur-mesure - Linkweb"
                     description="L'agence digitale Linkweb développe votre visibilité web à Toulouse (31) : création de site internet, référencement naturel et Ads."
-                    keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
+                    keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
                     url="https://linkweb.fr/agence-digitale-toulouse/"
                     nom="Agence Web"
                     slug="agence-digitale-toulouse/"
@@ -75,53 +75,53 @@ class AgenceDigitaleToulouse extends Component {
                     }}
                     transitionTime={200}
                 > */}
-                <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background:'#000000ad url('+ Bg +')', backgroundBlendMode:'overlay', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center top'}}>
-            <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
-                <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
-                    <div className="w-full  text-3xl text-center font-bold text-white century">4.6/5</div>
-                        <p className="w-full  text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
-                        <div className="w-full -mt-8">
-                            <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
-                                <path fill="#FFFFFF" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                                <path fill="#FFFFFF" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                                <path fill="#FFFFFF" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                                <path fill="#FFFFFF" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                                <path fill="#FFFFFF" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z   M89.8,54.7c0.1-0.1,0.4,0,0.4,0l4.2,2.2l-0.8-4.7c0-0.2,0-0.3,0.1-0.4l3.4-3.3l-4.7-0.7c-0.2,0-0.3-0.1-0.4-0.3l-2.1-4.3L89.8,54.7  z"/>
-                            </svg>                    
+                <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + Bg + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center top' }}>
+                    <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
+                        <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
+                            <div className="w-full  text-3xl text-center font-bold text-white century">4.6/5</div>
+                            <p className="w-full  text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
+                            <div className="w-full -mt-8">
+                                <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
+                                    <path fill="#FFFFFF" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                    <path fill="#FFFFFF" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                    <path fill="#FFFFFF" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                    <path fill="#FFFFFF" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                    <path fill="#FFFFFF" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z   M89.8,54.7c0.1-0.1,0.4,0,0.4,0l4.2,2.2l-0.8-4.7c0-0.2,0-0.3,0.1-0.4l3.4-3.3l-4.7-0.7c-0.2,0-0.3-0.1-0.4-0.3l-2.1-4.3L89.8,54.7  z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-full flex justify-center lg:justify-center">
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Web Toulouse</h1>
+                        </div>
+                        <br />
+                        <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Refonte, création et référencement de site internet à Toulouse et Agen.</h2>
+                        {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
+                        <div className="w-full lg:w-full flex flex-col lg:flex-row justify-center pb-24 lg:justify-center mx-auto" style={{ maxWidth: '460px' }}>
+                            <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30" />
+                            <RoundButtonPagesMail url="/contact-agence-web-toulouse/" text="Demander un devis" />
                         </div>
                     </div>
-                    <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                    <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Web Toulouse</h1>
+                    <div className="w-full flex items-end justify-center mx-auto block pb-16">
+                        <img src={scroll} alt="Scroll" width="60px" />
                     </div>
-                    <br/>
-                    <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Refonte, création et référencement de site internet à Toulouse et Agen.</h2>
-                    {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
-                    <div className="w-full lg:w-full flex flex-col lg:flex-row justify-center pb-24 lg:justify-center mx-auto" style={{maxWidth:'460px'}}>
-                        <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30"/>
-                        <RoundButtonPagesMail url="/contact-agence-web-toulouse/" text="Demander un devis"/>
+                </section>
+                <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Linkweb, <span className="text-bleu">c’est 20 TECHNICIENS</span></h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Les équipes de Linkweb sont composées d'experts dans leurs domaines de prédilection pour dynamiser votre communication et faire de votre projet une réussite.</h3>
                     </div>
-            </div>
-                <div className="w-full flex items-end justify-center mx-auto block pb-16">
-                    <img src={scroll} alt="Scroll" width="60px"/>
-                </div>
-        </section>
-        <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Linkweb, <span className="text-bleu">c’est 20 TECHNICIENS</span></h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Les équipes de Linkweb sont composées d'experts dans leurs domaines de prédilection pour dynamiser votre communication et faire de votre projet une réussite.</h3>
-                        </div>
-                    </section>           
-        <section className="w-full flex flex-1 equipe min-h-0 lg:min-h-600">
-                        <div className="w-1/4 bg-cover  imageDouble"  >
-                        </div>
-                        <div className="w-3/4 ">
+                </section>
+                <section className="w-full flex flex-1 equipe min-h-0 lg:min-h-600">
+                    <div className="w-1/4 bg-cover  imageDouble"  >
+                    </div>
+                    <div className="w-3/4 ">
                         <div className="content century text-xl">
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">8</span>  développeurs web Front-End & Back-End</p>
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  spécialistes UI & <strong>UX design</strong> et <Link to="/agence-developpement-web-toulouse/" className="text-bleu font-bold hover:text-black">professionnels du <strong>développement web</strong></Link></p>
-                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong>référencement web</strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p> 
+                            <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">6</span>  professionnels du <strong>référencement web</strong> SEO & SEA pour l'optimisation des <strong>pages</strong> web.</p>
                             <p /*data-aos='fade-left'*/><span className="text-bleu text-4xl">3</span>  rédacteurs web spécialisés dans la rédaction et la <strong>gestion de contenu</strong> optimisé</p>
                         </div>
                         <div className="pictures w-full flex-1 sm:hidden lg:flex xl:flex">
@@ -129,80 +129,80 @@ class AgenceDigitaleToulouse extends Component {
                             <div className="w-1/3 bg-cover bg-white imageSimple "></div>
                             <div className="w-1/3 bg-cover bg-bleu imageSimple "></div>
                         </div>
+                    </div>
+                </section>
+                <section className="my-24 phototext">
+                    <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
+                        <h2 className="century text-black leading-none">Notre agence digitale est taillée pour<br /><span className="text-3xl md:text-5xl lg:text-6xl text-bleu font-bold">VOTRE PROJET WEB</span></h2>
+                        <br />
+                        <hr className="border-solid w-1/6 border-white"></hr>
+                    </section>
+                    <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
+                        <div className="w-full flex justify-center items-center lg:w-5/12">
+                            <img className="w-full" src={mac} alt="Linkweb" />
                         </div>
-                    </section>   
-        <section className="my-24 phototext">
-                        <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                            <h2 className="century text-black leading-none">Notre agence digitale est taillée pour<br/><span className="text-3xl md:text-5xl lg:text-6xl text-bleu font-bold">VOTRE PROJET WEB</span></h2>
-                            <br/>
-                            <hr className="border-solid w-1/6 border-white"></hr>
-                        </section>
-            <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
-                <div className="w-full flex justify-center items-center lg:w-5/12">
-                    <img className="w-full" src={mac} alt="Linkweb"/>
-                </div>
-                <div className="w-full lg:w-1/2 my-10  flex flex-col">
-                    <div className="w-full flex-col md:flex-row flex px-auto">
-                        <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
-                            <p className="text-center">+10</p>
-                        </div>
-                        <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
-                                <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>+10 ans d'expérience
+                        <div className="w-full lg:w-1/2 my-10  flex flex-col">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
+                                    <p className="text-center">+10</p>
+                                </div>
+                                <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
+                                    <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
+                                        <span className="text-bleu">/</span>+10 ans d'expérience
                                 </h3>
-                                <p className="w-full century pb-6 text-lg md:text-xl text-left">Depuis 2008, nous accompagnons nos clients pour développer leur <strong>visibilité sur le Web</strong>.
+                                    <p className="w-full century pb-6 text-lg md:text-xl text-left">Depuis 2008, nous accompagnons nos clients pour développer leur <strong>visibilité sur le Web</strong>.
                                 </p>
-                                {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
-                        </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">+20</p>
+                                    {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">+20</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>+20 TECHNICIENS
                                     </h3>
                                     <p className="w-full century pb-6 text-lg md:text-xl text-justify">Chaque jour, ce sont plus de 20 techniciens qui officient pour rendre <strong>nos sites web performants</strong>.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">+300</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">+300</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>+300 sites en gestion
                                     </h3>
                                     <p className="w-full century pb-6 text-lg md:text-xl text-justify">Nous <strong>créons des sites web</strong> pour des clients d'horizons parfois très différents : TPE, PME, indépendants, etc.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">+4,5</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">+4,5</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>4.6/5 sur Google
                                     </h3>
                                     <p className="w-full century pb-6 text-lg md:text-xl text-justify">Nos clients sont satisfaits du travail engagé sur leur site. Note basée sur 91 avis.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
                         </div>
-                    </div>
-            </section>
-        </section>
-                    <section className="-w-full bg-black text-white py-10">
+                    </section>
+                </section>
+                <section className="-w-full bg-black text-white py-10">
                     <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                            <h2 className="century text-white leading-none">Votre solution web taillée<br/><span className="text-5xl lg:text-6xl text-bleu font-bold">SUR-MESURE</span></h2>
-                            <br/>
-                            <hr className="border-solid w-1/6 border-bleu"></hr>
-                        </section> 
+                        <h2 className="century text-white leading-none">Votre solution web taillée<br /><span className="text-5xl lg:text-6xl text-bleu font-bold">SUR-MESURE</span></h2>
+                        <br />
+                        <hr className="border-solid w-1/6 border-bleu"></hr>
+                    </section>
                     <section className="max-w-5xl w-full mx-auto px-4 text-lg pb-0 my-2">
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">
@@ -217,22 +217,22 @@ class AgenceDigitaleToulouse extends Component {
                                 </div>
                                 <section className="w-full md:w-1/2 xl:w-1/3 absolute z-10 px-auto absolute px-12 lg:px-24 pt-24">
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
+                                        <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
                                     </h3>
-                                    <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong><Link to="/agence-web-montauban/" className="text-bleu hover:text-white font-bold">agence de création</Link></strong> définit des propositions concrètes pour y parvenir. Mettez tous les atouts de votre côté pour <strong>mener votre campagne de communication en ligne</strong>.
+                                    <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
+                                        Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong><Link to="/agence-web-montauban/" className="text-bleu hover:text-white font-bold">agence de création</Link></strong> définit des propositions concrètes pour y parvenir. Mettez tous les atouts de votre côté pour <strong>mener votre campagne de communication en ligne</strong>.
                                     </div>
                                     {/* <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" /> */}
                                     <button
-                                        className="link flex  mt-3 items-center text-white text-lg mx-auto block justify-center lg:text-xl"                    
+                                        className="link flex  mt-3 items-center text-white text-lg mx-auto block justify-center lg:text-xl"
                                         type="button"
                                         onClick={(e) => {
-                                        e.preventDefault();
-                                        window.location.href='/contact-agence-web-toulouse/';
+                                            e.preventDefault();
+                                            window.location.href = '/contact-agence-web-toulouse/';
                                         }}
-                                    ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
+                                    ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
                                     </button>
-                    
+
                                 </section>
                             </div>
                         </div>
@@ -243,20 +243,20 @@ class AgenceDigitaleToulouse extends Component {
                                 </div>
                                 <section className="w-full md:w-1/2 xl:w-1/3 absolute z-10 px-auto bsolute px-12 lg:px-24 pt-24">
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
+                                        <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                     </h3>
-                                    <div className="century content pb-6 text-justify" style={{textAlignLast:'center'}}>
-                                    TPE, PME, commerçants, l’<strong><Link to="/agence-web-ramonville/" className="font-bold text-bleu hover:text-white">agence Linkweb</Link></strong> répond à vos besoins de <strong>visibilité et de notoriété</strong> par la <strong>mise en place de stratégies digitales efficaces</strong> et qui vous rapprochent de vos prospects. Nous activons tous les <strong>leviers</strong> pour développer et faire connaître votre <strong>outil en ligne</strong>.
+                                    <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
+                                        TPE, PME, commerçants, l’<strong><Link to="/agence-web-ramonville/" className="font-bold text-bleu hover:text-white">agence Linkweb</Link></strong> répond à vos besoins de <strong>visibilité et de notoriété</strong> par la <strong>mise en place de stratégies digitales efficaces</strong> et qui vous rapprochent de vos prospects. Nous activons tous les <strong>leviers</strong> pour développer et faire connaître votre <strong>outil en ligne</strong>.
                                     </div>
                                     {/* <Button url="/contact-agence-web-toulouse/" text="En savoir plus" color="white" position="center" /> */}
                                     <button
-                                        className="link flex  mt-3 items-center text-white text-lg mx-auto block justify-center lg:text-xl"                    
+                                        className="link flex  mt-3 items-center text-white text-lg mx-auto block justify-center lg:text-xl"
                                         type="button"
                                         onClick={(e) => {
-                                        e.preventDefault();
-                                        window.location.href='/contact-agence-web-toulouse/';
+                                            e.preventDefault();
+                                            window.location.href = '/contact-agence-web-toulouse/';
                                         }}
-                                    ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
+                                    ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path></svg> En savoir plus
                                     </button>
                                 </section>
                             </div>
@@ -269,26 +269,26 @@ class AgenceDigitaleToulouse extends Component {
                                 to="/creation-site-internet-toulouse/"
                             > */}
                             <button
-                                        className="century text-sm hover:text-bleu"                    
-                                        type="button"
-                                        onClick={(e) => {
-                                        e.preventDefault();
-                                        window.location.href='/creation-site-internet-toulouse/';
-                                        }}
-                                    >
-                                    
+                                className="century text-sm hover:text-bleu"
+                                type="button"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = '/creation-site-internet-toulouse/';
+                                }}
+                            >
+
                                 Je souhaite la création de mon site internet
                             {/* </Link> */}</button>&nbsp;
                             |&nbsp;
                             <button
-                                        className="century text-sm hover:text-bleu"                    
-                                        type="button"
-                                        onClick={(e) => {
-                                        e.preventDefault();
-                                        window.location.href='/referencement-toulouse/';
-                                        }}
-                                    >
-                                    
+                                className="century text-sm hover:text-bleu"
+                                type="button"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = '/referencement-toulouse/';
+                                }}
+                            >
+
                                 Je souhaite améliorer la visibilité de mon site existant
                             {/* </Link> */}</button>
                             {/* <Link
@@ -299,35 +299,35 @@ class AgenceDigitaleToulouse extends Component {
                             </Link> */}
                         </div>
                     </section>
-                    </section>
-                    <section className="flex w-full flex-col mx-auto px-0 py-6 my-4">
-                        <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                            <h2 className="text-bleu text-lg text-center century">Agence Digitale Toulouse</h2>
-                            <br/>
-                            <h3 className="century text-3xl md:text-5xl text-black leading-none">Notre créativité au service de votre efficacité</h3>
-                            <br/>
-                            <hr className="border-solid w-1/6 border-bleu"></hr>
-                        </section>
-                    </section>
-                    <section className="bloctextimg w-full md:w-10/12 mx-auto lg:block lg:mx-auto xl:w-full flex flex-col lg:flex-row justify-center">
-                        <div className="w-full image lg:w-1/2 xl:w-2/5 lg:absolute flex justify-center lg:mt-48 xl:mt-24 pr-0 md:pr-16 lg:justify-center lg:items-center">
-                            <img src={accompagnement} alt="Agence Web Toulouse" style={{ maxHeight: '450px' }} />
-                        </div>
-                        <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-2/5 md:p-20 lg:pl-32 p-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#d3d3d352'}}>
-                            <h4 className="century text-xl"><span className="font-bold">Notre vocation : développer votre projet pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span></h4>
-                            <br/>
-                            <p style={{fontSize:'16px'}}>
-                                Depuis plus de 10 ans, notre expérience dans la <strong>{/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}création de sites internet{/*</Link>*/}</strong> nous a permis de développer nos compétences en tant qu'<strong>agence de conseil en communication</strong>. Nous envisageons les <strong>projets web</strong> comme des <strong>solutions uniques</strong> répondant aux besoins de chaque <strong>client</strong>. Les agences comme <Link to="/web-agency-toulouse/" className="text-bleu hover:text-white font-bold">Linkweb</Link> en France ont à coeur de définir des <strong>stratégies sur-mesure</strong> en misant sur la qualité pour porter les projets de communication et de marketing de leurs clients toujours plus haut.<br/>
-                            <br/>
-                                Présents à <strong>Agen en Lot-et-Garonne</strong>, nous avons également développé une <strong>filiale toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, <Link to="/agence-communication-web-toulouse/" className="text-bleu hover:text-black font-bold"><strong>notre agence de communication web</strong></Link> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. Linkweb (<Link to="/" className="text-bleu hover:text-black font-bold">agence digitale Toulouse</Link>) déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br/>
-                            <br/>
-                                De part son savoir-faire et sa réactivité en tant qu’<strong>agence digitale</strong>, <strong>Linkweb</strong> met en place <strong>votre site internet</strong> grâce à des <strong>solutions de {/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}développement web{/*</Link>*/}</strong> récentes et optimise votre <strong>{/*<Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">*/}référencement naturel{/*</Link>*/}</strong> grâce à une veille permanente liée au <Link to="/agence-web-marketing-toulouse/" className="font-bold text-bleu hover:text-black"><strong>web marketing</strong></Link> et autres <strong>outils digitaux</strong>. Quelle que soit la nature de votre activité, nous possédons le <strong>savoir-faire</strong> et les <strong>expertises</strong> pour vous permettre d’<strong>atteindre vos objectifs</strong> en bénéficiant d'un service de qualité pour dynamiser votre communication à travers le développement de supports performants.<br/>
-                            </p>
-                        </div>
-
+                </section>
+                <section className="flex w-full flex-col mx-auto px-0 py-6 my-4">
+                    <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
+                        <h2 className="text-bleu text-lg text-center century">Agence Digitale Toulouse</h2>
                         <br />
+                        <h3 className="century text-3xl md:text-5xl text-black leading-none">Notre créativité au service de votre efficacité</h3>
+                        <br />
+                        <hr className="border-solid w-1/6 border-bleu"></hr>
                     </section>
-                    {/*
+                </section>
+                <section className="bloctextimg w-full md:w-10/12 mx-auto lg:block lg:mx-auto xl:w-full flex flex-col lg:flex-row justify-center">
+                    <div className="w-full image lg:w-1/2 xl:w-2/5 lg:absolute flex justify-center lg:mt-48 xl:mt-24 pr-0 md:pr-16 lg:justify-center lg:items-center">
+                        <img src={accompagnement} alt="Agence Web Toulouse" style={{ maxHeight: '450px' }} />
+                    </div>
+                    <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-2/5 md:p-20 lg:pl-32 p-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#d3d3d352' }}>
+                        <h4 className="century text-xl"><span className="font-bold">Notre vocation : développer votre projet pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span></h4>
+                        <br />
+                        <p style={{ fontSize: '16px' }}>
+                            Depuis plus de 10 ans, notre expérience dans la <strong>{/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}création de sites internet{/*</Link>*/}</strong> nous a permis de développer nos compétences en tant qu'<strong>agence de conseil en communication</strong>. Nous envisageons les <strong>projets web</strong> comme des <strong>solutions uniques</strong> répondant aux besoins de chaque <strong>client</strong>. Les agences comme <Link to="/web-agency-toulouse/" className="text-bleu hover:text-white font-bold">Linkweb</Link> en France ont à coeur de définir des <strong>stratégies sur-mesure</strong> en misant sur la qualité pour porter les projets de communication et de marketing de leurs clients toujours plus haut.<br />
+                            <br />
+                                Présents à <strong>Agen en Lot-et-Garonne</strong>, nous avons également développé une <strong>filiale toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, <Link to="/agence-communication-web-toulouse/" className="text-bleu hover:text-black font-bold"><strong>notre agence de communication web</strong></Link> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. Linkweb (<Link to="/" className="text-bleu hover:text-black font-bold">agence digitale Toulouse</Link>) déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br />
+                            <br />
+                                De part son savoir-faire et sa réactivité en tant qu’<strong>agence digitale</strong>, <strong>Linkweb</strong> met en place <strong>votre site internet</strong> grâce à des <strong>solutions de {/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}développement web{/*</Link>*/}</strong> récentes et optimise votre <strong>{/*<Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">*/}référencement naturel{/*</Link>*/}</strong> grâce à une veille permanente liée au <Link to="/agence-web-marketing-toulouse/" className="font-bold text-bleu hover:text-black"><strong>web marketing</strong></Link> et autres <strong>outils digitaux</strong>. Quelle que soit la nature de votre activité, nous possédons le <strong>savoir-faire</strong> et les <strong>expertises</strong> pour vous permettre d’<strong>atteindre vos objectifs</strong> en bénéficiant d'un service de qualité pour dynamiser votre communication à travers le développement de supports performants.<br />
+                        </p>
+                    </div>
+
+                    <br />
+                </section>
+                {/*
                     <section className="flex w-full flex-col lg:flex-row mx-auto px-0 py-6 my-4">
                         <div className="w-full lg:w-1/2 ">
                             <img src={imac} alt="Agence Web Toulouse" />
@@ -349,46 +349,46 @@ class AgenceDigitaleToulouse extends Component {
                             
                         </div>
                     </section>*/}
-                    <section className="flex w-full flex-col mx-auto px-0 py-6 my-4 lg:my-0">
-                        <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10 lg:mb-2">
-                            <h2 className="century text-3xl md:text-5xl text-black leading-none">Où nous trouver ?</h2>
-                            <br/>
-                            <hr className="border-solid w-1/6 border-bleu"></hr>
-                            <br/>
-                            <h3 className="text-black text-xl text-center century">Notre relation est basée sur la confiance et la collaboration.</h3>
-                        </section>
+                <section className="flex w-full flex-col mx-auto px-0 py-6 my-4 lg:my-0">
+                    <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10 lg:mb-2">
+                        <h2 className="century text-3xl md:text-5xl text-black leading-none">Où nous trouver ?</h2>
+                        <br />
+                        <hr className="border-solid w-1/6 border-bleu"></hr>
+                        <br />
+                        <h3 className="text-black text-xl text-center century">Notre relation est basée sur la confiance et la collaboration.</h3>
                     </section>
-                    <section className="w-full flex flex-col md:flex-row mt-10 bg-bleu">
-                        <div className="w-full md:w-1/2 bg-bleu flex flex-col justify-center items-center text-center" style={{minHeight:'700px'}}>
+                </section>
+                <section className="w-full flex flex-col md:flex-row mt-10 bg-bleu">
+                    <div className="w-full md:w-1/2 bg-bleu flex flex-col justify-center items-center text-center" style={{ minHeight: '700px' }}>
                         <h2 className="text-2xl text-white century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
-                                    <p className="text-xl text-white century">10 rue Albert Ferrasse <br/>
+                        <p className="text-xl text-white century">10 rue Albert Ferrasse <br />
                                     47550 BOÉ</p>
-                                    <button
-                                        className="font-light mx-auto roundedButton bg-black hover:bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
-                                        type="button"
-                                        onClick={(e) => {
-                                        e.preventDefault();
-                                        window.open('https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994', '_blank')
-                                        }}
-                                    >Plus d'informations pratiques</button>
-                                    {/* <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a> */}
-                        </div>
-                        <div className="w-full md:w-1/2 bg-black flex flex-col justify-center items-center h-auto text-white text-center" style={{minHeight:'700px'}}>
+                        <button
+                            className="font-light mx-auto roundedButton bg-black hover:bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
+                            type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.open('https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994', '_blank')
+                            }}
+                        >Plus d'informations pratiques</button>
+                        {/* <a href="https://www.google.com/maps/place/Linkweb/@44.1811928,0.6268053,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb323e4e18603:0xb2f1e6fffa7f9cd4!8m2!3d44.181189!4d0.628994" target="_blank" rel="noopener noreferrer"><RoundButton color="black" text="Plus d'informations pratiques" /></a> */}
+                    </div>
+                    <div className="w-full md:w-1/2 bg-black flex flex-col justify-center items-center h-auto text-white text-center" style={{ minHeight: '700px' }}>
                         <h2 className="text-2xl century pb-6" ><span className="text-bleu">/</span>L’AGENCE LINKWEB À TOULOUSE</h2>
-                                    <p className="text-xl century">44 Rue de Bayard <br/>
+                        <p className="text-xl century">44 Rue de Bayard <br />
                                     31000 TOULOUSE</p>
-                                    <button
-                                        className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
-                                        type="button"
-                                        onClick={(e) => {
-                                        e.preventDefault();
-                                        window.open('https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768', '_blank')
-                                        }}
-                                    >Plus d'informations pratiques</button>
-                                    {/* <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a>  */}
-                        </div>
-                    </section>
-                        {/* <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in">
+                        <button
+                            className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
+                            type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.open('https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768', '_blank')
+                            }}
+                        >Plus d'informations pratiques</button>
+                        {/* <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a>  */}
+                    </div>
+                </section>
+                {/* <div className=" font-bold w-full md:w-1/2 px-6 flex justify-center items-center flex-col min-h-400 text-center text-white bg-bleu" /*data-aos="zoom-in">
                             <h2 className="text-2xl century pb-6" ><span className="text-black">/</span>L’AGENCE LINKWEB À AGEN</h2>
                             <p className="text-xl century">10 rue Albert Ferrasse <br/>
                             47550 BOÉ</p>
@@ -401,7 +401,7 @@ class AgenceDigitaleToulouse extends Component {
                             <a href="https://www.google.com/maps/place/Linkweb/@43.6099559,1.4478881,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb43d4c8a751:0xb4abc0044173017!8m2!3d43.6099559!4d1.4500768" target="_blank" rel="noopener noreferrer"><RoundButton text="Plus d'informations pratiques" /></a> 
                         </div> */}
 
-                    {/*<section className="max-w-5xl w-full mx-auto px-4 pt-12 lg:pt-2 pb-0 my-2">
+                {/*<section className="max-w-5xl w-full mx-auto px-4 pt-12 lg:pt-2 pb-0 my-2">
                         <h2 /*data-aos='fade-right' className="text-center text-3xl century">
                             <span className="text-bleu">/</span>AGENCE WEB À TOULOUSE : QUI SOMMES-NOUS ?
                         </h2>
@@ -503,133 +503,133 @@ class AgenceDigitaleToulouse extends Component {
                             
                         </div>
                     </section>*/}
-                    
-                    <section className="flex w-full flex-col mx-auto px-0 py-6 my-4 lg:my-0">
-                        <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10 lg:mb-2">
-                            <h2 className="century text-3xl md:text-5xl text-black leading-none">Que gagner à lancer sa stratégie digitale ?</h2>
-                            <br/>
-                            <hr className="border-solid w-1/6 border-bleu"></hr>
-                            <br/>
-                            <h3 className="text-black text-xl text-center century">Tout ! Ou bien presque. <br/>Investir dans la digitalisation de votre société vous confère de nombreux avantages en matière de développement.</h3>
-                        </section>
+
+                <section className="flex w-full flex-col mx-auto px-0 py-6 my-4 lg:my-0">
+                    <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10 lg:mb-2">
+                        <h2 className="century text-3xl md:text-5xl text-black leading-none">Que gagner à lancer sa stratégie digitale ?</h2>
+                        <br />
+                        <hr className="border-solid w-1/6 border-bleu"></hr>
+                        <br />
+                        <h3 className="text-black text-xl text-center century">Tout ! Ou bien presque. <br />Investir dans la digitalisation de votre société vous confère de nombreux avantages en matière de développement.</h3>
                     </section>
-                    <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
-                        <div className="w-full md:w-3/4 py-0 flex justify-end">
-                            <Accordion>
-                                <div className="w-full" label="ÊTRE VISIBLE GRÂCE AU RÉFÉRENCEMENT NATUREL">
-                                    <p>L’aspect stratégique est essentiel dans la <strong className="font-bold">conception de sites internet</strong>. En effet, c’est dès l’élaboration de <strong>votre projet</strong> que notre <strong>agence de communication digitale</strong> intervient pour <strong className="font-bold">définir votre stratégie SEO</strong>. Nous développons une <strong>arborescence</strong> totalement fonctionnelle et pertinente : <strong>chaque page</strong> dispose d’une fonction précise. Ceci est essentiel dans le cadre du <strong className="font-bold">référencement d'un site internet</strong>.<br/>
-                                    <br/>
-                                    En parallèle, les spécialistes de notre <strong>{/*<Link to="/referencement-toulouse/" className="font-bold text-bleu hover:text-black">*/}agence de référencement SEO{/*</Link>*/}</strong> identifient les <strong className="font-bold">expressions clés ciblées</strong> qui vont déterminer les <strong className="font-bold">objectifs de positionnement de votre stratégie de référencement naturel</strong>. Par la suite, nous définissons un plan d’actions correspondant à vos attentes ainsi qu’à vos moyens pour <strong classname="font-bold">déployer votre projet</strong>.<br/>
-                                    <br/>
-                                    Cependant, s’il est urgent pour vous d’<strong>être visible sur les moteurs de recherche</strong>, nous vous proposons la <strong>{/*<Link to="/agence-adwords-47-31/" className="font-bold text-bleu hover:text-black">*/}création d’une campagne Ads{/*</Link>*/}</strong>, via la plateforme <strong>Google Adwords</strong>, qui vous permettra d’obtenir des résultats plus rapidement grâce au <strong>référencement payant</strong>.<br/>
-                                    <br/>
+                </section>
+                <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
+                    <div className="w-full md:w-3/4 py-0 flex justify-end">
+                        <Accordion>
+                            <div className="w-full" label="ÊTRE VISIBLE GRÂCE AU RÉFÉRENCEMENT NATUREL">
+                                <p>L’aspect stratégique est essentiel dans la <strong className="font-bold">conception de sites internet</strong>. En effet, c’est dès l’élaboration de <strong>votre projet</strong> que notre <strong>agence de communication digitale</strong> intervient pour <strong className="font-bold">définir votre stratégie SEO</strong>. Nous développons une <strong>arborescence</strong> totalement fonctionnelle et pertinente : <strong>chaque page</strong> dispose d’une fonction précise. Ceci est essentiel dans le cadre du <strong className="font-bold">référencement d'un site internet</strong>.<br />
+                                    <br />
+                                    En parallèle, les spécialistes de notre <strong>{/*<Link to="/referencement-toulouse/" className="font-bold text-bleu hover:text-black">*/}agence de référencement SEO{/*</Link>*/}</strong> identifient les <strong className="font-bold">expressions clés ciblées</strong> qui vont déterminer les <strong className="font-bold">objectifs de positionnement de votre stratégie de référencement naturel</strong>. Par la suite, nous définissons un plan d’actions correspondant à vos attentes ainsi qu’à vos moyens pour <strong classname="font-bold">déployer votre projet</strong>.<br />
+                                    <br />
+                                    Cependant, s’il est urgent pour vous d’<strong>être visible sur les moteurs de recherche</strong>, nous vous proposons la <strong>{/*<Link to="/agence-adwords-47-31/" className="font-bold text-bleu hover:text-black">*/}création d’une campagne Ads{/*</Link>*/}</strong>, via la plateforme <strong>Google Adwords</strong>, qui vous permettra d’obtenir des résultats plus rapidement grâce au <strong>référencement payant</strong>.<br />
+                                    <br />
                                     Notre rôle, en tant qu'<strong>agence spécialisée dans la création de sites web</strong>, est de <strong className="font-bold">vous proposer les <Link to="/strategie-digitale-toulouse/" className="font-bold text-bleu hover:text-black">stratégies les plus performantes</Link></strong>, tout en tenant compte de <strong className="font-bold">vos besoins</strong>. Nous faisons partie des <strong>agences de France</strong> à placer les besoins de nos clients au centre de nos projets pour des <strong>réalisations</strong> pertinentes et performantes.
                                     </p>
-                                </div>
-                                <div label="COMMUNIQUER DE MANIÈRE EFFICACE EN DIRECTION DE VOS CIBLES">
-                                    <p><strong>Être visible en ligne</strong> permet de faciliter la transmission de l’information. En effet, ceci a pour objectif de <strong>simplifier l’accès à l’information pour un utilisateur</strong>. C’est pourquoi, il est nécessaire d’intégrer la <strong className="font-bold">question du besoin et de l’intention de l’utilisateur</strong>, dès la <strong>création de site internet</strong>. Cela se traduit par un <strong className="font-bold">webdesign ergonomique, intuitif, une identité visuelle et graphique parfaitement reconnaissable ainsi qu’un contenu pertinent</strong>.<br/>
-                                    <br/>
-                                    Aussi, l’<strong>accès à l’information</strong> doit être favorisé par la réalisation d’une <strong className="font-bold">expérience utilisateur irréprochable</strong> : <strong>site responsive design</strong>, <strong>maillage interne</strong>, <strong>temps de chargement</strong> limité etc. L’utilisation de <strong>votre charte graphique</strong> et de <strong>votre identité visuelle</strong> (ou identité graphique) nous permet de <strong className="font-bold">créer un outil digital à votre image et au <Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black">web design sur-mesure</Link></strong> (en totale cohérence visuelle). Cela va permettre de vous rendre identifiable pour l’utilisateur, mais également de vous apporter une <strong>stratégie de communication digitale</strong> en corrlation parfaite avec <strong>votre identité de marque</strong>. Pour ce faire, un <strong>développeur web</strong> effectue un travail précis au niveau de l’<strong>ergonomie, la praticité, l’intuitivité et l'aspect créatif du site</strong>. Ceci vise à <strong className="font-bold">mettre en place un outil utile, original et pertinent pour les visiteurs</strong>.<br/>
-                                    <br/>
+                            </div>
+                            <div label="COMMUNIQUER DE MANIÈRE EFFICACE EN DIRECTION DE VOS CIBLES">
+                                <p><strong>Être visible en ligne</strong> permet de faciliter la transmission de l’information. En effet, ceci a pour objectif de <strong>simplifier l’accès à l’information pour un utilisateur</strong>. C’est pourquoi, il est nécessaire d’intégrer la <strong className="font-bold">question du besoin et de l’intention de l’utilisateur</strong>, dès la <strong>création de site internet</strong>. Cela se traduit par un <strong className="font-bold">webdesign ergonomique, intuitif, une identité visuelle et graphique parfaitement reconnaissable ainsi qu’un contenu pertinent</strong>.<br />
+                                    <br />
+                                    Aussi, l’<strong>accès à l’information</strong> doit être favorisé par la réalisation d’une <strong className="font-bold">expérience utilisateur irréprochable</strong> : <strong>site responsive design</strong>, <strong>maillage interne</strong>, <strong>temps de chargement</strong> limité etc. L’utilisation de <strong>votre charte graphique</strong> et de <strong>votre identité visuelle</strong> (ou identité graphique) nous permet de <strong className="font-bold">créer un outil digital à votre image et au <Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black">web design sur-mesure</Link></strong> (en totale cohérence visuelle). Cela va permettre de vous rendre identifiable pour l’utilisateur, mais également de vous apporter une <strong>stratégie de communication digitale</strong> en corrlation parfaite avec <strong>votre identité de marque</strong>. Pour ce faire, un <strong>développeur web</strong> effectue un travail précis au niveau de l’<strong>ergonomie, la praticité, l’intuitivité et l'aspect créatif du site</strong>. Ceci vise à <strong className="font-bold">mettre en place un outil utile, original et pertinent pour les visiteurs</strong>.<br />
+                                    <br />
                                     Que ce soit à travers l'utilisation de <strong>CMS tels que Joomla, Prestashop, Drupal ou Wordpress</strong>, ou bien via l'<strong>utilisation de frameworks</strong>, <strong className="font-bold">nos spécialistes définiront la meilleure formule pour vous proposer des performances optimales</strong>.
                                     </p>
-                                </div>
-                                <div label="OBTENIR UN RETOUR SUR INVESTISSEMENT">
-                                    <p>Chaque projet digital a ses spécificités : un <strong>site e-commerce</strong> cible la <strong>vente en ligne de produits</strong>, un <strong>site vitrine</strong> est plus adapté pour <strong>obtenir des contacts prospects qualifiés</strong>. Nous choisissons la formule adaptée pour permettre à <strong>votre société</strong> d’<strong className="font-bold">exploiter tout le potentiel de son marché sur le net</strong>.<br/>
-                                    <br/>
-                                    Les <strong>sites internet</strong> que nous créons ont pour objectif d’<strong className="font-bold">obtenir un trafic qualifié et une fréquentation en constante progression</strong>. En effet, le <strong>site internet</strong> fait partie des <strong>supports de communication</strong> les plus importants en termes de <strong>webmarketing</strong>.<br/>
-                                    <br/>
-                                    Au sein des agences comme <strong>Linkweb</strong> en France, nous privilégions la qualité de votre réalisation. La <strong>création de votre site internet</strong> n’a qu’un seul but : <strong className="font-bold">vous permettre d'atteindre de nouveaux prospects en vue de maximiser vos chances de convertir vos contacts et ainsi augmenter votre chiffre d’affaires.</strong><br/>
-                                    </p>
-                                </div>
-                            </Accordion>
-                        </div>
-                    </section>
-                    <section className="w-full flex my-12 flex-col items-center lg:flex-row text-white bg-bleu century text-center mx-auto lg:text-justify px-16 xl:px-48 py-16">
-                        <div className="w-full lg:w-8/12 text-2xl">
+                            </div>
+                            <div label="OBTENIR UN RETOUR SUR INVESTISSEMENT">
+                                <p>Chaque projet digital a ses spécificités : un <strong>site e-commerce</strong> cible la <strong>vente en ligne de produits</strong>, un <strong>site vitrine</strong> est plus adapté pour <strong>obtenir des contacts prospects qualifiés</strong>. Nous choisissons la formule adaptée pour permettre à <strong>votre société</strong> d’<strong className="font-bold">exploiter tout le potentiel de son marché sur le net</strong>.<br />
+                                    <br />
+                                    Les <strong>sites internet</strong> que nous créons ont pour objectif d’<strong className="font-bold">obtenir un trafic qualifié et une fréquentation en constante progression</strong>. En effet, le <strong>site internet</strong> fait partie des <strong>supports de communication</strong> les plus importants en termes de <strong>webmarketing</strong>.<br />
+                                    <br />
+                                    Au sein des agences comme <strong>Linkweb</strong> en France, nous privilégions la qualité de votre réalisation. La <strong>création de votre site internet</strong> n’a qu’un seul but : <strong className="font-bold">vous permettre d'atteindre de nouveaux prospects en vue de maximiser vos chances de convertir vos contacts et ainsi augmenter votre chiffre d’affaires.</strong><br />
+                                </p>
+                            </div>
+                        </Accordion>
+                    </div>
+                </section>
+                <section className="w-full flex my-12 flex-col items-center lg:flex-row text-white bg-bleu century text-center mx-auto lg:text-justify px-16 xl:px-48 py-16">
+                    <div className="w-full lg:w-8/12 text-2xl">
                         <h2>Vous souhaitez travailler avec <span className="font-bold">notre agence</span> ?</h2>
                         <h4>Linkweb soutient les professionnels souhaitant développer leur présence en ligne.</h4>
-                        </div>
-                        <div className="w-full mx-auto block lg:w-3/12">
+                    </div>
+                    <div className="w-full mx-auto block lg:w-3/12">
                         {/*<ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>*/}
                         {/* <RoundButton url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white" text="CONTACTEZ-NOUS" /> */}
                         <button
-                                    className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
-                                    type="button"
-                                    onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href='/contact-agence-web-toulouse/';
-                                    }}
-                                >CONTACTEZ-NOUS</button>
-                        </div>
-                    </section>
-                    <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Ils sont satisfaits par nos services</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                        </div>
-                    </section>   
-                    <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center century text-center mt-3 px-6 mb-12">
-                <div className="flex flex-row flex-wrap">
-                                <article className="w-full md:w-1/2 mt-5 lg:w-1/2 text-left xl:w-1/3 century w-1/2 mx-0 md:px-2 pb-4 flex flex-col align-center">
-                                    <div className="avis" style={{minHeight:'340px'}}>
-                                        <div className="flex flex-row">
-                                        <img width="50px" height="50px" src={actionpiscines} alt="Avis Google"/>
-                                        <svg width="100px" viewBox="0 0 100 125">
-                                            <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                                            <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                                            <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                                            <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                                            <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                                        </svg>
-                                        </div>
-                                        <h4>Action Piscines 47</h4>
-                                        <p>« Une équipe proche et votre écoute, du personnel très impliqué.
-                                            Des résultats visibles et sans bla-bla.
-                                            Continuez comme ça, merci. »</p>
-                                    </div>
-                                </article>
-                                <article className="w-full md:w-1/2 lg:w-1/2 text-left mt-5 xl:w-1/3 century w-1/2 mx-0 md:px-2 pb-4 flex flex-col align-center">
-                                    <div className="avis" style={{minHeight:'340px'}}>
-                                        <div className="flex flex-row">
-                                        <img width="50px" height="50px" src={agendiesel} alt="Avis My Business"/>
-                                        <svg width="100px" viewBox="0 0 100 125">
-                                            <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                                            <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                                            <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                                            <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                                            <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                                        </svg>
-                                        </div>
-                                        <h4>Agen Diesel</h4>
-                                        <p>« La prise en charge de mon dossier par Anthony est impeccable. Très bon accueil téléphonique, il répond à mes demandes et mes exigences. Un rapport mensuel est effectué tout les mois pour voir l’évolution de notre entreprise en <strong>référencement sur internet</strong>. »</p>
-                                    </div>
-                                </article>
-                                <article className="w-full md:w-1/2 lg:w-1/2 mt-5 text-left xl:w-1/3 century w-1/2 mx-0 md:px-2 pb-4 flex flex-col align-center">
-                                    <div className="avis" style={{minHeight:'340px'}}>
-                                        <div className="flex flex-row">
-                                        <img width="50px" height="50px" src={ettr} alt="Avis My Business"/>
-                                        <svg width="100px" viewBox="0 0 100 125">
-                                            <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z"/>
-                                            <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z"/>
-                                            <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z"/>
-                                            <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z"/>
-                                            <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z"/>
-                                        </svg>
-                                        </div>
-                                        <h4>ETTR 31</h4>
-                                        <p>« Une équipe très professionnelle, excellent accueil, un très bon suivi.
-                                        Étant Gérant d'une SARL, je vous conseille <strong>Linkweb</strong> sans aucune hésitation, très satisfait. »</p>
-                                        <br/>
-                                    </div>
-                                </article>
+                            className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                            type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = '/contact-agence-web-toulouse/';
+                            }}
+                        >CONTACTEZ-NOUS</button>
+                    </div>
+                </section>
+                <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Ils sont satisfaits par nos services</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                    </div>
+                </section>
+                <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center century text-center mt-3 px-6 mb-12">
+                    <div className="flex flex-row flex-wrap">
+                        <article className="w-full md:w-1/2 mt-5 lg:w-1/2 text-left xl:w-1/3 century w-1/2 mx-0 md:px-2 pb-4 flex flex-col align-center">
+                            <div className="avis" style={{ minHeight: '340px' }}>
+                                <div className="flex flex-row">
+                                    <img width="50px" height="50px" src={actionpiscines} alt="Avis Google" />
+                                    <svg width="100px" viewBox="0 0 100 125">
+                                        <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                        <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                        <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                        <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                        <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                    </svg>
                                 </div>
-                </section>       
-                    
-                    <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
-                        <div className="w-full flex flex-col md:flex-row justify-center">
-                            {/* <a
+                                <h4>Action Piscines 47</h4>
+                                <p>« Une équipe proche et votre écoute, du personnel très impliqué.
+                                Des résultats visibles et sans bla-bla.
+                                            Continuez comme ça, merci. »</p>
+                            </div>
+                        </article>
+                        <article className="w-full md:w-1/2 lg:w-1/2 text-left mt-5 xl:w-1/3 century w-1/2 mx-0 md:px-2 pb-4 flex flex-col align-center">
+                            <div className="avis" style={{ minHeight: '340px' }}>
+                                <div className="flex flex-row">
+                                    <img width="50px" height="50px" src={agendiesel} alt="Avis My Business" />
+                                    <svg width="100px" viewBox="0 0 100 125">
+                                        <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                        <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                        <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                        <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                        <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                    </svg>
+                                </div>
+                                <h4>Agen Diesel</h4>
+                                <p>« La prise en charge de mon dossier par Anthony est impeccable. Très bon accueil téléphonique, il répond à mes demandes et mes exigences. Un rapport mensuel est effectué tout les mois pour voir l’évolution de notre entreprise en <strong>référencement sur internet</strong>. »</p>
+                            </div>
+                        </article>
+                        <article className="w-full md:w-1/2 lg:w-1/2 mt-5 text-left xl:w-1/3 century w-1/2 mx-0 md:px-2 pb-4 flex flex-col align-center">
+                            <div className="avis" style={{ minHeight: '340px' }}>
+                                <div className="flex flex-row">
+                                    <img width="50px" height="50px" src={ettr} alt="Avis My Business" />
+                                    <svg width="100px" viewBox="0 0 100 125">
+                                        <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                        <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                        <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                        <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                        <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z" />
+                                    </svg>
+                                </div>
+                                <h4>ETTR 31</h4>
+                                <p>« Une équipe très professionnelle, excellent accueil, un très bon suivi.
+                                        Étant Gérant d'une SARL, je vous conseille <strong>Linkweb</strong> sans aucune hésitation, très satisfait. »</p>
+                                <br />
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section className="max-w-6xl mx-auto flex align-center justify-center text-center mb-24">
+                    <div className="w-full flex flex-col md:flex-row justify-center">
+                        {/* <a
                                 className="century text-sm hover:text-bleu"
                                 target="blank" rel="noreferrer noopener"
                                 href="https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,"
@@ -644,13 +644,13 @@ class AgenceDigitaleToulouse extends Component {
                             >
                                 Vous travaillez déjà avec nous ? Donnez nous votre avis !
                             </a> */}
-                            <button
+                        <button
                             className="century text-sm hover:text-bleu"
                             type="button"
                             formtarget="_blank"
                             onClick={(e) => {
-                            e.preventDefault();
-                            window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
+                                e.preventDefault();
+                                window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
                             }}
                         >Voir plus de témoignages</button>
                             &nbsp;
@@ -660,21 +660,21 @@ class AgenceDigitaleToulouse extends Component {
                             type="button"
                             target="_blank"
                             onClick={(e) => {
-                            e.preventDefault();
-                            window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
-                        }}
+                                e.preventDefault();
+                                window.open('https://www.google.com/search?q=linkweb&rlz=1C5CHFA_enFR832FR832&oq=lin&aqs=chrome.0.69i59j69i60l4j0.1518j0j7&sourceid=chrome&ie=UTF-8#lrd=0x12abb323e4e18603:0xb2f1e6fffa7f9cd4,1,,,', '_blank')
+                            }}
                         >Vous travaillez déjà avec nous ? Donnez nous votre avis !</button>
-                        </div>
-                    </section>
-                    <section className="w-full bg-bleu flex flex-col md:flex-row">
-                      <div className="w-full order-last md:order-first md:w-1/4 bordbloc bg-black text-white flex flex-col items-center justify-center mx-auto">
+                    </div>
+                </section>
+                <section className="w-full bg-bleu flex flex-col md:flex-row">
+                    <div className="w-full order-last md:order-first md:w-1/4 bordbloc bg-black text-white flex flex-col items-center justify-center mx-auto">
                         <span className="my-10"><a href="tel:0533950030" className="text-center text-xl lg:text-3xl text-white xl:text-5xl century"><span className="text-2xl text-bleu lg:text-6xl font-bold">/</span> 05 33 95 00 30</a></span>
-                      </div>
-                      <div className="w-full order-first md:order-last md:w-3/4 my-6 text-white p-6 lg:px-24">
-                          <h2 className="century text-center md:text-right text-2xl lg:text-3xl xl:text-4xl tracking-wider pb-3 leading-tight"><span className="font-bold">Votre entreprise est située à Agen ?</span></h2>
-                        <br/>
-                        <hr className="border-solid  w-1/2 md:w-1/6 border-white mr-auto md:mr-0"/>
-                        <br/>
+                    </div>
+                    <div className="w-full order-first md:order-last md:w-3/4 my-6 text-white p-6 lg:px-24">
+                        <h2 className="century text-center md:text-right text-2xl lg:text-3xl xl:text-4xl tracking-wider pb-3 leading-tight"><span className="font-bold">Votre entreprise est située à Agen ?</span></h2>
+                        <br />
+                        <hr className="border-solid  w-1/2 md:w-1/6 border-white mr-auto md:mr-0" />
+                        <br />
                         <div className="flex items-end my-10 justify-end flex-col">
                             <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-2xl"><strong>Linkweb</strong> conduit tous vos <strong>projets à Agen</strong>, de leur conception à leur mise en oeuvre avec un suivi régulier. Notre équipe vous accompagne dans le choix de <strong>votre stratégie éditoriale et marketing</strong> jusqu’à la mise en route technique de votre projet.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
@@ -683,56 +683,56 @@ class AgenceDigitaleToulouse extends Component {
                                     className="font-light mx-auto roundedButton bg-black text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
                                     type="button"
                                     onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href='/contact-agence-web-toulouse/';
+                                        e.preventDefault();
+                                        window.location.href = '/contact-agence-web-toulouse/';
                                     }}
                                 >CONTACTEZ-NOUS</button>
                             </div>
                         </div>
-                        
-                      </div>
-                    </section>            
-                    <section className=" w-full h-screen flex flex-col justify-center bg-bottom items-end px-4 pt-12 pb-0 bg-cover" style={{ background: '#6a6a6a url( ' + bureau + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
-                        <div className="max-w-5xl mx-auto flex flex-col items-center">
-                            <h2 /*data-aos='fade-right'*/ className="text-center text-white text-2xl md:text-4xl century">
-                                <span className="text-bleu">/</span>Vous souhaitez intégrer l’équipe de Linkweb ?
+
+                    </div>
+                </section>
+                <section className=" w-full h-screen flex flex-col justify-center bg-bottom items-end px-4 pt-12 pb-0 bg-cover" style={{ background: '#6a6a6a url( ' + bureau + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+                    <div className="max-w-5xl mx-auto flex flex-col items-center">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-white text-2xl md:text-4xl century">
+                            <span className="text-bleu">/</span>Vous souhaitez intégrer l’équipe de Linkweb ?
                                 Nous recrutons des développeurs et référenceurs à Agen.
                             </h2>
-                            <button
-                                    className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
-                                    type="button"
-                                    onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href='/recrutement-creation-site-internet-agen/';
-                                    }}
-                                >Postuler</button>
-                             {/* <RoundButton url="/recrutement-creation-site-internet-agen/" text="Postuler" /> */}
-                        </div>
+                        <button
+                            className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                            type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = '/recrutement-creation-site-internet-agen/';
+                            }}
+                        >Postuler</button>
+                        {/* <RoundButton url="/recrutement-creation-site-internet-agen/" text="Postuler" /> */}
+                    </div>
+                </section>
+                <section className="flex w-full flex-col mx-auto px-0 py-6 my-4 lg:my-0">
+                    <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10 lg:mb-2">
+                        <h2 className="century text-3xl md:text-5xl text-black leading-none">Les dernières actualités</h2>
+                        <br />
+                        <hr className="border-solid w-1/6 border-bleu"></hr>
+
                     </section>
-                    <section className="flex w-full flex-col mx-auto px-0 py-6 my-4 lg:my-0">
-                        <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10 lg:mb-2">
-                            <h2 className="century text-3xl md:text-5xl text-black leading-none">Les dernières actualités</h2>
-                            <br/>
-                            <hr className="border-solid w-1/6 border-bleu"></hr>
-                            
-                        </section>
-                    </section>
-                    <section className="max-w-6xl mx-auto flex flex-col align-center flex flex-col justify-center items-center justify-center text-center mt-12 mb-3">
-                        <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
-                        <div className="w-2/5 flex flex-row justify-center items-center">
+                </section>
+                <section className="max-w-6xl mx-auto flex flex-col align-center flex flex-col justify-center items-center justify-center text-center mt-12 mb-3">
+                    <LastPosts lastposts={this.props.data.allWpPost.edges} />
+                    <div className="w-2/5 flex flex-row justify-center items-center">
                         {/* <RoundButton url="/actualite-digitale/" text="Accéder au Blog"/> */}
                         <button
-                                    className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
-                                    type="button"
-                                    onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href='/actualite-digitale/';
-                                    }}
-                                >ACCÉDER AU BLOG</button>
-                        </div>
-                        <br/>
-                    </section>
-                    <SimpleMap/>
+                            className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                            type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = '/actualite-digitale/';
+                            }}
+                        >ACCÉDER AU BLOG</button>
+                    </div>
+                    <br />
+                </section>
+                <SimpleMap />
                 {/* </PageTransition> */}
             </Layout>
         );
@@ -742,7 +742,7 @@ class AgenceDigitaleToulouse extends Component {
 
 export const query = graphql`
 query lastsThreePostsAgenceDigitale {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -751,8 +751,10 @@ query lastsThreePostsAgenceDigitale {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            node {
+                sourceUrl
+            }
           }
         }
       }

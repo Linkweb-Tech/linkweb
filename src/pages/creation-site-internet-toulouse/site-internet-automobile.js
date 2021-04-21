@@ -7,7 +7,7 @@ import RoundButtonAccueil from "../../components/roundButtonAccueil";
 import RoundButtonAccueilMail from "../../components/roundButtonAccueilMail";
 import RoundButton from "../../components/roundButton";
 
-import CarouselAutomobile from "../../components/carousel-slides/automobile-slides"
+
 
 import Accordion from "../../components/accordion";
 import SEO from "../../components/seo";
@@ -25,7 +25,7 @@ import realisation2 from "../../images/jl-automobiles.jpg";
 import realisation3 from "../../images/midi-pneu-occaz.jpg";
 import map from "../../images/map.jpg";
 
-
+import CarouselAutomobile from "../../components/carousel-slides/automobile-slides";
 
 class SiteInternetAutomobile extends Component {
 
@@ -433,7 +433,7 @@ class SiteInternetAutomobile extends Component {
 
 export const query = graphql`
 query lastsThreePostsSiteInternetAutomobile {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -442,8 +442,12 @@ query lastsThreePostsSiteInternetAutomobile {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            featuredImage {
+                node {
+                    sourceUrl
+                }
+            }
           }
         }
       }

@@ -9,14 +9,14 @@ import LastPosts from '../components/lastposts';
 const BlogCatTemplate = ({ data }) => (
     <Layout location={data.wordpressPost.title}>
         {/* <SEO title={data.wordpressPost.title} description={data.wordpressPost.excerpt} /> */}
-        <LastPosts lastposts={this.props.data.allWordpressPost.edges} />
-        
+        <LastPosts lastposts={this.props.data.allWpPost.edges} />
+
     </Layout>
 )
 export default BlogCatTemplate
 export const query = graphql`
   query {
-    allWordpressPost {
+    allWpPost {
         edges {
             node {
             id
@@ -24,8 +24,12 @@ export const query = graphql`
             slug
             modified(locale: "fr", formatString: "ddd MM YYYY")
             link
-            featured_media {
-                source_url
+            featuredImage {
+                featuredImage {
+            node {
+                sourceUrl
+            }
+          }
             }
             }
         }

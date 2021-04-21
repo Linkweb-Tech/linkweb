@@ -64,7 +64,7 @@ class StrategieDigitaleToulouse extends Component {
                         <br />
                         <h2 className="flex mb-16 full lg:w-3/5 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Libérez-vous des frontières pour propulser votre communication digitale.</h2>
                         {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
-                        
+
                     </div>
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
@@ -74,174 +74,174 @@ class StrategieDigitaleToulouse extends Component {
                         <p className="px-8 lg:px-16 text-white text-center century text-md">Notre <Link to="/agence-digitale-toulouse/" className="text-black hover:text-white font-bold"><strong className="font-normal">agence digitale à Toulouse</strong></Link> est compétente dans le développement de solution fonctionnelle et performante pour vous permettre d’atteindre vos <strong className="font-normal">objectifs de communication</strong> et commerciaux.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
-                        <button
-                            className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
-                            type="button"
-                            onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href='/contact-agence-web-toulouse/';
-                            }}
-                        >Demander un devis</button>
+                            <button
+                                className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
+                                type="button"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = '/contact-agence-web-toulouse/';
+                                }}
+                            >Demander un devis</button>
                             {/* <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" color="darkgrey" text="Je demande un devis" /> */}
                         </div>
                     </div>
                 </section>
                 <section className="w-full lg:w-3/5 px-10 mt-16 lg:-mt-48 mb-16 lg:mb-48">
-                    <br/>
+                    <br />
                     <h3 className="century text-xl text-center">
                         La stratégie digitale est efficace pour mettre en avant son entreprise sur le Web.
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">À quels objectifs répond la mise en place d’une stratégie digitale d’entreprise ?</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">La communication en ligne est un parfait moyen pour développer la présence de son entreprise hors des frontières terrestres.</h3>
-                        </div>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">À quels objectifs répond la mise en place d’une stratégie digitale d’entreprise ?</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">La communication en ligne est un parfait moyen pour développer la présence de son entreprise hors des frontières terrestres.</h3>
+                    </div>
                 </section>
                 <section className="w-full my-10 flex flex-col lg:flex-row">
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + siteinternet + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span className="font-bold text-5xl md:text-6xl">VISIBILITÉ</span></h3>
-                        <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">En déployant votre présence sur <strong className="font-normal">Internet</strong>, l’un des premiers objectifs va être d’<strong className="font-normal">obtenir de la visibilité</strong>. Si le <strong className="font-normal">site web</strong> est garant de crédibilité pour une entreprise, ceci est insuffisant pour espérer obtenir tout ce que la <strong className="font-normal">communication web</strong> peut vous apporter. La mise en place de techniques d’acquisition de <strong className="font-normal">visibilité</strong> va donc être nécessaire. 
-                            <br/><br/>Ceci est la première étape visant de <strong className="font-normal">générer du trafic sur son site web</strong> en vue d’interagir avec les utilisateurs. De plus, il faut savoir que la <strong className="font-normal">communication web</strong> regorge de techniques d’acquisition de visibilité, par sponsorisation, comme par voie naturelle.</p>
+                        <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">En déployant votre présence sur <strong className="font-normal">Internet</strong>, l’un des premiers objectifs va être d’<strong className="font-normal">obtenir de la visibilité</strong>. Si le <strong className="font-normal">site web</strong> est garant de crédibilité pour une entreprise, ceci est insuffisant pour espérer obtenir tout ce que la <strong className="font-normal">communication web</strong> peut vous apporter. La mise en place de techniques d’acquisition de <strong className="font-normal">visibilité</strong> va donc être nécessaire.
+                            <br /><br />Ceci est la première étape visant de <strong className="font-normal">générer du trafic sur son site web</strong> en vue d’interagir avec les utilisateurs. De plus, il faut savoir que la <strong className="font-normal">communication web</strong> regorge de techniques d’acquisition de visibilité, par sponsorisation, comme par voie naturelle.</p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + referencement + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span className="font-bold text-6xl">NOTORIÉTÉ</span></h3>
                         <p className="text century text-lg lg:text-sm xl:text-lg">Outre la visibilité, la mise en place d’une <strong className="font-normal">stratégie digitale</strong> a pour objectif de vous procurer de la notoriété. En développant la <strong className="font-normal">visibilité de votre société sur le web</strong> et en communiquant au bon endroit auprès des bonnes personnes, notre objectif est de faire connaître votre société.
-                        <br/><br/>Se faire connaître auprès d’un public ciblé est envisageable à l’échelle nationale, comme dans toute les localités de France. Nous nous chargeons de définir les priorités en termes de ciblage en fonction des opportunités qui se présentent sur votre marché, en fonction de vos besoins, mais également de la concurrence. La formation de votre <strong className="font-normal">notoriété en ligne</strong> fait partie de nos compétences.
+                        <br /><br />Se faire connaître auprès d’un public ciblé est envisageable à l’échelle nationale, comme dans toute les localités de France. Nous nous chargeons de définir les priorités en termes de ciblage en fonction des opportunités qui se présentent sur votre marché, en fonction de vos besoins, mais également de la concurrence. La formation de votre <strong className="font-normal">notoriété en ligne</strong> fait partie de nos compétences.
                         </p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + webdesign + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span className="font-bold text-6xl">CONVERSION</span></h3>
                         <p className="text century text-lg lg:text-sm xl:text-lg">Faire connaître votre <strong className="font-normal">entreprise</strong> auprès d’une population cible n’est qu’une étape de votre <strong className="font-normal">stratégie digitale</strong>. En effet, cette dernière exige la mise en place de procédés spécifiques pour mener votre <strong className="font-normal">stratégie de l’acquisition de visibilité</strong>, jusqu’à l’obtention de contacts prospects qualifiés et la réalisation de vos objectifs commerciaux.
-                        <br/><br/>En effet, cette démarche a pour but de vous mettre en relation avec une <strong className="font-normal">portion des visiteurs de votre site</strong> pour lesquels votre société apparaîtra comme une solution à leur besoin. Ceci est le fruit du long terme. C’est pourquoi, le suivi réalisé ne doit pas être négligé afin de comprendre au mieux qui sont vos utilisateurs afin de communiquer envers eux de manière efficace.</p>
+                        <br /><br />En effet, cette démarche a pour but de vous mettre en relation avec une <strong className="font-normal">portion des visiteurs de votre site</strong> pour lesquels votre société apparaîtra comme une solution à leur besoin. Ceci est le fruit du long terme. C’est pourquoi, le suivi réalisé ne doit pas être négligé afin de comprendre au mieux qui sont vos utilisateurs afin de communiquer envers eux de manière efficace.</p>
                     </div>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Les cinq étapes de la stratégie digitale</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">La définition d’une stratégie de marketing digital efficace nécessite le respect d’une démarche bien précise.</h3>
-                        </div>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Les cinq étapes de la stratégie digitale</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">La définition d’une stratégie de marketing digital efficace nécessite le respect d’une démarche bien précise.</h3>
+                    </div>
                 </section>
                 <section className="phototext mb-24">
                     <section className="w-full  my-10 flex flex-col lg:flex-row items-center justify-start">
-                <div className="w-full flex justify-center items-center lg:w-5/12">
-                    <img className="w-full" src={mac} alt="Comment choisir son agence de communication web"/>
-                </div>
-                <div className="w-full lg:w-1/2 my-10  flex flex-col">
-                    <div className="w-full flex-col md:flex-row flex px-auto">
-                        <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
-                            <p className="text-center">1</p>
+                        <div className="w-full flex justify-center items-center lg:w-5/12">
+                            <img className="w-full" src={mac} alt="Comment choisir son agence de communication web" />
                         </div>
-                        <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
-                                <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>ÉTUDE DE CONTEXTE
+                        <div className="w-full lg:w-1/2 my-10  flex flex-col">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
+                                    <p className="text-center">1</p>
+                                </div>
+                                <div className="w-full px-6 lg:px-6 flex flex-col justify-center">
+                                    <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
+                                        <span className="text-bleu">/</span>ÉTUDE DE CONTEXTE
                                 </h3>
-                                <br/>
-                                <h4 className="century"><span className="font-bold">Dès lors qu’il est question de mener un projet digital, il est indispensable de réaliser une étude contextuelle.</span></h4>
-                                <br/>
-                                <p className="w-full century pb-4 text-justify">Comprendre le marché et le secteur sur lesquels s’inscrit un produit est nécessaire pour définir les opportunités qui s’offrent à vous dans le cadre de la <strong className="font-normal">mise en place de votre projet</strong>. Ceci permet également d’analyser les éventuels risques et menaces qui pourraient entraver votre incursion sur le marché en question.</p>
-                               
-                                {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
-                        </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">2</p>
+                                    <br />
+                                    <h4 className="century"><span className="font-bold">Dès lors qu’il est question de mener un projet digital, il est indispensable de réaliser une étude contextuelle.</span></h4>
+                                    <br />
+                                    <p className="w-full century pb-4 text-justify">Comprendre le marché et le secteur sur lesquels s’inscrit un produit est nécessaire pour définir les opportunités qui s’offrent à vous dans le cadre de la <strong className="font-normal">mise en place de votre projet</strong>. Ceci permet également d’analyser les éventuels risques et menaces qui pourraient entraver votre incursion sur le marché en question.</p>
+
+                                    {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">2</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>DÉFINITION DES CIBLES ET OBJECTIFS
                                     </h3>
-                                    <br/>
+                                    <br />
                                     <h4 className="century"><span className="font-bold">Toute communication doit être élaborée pour s’adresser à un public destiné dans un but bien précis.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La <strong className="font-normal">définition des cibles</strong> et des objectifs est une phase fondamentale du développement d’un <strong className="font-normal">projet digital</strong>. En effet, il est indispensable de bien connaître son audience en vue de lui proposer un message adapté sur la forme comme sur le fond. Enfin, cette <strong className="font-normal">communication</strong> ne peut être dénuée d’objectifs. La formation du cadrage stratégique est indispensable à la réussite de vos <strong className="font-normal">projets de marketing digital</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">3</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">3</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>CONCEPTION D’UN PLAN D’ACTIONS
                                     </h3>
-                                    <br/>
+                                    <br />
                                     <h4 className="century"><span className="font-bold">Une fois le cadrage de votre projet réalisé, il est nécessaire de définir un plan d’actions cohérent en vue de parvenir à vos fins.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La formation d’un <strong className="font-normal">plan d’actions</strong> cohérent vis-à-vis de vos objectifs et de cibles doit vous permettre la mise en place d’actions efficaces en direction des utilisateurs. Elles doivent vous permettre de parvenir à vos <strong className="font-normal">objectifs de visibilité</strong>, de <strong className="font-normal">notoriété</strong>, voire d’image. C’est pourquoi, ce dernier doit être minutieusement réfléchi.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">4</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">4</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>LANCEMENT DE LA STRATÉGIE
                                     </h3>
                                     <h4 className="century"><span className="font-bold">La validation du plan d’actions entraîne le lancement de la stratégie à partir des différents supports sélectionnés.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Le lancement de votre <strong className="font-normal">stratégi</strong>e doit suivre scrupuleusement le rétro planning défini lors de la phase de conception. En effet, la formation de votre <strong className="font-normal">stratégie de communication</strong> s’établit dans le temps. Un expert <strong className="font-normal">chef de projet en <Link to="/agence-web-montauban/" className="text-bleu hover:text-black font-bold">agences de communication</Link></strong> est compétent pour la gestion de votre <strong className="font-normal">projet de communication</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-full flex-col md:flex-row flex px-auto">
-                            <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
-                                <p className="text-center">5</p>
-                            </div>
-                            <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
+                            <div className="w-full flex-col md:flex-row flex px-auto">
+                                <div className="w-full md:w-1/4 blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
+                                    <p className="text-center">5</p>
+                                </div>
+                                <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>SUIVI ET ANALYSE
                                     </h3>
                                     <h4 className="century"><span className="font-bold">Dès la phase de conception stratégique, des méthodes d’évaluation et d’analyse doivent être définies.</span></h4>
-                                    <br/>
+                                    <br />
                                     <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Il est indispensable de définir des objectifs mesurables et quantifiables pour juger de la performance de son projet. Cette évaluation perpétuelle ainsi que le travail d’analyse sont indispensables dans le cadre du suivi de votre <strong className="font-normal">projet marketing</strong> afin d’adapter votre message en fonction des premières interactions avec les <strong className="font-normal">utilisateurs</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
+                                </div>
                             </div>
                         </div>
+                    </section>
+                </section>
+                <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Les moteurs de la stratégie digitale d’entreprise</h2>
+                    <br />
+                    <div className="line-title my-4">
+                        <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
+                        <br />
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">La mise en place d’un projet de marketing digital repose sur la mobilisation de supports de communication performants.</h3>
                     </div>
-            </section>
-            </section>
-            <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                        <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Les moteurs de la stratégie digitale d’entreprise</h2>
-                        <br/>
-                        <div className="line-title my-4">
-                            <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
-                            <br/>
-                            <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">La mise en place d’un projet de marketing digital repose sur la mobilisation de supports de communication performants.</h3>
-                        </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-24">
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                             <div className="w-full" label="LA CRÉATION D’UN SITE INTERNET PERFORMANT">
                                 <p>Obtenir de la <strong className="font-normal">visibilité</strong> et de la <strong className="font-normal">notoriété sur le Web</strong> nécessite d’employer des <strong className="font-normal">outils de communication</strong> performants. En ce sens, le <strong className="font-normal">site web</strong> est un réel moteur dans le cadre d’une <strong className="font-normal">stratégie de webmarketing</strong>. En effet, le <strong className="font-normal">développement d’un site</strong> fait partie des solutions qui vont vous permettre de maîtriser votre <strong className="font-normal">communication</strong>, tout en tirant profit de la visibilité offerte par les différents <strong className="font-normal">canaux d’acquisition de trafic</strong> tels que les <strong className="font-normal">moteurs de recherche</strong>.
-                                    <br/><br/>
+                                    <br /><br />
                                     Un <strong className="font-normal">site</strong> bien construit (au niveau de son <strong className="font-normal">design</strong> comme de son arborescence) peut constituer un moteur pour votre projet en vue de développer votre <strong className="font-normal">visibilité</strong> ainsi que votre notoriété dans toute la <strong className="font-normal">France</strong> dans le but de transformer vos visiteurs en <strong className="font-normal">clients potentiels</strong>.
-                                    <br/><br/>Il existe une solution pour tous les professionnels à travers la <strong className="font-normal">production de sites web</strong> ainsi que de plateformes visant à la transition numérique au niveau professionnel.
+                                    <br /><br />Il existe une solution pour tous les professionnels à travers la <strong className="font-normal">production de sites web</strong> ainsi que de plateformes visant à la transition numérique au niveau professionnel.
                                 </p>
-                            </div>  
+                            </div>
                             <div label="LES MOTEURS DE RECHERCHE">
                                 <p>En fonction de votre secteur d’activité et du marché sur lequel votre <strong className="font-normal">société</strong> s’inscrit, la mobilisation des <strong className="font-normal">moteurs de recherche comme Google</strong> peut s’avérer fructueuse. En effet, le <strong className="font-normal">trafic organique</strong> fait partie des principales sources de trafic pour une plateforme <strong className="font-normal">en ligne</strong>. Où que vous soyez en <strong className="font-normal">France</strong> et quelque soit la taille de votre société, il existe des solutions pour toutes les <strong className="font-normal">entreprises</strong>.
-                                    <br/><br/>
+                                    <br /><br />
                                     Notre <Link to="/web-agency-toulouse/" className="text-bleu font-bold hover:text-black"><strong className="font-normal">agence</strong></Link> possède toutes les compétences pour vous délivrer un <strong className="font-normal">plan stratégique</strong> adapté à vos ambitions, cibles et besoins. Obtenir de la <strong className="font-normal">visibilité</strong> au niveau de requêtes à fort volume de recherche sur les <strong className="font-normal">moteurs</strong> est totalement possible.
-                                    <br/><br/>
+                                    <br /><br />
                                     Le <strong className="font-normal">marketing digital</strong> regorge d’opportunités pour les professionnels de tous secteurs souhaitant développer leur <strong className="font-normal">présence en ligne</strong>.
                                 </p>
                             </div>
                             <div label="LES RÉSEAUX SOCIAUX">
                                 <p>Si votre axe stratégique est basé sur les <strong className="font-normal">réseaux sociaux (social média marketing)</strong> et non sur les <strong className="font-normal">sites web</strong>, il faut savoir qu’ils constituent également une forte opportunité de visibilité. En effet, bien connaître les différents <strong className="font-normal">réseaux</strong> existants permet de définir celui sur lequel votre cible se trouve et donc sur lequel il sera plus propice, pour vous, de communiquer.
-                                    <br/><br/>En fonction des entreprises et de leurs publics cibles, les médias sociaux pourront constituer une opportunité de choix en vue de faire connaître sa société et son produit ou bien de travailler son image de marque auprès de millions d’utilisateurs.
-                                    <br/><br/>En fonction de vos <strong className="font-normal">projets</strong>, de vos besoins et des personnes auprès desquelles vous souhaitez vous adresser, tous les outils et <strong className="font-normal">supports de communication</strong> ne sont pas adaptés. <strong className="font-normal">Linkweb</strong> fait partie des <strong className="font-normal"><Link to="/agence-web-ramonville/" className="font-bold text-bleu hover:text-black">agences</Link></strong> qui, par l’intervention d’un expert, définit une solution pertinente pour vous.
+                                    <br /><br />En fonction des entreprises et de leurs publics cibles, les médias sociaux pourront constituer une opportunité de choix en vue de faire connaître sa société et son produit ou bien de travailler son image de marque auprès de millions d’utilisateurs.
+                                    <br /><br />En fonction de vos <strong className="font-normal">projets</strong>, de vos besoins et des personnes auprès desquelles vous souhaitez vous adresser, tous les outils et <strong className="font-normal">supports de communication</strong> ne sont pas adaptés. <strong className="font-normal">Linkweb</strong> fait partie des <strong className="font-normal"><Link to="/agence-web-ramonville/" className="font-bold text-bleu hover:text-black">agences</Link></strong> qui, par l’intervention d’un expert, définit une solution pertinente pour vous.
                             </p>
                             </div>
                         </Accordion>
@@ -290,7 +290,7 @@ class StrategieDigitaleToulouse extends Component {
 
 export const query = graphql`
 query lastsThreePostsStrategieDigitaleToulouse {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -299,8 +299,10 @@ query lastsThreePostsStrategieDigitaleToulouse {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            node {
+                sourceUrl
+            }
           }
         }
       }

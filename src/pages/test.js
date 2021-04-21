@@ -23,13 +23,13 @@ class Test extends Component {
     }
 
     componentDidMount() {
-        // this.props.data.allWordpressPost.edges.map(({ node }) => (
+        // this.props.data.allWpPost.edges.map(({ node }) => (
         //     if(node.categories[0] === 'Agence') {
         //         agence >> node.path
         //     }
         // ))
 
-        Object.entries(this.props.data.allWordpressPost.edges).forEach(element => {
+        Object.entries(this.props.data.allWpPost.edges).forEach(element => {
             switch (element[1].node.categories[0].name) {
                 case 'Agence':
                     this.setState(state => {
@@ -215,7 +215,7 @@ class Test extends Component {
 
 export const query = graphql`
   {
-    allWordpressPost(sort: {order: ASC, fields: date}) {
+    allWpPost(sort: {order: ASC, fields: date}) {
       edges {
         node {
           path

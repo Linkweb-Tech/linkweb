@@ -114,22 +114,22 @@ class SiteInternetMacon extends Component {
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
                     <div className="w-11/12 lg:w-1/3 bg-white shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
-                        <svg width="80px" className="mx-auto block" viewBox="0 0 100 125"><rect x="10" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20" height="9.998"/><rect x="29.999" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/><rect x="50" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/><rect x="70.001" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/><rect x="20" y="60.002" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="19.999" height="9.997"/><rect x="39.999" y="60.002" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.997"/><rect x="60" y="60.002" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.997"/><rect x="10" y="30" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20" height="10"/><rect x="29.999" y="30" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="50" y="30" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="20" y="40" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="19.999" height="10"/><rect x="39.999" y="40" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="60" y="40" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="29.999" y="10" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="50" y="10" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="39.999" y="20" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="60" y="20" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10"/><rect x="29.999" y="69.999" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/><rect x="50" y="69.999" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/><rect x="70.001" y="69.999" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/><rect x="39.999" y="80.001" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/><rect x="60" y="80.001" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998"/></svg>
+                        <svg width="80px" className="mx-auto block" viewBox="0 0 100 125"><rect x="10" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20" height="9.998" /><rect x="29.999" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /><rect x="50" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /><rect x="70.001" y="50" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /><rect x="20" y="60.002" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="19.999" height="9.997" /><rect x="39.999" y="60.002" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.997" /><rect x="60" y="60.002" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.997" /><rect x="10" y="30" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20" height="10" /><rect x="29.999" y="30" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="50" y="30" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="20" y="40" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="19.999" height="10" /><rect x="39.999" y="40" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="60" y="40" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="29.999" y="10" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="50" y="10" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="39.999" y="20" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="60" y="20" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="10" /><rect x="29.999" y="69.999" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /><rect x="50" y="69.999" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /><rect x="70.001" y="69.999" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /><rect x="39.999" y="80.001" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /><rect x="60" y="80.001" fill="none" stroke="#37cfee" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="20.001" height="9.998" /></svg>
                         <h2 className="flex text-black justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Vous êtes un <span className="text-bleu">{this.state.metier}</span>&nbsp;?</span></h2>
                         <br />
                         <p className="px-8 lg:px-16 text-center century text-md">Vous souhaitez <strong className="font-normal">créer un site internet</strong> pour votre entreprise ?<br /> <strong className="font-normal">Linkweb</strong> vous accompagne dans la mise en oeuvre de votre <strong className="font-normal">projet web</strong> pour répondre à vos objectifs.</p>
                         <br />
                         <div className="flex flex-col md:flex-row text-center pb-6 century px-2 lg:px-5 text-sm">
                             <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                                <svg width="60px" className="mx-auto block" viewBox="0 0 100 125" fill="#37cfee"><g><path fill="#37cfee" d="M68.6,35.7H15.2V30h53.4V35.7z M16.2,34.7h51.4V31H16.2V34.7z"/></g><g><rect x="71.4" y="30.5" width="11.2" height="4.7"/><path fill="#37cfee" d="M83.1,35.7H70.9V30h12.2V35.7z M71.9,34.7h10.2V31H71.9V34.7z"/></g><g><path fill="#37cfee" d="M20.2,47.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,47.7,20.2,47.7z"/></g><g><path fill="#37cfee" d="M80.6,47.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h56.8c0.3,0,0.5,0.2,0.5,0.5S80.9,47.2,80.6,47.2z"/></g><g><path fill="#37cfee" d="M20.2,52.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,52.7,20.2,52.7z"/></g><g><path fill="#37cfee" d="M67.1,52.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h43.4c0.3,0,0.5,0.2,0.5,0.5S67.4,52.2,67.1,52.2z"/></g><g><path fill="#37cfee" d="M20.2,57.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,57.7,20.2,57.7z"/></g><g><path fill="#37cfee" d="M58,57.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5H58c0.3,0,0.5,0.2,0.5,0.5S58.3,57.2,58,57.2z"/></g><g><path fill="#37cfee" d="M20.2,63.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,63.7,20.2,63.7z"/></g><g><path fill="#37cfee" d="M80.6,63.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h56.8c0.3,0,0.5,0.2,0.5,0.5S80.9,63.2,80.6,63.2z"/></g><g><path fill="#37cfee" d="M20.2,68.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,68.7,20.2,68.7z"/></g><g><path fill="#37cfee" d="M80.6,68.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h56.8c0.3,0,0.5,0.2,0.5,0.5S80.9,68.2,80.6,68.2z"/></g><g><path fill="#37cfee" d="M20.2,73.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,73.7,20.2,73.7z"/></g><g><path fill="#37cfee" d="M76,73.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5H76c0.3,0,0.5,0.2,0.5,0.5S76.3,73.2,76,73.2z"/></g><g><path fill="#37cfee" d="M20.2,79.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,79.7,20.2,79.7z"/></g><g><path fill="#37cfee" d="M40.9,79.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h17.2c0.3,0,0.5,0.2,0.5,0.5S41.2,79.2,40.9,79.2z"/></g><g><path fill="#37cfee" d="M93,88H7V22h86V88z M9,86h82V24H9V86z"/></g><g><path fill="#37cfee" d="M93,24H7v-9.2c0-1.7,1.8-2.8,3.4-2.8h79.2c1.6,0,3.4,1.1,3.4,2.8V24z M9,22h82v-7.2c0-0.4-0.7-0.8-1.4-0.8   H10.4C9.7,14,9,14.4,9,14.8V22z"/></g><g><circle fill="#37cfee" cx="14.2" cy="17.8" r="1.5"/></g><g><circle fill="#37cfee" cx="19.2" cy="17.8" r="1.5"/></g><g><circle fill="#37cfee" cx="24.2" cy="17.8" r="1.5"/></g></svg>
+                                <svg width="60px" className="mx-auto block" viewBox="0 0 100 125" fill="#37cfee"><g><path fill="#37cfee" d="M68.6,35.7H15.2V30h53.4V35.7z M16.2,34.7h51.4V31H16.2V34.7z" /></g><g><rect x="71.4" y="30.5" width="11.2" height="4.7" /><path fill="#37cfee" d="M83.1,35.7H70.9V30h12.2V35.7z M71.9,34.7h10.2V31H71.9V34.7z" /></g><g><path fill="#37cfee" d="M20.2,47.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,47.7,20.2,47.7z" /></g><g><path fill="#37cfee" d="M80.6,47.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h56.8c0.3,0,0.5,0.2,0.5,0.5S80.9,47.2,80.6,47.2z" /></g><g><path fill="#37cfee" d="M20.2,52.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,52.7,20.2,52.7z" /></g><g><path fill="#37cfee" d="M67.1,52.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h43.4c0.3,0,0.5,0.2,0.5,0.5S67.4,52.2,67.1,52.2z" /></g><g><path fill="#37cfee" d="M20.2,57.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,57.7,20.2,57.7z" /></g><g><path fill="#37cfee" d="M58,57.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5H58c0.3,0,0.5,0.2,0.5,0.5S58.3,57.2,58,57.2z" /></g><g><path fill="#37cfee" d="M20.2,63.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,63.7,20.2,63.7z" /></g><g><path fill="#37cfee" d="M80.6,63.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h56.8c0.3,0,0.5,0.2,0.5,0.5S80.9,63.2,80.6,63.2z" /></g><g><path fill="#37cfee" d="M20.2,68.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,68.7,20.2,68.7z" /></g><g><path fill="#37cfee" d="M80.6,68.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h56.8c0.3,0,0.5,0.2,0.5,0.5S80.9,68.2,80.6,68.2z" /></g><g><path fill="#37cfee" d="M20.2,73.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,73.7,20.2,73.7z" /></g><g><path fill="#37cfee" d="M76,73.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5H76c0.3,0,0.5,0.2,0.5,0.5S76.3,73.2,76,73.2z" /></g><g><path fill="#37cfee" d="M20.2,79.7h-3.5c-0.6,0-1-0.4-1-1s0.4-1,1-1h3.5c0.6,0,1,0.4,1,1S20.8,79.7,20.2,79.7z" /></g><g><path fill="#37cfee" d="M40.9,79.2H23.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h17.2c0.3,0,0.5,0.2,0.5,0.5S41.2,79.2,40.9,79.2z" /></g><g><path fill="#37cfee" d="M93,88H7V22h86V88z M9,86h82V24H9V86z" /></g><g><path fill="#37cfee" d="M93,24H7v-9.2c0-1.7,1.8-2.8,3.4-2.8h79.2c1.6,0,3.4,1.1,3.4,2.8V24z M9,22h82v-7.2c0-0.4-0.7-0.8-1.4-0.8   H10.4C9.7,14,9,14.4,9,14.8V22z" /></g><g><circle fill="#37cfee" cx="14.2" cy="17.8" r="1.5" /></g><g><circle fill="#37cfee" cx="19.2" cy="17.8" r="1.5" /></g><g><circle fill="#37cfee" cx="24.2" cy="17.8" r="1.5" /></g></svg>
                                 <h4>Création d'un site internet original et unique</h4>
                             </div>
                             <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                            <svg width="60px" className="mx-auto block my-4" fill="#37cfee" viewBox="0 0 243 187.5" ><defs></defs><g><polygon class="fil0" points="0,140 92,61 139,116 215,21 193,27 189,14 243,0 238,54 225,52 227,28 139,137 91,80 9,150 "/></g></svg>
+                                <svg width="60px" className="mx-auto block my-4" fill="#37cfee" viewBox="0 0 243 187.5" ><defs></defs><g><polygon class="fil0" points="0,140 92,61 139,116 215,21 193,27 189,14 243,0 238,54 225,52 227,28 139,137 91,80 9,150 " /></g></svg>
                                 <h4>Optimisations pour le référencement naturel local</h4>
                             </div>
                             <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                            <svg width="60px" className="mx-auto block" fill="#37cfee" viewBox="0 0 100 125" ><path d="M68.7,40.3l26.8-26.8l-8.7-8.7L62.9,28.6L54.1,11c-0.8-1.5-2.7-2-4.2-1.1c-1.5,0.8-2,2.7-1.1,4.2l11.4,17.2L50.5,41  l-9.4-9.4l9-13.6l-2.6-3.9c-0.7-1.2-0.5-2.7,0.5-3.7c-0.3,0.2-0.6,0.6-0.9,0.9l-8.8,17.6L14.2,4.7l-8.7,8.7l27.1,27.1l-7.9,15.8  l9.4-14.3l16.4,16.4l16.7-16.7L76.6,56L68.7,40.3z M51.5,13.9c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5  C53,13.3,52.3,13.9,51.5,13.9z"/><path d="M29.2,65.4c0.3,1.4,0.5,3.1,0.8,4.6c0.2,0.8,0.3,1.7-0.1,2.5c-0.2,0.5,0.2,0.7,0.4,0.9c1.3,1,2.6,2,3.9,2.9  c0.2,0.1,0.3,0.3,0.6,0.5c-0.3,0.2-0.5,0.3-0.8,0.4c-3.3,1.5-16.7,7.6-20.2,9.1c-0.4,0.2-0.7,0.2-1-0.1C11.2,84.7,6.6,80.6,6,80  c-0.5-0.5-0.5-0.6,0.1-1c1.1-0.6,16.9-9.8,17.6-10.2c0.3-0.2,0.6-0.2,0.9,0c1.1,0.9,3.7,2.8,3.9,2.9c0.1-0.3,0.3-0.6,0.2-0.8  c-0.2-1.2-0.3-2.5-0.7-3.7c-0.3-1.2-0.3-2.4-0.1-3.5c0.1-0.7,0.6-1.3,1.1-1.9c2-2.4,8.6-7.5,9.9-8.4c1-0.7,1.8-0.5,2.7,0.5  c0.8,0.9,0.9,1.8,0,2.6c-2.4,2.1-8.8,6.9-11,8.3C30.4,65.1,29.8,65.3,29.2,65.4z"/><rect x="59.1" y="58.2" width="11.1" height="4.5"/><rect x="52.7" y="64.2" width="11.1" height="4.5"/><rect x="65.5" y="64.2" width="11.1" height="4.5"/><rect x="46.3" y="70.1" width="11.1" height="4.5"/><rect x="59.1" y="70.1" width="11.1" height="4.5"/><rect x="72" y="70.1" width="11.1" height="4.5"/><rect x="39.8" y="76.4" width="11.1" height="4.5"/><rect x="52.7" y="76.4" width="11.1" height="4.5"/><rect x="65.5" y="76.4" width="11.1" height="4.5"/><rect x="78.4" y="76.4" width="11.1" height="4.5"/><rect x="33.5" y="82.5" width="11.1" height="4.5"/><rect x="46.3" y="82.5" width="11.1" height="4.5"/><rect x="59.2" y="82.5" width="11.1" height="4.5"/><rect x="72" y="82.5" width="11.1" height="4.5"/><rect x="84.7" y="82.5" width="11.1" height="4.5"/></svg>
+                                <svg width="60px" className="mx-auto block" fill="#37cfee" viewBox="0 0 100 125" ><path d="M68.7,40.3l26.8-26.8l-8.7-8.7L62.9,28.6L54.1,11c-0.8-1.5-2.7-2-4.2-1.1c-1.5,0.8-2,2.7-1.1,4.2l11.4,17.2L50.5,41  l-9.4-9.4l9-13.6l-2.6-3.9c-0.7-1.2-0.5-2.7,0.5-3.7c-0.3,0.2-0.6,0.6-0.9,0.9l-8.8,17.6L14.2,4.7l-8.7,8.7l27.1,27.1l-7.9,15.8  l9.4-14.3l16.4,16.4l16.7-16.7L76.6,56L68.7,40.3z M51.5,13.9c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5  C53,13.3,52.3,13.9,51.5,13.9z" /><path d="M29.2,65.4c0.3,1.4,0.5,3.1,0.8,4.6c0.2,0.8,0.3,1.7-0.1,2.5c-0.2,0.5,0.2,0.7,0.4,0.9c1.3,1,2.6,2,3.9,2.9  c0.2,0.1,0.3,0.3,0.6,0.5c-0.3,0.2-0.5,0.3-0.8,0.4c-3.3,1.5-16.7,7.6-20.2,9.1c-0.4,0.2-0.7,0.2-1-0.1C11.2,84.7,6.6,80.6,6,80  c-0.5-0.5-0.5-0.6,0.1-1c1.1-0.6,16.9-9.8,17.6-10.2c0.3-0.2,0.6-0.2,0.9,0c1.1,0.9,3.7,2.8,3.9,2.9c0.1-0.3,0.3-0.6,0.2-0.8  c-0.2-1.2-0.3-2.5-0.7-3.7c-0.3-1.2-0.3-2.4-0.1-3.5c0.1-0.7,0.6-1.3,1.1-1.9c2-2.4,8.6-7.5,9.9-8.4c1-0.7,1.8-0.5,2.7,0.5  c0.8,0.9,0.9,1.8,0,2.6c-2.4,2.1-8.8,6.9-11,8.3C30.4,65.1,29.8,65.3,29.2,65.4z" /><rect x="59.1" y="58.2" width="11.1" height="4.5" /><rect x="52.7" y="64.2" width="11.1" height="4.5" /><rect x="65.5" y="64.2" width="11.1" height="4.5" /><rect x="46.3" y="70.1" width="11.1" height="4.5" /><rect x="59.1" y="70.1" width="11.1" height="4.5" /><rect x="72" y="70.1" width="11.1" height="4.5" /><rect x="39.8" y="76.4" width="11.1" height="4.5" /><rect x="52.7" y="76.4" width="11.1" height="4.5" /><rect x="65.5" y="76.4" width="11.1" height="4.5" /><rect x="78.4" y="76.4" width="11.1" height="4.5" /><rect x="33.5" y="82.5" width="11.1" height="4.5" /><rect x="46.3" y="82.5" width="11.1" height="4.5" /><rect x="59.2" y="82.5" width="11.1" height="4.5" /><rect x="72" y="82.5" width="11.1" height="4.5" /><rect x="84.7" y="82.5" width="11.1" height="4.5" /></svg>
                                 <h4>Présentation de vos prestations</h4>
                             </div>
                         </div>
@@ -178,7 +178,7 @@ class SiteInternetMacon extends Component {
                 <section className="flex justify-center flex-col items-center">
                     <div className="w-full flex justify-center flex-col md:flex-row lg:w-3/4 mt-5">
                         <div className="w-full -mt-2 md:w-1/4 mx-auto px-2 mb-10 md:mb-0 century text-center">
-                            <svg width="60px" className="mx-auto block" viewBox="0 0 100 125"><g><path fill="none" stroke-width="2" stroke="#37cfee" d="M37.924,72.5c-3.248,0-3.985-1.851-1.639-4.096l16.046-15.357   c2.348-2.246,6.521-2.676,9.273-0.953l27.566,17.262c2.754,1.723,2.35,3.145-0.898,3.145H37.924z"/><path fill="none" stroke-width="2" stroke="#37cfee" stroke-miterlimit="10" d="M31.221,38.021c0.319-0.909,1.253-1.387,2.162-1.067l1.623,0.595   c-0.236-1.046-0.977-1.957-2.056-2.362l-19.814-7.448c-0.383-0.144-0.774-0.212-1.16-0.212c-1.335,0-2.591,0.816-3.088,2.139   c-0.641,1.705,0.222,3.607,1.927,4.248l19.815,7.448c0.382,0.144,0.774,0.212,1.16,0.212c0.754,0,1.482-0.18,2.063-0.645   l-1.583-0.683C31.361,39.926,30.9,38.93,31.221,38.021z"/><path fill="none" stroke-width="2" stroke="#37cfee" d="M38.927,55.349V39.059l-4.02-1.51l-1.574-0.595   c-0.908-0.319-1.817,0.158-2.137,1.067c-0.32,0.909,0.152,1.905,1.062,2.224l3.669,1.57v3.08v13.211l8.036,2.949l2.829-2.708   L38.927,55.349z"/></g></svg>
+                            <svg width="60px" className="mx-auto block" viewBox="0 0 100 125"><g><path fill="none" stroke-width="2" stroke="#37cfee" d="M37.924,72.5c-3.248,0-3.985-1.851-1.639-4.096l16.046-15.357   c2.348-2.246,6.521-2.676,9.273-0.953l27.566,17.262c2.754,1.723,2.35,3.145-0.898,3.145H37.924z" /><path fill="none" stroke-width="2" stroke="#37cfee" stroke-miterlimit="10" d="M31.221,38.021c0.319-0.909,1.253-1.387,2.162-1.067l1.623,0.595   c-0.236-1.046-0.977-1.957-2.056-2.362l-19.814-7.448c-0.383-0.144-0.774-0.212-1.16-0.212c-1.335,0-2.591,0.816-3.088,2.139   c-0.641,1.705,0.222,3.607,1.927,4.248l19.815,7.448c0.382,0.144,0.774,0.212,1.16,0.212c0.754,0,1.482-0.18,2.063-0.645   l-1.583-0.683C31.361,39.926,30.9,38.93,31.221,38.021z" /><path fill="none" stroke-width="2" stroke="#37cfee" d="M38.927,55.349V39.059l-4.02-1.51l-1.574-0.595   c-0.908-0.319-1.817,0.158-2.137,1.067c-0.32,0.909,0.152,1.905,1.062,2.224l3.669,1.57v3.08v13.211l8.036,2.949l2.829-2.708   L38.927,55.349z" /></g></svg>
                             <h4 className="font-bold century"><span className="font-bold">Présentation de vos prestations</span></h4>
                             <p>Nous mettons en avant les spécificités de vos prestations de <strong className="font-normal">maçonnerie</strong> au sein de <strong className="font-normal">pages web</strong> dédiées.</p>
                         </div>
@@ -188,7 +188,7 @@ class SiteInternetMacon extends Component {
                             <p>Nous garantissons la mise en place de <strong className="font-normal">certificat sécurisé</strong> pour une navigation en toute confiance.</p>
                         </div>
                         <div className="w-full md:w-1/4 mx-auto px-2 mb-10 md:mb-0 century text-center">
-                            <svg width="50px" fill="#37cfee" className="mx-auto block" viewBox="0 0 100 125"><g><g><g><g><path d="M84.5,78.07h-69c-1.104,0-2-0.896-2-2V23.93c0-1.104,0.896-2,2-2h69c1.104,0,2,0.896,2,2V76.07      C86.5,77.175,85.604,78.07,84.5,78.07z M17.5,74.07h65V25.93h-65V74.07z"/></g></g><g><g><path d="M50,59.07c-0.499,0-0.998-0.187-1.386-0.558l-34.5-33.141c-0.589-0.565-0.774-1.432-0.47-2.188      c0.305-0.758,1.039-1.254,1.855-1.254h69c0.816,0,1.551,0.496,1.855,1.254c0.305,0.757,0.119,1.623-0.47,2.188l-34.5,33.141      C50.998,58.884,50.499,59.07,50,59.07z M20.469,25.93L50,54.297L79.531,25.93H20.469z"/></g></g></g></g></svg>
+                            <svg width="50px" fill="#37cfee" className="mx-auto block" viewBox="0 0 100 125"><g><g><g><g><path d="M84.5,78.07h-69c-1.104,0-2-0.896-2-2V23.93c0-1.104,0.896-2,2-2h69c1.104,0,2,0.896,2,2V76.07      C86.5,77.175,85.604,78.07,84.5,78.07z M17.5,74.07h65V25.93h-65V74.07z" /></g></g><g><g><path d="M50,59.07c-0.499,0-0.998-0.187-1.386-0.558l-34.5-33.141c-0.589-0.565-0.774-1.432-0.47-2.188      c0.305-0.758,1.039-1.254,1.855-1.254h69c0.816,0,1.551,0.496,1.855,1.254c0.305,0.757,0.119,1.623-0.47,2.188l-34.5,33.141      C50.998,58.884,50.499,59.07,50,59.07z M20.469,25.93L50,54.297L79.531,25.93H20.469z" /></g></g></g></g></svg>
                             <h4 className="font-bold century"><span className="font-bold">Optimisation des conversions</span></h4>
                             <p>Nous vous donnons accès à une <strong className="font-normal">plateforme web</strong> optimisée pour <strong className="font-normal">générer des contacts</strong> pertinents.</p>
                         </div>
@@ -218,16 +218,16 @@ class SiteInternetMacon extends Component {
                 <section className="flex justify-center">
                     <div className="w-full md:w-2/3">
                         {/*<div className="w-full flex flex-row one justify-center">*/}
-                            <div className="w-full md:w-2/3 px-10 py-10 md:py-16  ml-0">
-                                <h3 className="century capitalize text-2xl pb-6" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">1/</span>VOUS PRENEZ CONTACT POUR METTRE EN PLACE VOTRE PROJET
+                        <div className="w-full md:w-2/3 px-10 py-10 md:py-16  ml-0">
+                            <h3 className="century capitalize text-2xl pb-6" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">1/</span>VOUS PRENEZ CONTACT POUR METTRE EN PLACE VOTRE PROJET
                                 </h3>
-                                <h4 className="century text-lg  pb-3 text-justify" /*data-aos='fade-left'*/>
-                                    <span className="font-bold">En nous contactant, notre chef de projet étudiera votre demande et vous recontactera pour préciser la définition de vos besoins.</span>
-                                </h4>
-                                <p /*data-aos='fade-bottom'*/ className="text-justify century">Plus votre demande sera détaillée, plus nous serons à même de vous proposer une solution pertinente et performante. N'hésitez pas à nous renseigner sur vos <strong className="font-normal">objectifs, cibles</strong> et autres motivations à <strong className="font-normal">créer un site web pour votre entreprise</strong>.</p>
-                            </div>
-                            {/*<div className="w-full md:w-1/3 chiffres century text-bleu -mt-64 mb-6">
+                            <h4 className="century text-lg  pb-3 text-justify" /*data-aos='fade-left'*/>
+                                <span className="font-bold">En nous contactant, notre chef de projet étudiera votre demande et vous recontactera pour préciser la définition de vos besoins.</span>
+                            </h4>
+                            <p /*data-aos='fade-bottom'*/ className="text-justify century">Plus votre demande sera détaillée, plus nous serons à même de vous proposer une solution pertinente et performante. N'hésitez pas à nous renseigner sur vos <strong className="font-normal">objectifs, cibles</strong> et autres motivations à <strong className="font-normal">créer un site web pour votre entreprise</strong>.</p>
+                        </div>
+                        {/*<div className="w-full md:w-1/3 chiffres century text-bleu -mt-64 mb-6">
                             1
                             </div>
                         </div>*/}
@@ -235,27 +235,27 @@ class SiteInternetMacon extends Component {
                             <div className="w-full md:w-1/3 chiffres century text-bleu -mt-64 mb-6">
                                 2
                             </div>*/}
-                            <div className="w-full md:w-2/3 px-10 py-10 md:py-16 ml-auto">
-                                <h3 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">2/</span>NOUS DÉFINISSONS VOTRE PROJET EN FONCTION DE VOS BESOINS
+                        <div className="w-full md:w-2/3 px-10 py-10 md:py-16 ml-auto">
+                            <h3 className="century capitalize text-2xl tracking-wider pb-6" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">2/</span>NOUS DÉFINISSONS VOTRE PROJET EN FONCTION DE VOS BESOINS
                                 </h3>
-                                <h4 className="century text-lg  pb-3 text-justify" /*data-aos='fade-left'*/>
-                                    <span className="font-bold">Une fois votre demande formulée, nous nous rencontrons pour mieux cerner vos besoins et vous mettre en place une solution qui vous correspond.</span>
-                                </h4>
-                                <p /*data-aos='fade-bottom'*/ className="text-justify century">Il s'agit d'une étape fondamentale afin de comprendre vos besoins, votre activité ainsi que vos ambitions. C'est à partir de cette étape que nous définissons le mode opératoire pour votre création ainsi que la <strong className="font-normal">stratégie de référencement de site internet</strong>.</p>
-                            </div>
+                            <h4 className="century text-lg  pb-3 text-justify" /*data-aos='fade-left'*/>
+                                <span className="font-bold">Une fois votre demande formulée, nous nous rencontrons pour mieux cerner vos besoins et vous mettre en place une solution qui vous correspond.</span>
+                            </h4>
+                            <p /*data-aos='fade-bottom'*/ className="text-justify century">Il s'agit d'une étape fondamentale afin de comprendre vos besoins, votre activité ainsi que vos ambitions. C'est à partir de cette étape que nous définissons le mode opératoire pour votre création ainsi que la <strong className="font-normal">stratégie de référencement de site internet</strong>.</p>
+                        </div>
                         {/*</div>*/}
                         {/*<div className="w-full flex md:flex-row three justify-center">*/}
-                            <div className="w-full md:w-2/3 px-10 py-10 md:py-16 ml-0">
-                                <h3 className="century capitalize text-2xl pb-6" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">3/</span>VOUS VALIDEZ LE PROJET UNE FOIS QU’IL VOUS CORRESPOND
+                        <div className="w-full md:w-2/3 px-10 py-10 md:py-16 ml-0">
+                            <h3 className="century capitalize text-2xl pb-6" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">3/</span>VOUS VALIDEZ LE PROJET UNE FOIS QU’IL VOUS CORRESPOND
                                 </h3>
-                                <h4 className="century text-lg pb-3 text-justify" /*data-aos='fade-left'*/>
-                                    <span className="font-bold">À la suite de notre rencontre, nous vous proposons une maquette visuelle et des textes rédigés et optimisés spécifiquement pour votre site web.</span>
-                                </h4>
-                                <p /*data-aos='fade-bottom'*/ className="text-justify century">La livraison de la <strong className="font-normal">maquette</strong> est le moment pour vous de suggérer vos ajustements quant aux textes rédigés ainsi que sur l'aspect visuel du site. Une fois les modifications réalisées, vous serez libres de <strong className="font-normal">valider la maquette de votre futur site web</strong>.</p>
-                            </div>
-                            {/*<div className="w-full hidden md:block lg:block xl:block md:flex md:w-1/3 chiffres century text-bleu -mt-64 mb-6">
+                            <h4 className="century text-lg pb-3 text-justify" /*data-aos='fade-left'*/>
+                                <span className="font-bold">À la suite de notre rencontre, nous vous proposons une maquette visuelle et des textes rédigés et optimisés spécifiquement pour votre site web.</span>
+                            </h4>
+                            <p /*data-aos='fade-bottom'*/ className="text-justify century">La livraison de la <strong className="font-normal">maquette</strong> est le moment pour vous de suggérer vos ajustements quant aux textes rédigés ainsi que sur l'aspect visuel du site. Une fois les modifications réalisées, vous serez libres de <strong className="font-normal">valider la maquette de votre futur site web</strong>.</p>
+                        </div>
+                        {/*<div className="w-full hidden md:block lg:block xl:block md:flex md:w-1/3 chiffres century text-bleu -mt-64 mb-6">
                                     3
                             </div>
                         </div>*/}
@@ -263,15 +263,15 @@ class SiteInternetMacon extends Component {
                             <div className="w-full md:w-1/3 chiffres century text-bleu -mt-64 mb-6">
                                 4
                             </div>*/}
-                            <div className="w-full md:w-2/3 px-10 py-10 md:py-16 ml-auto">
-                                <h3 className="century capitalize text-2xl pb-6" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">4/</span>NOUS METTONS EN ROUTE LA RÉALISATION DE VOTRE PROJET
+                        <div className="w-full md:w-2/3 px-10 py-10 md:py-16 ml-auto">
+                            <h3 className="century capitalize text-2xl pb-6" /*data-aos="zoom-in"*/>
+                                <span className="text-bleu">4/</span>NOUS METTONS EN ROUTE LA RÉALISATION DE VOTRE PROJET
                                 </h3>
-                                <h4 className="century text-lg pb-3 text-justify" /*data-aos='fade-left'*/>
-                                    <span className="font-bold">Après que vous ayez validé notre proposition graphique et éditoriale, nos techniciens réalisent la mise en ligne votre site internet.</span>
-                                </h4>
-                                <p /*data-aos='fade-bottom'*/ className="text-justify century">Lorsque <strong className="font-normal">votre site internet</strong> est publié sur le <strong className="font-normal">nom de domaine</strong> choisi, nos <strong className="font-normal">référenceurs web</strong> mettent en place toutes les optimisations nécessaires pour <strong className="font-normal">être visible sur les moteurs de recherche</strong>. Par la suite, des mises à jours et modifications sont régulièrement effectuées grâce au suivi mis en place.</p>
-                            </div>
+                            <h4 className="century text-lg pb-3 text-justify" /*data-aos='fade-left'*/>
+                                <span className="font-bold">Après que vous ayez validé notre proposition graphique et éditoriale, nos techniciens réalisent la mise en ligne votre site internet.</span>
+                            </h4>
+                            <p /*data-aos='fade-bottom'*/ className="text-justify century">Lorsque <strong className="font-normal">votre site internet</strong> est publié sur le <strong className="font-normal">nom de domaine</strong> choisi, nos <strong className="font-normal">référenceurs web</strong> mettent en place toutes les optimisations nécessaires pour <strong className="font-normal">être visible sur les moteurs de recherche</strong>. Par la suite, des mises à jours et modifications sont régulièrement effectuées grâce au suivi mis en place.</p>
+                        </div>
                         {/*</div>*/}
                     </div>
                 </section>
@@ -310,7 +310,7 @@ class SiteInternetMacon extends Component {
                     <hr className="blue"></hr>
                 </section>
                 <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center century text-center mt-3 px-6 mb-12">
-                <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
+                    <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
                         <img
                             src={stars}
                             alt="Création site internet Agen"
@@ -327,7 +327,7 @@ class SiteInternetMacon extends Component {
                         />
                         <div className="text-lg century my-2">Access Auto</div>
                         <div className="italic">« Entièrement satisfaite de leurs services. Bon référencement et bon suivi du site.
-                            Laurie, d'accessauto.fr »
+                        Laurie, d'accessauto.fr »
                             </div>
                     </div>
                     <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up" data-aos-delay="500"*/>
@@ -387,7 +387,7 @@ class SiteInternetMacon extends Component {
                                 <p>Le <strong>développement d’un site internet vitrine</strong> est indispensable pour <strong className="font-bold">dynamiser la communication de son entreprise et investir le web</strong>. <strong>Avoir un site internet</strong> permet de présenter son activité au sein de <strong className="font-bold">pages web détaillées</strong>, mais ce n’est pas tout. <strong>Créer un site internet</strong> est essentiel pour <strong className="font-bold">gagner en notoriété et en visibilité</strong>.
                                 <br /><br />
                                 Ceci est indispensable en vue du <strong>développement de votre entreprise</strong>. En effet, il est important de travailler son <strong>image de marque</strong> en soignant le <strong>contenu de son site web</strong> et en proposant le <strong className="font-bold">maximum d’informations à destination des utilisateurs</strong>.
-                                <br/><br/>
+                                <br /><br />
                                 C'est pourquoi, <strong>mettre en place un site internet</strong> performant suppose la <strong className="font-bold">création de contenus de qualité</strong> en adéquation avec les <strong>attentes des internautes</strong>. C’est de cette façon que vous atteindrez de <strong>nouveaux clients</strong>.
                                 </p>
                             </div>
@@ -395,9 +395,9 @@ class SiteInternetMacon extends Component {
                                 <p>Un <strong className="font-bold">site internet performant</strong> est nécessairement un <strong className="font-bold">site internet visible</strong>. <strong>Être visible sur le Web</strong> est indispensable pour tirer profits des bienfaits d’un <strong>site internet professionnel</strong>. Cela passe par la définition et la <strong className="font-bold">mise en place d’une stratégie de visibilité</strong>. Cette dernière devra être orientée pour <strong className="font-bold">générer du trafic qualifié en vue d’attirer de potentiels clients</strong> pour votre entreprise.
                             <br /><br />
                                 Également, il faut savoir qu’il est indispensable de veiller à la diversification des moyens d’actions au sein de sa stratégie. C’est pourquoi, nos <strong>stratégies de référencement</strong> sont sur-mesure et sont pensées pour vous permettre d’obtenir de premiers résultats à court ou moyen terme.
-                            <br/><br/>
+                            <br /><br />
                                 Les stratégies que nous menons sont définies en fonction de vos objectifs, de vos cibles, mais pas seulement. De plus, elles sont évolutives. C’est pourquoi, un suivi est effectué pour vous permettre d’envisager des ajustements, mais également pour vous engager dans des opportunités qui s’offriront à vous.
-                            <br/><br/>
+                            <br /><br />
                                 De la mise en place d’un <strong>code HTML</strong> valide vis-à-vis des <strong className="font-bold">standards du web</strong>, à la <strong className="font-bold">rédaction web optimisée pour des mots-clés finement sélectionnés</strong>, notre travail a pour vocation de vous apporter des performances maximales.
                                 </p>
                             </div>
@@ -405,7 +405,7 @@ class SiteInternetMacon extends Component {
                                 <p>Il est important de souligner que le fait de <strong className="font-bold">générer des performances sur un site web</strong> ne dépend pas seulement de la mise en place d’une <strong>stratégie de référencement naturel</strong>. En effet, un <strong className="font-bold">site internet est conçu pour des utilisateurs</strong> et doit donc répondre à leurs attentes en matière de contenu, comme d’<strong>expérience utilisateur</strong>. Le travail sur la <strong>visibilité d'un site web</strong> doit donc être accompagné d'un travail de fond au sujet du <strong className="font-bold">webdesign d'un site (UX design et UI design)</strong>.
                                 <br /><br />
                                 Il est donc nécessaire de veiller à la <strong className="font-bold">création d’une interface intuitive</strong> et d’une <strong className="font-bold">expérience utilisateur</strong> soignée pour <strong className="font-bold">guider l’utilisateur durant sa navigation</strong>. Cela va vous permettre de maintenir un <strong>utilisateur sur votre site web</strong> plus longtemps et ainsi favoriser une navigation suivant votre <strong>tunnel de conversion</strong> en vue d’<strong className="font-bold">obtenir un taux de conversion maximal</strong>.
-                                <br/><br/>
+                                <br /><br />
                                 Ceci est particulièrement fondamental si votre objectif consiste à <strong>générer de l'activité sur votre site web</strong> et ainsi <strong className="font-bold">obtenir des contacts pour votre entreprise grâce à votre site internet</strong>.
                             </p>
                             </div>
@@ -462,7 +462,7 @@ class SiteInternetMacon extends Component {
 
 export const query = graphql`
 query lastsThreePostsSiteInternetMacon {
-    allWordpressPost(limit: 3) {
+    allWpPost(limit: 3) {
       edges {
         node {
           id
@@ -471,8 +471,10 @@ query lastsThreePostsSiteInternetMacon {
           modified(locale: "fr", formatString: "DD/MM/YYYY")
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
-          featured_media {
-            source_url
+          featuredImage {
+            node {
+                sourceUrl
+            }
           }
         }
       }
