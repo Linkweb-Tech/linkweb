@@ -24,21 +24,21 @@ class Footer extends Component {
     render() {
         // Take contact form as an example
         // Let's customise our contact form appearance, launcher and add prefill content
-        // const setting = {
-        //     color: {
-        //         theme: "#37cfee"
-        //     },
-        //     launcher: {
-        //         chatLabel: {
-        //             "fr-FR": "Besoin de renseignements ? "
-        //         }
-        //     },
-        //     contactForm: {
-        //         fields: [
-        //             { id: "description", prefill: { "*": "MEs info" } }
-        //         ]
-        //     }
-        // };
+        const setting = {
+            color: {
+                theme: "#37cfee"
+            },
+            launcher: {
+                chatLabel: {
+                    "fr-FR": "Besoin de renseignements ? "
+                }
+            },
+            contactForm: {
+                fields: [
+                    { id: "description", prefill: { "*": "MEs info" } }
+                ]
+            }
+        };
 
         return (
             <footer className="bg-darkgrey w-full flex items-center relative z-30 ">
