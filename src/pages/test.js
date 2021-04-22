@@ -29,45 +29,45 @@ class Test extends Component {
         //     }
         // ))
 
-        Object.entries(this.props.data.allWpPost.edges).forEach(element => {
-            switch (element[1].node.categories[0].name) {
-                case 'Agence':
-                    this.setState(state => {
-                        const agence = state.agence.concat(element[1].node)
-                        return {
-                            agence
-                        }
-                    })
-                    break;
-                case 'Référencement':
-                    this.setState(state => {
-                        const referencement = state.referencement.concat(element[1].node)
-                        return {
-                            referencement
-                        }
-                    })
-                    break;
-                case 'Tendances':
-                    this.setState(state => {
-                        const tendances = state.tendances.concat(element[1].node)
-                        return {
-                            tendances
-                        }
-                    })
-                    break;
-                case 'Actualités':
-                    this.setState(state => {
-                        const actu = state.actu.concat(element[1].node)
-                        return {
-                            actu
-                        }
-                    })
-                    break;
+        // Object.entries(this.props.data.allWpPost.edges).forEach(element => {
+        //     switch (element[1].node.categories[0].name) {
+        //         case 'Agence':
+        //             this.setState(state => {
+        //                 const agence = state.agence.concat(element[1].node)
+        //                 return {
+        //                     agence
+        //                 }
+        //             })
+        //             break;
+        //         case 'Référencement':
+        //             this.setState(state => {
+        //                 const referencement = state.referencement.concat(element[1].node)
+        //                 return {
+        //                     referencement
+        //                 }
+        //             })
+        //             break;
+        //         case 'Tendances':
+        //             this.setState(state => {
+        //                 const tendances = state.tendances.concat(element[1].node)
+        //                 return {
+        //                     tendances
+        //                 }
+        //             })
+        //             break;
+        //         case 'Actualités':
+        //             this.setState(state => {
+        //                 const actu = state.actu.concat(element[1].node)
+        //                 return {
+        //                     actu
+        //                 }
+        //             })
+        //             break;
 
-                default:
-                    break;
-            }
-        })
+        //         default:
+        //             break;
+        //     }
+        // })
     }
 
     render() {
@@ -133,58 +133,58 @@ class Test extends Component {
                     </div>
                 </section>
 
-
+{/* 
                 <section className="max-w-4xl w-full mx-auto px-4 pt-4 pb-4 my-2">
-                    <h2 /*data-aos='fade-right'*/ className="text-left text-3xl century">
+                    <h2 className="text-left text-3xl century">
                         Le blog
                     </h2>
 
 
-                    <h2 /*data-aos='fade-right'*/ className="mt-3 mb-3 text-left text-xl century">
+                    <h2  className="mt-3 mb-3 text-left text-xl century">
                         L'agence
                     </h2>
                     {
 
                         this.state.agence.map((node) => (
-                            //console.log(node)
+                           
                             <a className="block hover:text-bleu" href={`/blog${node.path}`} >{node.title}</a>
                         ))
 
                     }
-                    <h2 /*data-aos='fade-right'*/ className=" mt-5 mb-3 text-left text-xl century">
+                    <h2  className=" mt-5 mb-3 text-left text-xl century">
                         Actualités
                     </h2>
                     {
 
                         this.state.actu.map((node) => (
-                            //console.log(node)
+                            
                             <a className="block hover:text-bleu" href={`/blog${node.path}`} >{node.title}</a>
                         ))
 
                     }
-                    <h2 /*data-aos='fade-right'*/ className="mt-5 mb-3 text-left text-xl century">
+                    <h2  className="mt-5 mb-3 text-left text-xl century">
                         Tendances
                     </h2>
                     {
 
                         this.state.tendances.map((node) => (
-                            //console.log(node)
+                         
                             <a className="block hover:text-bleu" href={`/blog${node.path}`} >{node.title}</a>
                         ))
 
                     }
-                    <h2 /*data-aos='fade-right'*/ className="mt-5 mb-3 text-left text-xl century">
+                    <h2  className="mt-5 mb-3 text-left text-xl century">
                         Référencement
                     </h2>
                     {
 
                         this.state.referencement.map((node) => (
-                            //console.log(node)
+                            
                             <a className="block hover:text-bleu" href={`/blog${node.path}`} >{node.title}</a>
                         ))
 
                     }
-                </section>
+                </section> */}
 
                 <section className="max-w-4xl w-full mx-auto px-4 pt-4 pb-4 my-2">
                     <h2 /*data-aos='fade-right'*/ className="text-left text-3xl century">
@@ -194,10 +194,10 @@ class Test extends Component {
 
                     {
 
-                        this.props.data.allSitePage.edges.map(({ node }) => (
-                            console.log(node)
-                            //<a className="block hover:text-bleu" href={`/blog${node.path}`} >{node.title}</a>
-                        ))
+                        // this.props.data.allSitePage.edges.map(({ node }) => (
+                        //     console.log(node)
+                        //     //<a className="block hover:text-bleu" href={`/blog${node.path}`} >{node.title}</a>
+                        // ))
 
                     }
                 </section>
@@ -213,29 +213,28 @@ class Test extends Component {
 };
 
 
-export const query = graphql`
-  {
-    allWpPost(sort: {order: ASC, fields: date}) {
-      edges {
-        node {
-          path
-          date(locale: "")
-          categories {
-            name
-          }
-          title
-        }
-      }
-    }
-    allSitePage(filter: {id: {regex: "/^((?!blog).)*$/"}}) {
-        edges {
-            node {
-                id
-            }
-        }
-    }
-  }
-`
+// export const query = graphql`
+//   {
+//     allWpPost(sort: {order: ASC, fields: date}) {
+//       edges {
+//         node {
+//           date(locale: "")
+//           categories {
+//             name
+//           }
+//           title
+//         }
+//       }
+//     }
+//     allSitePage(filter: {id: {regex: "/^((?!blog).)*$/"}}) {
+//         edges {
+//             node {
+//                 id
+//             }
+//         }
+//     }
+//   }
+// `
 export default Test;
 
 

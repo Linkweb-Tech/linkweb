@@ -25,13 +25,11 @@ export const query = graphql`
             modified(locale: "fr", formatString: "ddd MM YYYY")
             link
             featuredImage {
-                featuredImage {
-            node {
-                sourceUrl
+              node {
+                  sourceUrl
+              }
             }
-          }
-            }
-            }
+          } 
         }
     }
   }

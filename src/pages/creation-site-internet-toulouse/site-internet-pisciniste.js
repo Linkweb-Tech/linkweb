@@ -449,7 +449,10 @@ query lastsThreePostsCreationSitePisciniste {
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
           featuredImage {
-            source_url
+                node {
+                    sourceUrl
+                }
+            
           }
         }
       }

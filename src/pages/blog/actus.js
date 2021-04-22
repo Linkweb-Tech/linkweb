@@ -186,11 +186,9 @@ query lastsThreePostsCatActus {
             modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
             featuredImage {
-                featuredImage {
-            node {
-                sourceUrl
-            }
-          }
+                node {
+                    sourceUrl
+                }
             }
             }
         }

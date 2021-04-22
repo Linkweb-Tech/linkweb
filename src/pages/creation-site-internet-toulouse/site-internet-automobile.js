@@ -443,11 +443,10 @@ query lastsThreePostsSiteInternetAutomobile {
           date(locale: "fr", formatString: "dddd DD MMMM YYYY")
           link
           featuredImage {
-            featuredImage {
                 node {
                     sourceUrl
                 }
-            }
+            
           }
         }
       }

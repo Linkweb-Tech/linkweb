@@ -283,7 +283,7 @@ class ActualiteDigitale extends Component {
 
 export const query = graphql`
 query lastsThreePostsActualitedigitale {
-   actus: allWpPost(limit: 4, filter: {categories: {elemMatch: {slug: {eq: "actus"}}}}) {
+   actus: allWpPost(limit: 4, filter: {categories: {nodes:{elemMatch: {slug: {eq: "actus"}}}}}) {
         edges {
             node {
                 id
@@ -310,11 +310,9 @@ query lastsThreePostsActualitedigitale {
             date(locale: "fr", formatString: "dddd DD MMMM YYYY")
             link
             featuredImage {
-                featuredImage {
-            node {
-                sourceUrl
-            }
-          }
+                node {
+                    sourceUrl
+                }
             }
             }
         }
@@ -328,11 +326,9 @@ query lastsThreePostsActualitedigitale {
             modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
             featuredImage {
-                featuredImage {
             node {
                 sourceUrl
             }
-          }
             }
             }
         }
@@ -356,11 +352,9 @@ query lastsThreePostsActualitedigitale {
             date(locale: "fr", formatString: "dddd DD MMMM YYYY")
             link
             featuredImage {
-                featuredImage {
-            node {
-                sourceUrl
-            }
-          }
+                node {
+                    sourceUrl
+                }
             }
             }
         }
@@ -375,11 +369,9 @@ query lastsThreePostsActualitedigitale {
             date(locale: "fr", formatString: "dddd DD MMMM YYYY")
             link
             featuredImage {
-                featuredImage {
-            node {
-                sourceUrl
-            }
-          }
+                node {
+                    sourceUrl
+                }     
             }
             }
         }

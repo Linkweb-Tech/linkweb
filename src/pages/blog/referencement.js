@@ -186,11 +186,9 @@ query lastsThreePostsCatReferencement {
             modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
             featuredImage {
-                featuredImage {
-            node {
-                sourceUrl
-            }
-          }
+                node {
+                    sourceUrl
+                }
             }
             }
         }
@@ -213,7 +211,7 @@ query lastsThreePostsCatReferencement {
             date(locale: "fr", formatString: "dddd DD MMMM YYYY")
             modified(locale: "fr", formatString: "DD/MM/YYYY")
             link
-            featuredImage {}
+            featuredImage {
                 node {
                     sourceUrl
                 }
