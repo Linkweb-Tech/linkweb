@@ -5,7 +5,7 @@ import Datadock from "../images/logo_datadock.png";
 import googlePartner from "../images/PartnerBadge-RGB.png";
 
 
-const ClientZendesk = React.lazy( ()=> import("react-zendesk"));
+//const ClientZendesk = React.lazy( ()=> import("react-zendesk"));
 
 // ZENDESK
 
@@ -24,21 +24,21 @@ class Footer extends Component {
     render() {
         // Take contact form as an example
         // Let's customise our contact form appearance, launcher and add prefill content
-        const setting = {
-            color: {
-                theme: "#37cfee"
-            },
-            launcher: {
-                chatLabel: {
-                    "fr-FR": "Besoin de renseignements ? "
-                }
-            },
-            contactForm: {
-                fields: [
-                    { id: "description", prefill: { "*": "MEs info" } }
-                ]
-            }
-        };
+        // const setting = {
+        //     color: {
+        //         theme: "#37cfee"
+        //     },
+        //     launcher: {
+        //         chatLabel: {
+        //             "fr-FR": "Besoin de renseignements ? "
+        //         }
+        //     },
+        //     contactForm: {
+        //         fields: [
+        //             { id: "description", prefill: { "*": "MEs info" } }
+        //         ]
+        //     }
+        // };
 
         return (
             <footer className="bg-darkgrey w-full flex items-center relative z-30 ">
@@ -217,9 +217,9 @@ class Footer extends Component {
                         </div>
                     </section>
                 </section>
-                <React.Suspence fallback={<div></div>}>  
+                {/* <React.Suspence fallback={<div></div>}>  
                     <ClientZendesk zendeskKey={ZENDESK_KEY} {...setting} onLoaded={() => console.log('is loaded')} />
-                </React.Suspence>
+                </React.Suspence> */}
             </footer>
         );
     }
