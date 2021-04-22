@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import LinkwebWhite from "../images/logo-linkweb.png";
 import Datadock from "../images/logo_datadock.png";
 import googlePartner from "../images/PartnerBadge-RGB.png";
-import loadable from '@loadable/component'; yarn
+import loadable from '@loadable/component';
 const ClientZendesk = loadable(() => import('react-zendesk'))
 //const ClientZendesk = React.lazy( ()=> import("react-zendesk"));
 
