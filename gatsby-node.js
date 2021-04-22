@@ -22,7 +22,7 @@ exports.createPages = ({ graphql, actions, reporter }) => {
         edges {
           node {
             slug
-            postId
+            databaseId
           }
         }
       }
@@ -38,7 +38,7 @@ exports.createPages = ({ graphql, actions, reporter }) => {
         path: `/blog/${post.node.slug}/`,
         component: BlogPostTemplate,
         context: {
-          id: post.node.postId,
+          id: post.node.databaseId,
         },
       })
     })

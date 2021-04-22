@@ -21,68 +21,7 @@ module.exports = {
          */
         url: "https://api.linkweb.fr/graphql/",
         // The protocol. This can be http or https.
-        protocol: "https",
-        // Indicates whether the site is hosted on wordpress.com.
-        // If false, then the assumption is made that the site is self hosted.
-        // If true, then the plugin will source its content on wordpress.com using the JSON REST API V2.
-        // If your site is hosted on wordpress.org, then set this to false.
-        hostingWPCOM: false,
-        // If useACF is true, then the source plugin will try to import the Wordpress ACF Plugin contents.
-        // This feature is untested for sites hosted on wordpress.com.
-        // Defaults to true.
-        useACF: false,
-        // Include specific ACF Option Pages that have a set post ID
-        // Regardless if an ID is set, the default options route will still be retrieved
-        // Must be using V3 of ACF to REST to include these routes
-        // Example: `["option_page_1", "option_page_2"]` will include the proper ACF option
-        // routes with the ID option_page_1 and option_page_2
-        // The IDs provided to this array should correspond to the `post_id` value when defining your
-        // options page using the provided `acf_add_options_page` method, in your WordPress setup
-        // Dashes in IDs will be converted to underscores for use in GraphQL
-        acfOptionPageIds: [],
-        // Set cookies that should be send with requests to wordpress as key value pairs
-        cookies: {},
-        // Set verboseOutput to true to display a verbose output on `npm run develop` or `npm run build`
-        // It can help you debug specific API Endpoints problems.
-        verboseOutput: false,
-        // Set how many pages are retrieved per API request.
-        perPage: 200,
-        // Search and Replace Urls across WordPress content.
-        // searchAndReplaceContentUrls: {
-        //   sourceUrl: "https://api.linkweb.fr",
-        //   replacementUrl: "https://new.linkweb.fr/blog",
-        // },
-        // Set how many simultaneous requests are sent at once.
-        concurrentRequests: 10,
-        // Set WP REST API routes whitelists
-        // and blacklists using glob patterns.
-        // Defaults to whitelist the routes shown
-        // in the example below.
-        // See: https://github.com/isaacs/minimatch
-        // Example:  `["/*/*/comments", "/yoast/**"]`
-        // ` will either include or exclude routes ending in `comments` and
-        // all routes that begin with `yoast` from fetch.
-        // Whitelisted routes using glob patterns
-        includedRoutes: [
-          "**/categories",
-          "**/posts",
-          //"**/pages",
-          "**/media",
-          //"**/tags",
-          //"**/taxonomies",
-          "**/users",
-        ],
-        // Blacklisted routes using glob patterns
-        excludedRoutes: ["**/posts/1456"],
-        // Set this to keep media sizes.
-        // This option is particularly useful in case you need access to
-        // URLs for thumbnails, or any other media detail.
-        // Defaults to false
-        keepMediaSizes: false,
-        // use a custom normalizer which is applied after the built-in ones.
-        normalizer: function ({ entities }) {
-          return entities
-        },
+       
       },
     },
     `gatsby-plugin-sass`,

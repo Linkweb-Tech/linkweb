@@ -38,41 +38,38 @@ import twitterIcon from "../images/twitter-logo.svg";
 import instaIcon from "../images/instagram-logo.svg";
 
 const BlogPostTemplate = ({ data }) => (
-  <Layout location={data.wordpressPost.title}>
-    <SEO article={true} title={data.wordpressPost.yoast.title} description={data.wordpressPost.yoast.metadesc} url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} date={data.wordpressPost.date} slug={data.wordpressPost.slug} modified={data.wordpressPost.modified} image={data.wordpressPost.featuredImage.featuredImage {
-            node {
-                sourceUrl
-      }
-          }} />
-    <section className="bloctitrearticle w-full century mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center z-40" style={{ backgroundColor: '#00000094', backgroundBlendMode: 'multiply', backgroundImage: 'url(' + data.wordpressPost.featuredImage.sourceUrl + ')' }}>
-      <a href={`/blog/${data.wordpressPost.categories[0].slug}/`} className="w-1/2 md:w-full py-2 bg-bleu hover:bg-transparent flex text-white century justify-center" style={{ border: 'solid 1px #37cfee', borderRadius: '15px', width: '10%', transition: 'all ease 0.5s' }}><span className="font-bold">{data.wordpressPost.categories[0].name}</span></a>
-      <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-48 text-3xl sm:text-6xl text-center text-white" dangerouslySetInnerHTML={{ __html: data.wordpressPost.title }} />
-      {/*</section>{data.wordpressPost.title}
+  <Layout location={data.wpPost.title}>
+    <SEO article={true} title={data.wpPost.seo.title} description={data.wpPost.seo.metaDesc} url={`https://linkweb.fr/blog/${data.wpPost.slug}/`} date={data.wpPost.date} slug={data.wpPost.slug} modified={data.wpPost.modified} image={data.wpPost.featuredImage.sourceUrl} />
+    <section className="bloctitrearticle w-full century mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center z-40" style={{ backgroundColor: '#00000094', backgroundBlendMode: 'multiply', backgroundImage: 'url(' + data.wpPost.featuredImage.sourceUrl + ')' }}>
+      <a href={`/blog/${data.wpPost.categories.nodes[0].slug}/`} className="w-1/2 md:w-full py-2 bg-bleu hover:bg-transparent flex text-white century justify-center" style={{ border: 'solid 1px #37cfee', borderRadius: '15px', width: '10%', transition: 'all ease 0.5s' }}><span className="font-bold">{data.wpPost.categories.nodes[0].name}</span></a>
+      <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-48 text-3xl sm:text-6xl text-center text-white" dangerouslySetInnerHTML={{ __html: data.wpPost.title }} />
+      {/*</section>{data.wpPost.title}
                         </h1>*/}
       <br />
       <img src={author} alt="Création Site internet Agen" style={{ width: '100px' }} data-aos="fade-right" />
       <p className="text-white text-center italic my-6 font-bold" data-aos="fade-left">
-        Par {data.wordpressPost.author.name} <br /> Le {data.wordpressPost.date}
+        Par {data.wpPost.author.name} <br /> Le {data.wpPost.date}
       </p>
       <div className="w-1/2 md:w-full py-2 hover:bg-white flex text-white hover:text-black" style={{ border: 'solid 1px #ffffff', borderRadius: '15px', width: '10%', transition: 'all ease 0.5s' }}><a href="/actualite-digitale/" className="w-full flex font-bold justify-center century my-2 font-normal text-sm">Revenir à l'accueil</a></div>
+
 
     </section>
     <section className="px-6 lg:px-64 font-bold" data-aos="fade-left">
       <Link className="hover:text-bleu" to="/actualite-digitale/"> Accueil du blog</Link> <span className="text-bleu">>></span> <a className="hover:text-bleu"
-        href={`/blog/${data.wordpressPost.categories[0].slug}/`}>{data.wordpressPost.categories[0].name}</a>
+        href={`/blog/${data.wpPost.categories.nodes[0].slug}/`}>{data.wpPost.categories.nodes[0].name}</a>
       <span className="text-bleu">>></span>
-      <Link className="hover:text-bleu" to={`/blog/${data.wordpressPost.slug}/`}>{data.wordpressPost.title}</Link>
+      <Link className="hover:text-bleu" to={`/blog/${data.wpPost.slug}/`}>{data.wpPost.title}</Link>
     </section>
     <section className="flex flex-col xl:flex-row flex justify-center px-12 md:px-24 lg:px-32 xl:px-48">
       <section className="lg:pl-32 pr-0 lg:pr-24 pt-6 pb-0 w-full xl:w-3/5 flex flex-col">
-        <div className="post_content" style={{ marginTop: 20 }} dangerouslySetInnerHTML={{ __html: data.wordpressPost.content }} data-aos="fade-up" />
+        <div className="post_content" style={{ marginTop: 20 }} dangerouslySetInnerHTML={{ __html: data.wpPost.content }} data-aos="fade-up" />
         <br />
         <h3 className="font-bold mt-8 lg:mt-18 mb-6 text-lg text-center">Vous souhaitez partager cet article ?</h3>
         <div className="flex flex-row justify-center">
-          <FacebookShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} quote={data.wordpressPost.yoast.metadesc}><FacebookIcon size={32} round={true} /></FacebookShareButton>
-          <TwitterShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} title={data.wordpressPost.yoast.title} via="AgenceLinkweb"><TwitterIcon size={32} round={true} /></TwitterShareButton>
-          <LinkedinShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`}><LinkedinIcon size={32} round={true} /></LinkedinShareButton>
-          <EmailShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wordpressPost.slug}/`} subject={data.wordpressPost.yoast.title} body={data.wordpressPost.yoast.metadesc} separator=" - "><EmailIcon size={32} round={true} /></EmailShareButton>
+          <FacebookShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wpPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wpPost.slug}/`} quote={data.wpPost.seo.metaDesc}><FacebookIcon size={32} round={true} /></FacebookShareButton>
+          <TwitterShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wpPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wpPost.slug}/`} title={data.wpPost.seo.title} via="AgenceLinkweb"><TwitterIcon size={32} round={true} /></TwitterShareButton>
+          <LinkedinShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wpPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wpPost.slug}/`}><LinkedinIcon size={32} round={true} /></LinkedinShareButton>
+          <EmailShareButton className="px-1" url={`https://linkweb.fr/blog/${data.wpPost.slug}/`} shareURL={`https://linkweb.fr/blog/${data.wpPost.slug}/`} subject={data.wpPost.seo.title} body={data.wpPost.seo.metaDesc} separator=" - "><EmailIcon size={32} round={true} /></EmailShareButton>
         </div>
         <div className="blocblog w-full flex flex-col justify-center bg-bleu items-end px-4 pt-12 pb-0 sm:mt-10 bg-cover my-8" style={{ background: '#37cfeede url(' + blocBg + ')', backgroundSize: 'cover', backgroundPosition: 'center', backgroundBlendMode: 'overlay', borderRadius: '15px' }}>
           <div className="max-w-5xl mx-auto flex items-center">
@@ -201,7 +198,7 @@ const BlogPostTemplate = ({ data }) => (
 export default BlogPostTemplate
 export const query = graphql`
   query($id: Int!) {
-    wordpressPost(postId: { eq: $id }) {
+    wpPost(databaseId: { eq: $id }) {
       title
       content
       excerpt
@@ -210,23 +207,25 @@ export const query = graphql`
       modified(locale: "fr", formatString: "DD/MM/YYYY")
       link
       author {
-        name
+        node {
+          name
+        }
       }
       featuredImage {
-        featuredImage {
-            node {
-                sourceUrl
-            }
+          node {
+              sourceUrl
           }
       }
-      yoast {
+      seo {
         title
-        metadesc
+        metaDesc
       }
       categories {
-        name
-        link
-        slug
+        nodes {
+          name
+          link
+          slug
+        }
       }
     }
     allWpPost(limit: 6) {
