@@ -3,14 +3,16 @@ import { Link } from 'gatsby';
 import LinkwebWhite from "../images/logo-linkweb.png";
 import Datadock from "../images/logo_datadock.png";
 import googlePartner from "../images/PartnerBadge-RGB.png";
+import Zendesk from "";
 
+const ClientZendesk = React.lazy( ()=> import("react-zendesk"));
 
 // ZENDESK
 
 
-//import Zendesk from "react-zendesk";
 
-//const ZENDESK_KEY = "0799bea2-f202-4823-8ba0-93bc404a2ec6";
+
+const ZENDESK_KEY = "0799bea2-f202-4823-8ba0-93bc404a2ec6";
 class Footer extends Component {
 
     // constructor(props) {
@@ -22,21 +24,21 @@ class Footer extends Component {
     render() {
         // Take contact form as an example
         // Let's customise our contact form appearance, launcher and add prefill content
-        // const setting = {
-        //     color: {
-        //         theme: "#37cfee"
-        //     },
-        //     launcher: {
-        //         chatLabel: {
-        //             "fr-FR": "Besoin de renseignements ? "
-        //         }
-        //     },
-        //     contactForm: {
-        //         fields: [
-        //             { id: "description", prefill: { "*": "MEs info" } }
-        //         ]
-        //     }
-        // };
+        const setting = {
+            color: {
+                theme: "#37cfee"
+            },
+            launcher: {
+                chatLabel: {
+                    "fr-FR": "Besoin de renseignements ? "
+                }
+            },
+            contactForm: {
+                fields: [
+                    { id: "description", prefill: { "*": "MEs info" } }
+                ]
+            }
+        };
 
         return (
             <footer className="bg-darkgrey w-full flex items-center relative z-30 ">
@@ -215,7 +217,9 @@ class Footer extends Component {
                         </div>
                     </section>
                 </section>
-                {/* <Zendesk zendeskKey={ZENDESK_KEY} {...setting} onLoaded={() => console.log('is loaded')} /> */}
+                <React.Suspence fallback={<div></div>}>  
+                    <ClientZendesk zendeskKey={ZENDESK_KEY} {...setting} onLoaded={() => console.log('is loaded')} />
+                </React.Suspence>
             </footer>
         );
     }
