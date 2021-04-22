@@ -39,8 +39,8 @@ import instaIcon from "../images/instagram-logo.svg";
 
 const BlogPostTemplate = ({ data }) => (
   <Layout location={data.wpPost.title}>
-    <SEO article={true} title={data.wpPost.seo.title} description={data.wpPost.seo.metaDesc} url={`https://linkweb.fr/blog/${data.wpPost.slug}/`} date={data.wpPost.date} slug={data.wpPost.slug} modified={data.wpPost.modified} image={data.wpPost.featuredImage.sourceUrl} />
-    <section className="bloctitrearticle w-full century mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center z-40" style={{ backgroundColor: '#00000094', backgroundBlendMode: 'multiply', backgroundImage: 'url(' + data.wpPost.featuredImage.sourceUrl + ')' }}>
+    <SEO article={true} title={data.wpPost.seo.title} description={data.wpPost.seo.metaDesc} url={`https://linkweb.fr/blog/${data.wpPost.slug}/`} date={data.wpPost.date} slug={data.wpPost.slug} modified={data.wpPost.modified} image={data.wpPost.featuredImage.node.sourceUrl} />
+    <section className="bloctitrearticle w-full century mx-auto px-4 py-6 mb-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center z-40" style={{ backgroundColor: '#00000094', backgroundBlendMode: 'multiply', backgroundImage: 'url(' + data.wpPost.featuredImage.node.sourceUrl + ')' }}>
       <a href={`/blog/${data.wpPost.categories.nodes[0].slug}/`} className="w-1/2 md:w-full py-2 bg-bleu hover:bg-transparent flex text-white century justify-center" style={{ border: 'solid 1px #37cfee', borderRadius: '15px', width: '10%', transition: 'all ease 0.5s' }}><span className="font-bold">{data.wpPost.categories.nodes[0].name}</span></a>
       <h1 data-aos="fade-up" data-aos-delay="500" className="font-bold century px-2 md:px-6 xl:px-48 text-3xl sm:text-6xl text-center text-white" dangerouslySetInnerHTML={{ __html: data.wpPost.title }} />
       {/*</section>{data.wpPost.title}

@@ -24,7 +24,7 @@ class LastPosts extends Component {
                                     className="century flex "
                                 >
                                     <div className="imgBloc" >
-                                        <img className="img" src={node.featuredImage.sourceUrl} />
+                                        <img className="img" src={node.featuredImage.node.sourceUrl} />
                                     </div>
                                     <div>
                                         <h5 className="text-sm text-left px-3 font-bold hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }} />{/*{ node.title }</h5>*/}

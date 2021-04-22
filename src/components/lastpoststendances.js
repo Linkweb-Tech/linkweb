@@ -29,7 +29,7 @@ class LastPostsTendances extends Component {
                                     to={`/blog/${node.slug}/`}
                                     className="century  pb-3"
                                 >
-                                    <div className="h-64 bg-cover bg-center" style={{ backgroundImage: 'url(' + node.featuredImage.sourceUrl + ')', borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }}></div>
+                                    <div className="h-64 bg-cover bg-center" style={{ backgroundImage: 'url(' + node.featuredImage.node.sourceUrl + ')', borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }}></div>
                                     <h3 className="text-left px-3 pt-3  text-md hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }} />{/*{ node.title }</h3>*/}
                                 </Link>
                                 <div className=" meta text-sm text-left italic pl-3">Publié le <span className="capitalize">{node.date}</span></div>

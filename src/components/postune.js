@@ -33,7 +33,7 @@ class Postune extends Component {
                                     to={`/blog/${node.slug}/`}
                                     className="text-white century relative"
                                 >
-                                    <div className="bg-cover bg-center flex flex-col items-end px-10 justify-end" style={{ minHeight: '350px', backgroundImage: 'url(' + node.featuredImage.sourceUrl + ')', borderRadius: '15px' }}>
+                                    <div className="bg-cover bg-center flex flex-col items-end px-10 justify-end" style={{ minHeight: '350px', backgroundImage: 'url(' + node.featuredImage.node.sourceUrl + ')', borderRadius: '15px' }}>
                                         <div className="infobg">
                                             <h3 className="text-left flex px-3 pt-3 text-sm hover:text-bleu" dangerouslySetInnerHTML={{ __html: node.title }} />{/*{ node.title }</h3>*/}
                                             <div className=" meta text-sm px-3 text-left italic">Publié le {node.date}</div>

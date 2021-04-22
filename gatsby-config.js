@@ -20,7 +20,12 @@ module.exports = {
          * Example : 'gatsbyjsexamplewordpress.wordpress.com' or 'www.example-site.com'
          */
         url: "https://api.linkweb.fr/graphql/",
-        // The protocol. This can be http or https.
+        html: {
+          useGatsbyImage: true,
+        },
+        debug: {
+          preview: true,
+        },
        
       },
     },
@@ -36,13 +41,6 @@ module.exports = {
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
         icon: `src/images/lw.png`
-      }
-    },
-    `gatsby-plugin-page-transitions`,
-    {
-      resolve: 'gatsby-plugin-page-transitions',
-      options: {
-        transitionTime: 700
       }
     },
     `gatsby-plugin-postcss`,
