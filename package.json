@@ -4,6 +4,7 @@
   "version": "3.0.104",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
+    "@loadable/component": "^5.14.1",
     "aos": "^2.3.4",
     "axios": ">=0.21.1",
     "gatsby": "3.3.1",

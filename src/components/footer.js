@@ -3,8 +3,8 @@ import { Link } from 'gatsby';
 import LinkwebWhite from "../images/logo-linkweb.png";
 import Datadock from "../images/logo_datadock.png";
 import googlePartner from "../images/PartnerBadge-RGB.png";
-
-
+import loadable from '@loadable/component'; yarn
+const ClientZendesk = loadable(() => import('react-zendesk'))
 //const ClientZendesk = React.lazy( ()=> import("react-zendesk"));
 
 // ZENDESK
@@ -217,9 +217,8 @@ class Footer extends Component {
                         </div>
                     </section>
                 </section>
-                {/* <React.Suspence fallback={<div></div>}>  
-                    <ClientZendesk zendeskKey={ZENDESK_KEY} {...setting} onLoaded={() => console.log('is loaded')} />
-                </React.Suspence> */}
+
+                <ClientZendesk zendeskKey={ZENDESK_KEY} {...setting} onLoaded={() => console.log('is loaded')} />
             </footer>
         );
     }
