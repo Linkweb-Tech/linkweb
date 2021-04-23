@@ -151,5 +151,12 @@ module.exports = {
         // cookieDomain: "linkweb.fr",
       },
     },
+    {
+      resolve: 'gatsby-plugin-zendesk-chat',
+      options: {
+        zendeskKey: '0799bea2-f202-4823-8ba0-93bc404a2ec6',
+        enableDuringDevelop: false, // Optional. Disables Zendesk chat widget when running Gatsby dev server. Defaults to true.
+      },
+    }
   ]
 };
