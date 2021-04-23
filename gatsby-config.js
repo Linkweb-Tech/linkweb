@@ -152,12 +152,12 @@ module.exports = {
         // cookieDomain: "linkweb.fr",
       },
     },
-    {
-      resolve: `gatsby-plugin-tawk.to`,
-      options: {
-        tawkId: "6082b1a662662a09efc16b50/1f3v8bsdq",
-        // get this from the tawk script widget
-      },
-    }
+    // {
+    //   resolve: `gatsby-plugin-tawk.to`,
+    //   options: {
+    //     tawkId: "6082b1a662662a09efc16b50/1f3v8bsdq",
+    //     // get this from the tawk script widget
+    //   },
+    // }
   ]
 };
