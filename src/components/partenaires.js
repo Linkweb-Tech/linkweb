@@ -1,11 +1,5 @@
 import React, { Component } from "react";
-import tlse from "../images/logo_universite-federale.png";
-import peugeot from "../images/peugeot.png";
-import onco from "../images/logo-onco.png";
-import sdis from "../images/logo-sdis47.png";
-import normand from "../images/normandie.png";
-import hg from "../images/logo_cd31.svg";
-import cotesarmor from "../images/logo-cotes-armor.svg";
+import { StaticImage } from "gatsby-plugin-image";
 
 class Partenaires extends Component {
     constructor(props) {
@@ -16,47 +10,63 @@ class Partenaires extends Component {
         return (
             <section className="max-w-6xl flex-wrap md:flex-no-wrap jusitfy-center flex w-full mx-auto px-4 py-2 my-2">
           <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up'*/>
-            <img 
-              src={peugeot}
+            <StaticImage 
+              src="../images/peugeot.png"
+              placeholder="blurred"
+              loading="lazy"
               alt="Création site internet Toulouse"
             />
           </div>
           <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up' data-aos-delay='200'*/>
-            <img 
-              src={normand}
+            <StaticImage 
+              src="../images/normandie.png"
+              placeholder="blurred"
+              loading="lazy"
               alt="Création site internet Toulouse"
             />
           </div>
           <div className="w-1/3 md:w-1/6 mb-10" /*data-aos='fade-up' data-aos-delay='400'*/>
-            <img 
-              src={onco}
+            <StaticImage 
+              src="../images/logo-onco.png"
+              placeholder="blurred"
+              loading="lazy"
               alt="Création site internet Agen"
             />
           </div>
           <div className="w-1/3 md:w-1/6 mb-10 mx-auto block" /*data-aos='fade-up' data-aos-delay='600'*/>
-            <img 
-              src={tlse}
+            <StaticImage 
+              src="../images/logo_universite-federale.png"
+              placeholder="blurred"
+              loading="lazy"
               alt="Agence Web Toulouse"
             />
           </div>
           <div className="w-1/3 md:w-1/6 mb-10 mx-auto block" /*data-aos='fade-up' data-aos-delay='800'*/>
-            <img 
-              src={sdis}
+            <StaticImage 
+              src="../images/logo-sdis47.png"
+              placeholder="blurred"
+              loading="lazy"
               alt="Agence Web Agen"
             />
           </div>
-          <div className="w-1/3 md:w-1/6 mb-10 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
-            <img 
+          <div className="w-1/3 md:w-1/6 mb-10 mx-auto flex justify-center" /*data-aos='fade-up' data-aos-delay='1000'*/>
+            <StaticImage 
               className="mx-auto"
-              src={hg}
+              src="../images/logo_cd31.svg"
+              placeholder="blurred"
+              loading="lazy"
               alt="Réalisations Site Web Agen"
-              width="65px"
+              objectFit="contain"
+              height="62"
+              objectPosition="center"
               />
           </div>
           <div className="w-1/3 md:w-1/6 mt-4 mb-10 mx-auto block" /*data-aos='fade-up' data-aos-delay='1000'*/>
-            <img 
+            <StaticImage 
               className="mx-auto block"
-              src={cotesarmor}
+              src="../images/logo-cotes-armor.svg"
+              placeholder="blurred"
+              loading="lazy"
               alt="Réalisations Site Web Agen"
               />
           </div>

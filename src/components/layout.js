@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import CookieConsent from 'react-cookie-consent';
-import Header from "./header";
-import Footer from "./footer";
+import loadable from '@loadable/component';
+//import Header from "./header";
+const Header = loadable(() => import('./header'));
+//import Footer from "./footer";
+const Footer = loadable(() => import('./footer'));
 import "../scss/global.scss";
 
 

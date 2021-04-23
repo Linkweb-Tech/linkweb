@@ -10,6 +10,7 @@ module.exports = {
      * Gatsby's data processing layer begins with “source”
      * plugins. Here the site sources its data from Wordpress.
      */
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -152,10 +153,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-zendesk-chat',
+      resolve: `gatsby-plugin-tawk.to`,
       options: {
-        zendeskKey: '0799bea2-f202-4823-8ba0-93bc404a2ec6',
-        enableDuringDevelop: false, // Optional. Disables Zendesk chat widget when running Gatsby dev server. Defaults to true.
+        tawkId: "6082b1a662662a09efc16b50/1f3v8bsdq",
+        // get this from the tawk script widget
       },
     }
   ]

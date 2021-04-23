@@ -5,23 +5,23 @@ import Layout from "../components/layout";
 import Button from "../components/button";
 import SEO from "../components/seo";
 import Hero1 from "../components/animhero1";
-import SimpleMap from "../components/simpleMap";
-import Partenaires from '../components/partenaires';
+import loadable from '@loadable/component';
+//import SimpleMap from "../components/simpleMap";
+//import Partenaires from '../components/partenaires';
+const SimpleMap = loadable(() => import('../components/simpleMap'));
+const Partenaires = loadable(() => import('../components/partenaires'));
 import Carousel from '../components/carousel';
 import Modals from "../components/modals";
-
 import Tiles from '../components/gallery/tiles';
-
+import { StaticImage } from "gatsby-plugin-image";
 import bureau from "../images/bureau.jpg";
-import stars from '../images/stars.png';
-// import refads from '../images/referencement-ads.webp';
+//import stars from '../images/stars.png';
 import besoins from '../images/besoins.jpg';
 
 
 import RoundButton from "../components/roundButton";
 import ButtonBlog from "../components/buttonblog";
 import Accordion from "../components/accordion";
-// import PageTransition from "gatsby-plugin-page-transitions";
 import "../scss/heroa.scss";
 import "../scss/home1.scss";
 import '../scss/blogposts.scss';
@@ -390,8 +390,10 @@ function IndexPage(props) {
       </section>
       <section className="max-w-6xl mx-auto flex flex-col md:flex-row align-center justify-center century text-center mt-3 px-6 mb-12">
         <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
-          <img
-            src={stars}
+          <StaticImage
+            src="../images/stars.png"
+            placeholder="blurred"
+            loading="lazy"
             alt="Création site internet Agen"
             className="w-32 mx-auto h-auto mt-3"
           />
@@ -400,8 +402,10 @@ function IndexPage(props) {
         </div>
         <br />
         <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up" data-aos-delay="300"*/>
-          <img
-            src={stars}
+          <StaticImage
+            src="../images/stars.png"
+            placeholder="blurred"
+            loading="lazy"
             alt="Création site internet Toulouse"
             className="w-32 mx-auto h-auto mt-3"
           />
@@ -409,8 +413,10 @@ function IndexPage(props) {
           <div className="italic text-sm">« L'équipe <strong className="font-normal">Linkweb</strong> répond toujours à l'attente de nos demandes et fait vivre le site de façon très dynamique. [...] Depuis le début de notre collaboration, en 2015, nous trouvons des interlocuteurs à notre écoute, compétents et, cerise sur le gâteau , très sympathiques. Cette culture d'entreprise rejaillit de façon positive sur la qualité du travail. Rejoignez les. »</div>
         </div><br />
         <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up" data-aos-delay="500"*/>
-          <img
-            src={stars}
+          <StaticImage
+            src="../images/stars.png"
+            placeholder="blurred"
+            loading="lazy"
             alt="Création site internet Agen"
             className="w-32 mx-auto h-auto mt-3"
           />
