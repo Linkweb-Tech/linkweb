@@ -42,7 +42,7 @@ class ReferencementToulouse extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Référencement Toulouse - Agence SEO Linkweb"
+                    title="Agence SEO Toulouse - Référencement Linkweb"
                     description="Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
                     url="https://linkweb.fr/referencement-toulouse/"
@@ -84,7 +84,7 @@ class ReferencementToulouse extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Référencement Toulouse</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Toulouse et Référencement Ads</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence SEO & SEA spécialisée en stratégie de référencement web à Toulouse.</h2>
@@ -223,7 +223,7 @@ class ReferencementToulouse extends Component {
                             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
                             <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                                 <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR OPTIMISER MON RÉFÉRENCEMENT
+                                    <span className="text-bleu">/</span>AGENCE SEO TOULOUSE : JE FAIS LE CHOIX D'EXPERTS POUR MON RÉFÉRENCEMENT
                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
                                     Nos <strong>consultants en référencement SEO et SEA</strong>, d’<strong>Agen (47)</strong> et de <strong>Toulouse (31)</strong> dans le Sud de la France, sont <strong>certifiés par Google</strong> et vous apportent une expertise qualifiée pour vous accompagner au mieux dans le développement et le <strong>référencement de votre site internet</strong>.
