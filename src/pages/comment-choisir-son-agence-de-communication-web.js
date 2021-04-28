@@ -71,7 +71,7 @@ class CommentChoisirSonAgenceDeCommunicationWeb extends Component {
                     <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
                         <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez nous contacter ?</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-white text-center century text-md">Pour vous projeter et obtenir un chiffrage de votre projet n’hésitez pas à nous contacter. <br /><br />Notre <Link to="/agence-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence de communication web</Link>, vous accompagne pour définir votre stratégie web marketing.</p>
+                        <p className="px-8 lg:px-16 text-white text-center century text-md">Pour vous projeter et obtenir un chiffrage de votre projet n’hésitez pas à nous contacter. <br /><br />Notre <Link to="/agence-marketing-toulouse/" className="text-black hover:text-white font-bold">agence de communication web</Link>, vous accompagne pour définir votre stratégie web marketing.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
                             <button
