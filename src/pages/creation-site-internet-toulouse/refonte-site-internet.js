@@ -25,7 +25,7 @@ class refonteSiteInternet extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Refonte de site : Définition - Création site internet Toulouse"
+                    title="Refonte de site : tout ce qu'il faut savoir - Définition"
                     description="La refonte d'un site internet est une étape clé dans la vie d'un site web."
                     url="https://linkweb.fr/creation-site-internet-toulouse/refonte-site-internet/"
                     nom="Refonte site internet"
@@ -57,7 +57,7 @@ class refonteSiteInternet extends Component {
                     </div>
                     <div>
                         <h1 data-aos="fade-up" className="century text-5xl sm:text-6xl text-bleu text-center text-white mt-4 lg:mt-6">
-                            Refonte de site internet
+                            Refonte site internet : tout ce qu’il faut savoir
                             </h1>
                     </div>
                 </section>
@@ -67,24 +67,75 @@ class refonteSiteInternet extends Component {
                         <h2 className="text-3xl text-bleu font-bold">Qu'est-ce que la refonte de site internet ?</h2>
                         <br />
                         <p>
-                            La <strong>refonte d’un site internet</strong> consiste, à partir d’un site existant, à modifier la structure ainsi que l’apparence du site. La <strong className="font-normal">refonte d’un site internet</strong> est un moment charnière de la vie de son site internet : le Web est en constante évolution et de nouvelles tendances apparaissent régulièrement. En ce sens, la <strong className="font-normal">refonte de site</strong> peut se concevoir comme <Link className="text-bleu hover:text-black font-bold" to="/creation-site-internet-toulouse/"><strong>la création de site internet à Toulouse</strong></Link>. La refonte d’un site internet peut intervenir à divers moments comme par exemple :<br />
-                            <br />
-                            <ul className="px-12">
-                                <li className="list-disc">lorsque le <strong className="font-normal">web design</strong> de <strong className="font-normal">votre site internet</strong> est désuet ou que le site n’est pas <strong className="font-normal">responsive design</strong>,</li>
-                                <li className="list-disc">lors d’un changement de <strong className="font-normal">charte graphique</strong> ou <strong className="font-normal">identité visuelle</strong> de la marque,</li>
-                                <li className="list-disc">lors de la mise en place d’une nouvelle <strong className="font-normal">stratégie digitale</strong>,</li>
-                                <li className="list-disc">lors de la mise en place d’une <strong className="font-normal">stratégie de référencement naturel SEO</strong>,</li>
-                                <li className="list-disc">Etc.</li>
+                            La <strong className="font-bold">refonte d’un site internet</strong> consiste à réadapter la structure et/ou l’apparence d’un site existant en vue d’atteindre de <strong className="font-bold">nouveaux objectifs</strong> ou de maintenir son site techniquement à jour. 
+                            <br/><br/>
+                            La vie d’un site internet n’est pas un long fleuve tranquille : le Web est en constante évolution et de nouvelles tendances apparaissent régulièrement. Par ailleurs, plusieurs situations portent à se pencher sur la <strong className="font-bold">refonte de son site web</strong> : un changement de stratégie de communication, de nouveaux objectifs webmarketing ou encore l’apparition de nouvelles tendances UX design. 
+                            <br/><br/>
+                            De plus, le site internet doit sans arrêt s’adapter aux <strong className="font-bold">besoins des utilisateurs</strong>, mais également aux évolutions techniques. La durée de vie d’un site web est estimée à 5 ans avant d’envisager une refonte. 
+                            <br/><br/>
+                            Enfin, il est à noter que la refonte de site peut être conçue comme la <Link to="/creation-site-internet-toulouse/" className="text-bleu font-bold hover:text-black">création de site internet à Toulouse</Link>, même s’il ne s’agit pas totalement du même travail.</p>
+                            <br/><br/>
+                            <h2 className="text-3xl text-bleu font-bold">Quels sont les différents types de refonte de site internet ?</h2>
+                            <br/><br/>
+                            <p>Il faut savoir qu’il existe principalement deux types de refonte :</p>
+                            <br/><br/>
+                            <ul className="list-disc pl-12">
+                            <li><strong className="font-bold">La refonte graphique :</strong> comme son nom l’indique, elle a pour objectif de proposer un nouvel habillage pour le site internet avec une priorité mise sur l’aspect responsive design et plus globalement sur l’<strong className="font-bold">expérience utilisateur</strong>. Elle est essentielle pour permettre à l’utilisateur d’accéder à l’information qu’il recherche. En ce sens, elle doit être intuitive. Un relooking pourra être nécessaire pour un visuel obsolète.</li><br/>
+                            <li><strong className="font-bold">La refonte structurelle :</strong> la refonte structurelle concerne la structuration du site et du contenu présent. Elle peut répondre à un changement d’objectifs, à la mise en place d’une nouvelle arborescence axée sur le <strong className="font-bold">référencement naturel</strong> et notamment sur la création d’un cocon sémantique.</li>
                             </ul>
-                            <br />
-                                    La mise en place d’un <strong className="font-normal">projet de refonte de votre site web</strong> demande de considérer plusieurs éléments. <strong className="font-normal">Refondre un site internet</strong> est proche de la <strong className="font-normal">création d'un nouveau site internet</strong>. Ce qui différencie la <strong className="font-normal">refonte d’un site</strong> de la <strong className="font-normal">création de site web</strong> est la présence d’un historique. En effet, le site internet possède déjà un <strong className="font-normal">nom de domaine</strong>, des <strong className="font-normal">URLs</strong>, mais également des <strong className="font-normal">backlinks</strong> déjà existants. Créer un site internet de toutes pièces donne plus de libertés à ce niveau-là. C’est pourquoi, il est indispensable de ne pas occulter les URL existantes, et ce, même dans le cas d’une <strong className="font-normal">refonte complète</strong>. Prendre en compte les <strong className="font-normal">redirections</strong> vers les nouvelles URLs dans la nouvelle stratégie sera nécessaire.<br />
-                            <br />
-                                    De plus, mettre en place un <strong className="font-normal">nouveau site internet</strong> peut permettre de mettre en place de <strong className="font-normal">nouvelles fonctionnalités</strong>. En fonction des besoins, la question de l’<strong className="font-normal">outil de création et de gestion du contenu du site</strong> doit se poser. Il faudra faire le choix entre l’utilisation d’un <strong className="font-normal">CMS</strong> ou du traditionnel duo HTML/CSS.<br />
-                            <br />
-                                    La <strong className="font-normal">refonte de son site</strong> peut-être motivée par la mise en place d’une <strong className="font-normal">expérience utilisateur</strong> optimale en vue d’augmenter son <strong className="font-normal">taux de conversion</strong>. Le travail de l’<strong className="font-normal">ergonomie</strong> et du <strong className="font-normal">webdesign du site</strong> est également une phase importante lors de la <strong className="font-normal">refonte d’un site internet</strong>.<br />
-                            <br />
-                            <strong className="font-normal">Avoir un site</strong> adapté à vos objectifs va permettre de mener à bien votre nouvelle stratégie <strong className="font-normal">webmarketing</strong>. En plus d’une <strong className="font-normal">refonte graphique</strong>, <strong className="font-normal">faire une refonte structurelle</strong> va également demander un travail sur l’<strong className="font-normal">arborescence</strong>. Ce travail est très important en termes de <strong className="font-normal">référencement</strong> pour votre <strong className="font-normal">projet web</strong>. À ce titre, le travail de refonte incombe au <strong>développeur web</strong> dans le cadre de l'<strong className="font-normal">agence digitale</strong>.<br />
-                        </p>
+                            <br/><br/>
+                            <p>Ainsi, la refonte peut être graphique, structurelle, mais il est aussi possible de procéder à une <strong className="font-bold">refonte complète</strong>. Avant de déterminer le type de refonte à mettre en place, il est indispensable de réaliser un état des lieux complet concernant son site internet et plus globalement sa stratégie web.</p>
+                            <br/><br/>
+                            <h2 className="text-3xl text-bleu font-bold">Pourquoi et quand faire une refonte totale ou partielle ?</h2>
+                            <br/><br/>
+                            <p>La vie d’un site internet est rythmée par des refontes régulières visant à rendre le site toujours plus performant techniquement, comme pour les utilisateurs, mais aussi en termes de visibilité dans les <strong className="font-bold">résultats de recherche des moteurs</strong>.
+                            <br/><br/>
+                                Toutefois, une <strong className="font-bold">refonte de son site internet</strong> n’est pas à prendre à la légère. Aussi, il ne faut pas en abuser au risque de perdre en pertinence vis-à-vis des visiteurs du site.
+                            <br/><br/>
+                                Avant de songer à une refonte, il est important de se poser les bonnes questions :</p>
+                            <br/><br/>
+                            <ul className="list-disc pl-12">
+                                <li>Est-ce que mon <strong className="font-bold">site internet</strong> répond à mes priorités ou objectifs du moment ?</li>
+                                <li>Est-ce que mon <strong className="font-bold">site internet</strong> est à jour techniquement ?</li>
+                                <li>Est-ce que le contenu présenté sur mon site internet correspond toujours à mon entreprise ? Est-il à <strong className="font-bold">votre image</strong> ?</li>
+                                <li>Est-ce que mon site internet est performant (visibilité, trafic, contacts prospects, <strong className="font-bold">tunnel de conversions</strong>, etc.) ?</li>
+                            </ul>
+                            <br/><br/>
+                            <p>Si la plupart des réponses à ces questions est négative, alors une refonte de son site pourra devenir nécessaire. Aussi, il faut savoir qu’envisager une refonte peut être pertinent à plusieurs occasions :</p>
+                            <br/><br/>
+                            <ul className="list-disc pl-12">
+                                <li>lorsque le <strong className="font-bold">web design de votre site internet</strong> est désuet ou que le site n’est pas responsive design,</li>
+                                <li>lors d’un changement de charte graphique ou identité visuelle de la marque,</li>
+                                <li>lors de la mise en place d’une <strong className="font-bold">nouvelle stratégie digitale</strong>,</li>
+                                <li>lors de la mise en place d’une <strong className="font-bold">stratégie de référencement naturel SEO</strong>,</li>
+                                <li>Etc.</li>
+                            </ul>
+                            <br/>
+                            <h3 className="text-2xl text-bleu font-bold">Refonte site internet : un avantage majeur pour le SEO</h3>
+                            <br/>
+                            <p>Il se peut que vous envisagiez une refonte en raison du manque de performance de <strong className="font-bold">votre site web</strong>. Pour cela, il est indispensable de comprendre ce qui ne fonctionnement et pourquoi. Est-ce que les utilisateurs passent du temps sur votre site ? Est-ce qu’ils naviguent bien entre les <strong className="font-bold">différentes pages de votre site web</strong> ? Très concrètement, est-ce que votre site est visible ? La <strong className="font-bold">visibilité de votre site sur le web</strong> introduit la question du référencement naturel : est-ce que votre site est optimisé pour correspondre aux attentes des moteurs de recherche ?
+                            <br/><br/>
+                                Ainsi, <strong className="font-bold">refondre son site internet</strong> est particulièrement intéressant en vue d’acquérir de la <strong className="font-bold">visibilité sur le web</strong> grâce aux moteurs de recherche. En effet, lancer sa stratégie à partir d’un site web existant présente un avantage non-négligeable : l’autorité acquise sur votre domaine reste présente et il va falloir savoir en tirer des bénéfices.
+                                <br/><br/>
+                                En effet, la présence d’un historique va être un atout important. À ce niveau, le site internet repose sur un <strong className="font-bold">nom de domaine</strong> déjà existant et dispose d’un capital d’URLs ayant déjà reçu des backlinks. C’est pourquoi, le travail effectué sur la sélection des URL et sur les <strong className="font-bold">redirections</strong> (redirection vers les nouvelles pages, ou vers la page d’accueil) va être déterminants.
+                                <br/><br/>
+                                Cet historique devra être intégré à la réflexion stratégique concernant le choix des mots-clés ciblés. Les url les plus performantes pourront alors être conservées en vue de disposer d’une base déjà existante à partir de laquelle se lancer. <strong className="font-bold">Refondre son site web</strong> procure un avantage considérable en termes de structuration du site. Partir de zéro permet d’avoir une vision globale et de long termes pour définir une arborescence compatible avec ses futurs cocons sémantiques afin d’<strong className="font-bold">optimiser son maillage interne (liens internes)</strong>.
+                            </p>
+                            <br/>
+                            <h3 className="text-2xl text-bleu font-bold">Refonte site internet : une mise à jour technique non-négligeable</h3>
+                            <br/>
+                            <p>
+                                La mise en place d’un <strong className="font-bold">nouveau site internet</strong> peut permettre d’adopter de nouvelles fonctionnalités (selon le <strong className="font-bold">type de site web</strong> : site interne vitrine, e-commerce, ou administrable). En fonction de vos besoins en termes de référencement, de gestion ou des fonctionnalités à offrir à vos utilisateurs, la question de l’outil de création et de gestion de contenu du site va se poser. À ce niveau, les possibilités sont nombreuses en termes de <strong className="font-bold">développement web</strong> : utilisation d’un CMS (Wordpress, Drupal, Joomla, Prestashop, etc.) d’applications web (Progressive Web App) ou du traditionnel duo HTML/CSS, par exemple.
+                                <br/><br/>
+                                Également, la refonte de son site peut-être motivée par la mise en place d’une expérience utilisateur optimale en vue d’augmenter son taux de conversion. En effet, la refonte est une occasion parfaite pour opérer une large mise à jour technique de son site web et ainsi redéfinir vos priorités (temps de chargement, taux de rebond, optimisation des balises). Le travail de l’ergonomie et du webdesign du site constituent des phases importantes lors de la refonte d’un site internet. Cela peut être le cas si votre site internet ne dispose pas de version mobile (ou tablettes) ou au moins d’un affichage mobile adapté. La refonte sera indispensable.
+                                <br/><br/>
+                                En somme, mettre en place une <strong className="font-bold">refonte sur son site internet existant</strong> est bien souvent la solution lors d’un changement de ligne communicationnelle, ou lorsque le site existant ne correspond plus à ses besoins. Toutefois, même lorsque <strong className="font-bold">la refonte du site est complète</strong>, cette dernière ne s’appréhende pas comme une création de nouveau site web classique.
+                                <br/><br/>
+                                Avoir un site adapté à vos objectifs va permettre de mener à bien votre nouvelle <strong className="font-bold">stratégie webmarketing</strong>. En plus d’une refonte graphique, réaliser une <strong className="font-bold">refonte structurelle</strong> va également demander un travail important sur l’arborescence du site. Ce travail est fondamental en termes de référencement pour la <strong className="font-bold">réussite votre projet web</strong>. 
+                                <br/><br/>
+                                Tenir compte de l’historique de votre site web lors de la <strong className="font-bold">création de vos nouvelles pages web</strong> vous sera tout particulièrement bénéfique. Enfin, il faut savoir que le <strong className="font-bold">projet de refonte</strong> est envisagé aussi bien par un développeur web pour ce qui concerne la partie technique, mais également par un <strong className="font-bold">référenceur SEO</strong> en vue de coordonner les actions mises en place dans le cadre d’une agence web.
+                            </p>
+
                         <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Création site internet Toulouse"
