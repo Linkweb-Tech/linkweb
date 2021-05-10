@@ -81,6 +81,23 @@ class webmarketing extends Component {
                             <br />
                                 En somme, la <strong className="font-normal">création de site web</strong> appuyée par le <strong className="font-normal">référencement naturel</strong> fait partie des <strong className="font-normal">techniques de marketing web</strong> qui permettent à une entreprise de tirer profit de l’utilisation des <strong className="font-normal">outils digitaux</strong> et de générer de la croissance. Le <strong className="font-normal">digital marketing</strong> a pour objectif de procurer un <strong className="font-normal">retour sur investissement</strong> via un <strong className="font-normal">projet digital</strong> taillé sur-mesure.<br />
                         </p>
+                        <br/>
+                        <h2 className="text-3xl text-bleu font-bold">Webmarketing : une discipline en perpétuelle évolution</h2>
+                        <br/>
+                        <p>
+                            Pour générer des résultats importants pour une entreprise, cette discipline doit être rigoureusement exploitée. Aussi, il faut avoir conscience que les différentes techniques citées dans le <strong className="font-normal">marketing digital</strong> sont basées sur les comportements des utilisateurs. Cela explique qu’il pourra exister de larges fluctuations entre les stratégies d’hier, d’aujourd’hui et de demain. À ce niveau, il est indispensable de <strong className="font-normal">mener une veille sur le sujet</strong>. Cela est bénéfique à plusieurs niveaux : 
+                            <br/><br/>
+                            <ul className="list-disc pl-12">
+                                <li>Pour détecter les nouveaux acteurs présents sur le marché,</li>
+                                <li>Suivre les dernières tendances,</li>
+                                <li>Découvrir de <strong className="font-normal">nouveaux outils</strong>,</li>
+                                <li>Échanger avec des acteurs du même secteur professionnel.</li>
+                            </ul>
+                            <br/>
+                            Il faut savoir qu’il existe plusieurs moyens de mener sa veille. Certains <strong className="font-normal">réseaux sociaux</strong> pourront être très utiles comme Twitter (et notamment Tweetdeck), LinkedIn, vire Reddit. D’autres outils comme le forum spécialisé, l’agrégateur de contenu ou le <strong className="font-normal"><a href="https://le-consultant-digital.com/" className="text-bleu hover:text-black font-bold" target="_blank" rel="noopener noreferer">blog webmarketing</a></strong> pourront être utilisés. Ces outils sont parfaits pour centraliser l’information. En réalité, il peut s’avérer judicieux de les combiner. En effet, détecter les bons outils est la première étape pour une <strong className="font-normal">veille digitale</strong> efficace.
+                            <br/><br/>
+                            Une fois ce travail effectué, vous ne perdrez plus de vue les informations qui comptent pour vous. De cette façon, il sera nécessaire de garder du recul vis-à-vis de l’actualité pour mettre en perspective les informations fraiches vis-à-vis de vos <strong className="font-normal">connaissances acquises</strong> dans votre domaine de prédilection.
+                        </p>
                         <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Création site internet Toulouse"
