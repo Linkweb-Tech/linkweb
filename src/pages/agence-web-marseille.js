@@ -13,7 +13,7 @@ import SimpleMap from "../components/simpleMap";
 import "../scss/blochover.scss";
 import "../scss/carousel.scss";
 
-import mac from "../images/agence-web-design-linkweb.jpg";
+import mac from "../images/agence-web-marseille.jpg";
 import stars from '../images/stars.png';
 import arriereplan from "../images/bg-choisir-agence-communication-web.jpg";
 import siteinternet from "../images/agence-web-specialisee.jpg";
@@ -212,7 +212,7 @@ class AgenceWebMarseille extends Component {
                 <section className="phototext mb-24">
                     <section className="w-full  my-10 flex flex-col lg:flex-row items-center justify-start">
                         <div className="w-full flex justify-center items-center lg:w-5/12">
-                            <img className="w-full" src={mac} alt="Comment choisir son agence de communication web" />
+                            <img className="w-full" src={mac} alt="Agence Web Marseille" />
                         </div>
                         <div className="w-full lg:w-1/2 my-10  flex flex-col">
                             <div className="w-full flex-col md:flex-row flex px-auto">

@@ -13,28 +13,28 @@ import SimpleMap from "../components/simpleMap";
 import "../scss/blochover.scss";
 import "../scss/carousel.scss";
 
-import mac from "../images/projet-web-nice.jpg";
+import mac from "../images/agence-web-montpellier.jpg";
 import stars from '../images/stars.png';
 import arriereplan from "../images/bg-choisir-agence-communication-web.jpg";
-import siteinternet from "../images/agence-web-nice.jpg";
-import referencement from "../images/freelance.jpg";
+import siteinternet from "../images/projet-web-montpellier.jpg";
+import referencement from "../images/referencement-web-montpellier.jpg";
 import webdesign from "../images/agence-web-specialisee.jpg";
 
 
 
 
-class AgenceWebNice extends Component {
+class AgenceWebMontpellier extends Component {
 
     render() {
         return (
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Nice - Projets sur-mesure - Linkweb"
-                    description="Notre agence web à Nice met tout en oeuvre pour vous proposer une solution web fonctionnelle et adaptée à vos objectifs."
-                    url="https://linkweb.fr/agence-web-nice/"
-                    nom="Agence Web Nice"
-                    slug="agence-web-nice/"
+                    title="Agence Web Montpellier - Projets sur-mesure - Linkweb"
+                    description="Notre agence web à Montpellier met tout en oeuvre pour vous proposer une solution web fonctionnelle et adaptée à vos objectifs."
+                    url="https://linkweb.fr/agence-web-montpellier/"
+                    nom="Agence Web Montpellier"
+                    slug="agence-web-montpellier/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -59,19 +59,19 @@ class AgenceWebNice extends Component {
                 <section className="flex items-center justify-start w-full mx-auto pb-0 my-32 md:my-42 lg:my-42 xl:my-48 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end">
                         <div className="w-full lg:w-2/3 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-tight">Agence web Nice</h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-tight">Agence web Montpellier</h1>
                         </div>
                         <br />
-                        <h2 className="flex mb-16 full lg:w-3/5 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Agence web spécialisée dans la création de sites et le référencement web à Nice</h2>
+                        <h2 className="flex mb-16 full lg:w-3/5 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Agence spécialisée dans le référencement web, la refonte et la création de site internet</h2>
                         {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
 
                     </div>
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
                     <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
-                        <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez contacter notre agence web à Nice ?</span></h2>
+                        <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez contacter notre agence web à Montpellier ?</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-white text-center century text-md">Pour votre <strong className="font-normal">projet de refonte ou de création</strong>, Linkweb à Nice et partout en France vous accompagne. Définissez votre stratégie web-marketing auprès de <strong className="font-normal">spécialistes du digital</strong>.</p>
+                        <p className="px-8 lg:px-16 text-white text-center century text-md">Notre <strong className="font-normal">agence web</strong> vous propose des services de <strong className="font-normal">développement sur-mesure</strong> pour répondre à tous vos besoins en termes de <strong className="font-normal">communication digitale</strong>.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
                             <button
@@ -89,41 +89,41 @@ class AgenceWebNice extends Component {
                 <section className="w-full lg:w-3/5 px-10 mt-16 lg:-mt-48 mb-16 lg:mb-48">
                     <br />
                     <h3 className="century text-xl text-center">
-                        Agence Web Nice : Faites confiance à l’équipe de Linkweb Nice pour mettre en application votre stratégie de développement et de référencement. 
+                        Linkweb, à Montpellier, fait partie des agences qui mettent tout en œuvre pour vous apporter la solution de web-marketing qui vous correspond.  
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Linkweb vous apporte des solutions adaptées à vos besoins</h2>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence Web Montpellier : nous sommes à votre écoute pour vous fournir une stratégie digitale adaptée à vos besoins</h2>
                     <br />
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Faites les meilleurs choix pour votre entreprise : choisissez les services d’experts en communication digitale pour mener à bien votre projet. Nos réalisations vous permettent de disposer d’un support performant et adapté qui dynamise l’activité en ligne de votre entreprise.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Linkweb intervient à Montpellier comme partout en France et vous propose des prestations adaptées à vos ambitions et vos besoins. Notre priorité est de vous apporter toute notre expertise pour la réalisation de votre projet.</h3>
                     </div>
                 </section>
                 <section className="w-full my-10 flex flex-col lg:flex-row">
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + siteinternet + ')' }}>
-                        <h3 className="text-3xl titrehover text-center century leading-tight"><span>Conception et refonte de</span><br /><span className="font-bold text-5xl md:text-6xl">SITES INTERNET</span></h3>
-                        <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">L’équipe Linkweb vous accompagne dans la <strong className="font-normal">création de supports web-design et responsive-design</strong> (ergonomie sur mobile, tablette, tous supports) pour une navigation en toute ergonomie. Les experts en <strong className="font-normal">développement de site web</strong> vous apportent leur expertise, du choix de l’hébergement à l’intégration de contenus optimisés pour <strong className="font-normal">être visible sur Google</strong>. Que vous optiez pour un site vitrine ou e-commerce, voire un site sur-mesure, apparaissez en première page dans les résultats proposés par les <strong className="font-normal">moteurs comme Google</strong>.<br/><br/>
-                        Les services que vous propose Linkweb vous permettent d’<strong className="font-normal">acquérir un trafic pertinent</strong>. Notre agence fait partie des <strong className="font-normal">agences web</strong> qui activent tous les leviers de la communication digitale pour permettre à leurs clients d’atteindre leurs objectifs.</p>
+                        <h3 className="text-3xl titrehover text-center century leading-tight"><span>Refonte et création de sites web </span><br /><span className="font-bold text-5xl md:text-6xl">FONCTIONNELS</span></h3>
+                        <p className="text century lg:mt-0 text-lg lg:text-sm xl:text-lg">Les <strong className="font-normal">équipes Linkweb</strong> vous accompagnent pour donner vie à votre <strong className="font-normal">projet sur le web</strong>. Site vitrine ou e-commerce, vous disposez d’un site performant et pensé pour vous grâce au travail de l’<strong className="font-normal">équipe de développement</strong> et à la <strong className="font-normal">stratégie de référencement</strong> qui vous est proposée par les référenceurs de l’agence. Votre <strong className="font-normal">site en ligne</strong> reprend votre identité visuelle, il présente une <strong className="font-normal">image de marque</strong> qui vous est propre et qui se démarque des autres.<br/><br/>
+                        Responsive design et webdesign sont des clefs importantes pour fournir une <strong className="font-normal">expérience utilisateur</strong> optimale sur les sites. Gagnez en visibilité et générez de l'activité grâce à la qualité de votre support graphique et visuel.</p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + referencement + ')' }}>
-                        <h3 className="text-3xl titrehover text-center century leading-tight"><span>Sratégie de référencement naturel</span><br /><span className="font-bold text-6xl">SEO</span></h3>
+                        <h3 className="text-3xl titrehover text-center century leading-tight"><span>Sratégie de contenu pour référencement</span><br /><span className="font-bold text-6xl"> NATUREL</span></h3>
                         <p className="text century text-lg lg:text-sm xl:text-lg">
-                        Les solutions que vous propose notre équipe sont pertinentes et répondent à vos attentes pour <strong className="font-normal">gagner en visibilité efficacement sur le web</strong>. Mettez toutes les chances de votre côté et faites les meilleurs choix pour acquérir le trafic recherché et générer de l'activité sur votre site. Bénéficiez ainsi d’un <strong className="font-normal">taux de conversion</strong> conséquent et attirez la curiosité de nouveaux clients régulièrement.  
-                        <br /><br />Le travail de <strong className="font-normal">référencement naturel</strong> vous rend visible sur le long terme. À partir d’un travail de recherche de mots-clés stratégique et d’un suivi détaillé des performances du site, votre <strong className="font-normal">communication digitale</strong> vous permet d’atteindre vos cibles.
+                        Votre <strong className="font-normal">projet de communication web</strong> implique de vous faire une place de choix au sein des <strong className="font-normal">résultats des moteurs de recherche</strong> ? L’interface visuelle et ergonomique dont vous disposez se doit d’être parmi les plus visibles et les plus attirantes pour l’utilisateur. Grâce à une <strong className="font-normal">stratégie de référencement naturel SEO</strong>, vous bénéficiez d’un contenu rédigé pour votre entreprise et qui répond aux critères de l’optimisation demandée par les moteurs pour favoriser un classement en <strong className="font-normal">première page</strong> de leurs suggestions.  
+                        <br /><br />La conception de <strong className="font-normal">contenus optimisés</strong> est une des solutions les plus pertinentes pour un référencement durable dans le temps et qui portera ses fruits de manière pérenne.
                         </p>
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + webdesign + ')' }}>
-                        <h3 className="text-3xl titrehover text-center century leading-tight"><span>Service de création de </span><br /><span className="font-bold text-6xl">CAMPAGNE ADS</span></h3>
+                        <h3 className="text-3xl titrehover text-center century leading-tight"><span>Campagnes Adwords </span><br /><span className="font-bold text-6xl">SUR-MESURE</span></h3>
                         <p className="text century text-lg lg:text-sm xl:text-lg">
-                        Linkweb vous propose un <strong className="font-normal">service de référencement payant</strong> qui vous permet de vous placer en tête de suggestions de recherche sur les moteurs comme Google. Ainsi, votre site génère plus facilement des retombées et bénéficie d’une <strong className="font-normal">visibilité importante</strong>. En fonction de vos besoins, votre site en ligne génère rapidement un <strong className="font-normal">retour sur investissement</strong> conséquent grâce au <strong className="font-normal">référencement Ads</strong>.
-                            <br /><br />Cette stratégie est définie par notre <strong className="font-normal">agence Linkweb</strong> grâce à une écoute et un conseil adapté à chaque projet. Nous mettons un point d’honneur à vous apporter un service des plus pertinents.</p>
+                        Le <strong className="font-normal">référencement payant</strong> que permet Adwords est une solution qui vous est proposée lorsque votre <strong className="font-normal">retour sur investissement</strong> de veut urgent. Cette campagne de communication publicitaire vous permet de vous faire une place ponctuelle en tête de <strong className="font-normal">première page des résultats des moteurs comme Google</strong>. Notre <strong className="font-normal">agence web</strong> vous apporte son conseil et son expertise pour utiliser stratégiquement ce type de référencement.
+                            <br /><br />Pour être plus visible temporairement et attirer l'œil de <strong className="font-normal">nouveaux clients</strong> plus facilement, les solutions que vous proposent nos équipes sont adaptées à vos attentes.</p>
                     </div>
                 </section>
                 <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
         <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-            Activez les <span className="text-bleu">leviers du web-marketing</span> pour le développement de votre entreprise
+            Linkweb offre aux entreprises <span className="text-bleu">la visibilité</span> qu'elles méritent
         </h2>
         <hr className="blue"></hr>
       </section>
@@ -133,10 +133,10 @@ class AgenceWebNice extends Component {
             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
             <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                <span className="text-bleu">/</span>JE SOUHAITE OBTENIR PLUS D'INFORMATIONS SUR LES SERVICES DE LINKWEB À NICE
+                <span className="text-bleu">/</span>JE SOUHAITE DÉCOUVRIR LES SERVICES DE LINKWEB
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                Pour disposer d’un <strong className="font-normal">site internet performant</strong>, il est indispensable de définir des paramètres à exploiter pour obtenir un maximum de résultats. Le public cible, l’<strong className="font-normal">expérience utilisateur</strong> qui répond aux attentes de celui-ci comme à celles des moteurs de recherche, le travail de <strong className="font-normal">référencement</strong>, tous ces éléments ne laissent pas sa place au hasard. Pour permettre à votre <strong className="font-normal">site en ligne</strong> de générer la performance que vous recherchez, Linkweb à <strong className="font-normal">Nice</strong>, à Monaco et partout en France vous apporte ses connaissances.
+                L'<strong className="font-normal">agence internet Linkweb</strong> vous suggère de nombreuses formules pour vous accompagner dans la création, la refonte et le <strong className="font-normal">référencement de sites web</strong>. Découvrez avec une équipe experte comment mener à bien votre projet et dynamiser l’<strong className="font-normal">activité de votre entreprise</strong>. Optimisation de contenu, webdesign et design responsive, la stratégie que Linkweb vous propose à <strong className="font-normal">Montpellier</strong> et sur tous les secteurs de France, est pensée pour vous permettre d’atteindre vos objectifs.
                 </div>
               {/* <Button url="/blog/foire-aux-questions/" text="En savoir plus" position="center" /> */}
               <button
@@ -156,10 +156,10 @@ class AgenceWebNice extends Component {
             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
             <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR LA RÉALISATION DE MON PROJET
+                <span className="text-bleu">/</span>JE TROUVE UNE SOLUTION QUI RÉPOND À MES BESOINS
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-              Site e-commerce, vitrine ou sur-mesure, votre site peut prendre de multiples formes pour vous apporter un <strong className="font-normal">trafic de qualité</strong>. Affirmez votre <strong className="font-normal">présence en ligne</strong> grâce à l’expertise de Linkweb. Nous faisons partie des <strong className="font-normal">agences</strong> qui vous aident à prendre les meilleures décisions pour disposer d’un support performant et conforme à vos ambitions en matière de <strong className="font-normal">communication digitale</strong>. La <strong className="font-normal">réalisation de votre projet web</strong> vous garantit un travail de développement à partir de vos besoins, une réactivité et une transparence considérable de la part de notre équipe.
+                De par son rôle de conseil, otre équipe définit le service le plus pertinent pour vous et se charge de la <strong className="font-normal">mise en application de votre stratégie web</strong>. Linkweb met tout en œuvre pour vous apporter une place bien visible dans les suggestions d’un <strong className="font-normal">moteur de recherche comme Google</strong> et vous apporter de <strong className="font-normal">nouveaux clients</strong> cibles. Votre support est étudié et analysé grâce à nos <strong className="font-normal">outils performants</strong> pour apporter une solution de <strong className="font-normal">marketing digital</strong> bénéfique à votre entreprise.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" /> */}
               <button
@@ -179,10 +179,10 @@ class AgenceWebNice extends Component {
             <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
             <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
               <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                <span className="text-bleu">/</span>JE CHOISIS DES EXPERTS DU DIGITAL POUR DONNER VIE À MON PROJET
+                <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS DU WEB POUR MON PROJET
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-              Les <strong className="font-normal">spécialistes de notre agence</strong> vous offrent tout leur savoir-faire et leur conseil pour mener à bien votre <strong className="font-normal">projet de site internet</strong>. À travers la <strong className="font-normal">création de site</strong> et la gestion de contenus optimisés, définissez votre stratégie et atteignez vos objectifs en toute confiance. Linkweb fait partie des <strong className="font-normal">agences web</strong> qui se montrent à l’écoute et qui fournissent des services sur-mesure à partir de vos besoins. La <strong className="font-normal">conception de site</strong> que vous propose notre <strong className="font-normal">agence web</strong> est réalisée de manière à susciter l'intérêt de <strong className="font-normal">nouveaux clients</strong> pour vous apporter de la rentabilité. Dans les mains d'experts, la <strong className="font-normal">gestion de votre communication</strong> est optimale.
+                La <strong className="font-normal">réalisation de votre projet</strong> est étudiée pour mener à une solution performante grâce à la collaboration entre le <strong className="font-normal">service de développement</strong> et le <strong className="font-normal">service de référencement</strong> de Linkweb. Tous les leviers de la <strong className="font-normal">communication digitale</strong> sont activés pour votre support de communication grâce à un expert du web. La mise en place de votre <strong className="font-normal">stratégie web-marketing</strong> est réalisée dans l’écoute et le conseil pour vous apporter tous les résultats escomptés. Identité visuelle, service de gestion de contenu, design de site, Linkweb fait partie des <strong className="font-normal">agences de France</strong> qui ne laissent rien au hasard.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" /> */}
               <button
@@ -202,18 +202,18 @@ class AgenceWebNice extends Component {
       </section>
                 
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence web Nice : faites confiance à un prestataire qualifié pour mener à bien votre stratégie de marketing digital</h2>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence web Montpellier : notre agence web donne vie à vos projets sur Internet</h2>
                     <br />
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Notre agence Linkweb se tient à votre écoute pour donner vie à vos projets webmarketing. L’équipe de spécialistes de la communication et de la création web dispose d’un savoir-faire et d’une expérience qui sont des atouts majeurs pour un accompagnement optimal.</h3>
+                        <h3 className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Sur le marché des agences de France, Linkweb se démarque de par son expérience, son savoir-faire et son professionnalisme. Les équipes de l’agence sont à votre écoute pour vous mener, à travers leurs réalisations, à la réussite de tous vos projets.</h3>
                     </div>
                 </section>
                 <section className="phototext mb-24">
                     <section className="w-full  my-10 flex flex-col lg:flex-row items-center justify-start">
                         <div className="w-full flex justify-center items-center lg:w-5/12">
-                            <img className="w-full" src={mac} alt="Agence Web Nice" />
+                            <img className="w-full" src={mac} alt="Agence Web Montpellier" />
                         </div>
                         <div className="w-full lg:w-1/2 my-10  flex flex-col">
                             <div className="w-full flex-col md:flex-row flex px-auto">
@@ -225,7 +225,7 @@ class AgenceWebNice extends Component {
                                         <span className="text-bleu">/</span>+ de 10 ans d'expérience
                                 </h3>
                                     <br />
-                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >C’est depuis 2008 que nous œuvrons à accompagner nos clients dans le <strong className="font-normal">développement de leur visibilité sur Internet</strong>.</p>
+                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Nous travaillons depuis 2008 à fournir tout l’accompagnement nécessaire à nos clients, pour leur <strong className="font-normal">conception web</strong> et leur <strong className="font-normal">communication sur Internet</strong>.</p>
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -239,7 +239,7 @@ class AgenceWebNice extends Component {
                                         <span className="text-bleu">/</span>+ de 20 techniciens
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Tous les jours, plus de 20 spécialistes mettent tout en place pour rendre les <strong className="font-normal">sites web</strong> toujours plus performants.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Ce sont plus de 20 experts dans le milieu du <strong className="font-normal">digital</strong> qui activent tous les leviers nécessaires pour fournir toujours plus de performances à vos sites.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -252,7 +252,7 @@ class AgenceWebNice extends Component {
                                         <span className="text-bleu">/</span>+ de 300 sites en gestion
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">TPE, PME, prestataires indépendants, nous proposons des solutions pertinentes à tous les profils de <strong className="font-normal">professionnels</strong>.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Prestataires en freelance, PME, TPE, des entreprises de tous les horizons bénéficient des <strong className="font-normal">solutions de Linkweb</strong> pour leurs sites internet. </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -265,7 +265,7 @@ class AgenceWebNice extends Component {
                                         <span className="text-bleu">/</span>L'agence obtient 4,6/5 sur Google
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Sur 108 avis, la note que nous avons reçue sur Google témoigne de la satisfaction de nos <strong className="font-normal">clients</strong> quant au travail réalisé sur leurs sites.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La note attribuée à l’<strong className="font-normal">agence</strong> sur Google est basée sur 108 avis reçus. Nos clients sont satisfaits de nos services et ils le montrent !</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -273,33 +273,27 @@ class AgenceWebNice extends Component {
                     </section>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Vous souhaitez découvrir tout ce que la réalisation d'un projet webmarketing peut apporter à votre entreprise ? </h2>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence Web Montpellier : découvrez les avantages du web marketing pour votre entreprise</h2>
                     <br />
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">En disposant d’un site responsive accessible sur mobile et autres supports, en optant pour la stratégie de référencement qui vous correspond, choisissez de développer votre visibilité, notoriété ou votre e-réputation. Grâce à la visibilité acquise et au trafic généré sur votre site, obtenez un retour sur investissement pertinent.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Grâce aux compétences des développeurs Linkweb et à leur maîtrise des outils comme Wordpress ou du code HTML, choisissez de disposer d’un support performant. Bénéficiez de services complets pour profiter d’un retour sur investissement intéressant et rentabiliser votre site web.</h3>
                     </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
-                            <div className="w-full" label="DEVENEZ VISIBLE SUR LE WEB GRÂCE À VOTRE SUPPORT DE COMMUNICATION">
-                                <p>Mettez en application votre <strong className="font-normal">stratégie de marketing digital</strong> grâce à l’accompagnement de votre prestataire digital. Ainsi, atteignez de nouvelles cibles de clientèle en vous positionnant en tête des <strong className="font-normal">résultats de recherche sur les moteurs</strong>. Nous œuvrons pour la réussite de vos projets. 
-                                <br/><br/>
-                                Référencement naturel, référencement Ads, la <strong className="font-normal">définition de vos besoins</strong> détermine la stratégie à adopter. Vos objectifs sont ceux de notre agence, où que vous soyez en <strong className="font-normal">France</strong>.</p>
+                            <div className="w-full" label="DEVENEZ PLUS VISIBLE : CHOISISSEZ LE RÉFÉRENCEMENT QUI VOUS CORRESPOND">
+                                <p>En favorisant l’<strong className="font-normal">expérience utilisateur</strong> grâce au webdesign de votre site vitrine, e-commerce ou sur-mesure, vous optimisez vos chances d’apparaître en tête des <strong className="font-normal">SERP</strong>. Les entreprises qui se démarquent sur le web par leur identité graphique et éditoriale possèdent toutes leurs chances d’acquérir un <strong className="font-normal">trafic pertinent</strong> et de profiter d’un <strong className="font-normal">taux de conversion</strong> optimal.</p>
                             </div>
-                            <div label="DÉVELOPPEZ UNE ACTIVITÉ DIGITALE GRÂCE À VOTRE SITE INTERNET">
+                            <div label="GÉNÉRER DE L'ACTIVITÉ SUR LE WEB : DÉFINISSEZ VOS CIBLES ET OBTENEZ UN TRAFIC PERTINENT">
                                 <p>
-                                Grâce à du contenu pertinent ainsi qu'au <strong className="font-normal">webdesign unique de votre site</strong>, chacune des pages est conçue pour apporter un <strong className="font-normal">tunnel de navigation</strong> fluide à l’utilisateur. En mettant en application la stratégie définie pour vous, votre site rencontre un <strong className="font-normal">trafic pertinent</strong>. Cette activité est indispensable pour porter votre <strong className="font-normal">support de communication web</strong> au sommet des résultats des moteurs comme Google. 
-                                <br/><br/>
-                                Après définition de vos cibles, vous adaptez les méthodes à employer avec les professionnels de l’<strong className="font-normal">agence internet</strong>. Accédez à une transformation intéressante et fidélisez l’internaute pour bénéficier d’un projet pérenne.
+                                En offrant un <strong className="font-normal">tunnel de navigation fluide et intuitif</strong> aux utilisateurs, permettez-leur de trouver toutes les réponses qu’ils recherchent et enregistrez une transformation intéressante. L’interface responsive dont vous disposez doit vous permettre de tirer bénéfice du <strong className="font-normal">trafic de votre site</strong>. Une fois vos cibles de clientèle définies, votre <strong className="font-normal">support en ligne</strong> bénéficie de stratégies spécialement conçues pour développer son activité.
                                 </p>
                             </div>
-                            <div label="AUGMENTEZ VOTRE CHIFFRE D'AFFAIRES">
-                                <p>L’importance de la <strong className="font-normal">rentabilité de votre site</strong> est un paramètre important pour votre société. La maîtrise des outils par les experts du web vous permet d'obtenir un <strong className="font-normal">retour sur investissement</strong> pertinent. Faire appel à la compétence de notre agence est un moyen sûr, de <strong className="font-normal">disposer d’un site fonctionnel</strong> et de qualité ainsi que d’un travail stratégique régulièrement réévalué et réadapté. 
-                                <br/><br/>
-                                Boostez votre activité professionnelle et augmentez efficacement votre <strong className="font-normal">chiffre d’affaires</strong> grâce à un spécialiste du <strong className="font-normal">marketing digital</strong>. Affichez une image de marque et un professionnalisme qui se démarque de la concurrence pour parvenir aux retombées attendues.</p>
+                            <div label="BOOSTER VOTRE CHIFFRE D'AFFAIRES : RENTABILISEZ VOTRE SITE GRÂCE À VOTRE STRATÉGIE DE MARKETING">
+                                <p>Apportez à votre entreprise une <strong className="font-normal">notoriété</strong> nouvelle pour maximiser votre <strong className="font-normal">taux de conversion</strong> lors des visites des internautes sur vos pages. L’interface que vous proposez est un <strong className="font-normal">levier webmarketing</strong> des plus efficaces s’il est confectionné par des <strong className="font-normal">experts</strong>. Faites confiance à Linkweb à <strong className="font-normal">Montpellier</strong> et partout en France pour permettre à vos <strong className="font-normal">projets</strong> de vous apporter un chiffre d’affaires important et dynamiser l’activité de votre société.</p>
                             </div>
                         </Accordion>
                     </div>
@@ -309,12 +303,12 @@ class AgenceWebNice extends Component {
                         <span className="my-10"><a href="tel:0533950030" className="text-center text-xl lg:text-3xl xl:text-5xl century"><span className="text-2xl lg:text-6xl font-bold">/</span> 05 33 95 00 30</a></span>
                     </div>
                     <div className="w-full order-first md:order-last md:w-3/4 my-6 text-white p-6 lg:px-24">
-                        <h2 className="century text-center md:text-right text-2xl lg:text-3xl xl:text-4xl tracking-wider pb-3 leading-tight">Agence web Nice : vous souhaitez faire appel à nos services ?</h2>
+                        <h2 className="century text-center md:text-right text-2xl lg:text-3xl xl:text-4xl tracking-wider pb-3 leading-tight">Faites le choix des expertises de notre agence pour atteindre vos objectifs</h2>
                         <br />
                         <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0" />
                         <br />
                         <div className="flex items-end my-10 justify-end flex-col">
-                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Nous dédions une méthodologie propre à chacun des <strong className="font-normal">projets</strong> que nous portons. Notre but : vous aider à <strong className="font-normal">atteindre vos objectifs</strong> et cela, en totale conformité avec vos attentes. Nous donnons vie à un <strong className="font-normal">support fonctionnel</strong> qui vous correspond.</p>
+                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Parmi les <strong className="font-normal">agences de France</strong>, Linkweb se démarque de par sa capacité d’écoute et sa réactivité sans faille. Nos équipes vous apportent toutes les formules qui répondent à vos besoins et vous accompagnent dans la réussite de votre <strong className="font-normal">projet</strong>.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
                                 <button
                                     className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
@@ -371,7 +365,7 @@ class AgenceWebNice extends Component {
 
 
 export const query = graphql`
-query lastsThreePostsAgenceWebNice {
+query lastsThreePostsAgenceWebMontpellier {
     allWpPost(limit: 3) {
       edges {
         node {
@@ -393,7 +387,7 @@ query lastsThreePostsAgenceWebNice {
   
     
 `
-export default AgenceWebNice;
+export default AgenceWebMontpellier;
 
 
 
