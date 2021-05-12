@@ -42,23 +42,63 @@ class Footer extends Component {
 
         return (
             <footer className="bg-darkgrey w-full flex items-center relative z-30 ">
-                <section className="flex justify-start mx-auto py-6 md:px-8 text-sm flex-col-reverse md:flex-row">
+                <section className="w-full  lg:w-9/12 flex justify-start mx-auto py-6 md:px-8 text-sm flex-col-reverse md:flex-row">
                     <section className="w-full md:w-1/2 lg:w-1/4 px-4 py-6 md:px-8" >
                         <div className="textwidget custom-html-widget">
                             <div className="copy text-white text-md">
-                                <img
+                            <h3 className="century text-2xl text-white pl-4 pb-6">Nos agences link<span className="text-bleu">/</span>web</h3> 
+                        <Link
+                            to="/agence-web-bordeaux/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Bordeaux
+                        </Link>
+                        <Link
+                            to="/agence-web-lyon/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Lyon
+                        </Link>
+                        <Link
+                            to="/agence-web-strasbourg/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Strasbourg
+                        </Link>
+                        <Link
+                            to="/agence-web-marseille/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Marseille
+                        </Link>
+                        <Link
+                            to="/agence-web-nice/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Nice
+                        </Link>
+                        <Link
+                            to="/agence-web-montpellier/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Montpellier
+                        </Link>
+                        
+                                {/* <img
                                     src={LinkwebWhite}
                                     alt="Linkweb"
-                                    width="200px"
-                                    className="w-full mb-6"
-                                />
-                                <p> © 2020 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
-                                <a className="text-xs" title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</a>
+                                    width="150px"
+                                    className="my-3 ml-4"
+                                /> */}
+                                <div className="mt-8">
+                                <p className="ml-4"> © 2020 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
+                                <a className="ml-4 text-xs" title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</a>
+                                </div>
                                 <br />
-                                <h3 className="century text-2xl text-white pl-4 pt-6">Certifications</h3>
+                                {/* <h3 className="century text-2xl text-white pl-4 pt-6">Certifications</h3> */}
                                 <br />
-                                <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"><img src={Datadock} width="200px" alt="Formation SEO Toulouse" /></a>
-                                <img src={googlePartner} width="200px" className="mt-3" alt="Formation SEO Toulouse" />
+                                {/* <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"><img src={Datadock} width="200px" alt="Formation SEO Toulouse" /></a> */}
+                                {/* <img src={googlePartner} width="200px" className="mt-3" alt="Formation SEO Toulouse" /> */}
                             </div> <br />
                         </div>
                     </section>
@@ -66,7 +106,7 @@ class Footer extends Component {
                         <h3 className="century text-2xl text-white pl-4 pb-6">Navigation</h3>
                         <Link
                             to="/"
-                            className="block md:inline-block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                            className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"
                         >
                             <span className="chevronFooter">></span> Accueil
                         </Link>
@@ -150,7 +190,7 @@ class Footer extends Component {
                                     </svg>
                                     <span className="text-white pl-2">44 Rue de Bayard 31000 Toulouse</span>
                                 </li>
-                                <li className="flex items-center pb-2">
+                                {/* <li className="flex items-center pb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408 1792"><path d="M1408 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-52.5-3.5t-57.5-12.5-47.5-14.5-55.5-20.5-49-18q-98-35-175-83-128-79-264.5-215.5t-215.5-264.5q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47.5-12.5-57.5-3.5-52.5q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z"></path>
                                     </svg>
                                     <span className="text-white pl-2"><a href="tel:0533950030">05 33 95 00 30</a></span>
@@ -159,8 +199,9 @@ class Footer extends Component {
                                     <svg viewBox="0 0 1792 1792"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"></path>
                                     </svg>
                                     <span className="text-white pl-2"><a href="mailto:contact@linkweb.fr">contact@linkweb.fr</a></span>
-                                </li>
+                                </li> */}
                             </ul>
+                            <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"><img className="ml-4 mt-4" src={Datadock} width="200px" alt="Formation SEO Toulouse" /></a>
                         </div>
                     </section>
                     <section className="w-full md:w-1/2 lg:w-1/4 py-6 md:px-4 px-4 flex flex-col liens">
