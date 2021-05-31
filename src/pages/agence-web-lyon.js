@@ -30,7 +30,7 @@ class AgenceWebLyon extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Lyon - Projets sur-mesure - Linkweb"
+                    title="Agence Web Lyon - Création site internet - Linkweb"
                     description="Notre agence web à Lyon met tout en oeuvre pour vous proposer une solution web fonctionnelle et adaptée à vos objectifs."
                     url="https://linkweb.fr/agence-web-lyon/"
                     nom="Agence Web Lyon"
@@ -59,7 +59,7 @@ class AgenceWebLyon extends Component {
                 <section className="flex items-center justify-start w-full mx-auto pb-0 my-32 md:my-42 lg:my-42 xl:my-48 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end">
                         <div className="w-full lg:w-2/3 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-tight">Agence web Lyon</h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-tight">Agence web Lyon - Création site internet</h1>
                         </div>
                         <br />
                         <h2 className="flex mb-16 full lg:w-3/5 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Agence spécialisée dans la création de sites internet et le référencement web</h2>
@@ -123,7 +123,7 @@ class AgenceWebLyon extends Component {
                 </section>
                 <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
         <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-            Disposez d’un <span className="text-bleu font-bold">support de communication</span> performant grâce aux prestations de l’équipe de Linkweb
+            Disposez d’un <span className="text-bleu font-bold">support de communication</span> performant grâce aux prestations de l’équipe de Linkweb en matière de création de site internet à Lyon.
         </h2>
         <hr className="blue"></hr>
       </section>

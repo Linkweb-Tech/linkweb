@@ -30,7 +30,7 @@ class AgenceWebNice extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Nice - Projets sur-mesure - Linkweb"
+                    title="Agence Web Nice - Création site internet - Linkweb"
                     description="Notre agence web à Nice met tout en oeuvre pour vous proposer une solution web fonctionnelle et adaptée à vos objectifs."
                     url="https://linkweb.fr/agence-web-nice/"
                     nom="Agence Web Nice"
@@ -59,7 +59,7 @@ class AgenceWebNice extends Component {
                 <section className="flex items-center justify-start w-full mx-auto pb-0 my-32 md:my-42 lg:my-42 xl:my-48 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end">
                         <div className="w-full lg:w-2/3 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-tight">Agence web Nice</h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-tight">Agence web Nice - Création site internet</h1>
                         </div>
                         <br />
                         <h2 className="flex mb-16 full lg:w-3/5 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Agence web spécialisée dans la création de sites et le référencement web à Nice</h2>
@@ -93,7 +93,7 @@ class AgenceWebNice extends Component {
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Linkweb vous apporte des solutions adaptées à vos besoins</h2>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Linkweb vous apporte des solutions adaptées à vos besoins en matière de création de site internet à Nice</h2>
                     <br />
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
