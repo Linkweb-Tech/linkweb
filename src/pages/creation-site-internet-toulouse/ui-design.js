@@ -53,7 +53,7 @@ class uiDesign extends Component {
 
                 <section className="w-full century mt-40 flex flex-col items-center justify-start bg-bleu" style={{ background: '#00000073 url(' + Bg + ')', minHeight: '300px', backgroundPosition: 'center', backgroundSize: 'cover', backgroundBlendMode: 'overlay' }}>
                     <div className="topdef">
-                        <h2 className="text-center text-xl font-bold text-white">Définition</h2>
+                        <span className="text-center text-xl font-bold text-white">Définition</span>
                     </div>
                     <div>
                         <h1 data-aos="fade-up" className="century text-5xl sm:text-6xl text-bleu text-center text-white mt-4 lg:mt-6">
