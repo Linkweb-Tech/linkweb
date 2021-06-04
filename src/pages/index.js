@@ -35,7 +35,7 @@ function IndexPage(props) {
 
     <Layout location="home">
       <SEO
-        title="Agence Digitale Toulouse, Agen - Création Site Internet - Linkweb"
+        title="Agence Web Toulouse, Agen - Création Site Internet - Linkweb"
         description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
         url="https://linkweb.fr/"
       />
@@ -67,7 +67,7 @@ function IndexPage(props) {
       <section id="x" className="max-w-md w-full mx-auto mt-12 px-4 py-0 my-0">
         <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
           {/*<Link to="/agence-digitale-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
-            <span className="font-bold">Agence digitale</span> à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span>
+            <span className="font-bold">Agence web</span> à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span>
           {/*</Link>*/}
         </h2>
         <hr className="blue"></hr>
@@ -266,7 +266,7 @@ function IndexPage(props) {
             </h3>
             <h4 className="text-4xl text-white mt-0 lg:-mt-5">sur Google</h4>
             <p className="text-white font-normal">
-              Nos clients sont satisfaits du travail engagé sur leur <strong>site</strong>.<br />Note basée sur 107 avis.
+              Nos clients sont satisfaits du travail engagé sur leur <strong>site</strong>.<br />Note basée sur 111 avis.
             </p>
           </div>
         </div>
@@ -366,7 +366,7 @@ function IndexPage(props) {
       </section>
       <section className="w-full flex my-12 flex-col lg:flex-row text-white bg-bleu century text-center lg:text-justify px-4 lg:px-16 xl:px-48 py-16">
         <div className="w-full lg:w-8/12 text-xl lg:text-3xl">
-          <h3>Vous désirez un <span className="font-bold">projet similaire</span> ?</h3>
+          <h3>Vous désirez mener un <span className="font-bold">projet similaire</span> avec notre agence web à Toulouse ?</h3>
           <h4>Linkweb définit votre projet en accord avec vos <span className="font-bold">ambitions</span>.</h4>
         </div>
         <div className="w-1/2 mx-auto block lg:w-3/12">

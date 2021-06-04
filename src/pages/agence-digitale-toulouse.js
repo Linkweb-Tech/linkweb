@@ -49,7 +49,7 @@ class AgenceDigitaleToulouse extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Toulouse - Projets digitaux sur-mesure - Linkweb"
+                    title="Agence Digitale Toulouse - Projets digitaux sur-mesure - Linkweb"
                     description="L'agence digitale Linkweb développe votre visibilité web à Toulouse (31) : création de site internet, référencement naturel et Ads."
                     keywords={[`Agence Web Toulouse`, `Agence Web Agen`, `Agence digitale Agen`, `Agence digitale Toulouse`]}
                     url="https://linkweb.fr/agence-digitale-toulouse/"
@@ -91,7 +91,7 @@ class AgenceDigitaleToulouse extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Web Toulouse</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Digitale Toulouse</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Refonte, création et référencement de site internet à Toulouse et Agen.</h2>
@@ -311,7 +311,7 @@ class AgenceDigitaleToulouse extends Component {
                 </section>
                 <section className="bloctextimg w-full md:w-10/12 mx-auto lg:block lg:mx-auto xl:w-full flex flex-col lg:flex-row justify-center">
                     <div className="w-full image lg:w-1/2 xl:w-2/5 lg:absolute flex justify-center lg:mt-48 xl:mt-24 pr-0 md:pr-16 lg:justify-center lg:items-center">
-                        <img src={accompagnement} alt="Agence Web Toulouse" style={{ maxHeight: '450px' }} />
+                        <img src={accompagnement} alt="Agence Digitale Toulouse" style={{ maxHeight: '450px' }} />
                     </div>
                     <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-2/5 md:p-20 lg:pl-32 p-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#d3d3d352' }}>
                         <h4 className="century text-xl"><span className="font-bold">Notre vocation : développer votre projet pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span></h4>
@@ -319,7 +319,7 @@ class AgenceDigitaleToulouse extends Component {
                         <p style={{ fontSize: '16px' }}>
                             Depuis plus de 10 ans, notre expérience dans la <strong>{/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}création de sites internet{/*</Link>*/}</strong> nous a permis de développer nos compétences en tant qu'<strong>agence de conseil en communication</strong>. Nous envisageons les <strong><a href="/agence-web-montpellier/" className="text-bleu hover:text-black font-bold">projets web</a></strong> comme des <strong>solutions uniques</strong> répondant aux besoins de chaque <strong>client</strong>. Les agences comme <Link to="/web-agency-toulouse/" className="text-bleu hover:text-white font-bold">Linkweb</Link> en France ont à coeur de définir des <strong>stratégies sur-mesure</strong> en misant sur la qualité pour porter les projets de communication et de marketing de leurs clients toujours plus haut.<br />
                             <br />
-                                Présents à <strong>Agen en Lot-et-Garonne</strong>, comme à <a href="/agence-web-bordeaux/" className="text-bleu hover:text-black font-bold">Bordeaux</a> en Gironde, nous avons également développé une <strong>filiale toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, <Link to="/agence-communication-web-toulouse/" className="text-bleu hover:text-black font-bold"><strong>notre agence de communication web</strong></Link> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. Linkweb (<Link to="/" className="text-bleu hover:text-black font-bold">agence digitale Toulouse</Link>) déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br />
+                                Présents à <strong>Agen en Lot-et-Garonne</strong>, comme à <a href="/agence-web-bordeaux/" className="text-bleu hover:text-black font-bold">Bordeaux</a> en Gironde, nous avons également développé une <strong>filiale toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, <Link to="/agence-communication-web-toulouse/" className="text-bleu hover:text-black font-bold"><strong>notre agence de communication web</strong></Link> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. Linkweb (<Link to="/" className="text-bleu hover:text-black font-bold">agence web Toulouse</Link>) déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>ville Rose</strong> et ses alentours.<br />
                             <br />
                                 De part son savoir-faire et sa réactivité <a href="/agence-web-lyon/" className="text-bleu hover:text-black font-bold">en tant qu’<strong>agence web</strong></a>, <strong>Linkweb</strong> met en place <strong>votre site internet</strong> grâce à des <strong>solutions de {/*<Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">*/}développement web{/*</Link>*/}</strong> récentes et optimise votre <strong>{/*<Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">*/}référencement naturel{/*</Link>*/}</strong> grâce à une veille permanente liée au <Link to="/agence-web-marketing-toulouse/" className="font-bold text-bleu hover:text-black"><strong>web marketing</strong></Link> et autres <strong>outils digitaux</strong>. Quelle que soit la nature de votre activité, nous possédons le <strong>savoir-faire</strong> et les <strong>expertises</strong> pour vous permettre d’<strong>atteindre vos objectifs</strong> en bénéficiant d'un service de qualité pour dynamiser votre communication à travers le développement de supports performants.<br />
                         </p>
