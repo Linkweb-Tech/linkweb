@@ -413,7 +413,7 @@ class AgenceWebHauteGaronne extends Component {
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Toute l’équipe de notre <Link to="/agence-developpement-web-toulouse/" className="font-bold text-bleu hover:text-black">agence web</Link> met à votre service ses connaissances et son savoir-faire pour vous fournir des prestations complètes et efficaces en fonction de vos attentes : notre agence met tout en œuvre pour vous apporter un site fonctionnel et clé en main.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Toute l’équipe de notre <Link to="/agence-developpement-web-toulouse/" className="font-bold text-bleu hover:text-black">agence de développement</Link> met à votre service ses connaissances et son savoir-faire pour vous fournir des prestations complètes et efficaces en fonction de vos attentes : notre agence met tout en œuvre pour vous apporter un site fonctionnel et clé en main.</h3>
                     </div>
                 </section>
                 <section className="w-full my-10 flex flex-col lg:flex-row">

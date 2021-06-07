@@ -232,7 +232,7 @@ class AgenceWebRamonville extends Component {
                     <hr className="blue"></hr>
                     <div className="w-full" /*data-aos='zoom-in'*/>
                         <p className="text-md text-center py-12 century">
-                            Vous êtes un organisme public ou privé ? Notre <strong><Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black">agence web</Link></strong> vous aide à mettre en place une <strong><Link to="/strategie-digitale-toulouse/" className="text-bleu hover:text-black font-bold">stratégie digitale</Link></strong> efficace et durable. <strong>Linkweb</strong> se montre à l’écoute de vos attentes et vous propose des <strong>solutions de développement web</strong> pertinentes, spécialement taillées pour vous.</p>
+                            Vous êtes un organisme public ou privé ? Notre <strong><Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black">agence digitale</Link></strong> vous aide à mettre en place une <strong><Link to="/strategie-digitale-toulouse/" className="text-bleu hover:text-black font-bold">stratégie digitale</Link></strong> efficace et durable. <strong>Linkweb</strong> se montre à l’écoute de vos attentes et vous propose des <strong>solutions de développement web</strong> pertinentes, spécialement taillées pour vous.</p>
                     </div>
                 </section>
                 <section className="w-full flex flex-1 mt-6 equipe min-h-0 lg:min-h-600">

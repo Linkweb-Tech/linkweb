@@ -240,7 +240,7 @@ class AgencenWebDesignToulouse extends Component {
                                     <span className="text-bleu">/</span>JE SOUHAITE DÉCOUVRIR CE QU’UNE AGENCE WEB DESIGN PEUT M’APPORTER
                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Lorsque l’on fait appel à une <strong><Link to="/" className="font-bold text-bleu hover:text-black">agence spécialisée</Link> dans la création de sites web</strong>, il est important de fixer des objectifs et un cap. Que ce soit pour développer une plateforme parfaitement opérationnelle, à <strong>votre image</strong> et qui pourra <strong>générer des contacts prospects</strong> pour vous, nos prestations s’adaptent en fonction de vos besoins.
+                                    Lorsque l’on fait appel à une <strong><Link to="/" className="font-bold text-bleu hover:text-black">agence web à Toulouse</Link> spécialisée dans la création de sites web</strong>, il est important de fixer des objectifs et un cap. Que ce soit pour développer une plateforme parfaitement opérationnelle, à <strong>votre image</strong> et qui pourra <strong>générer des contacts prospects</strong> pour vous, nos prestations s’adaptent en fonction de vos besoins.
                 </div>
 
                             </section>

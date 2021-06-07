@@ -171,7 +171,7 @@ class Header extends Component {
                     activeClassName="active"
                     className="block  lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    Création Site Internet
+                    <p>Création Site Internet</p>
                 </Link>
 
                   <Link
@@ -181,7 +181,7 @@ class Header extends Component {
                     activeClassName="active"
                     className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    Référencement
+                    <p>Référencement</p>
                 </Link>
                   <Link
                     itemProp="url"
@@ -199,7 +199,7 @@ class Header extends Component {
                     activeClassName="active"
                     className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    Nos Formations
+                    <p>Nos Formations</p> 
                 </Link>
                   <Link
                     itemProp="url"
@@ -208,7 +208,7 @@ class Header extends Component {
                     activeClassName="active"
                     className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    Agence Digitale
+                    <p>Agence Digitale</p> 
                 </Link>
                   <Link
                     itemProp="url"
@@ -217,7 +217,7 @@ class Header extends Component {
                     activeClassName="active"
                     className="block lg:text-md md:text-sm xl:text-lg  hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    Nos Réalisations
+                    <p>Nos Réalisations</p> 
                 </Link>
                   <Link
                     itemProp="url"
@@ -226,7 +226,7 @@ class Header extends Component {
                     activeClassName="active"
                     className="devis block lg:text-md xl:text-lg md:text-sm last md:inline-block mt-4 md:mt-0 rounded-lg no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    Demander un devis
+                    <p>Demander un devis</p>
                 </Link>
                   <Link itemProp="url"
                     title="Avis Clients"

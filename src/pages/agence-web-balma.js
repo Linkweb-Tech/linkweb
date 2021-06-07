@@ -283,7 +283,7 @@ class AgenceWebBalma extends Component {
                                     <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    TPE, PME, commerçants, l’<strong><Link to="/agence-communication-web-toulouse/" className="font-bold text-bleu hover:text-black">agence web Linkweb</Link></strong> répond à vos besoins de <strong>visibilité</strong> et de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> efficaces et qui vous rapprochent de vos prospects. Nous activons tous les leviers pour développer et faire connaître votre <strong>outil en ligne</strong>.
+                                    TPE, PME, commerçants, l’<strong><Link to="/agence-communication-web-toulouse/" className="font-bold text-bleu hover:text-black">agence de communication digitale</Link></strong> répond à vos besoins de <strong>visibilité</strong> et de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> efficaces et qui vous rapprochent de vos prospects. Nous activons tous les leviers pour développer et faire connaître votre <strong>outil en ligne</strong>.
                                 </div>
                                 <button
                                     className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"

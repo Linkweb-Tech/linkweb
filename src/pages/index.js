@@ -246,7 +246,7 @@ function IndexPage(props) {
             </h3>
             <h4 className="text-4xl text-white mt-0 lg:-mt-5">techniciens</h4>
             <p className="text-white font-normal">
-              Chaque jour, ce sont plus de 20 techniciens qui officient pour rendre nos <strong>sites performants</strong>.
+              Chaque jour, ce sont plus de 20 techniciens qui officient au sein de notre agence web pour rendre nos <strong>sites performants</strong>.
             </p>
           </div>
         </div>
@@ -257,7 +257,7 @@ function IndexPage(props) {
             </h3>
             <h4 className="text-4xl text-white mt-0 lg:-mt-5">sites en gestion</h4>
             <p className="text-white font-normal">
-              Nous <strong>créons des sites web</strong> pour des professionnels d'horizons parfois très différents : TPE, PME, indépendants, etc.
+              Notre agence <strong>crée des sites web</strong> pour des professionnels d'horizons parfois très différents : TPE, PME, indépendants, etc.
             </p>
           </div>
           <div className="max-w-3xl w-full lg:w-1/2 pl-0 lg:pl-32 flex flex-col mb-12">
@@ -266,12 +266,12 @@ function IndexPage(props) {
             </h3>
             <h4 className="text-4xl text-white mt-0 lg:-mt-5">sur Google</h4>
             <p className="text-white font-normal">
-              Nos clients sont satisfaits du travail engagé sur leur <strong>site</strong>.<br />Note basée sur 111 avis.
+              Nos clients sont satisfaits du travail engagé sur leur <strong>site</strong> par notre agence web. Note basée sur 111 avis.
             </p>
           </div>
         </div>
         <div className="w-2/3 -mt-16 mb-12 century text-center">
-          <p className="text-white text-xl"><span className="text-bleu">>></span> Découvrir notre <Link to="/agence-digitale-toulouse/" className="text-white hover:text-bleu font-bold">agence web à Toulouse</Link></p>
+          <p className="text-white text-xl"><span className="text-bleu">>></span> Découvrir notre <Link to="/agence-digitale-toulouse/" className="text-white hover:text-bleu font-bold">agence digitale</Link></p>
         </div>
       </section>
       <section className="max-w-xl w-full mx-auto px-4 py-0 my-0">
@@ -313,7 +313,7 @@ function IndexPage(props) {
                 <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MA SOLUTION
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                <strong>Être visible</strong>, booster sa <strong>notoriété</strong> ou bien son <strong>image</strong> (<strong>e-réputation</strong> et <strong>identité de marque</strong>) : il existe des solutions pour chaque professionnel. Grâce à nos <strong>expertises</strong>, nous vous accompagnons pour déterminer les <strong>contours de votre stratégie</strong> selon votre <strong>activité</strong> et <strong>vos besoins en termes de communication</strong>. Une <strong>étude concurrentielle</strong> sera également réalisée.
+                <strong>Être visible</strong>, booster sa <strong>notoriété</strong> ou bien son <strong>image</strong> (<strong>e-réputation</strong> et <strong>identité de marque</strong>) : il existe des solutions web pour chaque professionnel. Grâce à nos <strong>expertises</strong>, nous vous accompagnons pour déterminer les <strong>contours de votre stratégie</strong> selon votre <strong>activité</strong> et <strong>vos besoins en termes de communication</strong>. Une <strong>étude concurrentielle</strong> sera également réalisée.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" /> */}
               <button
@@ -575,7 +575,7 @@ function IndexPage(props) {
         <div className="w-full md:w-3/4 py-0 flex justify-end">
           <Accordion>
             <div className="w-full" label="UNE AUGMENTATION DE VOS CONTACTS PROSPECTS ?">
-              <p><span className="font-bold">Vous souhaitez développer la <strong>stratégie de communication digitale</strong> de votre société ? Développer la vente de vos produits ?</span><br /><br /> Le <strong>retour sur investissement</strong> fait partie des objectifs communs à tous chefs d’entreprise. Trouver de nouveaux prospects potentiels nécessite de pouvoir être trouvé en ligne. C'est votre présence en ligne et sur les moteurs de recherche qui permettra de propulser <strong>votre site</strong> au premier plan. Le contenu que vous allez proposer sur <strong>votre site</strong> doit donner envie aux divers acteurs (entreprises, associations, organismes) de travailler avec vous.<br /><br /> Par ailleurs, le contenu n'est pas la seule clé pour rendre votre site performant. En effet, un <span className="font-bold"><Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black"><strong>webdesign</strong> adapté</Link></span>, une <span className="font-bold"><strong>expérience utilisateur</strong> (<strong>UX Design</strong>) et des <strong>outils digitaux</strong> bien construits</span> vous permettront de <strong>créer un site internet</strong> efficace.<br /><br /> Le <strong>site internet</strong> est un parfait outil pour <strong>dynamiser sa communication d’entreprise</strong> tout en la maîtrisant. Au-delà des objectifs d'image, le site internet vous permettra de gagner en visibilité pour atteindre vos cibles et obtenir des contacts qualifiés. Notre méthode de travail vous permettra d'atteindre vos objectifs grâce à des <strong>projets en ligne</strong> efficaces.<br /><br /> <span className="font-bold">En faisant le choix de <strong>nos solutions</strong>, notre <strong>agence de création</strong> vous propose, de part nos compétences en <strong>référencement et developpement web</strong>, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>refonte</strong> ou de la <strong>création de votre site</strong> vitrine ou <strong>site marchand</strong>.</span></p>
+              <p><span className="font-bold">Vous souhaitez développer la <strong>stratégie de communication digitale</strong> de votre société ? Développer la vente de vos produits ?</span><br /><br /> Le <strong>retour sur investissement</strong> fait partie des objectifs communs à tous chefs d’entreprise. Trouver de nouveaux prospects potentiels nécessite de pouvoir être trouvé en ligne. C'est votre présence en ligne et sur les moteurs de recherche qui permettra de propulser <strong>votre site</strong> au premier plan. Le contenu que vous allez proposer sur <strong>votre site</strong> doit donner envie aux divers acteurs (entreprises, associations, organismes) de travailler avec vous.<br /><br /> Par ailleurs, le contenu n'est pas la seule clé pour rendre votre site performant. En effet, un <span className="font-bold"><Link to="/agence-web-design-toulouse/" className="font-bold text-bleu hover:text-black"><strong>webdesign</strong> adapté</Link></span>, une <span className="font-bold"><strong>expérience utilisateur</strong> (<strong>UX Design</strong>) et des <strong>outils digitaux</strong> bien construits</span> vous permettront de <strong>créer un site internet</strong> efficace.<br /><br /> Le <strong>site internet</strong> est un parfait outil pour <strong>dynamiser sa communication d’entreprise</strong> tout en la maîtrisant. Au-delà des objectifs d'image, le site internet vous permettra de gagner en visibilité pour atteindre vos cibles et obtenir des contacts qualifiés. De ce point de vue, notre <strong>agence web</strong> vous apporte toute l'expertise dont vous avez besoin pour mener votre stratégie digitale. Notre méthode de travail vous permettra d'atteindre vos objectifs grâce à des <strong>projets en ligne</strong> efficaces.<br /><br /> <span className="font-bold">En faisant le choix de <strong>nos solutions</strong>, notre <strong>agence de création</strong> vous propose, de part nos compétences en <strong>référencement et developpement web</strong>, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>refonte</strong> ou de la <strong>création de votre site</strong> vitrine ou <strong>site marchand</strong>.</span></p>
             </div>
             <div label="UNE PRÉSENCE EN PREMIÈRE PAGE DE RÉSULTATS DES MOTEURS ?">
               <p>Pour atteindre la <span className="font-bold">meilleure visibilité possible</span>, nous accordons une importance toute particulière la <strong>qualité de vos contenus</strong> et de chaque média présents sur votre site. <strong>Être visible</strong> ne se limite pas uniquement compte du critère quantitatif. Pour les agences comme Linkweb, il s'agit de vous rendre accessible auprès <span className="font-bold">d'<strong>utilisateurs qualifiés</strong> qui seront plus à même de répondre à vos attentes</span>. <br /><br />Dès la <strong>conception du site</strong>, nous élaborons une <strong>stratégie de référencement naturel SEO</strong> qui, grâce au travail de nos référenceurs certifiés Google, répondra aux <strong>critères de qualité</strong> pour vous permettre d'obtenir une <span className="font-bold">présence pérenne en <strong>première page sur des requêtes pertinentes</strong></span>.<br /><br />Pour des résultats rapides, nous collaborons pour définir votre <strong>campagne Adwords</strong> : nous planifions votre <strong>plan publicitaire</strong> pour une <span className="font-bold"><strong>visibilité immédiate sur les mots clés les plus recherchés</strong></span> dans le but de vous apporter un <strong>retour concret sur votre investissement</strong> grâce au référencement. Bien sûr, nous travaillons pour vous proposer une interface intuitive (compatible pour le mobile, comme pour chaque taille d'écran), adaptée à <strong>votre identité graphique et visuelle</strong> ainsi qu'à votre vision.</p>
