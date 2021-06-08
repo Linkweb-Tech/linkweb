@@ -296,7 +296,7 @@ class AgencenWebDesignToulouse extends Component {
                         <img src={accompagnement} alt="Agence Web Toulouse" style={{ maxHeight: '450px' }} />
                     </div>
                     <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-2/5 md:p-20 lg:pl-32 p-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#d3d3d352' }}>
-                        <h4 className="century text-xl"><span className="font-bold">Créer un site internet, c’est anticiper l’ensemble des paramètres qui feront de lui un atout indéniable au sein d’une <Link to="/agence-communication-web-toulouse/" className="text-bleu font-bold hover:text-black">stratégie de communication web</Link>.</span></h4>
+                        <h4 className="century text-xl"><span className="font-bold">Créer un site internet, c’est anticiper l’ensemble des paramètres qui feront de lui un atout indéniable au sein d’une stratégie de communication web.</span></h4>
                         <br />
                         <p style={{ fontSize: '16px' }}>
                             Du <strong>web design</strong> au <strong>référencement naturel</strong>, notre ligne directrice est consiste à vous apporter un <strong>site internet de qualité</strong> pour vous permettre de franchir un cap en termes de <strong>visibilité et de notoriété</strong> en vue de booster l’activité de votre société.<br />
@@ -427,7 +427,7 @@ class AgencenWebDesignToulouse extends Component {
                         <br />
                         <hr className="border-solid w-1/6 border-bleu"></hr>
                         <br />
-                        <h3 className="text-black text-xl text-center century">Internet est l’une des sources principales de visibilité pour une société. Ainsi, portez des projets de <Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black">marketing digital</Link> peut devenir un vecteur de succès en ligne important pour votre société.</h3>
+                        <h3 className="text-black text-xl text-center century">Internet est l’une des sources principales de visibilité pour une société. Ainsi, portez des projets de marketing digital peut devenir un vecteur de succès en ligne important pour votre société.</h3>
                     </section>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">

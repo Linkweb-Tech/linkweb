@@ -123,7 +123,7 @@ class AgenceWebMarketingToulouse extends Component {
                                     <br />
                                     <h4 className="century">Vous souhaitez obtenir une meilleure visibilité que vos concurrents sur les pages web proposées par Google ?</h4>
                                     <br />
-                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Le <strong>référencement naturel</strong> est un générateur de trafic important sur un <strong>site internet e-commerce</strong> souhaitant vendre des produits, un <strong>site vitrine</strong> qui va présenter une société ou fournir des coordonnées de contacts. Globalement, il va offrir à toute société, la chance de déployer une <Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black"><strong>stratégie de communication digitale</strong></Link> fondée sur le potentiel qu’offrent les <strong>moteurs de recherche</strong> en termes de <strong>visibilité</strong>.</p>
+                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Le <strong>référencement naturel</strong> est un générateur de trafic important sur un <strong>site internet e-commerce</strong> souhaitant vendre des produits, un <strong>site vitrine</strong> qui va présenter une société ou fournir des coordonnées de contacts. Globalement, il va offrir à toute société, la chance de déployer une <strong>stratégie de communication digitale</strong> fondée sur le potentiel qu’offrent les <strong>moteurs de recherche</strong> en termes de <strong>visibilité</strong>.</p>
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -244,7 +244,7 @@ class AgenceWebMarketingToulouse extends Component {
                             <br />
                             <hr className="w-1/2 border-darkgrey lg:w-1/12" />
                             <br />
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">En tant que spécialiste dans les techniques de <Link to="/agence-communication-web-toulouse/" className="text-darkgrey hover:text-white font-bold">communication web</Link>, Linkweb produit un travail soigné et de qualité pour générer un taux de conversion maximal sur votre site internet ainsi qu'un positionnement optimal.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">En tant que spécialiste dans les techniques de communication web, Linkweb produit un travail soigné et de qualité pour générer un taux de conversion maximal sur votre site internet ainsi qu'un positionnement optimal.</h3>
                         </div>
                     </section>
                     <section className="flex justify-center flex-col items-center">

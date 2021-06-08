@@ -271,7 +271,7 @@ function IndexPage(props) {
           </div>
         </div>
         <div className="w-2/3 -mt-16 mb-12 century text-center">
-          <p className="text-white text-xl"><span className="text-bleu">>></span> Découvrir notre <Link to="/agence-digitale-toulouse/" className="text-white hover:text-bleu font-bold">agence digitale</Link></p>
+          {/* <p className="text-white text-xl"><span className="text-bleu">>></span> Découvrir notre <Link to="/agence-digitale-toulouse/" className="text-white hover:text-bleu font-bold">agence digitale</Link></p> */}
         </div>
       </section>
       <section className="max-w-xl w-full mx-auto px-4 py-0 my-0">
@@ -336,7 +336,7 @@ function IndexPage(props) {
                 <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                Nos <strong>consultants en <Link to="/agence-communication-web-toulouse/" className="text-bleu font-bold hover:text-black">communication web</Link></strong> définissent les contours de votre projet, du choix de l'<strong>hébergement</strong> jusqu'à l’<strong>application de votre stratégie marketing</strong> à travers les différents axes définis. Notre équipe est composée de spécialistes de la <strong>création de site internet</strong>, de <strong>référencement naturel</strong> et <strong>Ads</strong> qui font preuve de <strong>réactivité</strong> dans le but de répondre à vos attentes.
+                Nos <strong>consultants en communication web</strong> définissent les contours de votre projet, du choix de l'<strong>hébergement</strong> jusqu'à l’<strong>application de votre stratégie marketing</strong> à travers les différents axes définis. Notre équipe est composée de spécialistes de la <strong>création de site internet</strong>, de <strong>référencement naturel</strong> et <strong>Ads</strong> qui font preuve de <strong>réactivité</strong> dans le but de répondre à vos attentes.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" /> */}
               <button

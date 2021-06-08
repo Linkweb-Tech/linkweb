@@ -31,7 +31,7 @@ import scroll from "../images/motiontest.svg";
 
 
 
-class AgenceCommunicationWebToulouse extends Component {
+class AgencedeCommunicationDigitale extends Component {
 
     constructor(props) {
         super(props);
@@ -42,11 +42,11 @@ class AgenceCommunicationWebToulouse extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence de Communication Web Toulouse - Linkweb"
+                    title="Agence de communication digitale - Linkweb"
                     description="Linkweb est une agence de communication web à Toulouse qui s'adresse aux professionnels exigeants."
-                    url="https://linkweb.fr/agence-communication-web-toulouse/"
-                    nom="Agence Communication Web"
-                    slug="agence-communication-web-toulouse/"
+                    url="https://linkweb.fr/agence-de-communication-digitale/"
+                    nom="Agence de Communication digitale"
+                    slug="agence-de-communication-digitale/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -83,7 +83,7 @@ class AgenceCommunicationWebToulouse extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence de communication web à Toulouse</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence de communication digitale</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Création et développement de votre stratégie digitale à Toulouse.</h2>
@@ -146,7 +146,7 @@ class AgenceCommunicationWebToulouse extends Component {
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>CONNAÎTRE ET ATTEINDRE <span className="text-bleu">VOS CIBLES</span>
                                     </h3>
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">L’analyse de votre clientèle sera le fil rouge de l’élaboration de <Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black">votre projet digital</Link>.<br /><br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est le rôle de notre <strong><Link to="/agence-internet-toulouse/" className="text-bleu hover:text-black font-bold">agence de communication web</Link></strong> de donner lieu à un <strong>site responsive</strong>.<br /><br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous grâce à une <strong>stratégie de communication web créative</strong>.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">L’analyse de votre clientèle sera le fil rouge de l’élaboration de votre projet digital.<br /><br /> Votre outil doit répondre aux attentes de vos utilisateurs cibles, tant sur l’aspect visuel comme sur la navigation.<br /> C’est le rôle de notre <strong><Link to="/agence-internet-toulouse/" className="text-bleu hover:text-black font-bold">agence de communication web</Link></strong> de donner lieu à un <strong>site responsive</strong>.<br /><br /> Les informations communiquées seront intégrées dans le but d’informer et de donner envie à vos futurs clients potentiels de travailler avec vous grâce à une <strong>stratégie de communication web créative</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -478,7 +478,7 @@ class AgenceCommunicationWebToulouse extends Component {
 
 
 export const query = graphql`
-query lastsThreePostsAgenceComWeb {
+query lastsThreePostsAgenceComDigitale {
     allWpPost(limit: 3) {
       edges {
         node {
@@ -500,7 +500,7 @@ query lastsThreePostsAgenceComWeb {
   
     
 `
-export default AgenceCommunicationWebToulouse;
+export default AgencedeCommunicationDigitale;
 
 
 
