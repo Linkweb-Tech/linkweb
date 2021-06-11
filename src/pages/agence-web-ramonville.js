@@ -79,7 +79,7 @@ class AgenceWebRamonville extends Component {
                             </button>
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                    <h2 className="text-center text-lg sm:text-2xl text-black century mt-3">Notre <Link to="/web-agency-toulouse/" className="text-bleu hover:text-black font-bold">agence web</Link> vous propose un accompagnement personnalisé pour votre communication digitale ainsi que pour chacun de vos projets Internet.</h2>
+                    <h2 className="text-center text-lg sm:text-2xl text-black century mt-3">Notre <Link to="/agence-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence web marketing</Link> vous propose un accompagnement personnalisé pour votre communication digitale ainsi que pour chacun de vos projets Internet.</h2>
                     <br />
                     <hr style={{ borderTop: '1px solid #37cfee', width: '33%' }} />
                     <br />
@@ -232,7 +232,7 @@ class AgenceWebRamonville extends Component {
                     <hr className="blue"></hr>
                     <div className="w-full" /*data-aos='zoom-in'*/>
                         <p className="text-md text-center py-12 century">
-                            Vous êtes un organisme public ou privé ? Notre <strong><Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black">agence digitale</Link></strong> vous aide à mettre en place une <strong><Link to="/strategie-digitale-toulouse/" className="text-bleu hover:text-black font-bold">stratégie digitale</Link></strong> efficace et durable. <strong>Linkweb</strong> se montre à l’écoute de vos attentes et vous propose des <strong>solutions de développement web</strong> pertinentes, spécialement taillées pour vous.</p>
+                            Vous êtes un organisme public ou privé ? Notre <strong><Link to="/agence-web-haute-garonne/" className="font-bold text-bleu hover:text-black">agence digitale</Link></strong> vous aide à mettre en place une <strong><Link to="/strategie-digitale-toulouse/" className="text-bleu hover:text-black font-bold">stratégie digitale</Link></strong> efficace et durable. <strong>Linkweb</strong> se montre à l’écoute de vos attentes et vous propose des <strong>solutions de développement web</strong> pertinentes, spécialement taillées pour vous.</p>
                     </div>
                 </section>
                 <section className="w-full flex flex-1 mt-6 equipe min-h-0 lg:min-h-600">
@@ -264,7 +264,7 @@ class AgenceWebRamonville extends Component {
                                     <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Informer les administrés est votre priorité ? En tant que mairie, conseil départemental, établissement culturel, notre <strong><Link to="/agence-web-montauban/" className="text-bleu hover:text-black font-bold">agence web</Link></strong> vous propose des solutions adaptées pour y parvenir. Nous activons tous les leviers pour mener une campagne de <strong>communication web</strong> réussie.
+                                    Informer les administrés est votre priorité ? En tant que mairie, conseil départemental, établissement culturel, notre <strong><Link to="/agence-web-muret/" className="text-bleu hover:text-black font-bold">agence de web marketing</Link></strong> vous propose des solutions adaptées pour y parvenir. Nous activons tous les leviers pour mener une campagne de <strong>communication web</strong> réussie.
                                 </div>
                                 {/* <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" /> */}
                                 <button
@@ -357,7 +357,7 @@ class AgenceWebRamonville extends Component {
                         <p /*data-aos='fade-bottom'*/ className="text-justify">
                             Avec plus de 10 ans d’expérience dans la <strong>création de sites web</strong>, <strong>Linkweb</strong> a développé ses compétences d’<strong>agence conseil</strong> pour le développement d’une communication efficace dans le cadre des <strong>projets web</strong> ainsi que des contenus digitaux que nous portons pour nos <strong>clients</strong>.<br /><br />
 
-                            Dans le secteur de <strong>Ramonville Saint Agne, près de Toulouse en Haute-Garonne (31)</strong>, l’<strong>agence web Linkweb</strong> continue de développer sa filiale occitane. Qualifiée dans le domaine du marché privé comme du marché public, l’<strong>agence</strong> se montre très réactive en termes de <strong>communication web</strong> et se veut constamment force de proposition pour répondre aux demandes d’organismes de divers horizons tout en s’appuyant sur ses expertises et son principal atout : le <strong>marketing digital</strong>. Nous déployons notre offre de <strong>création de site web</strong>, de <strong>référencement naturel</strong> ou encore la <strong>refonte de site internet</strong> à <strong>Ramonville</strong> et ses environs.<br /><br />
+                            Dans le secteur de <strong>Ramonville Saint Agne, près de Toulouse en Haute-Garonne (31)</strong>, l’<strong>agence web Linkweb</strong> continue de développer sa filiale occitane. Qualifiée dans le domaine du marché privé comme du marché public, l’<strong>agence</strong> se montre très réactive en termes de <strong>communication web</strong> et se veut constamment force de proposition pour répondre aux demandes d’organismes de divers horizons tout en s’appuyant sur ses expertises et son principal atout : le <strong>marketing digital</strong>. Nous déployons notre offre de <strong>création de site web</strong>, de <strong>référencement naturel</strong> ou encore la <strong>refonte de <Link to="/agence-internet-toulouse/" className="text-bleu hover:text-black font-bold">site internet</Link></strong> à <strong>Ramonville</strong> et ses environs.<br /><br />
 
                             À travers son expérience en tant qu'<strong>agence digitale</strong>, <strong>Linkweb</strong> conçoit votre <strong>site internet</strong> en utilisant des <strong>outils de développement web</strong> innovants et des solutions d’optimisation pour le <strong>référencement Google</strong> en se basant sur la mesure de <strong>trafic sur votre site</strong>, une veille régulière en <strong>web marketing</strong> et bien plus encore. Quel que soit votre domaine d'activité, nous possédons des connaissances et un savoir-faire qui vous permettra d’atteindre vos <strong>objectifs</strong> de visibilité.<br />
                         </p>
@@ -657,7 +657,7 @@ class AgenceWebRamonville extends Component {
 
                                         La création de votre <strong>support de communication en ligne</strong> est accompagnée d'un <strong>responsive design</strong>. Ce dernier permet de gagner en lisibilité et en ergonomie quel que soient les appareils utilisés. Un <strong>site web</strong> accessible sur mobile est, aujourd'hui, indispensable.<br /><br />
 
-                                        En effet, à partir de votre <strong>charte graphique</strong> et votre <strong>identité visuelle</strong>, nos spécialistes créent un <strong>outil digital</strong> à votre image. Grâce à un <strong>web design</strong> conçu spécialement pour vous, il est un outil indispensable de votre <strong>stratégie de communication digitale</strong>. En somme, il est indispensable en vue de dynamiser votre <strong>image de marque</strong>.<br /><br />
+                                        En effet, à partir de votre <strong>charte graphique</strong> et votre <strong>identité visuelle</strong>, nos spécialistes créent un <strong>outil digital</strong> à votre image. Grâce à un <Link to="/agence-web-design-toulouse/" className="text-bleu hover:text-black font-bold"><strong>web design</strong> conçu spécialement pour vous</Link>, il est un outil indispensable de votre <strong>stratégie de communication digitale</strong>. En somme, il est indispensable en vue de dynamiser votre <strong>image de marque</strong>.<br /><br />
 
                                         C’est pourquoi, notre <strong>équipe de référenceurs</strong> et <strong>développeurs web</strong> définit une <strong>expérience utilisateur</strong> optimale et adaptée en veillant à l’ergonomie, l'intuitivité et l'esthétique de votre <strong>projet web</strong>.<br /><br />
 
@@ -696,7 +696,7 @@ class AgenceWebRamonville extends Component {
                 <section className="max-w-5xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3 bg-gris p-10">
                     <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight"><span className="text-bleu">/</span>Confiez votre projet digital à notre agence web à Toulouse ?</h2>
                     <br />
-                    <p className="century text-center text-md">Linkweb veille à porter votre <strong>projet web</strong> de sa création son référencement grâce à un travail régulier et une activité de veille permanente. Nos professionnels du <strong>développement web</strong> et du <strong>marketing digital</strong> vous accompagnent sur toute la mise en route technique ainsi que dans vos choix éditoriaux pour atteindre les <strong>objectifs de votre entreprise</strong>.</p>
+                    <p className="century text-center text-md">Linkweb veille à porter votre <strong>projet web</strong> de sa création son référencement grâce à un travail régulier et une activité de veille permanente. Nos professionnels du <Link to="/agence-developpement-web-toulouse/" className="text-white hover:text-black font-bold"><strong>développement web</strong></Link> et du <strong>marketing digital</strong> vous accompagnent sur toute la mise en route technique ainsi que dans vos choix éditoriaux pour atteindre les <strong>objectifs de votre entreprise</strong>.</p>
                     <div className="max-w-sm mx-auto block">
                         {/* <RoundButton url="/agence-digitale-toulouse/" text="Faire appel à l'agence web à Agen" /> */}
                         <button

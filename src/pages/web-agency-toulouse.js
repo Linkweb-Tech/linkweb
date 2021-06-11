@@ -89,7 +89,7 @@ class WebAgencyToulouse extends Component {
                 <section className="w-full lg:w-3/5 px-10 mt-16 lg:-mt-48 mb-16 lg:mb-48">
                     <br />
                     <h3 className="century text-xl text-center">
-                        Faire appel à une <Link to="/agence-web-montauban/" className="text-bleu hover:text-black font-bold">agence web</Link> pour mener sa stratégie de communication digitale apporte de nombreux avantages pour le développement de son activité.
+                        Faire appel à une agence web pour mener sa <Link to="/agence-de-communication-digitale/" className="text-bleu hover:text-black font-bold">stratégie de communication digitale</Link> apporte de nombreux avantages pour le développement de son activité.
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
@@ -111,8 +111,8 @@ class WebAgencyToulouse extends Component {
                     </div>
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + referencement + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Stratégie Web</span> <br /><span className="font-bold text-6xl">MARKETING</span></h3>
-                        <p className="text century text-lg lg:text-sm xl:text-lg z-50">Notre <strong className="font-normal">agence internet Toulouse</strong> définit votre <strong className="font-normal">stratégie digitale</strong> pour dynamiser votre <strong className="font-normal">communication en ligne</strong>. Pour cela, nos <strong className="font-normal">services de référencement</strong> adaptent les solutions : une entreprise souhaitant un <strong className="font-normal">retour sur investissement</strong> rapide utilisera le <strong className="font-normal">référencement payant Google Adwords (SEA)</strong> quand le <strong className="font-normal">référencement naturel SEO</strong> sera mieux approprié pour le long terme.
-                        Linkweb fait partie des <strong className="font-normal">agences en France</strong> qui veillent à une conception de projet qui correspond entièrement à ses <strong className="font-normal">clients</strong>.
+                        <p className="text century text-lg lg:text-sm xl:text-lg z-50">Notre <strong className="font-normal">agence internet Toulouse</strong> définit votre <strong className="font-normal">stratégie digitale</strong> pour <Link to="/comment-choisir-son-agence-de-communication-web/" className="text-bleu hover:text-black font-bold">dynamiser votre <strong className="font-bold">communication en ligne</strong></Link>. Pour cela, nos <strong className="font-normal">services de référencement</strong> adaptent les solutions : une entreprise souhaitant un <strong className="font-normal">retour sur investissement</strong> rapide utilisera le <strong className="font-normal">référencement payant Google Adwords (SEA)</strong> quand le <strong className="font-normal">référencement naturel SEO</strong> sera mieux approprié pour le long terme.
+                        Linkweb fait partie des <strong className="font-normal">agences en France</strong> qui veillent à une <Link to="/comment-notre-agence-de-conception-de-site-internet-realise-votre-projet/" className="font-bold text-bleu hover:text-black">conception de projet</Link> qui correspond entièrement à ses <strong className="font-normal">clients</strong>.
                             <br /><br />Nous sommes à l’écoute pour mettre en place les meilleures solutions en fonction de votre demande : le contenu rédigé est optimisé par nos <strong className="font-normal">référenceurs</strong> avant d'être soumis à validation. De plus, nos <strong className="font-normal">clients</strong> bénéficient d’un suivi mensuel totalement transparent et adapté à l'évolution de votre société.
                         </p>
                     </div>
@@ -163,9 +163,9 @@ class WebAgencyToulouse extends Component {
                                         <span className="text-bleu">/</span>DES PROFESSIONNELS COMPÉTENTS
                                     </h3>
                                     <br />
-                                    <h4 className="century"><span className="font-bold">Notre <Link to="/agence-digitale-toulouse/" className="font-bold text-bleu hover:text-black">agence digitale</Link> qualifiée vous offre la mise en place de solutions de développement et de communication digitale fonctionnelles.</span></h4>
+                                    <h4 className="century"><span className="font-bold">Notre agence digitale qualifiée vous offre la mise en place de solutions de développement et de communication digitale fonctionnelles.</span></h4>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify"><strong className="font-normal">Linkweb</strong> est en capacité de manipuler tous les outils efficaces (des <strong className="font-normal">CMS</strong> comme <strong className="font-normal">Wordpress</strong>, <strong className="font-normal">Prestashop</strong>, des régies publicitaires comme <strong className="font-normal">Google Ads</strong>) en vue de la conception et à la gestion de votre <strong className="font-normal">projet</strong>. Nos équipes sont qualifiées pour la production d’une <strong className="font-normal">interface visuelle</strong> et graphique fonctionnelle, ainsi que dans la mise en place et le développement d’une <strong className="font-normal"><Link to="/strategie-digitale-toulouse/" className="font-bold text-bleu hover:text-black">stratégie webmarketing</Link></strong> performante.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify"><strong className="font-normal">Linkweb</strong> est en capacité de manipuler tous les outils efficaces (des <strong className="font-normal">CMS</strong> comme <strong className="font-normal">Wordpress</strong>, <strong className="font-normal">Prestashop</strong>, des régies publicitaires comme <strong className="font-normal">Google Ads</strong>) en vue de la conception et à la gestion de votre <strong className="font-normal">projet</strong>. Nos équipes sont qualifiées pour la production d’une <strong className="font-normal">interface visuelle</strong> et graphique fonctionnelle, ainsi que dans la mise en place et le développement d’une <strong className="font-normal"><Link to="/agence-web-marketing-toulouse/" className="font-bold text-bleu hover:text-black">stratégie webmarketing</Link></strong> performante.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -194,7 +194,7 @@ class WebAgencyToulouse extends Component {
                                     </h3>
                                     <h4 className="century"><span className="font-bold">L’équipe de Linkweb est réactive fait preuve d’adaptabilité vis-à-vis des problématiques du web. </span></h4>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal">entreprise digitale</strong> met un point d’honneur à faire preuve de réactivité et à répondre à vos demandes dans les meilleurs délais. Les <strong className="font-normal">référenceurs</strong> et <strong className="font-normal">développeurs</strong> de Linkweb veillent à ce que la navigation sur <strong className="font-normal">votre site</strong> soit constamment optimale pour les utilisateurs. </p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal">entreprise digitale</strong> met un point d’honneur à faire preuve de réactivité et à répondre à vos demandes dans les meilleurs délais. Les <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold"><strong className="font-bold">référenceurs</strong> et <strong className="font-bold">développeurs</strong></Link> de Linkweb veillent à ce que la navigation sur <strong className="font-normal">votre site</strong> soit constamment optimale pour les utilisateurs. </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -207,7 +207,7 @@ class WebAgencyToulouse extends Component {
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">L'administration de vos projets vise un maximum de performance dans des délais des plus brefs. Notre <Link to="/agence-web-ramonville/" className="font-bold text-bleu hover:text-black">agence spécialisée</Link> consacre tout son temps et son efficacité à la réalisation de vos projets professionnels.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">L'administration de vos projets vise un maximum de performance dans des délais des plus brefs. Notre <Link to="/agence-web-cahors/" className="font-bold text-bleu hover:text-black">agence spécialisée</Link> consacre tout son temps et son efficacité à la réalisation de vos projets professionnels.</h3>
                     </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-24">
@@ -225,7 +225,7 @@ class WebAgencyToulouse extends Component {
                             </div>
                             <div label="UNE MISE EN PLACE STRATÉGIQUE PERFORMANTE">
                                 <p>
-                                    Le savoir-faire et les qualifications des <strong className="font-normal">agences</strong> comme Linkweb font de nos consultants, des interlocuteurs aptes à définir une <strong className="font-normal">stratégie marketing</strong> adaptée à vos besoins. Grâce à notre <strong className="font-normal">expérience</strong> et au soin mobilisé dans notre manière de travailler, notre <strong className="font-normal">agence</strong> est en mesure d'apporter une solution parfaitement appropriée au projet de chacun de nos <strong className="font-normal">clients</strong>.
+                                    Le savoir-faire et les qualifications des <Link to="/quelle-agence-web-choisir/" className="font-bold text-bleu hover:text-black font-bold"><strong className="font-bold">agences</strong> comme Linkweb</Link> font de nos consultants, des interlocuteurs aptes à définir une <strong className="font-normal">stratégie marketing</strong> adaptée à vos besoins. Grâce à notre <strong className="font-normal">expérience</strong> et au soin mobilisé dans notre manière de travailler, notre <strong className="font-normal">agence</strong> est en mesure d'apporter une solution parfaitement appropriée au projet de chacun de nos <strong className="font-normal">clients</strong>.
                             </p>
                             </div>
                         </Accordion>

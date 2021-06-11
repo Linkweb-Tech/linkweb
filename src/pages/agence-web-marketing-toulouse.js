@@ -123,7 +123,7 @@ class AgenceWebMarketingToulouse extends Component {
                                     <br />
                                     <h4 className="century">Vous souhaitez obtenir une meilleure visibilité que vos concurrents sur les pages web proposées par Google ?</h4>
                                     <br />
-                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Le <strong>référencement naturel</strong> est un générateur de trafic important sur un <strong>site internet e-commerce</strong> souhaitant vendre des produits, un <strong>site vitrine</strong> qui va présenter une société ou fournir des coordonnées de contacts. Globalement, il va offrir à toute société, la chance de déployer une <strong>stratégie de communication digitale</strong> fondée sur le potentiel qu’offrent les <strong>moteurs de recherche</strong> en termes de <strong>visibilité</strong>.</p>
+                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Le <strong>référencement naturel</strong> est un générateur de trafic important sur un <strong>site internet e-commerce</strong> souhaitant vendre des produits, un <strong>site vitrine</strong> qui va présenter une société ou fournir des coordonnées de contacts. Globalement, il va offrir à toute société, la chance de déployer une <strong>stratégie de <Link to="/agence-de-communication-digitale/" className="text-bleu hover:text-black font-bold">communication digitale</Link></strong> fondée sur le potentiel qu’offrent les <strong>moteurs de recherche</strong> en termes de <strong>visibilité</strong>.</p>
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -139,7 +139,7 @@ class AgenceWebMarketingToulouse extends Component {
                                     <br />
                                     <h4 className="century">Vous êtes impatient d'obtenir un retour sur investissement grâce à votre boutique digitale ou à votre site vitrine ?</h4>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La régie <strong><Link to="/agence-sea-toulouse/" className="text-bleu hover:text-black font-bold">Google Adwords</Link></strong> propose une solution payante pour <strong>référencer son site</strong> à travers le sponsoring. Cette <strong>stratégie de communication</strong> permet de créer un <strong>contenu publicitaire</strong> très présent dans les <strong>résultats de recherche</strong>. Il s'agit d'une <strong>solution digitale</strong> chaudement recommandée aux professionnels optant pour un <strong>retour sur investissement</strong> expéditif.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">La régie <strong>Google Adwords</strong> propose une solution payante pour <strong>référencer son site</strong> à travers le sponsoring. Cette <strong>stratégie de communication</strong> permet de créer un <strong>contenu publicitaire</strong> très présent dans les <strong>résultats de recherche</strong>. Il s'agit d'une <strong>solution digitale</strong> chaudement recommandée aux professionnels optant pour un <strong>retour sur investissement</strong> expéditif.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -244,7 +244,7 @@ class AgenceWebMarketingToulouse extends Component {
                             <br />
                             <hr className="w-1/2 border-darkgrey lg:w-1/12" />
                             <br />
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">En tant que spécialiste dans les techniques de communication web, Linkweb produit un travail soigné et de qualité pour générer un taux de conversion maximal sur votre site internet ainsi qu'un positionnement optimal.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">En tant que <Link className="text-bleu hover:text-black font-bold" to="/quelle-agence-web-choisir/">spécialiste dans les techniques de communication web</Link>, Linkweb produit un travail soigné et de qualité pour générer un taux de conversion maximal sur votre site internet ainsi qu'un positionnement optimal.</h3>
                         </div>
                     </section>
                     <section className="flex justify-center flex-col items-center">
@@ -302,7 +302,7 @@ class AgenceWebMarketingToulouse extends Component {
                         <p style={{ fontSize: '16px' }}>
                             Notre <strong>agence de communication</strong> met tout en oeuvre pour vous accompagner dans le choix des <strong>stratégies web</strong> les plus pertinentes pour vous. Nous veillons à entretenir une relation régulière avec vous pour déterminer les points à améliorer ainsi que les nouveaux axes de <strong>développement</strong>. Le marketing est une discipline en perpétuel mouvement. C'est pourquoi, nos <strong>experts</strong> font le maximum pour vous proposer un développement digital optimal et durable dans le temps.<br />
                             <br />
-                                Les professionnels de Linkweb, <Link to="/" className="text-bleu hover:text-black font-bold"><strong>agence web à Toulouse</strong></Link>, vous accompagnent pour définir votre clientèle cible ainsi que des objectifs réalistes. Nous possédons tous les <strong>outils professionnels</strong> pour mener à bien une stratégie de qualité. En étudiant le <strong>comportement de l’utilisateur sur votre site</strong>, nous sommes en mesure d'identifier les actions à mettre en place pour définir la meilleure <strong>solution de marketing digital</strong> pour votre <strong>entreprise</strong>.<br />
+                                Les professionnels de Linkweb, <strong>agence web à Toulouse</strong>, vous accompagnent pour définir votre clientèle cible ainsi que des objectifs réalistes. Nous possédons tous les <strong>outils professionnels</strong> pour mener à bien une stratégie de qualité. En étudiant le <strong>comportement de l’utilisateur sur votre site</strong>, nous sommes en mesure d'identifier les actions à mettre en place pour définir la meilleure <strong>solution de marketing digital</strong> pour votre <strong>entreprise</strong>.<br />
                             <br />
                                 Notre objectif consiste à <strong>développer votre présence sur Internet</strong> en vue de tirer un profit maximal de l'ensemble des opportunités qui pourront s'offrir à vous par le biais du <strong>web marketing</strong> : <strong>visibilité</strong>, <strong>notoriété</strong>, <strong>réputation</strong>, <strong>vente en ligne</strong> et même demandes de contact. Nos spécialistes s'attachent à mettre en place une collaboration de qualité pour arriver à un projet qui vous ressemble.<br />
                         </p>
@@ -312,7 +312,7 @@ class AgenceWebMarketingToulouse extends Component {
                 </section>
                 <section className="w-full flex my-12 flex-col items-center lg:flex-row text-white bg-bleu century text-center mx-auto lg:text-justify px-16 xl:px-48 py-16">
                     <div className="w-full lg:w-8/12 text-2xl">
-                        <h2>Vous souhaitez collaborer avec notre <Link to="/agence-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence de web marketing</Link> (SEO/SEA) à Toulouse ?</h2>
+                        <h2>Vous souhaitez collaborer avec notre <Link to="/web-agency-toulouse/" className="text-white hover:text-black font-bold">agence de web marketing</Link> (SEO/SEA) à Toulouse ?</h2>
                         <h4>Linkweb soutient les professionnels souhaitant développer leur présence sur Internet.</h4>
                     </div>
                     <div className="w-full mx-auto flex flex-col items-center justify-center lg:w-3/12">
@@ -433,7 +433,7 @@ class AgenceWebMarketingToulouse extends Component {
                                 <br />
                                 <p>Pour ce faire, il est important de réunir de nombreux critères qui apportent de la <strong>crédibilité et de l’autorité à votre site</strong>. La visibilité apportée va être porteuse de <strong>trafic organique</strong> et de retombées financières grâce à <strong>votre projet web</strong>. Pour cela, la <strong>qualité du contenu des pages proposées sur votre site</strong> joue un rôle important.</p>
                                 <br />
-                                <p>De la même façon, aux yeux des <strong>moteurs de recherche</strong>, l'<strong>e-réputatio</strong>n et la <strong>popularité du site</strong> vont apporter un poids important à l’entité digitale créée, tout comme son ancienneté et son <Link to="/agence-web-design-toulouse/" className="text-bleu hover:text-black font-bold"><strong>ergonomie (webdesign)</strong></Link>.</p>
+                                <p>De la même façon, aux yeux des <strong>moteurs de recherche</strong>, l'<strong>e-réputatio</strong>n et la <strong>popularité du site</strong> vont apporter un poids important à l’entité digitale créée, tout comme son ancienneté et son <Link to="/comment-notre-agence-de-conception-de-site-internet-realise-votre-projet/" className="text-bleu hover:text-black font-bold"><strong>ergonomie (webdesign)</strong></Link>.</p>
                                 <br />
                                 <p>Enfin, L’<strong>agence Linkweb</strong> va favoriser l’<strong>expérience utilisateur</strong> et la mise en place d'un circuit de <strong>navigation</strong> fluide sur votre site web. Il s'agit d'éléments indispensables pour séduire les <strong>robots des moteurs de recherche</strong> et les utilisateurs.</p>
                             </div>
@@ -449,7 +449,7 @@ class AgenceWebMarketingToulouse extends Component {
                                 <br />
                                 <p>Avec le <strong>référencement naturel</strong>, la donne change. Notre <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold">équipe <strong>webmarketing</strong></Link> va appuyer une <strong>identité visuelle</strong> et une <strong>charte graphique</strong> performante et reconnaissable accompagnée d’un <strong>contenu pertinent</strong> pour vous proposer un <strong>site internet</strong> proche de vos attentes en termes de rendu, comme de performances.</p>
                                 <br />
-                                <p>Grâce à la maîtrise technique de <Link to="/agence-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">nos <strong>développeurs</strong></Link>, vous disposerez d'une interface à votre image, d’un projet au <strong>web design</strong> taillé pour votre entreprise. Mettre à votre disposition un outil performant, utile, unique et ergonomique est notre priorité.</p>
+                                <p>Grâce à la maîtrise technique de <Link to="/agence-web-cahors/" className="text-bleu hover:text-black font-bold">nos <strong>développeurs</strong></Link>, vous disposerez d'une interface à votre image, d’un projet au <strong>web design</strong> taillé pour votre entreprise. Mettre à votre disposition un outil performant, utile, unique et ergonomique est notre priorité.</p>
                             </div>
                         </Accordion>
                     </div>

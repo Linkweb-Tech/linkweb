@@ -134,7 +134,7 @@ class AgenceWebMontauban extends Component {
                         <svg className="cursor-pointer mx-auto block" width="40px" viewBox="0 0 48 60"><g><polygon fill="#37cfee" points="47,47 1,47 1,1 3,1 3,45 47,45  " /><g><path fill="#37cfee" d="M15.9,47H7.4V33h8.4V47z M9.4,45h4.4V35H9.4V45z" /><path fill="#37cfee" d="M28.7,47h-8.4V23h8.4V47z M22.3,45h4.4V25h-4.4V45z" /><path fill="#37cfee" d="M41.6,47h-8.4V13h8.4V47z M35.1,45h4.4V15h-4.4V45z" /></g><g><path fill="#37cfee" d="M10.4,26.2l-0.9-1.8c6.4-3.1,14-10.1,18.6-17l1.7,1.1C25.1,15.7,17.1,23,10.4,26.2z" /><g><polygon fill="#37cfee" points="24.4,6 32.8,10.9 31,4.2    " /></g></g></g></svg>
                         <h3 className="text-center text-2xl font-bold century">Référencement Web</h3>
                         <hr className="blue"></hr>
-                        <p className="text-center px-6">Nous définissons et appliquons une <Link to="/strategie-digitale-toulouse/" className="text-bleu hover:text-black font-bold">stratégie</Link> de référencement web adaptée à vos besoins et à la concurrence.</p>
+                        <p className="text-center px-6">Nous définissons et appliquons une stratégie de référencement web adaptée à vos besoins et à la concurrence.</p>
                         <br />
                         <ul className="text-bold text-center py-2">
                             <li className="py-2 flex flex-row justify-center">
@@ -228,7 +228,7 @@ class AgenceWebMontauban extends Component {
                     <hr className="blue"></hr>
                     <div className="w-full" /*data-aos='zoom-in'*/>
                         <p className="text-md text-center py-12 century">
-                            Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Montauban</strong> pour la mise en place d’une stratégie digitale ? <strong><Link to="/agence-web-ramonville/" className="font-bold text-bleu hover:text-black">Linkweb</Link></strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
+                            Vous êtes un organisme public ou privé à la recherche d’une <strong>agence web à Montauban</strong> pour la mise en place d’une stratégie digitale ? <strong><Link to="/agence-web-marmande/" className="font-bold text-bleu hover:text-black">Linkweb</Link></strong> est à l’écoute de vos besoins pour vos proposer une solution taillée pour vous.</p>
                     </div>
                 </section>
                 <section className="w-full flex flex-1 mt-6 equipe min-h-0 lg:min-h-600">
@@ -260,7 +260,7 @@ class AgenceWebMontauban extends Component {
                                     <span className="text-bleu">/</span>JE SUIS UN ORGANISME PUBLIC
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong><Link to="/web-agency-toulouse/" className="text-bleu hover:text-black font-bold">agence de création</Link></strong> vous propose des solutions pour y parvenir. Mettez tous les atouts de votre côté pour mener votre campagne de <strong>communication web</strong>.
+                                    Mairie, conseil départemental, établissement culturel : informer les administrés est votre priorité ? Notre <strong><Link to="/agence-creation-site-web-toulouse/" className="text-bleu hover:text-black font-bold">agence de création</Link></strong> vous propose des solutions pour y parvenir. Mettez tous les atouts de votre côté pour mener votre campagne de <strong>communication web</strong>.
                                 </div>
                                 <button
                                     className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"
@@ -337,11 +337,11 @@ class AgenceWebMontauban extends Component {
                             <span className="font-bold">Notre vocation : développer votre projet web pour faire émerger votre professionnalisme et apporter à votre entreprise la visibilité qu’elle mérite.</span>
                         </h4>
                         <p /*data-aos='fade-bottom'*/ className="text-justify">
-                            Depuis plus de 10 ans, notre expérience dans la <strong>création de sites internet</strong> nous a permis de développer nos compétences<strong> en tant qu'agence de conseil en communication</strong> pour d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br />
+                            Depuis plus de 10 ans, notre expérience dans la <strong>création de sites internet</strong> nous a permis de développer nos compétences<strong> en tant qu'<Link to="/agence-web-albi/" className="text-bleu hover:text-black font-bold">agence de conseil en communication</Link></strong> pour d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br />
 
-                                Présente à <strong>Montauban</strong> en <strong>Tarn-et-Garonne (82)</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong>Linkweb</strong> déploie son offre de <strong>création de site web</strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>Montauban</strong> et ses alentours.<br /><br />
+                                Présente à <strong>Montauban</strong> en <strong>Tarn-et-Garonne (82)</strong>, l’<strong>agence web Linkweb</strong> développe sa filiale <strong>toulousaine</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong><Link to="/agence-web-balma/" className="text-bleu hover:text-black font-bold">agence de communication web</Link></strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong>Linkweb</strong> déploie son offre de <strong><Link to="/agence-site-web-toulouse/" className="text-bleu hover:text-black font-bold">création de site web</Link></strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à la <strong>Montauban</strong> et ses alentours.<br /><br />
 
-                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong>développement web</strong> récentes et optimise votre <strong>référencement naturel</strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
+                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des <Link to="/entreprise-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">solutions de <strong>développement web</strong></Link> récentes et optimise votre <strong>référencement naturel</strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
                         </p>
 
                     </div>
@@ -645,7 +645,18 @@ class AgenceWebMontauban extends Component {
                     <br />
                     <p className="century text-center text-md">Linkweb conduit tous vos <strong>projets web à Toulouse</strong>, de leur conception à la mise en oeuvre avec un suivi régulier. Notre équipe vous accompagne dans la mise en route technique et dans le choix de la stratégie éditoriale à adopter pour répondre à vos objectifs.</p>
                     <div className="max-w-sm mx-auto block">
-                        <RoundButton text="Faire appel à l'agence web à Toulouse" url="/agence-digitale-toulouse/" color="bleu" />
+                        {/* <RoundButton text="Faire appel à l'agence Linkweb" url="/agence-digitale-toulouse/" color="bleu" /> */}
+                        <button
+                            className="font-light roundedButton bg-bleu text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12"
+                            type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = '/contact-agence-web-toulouse/';
+                            }}
+                        >
+
+                                Faire appel à l'agence Linkweb
+                            </button>
                     </div>
                 </section>
                 {/* <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">

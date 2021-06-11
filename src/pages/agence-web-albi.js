@@ -78,7 +78,7 @@ class AgenceWebAlbi extends Component {
                             </button>
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-6 my-4">
-                    <h2 className="text-center text-lg sm:text-2xl text-black century mt-3">Linkweb est l'<Link to="/agence-internet-toulouse/" className="text-bleu hover:text-black font-bold">agence web</Link> qui vous accompagne dans la conception, la mise en oeuvre et le suivi de votre projet web ainsi que de votre communication digitale.</h2>
+                    <h2 className="text-center text-lg sm:text-2xl text-black century mt-3">Linkweb est l'<Link to="/agence-creation-site-web-toulouse/" className="text-bleu hover:text-black font-bold">agence web marketing</Link> qui vous accompagne dans la conception, la mise en oeuvre et le suivi de votre projet web ainsi que de votre communication digitale.</h2>
                     <br />
                     <hr style={{ borderTop: '1px solid #37cfee', width: '33%' }} />
                     <br />
@@ -283,7 +283,7 @@ class AgenceWebAlbi extends Component {
                                     <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    TPE, PME, commerçants, l’<strong><Link to="/agence-web-balma/" className="text-bleu hover:text-black font-bold">agence web Linkweb</Link></strong> répond à vos besoins de <strong>visibilité</strong> et de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> efficaces et qui vous rapprochent de vos prospects. Nous activons tous les leviers pour développer et faire connaître votre <strong>outil en ligne</strong>.
+                                    TPE, PME, commerçants, l’<strong><Link to="/agence-web-montauban/" className="text-bleu hover:text-black font-bold">agence webmarketing Linkweb</Link></strong> répond à vos besoins de <strong>visibilité</strong> et de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> efficaces et qui vous rapprochent de vos prospects. Nous activons tous les leviers pour développer et faire connaître votre <strong>outil en ligne</strong>.
                                 </div>
                                 <button
                                     className="link flex  mt-3 items-center text-black text-lg mx-auto block justify-center lg:text-xl"
@@ -339,9 +339,9 @@ class AgenceWebAlbi extends Component {
                         <p /*data-aos='fade-bottom'*/ className="text-justify">
                             Depuis plus de 10 ans, notre expérience dans la <strong>création de sites internet</strong> nous a permis de développer nos compétences<strong> en tant qu'agence de conseil en communication</strong> pour d’envisager les <strong>projets web</strong> comme des solutions uniques répondant aux besoins de chaque <strong>client</strong>.<br /><br />
 
-                                Présente à <strong>Albi</strong> dans le <strong>Tarn (81)</strong>, l’<strong>agence digitale Linkweb</strong> développe sa filiale <strong>occitane</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong>agence de communication web</strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong>Linkweb</strong> déploie son offre de <strong><Link to="/agence-site-web-toulouse/" className="text-bleu hover:text-black font-bold">création de site web</Link></strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à <strong>Albi</strong> et ses alentours.<br /><br />
+                                Présente à <strong>Albi</strong> dans le <strong>Tarn (81)</strong>, l’<strong><Link to="/agence-web-marmande/" className="text-bleu hover:text-black font-bold/">agence digitale Linkweb</Link></strong> développe sa filiale <strong>occitane</strong>. Spécialisée dans le secteur des <strong>marchés publics</strong> comme dans les <strong>marchés privés</strong>, notre <strong><Link to="/agence-web-balma/" className="text-bleu hover:text-black font-bold">agence de communication web</Link></strong> est particulièrement active pour répondre aux demandes émanant de tous types d’organismes en faisant du <strong>marketing digital</strong>, un atout considérable. <strong>Linkweb</strong> déploie son offre de <strong><Link to="/agence-site-web-toulouse/" className="text-bleu hover:text-black font-bold">création de site web</Link></strong>, <strong>refonte de site internet</strong> et de <strong>référencement web</strong> à <strong>Albi</strong> et ses alentours.<br /><br />
 
-                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des solutions de <strong>développement web</strong> récentes et optimise votre <strong>référencement naturel</strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
+                                De part son savoir-faire en tant qu’<strong>agence digitale</strong>, Linkweb met en place votre <strong>site internet</strong> grâce à des <Link to="/entreprise-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">solutions de <strong>développement web</strong></Link> récentes et optimise votre <strong>référencement naturel</strong> grâce à une veille permanente en <strong>web marketing</strong>. Quelle que soit la nature de votre activité, nous avons le savoir-faire  et les <strong>expertises</strong> pour vous permettre d’atteindre vos objectifs.<br />
                         </p>
 
                     </div>
@@ -650,7 +650,7 @@ class AgenceWebAlbi extends Component {
                             type="button"
                             onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href = '/agence-digitale-toulouse/';
+                                window.location.href = '/contact-agence-web-toulouse/';
                             }}
                         >
 

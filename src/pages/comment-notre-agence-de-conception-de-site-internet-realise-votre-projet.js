@@ -71,7 +71,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Com
                     <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
                         <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez démarrer un projet de création de site internet ?</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-white text-center century text-md">En tant qu'<strong className="font-normal"><Link to="/agence-web-marmande/" className="text-white hover:text-black font-bold">agence spécialisée dans le développement de sites</Link></strong>, Linkweb vous apporte tout son savoir-faire digital pour faire fructifier votre <strong className="font-normal">projet de communication</strong> et de <strong className="font-normal">marketing web</strong>.</p>
+                        <p className="px-8 lg:px-16 text-white text-center century text-md">En tant qu'<strong className="font-normal"><Link to="/agence-de-communication-digitale/" className="text-white hover:text-black font-bold">agence spécialisée dans le développement de sites</Link></strong>, Linkweb vous apporte tout son savoir-faire digital pour faire fructifier votre <strong className="font-normal">projet de communication</strong> et de <strong className="font-normal">marketing web</strong>.</p>
                         <br />
                         <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
                             <button
@@ -130,7 +130,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Com
                             <br />
                             <hr className="w-1/2 lg:w-1/12" />
                             <br />
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">En faisant appel à notre <Link to="/agence-web-design-toulouse/" className="text-white hover:text-black font-bold">agence de conception</Link> de site internet, vous faites le choix d'une solution pérenne et qualitative. </h3>
+                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">En faisant appel à notre <Link to="/web-agency-toulouse/" className="text-white hover:text-black font-bold">agence de conception</Link> de site internet, vous faites le choix d'une solution pérenne et qualitative. </h3>
                         </div>
                     </section>
                     <section className="flex justify-center flex-col items-center">
@@ -177,7 +177,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Com
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Nos équipes de spécialistes au sein des agences de Toulouse et Agen font preuve de rigueur pour créer un site en parfaite corrélation avec votre identité visuelle et répondant à toutes vos attentes ainsi qu'à celles des différents acteurs du web.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Nos <Link to="/pourquoi-travailler-dans-une-agence-web/" className="text-bleu hover:text-black font-bold">équipes de spécialistes</Link> au sein des agences de Toulouse et Agen font preuve de rigueur pour créer un site en parfaite corrélation avec votre identité visuelle et répondant à toutes vos attentes ainsi qu'à celles des différents acteurs du web.</h3>
                     </div>
                 </section>
                 <section className="phototext mb-24">
@@ -243,7 +243,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Com
                                     <br />
                                     <h4 className="font-bold">Après avoir validé la proposition graphique et éditoriale, nos spécialistes se chargent de la mise en ligne de votre site web.</h4>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Une fois publié sur le <strong className="font-normal">nom de domaine</strong> sélectionné, nos <strong className="font-normal">référenceurs web</strong> déploient toutes leurs <strong className="font-normal">techniques de marketing</strong> pour vous apporter un <strong className="font-normal">positionnement optimal sur les moteurs de recherche comme Google</strong>. Ensuite, des mises à jour et des modifications sont régulièrement effectuées grâce au suivi établi par l’<strong className="font-normal">équipe de Linkweb</strong>.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Une fois publié sur le <strong className="font-normal">nom de domaine</strong> sélectionné, nos <strong className="font-normal">référenceurs web</strong> déploient toutes leurs <strong className="font-normal"><Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-black font-bold">techniques de marketing</Link></strong> pour vous apporter un <strong className="font-normal">positionnement optimal sur les moteurs de recherche comme Google</strong>. Ensuite, des mises à jour et des modifications sont régulièrement effectuées grâce au suivi établi par l’<strong className="font-normal">équipe de Linkweb</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -253,7 +253,7 @@ class CommentNotreAgenceDeConceptionDeSiteInternetRealiseVotreProjet extends Com
                 <section className="w-full flex mt-12 flex-col items-center lg:flex-row text-white bg-bleu century text-center mx-auto lg:text-justify px-16 xl:px-48 py-16">
                     <div className="w-full lg:w-8/12 text-2xl">
                         <h3>Vous souhaitez faire appel à notre <Link to="/agence-web-cahors/" className="text-white hover:text-black font-bold">agence web spécialisée</Link> pour atteindre vos objectifs ?</h3>
-                        <h4>Linkweb fait partie des agences qui proposent des solutions personnalisées aux professionnels souhaitant s’investir dans une création web ou une refonte de site.</h4>
+                        <h4>Linkweb fait partie des agences qui proposent des <Link to="/comment-choisir-son-agence-de-communication-web/" className="text-bleu hover:text-black font-bold">solutions personnalisées</Link> aux professionnels souhaitant s’investir dans une création web ou une refonte de site.</h4>
                     </div>
                     <div className="w-full mx-auto block lg:w-3/12">
                         <button

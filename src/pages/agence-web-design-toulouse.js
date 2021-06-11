@@ -184,7 +184,7 @@ class AgencenWebDesignToulouse extends Component {
                             <br />
                             <hr className="w-1/2 border-bleu lg:w-1/12" />
                             <br />
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Nos <Link to="/comment-notre-agence-de-conception-de-site-internet-realise-votre-projet/" className="font-bold text-bleu hover:text-white">méthodes de conception</Link> et de développement sont orientées pour vous donner accès à un site web opérationnel et vous permettre d’obtenir de hautes performances.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Nos <Link to="/agence-internet-toulouse/" className="font-bold text-bleu hover:text-white">méthodes de conception</Link> et de développement sont orientées pour vous donner accès à un site web opérationnel et vous permettre d’obtenir de hautes performances.</h3>
                         </div>
                     </section>
                     <section className="flex justify-center flex-col items-center">
@@ -240,7 +240,7 @@ class AgencenWebDesignToulouse extends Component {
                                     <span className="text-bleu">/</span>JE SOUHAITE DÉCOUVRIR CE QU’UNE AGENCE WEB DESIGN PEUT M’APPORTER
                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Lorsque l’on fait appel à une <strong><Link to="/" className="font-bold text-bleu hover:text-black">agence web à Toulouse</Link> spécialisée dans la création de sites web</strong>, il est important de fixer des objectifs et un cap. Que ce soit pour développer une plateforme parfaitement opérationnelle, à <strong>votre image</strong> et qui pourra <strong>générer des contacts prospects</strong> pour vous, nos prestations s’adaptent en fonction de vos besoins.
+                                    Lorsque l’on fait appel à une <strong>agence web à Toulouse spécialisée dans la création de sites web</strong>, il est important de fixer des objectifs et un cap. Que ce soit pour développer une plateforme parfaitement opérationnelle, à <strong>votre image</strong> et qui pourra <strong>générer des contacts prospects</strong> pour vous, nos prestations s’adaptent en fonction de vos besoins.
                 </div>
 
                             </section>
@@ -254,7 +254,7 @@ class AgencenWebDesignToulouse extends Component {
                                     <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNER POUR DÉFINIR UN PROJET WEB PERFORMANT
                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Le <strong>Web</strong> est un univers immense sur lequel il peut-être difficile de se frayer une place. Toutefois, le <strong><Link to="/quelle-agence-web-choisir/" className="font-bold text-bleu hover:text-black">développement d’un projet web</Link></strong> performant et cohérent permet d’acquérir de la <strong>visibilité</strong>, ainsi que de <strong>se faire connaître</strong>. Le travail de <strong>référencement</strong> mené sur votre site web joue un rôle crucial dans la réussite de votre projet.
+                                    Le <strong>Web</strong> est un univers immense sur lequel il peut-être difficile de se frayer une place. Toutefois, le <strong><Link to="/agence-developpement-web-toulouse/" className="font-bold text-bleu hover:text-black">développement d’un projet web</Link></strong> performant et cohérent permet d’acquérir de la <strong>visibilité</strong>, ainsi que de <strong>se faire connaître</strong>. Le travail de <strong>référencement</strong> mené sur votre site web joue un rôle crucial dans la réussite de votre projet.
                 </div>
                                 <br />
                                 <button
@@ -276,7 +276,7 @@ class AgencenWebDesignToulouse extends Component {
                                     <span className="text-bleu">/</span>JE CHOISIS DES EXPERTS DU WEB POUR LA CRÉATION DE MON SITE INTERNET
                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Les services de <strong><Link to="/agence-developpement-web-toulouse/" className="text-bleu font-bold hover:text-black">développement</Link> et de référencement de notre agence</strong> ont un rôle de <strong>conseil</strong> pour vous orienter vers une solution efficace en vue d’obtenir un résultat professionnel. Nous proposons le <strong>développement et la gestion de votre projet (hébergement, maintenance, etc.)</strong> en plus de la définition de votre <strong>stratégie digitale</strong>.
+                                    Les services de <strong>développement et de référencement de <Link to="/agence-web-ramonville/" className="text-bleu hover:text-black font-bold">notre agence</Link></strong> ont un rôle de <strong>conseil</strong> pour vous orienter vers une solution efficace en vue d’obtenir un résultat professionnel. Nous proposons le <strong>développement et la gestion de votre projet (hébergement, maintenance, etc.)</strong> en plus de la définition de votre <strong>stratégie digitale</strong>.
                 </div>
                             </section>
 
@@ -301,7 +301,7 @@ class AgencenWebDesignToulouse extends Component {
                         <p style={{ fontSize: '16px' }}>
                             Du <strong>web design</strong> au <strong>référencement naturel</strong>, notre ligne directrice est consiste à vous apporter un <strong>site internet de qualité</strong> pour vous permettre de franchir un cap en termes de <strong>visibilité et de notoriété</strong> en vue de booster l’activité de votre société.<br />
                             <br />
-                                Grâce à sa compétence d’<strong><Link to="/agence-web-cahors/" className="text-bleu hover:text-black font-bold">agence spécialisée</Link> dans la création de sites internet</strong> dans le <strong>référencement</strong>, <strong>Linkweb</strong> vous apporte une solution concrète que ce soit d’un point de vue <strong>graphique</strong>, comme en termes de <Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-black font-bold"><strong>marketing digital</strong></Link>.<br />
+                                Grâce à sa compétence d’<strong><Link to="/agence-web-muret/" className="text-bleu hover:text-black font-bold">agence spécialisée</Link> dans la création de sites internet</strong> dans le <strong>référencement</strong>, <strong>Linkweb</strong> vous apporte une solution concrète que ce soit d’un point de vue <strong>graphique</strong>, comme en termes de <Link to="/strategie-digitale-toulouse/" className="text-bleu hover:text-black font-bold"><strong>marketing digital</strong></Link>.<br />
                             <br />
                                 Les <strong>sites</strong> que nous créons sont conçus pour attirer vos futurs <strong>clients</strong>. C’est pourquoi, notre équipe rédige le <strong>contenu de votre site</strong> à destination de <strong>vos utilisateurs</strong>, mais également des <strong>moteurs de recherche Google</strong>. En effet, <strong>concevoir un site performant en SEO (Search Engine Optimization)</strong> permet d’atteindre des utilisateurs pour construire votre <strong>trafic organique</strong>.<br />
                             <br />
@@ -438,7 +438,7 @@ class AgencenWebDesignToulouse extends Component {
                                 <br />
                                 <p>En effet, il vous permettra de maîtriser votre communication externe, de vous adresser plus spécifiquement à vos <strong>cibles</strong>, mais il peut également vous apporter des <strong>solutions</strong> en interne. Grâce à la <strong>création d’une solution sur-mesure</strong>, il est possible de développer une interface vous permettant une gestion optimale de vos <strong>services</strong>. C’est notamment le cas si vous souhaitez la <strong>création d’un intranet</strong> notamment.</p>
                                 <br />
-                                <p>Quoi qu’il en soit, le <strong>site internet</strong> est un excellent outil pour maîtriser votre <strong>communication</strong> et affirmer votre <strong>identité (graphique, visuelle, valeurs, etc.)</strong> en tant que marque grâce au <strong>marketing digital</strong>. </p>
+                                <p>Quoi qu’il en soit, le <strong>site internet</strong> est un excellent outil pour maîtriser votre <strong>communication</strong> et affirmer votre <strong>identité (graphique, visuelle, valeurs, etc.)</strong> en tant que marque grâce au <Link to="/agence-marketing-toulouse/" className="text-bleu hover:text-black font-bold"><strong>marketing digital</strong></Link>.</p>
                             </div>
                             <div label="PROFITEZ DES OPPORTUNITÉS OFFERTES GRÂCE AU RÉFÉRENCEMENT NATUREL">
                                 <p>En plus de constituer un canal direct vers vos cibles, le <strong>site internet</strong> offre également de nouvelles perspectives. En effet, avec le <strong>référencement naturel</strong>, ce n’est plus vous qui cherchez vos prospects, mais bien eux qui vous trouvent.</p>
@@ -448,7 +448,7 @@ class AgencenWebDesignToulouse extends Component {
                                 <p>Nous travaillons également la <strong>popularité de votre nom de domaine</strong> pour faire de <strong>votre site</strong> une référence aux <strong>yeux de Google</strong> et vous permettre de gravir les positions afin d’arriver en <strong>première page</strong> sur des <strong>requêtes cibles pertinentes</strong> et porteuses de succès.</p>
                             </div>
                             <div label="FAÎTES LE CHOIX DE PRESTATIONS ADAPTÉES À VOS BESOINS">
-                                <p><strong>Linkweb</strong> fait partie des <strong><Link to="/agence-web-marmande/" className="text-bleu hover:text-black font-bold">agences en France</Link></strong> qui sont à l’écoute de vos besoins et qui ont pleinement conscience de vos objectifs pour <strong>définir une stratégie</strong> qui vous correspond. Nous concevons un <strong>plan d’actions</strong> qui sera tout particulièrement à même de profiter des opportunités qui se dressent pour vous sur <strong>Internet</strong>. De la <strong>création de votre site (hébergement et choix du nom de domaine)</strong> à la réalisation de votre <strong>stratégie de visibilité (marketing digital)</strong> nous vous accompagnons pour vous permettre d’obtenir la meilleure solution possible en fonction de : </p>
+                                <p><strong>Linkweb</strong> fait partie des <strong><Link to="/agence-web-haute-garonne/" className="text-bleu hover:text-black font-bold">agences en France</Link></strong> qui sont à l’écoute de vos besoins et qui ont pleinement conscience de vos objectifs pour <strong>définir une stratégie</strong> qui vous correspond. Nous concevons un <strong>plan d’actions</strong> qui sera tout particulièrement à même de profiter des opportunités qui se dressent pour vous sur <strong>Internet</strong>. De la <strong>création de votre site (hébergement et choix du nom de domaine)</strong> à la réalisation de votre <strong>stratégie de visibilité (marketing digital)</strong> nous vous accompagnons pour vous permettre d’obtenir la meilleure solution possible en fonction de : </p>
                                 <br />
                                 <ul className="pl-5 list-disc">
                                     <li>Votre offre : avoir une connaissance de vos produits ou services est important pour définir les meilleures opportunités de <strong>mots-clés</strong>.</li>
