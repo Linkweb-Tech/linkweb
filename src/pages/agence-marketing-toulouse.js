@@ -71,7 +71,7 @@ class AgenceMarketingToulouse extends Component {
           <div className="w-11/12 lg:w-1/3 bg-bleu shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
             <h2 className="flex text-white justify-center text-3xl lg:text-4xl century text-center mt-12"><span className="font-bold">Vous souhaitez développer un projet web en France ?</span></h2>
             <br />
-            <p className="px-8 lg:px-16 text-white text-center century text-md">Linkweb vous accompagne de la conception à la mise en application de votre <strong className="font-normal"><Link to="/strategie-digitale-toulouse/" className="text-bleu hover:text-black font-bold">stratégie de marketing digital</Link></strong>. Dès la <strong className="font-normal"><Link to="/agence-creation-site-web-toulouse/" className="text-bleu hover:text-black font-bold">création de votre site web</Link></strong>, notre équipe d’experts est à votre écoute pour mettre en place un <strong className="font-normal">projet</strong> qui vous ressemble.</p>
+            <p className="px-8 lg:px-16 text-white text-center century text-md">Linkweb vous accompagne de la conception à la mise en application de votre <strong className="font-normal"><Link to="/strategie-digitale-toulouse/" className="text-black hover:text-white font-bold">stratégie de marketing digital</Link></strong>. Dès la <strong className="font-normal"><Link to="/agence-creation-site-web-toulouse/" className="text-black hover:text-white font-bold">création de votre site web</Link></strong>, notre équipe d’experts est à votre écoute pour mettre en place un <strong className="font-normal">projet</strong> qui vous ressemble.</p>
             <br />
             <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
               <button
@@ -297,7 +297,7 @@ class AgenceMarketingToulouse extends Component {
                     <span className="text-bleu">/</span>CONCEPTION UI & UX DESIGN
                                     </h3>
                   <br />
-                  <h4 className="century"><span className="font-bold">Nous mettons notre expertise à votre service pour vous proposer le <Link to="/agence-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">développement d’une plateforme</Link>d parfaite adaptée aux attentes de vos futurs visiteurs.</span></h4>
+                  <h4 className="century"><span className="font-bold">Nous mettons notre expertise à votre service pour vous proposer le <Link to="/agence-developpement-web-toulouse/" className="text-bleu hover:text-black font-bold">développement d’une plateforme</Link> parfaite adaptée aux attentes de vos futurs visiteurs.</span></h4>
                   <br />
                   <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Construire une <strong className="font-normal">expérience utilisateur</strong> parfaite au sein d’une interface graphique adaptée aux tendances du moment ainsi qu’à votre <strong className="font-normal">charte graphique</strong> est indispensable pour guider vos visiteurs et asseoir votre <strong className="font-normal">identité de marque</strong>.</p>
                   {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
@@ -381,7 +381,7 @@ class AgenceMarketingToulouse extends Component {
                   <span className="text-bleu">/</span>JE SOUHAITE BÉNÉFICIER D’UNE EXPERTISE
                 </h3>
                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                  <strong className="font-normal">Linkweb</strong> fait partie des <strong className="font-normal"><Link to="/agence-web-ramonville/" className="text-bold">agences de marketing</Link> en France</strong> qui sont en mesure de vous proposer des solutions ajustées à vos besoins. Qu’il s’agisse de <strong className="font-normal">création de sites sur-mesure</strong>, d’<strong className="font-normal">acquisition de visibilité</strong> ou de paramètrage de votre <strong className="font-normal">campagne de publicité Adwords (Google Ads</strong> comme sur les réseaux sociaux en <strong className="font-normal">social media marketing</strong>), <strong className="font-normal">Linkweb</strong> est en mesure de vous proposer un des <strong className="font-normal">solutions fonctionnelles</strong>.
+                  <strong className="font-normal">Linkweb</strong> fait partie des <strong className="font-normal"><Link to="/agence-web-ramonville/" className="text-bleu hover:text-black font-bold">agences de marketing</Link> en France</strong> qui sont en mesure de vous proposer des solutions ajustées à vos besoins. Qu’il s’agisse de <strong className="font-normal">création de sites sur-mesure</strong>, d’<strong className="font-normal">acquisition de visibilité</strong> ou de paramètrage de votre <strong className="font-normal">campagne de publicité Adwords (Google Ads</strong> comme sur les réseaux sociaux en <strong className="font-normal">social media marketing</strong>), <strong className="font-normal">Linkweb</strong> est en mesure de vous proposer un des <strong className="font-normal">solutions fonctionnelles</strong>.
                 </div>
                 {/* <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" /> */}
                 <button
@@ -405,7 +405,7 @@ class AgenceMarketingToulouse extends Component {
               <br />
               <hr className="w-1/2 lg:w-1/12" />
               <br />
-              <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">De part sa compétence ainsi que son expérience de plus de dix ans dans le secteur de la <Link to="/agence-web-muret/" className="text-bleu hover:text-black font-bold">communication en ligne</Link>, notre agence est en mesure de traduire vos besoins en solutions parfaitement fonctionnelles, répondant à vos attentes ainsi qu’à celles des utilisateurs.</h3>
+              <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">De part sa compétence ainsi que son expérience de plus de dix ans dans le secteur de la <Link to="/agence-web-muret/" className="text-black hover:text-white font-bold">communication en ligne</Link>, notre agence est en mesure de traduire vos besoins en solutions parfaitement fonctionnelles, répondant à vos attentes ainsi qu’à celles des utilisateurs.</h3>
             </div>
           </section>
           <section className="flex justify-center flex-col items-center">
