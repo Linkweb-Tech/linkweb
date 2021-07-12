@@ -66,3 +66,47 @@
 .styles_closeIcon__1QwbI {
     fill: white;
 }
+
+.miniList {
+    .listPosts h5 {
+        font-size: 15px;
+    }
+
+    .listPosts {
+
+        max-height: 130px;
+        border-radius: 15px;
+        transition: all ease 0.5s;
+
+
+        &:hover {
+            transform: none !important;
+        }
+
+        .imgBloc {
+            min-width: 80px;
+            flex: 0 0 100px;
+            position: relative;
+            width: 100px;
+            height: 130px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            overflow: hidden;
+
+            img {
+                min-width: 240%;
+            }
+        }
+
+
+    }
+
+
+    a.roundedButton {
+        padding: 5px 15px;
+    }
+
+    .contact {
+        bottom: auto !important;
+    }
+}
