@@ -6,7 +6,11 @@ hr{
     &.blue {
         width: 200px;
         margin: 15px auto;
-        color: #37c5ee;
+        border-color: #37c5ee;
+
+        &.left {
+            margin-left: 0 !important;
+        }
     }
 
     &.white {

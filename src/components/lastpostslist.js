@@ -15,7 +15,7 @@ class LastPostsList extends Component {
         const lastposts = this.props.lastposts;
         console.log(lastposts);
         return (
-            <section className="flex flex-1 flex-wrap flex-col w-full mt-4 mb-6">
+            <section className="flex flex-1 postsList flex-wrap flex-col w-full mt-4 mb-6">
                 {
                     lastposts.map(({ node }) => (
                         <article className="w-full mx-0 md:px-0 pb-1 flex flex-col align-center  listPosts">

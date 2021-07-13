@@ -495,7 +495,7 @@ class  IndexPage extends Component {
               Création Site internet : <span
                 className="font-bold text-black text-left text-4xl century">Un échantillon de nos réalisations</span>
             </h2>
-            <hr className="blue"></hr>
+            <hr className="blue left"></hr>
             <br/>
           </section>
           <section className="w-full mx-auto px-24 pt-0 pb-0 my-0">
@@ -592,8 +592,8 @@ class  IndexPage extends Component {
           </section>
 
           <section
-              className="w-full flex my-12 flex-col lg:flex-row text-white bg-bleu century text-center lg:text-justify px-4 lg:px-16 xl:px-48 py-16">
-            <div className="w-full lg:w-8/12 text-xl lg:text-3xl">
+              className="w-full flex my-12 flex-col lg:flex-row text-white bg-bleu century items-center text-center lg:text-justify px-4 lg:px-16 xl:px-48 py-16">
+            <div className="w-full lg:w-8/12 text-xl lg:text-2xl">
               <h3>Vous désirez mener un <span className="font-bold">projet similaire</span> avec notre agence web à
                 Toulouse ?</h3>
               <h4>Linkweb définit votre projet en accord avec vos <span className="font-bold">ambitions</span>.</h4>
@@ -601,7 +601,7 @@ class  IndexPage extends Component {
             <div className="w-1/2 mx-auto block lg:w-3/12">
               {/* <RoundButton className="items-center" color="darkgrey" text="Contactez-nous" url="/contact-agence-web-toulouse/" /> */}
               <button
-                  className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
+                  className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
                   type="button"
                   formTarget="_blank"
                   onClick={(e) => {
@@ -613,14 +613,14 @@ class  IndexPage extends Component {
             </div>
           </section>
 
-          <section className=" w-full bg-white mx-auto px-4  md:px-24  py-2 mt-6 mb-2">
+          <section className=" w-full bg-white mx-auto px-4  md:px-24  py-2 mt-6 mb-6">
             <h2 className="text-xl md:text-3xl mx-auto text-center">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
             <hr className="blue"></hr>
-            <section className='flex flex-wrap flex-column md:flex-row justify-center items-start '>
+            <section className='flex flex-wrap flex-column md:flex-row justify-center items-center '>
               <div className='w-full md:w-1/3 lg:w-1/3 miniList px-4'>
                 <LastPostList lastposts={this.props.data.lastList.edges}/>
               </div>
-              <div className='w-full md:w-1/3 lg:w-1/3 pt-8'>
+              <div className='w-full md:w-1/3 lg:w-1/3 '>
                 <div className="w-full flex flex-col items-end pt-10 bg-white   text-center text-black text-4xl century relative" >
                   <div className="w-2/3 flex flex-row justify-start mx-auto">
                     <div className="w-2/12 flex items-center">
@@ -650,7 +650,7 @@ class  IndexPage extends Component {
                   </div>
                 </div>
               </div>
-              <div className='w-full md:w-1/3 lg:w-1/3  px-4' style={{minHeight:'550px'}}>
+              <div className='w-full md:w-1/3 lg:w-1/3  px-4' style={{height:'500px'}}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: "AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ" }}
                     defaultCenter={defaultProps.center}

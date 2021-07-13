@@ -68,6 +68,12 @@
 }
 
 .miniList {
+    .postsList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:0;
+    }
     .listPosts h5 {
         font-size: 15px;
     }
