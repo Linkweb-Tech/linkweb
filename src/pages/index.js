@@ -7,6 +7,7 @@ import Modals from "../components/modals";
 import Tiles from '../components/gallery/tiles';
 import { StaticImage } from "gatsby-plugin-image";
 import bureau from "../images/bureau.jpg";
+import marker from "../images/linkweb-marker.png";
 import Accordion from "../components/accordion";
 import "../scss/heroa.scss";
 import "../scss/home1.scss";
@@ -18,12 +19,15 @@ import Hero1 from "../components/animhero1";
 import GoogleMapReact from 'google-map-react';
 
 
+
 import loadable from '@loadable/component';
 //import SimpleMap from "../components/simpleMap";
 //import Partenaires from '../components/partenaires';
 const SimpleMap = loadable(() => import('../components/simpleMap'));
 const Partenaires = loadable(() => import('../components/partenaires'));
 const LastPostList = loadable(() => import('../components/lastpostslist'));
+
+const AnyReactComponent = () => <img src={marker} />;
 
 
 
@@ -34,8 +38,8 @@ class  IndexPage extends Component {
   render() {
     const defaultProps = {
       center: {
-        lat: 10.99835602,
-        lng: 77.01502627
+        lat: 44.181558315384756,
+        lng: 0.6289081687709701
       },
       zoom: 11
     };
@@ -654,7 +658,12 @@ class  IndexPage extends Component {
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: "AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ" }}
                     defaultCenter={defaultProps.center}
-                    defaultZoom={defaultProps.zoom}/>
+                    defaultZoom={defaultProps.zoom}>
+                    <AnyReactComponent
+                        lat={44.181558315384756}
+                        lng={0.6289081687709701}
+                    />
+                </GoogleMapReact>
               </div>
             </section>
 
