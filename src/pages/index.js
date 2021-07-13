@@ -7,7 +7,7 @@ import Modals from "../components/modals";
 import Tiles from '../components/gallery/tiles';
 import { StaticImage } from "gatsby-plugin-image";
 import bureau from "../images/bureau.jpg";
-import marker from "../images/linkweb-marker.png";
+import marker from "../images/location.png";
 import Accordion from "../components/accordion";
 import "../scss/heroa.scss";
 import "../scss/home1.scss";
@@ -27,8 +27,8 @@ const SimpleMap = loadable(() => import('../components/simpleMap'));
 const Partenaires = loadable(() => import('../components/partenaires'));
 const LastPostList = loadable(() => import('../components/lastpostslist'));
 
-const AnyReactComponent = () => <img src={marker} />;
-
+const LinkwebAgen = () => <img src={marker} />;
+const LinkwebToulouse = () => <img src={marker} />;
 
 
 class  IndexPage extends Component {
@@ -38,10 +38,10 @@ class  IndexPage extends Component {
   render() {
     const defaultProps = {
       center: {
-        lat: 44.181558315384756,
-        lng: 0.6289081687709701
+        lat: 43.61008780985555,
+        lng: 1.450098076053862
       },
-      zoom: 11
+      zoom: 15
     };
     return (
 
@@ -394,8 +394,7 @@ class  IndexPage extends Component {
                     Faire appel à une <strong><Link to="agence-creation-site-web-toulouse/"
                                                     className="text-bleu font-bold hover:text-black">agence de création
                     web</Link></strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et
-                    définir une <strong>stratégie digitale</strong>.<br/><br/> En effet, il est recommandé de bénéficier d'une
-                    expertise pour poursuivre des objectifs bien précis.<br/> <br/><strong>Propulser sa communication en
+                    définir une <strong>stratégie digitale</strong>.<br/><br/><strong>Propulser sa communication en
                     ligne</strong> par <Link to="/agence-marketing-toulouse/"
                                              className="text-bleu hover:text-black font-bold">le <strong>webmarketing
                     (marketing digital)</strong></Link> peut constituer un véritable moteur pour une société. Les
@@ -464,7 +463,7 @@ class  IndexPage extends Component {
                   <div className="century content pb-6 text-left" >
                     Nos <strong>consultants en communication web</strong> définissent les contours de votre projet, du
                     choix de l'<strong>hébergement</strong> jusqu'à l’<strong>application de votre stratégie
-                    marketing</strong> à travers les différents axes définis.<br/><br/> Notre équipe est composée de spécialistes
+                    marketing</strong>.<br/><br/> Notre équipe est composée de spécialistes
                     de la <strong>conception de sites internet</strong>, de <strong>référencement naturel
                     (SEO)</strong> et <strong>Ads</strong> qui font preuve de <strong>réactivité</strong> dans le but de
                     répondre à vos attentes.
@@ -659,9 +658,13 @@ class  IndexPage extends Component {
                     bootstrapURLKeys={{ key: "AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ" }}
                     defaultCenter={defaultProps.center}
                     defaultZoom={defaultProps.zoom}>
-                    <AnyReactComponent
+{/*                    <LinkwebAgen
                         lat={44.181558315384756}
                         lng={0.6289081687709701}
+                    />*/}
+                    <LinkwebToulouse
+                        lat={43.61008780985555}
+                        lng={1.450098076053862}
                     />
                 </GoogleMapReact>
               </div>
