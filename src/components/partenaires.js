@@ -8,13 +8,13 @@ class Partenaires extends Component {
 
     render(){
         return (
-            <section className=" flex-wrap md:flex-no-wrap bg-bleu justify-space-between items-center flex w-full mx-auto px-48 py-4 my-2">
+            <section className=" md:flex-col flex-wrap md:flex-no-wrap bg-bleu justify-space-between items-center flex w-full mx-auto px-8 md:px-48 py-4 my-2">
                 <div className="w-full md:w-1/4 py-0 flex items-center justify-start">
                     <h2 /*data-aos='fade-right'*/ className="text-left text-black text-4xl century">
                         <span className="font-bold text-black text-center text-4xl century">Nos partenaires</span>
                     </h2>
                 </div>
-                  <div className="w-full md:w-3/4 py-0 flex justify-end">
+                  <div className="w-full md:w-3/4 py-0 flex flex-wrap justify-end">
                     <div className="w-1/3 md:w-1/6 my-10" /*data-aos='fade-up'*/>
                       <StaticImage
                         src="../images/peugeot.png"

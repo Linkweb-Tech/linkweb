@@ -378,7 +378,7 @@ class  IndexPage extends Component {
               savoir-faire n’est pas une compétence, il est humain</h3>
           </section>
           <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
-            <div className="w-full xl:w-1/3 one px-auto">
+            <div className="w-full xl:w-1/3 one my-12 md:my-2 px-auto">
               <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                 <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
                 <section
@@ -415,7 +415,7 @@ class  IndexPage extends Component {
                 </section>
               </div>
             </div>
-            <div className="w-full xl:w-1/3 two px-auto">
+            <div className="w-full xl:w-1/3 mt-12 md:my-2 two px-auto">
               <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                 <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
                 <section
@@ -449,7 +449,7 @@ class  IndexPage extends Component {
                 </section>
               </div>
             </div>
-            <div className="w-full xl:w-1/3 three px-auto">
+            <div className="w-full xl:w-1/3 mt-12 md:my-2 three px-auto">
               <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                 <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
                 <section
@@ -613,10 +613,10 @@ class  IndexPage extends Component {
             </div>
           </section>
 
-          <section className=" w-full bg-white mx-auto px-24  py-2 mt-6 mb-2">
+          <section className=" w-full bg-white mx-auto px-4  md:px-24  py-2 mt-6 mb-2">
             <h2 className="text-xl md:text-3xl mx-auto text-center">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
             <hr className="blue"></hr>
-            <section className='flex justify-center items-start '>
+            <section className='flex flex-wrap flex-column md:flex-row justify-center items-start '>
               <div className='w-full md:w-1/3 lg:w-1/3 miniList px-4'>
                 <LastPostList lastposts={this.props.data.lastList.edges}/>
               </div>

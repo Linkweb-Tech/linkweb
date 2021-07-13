@@ -83,9 +83,42 @@ class CarouselRea extends Component {
                 image: cdhg,
                 url: "/realisations/conseil-departemental-haute-garonne/"
             }];
+        const settings = {
+            dots            : true,
+            infinite        : true,
+            autoplay        : true,
+            speed           : 500,
+            slidesToShow    : 3,
+            slidesToScroll  : 1,
+            easing          : "ease-in-out",
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+
+        }
 
         return (
-            <Slider dots={true} infinite={true} autoplay={true} speed={500} slidesToShow={3} slidesToScroll={1} easing={"ease-in-out"}>
+            <Slider {...settings}>
                 {data.map((data) => {
                     return <img
                                     src={data.image}
