@@ -43,6 +43,11 @@ class Header extends Component {
     window.open(link, "_blank");
   }
 
+  ghostLink(greatestCaution) {
+    let link = atob(greatestCaution);
+    window.open(link, "_self");
+  }
+
   handleClick() {
     var thisComponent = this;
     if (this.state.isExpanded) {
@@ -224,15 +229,13 @@ class Header extends Component {
                   >
                     <p>Nos Réalisations</p> 
                 </Link>
-                  <Link
-                    itemProp="url"
-                    title="Demander un devis"
-                    to="/contact-agence-web-toulouse/"
+                  <span onClick={() => this.ghostLink('aHR0cHM6Ly9saW5rd2ViLmZyL2NvbnRhY3QtYWdlbmNlLXdlYi10b3Vsb3VzZS8=')}
+
                     activeClassName="active"
                     className="devis block lg:text-md xl:text-lg md:text-sm last md:inline-block mt-4 md:mt-0 rounded-lg no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
                     <p>Demander un devis</p>
-                </Link>
+                </span>
                   <Link itemProp="url"
                     title="Avis Clients"
                     to="/avis-clients/"

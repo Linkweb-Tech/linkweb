@@ -32,7 +32,7 @@ class ContactForm extends Component {
 
     handleFormSubmit (event) {
         event.preventDefault()
-        console.log(JSON.stringify(this.state.mailSent));
+        //console.log(JSON.stringify(this.state.mailSent));
         if( this.state.email == '' && this.state.nom == '' && this.state.prenom == '' && this.state.message == "") {
             store.addNotification({
                 id: "notif",
@@ -44,7 +44,7 @@ class ContactForm extends Component {
                 animationIn: ["animated", "fadeIn"],
                 animationOut: ["animated", "fadeOut"],
                 dismiss: {
-                    duration: 5000,
+                    duration: 150000,
                     onScreen: true
                 }
             });
@@ -63,7 +63,7 @@ class ContactForm extends Component {
                 if (isOK === true) {
                     this.setState({submitDisplay: "hidden"})
                     store.addNotification({
-                        id: "notif",
+                        id: "notif2",
                         title: "Votre message a bien été pris en compte!",
                         message: "Nous reviendrons vers vous d'ici les prochaines 24h",
                         type: "success",
@@ -72,7 +72,7 @@ class ContactForm extends Component {
                         animationIn: ["animated", "fadeIn"],
                         animationOut: ["animated", "fadeOut"],
                         dismiss: {
-                            duration: 5000,
+                            duration: 150000,
                             onScreen: true
                         }
                     })
@@ -119,7 +119,7 @@ class ContactForm extends Component {
                         email = 'Email ';
                     }
                     store.addNotification({
-                        id: "notif",
+                        id: "notif3",
                         title: "Certains champs sont manquants ou incomplets",
                         message: "Veuillez corriger les champs avant de valider ce formulaire : " + nom + prenom + tel + message + adresse + objet + email ,
                         type: "danger",
@@ -128,7 +128,7 @@ class ContactForm extends Component {
                         animationIn: ["animated", "fadeIn"],
                         animationOut: ["animated", "fadeOut"],
                         dismiss: {
-                            duration: 5000,
+                            duration: 150000,
                             onScreen: true
                         }
                     });
@@ -138,7 +138,7 @@ class ContactForm extends Component {
             .catch(error=>{this.setState({
                 error: error.message,
                 })
-                console.log(JSON.stringify(this.state));
+                //console.log(JSON.stringify(this.state));
             });
         }
         
