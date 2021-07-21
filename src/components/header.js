@@ -82,23 +82,23 @@ class Header extends Component {
                 <a className="text-white pt-1" href="/avis-clients/">Avis clients</a>
               </div>
               <span onClick={() => this.ghostRedirection('aHR0cHM6Ly9saW5rd2ViLmZyL2FjdHVhbGl0ZS1kaWdpdGFsZS8=')}  className="flex items-center no-underline text-white">
-                <span className="text-white century">Le Blog</span>
+                <span className="text-white cursor-pointer century">Le Blog</span>
               </span>
-              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0FnZW5jZUx3")}  className="flex items-center no-underline text-white">
+              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0FnZW5jZUx3")}  className="flex items-center cursor-pointer no-underline text-white">
                 <img
                   src={fbIcon}
                   alt="Réseaux sociaux"
                   className="w-6 fill-current"
                 />
               </span>
-             <span onClick={() => this.ghostRedirection("aHR0cHM6Ly90d2l0dGVyLmNvbS9BZ2VuY2VMaW5rd2Vi")}   className="flex items-center no-underline text-white">
+             <span onClick={() => this.ghostRedirection("aHR0cHM6Ly90d2l0dGVyLmNvbS9BZ2VuY2VMaW5rd2Vi")}   className="flex items-center cursor-pointer no-underline text-white">
                 <img
                   src={twitterIcon}
                   alt="Twitter"
                   className="w-6 fill-current"
                 />
               </span>
-              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9BZ2VuY2VMaW5rd2Vi")}  className="flex items-center no-underline text-white">
+              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9BZ2VuY2VMaW5rd2Vi")}  className="flex items-center cursor-pointer no-underline text-white">
                 <img
                   src={instaIcon}
                   alt="Instagram"
@@ -232,7 +232,7 @@ class Header extends Component {
                   <span onClick={() => this.ghostLink('aHR0cHM6Ly9saW5rd2ViLmZyL2NvbnRhY3QtYWdlbmNlLXdlYi10b3Vsb3VzZS8=')}
 
                     activeClassName="active"
-                    className="devis block lg:text-md xl:text-lg md:text-sm last md:inline-block mt-4 md:mt-0 rounded-lg no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-3 xl:px-6"
+                    className="devis block cursor-pointer lg:text-md xl:text-lg md:text-sm last md:inline-block mt-4 md:mt-0 rounded-lg no-underline text-white century bg-bleu text-white py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
                     <p>Demander un devis</p>
                 </span>

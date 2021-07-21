@@ -83,6 +83,12 @@ class Footer extends Component {
                         >
                             <span className="chevronFooter">></span> Agence Web Montpellier
                         </Link>
+                        <Link
+                            to="/agence-web-marketing-toulouse/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Toulouse
+                        </Link>
                         
                                 {/* <img
                                     src={LinkwebWhite}
