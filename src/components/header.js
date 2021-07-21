@@ -38,6 +38,11 @@ class Header extends Component {
     }
   }
 
+  ghostRedirection(greatestCaution) {
+    let link = atob(greatestCaution);
+    window.open(link, "_blank");
+  }
+
   handleClick() {
     var thisComponent = this;
     if (this.state.isExpanded) {
@@ -71,30 +76,30 @@ class Header extends Component {
                 <a href="/avis-clients/"><svg width="20px" viewBox="0 0 100 125"><g transform="translate(0,-952.36218)"><path d="m 49.9109,960.40961 a 2.0000605,2.0003396 0 0 0 -1.8194,1.38374 l -9.4199,29.1944 -30.6675999,-0.0606 A 2.0000605,2.0003396 0 0 0 6.8278,994.548 l 24.8499,17.9824 -9.5414,29.1642 a 2.0000605,2.0003396 0 0 0 3.0794,2.2378 l 24.7793,-18.0834 24.7896,18.0837 a 2.0000605,2.0003396 0 0 0 3.0791,-2.2381 l -9.5414,-29.1642 24.8499,-17.9824 a 2.0000605,2.0003396 0 0 0 -1.1762,-3.62085 l -30.6683,0.0606 -9.4301,-29.19506 a 2.0000605,2.0003396 0 0 0 -1.9867,-1.38308 z" fill-opacity="1" fill-rule="evenodd" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible" /></g></svg></a>
                 <a className="text-white pt-1" href="/avis-clients/">Avis clients</a>
               </div>
-              <Link to="/actualite-digitale/" className="flex items-center no-underline text-white">
+              <span onClick={() => this.ghostRedirection('aHR0cHM6Ly9saW5rd2ViLmZyL2FjdHVhbGl0ZS1kaWdpdGFsZS8=')}  className="flex items-center no-underline text-white">
                 <span className="text-white century">Le Blog</span>
-              </Link>
-              <a href="https://www.facebook.com/AgenceLw" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+              </span>
+              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0FnZW5jZUx3")}  className="flex items-center no-underline text-white">
                 <img
                   src={fbIcon}
                   alt="Réseaux sociaux"
                   className="w-6 fill-current"
                 />
-              </a>
-              <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+              </span>
+             <span onClick={() => this.ghostRedirection("aHR0cHM6Ly90d2l0dGVyLmNvbS9BZ2VuY2VMaW5rd2Vi")}   className="flex items-center no-underline text-white">
                 <img
                   src={twitterIcon}
                   alt="Twitter"
                   className="w-6 fill-current"
                 />
-              </a>
-              <a href="https://www.instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+              </span>
+              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9BZ2VuY2VMaW5rd2Vi")}  className="flex items-center no-underline text-white">
                 <img
                   src={instaIcon}
                   alt="Instagram"
                   className="w-6 fill-current"
                 />
-              </a>
+              </span>
               <a href="/contact-agence-web-toulouse/" className="flex items-center no-underline text-white block lg:hidden svg-white">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="23" width="24" viewBox="0 0 511.626 511.626">
                   <g>

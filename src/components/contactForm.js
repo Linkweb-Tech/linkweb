@@ -147,7 +147,7 @@ class ContactForm extends Component {
     render(){
         
         return(
-            <form onSubmit={this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto">
+            <form onSubmit={() => this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto">
 
                 <div className="w-full md:w-1/2 px-2 py-4">
                 <input 
