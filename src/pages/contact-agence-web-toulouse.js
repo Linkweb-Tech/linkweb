@@ -20,7 +20,10 @@ class ContactAgenceWebToulouse extends Component {
 
     constructor(props) {
         super(props);
+        this.myRef = React.createRef()
     }
+
+
 
     render() {
         return (
@@ -76,7 +79,7 @@ class ContactAgenceWebToulouse extends Component {
                                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                                 <div className="w-full lg:w-full flex flex-col lg:flex-row justify-center pb-24 lg:justify-center mx-auto" style={{maxWidth:'460px'}}>
                                     <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30"/>
-                                    <RoundButtonPagesMail url="/contact-agence-web-toulouse/" text="Demander un devis"/>
+                                    <RoundButtonPagesMail url="#contactForm" onClick={this.executeScroll} text="Demander un devis"/>
                                 </div>
                         </div>
                             <div className="w-full flex items-end justify-center mx-auto block pb-16">
@@ -89,12 +92,12 @@ class ContactAgenceWebToulouse extends Component {
                             <br/>
                             <hr className="border-solid w-1/6 border-white"></hr>
                             <br/>
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-center century text-black px-4 pb-0">Vous souhaitez faire appel à notre agence web à Agen et Toulouse pour réaliser un devis, envoyer votre candidature ou être contacté ? <br/>Nous vous invitons à nous contacter par le biais du formulaire ci-dessous, un spécialiste de l’agence Linkweb vous répondra dans les meilleurs délais.</h3>
+                            <h3 id="contactForm"  /*data-aos='fade-left'*/ className="text-xl text-center century text-black px-4 pb-0">Vous souhaitez faire appel à notre agence web à Agen et Toulouse pour réaliser un devis, envoyer votre candidature ou être contacté ? <br/>Nous vous invitons à nous contacter par le biais du formulaire ci-dessous, un spécialiste de l’agence Linkweb vous répondra dans les meilleurs délais.</h3>
                             <br/>
                         </section>
                     </section>
                     
-                    <ContactForm /> 
+                    <ContactForm id="contactForm" ref={this.myRef}  />
                     <section className="phototext">
                         <section className="max-w-5xl text-center w-full mx-auto px-4 pt-12 pb-0 mb-16 mt-2">
                             <h3 data-aos='fade-right' className="century text-black leading-none">
@@ -261,6 +264,7 @@ class ContactAgenceWebToulouse extends Component {
             </Layout>
         );
     }
+    executeScroll = () => this.myRef.current.scrollIntoView();
 };
 
 

@@ -21,7 +21,8 @@ class ContactForm extends Component {
             message: "",
             mailSent: false,
             error: null,
-            submitDisplay: "block"
+            submitDisplay: "block",
+            sent: ""
         }
     }
     
@@ -57,7 +58,7 @@ class ContactForm extends Component {
             })
             .then( result => {
                 this.setState({ mailSent: result.data.sent })
-                console.log(result.data)
+                console.log(result)
                 let isOK = result.data.sent
                 if (isOK === true) {
                     this.setState({submitDisplay: "hidden"})
@@ -96,25 +97,25 @@ class ContactForm extends Component {
                     let adresse = '';
                     let objet = '';
                     let email = '';
-                    if(!result.data.nameMessage == ''){
+                    if(!result.data.nameMessage === ''){
                         nom = 'Nom ';
                     }
-                    if(!result.data.prenomMessage == ''){
+                    if(!result.data.prenomMessage === ''){
                         prenom = 'Prénom ';
                     }
-                    if(!result.data.phoneMessage == ''){
+                    if(!result.data.phoneMessage === ''){
                         tel = 'Téléphone ';
                     }
-                    if(!result.data.messageMessage == ''){
+                    if(!result.data.messageMessage === ''){
                         message = 'Message ';
                     }
-                    if(!result.data.adresseMessage == ''){
+                    if(!result.data.adresseMessage === ''){
                         adresse = 'Adresse ';
                     }
-                    if(!result.data.objetMessage == ''){
+                    if(!result.data.objetMessage === ''){
                         objet = 'Objet ';
                     }
-                    if(!result.data.emailMessage == ''){
+                    if(!result.data.emailMessage === ''){
                         email = 'Email ';
                     }
                     store.addNotification({
@@ -137,7 +138,7 @@ class ContactForm extends Component {
             .catch(error=>{this.setState({
                 error: error.message,
                 })
-                //console.log(JSON.stringify(this.state));
+                console.log(JSON.stringify(this.state));
             });
         }
         
