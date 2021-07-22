@@ -212,7 +212,7 @@ class CommentChoisirSonAgenceDeCommunicationWeb extends Component {
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Il existe de nombreuses raisons de se tourner vers une agence web pour son projet. Parmi elles, le conseil et l’accompagnement du prestataire sont importants. Le support de l’<Link to="/web-agency-toulouse/" className="text-bleu hover:text-black font-bold">agence de communication</Link> vous offre l’accès à de plus grandes connaissances sur les divers aspects d’internet et du webmarketing. Il s'agit là d'un élément incontournable pour mener à bien votre plan de communication.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Il existe de nombreuses raisons de se tourner vers une agence web pour son projet. Parmi elles, le conseil et l’accompagnement du prestataire sont importants. Le support de l’agence de communication vous offre l’accès à de plus grandes connaissances sur les divers aspects d’internet et du webmarketing. Il s'agit là d'un élément incontournable pour mener à bien votre plan de communication.</h3>
                     </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-24">
