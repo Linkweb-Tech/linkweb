@@ -47,6 +47,12 @@ class Footer extends Component {
                         <div className="textwidget custom-html-widget">
                             <div className="copy text-white text-md">
                             <h3 className="century text-2xl text-white pl-4 pb-6">Nos agences link<span className="text-bleu">/</span>web</h3> 
+                        {/* <Link
+                            to="/agence-web-marketing-toulouse/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Toulouse
+                        </Link> */}
                         <Link
                             to="/agence-web-bordeaux/"
                             className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
@@ -83,12 +89,7 @@ class Footer extends Component {
                         >
                             <span className="chevronFooter">></span> Agence Web Montpellier
                         </Link>
-                        <Link
-                            to="/agence-web-marketing-toulouse/"
-                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
-                        >
-                            <span className="chevronFooter">></span> Agence Web Toulouse
-                        </Link>
+                        
                         
                                 {/* <img
                                     src={LinkwebWhite}

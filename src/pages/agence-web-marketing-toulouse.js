@@ -101,7 +101,7 @@ class AgenceWebMarketingToulouse extends Component {
                             <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Web Toulouse</h1>
                         </div>
                         <br />
-                        <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Depuis plus de 10 ans, notre agence web à Toulouse accommpagne les professionnels dans le développement de projet web : création de site internet, référencement SEO et SEA, solutions de communication.</h2>
+                        <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Depuis plus de 10 ans, notre agence web à Toulouse accompagne les professionnels dans le développement de projet web : création de site internet, référencement SEO et SEA, solutions de communication.</h2>
                         {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                         <div className="w-full lg:w-full flex flex-col lg:flex-row justify-center pb-24 lg:justify-center mx-auto" style={{ maxWidth: '460px' }}>
                             <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30" />
