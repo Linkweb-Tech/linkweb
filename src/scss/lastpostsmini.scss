@@ -36,13 +36,14 @@
     max-height:180px;
     border-radius:15px;
     transition: all ease 0.5s;
-    h5 {
-        font-size:20px;
+    .title {
+        font-size:16px;
         padding-left:5%;
         padding-right:5%;
         padding-top:4%;
         padding-bottom:1%;
     }
+    
     .imgBloc {
         min-width: 80px;
         position: relative;

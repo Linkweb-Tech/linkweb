@@ -11,7 +11,7 @@
 
     .orbs {
         margin-bottom: 0px;
-        span {
+        h1 {
             
             font-size: 110px;
             display: inline-block;
@@ -37,7 +37,7 @@
     }
 
     .bigtitle {
-        font-size: 27px;
+        font-size: 21px;
         letter-spacing: 0;
 
         @media(max-width: 768px) {

@@ -21,16 +21,16 @@ class ModalRef extends Component {
                     </div>
                     <div className="blocref w-3/4 xl:w-1/3 lg:w-1/2 px-12 pt-8 lg:pt-16 lg:my-0 -my-64 shadow-xl max-h-auto lg:mx-0 py-6 lg:py-12 xl:px-12 text-white flex flex-col justify-center bg-grey" /*data-aos="fade-left"*/ style={{backgroundColor: 'rgba(62, 62, 62, 0.95)'}}>
                         {/* <Link to={this.props.linkTitle}> */}
-                            <h2 className="century text-xl lg:text-3xl tracking-wider" /*data-aos="zoom-in"*/>
+                            <h4 className="century text-xl lg:text-3xl tracking-wider" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL
-                            </h2>
+                            </h4>
                         {/* </Link> */}
                         <br />
-                        <h4 className="century text-md tracking-wider pb-6" /*data-aos='fade-left'*/>
+                        <h5 className="century text-md tracking-wider pb-6" /*data-aos='fade-left'*/>
                             <span className="font-semibold text-justify">Le référenceur en charge de votre site web collabore avec vous chaque mois pour vous rendre compte de l’évolution du référencement de votre site internet.</span>
-                        </h4>
+                        </h5>
                         <p /*data-aos='fade-bottom'*/ className="century text-justify text-sm lg:text-md">
-                            À partir d’un <strong>audit de site</strong>, notre <strong>agence de référencement SEO</strong> élabore votre stratégie de {/*<Link className="hover:text-bleu" to={this.props.linkRefAgence}>*/}<strong>référencement site internet</strong>{/*</Link>*/} et analyse les statistiques relatives à votre site internet pour une <strong>optimisation</strong> qui vous apportera une visibilité pertinente avec les <strong>moteurs de recherche</strong> grâce au <strong>marketing digital</strong> (<strong>web marketing</strong>).
+                            À partir d’un <strong>audit de site</strong>, notre <strong>agence de référencement SEO</strong> élabore votre stratégie de {/*<Link className="hover:text-bleu" to={this.props.linkRefAgence}>*/}<strong>référencement site internet</strong>{/*</Link>*/} et analyse les statistiques relatives à votre site internet pour une <strong>optimisation</strong> qui vous apportera une visibilité pertinente avec les <strong>moteurs de recherche</strong> grâce au <strong>marketing digital</strong> (<strong>web marketing</strong>). Ceci est rendu possible grâce à la spécialisation de notre <Link to="/agence-web-lyon/" className="text-bleu hover:text-white font-bold">agence web à Lyon</Link> et dans toute la France en termes de référencement.
                                 </p>
                                 {/* <button
                                     className="link flex  mt-3 items-start justify-start text-white text-lg lg:text-xl"                    

@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {graphql, Link} from "gatsby";
 
+import ButtonBlog from "../components/buttonblog"
 import Layout from "../components/layout";
 import CarouselRea from '../components/carouselRea';
 import Modals from "../components/modals";
@@ -48,7 +49,7 @@ class  IndexPage extends Component {
 
         <Layout location="home">
           <SEO
-              title="Agence Web Toulouse, Agen - Création Site Internet - Linkweb"
+              title="Agence Linkweb - Projet web & Solution sur-mesure"
               description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
               url="https://linkweb.fr/"
           />
@@ -75,18 +76,16 @@ class  IndexPage extends Component {
 
 
           {/* List of modals (Creation de sites, Referencement, Solution, Google Ads) */}
-          <Modals/>
           <Hero1></Hero1>
           <section id="x" className=" w-full mx-auto mt-12 px-4 py-0 my-0">
             <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
               {/*<Link to="/agence-digitale-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
-              <span className="font-bold">Agence web</span> à <span className="font-bold">Toulouse</span> et <span
-                className="font-bold">Agen</span>
+              Choisissez <span className="text-bleu font-bold">la formule</span> qui vous correspond
               {/*</Link>*/}
             </h2>
             <hr className="blue"></hr>
-            <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-0">Connectez-vous
-              avec le reste du monde</h3>
+            {/*<h3 /*data-aos='fade-left' className="text-xl text-grey text-center century italic pb-0">Connectez-vous
+              avec le reste du monde</h3>*/}
           </section>
           <section className="flex flex-col lg:flex-row mx-8 lg:mx-24 my-0 items-center lg:justify-center">
             <div data-aos="fade-in"
@@ -118,8 +117,8 @@ class  IndexPage extends Component {
               </svg>
               <h3 className="text-center text-2xl text-black font-bold century">Création de site internet</h3>
               <hr className="blue"></hr>
-              <p className="text-center px-6 text-md"><strong>Site internet</strong>
-                <strong>{/*<Link className="text-bleu hover:text-black" to="/creation-site-internet-vitrine/">*/}vitrine{/*</Link>*/}</strong>, <strong>{/*<Link className="text-bleu hover:text-black" to="/creer-une-boutique-en-ligne/">*/}e-commerce{/*</Link>*/}</strong> ou <strong>administrable</strong>,
+              <p className="text-center px-6 text-md"><strong>Site internet</strong> 
+                <strong>{/*<Link className="text-bleu hover:text-black" to="/creation-site-internet-vitrine/">*/} vitrine{/*</Link>*/}</strong>, <strong>{/*<Link className="text-bleu hover:text-black" to="/creer-une-boutique-en-ligne/">*/}e-commerce{/*</Link>*/}</strong> ou <strong>administrable</strong>,
                 Linkweb <strong>crée votre site</strong> selon vos besoins.</p>
               <br/>
               <ul className="text-bold text-center py-2">
@@ -156,7 +155,7 @@ class  IndexPage extends Component {
               </ul>
               <div className="w-1/2 mx-auto block">
                 <br/>
-                <button
+                {/* <button
                     className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"
                     type="button"
                     onClick={(e) => {
@@ -164,8 +163,8 @@ class  IndexPage extends Component {
                       window.location.href = '/creation-site-internet-toulouse/';
                     }}
                 > Créer votre site
-                </button>
-                {/* <ButtonBlog url="/creation-site-internet-toulouse/" text="Créer votre site" color="darkgrey" /> */}
+                </button> */}
+                <ButtonBlog url="/creation-site-internet-toulouse/" text="Créer votre site" color="darkgrey" />
               </div>
             </div>
             <div data-aos="fade-in" data-aos-delay="300"
@@ -233,7 +232,7 @@ class  IndexPage extends Component {
               </ul>
               <div className="w-1/2 mx-auto block">
                 <br/>
-                <button
+                {/*<button
                     className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"
                     type="button"
                     onClick={(e) => {
@@ -241,8 +240,8 @@ class  IndexPage extends Component {
                       window.location.href = '/referencement-toulouse/';
                     }}
                 > Devenir visible
-                </button>
-                {/* <ButtonBlog url="/referencement-toulouse/" text="Devenir visible" color="darkgrey" /> */}
+                </button>*/}
+                 <ButtonBlog url="/referencement-toulouse/" text="Devenir visible" color="darkgrey" />
               </div>
             </div>
             <div data-aos="fade-in" data-aos-delay="700"
@@ -313,7 +312,7 @@ class  IndexPage extends Component {
               </div>
             </div>
           </section>
-
+          <Modals/>
 
           <section className="flex flex-col items-center my-24 century text-center lg:text-left" style={{
             backgroundColor: '#00000094',
@@ -325,21 +324,21 @@ class  IndexPage extends Component {
           }}>
             <div className="w-full lg:w-3/4 flex justify-around px-12 lg:px-24 mb-8 pt-24 lg:flex-row flex-col">
               <div className="max-w-3xl w-full lg:w-1/2 flex pr-0 lg:pr-32 flex-col mb-12">
-                <h3 className="text-6xl text-bleu font-bold">
+                <span className="text-6xl text-bleu font-bold">
                   +10 ans
-                </h3>
-                <h4 className="text-4xl text-white mt-0 lg:-mt-5">d'expérience</h4>
+                </span>
+                <span className="text-4xl text-white mt-0 lg:-mt-5">d'expérience</span>
 
                 <p className="text-white font-normal">
-                  Depuis 2008, notre <strong>agence à Agen</strong> et <strong>Toulouse</strong> accompagne les
+                  Depuis 2008, notre <strong><Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-white font-bold">agence web à Toulouse</Link></strong> et <strong>Agen</strong> accompagne les
                   professionnels pour développer leur <strong>visibilité sur le Web</strong>.
                 </p>
               </div>
               <div className="max-w-3xl w-full lg:w-1/2 flex flex-col pl-0 lg:pl-32">
-                <h3 className="text-6xl text-bleu font-bold">
+                <span className="text-6xl text-bleu font-bold">
                   +20
-                </h3>
-                <h4 className="text-4xl text-white mt-0 lg:-mt-5">techniciens</h4>
+                </span>
+                <span className="text-4xl text-white mt-0 lg:-mt-5">techniciens</span>
                 <p className="text-white font-normal">
                   Chaque jour, ce sont plus de 20 techniciens qui officient au sein de notre agence web pour rendre
                   nos <strong>sites performants</strong>.
@@ -348,23 +347,23 @@ class  IndexPage extends Component {
             </div>
             <div className="w-full lg:w-3/4 flex justify-around px-12 lg:px-24 pb-24 lg:flex-row flex-col">
               <div className="max-w-3xl w-full lg:w-1/2 flex pr-0 lg:pr-32 flex-col mb-12">
-                <h3 className="text-6xl text-bleu font-bold">
+                <span className="text-6xl text-bleu font-bold">
                   +300
-                </h3>
-                <h4 className="text-4xl text-white mt-0 lg:-mt-5">sites en gestion</h4>
+                </span>
+                <span className="text-4xl text-white mt-0 lg:-mt-5">sites en gestion</span>
                 <p className="text-white font-normal">
                   Notre agence <strong>crée des sites web</strong> pour des professionnels d'horizons parfois très
                   différents : TPE, PME, indépendants, etc.
                 </p>
               </div>
               <div className="max-w-3xl w-full lg:w-1/2 pl-0 lg:pl-32 flex flex-col mb-12">
-                <h3 className="text-6xl text-bleu font-bold">
+                <span className="text-6xl text-bleu font-bold">
                   4.6/5
-                </h3>
-                <h4 className="text-4xl text-white mt-0 lg:-mt-5">sur Google</h4>
+                </span>
+                <span className="text-4xl text-white mt-0 lg:-mt-5">sur Google</span>
                 <p className="text-white font-normal">
                   Nos clients sont satisfaits du travail engagé sur leur <strong>site</strong> par notre agence web.
-                  Note basée sur 111 avis.
+                  Note basée sur 117 avis.
                 </p>
               </div>
             </div>
@@ -391,13 +390,13 @@ class  IndexPage extends Component {
                     <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION
                   </h3>
                   <div className="century content pb-6 text-left">
-                    Faire appel à une <strong><Link to="agence-creation-site-web-toulouse/"
-                                                    className="text-bleu font-bold hover:text-black">agence de création
-                    web</Link></strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et
+                    Faire appel à une <strong>{/*<Link to="agence-creation-site-web-toulouse/"
+                                                    className="text-bleu font-bold hover:text-black">*/}agence de création
+                    web{/*</Link>*/}</strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et
                     définir une <strong>stratégie digitale</strong>.<br/><br/><strong>Propulser sa communication en
-                    ligne</strong> par <Link to="/agence-marketing-toulouse/"
-                                             className="text-bleu hover:text-black font-bold">le <strong>webmarketing
-                    (marketing digital)</strong></Link> peut constituer un véritable moteur pour une société. Les
+                    ligne</strong> par {/*<Link to="/agence-marketing-toulouse/"
+                                             className="text-bleu hover:text-black font-bold">*/}le <strong>webmarketing
+                    (marketing digital)</strong>{/*</Link>*/} peut constituer un véritable moteur pour une société. Les
                     agences comme Linkweb constituent un partenaire essentiel pour cela.
                   </div>
                   {/* <Button url="/blog/foire-aux-questions/" text="En savoir plus" position="center" /> */}
@@ -520,8 +519,8 @@ class  IndexPage extends Component {
             <div className="w-full md:w-3/4 py-0 flex justify-end">
               <Accordion>
                 <div className="w-full" label="UNE AUGMENTATION DE VOS CONTACTS PROSPECTS ?">
-                  <p><span className="font-bold">Vous souhaitez développer la <strong><Link
-                      to="/agence-de-communication-digitale/" className="text-bleu hover:text-black font-bold">stratégie de communication digitale</Link></strong> de votre société ? Développer la vente de vos produits ?</span><br/><br/> Le <strong>retour
+                  <p><span className="font-bold">Vous souhaitez développer la <strong>{/*<Link
+                      to="/agence-de-communication-digitale/" className="text-bleu hover:text-black font-bold">*/}stratégie de communication digitale{/*</Link>*/}</strong> de votre société ? Développer la vente de vos produits ?</span><br/><br/> Le <strong>retour
                     sur investissement</strong> fait partie des objectifs communs à tous chefs d’entreprise. Trouver de
                     nouveaux prospects potentiels nécessite de pouvoir être trouvé en ligne grâce au web marketing.
                     C'est votre présence en ligne et sur les moteurs de recherche qui permettra de propulser <strong>votre
@@ -534,7 +533,7 @@ class  IndexPage extends Component {
                       internet</strong> est un parfait outil pour <strong>dynamiser sa communication
                       d’entreprise</strong> tout en la maîtrisant. Au-delà des objectifs d'image, le site internet vous
                     permettra de gagner en visibilité pour atteindre vos cibles et obtenir des contacts qualifiés. De ce
-                    point de vue, notre <strong>agence web</strong> vous apporte toute l'expertise dont vous avez besoin
+                    point de vue, notre <strong><Link to="/agence-web-montpellier/" className="text-bleu font-bold hover:text-black">agence web à Montpellier</Link></strong> vous apporte toute l'expertise dont vous avez besoin
                     pour mener votre stratégie digitale en France. Notre méthode de travail vous permettra d'atteindre
                     vos objectifs grâce à la mise en place et la mise en application de <strong>projets en
                       ligne</strong> efficaces.<br/><br/> <span className="font-bold">En faisant le choix de <strong>nos solutions</strong>, notre <strong>agence de création</strong> vous propose, de part nos compétences en <strong>référencement et développement web</strong>, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>refonte</strong> ou de la <strong>création de votre site</strong> vitrine ou <strong>site marchand</strong>. Enfin, les agences SEO comme Linkweb sont en mesure de vous fournir une solution sur-mesure répondant aux besoins de votre société, mais aussi du marché sur lequel vous souhaitez vous inscrire.</span>
@@ -565,13 +564,13 @@ class  IndexPage extends Component {
                     pour convertir vous permettra de <span className="font-bold">développer le chiffre d’affaires de votre société</span> avec
                     un <strong>projet web</strong> marketing personnalisé.
                     <br/><br/><strong>Avoir un site</strong> professionnel est un <span className="font-bold">gage de confiance vis-à-vis de vos prospects</span> (entreprises
-                    et organismes ciblés). Faire appel à une <strong>agence de communication
-                      digitale</strong> spécialisée dans la <strong>création de site internet</strong> pour développer
+                    et organismes ciblés). Faire appel à une <strong><Link to="/agence-web-marseille/" className="text-bleu hover:text-black font-bold">agence web comme Linkweb à Marseille</Link>,
+                      </strong> spécialisée dans la <strong>création de site internet</strong> pour développer
                     un outil rentable est conseillé : ce choix vous permettra d'accéder à <span className="font-bold">une solution construite à partir de vos besoins, mais aussi en corrélation avec ceux de vos prospects pour des stratégies <strong>digitales</strong> optimales.</span> Les
                     agences comme Linkweb en France établissent un projet pour vous permettre d'obtenir un retour sur
                     investissement grâce au marketing digital.</p>
                 </div>
-                <div label="LA CRÉATION DE VOTRE IMAGE DE MARQUE ?">
+                {/*<div label="LA CRÉATION DE VOTRE IMAGE DE MARQUE ?">
                   <p>Linkweb fait partie des <strong>agences en France</strong> qui définissent des <span
                       className="font-bold">stratégies en parfait accord avec les projets des professionnels</span>.
                     Nous mettons le <strong>digital au coeur de votre stratégie</strong> pour vous permettre de
@@ -589,7 +588,7 @@ class  IndexPage extends Component {
                         className="font-bold">conduire vos projets jusqu'au succès</span>, que ce soit en termes
                     d’<strong>image</strong>, de <strong>visibilité</strong>, mais également
                     de <strong>conversion</strong>.</p>
-                </div>
+                    </div>*/}
               </Accordion>
             </div>
           </section>
@@ -616,8 +615,8 @@ class  IndexPage extends Component {
             </div>
           </section>
 
-          <section className=" w-full bg-white mx-auto px-4  md:px-24  py-2 mt-6 mb-6">
-            <h2 className="text-xl md:text-3xl mx-auto text-center">Agence Web à <span className="font-bold">Toulouse</span> et <span className="font-bold">Agen</span></h2>
+          <section className=" w-full bg-white mx-auto century px-4  md:px-24  py-2 mt-6 mb-6">
+            <h2 className="text-xl md:text-4xl mx-auto  text-center">Vous souhaitez nous contacter ?</h2>
             <hr className="blue"></hr>
             <section className='flex flex-wrap flex-column md:flex-row justify-center items-center '>
               <div className='w-full md:w-1/3 lg:w-1/3 miniList px-4'>

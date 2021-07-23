@@ -19,16 +19,16 @@ class ModalAds extends Component {
                     </div>
                     <div className="blocref w-3/4 xl:w-1/3 px-12 pt-8 lg:pt-16 lg:mt-0 -mt-64 lg:my-0 order-last lg:order-first shadow-xl max-h-auto mx-10 lg:mx-0 py-6 lg:py-12 xl:px-12 text-white bg-grey flex flex-col justify-center" /*data-aos="fade-right"*/ style={{backgroundColor: 'rgba(62, 62, 62, 0.95)'}}>
                         {/* <Link to={this.props.linkTitle}> */}
-                            <h2 className="century text-xl lg:text-4xl tracking-wider" /*data-aos="zoom-in"*/>
+                            <h4 className="century text-xl lg:text-4xl tracking-wider" /*data-aos="zoom-in"*/>
                                 <span className="text-bleu">/</span> RÉFÉRENCEMENT ADWORDS
-                            </h2>
+                            </h4>
                         {/* </Link> */}
                         <br />
-                        <h4 className="century text-lg tracking-wider pb-6" /*data-aos='fade-left'*/>
+                        <h5 className="century text-lg tracking-wider pb-6" /*data-aos='fade-left'*/>
                             <span className="font-semibold text-justify">Nous optimisons le choix des mots-clés et la configuration de votre plan publicitaire pour respecter votre budget et maximiser vos conversions.</span>
-                        </h4>
+                        </h5>
                         <p /*data-aos='fade-bottom'*/ className="century text-justify text-sm lg:text-lg">
-                            En tant qu'<strong className="font-normal">agence digitale</strong> de <strong className="font-normal">conseil en stratégie</strong>, nous créons votre <strong>campagne publicitaire Adwords</strong> en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant avec <strong>Google Adwords</strong>.
+                            En tant qu'<strong className="font-normal"><Link to="/agence-web-nice/" className="text-bleu hover:text-white font-bold">agence web à Nice</Link></strong> spécialisée en <strong className="font-normal">conseil en stratégie</strong>, nous créons votre <strong><Link to="/agence-adwords-47-31/" className="text-bleu hover:text-white font-bold">campagne publicitaire Adwords</Link></strong> en prenant en compte vos objectifs de visibilité et vos attentes de retours concrets en termes de référencement payant avec <strong>Google Adwords</strong> dans tout le Sud de la France.
                               <br />
                             {/* <Button url={this.props.linkAds} color="white" text="En savoir plus sur les campagnes Adwords SEA" position="start" /> */}
                             {/* <button

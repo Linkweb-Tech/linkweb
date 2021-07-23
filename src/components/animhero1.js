@@ -150,7 +150,7 @@ class Hero1 extends Component {
                     <img  src={googlePartner} alt="Référencement Toulouse" style={{ width: '200px' }} />
                 </div>
                 <div className=" flex flex-col items-center " /*data-aos="fade-in" data-aos-delay="2200"*/>
-                    <h3 className=" text-3xl text-center font-bold text-white century">4.6/5</h3>
+                    <span className=" text-3xl text-center font-bold text-white century">4.6/5</span>
                     <p className=" text-sm text-center font-bold text-white century -mt-2">Avis Google</p>
                     <div className=" -mt-8">
                         <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
@@ -165,16 +165,17 @@ class Hero1 extends Component {
                 </section>
                 
                 <div className="orbs flex flex-1 justify-center lg:justify-start" /*pose={this.state.isOpen ? 'open' : 'closed'}*/> 
-                    <span className="top text-white century" >l</span> 
-                    <span className="top text-white century" >i</span> 
-                    <span className="top text-white century" >n</span> 
-                    <span className="top text-white century" >k</span> 
+                    {/*<span className="top text-white century" >l</span>
+                    <span className="top text-white century" >i</span>
+                    <span className="top text-white century" >n</span>
+                    <span className="top text-white century" >k</span>
                     <span className="blue text-bleu" >/</span> 
-                    <span className="top text-white century" >w</span> 
-                    <span className="top text-white century" >e</span> 
-                    <span className="top text-white century" >b</span> 
+                    <span className="top text-white century" >w</span>
+                    <span className="top text-white century" >e</span>
+                    <span className="top text-white century" >b</span>*/}
+                    <h1 className="top text-white century mb-4">link<span className="text-bleu">/</span>web</h1>
                 </div>
-                <h1 className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 uppercase -mt-12" /*pose={this.state.isOpen ? 'open' : 'closed'}*/>Agence web Toulouse <span className="text-bleu">/</span> Agen</h1>
+                <span className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 -mt-12" /*pose={this.state.isOpen ? 'open' : 'closed'}*/>Connectez-vous avec le reste du monde</span>
                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                 <div className="w-full lg:w-2/3 lg:mx-0 flex flex-col md:flex-row justify-center lg:justify-start" /*data-aos="fade-in"*/>
                     <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>
