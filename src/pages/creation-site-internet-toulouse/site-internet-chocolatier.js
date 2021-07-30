@@ -273,7 +273,7 @@ class SiteInternetChocolatier extends Component {
                             <a href="http://glacier-lecoconuts.fr/" target="_blank" rel="noreferrer noopener"><h4 className="font-bold text-white hover:text-bleu">Glacier Le Coconuts</h4></a>
                         </div>
                         <div className="w-full lg:w-1/3 mx-0 lg:mx-4 mt-8 py-24" style={{ background: '#00000085 url(' + realisation3 + ')', backgroundBlendMode: 'overlay', backgroundPosition: 'center', backgroundSize: 'cover' }}>
-                            <a href="http://boulangerie-patisserie-du-mayne.fr/" target="_blank" rel="noreferrer noopener"><h4 className="font-bold text-white hover:text-bleu">Boulangerie du Mayne</h4></a>
+                            {/* <a href="http://boulangerie-patisserie-du-mayne.fr/" target="_blank" rel="noreferrer noopener"> */}<h4 className="font-bold text-white">Boulangerie du Mayne</h4>{/*</a>*/}
                         </div>
 
                     </div>
