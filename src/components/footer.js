@@ -41,7 +41,9 @@ class Footer extends Component {
         };
 
         return (
-            <footer className="bg-darkgrey w-full flex items-center relative z-30 ">
+            
+            <footer className="bg-darkgrey w-full flex flex-col items-center relative z-30 ">
+                <section className="bg-darkgrey w-full flex items-center relative z-30 ">
                 <section className="w-full  lg:w-9/12 flex justify-start mx-auto py-6 md:px-8 text-sm flex-col-reverse md:flex-row">
                     <section className="w-full md:w-1/2 lg:w-1/4 px-4 py-6 md:px-8" >
                         <div className="textwidget custom-html-widget">
@@ -52,6 +54,12 @@ class Footer extends Component {
                             className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
                         >
                             <span className="chevronFooter">></span> Agence Web Toulouse
+                        </Link>
+                        <Link
+                            to="/agence-web-agen/"
+                            className="block mt-4 md:mt-0  no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Agence Web Agen
                         </Link>
                         <Link
                             to="/agence-web-bordeaux/"
@@ -97,11 +105,6 @@ class Footer extends Component {
                                     width="150px"
                                     className="my-3 ml-4"
                                 /> */}
-                                <div className="mt-8">
-                                <p className="ml-4"> © 2020 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
-                                <a className="ml-4 text-xs" title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</a>
-                                </div>
-                                <br />
                                 {/* <h3 className="century text-2xl text-white pl-4 pt-6">Certifications</h3> */}
                                 <br />
                                 {/* <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"><img src={Datadock} width="200px" alt="Formation SEO Toulouse" /></a> */}
@@ -265,7 +268,12 @@ class Footer extends Component {
                         </div>
                     </section>
                 </section>
-
+                </section>
+                <div className="text-white century mx-auto">
+                    <p className="ml-4"> © 2021 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
+                    <span className="ml-4 text-xs" title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</span>
+                </div>
+                <br />
                 {/* <ClientZendesk zendeskKey={ZENDESK_KEY} {...setting} onLoaded={() => console.log('is loaded')} /> */}
             </footer>
         );

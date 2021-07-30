@@ -340,7 +340,7 @@ class  IndexPage extends Component {
                 </span>
                 <span className="text-4xl text-white mt-0 lg:-mt-5">techniciens</span>
                 <p className="text-white font-normal">
-                  Chaque jour, ce sont plus de 20 techniciens qui officient au sein de notre agence web pour rendre
+                  Chaque jour, ce sont plus de 20 techniciens qui officient au sein de notre <Link to="/agence-web-agen/" className="text-bleu hover:text-white font-bold">agence web à Agen</Link> pour rendre
                   nos <strong>sites performants</strong>.
                 </p>
               </div>
