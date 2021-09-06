@@ -263,7 +263,7 @@ class FormationDatadock extends Component {
                 <section className="w-full flex my-12 flex-col items-center lg:flex-row text-white bg-darkgrey century text-center mx-auto lg:text-justify px-16 xl:px-48 py-16">
                     <div className="w-full lg:w-8/12 text-2xl">
                         <h3 className="font-bold">Découvrez le programme complet de notre formation en référencement naturel</h3>
-                        <h4>Passez au niveau supérieur avec notre formation SEO accessible à tous : débutant ou confirmé.</h4>
+                        <h4>Passez au niveau supérieur en SEO que vous soyiez débutant ou confirmé. <br/>Téléchargez notre programme.</h4>
                     </div>
                     <div className="w-full mx-auto block lg:w-3/12">
                         {/*<ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>*/}
