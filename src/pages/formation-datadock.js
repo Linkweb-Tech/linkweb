@@ -267,7 +267,7 @@ class FormationDatadock extends Component {
                     </div>
                     <div className="w-full mx-auto block lg:w-3/12">
                         {/*<ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>*/}
-                        <a href="/static/programme-formation-referencement-naturel.pdf" target="_blank" rel="noopener noreferer" className='font-light roundedButton bg-bleu text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12'>TÉLÉCHARGER LE PROGRAMME</a>
+                        <a href="/programme-formation-referencement-naturel.pdf" target="_blank" rel="noopener noreferer" className='font-light roundedButton bg-bleu text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12'>TÉLÉCHARGER LE PROGRAMME</a>
                     </div>
                 </section>
                 <section className="flex w-full flex-col mx-auto px-0 py-2 my-2">
