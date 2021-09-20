@@ -1,6 +1,7 @@
 .mainNav {
     position: absolute;
     transition: all ease 1s;
+    
 
     &.home {
         .menu {
@@ -15,6 +16,8 @@
         position: fixed;
         background-color: #ffffff;
         transition: color ease 1s;
+       
+    
 
         .menu {
 

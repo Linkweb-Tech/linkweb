@@ -9,6 +9,7 @@ import Tiles from '../components/gallery/tiles';
 import { StaticImage } from "gatsby-plugin-image";
 import bureau from "../images/bureau.jpg";
 import marker from "../images/location.png";
+import accompagnement from "../images/agence-web-marketing-toulouse.jpg";
 import Accordion from "../components/accordion";
 import "../scss/heroa.scss";
 import "../scss/home1.scss";
@@ -379,6 +380,28 @@ class  IndexPage extends Component {
             <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-2">Notre
               savoir-faire n’est pas une compétence, il est humain.</h3>
           </section>
+          <section className="bloctextimg w-full md:w-10/12 mx-auto lg:block lg:mx-auto xl:w-full flex flex-col lg:flex-row justify-center mt-10 mb-16">
+                    <div className="w-full image lg:w-1/2 xl:w-2/5 lg:absolute flex justify-center lg:mt-64 xl:mt-24 pr-0 md:pr-16 lg:justify-center lg:items-center">
+                        <img src={accompagnement} alt="Agence Web Toulouse" style={{ maxHeight: '450px' }} />
+                    </div>
+                    <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-2/5 md:p-20 lg:pl-32 p-10 lg:py-10 text-black xl:text-md" style={{ backgroundColor: '#d3d3d352' }}>
+                        <h4 className="century text-lg"><span className="font-bold">Nos spécialistes s'attachent à développer une collaboration de qualité pour un projet qui vous ressemble grâce nos services professionnels.</span></h4>
+                        <br />
+                        <p className="font-normal" style={{fontSize:'16px'}}>
+                            Notre <strong className="font-normal">agence web toulousaine</strong> met tout en oeuvre pour vous accompagner dans le choix des <strong className="font-normal">stratégies web</strong> les plus pertinentes pour vous. Nous veillons à entretenir une relation régulière avec vous pour déterminer vos priorités ainsi que les nouvelles perspectives de <strong className="font-normal">développement</strong>. Le webmarketing est une discipline en perpétuel mouvement. C'est pourquoi, nos <strong className="font-normal">experts</strong> font le maximum pour vous développer une solution optimale et durable dans le temps.<br />
+                            <br />
+                                Les professionnels de Linkweb, <strong className="font-normal">agence web à Agen et Toulouse</strong>, vous accompagnent pour définir votre clientèle cible ainsi que des objectifs réalistes grâce à l'expertise de nos consultants à Toulouse. Nous possédons tous les <strong className="font-normal">outils professionnels</strong> pour mener à bien une stratégie qui répond à vos attentes. En étudiant le <strong className="font-normal">comportement des utilisateurs sur votre site</strong>, nous sommes en mesure d'identifier les actions à mettre en oeuvre pour atteindre les objectifs fixés pour votre <strong className="font-normal">entreprise</strong> dans toute la France.<br />
+                            <br />
+                                Notre objectif consiste à <strong className="font-normal">développer votre présence sur Internet</strong> en vue de tirer un profit maximal à partir de l'ensemble des opportunités qui pourront s'offrir à vous par le biais du <strong className="font-normal">web marketing</strong> : <strong className="font-normal">visibilité</strong>, <strong className="font-normal">notoriété</strong>, <strong className="font-normal">réputation</strong>, <strong className="font-normal">vente en ligne</strong> et prises de contact.<br />
+                        </p>
+                    </div>
+
+                    <br />
+                </section>
+                <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
+                  Développer votre solution web en <span className="font-bold text-bleu">partenariat</span> avec notre agence
+                </h2>
+                <hr className="blue"></hr>
           <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
             <div className="w-full xl:w-1/3 one my-12 md:my-2 px-auto">
               <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
@@ -494,7 +517,7 @@ class  IndexPage extends Component {
           <section className="w-full mx-auto px-4 py-4 xl:px-48 mt-24 mb-0">
             <h2 /*data-aos='fade-right'*/ className="text-left text-black text-4xl century">
               <span
-                className="font-bold text-black text-left text-4xl century">Un échantillon de <span className="text-bleu">nos réalisations</span></span>
+                className="font-bold text-black text-left text-4xl century">Un échantillon de <span className="text-bleu font-bold">nos réalisations</span></span>
             </h2>
             <hr className="blue left"></hr>
             <br/>
@@ -507,7 +530,7 @@ class  IndexPage extends Component {
             <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
               {/*<Link to="/creation-site-internet-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
               {/*</Link>*/}
-              <span className="font-bold text-center text-black text-4xl"> Vous avez un besoin ?</span>
+              <span className="text-center text-black text-4xl"> Vous avez un besoin ?</span>
 
             </h2>
             <hr className="blue"></hr>

@@ -11,7 +11,7 @@ class Partenaires extends Component {
             <section className=" md:flex-col flex-row flex-wrap  bg-bleu justify-space-between items-center flex w-full mx-auto px-8 md:px-48 py-4 my-2">
                 <div className="w-full py-0 flex items-center justify-center">
                 <h2 /*data-aos='fade-right'*/ className="text-left text-black text-4xl century">
-                        <span className="font-bold text-black text-center text-4xl century">Nos partenaires font confiance <br/>à notre agence web toulousaine</span>
+                        <span className="font-bold text-black text-center text-4xl century">Ils font confiance à notre agence web toulousaine</span>
                     </h2>
                 </div>
                 <div className="w-full md:w-1/4 mt-4 py-0 flex items-center justify-start">
