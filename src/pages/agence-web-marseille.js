@@ -98,7 +98,7 @@ class AgenceWebMarseille extends Component {
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Notre équipe d’experts du digital vous accompagne pour mettre en application des solutions web appropriées. Avec Linkweb, <a href="/agence-web-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</a>, bénéficiez d’une création de site basée sur l'ergonomie et la performance avec des services de référencement pertinents.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Notre équipe d’experts du digital vous accompagne pour mettre en application des solutions web appropriées. Avec Linkweb, <a href="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</a>, bénéficiez d’une création de site basée sur l'ergonomie et la performance avec des services de référencement pertinents.</h3>
                     </div>
                 </section>
                 <section className="w-full my-10 flex flex-col lg:flex-row">

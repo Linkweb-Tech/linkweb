@@ -164,16 +164,16 @@ class Header extends Component {
             >
               <div className="text-xs pr-0 menu flex flex-col md:flex-row md:pr-5">
                 <nav itemProp="WebPageElement" itemScope="itemscope" itemType="http://schema.org/SiteNavigationElement">
-                  {/*<Link
+                  <Link
                   itemProp="url"
                   title="Accueil"
                   to="/"
                   activeClassName="active"
                   className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0 no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                 >
-                  Accueil
+                  Agence Web
                 </Link>
-                */}
+                
                   <Link
                     itemProp="url"
                     title="Création de site internet"
@@ -209,7 +209,7 @@ class Header extends Component {
                     activeClassName="active"
                     className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    <p>Nos Formations</p> 
+                    <p>Formations</p> 
                 </Link>
                   {/* <Link
                     itemProp="url"
@@ -222,12 +222,12 @@ class Header extends Component {
                 </Link> */}
                   <Link
                     itemProp="url"
-                    title="Nos Réalisations"
+                    title="Réalisations"
                     to="/agence-de-communication-agen-47-toulouse-31/"
                     activeClassName="active"
                     className="block lg:text-md md:text-sm xl:text-lg  hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >
-                    <p>Nos Réalisations</p> 
+                    <p>Réalisations</p> 
                 </Link>
                   <span onClick={() => this.ghostLink('aHR0cHM6Ly9saW5rd2ViLmZyL2NvbnRhY3QtYWdlbmNlLXdlYi10b3Vsb3VzZS8=')}
 

@@ -173,9 +173,9 @@ class Hero1 extends Component {
                     <span className="top text-white century" >w</span>
                     <span className="top text-white century" >e</span>
                     <span className="top text-white century" >b</span>*/}
-                    <h1 className="top text-white century mb-4">link<span className="text-bleu">/</span>web</h1>
+                    <span className="top text-white century mb-4">link<span className="text-bleu">/</span>web</span>
                 </div>
-                <span className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 -mt-12" /*pose={this.state.isOpen ? 'open' : 'closed'}*/>Connectez-vous avec le reste du monde</span>
+                <h1 className="flex flex-1 bigtitle text-white justify-center lg:justify-start century text-center p-2 -mt-12" /*pose={this.state.isOpen ? 'open' : 'closed'}*/>AGENCE WEB TOULOUSE <span className="text-bleu">/</span>AGEN</h1>
                 {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                 <div className="w-full lg:w-2/3 lg:mx-0 flex flex-col md:flex-row justify-center lg:justify-start" /*data-aos="fade-in"*/>
                     <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>

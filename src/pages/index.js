@@ -49,7 +49,7 @@ class  IndexPage extends Component {
 
         <Layout location="home">
           <SEO
-              title="Agence Linkweb - Projet web & Solution sur-mesure"
+              title="Agence Web Toulouse - Projet web & Solution sur-mesure"
               description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
               url="https://linkweb.fr/"
           />
@@ -330,7 +330,7 @@ class  IndexPage extends Component {
                 <span className="text-4xl text-white mt-0 lg:-mt-5">d'expérience</span>
 
                 <p className="text-white font-normal">
-                  Depuis 2008, notre <strong><Link to="/agence-web-marketing-toulouse/" className="text-bleu hover:text-white font-bold">agence web à Toulouse</Link></strong> et <strong>Agen</strong> accompagne les
+                  Depuis 2008, notre <strong>agence web à Toulouse</strong> et <strong>Agen</strong> accompagne les
                   professionnels pour développer leur <strong>visibilité sur le Web</strong>.
                 </p>
               </div>
@@ -373,12 +373,11 @@ class  IndexPage extends Component {
           </section>
           <section className=" w-full mx-auto px-4 py-0 my-0">
             <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-              Conduire son <span className="font-bold">projet professionnel</span> avec <span
-                className="font-bold">Linkweb</span>
+              Conduire votre <span className="font-bold text-bleu">projet professionnel</span> avec notre agence web à Toulouse
             </h2>
             <hr className="blue"></hr>
             <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-2">Notre
-              savoir-faire n’est pas une compétence, il est humain</h3>
+              savoir-faire n’est pas une compétence, il est humain.</h3>
           </section>
           <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
             <div className="w-full xl:w-1/3 one my-12 md:my-2 px-auto">
@@ -423,7 +422,7 @@ class  IndexPage extends Component {
                 <section
                     className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                   <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                    <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ POUR DÉFINIR MA SOLUTION
+                    <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ PAR UNE AGENCE WEB POUR DÉFINIR MA SOLUTION
                   </h3>
                   <div className="century content pb-6 text-left">
                     <strong>Être visible</strong>, booster sa <strong>notoriété</strong> ou bien
@@ -494,8 +493,8 @@ class  IndexPage extends Component {
 
           <section className="w-full mx-auto px-4 py-4 xl:px-48 mt-24 mb-0">
             <h2 /*data-aos='fade-right'*/ className="text-left text-black text-4xl century">
-              Création Site internet : <span
-                className="font-bold text-black text-left text-4xl century">Un échantillon de nos réalisations</span>
+              <span
+                className="font-bold text-black text-left text-4xl century">Un échantillon de <span className="text-bleu">nos réalisations</span></span>
             </h2>
             <hr className="blue left"></hr>
             <br/>
@@ -507,7 +506,7 @@ class  IndexPage extends Component {
           <section className=" century w-full mx-auto mt-12 lg:mt-24 px-4 py-0 pt-12 lg:pt-6 my-0">
             <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
               {/*<Link to="/creation-site-internet-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
-              Création de site internet :{/*</Link>*/}
+              {/*</Link>*/}
               <span className="font-bold text-center text-black text-4xl"> Vous avez un besoin ?</span>
 
             </h2>
@@ -519,8 +518,8 @@ class  IndexPage extends Component {
             <div className="w-full md:w-3/4 py-0 flex justify-end">
               <Accordion>
                 <div className="w-full" label="UNE AUGMENTATION DE VOS CONTACTS PROSPECTS ?">
-                  <p><span className="font-bold">Vous souhaitez développer la <strong>{/*<Link
-                      to="/agence-de-communication-digitale/" className="text-bleu hover:text-black font-bold">*/}stratégie de communication digitale{/*</Link>*/}</strong> de votre société ? Développer la vente de vos produits ?</span><br/><br/> Le <strong>retour
+                  <p><span className="font-bold">Vous souhaitez développer la <strong><Link
+                      to="/agence-de-communication-digitale/" className="text-bleu hover:text-black font-bold">stratégie de communication digitale</Link></strong> de votre société ? Développer la vente de vos produits ?</span><br/><br/> Le <strong>retour
                     sur investissement</strong> fait partie des objectifs communs à tous chefs d’entreprise. Trouver de
                     nouveaux prospects potentiels nécessite de pouvoir être trouvé en ligne grâce au web marketing.
                     C'est votre présence en ligne et sur les moteurs de recherche qui permettra de propulser <strong>votre
@@ -536,14 +535,14 @@ class  IndexPage extends Component {
                     point de vue, notre <strong><Link to="/agence-web-montpellier/" className="text-bleu font-bold hover:text-black">agence web à Montpellier</Link></strong> vous apporte toute l'expertise dont vous avez besoin
                     pour mener votre stratégie digitale en France. Notre méthode de travail vous permettra d'atteindre
                     vos objectifs grâce à la mise en place et la mise en application de <strong>projets en
-                      ligne</strong> efficaces.<br/><br/> <span className="font-bold">En faisant le choix de <strong>nos solutions</strong>, notre <strong>agence de création</strong> vous propose, de part nos compétences en <strong>référencement et développement web</strong>, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>refonte</strong> ou de la <strong>création de votre site</strong> vitrine ou <strong>site marchand</strong>. Enfin, les agences SEO comme Linkweb sont en mesure de vous fournir une solution sur-mesure répondant aux besoins de votre société, mais aussi du marché sur lequel vous souhaitez vous inscrire.</span>
+                      ligne</strong> efficaces.<br/><br/> <span className="font-bold">En faisant le choix de <strong>nos solutions</strong>, notre <strong><Link to="/agence-creation-site-web-toulouse/" className="text-bleu font-bold hover:text-black">agence de création de sites web</Link></strong> vous propose, de part nos compétences en <strong>référencement et développement web</strong>, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>refonte</strong> ou de la <strong>création de votre site</strong> vitrine ou <strong>site marchand</strong>. Enfin, les agences SEO comme Linkweb sont en mesure de vous fournir une solution sur-mesure répondant aux besoins de votre société, mais aussi du marché sur lequel vous souhaitez vous inscrire.</span>
                   </p>
                 </div>
                 <div label="UNE PRÉSENCE EN PREMIÈRE PAGE DE RÉSULTATS DES MOTEURS ?">
                   <p>Pour atteindre la <span className="font-bold">meilleure visibilité possible</span>, nous accordons
                     une importance toute particulière la <strong>qualité de vos contenus</strong> et de chaque média
                     présents sur votre site. <strong>Être visible</strong> ne se limite pas uniquement compte du critère
-                    quantitatif. Pour les agences comme Linkweb, il s'agit de vous rendre accessible auprès <span
+                    quantitatif. Pour les <Link to="/agence-marketing-toulouse/" className="text-bleu font-bold hover:text-black">agences de marketing à Toulouse</Link> comme Linkweb, il s'agit de vous rendre accessible auprès <span
                         className="font-bold">d'<strong>utilisateurs qualifiés</strong> qui seront plus à même de répondre à vos attentes</span>. <br/><br/>Dès
                     la <strong>conception du site</strong>, nous élaborons une <strong>stratégie de référencement
                       naturel SEO</strong> qui, grâce au travail de nos référenceurs certifiés Google, répondra
@@ -570,7 +569,7 @@ class  IndexPage extends Component {
                     agences comme Linkweb en France établissent un projet pour vous permettre d'obtenir un retour sur
                     investissement grâce au marketing digital.</p>
                 </div>
-                {/*<div label="LA CRÉATION DE VOTRE IMAGE DE MARQUE ?">
+                <div label="LA CRÉATION DE VOTRE IMAGE DE MARQUE ?">
                   <p>Linkweb fait partie des <strong>agences en France</strong> qui définissent des <span
                       className="font-bold">stratégies en parfait accord avec les projets des professionnels</span>.
                     Nous mettons le <strong>digital au coeur de votre stratégie</strong> pour vous permettre de
@@ -588,7 +587,7 @@ class  IndexPage extends Component {
                         className="font-bold">conduire vos projets jusqu'au succès</span>, que ce soit en termes
                     d’<strong>image</strong>, de <strong>visibilité</strong>, mais également
                     de <strong>conversion</strong>.</p>
-                    </div>*/}
+                    </div>
               </Accordion>
             </div>
           </section>

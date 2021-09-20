@@ -130,7 +130,7 @@ class AgenceWebAgen extends Component {
                     <section className="max-w-5xl w-full mx-auto px-4 text-lg pb-0 my-2">
                         <div className="w-full" /*data-aos='zoom-in'*/>
                             <p className="text-md text-center py-12 century">
-                                Vous êtes un organisme public ou privé à la recherche d’une <strong><a href="/agence-web-marketing-toulouse/" className="text-bleu hover:text-white font-bold">agence web à Toulouse</a> ou Agen</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vous proposer une solution taillée pour vous.</p>
+                                Vous êtes un organisme public ou privé à la recherche d’une <strong><a href="/" className="text-bleu hover:text-white font-bold">agence web à Toulouse</a> ou Agen</strong> pour la mise en place d’une stratégie digitale ? <strong>Linkweb</strong> est à l’écoute de vos besoins pour vous proposer une solution taillée pour vous.</p>
                         </div>
                     </section>
                     <section className="flex flex-col lg:flex-row mt-8 mb-12 my-8 px-4 lg:my-5 lg:px-24">

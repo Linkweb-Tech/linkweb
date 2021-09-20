@@ -89,7 +89,7 @@ class AgenceCreaSiteWeb extends Component {
                 <section className="w-full lg:w-3/5 px-10 mt-16 lg:-mt-48 mb-16 lg:mb-48">
                     <br />
                     <h3 className="century text-xl text-center">
-                        Bénéficier d’un accompagnement professionnel pour le développement de son projet en ligne avec une <a href="/agence-web-marketing-toulouse/" className="text-bleu font-bold hover:text-black">agence web à Toulouse</a> : de son design jusqu’à sa stratégie marketing.
+                        Bénéficier d’un accompagnement professionnel pour le développement de son projet en ligne avec une <a href="/" className="text-bleu font-bold hover:text-black">agence web à Toulouse</a> : de son design jusqu’à sa stratégie marketing.
                     </h3>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">

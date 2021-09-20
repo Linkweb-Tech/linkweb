@@ -122,7 +122,7 @@ class Footer extends Component {
                         </Link>
 
                         <Link
-                            to="/creation-site-internet-toulouse/"
+                            to="/"
                             className="block md:inline-block mt-2 md:mt-0  no-underline text-white century py-2 px-4"
                         >
                             <span className="chevronFooter">></span> Création Site Internet à Toulouse

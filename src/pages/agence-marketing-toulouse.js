@@ -98,7 +98,7 @@ class AgenceMarketingToulouse extends Component {
           <div className="line-title my-4">
             <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
             <br />
-            <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Notre rôle, en tant qu’<a href="/agence-web-marketing-toulouse/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</a>, consiste à mettre en place une stratégie de webmarketing parfaitement adaptée en fonction de vos attentes et de vos besoins.</h3>
+            <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Notre rôle, en tant qu’<a href="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</a>, consiste à mettre en place une stratégie de webmarketing parfaitement adaptée en fonction de vos attentes et de vos besoins.</h3>
           </div>
         </section>
         <section className="flex flex-col lg:flex-row mx-8 lg:mx-24 my-0 items-center lg:justify-center">
