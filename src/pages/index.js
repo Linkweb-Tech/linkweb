@@ -145,7 +145,7 @@ class  IndexPage extends Component {
                 </li>
                 <li className="py-2 flex flex-row justify-center">
                   <div className="w-3/12 text-center text-bleu">✔</div>
-                  <div className="w-9/12 text-left">Mise à jour technique</div>
+                  <div className="w-9/12 text-left">Maintenance technique</div>
                 </li>
                 <li className="py-2 flex flex-row justify-center">
                   <div className="w-3/12 text-center font-extrabold text-bleu">+</div>
@@ -556,7 +556,7 @@ class  IndexPage extends Component {
                       d’entreprise</strong> tout en la maîtrisant. Au-delà des objectifs d'image, le site internet vous
                     permettra de gagner en visibilité pour atteindre vos cibles et obtenir des contacts qualifiés. De ce
                     point de vue, notre <strong><Link to="/agence-web-montpellier/" className="text-bleu font-bold hover:text-black">agence web à Montpellier</Link></strong> vous apporte toute l'expertise dont vous avez besoin
-                    pour mener votre stratégie digitale en France. Notre méthode de travail vous permettra d'atteindre
+                    pour mener votre stratégie digitale en France. La méthode de travail de nos professionnels (webmaster, consultant, développeur, etc.) vous permettra d'atteindre
                     vos objectifs grâce à la mise en place et la mise en application de <strong>projets en
                       ligne</strong> efficaces.<br/><br/> <span className="font-bold">En faisant le choix de <strong>nos solutions</strong>, notre <strong><Link to="/agence-creation-site-web-toulouse/" className="text-bleu font-bold hover:text-black">agence de création de sites web</Link></strong> vous propose, de part nos compétences en <strong>référencement et développement web</strong>, un <strong>conseil en communication</strong> afin de parvenir aux objectifs fixés lors de la <strong>refonte</strong> ou de la <strong>création de votre site</strong> vitrine ou <strong>site marchand</strong>. Enfin, les agences SEO comme Linkweb sont en mesure de vous fournir une solution sur-mesure répondant aux besoins de votre société, mais aussi du marché sur lequel vous souhaitez vous inscrire.</span>
                   </p>
@@ -584,7 +584,7 @@ class  IndexPage extends Component {
                     l'occasion de développer la <strong>communication en ligne</strong> de votre société via le canal le
                     plus consulté en France et dans le monde : Internet.<br/><br/>Un plan de communication construit
                     pour convertir vous permettra de <span className="font-bold">développer le chiffre d’affaires de votre société</span> avec
-                    un <strong>projet web</strong> marketing personnalisé.
+                    un <strong>projet web</strong> marketing personnalisé : référencement naturel, Google Ads, etc.
                     <br/><br/><strong>Avoir un site</strong> professionnel est un <span className="font-bold">gage de confiance vis-à-vis de vos prospects</span> (entreprises
                     et organismes ciblés). Faire appel à une <strong><Link to="/agence-web-marseille/" className="text-bleu hover:text-black font-bold">agence web comme Linkweb à Marseille</Link>,
                       </strong> spécialisée dans la <strong>création de site internet</strong> pour développer
@@ -606,10 +606,10 @@ class  IndexPage extends Component {
                     apporte un conseil pertinent ainsi qu'un accompagnement personnalisé en fonction de vos besoins et
                     de votre activité.
 
-                    <br/><br/>Les <strong>agences comme Linkweb en France</strong> ont pour ambition de <span
+                    <br/><br/>Les <strong>agences comme Linkweb en France (d'Auch à Saint-Etienne, en passant par Albi, etc.)</strong> ont pour ambition de <span
                         className="font-bold">conduire vos projets jusqu'au succès</span>, que ce soit en termes
                     d’<strong>image</strong>, de <strong>visibilité</strong>, mais également
-                    de <strong>conversion</strong>.</p>
+                    de <strong>conversion</strong>. Enfin, notre agence met tout en oeuvre pour produire un site web en parfaite harmonie avec votre identité visuelle (logo, typographie, couleurs, illustration, vidéo, etc.)</p>
                     </div>
               </Accordion>
             </div>
