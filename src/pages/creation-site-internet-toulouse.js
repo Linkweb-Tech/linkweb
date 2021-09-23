@@ -20,7 +20,7 @@ import SimpleMap from "../components/simpleMap";
 import "../scss/blochover.scss";
 import "../scss/carousel.scss";
 import scroll from "../images/motiontest.svg";
-import climaf from "../images/climaf-avis.png";
+import ludikstyle from "../images/ludikstyle-avis.png";
 import faivre from "../images/faivre-avis.png";
 import contis from "../images/contis-avis.png";
 import mac from "../images/mac-linkweb.jpg";
@@ -510,7 +510,7 @@ class CreationSiteInternetToulousePage extends Component {
                         <article className="w-full md:w-1/2 mt-5 lg:w-1/2 text-left xl:w-1/3 century w-1/2 mx-0 md:px-2 pb-4 flex flex-col align-center">
                             <div className="avis" style={{ minHeight: '340px' }}>
                                 <div className="flex flex-row">
-                                    <img width="50px" height="50px" src={climaf} alt="Avis Google" />
+                                    <img width="50px" height="50px" src={ludikstyle} alt="Avis Google" />
                                     <svg width="100px" viewBox="0 0 100 125">
                                         <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
                                         <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
