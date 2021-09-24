@@ -149,10 +149,10 @@ class ActualiteDigitale extends Component {
                             </div>
                             <Postune postune={this.props.data.allWpPost.edges} />
                             <div className="flex flex-row items-center">
-                                <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/actus/" style={{ transition: 'all ease 0.5s' }}><h3 className="font-bold century text-xl py-2 justify-start flex px-6">Actualités</h3></Link>
-                                <hr className="hrblog mt-1 px-6 mr-6"></hr>
+                                <Link className="text-bleu hover:text-white hover:bg-bleu" to="/blog/actus/" style={{ transition: 'all ease 0.5s' }}><h3 className="font-bold century text-xl py-2 justify-start flex px-6">À propos de Référencement</h3></Link>
+                                <hr className="hrblog mt-1 px-6 mr-6" style={{ width: '55%' }}></hr>
                             </div>
-                            <LastPosts wrap='false' lastposts={this.props.data.actus.edges} />
+                            <LastPosts wrap='false' lastposts={this.props.data.ref.edges} />
                             {/* <section className="flex justify-center ">
                                 <div className="w-2/3 lg:w-1/4" data-aos="fade-up">
                                     <RoundButtonBlog className="rounded-none century font-thin " url="/blog/tous-articles/" text="Voir tous les articles"/><br/>
@@ -173,13 +173,13 @@ class ActualiteDigitale extends Component {
                                 <div className="flex flex-row items-center">
                                     <Link to="/blog/referencement/" className="text-bleu hover:text-white hover:bg-bleu" style={{ transition: 'all ease 0.5s' }}>
                                         <h2 className="font-bold century text-xl py-2 justify-start flex px-6">
-                                            À propos de Référencement
+                                            Tendances
                                             </h2>
                                     </Link>
-                                    <hr className="hrblog mt-1 px-6 mr-6" style={{ width: '55%' }}></hr>
+                                    <hr className="hrblog mt-1 px-6 mr-6"></hr>
                                 </div>
                                 <br />
-                                <LastPostsList lastposts={this.props.data.ref.edges} />
+                                <LastPostsList lastposts={this.props.data.tendances.edges} />
                             </section>
                             <section className="flex flex-col md:flex-row justify-center px-5 xl:px-0 mr-0">
                                 <div data-aos="fade-in" className="blocliens w-full lg:w-1/2 xl:w-6/12 bg-darkgrey my-4 border border-darkgrey mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{ background: '#00cfffe0 url( ' + blocBg + ')', borderRadius: '15px', borderColor: '#d4d4d4', backgroundBlendMode: 'multiply', backgroundSize: 'cover', transform: 'translateZ(0) scale(1)', transition: '0.3s' }}>
@@ -250,9 +250,9 @@ class ActualiteDigitale extends Component {
                         <Link to="/agence-adwords-47-31/"><section className="sidebarlinks century uppercase" style={{ background: '#000000cf url(' + AgenceAds + ')', backgroundSize: 'cover', backgroundPosition: 'center' }}><h4>Lancer une campagne Google Ads</h4></section></Link>
                         <br />
                         <hr className="hrblog"></hr>
-                        <Link to="/blog/tendances/" className="text-bleu"><h3 className="font-bold century pt-3 pb-3">Tendances</h3></Link>
+                        <Link to="/blog/tendances/" className="text-bleu"><h3 className="font-bold century pt-3 pb-3">Actualités</h3></Link>
                         <hr className="hrblog"></hr>
-                        <LastPostsTendances lastposts={this.props.data.tendances.edges} />
+                        <LastPostsTendances lastposts={this.props.data.actus.edges} />
                         <br />
                         <hr className="hrblog"></hr>
                         <h3 className="font-bold century text-bleu pt-3 ">Retrouvez Linkweb sur Twitter</h3><br />
@@ -283,7 +283,7 @@ class ActualiteDigitale extends Component {
 
 export const query = graphql`
 query lastsThreePostsActualitedigitale {
-   actus: allWpPost(limit: 4, sort: {order: DESC, fields: date},filter: {categories: {nodes:{elemMatch: {slug: {eq: "actus"}}}}}) {
+   actus: allWpPost(limit: 3, sort: {order: DESC, fields: date},filter: {categories: {nodes:{elemMatch: {slug: {eq: "actus"}}}}}) {
         edges {
             node {
                 id
@@ -342,7 +342,7 @@ query lastsThreePostsActualitedigitale {
             }
         }
     }
-    tendances: allWpPost(limit:3, sort: {order: DESC, fields: date},filter: {categories: {nodes: {elemMatch: {slug: {eq: "tendances"}}}}}) {
+    tendances: allWpPost(limit:4, sort: {order: DESC, fields: date},filter: {categories: {nodes: {elemMatch: {slug: {eq: "tendances"}}}}}) {
         edges {
             node {
             id
