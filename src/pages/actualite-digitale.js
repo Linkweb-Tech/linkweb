@@ -283,7 +283,7 @@ class ActualiteDigitale extends Component {
 
 export const query = graphql`
 query lastsThreePostsActualitedigitale {
-   actus: allWpPost(limit: 4, filter: {categories: {nodes:{elemMatch: {slug: {eq: "actus"}}}}}) {
+   actus: allWpPost(limit: 4, sort: {order: DESC, fields: date},filter: {categories: {nodes:{elemMatch: {slug: {eq: "actus"}}}}}) {
         edges {
             node {
                 id
@@ -317,7 +317,7 @@ query lastsThreePostsActualitedigitale {
             }
         }
     }
-    lastmini: allWpPost(limit: 5) {
+    lastmini: allWpPost(limit: 5, sort: {order: DESC, fields: date}) {
         edges {
             node {
             id
@@ -342,7 +342,7 @@ query lastsThreePostsActualitedigitale {
             }
         }
     }
-    tendances: allWpPost(limit:3, filter: {categories: {nodes: {elemMatch: {slug: {eq: "tendances"}}}}}) {
+    tendances: allWpPost(limit:3, sort: {order: DESC, fields: date},filter: {categories: {nodes: {elemMatch: {slug: {eq: "tendances"}}}}}) {
         edges {
             node {
             id
@@ -359,7 +359,7 @@ query lastsThreePostsActualitedigitale {
             }
         }
     }
-    ref: allWpPost(limit: 4, filter: {categories: {nodes: {elemMatch: {slug: {eq: "referencement"}}}}}) {
+    ref: allWpPost(limit: 4, sort: {order: DESC, fields: date},filter: {categories: {nodes: {elemMatch: {slug: {eq: "referencement"}}}}}) {
         edges {
             node {
             id
