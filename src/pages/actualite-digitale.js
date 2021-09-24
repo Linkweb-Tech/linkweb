@@ -300,7 +300,7 @@ query lastsThreePostsActualitedigitale {
             }
         }
     }
-    allWpPost(limit: 1) {
+    allWpPost(limit: 1, sort: {order: DESC, fields: date}) {
         edges {
             node {
             id
