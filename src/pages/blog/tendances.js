@@ -201,7 +201,7 @@ query lastsThreePostsCatTrends {
             }
         }
     }
-    tendances: allWpPost(limit: 100, filter: {categories: {nodes:{elemMatch: {slug: {eq: "tendances"}}}}}) {
+    tendances: allWpPost(limit: 100, sort: {order: DESC, fields: date},filter: {categories: {nodes:{elemMatch: {slug: {eq: "tendances"}}}}}) {
         edges {
             node {
             id

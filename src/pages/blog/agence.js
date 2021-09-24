@@ -202,7 +202,7 @@ query lastsThreePostsCatAgence {
             }
         }
     }
-    agence: allWpPost(limit: 100, filter: {categories: {nodes:{elemMatch: {slug: {eq: "agence"}}}}}) {
+    agence: allWpPost(limit: 100, sort: {order: DESC, fields: date},filter: {categories: {nodes:{elemMatch: {slug: {eq: "agence"}}}}}) {
         edges {
             node {
             id

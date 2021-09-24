@@ -202,7 +202,7 @@ query lastsThreePostsCatActus {
             }
         }
     }
-    actus: allWpPost(limit: 100, filter: {categories: {nodes:{elemMatch: {slug: {eq: "actus"}}}}}) {
+    actus: allWpPost(limit: 100, sort: {order: DESC, fields: date},filter: {categories: {nodes:{elemMatch: {slug: {eq: "actus"}}}}}) {
         edges {
             node {
             id

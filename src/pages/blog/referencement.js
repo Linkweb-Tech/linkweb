@@ -202,7 +202,7 @@ query lastsThreePostsCatReferencement {
             }
         }
     }
-    ref: allWpPost(limit: 100, filter: {categories: {nodes:{elemMatch: {slug: {eq: "referencement"}}}}}) {
+    ref: allWpPost(limit: 100, sort: {order: DESC, fields: date},filter: {categories: {nodes:{elemMatch: {slug: {eq: "referencement"}}}}}) {
         edges {
             node {
             id

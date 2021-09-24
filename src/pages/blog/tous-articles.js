@@ -202,7 +202,7 @@ query lastsThreePostsCatTous {
             }
         }
     }
-    tousarticles: allWpPost(limit: 270, filter: {categories: {nodes:{elemMatch: {slug: {eq: "tous-articles"}}}}}) {
+    tousarticles: allWpPost(limit: 400,sort: {order: DESC, fields: date} , filter: {categories: {nodes:{elemMatch: {slug: {eq: "tous-articles"}}}}}) {
         edges {
             node {
             id
