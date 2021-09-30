@@ -334,7 +334,6 @@ class CreerBoutiqueEnLigne extends Component {
                                 <span className="font-bold">Mettre en place une boutique en ligne, c’est être capable de comprendre son interface pour être en mesure de l’appréhender.</span>
                             </h4>
                             <p>Nous vous formerons à l’utilisation du <strong>back office de votre site internet e-commerce</strong> : visualiser les dernières ventes, gérer vos stocks, ajouter ou modifier des fiches produits. Nous vous accompagnons pour mener votre projet clé en main.</p>
-                            <Button url="/blog/quest-ce-quun-back-office-et-quelle-est-son-utilite/" color="white" text="En savoir plus sur le back-office" position="left" />
                         </div>
                         <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">

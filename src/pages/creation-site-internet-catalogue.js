@@ -132,7 +132,6 @@ class CreationSiteInternetCatalogue extends Component {
                                 <span className="font-bold">Créer un site internet adapté à tous les supports pour une expérience utilisateur sans faille. Nos sites web sont pensés pour être accessibles sur tous les appareils (smartphones, tablettes, ordinateur).</span>
                             </h4>
                             <p>Qu'il s'adresse aux utilisateurs ou aux <strong className="font-normal">moteurs de recherche</strong>, <strong className="font-normal">votre site internet</strong> doit proposer une <strong className="font-normal">expérience utilisateur</strong> de haute qualité grâce à la mise en place d'une <strong className="font-normal">plateforme web intuitive</strong> et performante.</p>
-                            <Button url="/blog/importance-site-internet-responsive/" color="white" text="En savoir plus sur le responsive design" position="left" />
                         </div>
                     </div>
                     <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:my-2 lg:py-2 text-justify">

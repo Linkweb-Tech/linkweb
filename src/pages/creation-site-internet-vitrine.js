@@ -100,7 +100,7 @@ class CreationSiteVitrine extends Component {
                             <br /><br />
                                                         Mettre en place un <strong>site internet vitrine</strong> pour son entreprise permet de porter un coup de projecteur sur votre activité en présentant vos prestations et en apportant l’information nécessaire pour le consommateur à la recherche d’un prestataire de votre domaine d’activité.
                             <br /><br />
-                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong><Link className="text-bleu font-bold hover:text-black" to="/ergonomie-site-web-agen-toulouse/">site ergonomique</Link> et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
+                                                        Développer une identité visuelle qui vous est propre grâce au <strong>webdesign</strong>, mettre en place un <strong>site ergonomique et une navigation intuitive</strong>, créer un contenu qui va permettre de <strong>rendre votre site internet visible via le référencement naturel</strong> : il existe de nombreuses façons de mettre en avant votre activité.</p>
                     </div>
                     <div className="order-first xl:order-last w-full xl:w-1/2 p-0 xl:p-12">
                         <img className="mx-auto block" src={imac} alt="Création site internet Toulouse" />
@@ -122,7 +122,6 @@ class CreationSiteVitrine extends Component {
                                 <span className="font-bold">Créer un site internet intuitif et ergonomique pour favoriser l’expérience utilisateur et faciliter la navigation entre les contenus.</span>
                             </h4>
                             <p>Nous développons un <strong>site internet</strong> favorisant la navigation entre les pages pour permettre aux utilisateurs d’accéder à l’information qu’ils recherchent de manière rapide, efficace et de façon naturelle.</p>
-                            <Button url="/ergonomie-site-web-agen-toulouse/" color="white" text="En savoir plus sur l’ergonomie web" position="left" />
                         </div>
                         <div className="w-full lg:w-1/2">
                             <h3 data-aos='fade-right' className="text-left text-2xl century">
@@ -133,7 +132,6 @@ class CreationSiteVitrine extends Component {
                                 <span className="font-bold">Créer un site internet qui s’adapte au terminal utilisé pour faciliter son accessibilité. Nous mettons en place un site adapté pour tous les supports.</span>
                             </h4>
                             <p>Face à l’exigence des <strong>moteurs de recherche</strong> pour proposer des <strong>sites internet</strong> adaptés à chaque support, nous répondons par la mise en place de <strong>sites internet responsive</strong>, à savoir, qui s’adaptent à la largeur de l’écran utilisé.</p>
-                            <Button url="/blog/importance-site-internet-responsive/" color="white" text="En savoir plus sur le responsive design" position="left" />
                         </div>
                     </div>
                     <div className="w-full flex flex-col lg:flex-row mx-auto px-6 lg:px-32 py-6 my-4 lg:my-2 lg:py-2 text-justify">
