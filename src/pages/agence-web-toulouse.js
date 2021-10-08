@@ -46,8 +46,8 @@ class AgenceWebToulouse extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet de Mode à Toulouse - Linkweb"
-                    description="Vous souhaitez créer un site web pour votre entreprise de mode à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
+                    title="Agence web à Toulouse - Solutions digitales et projets web sur-mesure - Linkweb"
+                    description="Réalisez votre projet de conception de site internet et de référencement avec notre agence web à Toulouse."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-mode/"
                     nom="Créer un site internet internet Mode"
                     slug="creation-site-internet-toulouse/site-internet-mode/"
