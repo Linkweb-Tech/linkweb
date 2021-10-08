@@ -131,7 +131,7 @@ class ContactLanding extends Component {
         
     }
 
-    hydrate(){
+    render(){
         
         return(
             <form onSubmit={() => this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto landing">
