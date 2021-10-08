@@ -808,3 +808,9 @@ color:white;
 div.notifications-component {
     position: relative !important;
 }
+.landing {
+    position: relative;
+}
+.landing div.notifications-component {
+    position: fixed !important;
+}

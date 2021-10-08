@@ -5,26 +5,13 @@ import Layout from "../components/layout";
 
 import RoundButtonAccueil from "../components/roundButtonAccueil";
 import RoundButtonAccueilMail from "../components/roundButtonAccueilMail";
-import RoundButton from "../components/roundButton";
-
-import CarouselMode from "../components/carousel-slides/mode-slides";
-
-import Accordion from "../components/accordion";
 import SEO from "../components/seo";
-import SimpleMap from "../components/simpleMap";
+import ContactLanding from '../components/contactLanding';
 import "../scss/blochover.scss";
 import "../scss/carousel.scss";
-
 import stars from '../images/stars.png';
 import arriereplan from "../images/cta-background-agence-web.jpg";
-import siteinternet from "../images/site-internet-mode.jpg";
-import referencement from "../images/referencement-site-internet-mode.jpg";
-import webdesign from "../images/webdesign-site-internet-mode.jpg";
-import realisation1 from "../images/justlui-agen.jpg";
-import realisation2 from "../images/dixdoigts-deuxpieds.jpg";
-import realisation3 from "../images/cote-arkad.jpg";
-import map from "../images/map.jpg";
-import surmesure from "../images/web.svg"
+
 
 
 
@@ -85,32 +72,14 @@ class AgenceWebToulouse extends Component {
                     transitionTime={200}
                 > */}
 
-                <section className="flex items-center justify-start w-full mx-auto pb-0 my-32 md:my-42 lg:my-42 xl:my-48 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: 'url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: '0% 30%', minHeight:'300px' }}>
+                <section className="flex items-center justify-start w-full mx-auto pb-0 my-24 md:my-24 lg:my-24 xl:my-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{marginBottom: '180px', background: 'url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: '0% 30%', minHeight:'400px' }}>
                 </section>
-                <section className="w-full flex">
-                <section className="w-1/2 flex justify-start -mt-0 lg:-mt-32">
-                    <div className="w-11/12 lg:w-3/4 bg-darkgrey text-white shadow-2xl -mt-0 lg:-mt-64 flex flex-col justify-end mx-12 lg:mx-24">
-                        <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Obtenez un devis gratuit et détaillé</span></h2>
+                <section className="w-full flex px-48">
+                <section className="w-1/2 flex justify-start mt-0 lg:-mt-64 " style={{height:"470px" }}>
+                    <div className="w-11/12 lg:w-3/4 bg-darkgrey text-white py-6 shadow-2xl mt-0 lg:-mt-6 flex flex-col justify-center mx-12 lg:mx-24">
+                        <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Contactez-nous</span></h2>
                         <br />
-                        <p className="px-8 lg:px-16 text-center century text-md">Vous souhaitez <strong className="font-normal">créer un site internet</strong> pour votre entreprise ?<br /> <strong className="font-normal">Linkweb</strong> vous accompagne dans la mise en oeuvre de votre <strong className="font-normal">projet web</strong> pour répondre à vos objectifs.</p>
-                        <br />
-                        <div className="flex flex-col md:flex-row text-center pb-6 century px-2 lg:px-5 text-sm">
-                            <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                                <svg width="60px" className="mx-auto block" viewBox="0 0 100 125" fill="#37cfee"><g><g><g><g><rect x="14.8" y="81" width="70.4" height="2.7" /></g></g><g><g><path d="M74.1,71.9H24.7l-9.9,8.3h70.4L74.1,71.9z M43.4,79.2l2-1.7h8.9l2.2,1.7H43.4z M25.3,77l4.2-3.7h39.7L74,77H25.3z" /></g></g><g><g><path d="M72.5,34h-6.4v3h3.6c0.9,0,1.6,0.7,1.6,1.6v27.6c0,0.9-0.7,1.6-1.6,1.6H29.6c-0.9,0-1.6-0.7-1.6-1.6V38.6      c0-0.9,0.7-1.6,1.6-1.6h4.2v-3h-7c-1.1,0-2,0.9-2,2.1v32.7c0,1.1,0.9,2.1,2,2.1h45.7c1.1,0,2-0.9,2-2.1V36.1      C74.5,34.9,73.6,34,72.5,34z" /></g></g></g></g><g><path d="M50,52.7c-8.4,0-11.4-1.8-11.5-1.8L38,50.6V33.8l-0.3,0.3l-7.8-6.2l0.2-0.7c0.7-1.9,2-4.6,3-6.2c3.1-5.1,6.6-5.6,10.8-5.7   l0.7,0l0.3,0.6c0.7,1.5,2.6,2.4,5.1,2.4s4.4-0.9,5.1-2.4l0.3-0.6l0.7,0c4.3,0.1,7.7,0.5,10.8,5.7c1.1,1.8,2.4,4.4,3.1,6.2l0.2,0.7   l-7.9,6.2L62,33.9v16.7l-0.5,0.3C61.4,50.9,58.4,52.7,50,52.7z M40,49.4c1.1,0.4,4.1,1.3,10,1.3c5.9,0,8.9-0.9,10-1.3v-20l2.3,2.1   l5.4-4.3c-0.7-1.7-1.8-3.8-2.6-5.2c-2.3-3.8-4.5-4.6-8.6-4.7c-1.2,1.9-3.6,3-6.6,3s-5.4-1.1-6.6-3c-4,0.1-6.3,0.9-8.6,4.7   c-0.8,1.4-1.9,3.5-2.6,5.2l5.4,4.3l2.4-2.1V49.4z" /></g></svg>
-                                <h4>Présentation de vos produits</h4>
-                            </div>
-                            <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                                <svg width="60px" className="mx-auto block" viewBox="0 0 100 125"><path fill="#37cfee" d="M93.21,69.76H6.79a3,3,0,0,1-3-3V37.36a3,3,0,0,1,3-3H93.21a3,3,0,0,1,3,3V66.72A3,3,0,0,1,93.21,69.76ZM6.79,35.31a2.05,2.05,0,0,0-2,2V66.72a2,2,0,0,0,2,2H93.21a2,2,0,0,0,2-2V37.36a2.05,2.05,0,0,0-2-2Z" /><path fill="#37cfee" d="M14.73,43.7H9.93V38.91h4.8Zm-3.8-1h2.8V39.91h-2.8Z" /><path fill="#37cfee" d="M17.91,50.86h-8v-4.8h8Zm-7-1h6v-2.8h-6Z" /><path fill="#37cfee" d="M17.91,58h-8v-4.8h8Zm-7-1h6v-2.8h-6Z" /><path fill="#37cfee" d="M17.91,65.17h-8v-4.8h8Zm-7-1h6v-2.8h-6Z" /><path fill="#37cfee" d="M24,43.7H19.21V38.91H24Zm-3.79-1H23V39.91H20.21Z" /><path fill="#37cfee" d="M24,50.86H19.21v-4.8H24Zm-3.79-1H23v-2.8H20.21Z" /><path fill="#37cfee" d="M24,58H19.21v-4.8H24Zm-3.79-1H23v-2.8H20.21Z" /><path fill="#37cfee" d="M30,58h-4.8v-4.8H30Zm-3.8-1H29v-2.8h-2.8Z" /><path fill="#37cfee" d="M24,65.17H19.21v-4.8H24Zm-3.79-1H23v-2.8H20.21Z" /><path fill="#37cfee" d="M30,65.17h-4.8v-4.8H30Zm-3.8-1H29v-2.8h-2.8Z" /><path fill="#37cfee" d="M60,65.17H31.22v-4.8H60Zm-27.82-1H59v-2.8H32.22Z" /><path fill="#37cfee" d="M36,58h-4.8v-4.8H36Zm-3.8-1H35v-2.8h-2.8Z" /><path fill="#37cfee" d="M42,58h-4.8v-4.8H42Zm-3.8-1H41v-2.8h-2.8Z" /><path fill="#37cfee" d="M48,58h-4.8v-4.8H48Zm-3.8-1H47v-2.8h-2.8Z" /><path fill="#37cfee" d="M54,58h-4.8v-4.8H54Zm-3.8-1H53v-2.8h-2.8Z" /><path fill="#37cfee" d="M60,58h-4.8v-4.8H60Zm-3.8-1H59v-2.8h-2.8Z" /><path fill="#37cfee" d="M66,58H61.25v-4.8H66Zm-3.79-1H65v-2.8H62.25Z" /><path fill="#37cfee" d="M66,65.17H61.25v-4.8H66Zm-3.79-1H65v-2.8H62.25Z" /><path fill="#37cfee" d="M72.05,65.17h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M78.06,65.17h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M84.06,65.17h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M90.07,65.17h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M72.05,58h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M78.06,58h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M30,50.86h-4.8v-4.8H30Zm-3.8-1H29v-2.8h-2.8Z" /><path fill="#37cfee" d="M36,50.86h-4.8v-4.8H36Zm-3.8-1H35v-2.8h-2.8Z" /><path fill="#37cfee" d="M42,50.86h-4.8v-4.8H42Zm-3.8-1H41v-2.8h-2.8Z" /><path fill="#37cfee" d="M48,50.86h-4.8v-4.8H48Zm-3.8-1H47v-2.8h-2.8Z" /><path fill="#37cfee" d="M54,50.86h-4.8v-4.8H54Zm-3.8-1H53v-2.8h-2.8Z" /><path fill="#37cfee" d="M60,50.86h-4.8v-4.8H60Zm-3.8-1H59v-2.8h-2.8Z" /><path fill="#37cfee" d="M66,50.86H61.25v-4.8H66Zm-3.79-1H65v-2.8H62.25Z" /><path fill="#37cfee" d="M72.05,50.86h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M78.06,50.86h-4.8v-4.8h4.8Zm-3.8-1h2.8v-2.8h-2.8Z" /><path fill="#37cfee" d="M90.07,57.83H82.19a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h6.88V47.06H81.39V50.8a.5.5,0,0,1-.5.5.5.5,0,0,1-.5-.5V46.06h9.68Z" /><path fill="#37cfee" d="M30,43.7h-4.8V38.91H30Zm-3.8-1H29V39.91h-2.8Z" /><path fill="#37cfee" d="M36,43.7h-4.8V38.91H36Zm-3.8-1H35V39.91h-2.8Z" /><path fill="#37cfee" d="M42,43.7h-4.8V38.91H42Zm-3.8-1H41V39.91h-2.8Z" /><path fill="#37cfee" d="M48,43.7h-4.8V38.91H48Zm-3.8-1H47V39.91h-2.8Z" /><path fill="#37cfee" d="M54,43.7h-4.8V38.91H54Zm-3.8-1H53V39.91h-2.8Z" /><path fill="#37cfee" d="M60,43.7h-4.8V38.91H60Zm-3.8-1H59V39.91h-2.8Z" /><path fill="#37cfee" d="M66,43.7H61.25V38.91H66Zm-3.79-1H65V39.91H62.25Z" /><path fill="#37cfee" d="M72.05,43.7h-4.8V38.91h4.8Zm-3.8-1h2.8V39.91h-2.8Z" /><path fill="#37cfee" d="M78.06,43.7h-4.8V38.91h4.8Zm-3.8-1h2.8V39.91h-2.8Z" /><path fill="#37cfee" d="M84.06,43.7h-4.8V38.91h4.8Zm-3.8-1h2.8V39.91h-2.8Z" /><path fill="#37cfee" d="M90.07,43.7h-4.8V38.91h4.8Zm-3.8-1h2.8V39.91h-2.8Z" /><path fill="#37cfee" d="M82.19,57.83a.5.5,0,0,1-.5-.5v-6h-.8a.5.5,0,0,1,0-1h1.8v7A.5.5,0,0,1,82.19,57.83Z" /></svg>
-                                <h4>Optimisations pour le référencement naturel</h4>
-                            </div>
-                            <div className="w-full mx-3 md:w-1/3 flex flex-col font-bold">
-                                <svg width="60px" className="mx-auto block" viewBox="0 0 100 125" fill="#37cfee"><g><path d="M79.4,44.9c0-0.6-0.4-1-1-1s-1,0.4-1,1v11.4c0,0,0,0.1,0,0.1c0.1,0.7,0.2,4.5-4.8,5.6l-36.8,3.8l-1.9-31.7l-0.3-4.8   c0,0,0,0,0,0c0-0.1,0.1-1.1-0.5-1.8c0,0-0.1-0.1-0.1-0.1c-0.1-0.1-0.5-0.5-1.5-0.6h-1v-0.6c0-0.6-0.5-1.1-1.1-1.1h-8.7   c-0.6,0-1.1,0.5-1.1,1.1V28c0,0.6,0.5,1.1,1.1,1.1h8.7c0.3,0,0.6-0.2,0.8-0.4l1.2,0c0.1,0,0.1,0,0.1,0c0,0.1,0,0.3,0,0.4   c0,0,0,0.1,0,0.1c0,0,0,0.1,0,0.1l0.3,4.4L33.8,67c0,0.3,0.1,0.5,0.4,0.7c0.2,0.2,0.4,0.2,0.6,0.2c0,0,0.1,0,0.1,0l37.9-3.9   c0,0,0.1,0,0.1,0c6.7-1.5,6.5-6.9,6.4-7.8V44.9z" /></g><g><path d="M75.3,64.6l-36.2,4.2c-1.8,0.2-5.2,1.7-5.2,5.7c0,0.4,0,2.3,1.4,3.8c1.2,1.2,3,1.8,5.3,1.8c0.4,0,0.9,0,1.4-0.1l32.3,0.1   c0.6,0,1.1-0.5,1.1-1.1c0-0.6-0.5-1.1-1.1-1.1l-32.3-0.1c0,0-0.1,0-0.1,0c-2.3,0.2-4-0.2-5-1.1c-0.9-0.9-0.9-2.1-0.8-2.2   c0,0,0-0.1,0-0.1c-0.1-3.1,3.1-3.5,3.3-3.6l36.1-4.2c0.6-0.1,1-0.6,0.9-1.2C76.5,65,75.9,64.5,75.3,64.6z" /></g><g><path d="M71.6,80.3c-1.6,0-2.8,1.3-2.8,2.8c0,1.6,1.3,2.8,2.8,2.8c1.6,0,2.8-1.3,2.8-2.8C74.4,81.6,73.1,80.3,71.6,80.3z    M71.6,84.6c-0.8,0-1.4-0.7-1.4-1.4c0-0.8,0.7-1.4,1.4-1.4c0.8,0,1.4,0.7,1.4,1.4C73,83.9,72.4,84.6,71.6,84.6z" /></g><g><path d="M41.3,80.3c-1.6,0-2.8,1.3-2.8,2.8c0,1.6,1.3,2.8,2.8,2.8c1.6,0,2.8-1.3,2.8-2.8C44.1,81.6,42.9,80.3,41.3,80.3z    M41.3,84.6c-0.8,0-1.4-0.7-1.4-1.4c0-0.8,0.7-1.4,1.4-1.4c0.8,0,1.4,0.7,1.4,1.4C42.8,83.9,42.1,84.6,41.3,84.6z" /></g><g><path d="M44,31.9l-3,22c0,0,3.3,2.5,13.1,3.8c9.8,1.3,13.7-0.2,13.7-0.2l3-22l1.1,1.6l8.7-5.3c-0.5-2.2-1.8-5.6-2.7-7.7   c-2.5-5.9-5.9-7-11.1-7.8c-1.1,1.7-3.6,3.2-7.7,2.6c-4.1-0.6-6.1-2.6-6.7-4.6c-5.2-0.6-8.8-0.4-12.8,4.6C38,20.7,36,23.6,35,25.7   l7.1,7.4L44,31.9z" /></g></svg>
-                                <h4>Outil de vente en ligne</h4>
-                            </div>
-                        </div>
-                        <div className="w-full lg:w-1/2 flex justify-center mx-auto block mb-10">
-                            <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text="Votre devis gratuit" />
-                        </div>
+                        <ContactLanding />
                     </div>
                 </section>
                 <section className="w-1/2 px-10 flex flex-row mt-16 lg:-mt-32 mb-32">
@@ -120,26 +89,34 @@ class AgenceWebToulouse extends Component {
                             <h2 className="century text-xl text-center">VITRINE <span className="text-bleu">/</span> E-COMMERCE <span className="text-bleu">/</span> ADMINISTRABLE <span className="text-bleu">/</span> SUR-MESURE</h2>
                             <br/>
                             <hr className="border-solid w-1/2 lg:w-1/4 border-bleu"/>
-                            <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end">
-                            <div className="mt-6 -mb-24 w-full flex flex-col items-black lg:items-start">
-                            <div className="w-1/2  text-3xl text-black font-bold text-center text-white century">4.6/5</div>
-                            <p className="w-1/2  text-sm text-black font-bold text-center text-white century -mt-2">Avis Google</p>
-                            <div className="w-1/2 -mt-8">
-                                <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
-                                    <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
-                                    <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
-                                    <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
-                                    <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
-                                    <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z   M89.8,54.7c0.1-0.1,0.4,0,0.4,0l4.2,2.2l-0.8-4.7c0-0.2,0-0.3,0.1-0.4l3.4-3.3l-4.7-0.7c-0.2,0-0.3-0.1-0.4-0.3l-2.1-4.3L89.8,54.7  z" />
-                                </svg>
-                            </div>
+                            <section className='flex justify-center'>
+                                <div className="w-1/2 py-2 flex-col items-end">
+                                {/* <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end"> */}
+                                    <div className="mt-6 -mb-24 w-full flex flex-col items-black lg:items-start">
+                                        <div className="w-full  text-3xl text-black font-bold text-center text-white century">4.6/5</div>
+                                        <p className="w-full  text-sm text-black font-bold text-center text-white century -mt-2">Avis Google</p>
+                                        <div className="w-full -mt-8">
+                                            <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
+                                                <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                                <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                                <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                                <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                                <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z   M89.8,54.7c0.1-0.1,0.4,0,0.4,0l4.2,2.2l-0.8-4.7c0-0.2,0-0.3,0.1-0.4l3.4-3.3l-4.7-0.7c-0.2,0-0.3-0.1-0.4-0.3l-2.1-4.3L89.8,54.7  z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div className="w-1/2 lg:mx-0 flex flex-col lg:flex-row justify-start pb-24 lg:justify-start">
+                                    <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30" />
+                                    <RoundButtonAccueilMail url="mailto:contact@linkweb.fr" text="Allons y !" />
+                                </div>      
+                            </section>
+                                     
                         </div>
-                    </div>                
-                </div>
                 <br />
                 </section>
                 </section>
-                <section className="w-full mt-24">
+                <section className="w-full mt-4 mb-24">
                 <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
                     Comment créer mon site internet ?
                 </h2>
@@ -224,10 +201,7 @@ class AgenceWebToulouse extends Component {
                     </div>
                     </div>
                 </section>
-                <div className="w-full lg:mx-0 flex flex-col lg:flex-row justify-center pb-24 lg:justify-center">
-                            <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30" />
-                            <RoundButtonAccueilMail url="mailto:contact@linkweb.fr" text="Allons y !" />
-                        </div>
+               
                         {/*<section className="bg-darkgrey sidetitle py-10">
                     <section className="w-full lg:w-2/3 flex flex-col justify-center century my-10 px-4 lg:px-32 md:mx-6 sm:mx-12 mt-2 lg:mx-64">
                         <h2 className="century text-center lg:text-left text-white text-3xl md:text-4xl leading-none">Nos sites internet sont <span className="text-bleu">fonctionnels</span></h2>
