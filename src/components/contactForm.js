@@ -23,7 +23,7 @@ class ContactForm extends Component {
             error: null,
             submitDisplay: "block",
             sent: "",
-            fromAds: localStorage.getItem(ads)
+            fromAds: 'false'
         }
     }
     
@@ -50,6 +50,7 @@ class ContactForm extends Component {
                 }
             });
         } else {
+            this.setState({formAds: localStorage.getItem(ads)});
             axios({
                 method: 'post',
                 url:'https://api.linkweb.fr/data/form.php',
