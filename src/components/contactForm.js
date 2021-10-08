@@ -29,6 +29,9 @@ class ContactForm extends Component {
     
     componentDidMount(){
         loadReCaptcha('6LfT84MUAAAAADxf0gSSMIhpMWh2CIAKHdobtTtq')
+        if(typeof window !== 'undefined'){
+            this.setState({formAds: localStorage.getItem(ads)});
+        }
     }
 
     handleFormSubmit (event) {
@@ -50,7 +53,7 @@ class ContactForm extends Component {
                 }
             });
         } else {
-            this.setState({formAds: localStorage.getItem(ads)});
+            
             axios({
                 method: 'post',
                 url:'https://api.linkweb.fr/data/form.php',
