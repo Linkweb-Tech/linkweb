@@ -48,9 +48,9 @@ class AgenceWebToulouse extends Component {
                 <SEO
                     title="Agence web à Toulouse - Solutions digitales et projets web sur-mesure - Linkweb"
                     description="Réalisez votre projet de conception de site internet et de référencement avec notre agence web à Toulouse."
-                    url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-mode/"
-                    nom="Créer un site internet internet Mode"
-                    slug="creation-site-internet-toulouse/site-internet-mode/"
+                    url="https://linkweb.fr/agence-web-toulouse/"
+                    nom="Agence web à Toulouse"
+                    slug="agence-web-toulouse/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
