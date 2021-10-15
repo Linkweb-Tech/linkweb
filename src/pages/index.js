@@ -51,7 +51,7 @@ class  IndexPage extends Component {
         <Layout location="home">
           <SEO
               title="Agence Web Toulouse et Agen - Projet web & Solution sur-mesure"
-              description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit."
+              description="Création de site internet sur-mesure près d’Agen et Toulouse - Définition stratégique - Accompagnement professionnel - Devis rapide et gratuit - 05 33 95 00 30."
               url="https://linkweb.fr/"
           />
 
