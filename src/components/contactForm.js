@@ -30,7 +30,7 @@ class ContactForm extends Component {
     componentDidMount(){
         loadReCaptcha('6LfT84MUAAAAADxf0gSSMIhpMWh2CIAKHdobtTtq')
         if(typeof window !== 'undefined'){
-            this.setState({formAds: localStorage.getItem(ads)});
+            this.setState({fromAds: localStorage.getItem('lw')});
         }
     }
 

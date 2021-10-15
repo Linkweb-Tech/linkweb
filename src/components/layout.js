@@ -23,8 +23,8 @@ const Layout = (props) => {
   useEffect(() => {
       const ads = queryString.parse(location.search);
       
-      if(Object.prototype.hasOwnProperty.call(ads, 'ads')){
-        localStorage.setItem('ads', true);
+      if(Object.prototype.hasOwnProperty.call(ads, 'lw')){
+        localStorage.setItem('lw', true);
       }
   }, [])
   //const { children, location } = props

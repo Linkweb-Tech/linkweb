@@ -29,7 +29,7 @@ class ContactLanding extends Component {
 
     handleFormSubmit (event) {
         event.preventDefault()
-        console.log(localStorage.getItem('ads'));
+        console.log(localStorage.getItem('lw'));
         //console.log(JSON.stringify(this.state.mailSent));
         if( this.state.email == '' && this.state.nom == '' && this.state.prenom == '' && this.state.message == "") {
             store.addNotification({
