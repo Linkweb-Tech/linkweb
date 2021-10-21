@@ -182,7 +182,7 @@ class AgenceWebMarseille extends Component {
                 <span className="text-bleu">/</span>JE CHOISIS DES SPÉCIALISTES POUR DONNER VIE À MON PROJET
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                Linkweb fait partie des <strong className="font-normal">agences digitales</strong> qui offrent une grande écoute à leurs <strong className="font-normal">clients</strong>. Les <strong className="font-normal">experts du développement web</strong> de l’agence manient savamment les aspects front-end et back-end de la <strong className="font-normal">création de sites</strong>. De la même façon, les <strong className="font-normal">équipes de référencement</strong> sont en mesure d’apporter des contenus optimisés et un suivi en toute transparence à chaque entreprise. C’est de cette façon que nous vous accompagnons dans la <strong className="font-normal">définition de la stratégie</strong> qui vous apportera des résultats.
+                Linkweb fait partie des <strong className="font-normal">agences digitales</strong> qui offrent une grande écoute à leurs <strong className="font-normal">clients</strong>. Les <strong className="font-normal">experts du développement web</strong> de l’agence manient savamment les aspects front-end et back-end de la <strong className="font-normal">création de sites</strong> (web-design, supports créatifs et intuitifs notamment grâce aux CMS). De la même façon, les <strong className="font-normal">équipes de référencement</strong> sont en mesure d’apporter des contenus optimisés et un suivi en toute transparence à chaque entreprise. C’est de cette façon que nous vous accompagnons dans la <strong className="font-normal">définition de la stratégie</strong> qui vous apportera des résultats.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" /> */}
               <button
@@ -224,7 +224,7 @@ class AgenceWebMarseille extends Component {
                                         <span className="text-bleu">/</span>Plus de 10 ans d'expérience
                                 </h3>
                                     <br />
-                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Nous apportons une solution performante à nos <strong className="font-normal">clients</strong> pour leur offrir une meilleure <strong className="font-normal">visibilité sur le web</strong> depuis 2008.</p>
+                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Nous apportons une solution créative et performante à nos <strong className="font-normal">clients</strong> pour leur offrir une meilleure <strong className="font-normal">visibilité sur le web</strong> depuis 2008.</p>
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -238,7 +238,7 @@ class AgenceWebMarseille extends Component {
                                         <span className="text-bleu">/</span>Plus de 20 techniciens
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Linkweb c’est plus de vingt spécialistes du <strong className="font-normal">développement et du référencement web</strong> qui œuvrent chaque jour à augmenter les performances des <strong className="font-normal">sites</strong> réalisés.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Linkweb c’est plus de vingt spécialistes du <strong className="font-normal">développement et du référencement web</strong> qui œuvrent chaque jour à augmenter les performances des <strong className="font-normal">sites</strong> réalisés pour aider chacun à se démarquer.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -264,7 +264,7 @@ class AgenceWebMarseille extends Component {
                                         <span className="text-bleu">/</span>Une note de 4,6/5 (Google)
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Les entreprises que nous accompagnons sont satisfaites des prestations de notre <Link to="/agence-web-agen/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link>. D’après la note basée sur les 117 avis de nos <strong className="font-normal">clients</strong>.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Les entreprises que nous accompagnons sont satisfaites des prestations de notre <Link to="/agence-web-agen/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link>. D’après la note basée sur les 118 avis de nos <strong className="font-normal">clients</strong>.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -286,7 +286,7 @@ class AgenceWebMarseille extends Component {
                             <div className="w-full" label="DEVENEZ PLUS VISIBLE GRÂCE À UN SITE INTERNET FONCTIONNEL">
                                 <p>En optant pour les <strong className="font-normal">solutions de développement et de référencement web</strong>, vous offrez à votre entreprise une notoriété plus importante. Internet est un des <strong className="font-normal">canaux de communication</strong> les plus sollicités aujourd’hui. 
                                 <br/><br/>
-                                C’est en exploitant tout le potentiel de ce canal que vous gagnez en <strong className="font-normal">visibilité </strong>et attirez la curiosité de nouveaux clients régulièrement. Générer du profit avec le <strong className="font-normal">marketing digital</strong> repose sur votre positionnement au sein des moteurs de recherche, au même titre que sur votre notoriété sur chaque média social et donc sur des services sur mesure, mis en place spécialement pour vous par des <strong className="font-normal">experts du digital</strong>.</p>
+                                C’est en exploitant tout le potentiel de ce canal que vous gagnez en <strong className="font-normal">visibilité </strong>et attirez la curiosité de nouveaux clients régulièrement. Générer du profit avec le <strong className="font-normal">marketing digital</strong> repose sur votre positionnement au sein des moteurs de recherche, au même titre que sur votre notoriété à travers chaque média social et donc sur des services sur mesure, mis en place spécialement pour vous par des <strong className="font-normal">experts du digital</strong>.</p>
                             </div>
                             <div label="GÉNÉREZ DU TRAFIC PERTINENT SUR VOS PAGES">
                                 <p>

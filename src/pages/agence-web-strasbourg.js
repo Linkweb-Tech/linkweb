@@ -98,7 +98,7 @@ class AgenceWebStrasbourg extends Component {
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Disposez d’un support responsive (adapté tous supports : mobile, tablette, ordinateur) et au web-design ergonomique, en accord avec votre identité visuelle et proposant du contenu optimisé pour les moteurs grâce aux équipes Linkweb.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-7xl text-xl text-black text-center lg:text-justify century pb-0">Disposez d’un support responsive (adapté tous supports : mobile, tablette, ordinateur) et au web-design ergonomique, en accord avec votre identité visuelle et proposant du contenu optimisé pour les moteurs comme pour les utilisateurs.</h3>
                     </div>
                 </section>
                 <section className="w-full my-10 flex flex-col lg:flex-row">
@@ -110,7 +110,7 @@ class AgenceWebStrasbourg extends Component {
                     <div className="blochover mx-0 lg:mx-6 w-full lg:w-1/3 text-white" style={{ backgroundImage: 'url(' + referencement + ')' }}>
                         <h3 className="text-3xl titrehover text-center century leading-tight"><span>Stratégie de référencement </span><br /><span className="font-bold text-6xl"> SEO</span></h3>
                         <p className="text century text-lg lg:text-sm xl:text-lg z-50">
-                        En définissant vos objectifs et votre <strong className="font-normal">stratégie de webmarketing</strong> avec notre agence web sur le secteur de <strong className="font-normal">Strasbourg</strong> mais également partout en Alsace et en France, positionnez-vous stratégiquement au sein des <strong className="font-normal">résultats de recherche</strong> des moteurs comme Google. 
+                        En définissant vos objectifs et votre <strong className="font-normal">stratégie de webmarketing</strong> avec notre agence web sur le secteur de <strong className="font-normal">Strasbourg</strong>, mais également partout en Alsace et en France, positionnez-vous stratégiquement au sein des <strong className="font-normal">résultats de recherche</strong> des moteurs comme Google. 
                         <br /><br />L’expertise que vous propose <strong className="font-normal">Linkweb</strong> a pour but de placer les pages de <strong className="font-normal">votre site web</strong> en tête des résultats dans les <strong className="font-normal">moteurs de recherche</strong> pour vous apporter un maximum de <strong className="font-normal">visibilité</strong> et donc de transformations intéressantes.
                         </p>
                     </div>
@@ -136,7 +136,7 @@ class AgenceWebStrasbourg extends Component {
                 <span className="text-bleu">/</span>JE SOUHAITE EN SAVOIR PLUS SUR LES PRESTATIONS DE L'AGENCE
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-              L’<strong className="font-normal">expertise</strong> de Linkweb vous accompagne de la <strong className="font-normal">création ou refonte de site</strong>, jusqu'au <strong className="font-normal">référencement</strong> (SEO et SEA). Pour chacun des projets confiés à l’agence, nos formules sont sur-mesure et permettent à toute entreprise d’atteindre les <strong className="font-normal">objectifs fixés</strong>. Notre <strong className="font-normal"><a href="/agence-web-marseille/" className="text-bleu hover:text-black font-bold">agence web à Marseille</a></strong> fait partie des <strong className="font-normal">agences</strong> qui vous écoutent et vous conseillent afin de trouver avec vous, la meilleure <strong className="font-normal">stratégie digitale</strong>. Les services proposés par nos équipes sont pertinents et adaptés aux <strong className="font-normal">projets</strong> confiés.
+              L’<strong className="font-normal">expertise</strong> de Linkweb vous accompagne de la <strong className="font-normal">création ou refonte de site</strong>, jusqu'au <strong className="font-normal">référencement</strong> (naturel SEO et payant SEA). Pour chacun des projets confiés à l’agence, nos formules sont sur-mesure et permettent à toute entreprise d’atteindre les <strong className="font-normal">objectifs fixés</strong>. Notre <strong className="font-normal"><a href="/agence-web-marseille/" className="text-bleu hover:text-black font-bold">agence web à Marseille</a></strong> fait partie des <strong className="font-normal">agences</strong> qui vous écoutent et vous conseillent afin de trouver avec vous, la meilleure <strong className="font-normal">stratégie digitale</strong>. Les services proposés par nos équipes sont pertinents et adaptés aux <strong className="font-normal">projets</strong> confiés.
                 </div>
               {/* <Button url="/blog/foire-aux-questions/" text="En savoir plus" position="center" /> */}
               <button
@@ -159,7 +159,7 @@ class AgenceWebStrasbourg extends Component {
                 <span className="text-bleu">/</span>JE SOUHAITE ÊTRE ACCOMPAGNÉ POUR CHOISIR LA FORMULE ADAPTÉE
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-              À partir d'une phase d’écoute et d’analyse de vos besoins, l’<strong className="font-normal">équipe Linkweb à Strasbourg</strong>, en Alsace et sur toute la France détermine pour vous la formule la mieux appropriée. Nos <strong className="font-normal">réalisations</strong> ont pour objectif de vous apporter toutes les retombées recherchées. Site vitrine, site e-commerce ou sur-mesure, disposez des outils les plus pertinents afin de déployer toute votre <strong className="font-normal">visibilité sur le web</strong>. Nos experts vous accompagnent pour déterminer des <strong className="font-normal">solutions</strong> adaptées à chaque <strong className="font-normal">projet</strong>.
+              À partir d'une phase d’écoute et d’analyse de vos besoins, l’<strong className="font-normal">équipe Linkweb à Strasbourg</strong>, en Alsace et sur toute la France détermine pour vous la formule la mieux appropriée. Nos <strong className="font-normal">réalisations</strong> ont pour objectif de vous apporter toutes les retombées recherchées. Site vitrine, site e-commerce ou sur-mesure, disposez des outils les plus pertinents afin de déployer toute votre <strong className="font-normal">visibilité sur le web</strong>. Nos experts vous accompagnent pour déterminer la <strong className="font-normal">solution créative</strong> adaptée à chaque <strong className="font-normal">projet</strong>.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" /> */}
               <button
@@ -182,7 +182,7 @@ class AgenceWebStrasbourg extends Component {
                 <span className="text-bleu">/</span>J'OPTE POUR L'EXPERTISE DE SPÉCIALISTES DU WEB
                 </h3>
               <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-              La <strong className="font-normal">réalisation de votre site</strong> et de votre communication ou <strong className="font-normal">marketing digital</strong> mérite que l’on active tous les <strong className="font-normal">leviers</strong> nécessaires pour vous apporter une notoriété digitale plus importante. L’identité visuelle du site, l’accès tous supports (mobile, tablette et ordinateur), les contenus optimisés et le web-design de chaque page sont des incontournables de la <strong className="font-normal">réalisation de vos projets</strong>. Le conseil de notre <strong className="font-normal">agence</strong> est pertinent pour vous positionner dans les <strong className="font-normal">résultats des moteurs comme Google</strong>.
+              La <strong className="font-normal">réalisation de votre site</strong> et de votre solution de communication ou <strong className="font-normal">marketing digital</strong> mérite que l’on active tous les <strong className="font-normal">leviers</strong> nécessaires pour vous apporter une notoriété digitale plus importante. L’identité visuelle du site, l’accès tous supports aussi appelé responsive design (mobile, tablette et ordinateur), les contenus optimisés et le web-design de chaque page sont des incontournables de la <strong className="font-normal">réalisation de vos projets</strong>. Le conseil de notre <strong className="font-normal">agence</strong> est pertinent pour vous positionner dans les <strong className="font-normal">résultats des moteurs comme Google</strong>.
                 </div>
               {/* <Button url="/contact-agence-web-toulouse/" text="Demander un devis" position="center" /> */}
               <button
@@ -202,7 +202,7 @@ class AgenceWebStrasbourg extends Component {
       </section>
                 
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence Web Strasbourg : Linkweb définit votre stratégie en création de site internet à Strasbourg ou référencement web</h2>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-tight">Agence Web Strasbourg : Linkweb définit votre stratégie marketing et de création de site internet à Strasbourg</h2>
                     <br />
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
@@ -225,7 +225,7 @@ class AgenceWebStrasbourg extends Component {
                                         <span className="text-bleu">/</span>+ de 10 ans d'expérience
                                 </h3>
                                     <br />
-                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Depuis 2008, nous proposons aux <strong className="font-normal">entreprises</strong> des accompagnements personnalisés et adaptés pour les <strong className="font-normal">réalisations</strong> de leurs supports web comme pour leur <strong className="font-normal">référencement</strong>.</p>
+                                    <p className="w-full century pb-4 text-justify"><p  /*data-aos='fade-left'*/ className="text-justify" >Depuis 2008, nous proposons aux <strong className="font-normal">entreprises</strong> des accompagnements personnalisés et adaptés pour les <strong className="font-normal">réalisations</strong> de leurs supports web comme pour leur <strong className="font-normal">référencement naturel</strong> ou <strong className="font-normal">référencmeent web Ads</strong>.</p>
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -252,7 +252,7 @@ class AgenceWebStrasbourg extends Component {
                                         <span className="text-bleu">/</span>+ de 300 sites en gestion
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Linkweb s’adresse aussi bien aux PME, aux TPE qu'aux Freelances, pour solutionner les <strong className="font-normal">problématiques digitales</strong> de tous les professionnels et leur apporter la <strong className="font-normal">visibilité</strong> qu'ils recherchent.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Linkweb s’adresse aussi bien aux PME et aux TPE qu'aux Freelances, pour solutionner les <strong className="font-normal">problématiques digitales</strong> de tous les professionnels et leur apporter la <strong className="font-normal">visibilité</strong> qu'ils recherchent.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -265,7 +265,7 @@ class AgenceWebStrasbourg extends Component {
                                         <span className="text-bleu">/</span>L'agence obtient 4,6/5 sur Google
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Cette note se base sur 117 avis clients, <strong className="font-normal">Linkweb</strong> met tout en œuvre pour satisfaire ses clients et cela se voit notamment sur sa fiche <strong className="font-normal">Google</strong> !</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Cette note se base sur 118 avis clients, <strong className="font-normal">Linkweb</strong> met tout en œuvre pour satisfaire ses clients et cela se voit notamment sur sa fiche <strong className="font-normal">Google</strong> !</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -278,7 +278,7 @@ class AgenceWebStrasbourg extends Component {
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Mettez toutes vos chances de votre côté et apportez notoriété et trafic pertinents à votre site en ligne. Déployez votre activité sur Internet pour atteindre vos prospects cibles.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Mettez toutes les chances de votre côté et apportez notoriété et trafic pertinents à votre site en ligne. Déployez votre activité sur Internet pour atteindre vos prospects cibles.</h3>
                     </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
@@ -289,7 +289,7 @@ class AgenceWebStrasbourg extends Component {
                             </div>
                             <div label="IMPULSEZ VOTRE ACTIVITÉ GRÂCE À UNE STRATÉGIE DIGITALE PERFORMANTE">
                                 <p>
-                                Grâce à un site performant, reprenant l’identité visuelle et la <strong className="font-normal">charte graphique</strong> de votre société, démarquez-vous de la concurrence et générez un <strong className="font-normal">trafic pertinent</strong>. Les contenus optimisés intégrés aux pages de votre support en ligne font partie des clefs de la <strong className="font-normal">communication digitale</strong>. Apportez à votre projet, des visites pertinentes et susceptibles de se transformer. Ainsi vous avez toutes les chances de réaliser des performances importantes et de manière régulière grâce à <strong className="font-normal">votre site internet</strong>.
+                                Grâce à un site performant, reprenant l’identité visuelle et la <strong className="font-normal">charte graphique</strong> de votre société, démarquez-vous de la concurrence et générez un <strong className="font-normal">trafic pertinent</strong>. Les contenus optimisés intégrés aux pages de votre support en ligne font partie des clefs de la <strong className="font-normal">communication digitale</strong>. Apportez à votre projet, des visites pertinentes et susceptibles de se transformer. Ainsi, vous avez toutes les chances de réaliser des performances importantes et de manière régulière grâce à <strong className="font-normal">votre site internet</strong> vitrine comme ecommerce.
                                 </p>
                             </div>
                             <div label="AUGMENTEZ VOTRE CHIFFRE D'AFFAIRES">
@@ -308,7 +308,7 @@ class AgenceWebStrasbourg extends Component {
                         <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0" />
                         <br />
                         <div className="flex items-end my-10 justify-end flex-col">
-                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Mettez en place la solution la plus adaptée à votre site grâce aux conseils que vous apporte l’<strong className="font-normal">équipe de l’agence</strong>. Faites vous connaître de tous et développez votre <strong className="font-normal">chiffre d'affaires</strong> à l’aide d'un support de communication personnalisé.</p>
+                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Nos solutions sont adaptées à votre site, elles sont mises en place grâce aux conseils que vous apporte l’<strong className="font-normal">équipe de l’agence</strong>. Chef de projet, développeurs et référenceurs vous aident à atteindre vos objectifs. Faites vous connaître de tous et développez votre <strong className="font-normal">chiffre d'affaires</strong> à l’aide d'un support de communication personnalisé.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
                                 <button
                                     className="font-light mx-auto roundedButton bg-bleu text-white hover:text-white flex mt-10 justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 "
