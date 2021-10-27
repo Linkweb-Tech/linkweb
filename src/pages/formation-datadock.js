@@ -110,7 +110,7 @@ class FormationDatadock extends Component {
                         <br />
                         <img className="mx-auto block" src={Datadock} width="250px" alt="Formation SEO Toulouse" />
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="text-xl text-black century">Découvrez les différentes offres en matière de formation par Linkweb. <br /><span className="font-bold">Nos formations sont accessibles en présentiel, mais aussi à distance.</span></h3>
+                        <h3 /*data-aos='fade-left'*/ className="text-xl text-black century">Découvrez les différentes offres en matière de formation par Linkweb. <br /><span className="font-bold">Nos formations sont accessibles à distance.</span></h3>
                         <br />
                         <section className="w-full md:w-1/2 xl:w-1/5 mx-auto flex flex-row px-6 py-6">
                             <div className="w-full md:w-1/3">
