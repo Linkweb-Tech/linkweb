@@ -308,7 +308,7 @@ class FormationDatadock extends Component {
                     </div>
                     <div className="w-full mx-auto block lg:w-3/12">
                         {/*<ButtonPage  text="CONTACTEZ-NOUS" url="/contact-agence-web-toulouse/" color="darkgrey" colortext="white"/>*/}
-                        <a href="/programme-formation-referencement-naturel.pdf" target="_blank" rel="noopener noreferer" className='font-light roundedButton bg-bleu text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12'>TÉLÉCHARGER LE PROGRAMME</a>
+                        <a href="/programme-formation-referencement-naturel-a-distance.pdf" target="_blank" rel="noopener noreferer" className='font-light roundedButton bg-bleu text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12'>TÉLÉCHARGER LE PROGRAMME</a>
                         <a href="/conditions-generales-de-vente.pdf" target="_blank" rel="noopener noreferer" className='font-light roundedButton bg-bleu text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12'>TÉLÉCHARGER NOS CGV</a>
                     </div>
                 </section>
