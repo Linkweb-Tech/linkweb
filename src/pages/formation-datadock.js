@@ -26,7 +26,7 @@ import skype from "../images/logo-skype.png";
 import whatsapp from "../images/logo-whatsapp.png";
 import zoom from "../images/logo-zoom.png";
 import Datadock from "../images/../images/logo_datadock.png";
-
+import Qualiopicertif from "../images/../images/logo-qualiopi.png";
 
 import scroll from "../images/motiontest.svg";
 import avsmoto from '../images/avsmoto-avis.png';
@@ -108,7 +108,14 @@ class FormationDatadock extends Component {
                         <br />
                         <hr className="border-solid w-1/12 border-1 border-bleu"></hr>
                         <br />
-                        <img className="mx-auto block" src={Datadock} width="250px" alt="Formation SEO Toulouse" />
+                        <div className="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center mx-auto flex-col md:flex-row">
+                            <div className="w-1/2 flex justify-center items-center">
+                                <img className="mx-auto block" src={Qualiopicertif} width="250px" alt="Formation SEO Toulouse" />
+                            </div>
+                            <div className="w-1/2 flex justify-center items-center">
+                                <img className="mx-auto block" src={Datadock} width="250px" alt="Formation SEO Toulouse" />
+                            </div>
+                        </div>
                         <br />
                         <h3 /*data-aos='fade-left'*/ className="text-xl text-black century">Découvrez les différentes offres en matière de formation par Linkweb. <br /><span className="font-bold">Nos formations sont accessibles à distance.</span></h3>
                         <br />
@@ -584,7 +591,7 @@ class FormationDatadock extends Component {
                             <p className="text-white" style={{ fontSize: '16px' }}>
                                 Cela fait suite à la dernière réforme de la <strong>formation professionnelle</strong>. Dans les faits, <strong>Qualiopi</strong> désigne tout simplement une nouvelle <strong>certification de qualité</strong> pour les <strong>prestataires de formation</strong> assurant une <strong>action de formation</strong>, à l’image de Linkweb.<br />
                                 <br />
-                            Face à cette évolution, Linkweb est d’ores-et-déjà mobilisé en vue de l’<strong>acquisition de cette certification</strong> pour continuer à proposer des <strong>formations de qualité</strong> financées par les différents <strong>organismes financeurs</strong>.<br />
+                            Pour répondre à cette évolution, Linkweb est désormais certifié Qualiopi pour continuer à proposer des <strong>formations de qualité</strong> financées par les différents <strong>organismes financeurs</strong>.<br />
                             </p>
                         </div>
 
