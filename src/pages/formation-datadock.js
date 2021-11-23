@@ -366,7 +366,7 @@ class FormationDatadock extends Component {
                                         <span className="text-bleu">/</span>Des formations qualifiantes via un organisme certifié
                 </h3>
                                     <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                        En optant pour la <strong>formation professionnelle</strong> par Linkweb, vous faites appel à un organisme agréé et concourrez à l’obtention de <strong>certifications professionnelles qualifiantes</strong> (par <strong>validation des acquis de l’expérience ou VAE</strong>) pour votre avenir professionnel.
+                                        En optant pour la <strong>formation professionnelle</strong> par Linkweb, vous faites appel à un organisme agréé et concourrez à la réalisation de <strong>formations professionnelles</strong> (par <strong>validation des acquis de l’expérience ou VAE</strong>) pour votre avenir en entreprise.
                 </div>
                                 </section>
                             </div>
@@ -408,7 +408,7 @@ class FormationDatadock extends Component {
                         <hr className="border-solid w-1/6 border-white"></hr>
                         <br />
                         <h3 /*data-aos='fade-left'*/ className="text-xl max-w-5xl text-center century text-black px-4 pb-0"><span className="font-bold">En tant qu’organisme référencé DataDock, Linkweb vous permet de bénéficier d’une multitude de solutions pour le financement de la formation de votre choix.</span><br /><br />
-                            Se former et obtenir une certification professionnelle est donc accessible à tous en participant à nos formations. Voici les principales solutions de financement des formations.</h3>
+                            Se former professionnellement est donc accessible à tous en participant à nos formations. Voici les principales solutions de financement des formations.</h3>
                     </section>
                     <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
                         <div className="w-full flex justify-center items-center lg:w-5/12">
