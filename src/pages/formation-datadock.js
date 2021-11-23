@@ -336,11 +336,10 @@ class FormationDatadock extends Component {
                         <h4 className="century text-xl"><span className="font-bold">L’agence web Linkweb fait partie des organismes de formation référencés DataDock conformément au Décret n°2015-790 du 30 juin 2015 relatif à la qualité des actions de la formation professionnelle continue.</span></h4>
                         <br />
                         <p style={{ fontSize: '16px' }}>
-                            <strong>DataDock</strong> est une base de données qui a pour vocation de référencer l’ensemble des <strong>formations professionnelles</strong> de France. L’ensemble des formations référencées sont éligibles au <strong>compte personnel de formation (CPF)</strong>.<br />
+                            <strong>DataDock</strong> est une base de données qui a pour vocation de référencer l’ensemble des <strong>formations professionnelles</strong> de France. L’ensemble des formations référencées sont éligibles à <strong>certaines aides financières</strong>.<br />
+                            {/*Le <strong>CPF</strong> permet à chaque actif, dès son entrée sur le marché du travail, d’acquérir des <strong>droits à la formation</strong>, et ce, tout au long de sa carrière professionnelle. Depuis 2019, le CPF est crédité en euros. <br />*/}
                             <br />
-                            Le <strong>CPF</strong> permet à chaque actif, dès son entrée sur le marché du travail, d’acquérir des <strong>droits à la formation</strong>, et ce, tout au long de sa carrière professionnelle. Depuis 2019, le CPF est crédité en euros. <br />
-                            <br />
-                            Autrement dit, les <strong>formations professionnelles</strong> proposées par les <strong>organismes de formation référencés DataDock</strong> peuvent être financées par le <strong>CPF</strong>, mais aussi par l’ensemble des <strong>organismes financiers de la formation professionnelle</strong> tels que les <strong>OPCA</strong> (Organismes Paritaires et Collecteurs Agréés), Pôle Emploi, OPACIF, AGEFIPH. Vous n’avez donc rien à débourser.<br />
+                            Autrement dit, les <strong>formations professionnelles</strong> proposées par les <strong>organismes de formation référencés DataDock</strong> peuvent être financées par l’ensemble des <strong>organismes financiers de la formation professionnelle</strong> tels que les <strong>OPCA</strong> (Organismes Paritaires et Collecteurs Agréés), Pôle Emploi, OPACIF, AGEFIPH. Vous n’avez donc rien à débourser.<br />
                         </p>
                     </div>
 
@@ -417,11 +416,12 @@ class FormationDatadock extends Component {
                         </div>
                         <div className="w-full lg:w-1/2 my-10  flex flex-col">
                             <Accordion>
-                                <div className="w-full" label="PRENEZ CONNAISSANCE DE VOTRE COMPTE DE FORMATION">
+                            {/*  <div className="w-full" label="PRENEZ CONNAISSANCE DE VOTRE COMPTE DE FORMATION">
                                     <p className="w-full century pb-4 text-justify">Toute personne salariée, tout au long de sa carrière professionnelle, bénéficie d’un <strong>droit à la formation</strong>. Si vous êtes dans ce cas de figure, vous devrez vous rendre sur votre espace personnel à l’aide de votre numéro de sécurité sociale pour consulter vos droits. S’il s’agit de votre première connexion, vous devrez créer un compte. </p>
                                     <br />
                                     <p className="w-full century pb-4 text-justify">Par défaut, <strong>ce dernier est crédité de 500€ par an dans la limite de 5000€ cumulés</strong>. Ce montant peut s’élever <strong>jusqu’à 800€ dans la limite de 8000€ cumulés</strong> si vous êtes considéré comme <strong>salarié non qualifié</strong> (en dessous d’un niveau 3).</p>
                                 </div>
+                            */}
                                 <div label="L'AIDE INDIVIDUELLE À LA FORMATION (AIF) À DESTINATION DES DEMANDEURS D'EMPLOI AVEC PÔLE EMPLOI">
                                     <p className="w-full century pb-4 text-justify">Si vous êtes en <strong>situation de recherche d’emploi</strong>, <strong>Pôle Emploi</strong> propose une <strong>aide individuelle à la formation (AIF)</strong> en vue de financer vos <strong>actions de formation</strong>. Toutefois, pour y être éligible, la formation sélectionnée doit s’inscrire parfaitement dans votre <strong>projet professionnel</strong>.</p>
                                     <br />
