@@ -213,8 +213,6 @@ class Footer extends Component {
                             </ul>
                             <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"><img className="ml-4 mt-4" src={Datadock} width="200px" alt="Formation SEO Toulouse" /></a>
                         </div>
-                        <a  className="text-xs text-white century text-left ml-4" href="https://webenews.fr/" target="_blank" rel="noopener noreferer">webenews.fr</a>
-
                     </section>
                     <section className="w-full md:w-1/2 lg:w-1/4 py-6 md:px-4 px-4 flex flex-col liens">
                         <div className="flex flex-col  items-center">
