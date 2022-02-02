@@ -376,7 +376,7 @@ class SiteInternetElectricien extends Component {
                                 </p>
                             </div>
                             <div label="OBTENIR DE LA VISIBILITÉ POUR GÉNÉRER DES CONTACTS PERTINENTS">
-                                <p>Un <strong>site internet performant</strong> est un <strong className="font-bold">site internet visible</strong>. En effet, la <strong>création d’un site internet professionnel</strong> nécessite la mise en place d’une <strong className="font-bold">stratégie de visibilité</strong> adaptée. C’est pourquoi, nous déterminons une <strong>stratégie de référencement naturel</strong> orientée pour <strong className="font-bold">générer du trafic</strong> et <strong className="font-bold">attirer de potentiels clients</strong>.
+                                <p>Un <strong>site internet performant</strong> est un <strong className="font-bold">site internet visible</strong>. En effet, la <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d’un site internet professionnel à Agen</Link></strong> nécessite la mise en place d’une <strong className="font-bold">stratégie de visibilité</strong> adaptée. C’est pourquoi, nous déterminons une <strong>stratégie de référencement naturel</strong> orientée pour <strong className="font-bold">générer du trafic</strong> et <strong className="font-bold">attirer de potentiels clients</strong>.
                             <br /><br />
                                     Par ailleurs, nous proposons des <strong>stratégies de référencement sur-mesure</strong> pour coller au mieux à vos besoins et vous permettre d’<strong>obtenir des premiers résultats</strong> à court ou moyen terme.
                             <br /><br />
@@ -388,7 +388,7 @@ class SiteInternetElectricien extends Component {
                                 <br /><br />
                                 À ce niveau, la mise en place d’un <strong>site web professionnel</strong> doit résulter d’un travail autour de la <strong className="font-bold">création d’une interface intuitive</strong> et d’une <strong className="font-bold">expérience utilisateur</strong> soignée. Ceci est indispensable pour amener les utilisateurs où vous souhaitez qu’ils aillent.
                                 <br /><br />
-                                De plus, un <strong>site web</strong> dont la <strong>navigation</strong> sera facilitée est un <strong>site web</strong> susceptible d’<strong className="font-bold">obtenir des contacts</strong> et donc de vous permettre d'<strong className="font-bold">atteindre vos objectifs</strong>.
+                                De plus, un <strong>site web</strong> dont la <strong>navigation</strong> sera facilitée est un <strong>site web</strong> susceptible d’<strong className="font-bold">obtenir des contacts</strong> et donc de vous permettre d'<strong className="font-bold">atteindre vos objectifs</strong>. Notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> tient compte de ces critères pour développer des projets web performants.
                             </p>
                             </div>
                         </Accordion>

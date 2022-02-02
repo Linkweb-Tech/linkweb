@@ -248,7 +248,7 @@ class SiteInternetAvocat extends Component {
                                 <span className="text-bleu">4/</span>NOUS METTONS EN ROUTE LA RÉALISATION DE VOTRE PROJET
                     </h3>
                             <h4 className="century text-lg pb-3 text-justify" /*data-aos='fade-left'*/>
-                                <span className="font-bold">Après que vous ayez validé notre proposition graphique et éditoriale, nos techniciens réalisent la mise en ligne votre site internet.</span>
+                                <span className="font-bold">Après que vous ayez validé notre proposition graphique et éditoriale, les techniciens de notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link> réalisent la mise en ligne votre site internet.</span>
                             </h4>
                             <p /*data-aos='fade-bottom'*/ className="text-justify century">Lorsque <strong className="font-normal">votre site internet</strong> est publié sur le <strong className="font-normal">nom de domaine</strong> choisi, nos <strong className="font-normal">référenceurs web</strong> mettent en place toutes les optimisations nécessaires pour <strong className="font-normal">être visible sur les moteurs de recherche</strong>. Par la suite, des mises à jours et modifications sont régulièrement effectuées grâce au suivi mis en place.</p>
                         </div>
@@ -360,7 +360,7 @@ class SiteInternetAvocat extends Component {
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                             <div className="w-full" label="METTRE EN AVANT VOS DOMAINES DE COMPÉTENCES">
-                                <p>La <strong>création d’un site internet</strong> est un moyen pertinent de <strong>faire connaître son activité</strong> professionnelle. Au-delà de présenter votre activité, le <strong>site internet</strong> vous permet de mettre en avant vos <strong>domaines de compétences</strong> pour permettre aux utilisateurs d’accéder à un <strong>avocat</strong> comme vous. Ceci est important en vue de <strong>proposer un contenu pertinent</strong> vis-à-vis des <strong>requêtes des utilisateurs sur les moteurs de recherche</strong>.
+                                <p>La <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d’un site internet à Agen</Link></strong> est un moyen pertinent de <strong>faire connaître son activité</strong> professionnelle. Au-delà de présenter votre activité, le <strong>site internet</strong> vous permet de mettre en avant vos <strong>domaines de compétences</strong> pour permettre aux utilisateurs d’accéder à un <strong>avocat</strong> comme vous. Ceci est important en vue de <strong>proposer un contenu pertinent</strong> vis-à-vis des <strong>requêtes des utilisateurs sur les moteurs de recherche</strong>.
                             <br /><br />
                             Par ailleurs, le <strong>site web</strong> est un parfait moyen de <strong>communication</strong> pour exposer et démontrer votre <strong>expertise</strong> dans votre <strong>domaine de compétences</strong>. En effet, ceci est important pour montrer votre crédibilité à l’ensemble des <strong>acteurs présents sur le Web</strong>. De ce point de vue, le <strong>site web</strong> est un outil particulièrement complet.</p>
                             </div>

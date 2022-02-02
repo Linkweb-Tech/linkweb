@@ -240,7 +240,7 @@ class SiteInternetHotel extends Component {
                                 <span className="text-bleu">3/</span>VOUS VALIDEZ LE PROJET UNE FOIS QU’IL VOUS CORRESPOND
                     </h3>
                             <h4 className="century text-lg pb-3 text-justify" /*data-aos='fade-left'*/>
-                                <span className="font-bold">À la suite de notre rencontre, nous vous proposons une maquette visuelle et des textes rédigés et optimisés spécifiquement pour votre site web.</span>
+                                <span className="font-bold">À la suite de notre rencontre, notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link> vous propose une maquette visuelle et des textes rédigés et optimisés spécifiquement pour votre site web.</span>
                             </h4>
                             <p /*data-aos='fade-bottom'*/ className="text-justify century">La livraison de la <strong className="font-normal">maquette</strong> est le moment pour vous de suggérer vos ajustements quant aux textes rédigés ainsi que sur l'aspect visuel du site. Une fois les modifications réalisées, vous serez libres de <strong className="font-normal">valider la maquette de votre futur site web</strong>.</p>
                         </div>
@@ -364,7 +364,7 @@ class SiteInternetHotel extends Component {
                             <div className="w-full" label="FAIRE CONNAÎTRE SON HÔTEL AVEC UN SITE WEB">
                                 <p>Pour faire ses premiers pas <strong>sur le Web</strong>, le <strong>site internet</strong> est un parfait outil afin de <strong>faire connaître son établissement</strong>. Non seulement il permet de <strong>développer sa notoriété</strong>, mais il peut également permettre de <strong>promouvoir ses prestations</strong> et l’environnement dans lequel il s’inscrit.
                             <br /><br />
-                                    Le <strong>site internet</strong> est un bon moyen de <strong>présenter vos prestations</strong> et <strong>développer votre visibilité grâce au Web</strong> afin d’<strong>atteindre vos objectifs</strong>. Faites connaître votre travail avec un <strong>site web</strong> taillé à votre mesure et <strong>à votre image</strong>.
+                                    La <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d'un site internet à Agen</Link></strong> est un bon moyen de <strong>présenter vos prestations</strong> et <strong>développer votre visibilité grâce au Web</strong> afin d’<strong>atteindre vos objectifs</strong>. Faites connaître votre travail avec un <strong>site web</strong> taillé à votre mesure et <strong>à votre image</strong>.
                             </p>
                             </div>
                             <div label="OBTENIR DE LA VISIBILITÉ POUR DÉVELOPPER SON CHIFFRE D'AFFAIRES">

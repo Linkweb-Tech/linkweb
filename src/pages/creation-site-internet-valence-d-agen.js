@@ -154,7 +154,7 @@ class CreationSiteInternetValencePage extends Component {
                                     <span className="text-bleu">/</span>JE VEUX EN SAVOIR PLUS SUR LA CRÉATION DE SITE INTERNET
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    La <strong>création de site internet</strong> demande un travail particulièrement aiguisé. Le public visé, l’utilisateur, les <strong>moteurs de recherche</strong> et le <strong>référencement</strong> sont autant de paramètres qu’il est nécessaire de prendre en compte pour mener à bien sa stratégie.
+                                    La <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de site internet à Agen</Link></strong> demande un travail particulièrement aiguisé. Le public visé, l’utilisateur, les <strong>moteurs de recherche</strong> et le <strong>référencement</strong> sont autant de paramètres qu’il est nécessaire de prendre en compte pour mener à bien sa stratégie.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
 
@@ -201,7 +201,7 @@ class CreationSiteInternetValencePage extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-10 pb-0">
                     <div className="w-full max-w-5xl" /*data-aos='zoom-in'*/>
-                        <p className="text-md text-center pt-4 century">Vous souhaitez une création de site internet à Valence d'Agen ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. <br /><br />Notre agence web Linkweb répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
+                        <p className="text-md text-center pt-4 century">Vous souhaitez une création de site internet à Valence d'Agen ? Avoir un site internet professionnel est indispensable pour chaque entreprise de nos jours. <br /><br />Notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web Linkweb à Agen</Link> répond à vos attentes pour <strong>créer un site web</strong> qui s’adapte à vos besoins.</p>
                     </div>
                 </section>
                 <section className="flex w-full flex-col lg:flex-row mx-auto px-4 md:py-6 md:my-4">

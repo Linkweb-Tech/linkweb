@@ -221,7 +221,7 @@ class CreationSiteInternetCatalogue extends Component {
 
                 </section>
                 <section className="max-w-6xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                    <p className="text-xl font-bold century text-center">Pour la <strong>création de votre site internet</strong>, faites confiance à un spécialiste de la <strong>création de sites internet à Agen et Toulouse</strong> depuis plus de dix ans.</p>
+                    <p className="text-xl font-bold century text-center">Pour la <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de votre site internet à Agen</Link></strong>, faites confiance à un spécialiste de la <strong>création de sites internet à Agen et Toulouse</strong> depuis plus de dix ans.</p>
                     <br />
                     <div className="w-full flex flex-col sm:flex-row text-center my-6">
                         <div className="w-full sm:w-1/3 flex flex-col items-center justify-center my-6 px-12" data-aos='zoom-in' data-aos-delay="200">
@@ -599,7 +599,7 @@ class CreationSiteInternetCatalogue extends Component {
                     <hr className="blue"></hr>
                     <br />
                     <h4 data-aos='fade-left' className="text-xl text-grey text-center century italic pb-6">
-                        Vous souhaitez en savoir plus sur nos prestations d’agence web à Agen (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
+                        Vous souhaitez en savoir plus sur nos prestations d’<Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> (47) et Toulouse (31) ? Découvrez nos autres prestations, ainsi que nos différentes réalisations.</h4>
                     <br />
                     <section className="flex flex-col md:flex-row">
                         <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{ borderRadius: '5px' }}>

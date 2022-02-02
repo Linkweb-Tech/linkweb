@@ -366,7 +366,7 @@ class SiteInternetAutomobile extends Component {
                             <div className="w-full" label="UN SITE WEB POUR PRÉSENTER SES RÉFÉRENCES">
                                 <p><strong>Créer un site internet</strong> quand on est <strong>professionnel dans l’automobile</strong> est important, non seulement pour travailler son <strong>image d’entreprise</strong>, mais surtout pour <strong>promouvoir ses produits et services</strong>. Il est essentiel de se montrer disponible pour les consommateurs souhaitant acquérir un produit.
                             <br /><br />
-                                    Pour ce faire, présenter vos références de produits au sein d’un <strong>site internet catalogue</strong> ou bien d’une <strong>boutique en ligne</strong> va vous permettre de répondre aux besoins des utilisateurs. La <strong>création d’un site internet</strong> de ce type vous permet de détailler toutes vos références et d’être disponible grâce à un outil efficace.
+                                    Pour ce faire, présenter vos références de produits au sein d’un <strong>site internet catalogue</strong> ou bien d’une <strong>boutique en ligne</strong> va vous permettre de répondre aux besoins des utilisateurs. La <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold"><strong>création d’un site internet </strong> de ce type à Agen</Link> vous permet de détailler toutes vos références et d’être disponible grâce à un outil efficace.
                             </p>
                             </div>
                             <div label="DÉVELOPPER SON CHIFFRE D'AFFAIRES AVEC UN SITE WEB PERFORMANT">
@@ -376,7 +376,7 @@ class SiteInternetAutomobile extends Component {
                                 </p>
                             </div>
                             <div label="DÉVELOPPER SA COMMUNICATION D'ENTREPRISE AVEC UN OUTIL TAILLÉ POUR VOUS">
-                                <p>La <strong>création d’un site internet</strong> est également un moyen pour façonner son <strong>image d’entreprise</strong>. Grâce à une plateforme <strong>à votre image</strong>, déterminée en fonction de votre <strong>identité visuelle</strong> ainsi que de vos valeurs, vous bénéficiez d’un atout considérable pour <strong>développer la communication de votre entreprise</strong>.
+                                <p>La <strong>création d’un site internet</strong> avec une <Link to="/" className="text-bleu hover:text-black font-bold">agence web comme Linkweb à Toulouse</Link> est également un moyen pour façonner son <strong>image d’entreprise</strong>. Grâce à une plateforme <strong>à votre image</strong>, déterminée en fonction de votre <strong>identité visuelle</strong> ainsi que de vos valeurs, vous bénéficiez d’un atout considérable pour <strong>développer la communication de votre entreprise</strong>.
                             <br /><br />
                                     En ce sens, <strong>travailler votre image de marque</strong> sera possible grâce à un <strong>site internet efficace</strong>. Il constitue une parfaite base pour rassembler vos plus fidèles clients et en acquérir de nouveaux grâce à une <strong>communication maîtrisée</strong>.</p>
                             </div>

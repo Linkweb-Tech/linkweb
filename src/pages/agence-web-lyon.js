@@ -265,7 +265,7 @@ class AgenceWebLyon extends Component {
                                         <span className="text-bleu">/</span>L'agence obtient 4,6/5 sur Google
                                     </h3>
                                     <br />
-                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal"><Link to="/agence-web-agen/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link></strong> reçoit une note basée sur 118 avis laissés par nos clients sur sa fiche <strong className="font-normal">Google</strong> : celle-ci témoigne de leur satisfaction.</p>
+                                    <p  /*data-aos='fade-left'*/ className="w-full century pb-4 text-justify">Notre <strong className="font-normal"><Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link></strong> reçoit une note basée sur 118 avis laissés par nos clients sur sa fiche <strong className="font-normal">Google</strong> : celle-ci témoigne de leur satisfaction.</p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
@@ -285,7 +285,7 @@ class AgenceWebLyon extends Component {
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                             <div className="w-full" label="DÉPLOYEZ VOTRE VISIBILITÉ SUR DE NOUVEAUX CANAUX">
-                                <p>Grâce à la performance générée par le travail de notre <strong className="font-normal">agence digitale</strong>, améliorez votre visibilité et captez l'attention de vos prospects cibles. Améliorez votre notoriété en activant de nombreux <strong className="font-normal">leviers</strong> et en exploitant tout le potentiel qu’offre Internet pour dynamiser l’<strong className="font-normal">activité de votre entreprise</strong>. En atteignant la tête de liste des <strong className="font-normal">résultats de recherches</strong> des moteurs, vous gagnez en visibilité.</p>
+                                <p>Grâce à la performance générée par le travail de notre <strong className="font-normal">agence web</strong>, améliorez votre visibilité et captez l'attention de vos prospects cibles. Améliorez votre notoriété en activant de nombreux <strong className="font-normal">leviers</strong> et en exploitant tout le potentiel qu’offre Internet pour dynamiser l’<strong className="font-normal">activité de votre entreprise</strong>. En atteignant la tête de liste des <strong className="font-normal">résultats de recherches</strong> des moteurs, vous gagnez en visibilité.</p>
                             </div>
                             <div label="DÉVELOPPEZ VOTRE ACTIVITÉ SUR LA SPHÈRE DIGITALE">
                                 <p>
@@ -293,7 +293,7 @@ class AgenceWebLyon extends Component {
                                 </p>
                             </div>
                             <div label="AUGMENTEZ VOTRE CHIFFRE D'AFFAIRES">
-                                <p>Grâce à un <strong className="font-normal">site responsive</strong> accessible sur mobile, tablette et ordinateur, une interface graphique et intuitive ainsi qu’un contenu optimisé et pertinent, vous êtes en capacité de <strong className="font-normal">transformer vos visiteurs en clients</strong>. L’évolution de votre <strong className="font-normal">site en ligne sur le web</strong> vous permet de rentabiliser son développement et d'augmenter votre <strong className="font-normal">chiffre d’affaires</strong>. Nos <strong className="font-normal">réalisations sur-mesure</strong> sont pensées pour vous apporter un maximum de résultats et vous satisfaire sur tous les plans.</p>
+                                <p>Grâce à un <strong className="font-normal">site responsive</strong> accessible sur mobile, tablette et ordinateur, une interface graphique et intuitive ainsi qu’un contenu optimisé et pertinent, vous êtes en capacité de <strong className="font-normal">transformer vos visiteurs en clients</strong>. L’évolution de votre <strong className="font-normal">site en ligne sur le web</strong> vous permet de rentabiliser son développement et d'augmenter votre <strong className="font-normal">chiffre d’affaires</strong>. Nos <strong className="font-normal">réalisations sur-mesure</strong> sont pensées pour vous apporter un maximum de résultats et vous satisfaire sur tous les plans. La <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de votre site internet à Agen</Link> est un atout pour votre stratégie.</p>
                             </div>
                         </Accordion>
                     </div>

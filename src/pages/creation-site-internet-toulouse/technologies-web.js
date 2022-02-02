@@ -128,7 +128,7 @@ render() {
                         
                         <p>Une fois l’ensemble des éléments réunis, le développeur va déterminer une <strong>solution adaptée et fonctionnelle</strong> en identifiant les outils qui lui permettront d’arriver à ses fins. Pour un <strong>site web créé via Wordpress</strong>, les considérations ne seront pas moindres. Sélectionner les bonnes extensions, faire le choix d’un thème modulable et rendre la solution parfaitement fonctionnelle sont autant d’enjeux qui incombent dès la conception du <strong>projet web</strong> et plus particulièrement dès la <strong>création du site internet</strong>.</p>
                         
-                        <p>De la <strong>création de site internet</strong> « en dur » ou bien via l’utilisation d’applications de différents, types nos <strong>développeurs web</strong> réalisent des arbitrages pour choisir la solution la mieux adaptée en fonction de <strong>votre projet web</strong>.</p>
+                        <p>De la <strong>création de site internet</strong> « en dur » ou bien via l’utilisation d’applications de différents types, les <strong>développeurs web</strong> de notre <Link to="/" className="font-bold text-bleu hover:text-black">agence web à Agen</Link> réalisent des arbitrages pour choisir la solution la mieux adaptée en fonction de <strong>votre projet web</strong>.</p>
 
                         <p>En effet, la solution de <strong>développement web</strong> la plus adaptée sera déterminée en fonction de différents facteurs. Parmi eux, nous pouvons citer le <strong>développement de fonctionnalités</strong> précises, le <strong>référencement naturel</strong> ou encore le besoin d'accèder à une administration par exemple.</p>
 
@@ -266,7 +266,7 @@ render() {
                         <br/>
                         <h2>Quelles sont les différentes technologies web pour créer un site ?</h2>
                         <br/>
-                        <p>Ces langages vont être essentiels dans la <strong>création de sites internet</strong>. Parallèlement, il faut savoir que différentes <strong>applications web</strong> ont été développées pour permettre de faciliter l’utilisation de ces différents ressources.</p> 
+                        <p>Ces langages vont être essentiels dans la <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu font-bold hover:text-black">création de sites internet à Agen</Link></strong>. Parallèlement, il faut savoir que différentes <strong>applications web</strong> ont été développées pour permettre de faciliter l’utilisation de ces différents ressources.</p> 
 
                         <p>Parmi elles, nous pouvons citer les <strong>CMS (systèmes de gestion de contenus)</strong>, les <strong>frameworks</strong> (ou bibliothèques), mais aussi les <strong>gestionnaires de bases de données</strong>.</p>
 

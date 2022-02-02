@@ -388,7 +388,7 @@ class SiteInternetMacon extends Component {
                                 <br /><br />
                                 Ceci est indispensable en vue du <strong>développement de votre entreprise</strong>. En effet, il est important de travailler son <strong>image de marque</strong> en soignant le <strong>contenu de son site web</strong> et en proposant le <strong className="font-bold">maximum d’informations à destination des utilisateurs</strong>.
                                 <br /><br />
-                                C'est pourquoi, <strong>mettre en place un site internet</strong> performant suppose la <strong className="font-bold">création de contenus de qualité</strong> en adéquation avec les <strong>attentes des internautes</strong>. C’est de cette façon que vous atteindrez de <strong>nouveaux clients</strong>.
+                                C'est pourquoi, <strong>la <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d'un site internet performant à Agen</Link></strong> suppose la <strong className="font-bold">création de contenus de qualité</strong> en adéquation avec les <strong>attentes des internautes</strong>. C’est de cette façon que vous atteindrez de <strong>nouveaux clients</strong>.
                                 </p>
                             </div>
                             <div label="DÉVELOPPER LA VISIBILITÉ DE SON ENTREPRISE AVEC LE RÉFÉRENCEMENT NATUREL">
@@ -398,7 +398,7 @@ class SiteInternetMacon extends Component {
                             <br /><br />
                                 Les stratégies que nous menons sont définies en fonction de vos objectifs, de vos cibles, mais pas seulement. De plus, elles sont évolutives. C’est pourquoi, un suivi est effectué pour vous permettre d’envisager des ajustements, mais également pour vous engager dans des opportunités qui s’offriront à vous.
                             <br /><br />
-                                De la mise en place d’un <strong>code HTML</strong> valide vis-à-vis des <strong className="font-bold">standards du web</strong>, à la <strong className="font-bold">rédaction web optimisée pour des mots-clés finement sélectionnés</strong>, notre travail a pour vocation de vous apporter des performances maximales.
+                                De la mise en place d’un <strong>code HTML</strong> valide vis-à-vis des <strong className="font-bold">standards du web</strong>, à la <strong className="font-bold">rédaction web optimisée pour des mots-clés finement sélectionnés</strong>, le travail de notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> a pour vocation de vous apporter des performances maximales.
                                 </p>
                             </div>
                             <div label="GÉNÉRER DE L'ACTIVITÉ POUR SON ENTREPRISE GRÂCE À UN SITE WEB PERFORMANT">

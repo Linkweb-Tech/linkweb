@@ -249,7 +249,7 @@ class SiteInternetCoiffeur extends Component {
                                 <span className="text-bleu">4/</span>NOUS METTONS EN ROUTE LA RÉALISATION DE VOTRE PROJET
                     </h3>
                             <h4 className="century text-lg pb-3 text-justify" /*data-aos='fade-left'*/>
-                                <span className="font-bold">Après que vous ayez validé notre proposition graphique et éditoriale, nos techniciens réalisent la mise en ligne votre site internet.</span>
+                                <span className="font-bold">Après que vous ayez validé notre proposition graphique et éditoriale, les techniciens de notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link> réalisent la mise en ligne votre site internet.</span>
                             </h4>
                             <p /*data-aos='fade-bottom'*/ className="text-justify century">Lorsque <strong className="font-normal">votre site internet</strong> est publié sur le <strong className="font-normal">nom de domaine</strong> choisi, nos <strong className="font-normal">référenceurs web</strong> mettent en place toutes les optimisations nécessaires pour <strong className="font-normal">être visible sur les moteurs de recherche</strong>. Par la suite, des mises à jours et modifications sont régulièrement effectuées grâce au suivi mis en place.</p>
                         </div>
@@ -364,7 +364,7 @@ class SiteInternetCoiffeur extends Component {
                             <div className="w-full" label="UN SITE WEB POUR FAIRE CONNAÎTRE SON ENTREPRISE">
                                 <p>Pour faire ses premiers pas <strong>sur le Web</strong>, le <strong>site internet</strong> est un parfait outil afin de <strong>faire connaître son entreprise</strong>. Non seulement il permet de <strong>développer sa notoriété</strong>, mais il peut également permettre de <strong>promouvoir son activité et ses réalisations</strong>.
                             <br /><br />
-                            Le <strong>site internet</strong> est un bon moyen de <strong>présenter vos services</strong>, <strong>développer votre visibilité grâce au Web</strong> et ainsi mener de nouveaux projets. Faites connaître votre travail avec un <strong>site web</strong> taillé à votre mesure et <strong>à votre image</strong>.
+                            La <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de site internet site internet à Agen</Link></strong> est un bon moyen de <strong>présenter vos services</strong>, <strong>développer votre visibilité grâce au Web</strong> et ainsi mener de nouveaux projets. Faites connaître votre travail avec un <strong>site web</strong> taillé à votre mesure et <strong>à votre image</strong>.
                             </p>
                             </div>
                             <div label="OBTENIR DE LA VISIBILITÉ POUR DÉVELOPPER SON CHIFFRE D'AFFAIRES">

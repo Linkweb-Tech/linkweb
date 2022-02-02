@@ -591,7 +591,7 @@ class CreationSiteInternetBordeauxPage extends Component {
                 <section className="max-w-5xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3 bg-gris p-10">
                     <h2 className="century text-center text-2xl tracking-wider pb-3 leading-tight"><span className="text-bleu">/</span>Vous portez un projet de création de site internet à Agen ?</h2>
                     <br />
-                    <p className="century text-center text-md">Linkweb conduit votre projet <strong>de création de site internet à Agen</strong>, de sa conception à sa réalisation. Notre équipe vous accompagne dans la mise en route technique et dans le choix de la stratégie éditoriale à adopter pour répondre à vos objectifs.</p>
+                    <p className="century text-center text-md">Linkweb conduit votre projet <strong>de création de site internet à Agen</strong>, de sa conception à sa réalisation. L'équipe de notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> vous accompagne dans la mise en route technique et dans le choix de la stratégie éditoriale à adopter pour répondre à vos objectifs.</p>
                     <div className="max-w-sm mx-auto block">
                         <RoundButton url="/creation-de-site-internet-a-agen/" text="J'ai un projet de création à Agen" />
                     </div>
