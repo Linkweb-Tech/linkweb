@@ -144,6 +144,14 @@ footer {
     background-position:center top;
 }
 
+.bg-creationagen {
+    background:#000000ad url("../images/creation-site-internet-a-agen.jpg");
+    background-blend-mode:overlay; 
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-position:center top;
+}
+
 .roundedButton {
     transition: all ease 0.7s;
     position: relative;
@@ -611,6 +619,38 @@ color:white;
     min-height: 100vh;
 }
 .blocpresta {
+    
+    ul li .check {
+        color:#37cfee;
+        width:25%;
+        text-align:center;
+    }
+    hr {
+        width:25%;
+        border:solid 1px #37cfee;
+        margin-top:5px;
+        margin-bottom:10px;
+    }
+
+}
+
+.blocprestaagen {
+    
+    width:100%;
+    background:#000000e1 url('../images/creation-de-site-web-a-agen.jpg');
+    background-size:cover;
+    background-blend-mode:multiply;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-align:center;
+    min-height: 100vh;
+}
+.blocprestaagen {
     
     ul li .check {
         color:#37cfee;
