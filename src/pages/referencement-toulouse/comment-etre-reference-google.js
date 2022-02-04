@@ -64,7 +64,7 @@ render() {
                     <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
                     Comment être référencé sur Google ?
                     </h2>
-                    <Link to="/referencement-toulouse/"><h1 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Agence SEO à Toulouse</h1></Link>
+                    <h1 className="century text-xl sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Agence SEO à Toulouse</h1>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
