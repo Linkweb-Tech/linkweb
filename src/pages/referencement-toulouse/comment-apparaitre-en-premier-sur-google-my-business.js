@@ -61,10 +61,10 @@ render() {
                 transitionTime={200}
             > */}
                 <section className="w-full bloctitrespages mx-auto pb-0 px-4 pt-6 bg-black flex flex-col justify-center items-center" style={{background:'#00000094 url(' + background +')', backgroundBlendMode:'multiply', backgroundSize:'cover', backgroundPosition:'center', height:'450px'}}>
-                    <h2 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
+                    <h1 data-aos="fade-down" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white mt-40">
                     Comment apparaître en premier sur Google My Business ?
-                    </h2>
-                    <h1 className="century text-xl sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Agence SEO à Toulouse</h1>
+                    </h1>
+                    <h2 className="century text-xl sm:text-2xl text-center text-white" data-aos="fade-up" data-aos-delay="500">Agence SEO à Toulouse</h2>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
