@@ -234,7 +234,7 @@ render() {
 
                             <p>Tout son intérêt dépend de la mise en place d’un outil fonctionnel présentant l’ensemble des informations nécessaires tout en donnant la possibilité d’être contacté. Le <strong>site internet vitrine</strong> est notamment utilisé pour la <strong>création de site internet institutionnel</strong> ou encore pour la <strong>création d’un site internet</strong> pour une entreprise artisanale par exemple.</p>
 
-                            <Link className="text-black font-bold hover:text-bleu" to="../creation-site-internet-vitrine/">>> En savoir plus sur le site internet vitrine</Link>
+                            <Link className="text-black font-bold hover:text-bleu" to="/creation-site-internet-vitrine/">>> En savoir plus sur le site internet vitrine</Link>
                             <br/>
                             <hr style={{width:'100%'}}/>
                             <br/>
@@ -257,7 +257,7 @@ render() {
                         <p>La <strong>création d’un site internet e-commerce</strong> s’impose pour tous les commerçants souhaitant élargir leur zone de chalandise et développer une <strong>interface web</strong> complémentaire à leur commerce physique.</p>
                         <p>Le <strong>site internet e-commerce</strong> dispose de tous les modules nécessaires pour faciliter les interactions, que ce soit en termes de <strong>back office</strong>, ou bien d’<strong>interface utilisateur</strong>.</p>
                         <p>Ainsi, du compte client à la <strong>fiche produit</strong> en passant par les modalités de livraison et les moyens de paiement, le <strong>site internet e-commerce</strong> est parfaitement adapté pour les commerces. Combiné à une <strong>stratégie de référencement naturel</strong> basée sur la longue traîne, le <strong>site internet e-commerce</strong> s’avère être un outil redoutable.</p>
-                        <Link className="text-black font-bold hover:text-bleu" to="../creer-une-boutique-en-ligne/">>> En savoir plus sur le site internet e-commerce</Link>
+                        <Link className="text-black font-bold hover:text-bleu" to="/creer-une-boutique-en-ligne/">>> En savoir plus sur le site internet e-commerce</Link>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
@@ -325,7 +325,7 @@ render() {
                         <p>La <strong>création d’un site internet sur-mesure</strong> répond généralement à la mise en place d’un projet d’envergure auquel il n’existe pas un <strong>type de site web</strong> particulier permettant de répondre à l’ensemble des objectifs.</p>
                         <p>Que ce soit en termes d’administration ou encore de fonctionnalités, la mise en place d’une <strong>solution sur-mesure</strong> offre la possibilité de bénéficier d’une interface parfaitement adaptée à ses besoins.</p>
                         <p>Ainsi, <strong>créer un site internet sur-mesure</strong> est la meilleure solution pour mettre en place des fonctionnalités en vue de l’optimisation de votre organisation ou bien pour favoriser l’<strong>expérience utilisateur sur votre site</strong> (applications métiers et intranet, web services et API, création de module de réservation, outil de personnalisation de produits, générateur de devis, etc.).</p>
-                        <Link className="text-black font-bold hover:text-bleu" to="../creation-de-site-internet-47-31/">>> En savoir plus sur le site internet sur-mesure</Link>
+                        <Link className="text-black font-bold hover:text-bleu" to="/creation-site-internet-sur-mesure/">>> En savoir plus sur le site internet sur-mesure</Link>
                     </div>
                     <div className="w-full mx-auto lg:w-1/2 xl:w-1/4 px-0 md:px-24 lg:px-10 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
                         <div className="bloccontactsticky w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{background:'#3c3c3cfa url(' + bgbloc +')', backgroundBlendMode:'overlay', backgroundSize:'cover', backgroundPosition:'center'}}>

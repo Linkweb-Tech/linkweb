@@ -144,7 +144,7 @@ render() {
                             <li>Si vos coordonnées ne sont pas encore disponibles sur Internet, n'hésitez pas à contacter notre service afin qu’il puisse les mettre en place.</li>
                         </ol>
                         <br/>
-                        <p>Pour valider le fait que vous êtes bien le propriétaire de la fiche, Google vous adressera un code de validation par téléphone ou par courrier. Notre <strong className="font-bold"><Link to="/refrencement-toulouse/" className="text-bleu hover:text-black font-bold">agence SEO à Toulouse</Link> est en mesure de créer et de gérer votre profil</strong> pour un résultat optimal.</p>
+                        <p>Pour valider le fait que vous êtes bien le propriétaire de la fiche, Google vous adressera un code de validation par téléphone ou par courrier. Notre <strong className="font-bold"><Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">agence SEO à Toulouse</Link> est en mesure de créer et de gérer votre profil</strong> pour un résultat optimal.</p>
                         <br/>
                         <h2>Pourquoi le référencement local est indispensable dans la stratégie de votre entreprise ?</h2>
                         <br/>

@@ -36,9 +36,9 @@ render() {
                 title="Comment être référencé sur Google ? | Agence SEO à Toulouse (31)"
                 description="Référencer son site internet sur Google est indispensable pour toute entreprise cherchant à développer sa visibilité."
                 keywords={[`Agence SEO Toulouse`, `Référencement Toulouse`]}
-                url="https://linkweb.fr/referencement-toulouse/comment-etre-reference-sur-google/"
+                url="https://linkweb.fr/referencement-toulouse/comment-etre-reference-google/"
                 nom="Comment être référencé sur Google ?"
-                slug="referencement-toulouse/comment-etre-reference-sur-google/"
+                slug="referencement-toulouse/comment-etre-reference-google/"
             />
         
             {/* <PageTransition
