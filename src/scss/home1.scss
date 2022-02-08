@@ -20,6 +20,29 @@
         }
     }
 }
+.one,.two,.three {
+.ag.chiffres {
+    font-size: 450px;
+    opacity: 0.12;
+    color: #a5a5a5;
+    margin-top:-12rem;
+    transition: all ease 0.4s;
+    position:relative;
+    z-index:1;
+    @media (max-width: 767px) {
+        font-size: 150px;
+        margin-top:0rem;
+      }
+}
+&:hover {
+    .chiffres {
+        color:#37cfee;
+        opacity: 0.2;
+        transition: all ease 0.4s;
+        transform: scale(1.2);
+    }
+}
+}
 .equipe {
 
     .imageDouble {

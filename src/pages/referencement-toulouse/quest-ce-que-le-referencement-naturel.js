@@ -63,7 +63,7 @@ render() {
                     <h1 data-aos="fade-down" data-aos-delay="500" className="century text-4xl md:text-5xl xl:text-6xl text-center text-white mt-64">
                     Qu'est-ce que le référencement naturel ?
                     </h1>
-                    <Link to="/referencement-toulouse/"><h2 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Référencement à Toulouse</h2></Link>
+                    <h2 className="century text-xl sm:text-2xl text-center text-white hover:text-bleu" data-aos="fade-up" data-aos-delay="500">Référencement à Toulouse</h2>
                     <br/>
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
@@ -189,7 +189,7 @@ render() {
                         <br/>
                         <p>Lorsqu’un <strong>site internet</strong> est créé, ce dernier n’est pas encore répertorié par les différents <strong>moteurs de recherche</strong>. Cela signifie qu’il n’est pas accessible, hormis par voie directe. Le <strong>référencement naturel</strong> consiste à faire connaître <strong>votre site internet aux moteurs de recherche</strong>, mais pas seulement.</p>
 
-                        <p>Une fois votre site inscrit dans la base de données des moteurs, aussi appelée « <strong>index</strong> », il est important de mettre en place des actions qui vont permettre à votre site de ressortir lorsque des <strong>requêtes pertinentes</strong> sont effectuées. Ceci a pour objectif d’<strong>augmenter sa visibilité</strong> afin de <strong>générer du trafic vers votre site</strong>.</p>
+                        <p>Une fois votre site inscrit dans la base de données des moteurs, aussi appelée « <strong>index</strong> », il est important de mettre en place des actions qui vont permettre à votre site de ressortir lorsque des <strong>requêtes pertinentes</strong> sont effectuées. Ceci a pour objectif d’<strong>augmenter sa visibilité</strong> afin de <strong>générer du trafic vers votre site</strong>. Avant d'effectuer toute action, il est nécessaire de <Link to="/referencement-toulouse/comment-savoir-si-un-site-est-indexe/" className="text-bleu hover:text-black font-bold">savoir si son site est indexé</Link>.</p>
                         <br/>
                         <hr style={{width:'100%'}}/>
                         <br/>
@@ -205,8 +205,8 @@ render() {
                         <br/>
                         <h2>Pourquoi travailler le référencement naturel ?</h2>
                         <br/>
-                        <p>Il faut savoir que le <strong>référencement naturel</strong> est l’une des portes d’entrée principales pour un <strong>site web</strong>. Il consiste à <strong>apporter de la visibilité à un site internet</strong> via sa mise en avant dans les <strong>résultats de recherche des moteurs</strong>.</p>
-                        <p>S’il est important de miser sur le <strong>référencement naturel</strong>, c’est tout simplement parce qu’il représente l’une des voies les plus prolifiques pour apporter du <strong>trafic sur son site internet</strong>. En effet, <a href="https://www.abondance.com/20171224-18757-infographie-33-chiffres-autour-seo.html" target="_blank" rel="noopener noreferrer" className="text-bleu hover:text-black">97% des expériences web commencent par un moteur de recherche</a>. Négliger ce facteur pourrait être dommageable pour la <strong>visibilité de son site web</strong>.</p>
+                        <p>Il faut savoir que le <strong>référencement naturel</strong> est l’une des portes d’entrée principales pour un <strong>site web</strong>. Il consiste à <strong>apporter de la visibilité à un site internet</strong> via sa mise en avant dans les <strong>résultats de recherche des moteurs</strong> notamment via le <Link to="/referencement-naturel/comment-etre-reference-sur-google/" className="text-bleu hover:text-black font-bold">référencement sur Google</Link>.</p>
+                        <p>S’il est important de miser sur le <strong>référencement naturel</strong>, c’est tout simplement parce qu’il représente l’une des voies les plus prolifiques pour apporter du <strong>trafic sur son site internet</strong>. En effet, comme le partage le site Abondance.com, 97% des expériences web commencent par un moteur de recherche. Négliger ce facteur pourrait être dommageable pour la <strong>visibilité de son site web</strong>.</p>
                         <p>Une <strong>stratégie de référencement naturel</strong> peut-être orientée pour répondre à une problématique spécifique. Par exemple, une entreprise de services de proximité pourra bénéficier d’une <strong>stratégie de référencement local</strong> pour <strong>être visible</strong> dans sa zone de chalandise et ainsi générer de potentiels contacts.</p>
                         <p>La réussite d’une <strong>stratégie de référencement</strong> repose en partie sur le <strong>choix des mots-clés</strong>. En effet,  il est indispensable de <strong>choisir des mots-clés pertinents</strong> et fréquemment recherchés pour <strong>obtenir une visibilité ciblée</strong> et conséquente dans les <strong>pages de recherche d’un moteur</strong>.</p>
                         <br/>
@@ -297,7 +297,7 @@ render() {
                         <Link to="/contact-agence-web-toulouse/" className="font-bold text-bleu text-center text-xl hover:text-black">>> Demander un devis </Link>
                         <br/>
                         <p>Ceci est valable que vous possédiez déjà un site internet ou non. Il faut savoir qu’il existe des outils professionnels qui vont vous permettre d’obtenir des réponses à ces questions. Définir le <strong>cadre de son projet</strong> en amont de sa stratégie est important pour <strong>se lancer dans la bonne direction et ainsi saisir les bonnes opportunités</strong>.</p>
-                        <p>Pour ce faire, avoir recours à une agence web spécialisée dans le référencement naturel peut-être un premier pas. En tant que spécialistes de ce domaine, nous encourageons les professionnels pour les accompagner dans le lancement de leurs projets. En effet, faire appel à des professionnels du référencement naturel vous fera économiser de nombreuses heures passées derrière votre écran.</p>
+                        <p>Pour ce faire, avoir recours à une agence web spécialisée dans le référencement naturel comme notre <Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">agence SEO à Toulouse</Link> peut-être un premier pas. En tant que spécialistes de ce domaine, nous encourageons les professionnels pour les accompagner dans le lancement de leurs projets. En effet, faire appel à des professionnels du référencement naturel vous fera économiser de nombreuses heures passées derrière votre écran.</p>
                         <p>Une <strong>stratégie de référencement naturel</strong> nécessite du temps avant de générer des résultats satisfaisants. Il est donc important de se lancer dans la bonne direction, et ce, dès le départ.</p>
                         <p>Si vous souhaitez mener un <strong>projet de référencement naturel</strong>, <strong>Linkweb</strong> est en mesure de vous apporter une réponse qualifiée et fonctionnelle.</p>
                     </div>

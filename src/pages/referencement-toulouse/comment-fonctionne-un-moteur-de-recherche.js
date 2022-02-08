@@ -110,7 +110,7 @@ render() {
                         <br/>
                         <p>Par ailleurs, <strong className="font-bold">l'utilisation de l'intelligence artificielle et de l'apprentissage automatique par Google</strong> pour améliorer son fonctionnement est également au centre des enjeux.</p>
                         <br/>
-                        <img src={google} className="w-full" alt="comment faire du Netlinking"/>
+                        <img src={google} className="w-full" alt="comment fonctionne un moteur de recherche"/>
                         <br/>
                         <h2>Qu'est-ce qu'un moteur de recherche ?</h2>
                         <br/>
@@ -172,11 +172,11 @@ render() {
                         <br/>
                         <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Indexation</h3>
                         <br/>
-                        <p>Si une page découverte par les moteurs et en particulier par Google respecte parfaitement les critères imposés, alors celle-ci est indexée. Cela signifie qu'elle est <strong className="font-bold">classée et catégorisée dans l'index de Google</strong>. L'indexation désigne la prise en compte d'une page par le moteur, c'est l'étape essentielle pour que cette dernière soit ensuite proposée aux internautes dans la Recherche web. Lorsqu'un internaute saisira un mot-clé, Google sera en mesure de <strong className="font-bold">proposer le contenu le plus pertinent possible au sein de son index</strong>.</p>
+                        <p>Si une page découverte par les moteurs et en particulier par Google respecte parfaitement les critères imposés, alors celle-ci est indexée. Cela signifie qu'elle est <strong className="font-bold">classée et catégorisée dans l'index de Google</strong>. L'indexation désigne la prise en compte d'une page par le moteur, c'est l'étape essentielle pour que cette dernière soit ensuite proposée aux internautes dans la Recherche web. Lorsqu'un internaute saisira un mot-clé, Google sera en mesure de <strong className="font-bold">proposer le contenu le plus pertinent possible au sein de son index</strong>. Il est donc important de <Link to="/referencement-toulouse/comment-savoir-si-un-site-est-indexe-par-google/" className="text-bleu hover:text-black font-bold">savoir si son site est bien indexé par Google</Link>.</p>
                         <br/>
                         <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Classement</h3>
                         <br/>
-                        <p>La dernière étape est le classement. Les URL indexées ne sont pas toutes proposées sur la <strong>première page</strong> de résultats car elles ont été <strong className="font-bold">classées en fonction de leurs critères de pertinence et de qualité</strong>. Google va donc proposer un maximum de contenus de ce type, mais il est impossible d'<strong>indexer toutes les pages web</strong> existant sur le net. Google fait l'usage d'algorithme pour détecter les mauvaises pratiques et traiter les abus en les supprimant directement de la <strong>SERP (Search Engine Results Pages ou résultats de recherches)</strong>.</p>
+                        <p>La dernière étape est le classement. Les URL indexées ne sont pas toutes proposées sur la <strong>première page</strong> de résultats car elles ont été <strong className="font-bold">classées en fonction de leurs critères de pertinence et de qualité</strong> (suite au travail d'optimisation, mais aussi de <Link to="/referencement-toulouse/comment-faire-du-netlinking/" className="text-bleu hover:text-black font-bold">netlinking</Link>). Google va donc proposer un maximum de contenus de ce type, mais il est impossible d'<strong>indexer toutes les pages web</strong> existant sur le net. Google fait l'usage d'algorithme pour détecter les mauvaises pratiques et traiter les abus en les supprimant directement de la <strong>SERP (Search Engine Results Pages ou résultats de recherches)</strong>.</p>
                         <br/>
                         <h2>Le référencement naturel ou optimisation pour les moteurs de recherche (SEO ou Search Engine Optimization)</h2>
                         <br/>

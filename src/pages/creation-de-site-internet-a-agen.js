@@ -255,8 +255,8 @@ class CreationSiteInternetAgenPage extends Component {
                 <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-8 xl:px-24">
                     <div className="w-full xl:w-1/3 one px-auto">
                         <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
+                            <div className="ag chiffres century text-bleu mt-0 md:-mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/3 relative md:absolute z-10 px-auto lg:w-1/3 px-12 lg:px-6 xl:px-24 pt-0 md:pt-24">
                                 <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                     <span className="text-bleu">/</span>J'ai besoin de plus d'informations
                                 </h3>
@@ -270,8 +270,8 @@ class CreationSiteInternetAgenPage extends Component {
                     </div>
                     <div className="w-full xl:w-1/3 two px-auto">
                         <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
+                            <div className="ag chiffres century text-bleu mt-0 md:-mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/3 relative md:absolute z-10 px-auto lg:w-1/3 px-12 lg:px-6 xl:px-24 pt-0 md:pt-24">
                                 <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                     <span className="text-bleu">/</span>Je souhaite être accompagné pour définir mes besoins
                                 </h3>
@@ -284,8 +284,8 @@ class CreationSiteInternetAgenPage extends Component {
                     </div>
                     <div className="w-full xl:w-1/3 three px-auto">
                         <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
+                            <div className="ag chiffres century text-bleu mt-0 md:-mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                            <section className="w-full lg:w-1/3 relative md:absolute z-10 px-auto lg:w-1/3 px-12 lg:px-6 xl:px-24 pt-0 md:pt-24">
                                 <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                                     <span className="text-bleu">/</span>Je fais confiance à des experts pour créer mon site internet
                                 </h3>
@@ -632,7 +632,7 @@ class CreationSiteInternetAgenPage extends Component {
                         <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0" />
                         <br />
                         <div className="flex items-end my-10 justify-end flex-col">
-                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Parmi toutes les agences qui vous proposent leurs interventions, Linkweb vous accompagne dans la conception et la réalisation de votre projet de création de site internet. Notre équipe conduit votre projet à travers la mise en route technique et le choix de la ligne éditoriale à adopter pour répondre à vos objectifs.</p>
+                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Parmi toutes les agences qui vous proposent leurs interventions, Linkweb vous accompagne dans la <strong className="font-normal">conception et la réalisation de votre projet de création de site internet</strong>. Notre équipe conduit votre projet à travers la mise en route technique et le choix de la ligne éditoriale à adopter pour répondre à vos objectifs.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
                                 <RoundButton url="/creation-site-internet-toulouse/" color="darkgrey" text="J'AI UN PROJET À TOULOUSE" />
                             </div>

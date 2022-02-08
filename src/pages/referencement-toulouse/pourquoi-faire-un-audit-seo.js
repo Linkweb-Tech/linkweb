@@ -146,11 +146,11 @@ render() {
                         <br/>
                         <h2>Nos 5 raisons principales de mener un audit SEO</h2>
                         <br/>
-                        <p>Le <strong>référencement naturel</strong> est une discipline qui nécessite du temps ainsi que de la patience. C'est pourquoi, il est essentiel de prendre les meilleures décisions dès le départ. Voici <strong className="font-bold">les 5 raisons qui rendent l'audit SEO indispensable pour votre stratégie</strong>.</p>
+                        <p>Le <strong><Link to="/referencement-toulouse/comment-ameliorer-son-referencement-naturel/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> est une discipline qui nécessite du temps ainsi que de la patience. C'est pourquoi, il est essentiel de prendre les meilleures décisions dès le départ. Voici <strong className="font-bold">les 5 raisons qui rendent l'audit SEO indispensable pour votre stratégie</strong>.</p>
                         <br/>
                         <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Évaluer la qualité du contenu de votre site internet</h3>
                         <br/>
-                        <p>Un <strong>audit SEO</strong> est le moyen idéal d'<strong className="font-bold">évaluer la qualité des contenus de votre site Web</strong>. En identifiant tout problème à ce niveau-là, vous pouvez apporter les modifications nécessaires pour <strong>améliorer le positionnement de votre site sur Google</strong>.</p>
+                        <p>Un <strong>audit SEO</strong> est le moyen idéal d'<strong className="font-bold">évaluer la qualité des contenus de votre site Web</strong>. En identifiant tout problème à ce niveau-là, vous pouvez apporter les modifications nécessaires pour <strong>améliorer le positionnement de votre site sur Google</strong>. Pour pallier à tout problème, il peut être intéressant de <Link to="/referencement-toulouse/pourquoi-faire-appel-a-un-redacteur-web/" className="text-bleu hover:text-black font-bold">faire appel à un rédacteur web</Link>.</p>
                         <br/>
                         <img src={audit} className="w-full" alt="Audit SEO"/>
                         <br/>

@@ -116,7 +116,7 @@ render() {
                             <li><span className="text-bleu">></span> Un <strong className="font-normal">contenu de haute qualité</strong> optimisé et apportant une valeur ajoutée,</li>
                             <li><span className="text-bleu">></span> Le développement de la <strong className="font-normal">popularité de votre site web</strong> aux yeux de Google.</li>
                         </ul>
-                        <p>Pour répondre de façon efficace à ces différents critères, il va être nécessaire de mettre en place une <strong className="font-bold">stratégie de référencement naturel</strong> parfaitement adapté à vos besoins, à vos concurrents ainsi qu'à votre budget.</p>
+                        <p>Pour répondre de façon efficace à ces différents critères, il va être nécessaire de mettre en place une <strong className="font-bold">stratégie de <Link to="/referencement-toulouse/quest-ce-que-le-referencement-naturel/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> parfaitement adapté à vos besoins, à vos concurrents ainsi qu'à votre budget.</p>
                         <br/>
                         <img src={google} className="w-full" alt="Comment être référencé sur Google"/>
                         <br/>
@@ -202,7 +202,7 @@ render() {
                             <li><span className="text-bleu">></span> 'L'éditeur ne dispose d'aucun intérêt à faire un lien vers votre page.</li>
                         </ul>
                         <p>Il est donc indispensable d'<strong className="font-bold">obtenir des liens vers son site web</strong> afin de développer sa puissance et révéler sa <strong className="font-normal">popularité aux yeux de Google</strong>.</p>
-                        <p>Aussi, d'autres outils peuvent être bénéfiques pour votre stratégie. Si la création de comptes sur les réseaux sociaux n'est pas un critère de classement, ceci permet d'envoyer un signal de votre présence aux internautes comme aux moteurs. Par ailleurs, l'exploitation du référencement local par le biais d'un outil comme la fiche <strong className="font-normal">Google My Business</strong> peut également être une <strong className="font-normal">source de trafic vers votre site</strong>.</p>
+                        <p>Aussi, d'autres outils peuvent être bénéfiques pour votre stratégie. Si la création de comptes sur les réseaux sociaux n'est pas un critère de classement, ceci permet d'envoyer un signal de votre présence aux internautes comme aux moteurs. Par ailleurs, l'exploitation du référencement local par le biais d'un outil comme la fiche <strong className="font-normal"><Link to="/referencement-toulouse/comment-apparaitre-en-premier-sur-google-my-business/" className="text-bleu hover:text-black font-bold">Google My Business</Link></strong> peut également être une <strong className="font-normal">source de trafic vers votre site</strong>.</p>
                         <br/>
                         <h3 className="text-darkgrey" style={{fontSize:'23px'}}>Des liens en provenance de sites à forte autorité</h3>
                         <br/>

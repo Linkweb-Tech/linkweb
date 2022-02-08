@@ -156,7 +156,7 @@ class ReferencementToulouse extends Component {
 
                                     <h4 className="century">Le travail autour du contenu ne suffit plus pour satisfaire les algorithmes et les robots de recherche. Votre site internet doit proposer une expérience utilisateur irréprochable.</h4>
                                     <br />
-                                    <p className="century pb-4 text-justify">Le <strong>SXO</strong> est né de la rencontre entre le <strong>référencement naturel</strong> et l’<strong>UX Design</strong>. Il consiste à développer une <strong>expérience utilisateur</strong> adaptée au <strong>comportement des utilisateurs</strong> : <strong>temps de chargement optimal</strong>, compatibilité sur tous les supports de lecture, etc. Rendre l’expérience utilisateur optimale est, aujourd’hui, indispensable.
+                                    <p className="century pb-4 text-justify">Le <strong>SXO</strong> est né de la rencontre entre le <strong><Link to="/referencement-toulouse/comment-ameliorer-son-referencement-naturel/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> et l’<strong>UX Design</strong>. Il consiste à développer une <strong>expérience utilisateur</strong> adaptée au <strong>comportement des utilisateurs</strong> : <strong>temps de chargement optimal</strong>, compatibilité sur tous les supports de lecture, etc. Rendre l’expérience utilisateur optimale est, aujourd’hui, indispensable.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
