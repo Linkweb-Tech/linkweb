@@ -4,7 +4,7 @@ import RoundButtonAccueil from "../components/roundButtonAccueil";
 import RoundButtonAccueilMail from "../components/roundButtonAccueilMail";
 
 import Test from "../images/motiontest.svg";
-import googlePartner from "../images/PartnerBadge-RGB.png";
+import googlePartner from "../images/logo-partner2022.png";
 
 // const Orbs = posed.div({
 //     open: { 
@@ -145,9 +145,9 @@ class Hero1 extends Component {
         return (
         <section className="hero flex items-center justify-center flex-col">
             <div className="max-w-6xl mt-32 mx-auto lg:ml-56 xl:mx-56 w-full flex-col items-end">
-                <section className="flex justify-center lg:justify-start" style={{marginBottom: "-80px",marginTop: "80px", paddingLeft: "60px"}}>
+                <section className="badges flex justify-center lg:justify-start" style={{marginBottom: "-80px",marginTop: "80px"}}>
                 <div className="mr-3 mt-3">
-                    <img  src={googlePartner} alt="Référencement Toulouse" style={{ width: '200px' }} />
+                    <img  src={googlePartner} alt="Référencement Toulouse" style={{ height: '100px', marginTop:'-12px' }} />
                 </div>
                 <div className=" flex flex-col items-center " /*data-aos="fade-in" data-aos-delay="2200"*/>
                     <span className=" text-3xl text-center font-bold text-white century">4.6/5</span>
