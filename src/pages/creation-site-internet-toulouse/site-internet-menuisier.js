@@ -85,7 +85,7 @@ class SiteInternetMenuisier extends Component {
                     transitionTime={200}
                 > */}
 
-                <section className="flex items-center justify-start w-full mx-auto pb-0 my-32 md:my-42 lg:my-42 xl:my-48 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <section className="flex items-center justify-start w-full mx-auto pb-0 my-32 md:my-42 lg:my-42 xl:my-48 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end">
                         <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                             <div className="w-1/2  text-3xl text-center font-bold text-white century">4.6/5</div>
@@ -110,6 +110,11 @@ class SiteInternetMenuisier extends Component {
                             <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30" />
                             <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text="Demander un devis" />
                         </div>
+                    </div>
+                    <div className="w-full bg-bleu py-2 pl-48">
+                        <Link to="/faq/" className="px-4 text-lg text-white hover:text-black">FAQ</Link> <span className=" text-lg text-black"> - </span>
+                        <Link to="/secteurs-activites/" className="px-4 text-lg text-white hover:text-black"> Secteurs d'activités</Link> <span className="text-lg text-black"> - </span>
+                        <span className="px-4 text-lg text-white"> Menuisier</span>
                     </div>
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
