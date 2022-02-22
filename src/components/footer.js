@@ -286,7 +286,7 @@ class Footer extends Component {
                 </section>
                 </section>
                 <div className="text-white century mx-auto">
-                    <p className="ml-4"> © 2021 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
+                    <p className="ml-4"> © 2022 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
                     <span className="ml-4 text-xs" title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</span>
                 </div>
                 <br />
