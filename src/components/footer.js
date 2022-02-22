@@ -44,7 +44,7 @@ class Footer extends Component {
             
             <footer className="bg-darkgrey w-full flex flex-col items-center relative z-30 ">
                 <section className="bg-darkgrey w-full flex items-center relative z-30 ">
-                <section className="w-full  lg:w-9/12 flex justify-start mx-auto py-6 md:px-8 text-sm flex-col-reverse md:flex-row">
+                <section className="w-full  xl:w-9/12 flex justify-start mx-auto py-6 md:px-8 text-sm flex-col-reverse md:flex-row">
                     <section className="w-full md:w-1/2 lg:w-1/4 px-4 py-6 md:px-8" >
                         <div className="textwidget custom-html-widget">
                             <div className="copy text-white text-md">
@@ -220,9 +220,9 @@ class Footer extends Component {
                                 <img
                                     src={LinkwebWhite}
                                     alt="Linkweb"
-                                    className="w-32 mb-1"
+                                    className="w-24"
                                 />
-                                <span className="century text-base lg:text-2xl lg:pl-2 text-white">le blog</span>
+                                <span className="century text-base lg:text-xl pl-2 text-white"> le blog</span>
                             </div>
                             <Link
                                 to="/actualite-digitale/"
@@ -231,14 +231,14 @@ class Footer extends Component {
                                 L'actualité digitale
                             </Link>
                         </div>
-                        <div className="flex flex-col mt-12 items-center">
+                        <div className="flex flex-col mt-6 items-center">
                             <div className="flex mb-2 flex-wrap items-center">
                                 <img
                                     src={LinkwebWhite}
                                     alt="Linkweb"
-                                    className="w-32 mb-1"
+                                    className="w-24"
                                 />
-                                <span className="century text-base lg:text-2xl lg:pl-2 text-white">recrute</span>
+                                <span className="century text-base lg:text-xl pl-2 text-white"> recrute</span>
                             </div>
                             <Link
                                 to="/recrutement-creation-site-internet-agen/"
@@ -247,14 +247,14 @@ class Footer extends Component {
                                 Voir les offres
                             </Link>
                         </div>
-                        <div className="flex flex-col mt-12 items-center">
+                        <div className="flex flex-col mt-6 items-center">
                             <div className="flex mb-2 flex-wrap items-center">
                                 <img
                                     src={LinkwebWhite}
                                     alt="Linkweb"
-                                    className="w-32 mb-1"
+                                    className="w-24"
                                 />
-                                <span className="century text-base lg:text-2xl lg:pl-2 text-white">F.A.Q.</span>
+                                <span className="century text-base lg:text-xl pl-2 text-white"> F.A.Q.</span>
                             </div>
                             <Link
                                 to="/faq/"
@@ -262,9 +262,25 @@ class Footer extends Component {
                             >
                                 Foire aux Questions
                             </Link>
+                        </div>
                             {/*<Link className="my-6 century text-white font-bold text-md" to="/faq/">
                             <span className="text-bleu century">></span> Foire aux Questions
                             </Link>*/}
+                            <div className="flex flex-col mt-6 items-center">
+                            <div className="flex mb-2 flex-wrap items-center">
+                                <img
+                                    src={LinkwebWhite}
+                                    alt="Linkweb"
+                                    className="w-24"
+                                />
+                                <span className="century text-base lg:text-xl pl-2 text-white"> Entreprises</span>
+                            </div>
+                            <Link
+                                to="/creation-site-internet-toulouse/secteurs-activites/"
+                                className=" w-full block last md:inline-block mt-0s md:mt-0  no-underline text-white century bg-bleu text-center py-2 px-4"
+                            >
+                                Votre secteur d'activité
+                            </Link>
                         </div>
                     </section>
                 </section>

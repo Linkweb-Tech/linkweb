@@ -111,10 +111,10 @@ class SiteInternetSerrurier extends Component {
                             <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text="Demander un devis" />
                         </div>
                     </div>
-                    <div className="w-full bg-bleu py-2 pl-48">
-                        <Link to="/faq/" className="px-4 text-lg text-white hover:text-black">FAQ</Link> <span className=" text-lg text-black"> - </span>
-                        <Link to="/secteurs-activites/" className="px-4 text-lg text-white hover:text-black"> Secteurs d'activités</Link> <span className="text-lg text-black"> - </span>
-                        <span className="px-4 text-lg text-white"> Serruriers</span>
+                    <div className="w-full bg-bleu century py-2 pl-0 md:pl-48">
+                        <Link to="/faq/" className="px-4 text-md lg:text-lg text-white hover:text-black">FAQ</Link> <span className=" text-lg text-black"> - </span>
+                        <Link to="/creation-site-internet-toulouse/secteurs-activites/" className="px-4 text-md lg:text-lg text-white hover:text-black"> Secteurs d'activités</Link> <span className="text-lg text-black"> - </span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Serruriers</span>
                     </div>
                 </section>
                 <section className="w-full flex justify-end -mt-0 lg:-mt-32">
