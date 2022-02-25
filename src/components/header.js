@@ -204,8 +204,8 @@ class Header extends Component {
                   </Link>
                   <Link
                     itemProp="url"
-                    title="Formation Datadock"
-                    to="/formation-datadock/"
+                    title="Formation Référencement"
+                    to="/formation-referencement/referencement-naturel-google-seo/"
                     activeClassName="active"
                     className="block lg:text-md xl:text-lg  md:text-sm hover:text-bleu md:inline-block mt-4 md:mt-0  no-underline text-black md:text-white century py-6 px-4 md:px-2 lg:px-3 xl:px-6"
                   >

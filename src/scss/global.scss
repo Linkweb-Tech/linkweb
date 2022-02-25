@@ -843,6 +843,26 @@ color:white;
         }
 }
 
+.bloctextimg2 .image {
+    margin-right: -8%;
+}
+.bloctextimg2 img {
+    -webkit-box-shadow: -19px 0px 54px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -19px 0px 54px 0px rgba(0,0,0,0.75);
+    box-shadow: -19px 0px 54px 0px rgba(0,0,0,0.75);
+}
+
+.bloctextimg2 .text {
+        a {
+            color:#37cfee;
+            font-weight:bold;
+        }
+        a:hover {
+            color:black;
+            font-weight:bold;
+        }
+}
+
 #_hj-f5b2a1eb-9b07_feedback{
     display:none;
 }
