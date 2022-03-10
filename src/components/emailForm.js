@@ -7,7 +7,6 @@ import 'react-notifications-component/dist/theme.css'
 import ReCaptchaBlock from '../components/recaptcha'
 import { store } from 'react-notifications-component'
 import { loadReCaptcha } from 'react-recaptcha-v3'
-const https = require('https');
 
 class EmailForm extends Component {
 
@@ -50,16 +49,12 @@ class EmailForm extends Component {
                 }
             });
         } else {
-            const agent = new https.Agent({  
-                rejectUnauthorized: false
-            });
             axios({
                 method: 'post',
                 url:'/.netlify/functions/send-email',
                 // url:'../form.php',
                 headers: {'content-type': 'application/json' },
                 data: this.state,
-                httpAgent: agent
             })
             .then( result => {
                 this.setState({ mailSent: result.data.sent })
