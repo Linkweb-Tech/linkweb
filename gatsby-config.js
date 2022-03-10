@@ -1,9 +1,25 @@
+const { createProxyMiddleware } = require("http-proxy-middleware") //v1.x.x
+// Use implicit require for v0.x.x of 'http-proxy-middleware'
+// const proxy = require('http-proxy-middleware')
+// be sure to replace 'createProxyMiddleware' with 'proxy' where applicable
+
 module.exports = {
   siteMetadata: {
     siteUrl: `https://linkweb.fr`,
     title: `Linkweb`,
     description: `Linkweb, agence web de création de site internet à Agen (47) et Toulouse (31).`,
     author: `@AgenceLinkweb`
+  },
+  developMiddleware: app => {
+    app.use(
+      "/.netlify/functions/",
+      createProxyMiddleware({
+        target: "http://localhost:9000",
+        pathRewrite: {
+          "/.netlify/functions/": "",
+        },
+      })
+    )
   },
   plugins: [
     /*
@@ -142,6 +158,8 @@ module.exports = {
         head: true,
       },
     },
+    
+    
     // {
     //   resolve: `gatsby-plugin-tawk.to`,
     //   options: {
