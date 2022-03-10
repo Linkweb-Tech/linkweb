@@ -23,6 +23,9 @@ class MentionsLegales extends Component {
     }
 
     submitForm = (event) => {
+        fetch("/.netlify/functions/hello")
+                .then(response => response.json())
+                .then(console.log('Galaxian Explosion'))
         // Retrieve data from the form.
         //const formData = new FormData(event.target);
         const request = new XMLHttpRequest();

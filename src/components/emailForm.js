@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from 'axios';
+import https from 'https';
 import "../scss/form.scss";
 import ReactNotification from 'react-notifications-component'
 import 'react-notifications-component/dist/theme.css'
@@ -48,13 +49,16 @@ class EmailForm extends Component {
                 }
             });
         } else {
-            
+            const agent = new https.Agent({  
+                rejectUnauthorized: false
+            });
             axios({
                 method: 'post',
                 url:'/.netlify/functions/send-email',
                 // url:'../form.php',
-                headers: {'content-type': 'multipart/form-data' },
-                data: this.state
+                headers: {'content-type': 'application/json' },
+                data: this.state,
+                httpAgent: agent
             })
             .then( result => {
                 this.setState({ mailSent: result.data.sent })

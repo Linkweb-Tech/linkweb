@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 
-exports.handler = async function (event, context, callback) {
+export async function handler(event, context, callback) {
   // Parse the JSON text received.
   const body = JSON.parse(event.body);
 
