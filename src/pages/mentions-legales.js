@@ -13,8 +13,7 @@ import bureau from '../images/bureau2-min.jpg';
 import web from '../images/web.svg';
 import laptop from '../images/laptop.svg';
 import bullhorn from '../images/bullhorn.svg';
-import EmailForm from "../components/emailForm";
-
+import ContactEmail from '../components/contactEmail'
 
 class MentionsLegales extends Component {
 
@@ -175,27 +174,9 @@ class MentionsLegales extends Component {
                 </section>
 
 
-                {/* <form onSubmit={() => submitForm(event)}>
-                    <div>
-                        <label for="email">Email Address</label>
-                        <input
-                        id="email"
-                        type="text"
-                        name="email"
-                        placeholder="Where should I send the message?"
-                        required
-                        />
-                    </div>
 
-                    <div >
-                        <label for="body">Message</label>
-                        <textarea id="body" name="body" cols="30" rows="10" required></textarea>
-                    </div>
 
-                    <input type="submit" value="Send email" />
-                </form> */}
-
-                <EmailForm />
+                <ContactEmail />
 
                 <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                     <div className="max-w-5xl mx-auto flex items-center">
