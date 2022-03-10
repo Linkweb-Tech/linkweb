@@ -13,12 +13,29 @@ import bureau from '../images/bureau2-min.jpg';
 import web from '../images/web.svg';
 import laptop from '../images/laptop.svg';
 import bullhorn from '../images/bullhorn.svg';
+import EmailForm from "../components/emailForm";
 
 
 class MentionsLegales extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    submitForm = (event) => {
+        // Retrieve data from the form.
+        //const formData = new FormData(event.target);
+        const request = new XMLHttpRequest();
+        // Convert data to JSON object.
+        var jsonData = {};
+        jsonData['email'] = 'n.can2lon@gmail.com'
+        //formData.forEach((value, key) => (jsonData[key] = value));
+        // Send the data to the Netlify function.
+        request.open("POST", "/.netlify/functions/send-email");
+        request.send(JSON.stringify(jsonData));
+        // Clear the form.
+        alert("Email request submitted!");
+        //event.target.reset();
     }
 
     render() {
@@ -51,6 +68,10 @@ class MentionsLegales extends Component {
                     }}
                     transitionTime={200}
                 > */}
+
+                
+
+
                 <section className="w-full bloctitrescreen mx-auto px-4 py-6 bg-no-repeat bg-bottom bg-cover flex flex-col justify-center items-center" style={{ backgroundPosition: 'center', backgroundColor: `#6e6e6e`, backgroundImage: 'url(' + bureau + ')', backgroundBlendMode: `multiply` }}>
                     <h1 data-aos="fade-up" data-aos-delay="500" className="century text-5xl sm:text-6xl text-center text-white">
                         Mentions Légales
@@ -149,6 +170,29 @@ class MentionsLegales extends Component {
                         Siège social : 10, rue Albert Ferrasse 47550 Boé<br />
                         N° de téléphone : <a href="tel:0533950030" className="hover:text-bleu">05 33 95 00 30</a></p>
                 </section>
+
+
+                {/* <form onSubmit={() => submitForm(event)}>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input
+                        id="email"
+                        type="text"
+                        name="email"
+                        placeholder="Where should I send the message?"
+                        required
+                        />
+                    </div>
+
+                    <div >
+                        <label for="body">Message</label>
+                        <textarea id="body" name="body" cols="30" rows="10" required></textarea>
+                    </div>
+
+                    <input type="submit" value="Send email" />
+                </form> */}
+
+                <EmailForm />
 
                 <section className=" w-full lg:h-screen flex flex-col justify-center items-end px-4 pt-12 pb-0 my-2 bg-cover my-24" style={{ background: '#6a6a6a url( ' + bgDev + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
                     <div className="max-w-5xl mx-auto flex items-center">
