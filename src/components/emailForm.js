@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import axios from 'axios';
-import https from 'https';
+
 import "../scss/form.scss";
 import ReactNotification from 'react-notifications-component'
 import 'react-notifications-component/dist/theme.css'
 import ReCaptchaBlock from '../components/recaptcha'
 import { store } from 'react-notifications-component'
 import { loadReCaptcha } from 'react-recaptcha-v3'
+const https = require('https');
 
 class EmailForm extends Component {
 
