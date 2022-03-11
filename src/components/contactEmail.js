@@ -53,6 +53,8 @@ class ContactEmail extends Component {
       });
     } else {
       if(this.state.emailDisplay === 'hidden' ){
+        console.log('firstStepForm');
+        this.setState({loading : true});
         axios({
           method: "post",
           url: "https://api.linkweb.fr/data/formEmail.php",
@@ -60,12 +62,8 @@ class ContactEmail extends Component {
           data: this.state,
         })
         .then((result) => {
-          this.setState({loading : true});
-          setTimeout(() => {
-            this.setState({ emailDisplay: 'block' });
-            this.setState({ urlDisplay: 'hidden' });
-            this.setState({loading : false});
-          }, 2000);
+          console.log(result);
+          setTimeout(() => {this.setState({ emailDisplay: 'block', urlDisplay: 'hidden', loading : false })}, 2000);
         })
         .catch((error) => {
           this.setState({
@@ -75,6 +73,7 @@ class ContactEmail extends Component {
         });
       }
       if(this.state.urlDisplay === 'hidden'){
+        console.log('secondStepForm');
         if (
           this.state.email == "" &&
           this.state.url == "" 
@@ -284,7 +283,7 @@ class ContactEmail extends Component {
             placeholder="URL"
             type="text"
             className=" border-bottom-bleu pl-4 py-3 w-full"
-            name="nom"
+            name="url"
             value={this.state.url}
             onChange={(e) => this.setState({ url: e.target.value })}
           />
