@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import loadable from '@loadable/component';
 import { useLocation } from '@reach/router';
 import queryString from 'query-string';
-
+import ReactNotification from "react-notifications-component";
 //import Header from "./header";
 const Header = loadable(() => import('./header'));
 //import Footer from "./footer";
@@ -46,6 +46,7 @@ const Layout = (props) => {
       {props.children}
     </main>
     <Footer />
+    <ReactNotification />
   </div>
 )
 

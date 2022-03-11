@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import LinkwebWhite from "../images/logo-linkweb.png";
 import Qualiopi from "../images/qualiopi.jpg";
 import googlePartner from "../images/PartnerBadge-RGB.png";
+
 //import loadable from '@loadable/component';
 //const ClientZendesk = loadable(() => import('react-zendesk'))
 //const ClientZendesk = React.lazy( ()=> import("react-zendesk"));
@@ -291,6 +292,7 @@ class Footer extends Component {
                 </div>
                 <br />
                 {/* <ClientZendesk zendeskKey={ZENDESK_KEY} {...setting} onLoaded={() => console.log('is loaded')} /> */}
+            
             </footer>
         );
     }

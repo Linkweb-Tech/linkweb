@@ -1,21 +1,26 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "../scss/form.scss";
-import ReactNotification from "react-notifications-component";
 import "react-notifications-component/dist/theme.css";
 import ReCaptchaBlock from "../components/recaptcha";
 import { store } from "react-notifications-component";
 import { loadReCaptcha } from "react-recaptcha-v3";
+import { setTimeout } from "core-js";
+
+
 
 class ContactEmail extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      loading : false,  
       email: "",
-      nom: "",
+      url: "",
       mailSent: false,
       error: null,
       submitDisplay: "block",
+      urlDisplay: "block",
+      emailDisplay: "hidden",
       sent: "",
     };
   }
@@ -26,13 +31,10 @@ class ContactEmail extends Component {
 
   handleFormSubmit(event) {
     event.preventDefault();
-
     //console.log(JSON.stringify(this.state.mailSent));
     if (
       this.state.email == "" &&
-      this.state.nom == "" &&
-      this.state.prenom == "" &&
-      this.state.message == ""
+      this.state.url == "" 
     ) {
       store.addNotification({
         id: "notif",
@@ -50,73 +52,20 @@ class ContactEmail extends Component {
         },
       });
     } else {
-      axios({
-        method: "post",
-        url: "https://api.linkweb.fr/data/formEmail.php",
-        // url:'../form.php',
-        headers: { "content-type": "application/json" },
-        data: this.state,
-      })
+      if(this.state.emailDisplay === 'hidden' ){
+        axios({
+          method: "post",
+          url: "https://api.linkweb.fr/data/formEmail.php",
+          headers: { "content-type": "application/json" },
+          data: this.state,
+        })
         .then((result) => {
-          this.setState({ mailSent: result.data.sent });
-          console.log(result);
-          let isOK = result.data.sent;
-          if (isOK === true) {
-            this.setState({ submitDisplay: "hidden" });
-            store.addNotification({
-              id: "notif2",
-              title: "Votre message a bien été pris en compte!",
-              message: "Nous reviendrons vers vous d'ici les prochaines 24h",
-              type: "success",
-              insert: "top",
-              container: "top-right",
-              animationIn: ["animated", "fadeIn"],
-              animationOut: ["animated", "fadeOut"],
-              dismiss: {
-                duration: 5000,
-                onScreen: true,
-              },
-            });
-
-            this.setState({
-              email: "",
-              nom: "",
-              mailSent: false,
-              error: null,
-            });
-          } else {
-            let nom = "";
-
-            let email = "";
-            if (!result.data.nameMessage === "") {
-              nom = "Nom ";
-            }
-            if (!result.data.emailMessage === "") {
-              email = "Email ";
-            }
-            store.addNotification({
-              id: "notif3",
-              title: "Certains champs sont manquants ou incomplets",
-              message:
-                "Veuillez corriger les champs avant de valider ce formulaire : " +
-                nom +
-                prenom +
-                tel +
-                message +
-                adresse +
-                objet +
-                email,
-              type: "danger",
-              insert: "top",
-              container: "top-right",
-              animationIn: ["animated", "fadeIn"],
-              animationOut: ["animated", "fadeOut"],
-              dismiss: {
-                duration: 150000,
-                onScreen: true,
-              },
-            });
-          }
+          this.setState({loading : true});
+          setTimeout(() => {
+            this.setState({ emailDisplay: 'block' });
+            this.setState({ urlDisplay: 'hidden' });
+            this.setState({loading : false});
+          }, 2000);
         })
         .catch((error) => {
           this.setState({
@@ -124,26 +73,224 @@ class ContactEmail extends Component {
           });
           //console.log(JSON.stringify(this.state));
         });
+      }
+      if(this.state.urlDisplay === 'hidden'){
+        if (
+          this.state.email == "" &&
+          this.state.url == "" 
+        ) {
+          store.addNotification({
+            id: "notif",
+            title: "Le formulaire est vide",
+            message:
+              "Veuillez saisir les champs obligatoire avant de soumettre le formulaire",
+            type: "danger",
+            insert: "top",
+            container: "top-right",
+            animationIn: ["animated", "fadeIn"],
+            animationOut: ["animated", "fadeOut"],
+            dismiss: {
+              duration: 5000,
+              onScreen: true,
+            },
+          });
+        } else {
+          axios({
+            method: "post",
+            url: "https://api.linkweb.fr/data/formEmail.php",
+            // url:'../form.php',
+            headers: { "content-type": "application/json" },
+            data: this.state,
+          })
+          .then((result) => {
+            this.setState({ mailSent: result.data.sent });
+            this.setState({ emailDisplay: 'block' });
+            this.setState({urlDisplay: 'hidden' });
+            console.log(result);
+            let isOK = result.data.sent;
+            if (isOK === true) {
+              this.setState({ submitDisplay: "hidden" });
+              store.addNotification({
+                id: "notif2",
+                title: "Votre message a bien été pris en compte!",
+                message: "Nous reviendrons vers vous d'ici les prochaines 24h",
+                type: "success",
+                insert: "top",
+                container: "top-right",
+                animationIn: ["animated", "fadeIn"],
+                animationOut: ["animated", "fadeOut"],
+                dismiss: {
+                  duration: 5000,
+                  onScreen: true,
+                },
+              });
+  
+              this.setState({
+                email: "",
+                url: "",
+                mailSent: false,
+                error: null,
+              });
+            } else {
+  
+              let email = "";
+              if (!result.data.emailMessage === "") {
+                email = "Email ";
+              }
+              if (!result.data.urlMessage === "") {
+                url = "URL ";
+              }
+              store.addNotification({
+                id: "notif3",
+                title: "Certains champs sont manquants ou incomplets",
+                message:
+                  "Veuillez corriger les champs avant de valider ce formulaire : " +
+                  url +
+                  email,
+                type: "danger",
+                insert: "top",
+                container: "top-right",
+                animationIn: ["animated", "fadeIn"],
+                animationOut: ["animated", "fadeOut"],
+                dismiss: {
+                  duration: 150000,
+                  onScreen: true,
+                },
+              });
+            }
+          })
+          .catch((error) => {
+            this.setState({
+              error: error.message,
+            });
+            //console.log(JSON.stringify(this.state));
+          });
+        }
+      }
     }
   }
 
+  // handleFormSubmit(event) {
+  //   event.preventDefault();
+  //   //console.log(JSON.stringify(this.state.mailSent));
+  //   if (
+  //     this.state.email == "" &&
+  //     this.state.url == "" 
+  //   ) {
+  //     store.addNotification({
+  //       id: "notif",
+  //       title: "Le formulaire est vide",
+  //       message:
+  //         "Veuillez saisir les champs obligatoire avant de soumettre le formulaire",
+  //       type: "danger",
+  //       insert: "top",
+  //       container: "top-right",
+  //       animationIn: ["animated", "fadeIn"],
+  //       animationOut: ["animated", "fadeOut"],
+  //       dismiss: {
+  //         duration: 5000,
+  //         onScreen: true,
+  //       },
+  //     });
+  //   } else {
+  //     axios({
+  //       method: "post",
+  //       url: "https://api.linkweb.fr/data/formEmail.php",
+  //       // url:'../form.php',
+  //       headers: { "content-type": "application/json" },
+  //       data: this.state,
+  //     })
+  //       .then((result) => {
+  //         this.setState({ mailSent: result.data.sent });
+  //         this.setState({ emailDisplay: 'block' });
+  //         this.setState({urlDisplay: 'hidden' });
+  //         console.log(result);
+  //         let isOK = result.data.sent;
+  //         if (isOK === true) {
+  //           this.setState({ submitDisplay: "hidden" });
+  //           store.addNotification({
+  //             id: "notif2",
+  //             title: "Votre message a bien été pris en compte!",
+  //             message: "Nous reviendrons vers vous d'ici les prochaines 24h",
+  //             type: "success",
+  //             insert: "top",
+  //             container: "top-right",
+  //             animationIn: ["animated", "fadeIn"],
+  //             animationOut: ["animated", "fadeOut"],
+  //             dismiss: {
+  //               duration: 5000,
+  //               onScreen: true,
+  //             },
+  //           });
+
+  //           this.setState({
+  //             email: "",
+  //             url: "",
+  //             mailSent: false,
+  //             error: null,
+  //           });
+  //         } else {
+
+  //           let email = "";
+  //           if (!result.data.emailMessage === "") {
+  //             email = "Email ";
+  //           }
+  //           if (!result.data.urlMessage === "") {
+  //             url = "URL ";
+  //           }
+  //           store.addNotification({
+  //             id: "notif3",
+  //             title: "Certains champs sont manquants ou incomplets",
+  //             message:
+  //               "Veuillez corriger les champs avant de valider ce formulaire : " +
+  //               url +
+  //               email,
+  //             type: "danger",
+  //             insert: "top",
+  //             container: "top-right",
+  //             animationIn: ["animated", "fadeIn"],
+  //             animationOut: ["animated", "fadeOut"],
+  //             dismiss: {
+  //               duration: 150000,
+  //               onScreen: true,
+  //             },
+  //           });
+  //         }
+  //       })
+  //       .catch((error) => {
+  //         this.setState({
+  //           error: error.message,
+  //         });
+  //         //console.log(JSON.stringify(this.state));
+  //       });
+  //   }
+  // }
+
   render() {
     return (
+      <section >
+        <h2  className="text-center  text-2xl lg:text-4xl century">
+            Vous souhaitez un audit de votre site web ?
+        </h2>
       <form
         onSubmit={() => this.handleSubmit}
-        className="flex flex-wrap max-w-5xl px-10 mx-auto landing"
+        className="flex flex-wrap max-w-5xl px-10 mx-auto relative "
       >
-        <div className="w-full md:w-1/3 px-2 py-4">
+
+        {this.state.loading ?  <div className="loader-wrapper" ><div class="loader"></div></div> : '' }
+        
+        <div className={`w-full md:w-full px-2 py-4 ${this.state.urlDisplay} `}>
           <input
-            placeholder="Nom (*)"
+            placeholder="URL"
             type="text"
             className=" border-bottom-bleu pl-4 py-3 w-full"
             name="nom"
-            value={this.state.nom}
-            onChange={(e) => this.setState({ nom: e.target.value })}
+            value={this.state.url}
+            onChange={(e) => this.setState({ url: e.target.value })}
           />
         </div>
-        <div className="w-full md:w-1/3 px-2 py-4">
+        <div className={`w-full md:w-full px-2 py-4 ${this.state.emailDisplay} `}>
+          <p className="text-center">Afin de vous envoyé l'audit, merci de nous communiquer votre adresse email.</p>
           <input
             placeholder="Email"
             type="email"
@@ -153,7 +300,7 @@ class ContactEmail extends Component {
             onChange={(e) => this.setState({ email: e.target.value })}
           />
         </div>
-        <ReactNotification />
+        {/* <ReactNotification /> */}
         <ReCaptchaBlock />
 
         <div
@@ -161,13 +308,15 @@ class ContactEmail extends Component {
         >
           <button
             onClick={(e) => this.handleFormSubmit(e)}
-            className="contact bg-black century text-white py-3 px-6 uppercase border-bottom-bleu"
+            className=" bg-black century text-white py-3 px-6 uppercase border-bottom-bleu"
             type="submit"
           >
             Envoyer
           </button>
         </div>
       </form>
+  
+      </section>
     );
   }
 }
