@@ -29,7 +29,7 @@ import Googlepartner from "../../images/../images/logo-partner2022.png";
 import Qualiopicertif from "../../images/logo-qualiopi.png";
 
 import scroll from "../../images/motiontest.svg";
-import formanat from '../../images/formation-referencement-naturel-en-ligne.jpg';
+import formanat from '../../images/formation-referencement-naturel.jpg';
 import "../../scss/info.scss";
 import '../../scss/global.scss';
 

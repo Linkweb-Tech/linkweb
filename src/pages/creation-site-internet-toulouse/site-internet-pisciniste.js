@@ -17,7 +17,7 @@ import "../../scss/blochover.scss";
 import "../../scss/carousel.scss";
 
 import stars from '../../images/stars.png';
-import arriereplan from "../../images/site-internet-pisciniste.jpg";
+import arriereplan from "../../images/creation-site-internet-pisciniste.jpg";
 import siteinternet from "../../images/site-vitrine-pisciniste.jpg";
 import referencement from "../../images/referencement-web-pisciniste.jpg";
 import webdesign from "../../images/design-site-pisciniste.jpg";
