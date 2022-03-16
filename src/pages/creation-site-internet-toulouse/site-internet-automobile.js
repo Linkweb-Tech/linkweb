@@ -58,7 +58,7 @@ class SiteInternetAutomobile extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet automobile à Toulouse - Linkweb"
+                    title="Création de site internet garage automobile à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour votre entreprise automobile à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-automobile/"
                     nom="Créer un site internet internet automobile"
@@ -100,7 +100,7 @@ class SiteInternetAutomobile extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création de site internet  <span className="text-bleu">Automobile</span></h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création de site internet  <span className="text-bleu">Garage automobile</span></h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des métiers de l'automobile à Toulouse et Agen.</h2>
@@ -288,9 +288,9 @@ class SiteInternetAutomobile extends Component {
                         <RoundButton className="items-center" color="darkgrey" text="Contactez-nous" url="/contact-agence-web-toulouse/" />
                     </div>
                 </section>
-                <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
+                <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet automobile :<br /><span className="font-bold">Nos clients sont satisfaits</span>
+                        Création de site internet garage automobile :<br /><span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -359,9 +359,9 @@ class SiteInternetAutomobile extends Component {
                             </a>
                     </div>
                 </section>
-                <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
+                <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet automobile :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Création de site internet garage automobile :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -370,18 +370,25 @@ class SiteInternetAutomobile extends Component {
                         <Accordion>
                             <div className="w-full" label="UN SITE WEB POUR PRÉSENTER SES RÉFÉRENCES">
                                 <p><strong>Créer un site internet</strong> quand on est <strong>professionnel dans l’automobile</strong> est important, non seulement pour travailler son <strong>image d’entreprise</strong>, mais surtout pour <strong>promouvoir ses produits et services</strong>. Il est essentiel de se montrer disponible pour les consommateurs souhaitant acquérir un produit.
+                            <br/><br/>
+                                    La disponibilité d'un support comportant toutes les informations utiles aux utilisateurs 24h/24 est une des raisons premières pour <strong>créer un site internet professionnel</strong> avec une agence spécialisée. Ce site clé-en-main présente des contenus pertinents, une excellente gestion de contenu encadrée par des équipes de spécialistes. Créer votre site web ergnonomique (responsive design) vous permet d'<strong>être visible notamment sur des écrans de tablettes ou de mobiles</strong> pour ne négliger aucune cible.
+
                             <br /><br />
-                                    Pour ce faire, présenter vos références de produits au sein d’un <strong>site internet catalogue</strong> ou bien d’une <strong>boutique en ligne</strong> va vous permettre de répondre aux besoins des utilisateurs. La <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold"><strong>création d’un site internet </strong> de ce type à Agen</Link> vous permet de détailler toutes vos références et d’être disponible grâce à un outil efficace.
+                                    Pour ce faire, présenter vos références de produits au sein d’un <strong>site internet catalogue</strong> ou bien d’une <strong>boutique en ligne</strong> va vous permettre de répondre aux besoins des utilisateurs. La <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold"><strong>création d’un site internet </strong> de ce type à Agen</Link> vous permet de détailler toutes vos références et d’être disponible grâce à un outil efficace. Les sites web sont conçus pour <strong>générer des conversions</strong> intéressantes grâce à la visibilité obtenue. Référencer les pages web d'un site présentant une bonne ergonomie et un <strong>tunnel de conversion</strong> intuitif est une clé de la <strong>réussite de votre projet web</strong>.
                             </p>
                             </div>
                             <div label="DÉVELOPPER SON CHIFFRE D'AFFAIRES AVEC UN SITE WEB PERFORMANT">
                                 <p>La mise en place d’une <strong>stratégie de webmarketing</strong> a pour objectif de <strong>développer votre chiffre d’affaires</strong>. Grâce à la <strong>visibilité obtenue via les moteurs de recherche</strong>, nous ciblons des utilisateurs de façon pertinente pour faire d’eux vos futurs clients. En effet, <strong>acquérir un trafic qualifié</strong> est la première étape pour <strong>obtenir des contacts</strong> ou <strong>vendre vos produits</strong>.
+                            <br/><br/>
+                                    Créer votre site internet vous aide à valoriser vos offres notamment grâce à des <strong>contenus personnalisables et accessibles</strong> en quelques clics. Les spécialistes manient les outils indispensables à votre bonne visibilité au sein des résultats de recherche des moteurs. La <strong>construction d'un site web</strong> qui met en valeur vos services sur véhicules neufs comme sur véhicules d'occasion est idéal pour votre entreprise.
                             <br /><br />
-                                    Nous travaillons pour rendre <strong>votre site web</strong> performant du point de vue du <strong>référencement naturel</strong> afin de <strong>développer un trafic qualifié</strong> et qui vous permettra, à termes, d’<strong>obtenir un retour sur investissement grâce au webmarketing</strong>.
+                                    Nous travaillons pour rendre <strong>votre site web</strong> performant du point de vue du <strong>référencement naturel</strong> afin de <strong>développer un trafic qualifié</strong> et qui vous permettra, à termes, d’<strong>obtenir un retour sur investissement grâce au webmarketing</strong>. Disposer de son site internet représente un investissement qui vous permet de gagner du temps et de l'argent, du choix de votre nom de domaine au travail d'intégration des contenus optimisés en passant par le choix du bon hébergement web et de la <strong>réalisation d'audits réguliers</strong>, l'agence web vous propose un accompagnement des plus complets.
                                 </p>
                             </div>
                             <div label="DÉVELOPPER SA COMMUNICATION D'ENTREPRISE AVEC UN OUTIL TAILLÉ POUR VOUS">
                                 <p>La <strong>création d’un site internet</strong> avec une <Link to="/" className="text-bleu hover:text-black font-bold">agence web comme Linkweb à Toulouse</Link> est également un moyen pour façonner son <strong>image d’entreprise</strong>. Grâce à une plateforme <strong>à votre image</strong>, déterminée en fonction de votre <strong>identité visuelle</strong> ainsi que de vos valeurs, vous bénéficiez d’un atout considérable pour <strong>développer la communication de votre entreprise</strong>.
+                            <br/><br/>
+                                    Votre site internet vous donne la possibilité de <strong>capter de nouveaux clients</strong> régulièrement, de personnaliser les pages de votre site pour qu'elles restent à jour avec un contenu de qualité, de transmettre vos informations de contact en illimité, à n'importe quel moment.
                             <br /><br />
                                     En ce sens, <strong>travailler votre image de marque</strong> sera possible grâce à un <strong>site internet efficace</strong>. Il constitue une parfaite base pour rassembler vos plus fidèles clients et en acquérir de nouveaux grâce à une <strong>communication maîtrisée</strong>.</p>
                             </div>

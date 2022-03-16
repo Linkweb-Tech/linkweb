@@ -59,7 +59,7 @@ class SiteInternetMenuisier extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création site internet Menuisier à Toulouse - Linkweb"
+                    title="Créer un site internet de Menuisier à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour votre entreprise de menuiserie à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-menuisier/"
                     nom="Créer un site internet internet Menuisier"
@@ -101,7 +101,7 @@ class SiteInternetMenuisier extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création site internet pour <span className="text-bleu">Menuisier</span></h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Créer un site internet de <span className="text-bleu">Menuisier</span></h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des menuisiers à Toulouse et Agen.</h2>
@@ -310,7 +310,7 @@ class SiteInternetMenuisier extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour menuisier :<br /><span className="font-bold">Nos clients sont satisfaits</span>
+                        Créer un site internet de menuisier :<br /><span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -381,7 +381,7 @@ class SiteInternetMenuisier extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour menuisier :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Créer un site internet de menuisier :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -392,6 +392,8 @@ class SiteInternetMenuisier extends Component {
                                 <p>Le <strong>développement d’un site internet vitrine</strong> est indispensable pour <strong className="font-bold">dynamiser la communication de son entreprise et investir le web</strong>. <strong>Avoir un site internet</strong> permet de présenter son activité dans des <strong className="font-bold">pages web détaillées</strong>, mais ce n’est pas tout. <strong>Créer un site internet</strong> est essentiel pour <strong className="font-bold">gagner en notoriété et en visibilité</strong>.
                                 <br /><br />
                                 Ceci est indispensable en vue du bon <strong>développement de votre entreprise</strong>. Il est important de travailler son <strong>image de marque</strong> en soignant son contenu et en proposant le <strong className="font-bold">maximum d’informations à destination des utilisateurs</strong>.
+                                <br/><br/>
+                                Les <strong>contenus pertinents</strong> sont des outils indispensables pour capter un trafic intéressant et générer des conversions. Faire un site web mettant en avant votre entreprise tout en répondant aux <strong>recherches des internautes</strong> est une solution viable. Votre site internet clé-en-main présente vos offres avec une navigation intuitive et une bonne ergonomie. Votre <strong>stratégie webmarketing</strong> est pensée pour vous permettre d'atteindre vos objectifs.
                                 <br /><br />
                                     <strong>Mettre en place un site internet</strong> performant suppose la <strong className="font-bold">création de contenus de qualité</strong> en adéquation avec les <strong>attentes des internautes</strong>. C’est de cette façon que vous attirerez de <strong>nouveaux clients</strong>.
                                 </p>
@@ -401,6 +403,8 @@ class SiteInternetMenuisier extends Component {
                             <br /><br />
                                 Également, il faut savoir qu’il est indispensable de veiller à la diversification des moyens d’actions au sein de sa stratégie. C’est pourquoi, nos stratégies de référencement sont sur-mesure et sont pensées pour vous permettre d’obtenir de premiers résultats à court ou moyen terme.
                             <br /><br />
+                                Les équipes vous proposent la <strong>meilleure solution de gestion de contenu</strong>, qu'il s'agisse d'une refonte ou de créer votre site internet. Le <strong>référencement d'un site</strong> joue un rôle important dans la visibilité de votre entreprise.
+                            <br/><br/>
                                 Les stratégies que nous menons sont définies en fonction de vos objectifs, de vos cibles, mais pas seulement. De plus, elles sont évolutives. C’est pourquoi, un suivi est effectué pour vous permettre d’envisager des ajustements, mais également pour vous engager dans des opportunités qui s’offriront à vous.
                             <br /><br />
                                 De la mise en place d’un <strong>code HTML</strong> valide vis-à-vis des <strong className="font-bold">standards du web</strong>, à la <strong className="font-bold">rédaction web optimisée pour des mots-clés finement sélectionnés</strong>, notre travail a pour vocation de vous apporter des performances maximales.

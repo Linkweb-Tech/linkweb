@@ -59,7 +59,7 @@ class CreationSitePisciniste extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet pour pisciniste à Toulouse - Linkweb"
+                    title="Créer un site internet de pisciniste à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour développer votre visibilité et promouvoir votre activité de pisciniste ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-pisciniste/"
                     nom="Créer un site internet internet pour pisciniste"
@@ -101,7 +101,7 @@ class CreationSitePisciniste extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <h1 className="text-4xl md:text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création de site internet pour <span className="text-bleu">Pisciniste</span></h1>
+                            <h1 className="text-4xl md:text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Créer un site internet de <span className="text-bleu">Pisciniste</span></h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des piscinistes à Toulouse et Agen.</h2>
@@ -368,7 +368,7 @@ class CreationSitePisciniste extends Component {
                 </section>
                 <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour pisciniste :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Créer un site internet de pisciniste :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -383,13 +383,15 @@ class CreationSitePisciniste extends Component {
                             <div label="DÉVELOPPER UNE STRATÉGIE QUI VOUS DONNERA DE LA VISIBILITÉ SUR LES MOTEURS DE RECHERCHE">
                                 <p>Pour <strong>apporter une visibilité à votre entreprise sur le Web</strong> et <strong>obtenir des contacts grâce à votre site web</strong>, nous mettons en place une <strong>stratégie de référencement naturel sur-mesure</strong>. Du <strong>choix des mots-clés</strong> jusqu’à la <strong>création des contenus</strong>, notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link> faisons en sorte que <strong>votre site web soit pertinent, légitime et populaire aux yeux des moteurs de recherche</strong>.
                             <br /><br />
+                                    Il est essentiel pour nous de vous apporter la meilleure gestion de contenu et des <strong>outils indispensables pour vous faire connaître</strong>. Nos équipes sont en mesure de vous fournir un site à l'ergonomie irréprochable, reprenant votre identité visuelle et mettant en valeur chacun de vos produits (produits d'entretien, piscines et spas ainsi que tous les accessoires complémentaires). Disposer de votre propre site vous permet de <strong>capter de nouveaux clients</strong> régulièrement grâce à des contenus personnalisables et disponibles sur tous supports (responsive design : adaptés aux écrans de tablettes et mobiles) avec des consultants réactifs et à l'écoute.
+                            <br/><br/>
                                     Ainsi, les contenus que nous créons ont pour vocation d’apporter une plus-value à votre site par rapport à celui de vos concurrents. Rédigés pour répondre à vos besoins, ils sont également rédigés pour <strong>obtenir des performances de positionnement</strong> élevées. En effet, c’est grâce à l’utilisation d’un <strong>champ sémantique pertinent</strong> en fonction du <strong>mot-clé choisi</strong>, que <strong>votre site web obtiendra de la visibilité sur les moteurs de recherche comme Google</strong>.
                             </p>
                             </div>
                             <div label="FAIRE DE VOTRE SITE UNE VITRINE COMPLÈTE POUR VOTRE ENTREPRISE">
-                                <p>L’un des <strong>objectifs de la <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d’un site internet à Agen</Link></strong> est de développer un avantage concurrentiel pour votre entreprise. En ce sens, le site doit être construit pour générer de l’efficacité. Nous mettons en place une <strong>stratégie de visibilité</strong> pertinente qui va <strong>générer un trafic qualifié sur votre site</strong> et vous apporter des <strong>leads</strong>.
+                                <p>L’un des <strong>objectifs de la <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d’un site internet à Agen</Link></strong> est de développer un avantage concurrentiel pour votre entreprise. En ce sens, le site doit être construit pour générer de l’efficacité. Nous mettons en place une <strong>stratégie de visibilité</strong> pertinente qui va <strong>générer un trafic qualifié sur votre site</strong> et vous apporter des <strong>leads</strong>. Grâce à l'utilisation d'un CMS performant comme Wordpress, votre <strong>création de site vitrine</strong> est personnalisée, elle s'appuie sur un visuel approprié pour <strong>vous rendre visible sur le web</strong>. Les experts vous proposent donc de réaliser un site sur-mesure pour vous démarquer de la concurrence.
                             <br /><br />
-                                    Pour ce faire, un <strong>canal de conversion</strong> doit être défini sur le <strong>site web</strong> et chaque élément devra <strong>répondre à un objectif</strong>. Nous hiérarchisons les éléments présents sur <strong>votre site web</strong> pour répondre aux utilisateurs de la manière la plus précise possible. Le <strong>site internet vitrine</strong> est un outil disponible 24/24h et 7/7j, il est donc important que ce dernier contienne toutes les informations nécessaires pour <strong>répondre aux attentes de vos visiteurs</strong>.</p>
+                                    Pour ce faire, un <strong>canal de conversion</strong> doit être défini sur le <strong>site web</strong> et chaque élément devra <strong>répondre à un objectif</strong>. Nous hiérarchisons les éléments présents sur <strong>votre site web</strong> pour répondre aux utilisateurs de la manière la plus précise possible. Créer votre site internet avec notre agence vous permet d'informer vos cibles sur la large gamme de piscines et de produits pour le traitement de l'eau que vous proposez. Le <strong>site internet vitrine</strong> est un outil disponible 24/24h et 7/7j, il est donc important que ce dernier contienne toutes les informations nécessaires pour <strong>répondre aux attentes de vos visiteurs</strong>.</p>
                             </div>
                         </Accordion>
                     </div>

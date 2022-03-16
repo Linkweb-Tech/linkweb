@@ -62,7 +62,7 @@ class CreationSitePaysagiste extends Component {
                     title="Création de site internet pour paysagiste à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour développer votre visibilité et promouvoir votre entreprise paysagiste ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-paysagiste/"
-                    nom="Créer un site internet internet pour paysagiste"
+                    nom="Créer un site internet internet de paysagiste"
                     slug="creation-site-internet-toulouse/site-internet-paysagiste/"
                 />
                 {/* <PageTransition
@@ -101,7 +101,7 @@ class CreationSitePaysagiste extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <h1 className="text-4xl md:text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création de site internet pour <span className="text-bleu">Paysagiste</span></h1>
+                            <h1 className="text-4xl md:text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Créer un site internet de <span className="text-bleu">Paysagiste</span></h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des métiers de l'aménagement paysager à Toulouse et Agen.</h2>
@@ -359,7 +359,7 @@ class CreationSitePaysagiste extends Component {
                 </section>
                 <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour paysagiste :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Créer un site internet de paysagiste :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -368,11 +368,15 @@ class CreationSitePaysagiste extends Component {
                         <Accordion>
                             <div className="w-full" label="UN SITE WEB POUR ÊTRE ACCESSIBLE AUPRÈS DE VISITEURS LOCAUX">
                                 <p><strong>Développer la visibilité</strong> de son entreprise grâce à une <strong>stratégie digitale</strong> réfléchie va permettre de se rendre accessible et disponible <strong>via le Web</strong>. De plus, <strong>cibler des utilisateurs de manière géographique</strong> va permettre de <strong>générer des contacts qualifiés</strong>. Ces derniers seront plus à même d’interagir avec <strong>votre site</strong> et d’effectuer des demandes pertinentes par rapport à vos conditions d’intervention.
+                            <br/><br/>
+                                    Mettez en valeur vos réalisations (<strong>engazonnement, plantation, aménagements extérieurs</strong> en tous genres) grâce à un site internet sur-mesure. Grâce à un site internet vous pouvez montrer aux potentiels clients <strong>l'entretien des espaces verts</strong> que vous proposez, vous pouvez afficher des photos de parcs et jardins sur lesquels vous êtes intervenu.
                             <br /><br />
                                     Le choix des localités sur lesquelles vous allez donner de la <strong>visibilité à votre entreprise</strong> va être basé sur vos secteurs d’intervention. Par ailleurs, c’est le <strong>référencement naturel local</strong> qui va vous permettre de <strong>développer un site web</strong> efficace pour votre entreprise.</p>
                             </div>
                             <div label="UN ESPACE PORTFOLIO POUR DONNER DU CACHET À VOS RÉALISATIONS">
-                                <p><strong>La <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de site internet à Agen</Link></strong> pour un <strong>paysagiste</strong> est l’occasion de valoriser le travail effectué sur vos chantiers. En mettant en avant des <strong>réalisations</strong> diverses et variées telles que la pose de clôtures, de revêtement extérieur ou encore un aménagement de jardin, vous apportez un aspect concret au discours porté <strong>sur votre site web</strong>.
+                                <p><strong>La <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de site internet à Agen</Link></strong> pour un <strong>paysagiste</strong> est l’occasion de valoriser le travail effectué sur vos chantiers. En mettant en avant des <strong>réalisations</strong> diverses et variées telles que la pose de clôtures, de revêtement extérieur, de désherbage, de taille d'arbustes et de haies ou encore un aménagement de jardin, vous apportez un aspect concret au discours porté <strong>sur votre site web</strong>. 
+                            <br/><br/>    
+                                    Présentez votre qualité de travail à travers vos interventions en matière de plantations, d'aménagements paysagers, de terrassement (dallage des allées, terrasse en bois, travaux de maçonnerie) et <strong>autres projets d'entretien de jardins</strong> et d'entretien de parcs.
                             <br /><br />
                                     Aussi, un utilisateur qui aura la possibilité de consulter le travail que vous avez déjà réalisé sera plus à même de prendre contact avec vous pour vous exposer son projet. À ce niveau, la <strong>communication web</strong> est un <strong>vecteur de visibilité</strong> et de demandes de contact très important. Travailler avec une <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link> permet de définir des stratégies performantes.
                             </p>
@@ -380,7 +384,9 @@ class CreationSitePaysagiste extends Component {
                             <div label="UN SITE INTERNET POUR PRÉSENTER VOTRE SAVOIR-FAIRE, VOTRE ENTREPRISE ET VOS PRESTATIONS">
                                 <p>Également, pour un professionnel de l’<strong>aménagement paysager</strong>, il va être important de se servir de <strong>son site internet</strong> comme la vitrine de son entreprise. Ce dernier devra apporter des réponses aux <strong>interrogations des utilisateurs</strong>. Votre manière de travailler, vos délais d’intervention ou encore le matériel utilisé sont autant d’éléments qui permettent d’affiner <strong>votre image aux yeux des utilisateurs</strong>.
                             <br /><br />
-                                    Le <strong>site internet vitrine</strong> est un outil parfait pour <strong>travailler son image de marque</strong> et <strong>atteindre de nouveaux clients</strong>. En communiquant le plus d’informations possibles, non seulement vous répondrez aux besoins des utilisateurs, mais vous démontrerez également toute votre compétence. Maîtriser son sujet sur <strong>son site web</strong> est un signe particulièrement habile pour démontrer tout son savoir-faire et sa connaissance du métier.</p>
+                                    Ces derniers recherchent régulièrement des informations sur la <strong>création d'un jardin, d'un aménagement extérieur</strong> qui leur correspond. Proposez-leur une prestation d'abattage, de maçonnerie paysagère ou d'engazonnement grâce à des contenus de qualité qui répondent à leurs recherches.
+                            <br/><br/>
+                                    Enfin, le <strong>site internet vitrine</strong> est un outil parfait pour <strong>travailler son image de marque</strong> et <strong>atteindre de nouveaux clients</strong>. En communiquant le plus d’informations possibles, non seulement vous répondrez aux besoins des utilisateurs, mais vous démontrerez également toute votre compétence. Maîtriser son sujet sur <strong>son site web</strong> est un signe particulièrement habile pour démontrer tout son savoir-faire et sa connaissance du métier d'entretien d'espaces extérieurs.</p>
                             </div>
                         </Accordion>
                     </div>

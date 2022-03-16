@@ -59,7 +59,7 @@ class SiteInternetMacon extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création site internet Maçon à Toulouse - Linkweb"
+                    title="Créer un site internet de Maçon à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour votre entreprise de maçonnerie à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-macon/"
                     nom="Créer un site internet internet Maçon"
@@ -101,7 +101,7 @@ class SiteInternetMacon extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création site internet pour <span className="text-bleu">Maçon</span></h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Créer un site internet de <span className="text-bleu">Maçon</span></h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des maçons à Toulouse et Agen.</h2>
@@ -310,7 +310,7 @@ class SiteInternetMacon extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour maçon :<br /><span className="font-bold">Nos clients sont satisfaits</span>
+                        Créer un site internet de maçon :<br /><span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -381,7 +381,7 @@ class SiteInternetMacon extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour maçon :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Créer un site internet de maçon :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -398,10 +398,14 @@ class SiteInternetMacon extends Component {
                             </div>
                             <div label="DÉVELOPPER LA VISIBILITÉ DE SON ENTREPRISE AVEC LE RÉFÉRENCEMENT NATUREL">
                                 <p>Un <strong className="font-bold">site internet performant</strong> est nécessairement un <strong className="font-bold">site internet visible</strong>. <strong>Être visible sur le Web</strong> est indispensable pour tirer profits des bienfaits d’un <strong>site internet professionnel</strong>. Cela passe par la définition et la <strong className="font-bold">mise en place d’une stratégie de visibilité</strong>. Cette dernière devra être orientée pour <strong className="font-bold">générer du trafic qualifié en vue d’attirer de potentiels clients</strong> pour votre entreprise.
+                            <br/><br/>
+                                Le <strong>référencement d'un site</strong>, tout comme sa création, implique de la minutie et de la réflexion. En effet, les agences web apportent une ergonomie parfaite au support, elles veillent à ce que les contenus soient optimisés et emploient des <strong>outils indispensables</strong> à la bonne visibilité du site web.
                             <br /><br />
+                                La stratégie digitale que des experts vous proposent est fondée à partir de vos besoins et se veut entièrement personnalisée. Elle permet d'activer les <strong>leviers du webmarketing</strong> les plus appropriés pour atteindre vos objectifs.
+                            <br/><br/>
                                 Également, il faut savoir qu’il est indispensable de veiller à la diversification des moyens d’actions au sein de sa stratégie. C’est pourquoi, nos <strong>stratégies de référencement</strong> sont sur-mesure et sont pensées pour vous permettre d’obtenir de premiers résultats à court ou moyen terme.
                             <br /><br />
-                                Les stratégies que nous menons sont définies en fonction de vos objectifs, de vos cibles, mais pas seulement. De plus, elles sont évolutives. C’est pourquoi, un suivi est effectué pour vous permettre d’envisager des ajustements, mais également pour vous engager dans des opportunités qui s’offriront à vous.
+                                Les stratégies que nous menons sont définies en fonction de vos objectifs, de vos cibles, mais pas seulement. De plus, elles sont évolutives. C’est pourquoi, un suivi est effectué pour vous permettre d’envisager des ajustements, mais également pour vous engager dans des opportunités qui s’offriront à vous. Nos équipes vous apportent un accompagnement dans la gestion de contenu, la <strong>conception de site</strong> et toutes les problématiques du web pour assurer l'accessibilité illimitée de votre site web depuis tous les supports (tablettes, mobiles). 
                             <br /><br />
                                 De la mise en place d’un <strong>code HTML</strong> valide vis-à-vis des <strong className="font-bold">standards du web</strong>, à la <strong className="font-bold">rédaction web optimisée pour des mots-clés finement sélectionnés</strong>, le travail de notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> a pour vocation de vous apporter des performances maximales.
                                 </p>
@@ -411,7 +415,7 @@ class SiteInternetMacon extends Component {
                                 <br /><br />
                                 Il est donc nécessaire de veiller à la <strong className="font-bold">création d’une interface intuitive</strong> et d’une <strong className="font-bold">expérience utilisateur</strong> soignée pour <strong className="font-bold">guider l’utilisateur durant sa navigation</strong>. Cela va vous permettre de maintenir un <strong>utilisateur sur votre site web</strong> plus longtemps et ainsi favoriser une navigation suivant votre <strong>tunnel de conversion</strong> en vue d’<strong className="font-bold">obtenir un taux de conversion maximal</strong>.
                                 <br /><br />
-                                Ceci est particulièrement fondamental si votre objectif consiste à <strong>générer de l'activité sur votre site web</strong> et ainsi <strong className="font-bold">obtenir des contacts pour votre entreprise grâce à votre site internet</strong>.
+                                Ceci est particulièrement fondamental si votre objectif consiste à <strong>générer de l'activité sur votre site web</strong> et ainsi <strong className="font-bold">obtenir des contacts pour votre entreprise grâce à votre site internet</strong>. Créer votre site internet implique de choisir l'hébergement web, votre nom de domaine s'il ne s'agit pas d'une refonte. Les contenus sont personnalisés et adaptés au <strong>type de site</strong> choisi. Pour cette raison, les experts de notre agence web vous proposent de <strong>faire un site en accord avec vos objectifs</strong> et de vous accompagner au quotidien pour développer les performances de celui-ci.
                             </p>
                             </div>
                         </Accordion>

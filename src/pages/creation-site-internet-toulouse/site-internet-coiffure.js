@@ -59,7 +59,7 @@ class SiteInternetCoiffeur extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet pour coiffeur à Toulouse - Linkweb"
+                    title="Créer un site internet de coiffeur à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour votre salon de coiffure à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-coiffure/"
                     nom="Créer un site internet internet coiffeur"
@@ -101,7 +101,7 @@ class SiteInternetCoiffeur extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création de site internet pour <span className="text-bleu">salon de coiffure</span></h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Créer un site internet de <span className="text-bleu">salon de coiffure</span></h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des coiffeurs à Toulouse et Agen.</h2>
@@ -291,7 +291,7 @@ class SiteInternetCoiffeur extends Component {
                 </section>
                 <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour salon de coiffure :<br /><span className="font-bold">Nos clients sont satisfaits</span>
+                        Créer un site internet de coiffeur :<br /><span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -360,7 +360,7 @@ class SiteInternetCoiffeur extends Component {
                 </section>
                 <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour salon de coiffure :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Créer un site internet de coiffeur :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -370,19 +370,23 @@ class SiteInternetCoiffeur extends Component {
                             <div className="w-full" label="UN SITE WEB POUR FAIRE CONNAÎTRE SON ENTREPRISE">
                                 <p>Pour faire ses premiers pas <strong>sur le Web</strong>, le <strong>site internet</strong> est un parfait outil afin de <strong>faire connaître son entreprise</strong>. Non seulement il permet de <strong>développer sa notoriété</strong>, mais il peut également permettre de <strong>promouvoir son activité et ses réalisations</strong>.
                             <br /><br />
+                                    Grâce aux solutions de gestion de contenu et au support technique proposés par les spécialistes, vous avez la possibilité de vous <strong>faire connaître votre entreprise</strong> et de mettre chacune de vos pages web en valeur. Votre choix d'hébergement web, votre nom de domaine, votre contenu optimisé, chaque élément est soigné grâce au sérieux des équipes de l'agence. Les experts manient le code HTML, les fichiers CSS et autres outils indispensables à la <strong>création de sites internet ergonomiques</strong>. Pour créer un site web sur-mesure ou pour démarrer une refonte, les agences web sont la meilleure solution. Disposer d'un site internet adapté à vos besoins est le moyen d'atteindre vos objectifs.
+                            <br/><br/>
                             La <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de site internet site internet à Agen</Link></strong> est un bon moyen de <strong>présenter vos services</strong>, <strong>développer votre visibilité grâce au Web</strong> et ainsi mener de nouveaux projets. Faites connaître votre travail avec un <strong>site web</strong> taillé à votre mesure et <strong>à votre image</strong>.
                             </p>
                             </div>
                             <div label="OBTENIR DE LA VISIBILITÉ POUR DÉVELOPPER SON CHIFFRE D'AFFAIRES">
                                 <p>Travailler <strong>la visibilité de son site internet sur le web</strong> va permettre de <strong>générer du trafic</strong> et d'attirer de <strong>potentiels clients</strong>. En développant une <strong>stratégie de référencement naturel</strong> adaptée, vous accédez à une visibilité importante auprès d’<strong>utilisateurs qualifiés</strong>.
                             <br /><br />
+                                    Faire un site internet professionnel et fonctionnel avec le bon CMS (Wordpress, Prestashop, Joomla, Drupal, Woocommerce, etc.), choisir des extensions (plugins) nécessaires sont autant de missions que les développeurs peuvent remplir pour vous permettre d'<strong>être visible dans les résultats de recherche des moteurs</strong> avec une solution fonctionnelle. Les spécialistes de la création de sites web veillent à ce que chaque support soit intuitif et s'inscrive de façon pertinente dans la <strong>stratégie webmarketing</strong> mise en place.
+                            <br/><br/>
                                     En générant du <strong>trafic sur votre site web grâce au référencement</strong>, vous apportez une réponse à la requête d’internautes à la recherche d’un service. Ces derniers seront à même de vous contacter et de prendre rendez-vous au sein <strong>votre salon de coiffure</strong>.
                                 </p>
                             </div>
                             <div label="EXPOSER SES RÉALISATIONS POUR CONCRÉTISER VIA SON SITE WEB">
-                                <p>En présentant <strong>vos réalisations sur votre site web</strong>, non seulement vous démontrez toute la <strong>qualité de votre travail</strong>, mais vous aidez l’utilisateur à se projeter par rapport à votre prestation. Il est important d’apporter des preuves d’un travail bien fait.
+                                <p>En présentant <strong>vos réalisations sur votre site web</strong>, non seulement vous démontrez toute la <strong>qualité de votre travail</strong>, mais vous aidez l’utilisateur à se projeter par rapport à votre prestation. Avoir un site est idéal pour montrer aux utilisateurs vos réalisations, depuis les écrans de tablettes comme de mobiles. Grâce à l'ergonomie et l'accessibilité des sites web conçus, le prospect qui n'a aucune connaissance de votre travail peut <strong>découvrir vos prestations</strong>. Grâce à l'expertise de l'agence web, le type de site réalisé est choisi pour valoriser vos travaux, il reprend l'identité visuelle de votre entreprise et vous propose de <strong>transmettre des informations importantes aux prospects</strong> à travers des pages de votre site qui sont personnalisables. Il est important d’apporter des preuves d’un travail bien fait.
                             <br /><br />
-                            Ceci a tendance à rassurer l’utilisateur et facilitera la <strong>prise de contact sur votre site web</strong>. Pour ce faire, la <strong>création d’un portfolio</strong> ou d’un espace réalisations pourra terminer de convaincre un utilisateur que vous êtes le <strong>salon de coiffure</strong> qu’il recherche.</p>
+                                    Ceci a tendance à rassurer l’utilisateur et facilitera la <strong>prise de contact sur votre site web</strong>. Pour ce faire, la <strong>création d’un portfolio</strong> ou d’un espace réalisations pourra terminer de convaincre un utilisateur que vous êtes le <strong>salon de coiffure</strong> qu’il recherche.</p>
                             </div>
                         </Accordion>
                     </div>

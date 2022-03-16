@@ -59,7 +59,7 @@ class SiteInternetSerrurier extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création site internet pour Serrurier à Toulouse - Linkweb"
+                    title="Créer un site internet de Serrurier à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour votre entreprise de serrurerie à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-serrurier/"
                     nom="Créer un site internet internet Serrurier"
@@ -290,7 +290,7 @@ class SiteInternetSerrurier extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet de serrurier :<br /><span className="font-bold">Nos clients sont satisfaits</span>
+                        Créer un site internet de serrurier :<br /><span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -360,7 +360,7 @@ class SiteInternetSerrurier extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet de serrurier :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Créer un site internet de serrurier :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -369,27 +369,32 @@ class SiteInternetSerrurier extends Component {
                         <Accordion>
                             <div className="w-full" label="DÉVELOPPER LA NOTORIÉTÉ DE SON ENTREPRISE SUR LE WEB">
                                 <p>Le <strong className="font-bold">site internet vitrine</strong> est l’outil parfait pour <strong>faire connaître son entreprise</strong> et lui apporter de la <strong>visibilité sur le web</strong>. <strong>Avoir un site internet</strong> de ce type permet de présenter son activité et ses prestations au sein de <strong className="font-bold">pages web conçues pour être visibles</strong>.
-
+                                <br/><br/>
+                                Les sites internet sont créés avec un CMS, outil de création et de gestion comme Wordpress, Drupal, Prestashop ou Joomla. Toutefois, la technologie peut être adaptée selon vos besoins. Les <strong>pages web</strong> sont personnalisables et présentent votre entreprise et ses services sous leur meilleur jour.
                                 <br /><br />
+                                Créer votre site est indispensable de nos jours pour faire connaître ses prestations et <strong>capter de nouveaux clients</strong>. Faire un site avec une agence web est idéal, cela vous offre un accompagnement complet pour choisir l'hébergement web, pour choisir votre nom de domaine (s'il ne s'agit pas d'une refonte) et <strong>définir une stratégie digitale</strong>, une stratégie webmarketing efficace.
+                                <br/><br/>
                                 Plus encore le <strong>site internet</strong> permet de travailler son <strong className="font-bold">image de marque</strong> tout en étendant sa <strong className="font-bold">notoriété sur le Web</strong>. Il est important de soigner le <strong>contenu de ses pages</strong> en exposant le maximum d’<strong className="font-bold">informations utiles pour les utilisateurs</strong>.
                                 <br /><br />
                                 En effet, la <strong className="font-bold">création de contenus de qualité</strong> et qui répondent aux <strong className="font-bold">attentes des internautes</strong> est indispensable pour se démarquer et ainsi <strong className="font-bold">attirer de nouveaux clients</strong>.
                                 </p>
                             </div>
                             <div label="GAGNER EN VISIBILITÉ POUR GÉNÉRER DES CONTACTS PERTINENTS">
-                                <p>Un <strong>site internet performant</strong> est un <strong className="font-bold">site internet visible</strong>. En effet, la <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d’un site internet professionnel à Agen</Link></strong> nécessite la mise en place d’une <strong className="font-bold">stratégie de visibilité</strong> adaptée. C’est pourquoi, nous déterminons une <strong>stratégie de référencement naturel</strong> orientée pour <strong className="font-bold">générer du trafic</strong> et <strong className="font-bold">attirer de potentiels clients</strong>.
+                                <p>Un <strong>site internet performant</strong> est un <strong className="font-bold">site internet visible</strong>. En effet, la <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d’un site internet professionnel à Agen</Link></strong> nécessite la mise en place d’une <strong className="font-bold">stratégie de visibilité</strong> adaptée. C’est pourquoi, nous déterminons une <strong>stratégie de référencement naturel</strong> orientée pour <strong className="font-bold">générer du trafic</strong> et <strong className="font-bold">attirer de potentiels clients</strong>. Les développeurs et référenceurs de l'agence web vous proposent un <strong>site clé-en-main</strong>, aux fonctionnalités personnalisées pour parvenir à cela.
                             <br /><br />
+                                    Le <strong>contenu de votre site</strong> est présenté en parfaite ergonomie ergonomie. Il est possible d'utiliser des extensions (plugins) pour étendre les fonctionnalités du site. Nos développeurs sont en mesure d'agir sur le <strong>code HTML</strong>, les fichiers CSS ainsi que les ressources JavaScript ou encore PHP pour une création de sites de qualité. L'agence web vous accompagne pour mettre en place la meilleure solution de gestion de contenu, elle vous aide à manipuler des outils indispensables de la communication digitale conçus pour <strong>générer des conversions</strong>.
+                            <br/><br/>
                                     Par ailleurs, nous proposons des <strong>stratégies de référencement sur-mesure</strong> pour coller au mieux à vos besoins et vous permettre d’<strong>obtenir des premiers résultats</strong> à court ou moyen terme.
                             <br /><br />
                                     C’est pourquoi, nous mettons tout en oeuvre pour vous donner accès à une stratégie évolutive et adaptée en fonction de vos <strong>cibles</strong>. De la mise en place d’un <strong>code HTML</strong> valide vis-à-vis des <strong className="font-bold">standards du web</strong>, à la <strong className="font-bold">rédaction web optimisée pour des mots-clés finement sélectionnés</strong>, notre travail a pour vocation de vous apporter des performances maximales.
                                 </p>
                             </div>
                             <div label="DYNAMISER SON ACTIVITÉ GRÂCE À UN SITE WEB PERFORMANT">
-                                <p>Outre la mise en place d’une <strong>stratégie de référencement naturel</strong>, la <strong>création d’un site web</strong> doit être réalisée selon certains procédés pour <strong className="font-bold">générer des performances</strong> intéressantes. En effet, le <strong>site web</strong> s’adresse avant tout à des utilisateurs humains, il doit donc être conçu pour eux en priorité.
+                                <p>Outre la mise en place d’une <strong>stratégie de référencement naturel</strong>, la <strong>création d’un site web</strong> doit être réalisée selon certains procédés pour <strong className="font-bold">générer des performances</strong> intéressantes. En effet, le <strong>site web</strong> s’adresse avant tout à des utilisateurs humains, il doit donc être conçu pour eux en priorité. Les <strong>experts d'une agence web</strong> qualifiée vous permettent de devenir visible dans les pages de résultats des moteurs, faire le choix du bon hébergeur et intégrer les contenus les plus pertinents à chacune des pages de votre site.
                                 <br /><br />
                                 À ce niveau, la mise en place d’un <strong>site web professionnel</strong> doit résulter d’un travail autour de la <strong className="font-bold">création d’une interface intuitive</strong> et d’une <strong className="font-bold">expérience utilisateur</strong> soignée. Ceci est indispensable pour amener les utilisateurs où vous souhaitez qu’ils aillent. C'est pourquoi, mener ce travail avec une <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Toulouse</Link> est particulièrement conseillé.
                                 <br /><br />
-                                De plus, un <strong>site web</strong> dont la <strong>navigation</strong> sera facilitée est un <strong>site web</strong> susceptible d’<strong className="font-bold">obtenir des contacts</strong> et donc de vous permettre d'<strong className="font-bold">atteindre vos objectifs</strong>.
+                                De plus, un <strong>site web</strong> dont la <strong>navigation</strong> sera facilitée est un <strong>site web</strong> susceptible d’<strong className="font-bold">obtenir des contacts</strong> et donc de vous permettre d'<strong className="font-bold">atteindre vos objectifs</strong>. Créer votre site internet avec des spécialistes du développement web permettra à chaque utilisateur ne possédant aucune connaissance sur vos prestations, de <strong>découvrir votre entreprise en quelques clics</strong>. La <strong>création de sites internet</strong> et le suivi de performance avec un outil comme Google Analytics représentent des moyens fiables d'obtenir des résultats intéressants.
                             </p>
                             </div>
                         </Accordion>

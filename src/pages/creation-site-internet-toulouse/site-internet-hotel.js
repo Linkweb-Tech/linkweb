@@ -59,7 +59,7 @@ class SiteInternetHotel extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet pour Hôtel à Toulouse - Linkweb"
+                    title="Création de site internet design pour Hôtel à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour votre hôtel ou chambre d'hôtes à Toulouse (31) ou à Agen (47) ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-hotel/"
                     nom="Créer un site internet internet Hôtel"
@@ -359,7 +359,7 @@ class SiteInternetHotel extends Component {
                 </section>
                 <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour Hôtel :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Création de site internet design pour Hôtel :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -367,20 +367,28 @@ class SiteInternetHotel extends Component {
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                             <div className="w-full" label="FAIRE CONNAÎTRE SON HÔTEL AVEC UN SITE WEB">
-                                <p>Pour faire ses premiers pas <strong>sur le Web</strong>, le <strong>site internet</strong> est un parfait outil afin de <strong>faire connaître son établissement</strong>. Non seulement il permet de <strong>développer sa notoriété</strong>, mais il peut également permettre de <strong>promouvoir ses prestations</strong> et l’environnement dans lequel il s’inscrit.
+                                <p>Pour faire ses premiers pas <strong>sur le Web</strong>, le <strong>site internet</strong> est un parfait outil afin de <strong>faire connaître son établissement</strong>. Non seulement il permet de <strong>développer sa notoriété</strong>, mais il peut également permettre de <strong>promouvoir ses prestations</strong> et l’environnement dans lequel il s’inscrit. Créer votre site web avec des spécialistes vous permet d'<strong>avoir un site professionnel et clé-en-main</strong> grâce à des outils indispensables du développement web.
                             <br /><br />
+                                    Faire un <strong>site web pour votre hôtel</strong> implique de choisir le bon hébergeur, de choisir le bon type de site web (site e-commerce, site vitrine, site catalogue, etc.). Les contenus entièrement personnalisables sont intégrés à chacune des pages web de votre site et ce dernier reprend votre identité visuelle pour être à l'image de votre entreprise. La création de sites web est un travail qui demande beaucoup de temps et de minutie, les développeurs compétents d'une agence web vous accompagnent et vous permettent de rester concentré sur l'activité de votre hôtel. 
+                            <br/><br/>
                                     La <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d'un site internet à Agen</Link></strong> est un bon moyen de <strong>présenter vos prestations</strong> et <strong>développer votre visibilité grâce au Web</strong> afin d’<strong>atteindre vos objectifs</strong>. Faites connaître votre travail avec un <strong>site web</strong> taillé à votre mesure et <strong>à votre image</strong>.
                             </p>
                             </div>
                             <div label="OBTENIR DE LA VISIBILITÉ POUR DÉVELOPPER SON CHIFFRE D'AFFAIRES">
-                                <p>Travailler <strong>la visibilité de son site internet sur le web</strong> va permettre de <strong>générer du trafic</strong> et d'attirer de <strong>potentiels clients</strong>. En développant une <strong>stratégie de référencement naturel</strong> adaptée, vous accédez à une visibilité importante auprès d’<strong>utilisateurs qualifiés</strong>, c’est-à-dire, qui seront à même de correspondre à votre cible.
+                                <p>Travailler <strong>la visibilité de son site internet sur le web</strong> va permettre de <strong>générer du trafic</strong> et d'attirer de <strong>potentiels clients</strong>. En développant une <strong>stratégie de référencement naturel</strong> adaptée, vous accédez à une visibilité importante auprès d’<strong>utilisateurs qualifiés</strong>, c’est-à-dire, qui seront à même de correspondre à votre cible. Pour <strong>créer un site internet</strong> qui présente une ergonomie parfaite, un contenu pertinent et un webdesign personnalisé, l'agence web vous propose les meilleures solutions.
                             <br /><br />
-                                    En générant du <strong>trafic sur votre site web grâce au référencement</strong>, vous apportez une réponse à la requête d’internautes à la recherche d’un service. Ces derniers seront à même de vous contacter et de <strong>réserver une chambre au sein de votre établissement</strong>.
+                                    En générant du <strong>trafic sur votre site web grâce au référencement</strong>, vous apportez une réponse à la requête d’internautes à la recherche d’un service. Ces derniers seront à même de vous contacter et de <strong>réserver une chambre au sein de votre établissement</strong>. Vous verrez ainsi votre chiffre d'affaires grandir en captant des utilisateurs régulièrement. La gestion de contenu et les fonctionnalités de votre site internet vitrine constituent des éléments importants dont il faut tenir compte dès la création.
                                 </p>
                             </div>
                             <div label="DÉVELOPPER UNE PLATEFORME CLAIRE POUR DONNER ACCÈS À SES PRESTATIONS">
                                 <p><strong>Votre site web</strong> doit vous permettre de présenter de présenter vos prestations de manière claire et concise. Cela vous permet de démontrer toute la <strong>richesse de vos services</strong>, mais vous aidez l’utilisateur à se projeter par rapport à votre prestation. Développer un univers visuel cohérent avec les <strong>attentes des internautes</strong> sera également utile à ce niveau-là.
+                            <br/><br/>
+                                    Le développement d'un site web fait appel à des <strong>outils conçus pour créer un support personnalisé</strong>, rendre les projets web des entreprises réalisables. Disposer d'un site internet est une solution fiable, qu'il s'agisse d'une refonte ou d'une création de site internet vitrine, administrable, ecommerce, catalogue, pour <strong>développer l'activité en ligne de votre entreprise</strong>.
                             <br /><br />
+                                    La <strong>création de sites internet performants</strong> et fonctionnels est une des spécialités de notre agence web. Les équipes chargées de créer votre site internet emploient des outils digitaux importants comme les CMS Wordpress (ou encore Prestashop, Woocommerce, Drupal ou Joomla) pour créer des <strong>supports adaptés au profil de votre entreprise</strong>. Code HTML et fichiers CSS n'ont plus de secret pour nos développeurs au sein du processus de création de votre propre site. 
+                            <br/><br/>
+                                    Quelques extensions (plugins) pourront être utiles pour <strong>optimiser votre site</strong> et respecter la stratégie digitale sur-mesure qui a été mise en place. Votre agence web vous aide à choisir l'hébergement web approprié, votre nom de domaine et suit scrupuleusement le <strong>cahier des charges</strong> créé avec vous. Le type de site est adapté à vos besoins, avec le bon outil de création, votre site aura pour but de répondre aux requêtes des utilisateurs.
+                            <br/><br/>
                                     La mise en place d'une plateforme claire et efficace doit permettre de faciliter la <strong>prise de contact sur votre site web</strong> et ainsi augmenter votre nombre de <strong>réservations en ligne</strong>. Pour ce faire, le <strong>webdesign</strong> en place sur <strong>votre site web</strong> doit accompagner l'utilisateur pour le convaincre qu'il trouvera ce qu'il attend dans votre <strong>hôtel</strong>, <strong>maison d'hôtes</strong> ou <strong>camping</strong>.</p>
                             </div>
                         </Accordion>

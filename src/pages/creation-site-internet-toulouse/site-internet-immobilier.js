@@ -57,7 +57,7 @@ class CreationSiteImmobilier extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création de site internet immobilier à Toulouse - Linkweb"
+                    title="Création de site internet Agence immobilière à Toulouse - Linkweb"
                     description="Vous souhaitez créer un site web pour développer votre visibilité et promouvoir votre entreprise immobilière ? Linkweb le crée pour vous."
                     url="https://linkweb.fr/creation-site-internet-toulouse/site-internet-immobilier/"
                     nom="Créer un site internet internet immobilier"
@@ -99,7 +99,7 @@ class CreationSiteImmobilier extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création de site internet <span className="text-bleu">Immobilier</span></h1>
+                            <h1 className="text-5xl my-10 font-bold text-center lg:text-left text-white century leading-none">Création de site internet <span className="text-bleu">Agence Immobilière</span></h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-1/2 text-white justify-center lg:justify-start mx-auto lg:mx-0 text-xl  century text-center lg:text-left p-1 uppercase -mt-12">Linkweb, partenaire des métiers de l'immobilier à Toulouse et Agen.</h2>
@@ -283,9 +283,9 @@ class CreationSiteImmobilier extends Component {
                         <RoundButton className="items-center" color="darkgrey" text="Contactez-nous" url="/contact-agence-web-toulouse/" />
                     </div>
                 </section>
-                <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
+                <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet immobilier :<br /><span className="font-bold">Nos clients sont satisfaits</span>
+                        Création de site internet agence immobilière :<br /><span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -293,7 +293,7 @@ class CreationSiteImmobilier extends Component {
                     <div className="w-full md:w-1/3 px-3 flex flex-col align-center justify-center" /*data-aos="fade-up"*/>
                         <img
                             src={stars}
-                            alt="Création site internet Agen"
+                            alt="Création site internet agence immobilière"
                             className="w-32 mx-auto h-auto mt-3"
                         />
                         <div className="text-lg century my-2">Château de Boisverdun</div>
@@ -352,9 +352,9 @@ class CreationSiteImmobilier extends Component {
                             </a>
                     </div>
                 </section>
-                <section className="max-w-3xl w-full mx-auto px-4 py-0 my-0">
+                <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet immobilier :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Création de site internet agence immobilière :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -364,17 +364,26 @@ class CreationSiteImmobilier extends Component {
                             <div className="w-full" label="UN SITE WEB POUR PRÉSENTER SES BIENS IMMOBILIERS">
                                 <p>Lorsqu’un <strong>utilisateur</strong> est à la recherche d’un <strong>bien immobilier à vendre ou à louer</strong>, il va consulter une <strong>multitude de sites web</strong> pour effectuer un premier tri dans sa recherche. Il est donc indispensable de favoriser une <strong>navigation intuitive</strong> sur une <strong>plateforme ergonomique et parfaitement fonctionnelle</strong>. La mise en place d’un <strong>moteur de recherche avancée</strong> directement en page d’accueil est une option tout à fait pertinente pour donner à l’utilisateur ce qu’il vient chercher.
                             <br /><br />
-                                La configuration du moteur devra être suffisamment bien ficelée pour donner accès aux <strong>fiches de description des biens</strong> pertinentes par rapport à la <strong>requête de l’utilisateur</strong>. La <strong>construction de ces fiches</strong> va donc être essentielle. Elle va non seulement faciliter la configuration et le filtrage des biens, mais également apporter une somme d’informations pertinentes pour l’utilisateur. Ceci est indispensable pour que ce dernier possède l’ensemble des informations qui feront de lui un potentiel <strong>prospect</strong>.</p>
+                                La configuration du moteur devra être suffisamment bien ficelée pour donner accès aux <strong>fiches de description des biens</strong> pertinentes par rapport à la <strong>requête de l’utilisateur</strong>. La <strong>construction de ces fiches</strong> va donc être essentielle. Elle va non seulement faciliter la configuration et le filtrage des biens, mais également apporter une somme d’informations pertinentes pour l’utilisateur. Ceci est indispensable pour que ce dernier possède l’ensemble des informations qui feront de lui un potentiel <strong>prospect</strong>.
+                            <br/><br/>
+                                La création de sites internet destinés à présenter des biens immobiliers est un outil important pour <strong>booster son chiffre d'affaires</strong>. Grâce à une gestion de contenu adaptée et à des fonctionnalités spécifiques, les besoins des <strong>agences immobilières</strong> sont respectés et apportent les informations nécessaires aux utilisateurs. Des consultants peuvent intervenir pour le référencement d'un site d'immobilier comme pour le choix d'un hébergement web, disposer de son propre site en tant que prestataire immobilier présente de nombreux avantages. Un site catalogue que site e-commerce ou site vitrine, présentant un webdesign et une ergonomie adaptés ainsi qu'une version responsive design pour être consulté partout (depuis les écrans de tablettes ou de mobiles), reprenant votre identité visuelle mettra en valeur les biens proposés.
+                                </p>
                             </div>
                             <div label="CRÉER DES FICHES DÉTAILLÉES EN ACCORD AVEC LES BESOINS DES UTILISATEURS">
                                 <p>Répondre aux besoins et interrogations d’un utilisateur va passer par la <strong>création d’un contenu adapté</strong>. Pour une <strong>agence immobilière</strong>, il va être essentiel de rendre accessibles les biens mis à disposition que ce soit à la vente ou à la location pour <strong>maximiser leur visibilité</strong>. La <strong>création de fiches de biens immobiliers</strong> exhaustives va permettre d’apporter l’ensemble des informations nécessaires aux utilisateurs, mais également de gagner en crédibilité.
                             <br /><br />
-                                Une fiche de bien construite de manière correcte va comporter des informations telles que le <strong>type de bien</strong>, sa <strong>situation géographique</strong>, la <strong>surface habitable</strong> (et <strong>surface totale</strong>), le <strong>bilan énergétique</strong>, le nombre et la catégorisation des pièces, etc. Mieux une fiche sera remplie et plus elle sera susceptible de correspondre aux <strong>besoins d’un utilisateur</strong>. Notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> vous accompagne pour mettre en place fiches sur votre site web.</p>
+                                Une fiche de bien construite de manière correcte va comporter des informations telles que le <strong>type de bien</strong>, sa <strong>situation géographique</strong>, la <strong>surface habitable</strong> (et <strong>surface totale</strong>), le <strong>bilan énergétique</strong>, le nombre et la catégorisation des pièces, etc. Mieux une fiche sera remplie et plus elle sera susceptible de correspondre aux <strong>besoins d’un utilisateur</strong>. Notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> vous accompagne pour mettre en place fiches sur votre site web.
+                            <br/><br/>
+                                Choisir de créer votre site internet vitrine avec un <strong>spécialiste du développement web</strong> vous permet de choisir le meilleur hébergeur web parmi les offres existantes, profiter d'une maintenance au besoin pour assurer l'accès illimité au site, vous <strong>choisissez votre nom de domaine avec des professionnels</strong> et arbitrez l'intégration des contenus réalisés. Le site internet professionnel est clé-en-main, conçu avec un <strong>CMS performant comme Wordpress</strong> pour personnaliser le web-design et la disposition des textes et photos. Vous pourrez également étudier avec les équipes de consultants et développeurs la possibilité de proposer des visites virtuelles, de plus en plus plébiscitées par les potentiels acquéreurs.
+                                </p>
                             </div>
                             <div label="OPTIMISER LES FICHES DE BIEN POUR ACCROÎTRE SA VISIBILITÉ SUR LES MOTEURS DE RECHERCHE">
                                 <p>Le <strong>référencement naturel</strong> représente une <strong>source d’acquisition de trafic</strong> non négligeable pour un <strong>site web</strong>. Mettre en place une <strong>stratégie pour développer la visibilité d’un site internet</strong> du <strong>secteur de l’immobilier</strong> va être adapté à son contenu. C’est pourquoi, dès la <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de votre site internet à Agen</Link>, l’<strong>optimisation des fiches de biens</strong>, en fonction des <strong>mots-clés</strong> et des secteurs visés, va représenter une part importante du <strong>travail de référencement</strong>.
                                 <br /><br />
-                                Ce travail est indispensable pour rendre visibles les biens que vous publiez sur <strong>votre site internet</strong> et <strong>générer un trafic de qualité</strong> qui répondra à vos attentes. Il existe des solutions de visibilité pour tous, que vous soyez <strong>mandataire</strong>, <strong>promoteur</strong>, <strong>prospecteur</strong>, <strong>agent immobilier</strong>, <strong>notaire</strong>, <strong>directeur d’agence</strong>, <strong>architecte</strong>, <strong>négociateur</strong>, <strong>expert</strong>, <strong>conseiller</strong> et bien plus encore.</p>
+                                Ce travail est indispensable pour rendre visibles les biens que vous publiez sur <strong>votre site internet</strong> et <strong>générer un trafic de qualité</strong> qui répondra à vos attentes. Il existe des solutions de visibilité pour tous, que vous soyez <strong>mandataire</strong>, <strong>promoteur</strong>, <strong>prospecteur</strong>, <strong>agent immobilier</strong>, <strong>notaire</strong>, <strong>directeur d’agence</strong>, <strong>architecte</strong>, <strong>négociateur</strong>, <strong>expert</strong>, <strong>conseiller</strong> et bien plus encore.
+                                <br/><br/>
+                                La création de sites web est destinée à vous apporter de <strong>nouveaux clients</strong> de façon régulière. Concevoir un site implique également de soigner la pertinence et l'optimisation des contenus. Des outils indispensables permettent aux équipes de mener à bien la <strong>stratégie digitale</strong> que vous avez choisie. Grâce à des pages entièrement personnalisables, la conception de site intègre le travail de référencement naturel pour devenir visible. Les solutions web qui vous sont proposées sont pensées pour atteindre vos objectifs. Créer son site internet et proposer des contenus de qualité avec une équipe attentive à vos besoins vous permet de valoriser les biens tout en répondant aux <strong>critères des moteurs de recherche comme Google</strong>.
+                                </p>
                             </div>
                         </Accordion>
                     </div>

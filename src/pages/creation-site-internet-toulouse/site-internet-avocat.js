@@ -288,7 +288,7 @@ class SiteInternetAvocat extends Component {
                 </section>
                 <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour cabinet d'avocat :<br /><span className="font-bold">Nos clients sont satisfaits</span>
+                        Création de site internet d'avocat :<br /><span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -357,7 +357,7 @@ class SiteInternetAvocat extends Component {
                 </section>
                 <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Création de site internet pour cabinet d'avocat :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
+                        Création de site internet d'avocat :<br /><span className="font-bold">Une solution en accord avec vos besoins</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
@@ -367,17 +367,24 @@ class SiteInternetAvocat extends Component {
                             <div className="w-full" label="METTRE EN AVANT VOS DOMAINES DE COMPÉTENCES">
                                 <p>La <strong><Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création d’un site internet à Agen</Link></strong> est un moyen pertinent de <strong>faire connaître son activité</strong> professionnelle. Au-delà de présenter votre activité, le <strong>site internet</strong> vous permet de mettre en avant vos <strong>domaines de compétences</strong> pour permettre aux utilisateurs d’accéder à un <strong>avocat</strong> comme vous. Ceci est important en vue de <strong>proposer un contenu pertinent</strong> vis-à-vis des <strong>requêtes des utilisateurs sur les moteurs de recherche</strong>.
                             <br /><br />
-                            Par ailleurs, le <strong>site web</strong> est un parfait moyen de <strong>communication</strong> pour exposer et démontrer votre <strong>expertise</strong> dans votre <strong>domaine de compétences</strong>. En effet, ceci est important pour montrer votre crédibilité à l’ensemble des <strong>acteurs présents sur le Web</strong>. De ce point de vue, le <strong>site web</strong> est un outil particulièrement complet.</p>
+                                    Par ailleurs, le <strong>site web</strong> est un parfait moyen de <strong>communication</strong> pour exposer et démontrer votre <strong>expertise</strong> dans votre <strong>domaine de compétences</strong>. En effet, ceci est important pour montrer votre crédibilité à l’ensemble des <strong>acteurs présents sur le Web</strong>. De ce point de vue, le <strong>site web</strong> est un outil particulièrement complet.
+                            <br/><br/>
+                                    Il reprend votre identité visuelle et présente des <strong>fonctionnalités adaptées à vos besoins</strong> et à ceux des utilisateurs. Choisissez votre <strong>hébergement web</strong> ainsi que votre nom de domaine, profitez d'une bonne gestion de contenu avec une stratégie digitale personnalisée grâce à l'accompagnement complet de l'agence.
+                                </p>
                             </div>
                             <div label="UNE STRATÉGIE DE SEO LOCAL POUR GÉNÉRER DES CONTACTS QUALIFIÉS">
                                 <p>Il est important d’adapter le <strong>contenu de son site internet à son activité</strong>, mais également à sa <strong>cible</strong>. En effet, le <strong>site internet</strong> est un <strong>outil de communication</strong> qui vous permet de vous adresser directement à des utilisateurs qui pourraient nécessiter de faire appel à vos services. Il est donc important de vous adresser à des utilisateurs <strong>présents dans votre secteur géographique</strong> et à la recherche d’un <strong>professionnel</strong> comme vous.
+                            <br/><br/>
+                                    Pour <strong>créer un site</strong> à la hauteur de vos attentes, les consultants placent votre site web au coeur de la stratégie webmarketing et tiennent à vous proposer une solution clé-en-main qui vous aidera à <strong>vous faire connaître</strong>. Ces experts connaissent parfaitement les outils indispensables pour vous permettre d'atteindre vos objectifs. 
                             <br /><br />
-                            Ceci est important pour <strong>générer des contacts qualifiés</strong>. Pour cela, les <strong>moteurs de recherche</strong> (comme <strong>Google</strong>) constituent une porte d’entrée à <strong>votre site</strong>. Ainsi, le travail de <strong>référencement naturel</strong> doit vous <strong>rendre visible</strong> pour des <strong>requêtes stratégiques</strong> et des secteurs adéquats. Nous mettons en place <strong>votre stratégie de référencement local</strong> pour vous permettre d’<strong>obtenir de la visibilité dans les premières pages de résultats de recherche</strong> dans des délais raisonnables.</p>
+                                    Ceci est important pour <strong>générer des contacts qualifiés</strong>. Pour cela, les <strong>moteurs de recherche</strong> (comme <strong>Google</strong>) constituent une porte d’entrée à <strong>votre site</strong>. Ainsi, le travail de <strong>référencement naturel</strong> doit vous <strong>rendre visible</strong> pour des <strong>requêtes stratégiques</strong> et des secteurs adéquats. Nous mettons en place <strong>votre stratégie de référencement local</strong> pour vous permettre d’<strong>obtenir de la visibilité dans les premières pages de résultats de recherche</strong> dans des délais raisonnables.</p>
                             </div>
                             <div label="UN SITE WEB DISPONIBLE 24H/24 POUR ÊTRE ACCESSIBLE EN LIGNE">
                                 <p>De nos jours, <strong>avoir un site internet</strong> est indispensable pour les professionnels souhaitant développer leur activité. En effet, <strong>créer votre site web</strong> peut vous permettre d’augmenter votre <strong>notoriété</strong> en boostant votre <strong>visibilité</strong>, mais également de soigner <strong>votre image</strong>.
                             <br /><br />
-                            Les <strong>sites web</strong> sont des <strong>cartes de visite en ligne</strong> qui présentent l’avantage d’être accessibles à tout moment de la journée. Ceci est important en vue de <strong>déployer sa visibilité</strong> et ouvrir ses frontières à de nouveaux horizons grâce au <strong>Web</strong>.</p>
+                                    Vos <strong>pages web</strong> sont entièrement personnalisables, les équipes chargées du développement web sont en mesure de <strong>créer votre site internet</strong> à partir d'un cahier des charges défini avec vous, elles manient le code HTML et le CSS et choisissent le type de site à créer en fonction de vos objectifs. Associé à la création de sites web, le <strong>référencement d'un site</strong> pourra vous apporter toute la visibilité que vous recherchez.
+                            <br/><br/>
+                                    Les <strong>sites web</strong> sont des <strong>cartes de visite en ligne</strong> qui présentent l’avantage d’être accessibles à tout moment de la journée. Ceci est important en vue de <strong>déployer sa visibilité</strong> et ouvrir ses frontières à de nouveaux horizons grâce au <strong>Web</strong>.</p>
                             </div>
                         </Accordion>
                     </div>
