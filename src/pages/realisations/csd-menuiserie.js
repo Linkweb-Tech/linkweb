@@ -37,6 +37,7 @@ class csdmenuiserie extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
+                    robots="noindex"
                     title="Nos Réalisations - CSD Menuiserie - Linkweb"
                     description="Le site de CSD Menuiserie est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}

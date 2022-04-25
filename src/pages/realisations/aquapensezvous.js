@@ -38,6 +38,7 @@ class aquapensezvous extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
+                    robots="noindex"
                     title="Nos Réalisations - Aqua Pensez-Vous - Linkweb"
                     description="Le site de Aqua Pensez-Vous est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}

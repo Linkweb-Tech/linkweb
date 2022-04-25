@@ -32,6 +32,7 @@ class HauteGaronne extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
+                    robots="noindex"
                     title="Nos Réalisations - Conseil Départemental de Haute-Garonne - Linkweb"
                     description="Le site du Conseil Départemental de Haute-Garonne est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
                     keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}

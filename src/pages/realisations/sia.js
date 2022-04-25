@@ -38,6 +38,7 @@ class sia extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
+                    robots="noindex"
                     title="Nos Réalisations - SIA Échanges Pédagogiques - Linkweb"
                     description="Le site de SIA Échanges Pédagogiques est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}

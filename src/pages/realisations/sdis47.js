@@ -38,6 +38,7 @@ class sdis47 extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
+                    robots="noindex"
                     title="Nos Réalisations - SDIS 47 Lot-et-Garonne - Linkweb"
                     description="Le site du SDIS 47 est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}

@@ -38,6 +38,7 @@ class Atpt extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
+                    robots="noindex"
                     title="Nos Réalisations - Atout Pour Tous (ATPT) -  Linkweb"
                     description="Le site d'Atout Pour Tous est l'une de nos réalisations. Vous souhaitez un projet similaire ?"
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}

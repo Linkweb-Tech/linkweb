@@ -5,7 +5,7 @@ import { StaticQuery, graphql, withPrefix } from "gatsby";
 
 import linkwebLogo from "../images/linkweb-black.png";
 
-function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified, nom, image }) {
+function SEO({ description, lang, meta, keywords, title, url, article, date, slug, modified, nom, image, robots }) {
   return (
 
     <StaticQuery
@@ -187,6 +187,10 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               {
                 name: `twitter:description`,
                 content: metaDescription
+              },
+              {
+                name: `robots`,
+                content: robots
               }
             ]
               .concat(
@@ -226,7 +230,8 @@ SEO.defaultProps = {
   slug: ``,
   modified: ``,
   nom: ``,
-  image: 'https://test.com'
+  image: 'https://test.com',
+  robots: `index, follow, max-snippet:-1, max-image-preview:large`
 };
 
 SEO.propTypes = {
@@ -241,7 +246,8 @@ SEO.propTypes = {
   modified: PropTypes.string,
   slug: PropTypes.string,
   nom: PropTypes.string,
-  image: PropTypes.string
+  image: PropTypes.string,
+  robots: PropTypes.string
 };
 
 export default SEO;
