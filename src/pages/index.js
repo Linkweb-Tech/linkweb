@@ -78,10 +78,10 @@ class  IndexPage extends Component {
 
           {/* List of modals (Creation de sites, Referencement, Solution, Google Ads) */}
           <Hero1></Hero1>
-          <section id="x" className=" w-full mx-auto mt-12 px-4 py-0 my-0">
+          <section id="x" className=" w-full mx-auto max-w-4xl mt-12 px-4 py-0 my-0">
             <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
               {/*<Link to="/agence-digitale-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
-              Choisissez <span className="text-bleu font-bold">la formule</span> qui vous correspond
+              Choisissez <span className="text-bleu font-bold">la formule</span> qui vous correspond avec notre agence web à Toulouse
               {/*</Link>*/}
             </h2>
             <hr className="blue"></hr>
@@ -385,7 +385,7 @@ class  IndexPage extends Component {
                         <img src={accompagnement} alt="Agence Web Toulouse" style={{ maxHeight: '450px' }} />
                     </div>
                     <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-2/5 md:p-20 lg:pl-32 p-10 lg:py-10 text-black xl:text-md" style={{ backgroundColor: '#d3d3d352' }}>
-                        <h4 className="century text-lg"><span className="font-bold">Nos spécialistes s'attachent à développer une collaboration de qualité pour un projet qui vous ressemble grâce nos services professionnels.</span></h4>
+                        <h4 className="century text-lg"><span className="font-bold">Nos spécialistes s'attachent à développer une collaboration de qualité pour un projet qui vous ressemble grâce aux services professionnels de notre agence web à Toulouse.</span></h4>
                         <br />
                         <p className="font-normal" style={{fontSize:'16px'}}>
                             Notre <strong className="font-normal">agence web toulousaine</strong> met tout en oeuvre pour vous accompagner dans le choix des <strong className="font-normal">stratégies web</strong> les plus pertinentes pour vous. Nous veillons à entretenir une relation régulière avec vous pour déterminer vos priorités ainsi que les nouvelles perspectives de <strong className="font-normal">développement</strong>. Le webmarketing est une discipline en perpétuel mouvement. C'est pourquoi, nos <strong className="font-normal">experts</strong> font le maximum pour vous développer une solution optimale et durable dans le temps.<br />
@@ -399,7 +399,7 @@ class  IndexPage extends Component {
                     <br />
                 </section>
                 <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                  Développer votre solution web en <span className="font-bold text-bleu">partenariat</span> avec notre agence
+                  Développer votre solution web en <span className="font-bold text-bleu">partenariat</span> avec notre agence web à Toulouse
                 </h2>
                 <hr className="blue"></hr>
           <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
@@ -409,7 +409,7 @@ class  IndexPage extends Component {
                 <section
                     className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                   <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                    <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION
+                    <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION AVEC L'AGENCE LINKWEB À TOULOUSE
                   </h3>
                   <div className="century content pb-6 text-left">
                     Faire appel à une <strong>{/*<Link to="agence-creation-site-web-toulouse/"
@@ -445,7 +445,7 @@ class  IndexPage extends Component {
                 <section
                     className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                   <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                    <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ PAR UNE AGENCE WEB POUR DÉFINIR MA SOLUTION
+                    <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ PAR UNE AGENCE WEB À TOULOUSE POUR DÉFINIR MA SOLUTION
                   </h3>
                   <div className="century content pb-6 text-left">
                     <strong>Être visible</strong>, booster sa <strong>notoriété</strong> ou bien
@@ -479,7 +479,7 @@ class  IndexPage extends Component {
                 <section
                     className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
                   <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                    <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET
+                    <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET AVEC L'AGENCE LINKWEB À TOULOUSE
                   </h3>
                   <div className="century content pb-6 text-left" >
                     Nos <strong>consultants en communication web</strong> définissent les contours de votre projet, du
@@ -517,7 +517,7 @@ class  IndexPage extends Component {
           <section className="w-full mx-auto px-4 py-4 xl:px-48 mt-24 mb-0">
             <h2 /*data-aos='fade-right'*/ className="text-left text-black text-4xl century">
               <span
-                className="font-bold text-black text-left text-4xl century">Un échantillon de <span className="text-bleu font-bold">nos réalisations</span></span>
+                className="font-bold text-black text-left text-4xl century">Un échantillon des <span className="text-bleu font-bold">réalisations</span> de notre agence web à Toulouse</span>
             </h2>
             <hr className="blue left"></hr>
             <br/>
@@ -638,7 +638,7 @@ class  IndexPage extends Component {
           </section>
 
           <section className=" w-full bg-white mx-auto century px-4  md:px-24  py-2 mt-6 mb-6">
-            <h2 className="text-xl md:text-4xl mx-auto  text-center">Vous souhaitez nous contacter ?</h2>
+            <h2 className="text-xl md:text-4xl mx-auto  text-center">Vous souhaitez contacter l'agence Linkweb à Toulouse ?</h2>
             <hr className="blue"></hr>
             <section className='flex flex-wrap flex-column md:flex-row justify-center items-center '>
               <div className='w-full md:w-1/3 lg:w-1/3 miniList px-4'>
