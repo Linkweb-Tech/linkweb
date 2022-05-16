@@ -61,7 +61,7 @@ class Recrutement extends Component {
                         </h2>
                     <hr className="blue"></hr>
                 </section>
-                <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
+                <section className="tabPanel recrutement flex flex-1 w-full justify-end ml-0 mb-12">
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
                             <div className="w-full" label="RÉDACTEUR WEB / RÉFÉRENCEUR SEO">
@@ -125,8 +125,49 @@ class Recrutement extends Component {
                                     <RoundButton url="/contact-agence-web-toulouse/" text="Postuler" />
                                 </section>
                             </div>
-
-                        </Accordion>
+                                <div label="DÉVELOPPEUR FULL STACK TOULOUSE">
+                                    <p>Afin d’accompagner sa croissance dynamique, l’agence Linkweb Marchés Publics, filiale du Groupe Linkweb, située au centre-ville de Toulouse souhaite renforcer son équipe actuelle.</p>
+                                    <br/>
+                                    <p>Nous recherchons des développeurs web passionnés.</p>
+                                    <br/>
+                                    <p>Le développement actuel de l'entreprise, issue d'un groupe solide et structuré, offre de réelles possibilités d'évolution de carrière.</p>
+                                    <br/>
+                                    <p>Nous sommes spécialisés dans les prestations de développement sur mesure et de mise en œuvre d’applicatifs métiers, pour le compte d’institutions publiques (Régions, Départements, Universités, État, etc.)</p>
+                                    <br/>
+                                    <p>Afin d'être à l'aise et autonome dans les différents projets qui vous seront confiés, il est nécessaire de disposer des aptitudes suivantes :</p>
+                                    <br/>
+                                    <ul>
+                                        <li>– Maitrise du langage PHP et de la programmation orientée objet ;</li>
+                                        <li>– Maitrise du langage Javascript ;</li>
+                                        <li>– Connaissance de frameworks PHP, tel que Symfony ;</li>
+                                        <li>– Connaissance de frameworks Javascript, tel que Vue JS ;</li>
+                                        <li>– Connaissance de frameworks CSS, tels que Bootstrap ;</li>
+                                        <li>– Utilisation de la solution GIT ;</li>
+                                        <li>– Autonomie ;</li>
+                                        <li>– Communication avec les équipes (échanges avec le CTO et les autres développeurs) ;</li>
+                                        <li>– Bon état d'esprit (Linkweb est une entreprise à taille humaine, très attachée à la qualité des relations entre ses équipes et ses différents partenaires) ;</li>
+                                    </ul>
+                                    <br/>
+                                    <p>Au sein du service Développement Web, vous serez amené à concevoir des plateformes et applications web pour le compte de nos clients du secteur public.</p>
+                                    <br/>
+                                    <p>Vous interviendrez également sur des environnements web existants, dans le cadre de nos contrats de tierce maintenance applicative.</p>
+                                    <br/>
+                                    <p>La majeure partie des solutions que nous développons ou que nous maintenons, sont conçues sur le CMS Drupal, versions 8 et 9.</p>
+                                    <br/>
+                                    <p>À ce titre, nous utilisons les technologies telles que Symfony, VueJS, Twig, Bootstrap, etc.</p>
+                                    <br/>
+                                    <p>Si vous êtes passionné par le Web, le développement et les nouvelles technologies, vous pourrez au sein de notre équipe et sous la supervisons du CTO exprimer pleinement votre talent et votre créativité.</p>
+                                    <br/>
+                                    <p>Vous vous reconnaissez dans cette annonce ? N’attendez plus pour nous contacter, afin de convenir d’un entretien et démarrer l’aventure Linkweb !</p>
+                                    <br/>
+                                    <p>Au plaisir de vous retrouver à la réunion de briefing du lundi, autour d'un café... d'un clavier.</p>       
+                                    <br/>
+                                    <p>Salaire motivant selon profil, évolution de carrière au sein du groupe.</p>                  
+                                    <section className="w-40">
+                                        <RoundButton url="/contact-agence-web-toulouse/" text="Postuler" />
+                                    </section>
+                                </div>
+                            </Accordion>
                     </div>
                 </section>
 

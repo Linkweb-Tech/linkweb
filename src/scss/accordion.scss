@@ -65,3 +65,98 @@
     }
 
 }
+
+.recrutement  .accordion {
+    .accordionTitle {
+        font-size: 1.4rem;
+    }
+    .plus {
+        top: 32px;
+        left: 10px;
+        svg {
+            transform: rotate(0deg);
+            transition: 0.3s;
+            width: 20px;
+            height: 20px;
+            polygon {
+                fill: #ffffff;
+            }
+        }
+        &.open {
+            svg {
+                transform: rotate(45deg);
+                transition: 0.5s;
+                width: 20px;
+                height: 20px;
+                polygon {
+                    fill: #ffffff;
+                }
+            }
+        }
+    }
+    .content {
+        opacity: 0;
+        height: 0;
+        //transform: scaleY(0);
+        transition: 0.5s;
+        &.open {
+            // visibility: visible;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            height: 700px;
+            //transform: scaleY(1);
+            opacity: 1;
+            transition: 0.5s;
+        }
+        @media (max-width: 650px) {
+            &.open {
+                height: 1000px;
+            }
+        }
+        @media (max-width: 1450px) {
+            &.open {
+                height: 500px;
+            }
+        }
+    }
+    .tab:last-child {
+        .content {
+            opacity: 0;
+            height: 0;
+            //transform: scaleY(0);
+            transition: 0.5s;
+            &.open {
+                // visibility: visible;
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+                height: 900px;
+                //transform: scaleY(1);
+                opacity: 1;
+                transition: 0.5s;
+            }
+            @media (max-width: 650px) {
+                &.open {
+                    height: 1000px;
+                }
+            }
+            @media (max-width: 1450px) {
+                &.open {
+                    height: 500px;
+                }
+            }
+        }
+    }
+    
+    @media (max-width: 650px) {
+        .first .open {
+            height: 1400px!important;
+        }
+    }
+    @media (max-width: 1450px) {
+        .first .open {
+            height: 800px!important;
+        }
+    }
+
+}
+
