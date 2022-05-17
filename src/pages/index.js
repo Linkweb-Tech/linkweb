@@ -398,12 +398,12 @@ class  IndexPage extends Component {
 
                     <br />
                 </section>
-                <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
+                <h2 /*data-aos='fade-right'*/ className="text-center text-black px-4 text-4xl century">
                   Développer votre solution web en <span className="font-bold text-bleu">partenariat</span> avec notre agence web à Toulouse
                 </h2>
                 <hr className="blue"></hr>
           <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
-            <div className="w-full xl:w-1/3 one my-12 md:my-2 px-auto">
+            <div className="w-full xl:w-1/3 one my-24 md:my-2 px-auto">
               <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                 <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
                 <section
@@ -411,7 +411,8 @@ class  IndexPage extends Component {
                   <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                     <span className="text-bleu">/</span>JE SOUHAITE DYNAMISER MA COMMUNICATION AVEC L'AGENCE LINKWEB À TOULOUSE
                   </h3>
-                  <div className="century content pb-6 text-left">
+                  <br/>
+                  <div className="century content pb-6 text-center md:text-left ">
                     Faire appel à une <strong>{/*<Link to="agence-creation-site-web-toulouse/"
                                                     className="text-bleu font-bold hover:text-black">*/}agence de création
                     web{/*</Link>*/}</strong> est une étape à franchir pour <strong>dynamiser sa communication</strong> et
@@ -439,7 +440,7 @@ class  IndexPage extends Component {
                 </section>
               </div>
             </div>
-            <div className="w-full xl:w-1/3 mt-12 md:my-2 two px-auto">
+            <div className="w-full xl:w-1/3 mt-24 md:my-2 two px-auto">
               <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                 <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
                 <section
@@ -447,7 +448,8 @@ class  IndexPage extends Component {
                   <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                     <span className="text-bleu">/</span>JE SUIS ACCOMPAGNÉ PAR UNE AGENCE WEB À TOULOUSE POUR DÉFINIR MA SOLUTION
                   </h3>
-                  <div className="century content pb-6 text-left">
+                  <br/>
+                  <div className="century content pb-6 text-center md:text-left">
                     <strong>Être visible</strong>, booster sa <strong>notoriété</strong> ou bien
                     son <strong>image</strong> (<strong>e-réputation</strong> et <strong>identité de marque</strong>) :
                     il existe des solutions web pour chaque professionnel.<br/><br/> Grâce à nos <strong>expertises</strong>, nous
@@ -473,7 +475,7 @@ class  IndexPage extends Component {
                 </section>
               </div>
             </div>
-            <div className="w-full xl:w-1/3 mt-12 md:my-2 three px-auto">
+            <div className="w-full xl:w-1/3 mt-48 md:my-2 three px-auto">
               <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
                 <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
                 <section
@@ -481,7 +483,8 @@ class  IndexPage extends Component {
                   <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
                     <span className="text-bleu">/</span>JE FAIS LE CHOIX D'EXPERTS POUR MENER MON PROJET AVEC L'AGENCE LINKWEB À TOULOUSE
                   </h3>
-                  <div className="century content pb-6 text-left" >
+                  <br/>
+                  <div className="century content pb-6 text-center md:text-left" >
                     Nos <strong>consultants en communication web</strong> définissent les contours de votre projet, du
                     choix de l'<strong>hébergement</strong> jusqu'à l’<strong>application de votre stratégie
                     marketing</strong>.<br/><br/> Notre équipe est composée de spécialistes
@@ -515,11 +518,10 @@ class  IndexPage extends Component {
 
 
           <section className="w-full mx-auto px-4 py-4 xl:px-48 mt-24 mb-0">
-            <h2 /*data-aos='fade-right'*/ className="text-left text-black text-4xl century">
-              <span
-                className="font-bold text-black text-left text-4xl century">Un échantillon des <span className="text-bleu font-bold">réalisations</span> de notre agence web à Toulouse</span>
+            <h2 /*data-aos='fade-right'*/ className="text-center lg:text-left text-black text-4xl century">
+              Un échantillon des <span className="text-bleu font-bold">réalisations</span> de notre agence web à Toulouse
             </h2>
-            <hr className="blue left"></hr>
+            <hr className="blue center lg:left"></hr>
             <br/>
           </section>
           <section className="w-full mx-auto px-24 pt-0 pb-0 my-0">
@@ -537,7 +539,7 @@ class  IndexPage extends Component {
             <h3 /*data-aos='fade-left'*/ className="text-xl text-grey text-center century italic pb-0">Nous sommes
               proactifs.</h3><br/>
           </section>
-          <section className="tabPanel flex flex-1 w-full justify-end ml-0">
+          <section className="tabPanel resp flex flex-1 w-full justify-end ml-0">
             <div className="w-full md:w-3/4 py-0 flex justify-end">
               <Accordion>
                 <div className="w-full" label="UNE AUGMENTATION DE VOS CONTACTS PROSPECTS ?">
@@ -622,7 +624,7 @@ class  IndexPage extends Component {
                 Toulouse ?</h3>
               <h4>Linkweb définit votre projet en accord avec vos <span className="font-bold">ambitions</span>.</h4>
             </div>
-            <div className="w-1/2 mx-auto block lg:w-3/12">
+            <div className="w-1/2 mx-auto block mt-12 lg:mt-0 lg:w-3/12">
               {/* <RoundButton className="items-center" color="darkgrey" text="Contactez-nous" url="/contact-agence-web-toulouse/" /> */}
               <button
                   className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
@@ -638,13 +640,14 @@ class  IndexPage extends Component {
           </section>
 
           <section className=" w-full bg-white mx-auto century px-4  md:px-24  py-2 mt-6 mb-6">
-            <h2 className="text-xl md:text-4xl mx-auto  text-center">Vous souhaitez contacter l'agence Linkweb à Toulouse ?</h2>
+            <h2 className="mx-auto  text-center text-black text-4xl century">Vous souhaitez contacter l'agence Linkweb à Toulouse ?</h2>
             <hr className="blue"></hr>
+            <br/>
             <section className='flex flex-wrap flex-column md:flex-row justify-center items-center '>
-              <div className='w-full md:w-1/3 lg:w-1/3 miniList px-4'>
+              <div className='w-full xl:w-1/3 order-3 xl:order-1 miniList px-4'>
                 <LastPostList lastposts={this.props.data.lastList.edges}/>
               </div>
-              <div className='w-full md:w-1/3 lg:w-1/3 '>
+              <div className='w-full xl:w-1/3 order-1 xl:order-2'>
                 <div className="w-full flex flex-col items-end pt-10 bg-white   text-center text-black text-4xl century relative" >
                   <div className="w-2/3 flex flex-row justify-start mx-auto">
                     <div className="w-2/12 flex items-center">
@@ -674,7 +677,7 @@ class  IndexPage extends Component {
                   </div>
                 </div>
               </div>
-              <div className='w-full md:w-1/3 lg:w-1/3  px-4' style={{height:'500px'}}>
+              <div className='w-full xl:w-1/3 order-2 xl:order-3 px-4' style={{height:'500px'}}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: "AIzaSyCPh6TRRONtNAdF-ZTswCzJIgXjWoK7VTQ" }}
                     defaultCenter={defaultProps.center}

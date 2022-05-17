@@ -37,32 +37,198 @@
             // visibility: visible;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            height: 450px;
+            height: 650px;
             //transform: scaleY(1);
             opacity: 1;
             transition: 0.5s;
         }
-        @media (max-width: 650px) {
+        @media (min-width: 1400px) {
             &.open {
-                height: 1000px;
+                height: 550px!important;
+            }
+        
+        }
+        @media (min-width: 1023px) and (max-width: 1400px) {
+            &.open {
+                height: 750px!important;
+            }
+        }    
+        @media (min-width: 824px) and (max-width: 1023px) {
+            &.open {
+                height: 900px!important;
+            }
+        
+        }
+        @media (min-width: 575px) and (max-width: 824px) {
+            &.open {
+                height: 1000px!important;
+            }
+        
+        }
+        @media (min-width: 500px) and (max-width: 575px) {
+            &.open {
+                height: 1150px!important;
+            }
+        
+        }
+        @media (min-width:450px) and (max-width: 500px) {
+            &.open {
+                height: 1350px!important;
             }
         }
-        @media (max-width: 1450px) {
+        
+        @media (max-width: 450px) {
             &.open {
-                height: 1050px;
+                height: 1500px!important;
             }
+        
         }
     }
-    @media (max-width: 650px) {
+    @media (min-width: 1400px) {
+        .first .open {
+            height: 500px!important;
+        }
+    
+    }
+    @media (min-width: 1023px) and (max-width: 1400px) {
+        .first .open {
+            height: 700px!important;
+        }
+    
+    }
+    @media (min-width:700px) and (max-width: 1023px) {
+        .first .open {
+            height: 700px!important;
+        }
+    }    
+    @media (min-width:500px) and (max-width: 700px) {
+        .first .open {
+            height: 800px!important;
+        }
+    }
+    @media (min-width:450px) and (max-width: 500px) {
+        .first .open {
+            height: 1000px!important;
+        }
+    }
+    @media (min-width:395px) and (max-width: 450px) {
+        .first .open {
+            height: 1200px!important;
+        }
+    } 
+    @media (max-width: 395px) {
         .first .open {
             height: 1400px!important;
         }
+    
     }
-    @media (max-width: 1450px) {
+    
+
+}
+
+.resp .accordion {
+    .accordionTitle {
+        font-size: 1.4rem;
+    }
+    .plus {
+        top: 32px;
+        left: 10px;
+        svg {
+            transform: rotate(0deg);
+            transition: 0.3s;
+            width: 20px;
+            height: 20px;
+            polygon {
+                fill: #ffffff;
+            }
+        }
+        &.open {
+            svg {
+                transform: rotate(45deg);
+                transition: 0.5s;
+                width: 20px;
+                height: 20px;
+                polygon {
+                    fill: #ffffff;
+                }
+            }
+        }
+    }
+
+    .content {
+        opacity: 0;
+        height: 0;
+        //transform: scaleY(0);
+        transition: 0.5s;
+        &.open {
+            // visibility: visible;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            height: 650px;
+            //transform: scaleY(1);
+            opacity: 1;
+            transition: 0.5s;
+        }
+        @media (min-width: 1400px) {
+            &.open {
+                height: 450px!important;
+            }
+        
+        }
+        @media (min-width: 824px) and (max-width: 1400px) {
+            &.open {
+                height: 500px!important;
+            }
+        
+        }
+        @media (min-width: 550px) and (max-width: 824px) {
+            &.open {
+                height: 600px!important;
+            }
+        
+        }
+        @media (min-width:450px) and (max-width: 550px) {
+            &.open {
+                height: 800px!important;
+            }
+        }
+        
+        @media (max-width: 450px) {
+            &.open {
+                height: 1000px!important;
+            }
+        
+        }
+    }
+    @media (min-width: 1400px) {
+        .first .open {
+            height: 550px!important;
+        }
+    
+    }
+    @media (min-width: 1023px) and (max-width: 1400px) {
+        .first .open {
+            height: 700px!important;
+        }
+    
+    }
+    @media (min-width:450px) and (max-width: 1023px) {
+        .first .open {
+            height: 900px!important;
+        }
+    }
+    @media (min-width:395px) and (max-width: 450px) {
+        .first .open {
+            height: 1600px!important;
+        }
+    } 
+    @media (max-width: 395px) {
         .first .open {
             height: 1800px!important;
         }
+    
     }
+    
 
 }
 

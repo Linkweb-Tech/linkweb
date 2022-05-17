@@ -25,7 +25,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet pour <br />votre entreprise <span className="text-bleu">artisanale</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/creation-site-pour-artisan/" text="Création de site web pour artisan" />
                     </div>
                 </div>
@@ -34,7 +34,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet pour <br />votre <span className="text-bleu">entreprise du secteur industriel</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-industrie/" text="Création de site web pour industrie" />
                     </div>
                 </div>
@@ -43,7 +43,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet pour <br />votre <span className="text-bleu">entreprise du secteur immobilier</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-immobilier/" text="Création de site web immobilier" />
                     </div>
                 </div>
@@ -52,7 +52,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet pour <br />votre <span className="text-bleu">entreprise paysagiste</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-paysagiste/" text="Création de site web pour paysagiste" />
                     </div>
                 </div>
@@ -61,7 +61,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet pour <br />votre <span className="text-bleu">entreprise pisciniste</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-pisciniste/" text="Création de site web pour pisciniste" />
                     </div>
                 </div>
@@ -70,7 +70,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet pour <br />votre <span className="text-bleu">entreprise de cuisine</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-cuisiniste/" text="Création de site web pour cuisiniste" />
                     </div>
                 </div>
@@ -79,7 +79,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">pour entreprise de chauffage/climatisation</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-chauffage-climatisation/" text="Création de site web pour chauffagiste/climatiseur" />
                     </div>
                 </div>
@@ -88,7 +88,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet pour votre <br /><span className="text-bleu">entreprise du domaine de l'automobile</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-automobile/" text="Création de site web automobile" />
                     </div>
                 </div>
@@ -97,7 +97,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">pour votre commerce</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-commerce/" text="Création de site web pour commerce" />
                     </div>
                 </div>
@@ -106,7 +106,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">pour votre salon de coiffure</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-coiffure/" text="Création de site web pour salon de coiffure" />
                     </div>
                 </div>
@@ -115,7 +115,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">pour votre Hôtel</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-hotel/" text="Création de site web pour Hôtel" />
                     </div>
                 </div>
@@ -124,7 +124,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">pour votre restaurant</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-restaurant/" text="Création de site web pour restaurant" />
                     </div>
                 </div>
@@ -133,7 +133,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">pour votre studio de photographie</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-photographe/" text="Création de site web pour Photographe" />
                     </div>
                 </div>
@@ -142,7 +142,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">pour votre entreprise de mode</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-mode/" text="Création de site web Mode et accessoires" />
                     </div>
                 </div>
@@ -151,7 +151,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">de ramoneur</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-ramoneur/" text="Création de site web pour Ramoneur" />
                     </div>
                 </div>
@@ -160,7 +160,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet d'<br /><span className="text-bleu">avocat</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-avocat/" text="Création de site web pour Avocat" />
                     </div>
                 </div>
@@ -169,7 +169,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de<br /><span className="text-bleu">Charpentier</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-charpentier/" text="Création de site web pour Charpentier" />
                     </div>
                 </div>
@@ -178,7 +178,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de<br /><span className="text-bleu">Banque</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-banque/" text="Création de site web pour banque ou assurance" />
                     </div>
                 </div>
@@ -187,7 +187,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de<br /><span className="text-bleu">menuiserie</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-menuisier/" text="Création de site web pour menuisier" />
                     </div>
                 </div>
@@ -196,7 +196,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de<br /><span className="text-bleu">psychologue</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-psychologue/" text="Création de site web pour psychologue" />
                     </div>
                 </div>
@@ -205,7 +205,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet d'<br /><span className="text-bleu">électricien</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-electricien/" text="Création de site web pour électricien" />
                     </div>
                 </div>
@@ -214,7 +214,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de <br /><span className="text-bleu">serrurier</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-serrurier/" text="Création de site web pour serrurier" />
                     </div>
                 </div>
@@ -223,7 +223,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de <br /><span className="text-bleu">jardinier</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-jardinier/" text="Création de site web pour jardinier" />
                     </div>
                 </div>
@@ -232,7 +232,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de <br /><span className="text-bleu">chocolatier</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-chocolatier/" text="Création de site web pour chocolatier" />
                     </div>
                 </div>
@@ -241,7 +241,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet de <br /><span className="text-bleu">maçon</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/creation-site-internet-toulouse/site-internet-macon/" text="Création de site web pour Maçon" />
                     </div>
                 </div>
@@ -250,7 +250,7 @@ class ToulouseSlides extends Component {
                     <h3 className="century text-lg lg:text-2xl tracking-wider pb-2 text-center" /*data-aos="zoom-in"*/>
                         Vous souhaitez créer un site internet <br /><span className="text-bleu">sur-mesure</span> ?
                             </h3>
-                    <div className="w-1/3 mx-auto block mb-16">
+                    <div className="w-2/3 mx-auto block mb-16">
                         <RoundButton url="/contact-agence-web-toulouse/" text="Contactez-nous" />
                     </div>
                 </div>
