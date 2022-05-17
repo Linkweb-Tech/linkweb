@@ -148,3 +148,17 @@
         padding-right:0px
       }
 }
+
+.real button.slick-arrow.slick-prev {
+    display:block;
+    @media (max-width:767px) {
+        display:none!important;
+    }
+}
+
+.real button.slick-arrow.slick-next {
+    display:block;
+    @media (max-width:767px) {
+        display:none!important;
+    }
+}

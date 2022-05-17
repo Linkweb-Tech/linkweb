@@ -524,7 +524,7 @@ class  IndexPage extends Component {
             <hr className="blue center lg:left"></hr>
             <br/>
           </section>
-          <section className="w-full mx-auto px-24 pt-0 pb-0 my-0">
+          <section className="w-full real mx-auto px-0 lg:px-24 pt-0 pb-0 my-0">
             <CarouselRea/>
           </section>
 
@@ -532,7 +532,7 @@ class  IndexPage extends Component {
             <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
               {/*<Link to="/creation-site-internet-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
               {/*</Link>*/}
-              <span className="text-center text-black text-4xl"> Vous avez un besoin ?</span>
+              <span className="text-center text-black text-4xl">Vous avez un <br/>besoin ?</span>
 
             </h2>
             <hr className="blue"></hr>
@@ -624,7 +624,7 @@ class  IndexPage extends Component {
                 Toulouse ?</h3>
               <h4>Linkweb définit votre projet en accord avec vos <span className="font-bold">ambitions</span>.</h4>
             </div>
-            <div className="w-1/2 mx-auto block mt-12 lg:mt-0 lg:w-3/12">
+            <div className="w-full md:w-1/2 mx-auto block mt-12 lg:mt-0 lg:w-3/12">
               {/* <RoundButton className="items-center" color="darkgrey" text="Contactez-nous" url="/contact-agence-web-toulouse/" /> */}
               <button
                   className="font-light mx-auto roundedButton bg-darkgrey text-white hover:text-white flex justify-center century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4"
@@ -640,7 +640,7 @@ class  IndexPage extends Component {
           </section>
 
           <section className=" w-full bg-white mx-auto century px-4  md:px-24  py-2 mt-6 mb-6">
-            <h2 className="mx-auto  text-center text-black text-4xl century">Vous souhaitez contacter l'agence Linkweb à Toulouse ?</h2>
+            <h2 className="mx-auto  text-center text-black text-4xl century">Vous souhaitez contacter l'agence Linkweb <br/>à Toulouse ?</h2>
             <hr className="blue"></hr>
             <br/>
             <section className='flex flex-wrap flex-column md:flex-row justify-center items-center '>
@@ -664,7 +664,7 @@ class  IndexPage extends Component {
                       <svg width="30px" viewBox="0 0 333 416.25"><g><path fill="#37cfee" className="fil0" d="M167 33c73,0 133,60 133,134 0,73 -60,133 -133,133 -74,0 -134,-60 -134,-133 0,-74 60,-134 134,-134zm58 212l22 -22c0,0 3,-7 -2,-13 -5,-5 -32,-19 -32,-19 0,0 -6,-4 -13,4 -8,7 -7,7 -7,7 0,0 -4,3 -9,1 -19,-10 -44,-35 -54,-54 -2,-4 1,-8 1,-8 0,0 0,0 8,-7 7,-8 3,-14 3,-14 0,0 -13,-27 -19,-32 -6,-5 -13,-1 -13,-1l-21 21c-24,49 88,161 136,137z"/></g></svg>
                     </div>
                     <div className="w-10/12">
-                      <h3 className="text-lg lg:text-xl text-left"><a className="text-bleu hover:text-black" href="tel:0533950030">05 33 95 00 30</a></h3>
+                      <h3 className="text-lg lg:text-xl lg:text-left text-center"><a className="text-bleu hover:text-black" href="tel:0533950030">05 33 95 00 30</a></h3>
                     </div>
                   </div>
                   <div className="w-2/3 flex flex-row my-8 justify-start mx-auto">
@@ -672,7 +672,7 @@ class  IndexPage extends Component {
                       <svg width="30px" viewBox="0 0 100 125"><path fill="#37cfee" d="M91.462,32.483c-2.267-5.358-5.511-10.17-9.644-14.303c-4.132-4.132-8.943-7.376-14.303-9.643  C61.967,6.191,56.074,5.001,50,5.001s-11.968,1.19-17.516,3.537c-5.358,2.267-10.171,5.511-14.303,9.643  c-4.133,4.132-7.377,8.944-9.644,14.303C6.191,38.032,5.002,43.925,5.002,50c0,6.075,1.189,11.967,3.536,17.516  c2.267,5.357,5.511,10.17,9.644,14.303c4.132,4.131,8.944,7.375,14.303,9.643c5.548,2.346,11.441,3.537,17.516,3.537  s11.967-1.191,17.516-3.537c5.359-2.268,10.171-5.512,14.303-9.643c4.133-4.133,7.377-8.945,9.644-14.303  c2.347-5.549,3.536-11.441,3.536-17.516C94.998,43.925,93.809,38.032,91.462,32.483z M77.414,66.063  c0,0.201-0.164,0.363-0.365,0.363H22.951c-0.201,0-0.364-0.162-0.364-0.363v-20.91c0-0.131,0.069-0.25,0.182-0.316  c0.112-0.064,0.251-0.064,0.364,0L50,60.295l26.867-15.458c0.113-0.064,0.252-0.064,0.364,0c0.112,0.066,0.183,0.186,0.183,0.316  V66.063z M77.414,38.708c0,0.13-0.07,0.251-0.184,0.315L50.182,54.588c-0.057,0.031-0.119,0.049-0.182,0.049  s-0.125-0.018-0.182-0.049L22.77,39.023c-0.113-0.064-0.183-0.186-0.183-0.315v-4.771c0-0.201,0.163-0.364,0.364-0.364h54.098  c0.201,0,0.365,0.163,0.365,0.364V38.708z"/></svg>
                     </div>
                     <div className="w-10/12">
-                      <h3 className="text-lg lg:text-xl text-left"><a className="text-bleu hover:text-black" href="mailto:contact@linkweb.fr">contact@linkweb.fr</a></h3>
+                      <h3 className="text-lg lg:text-xl lg:text-left text-center"><a className="text-bleu hover:text-black" href="mailto:contact@linkweb.fr">contact@linkweb.fr</a></h3>
                     </div>
                   </div>
                 </div>
