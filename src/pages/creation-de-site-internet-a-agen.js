@@ -57,7 +57,7 @@ class CreationSiteInternetAgenPage extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création Site Internet Agen - Agence Web Linkweb"
+                    title="Création Site Internet Agen - Lot-et-Garonne (47) - Linkweb"
                     description="Création de site internet sur-mesure, e-commerce ou vitrine. Obtenez votre devis gratuit pour votre site internet à Agen."
                     keywords={[`Création site internet Agen`, `Création site internet Agen`, `Création site web Agen`, `Création site web Agen`]}
                     url="https://linkweb.fr/creation-de-site-internet-a-agen/"
@@ -104,7 +104,7 @@ class CreationSiteInternetAgenPage extends Component {
                             <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Création site internet Agen et Lot-et-Garonne</h1>
                         </div>
                         <br />
-                        <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence de développement web et de création de site internet à Agen</h2>
+                        <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Création de site internet à Agen et développement web sur-mesure </h2>
                         {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                         <div className="w-full lg:w-full flex flex-col lg:flex-row justify-center pb-24 lg:justify-center mx-auto" style={{ maxWidth: '460px' }}>
                             <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30" />
@@ -121,7 +121,7 @@ class CreationSiteInternetAgenPage extends Component {
                         <br />
                         <hr className="border-solid w-1/6 border-white"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="text-xl text-center century text-black px-4 pb-0"><span className="font-bold">Nous développons votre projet web sur-mesure à Agen et en Lot-et-Garonne</span>.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="text-xl text-center century text-black px-4 pb-0"><span className="font-bold">Nous développons votre projet web de création de site internet à Agen et en Lot-et-Garonne</span>.</h3>
                     </section>
                     <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
                         <div className="w-full flex justify-center items-center lg:w-5/12">
@@ -276,7 +276,7 @@ class CreationSiteInternetAgenPage extends Component {
                                     <span className="text-bleu">/</span>Je souhaite être accompagné pour définir mes besoins
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                Site vitrine créé avec un <strong className="font-normal">CMS</strong> comme Wordpress ou site e-commerce, les sites réalisés sont adaptés à tous types d'entreprises, à chacun des professionnels en <strong className="font-normal">Lot-et-Garonne</strong>, sur <strong className="font-normal">Agen</strong> mais également partout en France. <br/><br/>Linkweb est une agence spécialisée dans la création d'interface et dans le référencement SEO, elle se démarque des autres agences par sa transparence et sa qualité de service. Linkweb vous assure le <strong className="font-normal">développement de votre présence sur Internet</strong>. Les professionnels de notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> vous aident à prendre les meilleures décisions pour atteindre vos objectifs.
+                                Site vitrine créé avec un <strong className="font-normal">CMS</strong> comme Wordpress ou site e-commerce, les sites réalisés sont adaptés à tous types d'entreprises, à chacun des professionnels en <strong className="font-normal">Lot-et-Garonne</strong>, sur <strong className="font-normal">Agen</strong> mais également partout en France. <br/><br/>Linkweb est une agence spécialisée dans la création d'interface et dans le référencement SEO, elle se démarque des autres agences par sa transparence et sa qualité de service. Linkweb vous assure le <strong className="font-normal">développement de votre présence sur Internet</strong>. Les professionnels de notre <Link to="/agence-web-agen/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> vous aident à prendre les meilleures décisions pour atteindre vos objectifs.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                             </section>
@@ -290,7 +290,7 @@ class CreationSiteInternetAgenPage extends Component {
                                     <span className="text-bleu">/</span>Je fais confiance à des experts pour créer mon site internet
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                Grâce aux professionnels mobilisés sur votre <strong className="font-normal">création de site</strong> et sur votre référencement web, la communication que vous menez doit être percutante et vous aider à vous démarquer des entreprises concurrentes. <br/><br/>Nos <strong className="font-normal">spécialistes du développement web (front-end et back-end) et du référencement</strong> interviennent sur chaque projet. Ils assurent la création des contenus, ils vous aident à définir la meilleure méthodologie et vous permettent d'obtenir les résultats escomptés.
+                                Grâce aux professionnels mobilisés sur votre <strong className="font-normal">création de site</strong> et sur votre référencement web, la communication que vous menez doit être percutante et vous aider à vous démarquer des entreprises concurrentes. <br/><br/>Nos <strong className="font-normal">spécialistes du développement web (front-end et back-end) et du <Link to="/referencement-agen/" className="text-bleu hover:text-black font-bold">référencement à Agen</Link></strong> interviennent sur chaque projet. Ils assurent la création des contenus, ils vous aident à définir la meilleure méthodologie et vous permettent d'obtenir les résultats escomptés.
                                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                             </section>

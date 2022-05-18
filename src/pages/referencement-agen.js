@@ -220,7 +220,7 @@ class ReferencementAgen extends Component {
                                     <span className="text-bleu">/</span>JE FAIS LE CHOIX DE CONSULTANTS POUR MON SEO
                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Nos <strong>consultants SEO à Agen</strong> vous accompagnent pour déterminer les <strong>objectifs de votre création de votre site internet</strong>. Ceci doit conduire à <strong>optimiser votre présence en ligne</strong>, dans le but d'<strong>obtenir des contacts</strong>, ou bien de <strong>vendre vos produits</strong>.
+                                    Nos <strong>consultants SEO à Agen</strong> vous accompagnent pour déterminer les <strong>objectifs de votre <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de votre site internet à Agen</Link></strong>. Ceci doit conduire à <strong>optimiser votre présence en ligne</strong>, dans le but d'<strong>obtenir des contacts</strong>, ou bien de <strong>vendre vos produits</strong>.
                 </div>
                                 <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                             </section>
