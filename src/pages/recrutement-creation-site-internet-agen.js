@@ -171,7 +171,7 @@ class Recrutement extends Component {
                     </div>
                 </section>
 
-                <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-12 mb-3">
+                <section className="max-w-6xl mx-auto flex flex-col align-center justify-center text-center mt-3 mb-3">
                     <h3 className="century capitalize text-center text-2xl tracking-wider pb-3 leading-tight" data-aos="zoom-in">
                         <span className="text-bleu">/</span>Les dernières actualités
                         </h3>

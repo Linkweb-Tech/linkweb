@@ -263,32 +263,20 @@
     .content {
         opacity: 0;
         height: 0;
+        max-height: 0;
         //transform: scaleY(0);
         transition: 0.5s;
         &.open {
             // visibility: visible;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            height: 850px !important;
+            max-height: 4000px !important;
+            height: 100% !important;
             //transform: scaleY(1);
             opacity: 1;
             transition: 0.5s;
         }
-        @media (max-width: 375px) {
-            &.open {
-                height: 1300px!important;
-            }
-        }
-        @media (max-width: 650px) {
-            &.open {
-                height: 1100px!important;
-            }
-        }
-        @media (max-width: 1450px) {
-            &.open {
-                height: 1300px!important;
-            }
-        }
+        
     }
     .tab:last-child {
         .content {
@@ -300,42 +288,13 @@
                 // visibility: visible;
                 padding-top: 1.5rem;
                 padding-bottom: 1.5rem;
-                height: 900px;
+                max-height: 4000px;
+                height: 100% !important;
                 //transform: scaleY(1);
                 opacity: 1;
                 transition: 0.5s;
             }
-            @media (max-width: 375px) {
-                &.open {
-                    height: 1300px!important;
-                }
-            }
-            @media (max-width: 650px) {
-                &.open {
-                    height: 1000px!important;
-                }
-            }
-            @media (max-width: 1450px) {
-                &.open {
-                    height: 2450px!important;
-                }
-            }
-        }
-    }
-    @media (max-width: 375px) {
-        &.open {
-            height: 1300px!important;
-        }
-    }
-    
-    @media (max-width: 650px) {
-        .first .open {
-            height: 1400px!important;
-        }
-    }
-    @media (max-width: 1450px) {
-        .first .open {
-            height: 1450px!important;
+            
         }
     }
 
