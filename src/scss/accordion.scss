@@ -232,7 +232,7 @@
 
 }
 
-.recrutement  .accordion {
+.recrutement .accordion {
     .accordionTitle {
         font-size: 1.4rem;
     }
@@ -269,19 +269,24 @@
             // visibility: visible;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            height: 700px;
+            height: 850px !important;
             //transform: scaleY(1);
             opacity: 1;
             transition: 0.5s;
         }
+        @media (max-width: 375px) {
+            &.open {
+                height: 1300px!important;
+            }
+        }
         @media (max-width: 650px) {
             &.open {
-                height: 1000px;
+                height: 1100px!important;
             }
         }
         @media (max-width: 1450px) {
             &.open {
-                height: 1200px;
+                height: 1300px!important;
             }
         }
     }
@@ -300,16 +305,26 @@
                 opacity: 1;
                 transition: 0.5s;
             }
+            @media (max-width: 375px) {
+                &.open {
+                    height: 1300px!important;
+                }
+            }
             @media (max-width: 650px) {
                 &.open {
-                    height: 1000px;
+                    height: 1000px!important;
                 }
             }
             @media (max-width: 1450px) {
                 &.open {
-                    height: 2250px;
+                    height: 2450px!important;
                 }
             }
+        }
+    }
+    @media (max-width: 375px) {
+        &.open {
+            height: 1300px!important;
         }
     }
     
@@ -320,7 +335,7 @@
     }
     @media (max-width: 1450px) {
         .first .open {
-            height: 1400px!important;
+            height: 1450px!important;
         }
     }
 
