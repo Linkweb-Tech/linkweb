@@ -19,8 +19,8 @@ import '../scss/popup.scss';
 import SEO from "../components/seo";
 import Hero1 from "../components/animhero1";
 import GoogleMapReact from 'google-map-react';
-
-
+import presta from "../images/agence-linkweb-toulouse.jpg"
+import presta2 from "../images/agence-linkweb-a-toulouse.jpg"
 
 import loadable from '@loadable/component';
 //import SimpleMap from "../components/simpleMap";
@@ -77,16 +77,25 @@ class  IndexPage extends Component {
 
 
           {/* List of modals (Creation de sites, Referencement, Solution, Google Ads) */}
-          <Hero1></Hero1>
-          <section id="x" className=" w-full mx-auto max-w-4xl mt-12 px-4 py-0 my-0">
-            <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-              {/*<Link to="/agence-digitale-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
+          <Hero1></Hero1>          
+          {/* <section id="x" className=" w-full mx-auto max-w-4xl mt-12 px-4 py-0 my-0">
+            <h2 /*data-aos='fade-right' className="text-center text-black text-4xl century">
+              {/*<Link to="/agence-digitale-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">}
               Choisissez <span className="text-bleu font-bold">la formule</span> qui vous correspond avec notre agence web à Toulouse
-              {/*</Link>*/}
-            </h2>
-            <hr className="blue"></hr>
+              {/*</Link>}
+            </h2> 
+            <hr className="blue"></hr>*/}
             {/*<h3 /*data-aos='fade-left' className="text-xl text-grey text-center century italic pb-0">Connectez-vous
-              avec le reste du monde</h3>*/}
+              avec le reste du monde</h3>
+          </section>*/}
+          <section id="x" className="w-full md:w-6/12 bg-white flex my-8 flex-col md:flex-row items-center mx-auto justify-center">
+            <div className="w-full md:w-1/2 imghome">
+            <img src={presta2} alt="Agence Web Toulouse"/>
+            </div>
+            <div className="w-full md:w-1/2 flex flex-col justify-start items-start">
+              {/* <h2 className="w-full text-center text-2xl text-black font-bold century">Notre agence web à Toulouse accompagne des entreprises de tous secteurs d'activités depuis près de 15 ans pour développer leur visibilité.</h2> */}
+              <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl md:text-2xl lg:text-3xl xl:text-4xl century">Choisissez <span className="text-bleu font-bold">la formule</span> qui vous correspond avec notre agence web à Toulouse</h2>
+            </div>
           </section>
           <section className="flex flex-col lg:flex-row mx-8 lg:mx-24 my-0 items-center lg:justify-center">
             <div data-aos="fade-in"
