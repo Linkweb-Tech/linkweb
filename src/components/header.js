@@ -84,13 +84,13 @@ class Header extends Component {
               <span onClick={() => this.ghostRedirection('aHR0cHM6Ly9saW5rd2ViLmZyL2FjdHVhbGl0ZS1kaWdpdGFsZS8=')}  className="flex items-center no-underline text-white">
                 <span className="text-white cursor-pointer century">Le Blog</span>
               </span>
-              {/* <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0FnZW5jZUx3")}  className="flex items-center cursor-pointer no-underline text-white">
+              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0FnZW5jZVdlYkxpbmt3ZWI=")}  className="flex items-center cursor-pointer no-underline text-white">
                 <img
                   src={fbIcon}
                   alt="Réseaux sociaux"
                   className="w-6 fill-current"
                 />
-              </span> */}
+              </span>
              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly90d2l0dGVyLmNvbS9BZ2VuY2VMaW5rd2Vi")}   className="flex items-center cursor-pointer no-underline text-white">
                 <img
                   src={twitterIcon}

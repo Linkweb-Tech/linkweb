@@ -68,15 +68,15 @@ render() {
                     {/* Réseaux Sociaux */}
                     <section className="w-full flex flex-row justify-center text-white ">
                             <div className="w-1/3 md:w-1/6 lg:w-1/12 flex flex-row">
-                                {/* <div className="w-1/3 block mx-auto" data-aos="fade-left">
-                                    <a href="https://www.facebook.com/AgenceLw" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
+                                <div className="w-1/3 block mx-auto" data-aos="fade-left">
+                                    <a href="https://www.facebook.com/AgenceWebLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
                                     <img 
                                     src={ fbIcon }
                                     alt="Réseaux sociaux"
                                     className="w-6 fill-current"
                                     />
                                     </a>
-                                </div> */}
+                                </div>
                                 <div className="w-1/3 block, mx-auto" data-aos="fade-up">
                                     <a href="https://twitter.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex justify-center no-underline text-white">
                                     <img 
