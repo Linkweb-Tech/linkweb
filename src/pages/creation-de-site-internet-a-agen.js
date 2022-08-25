@@ -85,7 +85,7 @@ class CreationSiteInternetAgenPage extends Component {
                 > */}
 
 
-                <section className="flex bg-creationagen items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center">
+                <section className="flex bg-creationagen items-center w-full mx-auto pb-0 mt-40 mb-0 px-4 pt-6 bg-black flex flex-col justify-center items-center">
                     <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                         <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                             <div className="w-full  text-3xl text-center font-bold text-white century">4.6/5</div>
@@ -101,7 +101,7 @@ class CreationSiteInternetAgenPage extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Création site internet Agen et Lot-et-Garonne</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Création site internet Agen (Lot-et-Garonne)</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Création de site internet à Agen et développement web sur-mesure </h2>
@@ -115,13 +115,17 @@ class CreationSiteInternetAgenPage extends Component {
                         <img src={scroll} alt="Scroll" width="60px" />
                     </div>
                 </section>
+                    <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
+                        <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Création site internet Agen</span>
+                    </nav>
                 <section className="phototext">
-                    <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                        <h2 className="century text-black leading-none">Création de site internet à Agen en <br/><span className="text-5xl lg:text-6xl uppercase text-bleu font-bold">Lot-et-Garonne (47)</span></h2>
+                    <section className="flex flex-col items-center justify-center text-center font-bold text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
+                        <h2 className="century font-bold leading-none">Linkweb, entreprise de création de site internet à Agen en <br/><span className="text-5xl lg:text-6xl uppercase text-bleu font-bold">Lot-et-Garonne (47)</span></h2>
                         <br />
                         <hr className="border-solid w-1/6 border-white"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="text-xl text-center century text-black px-4 pb-0"><span className="font-bold">Nous développons votre projet web de création de site internet à Agen et en Lot-et-Garonne</span>.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-5xl flex justify-center items-center text-xl text-center century px-4 pb-0"><span className="font-bold">La création d'un site web pour une entreprise est un véritable vecteur de développement. Notre entreprise de création de site web est spécialisée dans le développement de projet web en Lot-et-Garonne (47). Découvrez comment nous menons votre projet de création web.</span></h3>
                     </section>
                     <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
                         <div className="w-full flex justify-center items-center lg:w-5/12">
@@ -134,12 +138,12 @@ class CreationSiteInternetAgenPage extends Component {
                                 </div>
                                 <div className="w-full px-6 lg:px-6 flex flex-col justify-center" style={{ maxWidth: '1000px' }}>
                                     <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>ANALYSE DU PROJET
+                                        <span className="text-bleu">/</span>ANALYSE DE VOS BESOINS EN MATIÈRE DE CRÉATION DE SITE INTERNET
                                 </h3>
 
-                                    <h4 className="century">En refonte ou en création de site internet, nous menons une phase d’analyse pour comprendre vos besoins et définir une solution pertinente.</h4>
+                                    <h4 className="century">En refonte ou en création de site internet, nous menons une phase d’analyse pour comprendre vos besoins et définir une solution techniquement pertinente.</h4>
                                     <br />
-                                    <p className="w-full century pb-6 text-justify">Nous étudions votre <strong className="font-normal">site internet</strong> existant, vos concurrents directs, ainsi que toutes les opportunités qui se présentent à vous pour vous proposer un plan stratégique performant. Ce travail est indispensable avant de mener toute action de <strong className="font-normal">communication web</strong>.
+                                    <p className="w-full century pb-6 text-justify">Nous étudions votre <strong className="font-normal">site internet</strong> existant, vos concurrents directs, ainsi que toutes les opportunités qui se présentent sur votre marché pour vous proposer un plan stratégique performant. Ce travail est indispensable avant de mener toute action de <strong className="font-normal">communication web</strong>.
                                 </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -150,10 +154,10 @@ class CreationSiteInternetAgenPage extends Component {
                                 </div>
                                 <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>Définition du cadre stratégique
+                                        <span className="text-bleu">/</span>Définition de vos objectifs et de vos cibles
                                     </h3>
 
-                                    <h4 className="century">En cohérence avec vos attentes, mais aussi vos besoins, nous déterminons les objectifs, les cibles ainsi que le plan d’actions de votre stratégie.</h4>
+                                    <h4 className="century">En cohérence avec vos attentes, mais aussi vos besoins, nous déterminons les objectifs, les cibles ainsi que le plan d’actions de votre stratégie internet.</h4>
                                     <br />
                                     <p className="w-full century pb-6 text-justify">La <strong className="font-normal">création d’un site web</strong> peut être un vecteur de croissance important pour une entreprise. Pour ce faire, il est important de savoir comment un <strong className="font-normal">site internet professionnel</strong> sera utile à votre société : trouver de nouveaux clients, fidéliser votre clientèle ou générer des ventes en ligne sont autant de motivations pour <strong className="font-normal">créer votre site web</strong>.
                                     </p>
@@ -166,7 +170,7 @@ class CreationSiteInternetAgenPage extends Component {
                                 </div>
                                 <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>Mettre en place une stratégie de référencement
+                                        <span className="text-bleu">/</span>Mise en place d'une stratégie SEO pour votre site d'entreprise
                                     </h3>
 
                                     <h4 className="century">La création d’un site internet est un investissement certain. La mise en application d’une stratégie de référencement a pour objectif de le rentabiliser.</h4>
@@ -182,28 +186,28 @@ class CreationSiteInternetAgenPage extends Component {
                                 </div>
                                 <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
                                     <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>Réalisation du projet
+                                        <span className="text-bleu">/</span>Livraison du site internet et maintenance technique
                                     </h3>
 
-                                    <h4 className="century">Nos équipes de développeurs et de référenceurs mettent en place les actions nécessaires au lancement de votre projet digital.</h4>
+                                    <h4 className="century">Nos équipes de développeurs et de référenceurs mettent en place les actions nécessaires au lancement de votre projet digital pour faire de votre site internet un outil performant.</h4>
                                     <br />
-                                    <p className="century pb-6 text-justify">Nos <strong className="font-normal">référenceurs</strong> développent des contenus uniques et optimisés en fonction de vos objectifs. Ces derniers sont ensuite intégrés par les développeurs de l’agence. Les sites internet que nous créons sont ergonomiques, intuitifs et parfaitement constituer pour faciliter l’accès aux informations primordiales et aux pages principales.
+                                    <p className="century pb-6 text-justify">Nos <strong className="font-normal">référenceurs</strong> développent des contenus uniques et optimisés en fonction de vos objectifs dès la livraison de votre site internet d'entreprise. Ces derniers sont ensuite intégrés par les développeurs de l’agence. Les sites internet que notre entreprise crée sont ergonomiques, intuitifs et parfaitement constitués pour faciliter l’accès aux informations primordiales et aux pages principales pour vos utilisateurs.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
                         </div>
                     </section>
-                </section>
-                <section className="bg-bleu sidetitle py-10">
+                    </section>
+                         <section className="bg-bleu sidetitle py-10">
                     <section className="w-full lg:w-2/3 flex flex-col justify-center century my-10 px-4 lg:px-32 md:mx-6 sm:mx-12 mt-2 lg:mx-64">
-                        <h2 className="century text-center lg:text-left text-white text-3xl md:text-5xl leading-none">Un accompagnement personnalisé</h2>
+                        <h2 className="century text-center lg:text-left text-white text-3xl md:text-5xl leading-none">Un accompagnement personnalisé dès la réalisation de votre site web</h2>
                         <br />
                         <div className="line-title my-4 ">
                             <br />
                             <hr className="w-1/2 lg:w-1/12" />
                             <br />
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Un suivi de performances est effectué pour vous tenir informés de l’évolution de vos résultats et vous orienter vers les meilleures opportunités. Voici ce que notre agence fait pour votre site internet.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Un suivi de performances est effectué pour vous tenir informés de l’évolution de vos résultats et vous orienter vers les meilleures opportunités. Voici ce que notre entreprise de développement web fait pour votre site internet.</h3>
                         </div>
                     </section>
                     <section className="flex justify-center flex-col items-center">
@@ -245,7 +249,7 @@ class CreationSiteInternetAgenPage extends Component {
                 </section>
                 <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                     <h2 /*data-aos='fade-right'*/ className="text-center text-3xl century">
-                        Faites connaître votre entreprise à <br /><span className="text-5xl sm:text-6xl text-bleu font-bold">Agen (47)</span>
+                        Faites connaître votre entreprise avec la création d'un <br /><span className="text-5xl sm:text-6xl text-bleu font-bold">site internet à Agen (47)</span>
                     </h2>
                     <br />
                     <hr className="border-solid w-1/2 border-bleu"></hr>
@@ -258,13 +262,11 @@ class CreationSiteInternetAgenPage extends Component {
                             <div className="ag chiffres century text-bleu mt-0 md:-mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
                             <section className="w-full lg:w-1/3 relative md:absolute z-10 px-auto lg:w-1/3 px-12 lg:px-6 xl:px-24 pt-0 md:pt-24">
                                 <h3 className="century uppercase text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>J'ai besoin de plus d'informations
+                                    <span className="text-bleu">/</span>J'ai besoin de plus d'informations sur de la création de site internet
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
                                 La réalisation ou la refonte d'un support de communication web implique des connaissances et une maîtrise que les <strong className="font-normal">équipes de notre agence de création et de référencement de sites</strong> possèdent. <br/><br/>Le développement de votre interface doit prendre en compte le public cible en proposant une <strong className="font-normal">expérience utilisateur</strong> irréprochable, ainsi que les exigences des moteurs de recherche comme Google et du <strong className="font-normal">référencement naturel</strong> (SEO voire SEA, le référencement payant Google Ads si le besoin s'en fait sentir). Ainsi, les performances générées assurent l'efficacité de votre démarche.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
-
                             </section>
                         </div>
                     </div>
@@ -278,7 +280,6 @@ class CreationSiteInternetAgenPage extends Component {
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
                                 Site vitrine créé avec un <strong className="font-normal">CMS</strong> comme Wordpress ou site e-commerce, les sites réalisés sont adaptés à tous types d'entreprises, à chacun des professionnels en <strong className="font-normal">Lot-et-Garonne</strong>, sur <strong className="font-normal">Agen</strong> mais également partout en France. <br/><br/>Linkweb est une agence spécialisée dans la création d'interface et dans le référencement SEO, elle se démarque des autres agences par sa transparence et sa qualité de service. Linkweb vous assure le <strong className="font-normal">développement de votre présence sur Internet</strong>. Les professionnels de notre <Link to="/agence-web-agen/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link> vous aident à prendre les meilleures décisions pour atteindre vos objectifs.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
                             </section>
                         </div>
                     </div>
@@ -292,21 +293,23 @@ class CreationSiteInternetAgenPage extends Component {
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
                                 Grâce aux professionnels mobilisés sur votre <strong className="font-normal">création de site</strong> et sur votre référencement web, la communication que vous menez doit être percutante et vous aider à vous démarquer des entreprises concurrentes. <br/><br/>Nos <strong className="font-normal">spécialistes du développement web (front-end et back-end) et du <Link to="/referencement-agen/" className="text-bleu hover:text-black font-bold">référencement à Agen</Link></strong> interviennent sur chaque projet. Ils assurent la création des contenus, ils vous aident à définir la meilleure méthodologie et vous permettent d'obtenir les résultats escomptés.
                                 </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
                             </section>
 
                         </div>
 
                     </div>
                 </section>
+                <section className="mt-0">
+                    <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
+                </section>
                 <br/>
                 <section className="blocprestaagen">
                     <section className="text-center my-10 lg:mx-0 century">
-                        <h2 className="century text-white text-2xl">Création d'un site internet<br /><span className="text-4xl lg:text-6xl text-bleu font-bold">SUR-MESURE</span></h2>
+                        <h2 className="century text-white text-2xl">Création de site internet<br /><span className="text-4xl lg:text-6xl text-bleu font-bold">SUR-MESURE</span></h2>
                         <br />
                         <hr className="border-solid w-1/12 border-1 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="text-xl text-white century">Obtenez un site web adapté à votre entreprise et à vos besoins.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="text-xl text-white century">Faites le choix d'un site web adapté à votre entreprise et à vos besoins.</h3>
                     </section>
                     <section className="flex flex-col xl:flex-row mx-8 lg:mx-24 my-0 items-center lg:justify-center">
                         <section className="flex flex-col justify-center md:flex-row w-full mx-auto py-0 mt-2 ">
@@ -482,7 +485,7 @@ class CreationSiteInternetAgenPage extends Component {
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Nous développons une solution parfaitement adaptée aux attentes de chacun des acteurs du Web. Découvrez nos réalisations :</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Nous développons une solution parfaitement adaptée aux attentes de chacun des acteurs du Web. Découvrez nos réalisations de sites web :</h3>
                     </div>
                 </section>
                 <Tiles />

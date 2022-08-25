@@ -62,7 +62,7 @@ class AgenceDeCommunicationAgen47Toulouse31 extends Component {
                     }}
                     transitionTime={200}
                 > */}
-                <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + Bg + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center top' }}>
+                <section className="flex items-center w-full mx-auto pb-0 mt-40 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + Bg + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center top' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                         <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                             <div className="w-full  text-3xl text-center font-bold text-white century">4.6/5</div>
@@ -92,7 +92,10 @@ class AgenceDeCommunicationAgen47Toulouse31 extends Component {
                         <img src={scroll} alt="Scroll" width="60px" />
                     </div>
                 </section>
-
+                <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
+                        <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Réalisations</span>
+                    </nav>
                 <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
                     <h2 data-aos='fade-right' className="text-center text-4xl century">
                         Du mal à vous projeter ? Notre agence de communication digitale a mené de nombreux projets. <span className="text-bleu">Découvrez les.</span>

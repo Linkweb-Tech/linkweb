@@ -91,7 +91,10 @@ class AgenceCommunicationToulouse extends Component {
                     </div>
 
                 </section>
-                
+                <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
+                        <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Agence Communication Toulouse</span>
+                    </nav>
                 <section className="phototext">
                     <section className="text-center text-black text-4xl mx-auto flex-col flex items-center lg:mx-0 century mb-10">
                         <h2 className="century text-black leading-none">Développez votre communication digitale à Toulouse</h2>

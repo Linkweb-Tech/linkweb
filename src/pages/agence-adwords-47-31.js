@@ -60,7 +60,7 @@ class ReferencementAds extends Component {
                     }}
                     transitionTime={200}
                 > */}
-                <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + Bg + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <section className="flex items-center w-full mx-auto pb-0 mt-40 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + Bg + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                         <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                             <div className="w-full  text-3xl text-center font-bold text-white century">4.6/5</div>
@@ -93,6 +93,10 @@ class ReferencementAds extends Component {
                     </div>
 
                 </section>
+                <nav aria-label="breadcrumbs" className="w-full bg-bleu century mb-24 py-2 pl-0 md:pl-48">
+                        <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Agence Adwords Toulouse</span>
+                    </nav>
                 <div className="max-w-6xl mx-auto flex align-center justify-center text-center">
                     <img src={googlePartner} alt="Google Partner" style={{ width: '175px', marginBottom: '-40px', marginTop: '-30px' }} />
                 </div>

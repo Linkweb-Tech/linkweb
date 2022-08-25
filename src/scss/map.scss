@@ -6,22 +6,27 @@
 }
 
 .contact {
-    bottom:0px;
+    margin-right:0rem;
+    @media (min-width: 768px) {
+        margin-right:3rem;       
+    }
+}
+//     bottom:0px;
     
-@media (max-width: 425px) {
-        width:100%!important;
-        bottom:0px!important;    
-    }
+// @media (max-width: 425px) {
+//         width:100%!important;
+//         bottom:0px!important;    
+//     }
 
-@media (min-width: 769px) {
-    bottom:510px;
+// @media (min-width: 769px) {
+//     bottom:510px;
 
-}
-    @media(max-width: 768px) and (min-width:376px) {
-        bottom: 580px;
-        width: 60%;
-    }
-}
+// }
+//     @media(max-width: 768px) and (min-width:376px) {
+//         bottom: 580px;
+//         width: 60%;
+//     }
+// }
 
 .map .backmap {
     height:650px;

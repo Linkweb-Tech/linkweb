@@ -22,6 +22,11 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               "@graph":[{"@type":"Organization",
               "@id":"https://linkweb.fr/#organization",
               "name":"Linkweb",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "ratingCount": "115"
+              },
               "logo":"https://linkweb.fr/data/logo-linkweb.jpg",
               "telephone":"(+33)5 33 95 00 30",
               "email":"contact@linkweb.fr",
@@ -94,7 +99,7 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               ]
               }
               ]
-              }
+              }              
             `
         } else {
           json =
