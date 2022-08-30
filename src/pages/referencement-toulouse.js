@@ -13,6 +13,7 @@ import Accordion from '../components/accordion';
 import RoundButtonPages from "../components/roundButtonPages";
 import RoundButtonPagesMail from "../components/roundButtonPagesMail";
 import SimpleMap from "../components/simpleMap";
+import Modalagenceseo from "../components/modals";
 import Partenaires from '../components/partenaires';
 
 import blocBg from "../images/background.jpg";
@@ -100,8 +101,10 @@ class ReferencementToulouse extends Component {
                 </section>
                 <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
                         <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
-                        <span className="px-4 text-md lg:text-lg text-white"> Agence SEO Toulouse</span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Agence SEO Toulouse</span> <a href="#agenceseo" className="text-bleu hover:text-black">&nbsp;</a>
+
                     </nav>
+                    <Modalagenceseo/>
                 <section className="phototext">
                     <section className="text-center text-black text-2xl mx-auto flex-col flex items-center lg:mx-0 century mt-16 mb-10">
                         <h2 className="century text-black leading-none">Sortez de l’ombre,<br /><span className="text-5xl lg:text-6xl text-bleu font-bold">DEVENEZ VISIBLES</span></h2>
@@ -431,7 +434,7 @@ class ReferencementToulouse extends Component {
                     </div>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Vous souhaitez plus d'informations ?</h2>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Vous souhaitez plus d'informations sur ce qu'une agence SEO à Toulouse peut vous apporter ?</h2>
                     <br />
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
@@ -450,6 +453,101 @@ class ReferencementToulouse extends Component {
                             </div>
                             <div label="EST-CE POSSIBLE D'OBTENIR UNE BONNE VISIBILITÉ AVEC UN PETIT BUDGET ?">
                                 <p>Pour se lancer dans la <strong>mise en place d’une&nbsp;stratégie de référencement</strong> naturel, comme Google Ads (anciennement <strong>Google AdWords</strong>), <span className="font-bold">il est nécessaire de définir des objectifs cohérents vis-à-vis de vos besoins. En effet, gagner en présence grâce au référencement est possible pour les gros comme pour les petits budgets. En adaptant nos méthodes à votre projet digital et à vos moyens, nous sommes en mesure de vous procurer une visibilité ciblée de façon pertinente sur plan national, comme local.</span> {/*savoir que cette <strong>plateforme de&nbsp;sponsorisation</strong>&nbsp;fonctionne via un système de <strong>mise en concurrence</strong> sur la base d’enchères.<br /><br />En effet, une fois votre <strong>campagne</strong> créée et configurée, vos <strong>annonces publicitaires</strong> sont mises en concurrence avec les annonces des&nbsp;<strong>sites internets concurrents</strong>. Ainsi, <strong>Google</strong> effectue un classement des annonces en fonction de <strong>critères de qualité</strong> et détermine un <strong>coût au clic</strong>. En effet, <strong>Google</strong> va classer les annonces en leur attribuant une note à partir de ces critères.<br /><br /><span className="font-bold">Si investir un budget conséquent peut-être porteur de succès, ceci est loin d’être une garantie.</span>*/}<br /><br />Pour cela, il est nécessaire de rechercher les <strong>meilleures opportunités de mots-clés</strong> à travers les requêtes locales notamment. En vous positionnant directement là où vos cibles sont présentes, vous maximisez vos chances d’atteindre vos objectifs.<br/><br/>Par ailleurs, en produisant des annonces Ads très qualitatives, il sera possible d’obtenir de meilleures performances que vos concurrents.<br/><br/>Nos experts en référencement déterminent la solution la plus pertinente quelques soient vos moyens pour vous apporter de la visibilité, mais pas seulement. Cette dernière doit permettre de <strong>générer du trafic sur votre site web</strong> afin de faire connaître votre entreprise et ainsi vendre vos produits et services en ligne. Aussi, nous proposons une <Link to="/formation-referencement/referencement-naturel-google-seo/" className="text-bleu hover:text-black font-bold">formation en référencement naturel en ligne</Link> pour vous permettre de tirer profit du SEO. <br /><br /><span className="font-bold"><strong>Linkweb, à Toulouse comme Agen</strong>, fait partie des agences qui vous accompagnent dans la création et le <strong>lancement de vos campagnes</strong> ainsi que pour la création de vos <strong><Link to="/referencement-toulouse/landing-page/" className="text-bleu font-bold hover:text-black">landing pages</Link></strong> afin de vous apporter un&nbsp;<strong>retour sur investissement</strong>.</span></p>
+                            </div>
+                            <div label="QUELS SONT LES OBJECTIFS D'UNE CAMPAGNE DE RÉFÉRENCEMENT NATUREL ?">
+                                <ol className="list-decimal">
+                                    <li>Améliorer le positionnement d'un site dans les résultats des moteurs de recherche ;</li>
+                                    <li>Augmenter le trafic organique d'un site pour attirer des prospects.</li>
+                                </ol>
+                                <br/><br/>
+                                <p>Le référencement naturel est l’ensemble des techniques qui visent à améliorer les performances d’un site sur les résultats de recherche des moteurs de recherche (indexation et positionnement), sans passer par la case « annonce ». Le but principal d’une campagne de référencement naturel est donc d’améliorer le positionnement du site sur les résultats de recherche, afin que celui-ci soit le plus visible possible par les internautes. Cela passe notamment par une optimisation du contenu et des balises, ainsi qu’une veille permanente sur les algorithmes et bonnes pratiques en vigueur. Une campagne bien menée peut permettre à un site de gagner des places précieuses sur les SERP, et donc d’augmenter considérablement son trafic. Elle doit cependant être menée sur le long terme, car il s’agit d’un travail continu qui nécessite une veille constante pour rester au top. Le trafic généré doit vous permettre d'atteindre des utilisateurs à même de faire appel à vos services.</p>
+                            </div>
+                            <div label="QUELS SONT LES FONDAMENTAUX DU TRAVAIL D'UNE AGENCE SEO À TOULOUSE">
+                                <p>Une agence SEO à Toulouse travaille en premier lieu sur les fondamentaux du référencement naturel. En effet, le but est d’améliorer la visibilité d’un site dans les résultats de recherche des moteurs de recherche (principalement Google). 
+                                    <br/><br/>
+                                    Pour cela, il est nécessaire de travailler sur différents éléments tels que le contenu, les balises (SEO technique), ou encore les backlinks (le netlinking). 
+                                    <br/><br/>
+                                    <ul className="list-disc">
+                                    <li>Technique : Le contenu doit être optimisé pour le référencement naturel. Il faut donc qu’il soit riche en mots-clés pertinents et qu’il apporte une réelle valeur ajoutée aux internautes.</li> 
+                                    <li>Contenu : Les balises (titres, sous-titres...) jouent également un rôle important dans le classement des pages par les moteurs de recherche. Elles doivent donc être soigneusement choisies et utilisées de manière judicieuse.</li> 
+                                    <li>Netlinking : Les backlinks sont des liens entrants vers un site Web. Ils permettent notamment aux moteurs de recherche de comprendre la qualité et la popularité d’un site. Plus un site a de backlinks provenant de sites populaires et bien positionnés, plus il sera considéré comme pertinent par les moteurs de recherche et aura donc tendance à se positionner au top des résultats.</li> 
+                                    </ul>
+                                    <br/><br/>
+                                    Enfin, il est important de mentionner que le travail d’une agence SEO ne s’arrête pas lorsque le site est bien positionné dans les résultats des moteurs de recherche. En effet, ce travail doit être maintenu afin que le site conserve sa position face à la concurrence.</p>
+                            </div>
+                            <div label="COMMENT ÉVALUER LE TRAVAIL DE RÉFÉRENCEMENT NATUREL SEO ?">
+                                <p>Le travail d'une agence SEO pour votre site web est important, mais comment pouvez-vous savoir si l'agence fait un bon travail ou non? Vous ne voulez pas investir votre argent durement gagné dans une agence qui n'est pas à la hauteur de vos attentes. Voici quelques conseils sur ce que vous devriez regarder lorsque vous essayez de déterminer si une agence SEO fait un bon travail. 
+                                    <br/><br/>
+                                    Tout d'abord, assurez-vous que les résultats sont mesurables. Une bonne agence SEO à Toulouse sera en mesure de vous montrer les résultats du référencement naturel au fur et à mesure qu'ils arrivent. Ils devraient être en mesure de fournir des rapports détaillés sur les mots clés utilisés et où ils ont eu le plus grand impact. Les rapports doivent également inclure le nombre total de visites sur votre site, ainsi que le temps passé par les visiteurs sur chaque page. 
+                                    <br/><br/>
+                                    Si l'agence ne peut pas fournir ces données, alors il est impossible d'attester des résultats du travail effectué et donc de l'efficacité réelle de l'agence.</p>
+                            </div>
+                            <div label="COMBIEN DE TEMPS ATTENDRE AVANT D'OBTENIR DES RÉSULTATS SEO ?">
+                                <p>Le positionnement SEO d'un site web est un travail à long terme. Il faut du temps pour que les moteurs de recherche comprennent le contenu et l'organisation de votre site, et il faut encore plus de temps pour que votre site se positionne dans les résultats de recherche. Cependant, avec une bonne agence SEO à Toulouse, vous pouvez réduire considérablement le temps nécessaire pour obtenir des résultats en termes de trafic et de positions. 
+                                    <br/><br/>
+                                    Une agence SEO expérimentée saura comment optimiser votre site web pour les moteurs de recherche, ce qui permettra aux robots des moteurs de recherche d'indexer rapidement et efficacement votre contenu. De plus, une agence SEO sera en mesure de vous aider à produire du contenu optimisé sur votre site web, ce qui permettra également aux moteurs de recherche de mieux comprendre votre site et d'afficher vos pages dans les résultats de recherche plus rapidement. 
+                                    <br/><br/>
+                                    En général, il faudra quelques mois avant que les effets du travail SEO ne se manifestent pleinement en termes de trafic et de positions dans les résultats de recherche.</p>
+                            </div>
+                            <div label="QUELS SONT LES MÉTIERS DU RÉFÉRENCEMENT NATUREL ?">
+                                <p>Une agence SEO met en place une stratégie globale pour améliorer les performances d’un site sur les moteurs de recherche. Elle analyse le marché, la concurrence et détermine les meilleures pratiques à mettre en œuvre pour atteindre les objectifs fixés avec le client. Au cours d'un projet SEO, plusieurs compétences et donc plusieurs professions interviennent pour donner vie à votre site internet et le rendre optimal pour les moteurs de recherche.
+                                    <br/><br/>
+                                    <ul className="list-disc">
+                                    <li>Chef de projet SEO : Le chef de projet SEO a pour mission d'étudier tous vos besoins en vue de définir une stratégie pertinente et performante, puis d'organiser les tâches entre les membres de l'équipe SEO.</li>
+
+                                    <li>Consultant SEO : Le consultant en référencement est un expert SEO qui intervient pour définir les optimisations à effectuer selon les diverses techniques de référencement et mettre en place une campagne qui vous permettra d'atteindre vos objectifs.</li>
+
+                                    <li>UX Designer : L'UX Designer a pour rôle d'optimiser l'expérience utilisateur de votre site internet pour le rendre aussi bien accessible pour les utilisateurs que pour les robots des moteurs de recherche. L'expérience utilisateur proposée sur un site web est un critère qui influe sur son positionnement dans la recherche, c'est pourquoi, il s'agit d'un facteur à ne pas négliger.</li>
+                                </ul></p>
+                            </div>
+                            <div label="COMMENT IDENTIFIIER LA MEILLEURE AGENCE SEO À TOULOUSE ?">
+                                <p>Il existe de nombreuses agences SEO à Toulouse, mais comment savoir laquelle est la meilleure ?
+                                <br/><br/>
+                                    Voici quelques critères à prendre en compte pour vous aider à faire votre choix :
+                                <br/><br/>
+                                <ul className="list-disc">
+                                    <li>La réputation de l'agence : renseignez-vous auprès de connaissances ou faites des recherches sur internet pour vous faire une idée de son travail et de sa réputation.</li>
+
+                                    <li>Les compétences et l'expérience de l'équipe : assurez-vous que l'agence dispose d'une équipe expérimentée et compétente, capable de mettre en place les stratégies adéquates pour améliorer votre visibilité en ligne.</li>
+
+                                    <li>La qualité des services proposés : prenez le temps de vérifier les différentes prestations proposées par l'agence et assurez-vous qu'elles correspondent bien à vos besoins. En suivant ces quelques conseils, vous devriez pouvoir identifier facilement la meilleure agence SEO à Toulouse pour votre entreprise.</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div label="QUEL EST LE RÔLE D'UNE AGENCE SEO TOULOUSAINE ?">
+                                <p>Une agence SEO à Toulouse peut vous aider à améliorer votre visibilité en ligne et à attirer plus de clients sur votre site web.
+                                <br/><br/>
+                                    Voici quelques-uns des avantages que vous pouvez obtenir en travaillant avec une agence professionnelle :
+                                    <br/><br/>
+                                    <ul className="list-disc">
+                                    <li>Une meilleure visibilité sur les moteurs de recherche,</li>
+
+                                    <li>Un trafic ciblé et qualifié vers votre site web,</li>
+
+                                    <li>Des outils et des stratégies pour promouvoir efficacement votre entreprise en ligne.</li>
+                                </ul></p>
+                            </div>
+                            <div label="POURQUOI FAIRE APPEL À UNE AGENCE SEO SUR TOULOUSE ?">
+                                <p>Quand il s'agit d'optimisation pour les moteurs de recherche (SEO), de nombreuses entreprises se tournent vers des agences spécialisées dans le domaine. Cependant, certaines entreprises peuvent ne pas connaître tous les avantages qu'une agence peut offrir.
+                                <br/><br/>
+                                Voici quatre raisons pour lesquelles votre entreprise devrait envisager de travailler avec une agence de référencement comme Linkweb pour votre prochaine campagne de marketing numérique  :
+                                <br/><br/>
+                                <h4 className="font-bold">Expérience et expertise</h4>
+                                <br/><br/>
+                                L'un des plus grands avantages de travailler avec une agence SEO comme Linkweb est que vous avez accès à une équipe de professionnels expérimentés. Ceci est particulièrement avantageux si votre entreprise ne dispose pas d'une expertise SEO interne. L'agence pourra s'appuyer sur les connaissances et l'expérience collectives de son équipe pour développer une campagne efficace adaptée aux besoins de votre entreprise.
+                                <br/><br/>
+                                <h4 className="font-bold">Gain de temps</h4>
+                                <br/><br/>
+                                Un autre avantage de faire appel à une agence est qu'elle peut vous faire gagner du temps. Développer et mettre en œuvre une stratégie de référencement efficace nécessite beaucoup de temps et d'efforts. En externalisant ce travail à une agence, vous pouvez libérer du temps pour d'autres tâches liées à la gestion de votre entreprise.
+                                <br/><br/>
+                                <h4 className="font-bold">Rentabilité</h4>
+                                <br/><br/>
+                                Travailler avec une agence peut également être plus rentable que d'essayer de tout gérer en interne. En effet, les agences ont généralement des économies d'échelle qui leur permettent d'offrir leurs services à des tarifs inférieurs à ce qui serait possible pour la plupart des entreprises opérant à plus petite échelle. En outre, les agences proposent généralement des forfaits comprenant plusieurs services, ce qui peut réduire davantage les coûts.
+                                <br/><br/>
+                                <h4 className="font-bold">Approche axée sur les résultats</h4>
+                                <br/><br/>
+                                Enfin, l'un des principaux avantages de travailler avec une agence est qu'elle est axée sur les résultats. Cela signifie qu'ils travailleront sans relâche pour assurer le succès de votre campagne. Ils suivront les progrès et feront le long du chemin pour vous aider à atteindre les résultats souhaités.
+                                </p>
                             </div>
                         </Accordion>
                     </div>

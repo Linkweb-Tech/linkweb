@@ -209,3 +209,12 @@ html, body {
   cursor: pointer;
   text-decoration: none;
 }
+
+.headertable {
+  display:table-row;
+}
+@media (max-width:768px){
+  .headertable {
+  display:none;
+  }
+}

@@ -5,6 +5,7 @@ import ModalRef from "./modal-list/modalRef";
 import ModalSolu from "./modal-list/modalSolu";
 import ModalAds from "./modal-list/modalAds";
 import ModalFormationSEO from "./modal-list/modalformationseo";
+import ModalAgenceSEO from "./modal-list/modalagenceseo";
 
 class Modals extends Component {
 
@@ -47,6 +48,7 @@ class Modals extends Component {
                     linkTitle={"/agence-adwords-47-31/"}
                     linkAds={"/agence-adwords-47-31/"} />
                 <ModalFormationSEO/>
+                <ModalAgenceSEO/>
                     
             </div>
 

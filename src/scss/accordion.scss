@@ -37,89 +37,90 @@
             // visibility: visible;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            height: 650px;
+            max-height: 10000px!important;
+            height:100%!important;
             //transform: scaleY(1);
             opacity: 1;
             transition: 0.5s;
         }
-        @media (min-width: 1400px) {
-            &.open {
-                height: 550px!important;
-            }
+    //     @media (min-width: 1400px) {
+    //         &.open {
+    //             height: 550px!important;
+    //         }
         
-        }
-        @media (min-width: 1023px) and (max-width: 1400px) {
-            &.open {
-                height: 750px!important;
-            }
-        }    
-        @media (min-width: 824px) and (max-width: 1023px) {
-            &.open {
-                height: 900px!important;
-            }
+    //     }
+    //     @media (min-width: 1023px) and (max-width: 1400px) {
+    //         &.open {
+    //             height: 750px!important;
+    //         }
+    //     }    
+    //     @media (min-width: 824px) and (max-width: 1023px) {
+    //         &.open {
+    //             height: 900px!important;
+    //         }
         
-        }
-        @media (min-width: 575px) and (max-width: 824px) {
-            &.open {
-                height: 1000px!important;
-            }
+    //     }
+    //     @media (min-width: 575px) and (max-width: 824px) {
+    //         &.open {
+    //             height: 1000px!important;
+    //         }
         
-        }
-        @media (min-width: 500px) and (max-width: 575px) {
-            &.open {
-                height: 1150px!important;
-            }
+    //     }
+    //     @media (min-width: 500px) and (max-width: 575px) {
+    //         &.open {
+    //             height: 1150px!important;
+    //         }
         
-        }
-        @media (min-width:450px) and (max-width: 500px) {
-            &.open {
-                height: 1350px!important;
-            }
-        }
+    //     }
+    //     @media (min-width:450px) and (max-width: 500px) {
+    //         &.open {
+    //             height: 1350px!important;
+    //         }
+    //     }
         
-        @media (max-width: 450px) {
-            &.open {
-                height: 1500px!important;
-            }
+    //     @media (max-width: 450px) {
+    //         &.open {
+    //             height: 1500px!important;
+    //         }
         
-        }
-    }
-    @media (min-width: 1400px) {
-        .first .open {
-            height: 500px!important;
-        }
+    //     }
+    // }
+    // @media (min-width: 1400px) {
+    //     .first .open {
+    //         height: 500px!important;
+    //     }
     
-    }
-    @media (min-width: 1023px) and (max-width: 1400px) {
-        .first .open {
-            height: 700px!important;
-        }
+    // }
+    // @media (min-width: 1023px) and (max-width: 1400px) {
+    //     .first .open {
+    //         height: 700px!important;
+    //     }
     
-    }
-    @media (min-width:700px) and (max-width: 1023px) {
-        .first .open {
-            height: 700px!important;
-        }
-    }    
-    @media (min-width:500px) and (max-width: 700px) {
-        .first .open {
-            height: 800px!important;
-        }
-    }
-    @media (min-width:450px) and (max-width: 500px) {
-        .first .open {
-            height: 1000px!important;
-        }
-    }
-    @media (min-width:395px) and (max-width: 450px) {
-        .first .open {
-            height: 1200px!important;
-        }
-    } 
-    @media (max-width: 395px) {
-        .first .open {
-            height: 1400px!important;
-        }
+    // }
+    // @media (min-width:700px) and (max-width: 1023px) {
+    //     .first .open {
+    //         height: 700px!important;
+    //     }
+    // }    
+    // @media (min-width:500px) and (max-width: 700px) {
+    //     .first .open {
+    //         height: 800px!important;
+    //     }
+    // }
+    // @media (min-width:450px) and (max-width: 500px) {
+    //     .first .open {
+    //         height: 1000px!important;
+    //     }
+    // }
+    // @media (min-width:395px) and (max-width: 450px) {
+    //     .first .open {
+    //         height: 1200px!important;
+    //     }
+    // } 
+    // @media (max-width: 395px) {
+    //     .first .open {
+    //         height: 1700px!important;
+    //     }
     
     }
     
@@ -164,67 +165,78 @@
             // visibility: visible;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            height: 650px;
+            height: 100%;
+            max-height:650px;
             //transform: scaleY(1);
             opacity: 1;
             transition: 0.5s;
         }
         @media (min-width: 1400px) {
             &.open {
-                height: 450px!important;
+                max-height: 450px!important;
+                height: 100%;
             }
         
         }
         @media (min-width: 824px) and (max-width: 1400px) {
             &.open {
-                height: 500px!important;
+                max-height: 500px!important;
+                height: 100%;
             }
         
         }
         @media (min-width: 550px) and (max-width: 824px) {
             &.open {
-                height: 600px!important;
+                max-height: 600px!important;
+                height: 100%;
             }
         
         }
         @media (min-width:450px) and (max-width: 550px) {
             &.open {
-                height: 800px!important;
+                max-height: 800px!important;
+                height: 100%;
             }
         }
         
         @media (max-width: 450px) {
             &.open {
-                height: 1000px!important;
+                max-height: 1000px!important;
+                height: 100%;
             }
         
         }
     }
     @media (min-width: 1400px) {
         .first .open {
-            height: 550px!important;
+            max-height: 550px!important;
+            height: 100%;
         }
     
     }
     @media (min-width: 1023px) and (max-width: 1400px) {
         .first .open {
-            height: 700px!important;
+            max-height: 700px!important;
+            height: 100%;
         }
     
     }
     @media (min-width:450px) and (max-width: 1023px) {
         .first .open {
-            height: 900px!important;
+            max-height: 900px!important;
+            height: 100%;
         }
     }
     @media (min-width:395px) and (max-width: 450px) {
         .first .open {
-            height: 1600px!important;
+            max-height: 2000px!important;
+            height: 100%;
         }
     } 
     @media (max-width: 395px) {
         .first .open {
-            height: 1800px!important;
+            max-height: 2000px!important;
+            height: 100%;
         }
     
     }
