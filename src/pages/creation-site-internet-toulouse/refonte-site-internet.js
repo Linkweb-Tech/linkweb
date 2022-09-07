@@ -5,7 +5,7 @@ import Layout from "../../components/layout";
 
 
 import SEO from "../../components/seo";
-
+import ButtonBlog from "../../components/buttonblog"
 
 import BoutonBlog from '../../components/boutonBlog.js';
 
@@ -111,7 +111,20 @@ class refonteSiteInternet extends Component {
                                 <li>Etc.</li>
                             </ul>
                             <br/>
-                            <h3 className="text-2xl text-bleu font-bold">Refonte site internet : un avantage majeur pour le SEO</h3>
+                            <h2 className="text-3xl text-bleu font-bold">Comment faire la refonte d'un site internet ? Les 5 étapes à suivre</h2>
+                            <br/>
+                            <p>Tout dépend du type de refonte que vous souhaitez réaliser. Néanmoins, il y a quelques étapes de base à suivre lorsqu'on entreprend un projet de refonte d'un site web :</p>
+                            <br/>
+                            <ol className="list-decimal pl-12">
+                                <li><strong className="font-bold">Définissez les buts et les objectifs de la refonte.</strong> Qu'espérez-vous obtenir en redessinant votre site internet ? S'agit-il simplement de donner un nouveau look au site, ou cherchez-vous à améliorer sa fonctionnalité ou à ajouter de nouvelles fonctions ? En définissant clairement vos objectifs dès le départ, vous vous assurez que le processus de refonte est ciblé et efficace.</li><br/>
+                                <li><strong className="font-bold">Effectuez un audit complet de votre site web existant.</strong> Faites le point sur ce qui fonctionne bien actuellement et ce qui doit être amélioré. Cela vous aidera à identifier les domaines qui doivent être abordés lors de la refonte.</li><br/>
+                                <li><strong className="font-bold">Créez un plan détaillé pour le processus de refonte.</strong> Ce plan doit comprendre des échéances, des étapes et des responsabilités pour chaque étape du projet. La mise en place d'un plan clair vous aidera à garder le projet sur la bonne voie et à vous assurer que toutes les personnes concernées savent ce qu'il y a à faire.</li><br/>
+                                <li><strong className="font-bold">Mettez en œuvre la refonte progressivement.</strong> Effectuer trop de changements d'un coup peut être accablant pour les utilisateurs et entraîner de la confusion ou de la frustration. En procédant à la refonte par étapes, vous pourrez vous assurer que tout fonctionne comme il se doit avant d'effectuer d'autres changements.</li><br/>
+                                <li><strong className="font-bold">Testez, testez, testez !</strong> Une fois que le site Web remanié est en ligne, il faut le tester pour vous assurer que toutes les nouvelles fonctionnalités sont opérationnelles. Demandez à vos amis, à votre famille et même à des inconnus de l'essayer et de vous faire part de leurs commentaires. Cela vous aidera à identifier les points à améliorer.</li><br/>
+                            </ol>
+                            <p>En suivant ces étapes, vous veillerez à ce que votre projet de refonte de site web soit une réussite et que votre nouveau site réponde à tous vos buts et objectifs. En revanche, si vous voulez vous assurer d'obtenir un rendu professionnel, il est <strong className="font-bold">fortement conseillé de s'adresser à des professionnels de la création de site internet.</strong></p>
+                            <br/>
+                            <h2 className="text-3xl text-bleu font-bold">Refonte site internet : un avantage majeur pour le SEO</h2>
                             <br/>
                             <p>Il se peut que vous envisagiez une refonte en raison du manque de performance de <strong className="font-bold">votre site web</strong>. Pour cela, il est indispensable de comprendre ce qui ne fonctionnement et pourquoi. Est-ce que les utilisateurs passent du temps sur votre site ? Est-ce qu’ils naviguent bien entre les <strong className="font-bold">différentes pages de votre site web</strong> ? Très concrètement, est-ce que votre site est visible ? La <strong className="font-bold">visibilité de votre site sur le web</strong> introduit la question du référencement naturel : est-ce que votre site est optimisé pour correspondre aux attentes des moteurs de recherche ?
                             <br/><br/>
@@ -122,7 +135,7 @@ class refonteSiteInternet extends Component {
                                 Cet historique devra être intégré à la réflexion stratégique concernant le choix des mots-clés ciblés. Les url les plus performantes pourront alors être conservées en vue de disposer d’une base déjà existante à partir de laquelle se lancer. <strong className="font-bold">Refondre son site web</strong> procure un avantage considérable en termes de structuration du site. Partir de zéro permet d’avoir une vision globale et de long termes pour définir une arborescence compatible avec ses futurs cocons sémantiques afin d’<strong className="font-bold">optimiser son maillage interne (liens internes)</strong>.
                             </p>
                             <br/>
-                            <h3 className="text-2xl text-bleu font-bold">Refonte site internet : une mise à jour technique non-négligeable</h3>
+                            <h2 className="text-3xl text-bleu font-bold">Refonte site internet : une mise à jour technique non-négligeable</h2>
                             <br/>
                             <p>
                                 La mise en place d’un <strong className="font-bold">nouveau site internet</strong> peut permettre d’adopter de nouvelles fonctionnalités au même titre que la <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-black font-bold">création de site internet à Agen</Link> (selon le <strong className="font-bold">type de site web</strong> : site interne vitrine, e-commerce, ou administrable). En fonction de vos besoins en termes de référencement, de gestion ou des fonctionnalités à offrir à vos utilisateurs, la question de l’outil de création et de <strong>gestion de contenu du site</strong> va se poser. À ce niveau, les possibilités sont nombreuses en termes de <strong className="font-bold">développement web</strong> : utilisation d’un CMS (Wordpress, Drupal, Joomla, Prestashop, etc.) d’applications web (Progressive Web App) ou du traditionnel duo HTML/CSS, par exemple.
@@ -135,12 +148,22 @@ class refonteSiteInternet extends Component {
                                 <br/><br/>
                                 Tenir compte de l’historique de votre site web lors de la <strong className="font-bold">création de vos nouvelles pages web</strong> vous sera tout particulièrement bénéfique. Enfin, il faut savoir que le <strong className="font-bold">projet de refonte</strong> est envisagé aussi bien par un développeur web pour ce qui concerne la partie technique, mais également par un <strong className="font-bold">référenceur SEO</strong> en vue de coordonner les actions mises en place comme dans le cadre de notre <Link to="/" className="text-bleu hover:text-black font-bold">agence web à Agen</Link>.
                             </p>
-
-                        <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
+                            <section className="w-full my-12 flex flex-col md:flex-row bg-bleu">
+                                <div className="w-full md:w-1/4 flex">
+                                   <img className="object-cover" src={Bg}/> 
+                                </div>
+                                <div className="w-full md:w-3/4 flex py-2 md:py-12 flex-col text-white justify-center items-center">
+                                    <h2 className="text-2xl px-2 py-4 md:text-2xl font-bold text-center">Nos experts réalisent votre refonte de site web</h2>
+                                    <h3 className="text-md px-2 text-center">Site internet vitrine - Site internet e-commerce - Solution sur-mesure</h3>
+                                    <br/>
+                                    <ButtonBlog url="/creation-site-internet-toulouse/" text="Notre offre de refonte de site internet" color="black" />
+                                </div>
+                            </section>
+                        {/* <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/"><img
                             src={banniere}
                             alt="Création site internet Toulouse"
                             className="mx-auto block max-w-full mt-12"
-                        /></Link>
+                        /></Link> */}
                     </div>
                     <div className="w-full lg:w-1/3 px-16 md:px-24 lg:px-10 xl:pr-24 md:mr-12  xl:mx-12 mb-32 text-justify font-normal flex flex-col justify-start items-center lg:items-start" >
                         <div className="bloccontactblog w-full lg:w-full flex flex-col justify-center items-center century text-justify flex" style={{ background: '#3c3c3cfa url(' + bgbloc + ')', backgroundBlendMode: 'overlay', backgroundSize: 'cover', backgroundPosition: 'center' }}>
