@@ -119,7 +119,7 @@ class Footer extends Component {
                             to="/"
                             className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"
                         >
-                            <span className="chevronFooter">></span> Accueil
+                            <span className="chevronFooter">></span> Agence web
                         </Link>
 
                         <Link
@@ -158,7 +158,13 @@ class Footer extends Component {
                             to="/agence-community-management/"
                             className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"
                         >
-                            <span className="chevronFooter">></span> Community Management
+                            <span className="chevronFooter">></span> Social Media
+                        </Link>
+                        <Link
+                            to="/formation-referencement/referencement-naturel-google-seo/"
+                            className="block md:inline-block mt-4 md:mt-0 no-underline text-white century py-2 px-4"
+                        >
+                            <span className="chevronFooter">></span> Formations
                         </Link>
                         {/* <Link
                             to="/agence-digitale-toulouse/"
@@ -294,7 +300,24 @@ class Footer extends Component {
                             >
                                 Votre secteur d'activité
                             </Link>
+                            </div>
+                            <div className="flex flex-col mt-6 items-center">
+                            <div className="flex mb-2 flex-wrap items-center">
+                                <img
+                                    src={LinkwebWhite}
+                                    alt="Linkweb"
+                                    className="w-24"
+                                />
+                                <span className="century text-base lg:text-xl pl-2 text-white"> Formations</span>
+                            </div>
+                            <Link
+                                to="/formation-referencement/referencement-naturel-google-seo/"
+                                className=" w-full block last md:inline-block mt-0s md:mt-0  no-underline text-white century bg-bleu text-center py-2 px-4"
+                            >
+                                Nos formations
+                            </Link>
                         </div>
+
                     </section>
                 </section>
                 </section>

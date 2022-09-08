@@ -42,7 +42,7 @@ class AgenceCommunityManagement extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence de Community Management - Gestion des réseaux sociaux - Linkweb"
+                    title="Agence Social Media - Community Management - Gestion des réseaux sociaux Toulouse et Agen - Linkweb"
                     description="Définition et mise en application de stratégies de community management : accompagnement, charte éditoriale, création de contenus et reporting."
                     url="https://linkweb.fr/agence-community-management/"
                     nom="Agence community management"
@@ -83,7 +83,7 @@ class AgenceCommunityManagement extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence de Community Management et Gestion des réseaux sociaux</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence Social Media - Community Management Toulouse et Agen</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Notre agence de community management élabore et gère vos réseaux sociaux.</h2>
@@ -99,7 +99,7 @@ class AgenceCommunityManagement extends Component {
                 </section>
                 <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
                         <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
-                        <span className="px-4 text-md lg:text-lg text-white"> Agence de Community Management</span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Agence Social Media</span>
                     </nav>
                 <section className="phototext">
                     <section className="text-center text-black text-2xl mx-auto flex-col flex items-center lg:mx-0 century mt-16 mb-10">
@@ -191,7 +191,7 @@ class AgenceCommunityManagement extends Component {
                             <br />
                             <hr className="w-1/2 border-bleu lg:w-1/12" />
                             <br />
-                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Les experts de notre agence activent tous les leviers pour faire de vos médias sociaux, des générateurs de visibilité et de notoriété pour votre marque.</h3>
+                            <h3 /*data-aos='fade-left'*/ className="text-xl text-white century pb-0">Les experts de notre agence social media activent tous les leviers pour faire de vos médias sociaux, des générateurs de visibilité et de notoriété pour votre marque.</h3>
                         </div>
                     </section>
                     <section className="flex justify-center flex-col items-center">
@@ -296,7 +296,7 @@ class AgenceCommunityManagement extends Component {
                                     <span className="text-bleu">/</span>JE FAIS APPEL À UNE AGENCE DE COMMUNITY MANAGEMENT POUR MON PROJET
                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                Les consultants de notre agence sont à l’écoute de vos besoins pour déterminer une solution clé-en-main. Quel que soit votre objectif, nous mettons tout en oeuvre pour vous proposer une solution pertinente, adaptée à votre public et en parfaite adéquation avec votre <strong>stratégie de communication digitale</strong>.
+                                Les consultants de notre agence de community manager sont à l’écoute de vos besoins pour déterminer une solution clé-en-main. Quel que soit votre objectif, nous mettons tout en oeuvre pour vous proposer une solution pertinente, adaptée à votre public et en parfaite adéquation avec votre <strong>stratégie de communication digitale</strong>.
                 </div>
                             </section>
 
@@ -324,9 +324,9 @@ class AgenceCommunityManagement extends Component {
                         <p style={{ fontSize: '16px' }}>
                             L’obtention de visibilité, de notoriété ou encore l’<strong>engagement des utilisateurs</strong> auprès de sa marque sont des enjeux essentiels. Néanmoins, cela nécessite du temps et de connaître les spécificités de chaque outil ainsi que leur fonctionnement. À ce niveau, le recours à une <strong>agence de community management pour la gestion de réseaux sociaux</strong> est un gain de temps non-négligeable.<br />
                             <br />
-                            Animer une communauté, c’est avant tout la connaître et maîtriser ses codes. Les experts de notre équipe produisent des solutions en accord avec vos besoins, mais également en parfaite adéquation avec ces codes. La mise en place d’une <strong>stratégie de contenus</strong> et la création de contenus sont à la base de votre projet. En effet, il est essentiel de produire du contenu pour des publications engageantes afin de créer une communauté puis de fidéliser ses utilisateurs.<br />
+                            Animer une communauté, c’est avant tout la connaître et maîtriser ses codes. Les experts de notre équipe produisent des solutions en accord avec vos besoins, mais également en parfaite adéquation avec ces codes. La mise en place d’une <strong>stratégie de contenus</strong> et la création de contenus sont à la base de votre projet <Link to="/social-media/social-media-marketing/" className="text-bleu hover:text-black font-bold">social media marketing</Link>. En effet, il est essentiel de produire du contenu pour des publications engageantes afin de créer une communauté puis de fidéliser ses utilisateurs.<br />
                             <br />
-                            Enfin, la <strong>gestion de réseaux sociaux</strong> nécessite la mise en place d’une stratégie de modération pour chaque média en plus de la création graphique adaptée à chaque plateforme : page Facebook, Twitter, Instagram, TikTok, LinkedIn, etc. Le canal d’acquisition que représente le <strong>réseau social</strong> peut également entrer en parfait accord avec une stratégie de contenus sur-mesure, en place sur un blog en ligne ou sur un site web.<br />
+                            Enfin, la <strong>gestion de réseaux sociaux</strong> nécessite la mise en place d’une stratégie de modération pour chaque média en plus de la création graphique adaptée à chaque plateforme : page Facebook, Twitter, Instagram, TikTok, LinkedIn, etc. Le canal d’acquisition que représente le <strong>réseau social</strong> peut également entrer en parfait accord avec une stratégie de contenus sur-mesure, en place sur un blog en ligne ou sur un site web. C'est le rôle d'un <Link to="/social-media/consultant-social-media/" className="text-bleu hover:text-black font-bold">consultant social media</Link> de vous orienter vers les meilleurs choix pour votre stratégie digitale.<br />
                         </p>
                     </div>
 
@@ -356,7 +356,7 @@ class AgenceCommunityManagement extends Component {
                         <Accordion>
                             <div className="w-full" label="COMMUNIQUER AU BON ENDROIT AU BON MOMENT">
                                 <p>
-                                Les <strong>réseaux sociaux comme Instagram, Facebook (gestion de page Facebook) ou encore Tik Tok</strong> attirent des millions d’utilisateurs quotidiens. Par ailleurs, chaque réseau atteint un public différent en fonction du contenu mis en avant. L’utilisation de ces réseaux au sein d’une <strong>stratégie social media</strong> va donc dépendre de vos besoins.<br/><br/>
+                                Les <strong>réseaux sociaux comme Instagram, Facebook (gestion de page Facebook) ou encore Tik Tok</strong> attirent des millions d’utilisateurs quotidiens. Ils constituent un terrain particulièrement propice pour développer une stratégie digitale avec pour objectif de maximiser sa présence sur les réseaux sociaux. Par ailleurs, chaque réseau atteint un public différent en fonction du contenu mis en avant. L’utilisation de ces réseaux au sein d’une <strong>stratégie social media</strong> va donc dépendre de vos besoins.<br/><br/>
                                 Selon le type de personnes à atteindre, l’effort de visibilité devra être ciblé sur un réseau en particulier. En effet, les utilisateurs de Facebook n’ont pas le même profil que les utilisateurs de Tik Tok. De la même façon, le contenu attendu par ces utilisateurs et la manière de communiquer différeront en fonction du profil des personnes face à vous.<br/><br/>
                                 C’est pourquoi, les <strong>experts de notre équipe</strong> déterminent les meilleures opportunités pour votre entreprise, en tenant compte de votre ciblage, tout en adaptant le contenu et les publications à proposer.
                                 </p>
@@ -365,7 +365,7 @@ class AgenceCommunityManagement extends Component {
                                 <p>
                                 La <strong>publication sur les réseaux sociaux</strong> est également un moyen de façonner son image auprès des utilisateurs. De plus, sur les réseaux, vous êtes en contact direct avec les internautes. Maîtriser sa communication est donc indispensable pour ne pas brouiller le message et <strong>produire un contenu engageant</strong>. En somme, lorsque vous communiquez, c’est l’entièreté de votre marque que vous engagez. Il est donc essentiel de le faire de manière professionnelle, avec des consultants compétents.<br/><br/>
                                 À ce niveau, le community management est essentiel car une certaine adaptation du discours doit être réalisée. En effet, sur les réseaux sociaux, la façon de consommer une information est différente d’un site web. Les internautes voient défiler des centaines de publication chaque jour. C’est pourquoi, il est essentiel d’exprimer sa présence en produisant un contenu attractif, parfaitement adapté aux codes du réseau ainsi qu’à sa cible.<br/><br/>
-                                Le <strong>community manager</strong> doit donc être informé de toute l’actualité du secteur d’activité et être prêt à réagir quand un événement a lieu. Il est l’interface entre la marque et les utilisateurs. Ce travail s’établit sur le long terme et doit permettre de <strong>transformer votre entreprise en marque</strong>.
+                                Le <Link to="/social-media/social-media-manager/" className="text-bleu hover:text-black font-bold"><strong>social media manager</strong></Link> ou <strong>community manager</strong> doit donc être informé de toute l’actualité du secteur d’activité et être prêt à réagir quand un événement a lieu. Il est l’interface entre la marque et les utilisateurs. Ce travail s’établit sur le long terme et doit permettre de <strong>transformer votre entreprise en marque</strong>.
                                 </p>
                             </div>
                             <div label="FIDÉLISER UNE COMMUNAUTÉ AUTOUR DE VOTRE MARQUE">
@@ -383,7 +383,7 @@ class AgenceCommunityManagement extends Component {
                         <span className="my-10"><a href="tel:0533950030" className="text-center text-xl lg:text-3xl xl:text-5xl century"><span className="text-2xl lg:text-6xl font-bold">/</span> 05 33 95 00 30</a></span>
                     </div>
                     <div className="w-full order-first md:order-last md:w-3/4 my-6 text-white p-6 lg:px-24">
-                        <h2 className="century text-center md:text-right text-2xl lg:text-3xl xl:text-4xl tracking-wider pb-3 leading-tight">Vous souhaitez faire appel à notre agence pour la gestion de vos réseaux sociaux ?</h2>
+                        <h2 className="century text-center md:text-right text-2xl lg:text-3xl xl:text-4xl tracking-wider pb-3 leading-tight">Vous souhaitez faire appel à notre agence social media pour la gestion de vos réseaux sociaux ?</h2>
                         <br />
                         <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0" />
                         <br />
