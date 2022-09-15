@@ -13,7 +13,7 @@ import Accordion from '../components/accordion';
 import RoundButtonPages from "../components/roundButtonPages";
 import RoundButtonPagesMail from "../components/roundButtonPagesMail";
 import SimpleMap from "../components/simpleMap";
-import Modalagenceseo from "../components/modals";
+import Modalagenceseo from "../components/modalboxes";
 import Partenaires from '../components/partenaires';
 
 import blocBg from "../images/background.jpg";

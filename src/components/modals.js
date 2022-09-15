@@ -47,9 +47,6 @@ class Modals extends Component {
                 <ModalAds
                     linkTitle={"/agence-adwords-47-31/"}
                     linkAds={"/agence-adwords-47-31/"} />
-                <ModalFormationSEO/>
-                <ModalAgenceSEO/>
-                    
             </div>
 
         );
