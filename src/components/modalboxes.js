@@ -27,7 +27,6 @@ class Modalboxes extends Component {
         return (
             <div id="modalContainer" onClick={(e) => this.handleClick(e)}>
                 
-                <ModalFormationSEO/>
                 <ModalAgenceSEO/>
                     
             </div>

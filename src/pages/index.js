@@ -527,7 +527,7 @@ class  IndexPage extends Component {
 
 
           <section className="w-full mx-auto px-4 py-4 xl:px-48 mt-24 mb-0">
-            <h2 /*data-aos='fade-right'*/ className="text-center lg:text-left text-black text-4xl century">
+            <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
               Un échantillon des <span className="text-bleu font-bold">réalisations</span> de notre agence web à Toulouse
             </h2>
             <hr className="blue center lg:left"></hr>
@@ -541,7 +541,7 @@ class  IndexPage extends Component {
             <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
               {/*<Link to="/creation-site-internet-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">*/}
               {/*</Link>*/}
-              <span className="text-center text-black text-4xl">Vous avez un <br/>besoin ?</span>
+              <span className="text-center text-black text-4xl">Atteignez vos objectifs avec une stratégie digitale sur-mesure</span>
 
             </h2>
             <hr className="blue"></hr>
@@ -631,7 +631,7 @@ class  IndexPage extends Component {
             <div className="w-full lg:w-8/12 text-xl lg:text-2xl">
               <h3>Vous désirez mener un <span className="font-bold">projet similaire</span> avec notre agence web à
                 Toulouse ?</h3>
-              <h4>Linkweb définit votre projet en accord avec vos <span className="font-bold">ambitions</span>.</h4>
+              <h4>Linkweb définit votre projet digital en accord avec vos <span className="font-bold">ambitions</span>.</h4>
             </div>
             <div className="w-full md:w-1/2 mx-auto block mt-12 lg:mt-0 lg:w-3/12">
               {/* <RoundButton className="items-center" color="darkgrey" text="Contactez-nous" url="/contact-agence-web-toulouse/" /> */}
@@ -649,7 +649,7 @@ class  IndexPage extends Component {
           </section>
 
           <section className=" w-full bg-white mx-auto century px-4  md:px-24  py-2 mt-6 mb-6">
-            <h2 className="mx-auto  text-center text-black text-4xl century">Vous souhaitez contacter l'agence Linkweb <br/>à Toulouse ?</h2>
+            <h2 className="mx-auto  text-center text-black text-4xl century">Vous souhaitez contacter l'agence digitale Linkweb <br/>à Toulouse ?</h2>
             <hr className="blue"></hr>
             <br/>
             <section className='flex flex-wrap flex-column md:flex-row justify-center items-center '>

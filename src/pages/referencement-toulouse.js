@@ -101,10 +101,140 @@ class ReferencementToulouse extends Component {
                 </section>
                 <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
                         <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
-                        <span className="px-4 text-md lg:text-lg text-white"> Agence SEO Toulouse</span> <a href="#agenceseo" className="text-bleu hover:text-black">&nbsp;</a>
+                        <span className="px-4 text-md lg:text-lg text-white"> Agence SEO Toulouse</span>
 
                     </nav>
-                    <Modalagenceseo/>
+                    <section id="agenceseo" className="flex flex-col xl:flex-row w-full justify-center mx-auto py-6">
+                <div className="flex justify-center xl:overflow-visible">
+                    <div /*data-aos="fade-left"*/ className="w-full xl:flex hidden lg:mt-0 mt-48 xl:w-auto">
+                        {/* <img width="850px" className="h-auto justify-end order-first lg:order-last" src={refads} alt="Agence Adwords Toulouse" /> */}
+                    </div>
+                    <div className="blocref w-10/12 px-12 pt-8 lg:pt-16 lg:mt-0 -mt-64 lg:my-0 order-last lg:order-first max-h-auto mx-10 lg:mx-0 py-6 lg:py-12 xl:px-12 text-black flex flex-col justify-center" /*data-aos="fade-right"*/ >
+                        {/* <Link to={this.props.linkTitle}> */}
+                        {/* </Link> */}
+                        <h2 className="century leading-none text-center text-3xl md:text-5xl">Comparer les meilleures agences SEO à Toulouse</h2>
+                        <br/><br/>
+                        <table className="w-full century text-sm text-center py-2">
+                            <tbody>
+                                <tr className="bg-bleu headertable font-black h-16 py-2 md:py-0">
+                                    <th>Nom de l'agence</th>
+                                    <th>Services</th>
+                                    <th>Localisation</th>
+                                    <th>Adresse</th>
+                                    <th>Site internet</th>
+                                </tr>
+                                <tr className="flex flex-col h-auto md:table-row md:h-16 py-2 md:py-0">
+                                    <td className="font-bold">LINKWEB ⭐</td>
+                                    <td>Référencement SEO<br/>Référencement SEA <br/>Création de site internet <br/>Community Management <br/>Formation SEO </td>
+                                    <td>Toulouse</td>
+                                    <td>44 rue Bayard</td>
+                                    <td>
+                                        <button
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = '/';
+                                            }}>linkweb.fr
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr className="bg-bleu flex flex-col h-auto md:table-row md:h-16 py-2 md:py-0">
+                                    <td className="font-bold">VELCOME SEO</td>
+                                    <td>Référencement SEO <br/>Référencement SEA <br/>Formation SEO</td>
+                                    <td>Toulouse</td>
+                                    <td>150 Rue Louis Nicolas Vauquelin</td>
+                                    <td>
+                                        <button
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = 'https://velcomeseo.fr/';
+                                            }}>velcomeseo.fr
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr className="flex flex-col h-auto md:table-row md:h-16 py-2 md:py-0">
+                                    <td className="font-bold">VALE TUDO</td>
+                                    <td>Création de site internet <br/>Référencement SEO</td>
+                                    <td>Toulouse</td>
+                                    <td>2 rue d’Austerlitz</td>
+                                    <td>
+                                        <button
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = 'https://www.valetudo.io/';
+                                            }}>valetudo.io
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr className="bg-bleu flex flex-col h-auto md:table-row md:h-16 py-2 md:py-0">
+                                    <td className="font-bold">YUMENS</td>
+                                    <td>Référencement SEO <br/>Veille stratégique <br/>Social Media <br/>Formation SEO</td>
+                                    <td>Toulouse</td>
+                                    <td>5 rue du Moulin Bayard</td>
+                                    <td>
+                                        <button
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = 'https://www.yumens.fr/';
+                                            }}>yumens.fr
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr className="flex flex-col h-auto md:table-row md:h-16 py-2 md:py-0">
+                                    <td className="font-bold">LA MANDRETTE</td>
+                                    <td>Référencement SEO <br/>E-Réputation <br/>Formation SEO</td>
+                                    <td>Toulouse</td>
+                                    <td>272, route de Launaguet</td>
+                                    <td>
+                                        <button
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = 'https://www.lamandrette.com/';
+                                            }}>lamandrette.com
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr className="bg-bleu flex flex-col h-auto md:table-row md:h-16 py-2 md:py-0">
+                                    <td className="font-bold">TRANSFONUMÉRIQUE</td>
+                                    <td>Référencement SEO <br/>Référencement SEA <br/>Création de site internet</td>
+                                    <td>Balma</td>
+                                    <td>12 Av. Charles de Gaulle</td>
+                                    <td>
+                                        <button
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = 'https://transfonumerique.fr';
+                                            }}>transfonumerique.fr
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr className="flex flex-col h-auto md:table-row md:h-16 py-2 md:py-0">
+                                    <td className="font-bold">MERIDIGITAL</td>
+                                    <td>Référencement SEO <br/>Rédaction Web</td>
+                                    <td>Toulouse</td>
+                                    <td>19 Rue de la Concorde</td>
+                                    <td>
+                                        <button
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = 'https://www.meridigital.com/';
+                                            }}>meridigital.com
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+                    {/* <Modalagenceseo/> */}
                 <section className="phototext">
                     <section className="text-center text-black text-2xl mx-auto flex-col flex items-center lg:mx-0 century mt-16 mb-10">
                         <h2 className="century text-black leading-none">Sortez de l’ombre,<br /><span className="text-5xl lg:text-6xl text-bleu font-bold">DEVENEZ VISIBLES</span></h2>
@@ -242,7 +372,7 @@ class ReferencementToulouse extends Component {
 
                     </div>
                 </section>
-                <section className="bg-darkgrey sidetitle py-10">
+                                <section className="bg-darkgrey sidetitle py-10">
                     <section className="w-full lg:w-2/3 flex flex-col justify-center century my-10 px-4 lg:px-32 md:mx-6 sm:mx-12 mt-2 lg:mx-64">
                         <h2 className="century text-center lg:text-left text-white text-3xl md:text-5xl leading-none">Que fait <span className="text-bleu">notre agence</span> pour <span className="text-bleu">votre référencement</span> SEO à Toulouse ?</h2>
                         <br />
