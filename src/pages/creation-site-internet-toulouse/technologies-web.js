@@ -132,7 +132,7 @@ render() {
 
                         <p>En effet, la solution de <strong>développement web</strong> la plus adaptée sera déterminée en fonction de différents facteurs. Parmi eux, nous pouvons citer le <strong>développement de fonctionnalités</strong> précises, le <strong>référencement naturel</strong> ou encore le besoin d'accèder à une administration par exemple.</p>
 
-                        <p>Pour bien comprendre ce qu’incombe à l’utilisation d’une <strong>technologie web</strong> plutôt qu’une autre, il va être important de bien les définir.</p>
+                        <p>Pour bien comprendre ce qu’incombe à l’utilisation d’une <strong>technologie web</strong> plutôt qu’une autre dans la <Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold">création de site internet à Toulouse</Link>, il va être important de bien les définir.</p>
                         <br/>
                         <h2>Qu'est-ce qu'un site web ?</h2>
                         <br/>

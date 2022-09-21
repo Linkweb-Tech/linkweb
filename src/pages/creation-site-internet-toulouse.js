@@ -637,6 +637,47 @@ class CreationSiteInternetToulousePage extends Component {
 
                     </div>
                 </section>
+                <section className="max-w-3xl w-full mx-auto px-4 py-0 my-16">
+                    <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
+                        Création site internet Toulouse :<br /><span className="font-bold">les questions fréquentes</span>
+                    </h2>
+                    <br />
+                    <hr className="border-solid w-1/6 border-bleu"></hr>
+                    <br />
+                </section>
+                <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-24">
+                    <div className="w-full md:w-3/4 py-0 flex justify-end">
+                        <Accordion>
+                            <div className="w-full" label="CRÉATION SITE INTERNET TOULOUSE : POURQUOI CRÉER UN SITE INTERNET ?">
+                                <p><strong>La création d'un site internet</strong> est un excellent moyen de promouvoir votre entreprise et de la faire connaître sur la toile. De plus, cela permet aux internautes de vous trouver facilement et de vous contacter directement. 
+                                    <br/><br/>
+                                    La <strong>création d'un site internet vitrine</strong> vous permet de répondre à des objectifs de visibilité et de notoriété, notamment grâce au <strong>SEO (référencement naturel)</strong> ou au SEA (Google Ads) à travers une bonne visibilité dans les résultats des moteurs de recherche. Si vous cherchez à vendre directement vos produits en ligne, alors la <strong>mise en place d'un site internet e-commerce</strong> sera plus appropriée avec la mise en place d'une page produit sur-mesure pour chacune de vos références. 
+                                    <br/><br/>
+                                    Dans tous les cas, la <strong>création d'un site internet</strong> vous procure un avantage certain, celui de maîtriser votre communication en restant accessible 24h/24 et 7 jours sur 7.</p>
+                            </div>
+                            <div label="CRÉATION SITE INTERNET TOULOUSE : COMMENT SONT CRÉÉS LES SITES INTERNET ?">
+                                <p>Lorsque nous menons un <strong>projet de création de site web</strong>, nous mettons en place une stratégie qui tient compte de vos objectifs, de vos besoins et du marché que vous souhaitez intégrer. C'est pourquoi, chaque <strong>projet internet</strong> démarre par la définition et l'intégration de vos besoins en vue de développer une stratégie digitale adaptées. 
+                                <br/><br/>
+                                    Si vous avez opté pour la mise en place d'une <strong>stratégie de référencement naturel</strong>, nos équipes de référenceurs définissent les meilleures opportunités de visibilité qui s'offrent à vous. En parallèle, nos développeurs réalisent une <strong>maquette de votre site web</strong> via le travail de son web-design et selon votre charte graphique (logo, police d'écriture, couleurs, etc.). Nos développeurs s'attachent à mettre en place une plateforme mobile-friendly (responsive design) pour une ergonomie parfaite. 
+                                    <br/><br/>
+                                    Par la suite, les contenus produits par les équipes de référenceurs sont intégrés sur <strong>vos pages web</strong>. Une fois le site internet prêt à être mis en ligne, vous devrez valider son apparence et ses contenus. Le site sera alors publié en ligne et les référenceurs de notre agence se chargeront de l'optimisation technique de votre site web à destination des moteurs de recherche.
+                                </p>
+                            </div>
+                            <div label="CRÉATION SITE INTERNET TOULOUSE : QUELLES SONT LES TECHNOLOGIES UTILISÉES ET MAÎTRISÉES ?">
+                                <p>Les <strong>développeurs de notre agence</strong> (front-end, back-end et full stack) maîtrisent de nombreuses technologies web afin de vous proposer un site web conforme à vos attentes ainsi qu'à celles des différents acteurs du web (moteurs de recherche, navigateurs web, etc.), mais pas seulement. 
+                                <br/><br/>
+                                    En effet, grâce à leur maîtrise des différents langages web, gestionnaires de bases de données, systèmes de gestion de contenus (CMS) et frameworks, nos développeurs sont en mesure de mettre en place des fonctionnalités qui feront de <strong>votre site web</strong> une référence dans votre secteur.</p>
+                            </div>
+                            <div label="CRÉATION SITE INTERNET TOULOUSE : COMBIEN COÛTE UN SITE WEB ?">
+                                <p>Tout d’abord, il faut savoir que le <strong>prix d’un site internet</strong> varie en fonction de plusieurs facteurs : la complexité du site, les fonctionnalités souhaitées, le nombre de pages, le graphisme et bien plus encore. Ainsi, il est difficile de définir un prix précis sans avoir définir les <strong>contours d'un projet web</strong>.
+                                    <br/><br/>
+                                    Également l'ampleur de la stratégie à mettre en oeuvre sur votre site internet est un élément à prendre en compte. Selon vos objectifs, les actions à mettre en place seront plus ou moins conséquentes.
+                                    <br/><br/>
+                                    Si vous souhaitez savoir combien coûte votre futur site internet, l'<strong>agence Linkweb</strong> est en mesure de vous réaliser un <strong>devis sur-mesure</strong>.</p>
+                            </div>
+                        </Accordion>
+                    </div>
+                </section>
                 <div className="w-full flex justify-center my-20">
                     <div className="w-4/5 lg:w-1/2">
                         <CarouselToulouse />
