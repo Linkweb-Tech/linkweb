@@ -57,7 +57,7 @@ class CreationSiteInternetToulousePage extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création Site Internet Toulouse - Agence Web Linkweb"
+                    title="Création Site Internet Toulouse - Linkweb"
                     description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
                     keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Création site web Agen`, `Création site web Toulouse`]}
                     url="https://linkweb.fr/creation-site-internet-toulouse/"
