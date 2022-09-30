@@ -42,7 +42,7 @@ class ReferencementAgen extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Référencement Site Internet à Agen - Agence SEO Linkweb"
+                    title="Agence Référencement SEO de Site Internet à Agen - Agence SEO Linkweb"
                     description="Définition stratégique et mise en application pour votre projet de référencement naturel avec Linkweb, agence SEO à Agen."
                     keywords={[`Référencement Agen`, `Référencement Agen`, `Agence de Référencement Agen`, `Agence de Référencement Agen`, `Référencement Google`]}
                     url="https://linkweb.fr/referencement-agen/"
@@ -84,7 +84,7 @@ class ReferencementAgen extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Agen</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Agen - Référencement Agen</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence de référencement naturel à Agen.</h2>
@@ -122,7 +122,7 @@ class ReferencementAgen extends Component {
                                 <div className="w-full px-6 lg:px-6 flex flex-col justify-center" style={{ maxWidth: '1000px' }}>
                                     <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>DÉFINITION STRATÉGIQUE
-                                </h3>
+                                    </h3>
 
                                     <h4 className="century">Notre agence SEO définit votre stratégie SEO à partir de vos besoins et des opportunités présentes sur votre marché.</h4>
                                     <br />
@@ -281,7 +281,7 @@ class ReferencementAgen extends Component {
                                 <h4 className="font-bold century text-bleu"><span className="font-bold">Suivi de performances</span></h4>
                                 <p className="font-bold">Monitorer son <strong>positionnement dans la recherche</strong> est important, mais ne suffit pas pour évaluer l’efficacité de son <strong>référencement SEO</strong>.</p>
                                 <br />
-                                <p>Pour juger de l’efficacité de votre <strong>stratégie de référencement naturel</strong>, notre agence évalue le <strong>comportement des internautes sur votre site web</strong> : nombre de visiteurs généré et d’utilisateurs uniques, pages les plus vues, etc.</p>
+                                <p>Pour juger de l’efficacité de votre <strong>stratégie de référencement naturel</strong>, notre <Link to="/agence-web-agen/" className="text-bleu hover:text-white font-bold">agence web à Agen</Link> évalue le <strong>comportement des internautes sur votre site web</strong> : nombre de visiteurs généré et d’utilisateurs uniques, pages les plus vues, etc.</p>
                             </div>
                             <div className="w-full svgtransform md:w-1/4 mx-auto px-2 mb-10 md:mb-0 century text-center lg:text-left">
                                 <svg width="50px" className="lg:mx-0 mx-auto block" fill="#ffffff" viewBox="0 0 512 640" ><g><g><g><g><path d="M361.333,490H150.667C132.103,490,117,474.897,117,456.333V55.667C117,37.103,132.103,22,150.667,22h210.667      C379.897,22,395,37.103,395,55.667v400.667C395,474.897,379.897,490,361.333,490z M150.667,30C136.514,30,125,41.514,125,55.667      v400.667C125,470.485,136.514,482,150.667,482h210.667C375.485,482,387,470.485,387,456.333V55.667      C387,41.514,375.485,30,361.333,30H150.667z" /></g><g><path d="M287.25,60h-62.5C214.962,60,207,52.038,207,42.25V26c0-2.209,1.791-4,4-4h90c2.209,0,4,1.791,4,4v16.25      C305,52.038,297.037,60,287.25,60z M215,30v12.25c0,5.376,4.374,9.75,9.75,9.75h62.5c5.376,0,9.75-4.374,9.75-9.75V30H215z" /></g><path d="M281,196L281,196c-5.522,0-10-4.477-10-10l0,0c0-5.523,4.478-10,10-10l0,0c5.522,0,10,4.477,10,10l0,0     C291,191.523,286.522,196,281,196z" /><rect x="211" y="386" width="20" height="20" /><rect x="241" y="386" width="20" height="20" /><rect x="271" y="386" width="20" height="20" /><g><path d="M206,215c-1.024,0-2.047-0.391-2.829-1.171c-1.562-1.563-1.562-4.095,0-5.657l75-75c1.561-1.562,4.096-1.562,5.656,0      c1.563,1.563,1.563,4.095,0,5.657l-75,75C208.047,214.609,207.024,215,206,215z" /></g><g><path d="M201,270c-1.024,0-2.047-0.391-2.829-1.172c-1.562-1.562-1.562-4.095,0-5.656l60-60c1.561-1.562,4.096-1.562,5.656,0      c1.563,1.563,1.563,4.095,0,5.657l-60,60C203.047,269.609,202.024,270,201,270z" /></g><g><path d="M401,180h-10c-2.209,0-4-1.791-4-4v-60c0-2.209,1.791-4,4-4h10c2.209,0,4,1.791,4,4v60C405,178.209,403.209,180,401,180      z M395,172h2v-52h-2V172z" /></g><g><path d="M121,130h-10c-2.209,0-4-1.791-4-4v-10c0-2.209,1.791-4,4-4h10c2.209,0,4,1.791,4,4v10C125,128.209,123.209,130,121,130      z M115,122h2v-2h-2V122z" /></g><g><path d="M121,170h-10c-2.209,0-4-1.791-4-4v-10c0-2.209,1.791-4,4-4h10c2.209,0,4,1.791,4,4v10C125,168.209,123.209,170,121,170      z M115,162h2v-2h-2V162z" /></g><g><path d="M341,440H121c-2.209,0-4-1.791-4-4s1.791-4,4-4h220c2.209,0,4,1.791,4,4S343.209,440,341,440z" /></g></g></g></g></svg>
@@ -321,9 +321,7 @@ class ReferencementAgen extends Component {
 
                 <section className="flex w-full flex-col mx-auto px-0 py-6 my-4">
                     <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                        <h2 className="text-bleu text-lg text-center century">Référencement Agen</h2>
-                        <br />
-                        <h3 className="century text-3xl md:text-5xl text-black leading-none">Optez pour le Naturel</h3>
+                        <h2 className="century text-3xl md:text-5xl text-black leading-none">Référencement Agen : optez pour le Naturel</h2>
                         <br />
                         <hr className="border-solid w-1/6 border-bleu"></hr>
                     </section>

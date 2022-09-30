@@ -9,6 +9,7 @@ import RoundButton from "../components/roundButton";
 /*import ButtonPage from "../components/buttonPage.js";*/
 import Button from "../components/button.js";
 import Tiles from '../components/gallery/tiles';
+import ModalcreationAgen from '../components/modalcreationagen';
 
 import CarouselToulouse from "../components/carousel-slides/toulouse-slides";
 
@@ -305,7 +306,7 @@ class CreationSiteInternetToulousePage extends Component {
 
                     </div>
                 </section>
-                <section className="blocpresta">
+                <section className="blocpresta pb-12">
                     <section className="text-center my-10 lg:mx-0 century">
                         <h2 className="century text-white text-2xl">Création d'un site internet<br /><span className="text-4xl lg:text-6xl text-bleu font-bold">PROFESSIONNEL</span></h2>
                         <br />
@@ -313,6 +314,7 @@ class CreationSiteInternetToulousePage extends Component {
                         <br />
                         <h3 /*data-aos='fade-left'*/ className="text-xl text-white century">Nous déployons votre visibilité en ligne.</h3>
                     </section>
+                    <ModalcreationAgen/>
                     <section className="flex flex-col xl:flex-row mx-8 lg:mx-24 my-0 items-center lg:justify-center">
                         <section className="flex flex-col justify-center md:flex-row w-full mx-auto py-0 mt-2 ">
                             <div className="blocliens w-full lg:w-1/2 xl:w-6/12 my-4 border mx-auto md:mx-4 hover:shadow-xl py-6 century" style={{ border: '2px solid #ffffff' }}>
@@ -349,6 +351,8 @@ class CreationSiteInternetToulousePage extends Component {
                                     </ul>
                                     <br />Ce type de création permet aux TPE/PME de faire part de leur activité en mettant en avant leurs prestations et ainsi d'acquérir de <strong>nouveaux clients</strong> près de chez eux.</p>
                                 <br />
+                                <a href="#site-vitrine" className="text-center text-base hover:text-bleu font-bold text-white"><span className="text-bleu font-bold">+</span> En savoir plus</a>
+                                <br/>
                                 <div className="w-2/3 mx-auto block">
                                     <br />
                                     {/*<ButtonPage url="/creation-site-internet-vitrine/" text="SÉLECTIONNER" color="bleu" />*/}
@@ -389,6 +393,8 @@ class CreationSiteInternetToulousePage extends Component {
                                     </ul>
                                     <br />La boutique <strong>E-commerce</strong> s’adresse aux commerçants et boutiques qui souhaitent <strong>développer leur chiffre d’affaire en ciblant une toute nouvelle clientèle</strong>.</p>
                                 <br />
+                                <a href="#site-ecommerce" className="text-center hover:text-bleu font-bold text-white text-base"><span className="text-bleu font-bold">+</span> En savoir plus</a>
+                                <br/>
                                 <div className="w-2/3 mx-auto block">
                                     <br />
                                     {/*<ButtonPage url="/creer-une-boutique-en-ligne/" text="SÉLECTIONNER" color="bleu" />*/}
@@ -431,6 +437,8 @@ class CreationSiteInternetToulousePage extends Component {
                                     </ul>
                                     <br />Développer ce type d'outil permet de bénéficier des avantages du E-commerce pour présenter votre offre dans le moindre détail au sein de <strong>pages web</strong> dédiées.</p>
                                 <br />
+                                <a href="#site-catalogue" className="text-center hover:text-bleu font-bold text-white text-base"><span className="text-bleu font-bold">+</span> En savoir plus</a>
+                                <br/>
                                 <div className="w-2/3 mx-auto block">
                                     <br />
                                     {/*<ButtonPage url="/creation-site-internet-catalogue/" text="SÉLECTIONNER" color="bleu" />*/}
