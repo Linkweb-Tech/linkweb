@@ -483,7 +483,7 @@ class CreationSiteInternetToulousePage extends Component {
                                     <br />
 
                                     {/*<ButtonPage url="/creation-site-internet-sur-mesure/" text="SÉLECTIONNER" color="bleu" />*/}
-                                    <RoundButton url="/creation-site-internet-sur-mesure" color="bleu" colortext="black" text="SÉLECTIONNER" />
+                                    <RoundButton url="/creation-site-internet-sur-mesure/" color="bleu" colortext="black" text="SÉLECTIONNER" />
                                 </div>
                             </div>
                         </section>
