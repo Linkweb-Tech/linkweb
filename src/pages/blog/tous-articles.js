@@ -40,9 +40,9 @@ class CatTous extends Component {
                     title="Tous les articles - Agence Communication Linkweb Agen"
                     description="Retrouvez tous les articles du blog d'actualité digitale propulsé par l'agence de communication web Linkweb située à Agen (47) et Toulouse (31)."
                     keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
-                    url="https://linkweb.fr/blog/category/tous-articles/"
+                    url="https://linkweb.fr/blog/tous-articles/"
                     nom="Tous les articles"
-                    slug="blog/category/tous-articles/"
+                    slug="blog/tous-articles/"
                 />
                 {/* <PageTransition
                 defaultStyle={{

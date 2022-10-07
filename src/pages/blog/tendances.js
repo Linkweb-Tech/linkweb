@@ -39,9 +39,9 @@ class CatTrends extends Component {
                     title="Tendances - Référencement - Site Internet Professionnel | Linkweb Agen"
                     description="Le blog digital : découvrir les dernières tendances référencement, UX/UI design en création de site internet - Agence Web Linkweb Agen (47) Toulouse (31)."
                     keywords={[`Actualité Digitale`, `Blog SEO`, `Actualités SEO`]}
-                    url="https://linkweb.fr/blog/category/tendances/"
+                    url="https://linkweb.fr/blog/tendances/"
                     nom="Tendances"
-                    slug="blog/category/tendances/"
+                    slug="blog/tendances/"
                 />
                 {/* <PageTransition
                 defaultStyle={{
