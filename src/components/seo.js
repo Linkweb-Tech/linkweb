@@ -17,15 +17,21 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
         let json = '';
         if (article == false) {
           json = `
-            {
-              "@context":"https://schema.org",
-              "@graph":[{"@type":"Organization",
-              "@id":"https://linkweb.fr/#organization",
-              "name":"Linkweb",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.6",
-                "ratingCount": "115"
+              {
+                "@context":"https://schema.org",
+                "@graph":[
+                  {
+              "@type":"AggregateRating",
+              "itemReviewed":{
+                "@type":"Organization",
+                "@id":"https://linkweb.fr/#organization",
+                "name":"Linkweb"
+              },
+              "bestRating": "5",
+              "ratingValue": "4.6",
+              "reviewCount": "117"
+            }                 
+                ]
               },
               "logo":"https://linkweb.fr/data/logo-linkweb.jpg",
               "telephone":"(+33)5 33 95 00 30",
