@@ -643,9 +643,17 @@ class CreationSiteInternetAgenPage extends Component {
                         <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0" />
                         <br />
                         <div className="flex items-end my-10 justify-end flex-col">
-                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Parmi toutes les agences qui vous proposent leurs interventions, Linkweb vous accompagne dans la <strong className="font-normal">conception et la réalisation de votre projet de création de site internet</strong>. Notre équipe conduit votre projet à travers la mise en route technique et le choix de la ligne éditoriale à adopter pour répondre à vos objectifs.</p>
+                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Parmi toutes les agences qui vous proposent leurs interventions, Linkweb vous accompagne dans la <strong className="font-normal">conception et la réalisation de votre projet de <Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-white font-bold">création de site internet à Toulouse</Link></strong>. Notre équipe conduit votre projet à travers la mise en route technique et le choix de la ligne éditoriale à adopter pour répondre à vos objectifs.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
-                                <RoundButton url="/creation-site-internet-toulouse/" color="darkgrey" text="J'AI UN PROJET À TOULOUSE" />
+                                {/* <RoundButton url="/creation-site-internet-toulouse/" color="darkgrey" text="J'AI UN PROJET À TOULOUSE" /> */}
+                                <button
+                                            className="font-light roundedButton bg-darkgrey text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12"
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = '/creation-site-internet-toulouse/';
+                                            }}>J'AI UN PROJET À TOULOUSE
+                                        </button>
                             </div>
                         </div>
 

@@ -58,8 +58,8 @@ class CreationSiteInternetToulousePage extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Création Site Internet Toulouse - Linkweb"
-                    description="Création de site internet sur-mesure, e-commerce ou vitrine. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
+                    title="Création de Site Internet à Toulouse - Linkweb"
+                    description="Création de site internet sur-mesure, e-commerce ou vitrine à Toulouse. Devis gratuit – Accompagnement professionnel - Suivi régulier et personnalisé."
                     keywords={[`Création site internet Agen`, `Création site internet Toulouse`, `Création site web Agen`, `Création site web Toulouse`]}
                     url="https://linkweb.fr/creation-site-internet-toulouse/"
                     nom="Création de site internet à Toulouse"
@@ -105,7 +105,7 @@ class CreationSiteInternetToulousePage extends Component {
                             <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Création site internet Toulouse</h1>
                         </div>
                         <br />
-                        <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence spécialisée dans le développement de sites web sur-mesure</h2>
+                        <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence spécialisée dans le développement de sites web sur-mesure à Toulouse</h2>
                         {/*<SmallTitle className="flex flex-1 smalltitle text-white justify-center lg:justify-start century px-2" pose={this.state.isOpen ? 'open' : 'closed'}>Connectez-vous avec le reste du monde</SmallTitle>*/}
                         <div className="w-full lg:w-full flex flex-col lg:flex-row justify-center pb-24 lg:justify-center mx-auto" style={{ maxWidth: '460px' }}>
                             <RoundButtonPages url="tel:0533950030" text="05 33 95 00 30" />
@@ -122,7 +122,7 @@ class CreationSiteInternetToulousePage extends Component {
                     </nav>
                 <section className="phototext">
                     <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
-                        <h2 className="century text-black leading-none">Conception et refonte de<br /><span className="text-5xl lg:text-6xl text-bleu font-bold">SITES INTERNET</span></h2>
+                        <h2 className="century text-black leading-none text-3xl lg:text-4xl">Conception et refonte de sites internet à <span className="text-3xl lg:text-4xl text-bleu font-bold">Toulouse</span></h2>
                         <br />
                         <hr className="border-solid w-1/6 border-white"></hr>
                         <br />
@@ -176,7 +176,7 @@ class CreationSiteInternetToulousePage extends Component {
 
                                     <h4 className="century">La création de votre site internet professionnel doit s'accompagner d'une stratégie de visibilité en vue de l'obtention de hautes performances.</h4>
                                     <br />
-                                    <p className="century pb-6 text-justify">Le <strong>trafic organique</strong> est l'une des sources principales d'<strong>acquisition de trafic sur le Web</strong>. C'est pourquoi, nous misons sur le <strong>référencement naturel</strong> (<strong>Optimisation pour les moteurs de recherche</strong>), dès la définition de l'<strong>arborescence</strong>, afin de rendre <strong>nos sites internet visibles</strong>. La source organique constitue une porte d'entrée non-négligeable et apporte un <strong>trafic qualifié</strong>.
+                                    <p className="century pb-6 text-justify">Le <strong>trafic organique</strong> est l'une des sources principales d'<strong>acquisition de trafic sur le Web</strong>. C'est pourquoi, nous misons sur le <strong><Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold">référencement</Link> naturel</strong> (<strong>Optimisation pour les moteurs de recherche</strong>), dès la définition de l'<strong>arborescence</strong>, afin de rendre <strong>nos sites internet visibles</strong>. La source organique constitue une porte d'entrée non-négligeable et apporte un <strong>trafic qualifié</strong>.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -605,14 +605,14 @@ class CreationSiteInternetToulousePage extends Component {
                         <Accordion>
                             <div className="w-full" label="EST-CE POSSIBLE DE METTRE EN PLACE DES FONCTIONNALITÉS SPÉCIFIQUES ?">
                                 <p>Afin d'<span className="font-bold">obtenir un résultat adapté à ses besoins et une plus-value pour sa société</span>, il faut garder à l'esprit que le site peut avoir plusieurs rôles au sein d’une entreprise et dans une stratégie digitale. Il est à la fois la <strong>vitrine</strong> de sa société, directement accessible pour les utilisateurs et permet de proposer des fonctionnalités. Simulateur de devis, module de réservation, configurateur, <strong>moteur de recherche</strong> adapté, les possibilités en termes de fonctionnalités ne manquent pas.<br /><br />
-                                    De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de <span className="font-bold">concevoir un réel <strong>outil de gestion</strong></span>. À ce niveau, <Link to="/" className="hover:text-bleu"><strong>Linkweb</strong></Link> fait partie des <strong>agences digitales</strong> en mesure de s'adapter <span className="font-bold">à vos besoins, tout en restant en totale cohérence avec <strong>votre image</strong> (charte graphique, valeurs, etc.)</span>. Ceci est valable de la phase de <strong>conception</strong>, jusqu’à la définition des espaces d’administration et de la répartition des rôles et permissions pour les employés de votre entreprise. Nous vous proposons une offre <strong>clé en main</strong> en répondant à vos exigences : <strong>intranet</strong>, <strong>CRM</strong>, etc.<br /><br />
+                                    De plus, pour les entreprises souhaitant mettre le <strong>numérique</strong> au coeur de leur fonctionnement, il est possible de <span className="font-bold">concevoir un réel <strong>outil de gestion</strong></span>. À ce niveau, notre <Link to="/" className="hover:text-bleu"><strong></strong>agence web à Toulouse</Link> Linkweb fait partie des <strong>agences digitales</strong> en mesure de s'adapter <span className="font-bold">à vos besoins, tout en restant en totale cohérence avec <strong>votre image</strong> (charte graphique, valeurs, etc.)</span>. Ceci est valable de la phase de <strong>conception</strong>, jusqu’à la définition des espaces d’administration et de la répartition des rôles et permissions pour les employés de votre entreprise. Nous vous proposons une offre <strong>clé en main</strong> en répondant à vos exigences : <strong>intranet</strong>, <strong>CRM</strong>, etc.<br /><br />
                                     <span className="font-bold">La <strong><Link to="/creation-site-internet-toulouse/refonte-site-internet/" className="text-bleu hover:text-black">refonte</Link> ou création d'un site internet</strong> ne constitue pas un objectif : il est un MOYEN pour atteindre vos objectifs.</span></p>
                             </div>
                             <div label="UNE PLATEFORME DESTINÉE À LA POPULATION TOULOUSAINE (OCCITANIE)">
                                 <p>Lorsque l’on met en place une <strong>stratégie de communication</strong>, <span className="font-bold">la <strong>définition des cibles</strong> est une étape indispensable</span>. Le <strong>site internet</strong> ne déroge pas à la règle. Pour <strong>créer un site web</strong> efficace en fonction des moyens de déploiement choisis, il faut <span className="font-bold">considérer son public dès l’élaboration du projet, la <strong>la conception du site</strong> et de ses <strong>pages</strong></span>. <br /><br />
 
-                                    Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> implique d’investir dans le <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/"><strong>webmarketing</strong></Link> avec <span className="font-bold">un <strong>site professionnel </strong>et un <strong>référencement</strong> (<strong>référencement naturel</strong> et/ou <strong>campagnes Google Adwords</strong>) soigné</span>. Ceci est vrai pour l'ensemble des métropoles de France où la concurrence sera forte. À ce niveau, nous proposons une <Link to="/formation-referencement/referencement-naturel-google-seo/" className="text-bleu hover:text-black font-bold">formation au référencement sur Wordpress</Link> pour vous permettre de mieux appréhender le référencement naturel SEO.<br /><br />
-                                    De plus, les <strong>sites</strong> que nous développons sont créés en vue de répondre à un besoin précis. C’est pourquoi, en choisissant <strong>notre agence digitale à Toulouse</strong>, le positionnement stratégique de <strong>votre site web</strong> est réfléchi et anticipé. <span className="font-bold"><Link to="/" className="hover:text-bleu"><strong>Linkweb</strong></Link> dispose de tous les outils pour évaluer chaque critère et prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant</strong>.</span> <br /><br />
+                                    Par ailleurs, <strong>communiquer</strong> dans un environnement aussi concurrentiel que la <strong>métropole toulousaine</strong> implique d’investir dans le <Link className="text-bleu font-bold hover:text-black" to="/creation-site-internet-toulouse/webmarketing/"><strong>webmarketing</strong></Link> avec <span className="font-bold">un <strong>site professionnel </strong>, un <strong>référencement</strong> (<strong>référencement naturel</strong> et/ou <strong>campagnes Google Adwords</strong>) et une stratégie <Link to="/agence-community-management/" className="text-bleu hover:text-black font-bold">social media</Link> soignés</span>. Ceci est vrai pour l'ensemble des métropoles de France où la concurrence sera forte. À ce niveau, nous proposons une <Link to="/formation-referencement/referencement-naturel-google-seo/" className="text-bleu hover:text-black font-bold">formation au référencement sur Wordpress</Link> pour vous permettre de mieux appréhender le référencement naturel SEO.<br /><br />
+                                    De plus, les <strong>sites</strong> que nous développons sont créés en vue de répondre à un besoin précis. C’est pourquoi, en choisissant <strong>notre agence digitale à Toulouse</strong>, le positionnement stratégique de <strong>votre site web</strong> est réfléchi et anticipé. <span className="font-bold"><strong>Linkweb</strong> dispose de tous les outils pour évaluer chaque critère et prendre les décisions qui vous permettront d’obtenir un <strong>site internet efficace et performant</strong>.</span> <br /><br />
 
                                     Quelque soit votre secteur d'activité, nous nous engageons à répondre à vos besoins.
                                     <br />
@@ -637,9 +637,17 @@ class CreationSiteInternetToulousePage extends Component {
                         <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0" />
                         <br />
                         <div className="flex items-end my-10 justify-end flex-col">
-                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Linkweb conduit votre projet <strong>de création de site internet à Agen</strong> dans le sud de la France, de sa conception à sa réalisation. Notre équipe vous accompagne dans la mise en route technique et dans la définition stratégique éditoriale pour répondre à vos objectifs.</p>
+                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Linkweb conduit votre projet <strong>de <Link to="/creation-de-site-internet-a-agen/" className="text-bleu hover:text-white font-bold">création de site internet à Agen</Link></strong> dans le sud de la France, de sa conception à sa réalisation. Notre équipe vous accompagne dans la mise en route technique et dans la définition stratégique éditoriale pour répondre à vos objectifs.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
-                                <RoundButton url="/creation-de-site-internet-a-agen/" color="darkgrey" text="J'AI UN PROJET À AGEN" />
+                                {/* <RoundButton url="/creation-de-site-internet-a-agen/" color="darkgrey" text="J'AI UN PROJET À AGEN" /> */}
+                                <button
+                                            className="font-light roundedButton bg-darkgrey text-white hover:text-white flex justify-center mt-3 century items-center text-center text-sm md:text-md lg:text-lg rounded-huge px-8 py-4 mt-12"
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                window.location.href = '/creation-de-site-internet-a-agen/';
+                                            }}>J'AI UN PROJET À AGEN
+                                        </button>
                             </div>
                         </div>
 
