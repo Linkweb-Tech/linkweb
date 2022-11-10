@@ -31,7 +31,7 @@ class AgenceWebAgen extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Agen : Création et référencement de site internet - Linkweb"
+                    title="Agence Web Agen : Création et référencement de site internet sur-mesure - Linkweb"
                     description="Notre agence web à Agen met tout en oeuvre pour vous proposer une solution web fonctionnelle et adaptée à vos objectifs."
                     url="https://linkweb.fr/agence-web-agen/"
                     nom="Agence Web Agen"
