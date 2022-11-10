@@ -115,10 +115,10 @@ class ReferencementToulouse extends Component {
                     </section>
                 </section>
                 <section className="bloctextimg w-full md:w-full mx-auto lg:block lg:mx-auto xl:w-full flex flex-col lg:flex-row justify-center">
-                    <div className="w-full image lg:w-1/2 xl:w-2/5 lg:absolute flex justify-center lg:mt-48 xl:mt-12 pr-0 md:pr-16 lg:justify-center lg:items-center">
-                        <img src={agenceseo} alt="Agence SEO Toulouse" style={{ maxHeight: '450px' }} />
+                    <div className="w-full image lg:w-1/2 xl:w-2/5 lg:absolute flex justify-center lg:mt-48 xl:mt-24 pr-0 md:pr-8 lg:justify-center lg:items-center">
+                        <img src={agenceseo} alt="Agence SEO Toulouse" style={{ maxHeight: '450px', boxShadow:'none' }} />
                     </div>
-                    <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-1/2 md:p-20 lg:pl-32 p-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#ffffff', border:'2px solid #37cfee' }}>
+                    <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-2/5 md:p-20 lg:pl-32 p-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#ffffff', border:'2px solid #37cfee' }}>
                         <br />
                         <p style={{ fontSize: '16px' }}>
                             <h4 className="text-bleu mx-auto text-xl font-bold">Avec Linkweb, tout est plus simple.</h4><br/>Notre agence SEO est entièrement à l’écoute de vos besoins pour identifier des opportunités réelles en vue de développer votre visibilité. Mais cela va plus loin ! En générant de la visibilité pour votre entreprise, notre objectif est de vous permettre d’accroître votre chiffre d’affaires grâce à votre site internet.<br />
