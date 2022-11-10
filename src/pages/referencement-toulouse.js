@@ -22,7 +22,8 @@ import Bg from "../images/referencement-toulouse-bg.jpg";
 import imac from "../images/agence-referencement-a-toulouse.jpg";
 // import bgDev from '../images/bg-dev.jpg';
 import mac from "../images/mac-linkweb.jpg";
-
+import agenceseo from "../images/choix-agence-seo-toulouse.jpg";
+import google from "../images/agence-referencement-google.jpg";
 
 
 import scroll from "../images/motiontest.svg";
@@ -43,7 +44,7 @@ class ReferencementToulouse extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence SEO Toulouse - Référencement Linkweb"
+                    title="Agence SEO Toulouse - Faites le Choix d'un Partenaire pour votre Référencement - Linkweb"
                     description="Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
                     url="https://linkweb.fr/referencement-toulouse/"
@@ -85,7 +86,7 @@ class ReferencementToulouse extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Toulouse et Référencement Ads</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Toulouse</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence SEO & SEA spécialisée en stratégie de référencement à Toulouse.</h2>
@@ -104,14 +105,43 @@ class ReferencementToulouse extends Component {
                         <span className="px-4 text-md lg:text-lg text-white"> Agence SEO Toulouse</span>
 
                     </nav>
-                    <section id="agenceseo" className="flex flex-col xl:flex-row w-full justify-center mx-auto py-6">
-                <div className="flex justify-center xl:overflow-visible">
-                    <div /*data-aos="fade-left"*/ className="w-full xl:flex hidden lg:mt-0 mt-48 xl:w-auto">
-                        {/* <img width="850px" className="h-auto justify-end order-first lg:order-last" src={refads} alt="Agence Adwords Toulouse" /> */}
+                    <section className="flex w-full flex-col mx-auto px-0 py-6 my-4">
+                    <section className="text-center text-black text-2xl mx-auto lg:mx-0 century mt-16 mb-10">
+                        <h2 className="century text-3xl md:text-5xl text-black leading-none">Agence SEO à Toulouse : faites le choix de la compétence</h2>
+                        <br />
+                        <hr className="border-solid w-1/6 border-bleu"></hr>
+                        <br/>
+                        <h3 className="century text-xl mx-auto max-w-6xl"><span className="font-bold">Se lancer dans un projet de référencement n'est pas toujours simple. Identifier ses besoins, fixer ses objectifs et mettre en place des actions pertinentes sont autant d'éléments qui nécessitent une expertise. C’est pourquoi, il peut être difficile de s’y retrouver.</span></h3>
+                    </section>
+                </section>
+                <section className="bloctextimg w-full md:w-full mx-auto lg:block lg:mx-auto xl:w-full flex flex-col lg:flex-row justify-center">
+                    <div className="w-full image lg:w-1/2 xl:w-2/5 lg:absolute flex justify-center lg:mt-48 xl:mt-12 pr-0 md:pr-16 lg:justify-center lg:items-center">
+                        <img src={agenceseo} alt="Agence SEO Toulouse" style={{ maxHeight: '450px' }} />
                     </div>
-                    <div className="blocref w-10/12 px-12 pt-8 lg:pt-16 lg:mt-0 -mt-64 lg:my-0 order-last lg:order-first max-h-auto mx-10 lg:mx-0 py-6 lg:py-12 xl:px-12 text-black flex flex-col justify-center" /*data-aos="fade-right"*/ >
-                        {/* <Link to={this.props.linkTitle}> */}
-                        {/* </Link> */}
+                    <div className="text century w-full text-justify mr-16 lg:w-3/5 xl:w-1/2 md:p-20 lg:pl-32 p-10 lg:py-10 text-black text-sm xl:text-md" style={{ backgroundColor: '#ffffff', border:'2px solid #37cfee' }}>
+                        <br />
+                        <p style={{ fontSize: '16px' }}>
+                            <h4 className="text-bleu mx-auto text-xl font-bold">Avec Linkweb, tout est plus simple.</h4><br/>Notre agence SEO est entièrement à l’écoute de vos besoins pour identifier des opportunités réelles en vue de développer votre visibilité. Mais cela va plus loin ! En générant de la visibilité pour votre entreprise, notre objectif est de vous permettre d’accroître votre chiffre d’affaires grâce à votre site internet.<br />
+                            <br />
+                            <h4 className="text-bleu mx-auto text-xl font-bold">Nous allons toujours plus loin</h4><br/>
+                            Nous ne nous contentons pas d’une offre d’optimisation SEO basique pour vous proposer des solutions performantes en termes : d’expérience utilisateur, de parcours de navigation, mais aussi d’accroissement de votre popularité sur le Web.<br/>
+                            <br/>
+                            Vous souhaitez discuter de votre projet autour d’un café ? Nous vous accueillons au sein de nos locaux pour vous proposer des solutions concrètes afin de propulser votre visibilité sur le Web.<br />
+                        </p>
+                        <br/>
+                        <Button url="/contact-agence-web-toulouse/" text="Commencer dès maintenant !" position="center" />
+                    </div>
+
+                    <br />
+                </section>
+            {/* <section id="agenceseo" className="flex flex-col xl:flex-row w-full justify-center mx-auto py-6">
+                <div className="flex justify-center xl:overflow-visible">
+                    <div /*data-aos="fade-left" className="w-full xl:flex hidden lg:mt-0 mt-48 xl:w-auto">
+                        <img width="850px" className="h-auto justify-end order-first lg:order-last" src={refads} alt="Agence Adwords Toulouse" /> 
+                    </div>
+                    <div className="blocref w-10/12 px-12 pt-8 lg:pt-16 lg:mt-0 -mt-64 lg:my-0 order-last lg:order-first max-h-auto mx-10 lg:mx-0 py-6 lg:py-12 xl:px-12 text-black flex flex-col justify-center" /*data-aos="fade-right" >
+                        <Link to={this.props.linkTitle}>
+                        </Link>
                         <h2 className="century leading-none text-center text-3xl md:text-5xl">Comparer les meilleures agences SEO à Toulouse</h2>
                         <br/><br/>
                         <table className="w-full century text-sm text-center py-2">
@@ -232,7 +262,7 @@ class ReferencementToulouse extends Component {
                         </table>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
                     {/* <Modalagenceseo/> */}
                 <section className="phototext">
@@ -244,72 +274,61 @@ class ReferencementToulouse extends Component {
                         <h3 /*data-aos='fade-left'*/ className="text-xl max-w-5xl text-center century text-black px-4 pb-0">Avoir un site internet n’est pas une fin en soi : il doit nécessairement être visible. C’est le principe du référencement web. Faites de votre site une référence pour les moteurs de recherche.</h3>
                     </section>
                     <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
-                        <div className="w-full flex justify-center items-center lg:w-5/12">
-                            <img className="w-full" src={mac} alt="Linkweb" />
+                        <div className=" w-full flex justify-center items-center lg:w-5/12" style={{ background: 'url( ' + google + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', height:'100vh' }}>
+                            {/* <img className="w-full" src={agenceseo} alt="Linkweb" /> */}
                         </div>
                         <div className="w-full lg:w-1/2 my-10  flex flex-col">
-                            <div className="w-full flex-col md:flex-row flex px-auto">
+                            <div className="blocnum w-full flex-col md:flex-row flex px-auto">
                                 <div className="blocchiffres mx-auto md:mx-0 block century text-bleu " /*data-aos="fade-up"*/>
                                     <p>1</p>
                                 </div>
                                 <div className="w-full px-6 lg:px-6 flex flex-col justify-center" style={{ maxWidth: '1000px' }}>
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
-                                        <span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO
-                                </h3>
-
-                                    <h4 className="century">Vous souhaitez augmenter votre visibilité dans les pages de recherche de Google ?</h4>
-                                    <br />
+                                <h4 className="century capitalize text-sm tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/><span className="text-bleu">/</span>RÉFÉRENCEMENT NATUREL SEO</h4>
+                                <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez augmenter votre visibilité dans les pages de recherche de Google ?</h3> 
                                     <p className="w-full century pb-4 text-justify">Le référencement naturel SEO permet aux professionnels d’exploiter tout le potentiel qu’offre un <strong>moteur comme Google</strong> pour acquérir de nouvelles parts de marché grâce au Web. De plus, avec une stratégie bien construite, le SEO vous permettra de <strong>faire connaître votre entreprise</strong> et d’<strong>accroître votre chiffre d’affaires</strong> sur le long terme.
                                 </p>
                                     {/*<Button url="/referencement-de-site-internet-47-31/" text="Notre formule SEO" position="left" />*/}
                                     <br />
                                 </div>
                             </div>
-                            <div className="w-full flex-col md:flex-row flex px-auto">
+                            <div className="blocnum w-full flex-col md:flex-row flex px-auto">
                                 <div className="blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
                                     <p>2</p>
                                 </div>
                                 <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
+                                <h4 className="century capitalize text-sm tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>RÉFÉRENCEMENT GOOGLE ADS
-                                    </h3>
-
-                                    <h4 className="century">Vous souhaitez obtenir un retour sur investissement grâce à votre boutique en ligne ou votre site vitrine ?</h4>
-                                    <br />
+                                    </h4>
+                                    <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez obtenir un retour sur investissement grâce à votre boutique en ligne ou votre site vitrine ?</h3>
                                     <p className="w-full century pb-4 text-justify">Le <strong>référencement payant ou publicité sur le Web</strong> permet de maximiser sa <strong>présence dans les résultats de recherche</strong> grâce à l’instauration de <strong>campagnes sponsorisées</strong>. Cette solution est recommandée pour les entreprises souhaitant <strong>obtenir un retour sur investissement</strong> en un temps record.
                                     </p>
                                     <Button url="/agence-adwords-47-31/" text="Notre formule Adwords" position="left" />
-                                    <br />
                                 </div>
                             </div>
-                            <div className="w-full flex-col md:flex-row flex px-auto">
+                            <div className="blocnum w-full flex-col md:flex-row flex px-auto">
                                 <div className="blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
                                     <p>3</p>
                                 </div>
                                 <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
+                                <h4 className="century capitalize text-sm tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>SEARCH EXPERIENCE OPTIMISATION
-                                    </h3>
-
-                                    <h4 className="century">Le travail autour du contenu ne suffit plus pour satisfaire les algorithmes et les robots de recherche. Votre site internet doit proposer une expérience utilisateur irréprochable.</h4>
-                                    <br />
-                                    <p className="century pb-4 text-justify">Le <strong>SXO</strong> est né de la rencontre entre le <strong><Link to="/referencement-toulouse/comment-ameliorer-son-referencement-naturel/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> et l’<strong>UX Design</strong>. Il consiste à développer une <strong>expérience utilisateur</strong> adaptée au <strong>comportement des utilisateurs</strong> : <strong>temps de chargement optimal</strong>, compatibilité sur tous les supports de lecture, etc. Rendre l’expérience utilisateur optimale est, aujourd’hui, indispensable.
+                                    </h4>
+                                <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez proposer l'expérience utilisateur la plus aboutie pour les visiteurs de votre site intenret ?</h3>
+                                <p className="century pb-4 text-justify">Le <strong>SXO</strong> est né de la rencontre entre le <strong><Link to="/referencement-toulouse/comment-ameliorer-son-referencement-naturel/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> et l’<strong>UX Design</strong>. Il consiste à développer une <strong>expérience utilisateur</strong> adaptée au <strong>comportement des utilisateurs</strong> : <strong>temps de chargement optimal</strong>, compatibilité sur tous les supports de lecture, etc. Rendre l’expérience utilisateur optimale est, aujourd’hui, indispensable.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
                             </div>
-                            <div className="w-full flex-col md:flex-row flex px-auto">
+                            <div className="blocnum w-full flex-col md:flex-row flex px-auto">
                                 <div className="blocchiffres mx-auto block md:mx-0 century text-bleu mb-6" /*data-aos="fade-up"*/>
                                     <p>4</p>
                                 </div>
                                 <div className="w-full px-12 lg:px-6 flex flex-col justify-center">
-                                    <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
+                                <h4 className="century capitalize text-sm tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>E-RÉPUTATION
-                                    </h3>
-
-                                    <h4 className="century">L’E-réputation fait partie des piliers du référencement naturel SEO et du travail de son image de marque sur le Web.</h4>
-                                    <br />
-                                    <p className="century pb-4 text-justify">La <strong>popularité</strong> et la <strong>réputation d’une marque en ligne</strong> est un paramètre à prendre en compte pour rendre son <strong>projet web performant grâce au SEO</strong>. Les avis constituent un élément déclencheur, voire un véritable moteur en vue de la <strong>conversion</strong>. Il est donc indispensable de <strong>soigner son image pour dynamiser son activité</strong> grâce au marketing de contenu ainsi qu'à une stratégie <Link to="/agence-community-management/" className="text-bleu hover:text-black font-bold">social media</Link>.
+                                    </h4>
+                                <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez parfaire l'image de votre entreprise en travaillant son e-réputation ?</h3>
+                                    <p className="century pb-4 text-justify">La <strong>popularité</strong> et la <strong>réputation d’une marque en ligne</strong> est un paramètre à prendre en compte pour rendre son <strong>projet web performant grâce au SEO</strong>. Les avis constituent un élément déclencheur, voire un véritable moteur en vue de la <strong>conversion</strong>. De plus, l’E-réputation fait partie des piliers du référencement naturel SEO et du travail de son image de marque sur le Web. Il est donc indispensable de <strong>soigner son image pour dynamiser son activité</strong> grâce au marketing de contenu ainsi qu'à une stratégie <Link to="/agence-community-management/" className="text-bleu hover:text-black font-bold">social media</Link>.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
@@ -317,62 +336,7 @@ class ReferencementToulouse extends Component {
                         </div>
                     </section>
                 </section>
-                <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
-                    <h2 className="text-bleu text-lg text-center century">Référencement Toulouse</h2>
-                    <br />
-                    <h3 /*data-aos='fade-right'*/ className="text-center text-3xl century">
-                        Sautez le pas, enlevez votre <br /><span className="text-5xl lg:text-6xl text-bleu font-bold uppercase">cape d’invisibilité !</span>
-                    </h3>
-                    <hr className="blue border-bleu"></hr>
-                </section>
-                <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
-                    <div className="w-full xl:w-1/3 one px-auto">
-                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT
-                </h3>
-                                <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Faire appel à une <strong>agence de référencement naturel SEO</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. <strong>Génération de visites</strong>, <strong>obtention de contacts</strong>, <strong>e-réputation</strong>. Nos prestations permettent d'accéder à un <strong>solution optimale pour son site</strong>.
-                </div>
-                                <Button url="/contact-agence-web-toulouse/" text="En savoir plus" position="center" />
-
-                            </section>
-                        </div>
-                    </div>
-                    <div className="w-full xl:w-1/3 two px-auto">
-                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
-                </h3>
-                                <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Plusieurs techniques de référencement <strong>SEO</strong> existent pour <strong>positionner son site dans les meilleures positions </strong> en atteignant la première page et les <strong>premières positions dans les SERP</strong> : nous vous accompagnons pour définir la formule dont vous avez besoin.
-                </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Prendre contact" position="center" />
-                            </section>
-                        </div>
-                    </div>
-                    <div className="w-full xl:w-1/3 three px-auto">
-                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
-                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
-                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
-                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
-                                    <span className="text-bleu">/</span>AGENCE SEO TOULOUSE : JE FAIS LE CHOIX D'EXPERTS POUR MON RÉFÉRENCEMENT
-                </h3>
-                                <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Nos <strong>consultants en référencement SEO</strong>, d’<strong>Agen (47)</strong> et de <strong>Toulouse (31)</strong> dans le Sud de la France, sont <strong>certifiés par Google</strong> et vous apportent une expertise qualifiée pour vous accompagner au mieux dans le développement et le <strong>référencement de votre site internet</strong>.
-                </div>
-                                <Button url="/contact-agence-web-toulouse/" text="Prendre rendez-vous" position="center" />
-                            </section>
-
-                        </div>
-
-                    </div>
-                </section>
-                                <section className="bg-darkgrey sidetitle py-10">
+                <section className="bg-darkgrey sidetitle py-10">
                     <section className="w-full lg:w-2/3 flex flex-col justify-center century my-10 px-4 lg:px-32 md:mx-6 sm:mx-12 mt-2 lg:mx-64">
                         <h2 className="century text-center lg:text-left text-white text-3xl md:text-5xl leading-none">Que fait <span className="text-bleu">notre agence</span> pour <span className="text-bleu">votre référencement</span> SEO à Toulouse ?</h2>
                         <br />
@@ -420,6 +384,61 @@ class ReferencementToulouse extends Component {
                         </div>
                     </section>
                 </section>
+                <section className="max-w-5xl w-full mx-auto px-4 pt-12 pb-0 my-2">
+                    <h2 className="text-bleu text-lg text-center century">Référencement Toulouse</h2>
+                    <br />
+                    <h3 /*data-aos='fade-right'*/ className="text-center text-3xl century">
+                        Sautez le pas, enlevez votre <br /><span className="text-5xl lg:text-6xl text-bleu font-bold uppercase">cape d’invisibilité !</span>
+                    </h3>
+                    <hr className="blue border-bleu"></hr>
+                </section>
+                <section className="flex flex-col lg:flex-row flex-1 home-step my-3 px-4 xl:my-12 xl:px-24">
+                    <div className="w-full xl:w-1/3 one px-auto">
+                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>1</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                    <span className="text-bleu">/</span>JE DÉCOUVRE LE RÉFÉRENCEMENT
+                                </h3>
+                                <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
+                                    Faire appel à une <strong>agence de référencement naturel SEO</strong>, c’est faire le choix d’un partenaire pour l’avenir. Une <strong>stratégie de référencement naturel</strong> a plusieurs objectifs. <strong>Génération de visites</strong>, <strong>obtention de contacts</strong>, <strong>e-réputation</strong>. Nos prestations permettent d'accéder à un <strong>solution optimale pour son site</strong>.
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div className="w-full xl:w-1/3 two px-auto">
+                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>2</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                    <span className="text-bleu">/</span>JE VEUX ÊTRE ACCOMPAGNÉ POUR TROUVER MA SOLUTION
+                                </h3>
+                                <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
+                                    Plusieurs techniques de référencement <strong>SEO</strong> existent pour <strong>positionner son site dans les meilleures positions </strong> en atteignant la première page et les <strong>premières positions dans les SERP</strong> : nous vous accompagnons pour définir la formule dont vous avez besoin.
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div className="w-full xl:w-1/3 three px-auto">
+                        <div className="flex items-center xl:items-start flex-col xl:flex-row flex-1">
+                            <div className="chiffres century text-bleu -mt-64 mb-6" /*data-aos="fade-up"*/>3</div>
+                            <section className="w-full lg:w-1/3 absolute z-10 px-auto lg:w-1/3 absolute px-12 lg:px-6 xl:px-24 pt-24">
+                                <h3 className="century capitalize text-2xl tracking-wider pb-3 leading-tight text-center" /*data-aos="zoom-in"*/>
+                                    <span className="text-bleu">/</span>AGENCE SEO TOULOUSE : JE FAIS LE CHOIX D'EXPERTS POUR MON RÉFÉRENCEMENT
+                                </h3>
+                                <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
+                                    Nos <strong>consultants en référencement SEO</strong>, d’<strong>Agen (47)</strong> et de <strong>Toulouse (31)</strong> dans le Sud de la France, sont <strong>certifiés par Google</strong> et vous apportent une expertise qualifiée pour vous accompagner au mieux dans le développement et le <strong>référencement de votre site internet</strong>.
+                                </div>
+                            </section>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section className="-mt-32">
+                    <Button url="/contact-agence-web-toulouse/" text="Je souhaite être recontacté" position="center" />
+                </section>
+                
                 {/* <li className="hidden lg:block toggleable">
                                 <input type="checkbox" value="selected" id="toggle-one" className="toggle-input1 hidden"/>
                                     <label for="toggle-one" className="toogle-input1 block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-bold">
@@ -564,12 +583,12 @@ class ReferencementToulouse extends Component {
                     </div>
                 </section>
                 <section className="sidetitle w-10/12 text-center text-black text-2xl justify-center flex flex-col century mt-10 mb-10 mx-auto">
-                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Vous souhaitez plus d'informations sur ce qu'une agence SEO à Toulouse peut vous apporter ?</h2>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Vous souhaitez aller plus loin ? Notre agence SEO à Toulouse répond à toutes vos questions.</h2>
                     <br />
                     <div className="line-title my-4">
                         <hr className="border-solid w-1/2 lg:w-1/12 border-bleu"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Le référencement SEO comme la publicité en ligne est utile pour dynamiser sa communication. Toutefois, il demande du temps et de la rigueur. Pour bien comprendre toutes les subtilités, notre agence SEO  à Toulouse répond à vos interrogations les plus courantes.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="max-w-6xl text-xl text-black text-center lg:text-justify century pb-0">Le référencement SEO, au même titre que la publicité en ligne, est un véritable atout pour dynamiser sa communication. Toutefois, il demande du temps et de la rigueur. <span className="text-bleu font-bold">Pas d'inquiétude ! Linkweb gère votre projet de A à Z.</span> <br/>Pour bien comprendre toutes les subtilités de notre travail de référencement, notre agence SEO à Toulouse répond à vos interrogations les plus courantes.</h3>
                     </div>
                 </section>
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">

@@ -994,3 +994,53 @@ footer {
         transform: rotate(360deg);
     }
 }
+
+.blocnum {
+    background-color:white;
+    transition: all ease 0.7s;
+    border-radius: 2px;
+    padding:2%;
+    h4 {
+        margin-bottom:5px;
+        text-align:center;
+        padding:5px;
+        border-top:1px solid #37cfee;
+        border-bottom:1px solid #37cfee;
+        width:280px;
+        transition: all ease 0.7s;
+    }
+    h3 {
+        padding-bottom:10px;
+    }
+}
+
+.blocnum:hover {
+    background-color:#37cfee;
+    transition: all ease 0.7s;
+
+    .blocchiffres {
+        color:white;
+        opacity: 0.5;
+        
+    }
+    h4 {
+        margin-bottom:5px;
+        text-align:center;
+        padding:5px;
+        border-top:1px solid;
+        border-bottom:1px solid;
+        border-color:#ffffff73;
+        width:280px;
+        transition: all ease 0.7s;
+    }
+    a {
+        color:white;
+    }
+    svg {
+        color:white;
+    }
+
+    h3 {
+        padding-bottom:10px;
+    }
+}
