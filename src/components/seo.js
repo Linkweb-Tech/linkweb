@@ -202,6 +202,10 @@ function SEO({ description, lang, meta, keywords, title, url, article, date, slu
               {
                 name: `robots`,
                 content: robots
+              },
+              {
+                name:`facebook-domain-verification`,
+                content:`n8fqk3lkgtzwizzzsa7mpodfszqw25`
               }
             ]
               .concat(
