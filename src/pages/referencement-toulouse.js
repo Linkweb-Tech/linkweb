@@ -44,8 +44,8 @@ class ReferencementToulouse extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence SEO Toulouse - Faites le Choix d'un Partenaire pour votre Référencement - Linkweb"
-                    description="Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
+                    title="Agence Référencement SEO Toulouse - Linkweb"
+                    description="Agence SEO Toulouse : Définition stratégique et mise en application pour votre projet de référencement naturel ou sponsorisé Google Ads - Suivi régulier."
                     keywords={[`Référencement Agen`, `Référencement Toulouse`, `Agence de Référencement Agen`, `Agence de Référencement Toulouse`, `Référencement Google`]}
                     url="https://linkweb.fr/referencement-toulouse/"
                     nom="Référencement à Toulouse"
@@ -86,7 +86,7 @@ class ReferencementToulouse extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Toulouse</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence de Référencement SEO Toulouse</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Agence SEO & SEA spécialisée en stratégie de référencement à Toulouse.</h2>
