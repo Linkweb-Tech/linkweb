@@ -30,6 +30,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "1328423824640421",
+      },
+    },
+    {
       resolve: "gatsby-source-wordpress",
       options: {
         /*
