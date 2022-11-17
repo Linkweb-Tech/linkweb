@@ -38,9 +38,9 @@ class ContactEmail extends Component {
     ) {
       store.addNotification({
         id: "notif",
-        title: "Le formulaire est vide",
+        title: "Le formulaire est vide.",
         message:
-          "Veuillez saisir les champs obligatoire avant de soumettre le formulaire",
+          "Veuillez saisir les champs obligatoires avant de soumettre le formulaire.",
         type: "danger",
         insert: "top",
         container: "top-right",
@@ -82,7 +82,7 @@ class ContactEmail extends Component {
             id: "notif",
             title: "Le formulaire est vide",
             message:
-              "Veuillez saisir les champs obligatoire avant de soumettre le formulaire",
+              "Veuillez saisir les champs obligatoires avant de soumettre le formulaire.",
             type: "danger",
             insert: "top",
             container: "top-right",
@@ -111,8 +111,8 @@ class ContactEmail extends Component {
               this.setState({ submitDisplay: "hidden" });
               store.addNotification({
                 id: "notif2",
-                title: "Votre message a bien été pris en compte!",
-                message: "Nous reviendrons vers vous d'ici les prochaines 24h",
+                title: "Votre message a bien été pris en compte !",
+                message: "Nous reviendrons vers vous dans les meilleurs délais.",
                 type: "success",
                 insert: "top",
                 container: "top-right",
@@ -268,8 +268,8 @@ class ContactEmail extends Component {
   render() {
     return (
       <section >
-        <h2  className="text-center  text-2xl lg:text-4xl century">
-            Vous souhaitez un audit de votre site web ?
+        <h2  className="text-center px-4 text-2xl lg:text-3xl text-bleu century">
+            <span className="font-bold">Vous souhaitez un audit de votre site web ?</span>
         </h2>
       <form
         onSubmit={() => this.handleSubmit}
@@ -289,7 +289,7 @@ class ContactEmail extends Component {
           />
         </div>
         <div className={`w-full md:w-full px-2 py-4 ${this.state.emailDisplay} `}>
-          <p className="text-center">Afin de vous envoyé l'audit, merci de nous communiquer votre adresse email.</p>
+          <p className="text-center">Afin de vous envoyer l'audit, merci de nous communiquer votre adresse email.</p>
           <input
             placeholder="Email"
             type="email"

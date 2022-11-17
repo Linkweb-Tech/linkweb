@@ -11,7 +11,7 @@ import "../scss/blochover.scss";
 import "../scss/carousel.scss";
 import stars from '../images/stars.png';
 import arriereplan from "../images/cta-background-agence-web.jpg";
-
+import ContactEmail from "../components/contactEmail";
 
 
 
@@ -72,60 +72,49 @@ class AgenceWebToulouse extends Component {
                     transitionTime={200}
                 > */}
 
-                <section className="flex items-center justify-start w-full mx-auto pb-0 my-24 md:my-24 lg:my-24 xl:my-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{marginBottom: '180px', background: 'url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: '0% 30%', minHeight:'400px' }}>
+                <section className="hidden w-full flex items-center justify-start w-full mx-auto pb-0 my-0 md:my-24 lg:my-24 xl:my-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{background: 'url(' + arriereplan + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', minHeight:'300px' }}>
                 </section>
-                <section className="w-full flex px-48">
-                <section className="w-1/2 flex justify-start mt-0 lg:-mt-64 " style={{height:"470px" }}>
-                    <div className="w-11/12 lg:w-3/4 bg-darkgrey text-white py-6 shadow-2xl mt-0 lg:-mt-6 flex flex-col justify-center mx-12 lg:mx-24">
-                        <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Contactez-nous</span></h2>
-                        <br />
-                        <ContactLanding />
-                    </div>
-                </section>
-                <section className="w-1/2 px-10 flex flex-row mt-16 lg:-mt-32 mb-32">
-                        <div className="w-full lg:w-full flex-col flex justify-start lg:justify-start">
-                            <h1 className="text-3xl font-bold text-center text-black century leading-none"><span className="font-bold">Créer son site internet professionnel</span><br/> avec <span className="font-bold">Linkweb</span></h1>
-                            <br/>
-                            <h2 className="century text-xl text-center">VITRINE <span className="text-bleu">/</span> E-COMMERCE <span className="text-bleu">/</span> ADMINISTRABLE <span className="text-bleu">/</span> SUR-MESURE</h2>
-                            <br/>
-                            <hr className="border-solid w-1/2 lg:w-1/4 border-bleu"/>
-                            <section className='flex justify-center'>
-                                <div className="w-1/2 py-2 flex-col items-end">
-                                {/* <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end"> */}
-                                    <div className="mt-6 -mb-24 w-full flex flex-col items-black lg:items-start">
-                                        <div className="w-full  text-3xl text-black font-bold text-center text-white century">4.6/5</div>
-                                        <p className="w-full  text-sm text-black font-bold text-center text-white century -mt-2">Avis Google</p>
-                                        <div className="w-full -mt-8">
-                                            <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
-                                                <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
-                                                <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
-                                                <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
-                                                <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
-                                                <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z   M89.8,54.7c0.1-0.1,0.4,0,0.4,0l4.2,2.2l-0.8-4.7c0-0.2,0-0.3,0.1-0.4l3.4-3.3l-4.7-0.7c-0.2,0-0.3-0.1-0.4-0.3l-2.1-4.3L89.8,54.7  z" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div> 
-                                <div className="w-1/2 lg:mx-0 flex flex-col lg:flex-row justify-start pb-24 lg:justify-start">
-                                    <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30" />
-                                    <RoundButtonAccueilMail url="mailto:contact@linkweb.fr" text="Allons y !" />
-                                </div>      
-                            </section>
-                                     
+                <section className="w-full flex-col-reverse lg:flex-row flex px-4 xl:px-48">
+                    <section className="w-full lg:w-1/2 flex justify-start mt-0 lg:mt-24">
+                        <div className="w-full lg:w-full mb-12 lg:mb-0 bg-darkgrey text-white py-12 shadow-2xl mt-0 lg:mt-32 flex flex-col justify-center mx-0 lg:mx-12 xl:mx-24" style={{height:'fit-content'}}>
+                            <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Parlez-nous de votre projet</span></h2>
+                            <br />
+                            <ContactLanding />
                         </div>
-                <br />
+                    </section>
+                    <section className="w-full lg:w-1/2 px-4 lg:px-10 flex flex-col flex-row mt-40 lg:mt-40 xl:mt-40">
+                            <div className="w-full lg:w-full flex-col flex justify-start lg:justify-start">
+                                <h1 className="mt-0 lg:mt-24 text-3xl xl:text-3xl font-bold text-center text-black century leading-tight"><span className="font-bold text-bleu">Musclez la visibilité en ligne de votre entreprise <br/> avec Linkweb 💪</span></h1>
+                                <br/>
+                                <ul className="century text-lg xl:text-xl text-center">
+                                    <li className="py-2">🔝 STRATÉGIE DE RÉFÉRENCEMENT SUR-MESURE</li>
+                                    <li className="py-2">🤖 OPTIMISATION POUR LES MOTEURS DE RECHERCHE</li>
+                                    <li className="py-2">✍️ CRÉATION DE CONTENUS UNIQUES</li>
+                                    <li className="py-2">📈 ACQUISITION DE POPULARITÉ</li>
+                                </ul>
+                                <br/>
+                                <hr className="border-solid w-1/2 lg:w-1/4 border-bleu"/>
+                                <section className='flex lg:flex-col items-center xl:items-center justify-center'>
+                                    <div className="w-full md:w-1/2 lg:w-full xl:w-1/2 lg:mx-0 flex flex-col md:flex-row justify-start pb-0 lg:pb-24 lg:justify-center xl:justify-start">
+                                        <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30" />
+                                        <RoundButtonAccueilMail url="mailto:contact@linkweb.fr" text="Allons-y !" />
+                                    </div>      
+                                </section>
+                                        
+                            </div>
+                    <br />
+                    </section>
                 </section>
-                </section>
-                <section className="w-full mt-4 mb-24">
-                <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                    Comment créer mon site internet ?
+                <section className="w-full mt-4 mb-12 lg:mb-24">
+                <h2 /*data-aos='fade-right'*/ className="text-center text-2xl lg:text-3xl text-bleu century">
+                    <span className="font-bold">Votre projet web en 4 étapes avec Linkweb</span>
                 </h2>
                 <br/>
                 <hr className="border-solid w-1/2 lg:w-1/4 border-bleu"/>
                 <br/>
                 <div className="w-full  py-3">
-                    <div className="w-full xl:w-2/3 mx-auto flex flex-col md:flex-row justify-center items-center">
-                        <div className="w-full md:w-1/4 relative z-50">
+                    <div className="w-full xl:w-2/3 mx-auto flex flex-col lg:flex-row justify-center items-center">
+                        <div className="w-full lg:w-1/4 relative z-50">
                         <div className="relative mb-2">
                             <div className="mx-auto rounded-full text-lg text-white flex items-center" style={{backgroundColor:'#37cfee', borderRadius:'9999px', height:'100px', width:'100px'}}>
                             <span className="text-center text-gray-600 w-full century text-4xl">1
@@ -136,12 +125,12 @@ class AgenceWebToulouse extends Component {
                             </div>
                         </div>
 
-                        <div className="text-xs text-center md:text-base century text-bleu"><span className="font-bold">Vous prenez contact pour mettre en place votre projet</span></div>
+                        <div className="text-lg text-center sm:text-base lg:text-xl century px-16 text-bleu"><span className="font-bold">Vous prenez contact pour mettre en place votre projet.</span></div>
                         </div>
 
-                        <div className="w-full md:w-1/4 my-6">
+                        <div className="w-full lg:w-1/4 my-6">
                         <div className="relative z-0 mb-2">
-                            <div className="absolute flex align-center items-center align-middle content-center" style={{width: 'calc(100% - 2.5rem - 1rem)', top: '50%', transform: 'translate(-50%, -50%)'}}>
+                            <div className="frise-etape absolute flex align-center items-center align-middle content-center" style={{width: 'calc(100% - 2.5rem - 1rem)', top: '50%', transform: 'translate(-50%, -50%)'}}>
                             <div className="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
                                 <div className="xs:w-0 md:w-full xs:bg-white md:bg-darkgrey py-1 rounded" ></div>
                             </div>
@@ -156,12 +145,12 @@ class AgenceWebToulouse extends Component {
                             </div>
                         </div>
 
-                        <div className="text-xs text-center md:text-base century" style={{fontSize:'14px'}}>Nous définissons votre projet en fonction de vos besoins</div>
+                        <div className="text-lg px-16 text-center sm:text-base lg:text-xl century">Nous définissons votre projet en fonction de vos besoins.</div>
                         </div>
 
-                        <div className="w-full md:w-1/4 my-6">
+                        <div className="w-full lg:w-1/4 my-6">
                         <div className="relative mb-2">
-                            <div className="absolute flex align-center items-center align-middle content-center" style={{width: 'calc(100% - 2.5rem - 1rem)', top: '50%', transform: 'translate(-50%, -50%)'}}>
+                            <div className="frise-etape absolute flex align-center items-center align-middle content-center" style={{width: 'calc(100% - 2.5rem - 1rem)', top: '50%', transform: 'translate(-50%, -50%)'}}>
                             <div className="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
                                 <div className="xs:w-0 md:w-full xs:bg-white md:bg-darkgrey py-1 rounded"></div>
                             </div>
@@ -176,12 +165,12 @@ class AgenceWebToulouse extends Component {
                             </div>
                         </div>
 
-                        <div className="text-xs text-center md:text-base mx-auto century" style={{fontSize:'14px', maxWidth:'250px'}}>Vous validez le projet une fois qu'il vous correspond</div>
+                        <div className="text-lg px-16 text-center sm:text-base lg:text-xl mx-auto century">Vous validez le projet une fois qu'il vous correspond.</div>
                         </div>
 
-                        <div className="w-full md:w-1/4 my-6">
+                        <div className="w-full lg:w-1/4 my-6">
                         <div className="relative mb-2">
-                            <div className="absolute flex align-center items-center align-middle content-center" style={{width: 'calc(100% - 2.5rem - 1rem)', top: '50%', transform: 'translate(-50%, -50%)'}}>
+                            <div className="frise-etape absolute flex align-center items-center align-middle content-center" style={{width: 'calc(100% - 2.5rem - 1rem)', top: '50%', transform: 'translate(-50%, -50%)'}}>
                             <div className="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
                                 <div className="xs:w-0 md:w-full xs:bg-white md:bg-darkgrey py-1 rounded"></div>
                             </div>
@@ -196,7 +185,7 @@ class AgenceWebToulouse extends Component {
                             </div>
                         </div>
 
-                        <div className="text-xs text-center md:text-base century" style={{fontSize:'14px'}}>Le projet est validé, votre site est désormais en ligne</div>
+                        <div className="text-lg px-16 text-center sm:text-base lg:text-xl century">Le projet est validé, il entre en phase de production.</div>
                         </div>
                     </div>
                     </div>
@@ -246,14 +235,14 @@ class AgenceWebToulouse extends Component {
                         </div>
                     </section>
                 </section>*/}
-                <section className="w-full bg-bleu flex flex-col py-12 lg:flex-row">
-                    <div className="w-full md:w-1/3 flex flex-col items-center century md:border-r-2 md:border-white">
+                <section className="w-full bg-bleu flex justify-center items-center flex-col py-12 text-center lg:flex-row">
+                    <div className="w-full md:w-1/3 flex flex-col items-center century lg:border-r-2 md:border-white">
                         <span className="text-6xl text-white font-bold">
                             +300
                         </span>
                 <span className="text-4xl text-white mt-0 lg:-mt-5">sites en gestion</span>
                     </div>
-                    <div className="w-full md:w-1/3 flex flex-col items-center century md:border-r-2 md:border-white">
+                    <div className="w-full md:w-1/3 flex flex-col items-center century lg:border-r-2 md:border-white">
                        <span className="text-6xl text-white font-bold">
                   +10 ans
                 </span>
@@ -266,9 +255,28 @@ class AgenceWebToulouse extends Component {
                 <span className="text-4xl text-white mt-0 lg:-mt-5">techniciens</span>
                     </div>
                 </section>
-                <section className="max-w-5xl w-full mx-auto px-4 py-0 mt-12">
-                    <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
-                        Nos clients sont satisfaits
+                <section className="mt-24 mb-6">
+                    <ContactEmail />
+                </section>
+                <section className="max-w-5xl w-full mx-auto flex flex-col px-4 py-0 mt-12">
+                <div className="w-full flex-col lg:items-center lg:justify-center xl:items-end mb-12">
+                    {/* <div className="max-w-6xl mx-auto lg:mx-56 py-2 w-full flex-col items-end"> */}
+                    <div className="mt-6 -mb-24 w-full flex flex-col items-black lg:items-start">
+                        <div className="w-full  text-3xl text-black font-bold text-center text-white century">4.6/5</div>
+                            <p className="w-full  text-sm text-black font-bold text-center text-white century -mt-2">Avis Google</p>
+                                <div className="w-full -mt-8">
+                                    <svg className="mx-auto block" width="100px" viewBox="0 0 100 125">
+                                        <path fill="#f9b404" d="M19.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.8-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C19.6,47.8,19.5,47.7,19.3,47.7z" />
+                                        <path fill="#f9b404" d="M38.8,47.7l-5.4-0.8L31,42c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8L25,57.8c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.2,0.1,0.4,0.1,0.5,0  c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C39.2,47.8,39,47.7,38.8,47.7z" />
+                                        <path fill="#f9b404" d="M58.3,47.7l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.3-0.3-0.4-0.3c-0.2,0-0.4,0.1-0.4,0.3l-2.4,4.9l-5.4,0.8c-0.2,0-0.3,0.2-0.4,0.3  c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5c0.1,0,0.1,0.1,0.2,0.1  c0.1,0,0.2,0,0.3-0.1c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8c0.1-0.1,0.2-0.3,0.1-0.5C58.6,47.8,58.5,47.7,58.3,47.7z" />
+                                        <path fill="#f9b404" d="M78.2,48c-0.1-0.2-0.2-0.3-0.4-0.3l-5.4-0.8l-2.4-4.9c-0.1-0.2-0.4-0.3-0.7-0.2c-0.1,0-0.2,0.1-0.2,0.2l-2.4,4.9l-5.4,0.8  c-0.2,0-0.3,0.2-0.4,0.3c-0.1,0.2,0,0.4,0.1,0.5l3.9,3.8l-0.9,5.4c0,0.2,0,0.4,0.2,0.5c0.2,0.1,0.4,0.1,0.5,0l4.9-2.5l4.9,2.5  c0.2,0.1,0.4,0.1,0.5,0c0.2-0.1,0.2-0.3,0.2-0.5l-0.9-5.4l3.9-3.8C78.2,48.4,78.2,48.2,78.2,48z" />
+                                        <path fill="#f9b404" d="M95.1,58.3c-0.1,0-0.2,0-0.2-0.1l-4.8-2.6l-4.9,2.6c-0.2,0.1-0.5,0-0.7-0.2c-0.1-0.1-0.1-0.2,0-0.3l0.9-5.4l-4-3.8  c-0.2-0.2-0.2-0.5,0-0.7c0.1-0.1,0.2-0.1,0.3-0.1l5.4-0.8l2.4-4.9c0.1-0.2,0.4-0.3,0.7-0.2c0.1,0,0.2,0.1,0.2,0.2l2.4,4.9l5.4,0.8  c0.3,0,0.4,0.3,0.4,0.6c0,0.1-0.1,0.2-0.1,0.3l-3.9,3.8l0.9,5.4C95.6,58,95.5,58.3,95.1,58.3C95.2,58.3,95.1,58.3,95.1,58.3z   M89.8,54.7c0.1-0.1,0.4,0,0.4,0l4.2,2.2l-0.8-4.7c0-0.2,0-0.3,0.1-0.4l3.4-3.3l-4.7-0.7c-0.2,0-0.3-0.1-0.4-0.3l-2.1-4.3L89.8,54.7  z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div> 
+                    <h2 /*data-aos='fade-right'*/ className="text-center text-bleu text-2xl lg:text-3xl century">
+                        <span className="font-bold">Nos clients sont satisfaits</span>
                     </h2>
                     <hr className="blue"></hr>
                 </section>
