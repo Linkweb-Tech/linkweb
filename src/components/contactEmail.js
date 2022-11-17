@@ -307,7 +307,7 @@ class ContactEmail extends Component {
         >
           <button
             onClick={(e) => this.handleFormSubmit(e)}
-            className=" bg-black century text-white py-3 px-6 uppercase border-bottom-bleu"
+            className="audit bg-black century text-white py-3 px-6 uppercase border-bottom-bleu"
             type="submit"
           >
             Envoyer

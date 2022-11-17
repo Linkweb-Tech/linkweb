@@ -187,7 +187,7 @@ class ContactLanding extends Component {
                 <ReCaptchaBlock />
 
                 <div className={`w-full flex justify-center mt-12 mb-2 ${ this.state.submitDisplay } `}>
-                     <button onClick={e=>this.handleFormSubmit(e)} className="contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
+                     <button onClick={e=>this.handleFormSubmit(e)} className="landing contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
                 </div>
             </form>
         );
