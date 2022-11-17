@@ -15,7 +15,7 @@ import ContactEmail from "../components/contactEmail";
 
 
 
-class AgenceWebToulouse extends Component {
+class DeveloppezVotreVisibilite extends Component {
 
     constructor(props) {
         super(props);
@@ -46,11 +46,11 @@ class AgenceWebToulouse extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence web à Toulouse - Solutions digitales et projets web sur-mesure - Linkweb"
-                    description="Réalisez votre projet de conception de site internet et de référencement avec notre agence web à Toulouse."
-                    url="https://linkweb.fr/agence-web-toulouse/"
-                    nom="Agence web à Toulouse"
-                    slug="agence-web-toulouse/"
+                    title="Développez la visibilité de votre entreprise en ligne - Linkweb"
+                    description="Développez la visibilité de votre entreprise en ligne grâce au référencement naturel. Profitez des services de notre agence web."
+                    url="https://linkweb.fr/developpez-votre-visibilite/"
+                    nom="Développez votre visibilité"
+                    slug="developpez-votre-visibilite/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -369,7 +369,7 @@ class AgenceWebToulouse extends Component {
 
 
 export const query = graphql`
-query lastsThreePostsAgenceWebToulouse {
+query lastsThreePostsDeveloppezVotreVisibilite {
     allWpPost(limit: 3) {
       edges {
         node {
@@ -391,7 +391,7 @@ query lastsThreePostsAgenceWebToulouse {
   
     
 `
-export default AgenceWebToulouse;
+export default DeveloppezVotreVisibilite;
 
 
 

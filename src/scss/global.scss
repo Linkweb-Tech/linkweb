@@ -1044,10 +1044,24 @@ footer {
         padding-bottom:10px;
     }
 }
-
+// LANDING PAGE //
 .frise-etape {
     display:flex;
     @media (max-width:1024px) {
         display:none;
     }
 }
+
+.landing-banniere {
+    background:#000000de url('../images/background-blog.jpg');
+    background-size:cover;
+    background-blend-mode:multiply;
+    background-position:bottom right;
+    display:block;
+    height:300px;
+    @media (max-width:1024px) {
+        display:none;
+    }
+}
+
+// FIN LANDING PAGE //
