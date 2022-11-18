@@ -107,7 +107,7 @@ class ContactLanding extends Component {
                     store.addNotification({
                         id: "notif3",
                         title: "Certains champs sont manquants ou incomplets",
-                        message: "Veuillez corriger les champs avant de valider ce formulaire : " + tel + url ,
+                        message: "Veuillez corriger les champs avant de valider ce formulaire : " + result.data.phoneMessage +" "+ result.data.urlMessage ,
                         type: "danger",
                         insert: "top",
                         container: "top-right",
@@ -173,7 +173,7 @@ class ContactLanding extends Component {
                 </div>
                 <div className="w-full px-1 py-4">
                 <input 
-                    placeholder="Url" 
+                    placeholder="URL de votre site internet" 
                     type="text" 
                     className="py-3 border-bottom-bleu pl-4 w-full text-black"
                     name="url"
