@@ -10,16 +10,19 @@ import { loadReCaptcha } from 'react-recaptcha-v3'
 class ContactLanding extends Component {
 
     constructor(props) {
+
         super(props)
         this.state = {
             email: "",
             nom: "",
+            url: "",
             telephone: "",
             message: "",
             mailSent: false,
             error: null,
             submitDisplay: "block",
-            sent: ""
+            sent: "",
+            origin: props.origin,
         }
     }
     
@@ -29,9 +32,11 @@ class ContactLanding extends Component {
 
     handleFormSubmit (event) {
         event.preventDefault()
-        console.log(localStorage.getItem('lw'));
+        console.log(this.state.origin);
+        
         //console.log(JSON.stringify(this.state.mailSent));
-        if( this.state.email == '' && this.state.nom == '' && this.state.prenom == '' && this.state.message == "") {
+        if( this.state.url == '' && this.state.telephone
+         == '' ) {
             store.addNotification({
                 id: "notif",
                 title: "Le formulaire est vide",
@@ -47,6 +52,7 @@ class ContactLanding extends Component {
                 }
             });
         } else {
+            console.log(this.state);
             axios({
                 method: 'post',
                 url:'https://api.linkweb.fr/data/formLanding.php',
@@ -79,6 +85,7 @@ class ContactLanding extends Component {
                         email: "",
                         nom: "",
                         prenom: "",
+                        url: "",
                         telephone: "",
                         ville: "",
                         objet: "",
@@ -89,26 +96,18 @@ class ContactLanding extends Component {
                     })
     
                 } else {
-                    let nom = '';
                     let tel = '';
-                    let message = '';
-                    let email = '';
-                    if(!result.data.nameMessage === ''){
-                        nom = 'Nom ';
-                    }
+                    let url = "";
                     if(!result.data.phoneMessage === ''){
                         tel = 'Téléphone ';
                     }
-                    if(!result.data.messageMessage === ''){
-                        message = 'Message ';
-                    }
-                    if(!result.data.emailMessage === ''){
-                        email = 'Email ';
+                    if(!result.data.urlMessage === ''){
+                        url = 'Url ';
                     }
                     store.addNotification({
                         id: "notif3",
                         title: "Certains champs sont manquants ou incomplets",
-                        message: "Veuillez corriger les champs avant de valider ce formulaire : " + nom + prenom + tel + message + adresse + objet + email ,
+                        message: "Veuillez corriger les champs avant de valider ce formulaire : " + tel + url ,
                         type: "danger",
                         insert: "top",
                         container: "top-right",
@@ -134,13 +133,13 @@ class ContactLanding extends Component {
     render(){
         
         return(
-            <form onSubmit={() => this.handleSubmit} className="flex flex-wrap max-w-5xl px-10 mx-auto landing">
+            <form onSubmit={() => this.handleSubmit} className="flex flex-wrap max-w-5xl px-6 mx-auto landing">
 
-                <div className="w-full md:w-1/3 px-2 py-4">
+                <div className="w-full md:w-1/3 px-1 py-4">
                 <input 
                     placeholder="Nom (*)" 
                     type="text" 
-                    className=" border-bottom-bleu pl-4 py-3 w-full"
+                    className=" border-bottom-bleu pl-4 py-3 w-full text-black"
                     name="nom"
                     value={this.state.nom}
                     onChange={e => this.setState({ nom: e.target.value })}
@@ -148,11 +147,11 @@ class ContactLanding extends Component {
                 
                 />
                 </div>
-                <div className="w-full md:w-1/3 px-2 py-4">
+                <div className="w-full md:w-1/3 px-1 py-4">
                 <input 
                     placeholder="Email" 
                     type="email" 
-                    className="py-3 border-bottom-bleu pl-4 w-full"
+                    className="py-3 border-bottom-bleu pl-4 w-full text-black"
                     name="email"
                     value={this.state.email}
                     onChange={e => this.setState({ email: e.target.value })}
@@ -160,11 +159,11 @@ class ContactLanding extends Component {
                 
                 />
                 </div>
-                <div className="w-full md:w-1/3 px-2 py-4">
+                <div className="w-full md:w-1/3 px-1 py-4">
                 <input 
                     placeholder="Téléphone (*)" 
                     type="text" 
-                    className="py-3 border-bottom-bleu pl-4 w-full"
+                    className="py-3 border-bottom-bleu pl-4 w-full text-black"
                     name="telephone"
                     value={this.state.telephone}
                     onChange={e => this.setState({ telephone: e.target.value.replace(/\s/g, '') })}
@@ -172,11 +171,23 @@ class ContactLanding extends Component {
                 
                 />
                 </div>
-                <div className="w-full px-2 py-4">
+                <div className="w-full px-1 py-4">
+                <input 
+                    placeholder="Url" 
+                    type="text" 
+                    className="py-3 border-bottom-bleu pl-4 w-full text-black"
+                    name="url"
+                    value={this.state.url}
+                    onChange={e => this.setState({ url: e.target.value })}
+
+                
+                />
+                </div>
+                <div className="w-full px-1 py-4">
                     <textarea 
                         placeholder="Message (*)" 
                         type="text" 
-                        className="py-3 border-bottom-bleu pl-4 w-full"
+                        className="py-3 border-bottom-bleu pl-4 w-full text-black"
                         name="message"
                         value={this.state.message}
                         onChange={e => this.setState({ message: e.target.value })}

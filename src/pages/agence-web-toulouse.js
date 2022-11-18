@@ -80,7 +80,7 @@ class AgenceWebToulouse extends Component {
                         <div className="w-full lg:w-full mb-12 lg:mb-0 bg-darkgrey text-white py-12 shadow-2xl mt-0 lg:mt-24 xl:mt-0 flex flex-col justify-center mx-0 lg:mx-12 xl:mx-24" style={{height:'fit-content'}}>
                             <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Parlez-nous de votre projet</span></h2>
                             <br />
-                            <ContactLanding />
+                            <ContactLanding origin="Google Ads" />
                         </div>
                     </section>
                     <section className="w-full lg:w-1/2 px-4 lg:px-10 flex flex-col flex-row mt-40 lg:mt-32 xl:mt-6">
