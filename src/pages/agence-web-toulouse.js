@@ -96,7 +96,7 @@ class AgenceWebToulouse extends Component {
                                 <br/>
                                 <hr className="border-solid w-1/2 lg:w-1/4 border-bleu"/>
                                 <section className='flex lg:flex-col items-center xl:items-center justify-center'>
-                                    <div className="w-full md:w-1/2 lg:w-full xl:w-1/2 lg:mx-0 flex flex-col md:flex-row justify-start pb-0 lg:pb-24 lg:justify-center xl:justify-start">
+                                    <div className="w-full md:w-1/2 lg:w-full lg:mx-0 flex flex-col md:flex-row justify-start pb-0 lg:pb-24 lg:justify-center">
                                         <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30" />
                                         <RoundButtonAccueilMail url="mailto:contact@linkweb.fr" text="Allons-y !" />
                                     </div>      
