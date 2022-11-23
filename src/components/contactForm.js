@@ -36,7 +36,7 @@ class ContactForm extends Component {
 
     handleFormSubmit (event) {
         event.preventDefault()
-        //console.log(JSON.stringify(this.state.mailSent));
+        console.log(JSON.stringify(this.state));
         if( this.state.email == '' && this.state.nom == '' && this.state.prenom == '' && this.state.message == "") {
             store.addNotification({
                 id: "notif",

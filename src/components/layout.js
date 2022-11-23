@@ -22,8 +22,8 @@ const Layout = (props) => {
 
   useEffect(() => {
       const ads = queryString.parse(location.search);
-      
-      if(Object.prototype.hasOwnProperty.call(ads, '_lw')){
+      console.log(ads)
+      if(Object.prototype.hasOwnProperty.call(ads, 'lw')){
         localStorage.setItem('lw', true);
       }
   }, [])

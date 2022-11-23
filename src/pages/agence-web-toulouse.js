@@ -77,7 +77,7 @@ class AgenceWebToulouse extends Component {
                 <section className="landing-banniere"></section>
                 <section className="w-full flex-col-reverse lg:flex-row flex px-4 xl:px-48">
                     <section className="w-full lg:3/5 xl:w-1/2 flex justify-start lg:mt-24">
-                        <div className="w-full lg:w-full mb-12 lg:mb-0 bg-darkgrey text-white py-12 shadow-2xl mt-0 lg:mt-24 xl:mt-0 flex flex-col justify-center mx-0 lg:mx-12" style={{height:'fit-content'}}>
+                        <div className="w-full lg:w-full mb-12 lg:mb-0 bg-white text-black py-8 shadow-2xl mt-0 lg:mt-24 xl:mt-0 flex flex-col justify-center mx-0 lg:mx-12" style={{height:'fit-content'}}>
                             <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Parlez-nous de votre projet</span></h2>
                             <br />
                             <ContactLanding origin="Google Ads" />
