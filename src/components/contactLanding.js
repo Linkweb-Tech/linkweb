@@ -13,11 +13,11 @@ class ContactLanding extends Component {
 
         super(props)
         this.state = {
-            email: "",
+            //email: "",
             nom: "",
-            url: "",
+            //url: "",
             telephone: "",
-            message: "",
+            // message: "",
             mailSent: false,
             error: null,
             submitDisplay: "block",
@@ -82,14 +82,14 @@ class ContactLanding extends Component {
                     })
 
                     this.setState({
-                        email: "",
+                        //email: "",
                         nom: "",
-                        prenom: "",
-                        url: "",
+                        //prenom: "",
+                        //url: "",
                         telephone: "",
-                        ville: "",
-                        objet: "",
-                        message: "",
+                        // ville: "",
+                        // objet: "",
+                        // message: "",
                         mailSent: false,
                         error: null,
                         
@@ -97,24 +97,24 @@ class ContactLanding extends Component {
     
                 } else {
                     let tel = '';
-                    let url = "";
+                    let nom = "";
                     if(!result.data.phoneMessage === ''){
-                        tel = 'Téléphone ';
+                        tel = 'téléphone ';
                     }
-                    if(!result.data.urlMessage === ''){
-                        url = 'Url ';
+                    if(!result.data.nomMessage === ''){
+                        nom = 'nom ';
                     }
                     store.addNotification({
                         id: "notif3",
                         title: "Certains champs sont manquants ou incomplets",
-                        message: "Veuillez corriger les champs avant de valider ce formulaire : " + result.data.phoneMessage +" "+ result.data.urlMessage ,
+                        message: "Veuillez corriger les champs avant de valider ce formulaire : " + result.data.phoneMessage +" "+ result.data.nomMessage ,
                         type: "danger",
                         insert: "top",
                         container: "top-right",
                         animationIn: ["animated", "fadeIn"],
                         animationOut: ["animated", "fadeOut"],
                         dismiss: {
-                            duration: 150000,
+                            duration: 5000,
                             onScreen: true
                         }
                     });
@@ -135,7 +135,7 @@ class ContactLanding extends Component {
         return(
             <form onSubmit={() => this.handleSubmit} className="flex flex-wrap max-w-5xl px-6 mx-auto landing">
 
-                <div className="w-full md:w-1/3 px-1 py-4">
+                <div className="w-full md:w-1/2 px-1 py-4">
                 <input 
                     placeholder="Nom (*)" 
                     type="text" 
@@ -147,7 +147,7 @@ class ContactLanding extends Component {
                 
                 />
                 </div>
-                <div className="w-full md:w-1/3 px-1 py-4">
+                {/* <div className="w-full md:w-1/3 px-1 py-4">
                 <input 
                     placeholder="Email" 
                     type="email" 
@@ -158,8 +158,8 @@ class ContactLanding extends Component {
 
                 
                 />
-                </div>
-                <div className="w-full md:w-1/3 px-1 py-4">
+                </div> */}
+                <div className="w-full md:w-1/2 px-1 py-4">
                 <input 
                     placeholder="Téléphone (*)" 
                     type="text" 
@@ -171,7 +171,7 @@ class ContactLanding extends Component {
                 
                 />
                 </div>
-                <div className="w-full px-1 py-4">
+                {/* <div className="w-full px-1 py-4">
                 <input 
                     placeholder="URL de votre site internet" 
                     type="text" 
@@ -182,8 +182,8 @@ class ContactLanding extends Component {
 
                 
                 />
-                </div>
-                <div className="w-full px-1 py-4">
+                </div> */}
+                {/* <div className="w-full px-1 py-4">
                     <textarea 
                         placeholder="Message (*)" 
                         type="text" 
@@ -193,7 +193,7 @@ class ContactLanding extends Component {
                         onChange={e => this.setState({ message: e.target.value })}
 
                     />
-                </div>
+                </div> */}
                 <ReactNotification />
                 <ReCaptchaBlock />
 

@@ -76,8 +76,8 @@ class AgenceWebToulouse extends Component {
                 </section> */}
                 <section className="landing-banniere"></section>
                 <section className="w-full flex-col-reverse lg:flex-row flex px-4 xl:px-48">
-                    <section className="w-full lg:w-1/2 flex justify-start lg:mt-24">
-                        <div className="w-full lg:w-full mb-12 lg:mb-0 bg-darkgrey text-white py-12 shadow-2xl mt-0 lg:mt-24 xl:mt-0 flex flex-col justify-center mx-0 lg:mx-12 xl:mx-24" style={{height:'fit-content'}}>
+                    <section className="w-full lg:3/5 xl:w-1/2 flex justify-start lg:mt-24">
+                        <div className="w-full lg:w-full mb-12 lg:mb-0 bg-darkgrey text-white py-12 shadow-2xl mt-0 lg:mt-24 xl:mt-0 flex flex-col justify-center mx-0 lg:mx-12" style={{height:'fit-content'}}>
                             <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Parlez-nous de votre projet</span></h2>
                             <br />
                             <ContactLanding origin="Google Ads" />
@@ -95,6 +95,9 @@ class AgenceWebToulouse extends Component {
                                 </ul>
                                 <br/>
                                 <hr className="border-solid w-1/2 lg:w-1/4 border-bleu"/>
+                                <div className="w-full flex flex-col items-center mt-8 justify center century">
+                                    <span className="text-4xl text-bleu text-center font-bold"> À partir de 560€<span className="text-xs">(*)</span></span>
+                                </div>
                                 <section className='flex lg:flex-col items-center xl:items-center justify-center'>
                                     <div className="w-full md:w-1/2 lg:w-full lg:mx-0 flex flex-col md:flex-row justify-start pb-0 lg:pb-24 lg:justify-center">
                                         <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30" />
@@ -325,6 +328,9 @@ class AgenceWebToulouse extends Component {
                                »</div>
                         </div> */}
 
+                </section>
+                <section className="w-full flex flex-col px-4 items-center century mt-24 mb-8 justify-center">
+                (*) 560€ est le tarif d'un site one-page. Pour un développement sur-mesure et l'ajout de fonctionnalités spécifiques, la réalisation d'un devis sera nécessaire.
                 </section>
                
                 {/*<SimpleMap />*/}
