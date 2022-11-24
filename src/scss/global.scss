@@ -1065,3 +1065,30 @@ footer {
 }
 
 // FIN LANDING PAGE //
+
+// LANDING PAGE BLACK FRIDAY //
+
+.bfban {
+    background:#000000de url('../images/black-friday-bg.jpg');
+    background-size:contain;
+    background-blend-mode:multiply;
+    background-position:bottom right;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+h1 {
+    font-size:150px;
+    font-weight:bold;
+    line-height:0.9em;
+    border:solid 10px #37cfee;
+    padding:2%;
+    @media (max-width:'768px') {
+    font-size:90px;
+    border:solid 7px #37cfee;
+    }
+}
+}
+
+// FIN LANDING PAGE BLACK FRIDAY //
