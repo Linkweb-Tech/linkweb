@@ -13,6 +13,7 @@ import "../scss/carousel.scss";
 import stars from '../images/stars.png';
 import arriereplan from "../images/cta-background-agence-web.jpg";
 import ContactEmail from "../components/contactEmail";
+import ContactBlackFriday from "../components/contactBlackFriday";
 
 
 
@@ -88,7 +89,7 @@ class BlackFriday extends Component {
                         <div id="devis" className="w-full lg:w-full my-12 lg:mb-0 bg-bleu text-black py-8 shadow-2xl lg:mt-24 xl:mt-0 flex flex-col justify-center mx-0 lg:mx-12" style={{height:'fit-content'}}>
                             <h2 className="flex justify-center text-3xl lg:text-4xl century text-center -mt-4"><span className="font-bold">Demandez votre devis</span></h2>
                             <br />
-                            <ContactLanding origin="Google Ads" />
+                            <ContactBlackFriday origin="Black Friday" />
                         </div>
                     </section>
                     <section className="w-full lg:w-1/2 px-4 lg:px-10 flex flex-col flex-row mt-40 lg:mt-32 xl:mt-6">

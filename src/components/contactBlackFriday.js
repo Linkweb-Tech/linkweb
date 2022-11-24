@@ -7,22 +7,22 @@ import ReCaptchaBlock from '../components/recaptcha'
 import { store } from 'react-notifications-component'
 import { loadReCaptcha } from 'react-recaptcha-v3'
 
-class ContactLanding extends Component {
+class ContactBlackFriday extends Component {
 
     constructor(props) {
 
         super(props)
         this.state = {
-            //email: "",
+            email: "",
             nom: "",
             //url: "",
             telephone: "",
-            // message: "",
+            message: "",
             mailSent: false,
             error: null,
             submitDisplay: "block",
             sent: "",
-            origin: props.origin,
+            origin: "Black Friday",
         }
     }
     
@@ -82,14 +82,14 @@ class ContactLanding extends Component {
                     })
 
                     this.setState({
-                        //email: "",
+                        email: "",
                         nom: "",
                         //prenom: "",
                         //url: "",
                         telephone: "",
                         // ville: "",
                         // objet: "",
-                        // message: "",
+                        message: "",
                         mailSent: false,
                         error: null,
                         
@@ -98,10 +98,18 @@ class ContactLanding extends Component {
                 } else {
                     let tel = '';
                     let nom = "";
+                    let message = "";
+                    let email = "";
                     if(!result.data.phoneMessage === ''){
                         tel = 'téléphone ';
                     }
                     if(!result.data.nomMessage === ''){
+                        nom = 'nom ';
+                    }
+                    if(!result.data.messsageMessage === ''){
+                        nom = 'message ';
+                    }
+                    if(!result.data.emailMessage === ''){
                         nom = 'nom ';
                     }
                     store.addNotification({
@@ -135,7 +143,7 @@ class ContactLanding extends Component {
         return(
             <form onSubmit={() => this.handleSubmit} className="flex flex-wrap max-w-5xl px-6 mx-auto landing">
 
-                <div className="w-full md:w-1/2 px-1 py-4">
+                <div className="w-full md:w-100 px-1 py-4">
                 <input 
                     placeholder="Nom (*)" 
                     type="text" 
@@ -143,11 +151,9 @@ class ContactLanding extends Component {
                     name="nom"
                     value={this.state.nom}
                     onChange={e => this.setState({ nom: e.target.value })}
-
-                
                 />
                 </div>
-                {/* <div className="w-full md:w-1/3 px-1 py-4">
+                <div className="w-full md:w-1/2 px-1 py-4">
                 <input 
                     placeholder="Email" 
                     type="email" 
@@ -155,10 +161,8 @@ class ContactLanding extends Component {
                     name="email"
                     value={this.state.email}
                     onChange={e => this.setState({ email: e.target.value })}
-
-                
                 />
-                </div> */}
+                </div>
                 <div className="w-full md:w-1/2 px-1 py-4">
                 <input 
                     placeholder="Téléphone (*)" 
@@ -167,8 +171,6 @@ class ContactLanding extends Component {
                     name="telephone"
                     value={this.state.telephone}
                     onChange={e => this.setState({ telephone: e.target.value.replace(/\s/g, '') })}
-
-                
                 />
                 </div>
                 {/* <div className="w-full px-1 py-4">
@@ -179,13 +181,11 @@ class ContactLanding extends Component {
                     name="url"
                     value={this.state.url}
                     onChange={e => this.setState({ url: e.target.value })}
-
-                
                 />
                 </div> */}
-                {/* <div className="w-full px-1 py-4">
+                <div className="w-full px-1 py-4">
                     <textarea 
-                        placeholder="Message (*)" 
+                        placeholder="Message" 
                         type="text" 
                         className="py-3 border-bottom-bleu pl-4 w-full text-black"
                         name="message"
@@ -193,17 +193,17 @@ class ContactLanding extends Component {
                         onChange={e => this.setState({ message: e.target.value })}
 
                     />
-                </div> */}
+                </div>
                 <ReactNotification />
                 <ReCaptchaBlock />
 
                 <div className={`w-full flex justify-center mt-12 mb-2 ${ this.state.submitDisplay } `}>
-                     <button onClick={e=>this.handleFormSubmit(e)} className="landing contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
+                     <button onClick={e=>this.handleFormSubmit(e)} className="blackfriday contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
                 </div>
             </form>
         );
     }
 }
 
-export default ContactLanding;
+export default ContactBlackFriday;
 
