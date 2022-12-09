@@ -65,35 +65,36 @@ class ContactBlackFriday extends Component {
                 console.log(result)
                 let isOK = result.data.sent
                 if (isOK === true) {
-                    this.setState({submitDisplay: "hidden"})
-                    store.addNotification({
-                        id: "notif2",
-                        title: "Votre message a bien été pris en compte!",
-                        message: "Nous reviendrons vers vous d'ici les prochaines 24h",
-                        type: "success",
-                        insert: "top",
-                        container: "top-right",
-                        animationIn: ["animated", "fadeIn"],
-                        animationOut: ["animated", "fadeOut"],
-                        dismiss: {
-                            duration: 5000,
-                            onScreen: true
-                        }
-                    })
+                    window.location = '/confirmation-formulaire'
+                    // this.setState({submitDisplay: "hidden"})
+                    // store.addNotification({
+                    //     id: "notif2",
+                    //     title: "Votre message a bien été pris en compte!",
+                    //     message: "Nous reviendrons vers vous d'ici les prochaines 24h",
+                    //     type: "success",
+                    //     insert: "top",
+                    //     container: "top-right",
+                    //     animationIn: ["animated", "fadeIn"],
+                    //     animationOut: ["animated", "fadeOut"],
+                    //     dismiss: {
+                    //         duration: 5000,
+                    //         onScreen: true
+                    //     }
+                    // })
 
-                    this.setState({
-                        email: "",
-                        nom: "",
-                        //prenom: "",
-                        //url: "",
-                        telephone: "",
-                        // ville: "",
-                        // objet: "",
-                        message: "",
-                        mailSent: false,
-                        error: null,
+                    // this.setState({
+                    //     email: "",
+                    //     nom: "",
+                    //     //prenom: "",
+                    //     //url: "",
+                    //     telephone: "",
+                    //     // ville: "",
+                    //     // objet: "",
+                    //     message: "",
+                    //     mailSent: false,
+                    //     error: null,
                         
-                    })
+                    // })
     
                 } else {
                     let tel = '';
