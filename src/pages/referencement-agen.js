@@ -108,7 +108,7 @@ class ReferencementAgen extends Component {
                         <br />
                         <hr className="border-solid w-1/6 border-white"></hr>
                         <br />
-                        <h3 /*data-aos='fade-left'*/ className="text-xl max-w-5xl text-center century text-black px-4 pb-0">Nos experts définissent votre stratégie de référencement naturel SEO.</h3>
+                        <h3 /*data-aos='fade-left'*/ className="text-xl max-w-5xl text-center century text-black px-4 pb-0">Générez de la visibilité pour votre entreprise en optimisant le positionnement de votre site internet dans les résultats des moteurs de recherche. Nos experts définissent votre stratégie de référencement naturel SEO.</h3>
                     </section>
                     <section className="w-full my-10 flex flex-col lg:flex-row items-center justify-start">
                         <div className="w-full flex justify-center items-center lg:w-5/12">
@@ -452,6 +452,9 @@ class ReferencementAgen extends Component {
                 <section className="tabPanel flex flex-1 w-full justify-end ml-0 mb-12">
                     <div className="w-full md:w-3/4 py-0 flex justify-end">
                         <Accordion>
+                            <div className="w-full" label="CE QUE LE RÉFÉRENCEMENT PEUT APPORTER À VOTRE ENTREPRISE À AGEN">
+                                <p>Le référencement naturel est un véritable moteur pour <strong>développer sa visibilité en ligne</strong>. En effet, les moteurs de recherche sont utilisés quotidiennement par des millions d'utilisateurs. Par ailleurs, le <strong>référencement naturel</strong> est parfait pour les sociétés souhaitant étendre leur prospection en ligne. En effet, le référencement naturel vous permet d'<strong>être visible</strong> sur vos secteurs de prédilection, mais également d'étendre votre visibilité à d'autres secteurs. <br/><br/>De plus, il faut savoir que le référencment naturel est une discipline très particulière. Les utilisateurs que vous atteindrez grâce à votre <strong>bon positionnement</strong> ont un besoin. En effet, ils sont dans une démarche de recherche et votre objectif est de répondre à ce besoin de façon pertinente. Cela permet donc d'atteindre des prospects en recherche active d'un produit ou service, ce qui favorise les chances de conversion en ligne. <br/><br/>Pour espérer atteindre des objectifs intéressants pour votre société à Agen, il faut savoir que le <strong>référencement de votre site</strong> doit être pensé dès sa création. À ce niveau, nos consultants vous accompagnent pour vous proposer la meilleure solution en fonction de vos attentes et de vos besoins.</p>
+                            </div>
                             <div className="w-full" label="UNE VEILLE POUR MONITORER LES NOUVEAUTÉS DU WEB MARKETING">
                                 <p>Nos <strong>consultants en référencement</strong> effectuent une veille permanente pour se tenir informés des dernières nouveautés présentées dans le secteur du Web. <br /><br />C’est grâce à cette veille en <strong>communication digitale et marketing</strong> que nous adaptons nos méthodes de travail pour un rendu conforme à la fois avec vos besoins, mais aussi ceux des robots.</p>
                             </div>
