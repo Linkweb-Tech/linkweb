@@ -313,7 +313,7 @@ class ReferencementToulouse extends Component {
                                 <h4 className="century capitalize text-sm tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>SEARCH EXPERIENCE OPTIMISATION
                                     </h4>
-                                <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez proposer l'expérience utilisateur la plus aboutie pour les visiteurs de votre site intenret ?</h3>
+                                <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez proposer l'expérience utilisateur la plus aboutie pour les visiteurs de votre site internet ?</h3>
                                 <p className="century pb-4 text-justify">Le <strong>SXO</strong> est né de la rencontre entre le <strong><Link to="/referencement-toulouse/comment-ameliorer-son-referencement-naturel/" className="text-bleu hover:text-black font-bold">référencement naturel</Link></strong> et l’<strong>UX Design</strong>. Il consiste à développer une <strong>expérience utilisateur</strong> adaptée au <strong>comportement des utilisateurs</strong> : <strong>temps de chargement optimal</strong>, compatibilité sur tous les supports de lecture, etc. Rendre l’expérience utilisateur optimale est, aujourd’hui, indispensable.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
