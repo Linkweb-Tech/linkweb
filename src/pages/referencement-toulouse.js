@@ -327,7 +327,7 @@ class ReferencementToulouse extends Component {
                                 <h4 className="century capitalize text-sm tracking-wider pb-3 leading-tight text-justify" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>E-RÉPUTATION
                                     </h4>
-                                <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez parfaire l'image de votre entreprise en travaillant son e-réputation ? </h3>
+                                <h3 className="century text-2xl tracking-wider leading-tight text-justify">Vous souhaitez parfaire l'image de votre entreprise en travaillant son e-réputation ?</h3>
                                     <p className="century pb-4 text-justify">La <strong>popularité</strong> et la <strong>réputation d’une marque en ligne</strong> est un paramètre à prendre en compte pour rendre son <strong>projet web performant grâce au SEO</strong>. Les avis constituent un élément déclencheur, voire un véritable moteur en vue de la <strong>conversion</strong>. De plus, l’E-réputation fait partie des piliers du référencement naturel SEO et du travail de son image de marque sur le Web. Il est donc indispensable de <strong>soigner son image pour dynamiser son activité</strong> grâce au marketing de contenu ainsi qu'à une stratégie <Link to="/agence-community-management/" className="text-bleu hover:text-black font-bold">social media</Link>.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
