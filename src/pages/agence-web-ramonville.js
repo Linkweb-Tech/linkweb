@@ -287,7 +287,7 @@ class AgenceWebRamonville extends Component {
                                     <span className="text-bleu">/</span>JE SUIS UNE ENTREPRISE
                                 </h3>
                                 <div className="century content pb-6 text-justify" style={{ textAlignLast: 'center' }}>
-                                    Linkweb travaille avec des professionnels d'horizons différents : TPE, PME, commerçants, etc. Notre <strong><Link to="/agence-internet-toulouse/" className="text-bleu hover:text-black font-bold">agence internet</Link></strong> met tout en oeuvre pour répondre à vos attentes en termes de <strong>visibilité</strong> commme de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> adaptées à vos besoins.
+                                    Linkweb travaille avec des professionnels d'horizons différents : TPE, PME, commerçants, etc. Notre <strong>agence internet</strong> met tout en oeuvre pour répondre à vos attentes en termes de <strong>visibilité</strong> commme de <strong>notoriété</strong> grâce à la mise en place de <strong>stratégies digitales</strong> adaptées à vos besoins.
                                 </div>
                                 {/* <Button url="/contact-agence-web-toulouse/" text="Être recontacté" position="center" /> */}
                                 <button

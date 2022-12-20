@@ -303,7 +303,7 @@ class FAQ extends Component {
                                 <li><span className="text-bleu">></span> Le <strong>site internet catalogue</strong>,</li>
                                 <li><span className="text-bleu">></span> Mais aussi le <strong>site internet sur-mesure</strong>.</li>
                             </ul>
-                            <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/types-sites-internet/" className="text-bleu hover:text-black">« Quels sont les types de sites internet qu’il est possible de créer ? »</Link>.</h4>
+                            {/* <h4>Lire la suite de <Link to="/creation-site-internet-toulouse/types-sites-internet/" className="text-bleu hover:text-black">« Quels sont les types de sites internet qu’il est possible de créer ? »</Link>.</h4> */}
                         </Answer>
                         <Answer id={9} activeId={this.state.active}>
                             <h2>Pourquoi et quand mettre en place une refonte de site internet ?</h2>
