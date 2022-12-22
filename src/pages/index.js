@@ -272,8 +272,7 @@ class  IndexPage extends Component {
               <h3 className="text-center text-black text-2xl font-bold century">Solution sur-mesure</h3>
               <hr className="blue"></hr>
               <p className="text-center px-6">Linkweb est à votre écoute pour la définition de
-                votre {/*<Link className="text-bleu hover:text-black" to="/creation-site-internet-sur-mesure/">*/}<strong>solution</strong>{/*</Link>*/} en
-                fonction de vos besoins.</p>
+                votre {/*<Link className="text-bleu hover:text-black" to="/creation-site-internet-sur-mesure/">*/}<strong>solution</strong>{/*</Link>*/} à partir de vos besoins.</p>
               <br/>
               <ul className="text-bold text-center py-2">
                 <li className="py-2 flex flex-row justify-center">
