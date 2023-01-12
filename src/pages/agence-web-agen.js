@@ -11,7 +11,7 @@ import Accordion from "../components/accordion";
 import SEO from "../components/seo";
 import RoundButtonPages from "../components/roundButtonPages";
 import RoundButtonPagesMail from "../components/roundButtonPagesMail";
-import Button from "../components/Button";
+import Button from "../components/button";
 import CarouselRea1 from "../components/carouselRea1";
 import SimpleMap from "../components/simpleMap";
 import "../scss/blochover.scss";
