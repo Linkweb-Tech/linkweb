@@ -67,6 +67,7 @@ body {
 }
 
 .link {
+    font-weight:bold;
     svg {
         width: 20px;
         height: 20px;
@@ -142,6 +143,14 @@ footer {
     top: 0;
     bottom: 0;
     z-index: 15;
+}
+
+.bg-agencewebagen {
+    background: #00000052 url("../images/agence-web-agen-linkweb.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-creation {
@@ -812,6 +821,13 @@ footer {
     }
 }
 
+.vignette {
+    width:30%;
+    justify-content:space-between;
+    @media(max-width:768px) {
+        width:100%
+    }
+}
 
 .svgtransform {
     transition: all ease 0.5s;
@@ -1092,3 +1108,10 @@ h1 {
 }
 
 // FIN LANDING PAGE BLACK FRIDAY //
+
+.line-mobile-agen {
+    display:block!important;
+    @media(max-width:768px) {
+        display:none!important;
+    }
+}
