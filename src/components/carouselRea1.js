@@ -32,7 +32,7 @@ class CarouselRea1 extends Component {
             url: "/realisations/sia/",
             Solution:"Création site internet",
             li: [
-                "Création site internet institutionnel",
+                "Création d'une plateforme web",
                 "Parcours de navigation et expérience utilisateur",
                 "Webdesign et ergonomie",
             ]
@@ -90,7 +90,7 @@ class CarouselRea1 extends Component {
             li: [
                 "Création site internet vitrine",
                 "Référencement local",
-                "Parcours de navigation et expérience utilisateur",
+                "Expérience utilisateur (UX & UI design)",
                 "Web Analyse et maximisation du taux de conversion"
             ]
         }, /*{
@@ -106,7 +106,7 @@ class CarouselRea1 extends Component {
             Solution:"Solution personnalisée",
             li: [
                 "Développement de site internet catalogue",
-                "Intranet collaboratif et espace membre",
+                "Plateforme d'échange et espace membre",
                 "Référencement Naturel",
                 "Web Analyse et maximisation du taux de conversion"
             ]
@@ -129,9 +129,9 @@ class CarouselRea1 extends Component {
                 url: "/realisations/aquapensezvous/",
                 Solution:"Solution personnalisée",
                 li: [
-                    "Création de site internet e-commerce",
-                    "Module de vente et fiches produits sur-mesure",
-                    "Référencement local",
+                    "Création de site internet vitrine et catalogue",
+                    "Fiches produits sur-mesure",
+                    "Référencement local et national",
                     "Web Analyse et maximisation du taux de conversion"
                 ]
             },

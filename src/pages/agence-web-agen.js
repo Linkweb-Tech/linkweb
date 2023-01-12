@@ -292,7 +292,7 @@ class AgenceWebAgen extends Component {
                                     <h3 className="century uppercase text-3xl md:text-4xl tracking-wider pb-3 leading-tight text-center md:text-left" /*data-aos="zoom-in"*/>
                                         <span className="text-bleu">/</span>+300 sites en gestion
                                     </h3>
-                                    <p className="w-full century pb-6 text-lg md:text-md text-justify">Notre <a href="/agence-web-lyon/" className="text-bleu hover:text-black font-bold">agence web</a> <strong>réalise la création de sites internet</strong> pour des entreprises d'horizons parfois très différents : TPE, PME, indépendants, etc.
+                                    <p className="w-full century pb-6 text-lg md:text-md text-justify">Notre agence web <strong>réalise la création de sites internet</strong> pour des entreprises d'horizons parfois très différents : TPE, PME, indépendants, etc.
                                     </p>
                                     {/*<Button url="/contact-agence-web-toulouse/" text="EN SAVOIR PLUS" position="left" />*/}
                                 </div>
