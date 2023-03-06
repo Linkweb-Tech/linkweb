@@ -140,7 +140,7 @@ class CatTous extends Component {
                         <LastPostsMini lastposts={this.props.data.lastmini.edges} />
                         <section className="flex -mt-4 justify-center mb-3 " >
                             <div className="w-1/2 md:w-full py-2 hover:bg-bleu text-bleu hover:text-white" style={{ border: 'solid 1px #37cfee', transition: 'all ease 0.5s' }}>
-                                <Link className="text-sm century font-thin" to="/blog/category/tous-articles/"><span className="font-bold py-2 mx-auto flex justify-center">Voir tous les articles</span></Link>
+                                <Link className="text-sm century font-thin" to="/blog/tous-articles/"><span className="font-bold py-2 mx-auto flex justify-center">Voir tous les articles</span></Link>
                             </div>
                         </section>
                         <br />

@@ -590,10 +590,10 @@ class CreationSiteVitrine extends Component {
                     <br />
                     <section className="flex flex-col md:flex-row">
                         <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{ borderRadius: '5px' }}>
-                            <Link to="/referencement-toulouse/">Référencement</Link>
+                            <Link to="/referencement-toulouse/">Référencement Toulouse</Link>
                         </div>
                         <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{ borderRadius: '5px' }}>
-                            <Link to="/agence-digitale-toulouse/">Agence Web</Link>
+                            <Link to="/">Agence Web Toulouse</Link>
                         </div>
                         <div className="w-full md:w-1/3 bg-bleu hover:bg-black my-4 mr-5 p-2 font-bold text-white" style={{ borderRadius: '5px' }}>
                             <Link to="/agence-de-communication-agen-47-toulouse-31/">Nos réalisations</Link>
