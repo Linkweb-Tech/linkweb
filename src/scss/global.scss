@@ -661,18 +661,21 @@ footer {
 .blocpresta {
 
     width: 100%;
-    background: #000000ad url('../images/cta-background-agence-web.jpg');
+    background: #000000ad url('../images/formule-creation-site-internet-toulouse.jpg');
     background-size: cover;
+    background-position:center;
     background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2.5rem;
+    // margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     text-align: center;
-    min-height: 100vh;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    // min-height: 100vh;
 }
 
 .blocpresta {
