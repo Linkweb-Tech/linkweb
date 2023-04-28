@@ -80,7 +80,7 @@ class ReferencementToulouse extends Component {
                             </div>
                         </div>
                         <div className="w-full lg:w-full flex justify-center lg:justify-center">
-                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Toulouse - Référencement</h1>
+                            <h1 className="text-4xl md:text-6xl my-10 font-bold text-center text-white century leading-none">Agence SEO Toulouse<br/> Référencement</h1>
                         </div>
                         <br />
                         <h2 className="flex full lg:w-full text-white justify-center lg:justify-center mx-auto lg:mx-0 text-xl  century text-center p-1 -mt-12">Devenez visible sur Google avec notre accompagnement SEO sur-mesure</h2>
