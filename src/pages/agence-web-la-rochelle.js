@@ -41,11 +41,11 @@ class AgenceWebLaRochelle extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Agence Web Agen : Création de site internet et référencement naturel à Agen - Linkweb"
-                    description="Devis gratuit et détaillé pour votre projet web. Notre agence web à Agen développe une solution web fonctionnelle et adaptée à vos objectifs."
-                    url="https://linkweb.fr/agence-web-agen/"
-                    nom="Agence Web Agen"
-                    slug="agence-web-agen/"
+                    title="Agence Web La Rochelle : Création de site internet et référencement naturel à La Rochelle - Linkweb"
+                    description="Devis gratuit et détaillé pour votre projet web. Notre agence web à La Rochelle développe une solution web fonctionnelle et adaptée à vos objectifs."
+                    url="https://linkweb.fr/agence-web-la-rochelle/"
+                    nom="Agence Web La Rochelle"
+                    slug="agence-web-la-rochelle/"
                 />
                 {/* <PageTransition
                     defaultStyle={{
@@ -99,7 +99,7 @@ class AgenceWebLaRochelle extends Component {
                 </section>
                 <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
                         <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
-                        <span className="px-4 text-md lg:text-lg text-white"> Agence web Agen</span>
+                        <span className="px-4 text-md lg:text-lg text-white"> Agence web La Rochelle</span>
                 </nav>
                 <section className="bg-white sidetitle pt-10 pb-0 md:pt-10 lg:pb-10">
                     <section className="w-full xl:w-3/4 flex flex-col justify-center items-center century my-10 px-4 lg:px-16 md:mx-auto sm:mx-12 mt-2 lg:mx-auto">
