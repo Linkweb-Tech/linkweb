@@ -298,6 +298,22 @@ class AgenceWebLyon extends Component {
                         </Accordion>
                     </div>
                 </section>
+                <section className="text-center flex flex-col justify-center items-center text-black text-2xl mx-auto lg:mx-0 century mt-6 mb-24" style={{zIndex:'100'}}>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Retrouvez-nous partout en France</h2>
+                    <br/>
+                    <hr className="border-solid w-1/6 border-bleu"></hr>
+                    <br/>
+                    <ul className="flex flex-col md:flex-row">
+                        <li><Link to="/" className="text-bleu hover:text-black font-bold px-4">Toulouse</Link></li>
+                        <li><Link to="/agence-web-agen/" className="text-bleu hover:text-black font-bold px-4">Agen</Link></li>
+                        <li><Link to="/agence-web-bordeaux/" className="text-bleu hover:text-black font-bold px-4">Bordeaux</Link></li>
+                        <li><Link to="/agence-web-la-rochelle/" className="text-bleu hover:text-black font-bold px-4">La Rochelle</Link></li>
+                        <li><Link to="/agence-web-strasbourg/" className="text-bleu hover:text-black font-bold px-4">Strasbourg</Link></li>
+                        <li><Link to="/agence-web-marseille/" className="text-bleu hover:text-black font-bold px-4">Marseille</Link></li>
+                        <li><Link to="/agence-web-nice/" className="text-bleu hover:text-black font-bold px-4">Nice</Link></li>
+                        <li><Link to="/agence-web-montpellier/" className="text-bleu hover:text-black font-bold px-4">Montpellier</Link></li>
+                    </ul>
+                </section>
                 <section className="w-full bg-black flex flex-col md:flex-row">
                     <div className="w-full order-last md:order-first md:w-1/4 bg-bleu bordbloc text-white flex flex-col items-center justify-center mx-auto">
                         <span className="my-10"><a href="tel:0533950030" className="text-center text-xl lg:text-3xl xl:text-5xl century"><span className="text-2xl lg:text-6xl font-bold">/</span> 05 33 95 00 30</a></span>
