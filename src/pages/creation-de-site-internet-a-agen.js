@@ -638,6 +638,16 @@ class CreationSiteInternetAgenPage extends Component {
                         </Accordion>
                     </div>
                 </section>
+                <section className="text-center flex flex-col justify-center items-center text-black text-2xl mx-auto lg:mx-0 century mt-6 mb-24" style={{zIndex:'100'}}>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Retrouvez-nous partout en France</h2>
+                    <br/>
+                    <hr className="border-solid w-1/6 border-bleu"></hr>
+                    <br/>
+                    <ul className="flex flex-col md:flex-row">
+                        <li><Link to="/creation-site-internet-toulouse/" className="text-bleu hover:text-black font-bold px-4">Toulouse</Link></li>
+                        <li><Link to="/creation-site-internet-nice/" className="text-bleu hover:text-black font-bold px-4">Nice</Link></li>
+                    </ul>
+                </section>
                 <section className="w-full bg-black flex flex-col md:flex-row">
                     <div className="w-full order-last md:order-first md:w-1/4 bg-bleu bordbloc text-white flex flex-col items-center justify-center mx-auto">
                         <span className="my-10"><a href="tel:0533950030" className="text-center text-xl lg:text-3xl xl:text-5xl century"><span className="text-2xl lg:text-6xl font-bold">/</span> 05 33 95 00 30</a></span>
