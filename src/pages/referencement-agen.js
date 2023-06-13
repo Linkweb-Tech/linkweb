@@ -397,7 +397,16 @@ class ReferencementAgen extends Component {
                         </div>
                         </section>
                     </section>
-                
+                    <section className="text-center flex flex-col justify-center items-center text-black text-2xl mx-auto lg:mx-0 century mt-6 mb-24" style={{zIndex:'100'}}>
+                    <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Retrouvez-nous partout en France</h2>
+                    <br/>
+                    <hr className="border-solid w-1/6 border-bleu"></hr>
+                    <br/>
+                    <ul className="flex flex-col md:flex-row">
+                        <li><Link to="/referencement-toulouse/" className="text-bleu hover:text-black font-bold px-4">Agence SEO Toulouse</Link></li>
+                        <li><Link to="/agence-seo-lyon/" className="text-bleu hover:text-black font-bold px-4">Agence SEO Lyon</Link></li>
+                    </ul>
+                </section>
                 
                 
                 {/* <li className="hidden lg:block toggleable">
