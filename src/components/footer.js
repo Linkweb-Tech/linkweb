@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'gatsby';
 import LinkwebWhite from "../images/logo-linkweb.png";
-import Qualiopi from "../images/qualiopi.jpg";
+import Qualiopi from "../images/qualiopi-lw-sa.png";
 import googlePartner from "../images/PartnerBadge-RGB.png";
 
 //import loadable from '@loadable/component';
@@ -236,7 +236,7 @@ class Footer extends Component {
                                     <span className="text-white pl-2"><a href="mailto:contact@linkweb.fr">contact@linkweb.fr</a></span>
                                 </li> */}
                             </ul>
-                            {/* <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"> */}<img className="ml-4 mt-4" src={Qualiopi} width="200px" alt="Formation SEO Toulouse" />{/*</a>*/}
+                            {/* <a href="https://www.data-dock.fr/?q=datadock" target="_blank" rel="noreferrer noopener"> */}<img className="ml-4 mt-4" src={Qualiopi} width="245px" alt="Formation SEO Toulouse" />{/*</a>*/}
                         </div>
                     </section>
                     <section className="w-full md:w-1/2 lg:w-1/4 py-6 md:px-4 px-4 flex flex-col liens">
@@ -328,7 +328,7 @@ class Footer extends Component {
                 </section>
                 </section>
                 <div className="text-white century mx-auto">
-                    <p className="ml-4"> © 2022 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
+                    <p className="ml-4"> © 2023 <strong>Linkweb</strong> - <a href="/mentions-legales/">Mentions légales</a></p>
                     <span className="ml-4 text-xs" title="linkweb" href="/" target="_blank" rel="noopener">Création de sites internet Agen et Toulouse</span>
                 </div>
                 <br />
