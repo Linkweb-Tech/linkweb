@@ -90,7 +90,7 @@ class CatReferencement extends Component {
                                 </a>
                             </div>
                             <div className="blocauteur mx-auto" data-aos="fade-right">
-                                <a href="https://instagram.com/AgenceLinkweb" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
+                                <a href="https://www.instagram.com/linkweb_47/" target="blank" rel="noreferrer noopener" className="flex items-center no-underline text-white">
                                     <img
                                         src={instaIcon}
                                         alt="Réseaux sociaux"

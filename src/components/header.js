@@ -98,7 +98,7 @@ class Header extends Component {
                   className="w-6 fill-current"
                 />
               </span>
-              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9BZ2VuY2VMaW5rd2Vi")}  className="flex items-center cursor-pointer no-underline text-white">
+              <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9saW5rd2ViXzQ3Lw==")}  className="flex items-center cursor-pointer no-underline text-white">
                 <img
                   src={instaIcon}
                   alt="Instagram"
