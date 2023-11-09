@@ -100,7 +100,7 @@ class BlackFriday extends Component {
                         <p className="century text-white text-center max-w-1/3 text-lg">Boostez la visibilité de votre entreprise sur le Web avec la mise en place d'une stratégie SEO efficace et sur-mesure.</p>
                         <RoundButton url="#devis" text="J'en profite !" />
                     </div>
-                    <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-16 my-4 " style={{background:'#00000098 url('+ arriereplan + ')'}}>
+                    <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#00000098 url('+ arriereplan + ')'}}>
                         <span className="raleway text-center text-white font-bold" style={{fontSize:'80px', lineHeight:'0.9em'}}>6 mois offerts</span>
                         <h3 className="century text-3xl text-white"><span className="font-bold">Gestion réseaux sociaux <span className="text-xs">(3)</span></span></h3>
                         <br/>
