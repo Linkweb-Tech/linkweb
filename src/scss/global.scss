@@ -1089,24 +1089,45 @@ footer {
 // LANDING PAGE BLACK FRIDAY //
 
 .bfban {
-    background:#000000de url('../images/black-friday-bg.jpg');
-    background-size:contain;
-    background-blend-mode:multiply;
-    background-position:bottom right;
+    background:#00000098 url('../images/bg-black-friday.jpg');
+    background-size:cover;
+    background-blend-mode: multiply;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     height:100vh;
-h1 {
-    font-size:150px;
-    font-weight:bold;
-    line-height:0.9em;
-    border:solid 10px #37cfee;
+
+.titrebf {
+    font-family: 'Raleway', sans-serif;
+    font-size:180px;
+    font-weight:900;
+    transform: rotate(-5deg);
+    line-height:1.2em;
+    @media (max-width:'768px') {
+        font-size:90px;
+    }
+}
+.blackf {
+    font-size:180px;
+    line-height:0.5em;
+    background-color:white;
+    color:black;
     padding:2%;
     @media (max-width:'768px') {
     font-size:90px;
-    border:solid 7px #37cfee;
+    background-color:white;
+    color:black;
+    }
+.fridayf {
+        font-size:180px;
+        line-height:-1em;
+        color:white;
+        padding:1%;
+        @media (max-width:'768px') {
+        font-size:90px;
+        color:white;
+        }
     }
 }
 }
