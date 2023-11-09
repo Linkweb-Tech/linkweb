@@ -88,21 +88,21 @@ class BlackFriday extends Component {
                 <section className="w-full flex flex-col lg:flex-row px-4 my-24">
                     <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#00000098 url('+ arriereplan + ')'}}>
                         <span className="raleway text-center text-white font-bold" style={{fontSize:'100px'}}>-20%</span>
-                        <h3 className="century text-3xl text-white"><span className="font-bold">Création de site internet <span className="text-xs">(1)</span></span></h3>
+                        <h3 className="century text-3xl text-white"><span className="font-bold">Création de site internet <span style={{fontSize:'10px'}}>(1)</span></span></h3>
                         <br/>
                         <p className="century text-white text-center max-w-1/3 text-lg">Développez votre présence en ligne à partir de la création d'un site internet professionnel, à votre image et performant.</p>
                         <RoundButton url="#devis" text="J'en profite !" />
                     </div>
                     <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#00000098 url('+ arriereplan + ')'}}>
                         <span className="raleway text-center text-white font-bold" style={{fontSize:'100px'}}>-50%</span>
-                        <h3 className="century text-3xl text-white"><span className="font-bold">Référencement naturel <span className="text-xs">(2)</span></span></h3>
+                        <h3 className="century text-3xl text-white"><span className="font-bold">Référencement naturel <span style={{fontSize:'10px'}}>(2)</span></span></h3>
                         <br/>
                         <p className="century text-white text-center max-w-1/3 text-lg">Boostez la visibilité de votre entreprise sur le Web avec la mise en place d'une stratégie SEO efficace et sur-mesure.</p>
                         <RoundButton url="#devis" text="J'en profite !" />
                     </div>
                     <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#00000098 url('+ arriereplan + ')'}}>
                         <span className="raleway text-center text-white font-bold" style={{fontSize:'80px', lineHeight:'0.9em'}}>6 mois offerts</span>
-                        <h3 className="century text-3xl text-white"><span className="font-bold">Gestion réseaux sociaux <span className="text-xs">(3)</span></span></h3>
+                        <h3 className="century text-3xl text-white"><span className="font-bold">Gestion réseaux sociaux <span style={{fontSize:'10px'}}>(3)</span></span></h3>
                         <br/>
                         <p className="century text-white text-center max-w-1/3 text-lg">Maximisez votre impact sur les réseaux sociaux et engagez vos utilisateurs avec une stratégie social media qui vous ressemble.</p>
                         <RoundButton url="#devis" text="J'en profite !" />
@@ -381,7 +381,7 @@ class BlackFriday extends Component {
                 <span className="text-4xl text-white mt-0 lg:-mt-5">techniciens</span>
                     </div>
                 </section>
-                <section className="w-full flex flex-col px-4 items-center century mt-12 mb-8 justify-center text-xs">
+                <section className="w-full flex flex-col px-4 items-center century mt-12 mb-8 justify-center" style={{fontSize:'10px'}}>
                 (1) 20% de réduction sur la création d'un site internet avec un engagement de 2 ans minimum dans un contrat de référencement.<br/>
                 (2) 50% de réduction sur le contrat de référencement naturel à partir de 4 heures par mois et un engagement de 2 ans.<br/>
                 (3) 6 mois offerts sur le contrat de gestion de vos réseaux sociaux pour un engagement de 3 ans.
