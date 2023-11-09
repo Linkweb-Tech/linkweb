@@ -100,7 +100,7 @@ class BlackFriday extends Component {
                         <p className="century text-white text-center max-w-1/3 text-lg">Boostez la visibilité de votre entreprise sur le Web avec la mise en place d'une stratégie SEO efficace et sur-mesure.</p>
                         <RoundButton url="#devis" text="J'en profite !" />
                     </div>
-                    <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#00000098 url('+ arriereplan + ')'}}>
+                    <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-16 my-4 " style={{background:'#00000098 url('+ arriereplan + ')'}}>
                         <span className="raleway text-center text-white font-bold" style={{fontSize:'80px', lineHeight:'0.9em'}}>6 mois offerts</span>
                         <h3 className="century text-3xl text-white"><span className="font-bold">Gestion réseaux sociaux <span className="text-xs">(3)</span></span></h3>
                         <br/>
@@ -109,7 +109,7 @@ class BlackFriday extends Component {
                     </div>
                 </section>
                 <section className="w-full flex-col lg:flex-row flex px-4 xl:px-8">
-                        <div id="devis" className="w-full lg:w-1/2 flex justify-center items-center my-12 lg:mb-0 bg-bleu text-black py-8 shadow-2xl lg:mt-24 xl:mt-0 flex flex-col justify-center mx-auto lg:mx-12 xl:mx-auto" style={{height:'fit-content', backgroundColor:'#000000'}}>
+                        <div id="devis" className="w-full lg:w-1/2 flex justify-center items-center my-12 lg:mb-0 bg-bleu text-black py-8 shadow-2xl lg:mt-24 xl:mt-0 flex flex-col justify-center mx-auto lg:mx-12 xl:mx-auto" style={{height:'fit-content', background: '#000000ad url(' + arriereplan + ')'}}>
                             <h2 className="flex justify-center text-3xl lg:text-4xl century text-center text-white"><span className="font-bold">Parlez-nous de votre projet !</span></h2>
                             <br />
                             <ContactBlackFriday origin="Black Friday" />
@@ -264,16 +264,14 @@ class BlackFriday extends Component {
                     </section>
                 </section>*/}
 
-                <section className="bg-white sidetitle mt-32 mb-10">
-                        <section className="w-full lg:w-3/4 flex flex-col justify-center century px-4 lg:px-32 md:mx-6 sm:mx-12 mt-2 lg:mx-48">
-                                <h2 className="century text-center lg:text-left text-black text-3xl md:text-5xl leading-none">Nos services ? Ce sont nos clients qui en parlent le mieux !</h2>
-                                <br />
-                                <div className="line-title mt-4 ">
-                                    <br />
-                                    <hr className="w-1/2 border-bleu lg:w-1/12" />
-                                    <h3 /*data-aos='fade-left'*/ className="text-md text-black century pb-0">Ils ont fait appel aux services de notre agence web et sont satisfaits.</h3>
-                                </div>
-                        </section>
+                <section className="bg-white mt-32 mb-10">
+                    <section className="max-w-4xl w-full mx-auto px-4 py-0 my-0">
+                        <h2 /*data-aos='fade-right'*/ className="text-center text-black text-4xl century">
+                            Nos services ? <br/>Ce sont nos clients qui en parlent le mieux !
+                        </h2>
+                        <hr className="blue"></hr>
+                        <h3 /*data-aos='fade-left'*/ className="text-md text-center text-black century pb-0">Ils ont fait appel aux services de notre agence web et sont satisfaits.</h3>
+                    </section>
                     <section className="w-full flex flex-col lg:flex-row px-4 mt-24 century text-center">
                             <div className="w-full lg:w-1/3 flex flex-col justify-center items-center px-12 py-24 my-4 mx-4 bg-gris">
                                         <div className="flex flex-col ">
