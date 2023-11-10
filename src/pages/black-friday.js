@@ -51,8 +51,8 @@ class BlackFriday extends Component {
             <Layout location={this.props.location}>
 
                 <SEO
-                    title="Black Friday - 1 an de référencement naturel offert pour 1 site web acheté - Linkweb"
-                    description="Remportez 1 année de référencement naturel pour un site internet acheté. Demande de devis enregistrées avant dimanche 23h59."
+                    title="Black Friday 2023 - Retrouvez nos offres exceptionnelles - Linkweb"
+                    description="Retrouvez nos offres promotionnelles exceptionnelles à l'occasion du Black Friday 2023, l'occasion idéale pour propulser votre projet digital."
                     url="https://linkweb.fr/black-friday/"
                     nom="Black Friday"
                     slug="black-friday/"
@@ -129,7 +129,7 @@ class BlackFriday extends Component {
                             </div>
                             <div className="w-full lg:mx-0 flex flex-col md:flex-row justify-center lg:justify-center" /*data-aos="fade-in"*/>
                                 <RoundButtonAccueil url="tel:0533950030" text="05 33 95 00 30"/>
-                                <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text="Demander un devis"/>
+                                <RoundButtonAccueilMail url="mailto:contact@linkweb.fr" text="Demander un devis"/>
                             </div>
                         </div>
                 </section>
