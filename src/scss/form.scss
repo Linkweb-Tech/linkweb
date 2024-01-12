@@ -3,6 +3,16 @@
     bottom: -2px;
 }
 
+.border-bottom-black {
+    border-bottom: #000000 2px solid;
+    bottom: -2px;
+}
+
+.border-bottom-white {
+    border-bottom: #ffffff 2px solid;
+    bottom: -2px;
+}
+
 .notification-container-bottom-right, .notification-item
     {
     z-index: 5000;

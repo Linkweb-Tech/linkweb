@@ -148,7 +148,7 @@ class ContactBlackFriday extends Component {
                 <input 
                     placeholder="Nom (*)" 
                     type="text" 
-                    className=" border-bottom-bleu pl-4 py-3 w-full text-black"
+                    className=" border-bottom-white pl-4 py-3 w-full text-black"
                     name="nom"
                     value={this.state.nom}
                     onChange={e => this.setState({ nom: e.target.value })}
@@ -158,7 +158,7 @@ class ContactBlackFriday extends Component {
                 <input 
                     placeholder="Email" 
                     type="email" 
-                    className="py-3 border-bottom-bleu pl-4 w-full text-black"
+                    className="py-3 border-bottom-white pl-4 w-full text-black"
                     name="email"
                     value={this.state.email}
                     onChange={e => this.setState({ email: e.target.value })}
@@ -168,7 +168,7 @@ class ContactBlackFriday extends Component {
                 <input 
                     placeholder="Téléphone (*)" 
                     type="text" 
-                    className="py-3 border-bottom-bleu pl-4 w-full text-black"
+                    className="py-3 border-bottom-white pl-4 w-full text-black"
                     name="telephone"
                     value={this.state.telephone}
                     onChange={e => this.setState({ telephone: e.target.value.replace(/\s/g, '') })}
@@ -188,7 +188,7 @@ class ContactBlackFriday extends Component {
                     <textarea 
                         placeholder="Message" 
                         type="text" 
-                        className="py-3 border-bottom-bleu pl-4 w-full text-black"
+                        className="py-3 border-bottom-black pl-4 w-full text-black"
                         name="message"
                         value={this.state.message}
                         onChange={e => this.setState({ message: e.target.value })}
@@ -199,7 +199,7 @@ class ContactBlackFriday extends Component {
                 <ReCaptchaBlock />
 
                 <div className={`w-full flex justify-center mt-12 mb-2 ${ this.state.submitDisplay } `}>
-                     <button onClick={e=>this.handleFormSubmit(e)} className="blackfriday contactForm bg-black century text-white py-3 px-6 uppercase border-bottom-bleu" type="submit">Envoyer</button>
+                     <button onClick={e=>this.handleFormSubmit(e)} className="blackfriday formpromo contactForm bg-black hover:bg-white century text-white hover:text-black py-3 px-6 uppercase hover:border-bottom-black border-bottom-white" type="submit">Envoyer</button>
                 </div>
             </form>
         );

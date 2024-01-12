@@ -1,6 +1,7 @@
 html,
 body {
     overflow-x: hidden !important;
+    color:black;
 }
 
 hr {
@@ -1134,9 +1135,202 @@ footer {
 
 // FIN LANDING PAGE BLACK FRIDAY //
 
+.annivban {
+    background:url('../images/bg-anniversaire-linkweb.jpg');
+    background-size:cover;
+    background-blend-mode: multiply;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+
+.titrebf {
+    font-family: 'Raleway', sans-serif;
+    font-size:180px;
+    font-weight:900;
+    transform: rotate(-5deg);
+    line-height:1.2em;
+    @media (max-width:'768px') {
+        font-size:90px;
+    }
+}
+.blackf {
+    font-size:180px;
+    line-height:0.5em;
+    background-color:white;
+    color:black;
+    padding:2%;
+    @media (max-width:'768px') {
+    font-size:90px;
+    background-color:white;
+    color:black;
+    }
+.fridayf {
+        font-size:180px;
+        line-height:-1em;
+        color:white;
+        padding:1%;
+        @media (max-width:'768px') {
+        font-size:90px;
+        color:white;
+        }
+    }
+}
+}
+
 .line-mobile-agen {
     display:block!important;
     @media(max-width:768px) {
         display:none!important;
     }
 }
+
+.offres {
+    background-color:#f0ede7;
+    
+}
+
+//TABLES//
+
+.rg-container {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 1.125rem;
+    width:100%;
+    line-height: 1.4;
+    margin-top: 3rem;
+    margin-bottom:9rem;
+    padding: 1em 0.5em;
+    color: #222;
+  }
+  
+  /* table */
+  table.rg-table {
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    border-collapse: collapse;
+    border-spacing: 0;
+    @media (max-width:"998px") {
+        width: 100%;
+    }
+  }
+  table.rg-table tr {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    color: #333;
+  }
+  table.rg-table thead {
+    border-bottom: none;
+  }
+  table.rg-table tr {
+    // border-bottom: 1px solid #ddd;
+    color: #222;
+  }
+  table.rg-table tr.highlight {
+    background-color: #dcf1f0 !important;
+  }
+  table.rg-table.zebra tr:nth-child(even) {
+    background-color: #f6f6f6;
+  }
+  table.rg-table th {
+    font-weight: bold;
+    padding: 0.35em;
+    font-size: 0.9em;
+    max-width:100px;
+  }
+  table.rg-table td {
+    padding: 0.35em;
+    font-size: 0.9em;
+  }
+  table.rg-table .highlight td {
+    font-weight: bold;
+  }
+  table.rg-table th.number,
+  td.number {
+    text-align: right;
+  }
+  table.rg-table td.text {
+    text-align: left;
+  }
+  
+  /* media queries */
+  @media screen and (max-width: 768px) {
+    .rg-container {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+    table.rg-table {
+      width: 100%;
+    }
+    table.rg-table tr.hide-mobile,
+    table.rg-table th.hide-mobile,
+    table.rg-table td.hide-mobile {
+      display: none;
+    }
+    table.rg-table thead {
+      display: none;
+    }
+    table.rg-table tbody {
+      width: 100%;
+    }
+    table.rg-table tr,
+    table.rg-table th,
+    table.rg-table td {
+      display: block;
+      padding: 0;
+    }
+    table.rg-table tr {
+      border-bottom: none;
+      margin: 0 0 1em 0;
+      padding: 0.5em;
+    }
+    table.rg-table tr.highlight {
+      background-color: inherit !important;
+    }
+    table.rg-table.zebra tr:nth-child(even) {
+      background-color: transparent;
+    }
+    table.rg-table.zebra td:nth-child(even) {
+      background-color: #f6f6f6;
+    }
+    table.rg-table tr:nth-child(even) {
+      background-color: transparent;
+    }
+    table.rg-table td {
+      padding: 0.5em 0 0.25em 0;
+      border-bottom: 1px dotted #ccc;
+      text-align: right;
+    }
+    table.rg-table td[data-title]:before {
+      content: attr(data-title);
+      font-weight: bold;
+      display: inline-block;
+      content: attr(data-title);
+      float: left;
+      margin-right: 0.5em;
+      font-size: 0.95em;
+    }
+    table.rg-table td:last-child {
+      padding-right: 0;
+      border-bottom: 2px solid #ccc;
+    }
+    table.rg-table td:empty {
+      display: none;
+    }
+    table.rg-table .highlight td {
+      background-color: inherit;
+      font-weight: normal;
+    }
+  }
+
+  //TABLE2//

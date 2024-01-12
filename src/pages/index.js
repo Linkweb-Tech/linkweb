@@ -19,10 +19,14 @@ import '../scss/popup.scss';
 import SEO from "../components/seo";
 import Hero1 from "../components/animhero1";
 import GoogleMapReact from 'google-map-react';
-import presta from "../images/agence-linkweb-toulouse.jpg"
-import presta2 from "../images/agence-linkweb-a-toulouse.jpg"
+import presta from "../images/agence-linkweb-toulouse.jpg";
+import presta2 from "../images/agence-linkweb-a-toulouse.jpg";
+import Bg from "../images/anniversaire-linkweb.jpg";
+import RoundButtonAccueilMail from "../components/roundButtonAccueilMail";
+import RoundButton from "../components/roundButton";
 
 import loadable from '@loadable/component';
+import RoundButtonAccueil from "../components/roundButtonAccueil";
 //import SimpleMap from "../components/simpleMap";
 //import Partenaires from '../components/partenaires';
 const SimpleMap = loadable(() => import('../components/simpleMap'));
@@ -77,7 +81,11 @@ class  IndexPage extends Component {
 
 
           {/* List of modals (Creation de sites, Referencement, Solution, Google Ads) */}
-          <Hero1></Hero1>          
+         
+         
+        {/*<Hero1></Hero1>*/}       
+
+
           {/* <section id="x" className=" w-full mx-auto max-w-4xl mt-12 px-4 py-0 my-0">
             <h2 /*data-aos='fade-right' className="text-center text-black text-4xl century">
               {/*<Link to="/agence-digitale-toulouse/" className="text-center text-black text-4xl century hover:text-bleu">}
@@ -88,7 +96,118 @@ class  IndexPage extends Component {
             {/*<h3 /*data-aos='fade-left' className="text-xl text-grey text-center century italic pb-0">Connectez-vous
               avec le reste du monde</h3>
           </section>*/}
-          <section id="x" className="w-full md:w-6/12 bg-white flex my-8 flex-col md:flex-row items-center mx-auto justify-center">
+
+          {/* ANNIVERSAIRE */}
+
+          <section className="w-full bg-white h-screen flex flex-col md:flex-row items-center justify-center">
+            <div className="w-full lg:w-1/2 h-screen mt-12 sm:mt-0 anniversaire" style={{background:'url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            </div> 
+            <div className="w-full lg:w-1/2 h-screen flex-col items-center mt-12 lg:mt-48 justify-center century text-center order-first sm:order-2">
+            <svg className="mx-auto w-3/4 lg:w-full sm:mt-0" width="419.561" height="493.293" viewBox="0 0 419.561 493.293">
+                <g id="Groupe_282" data-name="Groupe 282" transform="translate(-1131.439 -178.707)">
+                  <g id="Groupe_281" data-name="Groupe 281" transform="translate(327 -24)">
+                    <g id="Groupe_51" data-name="Groupe 51" transform="translate(237 -13)">
+                      <g id="_x37_" transform="translate(329 -1139)">
+                        <g id="Groupe_117" data-name="Groupe 117">
+                          <g id="Groupe_116" data-name="Groupe 116">
+                            <path id="Tracé_332" data-name="Tracé 332" d="M375.28,1357.523c-.835,6.195-10.114-.092-2.815-2.816C373.426,1354.77,374.769,1355.387,375.28,1357.523Z" fill="#000000"/>
+                            <path id="Tracé_333" data-name="Tracé 333" d="M565.545,1438.213c.055,4.8-8.278,6.717-9.174,0C556.316,1433.416,564.648,1431.5,565.545,1438.213Z" fill="#000000"/>
+                            <path id="Tracé_334" data-name="Tracé 334" d="M650.789,1497.138c.132,4.593-9.325,1.016-2.514-2.514C649.075,1494.742,649.831,1494.852,650.789,1497.138Z" fill="#000000"/>
+                            <path id="Tracé_335" data-name="Tracé 335" d="M247.933,1583.553c.057,4.965-8.566,6.951-9.494,0C238.383,1578.589,247.006,1576.6,247.933,1583.553Z" fill="#000000"/>
+                            <path id="Tracé_336" data-name="Tracé 336" d="M354.971,1767.053c.053,4.086-7.071,5.742-7.834,0C347.083,1762.967,354.208,1761.311,354.971,1767.053Z" fill="#000000"/>
+                            <path id="Tracé_337" data-name="Tracé 337" d="M415.144,1689.336c-.811,6.023-9.833-.09-2.737-2.738C413.34,1686.66,414.646,1687.26,415.144,1689.336Z" fill="#000000"/>
+                            <path id="Tracé_338" data-name="Tracé 338" d="M475.6,1700.254c.116,4.065-8.252.9-2.225-2.225C474.083,1698.134,474.753,1698.231,475.6,1700.254Z" fill="#000000"/>
+                            <path id="Tracé_339" data-name="Tracé 339" d="M477.166,1540.6c.051,3.953-6.841,5.556-7.579,0C469.535,1536.645,476.428,1535.043,477.166,1540.6Z" fill="#000000"/>
+                            <path id="Tracé_340" data-name="Tracé 340" d="M616.028,1659.814c-1.144,7.6-12.3-.07-3.435-3.436C613.764,1656.456,615.4,1657.208,616.028,1659.814Z" fill="#000000"/>
+                            <path id="Tracé_341" data-name="Tracé 341" d="M643.6,1578.806c.131,4.562-9.262,1.009-2.5-2.5C641.9,1576.427,642.646,1576.536,643.6,1578.806Z" fill="#000000"/>
+                          </g>
+                        </g>
+                        <g id="_x37__1_" transform="translate(-21 10)">
+                          <g id="Groupe_118" data-name="Groupe 118">
+                            <path id="Tracé_342" data-name="Tracé 342" d="M363.546,1459.828c49.163,20.555,87.373,86.094,83.26,143.633C439.358,1549.073,406.883,1497.01,363.546,1459.828Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_119" data-name="Groupe 119">
+                            <path id="Tracé_343" data-name="Tracé 343" d="M591.98,1457.3c-59.4,10.923-91.013,76.378-110.318,129.5C490.706,1534,522.752,1452.333,591.98,1457.3Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_120" data-name="Groupe 120">
+                            <path id="Tracé_344" data-name="Tracé 344" d="M325.825,1707.89c17.9-40.12,69.58-94.68,123.071-83.832C399.789,1623.013,356.253,1677.135,325.825,1707.89Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_121" data-name="Groupe 121">
+                            <path id="Tracé_345" data-name="Tracé 345" d="M554.763,1714.182c-10.747-38.558-44.065-78.975-83.553-88.969C512.517,1625.244,560.545,1668.26,554.763,1714.182Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_122" data-name="Groupe 122">
+                            <path id="Tracé_346" data-name="Tracé 346" d="M578.84,1746.731c2.89-29.3-4.153-64.362-25.707-85.236C580.3,1673.02,599.843,1719.48,578.84,1746.731Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_123" data-name="Groupe 123">
+                            <path id="Tracé_347" data-name="Tracé 347" d="M285.314,1689.832C290,1668,319.261,1646.7,347.481,1648.238,328.686,1654.888,302.988,1675.26,285.314,1689.832Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_124" data-name="Groupe 124">
+                            <path id="Tracé_348" data-name="Tracé 348" d="M314.429,1566.956c35.367-9.762,92.721,8.44,121.987,42.32C402.219,1586.387,357.656,1573.566,314.429,1566.956Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_125" data-name="Groupe 125">
+                            <path id="Tracé_349" data-name="Tracé 349" d="M646.362,1546.841c-13.193,6.842-127.328,27.249-153.194,59.88C513.177,1567.117,616.915,1542.192,646.362,1546.841Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_126" data-name="Groupe 126">
+                            <path id="Tracé_350" data-name="Tracé 350" d="M296.211,1509.26c16.072-7.159,44.871,1.558,58.888,21.886C339.568,1523.05,314.8,1517.031,296.211,1509.26Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_127" data-name="Groupe 127">
+                            <path id="Tracé_351" data-name="Tracé 351" d="M637.224,1515.286c-17.9,6.213-41.155,9.973-61.86,23.04C583.486,1522.249,616.921,1503.911,637.224,1515.286Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_128" data-name="Groupe 128">
+                            <path id="Tracé_352" data-name="Tracé 352" d="M396.05,1402.478c38.4,28.626,64.037,91.695,59.593,143.97C449.142,1496.809,425.513,1446.16,396.05,1402.478Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_129" data-name="Groupe 129">
+                            <path id="Tracé_353" data-name="Tracé 353" d="M440.995,1705.115c-9.569-19.322-.832-53.342,20.436-70.675C452.421,1651.6,446.2,1683.368,440.995,1705.115Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_130" data-name="Groupe 130">
+                            <path id="Tracé_354" data-name="Tracé 354" d="M439.137,1750.12c-5.763.889-5.272-27.414-.722-29.454C441.591,1720.811,446.1,1748.513,439.137,1750.12Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_131" data-name="Groupe 131">
+                            <path id="Tracé_355" data-name="Tracé 355" d="M600.811,1616.857c-26.092-2.435-62.193-7.882-92.965-2.237C530.493,1601.005,577.241,1597.325,600.811,1616.857Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_132" data-name="Groupe 132">
+                            <path id="Tracé_356" data-name="Tracé 356" d="M637.689,1629.208c-7.149,1.034-18.929-5.386-28.831-10.4C615.674,1613.446,636.617,1615.908,637.689,1629.208Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_133" data-name="Groupe 133">
+                            <path id="Tracé_357" data-name="Tracé 357" d="M351.949,1609.214c13.04-9.174,40.77-7.034,57.981,4.719C396.065,1613.2,366.692,1614.369,351.949,1609.214Z" fill="#a18457"/>
+                          </g>
+                          <g id="Groupe_134" data-name="Groupe 134">
+                            <path id="Tracé_358" data-name="Tracé 358" d="M299.96,1611.984c3.767-9.563,26.851-15.237,41.21-4.234C343.234,1606.711,311.136,1614.147,299.96,1611.984Z" fill="#a18457"/>
+                          </g>
+                        </g>
+                      </g>
+                      <g id="Groupe_1" data-name="Groupe 1" transform="translate(-167 96)">
+                        <text id="_1" data-name="1" transform="translate(783 472)" font-size="221" font-family="Impact"><tspan x="0" y="0">1</tspan></text>
+                        <text id="_5" data-name="5" transform="translate(854 313)" font-size="221" font-family="Impact"><tspan x="0" y="223">5</tspan></text>
+                        <text id="ANS" transform="translate(970.796 528.5)" font-size="42" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">ANS</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <h1 className="-mt-12 lg:-mt-8 raleway">Agence Web Toulouse</h1><br/>
+              <span className="mx-2 font-bold text-2xl lg:text-4xl raleway">Linkweb fête ses 15 ans</span><br/>
+              <span className="mx-2 text-xl lg:text-3xl">Profitez d'offres incontournables !</span>
+              <div className="w-2/3 flex flex-col md:flex-row justify-center items-center lg:w-1/2 mx-auto -mt-4">
+                  <RoundButton url="/offres-promotionnelles/" color="black" colortext="white" text="J'en profite !" />
+                  <div className="flex flex-row items-center justify-center">
+                      <a href="tel:0533950030" style={{width:'60px',height:'60px',borderRadius:'50%'}} className={`mx-2 font-light items-center flex justify-center roundedButton bg-black text-white hover:text-black century flex justify-center font-normal mt-3 block lg:ml-2 lg:mr-2 items-center text-center text-md lg:text-md rounded-huge py-4  mt-10`}
+                    ><svg width="30px" className="mt-2 mx-auto block" viewBox="0 0 333 416.25"><g><path fill="#FFFFFF" class="fil0" d="M167 33c73,0 133,60 133,134 0,73 -60,133 -133,133 -74,0 -134,-60 -134,-133 0,-74 60,-134 134,-134zm58 212l22 -22c0,0 3,-7 -2,-13 -5,-5 -32,-19 -32,-19 0,0 -6,-4 -13,4 -8,7 -7,7 -7,7 0,0 -4,3 -9,1 -19,-10 -44,-35 -54,-54 -2,-4 1,-8 1,-8 0,0 0,0 8,-7 7,-8 3,-14 3,-14 0,0 -13,-27 -19,-32 -6,-5 -13,-1 -13,-1l-21 21c-24,49 88,161 136,137z"/></g></svg></a>
+                    <a href="/contact-agence-web-toulouse/" style={{width:'60px',height:'60px',borderRadius:'50%'}} className={`mx-2 font-light items-center flex justify-center roundedButton bg-black text-white hover:text-black century flex justify-center font-normal mt-3 block lg:ml-0 lg:mr-2 items-center text-center text-md lg:text-md rounded-huge py-4  mt-10`}
+                    ><svg width="30px" className="mt-2 mx-auto block" viewBox="0 0 100 125"><path fill="#FFFFFF" d="M91.462,32.483c-2.267-5.358-5.511-10.17-9.644-14.303c-4.132-4.132-8.943-7.376-14.303-9.643  C61.967,6.191,56.074,5.001,50,5.001s-11.968,1.19-17.516,3.537c-5.358,2.267-10.171,5.511-14.303,9.643  c-4.133,4.132-7.377,8.944-9.644,14.303C6.191,38.032,5.002,43.925,5.002,50c0,6.075,1.189,11.967,3.536,17.516  c2.267,5.357,5.511,10.17,9.644,14.303c4.132,4.131,8.944,7.375,14.303,9.643c5.548,2.346,11.441,3.537,17.516,3.537  s11.967-1.191,17.516-3.537c5.359-2.268,10.171-5.512,14.303-9.643c4.133-4.133,7.377-8.945,9.644-14.303  c2.347-5.549,3.536-11.441,3.536-17.516C94.998,43.925,93.809,38.032,91.462,32.483z M77.414,66.063  c0,0.201-0.164,0.363-0.365,0.363H22.951c-0.201,0-0.364-0.162-0.364-0.363v-20.91c0-0.131,0.069-0.25,0.182-0.316  c0.112-0.064,0.251-0.064,0.364,0L50,60.295l26.867-15.458c0.113-0.064,0.252-0.064,0.364,0c0.112,0.066,0.183,0.186,0.183,0.316  V66.063z M77.414,38.708c0,0.13-0.07,0.251-0.184,0.315L50.182,54.588c-0.057,0.031-0.119,0.049-0.182,0.049  s-0.125-0.018-0.182-0.049L22.77,39.023c-0.113-0.064-0.183-0.186-0.183-0.315v-4.771c0-0.201,0.163-0.364,0.364-0.364h54.098  c0.201,0,0.365,0.163,0.365,0.364V38.708z"/></svg></a>
+                  </div>
+        
+              {/* <RoundButtonAnniversaire url="tel:0533950030" text=""/>
+              <RoundButtonAccueilMail url="/contact-agence-web-toulouse/" text=""/> */}
+              </div>
+              
+            </div> 
+            
+          </section>
+
+          {/* FIN ANNIVERSAIRE */}
+
+          <section id="x" className="w-full md:w-6/12 bg-white flex mt-0 sm:mt-8 mb-8 flex-col md:flex-row items-center mx-auto justify-center">
             <div className="w-full md:w-1/2 imghome">
             <img src={presta2} alt="Agence Web Toulouse"/>
             </div>
@@ -310,7 +429,7 @@ class  IndexPage extends Component {
                 <br/>
                 {/* <ButtonBlog url="/contact-agence-web-toulouse/" text="Définir votre projet" color="darkgrey" /> */}
                 <button
-                    className="w-full font-normal roundedButton bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"
+                    className="w-full font-normal roundedButtonAnniversaire bg-darkgrey text-white flex justify-center items-center text-xs md:text-sm px-3 lg:px-4 py-4"
                     type="button"
                     onClick={(e) => {
                       e.preventDefault();
@@ -334,7 +453,7 @@ class  IndexPage extends Component {
             <div className="w-full lg:w-3/4 flex justify-around px-12 lg:px-24 mb-8 pt-24 lg:flex-row flex-col">
               <div className="max-w-3xl w-full lg:w-1/2 flex pr-0 lg:pr-32 flex-col mb-12">
                 <span className="text-6xl text-bleu font-bold">
-                  +10 ans
+                  +15 ans
                 </span>
                 <span className="text-4xl text-white mt-0 lg:-mt-5">d'expérience</span>
 
