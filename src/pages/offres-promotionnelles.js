@@ -170,28 +170,28 @@ class OffresPromos extends Component {
                 <section id="offres" className="w-full flex flex-col lg:flex-row text-black px-4 my-24">
                     <div className="w-full lg:w-1/4 flex flex-col justify-center items-center px-6 py-16 my-4 mx-0 md:mx-4" style={{background:'#fdfdfd30 url('+ arriereplan + ')', backgroundPosition: '-104px -58px', backgroundBlendMode:'overlay', backgroundRepeat: 'no-repeat'}}>
                         <span className="raleway text-center font-bold" style={{fontSize:'35px'}}>Découverte</span>
-                        <h3 className="raleway text-6xl"><span className="font-bold raleway">99€<span className="text-2xl">/mois</span> {/*<span style={{fontSize:'10px'}}>(1)</span>*/}</span></h3>
+                        <h3 className="raleway text-6xl"><span className="font-bold raleway">99€<span className="text-2xl">/mois</span> <span style={{fontSize:'16px'}}>(*)</span></span></h3>
                         <br/>
                         <p className="century text-center max-w-1/3 text-lg px-6" style={{minHeight: '100px'}}>Développez votre présence en ligne et découvrez ce que Linkweb peut apporter à votre entreprise.</p>
                         <RoundButton url="#detail-offres" color="black" text="Découvrir l'offre" />
                     </div>
                     <div className="w-full lg:w-1/4 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#fdfdfd30 url('+ arriereplan + ')', backgroundPosition: '-104px -58px', backgroundBlendMode:'overlay', backgroundRepeat: 'no-repeat'}}>
                         <span className="raleway text-center font-bold" style={{fontSize:'35px'}}>Essentiels</span>
-                        <h3 className="century text-6xl "><span className="font-bold raleway">159€<span className="text-2xl">/mois</span> {/*<span style={{fontSize:'10px'}}>(2)</span>*/}</span></h3>
+                        <h3 className="century text-6xl "><span className="font-bold raleway">159€<span className="text-2xl">/mois</span> <span style={{fontSize:'16px'}}>(*)</span></span></h3>
                         <br/>
                         <p className="century text-center max-w-1/3 text-lg" style={{minHeight: '100px'}}>Boostez la visibilité de votre entreprise sur le Web avec la mise en place d'une stratégie web efficace.</p>
                         <RoundButton url="#detail-offres" color="black" text="Découvrir l'offre" />
                     </div>
                     <div className="w-full lg:w-1/4 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#fdfdfd30 url('+ arriereplan + ')', backgroundPosition: '-104px -58px', backgroundBlendMode:'overlay', backgroundRepeat: 'no-repeat'}}>
                         <span className="raleway text-center font-bold" style={{fontSize:'35px'}}>Confort</span>
-                        <h3 className="century text-6xl"><span className="font-bold raleway">449€<span className="text-2xl">/mois</span> {/*<span style={{fontSize:'10px'}}>(3)</span>*/}</span></h3>
+                        <h3 className="century text-6xl"><span className="font-bold raleway">449€<span className="text-2xl">/mois</span> <span style={{fontSize:'16px'}}>(*)</span></span></h3>
                         <br/>
                         <p className="century text-center max-w-1/3 text-lg" style={{minHeight: '100px'}}>Maximisez votre impact en ligne avec une stratégie web conçue pour doper votre présence sur le Web.</p>
                         <RoundButton url="#detail-offres" color="black" text="Découvrir l'offre" />
                     </div>
                     <div className="w-full lg:w-1/4 flex flex-col justify-center items-center px-12 py-16 my-4 mx-0 md:mx-4" style={{background:'#fdfdfd30 url('+ arriereplan + ')', backgroundPosition: '-104px -58px', backgroundBlendMode:'overlay', backgroundRepeat: 'no-repeat'}}>
                         <span className="raleway text-center font-bold" style={{fontSize:'35px'}}>Personnalisé</span>
-                        <h3 className="century text-6xl"><span className="font-bold raleway">Sur devis {/*<span style={{fontSize:'10px'}}>(3)</span>*/}</span></h3>
+                        <h3 className="century text-6xl"><span className="font-bold raleway">Devis  <span style={{fontSize:'10px'}}>(*)</span></span></h3>
                         <br/>
                         <p className="century text-center max-w-1/3 text-lg" style={{minHeight: '100px'}}>Vous souhaitez mettre en place un projet sur-mesure ? Contactez-nous pour définir vos besoins.</p>
                         <RoundButton url="#detail-offres" color="black" text="Découvrir l'offre" />
@@ -210,10 +210,10 @@ class OffresPromos extends Component {
                         <thead>
                             <tr>
                                 <th className='text'></th>
-                                <th className='text raleway'>Découverte<br/><span className="text-xl md:text-3xl">99€</span>/mois<br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
-                                <th className='text raleway'>Essentiels<br/><span className="text-xl md:text-3xl">159€</span>/mois<br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
-                                <th className='text raleway'>Confort<br/><span className="text-xl md:text-3xl">449€</span>/mois<br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
-                                <th className='text raleway'>Personnalisé<br/><span className="text-xl md:text-3xl">Sur devis</span><br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
+                                <th className='text raleway'>Découverte<br/><span className="text-xl md:text-3xl">99€</span>/mois <span style={{fontSize:'16px'}}>(*)</span><br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
+                                <th className='text raleway'>Essentiels<br/><span className="text-xl md:text-3xl">159€</span>/mois <span style={{fontSize:'16px'}}>(*)</span><br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
+                                <th className='text raleway'>Confort<br/><span className="text-xl md:text-3xl">449€</span>/mois <span style={{fontSize:'16px'}}>(*)</span><br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
+                                <th className='text raleway'>Personnalisé<br/><span className="text-xl md:text-3xl">Devis</span><br/><a href="#devis" className={`font-light roundedButton bg-black hover:bg-white text-white hover:text-black flex justify-center century items-center text-center text-sm md:text-md rounded-huge px-4 py-2 mx-8 my-2 w-full lg:w-2/3 mx-auto`}><span className="font-bold">Sélectionner</span></a></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -425,6 +425,9 @@ class OffresPromos extends Component {
                             
                         </tbody>
                     </table>
+                    <section className="w-full flex flex-col px-4 lg:px-48 items-center lg:justify-start lg:items-start century mt-12 mb-8 justify-center" style={{fontSize:'10px'}}>
+                        (*) Avec un engagement de 2 ans au minimum.<br/>
+                    </section>
                 </div>
                 <section id="devis" className="w-full flex-col lg:flex-row flex px-4 xl:px-8">
                         <div className="w-full lg:w-1/2 flex justify-center items-center my-12 lg:mb-0 bg-bleu text-black py-8 shadow-2xl lg:mt-24 xl:mt-0 flex flex-col justify-center mx-auto lg:mx-12 xl:mx-auto" style={{height:'fit-content', background: '#000000'}}>
@@ -703,11 +706,7 @@ class OffresPromos extends Component {
                 <span className="text-4xl text-white mt-0 lg:-mt-5">techniciens</span>
                     </div>
                 </section>
-                {/*<section className="w-full flex flex-col px-4 items-center century mt-12 mb-8 justify-center" style={{fontSize:'10px'}}>
-                (1) 20% de réduction sur la création d'un site internet avec un engagement de 2 ans minimum dans un contrat de référencement.<br/>
-                (2) 50% de réduction sur le contrat de référencement naturel à partir de 4 heures par mois et un engagement de 2 ans.<br/>
-                (3) 6 mois offerts sur le contrat de gestion de vos réseaux sociaux pour un engagement de 3 ans.
-                </section>*/}
+                
                 {/*<SimpleMap />*/}
                 {/* <section className="w-full flex justify-end py-24" style={{background:'#00000085 url('+ map +')', backgroundSize:'cover', backgroundRepeat: 'no-repeat', backgroundBlendMode:'cover'}}>
                       <div className="w-full lg:w-1/3 py-10 bg-white shadow-2xl mx-4 lg:mx-32 text-center text-black text-4xl century">

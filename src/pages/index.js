@@ -99,10 +99,10 @@ class  IndexPage extends Component {
 
           {/* ANNIVERSAIRE */}
 
-          <section className="w-full bg-white h-screen flex flex-col md:flex-row items-center justify-center">
+          <section className="w-full bg-white min-h-screen flex flex-col lg:flex-row items-center justify-center">
             <div className="w-full lg:w-1/2 h-screen mt-12 sm:mt-0 anniversaire" style={{background:'url(' + Bg + ')', backgroundBlendMode: 'multiply', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             </div> 
-            <div className="w-full lg:w-1/2 h-screen flex-col items-center mt-12 lg:mt-48 justify-center century text-center order-first sm:order-2">
+            <div className="w-full lg:w-1/2 min-h-screen flex-col items-center mt-12 lg:mt-48 justify-center century text-center order-first sm:order-2">
             <svg className="mx-auto w-3/4 lg:w-full sm:mt-0" width="419.561" height="493.293" viewBox="0 0 419.561 493.293">
                 <g id="Groupe_282" data-name="Groupe 282" transform="translate(-1131.439 -178.707)">
                   <g id="Groupe_281" data-name="Groupe 281" transform="translate(327 -24)">
@@ -188,7 +188,7 @@ class  IndexPage extends Component {
               <h1 className="-mt-12 lg:-mt-8 raleway">Agence Web Toulouse</h1><br/>
               <span className="mx-2 font-bold text-2xl lg:text-4xl raleway">Linkweb fête ses 15 ans</span><br/>
               <span className="mx-2 text-xl lg:text-3xl">Profitez d'offres incontournables !</span>
-              <div className="w-2/3 flex flex-col md:flex-row justify-center items-center lg:w-1/2 mx-auto -mt-4">
+              <div className="w-2/3 flex flex-col xl:flex-row justify-center items-center lg:w-1/2 mx-auto -mt-4">
                   <RoundButton url="/offres-promotionnelles/" color="black" colortext="white" text="J'en profite !" />
                   <div className="flex flex-row items-center justify-center">
                       <a href="tel:0533950030" style={{width:'60px',height:'60px',borderRadius:'50%'}} className={`mx-2 font-light items-center flex justify-center roundedButton bg-black text-white hover:text-black century flex justify-center font-normal mt-3 block lg:ml-2 lg:mr-2 items-center text-center text-md lg:text-md rounded-huge py-4  mt-10`}
