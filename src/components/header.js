@@ -84,6 +84,9 @@ class Header extends Component {
               <span onClick={() => this.ghostRedirection('aHR0cHM6Ly9saW5rd2ViLmZyL2FjdHVhbGl0ZS1kaWdpdGFsZS8=')}  className="flex items-center no-underline text-white">
                 <span className="text-white cursor-pointer century">Le Blog</span>
               </span>
+              <span onClick={() => this.ghostRedirection('aHR0cHM6Ly9saW5rd2ViLmZyL29mZnJlcy1wcm9tb3Rpb25uZWxsZXMv')}  className="flex items-center no-underline text-white">
+                <span className="text-white cursor-pointer century">Promos</span>
+              </span>
               <span onClick={() => this.ghostRedirection("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0FnZW5jZVdlYkxpbmt3ZWI=")}  className="flex items-center cursor-pointer no-underline text-white">
                 <img
                   src={fbIcon}

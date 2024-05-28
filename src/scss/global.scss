@@ -1187,7 +1187,7 @@ footer {
 }
 
 .offres {
-    background-color:#f0ede7;
+    background-color:#FAFAFA;
     
 }
 
@@ -1334,3 +1334,11 @@ footer {
   }
 
   //TABLE2//
+
+  .bg-offres {
+    background: #000000ad url("../images/offres-promotionnelles.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
