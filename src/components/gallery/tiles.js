@@ -10,7 +10,7 @@ import sia from '../../images/sia.jpg'
 import sdis from '../../images/sdis47.jpg'
 import atpt from '../../images/atouts.jpg'
 import gabriel from '../../images/gabriel-services.jpg'
-import ledil from '../../images/ledilimmo.jpg'
+import ledil from '../../images/ledil-immo-refonte.jpg'
 import aqua from '../../images/aquapensezvous-tiles.jpg'
 import cdhg from '../../images/cdhg.jpg'
 

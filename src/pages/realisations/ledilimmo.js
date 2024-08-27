@@ -12,9 +12,9 @@ import "../../scss/global.scss";
 import logolinkweb from "../../images/logo-linkweb.png";
 import Bg from "../../images/bg-ledil.jpg";
 import bgbloc from "../../images/ledil-bloc.jpg";
-import smartphone from "../../images/ledil-pc.jpg";
-import mockup from "../../images/ledil-smartphone.jpg";
-import imac from "../../images/mockup-ledil.jpg";
+import smartphone from "../../images/ledil-refonte.jpg";
+import mockup from "../../images/ledil-mandataires-refonte.jpg";
+import imac from "../../images/ledil-immo-refonte.jpg";
 import bloccontact from '../../images/ledil-contact.jpg';
 import logo from '../../images/logo-ledil.png';
 import logosia from '../../images/logo-sia.png';
@@ -156,7 +156,7 @@ class ledilimmo extends Component {
                 </section>
                 <section className="flex flex-col items-center md:flex-row my-12 md:my-24">
                     <div className="w-full xl:w-1/2" data-aos="fade-right">
-                        <img src={imac} className="w-full lg:w-10/12" />
+                        <img src={imac} className="w-full mx-auto lg:w-10/12" />
                     </div>
                     <div className="w-full xl:w-1/2 pt-16" data-aos="fade-left">
                         <h2 className="font-normal text-3xl my-2 px-16"><span className="text-or">/</span>POSITIONNEMENT ET VALEURS PARTAGÉES</h2>
@@ -251,12 +251,12 @@ class ledilimmo extends Component {
                         </ul>
                     </div>
                     <div className="w-full lg:w-1/2 mx-auto block order-first lg:order-last" data-aos="fade-left">
-                        <img width="750px" className="pl-24 md:pr-0 md:ml-64 lg:ml-0 lg:pr-0 lg:pl-24 xl:pl-64 xl:ml-40 xl:pr-0 pb-16 xl:py-0 xl:pb-32" src={smartphone} alt="Création site internet Toulouse" />
+                        <img className="md:pr-0 md:ml-64 lg:w-full mx-auto lg:ml-0 lg:pr-0 xl:pr-0 pb-16 xl:py-0 xl:pb-32" src={smartphone} alt="Création site internet Toulouse" />
                     </div>
                 </section>
                 <section className="h-full w-full flex flex-col lg:flex-row">
                     <div className="w-full lg:w-1/2 mx-auto block" data-aos="fade-right">
-                        <img className="w-full lg:w-3/4 mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup} alt="Création site internet Toulouse" />
+                        <img className="w-full lg:w-full mx-auto block px-24 xl:px-32 pb-16 xl:py-0 xl:pb-32" src={mockup} alt="Création site internet Toulouse" />
                     </div>
                     <div className="w-full lg:w-1/2 px-12 lg:px-24 xl:px-48" data-aos="fade-left">
                         <h2 className="font-normal text-3xl my-2 uppercase"><span className="text-ledil">/</span>Création d’un espace mandataire</h2>

@@ -7,7 +7,7 @@ import sia from '../images/vignette-sia.png';
 import sdis from '../images/vignette-sdis.png';
 import atpt from '../images/vignette-atpt.png';
 import gabriel from '../images/vignette-gabriel-services.png';
-import ledil from '../images/vignette-ledilimmo.png';
+import ledil from '../images/ledil-immo-refonte.jpg';
 import aqua from '../images/vignette-aquapensezvous.png';
 import cdhg from '../images/vignette-cdhg.png';
 
