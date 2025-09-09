@@ -58,7 +58,7 @@ class AgenceCommunicationToulouse extends Component {
                     }}
                     transitionTime={200}
                 > */}
-                <section className="flex items-center w-full mx-auto pb-0 mt-40 mb-24 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + Bg + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <section className="flex items-center w-full mx-auto pb-0 mt-40 px-4 py-6 bg-black flex flex-col justify-center items-center" style={{ background: '#000000ad url(' + Bg + ')', backgroundBlendMode: 'overlay', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="max-w-6xl mx-auto lg:mx-56 pt-2 lg:w-2/5 w-full flex-col items-end">
                         <div className="mt-12 -mb-24 w-full flex flex-col items-center lg:items-start">
                             <div className="w-full  text-3xl text-center font-bold text-white century">4.6/5</div>
@@ -91,7 +91,7 @@ class AgenceCommunicationToulouse extends Component {
                     </div>
 
                 </section>
-                <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48">
+                <nav aria-label="breadcrumbs" className="w-full bg-bleu century py-2 pl-0 md:pl-48 mb-24">
                         <Link to="/" className="px-4 text-md lg:text-lg text-white hover:text-black">Agence web</Link> <span className=" text-lg text-black"> / </span>
                         <span className="px-4 text-md lg:text-lg text-white"> Agence Communication Toulouse</span>
                     </nav>
@@ -469,7 +469,7 @@ class AgenceCommunicationToulouse extends Component {
                         <hr className="border-solid  w-1/2 md:w-1/6 border-bleu mr-auto md:mr-0" />
                         <br />
                         <div className="flex items-end my-10 justify-end flex-col">
-                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Engager notre <strong>agence de communication à Toulouse</strong> est la prochaine étape de votre projet digital. Contactez-nous, nous définirons ensemble le cadre stratégique de votre projet en fonction de vos objectifs, de vos ambitions ainsi que de votre marché pour vous proposer des <strong>solutions clé-en-main</strong> et parfaitement adaptées à vos besoins.</p>
+                            <p className="w-full lg:w-3/4 century text-center md:text-right text-lg md:text-sm lg:text-lg">Engager notre <strong><Link to="/agence-communication-agen/">agence de communication à Agen</Link> comme à Toulouse</strong> est la prochaine étape de votre projet digital. Contactez-nous, nous définirons ensemble le cadre stratégique de votre projet en fonction de vos objectifs, de vos ambitions ainsi que de votre marché pour vous proposer des <strong>solutions clé-en-main</strong> et parfaitement adaptées à vos besoins.</p>
                             <div className="max-w-xs ml-auto mr-auto md:mr-0 md:ml-0 block">
                                 <RoundButton url="/contact-agence-web-toulouse/" color="darkgrey" text="NOUS CONTACTER" />
                             </div>

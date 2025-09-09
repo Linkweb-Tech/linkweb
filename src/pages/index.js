@@ -1015,7 +1015,7 @@ class IndexPage extends Component {
                     en corrélation avec ceux de vos prospects pour des
                     stratégies <strong>digitales</strong> optimales.
                   </span>{" "}
-                  Les agences comme Linkweb en France établissent un projet pour
+                  Une <Link to="/agence-communication-agen/" className="text-bleu hover:text-black font-bold">agence de communication à Agen</Link> comme Linkweb et partout en France établissent un projet pour
                   vous permettre d'obtenir un retour sur investissement grâce au
                   marketing digital.
                 </p>
