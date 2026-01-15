@@ -124,16 +124,16 @@ class AgenceCommunicationAgen extends Component {
                             <div className="w-full sm:w-3/4 md:w-1/2 lg:w-2/5 p-10" style={{backgroundColor: "#d3d3d352"}}>
                             <h4 className="century text-lg">
                               <span className="font-bold">
-                              Vous cherchez une agence de communication à Agen capable de concevoir une stratégie digitale performante et adaptée à vos besoins ?
+                              Vous cherchez une agence de communication à Agen capable de concevoir une stratégie digitale performante et adaptée aux enjeux des entreprises locales ?
                               </span>
                             </h4>
                             <br />
                             <p className="font-normal" style={{ fontSize: "16px" }}>
-                                En tant qu’<strong className="font-normal">agence de conseil en communication</strong> implantée au cœur d’Agen, nous accompagnons les entreprises locales dans la <strong className="font-normal">création de sites internet</strong>, le <strong className="font-normal">référencement naturel (SEO)</strong>, le <strong className="font-normal">community management</strong> et la gestion de campagnes <strong className="font-normal">Google Ads</strong> et <strong className="font-normal">Social Ads</strong>.
-                              <br />
-                              <br />
-                              Avec nos <strong className="font-normal">experts SEO</strong>, <strong className="font-normal">community managers</strong>, <strong className="font-normal">développeurs</strong> et <strong className="font-normal">chefs de projet</strong>, nous passons vite de la stratégie à l’action pour booster <strong className="font-normal">votre image</strong> et votre visibilité sur les <strong className="font-normal">réseaux sociaux</strong> comme sur <strong className="font-normal">Google</strong>.
-                              <br />
+                                Implantée à <strong className="font-normal">Agen</strong>, à proximité du Canal de Garonne et non loin du Stade Armandie, notre <strong className="font-normal">agence de conseil en communication</strong> accompagne les entreprises agenaises et lot-et-garonnaises dans la création de sites internet, le <strong className="font-normal">référencement naturel (SEO)</strong>, le <strong className="font-normal">community management</strong> ainsi que la gestion de campagnes Google Ads et Social Ads.
+                            <br />
+                            <br />
+                                Notre équipe, composée d’experts SEO, de community managers, de développeurs et de chefs de projet, intervient quotidiennement auprès d’acteurs économiques situés autour de la Place des Laitiers, de la Place Jasmin ou encore à proximité du Parc Jayan, pour transformer rapidement la <strong className="font-normal">stratégie digitale</strong> en actions concrètes et mesurables.
+                             <br />
                             </p>
                             </div>
                         </section>
@@ -152,7 +152,7 @@ class AgenceCommunicationAgen extends Component {
                                                     <div className="blochover mx-0 lg:mx-6 my-6 w-full lg:w-1/5 text-white" style={{ backgroundImage: 'url(' + siteinternet + ')' }}>
                                                         <h3 className="text-3xl titrehover text-center century leading-tight px-6">Création de site internet & développement web<hr className="border-solid mt-3 mx-auto border-2 w-1/6 border-bleu" style={{marginLeft:'auto', marginRight:'auto'}}/></h3>
                                                         <p className="text century text-lg lg:text-sm xl:text-lg z-50">
-                                                        Nous concevons des <strong className="font-normal">sites vitrines</strong>, <strong className="font-normal">sites e-commerce</strong> et projets web sur-mesure en <strong className="font-normal">responsive design</strong>, pensés pour l’<strong className="font-normal">expérience utilisateur</strong> et optimisés pour le <strong className="font-normal">référencement SEO</strong>.
+                                                        Nous concevons des <strong className="font-normal">sites vitrines</strong>, <strong className="font-normal">sites e-commerce</strong> et projets web sur-mesure en <strong className="font-normal">responsive design</strong>, pensés pour l’<strong className="font-normal">expérience utilisateur</strong> et optimisés pour le <strong className="font-normal">référencement SEO</strong>, au service des entreprises implantées à <strong className="font-normal">Agen et de son agglomération</strong>.
                                                         <br/><br/>Que vous ayez besoin d’un <strong className="font-normal">nouveau site internet</strong>, d’une <strong className="font-normal">refonte de site</strong>, notre <strong className="font-normal"><Link to="/agence-web-agen/" className="text-bleu hover:text-white font-bold">agence web à Agen</Link></strong> est spécialisée dans la conception et la réalisation de <strong className="font-normal">supports de communication digitaux</strong>.
                                                         </p>
                                                     </div>
@@ -167,7 +167,7 @@ class AgenceCommunicationAgen extends Component {
                                                     <div className="blochover mx-0 lg:mx-6 my-6 w-full lg:w-1/5 text-white" style={{ backgroundImage: 'url(' + socialmedia + ')' }}>
                                                         <h3 className="text-3xl titrehover text-center century leading-tight">Community <br/>Management <hr className="border-solid mt-3 mx-auto border-2 w-1/6 border-bleu" style={{marginLeft:'auto', marginRight:'auto'}}/></h3>
                                                         <p className="text century text-lg lg:text-sm xl:text-lg z-50">
-                                                        Nos <strong className="font-normal">community managers</strong> donnent vie à vos réseaux sociaux : création de contenus engageants, animation quotidienne et campagnes social media percutantes. <br/><br/>
+                                                        Nos <strong className="font-normal">community managers</strong> donnent vie à vos réseaux sociaux : création de contenus engageants, animation quotidienne et campagnes social media percutantes pensées pour les entreprises implantées à <strong className="font-normal">Agen</strong> et ses environs. <br/><br/>
                                                         Nous vous aidons à capter l’attention, créer du lien et fidéliser votre communauté en ligne.
                                                         </p>
                                                     </div>
